@@ -1,0 +1,4596 @@
+'20171201':
+- component: Kernel
+  create_time: 20171201T23:06:00
+  id: 1070872
+  resolution: ''
+  status: NEW
+  summary: Raspberry Pi 3 SD Card errors
+- component: Basesystem
+  create_time: 20171201T23:01:00
+  id: 1070871
+  resolution: ''
+  status: NEW
+  summary: '"/etc/zypp/zypp.conf:rpm.install.excludedocs = yes" breaks dovecot post
+    scriptlet -> no working dovecot in containers'
+- component: Upgrade Problems
+  create_time: 20171201T20:28:00
+  id: 1070851
+  resolution: ''
+  status: CONFIRMED
+  summary: 502 Bad Gateway in update OS
+- component: Other
+  create_time: 20171201T10:40:00
+  id: 1070761
+  resolution: FIXED
+  status: RESOLVED
+  summary: After upgrade of Tumbleweed to 20171129 dovecot shows Unknown protocol
+    'SSLv2'
+- component: Basesystem
+  create_time: 20171201T10:25:00
+  id: 1070756
+  resolution: ''
+  status: CONFIRMED
+  summary: systemctl start saned.socket gives error message
+- component: Basesystem
+  create_time: 20171201T09:50:00
+  id: 1070745
+  resolution: FIXED
+  status: RESOLVED
+  summary: checkmedia reports incorrect checksum
+- component: Other
+  create_time: 20171201T09:11:00
+  id: 1070737
+  resolution: FIXED
+  status: RESOLVED
+  summary: salt unable to highstate in snapshot 20171129
+'20171202':
+- component: Other
+  create_time: 20171202T18:25:00
+  id: 1070893
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'Scribus: font preview hangs (eating CPU) for Noto Color Emoji Regular'
+- component: Kernel
+  create_time: 20171202T13:06:00
+  id: 1070880
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'SOLVED: Duplicated items in block devices list (unable to mount partitions
+    by regular short path)'
+- component: Basesystem
+  create_time: 20171202T11:28:00
+  id: 1070879
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[20171201] Non-UTF8 locale set on live medium'
+'20171203':
+- component: Virtualization:Other
+  create_time: 20171203T17:48:00
+  id: 1070917
+  resolution: ''
+  status: NEW
+  summary: 'libvirt: qemu/kvm VMs not confined by default'
+- component: Virtualization:Other
+  create_time: 20171203T17:47:00
+  id: 1070916
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'virt-aa-helper: AppArmor denial with non-default disk image paths'
+- component: Virtualization:Other
+  create_time: 20171203T17:33:00
+  id: 1070914
+  resolution: FIXED
+  status: RESOLVED
+  summary: libvirt-* AppArmor profile doesn't allow /proc/*/cmdline
+- component: Other
+  create_time: 20171203T15:42:00
+  id: 1070913
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[aarch64][Build 20171202][Test 549227] vlc dependency error for libva-drm.so.1()(64bit)'
+- component: Network
+  create_time: 20171203T14:22:00
+  id: 1070912
+  resolution: ''
+  status: NEW
+  summary: libetpan17 no longer links libopenssl libraries
+- component: Other
+  create_time: 20171203T08:26:00
+  id: 1070902
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20171202] FTBFS: MyODBC-unixODBC (results in openQA failures)'
+- component: X11 Applications
+  create_time: 20171203T08:25:00
+  id: 1070901
+  resolution: FIXED
+  status: RESOLVED
+  summary: FreeCAD won't build in Factory after drop of Qt4 WebKit
+'20171204':
+- component: Other
+  create_time: 20171204T18:07:00
+  id: 1071123
+  resolution: ''
+  status: NEW
+  summary: python2-qt4-devel's /usr/bin/pyuic4 has 'exec /usr/bin/python3 .../python3.6/site-packages/....'
+- component: Other
+  create_time: 20171204T17:06:00
+  id: 1071116
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: package openssl version 1.1.0g is incompatible with package openssl-1_0_0
+- component: Samba
+  create_time: 20171204T15:50:00
+  id: 1071090
+  resolution: ''
+  status: NEW
+  summary: incomplete change with service files and sysconfig file
+- component: Basesystem
+  create_time: 20171204T15:39:00
+  id: 1071088
+  resolution: FIXED
+  status: RESOLVED
+  summary: mkreiserfs (and other reiserfs tools) fail with symbol lookup errors
+- component: Basesystem
+  create_time: 20171204T15:35:00
+  id: 1071085
+  resolution: FIXED
+  status: RESOLVED
+  summary: btrfs-convert fails with undefined symbol error
+- component: Other
+  create_time: 20171204T15:08:00
+  id: 1071080
+  resolution: ''
+  status: NEW
+  summary: build fails after an architecture change
+- component: Basesystem
+  create_time: 20171204T14:50:00
+  id: 1071076
+  resolution: ''
+  status: NEW
+  summary: usbguard should provide sample rules.conf file
+- component: Kernel
+  create_time: 20171204T14:49:00
+  id: 1071074
+  resolution: ''
+  status: CONFIRMED
+  summary: usb hot plug broken with latest TW kernel
+- component: Containers
+  create_time: 20171204T14:12:00
+  id: 1071063
+  resolution: ''
+  status: NEW
+  summary: 'golang: tests fail to build on random packages intermittently with errors
+    about missing stdlib'
+- component: KVM
+  create_time: 20171204T12:16:00
+  id: 1071032
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Calling loadvm twice results in: qemu_event_set: Assertion `ev->initialized''
+    failed'
+- component: Virtualization:Other
+  create_time: 20171204T09:31:00
+  id: 1070985
+  resolution: ''
+  status: NEW
+  summary: vagrant depends on old rubygem-childprocess
+- component: libzypp
+  create_time: 20171204T09:25:00
+  id: 1070984
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: libzypp fails to build with new boost package
+'20171205':
+- component: GNOME
+  create_time: 20171205T21:19:00
+  id: 1071378
+  resolution: FIXED
+  status: RESOLVED
+  summary: glib2-devel's gtester-report failure since move to python3
+- component: Basesystem
+  create_time: 20171205T20:16:00
+  id: 1071375
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'amdgpu/Polaris: Kernel update breaks amdgpu support due to missing firmware
+    file polaris11_mc.bin'
+- component: Kernel
+  create_time: 20171205T15:56:00
+  id: 1071330
+  resolution: ''
+  status: NEW
+  summary: Shutdown takes very long time to be completed
+- component: YaST2
+  create_time: 20171205T09:41:00
+  id: 1071232
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'skecld: /usr/lib/skelcd/ is not yet used on Tumbleweed'
+- component: Basesystem
+  create_time: 20171205T09:00:00
+  id: 1071224
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'systemd: removes /usr/lib/systemd/system/tmp.mount in %post'
+- component: YaST2
+  create_time: 20171205T08:34:00
+  id: 1071217
+  resolution: FIXED
+  status: RESOLVED
+  summary: Kubic - copy the "extra_urls" configuration from the standard openSUSE
+- component: Basesystem
+  create_time: 20171205T06:41:00
+  id: 1071194
+  resolution: FIXED
+  status: RESOLVED
+  summary: targetcli.service has an error when env TERM is not set
+- component: Other
+  create_time: 20171205T00:28:00
+  id: 1071153
+  resolution: ''
+  status: IN_PROGRESS
+  summary: offlineimap needs python2-six
+'20171206':
+- component: Other
+  create_time: 20171209T21:14:00
+  id: 1072037
+  resolution: ''
+  status: NEW
+  summary: jupyter-kernelspec is missing
+- component: Firefox
+  create_time: 20171209T20:17:00
+  id: 1072036
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'VUL-0: CVE-2017-7844: MozillaFirefox: Visited history information leak
+    through SVG image'
+- component: Other
+  create_time: 20171209T19:44:00
+  id: 1072033
+  resolution: ''
+  status: NEW
+  summary: mathgl depends on Qt WebKit 4
+- component: Kernel
+  create_time: 20171209T19:06:00
+  id: 1072032
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'sunxi: kernel-lpae 4.15-rc2 not booting on Cubietruck'
+- component: Other
+  create_time: 20171209T18:52:00
+  id: 1072031
+  resolution: FIXED
+  status: RESOLVED
+  summary: gambas3 depends on Qt WebKit 4
+- component: Basesystem
+  create_time: 20171209T16:49:00
+  id: 1072028
+  resolution: ''
+  status: NEW
+  summary: cross-avr-gcc7 missing include files ? - bits/c++config.h
+- component: Printing
+  create_time: 20171209T09:35:00
+  id: 1072021
+  resolution: ''
+  status: NEW
+  summary: Fail to print to Canon iRC1028 printer
+- component: Virtualization:Tools
+  create_time: 20171209T04:32:00
+  id: 1072019
+  resolution: INVALID
+  status: RESOLVED
+  summary: virt-manager can't create bridge network
+- component: Virtualization:Tools
+  create_time: 20171208T22:07:00
+  id: 1072012
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'openSUSE Tumbleweed, virt-manager: Opening VM GUI fails with "ordinal
+    not in range"'
+- component: KVM
+  create_time: 20171208T19:44:00
+  id: 1072008
+  resolution: ''
+  status: NEW
+  summary: qemu qmp socket dies without any information
+- component: KVM
+  create_time: 20171208T19:08:00
+  id: 1072001
+  resolution: FIXED
+  status: RESOLVED
+  summary: SRIOV, VF failed to be initializaed
+- component: KVM
+  create_time: 20171208T19:01:00
+  id: 1072000
+  resolution: ''
+  status: NEW
+  summary: qemu does not honor migrate_set_downtime over qmp
+- component: Network
+  create_time: 20171208T14:58:00
+  id: 1071981
+  resolution: ''
+  status: CONFIRMED
+  summary: 'network/tor: add multi-instance systemd service file'
+- component: Other
+  create_time: 20171208T13:07:00
+  id: 1071971
+  resolution: FIXED
+  status: RESOLVED
+  summary: Building software against postgresql return mix of version pkgconfig(libpq)
+- component: Xfce
+  create_time: 20171208T11:45:00
+  id: 1071961
+  resolution: FIXED
+  status: RESOLVED
+  summary: Unwanted addition of double slashes before a mail address
+- component: Basesystem
+  create_time: 20171208T10:39:00
+  id: 1071941
+  resolution: ''
+  status: CONFIRMED
+  summary: pip installs packages in /usr/lib instead of /usr/local/lib
+- component: Virtualization:Tools
+  create_time: 20171208T08:07:00
+  id: 1071900
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: virt-manager python3 version doesn't run under python2
+- component: Other
+  create_time: 20171208T01:47:00
+  id: 1071851
+  resolution: FIXED
+  status: RESOLVED
+  summary: Stardict is not available anymore in latest tumbleweed snapshot
+- component: Virtualization:Tools
+  create_time: 20171207T21:05:00
+  id: 1071825
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'AttributeError: ''NoneType'' object has no attribute ''change_run_text'''
+- component: YaST2
+  create_time: 20171207T12:54:00
+  id: 1071756
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'yast2-apparmor: translation / english string export broken?'
+- component: YaST2
+  create_time: 20171207T11:26:00
+  id: 1071724
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'yast2-storage: unescaped use of %{VERSION} in the .spec file'
+- component: Basesystem
+  create_time: 20171207T09:23:00
+  id: 1071688
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: tumbleweed is missing lsb5 package
+- component: Other
+  create_time: 20171206T22:07:00
+  id: 1071626
+  resolution: ''
+  status: NEW
+  summary: python2-warlock 1.3.0 incompatible with python-glanceclient 2.8.0
+- component: Other
+  create_time: 20171206T16:50:00
+  id: 1071581
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/xflr5 fails to build'
+- component: Other
+  create_time: 20171206T16:46:00
+  id: 1071580
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/tulip fails to build'
+- component: Other
+  create_time: 20171206T16:45:00
+  id: 1071579
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/ooRexx fails to build'
+- component: Other
+  create_time: 20171206T16:43:00
+  id: 1071578
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/kadu fails to build'
+- component: Other
+  create_time: 20171206T16:43:00
+  id: 1071577
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/pvm fails to build'
+- component: Other
+  create_time: 20171206T16:42:00
+  id: 1071576
+  resolution: ''
+  status: CONFIRMED
+  summary: Mysql-Workbench 6.3.9-2.4 does not connect to server
+- component: Other
+  create_time: 20171206T16:42:00
+  id: 1071575
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/openmcu fails to build'
+- component: Other
+  create_time: 20171206T16:41:00
+  id: 1071574
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/ gle-graphics fails to build'
+- component: Other
+  create_time: 20171206T16:40:00
+  id: 1071573
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/ turnpike fails to build'
+- component: Other
+  create_time: 20171206T16:31:00
+  id: 1071570
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/ tesseract fails to build'
+- component: Other
+  create_time: 20171206T16:18:00
+  id: 1071567
+  resolution: FIXED
+  status: RESOLVED
+  summary: openSUSE:Factory/ASL fails to build
+- component: Other
+  create_time: 20171206T16:11:00
+  id: 1071566
+  resolution: ''
+  status: NEW
+  summary: openSUSE:Factory/tomoe-gtk fails to build
+- component: Other
+  create_time: 20171206T16:10:00
+  id: 1071565
+  resolution: NORESPONSE
+  status: RESOLVED
+  summary: 'Tryton: unable to get past the profile screen'
+- component: YaST2
+  create_time: 20171206T15:07:00
+  id: 1071552
+  resolution: FEATURE
+  status: RESOLVED
+  summary: yast should stop relying on idnkit (idnconv)
+- component: Kernel
+  create_time: 20171206T12:46:00
+  id: 1071521
+  resolution: FIXED
+  status: VERIFIED
+  summary: '[Build 20171205] openQA test fails in force_cron_run: stalling process'
+- component: High Availability
+  create_time: 20171206T02:57:00
+  id: 1071404
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: bootstrap.py could not work
+'20171210':
+- component: Security
+  create_time: 20171210T19:37:00
+  id: 1072060
+  resolution: ''
+  status: NEW
+  summary: TinyCA2 - Can't use 'defined(@array)'  Compilation failed in require at
+    /usr/bin/tinyca2 line 35.
+- component: Development
+  create_time: 20171210T16:41:00
+  id: 1072055
+  resolution: INVALID
+  status: RESOLVED
+  summary: Rust package does not pull all required dependencies
+- component: Kernel
+  create_time: 20171210T00:05:00
+  id: 1072039
+  resolution: ''
+  status: NEW
+  summary: 'nouveau: Jetson TK1 stuck on boot with 4.15-rc2'
+'20171211':
+- component: Network
+  create_time: 20171211T23:27:00
+  id: 1072274
+  resolution: ''
+  status: NEW
+  summary: 'network/tor: replace torctl with systemd service file'
+- component: Network
+  create_time: 20171211T21:33:00
+  id: 1072252
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Recent update prevents wicked wireless connections
+- component: Kubic
+  create_time: 20171211T21:08:00
+  id: 1072249
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20171210] openQA test fails in first_boot'
+- component: Printing
+  create_time: 20171211T20:23:00
+  id: 1072244
+  resolution: FIXED
+  status: RESOLVED
+  summary: Third-party printer driver 'rastertoptc' failed for 'PARTNER TECH RP-31O
+    Receipt Printer'
+- component: Live Medium
+  create_time: 20171211T18:38:00
+  id: 1072237
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20171210] Live media: wrong console font'
+'20171212':
+- component: Basesystem
+  create_time: 20171212T21:20:00
+  id: 1072494
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: systemctl status fails with "Assertion 'p > 0' failed at src/journal/journal-file.c:2306,
+    function test_object_offset(). Aborting."
+- component: Basesystem
+  create_time: 20171212T21:15:00
+  id: 1072492
+  resolution: FIXED
+  status: VERIFIED
+  summary: LVM2 metadata and Device-mapper event daemon do not stop properly on shutdown;
+    SystemD killing them causes Data Integrity issues
+- component: KDE Applications
+  create_time: 20171212T15:31:00
+  id: 1072418
+  resolution: FIXED
+  status: RESOLVED
+  summary: Skrooge requires libQT5Cor.so.5(QT5.9.2_...) after release Tumbleweed snapshot
+    20171210 with QT5.9.3
+- component: YaST2
+  create_time: 20171212T14:58:00
+  id: 1072411
+  resolution: ''
+  status: CONFIRMED
+  summary: 'libyui-qt: Remove one line to make it work with wayland'
+- component: Containers
+  create_time: 20171212T14:33:00
+  id: 1072403
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build 20171211] openQA test fails in docker_compose'
+- component: Virtualization:Tools
+  create_time: 20171212T14:31:00
+  id: 1072402
+  resolution: FIXED
+  status: RESOLVED
+  summary: virt-sandbox gets unmount denials
+- component: Other
+  create_time: 20171212T11:44:00
+  id: 1072375
+  resolution: ''
+  status: NEW
+  summary: obs-service-source_validator tries to validate debian <package>_source.changes
+    file like a rpm changelog
+- component: Other
+  create_time: 20171212T10:33:00
+  id: 1072359
+  resolution: ''
+  status: NEW
+  summary: obs-service-set_version has UTF8/Unicode problem at build-time
+- component: Kernel
+  create_time: 20171212T10:33:00
+  id: 1072358
+  resolution: ''
+  status: NEW
+  summary: 4.15.0-rc3 crash on boot on ppc64 (BE) power7
+- component: Other
+  create_time: 20171212T08:56:00
+  id: 1072335
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Salt fails to run due to problems with openssl
+- component: KDE Workspace (Plasma)
+  create_time: 20171212T00:34:00
+  id: 1072285
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: plasma-discover-flatpak-backend should add Flathub repo during installation
+'20171213':
+- component: Other
+  create_time: 20171213T19:00:00
+  id: 1072734
+  resolution: FIXED
+  status: RESOLVED
+  summary: claws mail failed STARTTLS with libetpan
+- component: Other
+  create_time: 20171213T13:58:00
+  id: 1072657
+  resolution: ''
+  status: NEW
+  summary: tcl make check transient failures
+- component: Other
+  create_time: 20171213T13:23:00
+  id: 1072651
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20171212] FTBFS: vim fails to build in openSUSE:Factory:PowerPC
+    - ppc64'
+- component: YaST2
+  create_time: 20171213T12:10:00
+  id: 1072631
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'yast2-docker: requires yast2-storage'
+- component: KVM
+  create_time: 20171213T09:23:00
+  id: 1072581
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'virt-manager fails to open VM window a second time: ''NoneType'' object
+    has no attribute ''change_run_text'''
+- component: Network
+  create_time: 20171213T09:03:00
+  id: 1072573
+  resolution: FIXED
+  status: RESOLVED
+  summary: Wrong python-nbxmpp version requirement in gajim package
+- component: Basesystem
+  create_time: 20171213T04:03:00
+  id: 1072521
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: texlive-filesystem incorrectly requires 'python' instead of '/usr/bin/python'
+    or python = 2
+'20171214':
+- component: Basesystem
+  create_time: 20171214T21:53:00
+  id: 1072968
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: after update (14 Dec. 2017 ) no windows any more
+- component: Kernel
+  create_time: 20171214T18:24:00
+  id: 1072946
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: rpm 4.14 is not friend of our kernel build machinery
+- component: Other
+  create_time: 20171214T13:10:00
+  id: 1072873
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: claws mail missing fancy.so plugin
+- component: Live Medium
+  create_time: 20171214T10:53:00
+  id: 1072836
+  resolution: ''
+  status: NEW
+  summary: dracut error no or empty root= argument when booting iso from flashdisk
+- component: Development
+  create_time: 20171214T07:34:00
+  id: 1072799
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: gdb crashes with eval-command sourced in from a python script
+- component: Installation
+  create_time: 20171214T07:01:00
+  id: 1072792
+  resolution: INVALID
+  status: RESOLVED
+  summary: pam_mount not working for ssh
+- component: Network
+  create_time: 20171214T06:47:00
+  id: 1072789
+  resolution: FIXED
+  status: RESOLVED
+  summary: Network manager has broken WPA2 support
+'20171215':
+- component: Virtualization:Tools
+  create_time: 20171215T22:08:00
+  id: 1073174
+  resolution: ''
+  status: NEW
+  summary: version 10.2.0 of open-vm-tools is available
+- component: Other
+  create_time: 20171215T20:16:00
+  id: 1073161
+  resolution: FIXED
+  status: RESOLVED
+  summary: nextcloud not compatible with php 7.2
+- component: Firefox
+  create_time: 20171215T18:19:00
+  id: 1073146
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Extensions update check fails due to "Certificate issuer is not built-in"
+- component: libzypp
+  create_time: 20171215T17:51:00
+  id: 1073141
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: yast failed to download apparmor-docs-2.11.0-6.2 while repo has apparmor-docs-2.11.1-2.1
+- component: Basesystem
+  create_time: 20171215T10:51:00
+  id: 1073066
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Failed to start Setup Virtual Console
+- component: Development
+  create_time: 20171215T10:47:00
+  id: 1073064
+  resolution: ''
+  status: NEW
+  summary: Current Tumbleweed avr-gcc uses wrong assembler
+- component: KDE Applications
+  create_time: 20171215T09:29:00
+  id: 1073043
+  resolution: ''
+  status: NEW
+  summary: Krusader hang when copy or move files
+- component: Basesystem
+  create_time: 20171215T08:10:00
+  id: 1073028
+  resolution: ''
+  status: REOPENED
+  summary: System stuck at boot after timed out waiting for device(device uuid).
+'20171216':
+- component: Usability
+  create_time: 20171217T21:49:00
+  id: 1073215
+  resolution: INVALID
+  status: RESOLVED
+  summary: Please fix that IBus mess.
+- component: YaST2
+  create_time: 20171217T21:41:00
+  id: 1073213
+  resolution: FIXED
+  status: RESOLVED
+  summary: '"Membership in Windows Domain" doesn''t configure nsswitch.conf'
+- component: Kernel
+  create_time: 20171217T20:28:00
+  id: 1073212
+  resolution: FIXED
+  status: RESOLVED
+  summary: kernel 4.14.6 hard freeze
+- component: Other
+  create_time: 20171217T10:10:00
+  id: 1073204
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'btrfsmaintenance: Ineffective switch to systemd timers'
+- component: Kernel
+  create_time: 20171216T16:10:00
+  id: 1073193
+  resolution: ''
+  status: NEW
+  summary: No ttyS4 on Pine64
+- component: Kernel
+  create_time: 20171216T11:45:00
+  id: 1073190
+  resolution: ''
+  status: NEW
+  summary: A problem occurred while the ThinkPad E540 laptop was recovering from a
+    pending state
+- component: Development
+  create_time: 20171216T07:30:00
+  id: 1073187
+  resolution: INVALID
+  status: RESOLVED
+  summary: Another section specification was not stored in the generated object file.
+'20171218':
+- component: Kernel
+  create_time: 20171219T22:23:00
+  id: 1073579
+  resolution: ''
+  status: NEW
+  summary: obs memory constraints ineffective for 32 bit targets
+- component: Other
+  create_time: 20171219T19:48:00
+  id: 1073564
+  resolution: FIXED
+  status: RESOLVED
+  summary: python3-Fabric does not support Python3
+- component: libzypp
+  create_time: 20171219T18:01:00
+  id: 1073554
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: 'Zypper: Error in version comparison'
+- component: Virtualization:Tools
+  create_time: 20171219T15:16:00
+  id: 1073533
+  resolution: ''
+  status: NEW
+  summary: qemu architectural CHROOT segfaults @ Java use, unless forced interpreter-only
+    (-Xint)
+- component: X11 Applications
+  create_time: 20171219T14:13:00
+  id: 1073524
+  resolution: FIXED
+  status: RESOLVED
+  summary: IBus is not available on Qt5 applications under Qt5 only environment
+- component: Kernel
+  create_time: 20171219T04:12:00
+  id: 1073433
+  resolution: FIXED
+  status: RESOLVED
+  summary: startup pop sound with power-save enabled in snd_hda_intel
+- component: Kernel
+  create_time: 20171218T20:23:00
+  id: 1073382
+  resolution: INVALID
+  status: RESOLVED
+  summary: No sound and kernel crash with latest kernel-default-4.14.6-1.5
+- component: X11 Applications
+  create_time: 20171218T17:17:00
+  id: 1073357
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: chromium 32-bit not available on official Tumblweed repo
+- component: Basesystem
+  create_time: 20171218T10:52:00
+  id: 1073278
+  resolution: ''
+  status: NEW
+  summary: dbus-1 pre scriptlet fails when library version is updated.
+- component: YaST2
+  create_time: 20171218T08:23:00
+  id: 1073254
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[storage-ng?] Staging:E fails to test-upgrade a 13.1 installation to TW'
+'20171220':
+- component: YaST2
+  create_time: 20171221T22:43:00
+  id: 1073938
+  resolution: FEATURE
+  status: RESOLVED
+  summary: 'FEATURE REQUEST: Add Other Offcial Repos to the Repo Manager'
+- component: YaST2
+  create_time: 20171221T19:33:00
+  id: 1073926
+  resolution: ''
+  status: NEW
+  summary: YaST causing system lockup
+- component: Other
+  create_time: 20171221T10:56:00
+  id: 1073845
+  resolution: FIXED
+  status: RESOLVED
+  summary: python-attrs andpython-pluggy form a build cycle together
+- component: Other
+  create_time: 20171221T10:33:00
+  id: 1073841
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'presage: split off doc package'
+- component: Other
+  create_time: 20171221T10:31:00
+  id: 1073840
+  resolution: ''
+  status: NEW
+  summary: 'taglib: split off doc package'
+- component: Kernel
+  create_time: 20171221T10:23:00
+  id: 1073836
+  resolution: ''
+  status: CONFIRMED
+  summary: Disable CONFIG_SPI_INTEL_SPI_PLATFORM for avoiding breaking BIOS on Lenovo
+    & others
+- component: Virtualization:Other
+  create_time: 20171221T01:06:00
+  id: 1073760
+  resolution: ''
+  status: NEW
+  summary: vmtoolsd process running as user aborts with segfault
+- component: Virtualization:Other
+  create_time: 20171220T16:54:00
+  id: 1073730
+  resolution: FIXED
+  status: RESOLVED
+  summary: libvirtd crash when stopping
+- component: LXDE
+  create_time: 20171220T15:47:00
+  id: 1073719
+  resolution: FIXED
+  status: RESOLVED
+  summary: libfm fails to build with gtk-doc 1.27
+- component: Basesystem
+  create_time: 20171220T13:31:00
+  id: 1073691
+  resolution: FIXED
+  status: RESOLVED
+  summary: Inserting a removable disc in an USB 3 port does not show the device
+- component: YaST2
+  create_time: 20171220T10:26:00
+  id: 1073650
+  resolution: FIXED
+  status: RESOLVED
+  summary: yast2-docker provided for archs without docker
+- component: YaST2
+  create_time: 20171220T10:15:00
+  id: 1073645
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[libstorage-ng] Upgrade path needs assistance by RPM obsoletes'
+- component: GNOME
+  create_time: 20171220T08:34:00
+  id: 1073611
+  resolution: ''
+  status: NEW
+  summary: '[Build 20171219] openQA test fails in desktop_mainmenu'
+- component: GNOME
+  create_time: 20171220T08:30:00
+  id: 1073610
+  resolution: ''
+  status: NEW
+  summary: KDE plasma software manager applet starts even if there is no network available
+- component: Basesystem
+  create_time: 20171220T07:57:00
+  id: 1073606
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: strace fails to build/testsuite on i586'
+'20171222':
+- component: Other
+  create_time: 20171222T17:29:00
+  id: 1074021
+  resolution: ''
+  status: NEW
+  summary: 'flamerobin: error while loading shared libraries: libboost_thread.so.1.64.0:
+    cannot open shared object file: No such file or directory'
+- component: Installation
+  create_time: 20171222T16:03:00
+  id: 1074012
+  resolution: ''
+  status: NEW
+  summary: pdflatex.fmt missing
+- component: X.Org
+  create_time: 20171222T13:34:00
+  id: 1073996
+  resolution: FIXED
+  status: RESOLVED
+  summary: libxcb1, Display socket connection issue causes infinite retries
+- component: KDE Applications
+  create_time: 20171222T09:51:00
+  id: 1073975
+  resolution: FIXED
+  status: RESOLVED
+  summary: Sending messages with kmail2 impossible
+'20171223':
+- component: GNOME
+  create_time: 20171227T18:01:00
+  id: 1074144
+  resolution: ''
+  status: NEW
+  summary: Xwayland environments lose keycode mapping, breaking spice keyboard
+- component: YaST2
+  create_time: 20171227T14:03:00
+  id: 1074139
+  resolution: ''
+  status: NEW
+  summary: Using YaST to configure hardware sound looses information
+- component: YaST2
+  create_time: 20171227T13:52:00
+  id: 1074138
+  resolution: ''
+  status: CONFIRMED
+  summary: Yast2 package manager UI very slow when listing many packages
+- component: Kernel
+  create_time: 20171227T11:58:00
+  id: 1074136
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'crash: unescaped % in spec file'
+- component: Samba
+  create_time: 20171227T11:53:00
+  id: 1074135
+  resolution: ''
+  status: NEW
+  summary: libsmbclient0 pulls in the entire server
+- component: Other
+  create_time: 20171227T10:46:00
+  id: 1074130
+  resolution: ''
+  status: NEW
+  summary: TexStudio has no icon
+- component: Development
+  create_time: 20171227T09:47:00
+  id: 1074128
+  resolution: ''
+  status: NEW
+  summary: Unable to compile Latex in Tumbleweed 'kpathsea running mktexfmt pdflatex.fmt'
+- component: Installation
+  create_time: 20171227T09:04:00
+  id: 1074126
+  resolution: ''
+  status: NEW
+  summary: Boot hangs during kernel initialization due to hybrid graphics on 7700HQ
+- component: Basesystem
+  create_time: 20171226T13:30:00
+  id: 1074096
+  resolution: ''
+  status: NEW
+  summary: brltty %post failure for brltty.service
+- component: GNOME
+  create_time: 20171225T21:02:00
+  id: 1074075
+  resolution: ''
+  status: NEW
+  summary: opening Software throws error
+- component: GNOME
+  create_time: 20171225T20:32:00
+  id: 1074074
+  resolution: ''
+  status: NEW
+  summary: suspend hibernate resume doesn't work, /etc/NetworkManager/dispatcher.d/nfs
+- component: YaST2
+  create_time: 20171225T20:11:00
+  id: 1074073
+  resolution: ''
+  status: NEW
+  summary: yast fails to configure cups' BrowseAllow
+- component: Other
+  create_time: 20171225T20:06:00
+  id: 1074072
+  resolution: ''
+  status: NEW
+  summary: gr-osmosdr and gqrx not built for LimeSDR support
+- component: Basesystem
+  create_time: 20171225T13:44:00
+  id: 1074067
+  resolution: ''
+  status: NEW
+  summary: Linux does not obey nice level of process running under systemd
+- component: KDE Workspace (Plasma)
+  create_time: 20171225T11:57:00
+  id: 1074065
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: Wrong keyboard layout on Wayland
+- component: GNOME
+  create_time: 20171225T03:35:00
+  id: 1074057
+  resolution: ''
+  status: NEW
+  summary: qemu can't properly capture some keys in libreoffice under GNOME wayland
+- component: Kernel
+  create_time: 20171224T21:36:00
+  id: 1074055
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Broadcom Wireless Driver Connection Drop Issue
+- component: Other
+  create_time: 20171224T18:16:00
+  id: 1074054
+  resolution: ''
+  status: NEW
+  summary: sane-backends systemd unit files broken
+- component: Virtualization:Tools
+  create_time: 20171224T18:13:00
+  id: 1074053
+  resolution: ''
+  status: NEW
+  summary: Virtualbox - Permissions problems dialogue box not showing up in German
+- component: Xfce
+  create_time: 20171224T10:40:00
+  id: 1074051
+  resolution: ''
+  status: NEW
+  summary: Deadlock in thunar 1.6.13-124.1
+- component: Kernel
+  create_time: 20171224T09:19:00
+  id: 1074050
+  resolution: FIXED
+  status: RESOLVED
+  summary: Lenovo T470 @ Tumbleweed 20171222
+- component: libzypp
+  create_time: 20171223T21:24:00
+  id: 1074042
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'error: unpacking of archive failed on file /usr/lib64/lazarus/docs: cpio:
+    rename'
+- component: Java
+  create_time: 20171223T11:16:00
+  id: 1074036
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20171222] openQA test fails in java'
+'20171228':
+- component: Samba
+  create_time: 20171228T20:59:00
+  id: 1074201
+  resolution: ''
+  status: NEW
+  summary: mpv amd mplayer requires samba 4.7.1, but version 4.7.3 is provided
+- component: Java
+  create_time: 20171228T13:39:00
+  id: 1074181
+  resolution: ''
+  status: NEW
+  summary: Eclipse packaging
+- component: Java
+  create_time: 20171228T06:56:00
+  id: 1074162
+  resolution: ''
+  status: NEW
+  summary: 'java-9-openjdk-headless: jrt-fs.jar not compatible with Java 8'
+- component: X11 Applications
+  create_time: 20171228T04:30:00
+  id: 1074160
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Unable to input CJK characters in calibre with fcitx
+- component: High Availability
+  create_time: 20171228T03:21:00
+  id: 1074158
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: 'when init a cluster and enable hawk, see hawk.key: permission denied'
+'20171229':
+- component: Other
+  create_time: 20171229T19:33:00
+  id: 1074236
+  resolution: ''
+  status: CONFIRMED
+  summary: 'flare-game: player takes no damage'
+- component: Usability
+  create_time: 20171229T10:28:00
+  id: 1074217
+  resolution: ''
+  status: NEW
+  summary: Three fingers tap sometimes not detected properly
+- component: Xfce
+  create_time: 20171229T08:27:00
+  id: 1074214
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build 20171223] Live media (rescue) does not show ''openSUSE'' menu'
+'20171230':
+- component: Other
+  create_time: 20171230T14:41:00
+  id: 1074245
+  resolution: ''
+  status: NEW
+  summary: error in the posttrans scriptlet of package ghostscript-fonts-std
+- component: Upgrade Problems
+  create_time: 20171230T14:14:00
+  id: 1074244
+  resolution: ''
+  status: NEW
+  summary: postprocessing error after upgrade from openSUSE Tumbleweed  20171222-0
+    -> 20171228-0
+- component: Other
+  create_time: 20171230T12:13:00
+  id: 1074242
+  resolution: ''
+  status: NEW
+  summary: sane-backends 1.0.27 with canon Lide 100 - Black bar in every scan
+- component: Network
+  create_time: 20171230T11:39:00
+  id: 1074241
+  resolution: ''
+  status: NEW
+  summary: X2Go Desktop Sharing broken
+'20171231':
+- component: Basesystem
+  create_time: 20171231T15:10:00
+  id: 1074250
+  resolution: ''
+  status: IN_PROGRESS
+  summary: rfkill man page file conflicts
+- component: Other
+  create_time: 20171231T11:10:00
+  id: 1074248
+  resolution: ''
+  status: NEW
+  summary: '%posttrans script error'
+- component: Other
+  create_time: 20171231T10:28:00
+  id: 1074247
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'python-urllib3: fails test suite starting with 31.12.2017'
+'20180101':
+- component: Firefox
+  create_time: 20180101T21:52:00
+  id: 1074272
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Firefox crashes when file upload dialog gets canceled
+- component: KDE Applications
+  create_time: 20180101T21:20:00
+  id: 1074271
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'scrolling in KMail: "page down" only works once'
+- component: Kernel
+  create_time: 20180101T20:40:00
+  id: 1074270
+  resolution: ''
+  status: NEW
+  summary: '[Build 20171231] dump_and_crash: kernel not supported'
+- component: Xfce
+  create_time: 20180101T20:28:00
+  id: 1074269
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20171231] Invalid icon theme'
+- component: Other
+  create_time: 20180101T15:51:00
+  id: 1074267
+  resolution: ''
+  status: NEW
+  summary: 'ghostscript-fonts: fontconfig alias mappings missing'
+- component: Other
+  create_time: 20180101T15:35:00
+  id: 1074266
+  resolution: ''
+  status: NEW
+  summary: ghostscript-fonts is outdated
+- component: Virtualization:Other
+  create_time: 20180101T15:24:00
+  id: 1074265
+  resolution: FIXED
+  status: RESOLVED
+  summary: syntax error in virt-aa-helper AppArmor profile
+'20180102':
+- component: Printing
+  create_time: 20180102T17:08:00
+  id: 1074368
+  resolution: ''
+  status: NEW
+  summary: lp and lpr have no default destination
+- component: Sound
+  create_time: 20180102T16:26:00
+  id: 1074361
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: No sound with pulseaudio and huge CPU usage
+- component: X11 Applications
+  create_time: 20180102T14:51:00
+  id: 1074353
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: qbittorrent undefined symbol
+- component: YaST2
+  create_time: 20180102T10:42:00
+  id: 1074314
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'can''t install qbittorrent : nothing provides the dependency libboost_system.so.1.65.1'
+'20180103':
+- component: Bootloader
+  create_time: 20180103T23:20:00
+  id: 1074566
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'rpi3: Boot failed due to library missing'
+- component: Kubic
+  create_time: 20180103T15:40:00
+  id: 1074515
+  resolution: FIXED
+  status: RESOLVED
+  summary: Name Service Switch configuration is incorrect
+- component: Kernel
+  create_time: 20180103T15:18:00
+  id: 1074507
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: touchpad stops working randomly in thinkpad helix
+- component: Development
+  create_time: 20180103T13:45:00
+  id: 1074491
+  resolution: ''
+  status: NEW
+  summary: python2-matplotlib needs python-backports.functools_lru_cache
+- component: Other
+  create_time: 20180103T12:14:00
+  id: 1074478
+  resolution: ''
+  status: NEW
+  summary: scim-bridge-*-32bit not installable
+- component: Installation
+  create_time: 20180103T08:48:00
+  id: 1074433
+  resolution: ''
+  status: NEW
+  summary: Installation hangs at finding hardware stage
+- component: AppArmor
+  create_time: 20180103T08:16:00
+  id: 1074429
+  resolution: ''
+  status: NEW
+  summary: '[20180101] AppArmor cannot be started in Kubic'
+- component: Kernel
+  create_time: 20180103T00:00:00
+  id: 1074406
+  resolution: ''
+  status: NEW
+  summary: 'amdgpu 0000:01:00.0: Invalid PCI ROM header signature: expecting 0xaa55,
+    got 0xffff'
+'20180104':
+- component: Other
+  create_time: 20180105T14:23:00
+  id: 1074832
+  resolution: ''
+  status: NEW
+  summary: gufw not installable
+- component: Sound
+  create_time: 20180105T13:00:00
+  id: 1074820
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: Pulseaudio delays sound compared to activity on screen when using sound
+    via HDMI
+- component: Other
+  create_time: 20180105T10:35:00
+  id: 1074807
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'h323plus: fails to build with openssl 1.1'
+- component: Other
+  create_time: 20180105T10:35:00
+  id: 1074806
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'softhsm: fails to build with openssl 1.1'
+- component: Other
+  create_time: 20180105T10:35:00
+  id: 1074805
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'tls: fails to build with openssl 1.1'
+- component: Other
+  create_time: 20180105T10:35:00
+  id: 1074804
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'osslsigncode: fails to build with openssl 1.1'
+- component: Other
+  create_time: 20180105T10:35:00
+  id: 1074803
+  resolution: ''
+  status: NEW
+  summary: 'wvstreams: fails to build with openssl 1.1'
+- component: Other
+  create_time: 20180105T10:35:00
+  id: 1074802
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'munge: fails to build with openssl 1.1'
+- component: Other
+  create_time: 20180105T10:35:00
+  id: 1074801
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'libtpms: fails to build with openssl 1.1'
+- component: Other
+  create_time: 20180105T10:35:00
+  id: 1074800
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'pam_p11: fails to build with openssl 1.1'
+- component: Other
+  create_time: 20180105T10:35:00
+  id: 1074799
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'opensc: fails to build with openssl 1.1'
+- component: Other
+  create_time: 20180105T10:35:00
+  id: 1074798
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'libeXosip2: fails to build with openssl 1.1'
+- component: Other
+  create_time: 20180105T10:35:00
+  id: 1074797
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'isync: fails to build with openssl 1.1'
+- component: Other
+  create_time: 20180105T10:35:00
+  id: 1074796
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'pwlib: fails to build with openssl 1.1'
+- component: Other
+  create_time: 20180105T10:35:00
+  id: 1074795
+  resolution: ''
+  status: NEW
+  summary: 'tcpflow: fails to build with openssl 1.1'
+- component: Other
+  create_time: 20180105T10:33:00
+  id: 1074794
+  resolution: ''
+  status: NEW
+  summary: 'john: fails to build with openssl 1.1'
+- component: Other
+  create_time: 20180105T10:30:00
+  id: 1074793
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'knot: fails to build with openssl 1.1'
+- component: Development
+  create_time: 20180105T10:22:00
+  id: 1074790
+  resolution: FIXED
+  status: RESOLVED
+  summary: Exclusion of syntax.vim in package gvim causing error
+- component: Printing
+  create_time: 20180105T10:21:00
+  id: 1074789
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: 'HPLIP: on Tubleweed hp-setup fails with "distro (i.e unknown  ) is either
+    deprecated or not yet supported"'
+- component: Development
+  create_time: 20180105T05:34:00
+  id: 1074757
+  resolution: INVALID
+  status: RESOLVED
+  summary: perl-Mcrypt requires perl-5.24.1, Tumbleweed has 5.26.1
+- component: YaST2
+  create_time: 20180104T18:06:00
+  id: 1074696
+  resolution: ''
+  status: NEW
+  summary: Update yast-python-bindings to python3
+- component: YaST2
+  create_time: 20180104T08:41:00
+  id: 1074600
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'ncurses 20171216: needs adjustments on yast side'
+'20180106':
+- component: Other
+  create_time: 20180106T13:59:00
+  id: 1074890
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC, libraries] Missing dependencies in Library Packages'
+'20180107':
+- component: Other
+  create_time: 20180108T21:22:00
+  id: 1075094
+  resolution: FIXED
+  status: RESOLVED
+  summary: Tumbleweed image for Raspberry Pi 2 contains a corrupt ext4 partition after
+    first boot
+- component: Other
+  create_time: 20180108T20:23:00
+  id: 1075086
+  resolution: FIXED
+  status: RESOLVED
+  summary: rfkill package orphaned but required by startup/shutdown services
+- component: YaST2
+  create_time: 20180108T18:47:00
+  id: 1075077
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: '[Build 1548.11] openQA test fails in upgrade_select_opensuse'
+- component: Kernel
+  create_time: 20180108T15:16:00
+  id: 1075034
+  resolution: FIXED
+  status: RESOLVED
+  summary: KDE crashes on start with 4.14.11 kernel
+- component: Virtualization:Other
+  create_time: 20180108T15:11:00
+  id: 1075033
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Can't access guest VMs over vboxnet0 anymore
+- component: Java
+  create_time: 20180108T14:56:00
+  id: 1075030
+  resolution: INVALID
+  status: RESOLVED
+  summary: Unable to get local issuer certificate when adding Java repo
+- component: Kernel
+  create_time: 20180108T13:37:00
+  id: 1075018
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[4.14.12] PANIC: double fault, error_code: 0x0'
+- component: Other
+  create_time: 20180108T11:20:00
+  id: 1074999
+  resolution: FIXED
+  status: RESOLVED
+  summary: openSUSE:Factory/wt fails to build with boost 1.66
+- component: Printing
+  create_time: 20180108T08:31:00
+  id: 1074964
+  resolution: ''
+  status: NEW
+  summary: Broken posttrans scriplet in package ghostscript-fonts-other and ghostscript-fonts-std
+- component: LXDE
+  create_time: 20180108T05:00:00
+  id: 1074945
+  resolution: ''
+  status: NEW
+  summary: Geary email client package missing dependency on LXDE
+- component: Usability
+  create_time: 20180108T01:55:00
+  id: 1074927
+  resolution: INVALID
+  status: RESOLVED
+  summary: libQt5WebEngineCore and libre2 undefined symbol
+- component: Basesystem
+  create_time: 20180107T23:35:00
+  id: 1074924
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: btrfs process makes system unresponsive
+- component: Kernel
+  create_time: 20180107T20:10:00
+  id: 1074921
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: latest tumbleweed kernel 4.14.11 crashes upon starting Steam client
+- component: Kernel
+  create_time: 20180107T19:37:00
+  id: 1074920
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: System freezes after update to kernel-default-4.14.11
+- component: Kernel
+  create_time: 20180107T19:32:00
+  id: 1074918
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Boot fails after update to Linux kernel 4.14.11
+- component: Basesystem
+  create_time: 20180107T12:04:00
+  id: 1074904
+  resolution: ''
+  status: NEW
+  summary: chronyd fails to start on boot
+- component: Other
+  create_time: 20180107T04:56:00
+  id: 1074897
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC, libraries] Environment Modules Files contain unexpanded RPM Macros'
+'20180109':
+- component: Basesystem
+  create_time: 20180109T20:38:00
+  id: 1075255
+  resolution: ''
+  status: CONFIRMED
+  summary: 'multipath: problem if path WWID contains double quote'
+- component: X.Org
+  create_time: 20180109T20:03:00
+  id: 1075249
+  resolution: FIXED
+  status: RESOLVED
+  summary: 16:9 and 16:10 default resolutions not available with modesetting driver
+- component: Kernel
+  create_time: 20180109T19:46:00
+  id: 1075246
+  resolution: FIXED
+  status: RESOLVED
+  summary: Unable to boot with Kernel 4.14.11
+- component: Basesystem
+  create_time: 20180109T19:10:00
+  id: 1075239
+  resolution: ''
+  status: NEW
+  summary: procps sysctl doesn't work
+- component: Kernel
+  create_time: 20180109T17:51:00
+  id: 1075220
+  resolution: FIXED
+  status: RESOLVED
+  summary: NULL pointer dereference in pids_free on nspawn exit
+- component: Other
+  create_time: 20180109T17:50:00
+  id: 1075219
+  resolution: ''
+  status: NEW
+  summary: curl random tests failure on ppc64le
+- component: Kernel
+  create_time: 20180109T13:04:00
+  id: 1075183
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[META bug] PTI patchset issues'
+- component: Kernel
+  create_time: 20180109T11:53:00
+  id: 1075178
+  resolution: ''
+  status: NEW
+  summary: 'ARM midway: kernel oops with running VMs'
+- component: X.Org
+  create_time: 20180109T09:39:00
+  id: 1075157
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: xset hangs when access to display server is refused
+'20180110':
+- component: Basesystem
+  create_time: 20180113T21:55:00
+  id: 1075885
+  resolution: ''
+  status: NEW
+  summary: Plymouth update leads to errors in X11 <-> Elantech touchpad interaction
+- component: Other
+  create_time: 20180113T20:28:00
+  id: 1075884
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'btrfsmaintenance: invalid schedule reported'
+- component: Development
+  create_time: 20180113T18:25:00
+  id: 1075883
+  resolution: ''
+  status: IN_PROGRESS
+  summary: rust-std does not get updated together with rust
+- component: X11 Applications
+  create_time: 20180113T15:25:00
+  id: 1075879
+  resolution: ''
+  status: NEW
+  summary: Anki desktop application doesn't work
+- component: Network
+  create_time: 20180113T13:45:00
+  id: 1075878
+  resolution: ''
+  status: NEW
+  summary: Apocalyptic loss of proc/tmpfs/sysfs mounts after WIFI disconnect through
+    NetworkManager
+- component: Basesystem
+  create_time: 20180112T21:37:00
+  id: 1075861
+  resolution: FIXED
+  status: RESOLVED
+  summary: zypper in gcc requires libmpfr.so.4
+- component: Containers
+  create_time: 20180112T18:56:00
+  id: 1075848
+  resolution: INVALID
+  status: RESOLVED
+  summary: Docker does not start container in latest snapshots
+- component: YaST2
+  create_time: 20180112T16:19:00
+  id: 1075828
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'yast keyboard: stop using KEYTABLE sysconfig variable'
+- component: Other
+  create_time: 20180112T15:23:00
+  id: 1075819
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'VUL-0: CVE-2018-5358: ImageMagick:  memory leak in the EncodeImageAttributes
+    functionin coders/json.c could lead to crash'
+- component: Basesystem
+  create_time: 20180112T13:31:00
+  id: 1075808
+  resolution: FIXED
+  status: RESOLVED
+  summary: Command crontab does not work for non-root user
+- component: Virtualization:Tools
+  create_time: 20180112T12:57:00
+  id: 1075803
+  resolution: ''
+  status: REOPENED
+  summary: virt-manager crashes in PyDict_SetItem () - libguestfs
+- component: YaST2
+  create_time: 20180112T12:54:00
+  id: 1075802
+  resolution: FIXED
+  status: RESOLVED
+  summary: skelcd-control-CaaSP fails to build in SLE staging because is not openSUSE
+    and is not susecaasp
+- component: Kernel
+  create_time: 20180112T06:21:00
+  id: 1075718
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Since last update for meltdown somehow system broken
+- component: Other
+  create_time: 20180112T03:20:00
+  id: 1075705
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: impossible to start X without -nolisten tcp
+- component: KDE Applications
+  create_time: 20180111T20:03:00
+  id: 1075663
+  resolution: ''
+  status: NEW
+  summary: konqueror does not start a second time
+- component: Virtualization:Other
+  create_time: 20180111T16:03:00
+  id: 1075622
+  resolution: ''
+  status: CONFIRMED
+  summary: Libvirt cannot control Xen installed on the same machine
+- component: Kernel
+  create_time: 20180111T15:13:00
+  id: 1075613
+  resolution: FIXED
+  status: RESOLVED
+  summary: nouveau gf119 displayport broken on 4.13+
+- component: KDE Workspace (Plasma)
+  create_time: 20180111T12:54:00
+  id: 1075592
+  resolution: ''
+  status: NEW
+  summary: Plasma5 panel (autohide) leaves artifacts when compositing
+- component: Ruby
+  create_time: 20180111T11:29:00
+  id: 1075581
+  resolution: INVALID
+  status: RESOLVED
+  summary: some rubygem based rpms does not install gem.build_complete file
+- component: Other
+  create_time: 20180111T09:15:00
+  id: 1075541
+  resolution: ''
+  status: NEW
+  summary: vim repoorts error when edit a file(with .sh extension)
+- component: Other
+  create_time: 20180110T22:01:00
+  id: 1075465
+  resolution: ''
+  status: NEW
+  summary: signond QObject disconnect unexpected null parameter
+- component: GNOME
+  create_time: 20180110T19:34:00
+  id: 1075442
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: gnome-recipes doesn't launch in TW gnome 3.26
+- component: GNOME
+  create_time: 20180110T14:02:00
+  id: 1075384
+  resolution: ''
+  status: NEW
+  summary: Flatpak prompts for root password at random times to update repos
+- component: Firefox
+  create_time: 20180110T13:21:00
+  id: 1075375
+  resolution: INVALID
+  status: RESOLVED
+  summary: Firefox fails to connect to proxy when using a socks proxy
+- component: YaST2
+  create_time: 20180110T12:18:00
+  id: 1075369
+  resolution: FIXED
+  status: RESOLVED
+  summary: Pointless tracking bug for /var subvolume simplification
+- component: Other
+  create_time: 20180110T11:51:00
+  id: 1075365
+  resolution: ''
+  status: NEW
+  summary: hgview not installable
+- component: Kernel
+  create_time: 20180110T11:01:00
+  id: 1075359
+  resolution: ''
+  status: NEW
+  summary: Long delay to switch root during boot
+- component: Usability
+  create_time: 20180110T10:32:00
+  id: 1075356
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: gnote failed to start after install it manually.
+- component: Kubic
+  create_time: 20180110T08:42:00
+  id: 1075329
+  resolution: FIXED
+  status: RESOLVED
+  summary: openSUSE:Factory/rebootmgr fails to build since json-c update
+'20180114':
+- component: Network
+  create_time: 20180115T16:45:00
+  id: 1076028
+  resolution: INVALID
+  status: RESOLVED
+  summary: rpc.nfsd immediately exits after Bad File Descriptor on close()
+- component: libzypp
+  create_time: 20180115T15:58:00
+  id: 1076018
+  resolution: FIXED
+  status: RESOLVED
+  summary: Rpm package verification fails with rpm-4.14
+- component: AppArmor
+  create_time: 20180115T14:36:00
+  id: 1076003
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'aa-logprof fails with "ERROR: Passed unknown signal keyword to SignalRule:
+    rtmin+265750032"'
+- component: Kubic
+  create_time: 20180115T13:55:00
+  id: 1075998
+  resolution: FIXED
+  status: RESOLVED
+  summary: Add hardware and apparmor pattern to list of installed Kubic/CaaSP pattern
+- component: Other
+  create_time: 20180115T11:08:00
+  id: 1075971
+  resolution: ''
+  status: NEW
+  summary: update-alternatives - settings being reset
+- component: Security
+  create_time: 20180114T16:02:00
+  id: 1075906
+  resolution: ''
+  status: NEW
+  summary: screenlock crashes
+- component: X.Org
+  create_time: 20180114T13:51:00
+  id: 1075905
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Mesa 17.3.2] Some OpenGL applications cause system to freeze'
+- component: X.Org
+  create_time: 20180114T13:48:00
+  id: 1075904
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Mesa 17.3.2] Some OpenGL applications cause system to freeze'
+- component: X.Org
+  create_time: 20180114T13:46:00
+  id: 1075903
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Mesa 17.3.2] Some OpenGL applications cause system to freeze'
+- component: X.Org
+  create_time: 20180114T13:45:00
+  id: 1075902
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Mesa 17.3.2] Some OpenGL applications cause system to freeze'
+- component: X.Org
+  create_time: 20180114T13:43:00
+  id: 1075901
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: '[Mesa 17.3.2] Some OpenGL applications cause system to freeze'
+'20180116':
+- component: Kubic
+  create_time: 20180116T20:54:00
+  id: 1076265
+  resolution: ''
+  status: NEW
+  summary: openSUSE-Tumbleweed-Kubic-release will never be updated
+- component: AppArmor
+  create_time: 20180116T18:37:00
+  id: 1076247
+  resolution: ''
+  status: IN_PROGRESS
+  summary: ntpd apparmor profile is overconstrained for certain setups
+- component: High Availability
+  create_time: 20180116T16:47:00
+  id: 1076231
+  resolution: ''
+  status: IN_PROGRESS
+  summary: sbd pacemaker process segfaults over and over
+- component: Translations
+  create_time: 20180116T15:57:00
+  id: 1076219
+  resolution: ''
+  status: NEW
+  summary: Pkg aspell-de is missing for x86_64 tumbleweed
+- component: Other
+  create_time: 20180116T12:08:00
+  id: 1076182
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2017-18028: GraphicsMagick,ImageMagick: memory exhaustion in
+    the function ReadTIFFImage in coders/tiff.c'
+- component: YaST2
+  create_time: 20180116T11:18:00
+  id: 1076173
+  resolution: ''
+  status: IN_PROGRESS
+  summary: fakebug
+- component: Development
+  create_time: 20180116T09:15:00
+  id: 1076146
+  resolution: ''
+  status: NEW
+  summary: Automake testsuite broken on foreign distros, breaks packages generated
+    with opensuse
+- component: Basesystem
+  create_time: 20180116T08:03:00
+  id: 1076134
+  resolution: ''
+  status: IN_PROGRESS
+  summary: blueberry requires /usr/sbin/rfkill
+'20180117':
+- component: Other
+  create_time: 20180118T18:42:00
+  id: 1076650
+  resolution: ''
+  status: REOPENED
+  summary: 'xtables-addons: no longer works after kernel update to 4.14.13-1-default'
+- component: Basesystem
+  create_time: 20180118T18:11:00
+  id: 1076645
+  resolution: ''
+  status: NEW
+  summary: capslock led does not work on console
+- component: Other
+  create_time: 20180118T17:39:00
+  id: 1076640
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Boost: issue due to _multibuild usage'
+- component: Basesystem
+  create_time: 20180118T15:30:00
+  id: 1076613
+  resolution: ''
+  status: NEW
+  summary: audit error message
+- component: Network
+  create_time: 20180118T14:31:00
+  id: 1076603
+  resolution: FIXED
+  status: RESOLVED
+  summary: Replace newsbeuter with newsboat
+- component: Other
+  create_time: 20180118T12:42:00
+  id: 1076579
+  resolution: ''
+  status: NEW
+  summary: 'VUL-0: CVE-2018-5772: exiv2: In Exiv2 0.26, there is a segmentation fault
+    caused by uncontrolled recursion inthe Exiv2::Image::printIFDStructure function
+    in the image.cpp file. Remoteattackers could leverage this vulnerability to cause
+    a'
+- component: Other
+  create_time: 20180118T12:30:00
+  id: 1076576
+  resolution: FIXED
+  status: RESOLVED
+  summary: /usr/bin/lsb segfaults [rzsz]
+- component: Basesystem
+  create_time: 20180118T09:52:00
+  id: 1076526
+  resolution: ''
+  status: NEW
+  summary: cannot boot into snapshots successfully
+- component: KDE Applications
+  create_time: 20180118T09:42:00
+  id: 1076525
+  resolution: FIXED
+  status: RESOLVED
+  summary: kwebkitpart wrongly firms as version 1.3.4 (was qt4), while being snapshot
+    from master (qt5 dep)
+- component: Other
+  create_time: 20180117T19:09:00
+  id: 1076443
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[scalapack, HPC] Don''t make module package arch independent'
+- component: Firefox
+  create_time: 20180117T18:17:00
+  id: 1076438
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'firefox-esr Package dependency error:  "nothing provides mozilla-nspr
+    >= 52.5.3 needed by firefox-esr-52.5.3-1.11.x86_64"'
+- component: Kernel
+  create_time: 20180117T14:11:00
+  id: 1076393
+  resolution: FIXED
+  status: RESOLVED
+  summary: fix nVidia KMP build
+- component: Upgrade Problems
+  create_time: 20180117T11:48:00
+  id: 1076379
+  resolution: FIXED
+  status: RESOLVED
+  summary: File conflict loop on Zypper Dup
+- component: Network
+  create_time: 20180117T09:28:00
+  id: 1076346
+  resolution: ''
+  status: NEW
+  summary: Thinkpad T470s ethernet works in installation but not in OS
+- component: LibreOffice
+  create_time: 20180117T08:44:00
+  id: 1076334
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: libreoffice-kde5 package
+- component: KDE Workspace (Plasma)
+  create_time: 20180117T08:31:00
+  id: 1076325
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Mesa or Mesa-drivers build failed for ppc64le on obs-power8-05 worker
+    with "unpacking of archive failed ... cpio: write"'
+- component: Basesystem
+  create_time: 20180117T08:21:00
+  id: 1076320
+  resolution: ''
+  status: NEW
+  summary: gtk-vnc file conflicts in gtk-vnc-debugsource and gtk-vnc2-debugsource
+- component: Basesystem
+  create_time: 20180117T07:34:00
+  id: 1076312
+  resolution: ''
+  status: NEW
+  summary: incorrect lang package contents after upgrade to rpm 4.14
+- component: X11 Applications
+  create_time: 20180117T04:34:00
+  id: 1076295
+  resolution: ''
+  status: NEW
+  summary: LightDM not showing username list
+- component: Other
+  create_time: 20180117T00:56:00
+  id: 1076289
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Feedreader
+'20180119':
+- component: Development
+  create_time: 20180119T21:06:00
+  id: 1076877
+  resolution: ''
+  status: NEW
+  summary: 'openSUSE:Tools/osc-plugin-install: Bug'
+- component: Printing
+  create_time: 20180119T18:20:00
+  id: 1076866
+  resolution: ''
+  status: NEW
+  summary: 'ghostscript: segfault in txtwrite_process_plain_text()'
+- component: X11 Applications
+  create_time: 20180119T17:02:00
+  id: 1076854
+  resolution: FIXED
+  status: RESOLVED
+  summary: Don't set LC_CTYPE by default
+- component: KDE Applications
+  create_time: 20180119T16:26:00
+  id: 1076848
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180117] kontact killed due to OOM'
+- component: Installation
+  create_time: 20180119T15:54:00
+  id: 1076839
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180117] installer startup: kexec failed'
+- component: YaST2
+  create_time: 20180119T15:40:00
+  id: 1076837
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build 20180117] yast2-http cannot cope with firewalld'
+- component: Other
+  create_time: 20180119T15:24:00
+  id: 1076835
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180117] Enlightenmnet: newly asks for language'
+- component: Other
+  create_time: 20180119T13:58:00
+  id: 1076819
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'debugedit: Couldn''t update relocation: invalid data (KMP build failure)'
+- component: AutoYaST
+  create_time: 20180119T13:50:00
+  id: 1076818
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20180117] AutoYast installation fails'
+- component: Firefox
+  create_time: 20180119T13:39:00
+  id: 1076811
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20180117] openQA test fails in firefox'
+- component: KDE Workspace (Plasma)
+  create_time: 20180119T13:11:00
+  id: 1076801
+  resolution: FIXED
+  status: RESOLVED
+  summary: After login using Plasma the desktop hangs and does not appear after upgrade
+    to 20180116
+- component: YaST2
+  create_time: 20180119T12:07:00
+  id: 1076779
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180117][storage-ng?] Windows 10 is not listed in the grub menu'
+- component: YaST2
+  create_time: 20180119T11:34:00
+  id: 1076768
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180117] NET installation needs too much memory (>1GB)'
+- component: YaST2
+  create_time: 20180119T11:28:00
+  id: 1076766
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20180117] openQA test fails in start_install'
+- component: GNOME
+  create_time: 20180119T09:57:00
+  id: 1076745
+  resolution: ''
+  status: NEW
+  summary: GDM doesn't start pam_mount
+- component: Basesystem
+  create_time: 20180119T09:48:00
+  id: 1076742
+  resolution: ''
+  status: NEW
+  summary: Image for Raspberry Pi 3 gives error when booting
+- component: YaST2
+  create_time: 20180119T08:54:00
+  id: 1076732
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[libstorage-ng][blocker] "Warning/n This is not enabled at the moment
+    (event: )" when trying to install Kubic'
+- component: YaST2
+  create_time: 20180119T08:41:00
+  id: 1076729
+  resolution: ''
+  status: CONFIRMED
+  summary: '[storage-ng] undefined method ''copy'' when attempting to install Kubic
+    on a 10GB disk'
+- component: GNOME
+  create_time: 20180119T08:36:00
+  id: 1076728
+  resolution: FIXED
+  status: RESOLVED
+  summary: rsvg-view-3 crashes with the attached svg file
+'20180120':
+- component: Kernel
+  create_time: 20180120T17:02:00
+  id: 1076905
+  resolution: ''
+  status: NEW
+  summary: 'dtb package file conflict: COPYING'
+- component: Basesystem
+  create_time: 20180120T14:48:00
+  id: 1076898
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Regression: bluetooth headset not connecting since last update, workaround
+    included'
+- component: Network
+  create_time: 20180120T08:50:00
+  id: 1076895
+  resolution: INVALID
+  status: RESOLVED
+  summary: openssh-7.6p1-1.1.x86_64  fails key authentication
+'20180121':
+- component: Basesystem
+  create_time: 20180121T22:02:00
+  id: 1076927
+  resolution: ''
+  status: NEW
+  summary: XFCE Terminal does not update the tittle correctly
+- component: GNOME
+  create_time: 20180121T16:05:00
+  id: 1076925
+  resolution: ''
+  status: NEW
+  summary: caffeine doesn't start
+- component: YaST2
+  create_time: 20180121T08:36:00
+  id: 1076916
+  resolution: FIXED
+  status: RESOLVED
+  summary: "yast2-installation-4.0.22-1.1.noarch ben\xF6tigt yast2-storage-ng >= 4.0.43,\
+    \ kann jedoch nicht zur Verf\xFCgung gestellt werden"
+- component: YaST2
+  create_time: 20180121T03:03:00
+  id: 1076912
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'Apache2 module installation fails: Undefined method "SetNeededPortsAndProtocols"'
+- component: Kernel
+  create_time: 20180121T00:16:00
+  id: 1076911
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'rpi: USB Ethernet broken in 4.15-rc8'
+'20180122':
+- component: KDE Workspace (Plasma)
+  create_time: 20180123T22:17:00
+  id: 1077306
+  resolution: ''
+  status: NEW
+  summary: Plasma Bluetooth shows devices as available even though they are not
+- component: KDE Workspace (Plasma)
+  create_time: 20180123T22:13:00
+  id: 1077305
+  resolution: ''
+  status: NEW
+  summary: Position of systray menus is horrible wrong
+- component: Other
+  create_time: 20180123T17:23:00
+  id: 1077276
+  resolution: INVALID
+  status: RESOLVED
+  summary: Duplicity no longer able to do b2
+- component: Other
+  create_time: 20180123T13:37:00
+  id: 1077230
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'python3: build python3-xml as part of python3-base'
+- component: Other
+  create_time: 20180123T12:35:00
+  id: 1077218
+  resolution: ''
+  status: NEW
+  summary: 'llvm5: build often stalls obs workers'
+- component: Bootloader
+  create_time: 20180123T10:55:00
+  id: 1077199
+  resolution: ''
+  status: NEW
+  summary: 'gfxboot: make install needed'
+- component: Other
+  create_time: 20180123T09:59:00
+  id: 1077175
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180122] Enlightenment fails to start upon login'
+- component: Development
+  create_time: 20180123T07:30:00
+  id: 1077149
+  resolution: ''
+  status: NEW
+  summary: 'rpm: %setup -n name -c no longer creates directory BEFORE unpacking'
+- component: Basesystem
+  create_time: 20180123T06:57:00
+  id: 1077145
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[regression] osc build uses wrong changes file'
+- component: Network
+  create_time: 20180123T00:27:00
+  id: 1077125
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Wifi Network seems to drop when Lock Screen is Started
+- component: Basesystem
+  create_time: 20180122T15:42:00
+  id: 1077070
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'dracut: hardcodes libcryptsetup requirements'
+- component: YaST2
+  create_time: 20180122T13:01:00
+  id: 1077047
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[storage-ng] "root_subvolume_read_only" is not honoured in skelcd-control-CaaSP'
+- component: Other
+  create_time: 20180122T12:44:00
+  id: 1077043
+  resolution: FIXED
+  status: RESOLVED
+  summary: '"minetest-game" should not depend on "minetest"'
+- component: YaST2
+  create_time: 20180122T12:29:00
+  id: 1077038
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[kubic] Installer crash ''SetOverlay called when old overlay was not cleared'''
+- component: Basesystem
+  create_time: 20180122T12:29:00
+  id: 1077037
+  resolution: FIXED
+  status: RESOLVED
+  summary: /usr/include/ipset/libipset/types.h requires libipset/args.h
+- component: X11 Applications
+  create_time: 20180122T11:57:00
+  id: 1077025
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: 'Claws Mail: SSL/TLS handshake failure when connecting to IMAP'
+- component: Basesystem
+  create_time: 20180122T11:13:00
+  id: 1077015
+  resolution: ''
+  status: NEW
+  summary: zypper dup/up on Btrfs consume 100% CPU and freeze desktop
+- component: Other
+  create_time: 20180122T10:57:00
+  id: 1077011
+  resolution: INVALID
+  status: RESOLVED
+  summary: Repositories for architecture aarch64 are not kept up-to-date
+- component: YaST2
+  create_time: 20180122T07:59:00
+  id: 1076969
+  resolution: FIXED
+  status: RESOLVED
+  summary: missing license text in Yast welcome page since TW 20180117 ppc64le
+- component: High Availability
+  create_time: 20180122T05:05:00
+  id: 1076936
+  resolution: FIXED
+  status: RESOLVED
+  summary: Reproducible builds support is lost in DRBD
+'20180124':
+- component: Basesystem
+  create_time: 20180124T22:56:00
+  id: 1077495
+  resolution: INVALID
+  status: RESOLVED
+  summary: Infinite Recursion at /usr/bin/X11
+- component: KDE Workspace (Plasma)
+  create_time: 20180124T17:31:00
+  id: 1077469
+  resolution: ''
+  status: NEW
+  summary: updater fails with error
+- component: Installation
+  create_time: 20180124T16:23:00
+  id: 1077454
+  resolution: ''
+  status: CONFIRMED
+  summary: Inconsistent NTFS partition makes libstorage-ng crash YaST during installation
+- component: Other
+  create_time: 20180124T15:16:00
+  id: 1077426
+  resolution: FIXED
+  status: RESOLVED
+  summary: get-flash-videos not installable
+- component: Basesystem
+  create_time: 20180124T10:42:00
+  id: 1077388
+  resolution: ''
+  status: NEW
+  summary: System locks up after running out of memory without using swap
+- component: AppArmor
+  create_time: 20180124T01:41:00
+  id: 1077315
+  resolution: ''
+  status: NEW
+  summary: openQA-gru can't be started due to apparmor   policy
+'20180125':
+- component: YaST2
+  create_time: 20180125T21:33:00
+  id: 1077686
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Software Manager Unable to Load
+- component: Development
+  create_time: 20180125T16:13:00
+  id: 1077643
+  resolution: ''
+  status: NEW
+  summary: 'rpmlint: self-obsoletion check is obsolete'
+- component: Other
+  create_time: 20180125T12:19:00
+  id: 1077607
+  resolution: ''
+  status: NEW
+  summary: php7-pear-MDB2 build failed
+- component: Other
+  create_time: 20180125T12:00:00
+  id: 1077605
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20180113] openQA test fails in install_and_reboot'
+- component: Other
+  create_time: 20180125T11:58:00
+  id: 1077602
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20180113] openQA test fails in install_and_reboot'
+- component: Other
+  create_time: 20180125T11:54:00
+  id: 1077600
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180113] openQA test fails in install_and_reboot'
+- component: Other
+  create_time: 20180125T11:41:00
+  id: 1077598
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20180113] openQA test fails in disable_online_repos in text mode'
+- component: Other
+  create_time: 20180125T11:35:00
+  id: 1077595
+  resolution: INVALID
+  status: RESOLVED
+  summary: '[Build 20180113] openQA test fails in disable_online_repos'
+- component: Firefox
+  create_time: 20180125T11:00:00
+  id: 1077590
+  resolution: ''
+  status: NEW
+  summary: FF 58 XML Parsing Error in browser.xul
+- component: Live Medium
+  create_time: 20180125T09:39:00
+  id: 1077565
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: '[Build 20180124] openQA test fails in grub_test'
+'20180126':
+- component: Other
+  create_time: 20180126T14:01:00
+  id: 1077744
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[evaluate] info has prereq on bash'
+- component: Other
+  create_time: 20180126T13:42:00
+  id: 1077738
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20180124] openQA test fails in partitioning_raid may be dup bsc1058652'
+- component: Kernel
+  create_time: 20180126T11:22:00
+  id: 1077731
+  resolution: ''
+  status: NEW
+  summary: build-id in kernel-default-debuginfo does not match the one in kernel-default
+- component: YaST2
+  create_time: 20180126T10:28:00
+  id: 1077726
+  resolution: ''
+  status: NEW
+  summary: Can't install packages anymore due to internal error.
+- component: High Availability
+  create_time: 20180126T02:42:00
+  id: 1077702
+  resolution: ''
+  status: NEW
+  summary: kronosnet-1.0 is available now
+'20180127':
+- component: Other
+  create_time: 20180127T22:13:00
+  id: 1077857
+  resolution: ''
+  status: NEW
+  summary: Linphone hangs on splash screen
+- component: KDE Workspace (Plasma)
+  create_time: 20180127T15:44:00
+  id: 1077851
+  resolution: FIXED
+  status: RESOLVED
+  summary: Missing German Translation in KDE Plasma5 Software Updates Applet for PackageKit
+- component: Installation
+  create_time: 20180127T10:12:00
+  id: 1077845
+  resolution: FIXED
+  status: VERIFIED
+  summary: '[Build 20180124][ppc64] openQA test fails in welcome - "Internal error:
+    Failed to load Module ''Lan''"'
+- component: Installation
+  create_time: 20180127T09:38:00
+  id: 1077844
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20180124][ppc64le] openQA test fails in welcome - no license text
+    shown'
+'20180128':
+- component: YaST2
+  create_time: 20180128T23:44:00
+  id: 1077886
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: YaST2  HTTP Module does not identify http and https services correctly.
+- component: Installation
+  create_time: 20180128T21:03:00
+  id: 1077884
+  resolution: ''
+  status: NEW
+  summary: XML expat module for Python3 not found
+- component: Upgrade Problems
+  create_time: 20180128T19:34:00
+  id: 1077883
+  resolution: ''
+  status: NEW
+  summary: Unable to boot after upgrading from openSUSE Tumbleweed  20171220-0 ->
+    20180126-0
+- component: AutoYaST
+  create_time: 20180128T19:29:00
+  id: 1077882
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20180127] openQA test fails in clone'
+- component: X11 Applications
+  create_time: 20180128T17:56:00
+  id: 1077881
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'libfltk1: doesn''t show correct cursor/pointer  at least in tigervnc-viewer'
+- component: GNOME
+  create_time: 20180128T12:50:00
+  id: 1077870
+  resolution: ''
+  status: NEW
+  summary: librsvg-2-2-2.42.0-1.1.i586 contains SSE2 instructions
+- component: Installation
+  create_time: 20180128T11:15:00
+  id: 1077868
+  resolution: ''
+  status: CONFIRMED
+  summary: Installer Expert Partitioner has several issues with existing partition
+    use
+- component: Installation
+  create_time: 20180128T09:49:00
+  id: 1077866
+  resolution: ''
+  status: NEW
+  summary: installer uses old btrfs subvolume structure when not using the suggested
+    partitioning scheme
+- component: KDE Workspace (Plasma)
+  create_time: 20180128T09:35:00
+  id: 1077865
+  resolution: ''
+  status: NEW
+  summary: Cannot assign FN+F12 (the Star button) on Thinkpad T470s to global shortcuts
+- component: KDE Workspace (Plasma)
+  create_time: 20180128T09:33:00
+  id: 1077864
+  resolution: ''
+  status: NEW
+  summary: Thunderbird does not allow KDE to end its session
+- component: libzypp
+  create_time: 20180128T07:20:00
+  id: 1077863
+  resolution: FIXED
+  status: RESOLVED
+  summary: Timeout exceeded when accessing <official repos>
+'20180129':
+- component: KDE Workspace (Plasma)
+  create_time: 20180129T23:43:00
+  id: 1078173
+  resolution: FIXED
+  status: RESOLVED
+  summary: Kactivitymanager coredumps without the package libQt5Sql5-sqlite
+- component: GNOME
+  create_time: 20180129T22:43:00
+  id: 1078162
+  resolution: ''
+  status: NEW
+  summary: Unable to add Brother HL-2370DW printer via Gnome Settings
+- component: YaST2
+  create_time: 20180129T22:30:00
+  id: 1078156
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Unable to Access Yast->Software Management
+- component: GNOME
+  create_time: 20180129T17:17:00
+  id: 1078030
+  resolution: ''
+  status: NEW
+  summary: gdm ignores /etc/gdm/custom.conf and starts Wayland session
+- component: Other
+  create_time: 20180129T16:49:00
+  id: 1078024
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'AppStream: Icons are missing'
+- component: YaST2
+  create_time: 20180129T15:32:00
+  id: 1078008
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20180128] yast2-tftp-server: undefined method ''name'' for nil:NilClass'
+- component: YaST2
+  create_time: 20180129T15:23:00
+  id: 1078004
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20180128] yast2 squid: indefined method ''name'' for nil:NilClass'
+- component: X.Org
+  create_time: 20180129T14:33:00
+  id: 1077998
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: '[drm] GPU HANG: ecode 9:0:0x85dffffb, in X [1533], reason: Hang on rcs0,
+    action: reset'
+- component: Other
+  create_time: 20180129T12:14:00
+  id: 1077978
+  resolution: FIXED
+  status: RESOLVED
+  summary: p7zip contains non-free unrar code
+- component: Other
+  create_time: 20180129T11:30:00
+  id: 1077963
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Feedreader can't connect to Pocket
+- component: Basesystem
+  create_time: 20180129T11:03:00
+  id: 1077958
+  resolution: ''
+  status: NEW
+  summary: Kernel oops on Raspberry Pi 2B
+- component: YaST2
+  create_time: 20180129T08:58:00
+  id: 1077929
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: private method `select' called for nil:NilClass  caller setup_checker.rb:117:in
+    `product_volumes'
+- component: YaST2
+  create_time: 20180129T07:30:00
+  id: 1077914
+  resolution: FIXED
+  status: RESOLVED
+  summary: LAN module does not load after last TW update
+- component: Network
+  create_time: 20180129T07:26:00
+  id: 1077913
+  resolution: ''
+  status: NEW
+  summary: NetworkManager being activated unexpectedly after last update
+'20180130':
+- component: Basesystem
+  create_time: 20180130T19:56:00
+  id: 1078365
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'multipath-tools: Factory package fails to build for SLE_12_SP1 (%exclude)'
+- component: Other
+  create_time: 20180130T19:56:00
+  id: 1078364
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC] mpitest fails after changes to gnu-compilers-hpc'
+- component: Basesystem
+  create_time: 20180130T19:51:00
+  id: 1078363
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Add latest upstream hwtable updates to multipath-tools (2018-01)
+- component: Basesystem
+  create_time: 20180130T19:44:00
+  id: 1078362
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'kpartx: don''t delete partitions from partitions'
+- component: Basesystem
+  create_time: 20180130T19:35:00
+  id: 1078360
+  resolution: ''
+  status: IN_PROGRESS
+  summary: multipathd should ignore uevents from non-mpath dm devices
+- component: Other
+  create_time: 20180130T17:48:00
+  id: 1078346
+  resolution: ''
+  status: NEW
+  summary: socat transient tests failures UNIXLISTENFORK, EXECPTYKILL for PowerPC
+- component: Basesystem
+  create_time: 20180130T16:34:00
+  id: 1078336
+  resolution: ''
+  status: NEW
+  summary: 'snapper: snapshots lost on power loss'
+- component: Basesystem
+  create_time: 20180130T16:12:00
+  id: 1078329
+  resolution: ''
+  status: IN_PROGRESS
+  summary: python-pycurl tests fail with curl compiled with libssh
+- component: Other
+  create_time: 20180130T15:54:00
+  id: 1078326
+  resolution: FIXED
+  status: RESOLVED
+  summary: python-devel has dependency on /usr/bin/python3
+- component: Other
+  create_time: 20180130T11:51:00
+  id: 1078285
+  resolution: FIXED
+  status: RESOLVED
+  summary: bluez test-gobex and test-gobex-transfer transient failures on PowerPC
+- component: Installation
+  create_time: 20180130T11:45:00
+  id: 1078284
+  resolution: FIXED
+  status: RESOLVED
+  summary: zypper crashes installing intel parallel studio rpms
+- component: Other
+  create_time: 20180130T10:40:00
+  id: 1078266
+  resolution: ''
+  status: NEW
+  summary: 96BoardsGPIO error on login
+- component: X.Org
+  create_time: 20180130T10:32:00
+  id: 1078261
+  resolution: FIXED
+  status: RESOLVED
+  summary: Can't run steam without Mesa-dri-32bit installed
+- component: YaST2
+  create_time: 20180130T06:37:00
+  id: 1078212
+  resolution: ''
+  status: NEW
+  summary: CWM::TreePager renders pages twice
+- component: Basesystem
+  create_time: 20180130T05:49:00
+  id: 1078206
+  resolution: ''
+  status: NEW
+  summary: Upgrading to 20180128 breaks sudo and fails at switch root during boot
+'20180131':
+- component: Other
+  create_time: 20180131T16:56:00
+  id: 1078559
+  resolution: INVALID
+  status: RESOLVED
+  summary: unable to install rpm-build -> depends on rpm -> depends on python2-rpm-4.14.0-2.1.x86_64
+    -> cause wide spread deinstallation
+- component: Apache
+  create_time: 20180131T16:41:00
+  id: 1078557
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'apache2: remove NameVirtualHost examples from listen.conf'
+- component: LibreOffice
+  create_time: 20180131T14:55:00
+  id: 1078530
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: LibreOffice 6.0 RC in Tumbleweed doesn't show right border of merged cells
+- component: Installation
+  create_time: 20180131T12:01:00
+  id: 1078495
+  resolution: ''
+  status: CONFIRMED
+  summary: 'skelcd-control-openSUSE: missing swap settings'
+- component: KDE Workspace (Plasma)
+  create_time: 20180131T11:19:00
+  id: 1078487
+  resolution: ''
+  status: NEW
+  summary: 'Regression: Power button and some Fn keys (suspend, brightness) no longer
+    respond'
+- component: Other
+  create_time: 20180131T10:56:00
+  id: 1078485
+  resolution: ''
+  status: NEW
+  summary: python-base test_multiprocessing on self.assertTrue(got_signal[0]) failure
+    ppc64le
+- component: Virtualization:Other
+  create_time: 20180131T08:10:00
+  id: 1078437
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'vagrant-1.9.7-4.1.x86_64: nothing provides rubygem(ruby:2.4.0:i18n)'
+- component: Kernel
+  create_time: 20180131T05:27:00
+  id: 1078408
+  resolution: ''
+  status: NEW
+  summary: logitech-hidpp-device 0003:046d:200D.0006 unable to retrieve the name of
+    the device
+'20180201':
+- component: Other
+  create_time: 20180201T17:13:00
+  id: 1078846
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/tls fails to build'
+- component: Other
+  create_time: 20180201T17:11:00
+  id: 1078845
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/novell-ipsec-tools fails to build'
+- component: Other
+  create_time: 20180201T17:08:00
+  id: 1078844
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/john fails to build'
+- component: Other
+  create_time: 20180201T17:08:00
+  id: 1078842
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/libratbag fails to build'
+- component: Other
+  create_time: 20180201T17:07:00
+  id: 1078841
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/jack-rack fails to build'
+- component: Other
+  create_time: 20180201T17:06:00
+  id: 1078840
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/espresso fails to build'
+- component: Mono
+  create_time: 20180201T17:05:00
+  id: 1078839
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/nant fails to build'
+- component: Other
+  create_time: 20180201T17:04:00
+  id: 1078838
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/geda-gaf fails to build'
+- component: Other
+  create_time: 20180201T16:59:00
+  id: 1078835
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/perl-App-perlbrew fails to build'
+- component: Other
+  create_time: 20180201T16:57:00
+  id: 1078834
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/gloox fails to build'
+- component: Other
+  create_time: 20180201T16:56:00
+  id: 1078833
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/scilab fails to build'
+- component: Other
+  create_time: 20180201T16:55:00
+  id: 1078832
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/dita-ot fails to build'
+- component: Other
+  create_time: 20180201T16:52:00
+  id: 1078830
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/imagej fails to build'
+- component: Other
+  create_time: 20180201T16:51:00
+  id: 1078829
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/bulk_extractor fails to build'
+- component: OpenStack
+  create_time: 20180201T16:47:00
+  id: 1078827
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/python-taskflow fails to build'
+- component: Other
+  create_time: 20180201T16:46:00
+  id: 1078826
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/python-ZODB3 fails to build'
+- component: Other
+  create_time: 20180201T16:45:00
+  id: 1078824
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/openfst fails to build'
+- component: Other
+  create_time: 20180201T16:44:00
+  id: 1078823
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/kterm fails to build'
+- component: Other
+  create_time: 20180201T16:39:00
+  id: 1078822
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/sks fails to build'
+- component: KDE Applications
+  create_time: 20180201T15:58:00
+  id: 1078811
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: Print kipi-plugins not working in gwenview
+- component: X.Org
+  create_time: 20180201T14:07:00
+  id: 1078783
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: No graphical boot after upgrade
+- component: Other
+  create_time: 20180201T10:49:00
+  id: 1078736
+  resolution: FIXED
+  status: RESOLVED
+  summary: notepadqq mis-detects Qt 5.10
+- component: Installation
+  create_time: 20180201T08:59:00
+  id: 1078716
+  resolution: ''
+  status: CONFIRMED
+  summary: Kubic Installation -- Calling the YaST module inst_casp_overview has failed
+- component: YaST2
+  create_time: 20180201T08:57:00
+  id: 1078715
+  resolution: FIXED
+  status: RESOLVED
+  summary: Cannot work Yast
+- component: YaST2
+  create_time: 20180201T08:17:00
+  id: 1078708
+  resolution: ''
+  status: NEW
+  summary: yast brocken  bootloader
+'20180202':
+- component: Basesystem
+  create_time: 20180202T23:09:00
+  id: 1079191
+  resolution: ''
+  status: NEW
+  summary: Install blocked by disk space warning - assumes boot only has 16MB - yast
+    is ignoring unused disc space
+- component: Virtualization:Other
+  create_time: 20180202T19:37:00
+  id: 1079164
+  resolution: ''
+  status: NEW
+  summary: DNS does not appear to be working when using QEMU User Networking (SLIRP)
+- component: YaST2
+  create_time: 20180202T16:56:00
+  id: 1079130
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Yast reporting "Missing device for /boot with size equal or bigger than
+    100 MiB ..." on RAID1
+- component: Other
+  create_time: 20180202T14:32:00
+  id: 1079110
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/qore-asn1-module fails to build'
+- component: Other
+  create_time: 20180202T14:31:00
+  id: 1079108
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/rdesktop fails to build'
+- component: Other
+  create_time: 20180202T14:31:00
+  id: 1079107
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/tcpflow fails to build'
+- component: Other
+  create_time: 20180202T14:29:00
+  id: 1079106
+  resolution: ''
+  status: CONFIRMED
+  summary: 'FTBFS: openSUSE:Factory/bam fails to build'
+- component: Other
+  create_time: 20180202T14:29:00
+  id: 1079104
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/ldc fails to build'
+- component: Other
+  create_time: 20180202T14:25:00
+  id: 1079101
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/opensc fails to build'
+- component: YaST2
+  create_time: 20180202T11:50:00
+  id: 1079049
+  resolution: ''
+  status: NEW
+  summary: Packet yast2-trans should be build with the newest translations
+- component: libzypp
+  create_time: 20180202T09:32:00
+  id: 1079020
+  resolution: ''
+  status: NEW
+  summary: zypper up is missing '--from' option
+- component: libzypp
+  create_time: 20180202T09:24:00
+  id: 1079017
+  resolution: ''
+  status: NEW
+  summary: 'zypper: option ''--from'' has no auto-completion'
+- component: Kubic
+  create_time: 20180202T09:12:00
+  id: 1079011
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: transactional-update shell fails to create snapshot
+- component: Kubic
+  create_time: 20180202T08:40:00
+  id: 1079000
+  resolution: ''
+  status: CONFIRMED
+  summary: Missing readonly option in fstab
+- component: YaST2
+  create_time: 20180202T08:34:00
+  id: 1078997
+  resolution: FIXED
+  status: RESOLVED
+  summary: libstorage-ng  fails to build on armv6 and armv7
+'20180203':
+- component: Network
+  create_time: 20180204T19:36:00
+  id: 1079249
+  resolution: ''
+  status: NEW
+  summary: Network cable is not longer recognized after sleep mode.
+- component: Development
+  create_time: 20180204T09:47:00
+  id: 1079232
+  resolution: INVALID
+  status: RESOLVED
+  summary: python macros use incorrect python version number
+- component: Other
+  create_time: 20180204T09:23:00
+  id: 1079230
+  resolution: ''
+  status: NEW
+  summary: Latest Chromium (64.0) breaks gotomeeting chat and screen sharing, timezone
+    undefined
+- component: Sound
+  create_time: 20180203T16:53:00
+  id: 1079224
+  resolution: FIXED
+  status: RESOLVED
+  summary: No sound over HDMI
+- component: Network
+  create_time: 20180203T14:31:00
+  id: 1079219
+  resolution: NORESPONSE
+  status: RESOLVED
+  summary: Getting asked for root password on every boot regarding network (WiFi)
+    setting modifications,
+- component: Kernel
+  create_time: 20180203T13:09:00
+  id: 1079217
+  resolution: ''
+  status: NEW
+  summary: Kernel 4.15 wont boot
+- component: Kernel
+  create_time: 20180203T12:53:00
+  id: 1079216
+  resolution: ''
+  status: NEW
+  summary: No graphical login with kernel-default-4.15.0-1.4.x86_64
+'20180205':
+- component: Xen
+  create_time: 20180205T23:01:00
+  id: 1079448
+  resolution: ''
+  status: CONFIRMED
+  summary: 'Oops: 0003 [#1] PREEMPT SMP NOPTI'
+- component: Installation
+  create_time: 20180205T19:48:00
+  id: 1079435
+  resolution: ''
+  status: NEW
+  summary: cannot install on PowerMac G5 - yast requires a PReP partition on non-PReP
+    compliant system
+- component: Kernel
+  create_time: 20180205T17:27:00
+  id: 1079416
+  resolution: ''
+  status: NEW
+  summary: Kernel 4.15 causing lock-up at shutdown
+- component: Kernel
+  create_time: 20180205T16:55:00
+  id: 1079402
+  resolution: ''
+  status: NEW
+  summary: Nouveau breaks with screenlog on 4.15.0
+- component: Other
+  create_time: 20180205T16:50:00
+  id: 1079400
+  resolution: ''
+  status: NEW
+  summary: 389-ds upgrade to 1.3.4 breaks existing LDAP setups
+- component: Basesystem
+  create_time: 20180205T14:53:00
+  id: 1079375
+  resolution: ''
+  status: NEW
+  summary: Btrfs filesystem corrupted beyond repair after aborted balancing
+- component: Basesystem
+  create_time: 20180205T12:01:00
+  id: 1079342
+  resolution: FIXED
+  status: RESOLVED
+  summary: Add back provides into libpng16 package
+- component: Bootloader
+  create_time: 20180205T11:05:00
+  id: 1079332
+  resolution: ''
+  status: NEW
+  summary: 40_custom renamed to 40_custom.rpmsave during update
+- component: Bootloader
+  create_time: 20180205T11:00:00
+  id: 1079330
+  resolution: FIXED
+  status: RESOLVED
+  summary: /usr/sbin/grub2-check-default error since last update to 20180202
+- component: GNOME
+  create_time: 20180205T10:16:00
+  id: 1079320
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180203] openQA test fails in NM_wpa2_enterprise'
+- component: Kernel
+  create_time: 20180205T08:47:00
+  id: 1079304
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180203] kdump failure: cannot resolve ''init_task_union'''
+- component: AutoYaST
+  create_time: 20180205T08:41:00
+  id: 1079301
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'Installation error: missing ''/'' mount point'
+- component: Basesystem
+  create_time: 20180205T06:53:00
+  id: 1079286
+  resolution: ''
+  status: NEW
+  summary: python-Markdown lacks dependency on python-setuptools
+- component: X11 Applications
+  create_time: 20180205T04:14:00
+  id: 1079262
+  resolution: FIXED
+  status: RESOLVED
+  summary: Cinnamon uninstallable, missing python-pam dependency
+'20180206':
+- component: Kernel
+  create_time: 20180206T21:53:00
+  id: 1079675
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Integrated Keyboard Deactivated At Swap-Volume Password Prompt
+- component: GNOME
+  create_time: 20180206T21:21:00
+  id: 1079672
+  resolution: ''
+  status: CONFIRMED
+  summary: NetworkManager does not automatically connect to WLAN anymore
+- component: KDE Workspace (Plasma)
+  create_time: 20180206T17:46:00
+  id: 1079653
+  resolution: FIXED
+  status: RESOLVED
+  summary: Can't manage favorites in Application Dashboard
+- component: Basesystem
+  create_time: 20180206T16:11:00
+  id: 1079630
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'glibc-locale: localized numbers use U+202F Narrow No-Break Space'
+- component: X.Org
+  create_time: 20180206T14:45:00
+  id: 1079607
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 15.0B & TW20180203 Xorg terminates with error if Composite is disabled
+- component: KDE Workspace (Plasma)
+  create_time: 20180206T11:23:00
+  id: 1079553
+  resolution: FIXED
+  status: RESOLVED
+  summary: Thinkpad T460 Microphone mute key no longer works on KDE
+- component: X.Org
+  create_time: 20180206T10:57:00
+  id: 1079547
+  resolution: ''
+  status: CONFIRMED
+  summary: 'amdgpu/Polaris11: Wrong low resolution after running xrandr or switching
+    off/on monitor'
+- component: Basesystem
+  create_time: 20180206T10:26:00
+  id: 1079543
+  resolution: FIXED
+  status: RESOLVED
+  summary: no cursor keys in midnight commander
+- component: YaST2
+  create_time: 20180206T10:22:00
+  id: 1079541
+  resolution: FIXED
+  status: RESOLVED
+  summary: Wrong rpm-requires in yast2-storage-ng package
+- component: Basesystem
+  create_time: 20180206T09:48:00
+  id: 1079527
+  resolution: ''
+  status: NEW
+  summary: kdump should not depend on general dracut configuration
+- component: X.Org
+  create_time: 20180206T02:07:00
+  id: 1079465
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Application: ksmserver-logout-greeter (ksmserver-logout-greeter), signal:
+    Segmentation fault'
+'20180207':
+- component: Other
+  create_time: 20180207T22:31:00
+  id: 1079938
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[glibc2.27] ffado fails to build'
+- component: X.Org
+  create_time: 20180207T21:45:00
+  id: 1079931
+  resolution: FIXED
+  status: RESOLVED
+  summary: login leads to white screen after "Starting X Display manager"
+- component: Kubic
+  create_time: 20180207T21:19:00
+  id: 1079926
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[20180206] Transactional update fails in oenQA test suite'
+- component: KDE Applications
+  create_time: 20180207T20:50:00
+  id: 1079923
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: konsole backspace
+- component: GNOME
+  create_time: 20180207T19:12:00
+  id: 1079913
+  resolution: ''
+  status: NEW
+  summary: "The program \u201Ctransmission\u201D does not display an application window."
+- component: Kernel
+  create_time: 20180207T17:26:00
+  id: 1079899
+  resolution: ''
+  status: NEW
+  summary: 4.15 AMD DC not ready for mainstream but enabled by default - causes flickering
+    and backtraces in dmesg
+- component: Basesystem
+  create_time: 20180207T17:26:00
+  id: 1079898
+  resolution: ''
+  status: NEW
+  summary: split out sssd_pac out of sssd_ad
+- component: KDE Workspace (Plasma)
+  create_time: 20180207T17:11:00
+  id: 1079891
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: After recent upgrade SDDM & KDE not-functional
+- component: X.Org
+  create_time: 20180207T16:23:00
+  id: 1079878
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'Tumbleweed: Plasmashell 5.11.95 crash at startup after installing Mesa
+    18.0.0-187.1'
+- component: X.Org
+  create_time: 20180207T15:07:00
+  id: 1079863
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Mesa related packages in Tumbleweed-Update are lethal!
+- component: Kernel
+  create_time: 20180207T15:02:00
+  id: 1079862
+  resolution: ''
+  status: CONFIRMED
+  summary: with kernel 4.15.0 touchpad is dead after resume
+- component: YaST2
+  create_time: 20180207T14:45:00
+  id: 1079855
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[glibc2.27] libstorage-ng fails test suite'
+- component: Printing
+  create_time: 20180207T14:43:00
+  id: 1079854
+  resolution: ''
+  status: NEW
+  summary: systemd starts avahi although it has been disabled
+- component: Other
+  create_time: 20180207T14:41:00
+  id: 1079853
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[glibc2.27] libraw fails to build'
+- component: Basesystem
+  create_time: 20180207T14:10:00
+  id: 1079842
+  resolution: FIXED
+  status: RESOLVED
+  summary: Error during installation of openSUSE-release without recommends
+- component: Other
+  create_time: 20180207T13:47:00
+  id: 1079838
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[glibc2.27] kbuild fails to build'
+- component: Other
+  create_time: 20180207T13:44:00
+  id: 1079837
+  resolution: ''
+  status: NEW
+  summary: '[glibc2.27] guile fails to build'
+- component: X.Org
+  create_time: 20180207T13:31:00
+  id: 1079830
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[glibc2.27] libxshmfence fails to build'
+- component: KDE Workspace (Plasma)
+  create_time: 20180207T11:22:00
+  id: 1079804
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: No actual display image in KDE after last TW update
+- component: Kernel
+  create_time: 20180207T10:08:00
+  id: 1079786
+  resolution: FIXED
+  status: RESOLVED
+  summary: wpa supplicant cant authenticate
+- component: X.Org
+  create_time: 20180207T09:55:00
+  id: 1079782
+  resolution: ''
+  status: NEW
+  summary: Upgrade from 20180202 to 20180203 breaks FreeCAD
+- component: YaST2
+  create_time: 20180207T09:50:00
+  id: 1079780
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20180206] openQA test fails in grub_test because missing line in
+    grub menu about snapshot'
+- component: Virtualization:Other
+  create_time: 20180207T08:45:00
+  id: 1079762
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'VirtualBox vboxpci: IOMMU not found (not registered)'
+- component: Other
+  create_time: 20180207T08:44:00
+  id: 1079761
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[glibc2.27] python3-base fails to build'
+- component: Other
+  create_time: 20180207T08:31:00
+  id: 1079757
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[glibc2.27] postgresql10 fails to build'
+- component: Basesystem
+  create_time: 20180207T08:28:00
+  id: 1079756
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[glibc2.27] xfsprogs fails to build'
+- component: Basesystem
+  create_time: 20180207T08:26:00
+  id: 1079754
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[glibc2.27] systemd fails to build'
+- component: Basesystem
+  create_time: 20180207T08:24:00
+  id: 1079753
+  resolution: ''
+  status: NEW
+  summary: '[tracker bug] glibc 2.27 related build failures'
+- component: X.Org
+  create_time: 20180207T07:47:00
+  id: 1079748
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: TW20180203 - SDDM white login screen
+- component: Kernel
+  create_time: 20180207T07:43:00
+  id: 1079747
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Kernel 4.15 seems often to stall the OBS workers
+- component: KDE Workspace (Plasma)
+  create_time: 20180207T05:01:00
+  id: 1079718
+  resolution: ''
+  status: NEW
+  summary: bottom toolbar missing when I boot with external display
+'20180208':
+- component: Basesystem
+  create_time: 20180208T23:50:00
+  id: 1080192
+  resolution: ''
+  status: NEW
+  summary: gcc doesn't work when bash isn't the login shell
+- component: Kernel
+  create_time: 20180208T22:35:00
+  id: 1080177
+  resolution: ''
+  status: NEW
+  summary: Kernel 4.15.* doesn't bot any more  on a Lenovo L450 i5-5200U
+- component: KDE Workspace (Plasma)
+  create_time: 20180208T16:56:00
+  id: 1080118
+  resolution: ''
+  status: NEW
+  summary: sqlite segfault when searching app menu
+- component: Basesystem
+  create_time: 20180208T16:30:00
+  id: 1080108
+  resolution: ''
+  status: CONFIRMED
+  summary: Drop openSUSE-release-mini
+- component: Kernel
+  create_time: 20180208T13:02:00
+  id: 1080065
+  resolution: INVALID
+  status: RESOLVED
+  summary: bumblebeed tainted (disabling already disabled device)
+- component: GNOME
+  create_time: 20180208T12:36:00
+  id: 1080061
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[glibc2.27] flatpak fails to build'
+- component: X.Org
+  create_time: 20180208T11:24:00
+  id: 1080045
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Graphical login shows white screen after upgrade
+- component: YaST2
+  create_time: 20180208T10:49:00
+  id: 1080037
+  resolution: ''
+  status: NEW
+  summary: '"yast2 lan list" warns about closing STDIN'
+- component: GNOME
+  create_time: 20180208T09:18:00
+  id: 1080015
+  resolution: ''
+  status: CONFIRMED
+  summary: Mouse unusable under Wayland
+- component: KDE Workspace (Plasma)
+  create_time: 20180208T08:56:00
+  id: 1080008
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: After today's update with plasma 5.12 system completely broken
+- component: KDE Workspace (Plasma)
+  create_time: 20180208T08:55:00
+  id: 1080007
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Plasma won't load after last update as at 8/2/2018
+- component: KDE Workspace (Plasma)
+  create_time: 20180208T08:09:00
+  id: 1079996
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[glibc2.27] kdebase4-runtime fails to build'
+- component: libzypp
+  create_time: 20180208T07:45:00
+  id: 1079991
+  resolution: ''
+  status: NEW
+  summary: '`zypper ps -s` reports that "running processes use deleted files" immediately
+    after start'
+'20180209':
+- component: Other
+  create_time: 20180209T16:39:00
+  id: 1080341
+  resolution: ''
+  status: NEW
+  summary: tilda is crashing in wayland session
+- component: YaST2
+  create_time: 20180209T16:08:00
+  id: 1080332
+  resolution: FIXED
+  status: RESOLVED
+  summary: yast-iplb does not follow translatability rules
+- component: YaST2
+  create_time: 20180209T15:22:00
+  id: 1080322
+  resolution: FIXED
+  status: RESOLVED
+  summary: yast crashes when starting software management
+- component: Other
+  create_time: 20180209T14:55:00
+  id: 1080313
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: some keys stops working in Midnight Commander in gnome-terminal with latest
+    updates
+- component: AutoYaST
+  create_time: 20180209T14:49:00
+  id: 1080309
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20180207] autoyast: create btrfssubvolume failed'
+- component: Basesystem
+  create_time: 20180209T13:13:00
+  id: 1080293
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: screen-256color stopped working with update to terminfo 6.1
+- component: KDE Applications
+  create_time: 20180209T11:46:00
+  id: 1080284
+  resolution: ''
+  status: NEW
+  summary: kjots crashes with symbol lookup error
+- component: Installation
+  create_time: 20180209T10:29:00
+  id: 1080272
+  resolution: FEATURE
+  status: RESOLVED
+  summary: Installation removes other opensuse EFI entries
+- component: KDE Workspace (Plasma)
+  create_time: 20180209T10:09:00
+  id: 1080266
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: SDDM is blank and KDE Plasma fail to load after latest upgrade to 5.12
+- component: X11 Applications
+  create_time: 20180209T08:50:00
+  id: 1080244
+  resolution: ''
+  status: IN_PROGRESS
+  summary: conflict of liberation-fonts and liberation2-fonts
+'20180210':
+- component: X11 Applications
+  create_time: 20180211T23:36:00
+  id: 1080494
+  resolution: ''
+  status: NEW
+  summary: fvwm2 missing alternatives configuration
+- component: X11 Applications
+  create_time: 20180211T23:31:00
+  id: 1080493
+  resolution: ''
+  status: NEW
+  summary: Display Manager sddm seems to not read proper Window Manager
+- component: X.Org
+  create_time: 20180211T21:33:00
+  id: 1080492
+  resolution: FIXED
+  status: RESOLVED
+  summary: GL errors from wine after latest update to Mesa 18 with radeon driver
+- component: Basesystem
+  create_time: 20180211T20:38:00
+  id: 1080490
+  resolution: ''
+  status: NEW
+  summary: /usr/lib/cron/run-crons miscalculates cron.daily triggers
+- component: Installation
+  create_time: 20180211T19:53:00
+  id: 1080489
+  resolution: ''
+  status: NEW
+  summary: Installation of Tumbleweed fails with DeviceRealDisk for Storage:Module
+- component: Development
+  create_time: 20180211T19:35:00
+  id: 1080488
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Updating to libLLVM5 5.0.1-4.2 makes KDE unusable
+- component: Basesystem
+  create_time: 20180211T17:37:00
+  id: 1080485
+  resolution: ''
+  status: NEW
+  summary: 'dracut: device mapper cannot be disassembled  on shutdown'
+- component: Network
+  create_time: 20180211T14:05:00
+  id: 1080483
+  resolution: ''
+  status: NEW
+  summary: Network Manager fails to start network connection following resume from
+    hibernate
+- component: Network
+  create_time: 20180211T14:02:00
+  id: 1080482
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Network Manager fails to start network connection following resume from
+    hibernate
+- component: Network
+  create_time: 20180211T14:00:00
+  id: 1080481
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Network Manager fails to start network connection following resume from
+    hibernate
+- component: YaST2
+  create_time: 20180211T11:40:00
+  id: 1080468
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: YaST Boot loader section fails to start due to Cyrillic (Russian) regional
+    settings
+- component: Other
+  create_time: 20180211T06:33:00
+  id: 1080459
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'drbd: fail to build drbd on the latest kernel 4.15.0'
+- component: Kernel
+  create_time: 20180211T04:10:00
+  id: 1080455
+  resolution: ''
+  status: NEW
+  summary: 'tpm tpm0: [Hardware Error]'
+- component: KDE Workspace (Plasma)
+  create_time: 20180211T04:08:00
+  id: 1080454
+  resolution: ''
+  status: NEW
+  summary: Wayland KDE Session can spin the cube, but all desktops are black. AMD
+    A-Series APU.
+- component: Kernel
+  create_time: 20180211T04:03:00
+  id: 1080453
+  resolution: ''
+  status: NEW
+  summary: 'ACPI Warning: SystemIO range errors'
+- component: Kernel
+  create_time: 20180211T03:57:00
+  id: 1080452
+  resolution: ''
+  status: NEW
+  summary: Broadcom chipset 43228 intermittently disconnecting
+- component: Kernel
+  create_time: 20180211T01:24:00
+  id: 1080449
+  resolution: ''
+  status: IN_PROGRESS
+  summary: HiKey 960 fails to find rootfs on SD card - Hi6421 PMU missing
+- component: KDE Workspace (Plasma)
+  create_time: 20180210T21:21:00
+  id: 1080447
+  resolution: ''
+  status: NEW
+  summary: Qt Wayland does not support xdg-shell v6 window states
+- component: Development
+  create_time: 20180210T20:48:00
+  id: 1080446
+  resolution: FIXED
+  status: RESOLVED
+  summary: AppStream spec/appstreamcli misses recommended runtime dependency on curl
+- component: Other
+  create_time: 20180210T19:04:00
+  id: 1080443
+  resolution: ''
+  status: NEW
+  summary: AppCSXCAD cannot find libmpi.so.12
+- component: Other
+  create_time: 20180210T17:39:00
+  id: 1080442
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC] hdf5 Modules File Package needs to be Arch dependent'
+- component: Other
+  create_time: 20180210T12:50:00
+  id: 1080434
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC] scalapack HPC Builds don''t pull in the right Headers'
+- component: Mono
+  create_time: 20180210T09:38:00
+  id: 1080430
+  resolution: ''
+  status: NEW
+  summary: Mono console applications don't work with the update to terminfo 6.1
+- component: KDE Applications
+  create_time: 20180210T08:18:00
+  id: 1080429
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: kolourpaint missing dependency on kdelibs4support
+- component: Other
+  create_time: 20180210T07:26:00
+  id: 1080426
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC] PKG_CONFIG_PATH is not amended by modulefiles although pkgconfig
+    File is present'
+'20180212':
+- component: YaST2
+  create_time: 20180212T21:43:00
+  id: 1080676
+  resolution: ''
+  status: NEW
+  summary: can't launch YaST2
+- component: X11 Applications
+  create_time: 20180212T20:32:00
+  id: 1080670
+  resolution: ''
+  status: NEW
+  summary: DRI not working since kernel 4.15.0
+- component: Upgrade Problems
+  create_time: 20180212T17:50:00
+  id: 1080652
+  resolution: ''
+  status: NEW
+  summary: Upgrade from earlier Tumbleweed version fails with missing package that
+    can't be removed
+- component: Other
+  create_time: 20180212T17:08:00
+  id: 1080646
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/wvstreams fails to build'
+- component: Other
+  create_time: 20180212T17:05:00
+  id: 1080644
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/perl-Text-RecordParser fails to build'
+- component: Other
+  create_time: 20180212T17:01:00
+  id: 1080642
+  resolution: ''
+  status: CONFIRMED
+  summary: 'FTBFS: openSUSE:Factory/espresso fails to build'
+- component: Other
+  create_time: 20180212T17:01:00
+  id: 1080641
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/perl-DBIx-Class-UUIDColumns fails to build'
+- component: Development
+  create_time: 20180212T17:00:00
+  id: 1080640
+  resolution: ''
+  status: NEW
+  summary: ocaml-docs is non-free
+- component: Other
+  create_time: 20180212T17:00:00
+  id: 1080639
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/perl-MouseX-ConfigFromFile fails to build'
+- component: Other
+  create_time: 20180212T17:00:00
+  id: 1080638
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/python-Kivy fails to build'
+- component: Other
+  create_time: 20180212T15:56:00
+  id: 1080624
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/perl-Net-Patricia fails to build'
+- component: Other
+  create_time: 20180212T15:56:00
+  id: 1080623
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/perl-TryCatch  fails to build'
+- component: Other
+  create_time: 20180212T15:55:00
+  id: 1080622
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/perl-Net-Dropbox-API fails to build'
+- component: Other
+  create_time: 20180212T12:24:00
+  id: 1080578
+  resolution: FIXED
+  status: RESOLVED
+  summary: Qt5 creates invalid shaders when glProgramBinary fails
+- component: KDE Workspace (Plasma)
+  create_time: 20180212T10:01:00
+  id: 1080551
+  resolution: FIXED
+  status: RESOLVED
+  summary: Qt 5 packages don't contain debuginfo
+- component: Other
+  create_time: 20180212T09:43:00
+  id: 1080547
+  resolution: FIXED
+  status: RESOLVED
+  summary: google-noto-fonts fails to build on workers with < 7GB disk space
+- component: Samba
+  create_time: 20180212T09:24:00
+  id: 1080545
+  resolution: FIXED
+  status: RESOLVED
+  summary: Update samba to latest upstream bugfix release
+- component: KDE Workspace (Plasma)
+  create_time: 20180212T01:36:00
+  id: 1080495
+  resolution: FIXED
+  status: RESOLVED
+  summary: After a fresh install and doing the first reboot, DE not load, and HDD
+    led do a irregular blink.
+'20180213':
+- component: KDE Workspace (Plasma)
+  create_time: 20180213T17:12:00
+  id: 1080845
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'KCrash: Attempting to start /usr/bin/baloo_file from kdeinit'
+- component: Other
+  create_time: 20180213T16:37:00
+  id: 1080836
+  resolution: ''
+  status: NEW
+  summary: syntax.vim is missing
+- component: Network
+  create_time: 20180213T16:13:00
+  id: 1080832
+  resolution: ''
+  status: NEW
+  summary: Wicked is not acquiring an IPv4 address with DHCP since recent update
+- component: YaST2
+  create_time: 20180213T12:24:00
+  id: 1080795
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20180212] openQA test fails in yast2_ftp'
+- component: Basesystem
+  create_time: 20180213T12:02:00
+  id: 1080793
+  resolution: FIXED
+  status: RESOLVED
+  summary: Update sudo to 1.8.22
+- component: YaST2
+  create_time: 20180213T11:59:00
+  id: 1080792
+  resolution: FIXED
+  status: RESOLVED
+  summary: White background in One-Click Install window
+- component: GNOME
+  create_time: 20180213T10:17:00
+  id: 1080761
+  resolution: ''
+  status: NEW
+  summary: avahi-daemon consuming 100% CPU for hours
+- component: YaST2
+  create_time: 20180213T08:35:00
+  id: 1080731
+  resolution: FIXED
+  status: RESOLVED
+  summary: shim-install fails to executed in post-installation period on UEFI
+'20180214':
+- component: Patterns
+  create_time: 20180214T23:01:00
+  id: 1081072
+  resolution: FIXED
+  status: RESOLVED
+  summary: lamp_server pattern now requires php7
+- component: Basesystem
+  create_time: 20180214T20:55:00
+  id: 1081055
+  resolution: ''
+  status: NEW
+  summary: ACPI problem on MSI GS40 6QE Phantom laptop
+- component: Samba
+  create_time: 20180214T19:04:00
+  id: 1081042
+  resolution: ''
+  status: REOPENED
+  summary: '[glibc2.27] samba fails to build'
+- component: Upgrade Problems
+  create_time: 20180214T16:29:00
+  id: 1081028
+  resolution: ''
+  status: NEW
+  summary: 'wxMaxima : Requerimientos Insatisfactorios. Conflictos. Rompe Sistema.'
+- component: Sound
+  create_time: 20180214T15:54:00
+  id: 1081023
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[glibc2.27] pulseaudio fails to build'
+- component: Kernel
+  create_time: 20180214T15:44:00
+  id: 1081022
+  resolution: ''
+  status: NEW
+  summary: VFAT mount option "iocharset=utf8" breaks filename case sensitivity
+- component: YaST2
+  create_time: 20180214T15:12:00
+  id: 1081018
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST2 errors while installing Tumbleweed (inst_proposal failed, undefined
+    methods and grub problems)
+- component: GNOME
+  create_time: 20180214T15:02:00
+  id: 1081014
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180213] GNUcash fails to start help in a p[asma/wayland session'
+- component: Installation
+  create_time: 20180214T09:54:00
+  id: 1080954
+  resolution: ''
+  status: NEW
+  summary: 'Accessibility: Tab-order inside the graphical installer is mixed'
+- component: Other
+  create_time: 20180214T08:10:00
+  id: 1080922
+  resolution: ''
+  status: NEW
+  summary: GNS3 Version 2.1.3 upgrade required please
+'20180215':
+- component: GNOME
+  create_time: 20180215T17:34:00
+  id: 1081226
+  resolution: ''
+  status: NEW
+  summary: Object Clutter.Clone (0x56545d8e4a80), has been already finalized. Impossible
+    to get any property from it at tweener.js
+- component: GNOME
+  create_time: 20180215T17:07:00
+  id: 1081221
+  resolution: ''
+  status: NEW
+  summary: Xwayland crashing on starting gnome session
+- component: Other
+  create_time: 20180215T16:48:00
+  id: 1081217
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC] conman doesn''t work for non-root user'
+- component: X.Org
+  create_time: 20180215T16:20:00
+  id: 1081210
+  resolution: FIXED
+  status: RESOLVED
+  summary: Don't install vc4 Mesa 3D driver by default
+- component: Network
+  create_time: 20180215T15:30:00
+  id: 1081193
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'openvpn: always to asks for a password (--askpass) and fails'
+- component: Xfce
+  create_time: 20180215T15:06:00
+  id: 1081189
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'For consideration: thunarx-python dependson python-gnome'
+- component: KDE Workspace (Plasma)
+  create_time: 20180215T13:34:00
+  id: 1081172
+  resolution: ''
+  status: NEW
+  summary: TW 20180213 Fresh Install, Wi-Fi not autoconnect
+- component: KVM
+  create_time: 20180215T11:17:00
+  id: 1081154
+  resolution: ''
+  status: NEW
+  summary: '[glibc2.27] qemu fails to build'
+- component: Other
+  create_time: 20180215T10:45:00
+  id: 1081150
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: perl-DBIx-Class-InflateColumn-FS falis to build'
+- component: Other
+  create_time: 20180215T10:39:00
+  id: 1081149
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: cross-avr-gcc7 is currently unbuildable'
+- component: Other
+  create_time: 20180215T10:34:00
+  id: 1081147
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: creduce is ''unresolvable'''
+- component: YaST2
+  create_time: 20180215T08:24:00
+  id: 1081118
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[glibc2.27] yast2-control-center fails to build'
+- component: Other
+  create_time: 20180215T05:56:00
+  id: 1081099
+  resolution: ''
+  status: NEW
+  summary: Package Mypaint is broken
+- component: Basesystem
+  create_time: 20180215T04:40:00
+  id: 1081094
+  resolution: ''
+  status: NEW
+  summary: terminfo-dependent apps break when $TERM=xterm-256color
+'20180216':
+- component: Kernel
+  create_time: 20180217T23:59:00
+  id: 1081442
+  resolution: INVALID
+  status: RESOLVED
+  summary: Moki Exo Prime Headphones Bluetooth driver needed
+- component: YaST2
+  create_time: 20180217T21:58:00
+  id: 1081441
+  resolution: ''
+  status: NEW
+  summary: openSUSE TW installer catastrophe message directs new bug report be filed
+    at bugzilla.suse.com
+- component: KDE Workspace (Plasma)
+  create_time: 20180217T20:27:00
+  id: 1081438
+  resolution: ''
+  status: NEW
+  summary: windows/dialogs from panel sometimes open iconified
+- component: Basesystem
+  create_time: 20180217T15:55:00
+  id: 1081434
+  resolution: FIXED
+  status: RESOLVED
+  summary: Btrfs subvolume for /var/lib/docker
+- component: KDE Applications
+  create_time: 20180217T15:43:00
+  id: 1081433
+  resolution: ''
+  status: NEW
+  summary: akregator no longer shows the content / html render widget
+- component: GNOME
+  create_time: 20180217T11:28:00
+  id: 1081430
+  resolution: ''
+  status: NEW
+  summary: 'TW 20180214 NetworkManager segv Segmentation fault. #0  0x0000555cae32f7a3
+    in nm_connection_clear_secrets (connection=connection@entry=0x6c00000001) at libnm-core/nm-connection.c:1662'
+- component: Other
+  create_time: 20180217T08:34:00
+  id: 1081427
+  resolution: ''
+  status: NEW
+  summary: 'openSUSE-Tumbleweed-ARM-JeOS-efi.armv7l-2018.02.14: mount: /fs-resize:
+    unknown filesystem type ''btrfs'''
+- component: Bootloader
+  create_time: 20180217T02:41:00
+  id: 1081425
+  resolution: ''
+  status: REOPENED
+  summary: grub 2 don't display snapshot entry
+- component: Kernel
+  create_time: 20180217T00:19:00
+  id: 1081420
+  resolution: ''
+  status: NEW
+  summary: 'b43-phy0: Loading firmware version 784.2 (2012-08-15 21:35:19) repeated
+    more than once on boot'
+- component: Other
+  create_time: 20180216T13:28:00
+  id: 1081350
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/openbabel fails to build'
+- component: Other
+  create_time: 20180216T13:16:00
+  id: 1081347
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/h323plus fails to build'
+- component: Basesystem
+  create_time: 20180216T12:08:00
+  id: 1081335
+  resolution: ''
+  status: CONFIRMED
+  summary: Rename openssl-1_1_0 package to reflect SO number of the 1.1.x branch
+- component: Live Medium
+  create_time: 20180216T11:19:00
+  id: 1081328
+  resolution: INVALID
+  status: RESOLVED
+  summary: '[Build 20180214] GRUB2 Bootloader / kiwi: no spaces allowed in display
+    name'
+- component: Other
+  create_time: 20180216T08:27:00
+  id: 1081292
+  resolution: ''
+  status: NEW
+  summary: 'sysdig-kmp-default: error messages during installation ''zypper dup'''
+- component: Virtualization:Other
+  create_time: 20180216T05:55:00
+  id: 1081281
+  resolution: ''
+  status: NEW
+  summary: VirtualBox video capture is buggy in version 5.2.6
+'20180218':
+- component: Other
+  create_time: 20180218T23:49:00
+  id: 1081479
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC, genders] Applicactions using libgenders et.al. don''t see ''genders''
+    config file.'
+- component: Other
+  create_time: 20180218T21:52:00
+  id: 1081478
+  resolution: ''
+  status: NEW
+  summary: Package "paperwork" has incorrect dependencies, failed to start initially
+- component: Other
+  create_time: 20180218T19:11:00
+  id: 1081476
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: sudo displays invalid character %{p} in the password prompt
+- component: Kernel
+  create_time: 20180218T17:44:00
+  id: 1081473
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Nvidia Jetson TX1 does not boot from SD on Tumbleweed
+- component: Basesystem
+  create_time: 20180218T16:53:00
+  id: 1081471
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: sudo 1.8.22-1.1 Password Prompt Does Not Expand Username
+- component: Basesystem
+  create_time: 20180218T16:45:00
+  id: 1081470
+  resolution: FIXED
+  status: RESOLVED
+  summary: Sudo's Password Prompt Contains String Instead of Root
+- component: KDE Workspace (Plasma)
+  create_time: 20180218T14:41:00
+  id: 1081469
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'tumbleweed/4.15.4-1.g7169cf1-default/KDE4: user change failing, program
+    start only with konsole'
+- component: Kernel
+  create_time: 20180218T10:10:00
+  id: 1081451
+  resolution: ''
+  status: NEW
+  summary: resume from hibernate - nic comes up too late
+- component: Kernel
+  create_time: 20180218T07:06:00
+  id: 1081450
+  resolution: ''
+  status: NEW
+  summary: <During shutdown system locks with NMI
+- component: X.Org
+  create_time: 20180218T03:14:00
+  id: 1081449
+  resolution: INVALID
+  status: RESOLVED
+  summary: Impossible to get rid of Mesa-dri-nouveau
+- component: Installation
+  create_time: 20180218T02:16:00
+  id: 1081448
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Calling the YaST module 'inst_proposal' has failed.
+- component: LibreOffice
+  create_time: 20180218T01:55:00
+  id: 1081447
+  resolution: ''
+  status: NEW
+  summary: Libreoffice 6.0.1 crashes while loading app
+- component: Other
+  create_time: 20180218T01:53:00
+  id: 1081445
+  resolution: ''
+  status: NEW
+  summary: Plank Not Dodging Fullscreen Windows
+- component: Installation
+  create_time: 20180218T01:15:00
+  id: 1081444
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: /usr/local disappeared from predefined mount points
+'20180219':
+- component: YaST2
+  create_time: 20180219T19:35:00
+  id: 1081643
+  resolution: ''
+  status: NEW
+  summary: install from root checkbox option is missing from grub2 module in TW
+- component: AutoYaST
+  create_time: 20180219T18:14:00
+  id: 1081640
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Remote Installation of TW fails while retrieving system-user-root
+- component: Kubic
+  create_time: 20180219T16:04:00
+  id: 1081620
+  resolution: ''
+  status: NEW
+  summary: bnx2 driver fails to load - [kubic-20180218]
+- component: Containers
+  create_time: 20180219T15:48:00
+  id: 1081613
+  resolution: ''
+  status: NEW
+  summary: iptables-restore invalid option in kube-proxy
+- component: Other
+  create_time: 20180219T15:31:00
+  id: 1081608
+  resolution: ''
+  status: NEW
+  summary: '[PM] vlc 3.0.0-5.3 (openSUSE Tumbleweed/x86_64): x265 not enabled'
+- component: Bootloader
+  create_time: 20180219T14:10:00
+  id: 1081577
+  resolution: ''
+  status: NEW
+  summary: uefi grub2 fails to find Tumbleweed after installatation w/ existing Fedora
+    partition
+- component: Other
+  create_time: 20180219T13:27:00
+  id: 1081562
+  resolution: FIXED
+  status: RESOLVED
+  summary: Update lsof to 4.90
+- component: YaST2
+  create_time: 20180219T09:03:00
+  id: 1081517
+  resolution: ''
+  status: NEW
+  summary: Poor support of icons in YaST
+- component: Installation
+  create_time: 20180219T08:42:00
+  id: 1081508
+  resolution: ''
+  status: NEW
+  summary: '[Build20180214] Online repos are not disabled in the installed system
+    regardless of disabling in the settings'
+- component: Kernel
+  create_time: 20180219T07:52:00
+  id: 1081499
+  resolution: ''
+  status: NEW
+  summary: '''virsh start myvm'' results in 100%CPU load and "Guest has not initialized
+    the display (yet)."'
+- component: Other
+  create_time: 20180219T07:01:00
+  id: 1081494
+  resolution: ''
+  status: NEW
+  summary: 'traps: http.so errors found - please investigate'
+'20180220':
+- component: Development
+  create_time: 20180220T20:31:00
+  id: 1081871
+  resolution: ''
+  status: NEW
+  summary: mbedtls does not build in 2020
+- component: Virtualization:Other
+  create_time: 20180220T18:46:00
+  id: 1081856
+  resolution: FIXED
+  status: RESOLVED
+  summary: virtualbox-vnc should require libvncserver
+- component: Kubic
+  create_time: 20180220T16:41:00
+  id: 1081832
+  resolution: ''
+  status: NEW
+  summary: wrong login message - /etc/issue to be updated [kubic-20180218]
+- component: Development
+  create_time: 20180220T13:44:00
+  id: 1081754
+  resolution: ''
+  status: CONFIRMED
+  summary: 'trackerbug: packages do not build reproducibly'
+- component: Other
+  create_time: 20180220T13:24:00
+  id: 1081750
+  resolution: ''
+  status: NEW
+  summary: python tarfile uses random order
+- component: KDE Applications
+  create_time: 20180220T12:23:00
+  id: 1081743
+  resolution: ''
+  status: NEW
+  summary: filesystem /sys/fs/cgroup became full
+- component: Firefox
+  create_time: 20180220T10:49:00
+  id: 1081723
+  resolution: ''
+  status: NEW
+  summary: mozilla-nss package does not build reproducibly from shlibsign
+- component: Development
+  create_time: 20180220T08:10:00
+  id: 1081686
+  resolution: ''
+  status: NEW
+  summary: rename liburiparser1 to uriparser to align with packaging policy
+- component: Other
+  create_time: 20180220T06:26:00
+  id: 1081673
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC, pdsh]  Place each ''host list'' module in a separate package'
+- component: Other
+  create_time: 20180220T05:24:00
+  id: 1081662
+  resolution: ''
+  status: NEW
+  summary: Automount Removal Storage Media Broken
+- component: Installation
+  create_time: 20180220T01:00:00
+  id: 1081653
+  resolution: INVALID
+  status: RESOLVED
+  summary: TW20180218 installation failed to create initrd
+'20180221':
+- component: Basesystem
+  create_time: 20180223T21:26:00
+  id: 1082655
+  resolution: ''
+  status: NEW
+  summary: 'vim: please, provide a /etc/vim.d'
+- component: Installation
+  create_time: 20180223T18:08:00
+  id: 1082622
+  resolution: ''
+  status: NEW
+  summary: No snapper configuration at installation
+- component: Development
+  create_time: 20180223T11:50:00
+  id: 1082532
+  resolution: ''
+  status: IN_PROGRESS
+  summary: record PostgreSQL lifecycle data
+- component: Containers
+  create_time: 20180223T11:33:00
+  id: 1082527
+  resolution: ''
+  status: NEW
+  summary: caasp-container-manifests uninstallable
+- component: YaST2
+  create_time: 20180223T10:09:00
+  id: 1082512
+  resolution: ''
+  status: NEW
+  summary: 'yast / yast 2 -> Software did not start: Failed to load Module ''Packages''
+    due to: Failed to load Module ''SpaceCalculation'''
+- component: GNOME
+  create_time: 20180223T09:51:00
+  id: 1082505
+  resolution: ''
+  status: NEW
+  summary: '[needs-rebase] GNOME Shell 3.27.91 patches need rebase'
+- component: Kernel
+  create_time: 20180223T09:38:00
+  id: 1082504
+  resolution: ''
+  status: NEW
+  summary: Patch file not found ar3k/AthrBT_0x00000200.dfu
+- component: Other
+  create_time: 20180223T06:41:00
+  id: 1082469
+  resolution: ''
+  status: NEW
+  summary: 'python3-gobject: AttributeError: ''ActionGroup'' object has no attribute
+    ''add_actions'''
+- component: KDE Applications
+  create_time: 20180222T23:45:00
+  id: 1082432
+  resolution: ''
+  status: NEW
+  summary: 'Okular crashes when opening pdf files: Poppler symbol lookup error'
+- component: Development
+  create_time: 20180222T21:07:00
+  id: 1082409
+  resolution: ''
+  status: NEW
+  summary: Major regression in usability of go package
+- component: Kernel
+  create_time: 20180222T19:12:00
+  id: 1082387
+  resolution: ''
+  status: NEW
+  summary: RDMA/rxe doesn't work over 802.1q VLAN
+- component: YaST2
+  create_time: 20180222T19:07:00
+  id: 1082386
+  resolution: ''
+  status: NEW
+  summary: Yast2 bootloader module fails due to internal Storage::Exception
+- component: GNOME
+  create_time: 20180222T16:24:00
+  id: 1082345
+  resolution: ''
+  status: NEW
+  summary: '[NEEDS-REBASE] gnome-shell-extensions 3.27.91 patches need rebase'
+- component: Other
+  create_time: 20180222T15:09:00
+  id: 1082318
+  resolution: ''
+  status: NEW
+  summary: Packages must not mark license files as %doc
+- component: X.Org
+  create_time: 20180222T15:02:00
+  id: 1082316
+  resolution: ''
+  status: CONFIRMED
+  summary: 'Mesa: ldconfig run for backend (ICD) drivers'
+- component: X.Org
+  create_time: 20180222T14:57:00
+  id: 1082315
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Mesa: get rid of ncurses-devel BuildRequires?'
+- component: X.Org
+  create_time: 20180222T14:49:00
+  id: 1082312
+  resolution: ''
+  status: CONFIRMED
+  summary: 'Mesa: get rid of libudev, openssl, bison, flex (and python*?) BuildRequires'
+- component: Kernel
+  create_time: 20180222T14:37:00
+  id: 1082308
+  resolution: ''
+  status: NEW
+  summary: 'BUG: unable to handle kernel NULL pointer dereference at 0000000000000040'
+- component: X.Org
+  create_time: 20180222T14:33:00
+  id: 1082307
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Mesa: push u_add_llvm_codegen_dependencies.patch upstream'
+- component: X.Org
+  create_time: 20180222T14:29:00
+  id: 1082306
+  resolution: ''
+  status: CONFIRMED
+  summary: 'Mesa: u_Fix-crash-in-swrast-when-setting-a-texture-for-a-pix.patch'
+- component: X.Org
+  create_time: 20180222T14:26:00
+  id: 1082305
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Mesa: misc Mesa 8.0 patches'
+- component: X.Org
+  create_time: 20180222T14:23:00
+  id: 1082303
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Mesa: push u_mesa-python3-only.patch upstream'
+- component: X.Org
+  create_time: 20180222T14:16:00
+  id: 1082300
+  resolution: ''
+  status: CONFIRMED
+  summary: 'Mesa: get rid of n_VDPAU-XVMC-libs-Replace-hardlinks-with-copies.patch?'
+- component: X.Org
+  create_time: 20180222T14:09:00
+  id: 1082298
+  resolution: ''
+  status: NEW
+  summary: 'Mesa: get rid of n_Disable-AMDGPU-GFX9-Vega-on-LLVM-lessthan-6.0.0.patch?'
+- component: X.Org
+  create_time: 20180222T14:05:00
+  id: 1082297
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Mesa: get rid of n_Define-GLAPIVAR-separate-from-GLAPI.patch?'
+- component: X.Org
+  create_time: 20180222T13:46:00
+  id: 1082292
+  resolution: ''
+  status: CONFIRMED
+  summary: 'Mesa: Integrate feedback of Mesa''s upstream developer(s) into our package'
+- component: Other
+  create_time: 20180222T08:50:00
+  id: 1082235
+  resolution: FIXED
+  status: RESOLVED
+  summary: mozilla-nss 3.35 causes pesign failures
+- component: Upgrade Problems
+  create_time: 20180222T07:59:00
+  id: 1082226
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20180221] Internal error triggered on offline upgrades when selecting
+    the "Booting" section - No such file or directory @ rb_sysopen - /etc/default/grub\nCaller:  /mounts/mp_0001/usr/share/YaST2/lib/yast2/target_file.rb:34:in
+    `read'''
+- component: Sound
+  create_time: 20180221T20:37:00
+  id: 1082123
+  resolution: ''
+  status: NEW
+  summary: Some programs raise system sound volume to very high levels when emitting
+    sound
+- component: Installation
+  create_time: 20180221T19:15:00
+  id: 1082107
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Can't install on EFI partition less than 256MiB
+- component: KDE Workspace (Plasma)
+  create_time: 20180221T19:08:00
+  id: 1082104
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Display brightness won't change using Fn keys
+- component: Live Medium
+  create_time: 20180221T16:11:00
+  id: 1082055
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build 20180220] Live media how wrong branding'
+- component: Basesystem
+  create_time: 20180221T15:40:00
+  id: 1082050
+  resolution: ''
+  status: NEW
+  summary: /usr/lib/modprobe.d is not owned by any package
+- component: Kubic
+  create_time: 20180221T15:04:00
+  id: 1082038
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Restructure skelcd-control-Kubic
+- component: Basesystem
+  create_time: 20180221T14:03:00
+  id: 1082027
+  resolution: ''
+  status: NEW
+  summary: gcc7 can not build clisp even with --enable-portability (no memory/stack
+    changes)
+- component: Basesystem
+  create_time: 20180221T13:43:00
+  id: 1082023
+  resolution: ''
+  status: NEW
+  summary: git send-email fails to authenticate with SMTP server
+- component: Other
+  create_time: 20180221T12:36:00
+  id: 1082002
+  resolution: ''
+  status: NEW
+  summary: 'uwsgi: service fails to start because hard-coded user wwwrun does not
+    exist'
+- component: Kubic
+  create_time: 20180221T11:42:00
+  id: 1081992
+  resolution: ''
+  status: NEW
+  summary: Can no longer define btrfs subvolumes at installation
+- component: Basesystem
+  create_time: 20180221T09:15:00
+  id: 1081947
+  resolution: ''
+  status: IN_PROGRESS
+  summary: PAM module pam_keyinit is still not integrated in the SUSE PAM stack
+- component: Basesystem
+  create_time: 20180221T09:02:00
+  id: 1081941
+  resolution: ''
+  status: NEW
+  summary: OBS cannot build LVM kiwi images due to udev not running
+- component: Ruby
+  create_time: 20180221T08:10:00
+  id: 1081926
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180219]  machinery not installable'
