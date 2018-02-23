@@ -1,0 +1,158 @@
+---
+---
+
+@import "minima";
+
+.post-list {
+  margin-left: 150px;
+
+  > li {
+    min-height: 120px;
+  }
+
+  ul {
+    margin-bottom: 10px;
+  }
+}
+
+.release-meta {
+  float: left;
+  margin-left: -150px;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+
+  &.release-stability-level {
+    &-unknown {
+      background-color: #cccccc;
+      color: #666666;
+    }
+
+    &-pending {
+      background-color: #eeeeee;
+      color: #666666;
+    }
+
+    &-unstable {
+      background-color: #A1D890;
+      color: white;
+    }
+
+    &-moderate{
+      background-color: #70B45A;
+      color: white;
+    }
+
+    &-stable {
+      background-color: #114800;
+      color: white;
+    }
+  }
+
+  border: 6px solid;
+  border-radius: 10px;
+  &.release-available {
+    &-false{
+      border-color: #faebcc;
+    }
+
+    &-true {
+      border-color: #d6e9c6;
+    }
+  }
+
+  .release-score {
+    display: block;
+    font-size: 35pt;
+  }
+}
+
+.release-info {
+  ul {
+    margin-left: 0;
+    margin-top: -10px;
+    list-style: none;
+    background-color: #eeeeee;
+    border: 2px solid #cccccc;
+    border-radius: 3px;
+
+    li {
+      display: inline;
+      padding: 5px 10px;
+      border-right: 1px solid #cccccc;
+    }
+  }
+}
+
+article.post.h-entry {
+  header.post-header {
+    min-height: 130px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+
+    time {
+      display: none;
+    }
+  }
+
+  table {
+    margin-bottom: 15px;
+    width: 500px;
+
+    thead {
+      th {
+        background-color: #cccccc;
+      }
+    }
+
+    tbody {
+      tr {
+        td {
+          padding: 0 10px;
+          background-color: #eeeeee;
+
+          &:nth-child(2) {
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+
+  .release-install, .release-unavailable {
+    margin-top: 50px;
+  }
+}
+
+/* Modified from bootstrap. */
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  &-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+  }
+
+  &-warning {
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    color: #8a6d3b;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  figure.highlight {
+    margin-top: 15px;
+    color: black;
+  }
+
+  figure.highlight, figure.highlight pre {
+    margin-bottom: 0;
+  }
+}

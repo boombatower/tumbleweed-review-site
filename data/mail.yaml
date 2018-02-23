@@ -1,0 +1,460 @@
+'20171201':
+  announcement: 2017-12.74
+  reference_count: 5
+  thread_count: 2
+  threads:
+  - messages: [2017-12.75]
+    reference_count: 1
+    summary: aaa_base blindly replaces /etc/shells -
+  - messages: [2017-12.87]
+    reference_count: 4
+    summary: released! - changes users config for WM and postgresql version
+'20171202':
+  announcement: 2017-12.94
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20171203':
+  announcement: 2017-12.103
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20171204':
+  announcement: 2017-12.115
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20171205':
+  announcement: 2017-12.149
+  reference_count: 11
+  thread_count: 1
+  threads:
+  - messages: [2017-12.159]
+    reference_count: 11
+    summary: Missing virtualbox-host-kmp-default for 4.14.3
+'20171206':
+  announcement: 2017-12.201
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20171210':
+  announcement: 2017-12.214
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20171211':
+  announcement: 2017-12.217
+  reference_count: 5
+  thread_count: 2
+  threads:
+  - messages: [2017-12.218]
+    reference_count: 2
+    summary: Lots of time spent on controlling conflicts between files
+  - messages: [2017-12.221]
+    reference_count: 3
+    summary: ', is this normal? 2064  32bit  locked.'
+'20171212':
+  announcement: 2017-12.231
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20171213':
+  announcement: 2017-12.236
+  reference_count: 8
+  thread_count: 2
+  threads:
+  - messages: [2017-12.240]
+    reference_count: 6
+    summary: released!
+  - messages: [2017-12.243]
+    reference_count: 2
+    summary: breaks nextcloud 12
+'20171214':
+  announcement: 2017-12.246
+  reference_count: 9
+  thread_count: 1
+  threads:
+  - messages: [2017-12.268]
+    reference_count: 9
+    summary: failed to summarize
+'20171215':
+  announcement: 2017-12.254
+  reference_count: 3
+  thread_count: 1
+  threads:
+  - messages: [2017-12.256]
+    reference_count: 3
+    summary: (kernel 4.14.6 crash hard freeze
+'20171216':
+  announcement: 2017-12.265
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20171218':
+  announcement: 2017-12.282
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20171220':
+  announcement: 2017-12.303
+  reference_count: 3
+  thread_count: 2
+  threads:
+  - messages: [2017-12.305]
+    reference_count: 2
+    summary: released! - Changed /etc/alternative manual settings
+  - messages: [2017-12.353]
+    reference_count: 1
+    summary: Firefox menus don't close when focus is lost
+'20171222':
+  announcement: 2017-12.357
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20171223':
+  announcement: 2017-12.437
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages: [2017-12.441]
+    reference_count: 1
+    summary: failed to summarize
+'20171228':
+  announcement: 2017-12.442
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20171229':
+  announcement: 2017-12.452
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages: [2018-01.4]
+    reference_count: 2
+    summary: rfkill man conflict
+'20171230':
+  announcement: 2018-01.2
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20171231':
+  announcement: 2018-01.15
+  reference_count: 15
+  thread_count: 2
+  threads:
+  - messages: [2018-01.18]
+    reference_count: 13
+    summary: no summary given
+  - messages: [2018-01.27]
+    reference_count: 2
+    summary: ', latex and pdflatex broken, can''t find file loadhyph-af.tex'
+'20180101':
+  announcement: 2018-01.36
+  reference_count: 8
+  thread_count: 1
+  threads:
+  - messages: [2018-01.37]
+    reference_count: 8
+    summary: AppArmor changes
+'20180102':
+  announcement: 2018-01.50
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180103':
+  announcement: 2018-01.71
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180104':
+  announcement: 2018-01.90
+  reference_count: 25
+  thread_count: 1
+  threads:
+  - messages: [2018-01.91]
+    reference_count: 25
+    summary: Kernel Panic
+'20180106':
+  announcement: 2018-01.111
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180107':
+  announcement: 2018-01.173
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180109':
+  announcement: 2018-01.206
+  reference_count: 3
+  thread_count: 2
+  threads:
+  - messages: [2018-01.213]
+    reference_count: 1
+    summary: LibreOffice 6.0.0.1 brings libreoffice-kde4 back [
+  - messages: [2018-01.208]
+    reference_count: 2
+    summary: installs dovecot 2.3 which makes dovecot not working
+'20180110':
+  announcement: 2018-01.235
+  reference_count: 11
+  thread_count: 2
+  threads:
+  - messages: [2018-01.239]
+    reference_count: 8
+    summary: no summary given
+  - messages: [2018-01.259]
+    reference_count: 3
+    summary: will not boot
+'20180114':
+  announcement: 2018-01.267
+  reference_count: 9
+  thread_count: 1
+  threads:
+  - messages: [2018-01.268]
+    reference_count: 9
+    summary: stalls on kernel-devel and kernel-source
+'20180116':
+  announcement: 2018-01.300
+  reference_count: 55
+  thread_count: 5
+  threads:
+  - messages: [2018-01.310]
+    reference_count: 2
+    summary: 'xtables-addons: broken'
+  - messages: [2018-01.311, 2018-01.365]
+    reference_count: 18
+    summary: plasma5 splash not going away, needs Mesa-dri installer, dependency issue
+  - messages: [2018-01.315]
+    reference_count: 26
+    summary: ssh -X failing
+  - messages: [2018-01.329]
+    reference_count: 1
+    summary: no summary given
+  - messages: [2018-01.580]
+    reference_count: 8
+    summary: X locks up periodically
+'20180117':
+  announcement: 2018-01.382
+  reference_count: 9
+  thread_count: 1
+  threads:
+  - messages: [2018-01.383]
+    reference_count: 9
+    summary: new requirement bundle-lang-common-ar
+'20180119':
+  announcement: 2018-01.395
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180120':
+  announcement: 2018-01.429
+  reference_count: 21
+  thread_count: 1
+  threads:
+  - messages: [2018-01.449]
+    reference_count: 21
+    summary: Cannot boot
+'20180121':
+  announcement: 2018-01.508
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180122':
+  announcement: 2018-01.558
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages: [2018-01.567]
+    reference_count: 2
+    summary: success with nvidia blob!
+'20180124':
+  announcement: 2018-01.602
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180125':
+  announcement: 2018-01.607
+  reference_count: 7
+  thread_count: 1
+  threads:
+  - messages: [2018-01.622]
+    reference_count: 7
+    summary: ucode-intel
+'20180126':
+  announcement: 2018-01.642
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180127':
+  announcement: 2018-01.664
+  reference_count: 37
+  thread_count: 1
+  threads:
+  - messages: [2018-01.677]
+    reference_count: 37
+    summary: no summary given
+'20180128':
+  announcement: 2018-01.703
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180129':
+  announcement: 2018-01.753
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180130':
+  announcement: 2018-02.0
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180131':
+  announcement: 2018-02.74
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180201':
+  announcement: 2018-02.106
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180202':
+  announcement: 2018-02.153
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180203':
+  announcement: 2018-02.183
+  reference_count: 27
+  thread_count: 7
+  threads:
+  - messages: [2018-02.223]
+    reference_count: 7
+    summary: mouse issues on Wayland
+  - messages: [2018-02.185]
+    reference_count: 3
+    summary: same problem as leap 15 with MBR..
+  - messages: [2018-02.188]
+    reference_count: 1
+    summary: 'ksmserver-logout-greeter, signal: Segmentation fault ..'
+  - messages: [2018-02.189]
+    reference_count: 7
+    summary: (EE) Server terminated with error
+  - messages: [2018-02.190]
+    reference_count: 1
+    summary: kills wireless
+  - messages: [2018-02.196]
+    reference_count: 4
+    summary: Plasmashell doesn't start
+  - messages: [2018-02.235]
+    reference_count: 4
+    summary: touchpad dead after suspend/resume
+'20180205':
+  announcement: 2018-02.216
+  reference_count: 5
+  thread_count: 1
+  threads:
+  - messages: [2018-02.218]
+    reference_count: 5
+    summary: Boot freeze
+'20180206':
+  announcement: 2018-02.246
+  reference_count: 32
+  thread_count: 1
+  threads:
+  - messages: [2018-02.247]
+    reference_count: 32
+    summary: boots to white screen
+'20180207':
+  announcement: 2018-02.305
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages: [2018-02.318]
+    reference_count: 1
+    summary: Boot freeze
+'20180208':
+  announcement: 2018-02.376
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages: [2018-02.387, 2018-02.390]
+    reference_count: 2
+    summary: failed to summarize
+'20180209':
+  announcement: 2018-02.397
+  reference_count: 5
+  thread_count: 1
+  threads:
+  - messages: [2018-02.402, 2018-02.404]
+    reference_count: 5
+    summary: plasma crashing
+'20180210':
+  announcement: 2018-02.439
+  reference_count: 14
+  thread_count: 1
+  threads:
+  - messages: [2018-02.460]
+    reference_count: 14
+    summary: NVidia black screen (and grub...)
+'20180212':
+  announcement: 2018-02.472
+  reference_count: 8
+  thread_count: 1
+  threads:
+  - messages: [2018-02.473]
+    reference_count: 8
+    summary: liberation-fonts2
+'20180213':
+  announcement: 2018-02.521
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180214':
+  announcement: 2018-02.564
+  reference_count: 10
+  thread_count: 1
+  threads:
+  - messages: [2018-02.590]
+    reference_count: 10
+    summary: Boot freeze
+'20180215':
+  announcement: 2018-02.638
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180216':
+  announcement: 2018-02.662
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180218':
+  announcement: 2018-02.711
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180219':
+  announcement: 2018-02.909
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages: [2018-02.913]
+    reference_count: 1
+    summary: libqt5-qtbase removed from Update channel
+'20180220':
+  announcement: 2018-02.917
+  reference_count: 3
+  thread_count: 1
+  threads:
+  - messages: [2018-02.926]
+    reference_count: 3
+    summary: ': ruby deps broke machinery ?'
+'20180221':
+  announcement: 2018-02.977
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages: [2018-02.992]
+    reference_count: 2
+    summary: No more Multi_key in emacs_x11

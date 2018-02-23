@@ -1,0 +1,25 @@
+title: openSUSE Tumbleweed Review
+description: |
+  Summarized data about the changes and stability of Tumbleweed snapshots.
+
+author: Jimmy Berry
+email: jimmy@boombatower.com
+
+url: http://review.tumbleweed.boombatower.com
+baseurl: ""
+
+theme: minima
+minima:
+  date_format: "%Y-%m-%d"
+
+show_excerpts: true
+excerpt_separator: <!--more-->
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - CNAME
+  - LICENSE
+  - README.md
