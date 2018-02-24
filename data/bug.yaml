@@ -4341,6 +4341,94 @@
   status: RESOLVED
   summary: TW20180218 installation failed to create initrd
 '20180221':
+- component: Sound
+  create_time: 20180221T20:37:00
+  id: 1082123
+  resolution: ''
+  status: NEW
+  summary: Some programs raise system sound volume to very high levels when emitting
+    sound
+- component: Installation
+  create_time: 20180221T19:15:00
+  id: 1082107
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Can't install on EFI partition less than 256MiB
+- component: KDE Workspace (Plasma)
+  create_time: 20180221T19:08:00
+  id: 1082104
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Display brightness won't change using Fn keys
+- component: Live Medium
+  create_time: 20180221T16:11:00
+  id: 1082055
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build 20180220] Live media how wrong branding'
+- component: Basesystem
+  create_time: 20180221T15:40:00
+  id: 1082050
+  resolution: ''
+  status: NEW
+  summary: /usr/lib/modprobe.d is not owned by any package
+- component: Kubic
+  create_time: 20180221T15:04:00
+  id: 1082038
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Restructure skelcd-control-Kubic
+- component: Basesystem
+  create_time: 20180221T14:03:00
+  id: 1082027
+  resolution: ''
+  status: NEW
+  summary: gcc7 can not build clisp even with --enable-portability (no memory/stack
+    changes)
+- component: Basesystem
+  create_time: 20180221T13:43:00
+  id: 1082023
+  resolution: ''
+  status: NEW
+  summary: git send-email fails to authenticate with SMTP server
+- component: Other
+  create_time: 20180221T12:36:00
+  id: 1082002
+  resolution: ''
+  status: NEW
+  summary: 'uwsgi: service fails to start because hard-coded user wwwrun does not
+    exist'
+- component: Kubic
+  create_time: 20180221T11:42:00
+  id: 1081992
+  resolution: ''
+  status: NEW
+  summary: Can no longer define btrfs subvolumes at installation
+- component: Basesystem
+  create_time: 20180221T09:15:00
+  id: 1081947
+  resolution: ''
+  status: IN_PROGRESS
+  summary: PAM module pam_keyinit is still not integrated in the SUSE PAM stack
+- component: Basesystem
+  create_time: 20180221T09:02:00
+  id: 1081941
+  resolution: ''
+  status: NEW
+  summary: OBS cannot build LVM kiwi images due to udev not running
+- component: Ruby
+  create_time: 20180221T08:10:00
+  id: 1081926
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180219]  machinery not installable'
+'20180222':
+- component: X11 3rd Party Driver
+  create_time: 20180224T20:30:00
+  id: 1082704
+  resolution: ''
+  status: NEW
+  summary: compiling nvidia kernel modules uses wrong kernel tree?
 - component: Basesystem
   create_time: 20180223T21:26:00
   id: 1082655
@@ -4401,7 +4489,7 @@
   create_time: 20180222T21:07:00
   id: 1082409
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Major regression in usability of go package
 - component: Kernel
   create_time: 20180222T19:12:00
@@ -4513,84 +4601,3 @@
   summary: '[Build 20180221] Internal error triggered on offline upgrades when selecting
     the "Booting" section - No such file or directory @ rb_sysopen - /etc/default/grub\nCaller:  /mounts/mp_0001/usr/share/YaST2/lib/yast2/target_file.rb:34:in
     `read'''
-- component: Sound
-  create_time: 20180221T20:37:00
-  id: 1082123
-  resolution: ''
-  status: NEW
-  summary: Some programs raise system sound volume to very high levels when emitting
-    sound
-- component: Installation
-  create_time: 20180221T19:15:00
-  id: 1082107
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Can't install on EFI partition less than 256MiB
-- component: KDE Workspace (Plasma)
-  create_time: 20180221T19:08:00
-  id: 1082104
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Display brightness won't change using Fn keys
-- component: Live Medium
-  create_time: 20180221T16:11:00
-  id: 1082055
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[Build 20180220] Live media how wrong branding'
-- component: Basesystem
-  create_time: 20180221T15:40:00
-  id: 1082050
-  resolution: ''
-  status: NEW
-  summary: /usr/lib/modprobe.d is not owned by any package
-- component: Kubic
-  create_time: 20180221T15:04:00
-  id: 1082038
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Restructure skelcd-control-Kubic
-- component: Basesystem
-  create_time: 20180221T14:03:00
-  id: 1082027
-  resolution: ''
-  status: NEW
-  summary: gcc7 can not build clisp even with --enable-portability (no memory/stack
-    changes)
-- component: Basesystem
-  create_time: 20180221T13:43:00
-  id: 1082023
-  resolution: ''
-  status: NEW
-  summary: git send-email fails to authenticate with SMTP server
-- component: Other
-  create_time: 20180221T12:36:00
-  id: 1082002
-  resolution: ''
-  status: NEW
-  summary: 'uwsgi: service fails to start because hard-coded user wwwrun does not
-    exist'
-- component: Kubic
-  create_time: 20180221T11:42:00
-  id: 1081992
-  resolution: ''
-  status: NEW
-  summary: Can no longer define btrfs subvolumes at installation
-- component: Basesystem
-  create_time: 20180221T09:15:00
-  id: 1081947
-  resolution: ''
-  status: IN_PROGRESS
-  summary: PAM module pam_keyinit is still not integrated in the SUSE PAM stack
-- component: Basesystem
-  create_time: 20180221T09:02:00
-  id: 1081941
-  resolution: ''
-  status: NEW
-  summary: OBS cannot build LVM kiwi images due to udev not running
-- component: Ruby
-  create_time: 20180221T08:10:00
-  id: 1081926
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180219]  machinery not installable'
