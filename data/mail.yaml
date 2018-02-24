@@ -458,3 +458,8 @@
   - messages: [2018-02.992]
     reference_count: 2
     summary: No more Multi_key in emacs_x11
+'20180222':
+  announcement: 2018-02.1062
+  reference_count: 0
+  thread_count: 0
+  threads: []
