@@ -4423,12 +4423,6 @@
   status: NEW
   summary: '[Build 20180219]  machinery not installable'
 '20180222':
-- component: X11 3rd Party Driver
-  create_time: 20180224T20:30:00
-  id: 1082704
-  resolution: ''
-  status: NEW
-  summary: compiling nvidia kernel modules uses wrong kernel tree?
 - component: Basesystem
   create_time: 20180223T21:26:00
   id: 1082655
@@ -4601,3 +4595,23 @@
   summary: '[Build 20180221] Internal error triggered on offline upgrades when selecting
     the "Booting" section - No such file or directory @ rb_sysopen - /etc/default/grub\nCaller:  /mounts/mp_0001/usr/share/YaST2/lib/yast2/target_file.rb:34:in
     `read'''
+'20180224':
+- component: Kernel
+  create_time: 20180225T19:51:00
+  id: 1082719
+  resolution: ''
+  status: NEW
+  summary: 'hwclock error: ioctl(4, RTC_UIE_ON, 0): Invalid argument'
+- component: Development
+  create_time: 20180225T17:48:00
+  id: 1082717
+  resolution: ''
+  status: NEW
+  summary: "Checking influence of \u201Cllvm-config\u201D on building software with\
+    \ GCC"
+- component: X11 3rd Party Driver
+  create_time: 20180224T20:30:00
+  id: 1082704
+  resolution: ''
+  status: NEW
+  summary: compiling nvidia kernel modules uses wrong kernel tree?
