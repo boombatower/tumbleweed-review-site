@@ -1179,8 +1179,8 @@
 - component: Other
   create_time: 20171231T11:10:00
   id: 1074248
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '%posttrans script error'
 - component: Other
   create_time: 20171231T10:28:00
@@ -4512,8 +4512,8 @@
 - component: X.Org
   create_time: 20180222T15:02:00
   id: 1082316
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Mesa: ldconfig run for backend (ICD) drivers'
 - component: X.Org
   create_time: 20180222T14:57:00
@@ -4596,6 +4596,36 @@
     the "Booting" section - No such file or directory @ rb_sysopen - /etc/default/grub\nCaller:  /mounts/mp_0001/usr/share/YaST2/lib/yast2/target_file.rb:34:in
     `read'''
 '20180224':
+- component: Kernel
+  create_time: 20180226T20:41:00
+  id: 1082909
+  resolution: ''
+  status: NEW
+  summary: 'HP Pavillion: accelerometer often not accessible'
+- component: Kernel
+  create_time: 20180226T20:14:00
+  id: 1082905
+  resolution: ''
+  status: NEW
+  summary: Module signature verification is not enabled in openSUSE kernels
+- component: Other
+  create_time: 20180226T19:19:00
+  id: 1082900
+  resolution: ''
+  status: NEW
+  summary: lsof 4.90 gives bogus information
+- component: Printing
+  create_time: 20180226T18:55:00
+  id: 1082896
+  resolution: ''
+  status: NEW
+  summary: Ghostscript package contains lots of duplicated resources
+- component: X.Org
+  create_time: 20180226T18:16:00
+  id: 1082890
+  resolution: FIXED
+  status: RESOLVED
+  summary: xdm defines wrong firewalld service
 - component: Kubic
   create_time: 20180226T14:11:00
   id: 1082847
