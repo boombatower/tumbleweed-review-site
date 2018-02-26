@@ -266,8 +266,8 @@
 - component: Basesystem
   create_time: 20171209T16:49:00
   id: 1072028
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: cross-avr-gcc7 missing include files ? - bits/c++config.h
 - component: Printing
   create_time: 20171209T09:35:00
@@ -3993,8 +3993,8 @@
 - component: Other
   create_time: 20180215T10:39:00
   id: 1081149
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: cross-avr-gcc7 is currently unbuildable'
 - component: Other
   create_time: 20180215T10:34:00
@@ -4226,7 +4226,7 @@
   create_time: 20180219T15:48:00
   id: 1081613
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: iptables-restore invalid option in kube-proxy
 - component: Other
   create_time: 20180219T15:31:00
@@ -4596,6 +4596,12 @@
     the "Booting" section - No such file or directory @ rb_sysopen - /etc/default/grub\nCaller:  /mounts/mp_0001/usr/share/YaST2/lib/yast2/target_file.rb:34:in
     `read'''
 '20180224':
+- component: Security
+  create_time: 20180226T08:06:00
+  id: 1082756
+  resolution: FIXED
+  status: RESOLVED
+  summary: request an upgrade for libnl3 Version 3.3 to 3.4
 - component: Kernel
   create_time: 20180225T19:51:00
   id: 1082719
