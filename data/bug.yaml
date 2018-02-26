@@ -4476,8 +4476,8 @@
 - component: KDE Applications
   create_time: 20180222T23:45:00
   id: 1082432
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'Okular crashes when opening pdf files: Poppler symbol lookup error'
 - component: Development
   create_time: 20180222T21:07:00
