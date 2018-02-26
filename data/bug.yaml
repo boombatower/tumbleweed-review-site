@@ -551,8 +551,8 @@
 - component: Containers
   create_time: 20171212T14:33:00
   id: 1072403
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20171211] openQA test fails in docker_compose'
 - component: Virtualization:Tools
   create_time: 20171212T14:31:00
@@ -3777,8 +3777,8 @@
 - component: Other
   create_time: 20180212T15:56:00
   id: 1080624
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/perl-Net-Patricia fails to build'
 - component: Other
   create_time: 20180212T15:56:00
@@ -4419,8 +4419,8 @@
 - component: Ruby
   create_time: 20180221T08:10:00
   id: 1081926
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180219]  machinery not installable'
 '20180222':
 - component: Basesystem
@@ -4596,6 +4596,12 @@
     the "Booting" section - No such file or directory @ rb_sysopen - /etc/default/grub\nCaller:  /mounts/mp_0001/usr/share/YaST2/lib/yast2/target_file.rb:34:in
     `read'''
 '20180224':
+- component: Kubic
+  create_time: 20180226T14:11:00
+  id: 1082847
+  resolution: ''
+  status: NEW
+  summary: New /var layout doesn't work with update-alternatives and transactional-update
 - component: Security
   create_time: 20180226T08:06:00
   id: 1082756
@@ -4619,5 +4625,5 @@
   create_time: 20180224T20:30:00
   id: 1082704
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: compiling nvidia kernel modules uses wrong kernel tree?
