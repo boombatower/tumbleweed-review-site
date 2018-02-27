@@ -1817,7 +1817,7 @@
   resolution: ''
   status: NEW
   summary: update-alternatives - settings being reset
-- component: Security
+- component: KDE Workspace (Plasma)
   create_time: 20180114T16:02:00
   id: 1075906
   resolution: ''
@@ -1878,13 +1878,6 @@
   resolution: ''
   status: NEW
   summary: Pkg aspell-de is missing for x86_64 tumbleweed
-- component: Other
-  create_time: 20180116T12:08:00
-  id: 1076182
-  resolution: ''
-  status: NEW
-  summary: 'VUL-1: CVE-2017-18028: GraphicsMagick,ImageMagick: memory exhaustion in
-    the function ReadTIFFImage in coders/tiff.c'
 - component: YaST2
   create_time: 20180116T11:18:00
   id: 1076173
@@ -2527,7 +2520,7 @@
   create_time: 20180128T09:49:00
   id: 1077866
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: installer uses old btrfs subvolume structure when not using the suggested
     partitioning scheme
 - component: KDE Workspace (Plasma)
@@ -4164,8 +4157,8 @@
 - component: Kernel
   create_time: 20180218T10:10:00
   id: 1081451
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: resume from hibernate - nic comes up too late
 - component: Kernel
   create_time: 20180218T07:06:00
@@ -4231,8 +4224,8 @@
 - component: Other
   create_time: 20180219T15:31:00
   id: 1081608
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[PM] vlc 3.0.0-5.3 (openSUSE Tumbleweed/x86_64): x265 not enabled'
 - component: Bootloader
   create_time: 20180219T14:10:00
@@ -4536,8 +4529,8 @@
 - component: X.Org
   create_time: 20180222T14:33:00
   id: 1082307
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: IN_PROGRESS
   summary: 'Mesa: push u_add_llvm_codegen_dependencies.patch upstream'
 - component: X.Org
   create_time: 20180222T14:29:00
@@ -4596,11 +4589,49 @@
     the "Booting" section - No such file or directory @ rb_sysopen - /etc/default/grub\nCaller:  /mounts/mp_0001/usr/share/YaST2/lib/yast2/target_file.rb:34:in
     `read'''
 '20180224':
+- component: X11 3rd Party Driver
+  create_time: 20180224T20:30:00
+  id: 1082704
+  resolution: ''
+  status: IN_PROGRESS
+  summary: compiling nvidia kernel modules uses wrong kernel tree?
+'20180225':
+- component: Other
+  create_time: 20180227T13:28:00
+  id: 1083075
+  resolution: ''
+  status: NEW
+  summary: R-base should set the option "unzip" at build time
+- component: Kubic
+  create_time: 20180227T11:25:00
+  id: 1083041
+  resolution: ''
+  status: NEW
+  summary: Release notes are from CaaSP-1.0
+- component: libzypp
+  create_time: 20180227T10:33:00
+  id: 1083023
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180226] openQA test fails in salt  for ppc64 (BE)'
+- component: Security
+  create_time: 20180227T10:30:00
+  id: 1083020
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'flatpak: polkit-untracked-privilege'
+- component: GNOME
+  create_time: 20180227T09:52:00
+  id: 1083004
+  resolution: ''
+  status: NEW
+  summary: 'Log spam from gnome shell: Object Clutter.Clone (0x558505babb40), has
+    been already finalized. Impossible to get any property from it'
 - component: YaST2
   create_time: 20180227T07:51:00
   id: 1082969
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Extracting translatable strings in YaST does not work correctly with Ruby
     interpolation
 - component: Basesystem
@@ -4609,6 +4640,12 @@
   resolution: ''
   status: NEW
   summary: less on rpm packages does no longer show anything
+- component: Development
+  create_time: 20180226T21:47:00
+  id: 1082913
+  resolution: ''
+  status: NEW
+  summary: readline static library missing
 - component: Kernel
   create_time: 20180226T20:41:00
   id: 1082909
@@ -4644,7 +4681,7 @@
   id: 1082847
   resolution: ''
   status: NEW
-  summary: New /var layout doesn't work with update-alternatives and transactional-update
+  summary: update-alternatives does not work together with transactional-update
 - component: Security
   create_time: 20180226T08:06:00
   id: 1082756
@@ -4664,9 +4701,3 @@
   status: NEW
   summary: "Checking influence of \u201Cllvm-config\u201D on building software with\
     \ GCC"
-- component: X11 3rd Party Driver
-  create_time: 20180224T20:30:00
-  id: 1082704
-  resolution: ''
-  status: IN_PROGRESS
-  summary: compiling nvidia kernel modules uses wrong kernel tree?
