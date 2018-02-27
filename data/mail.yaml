@@ -413,12 +413,15 @@
   threads: []
 '20180214':
   announcement: 2018-02.564
-  reference_count: 10
-  thread_count: 1
+  reference_count: 11
+  thread_count: 2
   threads:
   - messages: [2018-02.590]
     reference_count: 10
     summary: Boot freeze
+  - messages: [2018-02.1160]
+    reference_count: 1
+    summary: ) NetworkManager SEGV (openvpn)
 '20180215':
   announcement: 2018-02.638
   reference_count: 0
@@ -471,3 +474,8 @@
   - messages: [2018-02.1130]
     reference_count: 8
     summary: no summary given
+'20180225':
+  announcement: 2018-02.1163
+  reference_count: 0
+  thread_count: 0
+  threads: []
