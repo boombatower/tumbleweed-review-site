@@ -4596,6 +4596,19 @@
     the "Booting" section - No such file or directory @ rb_sysopen - /etc/default/grub\nCaller:  /mounts/mp_0001/usr/share/YaST2/lib/yast2/target_file.rb:34:in
     `read'''
 '20180224':
+- component: YaST2
+  create_time: 20180227T07:51:00
+  id: 1082969
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Extracting translatable strings in YaST does not work correctly with Ruby
+    interpolation
+- component: Basesystem
+  create_time: 20180227T06:59:00
+  id: 1082956
+  resolution: ''
+  status: NEW
+  summary: less on rpm packages does no longer show anything
 - component: Kernel
   create_time: 20180226T20:41:00
   id: 1082909
