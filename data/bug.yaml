@@ -4294,8 +4294,8 @@
 - component: Other
   create_time: 20180220T13:24:00
   id: 1081750
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python tarfile uses random order
 - component: KDE Applications
   create_time: 20180220T12:23:00
@@ -4443,8 +4443,8 @@
 - component: YaST2
   create_time: 20180223T10:09:00
   id: 1082512
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'yast / yast 2 -> Software did not start: Failed to load Module ''Packages''
     due to: Failed to load Module ''SpaceCalculation'''
 - component: GNOME
@@ -4529,8 +4529,8 @@
 - component: X.Org
   create_time: 20180222T14:33:00
   id: 1082307
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Mesa: push u_add_llvm_codegen_dependencies.patch upstream'
 - component: X.Org
   create_time: 20180222T14:29:00
