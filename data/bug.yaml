@@ -2710,8 +2710,8 @@
 - component: YaST2
   create_time: 20180130T06:37:00
   id: 1078212
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: CWM::TreePager renders pages twice
 - component: Basesystem
   create_time: 20180130T05:49:00
@@ -4487,8 +4487,8 @@
 - component: YaST2
   create_time: 20180222T19:07:00
   id: 1082386
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Yast2 bootloader module fails due to internal Storage::Exception
 - component: GNOME
   create_time: 20180222T16:24:00
