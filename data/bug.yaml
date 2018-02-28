@@ -4596,6 +4596,44 @@
   status: IN_PROGRESS
   summary: compiling nvidia kernel modules uses wrong kernel tree?
 '20180225':
+- component: Kernel
+  create_time: 20180225T19:51:00
+  id: 1082719
+  resolution: ''
+  status: NEW
+  summary: 'hwclock error: ioctl(4, RTC_UIE_ON, 0): Invalid argument'
+- component: Development
+  create_time: 20180225T17:48:00
+  id: 1082717
+  resolution: ''
+  status: NEW
+  summary: "Checking influence of \u201Cllvm-config\u201D on building software with\
+    \ GCC"
+'20180226':
+- component: LibreOffice
+  create_time: 20180228T02:36:00
+  id: 1083213
+  resolution: ''
+  status: NEW
+  summary: Please drop unnecessary xorg-x11-fonts requires
+- component: Other
+  create_time: 20180228T02:20:00
+  id: 1083212
+  resolution: ''
+  status: NEW
+  summary: Please drop mkfontscale/mkfontdir usage from texlive font packages
+- component: Sound
+  create_time: 20180227T22:32:00
+  id: 1083195
+  resolution: ''
+  status: NEW
+  summary: No sound on T100TAF
+- component: Network
+  create_time: 20180227T21:43:00
+  id: 1083190
+  resolution: ''
+  status: NEW
+  summary: 'net-snmpd: is not creating /etc/sysconfig/snmpd'
 - component: Other
   create_time: 20180227T13:28:00
   id: 1083075
@@ -4688,16 +4726,3 @@
   resolution: FIXED
   status: RESOLVED
   summary: request an upgrade for libnl3 Version 3.3 to 3.4
-- component: Kernel
-  create_time: 20180225T19:51:00
-  id: 1082719
-  resolution: ''
-  status: NEW
-  summary: 'hwclock error: ioctl(4, RTC_UIE_ON, 0): Invalid argument'
-- component: Development
-  create_time: 20180225T17:48:00
-  id: 1082717
-  resolution: ''
-  status: NEW
-  summary: "Checking influence of \u201Cllvm-config\u201D on building software with\
-    \ GCC"
