@@ -4462,8 +4462,8 @@
 - component: GNOME
   create_time: 20180223T06:41:00
   id: 1082469
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'python3-gobject: AttributeError: ''ActionGroup'' object has no attribute
     ''add_actions'''
 - component: KDE Applications
@@ -4489,7 +4489,7 @@
   id: 1082386
   resolution: ''
   status: REOPENED
-  summary: Yast2 bootloader module fails due to internal Storage::Exception
+  summary: 'Yast2 bootloader module: "Probing device relationships failed"'
 - component: GNOME
   create_time: 20180222T16:24:00
   id: 1082345
@@ -4517,8 +4517,8 @@
 - component: X.Org
   create_time: 20180222T14:49:00
   id: 1082312
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Mesa: get rid of libudev, openssl, bison, flex (and python*?) BuildRequires'
 - component: Kernel
   create_time: 20180222T14:37:00
@@ -4610,6 +4610,24 @@
   summary: "Checking influence of \u201Cllvm-config\u201D on building software with\
     \ GCC"
 '20180226':
+- component: Network
+  create_time: 20180228T18:26:00
+  id: 1083361
+  resolution: ''
+  status: NEW
+  summary: firewalld fails to work with utf strings while building in OBS/osc
+- component: Basesystem
+  create_time: 20180228T17:10:00
+  id: 1083349
+  resolution: ''
+  status: NEW
+  summary: Remove cjk/cid scriptlet snippets from fontpackages-devel rpm macros
+- component: Basesystem
+  create_time: 20180228T16:12:00
+  id: 1083334
+  resolution: ''
+  status: NEW
+  summary: 'openSUSE-Tumbleweed-ARM-JeOS-efi.armv7l-2018.02.27: Failed first boot'
 - component: Kernel
   create_time: 20180228T10:06:00
   id: 1083266
