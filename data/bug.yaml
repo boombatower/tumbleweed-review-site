@@ -1869,8 +1869,8 @@
 - component: High Availability
   create_time: 20180116T16:47:00
   id: 1076231
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: sbd pacemaker process segfaults over and over
 - component: Translations
   create_time: 20180116T15:57:00
@@ -3065,8 +3065,8 @@
 - component: Xen
   create_time: 20180205T23:01:00
   id: 1079448
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Oops: 0003 [#1] PREEMPT SMP NOPTI'
 - component: Installation
   create_time: 20180205T19:48:00
@@ -3881,8 +3881,8 @@
 - component: Samba
   create_time: 20180214T19:04:00
   id: 1081042
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[glibc2.27] samba fails to build'
 - component: Upgrade Problems
   create_time: 20180214T16:29:00
@@ -3974,8 +3974,8 @@
 - component: KVM
   create_time: 20180215T11:17:00
   id: 1081154
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[glibc2.27] qemu fails to build'
 - component: Other
   create_time: 20180215T10:45:00
@@ -4459,7 +4459,7 @@
   resolution: ''
   status: NEW
   summary: Patch file not found ar3k/AthrBT_0x00000200.dfu
-- component: Other
+- component: GNOME
   create_time: 20180223T06:41:00
   id: 1082469
   resolution: ''
@@ -4487,8 +4487,8 @@
 - component: YaST2
   create_time: 20180222T19:07:00
   id: 1082386
-  resolution: DUPLICATE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Yast2 bootloader module fails due to internal Storage::Exception
 - component: GNOME
   create_time: 20180222T16:24:00
@@ -4547,8 +4547,8 @@
 - component: X.Org
   create_time: 20180222T14:23:00
   id: 1082303
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: IN_PROGRESS
   summary: 'Mesa: push u_mesa-python3-only.patch upstream'
 - component: X.Org
   create_time: 20180222T14:16:00
@@ -4610,6 +4610,18 @@
   summary: "Checking influence of \u201Cllvm-config\u201D on building software with\
     \ GCC"
 '20180226':
+- component: Kernel
+  create_time: 20180228T10:06:00
+  id: 1083266
+  resolution: ''
+  status: NEW
+  summary: Network adapter doesn't wake up from suspend since kernel 4.15
+- component: AppArmor
+  create_time: 20180228T06:04:00
+  id: 1083226
+  resolution: ''
+  status: IN_PROGRESS
+  summary: apparmor not started/active but haproxy profile loaded
 - component: LibreOffice
   create_time: 20180228T02:36:00
   id: 1083213
