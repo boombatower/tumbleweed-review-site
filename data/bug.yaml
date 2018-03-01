@@ -4087,8 +4087,8 @@
 - component: Basesystem
   create_time: 20180216T12:08:00
   id: 1081335
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Rename openssl-1_1_0 package to reflect SO number of the 1.1.x branch
 - component: Live Medium
   create_time: 20180216T11:19:00
@@ -4610,6 +4610,98 @@
   summary: "Checking influence of \u201Cllvm-config\u201D on building software with\
     \ GCC"
 '20180226':
+- component: Development
+  create_time: 20180226T21:47:00
+  id: 1082913
+  resolution: ''
+  status: NEW
+  summary: readline static library missing
+- component: Kernel
+  create_time: 20180226T20:41:00
+  id: 1082909
+  resolution: ''
+  status: NEW
+  summary: 'HP Pavillion: accelerometer often not accessible'
+- component: Kernel
+  create_time: 20180226T20:14:00
+  id: 1082905
+  resolution: ''
+  status: NEW
+  summary: Module signature verification is not enabled in openSUSE kernels
+- component: Other
+  create_time: 20180226T19:19:00
+  id: 1082900
+  resolution: ''
+  status: NEW
+  summary: lsof 4.90 gives bogus information
+- component: Printing
+  create_time: 20180226T18:55:00
+  id: 1082896
+  resolution: ''
+  status: NEW
+  summary: Ghostscript package contains lots of duplicated resources
+- component: X.Org
+  create_time: 20180226T18:16:00
+  id: 1082890
+  resolution: FIXED
+  status: RESOLVED
+  summary: xdm defines wrong firewalld service
+- component: Kubic
+  create_time: 20180226T14:11:00
+  id: 1082847
+  resolution: ''
+  status: NEW
+  summary: update-alternatives does not work together with transactional-update
+- component: Security
+  create_time: 20180226T08:06:00
+  id: 1082756
+  resolution: FIXED
+  status: RESOLVED
+  summary: request an upgrade for libnl3 Version 3.3 to 3.4
+'20180227':
+- component: Basesystem
+  create_time: 20180301T15:40:00
+  id: 1083539
+  resolution: ''
+  status: NEW
+  summary: rpm -qpv --provides error
+- component: Other
+  create_time: 20180301T15:26:00
+  id: 1083537
+  resolution: ''
+  status: NEW
+  summary: '[libvpx] Missing 10-bit video encoding support with VP9'
+- component: Kubic
+  create_time: 20180301T14:45:00
+  id: 1083526
+  resolution: ''
+  status: NEW
+  summary: '[20180228] Kubic fails openQA test on ''first_boot'''
+- component: GNOME
+  create_time: 20180301T12:36:00
+  id: 1083495
+  resolution: ''
+  status: NEW
+  summary: Wayland session will not start currently
+- component: Basesystem
+  create_time: 20180301T10:41:00
+  id: 1083476
+  resolution: ''
+  status: REOPENED
+  summary: Build sanity checks force packages to own directories that already belong
+    to another package
+- component: Sound
+  create_time: 20180301T10:23:00
+  id: 1083473
+  resolution: ''
+  status: NEW
+  summary: Use systemd user socket for starting / enabling PulseAudio
+- component: GNOME
+  create_time: 20180301T09:45:00
+  id: 1083458
+  resolution: ''
+  status: NEW
+  summary: Gnome software throws error
 - component: KDE Applications
   create_time: 20180301T09:14:00
   id: 1083451
@@ -4719,53 +4811,5 @@
   create_time: 20180227T06:59:00
   id: 1082956
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: less on rpm packages does no longer show anything
-- component: Development
-  create_time: 20180226T21:47:00
-  id: 1082913
-  resolution: ''
-  status: NEW
-  summary: readline static library missing
-- component: Kernel
-  create_time: 20180226T20:41:00
-  id: 1082909
-  resolution: ''
-  status: NEW
-  summary: 'HP Pavillion: accelerometer often not accessible'
-- component: Kernel
-  create_time: 20180226T20:14:00
-  id: 1082905
-  resolution: ''
-  status: NEW
-  summary: Module signature verification is not enabled in openSUSE kernels
-- component: Other
-  create_time: 20180226T19:19:00
-  id: 1082900
-  resolution: ''
-  status: NEW
-  summary: lsof 4.90 gives bogus information
-- component: Printing
-  create_time: 20180226T18:55:00
-  id: 1082896
-  resolution: ''
-  status: NEW
-  summary: Ghostscript package contains lots of duplicated resources
-- component: X.Org
-  create_time: 20180226T18:16:00
-  id: 1082890
-  resolution: FIXED
-  status: RESOLVED
-  summary: xdm defines wrong firewalld service
-- component: Kubic
-  create_time: 20180226T14:11:00
-  id: 1082847
-  resolution: ''
-  status: NEW
-  summary: update-alternatives does not work together with transactional-update
-- component: Security
-  create_time: 20180226T08:06:00
-  id: 1082756
-  resolution: FIXED
-  status: RESOLVED
-  summary: request an upgrade for libnl3 Version 3.3 to 3.4
