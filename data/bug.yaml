@@ -4610,6 +4610,19 @@
   summary: "Checking influence of \u201Cllvm-config\u201D on building software with\
     \ GCC"
 '20180226':
+- component: KDE Applications
+  create_time: 20180301T09:14:00
+  id: 1083451
+  resolution: ''
+  status: NEW
+  summary: 'Trojita don''t pass #4: test_Html_formatting and old version incorrected
+    parsed html'
+- component: Other
+  create_time: 20180301T08:31:00
+  id: 1083434
+  resolution: ''
+  status: NEW
+  summary: Missing accessibility to Network Configuration screen in the Installer
 - component: Network
   create_time: 20180228T18:26:00
   id: 1083361
