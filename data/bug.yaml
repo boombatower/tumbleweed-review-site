@@ -4337,8 +4337,8 @@
 - component: Sound
   create_time: 20180221T20:37:00
   id: 1082123
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Some programs raise system sound volume to very high levels when emitting
     sound
 - component: Installation
@@ -4547,8 +4547,8 @@
 - component: X.Org
   create_time: 20180222T14:23:00
   id: 1082303
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Mesa: push u_mesa-python3-only.patch upstream'
 - component: X.Org
   create_time: 20180222T14:16:00
@@ -4660,10 +4660,28 @@
   summary: request an upgrade for libnl3 Version 3.3 to 3.4
 '20180227':
 - component: Basesystem
-  create_time: 20180301T15:40:00
-  id: 1083539
+  create_time: 20180301T18:33:00
+  id: 1083571
   resolution: ''
   status: NEW
+  summary: systemd is missing LUKS2 support
+- component: KDE Workspace (Plasma)
+  create_time: 20180301T17:39:00
+  id: 1083562
+  resolution: ''
+  status: NEW
+  summary: Super (Meta) Key stops working
+- component: Basesystem
+  create_time: 20180301T17:31:00
+  id: 1083558
+  resolution: ''
+  status: NEW
+  summary: Correct Requires(pre) in %reconfigure_fonts_prereq from fontpackages-devel
+- component: Basesystem
+  create_time: 20180301T15:40:00
+  id: 1083539
+  resolution: FIXED
+  status: RESOLVED
   summary: rpm -qpv --provides error
 - component: Other
   create_time: 20180301T15:26:00
@@ -4675,7 +4693,7 @@
   create_time: 20180301T14:45:00
   id: 1083526
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[20180228] Kubic fails openQA test on ''first_boot'''
 - component: GNOME
   create_time: 20180301T12:36:00
@@ -4706,7 +4724,7 @@
   create_time: 20180301T09:14:00
   id: 1083451
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Trojita don''t pass #4: test_Html_formatting and old version incorrected
     parsed html'
 - component: Other
