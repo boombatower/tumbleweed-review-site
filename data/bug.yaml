@@ -1574,8 +1574,8 @@
 - component: Basesystem
   create_time: 20180109T19:10:00
   id: 1075239
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: procps sysctl doesn't work
 - component: Kernel
   create_time: 20180109T17:51:00
@@ -3875,8 +3875,8 @@
 - component: Basesystem
   create_time: 20180214T20:55:00
   id: 1081055
-  resolution: ''
-  status: NEW
+  resolution: FEATURE
+  status: RESOLVED
   summary: ACPI problem on MSI GS40 6QE Phantom laptop
 - component: Samba
   create_time: 20180214T19:04:00
@@ -3899,8 +3899,8 @@
 - component: Kernel
   create_time: 20180214T15:44:00
   id: 1081022
-  resolution: ''
-  status: NEW
+  resolution: FEATURE
+  status: RESOLVED
   summary: VFAT mount option "iocharset=utf8" breaks filename case sensitivity
 - component: YaST2
   create_time: 20180214T15:12:00
@@ -4249,10 +4249,10 @@
 - component: Installation
   create_time: 20180219T08:42:00
   id: 1081508
-  resolution: ''
-  status: NEW
-  summary: '[Build20180214] Online repos are not disabled in the installed system
-    regardless of disabling in the settings'
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build20180214] Confusing online repositories selection WAS: Online repos
+    are not disabled in the installed system regardless of disabling in the settings'
 - component: Kernel
   create_time: 20180219T07:52:00
   id: 1081499
@@ -4438,7 +4438,7 @@
   create_time: 20180223T11:33:00
   id: 1082527
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: caasp-container-manifests uninstallable
 - component: YaST2
   create_time: 20180223T10:09:00
@@ -4592,8 +4592,8 @@
 - component: X11 3rd Party Driver
   create_time: 20180224T20:30:00
   id: 1082704
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: compiling nvidia kernel modules uses wrong kernel tree?
 '20180225':
 - component: Kernel
@@ -4659,6 +4659,19 @@
   status: RESOLVED
   summary: request an upgrade for libnl3 Version 3.3 to 3.4
 '20180227':
+- component: Network
+  create_time: 20180302T16:22:00
+  id: 1083740
+  resolution: ''
+  status: NEW
+  summary: 'network:telephony/rfc5766-turn-server: Project migrated to new Github
+    Repository'
+- component: Network
+  create_time: 20180302T16:20:00
+  id: 1083739
+  resolution: ''
+  status: NEW
+  summary: 'network:telephony/turnserver: Project appears to be discontinued'
 - component: Kernel
   create_time: 20180302T11:42:00
   id: 1083694
@@ -4674,8 +4687,8 @@
 - component: Basesystem
   create_time: 20180301T18:33:00
   id: 1083571
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: systemd is missing LUKS2 support
 - component: KDE Workspace (Plasma)
   create_time: 20180301T17:39:00
