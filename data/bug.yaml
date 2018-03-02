@@ -4737,7 +4737,7 @@
   create_time: 20180228T18:26:00
   id: 1083361
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: firewalld fails to work with utf strings while building in OBS/osc
 - component: Basesystem
   create_time: 20180228T17:10:00
