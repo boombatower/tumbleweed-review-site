@@ -1586,8 +1586,8 @@
 - component: Other
   create_time: 20180109T17:50:00
   id: 1075219
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: curl random tests failure on ppc64le
 - component: Kernel
   create_time: 20180109T13:04:00
@@ -3482,8 +3482,8 @@
 - component: libzypp
   create_time: 20180208T07:45:00
   id: 1079991
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '`zypper ps -s` reports that "running processes use deleted files" immediately
     after start'
 '20180209':
@@ -4599,8 +4599,8 @@
 - component: Kernel
   create_time: 20180225T19:51:00
   id: 1082719
-  resolution: ''
-  status: NEW
+  resolution: FEATURE
+  status: RESOLVED
   summary: 'hwclock error: ioctl(4, RTC_UIE_ON, 0): Invalid argument'
 - component: Development
   create_time: 20180225T17:48:00
@@ -4659,6 +4659,18 @@
   status: RESOLVED
   summary: request an upgrade for libnl3 Version 3.3 to 3.4
 '20180227':
+- component: Kernel
+  create_time: 20180302T11:42:00
+  id: 1083694
+  resolution: ''
+  status: NEW
+  summary: kernel-docs build fails with the latest Sphinx
+- component: X11 Applications
+  create_time: 20180302T09:31:00
+  id: 1083654
+  resolution: ''
+  status: NEW
+  summary: linphone crashes when trying to open Preferences
 - component: Basesystem
   create_time: 20180301T18:33:00
   id: 1083571
@@ -4692,8 +4704,8 @@
 - component: Kubic
   create_time: 20180301T14:45:00
   id: 1083526
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[20180228] Kubic fails openQA test on ''first_boot'''
 - component: GNOME
   create_time: 20180301T12:36:00
