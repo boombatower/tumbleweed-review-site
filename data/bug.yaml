@@ -4660,6 +4660,105 @@
   summary: request an upgrade for libnl3 Version 3.3 to 3.4
 '20180227':
 - component: Network
+  create_time: 20180228T18:26:00
+  id: 1083361
+  resolution: ''
+  status: CONFIRMED
+  summary: firewalld fails to work with utf strings while building in OBS/osc
+- component: Basesystem
+  create_time: 20180228T17:10:00
+  id: 1083349
+  resolution: ''
+  status: NEW
+  summary: Remove cjk/cid scriptlet snippets from fontpackages-devel rpm macros
+- component: Basesystem
+  create_time: 20180228T16:12:00
+  id: 1083334
+  resolution: ''
+  status: NEW
+  summary: 'openSUSE-Tumbleweed-ARM-JeOS-efi.armv7l-2018.02.27: Failed first boot'
+- component: Kernel
+  create_time: 20180228T10:06:00
+  id: 1083266
+  resolution: ''
+  status: NEW
+  summary: Network adapter doesn't wake up from suspend since kernel 4.15
+- component: AppArmor
+  create_time: 20180228T06:04:00
+  id: 1083226
+  resolution: ''
+  status: IN_PROGRESS
+  summary: apparmor not started/active but haproxy profile loaded
+- component: LibreOffice
+  create_time: 20180228T02:36:00
+  id: 1083213
+  resolution: ''
+  status: NEW
+  summary: Please drop unnecessary xorg-x11-fonts requires
+- component: Other
+  create_time: 20180228T02:20:00
+  id: 1083212
+  resolution: ''
+  status: NEW
+  summary: Please drop mkfontscale/mkfontdir usage from texlive font packages
+- component: Sound
+  create_time: 20180227T22:32:00
+  id: 1083195
+  resolution: ''
+  status: NEW
+  summary: No sound on T100TAF
+- component: Network
+  create_time: 20180227T21:43:00
+  id: 1083190
+  resolution: ''
+  status: NEW
+  summary: 'net-snmpd: is not creating /etc/sysconfig/snmpd'
+- component: Other
+  create_time: 20180227T13:28:00
+  id: 1083075
+  resolution: ''
+  status: NEW
+  summary: R-base should set the option "unzip" at build time
+- component: Kubic
+  create_time: 20180227T11:25:00
+  id: 1083041
+  resolution: ''
+  status: NEW
+  summary: Release notes are from CaaSP-1.0
+- component: libzypp
+  create_time: 20180227T10:33:00
+  id: 1083023
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180226] openQA test fails in salt  for ppc64 (BE)'
+- component: Security
+  create_time: 20180227T10:30:00
+  id: 1083020
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'flatpak: polkit-untracked-privilege'
+- component: GNOME
+  create_time: 20180227T09:52:00
+  id: 1083004
+  resolution: ''
+  status: NEW
+  summary: 'Log spam from gnome shell: Object Clutter.Clone (0x558505babb40), has
+    been already finalized. Impossible to get any property from it'
+- component: YaST2
+  create_time: 20180227T07:51:00
+  id: 1082969
+  resolution: FIXED
+  status: RESOLVED
+  summary: Extracting translatable strings in YaST does not work correctly with Ruby
+    interpolation
+- component: Basesystem
+  create_time: 20180227T06:59:00
+  id: 1082956
+  resolution: ''
+  status: CONFIRMED
+  summary: less on rpm packages does no longer show anything
+'20180301':
+- component: Network
   create_time: 20180302T16:22:00
   id: 1083740
   resolution: ''
@@ -4758,101 +4857,3 @@
   resolution: ''
   status: NEW
   summary: Missing accessibility to Network Configuration screen in the Installer
-- component: Network
-  create_time: 20180228T18:26:00
-  id: 1083361
-  resolution: ''
-  status: CONFIRMED
-  summary: firewalld fails to work with utf strings while building in OBS/osc
-- component: Basesystem
-  create_time: 20180228T17:10:00
-  id: 1083349
-  resolution: ''
-  status: NEW
-  summary: Remove cjk/cid scriptlet snippets from fontpackages-devel rpm macros
-- component: Basesystem
-  create_time: 20180228T16:12:00
-  id: 1083334
-  resolution: ''
-  status: NEW
-  summary: 'openSUSE-Tumbleweed-ARM-JeOS-efi.armv7l-2018.02.27: Failed first boot'
-- component: Kernel
-  create_time: 20180228T10:06:00
-  id: 1083266
-  resolution: ''
-  status: NEW
-  summary: Network adapter doesn't wake up from suspend since kernel 4.15
-- component: AppArmor
-  create_time: 20180228T06:04:00
-  id: 1083226
-  resolution: ''
-  status: IN_PROGRESS
-  summary: apparmor not started/active but haproxy profile loaded
-- component: LibreOffice
-  create_time: 20180228T02:36:00
-  id: 1083213
-  resolution: ''
-  status: NEW
-  summary: Please drop unnecessary xorg-x11-fonts requires
-- component: Other
-  create_time: 20180228T02:20:00
-  id: 1083212
-  resolution: ''
-  status: NEW
-  summary: Please drop mkfontscale/mkfontdir usage from texlive font packages
-- component: Sound
-  create_time: 20180227T22:32:00
-  id: 1083195
-  resolution: ''
-  status: NEW
-  summary: No sound on T100TAF
-- component: Network
-  create_time: 20180227T21:43:00
-  id: 1083190
-  resolution: ''
-  status: NEW
-  summary: 'net-snmpd: is not creating /etc/sysconfig/snmpd'
-- component: Other
-  create_time: 20180227T13:28:00
-  id: 1083075
-  resolution: ''
-  status: NEW
-  summary: R-base should set the option "unzip" at build time
-- component: Kubic
-  create_time: 20180227T11:25:00
-  id: 1083041
-  resolution: ''
-  status: NEW
-  summary: Release notes are from CaaSP-1.0
-- component: libzypp
-  create_time: 20180227T10:33:00
-  id: 1083023
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180226] openQA test fails in salt  for ppc64 (BE)'
-- component: Security
-  create_time: 20180227T10:30:00
-  id: 1083020
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'flatpak: polkit-untracked-privilege'
-- component: GNOME
-  create_time: 20180227T09:52:00
-  id: 1083004
-  resolution: ''
-  status: NEW
-  summary: 'Log spam from gnome shell: Object Clutter.Clone (0x558505babb40), has
-    been already finalized. Impossible to get any property from it'
-- component: YaST2
-  create_time: 20180227T07:51:00
-  id: 1082969
-  resolution: FIXED
-  status: RESOLVED
-  summary: Extracting translatable strings in YaST does not work correctly with Ruby
-    interpolation
-- component: Basesystem
-  create_time: 20180227T06:59:00
-  id: 1082956
-  resolution: ''
-  status: CONFIRMED
-  summary: less on rpm packages does no longer show anything
