@@ -3634,8 +3634,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180211T04:08:00
   id: 1080454
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Wayland KDE Session can spin the cube, but all desktops are black. AMD
     A-Series APU.
 - component: Kernel
@@ -4758,6 +4758,60 @@
   status: CONFIRMED
   summary: less on rpm packages does no longer show anything
 '20180301':
+- component: Installation
+  create_time: 20180303T17:52:00
+  id: 1083844
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed i586 NET Install - OSS repo error
+- component: Other
+  create_time: 20180303T17:34:00
+  id: 1083843
+  resolution: ''
+  status: NEW
+  summary: Wrong license for bladeRF-fx3-firmware in hardware:sdr
+- component: KDE Workspace (Plasma)
+  create_time: 20180303T17:00:00
+  id: 1083842
+  resolution: ''
+  status: NEW
+  summary: KDE plasma-nm5 does not display correct security information
+- component: KDE Workspace (Plasma)
+  create_time: 20180303T16:27:00
+  id: 1083840
+  resolution: ''
+  status: NEW
+  summary: ksmserver crashes on login with Tumbleweed 20180301
+- component: Other
+  create_time: 20180303T15:56:00
+  id: 1083839
+  resolution: ''
+  status: NEW
+  summary: SSH - version 1 no longer supported
+- component: KDE Workspace (Plasma)
+  create_time: 20180303T15:49:00
+  id: 1083838
+  resolution: ''
+  status: NEW
+  summary: KDE Plasma 5.12 splash screen is cut off
+- component: Java
+  create_time: 20180303T14:52:00
+  id: 1083837
+  resolution: ''
+  status: NEW
+  summary: opensuse mysql java connector fails to connect
+- component: Other
+  create_time: 20180303T13:51:00
+  id: 1083835
+  resolution: FIXED
+  status: RESOLVED
+  summary: clusterssh doc generation is racy
+- component: Basesystem
+  create_time: 20180303T12:55:00
+  id: 1083834
+  resolution: ''
+  status: NEW
+  summary: 'unar: unrar wrapper breaks Ark'
 - component: Development
   create_time: 20180303T11:58:00
   id: 1083832
