@@ -491,9 +491,9 @@
   threads: []
 '20180301':
   announcement: 2018-03.39
-  reference_count: 2
+  reference_count: 4
   thread_count: 1
   threads:
   - messages: [2018-03.42]
-    reference_count: 2
+    reference_count: 4
     summary: 'released! - note: minor kdm issue'
