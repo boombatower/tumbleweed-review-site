@@ -4758,6 +4758,12 @@
   status: CONFIRMED
   summary: less on rpm packages does no longer show anything
 '20180301':
+- component: Development
+  create_time: 20180303T02:43:00
+  id: 1083827
+  resolution: ''
+  status: NEW
+  summary: Encryption is not keep when add a volume
 - component: Network
   create_time: 20180302T16:22:00
   id: 1083740
