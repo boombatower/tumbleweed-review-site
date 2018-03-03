@@ -845,8 +845,8 @@
 - component: YaST2
   create_time: 20171221T19:33:00
   id: 1073926
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: YaST causing system lockup
 - component: Other
   create_time: 20171221T10:56:00
@@ -4758,6 +4758,24 @@
   status: CONFIRMED
   summary: less on rpm packages does no longer show anything
 '20180301':
+- component: Development
+  create_time: 20180303T11:58:00
+  id: 1083832
+  resolution: ''
+  status: NEW
+  summary: osc shows multibuild status even when there is no multibuild
+- component: GNOME
+  create_time: 20180303T11:00:00
+  id: 1083831
+  resolution: ''
+  status: NEW
+  summary: NetworkManager nfs displatcher script broken
+- component: Development
+  create_time: 20180303T09:58:00
+  id: 1083830
+  resolution: ''
+  status: NEW
+  summary: Scons isn't ready for python3 yet
 - component: Development
   create_time: 20180303T02:43:00
   id: 1083827
