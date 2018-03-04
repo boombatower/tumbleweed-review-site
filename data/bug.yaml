@@ -3659,8 +3659,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180210T21:21:00
   id: 1080447
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Qt Wayland does not support xdg-shell v6 window states
 - component: Development
   create_time: 20180210T20:48:00
@@ -3968,8 +3968,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180215T13:34:00
   id: 1081172
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: TW 20180213 Fresh Install, Wi-Fi not autoconnect
 - component: KVM
   create_time: 20180215T11:17:00
@@ -4758,6 +4758,18 @@
   status: CONFIRMED
   summary: less on rpm packages does no longer show anything
 '20180301':
+- component: X.Org
+  create_time: 20180304T00:22:00
+  id: 1083853
+  resolution: ''
+  status: NEW
+  summary: Xorg crash, scrolling in Firefox, X modesetting driver, Intel graphics
+- component: Kernel
+  create_time: 20180303T20:10:00
+  id: 1083850
+  resolution: ''
+  status: NEW
+  summary: something is wrong with rpm/mkspec - not all archs are built
 - component: Installation
   create_time: 20180303T17:52:00
   id: 1083844
@@ -4773,8 +4785,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180303T17:00:00
   id: 1083842
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: KDE plasma-nm5 does not display correct security information
 - component: KDE Workspace (Plasma)
   create_time: 20180303T16:27:00
@@ -4787,12 +4799,12 @@
   id: 1083839
   resolution: ''
   status: NEW
-  summary: SSH - version 1 no longer supported
+  summary: add option to support legacy, insecure SSHv1 client connections
 - component: KDE Workspace (Plasma)
   create_time: 20180303T15:49:00
   id: 1083838
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: KDE Plasma 5.12 splash screen is cut off
 - component: Java
   create_time: 20180303T14:52:00
@@ -4834,7 +4846,7 @@
   create_time: 20180303T02:43:00
   id: 1083827
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Encryption is not keep when add a volume
 - component: Network
   create_time: 20180302T16:22:00
