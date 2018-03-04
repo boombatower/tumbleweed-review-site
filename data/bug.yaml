@@ -4431,8 +4431,8 @@
 - component: Development
   create_time: 20180223T11:50:00
   id: 1082532
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: record PostgreSQL lifecycle data
 - component: Containers
   create_time: 20180223T11:33:00
@@ -4758,6 +4758,118 @@
   status: CONFIRMED
   summary: less on rpm packages does no longer show anything
 '20180301':
+- component: Basesystem
+  create_time: 20180301T18:33:00
+  id: 1083571
+  resolution: FIXED
+  status: RESOLVED
+  summary: systemd is missing LUKS2 support
+- component: KDE Workspace (Plasma)
+  create_time: 20180301T17:39:00
+  id: 1083562
+  resolution: ''
+  status: NEW
+  summary: Super (Meta) Key stops working
+- component: Basesystem
+  create_time: 20180301T17:31:00
+  id: 1083558
+  resolution: ''
+  status: NEW
+  summary: Correct Requires(pre) in %reconfigure_fonts_prereq from fontpackages-devel
+- component: Basesystem
+  create_time: 20180301T15:40:00
+  id: 1083539
+  resolution: FIXED
+  status: RESOLVED
+  summary: rpm -qpv --provides error
+- component: Other
+  create_time: 20180301T15:26:00
+  id: 1083537
+  resolution: ''
+  status: NEW
+  summary: '[libvpx] Missing 10-bit video encoding support with VP9'
+- component: Kubic
+  create_time: 20180301T14:45:00
+  id: 1083526
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[20180228] Kubic fails openQA test on ''first_boot'''
+- component: GNOME
+  create_time: 20180301T12:36:00
+  id: 1083495
+  resolution: ''
+  status: NEW
+  summary: Wayland session will not start currently
+- component: Basesystem
+  create_time: 20180301T10:41:00
+  id: 1083476
+  resolution: ''
+  status: REOPENED
+  summary: Build sanity checks force packages to own directories that already belong
+    to another package
+- component: Sound
+  create_time: 20180301T10:23:00
+  id: 1083473
+  resolution: ''
+  status: NEW
+  summary: Use systemd user socket for starting / enabling PulseAudio
+- component: GNOME
+  create_time: 20180301T09:45:00
+  id: 1083458
+  resolution: ''
+  status: NEW
+  summary: Gnome software throws error
+- component: KDE Applications
+  create_time: 20180301T09:14:00
+  id: 1083451
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'Trojita don''t pass #4: test_Html_formatting and old version incorrected
+    parsed html'
+- component: Other
+  create_time: 20180301T08:31:00
+  id: 1083434
+  resolution: ''
+  status: NEW
+  summary: Missing accessibility to Network Configuration screen in the Installer
+'20180302':
+- component: X.Org
+  create_time: 20180304T15:48:00
+  id: 1083869
+  resolution: ''
+  status: NEW
+  summary: Starting vncserver changes existing xauthority
+- component: Kubic
+  create_time: 20180304T14:31:00
+  id: 1083868
+  resolution: ''
+  status: NEW
+  summary: 'Failed to get unit file state for container-feeder.service: No such file
+    or directory'
+- component: Kernel
+  create_time: 20180304T14:02:00
+  id: 1083866
+  resolution: ''
+  status: NEW
+  summary: Kernel 4.15 - USB network adapter r8152 freeze
+- component: GNOME
+  create_time: 20180304T13:44:00
+  id: 1083864
+  resolution: ''
+  status: NEW
+  summary: GTK 3 applications ignore settings.ini on wayland
+- component: GNOME
+  create_time: 20180304T13:40:00
+  id: 1083863
+  resolution: ''
+  status: NEW
+  summary: GTK 3 applications ignore settings.ini on wayland
+- component: GNOME
+  create_time: 20180304T13:36:00
+  id: 1083862
+  resolution: ''
+  status: NEW
+  summary: GTK 3 applications ignore settings.ini on wayland
 - component: X11 3rd Party Driver
   create_time: 20180304T10:15:00
   id: 1083860
@@ -4879,77 +4991,3 @@
   resolution: ''
   status: NEW
   summary: linphone crashes when trying to open Preferences
-- component: Basesystem
-  create_time: 20180301T18:33:00
-  id: 1083571
-  resolution: FIXED
-  status: RESOLVED
-  summary: systemd is missing LUKS2 support
-- component: KDE Workspace (Plasma)
-  create_time: 20180301T17:39:00
-  id: 1083562
-  resolution: ''
-  status: NEW
-  summary: Super (Meta) Key stops working
-- component: Basesystem
-  create_time: 20180301T17:31:00
-  id: 1083558
-  resolution: ''
-  status: NEW
-  summary: Correct Requires(pre) in %reconfigure_fonts_prereq from fontpackages-devel
-- component: Basesystem
-  create_time: 20180301T15:40:00
-  id: 1083539
-  resolution: FIXED
-  status: RESOLVED
-  summary: rpm -qpv --provides error
-- component: Other
-  create_time: 20180301T15:26:00
-  id: 1083537
-  resolution: ''
-  status: NEW
-  summary: '[libvpx] Missing 10-bit video encoding support with VP9'
-- component: Kubic
-  create_time: 20180301T14:45:00
-  id: 1083526
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[20180228] Kubic fails openQA test on ''first_boot'''
-- component: GNOME
-  create_time: 20180301T12:36:00
-  id: 1083495
-  resolution: ''
-  status: NEW
-  summary: Wayland session will not start currently
-- component: Basesystem
-  create_time: 20180301T10:41:00
-  id: 1083476
-  resolution: ''
-  status: REOPENED
-  summary: Build sanity checks force packages to own directories that already belong
-    to another package
-- component: Sound
-  create_time: 20180301T10:23:00
-  id: 1083473
-  resolution: ''
-  status: NEW
-  summary: Use systemd user socket for starting / enabling PulseAudio
-- component: GNOME
-  create_time: 20180301T09:45:00
-  id: 1083458
-  resolution: ''
-  status: NEW
-  summary: Gnome software throws error
-- component: KDE Applications
-  create_time: 20180301T09:14:00
-  id: 1083451
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'Trojita don''t pass #4: test_Html_formatting and old version incorrected
-    parsed html'
-- component: Other
-  create_time: 20180301T08:31:00
-  id: 1083434
-  resolution: ''
-  status: NEW
-  summary: Missing accessibility to Network Configuration screen in the Installer
