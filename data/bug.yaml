@@ -4650,7 +4650,7 @@
   create_time: 20180226T14:11:00
   id: 1082847
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: update-alternatives does not work together with transactional-update
 - component: Security
   create_time: 20180226T08:06:00
@@ -4833,6 +4833,12 @@
   status: NEW
   summary: Missing accessibility to Network Configuration screen in the Installer
 '20180302':
+- component: Other
+  create_time: 20180305T14:16:00
+  id: 1083961
+  resolution: ''
+  status: NEW
+  summary: Every salt command produces multiple tracebacks
 - component: Kubic
   create_time: 20180305T09:22:00
   id: 1083909
