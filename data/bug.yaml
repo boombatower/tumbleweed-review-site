@@ -4833,6 +4833,24 @@
   status: NEW
   summary: Missing accessibility to Network Configuration screen in the Installer
 '20180302':
+- component: Kubic
+  create_time: 20180305T09:22:00
+  id: 1083909
+  resolution: ''
+  status: NEW
+  summary: Installation does not use MicroOS values for default partition size
+- component: Basesystem
+  create_time: 20180305T08:19:00
+  id: 1083902
+  resolution: FIXED
+  status: RESOLVED
+  summary: pkg-config of libtiprc reports non-existent path
+- component: KDE Workspace (Plasma)
+  create_time: 20180305T07:54:00
+  id: 1083897
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: KDE working space missing openSUSE logo in left of status bar ppc64 (BE)
 - component: Other
   create_time: 20180305T01:39:00
   id: 1083880
@@ -4840,7 +4858,7 @@
   status: NEW
   summary: 'QXcbConnection: XCB error: 3 (BadWindow), sequence: 32874, resource id:
     85983279, major code: 15 (QueryTree), minor code: 0'
-- component: Other
+- component: X.Org
   create_time: 20180305T01:33:00
   id: 1083879
   resolution: ''
@@ -4865,13 +4883,13 @@
   create_time: 20180304T15:48:00
   id: 1083869
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Starting vncserver changes existing xauthority
 - component: Kubic
   create_time: 20180304T14:31:00
   id: 1083868
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'Failed to get unit file state for container-feeder.service: No such file
     or directory'
 - component: Kernel
@@ -4903,7 +4921,7 @@
   id: 1083860
   resolution: ''
   status: CONFIRMED
-  summary: switching to VT and back restarts/kills X applications
+  summary: 'nvidia 390.25: Switching to VT and back restarts/kills X applications'
 - component: X.Org
   create_time: 20180304T00:22:00
   id: 1083853
