@@ -4855,14 +4855,14 @@
 - component: GNOME
   create_time: 20180304T13:44:00
   id: 1083864
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: GTK 3 applications ignore settings.ini on wayland
 - component: GNOME
   create_time: 20180304T13:40:00
   id: 1083863
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: GTK 3 applications ignore settings.ini on wayland
 - component: GNOME
   create_time: 20180304T13:36:00
@@ -4874,13 +4874,13 @@
   create_time: 20180304T10:15:00
   id: 1083860
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: switching to VT and back restarts/kills X applications
 - component: X.Org
   create_time: 20180304T00:22:00
   id: 1083853
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Xorg crash, scrolling in Firefox, X modesetting driver, Intel graphics
 - component: Kernel
   create_time: 20180303T20:10:00
