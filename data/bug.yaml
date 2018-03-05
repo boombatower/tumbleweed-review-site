@@ -4833,6 +4833,34 @@
   status: NEW
   summary: Missing accessibility to Network Configuration screen in the Installer
 '20180302':
+- component: Other
+  create_time: 20180305T01:39:00
+  id: 1083880
+  resolution: ''
+  status: NEW
+  summary: 'QXcbConnection: XCB error: 3 (BadWindow), sequence: 32874, resource id:
+    85983279, major code: 15 (QueryTree), minor code: 0'
+- component: Other
+  create_time: 20180305T01:33:00
+  id: 1083879
+  resolution: ''
+  status: NEW
+  summary: 'plasmashell[2638]: QXcbConnection: XCB error: 2 (BadValue), sequence:
+    10186, resource id: 60817409, major code: 142 (Unknown), minor code: 3'
+- component: Other
+  create_time: 20180305T01:31:00
+  id: 1083878
+  resolution: ''
+  status: NEW
+  summary: 'kdeinit5[12240]: kf5.kio.core: KLocalSocket(0x55aadc79ece0) Jumbo packet
+    of 65536 bytes'
+- component: Other
+  create_time: 20180305T01:26:00
+  id: 1083877
+  resolution: ''
+  status: NEW
+  summary: 'systemd-journald[379]: Failed to write entry (26 items, 313851276 bytes)
+    despite vacuuming, ignoring: Argument list too long'
 - component: X.Org
   create_time: 20180304T15:48:00
   id: 1083869
