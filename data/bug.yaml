@@ -3458,8 +3458,8 @@
 - component: GNOME
   create_time: 20180208T09:18:00
   id: 1080015
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Mouse unusable under Wayland
 - component: KDE Workspace (Plasma)
   create_time: 20180208T08:56:00
@@ -4822,8 +4822,8 @@
 - component: KDE Applications
   create_time: 20180301T09:14:00
   id: 1083451
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Trojita don''t pass #4: test_Html_formatting and old version incorrected
     parsed html'
 - component: Other
@@ -4833,6 +4833,128 @@
   status: NEW
   summary: Missing accessibility to Network Configuration screen in the Installer
 '20180302':
+- component: Kernel
+  create_time: 20180303T20:10:00
+  id: 1083850
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: something is wrong with rpm/mkspec - not all archs are built
+- component: Installation
+  create_time: 20180303T17:52:00
+  id: 1083844
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed i586 NET Install - OSS repo error
+- component: Other
+  create_time: 20180303T17:34:00
+  id: 1083843
+  resolution: ''
+  status: NEW
+  summary: Wrong license for bladeRF-fx3-firmware in hardware:sdr
+- component: KDE Workspace (Plasma)
+  create_time: 20180303T17:00:00
+  id: 1083842
+  resolution: FIXED
+  status: RESOLVED
+  summary: KDE plasma-nm5 does not display correct security information
+- component: KDE Workspace (Plasma)
+  create_time: 20180303T16:27:00
+  id: 1083840
+  resolution: ''
+  status: NEW
+  summary: ksmserver crashes on login with Tumbleweed 20180301
+- component: Other
+  create_time: 20180303T15:56:00
+  id: 1083839
+  resolution: ''
+  status: NEW
+  summary: add option to support legacy, insecure SSHv1 client connections
+- component: KDE Workspace (Plasma)
+  create_time: 20180303T15:49:00
+  id: 1083838
+  resolution: ''
+  status: CONFIRMED
+  summary: KDE Plasma 5.12 splash screen is cut off
+- component: Java
+  create_time: 20180303T14:52:00
+  id: 1083837
+  resolution: ''
+  status: NEW
+  summary: opensuse mysql java connector fails to connect
+- component: Other
+  create_time: 20180303T13:51:00
+  id: 1083835
+  resolution: FIXED
+  status: RESOLVED
+  summary: clusterssh doc generation is racy
+- component: Basesystem
+  create_time: 20180303T12:55:00
+  id: 1083834
+  resolution: ''
+  status: NEW
+  summary: 'unar: unrar wrapper breaks Ark'
+- component: Development
+  create_time: 20180303T11:58:00
+  id: 1083832
+  resolution: ''
+  status: NEW
+  summary: osc shows multibuild status even when there is no multibuild
+- component: GNOME
+  create_time: 20180303T11:00:00
+  id: 1083831
+  resolution: ''
+  status: NEW
+  summary: NetworkManager nfs displatcher script broken
+- component: Development
+  create_time: 20180303T09:58:00
+  id: 1083830
+  resolution: ''
+  status: NEW
+  summary: ffado fails to build with Python3 scons
+- component: Development
+  create_time: 20180303T02:43:00
+  id: 1083827
+  resolution: ''
+  status: CONFIRMED
+  summary: Encryption is not keep when add a volume
+- component: Network
+  create_time: 20180302T16:22:00
+  id: 1083740
+  resolution: ''
+  status: NEW
+  summary: 'network:telephony/rfc5766-turn-server: Project migrated to new Github
+    Repository'
+- component: Network
+  create_time: 20180302T16:20:00
+  id: 1083739
+  resolution: ''
+  status: NEW
+  summary: 'network:telephony/turnserver: Project appears to be discontinued'
+- component: Kernel
+  create_time: 20180302T11:42:00
+  id: 1083694
+  resolution: ''
+  status: NEW
+  summary: kernel-docs build fails with the latest Sphinx
+- component: X11 Applications
+  create_time: 20180302T09:31:00
+  id: 1083654
+  resolution: ''
+  status: NEW
+  summary: linphone crashes when trying to open Preferences
+'20180304':
+- component: KDE Workspace (Plasma)
+  create_time: 20180305T20:52:00
+  id: 1084016
+  resolution: ''
+  status: NEW
+  summary: plasma 5.12.2 - settings from qtlogging.ini not taken into account
+- component: YaST2
+  create_time: 20180305T20:46:00
+  id: 1084015
+  resolution: ''
+  status: NEW
+  summary: Include fixes from en_US "translation" to sources
 - component: Other
   create_time: 20180305T14:16:00
   id: 1083961
@@ -4934,112 +5056,3 @@
   resolution: ''
   status: CONFIRMED
   summary: Xorg crash, scrolling in Firefox, X modesetting driver, Intel graphics
-- component: Kernel
-  create_time: 20180303T20:10:00
-  id: 1083850
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: something is wrong with rpm/mkspec - not all archs are built
-- component: Installation
-  create_time: 20180303T17:52:00
-  id: 1083844
-  resolution: ''
-  status: NEW
-  summary: Tumbleweed i586 NET Install - OSS repo error
-- component: Other
-  create_time: 20180303T17:34:00
-  id: 1083843
-  resolution: ''
-  status: NEW
-  summary: Wrong license for bladeRF-fx3-firmware in hardware:sdr
-- component: KDE Workspace (Plasma)
-  create_time: 20180303T17:00:00
-  id: 1083842
-  resolution: FIXED
-  status: RESOLVED
-  summary: KDE plasma-nm5 does not display correct security information
-- component: KDE Workspace (Plasma)
-  create_time: 20180303T16:27:00
-  id: 1083840
-  resolution: ''
-  status: NEW
-  summary: ksmserver crashes on login with Tumbleweed 20180301
-- component: Other
-  create_time: 20180303T15:56:00
-  id: 1083839
-  resolution: ''
-  status: NEW
-  summary: add option to support legacy, insecure SSHv1 client connections
-- component: KDE Workspace (Plasma)
-  create_time: 20180303T15:49:00
-  id: 1083838
-  resolution: ''
-  status: CONFIRMED
-  summary: KDE Plasma 5.12 splash screen is cut off
-- component: Java
-  create_time: 20180303T14:52:00
-  id: 1083837
-  resolution: ''
-  status: NEW
-  summary: opensuse mysql java connector fails to connect
-- component: Other
-  create_time: 20180303T13:51:00
-  id: 1083835
-  resolution: FIXED
-  status: RESOLVED
-  summary: clusterssh doc generation is racy
-- component: Basesystem
-  create_time: 20180303T12:55:00
-  id: 1083834
-  resolution: ''
-  status: NEW
-  summary: 'unar: unrar wrapper breaks Ark'
-- component: Development
-  create_time: 20180303T11:58:00
-  id: 1083832
-  resolution: ''
-  status: NEW
-  summary: osc shows multibuild status even when there is no multibuild
-- component: GNOME
-  create_time: 20180303T11:00:00
-  id: 1083831
-  resolution: ''
-  status: NEW
-  summary: NetworkManager nfs displatcher script broken
-- component: Development
-  create_time: 20180303T09:58:00
-  id: 1083830
-  resolution: ''
-  status: NEW
-  summary: Scons isn't ready for python3 yet
-- component: Development
-  create_time: 20180303T02:43:00
-  id: 1083827
-  resolution: ''
-  status: CONFIRMED
-  summary: Encryption is not keep when add a volume
-- component: Network
-  create_time: 20180302T16:22:00
-  id: 1083740
-  resolution: ''
-  status: NEW
-  summary: 'network:telephony/rfc5766-turn-server: Project migrated to new Github
-    Repository'
-- component: Network
-  create_time: 20180302T16:20:00
-  id: 1083739
-  resolution: ''
-  status: NEW
-  summary: 'network:telephony/turnserver: Project appears to be discontinued'
-- component: Kernel
-  create_time: 20180302T11:42:00
-  id: 1083694
-  resolution: ''
-  status: NEW
-  summary: kernel-docs build fails with the latest Sphinx
-- component: X11 Applications
-  create_time: 20180302T09:31:00
-  id: 1083654
-  resolution: ''
-  status: NEW
-  summary: linphone crashes when trying to open Preferences
