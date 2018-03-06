@@ -491,7 +491,7 @@
   threads: []
 '20180301':
   announcement: 2018-03.39
-  reference_count: 19
+  reference_count: 20
   thread_count: 3
   threads:
   - messages: [2018-03.42]
@@ -501,7 +501,7 @@
     reference_count: 13
     summary: lots of new warning messages
   - messages: [2018-03.75]
-    reference_count: 2
+    reference_count: 3
     summary: openssl 1_0 is back?
 '20180302':
   announcement: 2018-03.66
@@ -510,6 +510,11 @@
   threads: []
 '20180304':
   announcement: 2018-03.78
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180305':
+  announcement: 2018-03.95
   reference_count: 0
   thread_count: 0
   threads: []
