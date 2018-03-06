@@ -4943,6 +4943,18 @@
   status: NEW
   summary: linphone crashes when trying to open Preferences
 '20180304':
+- component: Sound
+  create_time: 20180306T04:51:00
+  id: 1084047
+  resolution: ''
+  status: NEW
+  summary: New version of pulseaudio failed to work for the headphone
+- component: YaST2
+  create_time: 20180306T00:55:00
+  id: 1084044
+  resolution: ''
+  status: NEW
+  summary: Yast2 --Install from Tumbleweed locks up
 - component: KDE Workspace (Plasma)
   create_time: 20180305T20:52:00
   id: 1084016
