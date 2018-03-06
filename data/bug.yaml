@@ -2331,8 +2331,8 @@
 - component: Installation
   create_time: 20180124T16:23:00
   id: 1077454
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Inconsistent NTFS partition makes libstorage-ng crash YaST during installation
 - component: Other
   create_time: 20180124T15:16:00
@@ -3318,8 +3318,8 @@
 - component: Other
   create_time: 20180207T13:44:00
   id: 1079837
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[glibc2.27] guile fails to build'
 - component: X.Org
   create_time: 20180207T13:31:00
@@ -3385,8 +3385,8 @@
 - component: Basesystem
   create_time: 20180207T08:24:00
   id: 1079753
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[tracker bug] glibc 2.27 related build failures'
 - component: X.Org
   create_time: 20180207T07:47:00
@@ -4704,8 +4704,8 @@
 - component: Sound
   create_time: 20180227T22:32:00
   id: 1083195
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: No sound on T100TAF
 - component: Network
   create_time: 20180227T21:43:00
@@ -4785,8 +4785,8 @@
 - component: Other
   create_time: 20180301T15:26:00
   id: 1083537
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[libvpx] Missing 10-bit video encoding support with VP9'
 - component: Kubic
   create_time: 20180301T14:45:00
@@ -4909,7 +4909,7 @@
   create_time: 20180303T09:58:00
   id: 1083830
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: ffado fails to build with Python3 scons
 - component: Development
   create_time: 20180303T02:43:00
@@ -4943,6 +4943,93 @@
   status: NEW
   summary: linphone crashes when trying to open Preferences
 '20180304':
+- component: X.Org
+  create_time: 20180304T15:48:00
+  id: 1083869
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Starting vncserver changes existing xauthority
+- component: Kubic
+  create_time: 20180304T14:31:00
+  id: 1083868
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'Failed to get unit file state for container-feeder.service: No such file
+    or directory'
+- component: Kernel
+  create_time: 20180304T14:02:00
+  id: 1083866
+  resolution: ''
+  status: NEW
+  summary: Kernel 4.15 - USB network adapter r8152 freeze
+- component: GNOME
+  create_time: 20180304T13:44:00
+  id: 1083864
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: GTK 3 applications ignore settings.ini on wayland
+- component: GNOME
+  create_time: 20180304T13:40:00
+  id: 1083863
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: GTK 3 applications ignore settings.ini on wayland
+- component: GNOME
+  create_time: 20180304T13:36:00
+  id: 1083862
+  resolution: ''
+  status: NEW
+  summary: GTK 3 applications ignore settings.ini on wayland
+- component: X11 3rd Party Driver
+  create_time: 20180304T10:15:00
+  id: 1083860
+  resolution: ''
+  status: CONFIRMED
+  summary: 'nvidia 390.25: Switching to VT and back restarts/kills X applications'
+- component: X.Org
+  create_time: 20180304T00:22:00
+  id: 1083853
+  resolution: ''
+  status: CONFIRMED
+  summary: Xorg crash, scrolling in Firefox, X modesetting driver, Intel graphics
+'20180305':
+- component: YaST2
+  create_time: 20180306T21:19:00
+  id: 1084213
+  resolution: ''
+  status: NEW
+  summary: '[libstorage-ng][Leap 15 + SLE 15 suspected] /home subvolume not created
+    if user opts to not have a /home partition'
+- component: Network
+  create_time: 20180306T17:42:00
+  id: 1084177
+  resolution: ''
+  status: NEW
+  summary: SuSEfirewall2 and firewalld conflicting each other
+- component: Kubic
+  create_time: 20180306T15:51:00
+  id: 1084149
+  resolution: ''
+  status: NEW
+  summary: Introduce read-only-root-fs system_role in Leap 15 and Tumbleweed
+- component: Other
+  create_time: 20180306T10:23:00
+  id: 1084085
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Freetype2 new TrueType interpreter in release >= 2.6.4 broke full hinting
+- component: Other
+  create_time: 20180306T09:50:00
+  id: 1084081
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Latest fluidsynth update breaks compilation of KDE Minuet
+- component: Basesystem
+  create_time: 20180306T09:01:00
+  id: 1084076
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: replace issue generator with agetty built in methods
 - component: Sound
   create_time: 20180306T04:51:00
   id: 1084047
@@ -5019,52 +5106,3 @@
   status: NEW
   summary: 'systemd-journald[379]: Failed to write entry (26 items, 313851276 bytes)
     despite vacuuming, ignoring: Argument list too long'
-- component: X.Org
-  create_time: 20180304T15:48:00
-  id: 1083869
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Starting vncserver changes existing xauthority
-- component: Kubic
-  create_time: 20180304T14:31:00
-  id: 1083868
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'Failed to get unit file state for container-feeder.service: No such file
-    or directory'
-- component: Kernel
-  create_time: 20180304T14:02:00
-  id: 1083866
-  resolution: ''
-  status: NEW
-  summary: Kernel 4.15 - USB network adapter r8152 freeze
-- component: GNOME
-  create_time: 20180304T13:44:00
-  id: 1083864
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: GTK 3 applications ignore settings.ini on wayland
-- component: GNOME
-  create_time: 20180304T13:40:00
-  id: 1083863
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: GTK 3 applications ignore settings.ini on wayland
-- component: GNOME
-  create_time: 20180304T13:36:00
-  id: 1083862
-  resolution: ''
-  status: NEW
-  summary: GTK 3 applications ignore settings.ini on wayland
-- component: X11 3rd Party Driver
-  create_time: 20180304T10:15:00
-  id: 1083860
-  resolution: ''
-  status: CONFIRMED
-  summary: 'nvidia 390.25: Switching to VT and back restarts/kills X applications'
-- component: X.Org
-  create_time: 20180304T00:22:00
-  id: 1083853
-  resolution: ''
-  status: CONFIRMED
-  summary: Xorg crash, scrolling in Firefox, X modesetting driver, Intel graphics
