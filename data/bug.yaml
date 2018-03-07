@@ -4998,8 +4998,8 @@
   id: 1084213
   resolution: ''
   status: NEW
-  summary: '[libstorage-ng][Leap 15 + SLE 15 suspected] /home subvolume not created
-    if user opts to not have a /home partition'
+  summary: '[storage-ng][Leap 15 + SLE 15 suspected] /home subvolume not created if
+    user opts to not have a /home partition'
 - component: Network
   create_time: 20180306T17:42:00
   id: 1084177
@@ -5045,8 +5045,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180305T20:52:00
   id: 1084016
-  resolution: ''
-  status: NEW
+  resolution: FEATURE
+  status: RESOLVED
   summary: plasma 5.12.2 - settings from qtlogging.ini not taken into account
 - component: YaST2
   create_time: 20180305T20:46:00
