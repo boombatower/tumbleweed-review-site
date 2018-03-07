@@ -2441,8 +2441,8 @@
 - component: High Availability
   create_time: 20180126T02:42:00
   id: 1077702
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kronosnet-1.0 is available now
 '20180127':
 - component: Other
@@ -2748,8 +2748,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180131T11:19:00
   id: 1078487
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Regression: Power button and some Fn keys (suspend, brightness) no longer
     respond'
 - component: Other
@@ -2860,8 +2860,8 @@
 - component: OpenStack
   create_time: 20180201T16:47:00
   id: 1078827
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/python-taskflow fails to build'
 - component: Other
   create_time: 20180201T16:46:00
@@ -4487,8 +4487,8 @@
 - component: YaST2
   create_time: 20180222T19:07:00
   id: 1082386
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Yast2 bootloader module: "Probing device relationships failed"'
 - component: GNOME
   create_time: 20180222T16:24:00
@@ -4993,13 +4993,74 @@
   status: CONFIRMED
   summary: Xorg crash, scrolling in Firefox, X modesetting driver, Intel graphics
 '20180305':
+- component: Basesystem
+  create_time: 20180307T17:53:00
+  id: 1084357
+  resolution: ''
+  status: NEW
+  summary: Installer fails to find the cdrom symlinks in /dev/disk/by-* with udev
+    v237
+- component: Kubic
+  create_time: 20180307T16:13:00
+  id: 1084344
+  resolution: ''
+  status: NEW
+  summary: '[Containers] openldap container unable to execute /usr/lib/openldap/slapd'
+- component: Kubic
+  create_time: 20180307T16:10:00
+  id: 1084343
+  resolution: ''
+  status: NEW
+  summary: '[Containers] bundle not found'
+- component: Other
+  create_time: 20180307T15:26:00
+  id: 1084333
+  resolution: ''
+  status: CONFIRMED
+  summary: '[HPC,slurm] slurmd and slurmctld start with the wrong user/group.'
+- component: Other
+  create_time: 20180307T14:11:00
+  id: 1084320
+  resolution: ''
+  status: NEW
+  summary: Nextcloud rpm requires mod_php_any which is missing.
+- component: Security
+  create_time: 20180307T11:47:00
+  id: 1084292
+  resolution: ''
+  status: NEW
+  summary: '[drupal8] Multiple Vulnerabilities - SA-CORE-2018-001'
+- component: Security
+  create_time: 20180307T11:46:00
+  id: 1084290
+  resolution: ''
+  status: NEW
+  summary: '[drupal7] Multiple Vulnerabilities - SA-CORE-2018-001'
+- component: Basesystem
+  create_time: 20180307T11:16:00
+  id: 1084283
+  resolution: INVALID
+  status: RESOLVED
+  summary: '[glibc-devel] Missing C headers?'
+- component: Basesystem
+  create_time: 20180307T11:10:00
+  id: 1084281
+  resolution: ''
+  status: NEW
+  summary: '[cmake] feature-suse-python-interp-search-order.patch breaks cantor'
 - component: YaST2
   create_time: 20180306T21:19:00
   id: 1084213
   resolution: ''
+  status: CONFIRMED
+  summary: '[storage-ng][*15 & TW affected] /home subvolume not created if user opts
+    to not have a /home partition'
+- component: YaST2
+  create_time: 20180306T20:21:00
+  id: 1084203
+  resolution: ''
   status: NEW
-  summary: '[storage-ng][*15 affected] /home subvolume not created if user opts to
-    not have a /home partition'
+  summary: 'YaST:Head/yast2-hardware-detection: TW installer does not see USB SSD'
 - component: Network
   create_time: 20180306T17:42:00
   id: 1084177
@@ -5052,7 +5113,7 @@
   create_time: 20180305T20:46:00
   id: 1084015
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Include fixes from en_US "translation" to sources
 - component: Other
   create_time: 20180305T14:16:00
@@ -5103,6 +5164,6 @@
   create_time: 20180305T01:26:00
   id: 1083877
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'systemd-journald[379]: Failed to write entry (26 items, 313851276 bytes)
     despite vacuuming, ignoring: Argument list too long'
