@@ -2404,8 +2404,8 @@
 - component: Firefox
   create_time: 20180125T11:00:00
   id: 1077590
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: FF 58 XML Parsing Error in browser.xul
 - component: Live Medium
   create_time: 20180125T09:39:00
@@ -4826,7 +4826,7 @@
   status: RESOLVED
   summary: 'Trojita don''t pass #4: test_Html_formatting and old version incorrected
     parsed html'
-- component: Other
+- component: Installation
   create_time: 20180301T08:31:00
   id: 1083434
   resolution: ''
@@ -4998,8 +4998,8 @@
   id: 1084213
   resolution: ''
   status: NEW
-  summary: '[storage-ng][Leap 15 + SLE 15 suspected] /home subvolume not created if
-    user opts to not have a /home partition'
+  summary: '[storage-ng][*15 affected] /home subvolume not created if user opts to
+    not have a /home partition'
 - component: Network
   create_time: 20180306T17:42:00
   id: 1084177
@@ -5021,8 +5021,8 @@
 - component: Other
   create_time: 20180306T09:50:00
   id: 1084081
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Latest fluidsynth update breaks compilation of KDE Minuet
 - component: Basesystem
   create_time: 20180306T09:01:00
