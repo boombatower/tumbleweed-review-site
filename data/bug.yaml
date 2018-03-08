@@ -3906,7 +3906,7 @@
   create_time: 20180214T15:12:00
   id: 1081018
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: YaST2 errors while installing Tumbleweed (inst_proposal failed, undefined
     methods and grub problems)
 - component: GNOME
@@ -4939,8 +4939,8 @@
 - component: X11 Applications
   create_time: 20180302T09:31:00
   id: 1083654
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: linphone crashes when trying to open Preferences
 '20180304':
 - component: X.Org
@@ -5058,6 +5058,68 @@
   summary: 'systemd-journald[379]: Failed to write entry (26 items, 313851276 bytes)
     despite vacuuming, ignoring: Argument list too long'
 '20180306':
+- component: YaST2
+  create_time: 20180306T21:19:00
+  id: 1084213
+  resolution: ''
+  status: CONFIRMED
+  summary: '[storage-ng][*15 & TW affected] /home subvolume not created if user opts
+    to not have a /home partition'
+- component: YaST2
+  create_time: 20180306T20:21:00
+  id: 1084203
+  resolution: ''
+  status: NEW
+  summary: 'YaST:Head/yast2-hardware-detection: TW installer does not see USB SSD'
+- component: Network
+  create_time: 20180306T17:42:00
+  id: 1084177
+  resolution: ''
+  status: NEW
+  summary: SuSEfirewall2 and firewalld conflicting each other
+- component: Kubic
+  create_time: 20180306T15:51:00
+  id: 1084149
+  resolution: ''
+  status: NEW
+  summary: Introduce read-only-root-fs system_role in Leap 15 and Tumbleweed
+- component: Other
+  create_time: 20180306T10:23:00
+  id: 1084085
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Freetype2 new TrueType interpreter in release >= 2.6.4 broke full hinting
+- component: Other
+  create_time: 20180306T09:50:00
+  id: 1084081
+  resolution: FIXED
+  status: RESOLVED
+  summary: Latest fluidsynth update breaks compilation of KDE Minuet
+- component: Basesystem
+  create_time: 20180306T09:01:00
+  id: 1084076
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: replace issue generator with agetty built in methods
+- component: Sound
+  create_time: 20180306T04:51:00
+  id: 1084047
+  resolution: ''
+  status: NEW
+  summary: New version of pulseaudio failed to work for the headphone
+- component: YaST2
+  create_time: 20180306T00:55:00
+  id: 1084044
+  resolution: ''
+  status: NEW
+  summary: Yast2 --Install from Tumbleweed locks up
+'20180307':
+- component: Development
+  create_time: 20180308T18:47:00
+  id: 1084552
+  resolution: ''
+  status: NEW
+  summary: gdb hangs when libLLVM5-debuginfo is installed
 - component: Firefox
   create_time: 20180308T12:51:00
   id: 1084500
@@ -5067,8 +5129,8 @@
 - component: KDE Applications
   create_time: 20180308T10:34:00
   id: 1084478
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Okular cannot load CBR files with unar installed (tumbleweed wants unar)
 - component: Kubic
   create_time: 20180308T09:50:00
@@ -5161,58 +5223,3 @@
   resolution: ''
   status: NEW
   summary: '[cmake] feature-suse-python-interp-search-order.patch breaks cantor'
-- component: YaST2
-  create_time: 20180306T21:19:00
-  id: 1084213
-  resolution: ''
-  status: CONFIRMED
-  summary: '[storage-ng][*15 & TW affected] /home subvolume not created if user opts
-    to not have a /home partition'
-- component: YaST2
-  create_time: 20180306T20:21:00
-  id: 1084203
-  resolution: ''
-  status: NEW
-  summary: 'YaST:Head/yast2-hardware-detection: TW installer does not see USB SSD'
-- component: Network
-  create_time: 20180306T17:42:00
-  id: 1084177
-  resolution: ''
-  status: NEW
-  summary: SuSEfirewall2 and firewalld conflicting each other
-- component: Kubic
-  create_time: 20180306T15:51:00
-  id: 1084149
-  resolution: ''
-  status: NEW
-  summary: Introduce read-only-root-fs system_role in Leap 15 and Tumbleweed
-- component: Other
-  create_time: 20180306T10:23:00
-  id: 1084085
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Freetype2 new TrueType interpreter in release >= 2.6.4 broke full hinting
-- component: Other
-  create_time: 20180306T09:50:00
-  id: 1084081
-  resolution: FIXED
-  status: RESOLVED
-  summary: Latest fluidsynth update breaks compilation of KDE Minuet
-- component: Basesystem
-  create_time: 20180306T09:01:00
-  id: 1084076
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: replace issue generator with agetty built in methods
-- component: Sound
-  create_time: 20180306T04:51:00
-  id: 1084047
-  resolution: ''
-  status: NEW
-  summary: New version of pulseaudio failed to work for the headphone
-- component: YaST2
-  create_time: 20180306T00:55:00
-  id: 1084044
-  resolution: ''
-  status: NEW
-  summary: Yast2 --Install from Tumbleweed locks up
