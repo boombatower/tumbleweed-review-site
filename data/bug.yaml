@@ -5058,6 +5058,12 @@
   summary: 'systemd-journald[379]: Failed to write entry (26 items, 313851276 bytes)
     despite vacuuming, ignoring: Argument list too long'
 '20180306':
+- component: Upgrade Problems
+  create_time: 20180308T04:39:00
+  id: 1084419
+  resolution: ''
+  status: NEW
+  summary: Glibc update to 2.27 causes segfault during name resolution
 - component: Kernel
   create_time: 20180308T00:32:00
   id: 1084411
