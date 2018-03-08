@@ -2698,8 +2698,8 @@
 - component: Other
   create_time: 20180130T10:40:00
   id: 1078266
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 96BoardsGPIO error on login
 - component: X.Org
   create_time: 20180130T10:32:00
@@ -3008,7 +3008,7 @@
   create_time: 20180202T08:40:00
   id: 1079000
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Missing readonly option in fstab
 - component: YaST2
   create_time: 20180202T08:34:00
@@ -4212,8 +4212,8 @@
 - component: Kubic
   create_time: 20180219T16:04:00
   id: 1081620
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: bnx2 driver fails to load - [kubic-20180218]
 - component: Containers
   create_time: 20180219T15:48:00
@@ -4282,8 +4282,8 @@
 - component: Kubic
   create_time: 20180220T16:41:00
   id: 1081832
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: wrong login message - /etc/issue to be updated [kubic-20180218]
 - component: Development
   create_time: 20180220T13:44:00
@@ -4368,8 +4368,8 @@
 - component: Kubic
   create_time: 20180221T15:04:00
   id: 1082038
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Restructure skelcd-control-Kubic
 - component: Basesystem
   create_time: 20180221T14:03:00
@@ -4722,8 +4722,8 @@
 - component: Kubic
   create_time: 20180227T11:25:00
   id: 1083041
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Release notes are from CaaSP-1.0
 - component: libzypp
   create_time: 20180227T10:33:00
@@ -5058,6 +5058,30 @@
   summary: 'systemd-journald[379]: Failed to write entry (26 items, 313851276 bytes)
     despite vacuuming, ignoring: Argument list too long'
 '20180306':
+- component: Firefox
+  create_time: 20180308T12:51:00
+  id: 1084500
+  resolution: ''
+  status: NEW
+  summary: firefox segfaults when closing
+- component: KDE Applications
+  create_time: 20180308T10:34:00
+  id: 1084478
+  resolution: ''
+  status: NEW
+  summary: Okular cannot load CBR files with unar installed (tumbleweed wants unar)
+- component: Kubic
+  create_time: 20180308T09:50:00
+  id: 1084466
+  resolution: ''
+  status: NEW
+  summary: Implement Multi-Stage Kubic Installation Workflow
+- component: Kernel
+  create_time: 20180308T08:41:00
+  id: 1084438
+  resolution: ''
+  status: NEW
+  summary: nouveau backtrace in nouveau_bo_move_ntfy+0xc9/0xd0
 - component: Upgrade Problems
   create_time: 20180308T04:39:00
   id: 1084419
@@ -5083,6 +5107,12 @@
   status: NEW
   summary: Installer fails to find the cdrom symlinks in /dev/disk/by-* with udev
     v237
+- component: Network
+  create_time: 20180307T16:58:00
+  id: 1084354
+  resolution: ''
+  status: NEW
+  summary: '[/etc/sysconfig/memcached] Update memcached info to be more informative'
 - component: Kubic
   create_time: 20180307T16:13:00
   id: 1084344
@@ -5111,13 +5141,13 @@
   create_time: 20180307T11:47:00
   id: 1084292
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[drupal8] Multiple Vulnerabilities - SA-CORE-2018-001'
 - component: Security
   create_time: 20180307T11:46:00
   id: 1084290
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[drupal7] Multiple Vulnerabilities - SA-CORE-2018-001'
 - component: Basesystem
   create_time: 20180307T11:16:00
