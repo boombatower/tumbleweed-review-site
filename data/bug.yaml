@@ -5114,6 +5114,12 @@
   status: NEW
   summary: Yast2 --Install from Tumbleweed locks up
 '20180307':
+- component: Basesystem
+  create_time: 20180309T02:20:00
+  id: 1084588
+  resolution: ''
+  status: NEW
+  summary: 'Base:System/systemd-presets-branding-openSUSE: enable switcheroo.service'
 - component: Other
   create_time: 20180308T20:36:00
   id: 1084571
