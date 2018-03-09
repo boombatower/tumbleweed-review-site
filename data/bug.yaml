@@ -5039,8 +5039,8 @@
 - component: X.Org
   create_time: 20180305T01:33:00
   id: 1083879
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'plasmashell[2638]: QXcbConnection: XCB error: 2 (BadValue), sequence:
     10186, resource id: 60817409, major code: 142 (Unknown), minor code: 3'
 - component: Other
@@ -5114,6 +5114,12 @@
   status: NEW
   summary: Yast2 --Install from Tumbleweed locks up
 '20180307':
+- component: Other
+  create_time: 20180308T20:36:00
+  id: 1084571
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC, conman] In specfile assume group ''dialout'' for ttyS* devices'
 - component: Development
   create_time: 20180308T18:47:00
   id: 1084552
