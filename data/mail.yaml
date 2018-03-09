@@ -525,6 +525,9 @@
   threads: []
 '20180307':
   announcement: 2018-03.145
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages: [2018-03.155]
+    reference_count: 2
+    summary: failed to summarize
