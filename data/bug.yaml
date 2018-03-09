@@ -4649,8 +4649,8 @@
 - component: Kubic
   create_time: 20180226T14:11:00
   id: 1082847
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: update-alternatives does not work together with transactional-update
 - component: Security
   create_time: 20180226T08:06:00
@@ -4842,8 +4842,8 @@
 - component: Installation
   create_time: 20180303T17:52:00
   id: 1083844
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Tumbleweed i586 NET Install - OSS repo error
 - component: Other
   create_time: 20180303T17:34:00
@@ -5061,8 +5061,8 @@
 - component: YaST2
   create_time: 20180306T21:19:00
   id: 1084213
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[storage-ng][*15 & TW affected] /home subvolume not created if user opts
     to not have a /home partition'
 - component: YaST2
@@ -5075,7 +5075,7 @@
   create_time: 20180306T17:42:00
   id: 1084177
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: SuSEfirewall2 and firewalld conflicting each other
 - component: Kubic
   create_time: 20180306T15:51:00
@@ -5114,12 +5114,187 @@
   status: NEW
   summary: Yast2 --Install from Tumbleweed locks up
 '20180307':
-- component: Basesystem
-  create_time: 20180309T02:20:00
-  id: 1084588
+- component: KDE Workspace (Plasma)
+  create_time: 20180309T11:56:00
+  id: 1084670
   resolution: ''
   status: NEW
-  summary: 'Base:System/systemd-presets-branding-openSUSE: enable switcheroo.service'
+  summary: 'screen lock: password input focus on multimonitor setup'
+- component: X.Org
+  create_time: 20180309T11:21:00
+  id: 1084661
+  resolution: ''
+  status: CONFIRMED
+  summary: Drop Bitstream Speedo Fonts
+- component: YaST2
+  create_time: 20180309T11:07:00
+  id: 1084657
+  resolution: ''
+  status: NEW
+  summary: yast showing some Arabic category heading or the category explanation -
+    but not both, although English selected
+- component: Basesystem
+  create_time: 20180309T10:11:00
+  id: 1084650
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: python-base is miscompiled'
+- component: Basesystem
+  create_time: 20180309T10:06:00
+  id: 1084649
+  resolution: ''
+  status: NEW
+  summary: '[META] GCC 8 package failures'
+- component: Basesystem
+  create_time: 20180309T10:06:00
+  id: 1084648
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: slan build fails'
+- component: Bootloader
+  create_time: 20180309T10:06:00
+  id: 1084647
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: cyrus-sas build fails'
+- component: Basesystem
+  create_time: 20180309T10:06:00
+  id: 1084646
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: gperftools build fails'
+- component: Basesystem
+  create_time: 20180309T10:05:00
+  id: 1084645
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: ceph build fails'
+- component: Basesystem
+  create_time: 20180309T10:05:00
+  id: 1084644
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: zypper build fails'
+- component: Basesystem
+  create_time: 20180309T10:05:00
+  id: 1084643
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: gdb build fails'
+- component: Basesystem
+  create_time: 20180309T10:05:00
+  id: 1084642
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: systemtap build fails'
+- component: Basesystem
+  create_time: 20180309T10:04:00
+  id: 1084641
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: systemd-mini build fails'
+- component: Basesystem
+  create_time: 20180309T10:04:00
+  id: 1084640
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: open-iscsi build fails'
+- component: Basesystem
+  create_time: 20180309T10:04:00
+  id: 1084639
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: libX11 build fails'
+- component: Bootloader
+  create_time: 20180309T10:03:00
+  id: 1084638
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: systemd build fails'
+- component: Basesystem
+  create_time: 20180309T10:03:00
+  id: 1084637
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'GCC 8: elfutils build fails'
+- component: Basesystem
+  create_time: 20180309T10:03:00
+  id: 1084636
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: libyui build fails'
+- component: Basesystem
+  create_time: 20180309T10:03:00
+  id: 1084635
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: openucx build fails'
+- component: Basesystem
+  create_time: 20180309T10:02:00
+  id: 1084634
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: libpsm2 build fails'
+- component: Basesystem
+  create_time: 20180309T10:02:00
+  id: 1084633
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: yp-tools build fails'
+- component: Basesystem
+  create_time: 20180309T10:02:00
+  id: 1084632
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: grub2 build fails'
+- component: Basesystem
+  create_time: 20180309T10:01:00
+  id: 1084631
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: nasm build fails'
+- component: Basesystem
+  create_time: 20180309T10:01:00
+  id: 1084630
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: libstoragemgmt build fails'
+- component: Upgrade Problems
+  create_time: 20180309T09:59:00
+  id: 1084629
+  resolution: ''
+  status: NEW
+  summary: System hangs in boot after upgrade to Tumbleweed 20180307
+- component: Basesystem
+  create_time: 20180309T09:55:00
+  id: 1084627
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: qpid-proton build fails'
+- component: Basesystem
+  create_time: 20180309T09:37:00
+  id: 1084622
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: mozilla-nss build fails'
+- component: Basesystem
+  create_time: 20180309T09:35:00
+  id: 1084621
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: spirv-tools build fails'
+- component: Basesystem
+  create_time: 20180309T09:33:00
+  id: 1084620
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: kernel-vanilla build fails'
+- component: Sound
+  create_time: 20180309T07:55:00
+  id: 1084607
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: No sound in earphone
 - component: Other
   create_time: 20180308T20:36:00
   id: 1084571
@@ -5177,10 +5352,9 @@
 - component: Basesystem
   create_time: 20180307T17:53:00
   id: 1084357
-  resolution: ''
-  status: NEW
-  summary: Installer fails to find the cdrom symlinks in /dev/disk/by-* with udev
-    v237
+  resolution: FIXED
+  status: RESOLVED
+  summary: linuxrc fails to find the cdrom symlinks in /dev/disk/by-* with udev v237
 - component: Network
   create_time: 20180307T16:58:00
   id: 1084354
