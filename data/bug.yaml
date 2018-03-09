@@ -4803,8 +4803,8 @@
 - component: Basesystem
   create_time: 20180301T10:41:00
   id: 1083476
-  resolution: ''
-  status: REOPENED
+  resolution: INVALID
+  status: RESOLVED
   summary: Build sanity checks force packages to own directories that already belong
     to another package
 - component: Sound
@@ -5114,6 +5114,13 @@
   status: NEW
   summary: Yast2 --Install from Tumbleweed locks up
 '20180307':
+- component: Kernel
+  create_time: 20180309T17:16:00
+  id: 1084742
+  resolution: ''
+  status: NEW
+  summary: Multiple CIFS mounts produce significant I/O anomalies under kernel versions
+    4.13, 4.14 and 4.15
 - component: KDE Workspace (Plasma)
   create_time: 20180309T11:56:00
   id: 1084670
@@ -5123,8 +5130,8 @@
 - component: X.Org
   create_time: 20180309T11:21:00
   id: 1084661
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Drop Bitstream Speedo Fonts
 - component: YaST2
   create_time: 20180309T11:07:00
