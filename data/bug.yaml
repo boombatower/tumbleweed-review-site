@@ -5181,6 +5181,12 @@
   status: NEW
   summary: '[cmake] feature-suse-python-interp-search-order.patch breaks cantor'
 '20180308':
+- component: KDE Workspace (Plasma)
+  create_time: 20180310T18:08:00
+  id: 1084793
+  resolution: ''
+  status: NEW
+  summary: wallpaper slideshow does not check for file changes
 - component: YaST2
   create_time: 20180310T09:32:00
   id: 1084791
