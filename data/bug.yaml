@@ -5181,6 +5181,12 @@
   status: NEW
   summary: '[cmake] feature-suse-python-interp-search-order.patch breaks cantor'
 '20180308':
+- component: YaST2
+  create_time: 20180310T09:32:00
+  id: 1084791
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'yast-fonts: Incorrect paragraph end tag'
 - component: Other
   create_time: 20180309T21:29:00
   id: 1084767
