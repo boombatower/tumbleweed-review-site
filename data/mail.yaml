@@ -525,11 +525,11 @@
   threads: []
 '20180307':
   announcement: 2018-03.145
-  reference_count: 5
+  reference_count: 6
   thread_count: 1
   threads:
   - messages: [2018-03.155]
-    reference_count: 5
+    reference_count: 6
     summary: failed to summarize
 '20180308':
   announcement: 2018-03.164
