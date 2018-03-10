@@ -3157,8 +3157,8 @@
 - component: GNOME
   create_time: 20180206T21:21:00
   id: 1079672
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: NetworkManager does not automatically connect to WLAN anymore
 - component: KDE Workspace (Plasma)
   create_time: 20180206T17:46:00
@@ -5114,6 +5114,91 @@
   status: NEW
   summary: Yast2 --Install from Tumbleweed locks up
 '20180307':
+- component: GNOME
+  create_time: 20180307T19:54:00
+  id: 1084371
+  resolution: ''
+  status: NEW
+  summary: gnome-shell crash on LibreOffice
+- component: Basesystem
+  create_time: 20180307T17:53:00
+  id: 1084357
+  resolution: FIXED
+  status: RESOLVED
+  summary: linuxrc fails to find the cdrom symlinks in /dev/disk/by-* with udev v237
+- component: Network
+  create_time: 20180307T16:58:00
+  id: 1084354
+  resolution: ''
+  status: NEW
+  summary: '[/etc/sysconfig/memcached] Update memcached info to be more informative'
+- component: Kubic
+  create_time: 20180307T16:13:00
+  id: 1084344
+  resolution: ''
+  status: NEW
+  summary: '[Containers] openldap container unable to execute /usr/lib/openldap/slapd'
+- component: Kubic
+  create_time: 20180307T16:10:00
+  id: 1084343
+  resolution: ''
+  status: NEW
+  summary: '[Containers] bundle not found'
+- component: Other
+  create_time: 20180307T15:26:00
+  id: 1084333
+  resolution: INVALID
+  status: RESOLVED
+  summary: '[HPC,slurm] slurmd and slurmctld start with the wrong user/group.'
+- component: Other
+  create_time: 20180307T14:11:00
+  id: 1084320
+  resolution: ''
+  status: NEW
+  summary: Nextcloud rpm requires mod_php_any which is missing.
+- component: Security
+  create_time: 20180307T11:47:00
+  id: 1084292
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[drupal8] Multiple Vulnerabilities - SA-CORE-2018-001'
+- component: Security
+  create_time: 20180307T11:46:00
+  id: 1084290
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[drupal7] Multiple Vulnerabilities - SA-CORE-2018-001'
+- component: Basesystem
+  create_time: 20180307T11:16:00
+  id: 1084283
+  resolution: INVALID
+  status: RESOLVED
+  summary: '[glibc-devel] Missing C headers?'
+- component: Basesystem
+  create_time: 20180307T11:10:00
+  id: 1084281
+  resolution: ''
+  status: NEW
+  summary: '[cmake] feature-suse-python-interp-search-order.patch breaks cantor'
+'20180308':
+- component: Other
+  create_time: 20180309T21:29:00
+  id: 1084767
+  resolution: ''
+  status: NEW
+  summary: 3D & games produce periodic GPU crashes (Radeon R7 370)
+- component: Containers
+  create_time: 20180309T21:26:00
+  id: 1084766
+  resolution: ''
+  status: NEW
+  summary: kubernetes-kubelet doesn't create /var/lib/kubelet properly in transactional-update
+- component: Containers
+  create_time: 20180309T21:24:00
+  id: 1084765
+  resolution: ''
+  status: NEW
+  summary: kubeternetes-kubeadm seems to be missing dependencies
 - component: Kernel
   create_time: 20180309T17:16:00
   id: 1084742
@@ -5350,69 +5435,3 @@
   resolution: ''
   status: NEW
   summary: monitor remains disconnected and displays nothing in 2 nouveau card setup
-- component: GNOME
-  create_time: 20180307T19:54:00
-  id: 1084371
-  resolution: ''
-  status: NEW
-  summary: gnome-shell crash on LibreOffice
-- component: Basesystem
-  create_time: 20180307T17:53:00
-  id: 1084357
-  resolution: FIXED
-  status: RESOLVED
-  summary: linuxrc fails to find the cdrom symlinks in /dev/disk/by-* with udev v237
-- component: Network
-  create_time: 20180307T16:58:00
-  id: 1084354
-  resolution: ''
-  status: NEW
-  summary: '[/etc/sysconfig/memcached] Update memcached info to be more informative'
-- component: Kubic
-  create_time: 20180307T16:13:00
-  id: 1084344
-  resolution: ''
-  status: NEW
-  summary: '[Containers] openldap container unable to execute /usr/lib/openldap/slapd'
-- component: Kubic
-  create_time: 20180307T16:10:00
-  id: 1084343
-  resolution: ''
-  status: NEW
-  summary: '[Containers] bundle not found'
-- component: Other
-  create_time: 20180307T15:26:00
-  id: 1084333
-  resolution: INVALID
-  status: RESOLVED
-  summary: '[HPC,slurm] slurmd and slurmctld start with the wrong user/group.'
-- component: Other
-  create_time: 20180307T14:11:00
-  id: 1084320
-  resolution: ''
-  status: NEW
-  summary: Nextcloud rpm requires mod_php_any which is missing.
-- component: Security
-  create_time: 20180307T11:47:00
-  id: 1084292
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[drupal8] Multiple Vulnerabilities - SA-CORE-2018-001'
-- component: Security
-  create_time: 20180307T11:46:00
-  id: 1084290
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[drupal7] Multiple Vulnerabilities - SA-CORE-2018-001'
-- component: Basesystem
-  create_time: 20180307T11:16:00
-  id: 1084283
-  resolution: INVALID
-  status: RESOLVED
-  summary: '[glibc-devel] Missing C headers?'
-- component: Basesystem
-  create_time: 20180307T11:10:00
-  id: 1084281
-  resolution: ''
-  status: NEW
-  summary: '[cmake] feature-suse-python-interp-search-order.patch breaks cantor'
