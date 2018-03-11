@@ -5181,6 +5181,13 @@
   status: NEW
   summary: '[cmake] feature-suse-python-interp-search-order.patch breaks cantor'
 '20180308':
+- component: Basesystem
+  create_time: 20180310T22:24:00
+  id: 1084796
+  resolution: ''
+  status: NEW
+  summary: Segmentation fault with zypper after zypper dup to TW20180305 and reboot
+    on aarch64 (Raspberry Pi 3B)
 - component: KDE Workspace (Plasma)
   create_time: 20180310T18:08:00
   id: 1084793
