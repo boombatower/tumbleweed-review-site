@@ -5181,6 +5181,12 @@
   status: NEW
   summary: '[cmake] feature-suse-python-interp-search-order.patch breaks cantor'
 '20180308':
+- component: X.Org
+  create_time: 20180311T07:13:00
+  id: 1084798
+  resolution: ''
+  status: NEW
+  summary: 'no protocol specified Error: Can''t open display:'
 - component: Basesystem
   create_time: 20180310T22:24:00
   id: 1084796
