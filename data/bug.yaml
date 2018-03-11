@@ -5181,6 +5181,73 @@
   status: NEW
   summary: '[cmake] feature-suse-python-interp-search-order.patch breaks cantor'
 '20180308':
+- component: Other
+  create_time: 20180308T20:36:00
+  id: 1084571
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC, conman] In specfile assume group ''dialout'' for ttyS* devices'
+- component: Development
+  create_time: 20180308T18:47:00
+  id: 1084552
+  resolution: ''
+  status: NEW
+  summary: gdb hangs when libLLVM5-debuginfo is installed
+- component: Firefox
+  create_time: 20180308T12:51:00
+  id: 1084500
+  resolution: ''
+  status: NEW
+  summary: firefox segfaults when closing
+- component: KDE Applications
+  create_time: 20180308T10:34:00
+  id: 1084478
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Okular cannot load CBR files with unar installed (tumbleweed wants unar)
+- component: Kubic
+  create_time: 20180308T09:50:00
+  id: 1084466
+  resolution: ''
+  status: NEW
+  summary: Implement Multi-Stage Kubic Installation Workflow
+- component: Kernel
+  create_time: 20180308T08:41:00
+  id: 1084438
+  resolution: ''
+  status: NEW
+  summary: nouveau backtrace in nouveau_bo_move_ntfy+0xc9/0xd0
+- component: Upgrade Problems
+  create_time: 20180308T04:39:00
+  id: 1084419
+  resolution: ''
+  status: NEW
+  summary: Glibc update to 2.27 causes segfault during name resolution
+- component: Kernel
+  create_time: 20180308T00:32:00
+  id: 1084411
+  resolution: ''
+  status: NEW
+  summary: monitor remains disconnected and displays nothing in 2 nouveau card setup
+'20180309':
+- component: Network
+  create_time: 20180311T19:27:00
+  id: 1084812
+  resolution: ''
+  status: NEW
+  summary: '[aarch64] IPv4 DNS leading to segfaults'
+- component: Kernel
+  create_time: 20180311T19:20:00
+  id: 1084811
+  resolution: ''
+  status: NEW
+  summary: E-sata hotplugging stopped working since kernel 4.15
+- component: Printing
+  create_time: 20180311T08:00:00
+  id: 1084799
+  resolution: ''
+  status: NEW
+  summary: cups-browsed not working properly after resume in new network
 - component: X.Org
   create_time: 20180311T07:13:00
   id: 1084798
@@ -5246,8 +5313,8 @@
 - component: YaST2
   create_time: 20180309T11:07:00
   id: 1084657
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast showing some Arabic category heading or the category explanation -
     but not both, although English selected
 - component: Basesystem
@@ -5412,51 +5479,3 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: No sound in earphone
-- component: Other
-  create_time: 20180308T20:36:00
-  id: 1084571
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[HPC, conman] In specfile assume group ''dialout'' for ttyS* devices'
-- component: Development
-  create_time: 20180308T18:47:00
-  id: 1084552
-  resolution: ''
-  status: NEW
-  summary: gdb hangs when libLLVM5-debuginfo is installed
-- component: Firefox
-  create_time: 20180308T12:51:00
-  id: 1084500
-  resolution: ''
-  status: NEW
-  summary: firefox segfaults when closing
-- component: KDE Applications
-  create_time: 20180308T10:34:00
-  id: 1084478
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Okular cannot load CBR files with unar installed (tumbleweed wants unar)
-- component: Kubic
-  create_time: 20180308T09:50:00
-  id: 1084466
-  resolution: ''
-  status: NEW
-  summary: Implement Multi-Stage Kubic Installation Workflow
-- component: Kernel
-  create_time: 20180308T08:41:00
-  id: 1084438
-  resolution: ''
-  status: NEW
-  summary: nouveau backtrace in nouveau_bo_move_ntfy+0xc9/0xd0
-- component: Upgrade Problems
-  create_time: 20180308T04:39:00
-  id: 1084419
-  resolution: ''
-  status: NEW
-  summary: Glibc update to 2.27 causes segfault during name resolution
-- component: Kernel
-  create_time: 20180308T00:32:00
-  id: 1084411
-  resolution: ''
-  status: NEW
-  summary: monitor remains disconnected and displays nothing in 2 nouveau card setup
