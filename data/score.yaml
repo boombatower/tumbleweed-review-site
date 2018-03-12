@@ -221,5 +221,8 @@
   score: 95
   stability_level: pending
 '20180309':
-  score: 94
+  score: 90
+  stability_level: pending
+'20180311':
+  score: 95
   stability_level: pending
