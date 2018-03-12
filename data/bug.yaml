@@ -2512,8 +2512,8 @@
 - component: Installation
   create_time: 20180128T11:15:00
   id: 1077868
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Installer Expert Partitioner has several issues with existing partition
     use
 - component: Installation
@@ -4250,7 +4250,7 @@
   create_time: 20180219T08:42:00
   id: 1081508
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build20180214] Confusing online repositories selection WAS: Online repos
     are not disabled in the installed system regardless of disabling in the settings'
 - component: Kernel
@@ -5456,6 +5456,36 @@
   status: RESOLVED
   summary: No sound in earphone
 '20180311':
+- component: Other
+  create_time: 20180312T19:19:00
+  id: 1084951
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC, marcos]  %hpc_shebang_prepend_list macro doesn''t append Newline'
+- component: Other
+  create_time: 20180312T18:47:00
+  id: 1084945
+  resolution: ''
+  status: NEW
+  summary: fault in  /etc/speech-dispatcher/speechd.conf
+- component: GNOME
+  create_time: 20180312T18:34:00
+  id: 1084943
+  resolution: ''
+  status: NEW
+  summary: NetworkManager with autoconnect enabled displays error messages
+- component: Basesystem
+  create_time: 20180312T17:05:00
+  id: 1084924
+  resolution: ''
+  status: NEW
+  summary: 'pam-config: pam_systemd should be included in common-session-pc by default'
+- component: Other
+  create_time: 20180312T15:52:00
+  id: 1084909
+  resolution: ''
+  status: CONFIRMED
+  summary: 'trackerbug: packages do not build reproducibly from hostname'
 - component: Other
   create_time: 20180312T14:24:00
   id: 1084893
