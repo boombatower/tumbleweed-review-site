@@ -2119,8 +2119,8 @@
 - component: Basesystem
   create_time: 20180119T09:48:00
   id: 1076742
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Image for Raspberry Pi 3 gives error when booting
 - component: YaST2
   create_time: 20180119T08:54:00
@@ -2806,8 +2806,8 @@
 - component: Other
   create_time: 20180201T17:06:00
   id: 1078840
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/espresso fails to build'
 - component: Mono
   create_time: 20180201T17:05:00
@@ -4638,7 +4638,7 @@
   create_time: 20180226T18:55:00
   id: 1082896
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Ghostscript package contains lots of duplicated resources
 - component: X.Org
   create_time: 20180226T18:16:00
@@ -5231,36 +5231,6 @@
   summary: monitor remains disconnected and displays nothing in 2 nouveau card setup
 '20180309':
 - component: Basesystem
-  create_time: 20180311T23:52:00
-  id: 1084818
-  resolution: ''
-  status: NEW
-  summary: initrd always ask for password also if password is provides in /etc/crypttab
-- component: Network
-  create_time: 20180311T19:27:00
-  id: 1084812
-  resolution: ''
-  status: NEW
-  summary: '[aarch64] IPv4 DNS leading to segfaults'
-- component: Kernel
-  create_time: 20180311T19:20:00
-  id: 1084811
-  resolution: ''
-  status: NEW
-  summary: E-sata hotplugging stopped working since kernel 4.15
-- component: Printing
-  create_time: 20180311T08:00:00
-  id: 1084799
-  resolution: ''
-  status: NEW
-  summary: cups-browsed not working properly after resume in new network
-- component: X.Org
-  create_time: 20180311T07:13:00
-  id: 1084798
-  resolution: ''
-  status: NEW
-  summary: 'no protocol specified Error: Can''t open display:'
-- component: Basesystem
   create_time: 20180310T22:24:00
   id: 1084796
   resolution: ''
@@ -5279,7 +5249,7 @@
   resolution: ''
   status: IN_PROGRESS
   summary: 'yast-fonts: Incorrect paragraph end tag'
-- component: Other
+- component: X.Org
   create_time: 20180309T21:29:00
   id: 1084767
   resolution: ''
@@ -5485,3 +5455,72 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: No sound in earphone
+'20180311':
+- component: Other
+  create_time: 20180312T14:24:00
+  id: 1084893
+  resolution: ''
+  status: NEW
+  summary: 'cdrtools: mkisofs -chrp-boot not documented and differs from genisoimage'
+- component: Other
+  create_time: 20180312T14:20:00
+  id: 1084892
+  resolution: ''
+  status: NEW
+  summary: 'cdrtools: mkisofs expects translations in /usr/lib/siconv'
+- component: Kernel
+  create_time: 20180312T12:42:00
+  id: 1084876
+  resolution: ''
+  status: NEW
+  summary: Realtek 8812AU support
+- component: Other
+  create_time: 20180312T11:52:00
+  id: 1084871
+  resolution: ''
+  status: NEW
+  summary: btrfsmaintenance-refresh.path missing
+- component: YaST2
+  create_time: 20180312T10:34:00
+  id: 1084864
+  resolution: ''
+  status: NEW
+  summary: YaST module names are too similar to some desktop environment configuration
+    modules
+- component: Development
+  create_time: 20180312T08:44:00
+  id: 1084842
+  resolution: ''
+  status: NEW
+  summary: gcc on i*86 with option -mieee-fp requires obsolete libieee now disappeared
+- component: Basesystem
+  create_time: 20180311T23:52:00
+  id: 1084818
+  resolution: ''
+  status: NEW
+  summary: initrd always ask for password also if password is provides in /etc/crypttab
+- component: Network
+  create_time: 20180311T19:27:00
+  id: 1084812
+  resolution: ''
+  status: NEW
+  summary: '[aarch64] IPv4 DNS leading to segfaults'
+- component: Kernel
+  create_time: 20180311T19:20:00
+  id: 1084811
+  resolution: ''
+  status: NEW
+  summary: E-sata hotplugging stopped working since kernel 4.15
+- component: Printing
+  create_time: 20180311T08:00:00
+  id: 1084799
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: cups-browsed not working properly after resume (from suspend/hibernate)
+    in a different network environment
+- component: X.Org
+  create_time: 20180311T07:13:00
+  id: 1084798
+  resolution: ''
+  status: NEW
+  summary: 'no protocol specified Error: Can''t open display:'
