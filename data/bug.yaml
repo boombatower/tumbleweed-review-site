@@ -5230,6 +5230,12 @@
   status: NEW
   summary: monitor remains disconnected and displays nothing in 2 nouveau card setup
 '20180309':
+- component: Basesystem
+  create_time: 20180311T23:52:00
+  id: 1084818
+  resolution: ''
+  status: NEW
+  summary: initrd always ask for password also if password is provides in /etc/crypttab
 - component: Network
   create_time: 20180311T19:27:00
   id: 1084812
