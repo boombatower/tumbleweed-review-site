@@ -5456,6 +5456,44 @@
   status: RESOLVED
   summary: No sound in earphone
 '20180311':
+- component: Basesystem
+  create_time: 20180311T23:52:00
+  id: 1084818
+  resolution: ''
+  status: NEW
+  summary: initrd always ask for password also if password is provided in /etc/crypttab
+- component: Network
+  create_time: 20180311T19:27:00
+  id: 1084812
+  resolution: ''
+  status: NEW
+  summary: '[aarch64] IPv4 DNS leading to segfaults'
+- component: Kernel
+  create_time: 20180311T19:20:00
+  id: 1084811
+  resolution: ''
+  status: NEW
+  summary: E-sata hotplugging stopped working since kernel 4.15
+- component: Printing
+  create_time: 20180311T08:00:00
+  id: 1084799
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: cups-browsed not working properly after resume (from suspend/hibernate)
+    in a different network environment
+- component: X.Org
+  create_time: 20180311T07:13:00
+  id: 1084798
+  resolution: ''
+  status: NEW
+  summary: 'no protocol specified Error: Can''t open display:'
+'20180312':
+- component: Other
+  create_time: 20180313T19:34:00
+  id: 1085145
+  resolution: ''
+  status: NEW
+  summary: openQA tests fail in sssd, relying on python-pam
 - component: Development
   create_time: 20180313T14:14:00
   id: 1085082
@@ -5483,8 +5521,8 @@
 - component: Basesystem
   create_time: 20180312T17:05:00
   id: 1084924
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'pam-config: pam_systemd should be included in common-session-pc by default'
 - component: Other
   create_time: 20180312T15:52:00
@@ -5529,34 +5567,3 @@
   resolution: ''
   status: NEW
   summary: gcc on i*86 with option -mieee-fp requires obsolete libieee now disappeared
-- component: Basesystem
-  create_time: 20180311T23:52:00
-  id: 1084818
-  resolution: ''
-  status: NEW
-  summary: initrd always ask for password also if password is provided in /etc/crypttab
-- component: Network
-  create_time: 20180311T19:27:00
-  id: 1084812
-  resolution: ''
-  status: NEW
-  summary: '[aarch64] IPv4 DNS leading to segfaults'
-- component: Kernel
-  create_time: 20180311T19:20:00
-  id: 1084811
-  resolution: ''
-  status: NEW
-  summary: E-sata hotplugging stopped working since kernel 4.15
-- component: Printing
-  create_time: 20180311T08:00:00
-  id: 1084799
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: cups-browsed not working properly after resume (from suspend/hibernate)
-    in a different network environment
-- component: X.Org
-  create_time: 20180311T07:13:00
-  id: 1084798
-  resolution: ''
-  status: NEW
-  summary: 'no protocol specified Error: Can''t open display:'
