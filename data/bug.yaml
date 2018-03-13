@@ -5528,7 +5528,7 @@
   id: 1084818
   resolution: ''
   status: NEW
-  summary: initrd always ask for password also if password is provides in /etc/crypttab
+  summary: initrd always ask for password also if password is provided in /etc/crypttab
 - component: Network
   create_time: 20180311T19:27:00
   id: 1084812
