@@ -4356,8 +4356,8 @@
 - component: Live Medium
   create_time: 20180221T16:11:00
   id: 1082055
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180220] Live media how wrong branding'
 - component: Basesystem
   create_time: 20180221T15:40:00
@@ -5311,7 +5311,7 @@
   resolution: ''
   status: NEW
   summary: 'GCC 8: slan build fails'
-- component: Bootloader
+- component: Basesystem
   create_time: 20180309T10:06:00
   id: 1084647
   resolution: ''
@@ -5365,7 +5365,7 @@
   resolution: ''
   status: NEW
   summary: 'GCC 8: libX11 build fails'
-- component: Bootloader
+- component: Basesystem
   create_time: 20180309T10:03:00
   id: 1084638
   resolution: ''
@@ -5456,6 +5456,12 @@
   status: RESOLVED
   summary: No sound in earphone
 '20180311':
+- component: Development
+  create_time: 20180313T14:14:00
+  id: 1085082
+  resolution: ''
+  status: NEW
+  summary: crash fails with unresolvable symbols
 - component: Other
   create_time: 20180312T19:19:00
   id: 1084951
