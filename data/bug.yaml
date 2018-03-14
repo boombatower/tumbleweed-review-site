@@ -405,8 +405,8 @@
 - component: Other
   create_time: 20171206T16:42:00
   id: 1071576
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Mysql-Workbench 6.3.9-2.4 does not connect to server
 - component: Other
   create_time: 20171206T16:42:00
@@ -2058,8 +2058,8 @@
 - component: YaST2
   create_time: 20180119T15:40:00
   id: 1076837
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180117] yast2-http cannot cope with firewalld'
 - component: Other
   create_time: 20180119T15:24:00
@@ -2519,8 +2519,8 @@
 - component: Installation
   create_time: 20180128T09:49:00
   id: 1077866
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: installer uses old btrfs subvolume structure when not using the suggested
     partitioning scheme
 - component: KDE Workspace (Plasma)
@@ -2606,8 +2606,8 @@
 - component: Basesystem
   create_time: 20180129T11:03:00
   id: 1077958
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Kernel oops on Raspberry Pi 2B
 - component: YaST2
   create_time: 20180129T08:58:00
@@ -3007,8 +3007,8 @@
 - component: Kubic
   create_time: 20180202T08:40:00
   id: 1079000
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Missing readonly option in fstab
 - component: YaST2
   create_time: 20180202T08:34:00
@@ -5488,6 +5488,37 @@
   status: NEW
   summary: 'no protocol specified Error: Can''t open display:'
 '20180312':
+- component: YaST2
+  create_time: 20180314T11:40:00
+  id: 1085274
+  resolution: ''
+  status: IN_PROGRESS
+  summary: YaST2 partitioner and parted show wrong and inconsistent information on
+    second disk
+- component: YaST2
+  create_time: 20180314T10:53:00
+  id: 1085270
+  resolution: ''
+  status: NEW
+  summary: libstorage reports wrong fs type for ppc64 on last 20180313 snapshot
+- component: Basesystem
+  create_time: 20180314T10:31:00
+  id: 1085266
+  resolution: ''
+  status: NEW
+  summary: Data lost in /root when rolling back
+- component: Network
+  create_time: 20180314T09:50:00
+  id: 1085260
+  resolution: ''
+  status: CONFIRMED
+  summary: firewalld, SFW2 and conversion script
+- component: Other
+  create_time: 20180314T09:40:00
+  id: 1085258
+  resolution: ''
+  status: NEW
+  summary: mono .pdb files differ for every build
 - component: Basesystem
   create_time: 20180314T08:06:00
   id: 1085228
@@ -5504,15 +5535,15 @@
 - component: Network
   create_time: 20180313T23:28:00
   id: 1085195
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Network Enhancement
 - component: Kernel
   create_time: 20180313T21:48:00
   id: 1085174
   resolution: ''
   status: NEW
-  summary: kernel crash on resume with broadcom wifi
+  summary: kernel memory allocation failed with broadcom wifi
 - component: KDE Applications
   create_time: 20180313T21:45:00
   id: 1085172
@@ -5531,6 +5562,12 @@
   resolution: ''
   status: NEW
   summary: openQA tests fail in sssd, relying on python-pam
+- component: X.Org
+  create_time: 20180313T19:08:00
+  id: 1085143
+  resolution: ''
+  status: CONFIRMED
+  summary: X11:XOrg/xorg-x11-fonts requires some cleanup
 - component: Development
   create_time: 20180313T14:14:00
   id: 1085082
