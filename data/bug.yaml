@@ -4163,8 +4163,8 @@
 - component: Kernel
   create_time: 20180218T07:06:00
   id: 1081450
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: <During shutdown system locks with NMI
 - component: X.Org
   create_time: 20180218T03:14:00
@@ -4891,7 +4891,7 @@
   create_time: 20180303T12:55:00
   id: 1083834
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'unar: unrar wrapper breaks Ark'
 - component: Development
   create_time: 20180303T11:58:00
@@ -5488,6 +5488,74 @@
   status: NEW
   summary: 'no protocol specified Error: Can''t open display:'
 '20180312':
+- component: Other
+  create_time: 20180312T19:19:00
+  id: 1084951
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC, marcos]  %hpc_shebang_prepend_list macro doesn''t append Newline'
+- component: Other
+  create_time: 20180312T18:47:00
+  id: 1084945
+  resolution: ''
+  status: NEW
+  summary: fault in  /etc/speech-dispatcher/speechd.conf
+- component: GNOME
+  create_time: 20180312T18:34:00
+  id: 1084943
+  resolution: ''
+  status: NEW
+  summary: NetworkManager with autoconnect enabled displays error messages
+- component: Basesystem
+  create_time: 20180312T17:05:00
+  id: 1084924
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'pam-config: pam_systemd should be included in common-session-pc by default'
+- component: Other
+  create_time: 20180312T15:52:00
+  id: 1084909
+  resolution: ''
+  status: CONFIRMED
+  summary: 'trackerbug: packages do not build reproducibly from hostname'
+- component: Other
+  create_time: 20180312T14:24:00
+  id: 1084893
+  resolution: ''
+  status: NEW
+  summary: 'cdrtools: mkisofs -chrp-boot not documented and differs from genisoimage'
+- component: Other
+  create_time: 20180312T14:20:00
+  id: 1084892
+  resolution: ''
+  status: NEW
+  summary: 'cdrtools: mkisofs expects translations in /usr/lib/siconv'
+- component: Kernel
+  create_time: 20180312T12:42:00
+  id: 1084876
+  resolution: ''
+  status: NEW
+  summary: Realtek 8812AU support
+- component: Other
+  create_time: 20180312T11:52:00
+  id: 1084871
+  resolution: ''
+  status: NEW
+  summary: btrfsmaintenance-refresh.path missing
+- component: YaST2
+  create_time: 20180312T10:34:00
+  id: 1084864
+  resolution: ''
+  status: NEW
+  summary: YaST module names are too similar to some desktop environment configuration
+    modules
+- component: Development
+  create_time: 20180312T08:44:00
+  id: 1084842
+  resolution: ''
+  status: NEW
+  summary: gcc on i*86 with option -mieee-fp requires obsolete libieee now disappeared
+'20180313':
 - component: YaST2
   create_time: 20180314T11:40:00
   id: 1085274
@@ -5574,70 +5642,3 @@
   resolution: ''
   status: NEW
   summary: crash fails with unresolvable symbols
-- component: Other
-  create_time: 20180312T19:19:00
-  id: 1084951
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[HPC, marcos]  %hpc_shebang_prepend_list macro doesn''t append Newline'
-- component: Other
-  create_time: 20180312T18:47:00
-  id: 1084945
-  resolution: ''
-  status: NEW
-  summary: fault in  /etc/speech-dispatcher/speechd.conf
-- component: GNOME
-  create_time: 20180312T18:34:00
-  id: 1084943
-  resolution: ''
-  status: NEW
-  summary: NetworkManager with autoconnect enabled displays error messages
-- component: Basesystem
-  create_time: 20180312T17:05:00
-  id: 1084924
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: 'pam-config: pam_systemd should be included in common-session-pc by default'
-- component: Other
-  create_time: 20180312T15:52:00
-  id: 1084909
-  resolution: ''
-  status: CONFIRMED
-  summary: 'trackerbug: packages do not build reproducibly from hostname'
-- component: Other
-  create_time: 20180312T14:24:00
-  id: 1084893
-  resolution: ''
-  status: NEW
-  summary: 'cdrtools: mkisofs -chrp-boot not documented and differs from genisoimage'
-- component: Other
-  create_time: 20180312T14:20:00
-  id: 1084892
-  resolution: ''
-  status: NEW
-  summary: 'cdrtools: mkisofs expects translations in /usr/lib/siconv'
-- component: Kernel
-  create_time: 20180312T12:42:00
-  id: 1084876
-  resolution: ''
-  status: NEW
-  summary: Realtek 8812AU support
-- component: Other
-  create_time: 20180312T11:52:00
-  id: 1084871
-  resolution: ''
-  status: NEW
-  summary: btrfsmaintenance-refresh.path missing
-- component: YaST2
-  create_time: 20180312T10:34:00
-  id: 1084864
-  resolution: ''
-  status: NEW
-  summary: YaST module names are too similar to some desktop environment configuration
-    modules
-- component: Development
-  create_time: 20180312T08:44:00
-  id: 1084842
-  resolution: ''
-  status: NEW
-  summary: gcc on i*86 with option -mieee-fp requires obsolete libieee now disappeared
