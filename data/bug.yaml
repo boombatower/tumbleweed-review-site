@@ -5310,7 +5310,7 @@
   id: 1084648
   resolution: ''
   status: NEW
-  summary: 'GCC 8: slan build fails'
+  summary: 'GCC 8: slang build fails'
 - component: Basesystem
   create_time: 20180309T10:06:00
   id: 1084647
@@ -5359,7 +5359,7 @@
   resolution: ''
   status: NEW
   summary: 'GCC 8: open-iscsi build fails'
-- component: Basesystem
+- component: X.Org
   create_time: 20180309T10:04:00
   id: 1084639
   resolution: ''
@@ -5556,6 +5556,31 @@
   status: NEW
   summary: gcc on i*86 with option -mieee-fp requires obsolete libieee now disappeared
 '20180313':
+- component: Basesystem
+  create_time: 20180315T00:47:00
+  id: 1085398
+  resolution: FIXED
+  status: RESOLVED
+  summary: gperftools fails to build on s390
+- component: Basesystem
+  create_time: 20180315T00:32:00
+  id: 1085397
+  resolution: FIXED
+  status: RESOLVED
+  summary: liboil fails to build on s390x
+- component: Virtualization:Other
+  create_time: 20180314T21:55:00
+  id: 1085386
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '/usr/lib/systemd/system/virtlockd-admin.socket:7: Unknown lvalue ''Server''
+    in section ''Socket'''
+- component: Containers
+  create_time: 20180314T21:26:00
+  id: 1085380
+  resolution: ''
+  status: CONFIRMED
+  summary: 'docker-init: missing binary (when using docker run --init parameter)'
 - component: YaST2
   create_time: 20180314T11:40:00
   id: 1085274
