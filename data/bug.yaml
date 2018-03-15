@@ -1128,8 +1128,8 @@
 - component: Other
   create_time: 20171229T19:33:00
   id: 1074236
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'flare-game: player takes no damage'
 - component: Usability
   create_time: 20171229T10:28:00
@@ -2842,8 +2842,8 @@
 - component: Other
   create_time: 20180201T16:55:00
   id: 1078832
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/dita-ot fails to build'
 - component: Other
   create_time: 20180201T16:52:00
@@ -2854,8 +2854,8 @@
 - component: Other
   create_time: 20180201T16:51:00
   id: 1078829
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/bulk_extractor fails to build'
 - component: OpenStack
   create_time: 20180201T16:47:00
@@ -2866,26 +2866,26 @@
 - component: Other
   create_time: 20180201T16:46:00
   id: 1078826
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/python-ZODB3 fails to build'
 - component: Other
   create_time: 20180201T16:45:00
   id: 1078824
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/openfst fails to build'
 - component: Other
   create_time: 20180201T16:44:00
   id: 1078823
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/kterm fails to build'
 - component: Other
   create_time: 20180201T16:39:00
   id: 1078822
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/sks fails to build'
 - component: KDE Applications
   create_time: 20180201T15:58:00
@@ -4637,8 +4637,8 @@
 - component: Printing
   create_time: 20180226T18:55:00
   id: 1082896
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Ghostscript package contains lots of duplicated resources
 - component: X.Org
   create_time: 20180226T18:16:00
@@ -4909,7 +4909,7 @@
   create_time: 20180303T09:58:00
   id: 1083830
   resolution: ''
-  status: IN_PROGRESS
+  status: REOPENED
   summary: ffado fails to build with Python3 scons
 - component: Development
   create_time: 20180303T02:43:00
@@ -5329,11 +5329,11 @@
   resolution: ''
   status: NEW
   summary: 'GCC 8: ceph build fails'
-- component: Basesystem
+- component: libzypp
   create_time: 20180309T10:05:00
   id: 1084644
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: zypper build fails'
 - component: Basesystem
   create_time: 20180309T10:05:00
@@ -5362,8 +5362,8 @@
 - component: X.Org
   create_time: 20180309T10:04:00
   id: 1084639
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: libX11 build fails'
 - component: Basesystem
   create_time: 20180309T10:03:00
@@ -5428,8 +5428,8 @@
 - component: Basesystem
   create_time: 20180309T09:55:00
   id: 1084627
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: qpid-proton build fails'
 - component: Basesystem
   create_time: 20180309T09:37:00
@@ -5557,6 +5557,24 @@
   summary: gcc on i*86 with option -mieee-fp requires obsolete libieee now disappeared
 '20180313':
 - component: Basesystem
+  create_time: 20180315T13:55:00
+  id: 1085480
+  resolution: FIXED
+  status: RESOLVED
+  summary: tcl fails to build on s390
+- component: Basesystem
+  create_time: 20180315T13:50:00
+  id: 1085478
+  resolution: ''
+  status: NEW
+  summary: pv fails to build frequently on ppc/ppc64/ppc64le/s390/s390x
+- component: Kernel
+  create_time: 20180315T12:21:00
+  id: 1085461
+  resolution: ''
+  status: NEW
+  summary: 'AFter upgrade to Tumbleweed:  do_IRQ: 1.37 No irq handler for vector'
+- component: Basesystem
   create_time: 20180315T00:47:00
   id: 1085398
   resolution: FIXED
@@ -5584,8 +5602,8 @@
 - component: YaST2
   create_time: 20180314T11:40:00
   id: 1085274
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: YaST2 partitioner and parted show wrong and inconsistent information on
     second disk
 - component: YaST2
@@ -5615,8 +5633,8 @@
 - component: Basesystem
   create_time: 20180314T08:06:00
   id: 1085228
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: ebtables.service contains wrong directories
 - component: Other
   create_time: 20180314T07:23:00
