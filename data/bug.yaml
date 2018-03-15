@@ -2812,8 +2812,8 @@
 - component: Mono
   create_time: 20180201T17:05:00
   id: 1078839
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/nant fails to build'
 - component: Other
   create_time: 20180201T17:04:00
@@ -2824,8 +2824,8 @@
 - component: Other
   create_time: 20180201T16:59:00
   id: 1078835
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/perl-App-perlbrew fails to build'
 - component: Other
   create_time: 20180201T16:57:00
@@ -4456,8 +4456,8 @@
 - component: Kernel
   create_time: 20180223T09:38:00
   id: 1082504
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Patch file not found ar3k/AthrBT_0x00000200.dfu
 - component: GNOME
   create_time: 20180223T06:41:00
@@ -4991,7 +4991,7 @@
   id: 1083853
   resolution: ''
   status: CONFIRMED
-  summary: Xorg crash, scrolling in Firefox, X modesetting driver, Intel graphics
+  summary: Xorg crash, scrolling in Firefox, Intel graphics
 '20180305':
 - component: KDE Workspace (Plasma)
   create_time: 20180305T20:52:00
@@ -5350,8 +5350,8 @@
 - component: Basesystem
   create_time: 20180309T10:04:00
   id: 1084641
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'GCC 8: systemd-mini build fails'
 - component: Basesystem
   create_time: 20180309T10:04:00
@@ -5557,6 +5557,24 @@
   summary: gcc on i*86 with option -mieee-fp requires obsolete libieee now disappeared
 '20180313':
 - component: Basesystem
+  create_time: 20180315T17:45:00
+  id: 1085529
+  resolution: ''
+  status: NEW
+  summary: python-paramiko fails to build on ppc64le due to timeout in testsuite
+- component: KDE Workspace (Plasma)
+  create_time: 20180315T17:37:00
+  id: 1085528
+  resolution: ''
+  status: NEW
+  summary: Plasmashell crash
+- component: Basesystem
+  create_time: 20180315T17:28:00
+  id: 1085526
+  resolution: FIXED
+  status: RESOLVED
+  summary: python-datrie fails to build on bigendian platforms
+- component: Basesystem
   create_time: 20180315T13:55:00
   id: 1085480
   resolution: FIXED
@@ -5589,8 +5607,8 @@
 - component: Virtualization:Other
   create_time: 20180314T21:55:00
   id: 1085386
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '/usr/lib/systemd/system/virtlockd-admin.socket:7: Unknown lvalue ''Server''
     in section ''Socket'''
 - component: Containers
