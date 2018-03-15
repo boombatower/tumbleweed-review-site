@@ -5363,7 +5363,7 @@
   create_time: 20180309T10:04:00
   id: 1084639
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'GCC 8: libX11 build fails'
 - component: Basesystem
   create_time: 20180309T10:03:00
@@ -5387,7 +5387,7 @@
   create_time: 20180309T10:03:00
   id: 1084635
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'GCC 8: openucx build fails'
 - component: Basesystem
   create_time: 20180309T10:02:00
@@ -5410,8 +5410,8 @@
 - component: Basesystem
   create_time: 20180309T10:01:00
   id: 1084631
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: nasm build fails'
 - component: Basesystem
   create_time: 20180309T10:01:00
