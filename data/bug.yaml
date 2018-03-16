@@ -5556,6 +5556,12 @@
   status: NEW
   summary: gcc on i*86 with option -mieee-fp requires obsolete libieee now disappeared
 '20180313':
+- component: Apache
+  create_time: 20180316T07:26:00
+  id: 1085595
+  resolution: ''
+  status: NEW
+  summary: php-imagick broken
 - component: Live Medium
   create_time: 20180316T00:20:00
   id: 1085569
@@ -5586,6 +5592,12 @@
   resolution: FIXED
   status: RESOLVED
   summary: python-datrie fails to build on bigendian platforms
+- component: Network
+  create_time: 20180315T16:11:00
+  id: 1085506
+  resolution: ''
+  status: IN_PROGRESS
+  summary: mvapich2/openmpi1/2/3 not built with slurm support
 - component: Basesystem
   create_time: 20180315T13:55:00
   id: 1085480
