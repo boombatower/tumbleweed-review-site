@@ -5556,6 +5556,73 @@
   status: NEW
   summary: gcc on i*86 with option -mieee-fp requires obsolete libieee now disappeared
 '20180313':
+- component: Network
+  create_time: 20180313T23:28:00
+  id: 1085195
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Network Enhancement
+- component: Kernel
+  create_time: 20180313T21:48:00
+  id: 1085174
+  resolution: ''
+  status: NEW
+  summary: kernel memory allocation failed with broadcom wifi
+- component: KDE Applications
+  create_time: 20180313T21:45:00
+  id: 1085172
+  resolution: ''
+  status: NEW
+  summary: unable to copy-paste from konsole any more
+- component: KDE Workspace (Plasma)
+  create_time: 20180313T20:48:00
+  id: 1085156
+  resolution: ''
+  status: NEW
+  summary: Plasmashell segmentation fault
+- component: Other
+  create_time: 20180313T19:34:00
+  id: 1085145
+  resolution: ''
+  status: NEW
+  summary: openQA tests fail in sssd, relying on python-pam
+- component: X.Org
+  create_time: 20180313T19:08:00
+  id: 1085143
+  resolution: FIXED
+  status: RESOLVED
+  summary: X11:XOrg/xorg-x11-fonts requires some cleanup
+- component: Development
+  create_time: 20180313T14:14:00
+  id: 1085082
+  resolution: ''
+  status: IN_PROGRESS
+  summary: crash fails with unresolvable symbols
+'20180314':
+- component: Kernel
+  create_time: 20180316T20:35:00
+  id: 1085728
+  resolution: ''
+  status: NEW
+  summary: 'xtables-addons: missing symbols'
+- component: Sound
+  create_time: 20180316T17:47:00
+  id: 1085710
+  resolution: ''
+  status: NEW
+  summary: HD Audio - jack sensing glitch
+- component: Samba
+  create_time: 20180316T17:33:00
+  id: 1085709
+  resolution: ''
+  status: NEW
+  summary: Add ability to add new Samba users
+- component: Network
+  create_time: 20180316T16:38:00
+  id: 1085697
+  resolution: ''
+  status: NEW
+  summary: 'firewalld: Another app is currently holding the xtables lock'
 - component: Basesystem
   create_time: 20180316T14:17:00
   id: 1085666
@@ -5739,45 +5806,3 @@
   status: RESOLVED
   summary: '[HPC, ganglia] diskstat.py crashes when gmond is run in a %post script
     in the idempotent build test script'
-- component: Network
-  create_time: 20180313T23:28:00
-  id: 1085195
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: Network Enhancement
-- component: Kernel
-  create_time: 20180313T21:48:00
-  id: 1085174
-  resolution: ''
-  status: NEW
-  summary: kernel memory allocation failed with broadcom wifi
-- component: KDE Applications
-  create_time: 20180313T21:45:00
-  id: 1085172
-  resolution: ''
-  status: NEW
-  summary: unable to copy-paste from konsole any more
-- component: KDE Workspace (Plasma)
-  create_time: 20180313T20:48:00
-  id: 1085156
-  resolution: ''
-  status: NEW
-  summary: Plasmashell segmentation fault
-- component: Other
-  create_time: 20180313T19:34:00
-  id: 1085145
-  resolution: ''
-  status: NEW
-  summary: openQA tests fail in sssd, relying on python-pam
-- component: X.Org
-  create_time: 20180313T19:08:00
-  id: 1085143
-  resolution: FIXED
-  status: RESOLVED
-  summary: X11:XOrg/xorg-x11-fonts requires some cleanup
-- component: Development
-  create_time: 20180313T14:14:00
-  id: 1085082
-  resolution: ''
-  status: NEW
-  summary: crash fails with unresolvable symbols
