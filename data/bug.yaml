@@ -5556,6 +5556,18 @@
   status: NEW
   summary: gcc on i*86 with option -mieee-fp requires obsolete libieee now disappeared
 '20180313':
+- component: Live Medium
+  create_time: 20180316T00:20:00
+  id: 1085569
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180314] bootloader on life media showsLeap 13.3'
+- component: Basesystem
+  create_time: 20180315T23:58:00
+  id: 1085568
+  resolution: ''
+  status: NEW
+  summary: python-oslo.log fails to build on s390
 - component: Basesystem
   create_time: 20180315T17:45:00
   id: 1085529
