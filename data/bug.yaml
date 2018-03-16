@@ -5190,8 +5190,8 @@
 - component: Development
   create_time: 20180308T18:47:00
   id: 1084552
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: gdb hangs when libLLVM5-debuginfo is installed
 - component: Firefox
   create_time: 20180308T12:51:00
@@ -5220,8 +5220,8 @@
 - component: Upgrade Problems
   create_time: 20180308T04:39:00
   id: 1084419
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Glibc update to 2.27 causes segfault during name resolution
 - component: Kernel
   create_time: 20180308T00:32:00
@@ -5357,7 +5357,7 @@
   create_time: 20180309T10:04:00
   id: 1084640
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'GCC 8: open-iscsi build fails'
 - component: X.Org
   create_time: 20180309T10:04:00
@@ -5522,13 +5522,13 @@
   create_time: 20180312T14:24:00
   id: 1084893
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'cdrtools: mkisofs -chrp-boot not documented and differs from genisoimage'
 - component: Other
   create_time: 20180312T14:20:00
   id: 1084892
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'cdrtools: mkisofs expects translations in /usr/lib/siconv'
 - component: Kernel
   create_time: 20180312T12:42:00
@@ -5556,11 +5556,65 @@
   status: NEW
   summary: gcc on i*86 with option -mieee-fp requires obsolete libieee now disappeared
 '20180313':
-- component: Apache
-  create_time: 20180316T07:26:00
-  id: 1085595
+- component: Basesystem
+  create_time: 20180316T14:17:00
+  id: 1085666
   resolution: ''
   status: NEW
+  summary: python-u-msgpack-python fails to build on bigendian (ppc/ppc64/s390/s390x)
+- component: Network
+  create_time: 20180316T13:55:00
+  id: 1085665
+  resolution: ''
+  status: NEW
+  summary: munge misses description how key is generated
+- component: Other
+  create_time: 20180316T13:53:00
+  id: 1085664
+  resolution: FIXED
+  status: RESOLVED
+  summary: Remove iputils from base container image
+- component: Basesystem
+  create_time: 20180316T13:46:00
+  id: 1085661
+  resolution: ''
+  status: NEW
+  summary: python-tornado fails to build on ppc64le
+- component: Basesystem
+  create_time: 20180316T12:14:00
+  id: 1085640
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'kmod-testsuite: for sle, block build on 32bit platforms'
+- component: YaST2
+  create_time: 20180316T11:41:00
+  id: 1085637
+  resolution: ''
+  status: CONFIRMED
+  summary: yast2-caasp package can not be installed. yast2-registration missing
+- component: Kubic
+  create_time: 20180316T10:59:00
+  id: 1085632
+  resolution: ''
+  status: NEW
+  summary: salt-api container with python3 backtrace
+- component: Basesystem
+  create_time: 20180316T10:57:00
+  id: 1085631
+  resolution: ''
+  status: NEW
+  summary: Terminal is not fully functional. Wrong mapping in different terminal emulators.
+- component: Kubic
+  create_time: 20180316T10:22:00
+  id: 1085619
+  resolution: ''
+  status: NEW
+  summary: Softlockup with btrfs and kubic (CaaSP on openSUSE)
+- component: Other
+  create_time: 20180316T07:26:00
+  id: 1085595
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: php-imagick broken
 - component: Live Medium
   create_time: 20180316T00:20:00
@@ -5718,8 +5772,8 @@
 - component: X.Org
   create_time: 20180313T19:08:00
   id: 1085143
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: X11:XOrg/xorg-x11-fonts requires some cleanup
 - component: Development
   create_time: 20180313T14:14:00
