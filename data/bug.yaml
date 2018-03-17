@@ -5599,6 +5599,12 @@
   status: IN_PROGRESS
   summary: crash fails with unresolvable symbols
 '20180314':
+- component: KDE Applications
+  create_time: 20180317T06:40:00
+  id: 1085746
+  resolution: ''
+  status: NEW
+  summary: Amarok high CPU usage when autostarted in system tray
 - component: Kernel
   create_time: 20180316T20:35:00
   id: 1085728
