@@ -5608,8 +5608,8 @@
 - component: Sound
   create_time: 20180316T17:47:00
   id: 1085710
-  resolution: ''
-  status: NEW
+  resolution: FEATURE
+  status: RESOLVED
   summary: HD Audio - jack sensing glitch
 - component: Samba
   create_time: 20180316T17:33:00
