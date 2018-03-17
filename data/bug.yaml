@@ -5599,6 +5599,49 @@
   status: IN_PROGRESS
   summary: crash fails with unresolvable symbols
 '20180314':
+- component: Basesystem
+  create_time: 20180317T12:11:00
+  id: 1085758
+  resolution: ''
+  status: NEW
+  summary: 'Tumbleweed and Leap: systemd[1]: nss-lookup.target: Dependency Before=nss-lookup.target
+    dropped'
+- component: Virtualization:Other
+  create_time: 20180317T11:49:00
+  id: 1085757
+  resolution: ''
+  status: NEW
+  summary: Leap 15 patch for osinfo-db has wrong information in it
+- component: AutoYaST
+  create_time: 20180317T11:36:00
+  id: 1085755
+  resolution: ''
+  status: NEW
+  summary: '[storage-ng?] autoyast profiles do not use new flat /var layout by default'
+- component: Basesystem
+  create_time: 20180317T10:56:00
+  id: 1085754
+  resolution: FIXED
+  status: RESOLVED
+  summary: hdf fails to build on ppc64le
+- component: Other
+  create_time: 20180317T10:25:00
+  id: 1085753
+  resolution: ''
+  status: NEW
+  summary: FeedReader 2.0.2 crashes with a segmentation fault on startup
+- component: GNOME
+  create_time: 20180317T10:22:00
+  id: 1085752
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: gnome-builder should not have plugins broken into separate packages
+- component: GNOME
+  create_time: 20180317T10:21:00
+  id: 1085751
+  resolution: FIXED
+  status: RESOLVED
+  summary: gnome-builder missing flatpak dependency
 - component: KDE Applications
   create_time: 20180317T06:40:00
   id: 1085746
