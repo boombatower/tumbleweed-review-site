@@ -5599,6 +5599,12 @@
   status: IN_PROGRESS
   summary: crash fails with unresolvable symbols
 '20180314':
+- component: Kubic
+  create_time: 20180317T19:51:00
+  id: 1085764
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'transactional-update: Missing perl HTML::Entitles dependencies'
 - component: Basesystem
   create_time: 20180317T12:11:00
   id: 1085758
