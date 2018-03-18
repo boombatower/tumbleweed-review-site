@@ -567,15 +567,15 @@
     summary: .bashrc ignored on remote login
 '20180314':
   announcement: 2018-03.458
-  reference_count: 11
+  reference_count: 13
   thread_count: 3
   threads:
   - messages: [2018-03.463]
     reference_count: 2
     summary: release broke my Thunderbird, Firefox, and Chromium
   - messages: [2018-03.474]
-    reference_count: 4
+    reference_count: 5
     summary: 'system suspending: upower.service cannot be disabled'
   - messages: [2018-03.475]
-    reference_count: 5
+    reference_count: 6
     summary: gdm can't start plasma session on Wayland
