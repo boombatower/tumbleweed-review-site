@@ -4106,8 +4106,8 @@
 - component: Virtualization:Other
   create_time: 20180216T05:55:00
   id: 1081281
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: VirtualBox video capture is buggy in version 5.2.6
 '20180218':
 - component: Other
@@ -4202,7 +4202,7 @@
   id: 1081643
   resolution: ''
   status: NEW
-  summary: install from root checkbox option is missing from grub2 module in TW
+  summary: Boot from Root Partition option is missing from grub2 module in TW
 - component: AutoYaST
   create_time: 20180219T18:14:00
   id: 1081640
@@ -4686,8 +4686,8 @@
 - component: AppArmor
   create_time: 20180228T06:04:00
   id: 1083226
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: apparmor not started/active but haproxy profile loaded
 - component: LibreOffice
   create_time: 20180228T02:36:00
@@ -4848,8 +4848,8 @@
 - component: Other
   create_time: 20180303T17:34:00
   id: 1083843
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Wrong license for bladeRF-fx3-firmware in hardware:sdr
 - component: KDE Workspace (Plasma)
   create_time: 20180303T17:00:00
@@ -5599,6 +5599,18 @@
   status: IN_PROGRESS
   summary: crash fails with unresolvable symbols
 '20180314':
+- component: Development
+  create_time: 20180318T19:42:00
+  id: 1085784
+  resolution: ''
+  status: NEW
+  summary: linking i386 fails with assertion in bfd/elf.c:3564
+- component: Kernel
+  create_time: 20180318T16:35:00
+  id: 1085781
+  resolution: ''
+  status: NEW
+  summary: nouveau bus MMIO write FAULT
 - component: GNOME
   create_time: 20180318T13:43:00
   id: 1085777
@@ -5633,7 +5645,7 @@
   create_time: 20180318T13:27:00
   id: 1085772
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: gdm 3.28 cannot start plasma session on Wayland
 - component: Other
   create_time: 20180318T08:33:00
@@ -5666,7 +5678,7 @@
   id: 1085765
   resolution: ''
   status: NEW
-  summary: dovecot upgrade
+  summary: 'dovecot: missing dh parameters'
 - component: Kubic
   create_time: 20180317T19:51:00
   id: 1085764
@@ -5743,8 +5755,8 @@
 - component: Network
   create_time: 20180316T16:38:00
   id: 1085697
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'firewalld: Another app is currently holding the xtables lock'
 - component: Basesystem
   create_time: 20180316T14:17:00
