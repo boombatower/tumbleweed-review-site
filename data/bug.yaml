@@ -5599,6 +5599,42 @@
   status: IN_PROGRESS
   summary: crash fails with unresolvable symbols
 '20180314':
+- component: GNOME
+  create_time: 20180318T13:43:00
+  id: 1085777
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: gdm 3.28 cannot start a plasma session on Wayland
+- component: GNOME
+  create_time: 20180318T13:41:00
+  id: 1085776
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: gdm 3.28 cannot start a plasma session on Wayland
+- component: GNOME
+  create_time: 20180318T13:40:00
+  id: 1085775
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: gdm 3.28 cannot start a plasma session on Wayland
+- component: GNOME
+  create_time: 20180318T13:32:00
+  id: 1085774
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: gdm 3.28 cannot start plasma session on Wayland
+- component: GNOME
+  create_time: 20180318T13:31:00
+  id: 1085773
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: gdm 3.28 cannot start plasma session on Wayland
+- component: GNOME
+  create_time: 20180318T13:27:00
+  id: 1085772
+  resolution: ''
+  status: NEW
+  summary: gdm 3.28 cannot start plasma session on Wayland
 - component: Other
   create_time: 20180318T08:33:00
   id: 1085771
@@ -5608,8 +5644,8 @@
 - component: Other
   create_time: 20180318T07:55:00
   id: 1085770
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: VERIFIED
   summary: '[krypton][Build 1.193] openQA test fails in bootloader - does not boot,
     last message on screen "mount /run/initramfs/live mounted read-only"'
 - component: X11 Applications
