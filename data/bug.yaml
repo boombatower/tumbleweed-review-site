@@ -5599,6 +5599,19 @@
   status: IN_PROGRESS
   summary: crash fails with unresolvable symbols
 '20180314':
+- component: Other
+  create_time: 20180318T08:33:00
+  id: 1085771
+  resolution: ''
+  status: NEW
+  summary: .bashrc no longer evaluated on ssh remote login
+- component: Other
+  create_time: 20180318T07:55:00
+  id: 1085770
+  resolution: ''
+  status: NEW
+  summary: '[krypton][Build 1.193] openQA test fails in bootloader - does not boot,
+    last message on screen "mount /run/initramfs/live mounted read-only"'
 - component: X11 Applications
   create_time: 20180317T23:50:00
   id: 1085769
