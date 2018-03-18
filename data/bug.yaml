@@ -5599,6 +5599,25 @@
   status: IN_PROGRESS
   summary: crash fails with unresolvable symbols
 '20180314':
+- component: X11 Applications
+  create_time: 20180317T23:50:00
+  id: 1085769
+  resolution: ''
+  status: NEW
+  summary: With default fontconfig, color emoji don't work in the apps that use cairo
+    for rendering
+- component: Other
+  create_time: 20180317T22:11:00
+  id: 1085767
+  resolution: ''
+  status: NEW
+  summary: enable chromecast support in vlc
+- component: Other
+  create_time: 20180317T21:22:00
+  id: 1085765
+  resolution: ''
+  status: NEW
+  summary: dovecot upgrade
 - component: Kubic
   create_time: 20180317T19:51:00
   id: 1085764
