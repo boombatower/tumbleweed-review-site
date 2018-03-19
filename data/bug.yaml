@@ -5233,8 +5233,8 @@
 - component: Basesystem
   create_time: 20180310T22:24:00
   id: 1084796
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Segmentation fault with zypper after zypper dup to TW20180305 and reboot
     on aarch64 (Raspberry Pi 3B)
 - component: KDE Workspace (Plasma)
@@ -5789,7 +5789,7 @@
   create_time: 20180317T22:11:00
   id: 1085767
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: enable chromecast support in vlc
 - component: Other
   create_time: 20180317T21:22:00
@@ -5806,8 +5806,8 @@
 - component: Basesystem
   create_time: 20180317T12:11:00
   id: 1085758
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'Tumbleweed and Leap: systemd[1]: nss-lookup.target: Dependency Before=nss-lookup.target
     dropped'
 - component: Virtualization:Other
@@ -5885,8 +5885,8 @@
 - component: Network
   create_time: 20180316T13:55:00
   id: 1085665
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: munge misses description how key is generated
 - component: Other
   create_time: 20180316T13:53:00
