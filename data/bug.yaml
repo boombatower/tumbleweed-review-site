@@ -5599,6 +5599,124 @@
   status: IN_PROGRESS
   summary: crash fails with unresolvable symbols
 '20180314':
+- component: Basesystem
+  create_time: 20180315T23:58:00
+  id: 1085568
+  resolution: ''
+  status: NEW
+  summary: python-oslo.log fails to build on s390
+- component: Basesystem
+  create_time: 20180315T17:45:00
+  id: 1085529
+  resolution: ''
+  status: NEW
+  summary: python-paramiko fails to build on ppc64le due to timeout in testsuite
+- component: KDE Workspace (Plasma)
+  create_time: 20180315T17:37:00
+  id: 1085528
+  resolution: ''
+  status: NEW
+  summary: Plasmashell crash
+- component: Basesystem
+  create_time: 20180315T17:28:00
+  id: 1085526
+  resolution: FIXED
+  status: RESOLVED
+  summary: python-datrie fails to build on bigendian platforms
+- component: Network
+  create_time: 20180315T16:11:00
+  id: 1085506
+  resolution: ''
+  status: IN_PROGRESS
+  summary: mvapich2/openmpi1/2/3 not built with slurm support
+- component: Basesystem
+  create_time: 20180315T13:55:00
+  id: 1085480
+  resolution: FIXED
+  status: RESOLVED
+  summary: tcl fails to build on s390
+- component: Basesystem
+  create_time: 20180315T13:50:00
+  id: 1085478
+  resolution: ''
+  status: NEW
+  summary: pv fails to build frequently on ppc/ppc64/ppc64le/s390/s390x
+- component: Kernel
+  create_time: 20180315T12:21:00
+  id: 1085461
+  resolution: ''
+  status: NEW
+  summary: 'AFter upgrade to Tumbleweed:  do_IRQ: 1.37 No irq handler for vector'
+- component: Basesystem
+  create_time: 20180315T00:47:00
+  id: 1085398
+  resolution: FIXED
+  status: RESOLVED
+  summary: gperftools fails to build on s390
+- component: Basesystem
+  create_time: 20180315T00:32:00
+  id: 1085397
+  resolution: FIXED
+  status: RESOLVED
+  summary: liboil fails to build on s390x
+- component: Virtualization:Other
+  create_time: 20180314T21:55:00
+  id: 1085386
+  resolution: FIXED
+  status: RESOLVED
+  summary: '/usr/lib/systemd/system/virtlockd-admin.socket:7: Unknown lvalue ''Server''
+    in section ''Socket'''
+- component: Containers
+  create_time: 20180314T21:26:00
+  id: 1085380
+  resolution: ''
+  status: CONFIRMED
+  summary: 'docker-init: missing binary (when using docker run --init parameter)'
+- component: YaST2
+  create_time: 20180314T11:40:00
+  id: 1085274
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST2 partitioner and parted show wrong and inconsistent information on
+    second disk
+- component: YaST2
+  create_time: 20180314T10:53:00
+  id: 1085270
+  resolution: ''
+  status: NEW
+  summary: libstorage reports wrong fs type for ppc64 on last 20180313 snapshot
+- component: Basesystem
+  create_time: 20180314T10:31:00
+  id: 1085266
+  resolution: ''
+  status: NEW
+  summary: Data lost in /root when rolling back
+- component: Network
+  create_time: 20180314T09:50:00
+  id: 1085260
+  resolution: ''
+  status: CONFIRMED
+  summary: firewalld, SFW2 and conversion script
+- component: Other
+  create_time: 20180314T09:40:00
+  id: 1085258
+  resolution: ''
+  status: NEW
+  summary: mono .pdb files differ for every build
+- component: Basesystem
+  create_time: 20180314T08:06:00
+  id: 1085228
+  resolution: FIXED
+  status: RESOLVED
+  summary: ebtables.service contains wrong directories
+- component: Other
+  create_time: 20180314T07:23:00
+  id: 1085219
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC, ganglia] diskstat.py crashes when gmond is run in a %post script
+    in the idempotent build test script'
+'20180316':
 - component: Development
   create_time: 20180318T19:42:00
   id: 1085784
@@ -5824,120 +5942,3 @@
   resolution: ''
   status: NEW
   summary: '[Build 20180314] bootloader on life media showsLeap 13.3'
-- component: Basesystem
-  create_time: 20180315T23:58:00
-  id: 1085568
-  resolution: ''
-  status: NEW
-  summary: python-oslo.log fails to build on s390
-- component: Basesystem
-  create_time: 20180315T17:45:00
-  id: 1085529
-  resolution: ''
-  status: NEW
-  summary: python-paramiko fails to build on ppc64le due to timeout in testsuite
-- component: KDE Workspace (Plasma)
-  create_time: 20180315T17:37:00
-  id: 1085528
-  resolution: ''
-  status: NEW
-  summary: Plasmashell crash
-- component: Basesystem
-  create_time: 20180315T17:28:00
-  id: 1085526
-  resolution: FIXED
-  status: RESOLVED
-  summary: python-datrie fails to build on bigendian platforms
-- component: Network
-  create_time: 20180315T16:11:00
-  id: 1085506
-  resolution: ''
-  status: IN_PROGRESS
-  summary: mvapich2/openmpi1/2/3 not built with slurm support
-- component: Basesystem
-  create_time: 20180315T13:55:00
-  id: 1085480
-  resolution: FIXED
-  status: RESOLVED
-  summary: tcl fails to build on s390
-- component: Basesystem
-  create_time: 20180315T13:50:00
-  id: 1085478
-  resolution: ''
-  status: NEW
-  summary: pv fails to build frequently on ppc/ppc64/ppc64le/s390/s390x
-- component: Kernel
-  create_time: 20180315T12:21:00
-  id: 1085461
-  resolution: ''
-  status: NEW
-  summary: 'AFter upgrade to Tumbleweed:  do_IRQ: 1.37 No irq handler for vector'
-- component: Basesystem
-  create_time: 20180315T00:47:00
-  id: 1085398
-  resolution: FIXED
-  status: RESOLVED
-  summary: gperftools fails to build on s390
-- component: Basesystem
-  create_time: 20180315T00:32:00
-  id: 1085397
-  resolution: FIXED
-  status: RESOLVED
-  summary: liboil fails to build on s390x
-- component: Virtualization:Other
-  create_time: 20180314T21:55:00
-  id: 1085386
-  resolution: FIXED
-  status: RESOLVED
-  summary: '/usr/lib/systemd/system/virtlockd-admin.socket:7: Unknown lvalue ''Server''
-    in section ''Socket'''
-- component: Containers
-  create_time: 20180314T21:26:00
-  id: 1085380
-  resolution: ''
-  status: CONFIRMED
-  summary: 'docker-init: missing binary (when using docker run --init parameter)'
-- component: YaST2
-  create_time: 20180314T11:40:00
-  id: 1085274
-  resolution: FIXED
-  status: RESOLVED
-  summary: YaST2 partitioner and parted show wrong and inconsistent information on
-    second disk
-- component: YaST2
-  create_time: 20180314T10:53:00
-  id: 1085270
-  resolution: ''
-  status: NEW
-  summary: libstorage reports wrong fs type for ppc64 on last 20180313 snapshot
-- component: Basesystem
-  create_time: 20180314T10:31:00
-  id: 1085266
-  resolution: ''
-  status: NEW
-  summary: Data lost in /root when rolling back
-- component: Network
-  create_time: 20180314T09:50:00
-  id: 1085260
-  resolution: ''
-  status: CONFIRMED
-  summary: firewalld, SFW2 and conversion script
-- component: Other
-  create_time: 20180314T09:40:00
-  id: 1085258
-  resolution: ''
-  status: NEW
-  summary: mono .pdb files differ for every build
-- component: Basesystem
-  create_time: 20180314T08:06:00
-  id: 1085228
-  resolution: FIXED
-  status: RESOLVED
-  summary: ebtables.service contains wrong directories
-- component: Other
-  create_time: 20180314T07:23:00
-  id: 1085219
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[HPC, ganglia] diskstat.py crashes when gmond is run in a %post script
-    in the idempotent build test script'
