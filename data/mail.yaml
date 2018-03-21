@@ -559,11 +559,11 @@
   threads: []
 '20180313':
   announcement: 2018-03.368
-  reference_count: 1
+  reference_count: 8
   thread_count: 1
   threads:
   - messages: [2018-03.473]
-    reference_count: 1
+    reference_count: 8
     summary: .bashrc ignored on remote login
 '20180314':
   announcement: 2018-03.458
@@ -581,6 +581,16 @@
     summary: gdm can't start plasma session on Wayland
 '20180316':
   announcement: 2018-03.491
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180318':
+  announcement: 2018-03.522
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180319':
+  announcement: 2018-03.533
   reference_count: 0
   thread_count: 0
   threads: []
