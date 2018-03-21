@@ -28,8 +28,8 @@
 - component: Basesystem
   create_time: 20171201T10:25:00
   id: 1070756
-  resolution: ''
-  status: CONFIRMED
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: systemctl start saned.socket gives error message
 - component: Basesystem
   create_time: 20171201T09:50:00
@@ -369,8 +369,8 @@
 - component: Other
   create_time: 20171206T22:07:00
   id: 1071626
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python2-warlock 1.3.0 incompatible with python-glanceclient 2.8.0
 - component: Other
   create_time: 20171206T16:50:00
@@ -912,8 +912,8 @@
 - component: GNOME
   create_time: 20171220T08:34:00
   id: 1073611
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20171219] openQA test fails in desktop_mainmenu'
 - component: GNOME
   create_time: 20171220T08:30:00
@@ -1059,8 +1059,8 @@
 - component: Other
   create_time: 20171224T18:16:00
   id: 1074054
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: sane-backends systemd unit files broken
 - component: Virtualization:Tools
   create_time: 20171224T18:13:00
@@ -1223,8 +1223,9 @@
   create_time: 20180101T15:35:00
   id: 1074266
   resolution: ''
-  status: NEW
-  summary: ghostscript-fonts is outdated
+  status: IN_PROGRESS
+  summary: ghostscript-fonts is outdated (will be replaced by new urw-base35-fonts
+    package)
 - component: Virtualization:Other
   create_time: 20180101T15:24:00
   id: 1074265
@@ -2113,8 +2114,8 @@
 - component: GNOME
   create_time: 20180119T09:57:00
   id: 1076745
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: GDM doesn't start pam_mount
 - component: Basesystem
   create_time: 20180119T09:48:00
@@ -2229,7 +2230,7 @@
   create_time: 20180123T10:55:00
   id: 1077199
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'gfxboot: make install needed'
 - component: Other
   create_time: 20180123T09:59:00
@@ -2563,8 +2564,8 @@
 - component: GNOME
   create_time: 20180129T17:17:00
   id: 1078030
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: gdm ignores /etc/gdm/custom.conf and starts Wayland session
 - component: Other
   create_time: 20180129T16:49:00
@@ -2782,8 +2783,8 @@
 - component: Other
   create_time: 20180201T17:11:00
   id: 1078845
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/novell-ipsec-tools fails to build'
 - component: Other
   create_time: 20180201T17:08:00
@@ -2965,14 +2966,14 @@
 - component: Other
   create_time: 20180202T14:29:00
   id: 1079106
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/bam fails to build'
 - component: Other
   create_time: 20180202T14:29:00
   id: 1079104
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/ldc fails to build'
 - component: Other
   create_time: 20180202T14:25:00
@@ -3127,7 +3128,7 @@
   create_time: 20180205T08:47:00
   id: 1079304
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20180203] kdump failure: cannot resolve ''init_task_union'''
 - component: AutoYaST
   create_time: 20180205T08:41:00
@@ -3709,8 +3710,8 @@
 - component: YaST2
   create_time: 20180212T21:43:00
   id: 1080676
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: can't launch YaST2
 - component: X11 Applications
   create_time: 20180212T20:32:00
@@ -3740,8 +3741,8 @@
 - component: Other
   create_time: 20180212T17:01:00
   id: 1080642
-  resolution: ''
-  status: CONFIRMED
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/espresso fails to build'
 - component: Other
   create_time: 20180212T17:01:00
@@ -3764,8 +3765,8 @@
 - component: Other
   create_time: 20180212T17:00:00
   id: 1080638
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/python-Kivy fails to build'
 - component: Other
   create_time: 20180212T15:56:00
@@ -3980,8 +3981,8 @@
 - component: Other
   create_time: 20180215T10:45:00
   id: 1081150
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: perl-DBIx-Class-InflateColumn-FS falis to build'
 - component: Other
   create_time: 20180215T10:39:00
@@ -4048,8 +4049,8 @@
 - component: GNOME
   create_time: 20180217T11:28:00
   id: 1081430
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'TW 20180214 NetworkManager segv Segmentation fault. #0  0x0000555cae32f7a3
     in nm_connection_clear_secrets (connection=connection@entry=0x6c00000001) at libnm-core/nm-connection.c:1662'
 - component: Other
@@ -4062,8 +4063,8 @@
 - component: Bootloader
   create_time: 20180217T02:41:00
   id: 1081425
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: grub 2 don't display snapshot entry
 - component: Kernel
   create_time: 20180217T00:19:00
@@ -4075,14 +4076,14 @@
 - component: Other
   create_time: 20180216T13:28:00
   id: 1081350
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/openbabel fails to build'
 - component: Other
   create_time: 20180216T13:16:00
   id: 1081347
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/h323plus fails to build'
 - component: Basesystem
   create_time: 20180216T12:08:00
@@ -4450,8 +4451,8 @@
 - component: GNOME
   create_time: 20180223T09:51:00
   id: 1082505
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[needs-rebase] GNOME Shell 3.27.91 patches need rebase'
 - component: Kernel
   create_time: 20180223T09:38:00
@@ -4493,8 +4494,8 @@
 - component: GNOME
   create_time: 20180222T16:24:00
   id: 1082345
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[NEEDS-REBASE] gnome-shell-extensions 3.27.91 patches need rebase'
 - component: Other
   create_time: 20180222T15:09:00
@@ -4605,8 +4606,8 @@
 - component: Development
   create_time: 20180225T17:48:00
   id: 1082717
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: "Checking influence of \u201Cllvm-config\u201D on building software with\
     \ GCC"
 '20180226':
@@ -4716,8 +4717,8 @@
 - component: Other
   create_time: 20180227T13:28:00
   id: 1083075
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: R-base should set the option "unzip" at build time
 - component: Kubic
   create_time: 20180227T11:25:00
@@ -4902,8 +4903,8 @@
 - component: GNOME
   create_time: 20180303T11:00:00
   id: 1083831
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: NetworkManager nfs displatcher script broken
 - component: Development
   create_time: 20180303T09:58:00
@@ -4916,7 +4917,7 @@
   id: 1083827
   resolution: ''
   status: CONFIRMED
-  summary: Encryption is not keep when add a volume
+  summary: 'YaST storage-ng: Encryption is not kept when adding a volume to LVM'
 - component: Network
   create_time: 20180302T16:22:00
   id: 1083740
@@ -4989,8 +4990,8 @@
 - component: X.Org
   create_time: 20180304T00:22:00
   id: 1083853
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Xorg crash, scrolling in Firefox, Intel graphics
 '20180305':
 - component: KDE Workspace (Plasma)
@@ -5014,8 +5015,8 @@
 - component: Kubic
   create_time: 20180305T09:22:00
   id: 1083909
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Installation does not use MicroOS values for default partition size
 - component: Basesystem
   create_time: 20180305T08:19:00
@@ -5209,7 +5210,7 @@
   create_time: 20180308T09:50:00
   id: 1084466
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Implement Multi-Stage Kubic Installation Workflow
 - component: Kernel
   create_time: 20180308T08:41:00
@@ -5227,7 +5228,7 @@
   create_time: 20180308T00:32:00
   id: 1084411
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: monitor remains disconnected and displays nothing in 2 nouveau card setup
 '20180309':
 - component: Basesystem
@@ -5392,8 +5393,8 @@
 - component: Basesystem
   create_time: 20180309T10:02:00
   id: 1084634
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: libpsm2 build fails'
 - component: Basesystem
   create_time: 20180309T10:02:00
@@ -5546,7 +5547,7 @@
   create_time: 20180312T10:34:00
   id: 1084864
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: YaST module names are too similar to some desktop environment configuration
     modules
 - component: Development
@@ -5602,8 +5603,8 @@
 - component: Basesystem
   create_time: 20180315T23:58:00
   id: 1085568
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python-oslo.log fails to build on s390
 - component: Basesystem
   create_time: 20180315T17:45:00
@@ -5717,67 +5718,6 @@
   summary: '[HPC, ganglia] diskstat.py crashes when gmond is run in a %post script
     in the idempotent build test script'
 '20180316':
-- component: Development
-  create_time: 20180318T19:42:00
-  id: 1085784
-  resolution: ''
-  status: NEW
-  summary: linking i386 fails with assertion in bfd/elf.c:3564
-- component: Kernel
-  create_time: 20180318T16:35:00
-  id: 1085781
-  resolution: ''
-  status: NEW
-  summary: nouveau bus MMIO write FAULT
-- component: GNOME
-  create_time: 20180318T13:43:00
-  id: 1085777
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: gdm 3.28 cannot start a plasma session on Wayland
-- component: GNOME
-  create_time: 20180318T13:41:00
-  id: 1085776
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: gdm 3.28 cannot start a plasma session on Wayland
-- component: GNOME
-  create_time: 20180318T13:40:00
-  id: 1085775
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: gdm 3.28 cannot start a plasma session on Wayland
-- component: GNOME
-  create_time: 20180318T13:32:00
-  id: 1085774
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: gdm 3.28 cannot start plasma session on Wayland
-- component: GNOME
-  create_time: 20180318T13:31:00
-  id: 1085773
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: gdm 3.28 cannot start plasma session on Wayland
-- component: GNOME
-  create_time: 20180318T13:27:00
-  id: 1085772
-  resolution: ''
-  status: CONFIRMED
-  summary: gdm 3.28 cannot start plasma session on Wayland
-- component: Other
-  create_time: 20180318T08:33:00
-  id: 1085771
-  resolution: ''
-  status: NEW
-  summary: .bashrc no longer evaluated on ssh remote login
-- component: Other
-  create_time: 20180318T07:55:00
-  id: 1085770
-  resolution: FIXED
-  status: VERIFIED
-  summary: '[krypton][Build 1.193] openQA test fails in bootloader - does not boot,
-    last message on screen "mount /run/initramfs/live mounted read-only"'
 - component: X11 Applications
   create_time: 20180317T23:50:00
   id: 1085769
@@ -5800,8 +5740,8 @@
 - component: Kubic
   create_time: 20180317T19:51:00
   id: 1085764
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'transactional-update: Missing perl HTML::Entitles dependencies'
 - component: Basesystem
   create_time: 20180317T12:11:00
@@ -5813,14 +5753,14 @@
 - component: Virtualization:Other
   create_time: 20180317T11:49:00
   id: 1085757
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Leap 15 patch for osinfo-db has wrong information in it
 - component: AutoYaST
   create_time: 20180317T11:36:00
   id: 1085755
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[storage-ng?] autoyast profiles do not use new flat /var layout by default'
 - component: Basesystem
   create_time: 20180317T10:56:00
@@ -5918,7 +5858,7 @@
   resolution: ''
   status: NEW
   summary: salt-api container with python3 backtrace
-- component: Basesystem
+- component: KDE Applications
   create_time: 20180316T10:57:00
   id: 1085631
   resolution: ''
@@ -5942,3 +5882,192 @@
   resolution: ''
   status: NEW
   summary: '[Build 20180314] bootloader on life media showsLeap 13.3'
+'20180318':
+- component: Development
+  create_time: 20180318T19:42:00
+  id: 1085784
+  resolution: ''
+  status: NEW
+  summary: linking i386 fails with assertion in bfd/elf.c:3564
+- component: Kernel
+  create_time: 20180318T16:35:00
+  id: 1085781
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: nouveau bus MMIO write FAULT
+- component: GNOME
+  create_time: 20180318T13:43:00
+  id: 1085777
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: gdm 3.28 cannot start a plasma session on Wayland
+- component: GNOME
+  create_time: 20180318T13:41:00
+  id: 1085776
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: gdm 3.28 cannot start a plasma session on Wayland
+- component: GNOME
+  create_time: 20180318T13:40:00
+  id: 1085775
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: gdm 3.28 cannot start a plasma session on Wayland
+- component: GNOME
+  create_time: 20180318T13:32:00
+  id: 1085774
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: gdm 3.28 cannot start plasma session on Wayland
+- component: GNOME
+  create_time: 20180318T13:31:00
+  id: 1085773
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: gdm 3.28 cannot start plasma session on Wayland
+- component: KDE Workspace (Plasma)
+  create_time: 20180318T13:27:00
+  id: 1085772
+  resolution: FIXED
+  status: RESOLVED
+  summary: gdm 3.28 cannot start plasma session on Wayland
+- component: Other
+  create_time: 20180318T08:33:00
+  id: 1085771
+  resolution: INVALID
+  status: RESOLVED
+  summary: .bashrc no longer evaluated on ssh remote login
+- component: Other
+  create_time: 20180318T07:55:00
+  id: 1085770
+  resolution: FIXED
+  status: VERIFIED
+  summary: '[krypton][Build 1.193] openQA test fails in bootloader - does not boot,
+    last message on screen "mount /run/initramfs/live mounted read-only"'
+'20180319':
+- component: Upgrade Problems
+  create_time: 20180321T18:00:00
+  id: 1086343
+  resolution: ''
+  status: NEW
+  summary: Dependency problem among libpango, libglib-2 and gio-branding-openSUSE
+- component: Basesystem
+  create_time: 20180321T16:07:00
+  id: 1086297
+  resolution: ''
+  status: NEW
+  summary: perl-Date-Manip fails in testsuite on all 32bit platforms
+- component: Firefox
+  create_time: 20180321T14:42:00
+  id: 1086260
+  resolution: ''
+  status: NEW
+  summary: 'firefox 59: more reliably fails to build than succeeds'
+- component: Other
+  create_time: 20180321T11:33:00
+  id: 1086213
+  resolution: ''
+  status: NEW
+  summary: asciidoctor doesn't set manpage source and manual entries
+- component: Basesystem
+  create_time: 20180321T11:30:00
+  id: 1086212
+  resolution: ''
+  status: NEW
+  summary: rpm is not replacing a changed file, and not creating rpmsave/rpmnew backups
+- component: YaST2
+  create_time: 20180321T09:43:00
+  id: 1086184
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: empty mount point while type-string '/boot' on Raid0 ppc64le test
+- component: Other
+  create_time: 20180321T06:44:00
+  id: 1086166
+  resolution: ''
+  status: NEW
+  summary: nothing provides libpng12-0 needed by lsb-4.0-31.2.x86_64
+- component: GNOME
+  create_time: 20180321T01:05:00
+  id: 1086146
+  resolution: ''
+  status: NEW
+  summary: after updating tumblweed from 20180313->20180318 gdm does not start anymore
+- component: KDE Applications
+  create_time: 20180320T19:59:00
+  id: 1086109
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: KRDC unable to connect to RDP hosts without '/sec:tls' as extra option
+- component: Basesystem
+  create_time: 20180320T13:30:00
+  id: 1086008
+  resolution: ''
+  status: NEW
+  summary: petsc fails to build on s390
+- component: Apache
+  create_time: 20180320T12:32:00
+  id: 1085999
+  resolution: ''
+  status: NEW
+  summary: apache-commons-lang does not build on ppc
+- component: Network
+  create_time: 20180320T09:28:00
+  id: 1085971
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180318] openvswitch service fails to start'
+- component: X11 Applications
+  create_time: 20180319T23:40:00
+  id: 1085951
+  resolution: ''
+  status: NEW
+  summary: inxi does not include enough dependencies
+- component: GNOME
+  create_time: 20180319T21:40:00
+  id: 1085925
+  resolution: ''
+  status: NEW
+  summary: Touchpad's right & middle buttons act like the left one
+- component: Development
+  create_time: 20180319T21:04:00
+  id: 1085920
+  resolution: ''
+  status: NEW
+  summary: 'devel:tools:scm/rabbitvcs: Dependency python2-simplejson missing in spec-file'
+- component: Other
+  create_time: 20180319T20:05:00
+  id: 1085912
+  resolution: FIXED
+  status: RESOLVED
+  summary: Please update log4cplus to version 1.2.1
+- component: Basesystem
+  create_time: 20180319T15:04:00
+  id: 1085850
+  resolution: ''
+  status: NEW
+  summary: neon fails to build on ppc64le
+- component: Basesystem
+  create_time: 20180319T14:53:00
+  id: 1085847
+  resolution: ''
+  status: IN_PROGRESS
+  summary: systemd-udevd needs new group render.
+- component: Other
+  create_time: 20180319T14:28:00
+  id: 1085839
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/mongodb fails to build'
+- component: Basesystem
+  create_time: 20180319T14:11:00
+  id: 1085834
+  resolution: ''
+  status: NEW
+  summary: In latest bash build, 'bash -l' no longer reads ~/.bashrc
+- component: Kubic
+  create_time: 20180319T13:19:00
+  id: 1085832
+  resolution: ''
+  status: NEW
+  summary: 'Installation: Setting locale fails'
