@@ -5945,6 +5945,12 @@
   summary: '[krypton][Build 1.193] openQA test fails in bootloader - does not boot,
     last message on screen "mount /run/initramfs/live mounted read-only"'
 '20180319':
+- component: Basesystem
+  create_time: 20180322T00:18:00
+  id: 1086393
+  resolution: ''
+  status: NEW
+  summary: netcdf-cxx4 fails to build on bigendian architectures
 - component: Upgrade Problems
   create_time: 20180321T18:00:00
   id: 1086343
