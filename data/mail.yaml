@@ -139,11 +139,11 @@
   threads: []
 '20171231':
   announcement: 2018-01.15
-  reference_count: 15
+  reference_count: 16
   thread_count: 2
   threads:
   - messages: [2018-01.18]
-    reference_count: 13
+    reference_count: 14
     summary: no summary given
   - messages: [2018-01.27]
     reference_count: 2
@@ -594,3 +594,11 @@
   reference_count: 0
   thread_count: 0
   threads: []
+'20180320':
+  announcement: 2018-03.580
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages: [2018-03.589]
+    reference_count: 1
+    summary: no summary given
