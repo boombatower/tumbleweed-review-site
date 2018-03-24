@@ -2053,8 +2053,8 @@
 - component: Installation
   create_time: 20180119T15:54:00
   id: 1076839
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180117] installer startup: kexec failed'
 - component: YaST2
   create_time: 20180119T15:40:00
@@ -2508,7 +2508,7 @@
   create_time: 20180128T12:50:00
   id: 1077870
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: librsvg-2-2-2.42.0-1.1.i586 contains SSE2 instructions
 - component: Installation
   create_time: 20180128T11:15:00
@@ -3343,8 +3343,8 @@
 - component: X.Org
   create_time: 20180207T09:55:00
   id: 1079782
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Upgrade from 20180202 to 20180203 breaks FreeCAD
 - component: YaST2
   create_time: 20180207T09:50:00
@@ -4633,7 +4633,7 @@
   create_time: 20180226T19:19:00
   id: 1082900
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: lsof 4.90 gives bogus information
 - component: Printing
   create_time: 20180226T18:55:00
@@ -4693,14 +4693,14 @@
 - component: LibreOffice
   create_time: 20180228T02:36:00
   id: 1083213
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please drop unnecessary xorg-x11-fonts requires
 - component: Other
   create_time: 20180228T02:20:00
   id: 1083212
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please drop mkfontscale/mkfontdir usage from texlive font packages
 - component: Sound
   create_time: 20180227T22:32:00
@@ -4915,8 +4915,8 @@
 - component: Development
   create_time: 20180303T02:43:00
   id: 1083827
-  resolution: ''
-  status: CONFIRMED
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'YaST storage-ng: Encryption is not kept when adding a volume to LVM'
 - component: Network
   create_time: 20180302T16:22:00
@@ -4934,8 +4934,8 @@
 - component: Kernel
   create_time: 20180302T11:42:00
   id: 1083694
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kernel-docs build fails with the latest Sphinx
 - component: X11 Applications
   create_time: 20180302T09:31:00
@@ -5105,8 +5105,8 @@
 - component: Sound
   create_time: 20180306T04:51:00
   id: 1084047
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: New version of pulseaudio failed to work for the headphone
 - component: YaST2
   create_time: 20180306T00:55:00
@@ -5224,7 +5224,7 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: Glibc update to 2.27 causes segfault during name resolution
-- component: Kernel
+- component: X.Org
   create_time: 20180308T00:32:00
   id: 1084411
   resolution: ''
@@ -5247,8 +5247,8 @@
 - component: YaST2
   create_time: 20180310T09:32:00
   id: 1084791
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'yast-fonts: Incorrect paragraph end tag'
 - component: X.Org
   create_time: 20180309T21:29:00
@@ -5945,6 +5945,183 @@
   summary: '[krypton][Build 1.193] openQA test fails in bootloader - does not boot,
     last message on screen "mount /run/initramfs/live mounted read-only"'
 '20180319':
+- component: X11 Applications
+  create_time: 20180319T23:40:00
+  id: 1085951
+  resolution: ''
+  status: NEW
+  summary: inxi does not include enough dependencies
+- component: GNOME
+  create_time: 20180319T21:40:00
+  id: 1085925
+  resolution: ''
+  status: NEW
+  summary: Touchpad's right & middle buttons act like the left one
+- component: Development
+  create_time: 20180319T21:04:00
+  id: 1085920
+  resolution: ''
+  status: NEW
+  summary: 'devel:tools:scm/rabbitvcs: Dependency python2-simplejson missing in spec-file'
+- component: Other
+  create_time: 20180319T20:05:00
+  id: 1085912
+  resolution: FIXED
+  status: RESOLVED
+  summary: Please update log4cplus to version 1.2.1
+- component: Basesystem
+  create_time: 20180319T15:04:00
+  id: 1085850
+  resolution: ''
+  status: NEW
+  summary: neon fails to build on ppc64le
+- component: Basesystem
+  create_time: 20180319T14:53:00
+  id: 1085847
+  resolution: ''
+  status: IN_PROGRESS
+  summary: systemd-udevd needs new group render.
+- component: Other
+  create_time: 20180319T14:28:00
+  id: 1085839
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/mongodb fails to build'
+- component: Basesystem
+  create_time: 20180319T14:11:00
+  id: 1085834
+  resolution: ''
+  status: NEW
+  summary: In latest bash build, 'bash -l' no longer reads ~/.bashrc
+- component: Kubic
+  create_time: 20180319T13:19:00
+  id: 1085832
+  resolution: ''
+  status: NEW
+  summary: 'Installation: Setting locale fails'
+'20180320':
+- component: YaST2
+  create_time: 20180324T23:33:00
+  id: 1086741
+  resolution: ''
+  status: NEW
+  summary: YaST2-Qt sw_single's padding causes lack of menubar continuity
+- component: YaST2
+  create_time: 20180324T23:23:00
+  id: 1086740
+  resolution: ''
+  status: NEW
+  summary: Status of loading in YaST2-Qt should be themable
+- component: Kernel
+  create_time: 20180324T23:17:00
+  id: 1086739
+  resolution: ''
+  status: NEW
+  summary: 'Kernel panic booting install DVD(s): kernel BUG at ../kernel/resource.c:722'
+- component: Installation
+  create_time: 20180324T23:06:00
+  id: 1086738
+  resolution: ''
+  status: NEW
+  summary: Error message 'Digest verification failed' during installation
+- component: Other
+  create_time: 20180324T15:20:00
+  id: 1086732
+  resolution: ''
+  status: NEW
+  summary: fwupd coring
+- component: Basesystem
+  create_time: 20180324T11:29:00
+  id: 1086731
+  resolution: ''
+  status: NEW
+  summary: 'bluez: Segfault in btd_adv_manager_refresh, bluetooth service fails'
+- component: Installation
+  create_time: 20180323T18:24:00
+  id: 1086702
+  resolution: ''
+  status: NEW
+  summary: Automate installation of codecs
+- component: YaST2
+  create_time: 20180323T18:19:00
+  id: 1086699
+  resolution: ''
+  status: NEW
+  summary: Provide progress bar for Yast2 navigation
+- component: X.Org
+  create_time: 20180323T13:28:00
+  id: 1086666
+  resolution: ''
+  status: NEW
+  summary: XFCE desktop turns black (or crashes, presenting a new login screen) as
+    the rssult of random mouse pointer movements (Lenovo t430, Intel I915 graphics)
+- component: Kubic
+  create_time: 20180323T11:02:00
+  id: 1086649
+  resolution: FIXED
+  status: RESOLVED
+  summary: update-test-broken is broken
+- component: X.Org
+  create_time: 20180323T10:19:00
+  id: 1086640
+  resolution: ''
+  status: CONFIRMED
+  summary: modesetting driver for intel (Skylake) unusable for multi monitor due to
+    tearing
+- component: Basesystem
+  create_time: 20180323T00:46:00
+  id: 1086579
+  resolution: FIXED
+  status: RESOLVED
+  summary: gnutls fails to build on ppc/ppc64/ppc64le
+- component: X11 Applications
+  create_time: 20180322T19:25:00
+  id: 1086546
+  resolution: ''
+  status: NEW
+  summary: Missing dependency for remmina (1.2.0~rcgit.27-1.1)
+- component: Security
+  create_time: 20180322T14:23:00
+  id: 1086489
+  resolution: ''
+  status: NEW
+  summary: rpmlint check for /usr/lib/systemd/system-preset/ files
+- component: Basesystem
+  create_time: 20180322T14:13:00
+  id: 1086486
+  resolution: ''
+  status: IN_PROGRESS
+  summary: systemd-mini should own /usr/lib/modules-load.d/
+- component: Basesystem
+  create_time: 20180322T13:50:00
+  id: 1086478
+  resolution: ''
+  status: NEW
+  summary: 'openssh: RAND_load_file("/dev/urandom") isn''t allowed in OpenSSL 1.1.1'
+- component: Basesystem
+  create_time: 20180322T12:28:00
+  id: 1086459
+  resolution: ''
+  status: NEW
+  summary: user systemd service (plus others) not shutting down on logout
+- component: Basesystem
+  create_time: 20180322T11:14:00
+  id: 1086447
+  resolution: ''
+  status: NEW
+  summary: clusterlvm support pulled by default
+- component: Development
+  create_time: 20180322T11:00:00
+  id: 1086445
+  resolution: ''
+  status: NEW
+  summary: libLLVMTableGen not packaged
+- component: Development
+  create_time: 20180322T10:57:00
+  id: 1086444
+  resolution: ''
+  status: NEW
+  summary: Clang package misses some CMake targets
 - component: Basesystem
   create_time: 20180322T00:18:00
   id: 1086393
@@ -6021,59 +6198,5 @@
   create_time: 20180320T09:28:00
   id: 1085971
   resolution: ''
-  status: NEW
-  summary: '[Build 20180318] openvswitch service fails to start'
-- component: X11 Applications
-  create_time: 20180319T23:40:00
-  id: 1085951
-  resolution: ''
-  status: NEW
-  summary: inxi does not include enough dependencies
-- component: GNOME
-  create_time: 20180319T21:40:00
-  id: 1085925
-  resolution: ''
-  status: NEW
-  summary: Touchpad's right & middle buttons act like the left one
-- component: Development
-  create_time: 20180319T21:04:00
-  id: 1085920
-  resolution: ''
-  status: NEW
-  summary: 'devel:tools:scm/rabbitvcs: Dependency python2-simplejson missing in spec-file'
-- component: Other
-  create_time: 20180319T20:05:00
-  id: 1085912
-  resolution: FIXED
-  status: RESOLVED
-  summary: Please update log4cplus to version 1.2.1
-- component: Basesystem
-  create_time: 20180319T15:04:00
-  id: 1085850
-  resolution: ''
-  status: NEW
-  summary: neon fails to build on ppc64le
-- component: Basesystem
-  create_time: 20180319T14:53:00
-  id: 1085847
-  resolution: ''
   status: IN_PROGRESS
-  summary: systemd-udevd needs new group render.
-- component: Other
-  create_time: 20180319T14:28:00
-  id: 1085839
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'FTBFS: openSUSE:Factory/mongodb fails to build'
-- component: Basesystem
-  create_time: 20180319T14:11:00
-  id: 1085834
-  resolution: ''
-  status: NEW
-  summary: In latest bash build, 'bash -l' no longer reads ~/.bashrc
-- component: Kubic
-  create_time: 20180319T13:19:00
-  id: 1085832
-  resolution: ''
-  status: NEW
-  summary: 'Installation: Setting locale fails'
+  summary: '[Build 20180318] openvswitch service fails to start'
