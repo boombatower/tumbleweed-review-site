@@ -6000,6 +6000,30 @@
   status: NEW
   summary: 'Installation: Setting locale fails'
 '20180320':
+- component: Other
+  create_time: 20180325T16:18:00
+  id: 1086757
+  resolution: ''
+  status: NEW
+  summary: Images for Raspberry Pi 1/2/3 does not boot - only Splash Screen Rainbow
+- component: LibreOffice
+  create_time: 20180325T15:12:00
+  id: 1086755
+  resolution: ''
+  status: NEW
+  summary: 'LibreOffice Calc: Copy only works every other time.'
+- component: Kubic
+  create_time: 20180325T15:08:00
+  id: 1086754
+  resolution: ''
+  status: NEW
+  summary: Disk capacity check before Kubic Installation
+- component: KDE Applications
+  create_time: 20180325T11:23:00
+  id: 1086751
+  resolution: ''
+  status: NEW
+  summary: KDE:Extra krita crashes because of Qt bug
 - component: Kubic
   create_time: 20180325T11:08:00
   id: 1086750
