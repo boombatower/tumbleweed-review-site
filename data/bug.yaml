@@ -3283,8 +3283,8 @@
 - component: Kernel
   create_time: 20180207T15:02:00
   id: 1079862
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: with kernel 4.15.0 touchpad is dead after resume
 - component: YaST2
   create_time: 20180207T14:45:00
@@ -5369,8 +5369,8 @@
 - component: Basesystem
   create_time: 20180309T10:03:00
   id: 1084638
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: systemd build fails'
 - component: Basesystem
   create_time: 20180309T10:03:00
@@ -6000,6 +6000,18 @@
   status: NEW
   summary: 'Installation: Setting locale fails'
 '20180320':
+- component: Kubic
+  create_time: 20180325T11:08:00
+  id: 1086750
+  resolution: ''
+  status: NEW
+  summary: '''openSUSE Leap 13.3'' welcome-message on F1 help'
+- component: Kubic
+  create_time: 20180325T10:58:00
+  id: 1086749
+  resolution: ''
+  status: NEW
+  summary: Language layout switching is one step late
 - component: YaST2
   create_time: 20180324T23:33:00
   id: 1086741
