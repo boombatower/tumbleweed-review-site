@@ -245,5 +245,8 @@
   score: 96
   stability_level: stable
 '20180320':
-  score: 91
+  score: 93
+  stability_level: pending
+'20180324':
+  score: 95
   stability_level: pending
