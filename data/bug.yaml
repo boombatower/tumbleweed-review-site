@@ -5030,7 +5030,7 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: KDE working space missing openSUSE logo in left of status bar ppc64 (BE)
-- component: Other
+- component: KDE Workspace (Plasma)
   create_time: 20180305T01:39:00
   id: 1083880
   resolution: ''
@@ -5345,8 +5345,8 @@
 - component: Basesystem
   create_time: 20180309T10:05:00
   id: 1084642
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: systemtap build fails'
 - component: Basesystem
   create_time: 20180309T10:04:00
@@ -5566,8 +5566,8 @@
 - component: Kernel
   create_time: 20180313T21:48:00
   id: 1085174
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kernel memory allocation failed with broadcom wifi
 - component: KDE Applications
   create_time: 20180313T21:45:00
@@ -5683,8 +5683,8 @@
 - component: YaST2
   create_time: 20180314T10:53:00
   id: 1085270
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: libstorage reports wrong fs type for ppc64 on last 20180313 snapshot
 - component: Basesystem
   create_time: 20180314T10:31:00
@@ -6000,114 +6000,6 @@
   status: NEW
   summary: 'Installation: Setting locale fails'
 '20180320':
-- component: Other
-  create_time: 20180326T10:07:00
-  id: 1086826
-  resolution: ''
-  status: NEW
-  summary: Meanwhile protocol  (libmeanwhile1) - "Login verification down or unavailable"
-- component: Other
-  create_time: 20180326T08:41:00
-  id: 1086807
-  resolution: ''
-  status: NEW
-  summary: 'postfix: error about not existing file'
-- component: Other
-  create_time: 20180326T08:35:00
-  id: 1086804
-  resolution: ''
-  status: NEW
-  summary: fonts-config warns about ninitialized HOME in posttrans
-- component: libzypp
-  create_time: 20180326T06:26:00
-  id: 1086783
-  resolution: ''
-  status: NEW
-  summary: libsolv-tools uninstall attempted by zypper dup
-- component: Basesystem
-  create_time: 20180325T23:03:00
-  id: 1086763
-  resolution: FIXED
-  status: RESOLVED
-  summary: mozc fails to build on s390x (on all bigendian architetures)
-- component: Basesystem
-  create_time: 20180325T22:38:00
-  id: 1086762
-  resolution: FIXED
-  status: RESOLVED
-  summary: gperftools fails to build on aarch64
-- component: Other
-  create_time: 20180325T16:18:00
-  id: 1086757
-  resolution: ''
-  status: NEW
-  summary: Images for Raspberry Pi 1/2/3 does not boot - only Splash Screen Rainbow
-- component: LibreOffice
-  create_time: 20180325T15:12:00
-  id: 1086755
-  resolution: ''
-  status: NEW
-  summary: 'LibreOffice Calc: Copy only works every other time.'
-- component: Kubic
-  create_time: 20180325T15:08:00
-  id: 1086754
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Disk capacity check before Kubic Installation
-- component: KDE Applications
-  create_time: 20180325T11:23:00
-  id: 1086751
-  resolution: ''
-  status: NEW
-  summary: KDE:Extra krita crashes because of Qt bug
-- component: Kubic
-  create_time: 20180325T11:08:00
-  id: 1086750
-  resolution: ''
-  status: NEW
-  summary: '''openSUSE Leap 13.3'' welcome-message on F1 help'
-- component: Kubic
-  create_time: 20180325T10:58:00
-  id: 1086749
-  resolution: ''
-  status: NEW
-  summary: Language layout switching is one step late
-- component: YaST2
-  create_time: 20180324T23:33:00
-  id: 1086741
-  resolution: ''
-  status: NEW
-  summary: YaST2-Qt sw_single's padding causes lack of menubar continuity
-- component: YaST2
-  create_time: 20180324T23:23:00
-  id: 1086740
-  resolution: ''
-  status: NEW
-  summary: Status of loading in YaST2-Qt should be themable
-- component: Kernel
-  create_time: 20180324T23:17:00
-  id: 1086739
-  resolution: ''
-  status: NEW
-  summary: 'Kernel panic booting install DVD(s): kernel BUG at ../kernel/resource.c:722'
-- component: Installation
-  create_time: 20180324T23:06:00
-  id: 1086738
-  resolution: ''
-  status: CONFIRMED
-  summary: Error message 'Digest verification failed' during installation
-- component: Other
-  create_time: 20180324T15:20:00
-  id: 1086732
-  resolution: ''
-  status: NEW
-  summary: fwupd coring
-- component: Basesystem
-  create_time: 20180324T11:29:00
-  id: 1086731
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'bluez: Segfault in btd_adv_manager_refresh, bluetooth service fails'
 - component: Installation
   create_time: 20180323T18:24:00
   id: 1086702
@@ -6272,3 +6164,118 @@
   resolution: ''
   status: IN_PROGRESS
   summary: '[Build 20180318] openvswitch service fails to start'
+'20180324':
+- component: KDE Workspace (Plasma)
+  create_time: 20180326T15:51:00
+  id: 1086927
+  resolution: INVALID
+  status: RESOLVED
+  summary: kmymoney 5.0.1 is actually 5.0.0
+- component: Other
+  create_time: 20180326T10:07:00
+  id: 1086826
+  resolution: ''
+  status: NEW
+  summary: Meanwhile protocol  (libmeanwhile1) - "Login verification down or unavailable"
+- component: Other
+  create_time: 20180326T08:41:00
+  id: 1086807
+  resolution: ''
+  status: NEW
+  summary: 'postfix: error about not existing file'
+- component: Other
+  create_time: 20180326T08:35:00
+  id: 1086804
+  resolution: ''
+  status: NEW
+  summary: fonts-config warns about ninitialized HOME in posttrans
+- component: libzypp
+  create_time: 20180326T06:26:00
+  id: 1086783
+  resolution: ''
+  status: NEW
+  summary: libsolv-tools uninstall attempted by zypper dup
+- component: Basesystem
+  create_time: 20180325T23:03:00
+  id: 1086763
+  resolution: FIXED
+  status: RESOLVED
+  summary: mozc fails to build on s390x (on all bigendian architetures)
+- component: Basesystem
+  create_time: 20180325T22:38:00
+  id: 1086762
+  resolution: FIXED
+  status: RESOLVED
+  summary: gperftools fails to build on aarch64
+- component: Bootloader
+  create_time: 20180325T16:18:00
+  id: 1086757
+  resolution: ''
+  status: NEW
+  summary: Images for Raspberry Pi 1/2/3 does not boot - only Splash Screen Rainbow
+- component: LibreOffice
+  create_time: 20180325T15:12:00
+  id: 1086755
+  resolution: ''
+  status: NEW
+  summary: 'LibreOffice Calc: Copy only works every other time.'
+- component: Kubic
+  create_time: 20180325T15:08:00
+  id: 1086754
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Disk capacity check before Kubic Installation
+- component: KDE Applications
+  create_time: 20180325T11:23:00
+  id: 1086751
+  resolution: ''
+  status: NEW
+  summary: KDE:Extra krita crashes because of Qt bug
+- component: Kubic
+  create_time: 20180325T11:08:00
+  id: 1086750
+  resolution: ''
+  status: NEW
+  summary: '''openSUSE Leap 13.3'' welcome-message on F1 help'
+- component: Kubic
+  create_time: 20180325T10:58:00
+  id: 1086749
+  resolution: ''
+  status: NEW
+  summary: Language layout switching is one step late
+- component: YaST2
+  create_time: 20180324T23:33:00
+  id: 1086741
+  resolution: ''
+  status: NEW
+  summary: YaST2-Qt sw_single's padding causes lack of menubar continuity
+- component: YaST2
+  create_time: 20180324T23:23:00
+  id: 1086740
+  resolution: ''
+  status: NEW
+  summary: Status of loading in YaST2-Qt should be themable
+- component: Kernel
+  create_time: 20180324T23:17:00
+  id: 1086739
+  resolution: ''
+  status: NEW
+  summary: 'Kernel panic booting install DVD(s): kernel BUG at ../kernel/resource.c:722'
+- component: Installation
+  create_time: 20180324T23:06:00
+  id: 1086738
+  resolution: ''
+  status: CONFIRMED
+  summary: Error message 'Digest verification failed' during installation
+- component: Other
+  create_time: 20180324T15:20:00
+  id: 1086732
+  resolution: ''
+  status: NEW
+  summary: fwupd coring
+- component: Basesystem
+  create_time: 20180324T11:29:00
+  id: 1086731
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'bluez: Segfault in btd_adv_manager_refresh, bluetooth service fails'
