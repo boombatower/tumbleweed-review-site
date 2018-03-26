@@ -6000,6 +6000,18 @@
   status: NEW
   summary: 'Installation: Setting locale fails'
 '20180320':
+- component: Basesystem
+  create_time: 20180325T23:03:00
+  id: 1086763
+  resolution: FIXED
+  status: RESOLVED
+  summary: mozc fails to build on s390x (on all bigendian architetures)
+- component: Basesystem
+  create_time: 20180325T22:38:00
+  id: 1086762
+  resolution: FIXED
+  status: RESOLVED
+  summary: gperftools fails to build on aarch64
 - component: Other
   create_time: 20180325T16:18:00
   id: 1086757
@@ -6015,8 +6027,8 @@
 - component: Kubic
   create_time: 20180325T15:08:00
   id: 1086754
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Disk capacity check before Kubic Installation
 - component: KDE Applications
   create_time: 20180325T11:23:00
