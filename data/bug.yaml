@@ -1216,8 +1216,8 @@
 - component: Other
   create_time: 20180101T15:51:00
   id: 1074267
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'ghostscript-fonts: fontconfig alias mappings missing'
 - component: Other
   create_time: 20180101T15:35:00
@@ -5522,14 +5522,14 @@
 - component: Other
   create_time: 20180312T14:24:00
   id: 1084893
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'cdrtools: mkisofs -chrp-boot not documented and differs from genisoimage'
 - component: Other
   create_time: 20180312T14:20:00
   id: 1084892
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'cdrtools: mkisofs expects translations in /usr/lib/siconv'
 - component: Kernel
   create_time: 20180312T12:42:00
@@ -5978,8 +5978,8 @@
 - component: Basesystem
   create_time: 20180319T14:53:00
   id: 1085847
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: systemd-udevd needs new group render.
 - component: Other
   create_time: 20180319T14:28:00
@@ -6000,6 +6000,30 @@
   status: NEW
   summary: 'Installation: Setting locale fails'
 '20180320':
+- component: Other
+  create_time: 20180326T10:07:00
+  id: 1086826
+  resolution: ''
+  status: NEW
+  summary: Meanwhile protocol  (libmeanwhile1) - "Login verification down or unavailable"
+- component: Other
+  create_time: 20180326T08:41:00
+  id: 1086807
+  resolution: ''
+  status: NEW
+  summary: 'postfix: error about not existing file'
+- component: Other
+  create_time: 20180326T08:35:00
+  id: 1086804
+  resolution: ''
+  status: NEW
+  summary: fonts-config warns about ninitialized HOME in posttrans
+- component: libzypp
+  create_time: 20180326T06:26:00
+  id: 1086783
+  resolution: ''
+  status: NEW
+  summary: libsolv-tools uninstall attempted by zypper dup
 - component: Basesystem
   create_time: 20180325T23:03:00
   id: 1086763
@@ -6070,7 +6094,7 @@
   create_time: 20180324T23:06:00
   id: 1086738
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Error message 'Digest verification failed' during installation
 - component: Other
   create_time: 20180324T15:20:00
@@ -6082,7 +6106,7 @@
   create_time: 20180324T11:29:00
   id: 1086731
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'bluez: Segfault in btd_adv_manager_refresh, bluetooth service fails'
 - component: Installation
   create_time: 20180323T18:24:00
@@ -6099,8 +6123,8 @@
 - component: X.Org
   create_time: 20180323T13:28:00
   id: 1086666
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: XFCE desktop turns black (or crashes, presenting a new login screen) as
     the rssult of random mouse pointer movements (Lenovo t430, Intel I915 graphics)
 - component: Kubic
