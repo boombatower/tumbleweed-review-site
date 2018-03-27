@@ -559,11 +559,11 @@
   threads: []
 '20180313':
   announcement: 2018-03.368
-  reference_count: 8
+  reference_count: 9
   thread_count: 1
   threads:
   - messages: [2018-03.473]
-    reference_count: 8
+    reference_count: 9
     summary: .bashrc ignored on remote login
 '20180314':
   announcement: 2018-03.458
@@ -604,9 +604,9 @@
     summary: no summary given
 '20180324':
   announcement: 2018-03.616
-  reference_count: 1
+  reference_count: 2
   thread_count: 1
   threads:
   - messages: [2018-03.629]
-    reference_count: 1
+    reference_count: 2
     summary: no summary given
