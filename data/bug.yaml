@@ -795,8 +795,8 @@
 - component: Virtualization:Tools
   create_time: 20171219T15:16:00
   id: 1073533
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: qemu architectural CHROOT segfaults @ Java use, unless forced interpreter-only
     (-Xint)
 - component: X11 Applications
@@ -6165,6 +6165,12 @@
   status: IN_PROGRESS
   summary: '[Build 20180318] openvswitch service fails to start'
 '20180324':
+- component: Basesystem
+  create_time: 20180326T23:41:00
+  id: 1086987
+  resolution: ''
+  status: NEW
+  summary: python-dogpile.cache fails to build on non x86_64
 - component: KDE Workspace (Plasma)
   create_time: 20180326T15:51:00
   id: 1086927
