@@ -604,6 +604,9 @@
     summary: no summary given
 '20180324':
   announcement: 2018-03.616
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages: [2018-03.629]
+    reference_count: 1
+    summary: no summary given
