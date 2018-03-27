@@ -3735,8 +3735,8 @@
 - component: Other
   create_time: 20180212T17:05:00
   id: 1080644
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/perl-Text-RecordParser fails to build'
 - component: Other
   create_time: 20180212T17:01:00
@@ -3759,8 +3759,8 @@
 - component: Other
   create_time: 20180212T17:00:00
   id: 1080639
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/perl-MouseX-ConfigFromFile fails to build'
 - component: Other
   create_time: 20180212T17:00:00
@@ -3777,14 +3777,14 @@
 - component: Other
   create_time: 20180212T15:56:00
   id: 1080623
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/perl-TryCatch  fails to build'
 - component: Other
   create_time: 20180212T15:55:00
   id: 1080622
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/perl-Net-Dropbox-API fails to build'
 - component: Other
   create_time: 20180212T12:24:00
@@ -4632,8 +4632,8 @@
 - component: Other
   create_time: 20180226T19:19:00
   id: 1082900
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: lsof 4.90 gives bogus information
 - component: Printing
   create_time: 20180226T18:55:00
@@ -5388,7 +5388,7 @@
   create_time: 20180309T10:03:00
   id: 1084635
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: 'GCC 8: openucx build fails'
 - component: Basesystem
   create_time: 20180309T10:02:00
@@ -5728,8 +5728,8 @@
 - component: Other
   create_time: 20180317T22:11:00
   id: 1085767
-  resolution: ''
-  status: CONFIRMED
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: enable chromecast support in vlc
 - component: Other
   create_time: 20180317T21:22:00
@@ -5879,8 +5879,8 @@
 - component: Live Medium
   create_time: 20180316T00:20:00
   id: 1085569
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180314] bootloader on life media showsLeap 13.3'
 '20180318':
 - component: Development
@@ -6163,8 +6163,20 @@
   id: 1085971
   resolution: ''
   status: IN_PROGRESS
-  summary: '[Build 20180318] openvswitch service fails to start'
+  summary: 'openvswitch: Permission denied when starting the ovsdb-server service'
 '20180324':
+- component: Other
+  create_time: 20180327T11:03:00
+  id: 1087052
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/dunelegacy fails to build'
+- component: Other
+  create_time: 20180327T10:39:00
+  id: 1087050
+  resolution: ''
+  status: NEW
+  summary: '[HPC, petsc] No doc Package built'
 - component: Basesystem
   create_time: 20180326T23:41:00
   id: 1086987
@@ -6270,8 +6282,8 @@
 - component: Installation
   create_time: 20180324T23:06:00
   id: 1086738
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Error message 'Digest verification failed' during installation
 - component: Other
   create_time: 20180324T15:20:00
