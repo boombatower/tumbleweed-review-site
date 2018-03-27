@@ -4755,8 +4755,8 @@
 - component: Basesystem
   create_time: 20180227T06:59:00
   id: 1082956
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: less on rpm packages does no longer show anything
 '20180301':
 - component: Basesystem
@@ -4837,7 +4837,7 @@
 - component: Kernel
   create_time: 20180303T20:10:00
   id: 1083850
-  resolution: WORKSFORME
+  resolution: FIXED
   status: RESOLVED
   summary: something is wrong with rpm/mkspec - not all archs are built
 - component: Installation
@@ -5227,8 +5227,8 @@
 - component: X.Org
   create_time: 20180308T00:32:00
   id: 1084411
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: monitor remains disconnected and displays nothing in 2 nouveau card setup
 '20180309':
 - component: Basesystem
@@ -5298,7 +5298,7 @@
   create_time: 20180309T10:11:00
   id: 1084650
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 8: python-base is miscompiled'
 - component: Basesystem
   create_time: 20180309T10:06:00
@@ -5321,8 +5321,8 @@
 - component: Basesystem
   create_time: 20180309T10:06:00
   id: 1084646
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'GCC 8: gperftools build fails'
 - component: Basesystem
   create_time: 20180309T10:05:00
@@ -5399,14 +5399,14 @@
 - component: Basesystem
   create_time: 20180309T10:02:00
   id: 1084633
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: yp-tools build fails'
 - component: Basesystem
   create_time: 20180309T10:02:00
   id: 1084632
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 8: grub2 build fails'
 - component: Basesystem
   create_time: 20180309T10:01:00
@@ -5418,7 +5418,7 @@
   create_time: 20180309T10:01:00
   id: 1084630
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 8: libstoragemgmt build fails'
 - component: Upgrade Problems
   create_time: 20180309T09:59:00
@@ -5435,14 +5435,14 @@
 - component: Basesystem
   create_time: 20180309T09:37:00
   id: 1084622
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'GCC 8: mozilla-nss build fails'
 - component: Basesystem
   create_time: 20180309T09:35:00
   id: 1084621
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'GCC 8: spirv-tools build fails'
 - component: Basesystem
   create_time: 20180309T09:33:00
@@ -6000,11 +6000,11 @@
   status: NEW
   summary: 'Installation: Setting locale fails'
 '20180320':
-- component: Installation
+- component: Patterns
   create_time: 20180323T18:24:00
   id: 1086702
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Automate installation of codecs
 - component: YaST2
   create_time: 20180323T18:19:00
@@ -6165,6 +6165,67 @@
   status: IN_PROGRESS
   summary: 'openvswitch: Permission denied when starting the ovsdb-server service'
 '20180324':
+- component: Basesystem
+  create_time: 20180327T16:06:00
+  id: 1087136
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: llvm5 build fails'
+- component: Basesystem
+  create_time: 20180327T16:03:00
+  id: 1087135
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: rust build fails'
+- component: Other
+  create_time: 20180327T13:31:00
+  id: 1087090
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC, netcdf-fortran] Static library package pulls in the wrong devel
+    package'
+- component: Basesystem
+  create_time: 20180327T13:00:00
+  id: 1087075
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: texlive tests fail'
+- component: X11 Applications
+  create_time: 20180327T12:49:00
+  id: 1087073
+  resolution: ''
+  status: NEW
+  summary: zbar FTBFS with GCC8
+- component: Firefox
+  create_time: 20180327T12:46:00
+  id: 1087070
+  resolution: ''
+  status: NEW
+  summary: MozillaFirefox FTBFS with GCC8
+- component: KDE Applications
+  create_time: 20180327T12:43:00
+  id: 1087068
+  resolution: ''
+  status: NEW
+  summary: libqt5-qtwebengine FTBFS with GCC8
+- component: Basesystem
+  create_time: 20180327T12:42:00
+  id: 1087067
+  resolution: ''
+  status: NEW
+  summary: bin86 FTBFS with GCC8
+- component: Java
+  create_time: 20180327T12:41:00
+  id: 1087066
+  resolution: ''
+  status: NEW
+  summary: java-1_8_0-openjdk FTBFS with gcc8
+- component: X.Org
+  create_time: 20180327T12:11:00
+  id: 1087063
+  resolution: ''
+  status: CONFIRMED
+  summary: Tumbleweed did not boot on Thinkpad X60
 - component: Other
   create_time: 20180327T11:03:00
   id: 1087052
@@ -6174,8 +6235,8 @@
 - component: Other
   create_time: 20180327T10:39:00
   id: 1087050
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[HPC, petsc] No doc Package built'
 - component: Basesystem
   create_time: 20180326T23:41:00
