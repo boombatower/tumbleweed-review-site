@@ -6009,8 +6009,8 @@
 - component: YaST2
   create_time: 20180323T18:19:00
   id: 1086699
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Provide progress bar for Yast2 navigation
 - component: X.Org
   create_time: 20180323T13:28:00
@@ -6161,10 +6161,16 @@
 - component: Network
   create_time: 20180320T09:28:00
   id: 1085971
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'openvswitch: Permission denied when starting the ovsdb-server service'
 '20180324':
+- component: Installation
+  create_time: 20180328T08:40:00
+  id: 1087263
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180324] openQA test fails in php7_postgresql96'
 - component: Upgrade Problems
   create_time: 20180327T20:44:00
   id: 1087166
