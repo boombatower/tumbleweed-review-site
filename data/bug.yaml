@@ -6072,7 +6072,7 @@
   create_time: 20180322T11:14:00
   id: 1086447
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: clusterlvm support pulled by default
 - component: Development
   create_time: 20180322T11:00:00
