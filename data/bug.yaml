@@ -1097,8 +1097,8 @@
 - component: Samba
   create_time: 20171228T20:59:00
   id: 1074201
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: mpv amd mplayer requires samba 4.7.1, but version 4.7.3 is provided
 - component: Java
   create_time: 20171228T13:39:00
@@ -6165,6 +6165,12 @@
   status: IN_PROGRESS
   summary: 'openvswitch: Permission denied when starting the ovsdb-server service'
 '20180324':
+- component: Upgrade Problems
+  create_time: 20180327T20:44:00
+  id: 1087166
+  resolution: ''
+  status: NEW
+  summary: zypper refresh, file 'content' not found
 - component: Basesystem
   create_time: 20180327T16:06:00
   id: 1087136
@@ -6193,8 +6199,8 @@
 - component: X11 Applications
   create_time: 20180327T12:49:00
   id: 1087073
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: zbar FTBFS with GCC8
 - component: Firefox
   create_time: 20180327T12:46:00
