@@ -777,8 +777,8 @@
 - component: Kernel
   create_time: 20171219T22:23:00
   id: 1073579
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: obs memory constraints ineffective for 32 bit targets
 - component: Other
   create_time: 20171219T19:48:00
@@ -6059,8 +6059,8 @@
 - component: Basesystem
   create_time: 20180322T13:50:00
   id: 1086478
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'openssh: RAND_load_file("/dev/urandom") isn''t allowed in OpenSSL 1.1.1'
 - component: Basesystem
   create_time: 20180322T12:28:00
@@ -6155,8 +6155,8 @@
 - component: Apache
   create_time: 20180320T12:32:00
   id: 1085999
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: apache-commons-lang does not build on ppc
 - component: Network
   create_time: 20180320T09:28:00
@@ -6165,17 +6165,126 @@
   status: RESOLVED
   summary: 'openvswitch: Permission denied when starting the ovsdb-server service'
 '20180324':
+- component: Basesystem
+  create_time: 20180325T23:03:00
+  id: 1086763
+  resolution: FIXED
+  status: RESOLVED
+  summary: mozc fails to build on s390x (on all bigendian architetures)
+- component: Basesystem
+  create_time: 20180325T22:38:00
+  id: 1086762
+  resolution: FIXED
+  status: RESOLVED
+  summary: gperftools fails to build on aarch64
+- component: Bootloader
+  create_time: 20180325T16:18:00
+  id: 1086757
+  resolution: ''
+  status: NEW
+  summary: Images for Raspberry Pi 1/2/3 does not boot - only Splash Screen Rainbow
+- component: LibreOffice
+  create_time: 20180325T15:12:00
+  id: 1086755
+  resolution: ''
+  status: NEW
+  summary: 'LibreOffice Calc: Copy only works every other time.'
+- component: Kubic
+  create_time: 20180325T15:08:00
+  id: 1086754
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Disk capacity check before Kubic Installation
+- component: KDE Applications
+  create_time: 20180325T11:23:00
+  id: 1086751
+  resolution: ''
+  status: NEW
+  summary: KDE:Extra krita crashes because of Qt bug
+- component: Kubic
+  create_time: 20180325T11:08:00
+  id: 1086750
+  resolution: ''
+  status: NEW
+  summary: '''openSUSE Leap 13.3'' welcome-message on F1 help'
+- component: Kubic
+  create_time: 20180325T10:58:00
+  id: 1086749
+  resolution: ''
+  status: NEW
+  summary: Language layout switching is one step late
+- component: YaST2
+  create_time: 20180324T23:33:00
+  id: 1086741
+  resolution: ''
+  status: NEW
+  summary: YaST2-Qt sw_single's padding causes lack of menubar continuity
+- component: YaST2
+  create_time: 20180324T23:23:00
+  id: 1086740
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Status of loading in YaST2-Qt should be themable
+- component: Kernel
+  create_time: 20180324T23:17:00
+  id: 1086739
+  resolution: ''
+  status: NEW
+  summary: 'Kernel panic booting install DVD(s): kernel BUG at ../kernel/resource.c:722'
+- component: Installation
+  create_time: 20180324T23:06:00
+  id: 1086738
+  resolution: FIXED
+  status: RESOLVED
+  summary: Error message 'Digest verification failed' during installation
+- component: Other
+  create_time: 20180324T15:20:00
+  id: 1086732
+  resolution: ''
+  status: NEW
+  summary: fwupd coring
+- component: Basesystem
+  create_time: 20180324T11:29:00
+  id: 1086731
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'bluez: Segfault in btd_adv_manager_refresh, bluetooth service fails'
+'20180326':
+- component: Network
+  create_time: 20180328T16:39:00
+  id: 1087339
+  resolution: ''
+  status: NEW
+  summary: kwallet takes too long to ask for password (NetworkManager?)
+- component: Kubic
+  create_time: 20180328T15:49:00
+  id: 1087331
+  resolution: ''
+  status: NEW
+  summary: '[cloud-init] ''apply_network_config is not currently implemented'' message'
+- component: Basesystem
+  create_time: 20180328T14:13:00
+  id: 1087316
+  resolution: ''
+  status: NEW
+  summary: '[automake1.16] libtool fails to build'
+- component: Other
+  create_time: 20180328T13:12:00
+  id: 1087307
+  resolution: ''
+  status: NEW
+  summary: MongoDB is unable to start on openSUSE Tumbleweed for ARM
 - component: Installation
   create_time: 20180328T08:40:00
   id: 1087263
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180324] openQA test fails in php7_postgresql96'
 - component: Upgrade Problems
   create_time: 20180327T20:44:00
   id: 1087166
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: zypper refresh, file 'content' not found
 - component: Basesystem
   create_time: 20180327T16:06:00
@@ -6237,7 +6346,7 @@
   id: 1087063
   resolution: ''
   status: CONFIRMED
-  summary: Tumbleweed did not boot on Thinkpad X60
+  summary: 'intel [Gen3]: xf86-video-intel not installed by default on <= Gen3'
 - component: Other
   create_time: 20180327T11:03:00
   id: 1087052
@@ -6280,93 +6389,15 @@
   resolution: ''
   status: NEW
   summary: fonts-config warns about ninitialized HOME in posttrans
+- component: GNOME
+  create_time: 20180326T06:55:00
+  id: 1086789
+  resolution: ''
+  status: NEW
+  summary: 'YaST:Head/yast2: ignores scaling configuration'
 - component: libzypp
   create_time: 20180326T06:26:00
   id: 1086783
   resolution: ''
   status: NEW
   summary: libsolv-tools uninstall attempted by zypper dup
-- component: Basesystem
-  create_time: 20180325T23:03:00
-  id: 1086763
-  resolution: FIXED
-  status: RESOLVED
-  summary: mozc fails to build on s390x (on all bigendian architetures)
-- component: Basesystem
-  create_time: 20180325T22:38:00
-  id: 1086762
-  resolution: FIXED
-  status: RESOLVED
-  summary: gperftools fails to build on aarch64
-- component: Bootloader
-  create_time: 20180325T16:18:00
-  id: 1086757
-  resolution: ''
-  status: NEW
-  summary: Images for Raspberry Pi 1/2/3 does not boot - only Splash Screen Rainbow
-- component: LibreOffice
-  create_time: 20180325T15:12:00
-  id: 1086755
-  resolution: ''
-  status: NEW
-  summary: 'LibreOffice Calc: Copy only works every other time.'
-- component: Kubic
-  create_time: 20180325T15:08:00
-  id: 1086754
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Disk capacity check before Kubic Installation
-- component: KDE Applications
-  create_time: 20180325T11:23:00
-  id: 1086751
-  resolution: ''
-  status: NEW
-  summary: KDE:Extra krita crashes because of Qt bug
-- component: Kubic
-  create_time: 20180325T11:08:00
-  id: 1086750
-  resolution: ''
-  status: NEW
-  summary: '''openSUSE Leap 13.3'' welcome-message on F1 help'
-- component: Kubic
-  create_time: 20180325T10:58:00
-  id: 1086749
-  resolution: ''
-  status: NEW
-  summary: Language layout switching is one step late
-- component: YaST2
-  create_time: 20180324T23:33:00
-  id: 1086741
-  resolution: ''
-  status: NEW
-  summary: YaST2-Qt sw_single's padding causes lack of menubar continuity
-- component: YaST2
-  create_time: 20180324T23:23:00
-  id: 1086740
-  resolution: ''
-  status: NEW
-  summary: Status of loading in YaST2-Qt should be themable
-- component: Kernel
-  create_time: 20180324T23:17:00
-  id: 1086739
-  resolution: ''
-  status: NEW
-  summary: 'Kernel panic booting install DVD(s): kernel BUG at ../kernel/resource.c:722'
-- component: Installation
-  create_time: 20180324T23:06:00
-  id: 1086738
-  resolution: FIXED
-  status: RESOLVED
-  summary: Error message 'Digest verification failed' during installation
-- component: Other
-  create_time: 20180324T15:20:00
-  id: 1086732
-  resolution: ''
-  status: NEW
-  summary: fwupd coring
-- component: Basesystem
-  create_time: 20180324T11:29:00
-  id: 1086731
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'bluez: Segfault in btd_adv_manager_refresh, bluetooth service fails'
