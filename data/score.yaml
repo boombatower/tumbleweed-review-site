@@ -230,10 +230,10 @@
   score: 96
   stability_level: stable
 '20180313':
-  score: 89
+  score: 88
   stability_level: moderate
 '20180314':
-  score: 80
+  score: 79
   stability_level: moderate
 '20180316':
   score: 89
@@ -245,8 +245,11 @@
   score: 96
   stability_level: stable
 '20180320':
-  score: 93
-  stability_level: pending
+  score: 80
+  stability_level: moderate
 '20180324':
-  score: 95
+  score: 87
+  stability_level: pending
+'20180326':
+  score: 87
   stability_level: pending
