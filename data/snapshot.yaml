@@ -1241,13 +1241,6 @@
   binary_unique_count: 2462
   disk_base: 1.5G
   disk_shared: 18G
-'20180320':
-  binary_count: 0
-  binary_interest: {}
-  binary_interest_changed: []
-  binary_unique_count: 0
-  disk_base: 70G
-  disk_shared: 4.0K
 '20180324':
   binary_count: 0
   binary_interest: {}
