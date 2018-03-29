@@ -4891,8 +4891,8 @@
 - component: Basesystem
   create_time: 20180303T12:55:00
   id: 1083834
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'unar: unrar wrapper breaks Ark'
 - component: Development
   create_time: 20180303T11:58:00
@@ -5254,7 +5254,7 @@
   create_time: 20180309T21:29:00
   id: 1084767
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 3D & games produce periodic GPU crashes (Radeon R7 370)
 - component: Containers
   create_time: 20180309T21:26:00
@@ -5796,7 +5796,7 @@
   create_time: 20180316T20:35:00
   id: 1085728
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'xtables-addons: missing symbols'
 - component: Sound
   create_time: 20180316T17:47:00
@@ -6250,13 +6250,32 @@
   status: IN_PROGRESS
   summary: 'bluez: Segfault in btd_adv_manager_refresh, bluetooth service fails'
 '20180326':
+- component: Development
+  create_time: 20180329T10:48:00
+  id: 1087430
+  resolution: ''
+  status: NEW
+  summary: brp-compress gives errors when it finds gzip compressed files with special
+    characters in man dir
+- component: Installation
+  create_time: 20180329T08:12:00
+  id: 1087399
+  resolution: ''
+  status: NEW
+  summary: White-on-White on system_role screen
+- component: Kubic
+  create_time: 20180329T07:21:00
+  id: 1087392
+  resolution: ''
+  status: IN_PROGRESS
+  summary: New-intallation-flow - crash on installation proposal
 - component: YaST2
   create_time: 20180328T18:21:00
   id: 1087352
   resolution: ''
   status: NEW
   summary: yast2-packager.desktop fails when clicked in the programs menu
-- component: Network
+- component: GNOME
   create_time: 20180328T16:39:00
   id: 1087339
   resolution: ''
@@ -6278,7 +6297,7 @@
   create_time: 20180328T13:12:00
   id: 1087307
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: MongoDB is unable to start on openSUSE Tumbleweed for ARM
 - component: Installation
   create_time: 20180328T08:40:00
@@ -6296,7 +6315,7 @@
   create_time: 20180327T16:06:00
   id: 1087136
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 8: llvm5 build fails'
 - component: Basesystem
   create_time: 20180327T16:03:00
