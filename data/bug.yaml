@@ -6250,6 +6250,12 @@
   status: IN_PROGRESS
   summary: 'bluez: Segfault in btd_adv_manager_refresh, bluetooth service fails'
 '20180326':
+- component: YaST2
+  create_time: 20180328T18:21:00
+  id: 1087352
+  resolution: ''
+  status: NEW
+  summary: yast2-packager.desktop fails when clicked in the programs menu
 - component: Network
   create_time: 20180328T16:39:00
   id: 1087339
