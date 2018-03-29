@@ -5690,7 +5690,7 @@
   create_time: 20180314T10:31:00
   id: 1085266
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Data lost in /root when rolling back
 - component: Network
   create_time: 20180314T09:50:00
@@ -6250,11 +6250,23 @@
   status: IN_PROGRESS
   summary: 'bluez: Segfault in btd_adv_manager_refresh, bluetooth service fails'
 '20180326':
+- component: Other
+  create_time: 20180329T16:53:00
+  id: 1087507
+  resolution: ''
+  status: NEW
+  summary: gtk3-branding-openSUSE discards admin/systemwide changes to /etc/gtk-3.0/settings.ini
+- component: YaST2
+  create_time: 20180329T15:24:00
+  id: 1087486
+  resolution: ''
+  status: NEW
+  summary: '[storage-ng] Various storage NG related control.xml parameters not working'
 - component: Kubic
   create_time: 20180329T12:24:00
   id: 1087449
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Transactional Server Role in Leap 15/TW - Allows installation on disks
     under 16GB
 - component: Development
