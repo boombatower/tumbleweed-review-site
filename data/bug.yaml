@@ -6250,6 +6250,13 @@
   status: IN_PROGRESS
   summary: 'bluez: Segfault in btd_adv_manager_refresh, bluetooth service fails'
 '20180326':
+- component: Kubic
+  create_time: 20180329T12:24:00
+  id: 1087449
+  resolution: ''
+  status: NEW
+  summary: Transactional Server Role in Leap 15/TW - Allows installation on disks
+    under 16GB
 - component: Development
   create_time: 20180329T10:48:00
   id: 1087430
