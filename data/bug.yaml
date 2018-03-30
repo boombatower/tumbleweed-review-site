@@ -3840,7 +3840,7 @@
   create_time: 20180213T12:24:00
   id: 1080795
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20180212] openQA test fails in yast2_ftp'
 - component: Basesystem
   create_time: 20180213T12:02:00
@@ -6250,6 +6250,13 @@
   status: IN_PROGRESS
   summary: 'bluez: Segfault in btd_adv_manager_refresh, bluetooth service fails'
 '20180326':
+- component: X.Org
+  create_time: 20180330T03:13:00
+  id: 1087558
+  resolution: ''
+  status: NEW
+  summary: enlightenment deskop got thousands of errors in .xsession-errors while
+    move the windows of gtk
 - component: YaST2
   create_time: 20180330T00:48:00
   id: 1087555
