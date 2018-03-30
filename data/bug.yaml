@@ -6246,8 +6246,8 @@
 - component: Basesystem
   create_time: 20180324T11:29:00
   id: 1086731
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'bluez: Segfault in btd_adv_manager_refresh, bluetooth service fails'
 '20180326':
 - component: Kernel
