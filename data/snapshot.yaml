@@ -1295,6 +1295,6 @@
   - xf86-video-intel
   - xf86-video-nouveau
   - xorg-x11-server
-  binary_unique_count: 2462
-  disk_base: 1.5G
-  disk_shared: 18G
+  binary_unique_count: 57768
+  disk_base: 834M
+  disk_shared: 69G
