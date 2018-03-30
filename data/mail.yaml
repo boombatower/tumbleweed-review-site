@@ -596,11 +596,11 @@
   threads: []
 '20180320':
   announcement: 2018-03.580
-  reference_count: 22
+  reference_count: 25
   thread_count: 1
   threads:
   - messages: [2018-03.589, 2018-03.673, 2018-03.680]
-    reference_count: 22
+    reference_count: 25
     summary: no summary given
 '20180324':
   announcement: 2018-03.616
