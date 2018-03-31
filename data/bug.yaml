@@ -1895,8 +1895,8 @@
 - component: Basesystem
   create_time: 20180116T08:03:00
   id: 1076134
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: blueberry requires /usr/sbin/rfkill
 '20180117':
 - component: Other
@@ -6162,7 +6162,7 @@
   create_time: 20180320T09:28:00
   id: 1085971
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: 'openvswitch: Permission denied when starting the ovsdb-server service'
 '20180324':
 - component: Basesystem
@@ -6250,6 +6250,18 @@
   status: RESOLVED
   summary: 'bluez: Segfault in btd_adv_manager_refresh, bluetooth service fails'
 '20180326':
+- component: YaST2
+  create_time: 20180331T11:29:00
+  id: 1087702
+  resolution: ''
+  status: NEW
+  summary: 'YaST2 partitioner crashes - undefined method ''stripes_size'' for #<Y2Storage::LVMLv:0x0...'
+- component: Kubic
+  create_time: 20180331T09:01:00
+  id: 1087699
+  resolution: ''
+  status: NEW
+  summary: Velum Branding
 - component: Sound
   create_time: 20180331T05:46:00
   id: 1087695
