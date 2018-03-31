@@ -6250,6 +6250,12 @@
   status: RESOLVED
   summary: 'bluez: Segfault in btd_adv_manager_refresh, bluetooth service fails'
 '20180326':
+- component: Sound
+  create_time: 20180331T05:46:00
+  id: 1087695
+  resolution: ''
+  status: NEW
+  summary: fresh install of openSUSE Snapshot20180326 did not play music and sounds
 - component: KDE Workspace (Plasma)
   create_time: 20180331T00:46:00
   id: 1087693
