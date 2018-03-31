@@ -1882,8 +1882,8 @@
 - component: YaST2
   create_time: 20180116T11:18:00
   id: 1076173
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: fakebug
 - component: Development
   create_time: 20180116T09:15:00
@@ -4395,8 +4395,8 @@
 - component: Kubic
   create_time: 20180221T11:42:00
   id: 1081992
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Can no longer define btrfs subvolumes at installation
 - component: Basesystem
   create_time: 20180221T09:15:00
@@ -5136,14 +5136,14 @@
 - component: Kubic
   create_time: 20180307T16:13:00
   id: 1084344
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Containers] openldap container unable to execute /usr/lib/openldap/slapd'
 - component: Kubic
   create_time: 20180307T16:10:00
   id: 1084343
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Containers] bundle not found'
 - component: Other
   create_time: 20180307T15:26:00
@@ -5209,8 +5209,8 @@
 - component: Kubic
   create_time: 20180308T09:50:00
   id: 1084466
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Implement Multi-Stage Kubic Installation Workflow
 - component: Kernel
   create_time: 20180308T08:41:00
@@ -6204,14 +6204,14 @@
 - component: Kubic
   create_time: 20180325T11:08:00
   id: 1086750
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '''openSUSE Leap 13.3'' welcome-message on F1 help'
 - component: Kubic
   create_time: 20180325T10:58:00
   id: 1086749
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Language layout switching is one step late
 - component: YaST2
   create_time: 20180324T23:33:00
@@ -6250,6 +6250,25 @@
   status: RESOLVED
   summary: 'bluez: Segfault in btd_adv_manager_refresh, bluetooth service fails'
 '20180326':
+- component: KDE Workspace (Plasma)
+  create_time: 20180331T00:46:00
+  id: 1087693
+  resolution: ''
+  status: NEW
+  summary: poor login behavior/interaction with software updates *and* network manager
+    in KDE
+- component: KDE Applications
+  create_time: 20180331T00:02:00
+  id: 1087691
+  resolution: ''
+  status: NEW
+  summary: weird behavior in konsole with remapped key
+- component: Kubic
+  create_time: 20180330T20:43:00
+  id: 1087685
+  resolution: ''
+  status: NEW
+  summary: Kubic's New-installation-flow; yast2-caasp specific functionality missing
 - component: Kernel
   create_time: 20180330T13:21:00
   id: 1087635
@@ -6311,8 +6330,8 @@
 - component: Kubic
   create_time: 20180329T07:21:00
   id: 1087392
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: New-intallation-flow - crash on installation proposal
 - component: YaST2
   create_time: 20180328T18:21:00
