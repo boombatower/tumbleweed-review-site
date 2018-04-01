@@ -6446,12 +6446,13 @@
   status: NEW
   summary: libsolv-tools uninstall attempted by zypper dup
 '20180330':
-- component: Security
-  create_time: 20180401T08:05:00
-  id: 1087714
+- component: Kubic
+  create_time: 20180401T11:30:00
+  id: 1087715
   resolution: ''
   status: NEW
-  summary: 'AUDIT-0: Renamed DBus files in kalarm (suse-dbus-unauthorized-service)'
+  summary: '''cloud-init status'' returns backtrace with  ''UnboundLocalError: local
+    variable ''reason'' referenced before assignment'''
 - component: Other
   create_time: 20180401T01:43:00
   id: 1087710
