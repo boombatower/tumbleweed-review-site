@@ -6251,75 +6251,6 @@
   summary: 'bluez: Segfault in btd_adv_manager_refresh, bluetooth service fails'
 '20180326':
 - component: Other
-  create_time: 20180401T01:43:00
-  id: 1087710
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180330] openQA test fails in btrfs_autocompletion'
-- component: YaST2
-  create_time: 20180331T11:29:00
-  id: 1087702
-  resolution: ''
-  status: NEW
-  summary: 'YaST2 partitioner crashes - undefined method ''stripes_size'' for #<Y2Storage::LVMLv:0x0...'
-- component: Kubic
-  create_time: 20180331T09:01:00
-  id: 1087699
-  resolution: ''
-  status: NEW
-  summary: Velum Branding
-- component: Sound
-  create_time: 20180331T05:46:00
-  id: 1087695
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: fresh install of openSUSE Snapshot20180326 did not play music and sounds
-- component: KDE Workspace (Plasma)
-  create_time: 20180331T00:46:00
-  id: 1087693
-  resolution: ''
-  status: NEW
-  summary: poor login behavior/interaction with software updates *and* network manager
-    in KDE
-- component: KDE Applications
-  create_time: 20180331T00:02:00
-  id: 1087691
-  resolution: ''
-  status: NEW
-  summary: weird behavior in konsole with remapped key
-- component: Kubic
-  create_time: 20180330T20:43:00
-  id: 1087685
-  resolution: ''
-  status: NEW
-  summary: Kubic's New-installation-flow; yast2-caasp specific functionality missing
-- component: Kernel
-  create_time: 20180330T13:21:00
-  id: 1087635
-  resolution: ''
-  status: NEW
-  summary: r8152 livelocks during pm_runtime_suspend
-- component: KDE Workspace (Plasma)
-  create_time: 20180330T11:37:00
-  id: 1087613
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20180329] openQA test fails in start_wayland_plasma5'
-- component: X11 Applications
-  create_time: 20180330T03:13:00
-  id: 1087558
-  resolution: ''
-  status: NEW
-  summary: enlightenment deskop got thousands of errors in .xsession-errors while
-    move the windows of gtk
-- component: YaST2
-  create_time: 20180330T00:48:00
-  id: 1087555
-  resolution: ''
-  status: NEW
-  summary: Configuring keyboard using Yast2 for German Keyboard with nodeadkeys survive
-    a reboot
-- component: Other
   create_time: 20180329T16:53:00
   id: 1087507
   resolution: ''
@@ -6514,3 +6445,79 @@
   resolution: ''
   status: NEW
   summary: libsolv-tools uninstall attempted by zypper dup
+'20180330':
+- component: Security
+  create_time: 20180401T08:05:00
+  id: 1087714
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: Renamed DBus files in kalarm (suse-dbus-unauthorized-service)'
+- component: Other
+  create_time: 20180401T01:43:00
+  id: 1087710
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180330] openQA test fails in btrfs_autocompletion'
+- component: YaST2
+  create_time: 20180331T11:29:00
+  id: 1087702
+  resolution: ''
+  status: NEW
+  summary: 'YaST2 partitioner crashes - undefined method ''stripes_size'' for #<Y2Storage::LVMLv:0x0...'
+- component: Kubic
+  create_time: 20180331T09:01:00
+  id: 1087699
+  resolution: ''
+  status: NEW
+  summary: Velum Branding
+- component: Sound
+  create_time: 20180331T05:46:00
+  id: 1087695
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: fresh install of openSUSE Snapshot20180326 did not play music and sounds
+- component: KDE Workspace (Plasma)
+  create_time: 20180331T00:46:00
+  id: 1087693
+  resolution: ''
+  status: NEW
+  summary: poor login behavior/interaction with software updates *and* network manager
+    in KDE
+- component: KDE Applications
+  create_time: 20180331T00:02:00
+  id: 1087691
+  resolution: ''
+  status: NEW
+  summary: weird behavior in konsole with remapped key
+- component: Kubic
+  create_time: 20180330T20:43:00
+  id: 1087685
+  resolution: ''
+  status: NEW
+  summary: Kubic's New-installation-flow; yast2-caasp specific functionality missing
+- component: Kernel
+  create_time: 20180330T13:21:00
+  id: 1087635
+  resolution: ''
+  status: NEW
+  summary: r8152 livelocks during pm_runtime_suspend
+- component: KDE Workspace (Plasma)
+  create_time: 20180330T11:37:00
+  id: 1087613
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20180329] openQA test fails in start_wayland_plasma5'
+- component: X11 Applications
+  create_time: 20180330T03:13:00
+  id: 1087558
+  resolution: ''
+  status: NEW
+  summary: enlightenment deskop got thousands of errors in .xsession-errors while
+    move the windows of gtk
+- component: YaST2
+  create_time: 20180330T00:48:00
+  id: 1087555
+  resolution: ''
+  status: NEW
+  summary: Configuring keyboard using Yast2 for German Keyboard with nodeadkeys survive
+    a reboot
