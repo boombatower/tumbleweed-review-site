@@ -6447,6 +6447,12 @@
   summary: libsolv-tools uninstall attempted by zypper dup
 '20180330':
 - component: Kubic
+  create_time: 20180401T16:36:00
+  id: 1087721
+  resolution: ''
+  status: NEW
+  summary: Patterns not showing in software selection during installation
+- component: Kubic
   create_time: 20180401T11:30:00
   id: 1087715
   resolution: ''
