@@ -6447,6 +6447,45 @@
   summary: libsolv-tools uninstall attempted by zypper dup
 '20180330':
 - component: Kubic
+  create_time: 20180330T20:43:00
+  id: 1087685
+  resolution: ''
+  status: NEW
+  summary: Kubic's New-installation-flow; yast2-caasp specific functionality missing
+- component: Kernel
+  create_time: 20180330T13:21:00
+  id: 1087635
+  resolution: ''
+  status: NEW
+  summary: r8152 livelocks during pm_runtime_suspend
+- component: KDE Workspace (Plasma)
+  create_time: 20180330T11:37:00
+  id: 1087613
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20180329] openQA test fails in start_wayland_plasma5'
+- component: X11 Applications
+  create_time: 20180330T03:13:00
+  id: 1087558
+  resolution: ''
+  status: NEW
+  summary: enlightenment deskop got thousands of errors in .xsession-errors while
+    move the windows of gtk
+- component: YaST2
+  create_time: 20180330T00:48:00
+  id: 1087555
+  resolution: ''
+  status: NEW
+  summary: Configuring keyboard using Yast2 for German Keyboard with nodeadkeys survive
+    a reboot
+'20180331':
+- component: Other
+  create_time: 20180401T22:23:00
+  id: 1087725
+  resolution: ''
+  status: NEW
+  summary: Possible Issues on Resuming from Suspend or Hibernate
+- component: Kubic
   create_time: 20180401T16:36:00
   id: 1087721
   resolution: ''
@@ -6496,35 +6535,3 @@
   resolution: ''
   status: NEW
   summary: weird behavior in konsole with remapped key
-- component: Kubic
-  create_time: 20180330T20:43:00
-  id: 1087685
-  resolution: ''
-  status: NEW
-  summary: Kubic's New-installation-flow; yast2-caasp specific functionality missing
-- component: Kernel
-  create_time: 20180330T13:21:00
-  id: 1087635
-  resolution: ''
-  status: NEW
-  summary: r8152 livelocks during pm_runtime_suspend
-- component: KDE Workspace (Plasma)
-  create_time: 20180330T11:37:00
-  id: 1087613
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20180329] openQA test fails in start_wayland_plasma5'
-- component: X11 Applications
-  create_time: 20180330T03:13:00
-  id: 1087558
-  resolution: ''
-  status: NEW
-  summary: enlightenment deskop got thousands of errors in .xsession-errors while
-    move the windows of gtk
-- component: YaST2
-  create_time: 20180330T00:48:00
-  id: 1087555
-  resolution: ''
-  status: NEW
-  summary: Configuring keyboard using Yast2 for German Keyboard with nodeadkeys survive
-    a reboot
