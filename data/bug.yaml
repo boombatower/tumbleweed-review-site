@@ -6479,6 +6479,13 @@
   summary: Configuring keyboard using Yast2 for German Keyboard with nodeadkeys survive
     a reboot
 '20180331':
+- component: AppArmor
+  create_time: 20180402T12:42:00
+  id: 1087753
+  resolution: ''
+  status: NEW
+  summary: 'Dovecot fails to start, complaining "Can''t open log file /var/log/dovecot.log:
+    Permission denied"'
 - component: Other
   create_time: 20180401T22:23:00
   id: 1087725
