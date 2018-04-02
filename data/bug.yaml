@@ -3188,8 +3188,8 @@
 - component: X.Org
   create_time: 20180206T10:57:00
   id: 1079547
-  resolution: ''
-  status: CONFIRMED
+  resolution: INVALID
+  status: RESOLVED
   summary: 'amdgpu/Polaris11: Wrong low resolution after running xrandr or switching
     off/on monitor'
 - component: Basesystem
@@ -6479,6 +6479,19 @@
   summary: Configuring keyboard using Yast2 for German Keyboard with nodeadkeys survive
     a reboot
 '20180331':
+- component: Installation
+  create_time: 20180402T15:25:00
+  id: 1087763
+  resolution: ''
+  status: NEW
+  summary: Installer doesn't create @ volumes when not using suggested partitioning
+    schem
+- component: Development
+  create_time: 20180402T14:23:00
+  id: 1087756
+  resolution: ''
+  status: NEW
+  summary: libzip-devel-1.5.0-1.1
 - component: AppArmor
   create_time: 20180402T12:42:00
   id: 1087753
@@ -6501,8 +6514,8 @@
 - component: Kubic
   create_time: 20180401T11:30:00
   id: 1087715
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '''cloud-init status'' returns backtrace with  ''UnboundLocalError: local
     variable ''reason'' referenced before assignment'''
 - component: Other
