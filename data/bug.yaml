@@ -5075,8 +5075,8 @@
 - component: Network
   create_time: 20180306T17:42:00
   id: 1084177
-  resolution: ''
-  status: CONFIRMED
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: SuSEfirewall2 and firewalld conflicting each other
 - component: Kubic
   create_time: 20180306T15:51:00
@@ -5695,8 +5695,8 @@
 - component: Network
   create_time: 20180314T09:50:00
   id: 1085260
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: firewalld, SFW2 and conversion script
 - component: Other
   create_time: 20180314T09:40:00
@@ -6053,8 +6053,8 @@
 - component: Basesystem
   create_time: 20180322T14:13:00
   id: 1086486
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: INVALID
+  status: RESOLVED
   summary: systemd-mini should own /usr/lib/modules-load.d/
 - component: Basesystem
   create_time: 20180322T13:50:00
@@ -6260,7 +6260,7 @@
   create_time: 20180329T15:24:00
   id: 1087486
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[storage-ng] Various storage NG related control.xml parameters not working'
 - component: Kubic
   create_time: 20180329T12:24:00
@@ -6433,7 +6433,7 @@
   resolution: ''
   status: NEW
   summary: fonts-config warns about ninitialized HOME in posttrans
-- component: GNOME
+- component: YaST2
   create_time: 20180326T06:55:00
   id: 1086789
   resolution: ''
@@ -6482,8 +6482,8 @@
 - component: YaST2
   create_time: 20180331T11:29:00
   id: 1087702
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'YaST2 partitioner crashes - undefined method ''stripes_size'' for #<Y2Storage::LVMLv:0x0...'
 - component: Kubic
   create_time: 20180331T09:01:00
@@ -6511,17 +6511,48 @@
   status: NEW
   summary: weird behavior in konsole with remapped key
 '20180401':
+- component: X11 3rd Party Driver
+  create_time: 20180403T13:54:00
+  id: 1087903
+  resolution: ''
+  status: NEW
+  summary: Google Chrome and Chromium show empty (transparent) window with NVidia
+    drivers
+- component: YaST2
+  create_time: 20180403T12:40:00
+  id: 1087895
+  resolution: FEATURE
+  status: RESOLVED
+  summary: Yast2 NTP module want chrony
+- component: Containers
+  create_time: 20180403T12:02:00
+  id: 1087891
+  resolution: ''
+  status: NEW
+  summary: 'Velum: Unable to find any pending nodes'
+- component: Other
+  create_time: 20180403T10:17:00
+  id: 1087863
+  resolution: ''
+  status: NEW
+  summary: 7z fails to extract .rar archives
+- component: Bootloader
+  create_time: 20180403T09:00:00
+  id: 1087847
+  resolution: ''
+  status: NEW
+  summary: The staging certificate in shim conflicted with the same one in kernel-source
 - component: Installation
   create_time: 20180403T06:42:00
   id: 1087829
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Installer continues despite digest verification failure
 - component: YaST2
   create_time: 20180403T06:35:00
   id: 1087826
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Wrong output in the CLI of yast2-nfs-client
 - component: High Availability
   create_time: 20180403T04:50:00
@@ -6535,7 +6566,7 @@
   resolution: ''
   status: NEW
   summary: Fully updated Tumbleweed image on Raspberry Pi2 halts regularly
-- component: Installation
+- component: Bootloader
   create_time: 20180402T21:26:00
   id: 1087791
   resolution: ''
@@ -6545,7 +6576,7 @@
   create_time: 20180402T15:25:00
   id: 1087763
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Installer doesn't create @ volumes when not using suggested partitioning
     schem
 - component: Development
@@ -6580,9 +6611,9 @@
   status: RESOLVED
   summary: '''cloud-init status'' returns backtrace with  ''UnboundLocalError: local
     variable ''reason'' referenced before assignment'''
-- component: Other
+- component: Patterns
   create_time: 20180401T01:43:00
   id: 1087710
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20180330] openQA test fails in btrfs_autocompletion'
