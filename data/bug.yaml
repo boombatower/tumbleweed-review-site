@@ -5405,8 +5405,8 @@
 - component: Basesystem
   create_time: 20180309T10:02:00
   id: 1084632
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: grub2 build fails'
 - component: Basesystem
   create_time: 20180309T10:01:00
@@ -6511,6 +6511,24 @@
   status: NEW
   summary: weird behavior in konsole with remapped key
 '20180401':
+- component: Installation
+  create_time: 20180403T06:42:00
+  id: 1087829
+  resolution: ''
+  status: NEW
+  summary: Installer continues despite digest verification failure
+- component: YaST2
+  create_time: 20180403T06:35:00
+  id: 1087826
+  resolution: ''
+  status: CONFIRMED
+  summary: Wrong output in the CLI of yast2-nfs-client
+- component: High Availability
+  create_time: 20180403T04:50:00
+  id: 1087809
+  resolution: ''
+  status: NEW
+  summary: crm shell / hawk, can now create iSCSITarget, backend command not called.
 - component: Basesystem
   create_time: 20180402T21:50:00
   id: 1087796
