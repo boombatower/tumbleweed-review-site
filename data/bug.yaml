@@ -5357,8 +5357,8 @@
 - component: Basesystem
   create_time: 20180309T10:04:00
   id: 1084640
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: open-iscsi build fails'
 - component: X.Org
   create_time: 20180309T10:04:00
@@ -6511,11 +6511,29 @@
   status: NEW
   summary: weird behavior in konsole with remapped key
 '20180401':
+- component: Development
+  create_time: 20180403T19:24:00
+  id: 1087961
+  resolution: ''
+  status: NEW
+  summary: ocaml-obuild does not build reproducibly
+- component: Other
+  create_time: 20180403T15:50:00
+  id: 1087925
+  resolution: ''
+  status: NEW
+  summary: sddm-helper not working with NIS enabled
+- component: Basesystem
+  create_time: 20180403T15:43:00
+  id: 1087924
+  resolution: ''
+  status: NEW
+  summary: 'file: -L,-h options in usage output missing newline'
 - component: X11 3rd Party Driver
   create_time: 20180403T13:54:00
   id: 1087903
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Google Chrome and Chromium show empty (transparent) window with NVidia
     drivers
 - component: YaST2
