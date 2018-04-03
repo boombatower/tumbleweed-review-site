@@ -5358,7 +5358,7 @@
   create_time: 20180309T10:04:00
   id: 1084640
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: 'GCC 8: open-iscsi build fails'
 - component: X.Org
   create_time: 20180309T10:04:00
@@ -6479,6 +6479,50 @@
   summary: Configuring keyboard using Yast2 for German Keyboard with nodeadkeys survive
     a reboot
 '20180331':
+- component: YaST2
+  create_time: 20180331T11:29:00
+  id: 1087702
+  resolution: ''
+  status: NEW
+  summary: 'YaST2 partitioner crashes - undefined method ''stripes_size'' for #<Y2Storage::LVMLv:0x0...'
+- component: Kubic
+  create_time: 20180331T09:01:00
+  id: 1087699
+  resolution: ''
+  status: NEW
+  summary: Velum Branding
+- component: Sound
+  create_time: 20180331T05:46:00
+  id: 1087695
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: fresh install of openSUSE Snapshot20180326 did not play music and sounds
+- component: KDE Workspace (Plasma)
+  create_time: 20180331T00:46:00
+  id: 1087693
+  resolution: ''
+  status: NEW
+  summary: poor login behavior/interaction with software updates *and* network manager
+    in KDE
+- component: KDE Applications
+  create_time: 20180331T00:02:00
+  id: 1087691
+  resolution: ''
+  status: NEW
+  summary: weird behavior in konsole with remapped key
+'20180401':
+- component: Basesystem
+  create_time: 20180402T21:50:00
+  id: 1087796
+  resolution: ''
+  status: NEW
+  summary: Fully updated Tumbleweed image on Raspberry Pi2 halts regularly
+- component: Installation
+  create_time: 20180402T21:26:00
+  id: 1087791
+  resolution: ''
+  status: NEW
+  summary: Image ARM-JeOS-raspberrypi2.armv7l-2018.03.31-Build3.3 does not boot
 - component: Installation
   create_time: 20180402T15:25:00
   id: 1087763
@@ -6524,34 +6568,3 @@
   resolution: ''
   status: NEW
   summary: '[Build 20180330] openQA test fails in btrfs_autocompletion'
-- component: YaST2
-  create_time: 20180331T11:29:00
-  id: 1087702
-  resolution: ''
-  status: NEW
-  summary: 'YaST2 partitioner crashes - undefined method ''stripes_size'' for #<Y2Storage::LVMLv:0x0...'
-- component: Kubic
-  create_time: 20180331T09:01:00
-  id: 1087699
-  resolution: ''
-  status: NEW
-  summary: Velum Branding
-- component: Sound
-  create_time: 20180331T05:46:00
-  id: 1087695
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: fresh install of openSUSE Snapshot20180326 did not play music and sounds
-- component: KDE Workspace (Plasma)
-  create_time: 20180331T00:46:00
-  id: 1087693
-  resolution: ''
-  status: NEW
-  summary: poor login behavior/interaction with software updates *and* network manager
-    in KDE
-- component: KDE Applications
-  create_time: 20180331T00:02:00
-  id: 1087691
-  resolution: ''
-  status: NEW
-  summary: weird behavior in konsole with remapped key
