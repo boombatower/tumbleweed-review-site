@@ -617,11 +617,11 @@
   threads: []
 '20180330':
   announcement: 2018-04.0
-  reference_count: 9
+  reference_count: 10
   thread_count: 1
   threads:
   - messages: [2018-04.4]
-    reference_count: 9
+    reference_count: 10
     summary: systemd-coredump
 '20180331':
   announcement: 2018-04.15
@@ -630,9 +630,12 @@
   threads: []
 '20180401':
   announcement: 2018-04.42
-  reference_count: 1
-  thread_count: 1
+  reference_count: 2
+  thread_count: 2
   threads:
   - messages: [2018-04.74]
     reference_count: 1
     summary: unplanned suspends
+  - messages: [2018-04.109]
+    reference_count: 1
+    summary: extreme boot time - drm errors
