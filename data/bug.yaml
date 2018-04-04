@@ -2921,8 +2921,8 @@
 - component: YaST2
   create_time: 20180201T08:17:00
   id: 1078708
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: yast broken bootloader
 '20180202':
 - component: Basesystem
@@ -4675,8 +4675,8 @@
 - component: Basesystem
   create_time: 20180228T16:12:00
   id: 1083334
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'openSUSE-Tumbleweed-ARM-JeOS-efi.armv7l-2018.02.27: Failed first boot'
 - component: Kernel
   create_time: 20180228T10:06:00
@@ -6240,8 +6240,8 @@
 - component: Other
   create_time: 20180324T15:20:00
   id: 1086732
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: fwupd coring
 - component: Basesystem
   create_time: 20180324T11:29:00
@@ -6475,7 +6475,7 @@
   create_time: 20180330T00:48:00
   id: 1087555
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Configuring keyboard using Yast2 for German Keyboard with nodeadkeys survive
     a reboot
 '20180331':
@@ -6537,6 +6537,51 @@
   status: IN_PROGRESS
   summary: '[Build 20180330] openQA test fails in btrfs_autocompletion'
 '20180402':
+- component: Basesystem
+  create_time: 20180402T21:50:00
+  id: 1087796
+  resolution: ''
+  status: NEW
+  summary: Fully updated Tumbleweed image on Raspberry Pi2 halts regularly
+- component: Bootloader
+  create_time: 20180402T21:26:00
+  id: 1087791
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Image ARM-JeOS-raspberrypi2.armv7l-2018.03.31-Build3.3 does not boot
+- component: Installation
+  create_time: 20180402T15:25:00
+  id: 1087763
+  resolution: ''
+  status: CONFIRMED
+  summary: Installer doesn't create @ volumes when not using suggested partitioning
+    schem
+- component: Development
+  create_time: 20180402T14:23:00
+  id: 1087756
+  resolution: ''
+  status: NEW
+  summary: libzip-devel-1.5.0-1.1
+- component: AppArmor
+  create_time: 20180402T12:42:00
+  id: 1087753
+  resolution: ''
+  status: NEW
+  summary: 'Dovecot fails to start, complaining "Can''t open log file /var/log/dovecot.log:
+    Permission denied"'
+'20180403':
+- component: Kubic
+  create_time: 20180404T14:10:00
+  id: 1088114
+  resolution: ''
+  status: NEW
+  summary: Journal not persistent
+- component: Basesystem
+  create_time: 20180404T11:01:00
+  id: 1088057
+  resolution: FIXED
+  status: RESOLVED
+  summary: systemd-coredump - executable missing
 - component: GNOME
   create_time: 20180404T07:36:00
   id: 1088015
@@ -6622,35 +6667,3 @@
   resolution: ''
   status: NEW
   summary: crm shell / hawk, can now create iSCSITarget, backend command not called.
-- component: Basesystem
-  create_time: 20180402T21:50:00
-  id: 1087796
-  resolution: ''
-  status: NEW
-  summary: Fully updated Tumbleweed image on Raspberry Pi2 halts regularly
-- component: Bootloader
-  create_time: 20180402T21:26:00
-  id: 1087791
-  resolution: ''
-  status: NEW
-  summary: Image ARM-JeOS-raspberrypi2.armv7l-2018.03.31-Build3.3 does not boot
-- component: Installation
-  create_time: 20180402T15:25:00
-  id: 1087763
-  resolution: ''
-  status: CONFIRMED
-  summary: Installer doesn't create @ volumes when not using suggested partitioning
-    schem
-- component: Development
-  create_time: 20180402T14:23:00
-  id: 1087756
-  resolution: ''
-  status: NEW
-  summary: libzip-devel-1.5.0-1.1
-- component: AppArmor
-  create_time: 20180402T12:42:00
-  id: 1087753
-  resolution: ''
-  status: NEW
-  summary: 'Dovecot fails to start, complaining "Can''t open log file /var/log/dovecot.log:
-    Permission denied"'
