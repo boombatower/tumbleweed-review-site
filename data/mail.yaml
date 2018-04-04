@@ -639,3 +639,8 @@
   - messages: [2018-04.109]
     reference_count: 1
     summary: extreme boot time - drm errors
+'20180402':
+  announcement: 2018-04.137
+  reference_count: 0
+  thread_count: 0
+  threads: []
