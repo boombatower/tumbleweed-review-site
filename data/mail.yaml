@@ -644,3 +644,11 @@
   reference_count: 0
   thread_count: 0
   threads: []
+'20180403':
+  announcement: 2018-04.156
+  reference_count: 3
+  thread_count: 1
+  threads:
+  - messages: [2018-04.172]
+    reference_count: 3
+    summary: conflict for pangomm-devel
