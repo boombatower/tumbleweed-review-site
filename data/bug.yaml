@@ -6511,6 +6511,38 @@
   status: NEW
   summary: weird behavior in konsole with remapped key
 '20180401':
+- component: Other
+  create_time: 20180401T22:23:00
+  id: 1087725
+  resolution: ''
+  status: NEW
+  summary: Possible Issues on Resuming from Suspend or Hibernate
+- component: Kubic
+  create_time: 20180401T16:36:00
+  id: 1087721
+  resolution: ''
+  status: NEW
+  summary: Patterns not showing in software selection during installation
+- component: Kubic
+  create_time: 20180401T11:30:00
+  id: 1087715
+  resolution: FIXED
+  status: RESOLVED
+  summary: '''cloud-init status'' returns backtrace with  ''UnboundLocalError: local
+    variable ''reason'' referenced before assignment'''
+- component: Patterns
+  create_time: 20180401T01:43:00
+  id: 1087710
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build 20180330] openQA test fails in btrfs_autocompletion'
+'20180402':
+- component: Basesystem
+  create_time: 20180404T01:45:00
+  id: 1087996
+  resolution: ''
+  status: NEW
+  summary: Missing broadcom firmware BCM20702A1-0a5c-21e8.hcd for bluetooth adapter
 - component: Development
   create_time: 20180403T19:24:00
   id: 1087961
@@ -6610,28 +6642,3 @@
   status: NEW
   summary: 'Dovecot fails to start, complaining "Can''t open log file /var/log/dovecot.log:
     Permission denied"'
-- component: Other
-  create_time: 20180401T22:23:00
-  id: 1087725
-  resolution: ''
-  status: NEW
-  summary: Possible Issues on Resuming from Suspend or Hibernate
-- component: Kubic
-  create_time: 20180401T16:36:00
-  id: 1087721
-  resolution: ''
-  status: NEW
-  summary: Patterns not showing in software selection during installation
-- component: Kubic
-  create_time: 20180401T11:30:00
-  id: 1087715
-  resolution: FIXED
-  status: RESOLVED
-  summary: '''cloud-init status'' returns backtrace with  ''UnboundLocalError: local
-    variable ''reason'' referenced before assignment'''
-- component: Patterns
-  create_time: 20180401T01:43:00
-  id: 1087710
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[Build 20180330] openQA test fails in btrfs_autocompletion'
