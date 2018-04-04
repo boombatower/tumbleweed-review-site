@@ -6570,6 +6570,25 @@
   summary: 'Dovecot fails to start, complaining "Can''t open log file /var/log/dovecot.log:
     Permission denied"'
 '20180403':
+- component: KDE Workspace (Plasma)
+  create_time: 20180404T19:46:00
+  id: 1088177
+  resolution: ''
+  status: NEW
+  summary: Default Active Titlebar color on openSUSEdark and openSUSEdarkalternate
+    colorchemes
+- component: AppArmor
+  create_time: 20180404T18:22:00
+  id: 1088161
+  resolution: ''
+  status: NEW
+  summary: Can't use dovecot after upgrade due to missing/wrong apparmor profile
+- component: Kubic
+  create_time: 20180404T17:48:00
+  id: 1088155
+  resolution: ''
+  status: NEW
+  summary: 'Kubic: docker.service is inactive by default instead of CaaSP'
 - component: Kubic
   create_time: 20180404T14:10:00
   id: 1088114
@@ -6606,7 +6625,7 @@
   resolution: ''
   status: NEW
   summary: ocaml-obuild does not build reproducibly
-- component: Other
+- component: KDE Workspace (Plasma)
   create_time: 20180403T15:50:00
   id: 1087925
   resolution: ''
