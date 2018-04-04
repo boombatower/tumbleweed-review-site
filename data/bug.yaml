@@ -3753,8 +3753,8 @@
 - component: Development
   create_time: 20180212T17:00:00
   id: 1080640
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: ocaml-docs is non-free
 - component: Other
   create_time: 20180212T17:00:00
@@ -6149,8 +6149,8 @@
 - component: Basesystem
   create_time: 20180320T13:30:00
   id: 1086008
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: petsc fails to build on s390
 - component: Apache
   create_time: 20180320T12:32:00
@@ -6437,7 +6437,7 @@
   create_time: 20180326T06:55:00
   id: 1086789
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'YaST:Head/yast2: ignores scaling configuration'
 - component: libzypp
   create_time: 20180326T06:26:00
@@ -6537,6 +6537,18 @@
   status: IN_PROGRESS
   summary: '[Build 20180330] openQA test fails in btrfs_autocompletion'
 '20180402':
+- component: GNOME
+  create_time: 20180404T07:36:00
+  id: 1088015
+  resolution: FIXED
+  status: RESOLVED
+  summary: gtk-vnc does not work in Xwayland
+- component: X11 Applications
+  create_time: 20180404T06:24:00
+  id: 1088008
+  resolution: ''
+  status: NEW
+  summary: Request for license change, xrdp avahi patch written by Novell
 - component: Basesystem
   create_time: 20180404T01:45:00
   id: 1087996
