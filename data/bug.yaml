@@ -6180,8 +6180,8 @@
 - component: Bootloader
   create_time: 20180325T16:18:00
   id: 1086757
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Images for Raspberry Pi 1/2/3 does not boot - only Splash Screen Rainbow
 - component: LibreOffice
   create_time: 20180325T15:12:00
@@ -6304,7 +6304,7 @@
   create_time: 20180328T15:49:00
   id: 1087331
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[cloud-init] ''apply_network_config is not currently implemented'' message'
 - component: Basesystem
   create_time: 20180328T14:13:00
@@ -6570,6 +6570,12 @@
   summary: 'Dovecot fails to start, complaining "Can''t open log file /var/log/dovecot.log:
     Permission denied"'
 '20180403':
+- component: Kernel
+  create_time: 20180405T21:00:00
+  id: 1088382
+  resolution: ''
+  status: NEW
+  summary: Heavy performance loss since update mid-March
 - component: Kubic
   create_time: 20180405T15:27:00
   id: 1088319
@@ -6674,7 +6680,7 @@
   resolution: ''
   status: NEW
   summary: ocaml-obuild does not build reproducibly
-- component: KDE Workspace (Plasma)
+- component: Basesystem
   create_time: 20180403T15:50:00
   id: 1087925
   resolution: ''
