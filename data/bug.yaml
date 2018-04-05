@@ -6570,6 +6570,18 @@
   summary: 'Dovecot fails to start, complaining "Can''t open log file /var/log/dovecot.log:
     Permission denied"'
 '20180403':
+- component: Security
+  create_time: 20180405T02:05:00
+  id: 1088235
+  resolution: ''
+  status: NEW
+  summary: Wrong permissions on /usr/bin/crontab
+- component: Patterns
+  create_time: 20180404T23:32:00
+  id: 1088229
+  resolution: ''
+  status: NEW
+  summary: '"readonly_root_tools" pattern missing on Tumbleweed media'
 - component: KDE Workspace (Plasma)
   create_time: 20180404T19:46:00
   id: 1088177
