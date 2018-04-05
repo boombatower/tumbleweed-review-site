@@ -1160,8 +1160,8 @@
 - component: Other
   create_time: 20171230T12:13:00
   id: 1074242
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: sane-backends 1.0.27 with canon Lide 100 - Black bar in every scan
 - component: Network
   create_time: 20171230T11:39:00
@@ -2035,8 +2035,8 @@
 - component: Printing
   create_time: 20180119T18:20:00
   id: 1076866
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'ghostscript: segfault in txtwrite_process_plain_text()'
 - component: X11 Applications
   create_time: 20180119T17:02:00
@@ -4536,8 +4536,8 @@
 - component: X.Org
   create_time: 20180222T14:29:00
   id: 1082306
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Mesa: u_Fix-crash-in-swrast-when-setting-a-texture-for-a-pix.patch'
 - component: X.Org
   create_time: 20180222T14:26:00
@@ -4560,8 +4560,8 @@
 - component: X.Org
   create_time: 20180222T14:09:00
   id: 1082298
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Mesa: get rid of n_Disable-AMDGPU-GFX9-Vega-on-LLVM-lessthan-6.0.0.patch?'
 - component: X.Org
   create_time: 20180222T14:05:00
@@ -6570,6 +6570,12 @@
   summary: 'Dovecot fails to start, complaining "Can''t open log file /var/log/dovecot.log:
     Permission denied"'
 '20180403':
+- component: KDE Applications
+  create_time: 20180405T07:58:00
+  id: 1088249
+  resolution: ''
+  status: NEW
+  summary: Korganizer deletes caldav events only locally.
 - component: Security
   create_time: 20180405T02:05:00
   id: 1088235
@@ -6580,7 +6586,7 @@
   create_time: 20180404T23:32:00
   id: 1088229
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '"readonly_root_tools" pattern missing on Tumbleweed media'
 - component: KDE Workspace (Plasma)
   create_time: 20180404T19:46:00
@@ -6666,7 +6672,7 @@
   create_time: 20180403T12:02:00
   id: 1087891
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Velum: Unable to find any pending nodes'
 - component: Other
   create_time: 20180403T10:17:00
