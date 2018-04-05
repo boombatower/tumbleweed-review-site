@@ -6476,8 +6476,8 @@
   id: 1087555
   resolution: ''
   status: IN_PROGRESS
-  summary: Configuring keyboard using Yast2 for German Keyboard with nodeadkeys survive
-    a reboot
+  summary: "Configuring keyboard using Yast2 to use a German Keyboard with deadkeys\
+    \ for console and KDE doesn\xB4t survive a reboot"
 '20180331':
 - component: YaST2
   create_time: 20180331T11:29:00
@@ -6570,6 +6570,37 @@
   summary: 'Dovecot fails to start, complaining "Can''t open log file /var/log/dovecot.log:
     Permission denied"'
 '20180403':
+- component: Kubic
+  create_time: 20180405T15:27:00
+  id: 1088319
+  resolution: ''
+  status: NEW
+  summary: Pause container not from DVD used
+- component: Maintenance
+  create_time: 20180405T14:30:00
+  id: 1088310
+  resolution: ''
+  status: NEW
+  summary: python3-botocore-1.9.6 possibly breaking aws-cli
+- component: Basesystem
+  create_time: 20180405T13:46:00
+  id: 1088306
+  resolution: ''
+  status: NEW
+  summary: Mess in /etc/os-release files for different openSUSE branches
+- component: Kubic
+  create_time: 20180405T13:20:00
+  id: 1088304
+  resolution: ''
+  status: NEW
+  summary: DVD offer upgrade option
+- component: Development
+  create_time: 20180405T11:00:00
+  id: 1088281
+  resolution: ''
+  status: NEW
+  summary: QUILT_PATCH_OPTS="--unified" in /etc/quilt.quiltrc breaks quilt usage with
+    non-unified patches
 - component: KDE Applications
   create_time: 20180405T07:58:00
   id: 1088249
@@ -6604,8 +6635,8 @@
 - component: Kubic
   create_time: 20180404T17:48:00
   id: 1088155
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'Kubic: docker.service is inactive by default instead of CaaSP'
 - component: Kubic
   create_time: 20180404T14:10:00
