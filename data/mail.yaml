@@ -630,11 +630,11 @@
   threads: []
 '20180401':
   announcement: 2018-04.42
-  reference_count: 6
+  reference_count: 7
   thread_count: 2
   threads:
   - messages: [2018-04.74]
-    reference_count: 2
+    reference_count: 3
     summary: unplanned suspends
   - messages: [2018-04.109]
     reference_count: 4
