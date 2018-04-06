@@ -625,11 +625,11 @@
     summary: systemd-coredump
 '20180331':
   announcement: 2018-04.15
-  reference_count: 2
+  reference_count: 5
   thread_count: 1
   threads:
   - messages: [2018-04.257]
-    reference_count: 2
+    reference_count: 5
     summary: libkdeinit5_kwrite removed?
 '20180401':
   announcement: 2018-04.42
