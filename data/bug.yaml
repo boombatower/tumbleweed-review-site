@@ -6570,11 +6570,79 @@
   summary: 'Dovecot fails to start, complaining "Can''t open log file /var/log/dovecot.log:
     Permission denied"'
 '20180403':
+- component: Development
+  create_time: 20180403T19:24:00
+  id: 1087961
+  resolution: ''
+  status: NEW
+  summary: ocaml-obuild does not build reproducibly
+- component: Basesystem
+  create_time: 20180403T15:50:00
+  id: 1087925
+  resolution: ''
+  status: NEW
+  summary: sddm-helper not working with NIS enabled
+- component: Basesystem
+  create_time: 20180403T15:43:00
+  id: 1087924
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'file: -L,-h options in usage output missing newline'
+- component: X11 3rd Party Driver
+  create_time: 20180403T13:54:00
+  id: 1087903
+  resolution: FIXED
+  status: RESOLVED
+  summary: Google Chrome and Chromium show empty (transparent) window with NVidia
+    drivers
+- component: YaST2
+  create_time: 20180403T12:40:00
+  id: 1087895
+  resolution: FEATURE
+  status: RESOLVED
+  summary: Yast2 NTP module want chrony
+- component: Containers
+  create_time: 20180403T12:02:00
+  id: 1087891
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'Velum: Unable to find any pending nodes'
+- component: Other
+  create_time: 20180403T10:17:00
+  id: 1087863
+  resolution: ''
+  status: NEW
+  summary: 7z fails to extract .rar archives
+- component: Bootloader
+  create_time: 20180403T09:00:00
+  id: 1087847
+  resolution: ''
+  status: NEW
+  summary: The staging certificate in shim conflicted with the same one in kernel-source
+- component: Installation
+  create_time: 20180403T06:42:00
+  id: 1087829
+  resolution: ''
+  status: CONFIRMED
+  summary: Installer continues despite digest verification failure
+- component: YaST2
+  create_time: 20180403T06:35:00
+  id: 1087826
+  resolution: FIXED
+  status: RESOLVED
+  summary: Wrong output in the CLI of yast2-nfs-client
+- component: High Availability
+  create_time: 20180403T04:50:00
+  id: 1087809
+  resolution: ''
+  status: NEW
+  summary: crm shell / hawk, can now create iSCSITarget, backend command not called.
+'20180404':
 - component: YaST2
   create_time: 20180406T14:12:00
   id: 1088488
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'proposal_runner.rb: "no implicit conversion of Array into String"'
 - component: Security
   create_time: 20180406T13:03:00
@@ -6729,70 +6797,3 @@
   resolution: ''
   status: NEW
   summary: Missing broadcom firmware BCM20702A1-0a5c-21e8.hcd for bluetooth adapter
-- component: Development
-  create_time: 20180403T19:24:00
-  id: 1087961
-  resolution: ''
-  status: NEW
-  summary: ocaml-obuild does not build reproducibly
-- component: Basesystem
-  create_time: 20180403T15:50:00
-  id: 1087925
-  resolution: ''
-  status: NEW
-  summary: sddm-helper not working with NIS enabled
-- component: Basesystem
-  create_time: 20180403T15:43:00
-  id: 1087924
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'file: -L,-h options in usage output missing newline'
-- component: X11 3rd Party Driver
-  create_time: 20180403T13:54:00
-  id: 1087903
-  resolution: FIXED
-  status: RESOLVED
-  summary: Google Chrome and Chromium show empty (transparent) window with NVidia
-    drivers
-- component: YaST2
-  create_time: 20180403T12:40:00
-  id: 1087895
-  resolution: FEATURE
-  status: RESOLVED
-  summary: Yast2 NTP module want chrony
-- component: Containers
-  create_time: 20180403T12:02:00
-  id: 1087891
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'Velum: Unable to find any pending nodes'
-- component: Other
-  create_time: 20180403T10:17:00
-  id: 1087863
-  resolution: ''
-  status: NEW
-  summary: 7z fails to extract .rar archives
-- component: Bootloader
-  create_time: 20180403T09:00:00
-  id: 1087847
-  resolution: ''
-  status: NEW
-  summary: The staging certificate in shim conflicted with the same one in kernel-source
-- component: Installation
-  create_time: 20180403T06:42:00
-  id: 1087829
-  resolution: ''
-  status: CONFIRMED
-  summary: Installer continues despite digest verification failure
-- component: YaST2
-  create_time: 20180403T06:35:00
-  id: 1087826
-  resolution: FIXED
-  status: RESOLVED
-  summary: Wrong output in the CLI of yast2-nfs-client
-- component: High Availability
-  create_time: 20180403T04:50:00
-  id: 1087809
-  resolution: ''
-  status: NEW
-  summary: crm shell / hawk, can now create iSCSITarget, backend command not called.
