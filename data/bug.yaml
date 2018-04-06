@@ -3716,8 +3716,8 @@
 - component: X11 Applications
   create_time: 20180212T20:32:00
   id: 1080670
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: DRI not working since kernel 4.15.0
 - component: Upgrade Problems
   create_time: 20180212T17:50:00
@@ -5315,9 +5315,9 @@
 - component: Basesystem
   create_time: 20180309T10:06:00
   id: 1084647
-  resolution: ''
-  status: NEW
-  summary: 'GCC 8: cyrus-sas build fails'
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'GCC 8: cyrus-sasl build fails'
 - component: Basesystem
   create_time: 20180309T10:06:00
   id: 1084646
@@ -6442,8 +6442,8 @@
 - component: libzypp
   create_time: 20180326T06:26:00
   id: 1086783
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: libsolv-tools uninstall attempted by zypper dup
 '20180330':
 - component: Kubic
@@ -6570,6 +6570,49 @@
   summary: 'Dovecot fails to start, complaining "Can''t open log file /var/log/dovecot.log:
     Permission denied"'
 '20180403':
+- component: YaST2
+  create_time: 20180406T14:12:00
+  id: 1088488
+  resolution: ''
+  status: NEW
+  summary: 'proposal_runner.rb: "no implicit conversion of Array into String"'
+- component: Security
+  create_time: 20180406T13:03:00
+  id: 1088472
+  resolution: ''
+  status: NEW
+  summary: 'polkit-untracked-privilege: switchboard-*'
+- component: Development
+  create_time: 20180406T11:38:00
+  id: 1088464
+  resolution: FIXED
+  status: RESOLVED
+  summary: libPollyISL.a isn't packaged anymore but referenced in /usr/lib64/cmake/llvm/LLVMExports.cmake
+- component: Other
+  create_time: 20180406T11:26:00
+  id: 1088463
+  resolution: ''
+  status: IN_PROGRESS
+  summary: ImageMagick fails test suite when no ghostscript-fonts are installed (e.g.
+    when built against ghostscript 9.23)
+- component: Basesystem
+  create_time: 20180406T11:24:00
+  id: 1088462
+  resolution: INVALID
+  status: RESOLVED
+  summary: llvm6 doesn't package libFuzzer anymore
+- component: Kubic
+  create_time: 20180406T10:36:00
+  id: 1088456
+  resolution: FIXED
+  status: RESOLVED
+  summary: Various skelcd-control tunings
+- component: YaST2
+  create_time: 20180406T10:18:00
+  id: 1088447
+  resolution: INVALID
+  status: RESOLVED
+  summary: Firewall prevents DNS-SD/Bonjoir/AirPrint
 - component: Network
   create_time: 20180406T08:53:00
   id: 1088427
@@ -6580,7 +6623,7 @@
   create_time: 20180406T08:49:00
   id: 1088426
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: yast2-nfs-client still uses nfs4 and minorversion
 - component: Kernel
   create_time: 20180405T21:00:00
@@ -6616,7 +6659,7 @@
   create_time: 20180405T11:00:00
   id: 1088281
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: QUILT_PATCH_OPTS="--unified" in /etc/quilt.quiltrc breaks quilt usage with
     non-unified patches
 - component: KDE Applications
