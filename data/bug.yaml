@@ -6570,6 +6570,18 @@
   summary: 'Dovecot fails to start, complaining "Can''t open log file /var/log/dovecot.log:
     Permission denied"'
 '20180403':
+- component: Network
+  create_time: 20180406T08:53:00
+  id: 1088427
+  resolution: ''
+  status: NEW
+  summary: 'Gajim: OMEMO plugin does not work because of missing dependency'
+- component: YaST2
+  create_time: 20180406T08:49:00
+  id: 1088426
+  resolution: ''
+  status: NEW
+  summary: yast2-nfs-client still uses nfs4 and minorversion
 - component: Kernel
   create_time: 20180405T21:00:00
   id: 1088382
@@ -6616,8 +6628,8 @@
 - component: Security
   create_time: 20180405T02:05:00
   id: 1088235
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Wrong permissions on /usr/bin/crontab
 - component: Patterns
   create_time: 20180404T23:32:00
@@ -6689,8 +6701,8 @@
 - component: Basesystem
   create_time: 20180403T15:43:00
   id: 1087924
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'file: -L,-h options in usage output missing newline'
 - component: X11 3rd Party Driver
   create_time: 20180403T13:54:00
