@@ -6315,8 +6315,8 @@
 - component: Other
   create_time: 20180328T13:12:00
   id: 1087307
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: MongoDB is unable to start on openSUSE Tumbleweed for ARM
 - component: Installation
   create_time: 20180328T08:40:00
