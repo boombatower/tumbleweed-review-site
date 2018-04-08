@@ -3491,8 +3491,8 @@
 - component: Other
   create_time: 20180209T16:39:00
   id: 1080341
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: tilda is crashing in wayland session
 - component: YaST2
   create_time: 20180209T16:08:00
@@ -6638,18 +6638,36 @@
   status: NEW
   summary: crm shell / hawk, can now create iSCSITarget, backend command not called.
 '20180404':
+- component: Live Medium
+  create_time: 20180407T21:55:00
+  id: 1088562
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build 20180406] khelpcenter on livemedia: content looks broken'
+- component: Installation
+  create_time: 20180407T17:52:00
+  id: 1088560
+  resolution: ''
+  status: NEW
+  summary: Installation processes at a certain point remain in a blocking state.
+- component: YaST2
+  create_time: 20180407T16:21:00
+  id: 1088559
+  resolution: ''
+  status: NEW
+  summary: Yast DNS Server module will convert upper-case to lower-case for TXT records
+- component: Other
+  create_time: 20180407T08:06:00
+  id: 1088549
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Installed Libre Office and then tried to install open office
 - component: YaST2
   create_time: 20180406T14:12:00
   id: 1088488
   resolution: ''
   status: IN_PROGRESS
   summary: 'proposal_runner.rb: "no implicit conversion of Array into String"'
-- component: Security
-  create_time: 20180406T13:03:00
-  id: 1088472
-  resolution: ''
-  status: NEW
-  summary: 'polkit-untracked-privilege: switchboard-*'
 - component: Development
   create_time: 20180406T11:38:00
   id: 1088464
