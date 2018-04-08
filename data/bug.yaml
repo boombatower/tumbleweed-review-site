@@ -6638,79 +6638,6 @@
   status: NEW
   summary: crm shell / hawk, can now create iSCSITarget, backend command not called.
 '20180404':
-- component: Live Medium
-  create_time: 20180407T21:55:00
-  id: 1088562
-  resolution: ''
-  status: CONFIRMED
-  summary: '[Build 20180406] khelpcenter on livemedia: content looks broken'
-- component: Installation
-  create_time: 20180407T17:52:00
-  id: 1088560
-  resolution: ''
-  status: NEW
-  summary: Installation processes at a certain point remain in a blocking state.
-- component: YaST2
-  create_time: 20180407T16:21:00
-  id: 1088559
-  resolution: ''
-  status: NEW
-  summary: Yast DNS Server module will convert upper-case to lower-case for TXT records
-- component: Other
-  create_time: 20180407T08:06:00
-  id: 1088549
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: Installed Libre Office and then tried to install open office
-- component: YaST2
-  create_time: 20180406T14:12:00
-  id: 1088488
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'proposal_runner.rb: "no implicit conversion of Array into String"'
-- component: Development
-  create_time: 20180406T11:38:00
-  id: 1088464
-  resolution: FIXED
-  status: RESOLVED
-  summary: libPollyISL.a isn't packaged anymore but referenced in /usr/lib64/cmake/llvm/LLVMExports.cmake
-- component: Other
-  create_time: 20180406T11:26:00
-  id: 1088463
-  resolution: ''
-  status: IN_PROGRESS
-  summary: ImageMagick fails test suite when no ghostscript-fonts are installed (e.g.
-    when built against ghostscript 9.23)
-- component: Basesystem
-  create_time: 20180406T11:24:00
-  id: 1088462
-  resolution: INVALID
-  status: RESOLVED
-  summary: llvm6 doesn't package libFuzzer anymore
-- component: Kubic
-  create_time: 20180406T10:36:00
-  id: 1088456
-  resolution: FIXED
-  status: RESOLVED
-  summary: Various skelcd-control tunings
-- component: YaST2
-  create_time: 20180406T10:18:00
-  id: 1088447
-  resolution: INVALID
-  status: RESOLVED
-  summary: Firewall prevents DNS-SD/Bonjoir/AirPrint
-- component: Network
-  create_time: 20180406T08:53:00
-  id: 1088427
-  resolution: ''
-  status: NEW
-  summary: 'Gajim: OMEMO plugin does not work because of missing dependency'
-- component: YaST2
-  create_time: 20180406T08:49:00
-  id: 1088426
-  resolution: ''
-  status: IN_PROGRESS
-  summary: yast2-nfs-client still uses nfs4 and minorversion
 - component: Kernel
   create_time: 20180405T21:00:00
   id: 1088382
@@ -6815,3 +6742,83 @@
   resolution: ''
   status: NEW
   summary: Missing broadcom firmware BCM20702A1-0a5c-21e8.hcd for bluetooth adapter
+'20180406':
+- component: Samba
+  create_time: 20180408T12:35:00
+  id: 1088574
+  resolution: ''
+  status: NEW
+  summary: Just updated TW now SMB daemon fails to start
+- component: Live Medium
+  create_time: 20180407T21:55:00
+  id: 1088562
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build 20180406] khelpcenter on livemedia: content looks broken'
+- component: Installation
+  create_time: 20180407T17:52:00
+  id: 1088560
+  resolution: ''
+  status: NEW
+  summary: Installation processes at a certain point remain in a blocking state.
+- component: YaST2
+  create_time: 20180407T16:21:00
+  id: 1088559
+  resolution: ''
+  status: NEW
+  summary: Yast DNS Server module will convert upper-case to lower-case for TXT records
+- component: Other
+  create_time: 20180407T08:06:00
+  id: 1088549
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Installed Libre Office and then tried to install open office
+- component: YaST2
+  create_time: 20180406T14:12:00
+  id: 1088488
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'proposal_runner.rb: "no implicit conversion of Array into String"'
+- component: Development
+  create_time: 20180406T11:38:00
+  id: 1088464
+  resolution: FIXED
+  status: RESOLVED
+  summary: libPollyISL.a isn't packaged anymore but referenced in /usr/lib64/cmake/llvm/LLVMExports.cmake
+- component: Other
+  create_time: 20180406T11:26:00
+  id: 1088463
+  resolution: ''
+  status: IN_PROGRESS
+  summary: ImageMagick fails test suite when no ghostscript-fonts are installed (e.g.
+    when built against ghostscript 9.23)
+- component: Basesystem
+  create_time: 20180406T11:24:00
+  id: 1088462
+  resolution: INVALID
+  status: RESOLVED
+  summary: llvm6 doesn't package libFuzzer anymore
+- component: Kubic
+  create_time: 20180406T10:36:00
+  id: 1088456
+  resolution: FIXED
+  status: RESOLVED
+  summary: Various skelcd-control tunings
+- component: YaST2
+  create_time: 20180406T10:18:00
+  id: 1088447
+  resolution: INVALID
+  status: RESOLVED
+  summary: Firewall prevents DNS-SD/Bonjoir/AirPrint
+- component: Network
+  create_time: 20180406T08:53:00
+  id: 1088427
+  resolution: ''
+  status: NEW
+  summary: 'Gajim: OMEMO plugin does not work because of missing dependency'
+- component: YaST2
+  create_time: 20180406T08:49:00
+  id: 1088426
+  resolution: ''
+  status: IN_PROGRESS
+  summary: yast2-nfs-client still uses nfs4 and minorversion
