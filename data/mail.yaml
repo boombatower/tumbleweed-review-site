@@ -657,14 +657,14 @@
     summary: conflict for pangomm-devel
 '20180404':
   announcement: 2018-04.273
-  reference_count: 4
+  reference_count: 5
   thread_count: 2
   threads:
   - messages: [2018-04.278]
     reference_count: 3
     summary: Samba update (4.7.6 -> 4.8.0) kills samba
   - messages: [2018-04.288]
-    reference_count: 1
+    reference_count: 2
     summary: rpcbind not starting Tumbleweed release
 '20180406':
   announcement: 2018-04.310
