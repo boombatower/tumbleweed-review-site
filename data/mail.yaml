@@ -666,3 +666,11 @@
   - messages: [2018-04.288]
     reference_count: 1
     summary: rpcbind not starting Tumbleweed release
+'20180406':
+  announcement: 2018-04.310
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages: [2018-04.316]
+    reference_count: 1
+    summary: Kernel 4.16 and nvidia
