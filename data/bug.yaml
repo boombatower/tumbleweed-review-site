@@ -6743,6 +6743,34 @@
   status: NEW
   summary: Missing broadcom firmware BCM20702A1-0a5c-21e8.hcd for bluetooth adapter
 '20180406':
+- component: YaST2
+  create_time: 20180409T20:40:00
+  id: 1088759
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180406] openQA test fails in yast2_control_center with errors
+    about "YUIPlugin.cc(YUIPlugin):50 Could not load UI plugin "qt_zypp_solver_dialog":
+    libyui-qt_zypp_solver_dialog.so.8: cannot open shared object file: No such file
+    or directory"'
+- component: GNOME
+  create_time: 20180409T18:30:00
+  id: 1088738
+  resolution: ''
+  status: NEW
+  summary: xhost setting fails to have affect in /etc/gdm/Xsession --- "no protocol
+    specified"
+- component: Samba
+  create_time: 20180409T18:08:00
+  id: 1088736
+  resolution: ''
+  status: NEW
+  summary: apparmor denies net_admin capability to smb, nmb and winbindd
+- component: Installation
+  create_time: 20180409T17:34:00
+  id: 1088734
+  resolution: ''
+  status: NEW
+  summary: Windows shown during installation look ugly
 - component: Basesystem
   create_time: 20180409T14:40:00
   id: 1088702
