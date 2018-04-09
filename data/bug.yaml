@@ -5253,8 +5253,8 @@
 - component: X.Org
   create_time: 20180309T21:29:00
   id: 1084767
-  resolution: ''
-  status: CONFIRMED
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 3D & games produce periodic GPU crashes (Radeon R7 370)
 - component: Containers
   create_time: 20180309T21:26:00
@@ -6385,11 +6385,11 @@
   resolution: ''
   status: NEW
   summary: java-1_8_0-openjdk FTBFS with gcc8
-- component: X.Org
+- component: Patterns
   create_time: 20180327T12:11:00
   id: 1087063
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: 'intel [Gen3]: xf86-video-intel not installed by default on <= Gen3'
 - component: Other
   create_time: 20180327T11:03:00
@@ -6743,6 +6743,49 @@
   status: NEW
   summary: Missing broadcom firmware BCM20702A1-0a5c-21e8.hcd for bluetooth adapter
 '20180406':
+- component: Basesystem
+  create_time: 20180409T14:40:00
+  id: 1088702
+  resolution: ''
+  status: NEW
+  summary: rpcbind not starting with 20180404 Tumbleweed release
+- component: Kubic
+  create_time: 20180409T12:18:00
+  id: 1088676
+  resolution: ''
+  status: NEW
+  summary: config file paths in manual page wrong
+- component: Kernel
+  create_time: 20180409T11:12:00
+  id: 1088658
+  resolution: ''
+  status: NEW
+  summary: Intel wlan 3160 does not work on kernel 4.16
+- component: X11 3rd Party Driver
+  create_time: 20180409T10:42:00
+  id: 1088651
+  resolution: ''
+  status: IN_PROGRESS
+  summary: NVIDIA proprietary driver broken in kernel 4.16
+- component: Kernel
+  create_time: 20180409T10:06:00
+  id: 1088640
+  resolution: ''
+  status: NEW
+  summary: Kernel WARNING in __video_register_device
+- component: Patterns
+  create_time: 20180409T08:58:00
+  id: 1088615
+  resolution: ''
+  status: NEW
+  summary: gnome-desktop Wayland and gnome-desktop X11 both listed in installation
+    setting
+- component: GNOME
+  create_time: 20180409T08:50:00
+  id: 1088612
+  resolution: ''
+  status: NEW
+  summary: GDM auto suspends machine after 20 minutes when nobody logs in
 - component: Samba
   create_time: 20180408T12:35:00
   id: 1088574
@@ -6813,8 +6856,8 @@
 - component: Network
   create_time: 20180406T08:53:00
   id: 1088427
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Gajim: OMEMO plugin does not work because of missing dependency'
 - component: YaST2
   create_time: 20180406T08:49:00
