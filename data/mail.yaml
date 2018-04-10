@@ -671,7 +671,7 @@
     summary: rpcbind not starting Tumbleweed release
 '20180406':
   announcement: 2018-04.310
-  reference_count: 22
+  reference_count: 23
   thread_count: 3
   threads:
   - messages: [2018-04.316]
@@ -681,5 +681,10 @@
     reference_count: 3
     summary: NVidia problems
   - messages: [2018-04.331]
-    reference_count: 18
+    reference_count: 19
     summary: NVIDIA proprietary driver on kernel 4.16
+'20180407':
+  announcement: 2018-04.378
+  reference_count: 0
+  thread_count: 0
+  threads: []
