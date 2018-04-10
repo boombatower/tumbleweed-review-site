@@ -6793,6 +6793,18 @@
   status: IN_PROGRESS
   summary: yast2-nfs-client still uses nfs4 and minorversion
 '20180407':
+- component: Security
+  create_time: 20180410T21:26:00
+  id: 1088944
+  resolution: ''
+  status: NEW
+  summary: 'warning: group or other writable: /etc/postfix/./ssl/cacerts/DigiCertSHA2SecureServerCA.pem'
+- component: Other
+  create_time: 20180410T19:45:00
+  id: 1088935
+  resolution: ''
+  status: NEW
+  summary: 'ddccontrol: invalid udev rule, i2c-dev is not loaded'
 - component: Kernel
   create_time: 20180410T15:11:00
   id: 1088902
@@ -6809,7 +6821,7 @@
   create_time: 20180410T14:52:00
   id: 1088893
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Leap 15/TW] - Rename Transactional System Role & Enable Updates by default'
 - component: Basesystem
   create_time: 20180410T14:23:00
