@@ -6744,6 +6744,24 @@
   summary: Missing broadcom firmware BCM20702A1-0a5c-21e8.hcd for bluetooth adapter
 '20180406':
 - component: YaST2
+  create_time: 20180410T03:35:00
+  id: 1088785
+  resolution: ''
+  status: NEW
+  summary: Allow for sidebar option in installer for distribution
+- component: High Availability
+  create_time: 20180410T03:30:00
+  id: 1088784
+  resolution: ''
+  status: NEW
+  summary: hb_report does not work, failed to connect to other nodes.
+- component: Security
+  create_time: 20180410T01:23:00
+  id: 1088780
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: accountsservice 0.46.6: new polkit privileges review'
+- component: YaST2
   create_time: 20180409T20:40:00
   id: 1088759
   resolution: ''
