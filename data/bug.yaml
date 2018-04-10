@@ -2053,8 +2053,8 @@
 - component: Installation
   create_time: 20180119T15:54:00
   id: 1076839
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '[Build 20180117] installer startup: kexec failed'
 - component: YaST2
   create_time: 20180119T15:40:00
@@ -4879,8 +4879,8 @@
 - component: Java
   create_time: 20180303T14:52:00
   id: 1083837
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: opensuse mysql java connector fails to connect
 - component: Other
   create_time: 20180303T13:51:00
@@ -5309,8 +5309,8 @@
 - component: Basesystem
   create_time: 20180309T10:06:00
   id: 1084648
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'GCC 8: slang build fails'
 - component: Basesystem
   create_time: 20180309T10:06:00
@@ -5382,7 +5382,7 @@
   create_time: 20180309T10:03:00
   id: 1084636
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 8: libyui build fails'
 - component: Basesystem
   create_time: 20180309T10:03:00
@@ -5998,7 +5998,7 @@
   id: 1085832
   resolution: ''
   status: NEW
-  summary: 'Installation: Setting locale fails'
+  summary: snapper fails if not installed locale is set
 '20180320':
 - component: Patterns
   create_time: 20180323T18:24:00
@@ -6371,19 +6371,19 @@
   create_time: 20180327T12:43:00
   id: 1087068
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: libqt5-qtwebengine FTBFS with GCC8
 - component: Basesystem
   create_time: 20180327T12:42:00
   id: 1087067
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: bin86 FTBFS with GCC8
 - component: Java
   create_time: 20180327T12:41:00
   id: 1087066
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: java-1_8_0-openjdk FTBFS with gcc8
 - component: Patterns
   create_time: 20180327T12:11:00
@@ -6606,7 +6606,7 @@
   id: 1087891
   resolution: ''
   status: IN_PROGRESS
-  summary: 'Velum: Unable to find any pending nodes'
+  summary: no python3 mysql module available which works with salt.
 - component: Other
   create_time: 20180403T10:17:00
   id: 1087863
@@ -6616,8 +6616,8 @@
 - component: Bootloader
   create_time: 20180403T09:00:00
   id: 1087847
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: The staging certificate in shim conflicted with the same one in kernel-source
 - component: Installation
   create_time: 20180403T06:42:00
@@ -6744,10 +6744,97 @@
   summary: Missing broadcom firmware BCM20702A1-0a5c-21e8.hcd for bluetooth adapter
 '20180406':
 - component: YaST2
-  create_time: 20180410T03:35:00
-  id: 1088785
+  create_time: 20180406T14:12:00
+  id: 1088488
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'proposal_runner.rb: "no implicit conversion of Array into String"'
+- component: Development
+  create_time: 20180406T11:38:00
+  id: 1088464
+  resolution: FIXED
+  status: RESOLVED
+  summary: libPollyISL.a isn't packaged anymore but referenced in /usr/lib64/cmake/llvm/LLVMExports.cmake
+- component: Other
+  create_time: 20180406T11:26:00
+  id: 1088463
+  resolution: ''
+  status: IN_PROGRESS
+  summary: ImageMagick fails test suite when no ghostscript-fonts are installed (e.g.
+    when built against ghostscript 9.23)
+- component: Basesystem
+  create_time: 20180406T11:24:00
+  id: 1088462
+  resolution: INVALID
+  status: RESOLVED
+  summary: llvm6 doesn't package libFuzzer anymore
+- component: Kubic
+  create_time: 20180406T10:36:00
+  id: 1088456
+  resolution: FIXED
+  status: RESOLVED
+  summary: Various skelcd-control tunings
+- component: YaST2
+  create_time: 20180406T10:18:00
+  id: 1088447
+  resolution: INVALID
+  status: RESOLVED
+  summary: Firewall prevents DNS-SD/Bonjoir/AirPrint
+- component: Network
+  create_time: 20180406T08:53:00
+  id: 1088427
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Gajim: OMEMO plugin does not work because of missing dependency'
+- component: YaST2
+  create_time: 20180406T08:49:00
+  id: 1088426
+  resolution: ''
+  status: IN_PROGRESS
+  summary: yast2-nfs-client still uses nfs4 and minorversion
+'20180407':
+- component: Kernel
+  create_time: 20180410T15:11:00
+  id: 1088902
   resolution: ''
   status: NEW
+  summary: 'amdgpu: Screen flickering every few seconds since update 2018-04-09'
+- component: Basesystem
+  create_time: 20180410T15:00:00
+  id: 1088897
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: post-build-checks build fails'
+- component: Kubic
+  create_time: 20180410T14:52:00
+  id: 1088893
+  resolution: ''
+  status: NEW
+  summary: '[Leap 15/TW] - Rename Transactional System Role & Enable Updates by default'
+- component: Basesystem
+  create_time: 20180410T14:23:00
+  id: 1088885
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'GCC 8: zbar build fails'
+- component: YaST2
+  create_time: 20180410T11:12:00
+  id: 1088852
+  resolution: ''
+  status: NEW
+  summary: skelcd-control-CAASP and yast2-caasp should get rid of require to yast2-registration
+    on 32bit
+- component: YaST2
+  create_time: 20180410T10:22:00
+  id: 1088844
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST "rake install" does not support installing custom icons
+- component: YaST2
+  create_time: 20180410T03:35:00
+  id: 1088785
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Allow for sidebar option in installer for distribution
 - component: High Availability
   create_time: 20180410T03:30:00
@@ -6755,17 +6842,11 @@
   resolution: ''
   status: NEW
   summary: hb_report does not work, failed to connect to other nodes.
-- component: Security
-  create_time: 20180410T01:23:00
-  id: 1088780
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: accountsservice 0.46.6: new polkit privileges review'
 - component: YaST2
   create_time: 20180409T20:40:00
   id: 1088759
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20180406] openQA test fails in yast2_control_center with errors
     about "YUIPlugin.cc(YUIPlugin):50 Could not load UI plugin "qt_zypp_solver_dialog":
     libyui-qt_zypp_solver_dialog.so.8: cannot open shared object file: No such file
@@ -6810,8 +6891,8 @@
 - component: X11 3rd Party Driver
   create_time: 20180409T10:42:00
   id: 1088651
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: NVIDIA proprietary driver broken in kernel 4.16
 - component: Kernel
   create_time: 20180409T10:06:00
@@ -6862,52 +6943,3 @@
   resolution: WONTFIX
   status: RESOLVED
   summary: Installed Libre Office and then tried to install open office
-- component: YaST2
-  create_time: 20180406T14:12:00
-  id: 1088488
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'proposal_runner.rb: "no implicit conversion of Array into String"'
-- component: Development
-  create_time: 20180406T11:38:00
-  id: 1088464
-  resolution: FIXED
-  status: RESOLVED
-  summary: libPollyISL.a isn't packaged anymore but referenced in /usr/lib64/cmake/llvm/LLVMExports.cmake
-- component: Other
-  create_time: 20180406T11:26:00
-  id: 1088463
-  resolution: ''
-  status: IN_PROGRESS
-  summary: ImageMagick fails test suite when no ghostscript-fonts are installed (e.g.
-    when built against ghostscript 9.23)
-- component: Basesystem
-  create_time: 20180406T11:24:00
-  id: 1088462
-  resolution: INVALID
-  status: RESOLVED
-  summary: llvm6 doesn't package libFuzzer anymore
-- component: Kubic
-  create_time: 20180406T10:36:00
-  id: 1088456
-  resolution: FIXED
-  status: RESOLVED
-  summary: Various skelcd-control tunings
-- component: YaST2
-  create_time: 20180406T10:18:00
-  id: 1088447
-  resolution: INVALID
-  status: RESOLVED
-  summary: Firewall prevents DNS-SD/Bonjoir/AirPrint
-- component: Network
-  create_time: 20180406T08:53:00
-  id: 1088427
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'Gajim: OMEMO plugin does not work because of missing dependency'
-- component: YaST2
-  create_time: 20180406T08:49:00
-  id: 1088426
-  resolution: ''
-  status: IN_PROGRESS
-  summary: yast2-nfs-client still uses nfs4 and minorversion
