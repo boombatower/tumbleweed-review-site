@@ -6552,8 +6552,8 @@
 - component: Installation
   create_time: 20180402T15:25:00
   id: 1087763
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Installer doesn't create @ volumes when not using suggested partitioning
     schem
 - component: Development
@@ -6703,8 +6703,8 @@
 - component: AppArmor
   create_time: 20180404T18:22:00
   id: 1088161
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Can't use dovecot after upgrade due to missing/wrong apparmor profile
 - component: Kubic
   create_time: 20180404T17:48:00
@@ -6793,73 +6793,6 @@
   status: RESOLVED
   summary: yast2-nfs-client still uses nfs4 and minorversion
 '20180407':
-- component: Kernel
-  create_time: 20180411T02:37:00
-  id: 1088992
-  resolution: ''
-  status: NEW
-  summary: Thumbleweed did not boot on samsung nc110 (strange error at boot)
-- component: Security
-  create_time: 20180410T21:26:00
-  id: 1088944
-  resolution: ''
-  status: NEW
-  summary: 'warning: group or other writable: /etc/postfix/./ssl/cacerts/DigiCertSHA2SecureServerCA.pem'
-- component: Other
-  create_time: 20180410T19:45:00
-  id: 1088935
-  resolution: ''
-  status: NEW
-  summary: 'ddccontrol: invalid udev rule, i2c-dev is not loaded'
-- component: Kernel
-  create_time: 20180410T15:11:00
-  id: 1088902
-  resolution: ''
-  status: NEW
-  summary: 'amdgpu: Screen flickering every few seconds since update 2018-04-09'
-- component: Basesystem
-  create_time: 20180410T15:00:00
-  id: 1088897
-  resolution: ''
-  status: NEW
-  summary: 'GCC 8: post-build-checks build fails'
-- component: Kubic
-  create_time: 20180410T14:52:00
-  id: 1088893
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[Leap 15/TW] - Rename Transactional System Role & Enable Updates by default'
-- component: Basesystem
-  create_time: 20180410T14:23:00
-  id: 1088885
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'GCC 8: zbar build fails'
-- component: YaST2
-  create_time: 20180410T11:12:00
-  id: 1088852
-  resolution: ''
-  status: NEW
-  summary: skelcd-control-CAASP and yast2-caasp should get rid of require to yast2-registration
-    on 32bit
-- component: YaST2
-  create_time: 20180410T10:22:00
-  id: 1088844
-  resolution: FIXED
-  status: RESOLVED
-  summary: YaST "rake install" does not support installing custom icons
-- component: YaST2
-  create_time: 20180410T03:35:00
-  id: 1088785
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: Allow for sidebar option in installer for distribution
-- component: High Availability
-  create_time: 20180410T03:30:00
-  id: 1088784
-  resolution: ''
-  status: NEW
-  summary: hb_report does not work, failed to connect to other nodes.
 - component: YaST2
   create_time: 20180409T20:40:00
   id: 1088759
@@ -6961,3 +6894,113 @@
   resolution: WONTFIX
   status: RESOLVED
   summary: Installed Libre Office and then tried to install open office
+'20180410':
+- component: Virtualization:Tools
+  create_time: 20180411T20:40:00
+  id: 1089255
+  resolution: ''
+  status: NEW
+  summary: yast install hypervisor and tools not working correctly
+- component: Virtualization:Tools
+  create_time: 20180411T18:00:00
+  id: 1089181
+  resolution: ''
+  status: NEW
+  summary: please update open-vm-tools to 10.2.5
+- component: Other
+  create_time: 20180411T14:27:00
+  id: 1089126
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'mkisofs: Installation problem: ''$INS_BASE/share/lib/siconv/'' missing.'
+- component: YaST2
+  create_time: 20180411T14:08:00
+  id: 1089120
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Installation interrupted with Russian language
+- component: YaST2
+  create_time: 20180411T13:02:00
+  id: 1089102
+  resolution: FIXED
+  status: RESOLVED
+  summary: Disable installation-images:Kubic on 32bit build
+- component: Patterns
+  create_time: 20180411T12:35:00
+  id: 1089095
+  resolution: ''
+  status: NEW
+  summary: Rename readonly_root_tools pattern to transactional_base
+- component: Security
+  create_time: 20180411T11:47:00
+  id: 1089082
+  resolution: ''
+  status: NEW
+  summary: '"polkit-untracked-privilege" affects non-Factory packages'
+- component: Kernel
+  create_time: 20180411T02:37:00
+  id: 1088992
+  resolution: ''
+  status: NEW
+  summary: Thumbleweed did not boot on samsung nc110 (strange error at boot)
+- component: Security
+  create_time: 20180410T21:26:00
+  id: 1088944
+  resolution: ''
+  status: NEW
+  summary: 'warning: group or other writable: /etc/postfix/./ssl/cacerts/DigiCertSHA2SecureServerCA.pem'
+- component: Other
+  create_time: 20180410T19:45:00
+  id: 1088935
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'ddccontrol: invalid udev rule, i2c-dev is not loaded'
+- component: Kernel
+  create_time: 20180410T15:11:00
+  id: 1088902
+  resolution: ''
+  status: NEW
+  summary: 'amdgpu: Screen flickering every few seconds since update 2018-04-09'
+- component: Basesystem
+  create_time: 20180410T15:00:00
+  id: 1088897
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: post-build-checks build fails'
+- component: Kubic
+  create_time: 20180410T14:52:00
+  id: 1088893
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Leap 15/TW] - Rename Transactional System Role & Enable Updates by default'
+- component: Basesystem
+  create_time: 20180410T14:23:00
+  id: 1088885
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'GCC 8: zbar build fails'
+- component: YaST2
+  create_time: 20180410T11:12:00
+  id: 1088852
+  resolution: FIXED
+  status: RESOLVED
+  summary: skelcd-control-CAASP and yast2-caasp should get rid of require to yast2-registration
+    on 32bit
+- component: YaST2
+  create_time: 20180410T10:22:00
+  id: 1088844
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST "rake install" does not support installing custom icons
+- component: YaST2
+  create_time: 20180410T03:35:00
+  id: 1088785
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Allow for sidebar option in installer for distribution
+- component: High Availability
+  create_time: 20180410T03:30:00
+  id: 1088784
+  resolution: ''
+  status: IN_PROGRESS
+  summary: hb_report does not work, failed to connect to other nodes.
