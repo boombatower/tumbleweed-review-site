@@ -6793,6 +6793,12 @@
   status: IN_PROGRESS
   summary: yast2-nfs-client still uses nfs4 and minorversion
 '20180407':
+- component: Bootloader
+  create_time: 20180411T02:37:00
+  id: 1088992
+  resolution: ''
+  status: NEW
+  summary: Thumbleweed did not boot on samsung nc110 (strange error at boot)
 - component: Security
   create_time: 20180410T21:26:00
   id: 1088944
