@@ -272,8 +272,11 @@
   score: 84
   stability_level: moderate
 '20180406':
-  score: 53
+  score: 48
   stability_level: pending
 '20180407':
-  score: 78
+  score: 62
+  stability_level: pending
+'20180410':
+  score: 83
   stability_level: pending
