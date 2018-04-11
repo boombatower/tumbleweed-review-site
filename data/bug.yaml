@@ -2053,8 +2053,8 @@
 - component: Installation
   create_time: 20180119T15:54:00
   id: 1076839
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180117] installer startup: kexec failed'
 - component: YaST2
   create_time: 20180119T15:40:00
@@ -5722,7 +5722,7 @@
   create_time: 20180317T23:50:00
   id: 1085769
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: With default fontconfig, color emoji don't work in the apps that use cairo
     for rendering
 - component: Other
@@ -6789,11 +6789,11 @@
 - component: YaST2
   create_time: 20180406T08:49:00
   id: 1088426
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-nfs-client still uses nfs4 and minorversion
 '20180407':
-- component: Bootloader
+- component: Kernel
   create_time: 20180411T02:37:00
   id: 1088992
   resolution: ''
