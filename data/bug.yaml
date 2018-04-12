@@ -2743,8 +2743,8 @@
 - component: Installation
   create_time: 20180131T12:01:00
   id: 1078495
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'skelcd-control-openSUSE: missing swap settings'
 - component: KDE Workspace (Plasma)
   create_time: 20180131T11:19:00
@@ -6561,7 +6561,7 @@
   id: 1087756
   resolution: ''
   status: NEW
-  summary: libzip-devel-1.5.0-1.1
+  summary: libzip-devel-1.5.0-1.1 advertises broken path in its pkgconfig file
 - component: AppArmor
   create_time: 20180402T12:42:00
   id: 1087753
@@ -6836,8 +6836,8 @@
 - component: Kernel
   create_time: 20180409T11:12:00
   id: 1088658
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Intel wlan 3160 does not work on kernel 4.16
 - component: X11 3rd Party Driver
   create_time: 20180409T10:42:00
@@ -6886,7 +6886,7 @@
   create_time: 20180407T16:21:00
   id: 1088559
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Yast DNS Server module will convert upper-case to lower-case for TXT records
 - component: Other
   create_time: 20180407T08:06:00
@@ -6895,6 +6895,60 @@
   status: RESOLVED
   summary: Installed Libre Office and then tried to install open office
 '20180410':
+- component: Kernel
+  create_time: 20180412T14:10:00
+  id: 1089367
+  resolution: ''
+  status: NEW
+  summary: Kernel 4.16 problem with ACPI on Acer HW
+- component: Other
+  create_time: 20180412T12:57:00
+  id: 1089352
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Testing bug for python-bugzilla interface in order to test mass scripting
+- component: Kernel
+  create_time: 20180412T12:40:00
+  id: 1089349
+  resolution: ''
+  status: NEW
+  summary: overlayfs does not work with NFS as lower layer
+- component: Kernel
+  create_time: 20180412T12:39:00
+  id: 1089348
+  resolution: FIXED
+  status: RESOLVED
+  summary: Kernel 4.16 Synaptics TM2714-002 touchpad not detected anymore
+- component: Other
+  create_time: 20180412T11:44:00
+  id: 1089336
+  resolution: ''
+  status: NEW
+  summary: typo in python-chardet-3.0.4-3.1.src.rpm  spec.file
+- component: Basesystem
+  create_time: 20180412T11:25:00
+  id: 1089334
+  resolution: ''
+  status: NEW
+  summary: dracut doesn't set the hostname over DHCP
+- component: Basesystem
+  create_time: 20180412T11:20:00
+  id: 1089333
+  resolution: ''
+  status: NEW
+  summary: DHCP leases acquired in the initrd are not carried over into the sysroot
+- component: Basesystem
+  create_time: 20180412T11:17:00
+  id: 1089332
+  resolution: ''
+  status: NEW
+  summary: dracut doesn't use the nfs server address given by DHCP
+- component: Kernel
+  create_time: 20180412T11:08:00
+  id: 1089330
+  resolution: ''
+  status: NEW
+  summary: kernel-default-4.16.0-1.6 do not boot and work with Adaptek ASR8805 RAID
 - component: Other
   create_time: 20180412T09:47:00
   id: 1089315
