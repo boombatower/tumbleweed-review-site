@@ -6895,6 +6895,19 @@
   status: RESOLVED
   summary: Installed Libre Office and then tried to install open office
 '20180410':
+- component: Other
+  create_time: 20180412T01:09:00
+  id: 1089272
+  resolution: ''
+  status: NEW
+  summary: Python-m2crypto error keeps osc from running
+- component: Installation
+  create_time: 20180411T23:24:00
+  id: 1089269
+  resolution: ''
+  status: NEW
+  summary: Installation facing a "imcompatible character endodings" internal error
+    on some languages
 - component: Virtualization:Tools
   create_time: 20180411T20:40:00
   id: 1089255
@@ -6964,8 +6977,8 @@
 - component: Basesystem
   create_time: 20180410T15:00:00
   id: 1088897
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: post-build-checks build fails'
 - component: Kubic
   create_time: 20180410T14:52:00
