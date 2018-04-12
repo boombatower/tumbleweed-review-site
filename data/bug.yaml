@@ -4762,8 +4762,8 @@
 - component: Basesystem
   create_time: 20180301T18:33:00
   id: 1083571
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: systemd is missing LUKS2 support
 - component: KDE Workspace (Plasma)
   create_time: 20180301T17:39:00
@@ -5722,7 +5722,7 @@
   create_time: 20180317T23:50:00
   id: 1085769
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: With default fontconfig, color emoji don't work in the apps that use cairo
     for rendering
 - component: Other
@@ -6874,7 +6874,7 @@
   create_time: 20180407T21:55:00
   id: 1088562
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: '[Build 20180406] khelpcenter on livemedia: content looks broken'
 - component: Installation
   create_time: 20180407T17:52:00
@@ -6896,6 +6896,25 @@
   summary: Installed Libre Office and then tried to install open office
 '20180410':
 - component: Other
+  create_time: 20180412T09:47:00
+  id: 1089315
+  resolution: ''
+  status: NEW
+  summary: Tracker bug for bugs impacting transactional-netboot
+- component: KDE Applications
+  create_time: 20180412T07:11:00
+  id: 1089287
+  resolution: FIXED
+  status: RESOLVED
+  summary: sddm default configuration misses -keeptty option for X server
+- component: Samba
+  create_time: 20180412T06:24:00
+  id: 1089278
+  resolution: ''
+  status: NEW
+  summary: /usr/lib/cups/backend/smb in Samba 4.8.0 seems to have become incompatible
+    with CUPS (Samba 4.7.6 works)
+- component: Other
   create_time: 20180412T01:09:00
   id: 1089272
   resolution: ''
@@ -6904,8 +6923,8 @@
 - component: Installation
   create_time: 20180411T23:24:00
   id: 1089269
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Installation facing a "imcompatible character endodings" internal error
     on some languages
 - component: Virtualization:Tools
