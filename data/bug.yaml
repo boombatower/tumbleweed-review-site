@@ -6895,6 +6895,12 @@
   status: RESOLVED
   summary: Installed Libre Office and then tried to install open office
 '20180410':
+- component: AppArmor
+  create_time: 20180413T20:19:00
+  id: 1089594
+  resolution: ''
+  status: NEW
+  summary: AppArmor profile for updatedb
 - component: Kubic
   create_time: 20180413T11:47:00
   id: 1089501
@@ -6905,7 +6911,7 @@
   create_time: 20180413T11:17:00
   id: 1089497
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: libzypp tests failure with GNuPG 2.2.6
 - component: Kernel
   create_time: 20180413T09:05:00
@@ -7033,8 +7039,8 @@
 - component: Virtualization:Tools
   create_time: 20180411T20:40:00
   id: 1089255
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast install hypervisor and tools not working correctly
 - component: Virtualization:Tools
   create_time: 20180411T18:00:00
