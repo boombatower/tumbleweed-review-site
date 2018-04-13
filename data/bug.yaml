@@ -5760,7 +5760,7 @@
   create_time: 20180317T11:36:00
   id: 1085755
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: '[storage-ng?] autoyast profiles do not use new flat /var layout by default'
 - component: Basesystem
   create_time: 20180317T10:56:00
@@ -6442,7 +6442,7 @@
 - component: libzypp
   create_time: 20180326T06:26:00
   id: 1086783
-  resolution: FIXED
+  resolution: DUPLICATE
   status: RESOLVED
   summary: libsolv-tools uninstall attempted by zypper dup
 '20180330':
@@ -6520,8 +6520,8 @@
 - component: Kubic
   create_time: 20180401T16:36:00
   id: 1087721
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Patterns not showing in software selection during installation
 - component: Kubic
   create_time: 20180401T11:30:00
@@ -6559,8 +6559,8 @@
 - component: Development
   create_time: 20180402T14:23:00
   id: 1087756
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: libzip-devel-1.5.0-1.1 advertises broken path in its pkgconfig file
 - component: AppArmor
   create_time: 20180402T12:42:00
@@ -6895,6 +6895,18 @@
   status: RESOLVED
   summary: Installed Libre Office and then tried to install open office
 '20180410':
+- component: Kubic
+  create_time: 20180413T11:47:00
+  id: 1089501
+  resolution: ''
+  status: NEW
+  summary: salt-call --local network.default_route throws exception
+- component: libzypp
+  create_time: 20180413T11:17:00
+  id: 1089497
+  resolution: ''
+  status: NEW
+  summary: libzypp tests failure with GNuPG 2.2.6
 - component: Kernel
   create_time: 20180413T09:05:00
   id: 1089480
