@@ -4762,8 +4762,8 @@
 - component: Basesystem
   create_time: 20180301T18:33:00
   id: 1083571
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: systemd is missing LUKS2 support
 - component: KDE Workspace (Plasma)
   create_time: 20180301T17:39:00
@@ -5160,8 +5160,8 @@
 - component: Security
   create_time: 20180307T11:47:00
   id: 1084292
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: INVALID
+  status: RESOLVED
   summary: '[drupal8] Multiple Vulnerabilities - SA-CORE-2018-001'
 - component: Security
   create_time: 20180307T11:46:00
@@ -6280,7 +6280,7 @@
   create_time: 20180329T08:12:00
   id: 1087399
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: White-on-White on system_role screen
 - component: Kubic
   create_time: 20180329T07:21:00
@@ -6895,6 +6895,24 @@
   status: RESOLVED
   summary: Installed Libre Office and then tried to install open office
 '20180410':
+- component: Kernel
+  create_time: 20180413T09:05:00
+  id: 1089480
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180407] openQA btrfs_qgroups test reports bsc#1019614'
+- component: Kernel
+  create_time: 20180413T06:12:00
+  id: 1089467
+  resolution: FEATURE
+  status: RESOLVED
+  summary: dell 5520 docking station WD15 poor audio quality
+- component: Kernel
+  create_time: 20180413T05:59:00
+  id: 1089466
+  resolution: ''
+  status: NEW
+  summary: dell 5520 restoring keyboard led brightness hangs
 - component: Bootloader
   create_time: 20180412T20:22:00
   id: 1089439
