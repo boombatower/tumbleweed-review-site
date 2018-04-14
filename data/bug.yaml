@@ -6895,6 +6895,12 @@
   status: RESOLVED
   summary: Installed Libre Office and then tried to install open office
 '20180410':
+- component: Bootloader
+  create_time: 20180414T08:59:00
+  id: 1089609
+  resolution: ''
+  status: NEW
+  summary: Raspberry Pi 3B+ image not booting
 - component: AppArmor
   create_time: 20180413T20:19:00
   id: 1089594
