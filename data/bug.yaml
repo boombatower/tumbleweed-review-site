@@ -6948,7 +6948,7 @@
   id: 1089438
   resolution: ''
   status: NEW
-  summary: 'python3-flake: problem with restrained pycodestyle version'
+  summary: 'python3-flake8: problem with restrained pycodestyle version'
 - component: GNOME
   create_time: 20180412T19:24:00
   id: 1089434
