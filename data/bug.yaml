@@ -2449,8 +2449,8 @@
 - component: Other
   create_time: 20180127T22:13:00
   id: 1077857
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Linphone hangs on splash screen
 - component: KDE Workspace (Plasma)
   create_time: 20180127T15:44:00
@@ -5954,8 +5954,8 @@
 - component: GNOME
   create_time: 20180319T21:40:00
   id: 1085925
-  resolution: ''
-  status: NEW
+  resolution: FEATURE
+  status: RESOLVED
   summary: Touchpad's right & middle buttons act like the left one
 - component: Development
   create_time: 20180319T21:04:00
@@ -6895,6 +6895,12 @@
   status: RESOLVED
   summary: Installed Libre Office and then tried to install open office
 '20180410':
+- component: KDE Applications
+  create_time: 20180414T19:02:00
+  id: 1089614
+  resolution: ''
+  status: NEW
+  summary: baloo_file using huge amounts of memory
 - component: Bootloader
   create_time: 20180414T08:59:00
   id: 1089609
@@ -6985,7 +6991,7 @@
   id: 1089336
   resolution: ''
   status: NEW
-  summary: typo in python-chardet-3.0.4-3.1.src.rpm  spec.file
+  summary: 'python-chardet: uninstall statement for update-alternatives is missing'
 - component: Basesystem
   create_time: 20180412T11:25:00
   id: 1089334
