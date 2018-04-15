@@ -6895,6 +6895,13 @@
   status: RESOLVED
   summary: Installed Libre Office and then tried to install open office
 '20180410':
+- component: Kernel
+  create_time: 20180415T07:07:00
+  id: 1089615
+  resolution: ''
+  status: NEW
+  summary: 'AMD cards using DC code: random flicker with kernel 4.16 (upstream fix
+    available)'
 - component: KDE Applications
   create_time: 20180414T19:02:00
   id: 1089614
