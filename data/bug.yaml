@@ -6895,148 +6895,6 @@
   status: RESOLVED
   summary: Installed Libre Office and then tried to install open office
 '20180410':
-- component: Kubic
-  create_time: 20180417T13:08:00
-  id: 1089871
-  resolution: ''
-  status: NEW
-  summary: Cluster node vanishes in velum after accepting it
-- component: High Availability
-  create_time: 20180417T10:30:00
-  id: 1089836
-  resolution: ''
-  status: NEW
-  summary: corosync-2.4.4 is available now
-- component: Development
-  create_time: 20180417T10:14:00
-  id: 1089833
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'sparse: thousands of warnings about ''indirect_branch'': unknown attribute'
-- component: Other
-  create_time: 20180417T08:52:00
-  id: 1089820
-  resolution: ''
-  status: NEW
-  summary: 'uhd: Fails to build with Boost 1.67.0'
-- component: Network
-  create_time: 20180417T08:48:00
-  id: 1089818
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'qbittorrent: Fails to build with Boost 1.67.0 and libtorrent-rasterbar
-    1.1.6'
-- component: Other
-  create_time: 20180417T08:42:00
-  id: 1089815
-  resolution: ''
-  status: NEW
-  summary: 'python-espressopp: Fails to build with Boost 1.67.0'
-- component: Other
-  create_time: 20180417T08:39:00
-  id: 1089814
-  resolution: ''
-  status: NEW
-  summary: 'pdns,pdns-recursor: Fails to build with Boost 1.67.0'
-- component: GNOME
-  create_time: 20180417T08:39:00
-  id: 1089813
-  resolution: ''
-  status: NEW
-  summary: right clicking or doubleclicking on the icons in "systray" doesn't work
-    in wayland session
-- component: Other
-  create_time: 20180417T08:35:00
-  id: 1089812
-  resolution: ''
-  status: NEW
-  summary: 'libtorrent-rasterbar: Fails to build with Boost 1.67.0'
-- component: LibreOffice
-  create_time: 20180417T08:32:00
-  id: 1089811
-  resolution: ''
-  status: NEW
-  summary: 'liborcus: Fails to build with Boost 1.67.0'
-- component: Other
-  create_time: 20180417T08:29:00
-  id: 1089810
-  resolution: ''
-  status: CONFIRMED
-  summary: 'leechcraft: Fails to build with Boost 1.67.0'
-- component: Other
-  create_time: 20180417T08:25:00
-  id: 1089808
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'incinga2: Fails to build with Boost 1.67.0'
-- component: Other
-  create_time: 20180417T08:14:00
-  id: 1089806
-  resolution: ''
-  status: NEW
-  summary: 'gnuradio: Fails to build with Boost 1.67.0'
-- component: Other
-  create_time: 20180417T08:09:00
-  id: 1089805
-  resolution: ''
-  status: NEW
-  summary: 'avogadro: Fails to build with Boost 1.67.0'
-- component: Other
-  create_time: 20180417T07:51:00
-  id: 1089801
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[TRACKER BUG] Boost upgrade to 1.67.0 compilation issues'
-- component: Development
-  create_time: 20180417T03:40:00
-  id: 1089778
-  resolution: ''
-  status: NEW
-  summary: monodis segfaults on gnome-do dll
-- component: Kernel
-  create_time: 20180416T21:15:00
-  id: 1089764
-  resolution: ''
-  status: NEW
-  summary: 'openSUSE Tumbleweed: AARCH64: CONFIG_NR_CPUS should be set to 256'
-- component: Samba
-  create_time: 20180416T20:13:00
-  id: 1089758
-  resolution: ''
-  status: NEW
-  summary: LoadParm().load_default() fails with "Unable to load default file"
-- component: Security
-  create_time: 20180416T15:30:00
-  id: 1089731
-  resolution: ''
-  status: NEW
-  summary: 'VUL-1: CVE-2018-10113: gegl: The process function in operations/external/ppm-load.c
-    has unbounded memory allocation, leading to a denial of service'
-- component: Security
-  create_time: 20180416T15:28:00
-  id: 1089730
-  resolution: ''
-  status: NEW
-  summary: 'VUL-1: CVE-2018-10111: gegl: The render_rectangle function inprocess/gegl-processor.c
-    has unbounded memory allocation, leading to a denial of service'
-- component: Kernel
-  create_time: 20180416T12:57:00
-  id: 1089701
-  resolution: ''
-  status: NEW
-  summary: With kernel 4.16 webcam video is not working with Skype and Google Hangouts
-- component: Kernel
-  create_time: 20180416T09:12:00
-  id: 1089656
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: some HW has more then 128 CPUs
-- component: Kubic
-  create_time: 20180416T08:23:00
-  id: 1089649
-  resolution: FIXED
-  status: RESOLVED
-  summary: Container-Runtime pattern not installed
 - component: Installation
   create_time: 20180415T15:08:00
   id: 1089618
@@ -7313,3 +7171,159 @@
   resolution: ''
   status: IN_PROGRESS
   summary: hb_report does not work, failed to connect to other nodes.
+'20180416':
+- component: LibreOffice
+  create_time: 20180417T20:25:00
+  id: 1089941
+  resolution: ''
+  status: NEW
+  summary: Very slow loading documents when LibreOffice it not yet open
+- component: Samba
+  create_time: 20180417T19:36:00
+  id: 1089938
+  resolution: ''
+  status: NEW
+  summary: yast-samba-client fails to join if /etc/samba/smb.conf or /etc/krb5.conf
+    don't exist
+- component: Kubic
+  create_time: 20180417T13:08:00
+  id: 1089871
+  resolution: ''
+  status: NEW
+  summary: Cluster node vanishes in velum after accepting it
+- component: High Availability
+  create_time: 20180417T10:30:00
+  id: 1089836
+  resolution: ''
+  status: NEW
+  summary: corosync-2.4.4 is available now
+- component: Development
+  create_time: 20180417T10:14:00
+  id: 1089833
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'sparse: thousands of warnings about ''indirect_branch'': unknown attribute'
+- component: Other
+  create_time: 20180417T08:52:00
+  id: 1089820
+  resolution: ''
+  status: NEW
+  summary: 'uhd: Fails to build with Boost 1.67.0'
+- component: Network
+  create_time: 20180417T08:48:00
+  id: 1089818
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'qbittorrent: Fails to build with Boost 1.67.0 and libtorrent-rasterbar
+    1.1.6'
+- component: Other
+  create_time: 20180417T08:42:00
+  id: 1089815
+  resolution: ''
+  status: NEW
+  summary: 'python-espressopp: Fails to build with Boost 1.67.0'
+- component: Other
+  create_time: 20180417T08:39:00
+  id: 1089814
+  resolution: ''
+  status: NEW
+  summary: 'pdns,pdns-recursor: Fails to build with Boost 1.67.0'
+- component: GNOME
+  create_time: 20180417T08:39:00
+  id: 1089813
+  resolution: ''
+  status: NEW
+  summary: right clicking or doubleclicking on the icons in "systray" doesn't work
+    in wayland session
+- component: Other
+  create_time: 20180417T08:35:00
+  id: 1089812
+  resolution: ''
+  status: NEW
+  summary: 'libtorrent-rasterbar: Fails to build with Boost 1.67.0'
+- component: LibreOffice
+  create_time: 20180417T08:32:00
+  id: 1089811
+  resolution: ''
+  status: NEW
+  summary: 'liborcus: Fails to build with Boost 1.67.0'
+- component: Other
+  create_time: 20180417T08:29:00
+  id: 1089810
+  resolution: ''
+  status: CONFIRMED
+  summary: 'leechcraft: Fails to build with Boost 1.67.0'
+- component: Other
+  create_time: 20180417T08:25:00
+  id: 1089808
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'incinga2: Fails to build with Boost 1.67.0'
+- component: Other
+  create_time: 20180417T08:14:00
+  id: 1089806
+  resolution: ''
+  status: NEW
+  summary: 'gnuradio: Fails to build with Boost 1.67.0'
+- component: Other
+  create_time: 20180417T08:09:00
+  id: 1089805
+  resolution: ''
+  status: NEW
+  summary: 'avogadro: Fails to build with Boost 1.67.0'
+- component: Other
+  create_time: 20180417T07:51:00
+  id: 1089801
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[TRACKER BUG] Boost upgrade to 1.67.0 compilation issues'
+- component: Development
+  create_time: 20180417T03:40:00
+  id: 1089778
+  resolution: ''
+  status: NEW
+  summary: monodis segfaults on gnome-do dll
+- component: Kernel
+  create_time: 20180416T21:15:00
+  id: 1089764
+  resolution: ''
+  status: NEW
+  summary: 'openSUSE Tumbleweed: AARCH64: CONFIG_NR_CPUS should be set to 256'
+- component: Samba
+  create_time: 20180416T20:13:00
+  id: 1089758
+  resolution: ''
+  status: NEW
+  summary: LoadParm().load_default() fails with "Unable to load default file"
+- component: Security
+  create_time: 20180416T15:30:00
+  id: 1089731
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2018-10113: gegl: The process function in operations/external/ppm-load.c
+    has unbounded memory allocation, leading to a denial of service'
+- component: Security
+  create_time: 20180416T15:28:00
+  id: 1089730
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2018-10111: gegl: The render_rectangle function inprocess/gegl-processor.c
+    has unbounded memory allocation, leading to a denial of service'
+- component: Kernel
+  create_time: 20180416T12:57:00
+  id: 1089701
+  resolution: ''
+  status: NEW
+  summary: With kernel 4.16 webcam video is not working with Skype and Google Hangouts
+- component: Kernel
+  create_time: 20180416T09:12:00
+  id: 1089656
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: some HW has more then 128 CPUs
+- component: Kubic
+  create_time: 20180416T08:23:00
+  id: 1089649
+  resolution: FIXED
+  status: RESOLVED
+  summary: Container-Runtime pattern not installed
