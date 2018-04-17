@@ -5130,8 +5130,8 @@
 - component: Network
   create_time: 20180307T16:58:00
   id: 1084354
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: '[/etc/sysconfig/memcached] Update memcached info to be more informative'
 - component: Kubic
   create_time: 20180307T16:13:00
@@ -6259,8 +6259,8 @@
 - component: YaST2
   create_time: 20180329T15:24:00
   id: 1087486
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[storage-ng] Various storage NG related control.xml parameters not working'
 - component: Kubic
   create_time: 20180329T12:24:00
@@ -6895,6 +6895,12 @@
   status: RESOLVED
   summary: Installed Libre Office and then tried to install open office
 '20180410':
+- component: Kubic
+  create_time: 20180417T13:08:00
+  id: 1089871
+  resolution: ''
+  status: NEW
+  summary: Cluster node vanishes in velum after accepting it
 - component: High Availability
   create_time: 20180417T10:30:00
   id: 1089836
@@ -6916,8 +6922,8 @@
 - component: Network
   create_time: 20180417T08:48:00
   id: 1089818
-  resolution: ''
-  status: CONFIRMED
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'qbittorrent: Fails to build with Boost 1.67.0 and libtorrent-rasterbar
     1.1.6'
 - component: Other
@@ -6955,13 +6961,13 @@
   create_time: 20180417T08:29:00
   id: 1089810
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'leechcraft: Fails to build with Boost 1.67.0'
 - component: Other
   create_time: 20180417T08:25:00
   id: 1089808
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'incinga2: Fails to build with Boost 1.67.0'
 - component: Other
   create_time: 20180417T08:14:00
@@ -7213,8 +7219,8 @@
 - component: Other
   create_time: 20180411T14:27:00
   id: 1089126
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'mkisofs: Installation problem: ''$INS_BASE/share/lib/siconv/'' missing.'
 - component: YaST2
   create_time: 20180411T14:08:00
