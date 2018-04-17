@@ -5417,8 +5417,8 @@
 - component: Basesystem
   create_time: 20180309T10:01:00
   id: 1084630
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: libstoragemgmt build fails'
 - component: Upgrade Problems
   create_time: 20180309T09:59:00
@@ -5759,8 +5759,8 @@
 - component: AutoYaST
   create_time: 20180317T11:36:00
   id: 1085755
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[storage-ng?] autoyast profiles do not use new flat /var layout by default'
 - component: Basesystem
   create_time: 20180317T10:56:00
@@ -6279,8 +6279,8 @@
 - component: Installation
   create_time: 20180329T08:12:00
   id: 1087399
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: White-on-White on system_role screen
 - component: Kubic
   create_time: 20180329T07:21:00
@@ -6333,8 +6333,8 @@
 - component: Basesystem
   create_time: 20180327T16:06:00
   id: 1087136
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: llvm5 build fails'
 - component: Basesystem
   create_time: 20180327T16:03:00
@@ -6895,6 +6895,92 @@
   status: RESOLVED
   summary: Installed Libre Office and then tried to install open office
 '20180410':
+- component: High Availability
+  create_time: 20180417T10:30:00
+  id: 1089836
+  resolution: ''
+  status: NEW
+  summary: corosync-2.4.4 is available now
+- component: Development
+  create_time: 20180417T10:14:00
+  id: 1089833
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'sparse: thousands of warnings about ''indirect_branch'': unknown attribute'
+- component: Other
+  create_time: 20180417T08:52:00
+  id: 1089820
+  resolution: ''
+  status: NEW
+  summary: 'uhd: Fails to build with Boost 1.67.0'
+- component: Network
+  create_time: 20180417T08:48:00
+  id: 1089818
+  resolution: ''
+  status: CONFIRMED
+  summary: 'qbittorrent: Fails to build with Boost 1.67.0 and libtorrent-rasterbar
+    1.1.6'
+- component: Other
+  create_time: 20180417T08:42:00
+  id: 1089815
+  resolution: ''
+  status: NEW
+  summary: 'python-espressopp: Fails to build with Boost 1.67.0'
+- component: Other
+  create_time: 20180417T08:39:00
+  id: 1089814
+  resolution: ''
+  status: NEW
+  summary: 'pdns,pdns-recursor: Fails to build with Boost 1.67.0'
+- component: GNOME
+  create_time: 20180417T08:39:00
+  id: 1089813
+  resolution: ''
+  status: NEW
+  summary: right clicking or doubleclicking on the icons in "systray" doesn't work
+    in wayland session
+- component: Other
+  create_time: 20180417T08:35:00
+  id: 1089812
+  resolution: ''
+  status: NEW
+  summary: 'libtorrent-rasterbar: Fails to build with Boost 1.67.0'
+- component: LibreOffice
+  create_time: 20180417T08:32:00
+  id: 1089811
+  resolution: ''
+  status: NEW
+  summary: 'liborcus: Fails to build with Boost 1.67.0'
+- component: Other
+  create_time: 20180417T08:29:00
+  id: 1089810
+  resolution: ''
+  status: NEW
+  summary: 'leechcraft: Fails to build with Boost 1.67.0'
+- component: Other
+  create_time: 20180417T08:25:00
+  id: 1089808
+  resolution: ''
+  status: NEW
+  summary: 'incinga2: Fails to build with Boost 1.67.0'
+- component: Other
+  create_time: 20180417T08:14:00
+  id: 1089806
+  resolution: ''
+  status: NEW
+  summary: 'gnuradio: Fails to build with Boost 1.67.0'
+- component: Other
+  create_time: 20180417T08:09:00
+  id: 1089805
+  resolution: ''
+  status: NEW
+  summary: 'avogadro: Fails to build with Boost 1.67.0'
+- component: Other
+  create_time: 20180417T07:51:00
+  id: 1089801
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[TRACKER BUG] Boost upgrade to 1.67.0 compilation issues'
 - component: Development
   create_time: 20180417T03:40:00
   id: 1089778
