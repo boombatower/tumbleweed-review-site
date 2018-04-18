@@ -6758,8 +6758,8 @@
 - component: Other
   create_time: 20180406T11:26:00
   id: 1088463
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: ImageMagick fails test suite when no ghostscript-fonts are installed (e.g.
     when built against ghostscript 9.23)
 - component: Basesystem
@@ -7172,11 +7172,35 @@
   status: IN_PROGRESS
   summary: hb_report does not work, failed to connect to other nodes.
 '20180416':
+- component: Basesystem
+  create_time: 20180418T15:17:00
+  id: 1090085
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: apr is miscompiled'
+- component: Kernel
+  create_time: 20180418T14:10:00
+  id: 1090074
+  resolution: ''
+  status: NEW
+  summary: kernel WARNING for NVMe over Fabrics
+- component: Installation
+  create_time: 20180418T12:39:00
+  id: 1090056
+  resolution: ''
+  status: CONFIRMED
+  summary: YaST tries to install bootloader on NFS despite saying that it doesn't
+- component: Kernel
+  create_time: 20180418T10:56:00
+  id: 1090038
+  resolution: ''
+  status: NEW
+  summary: NULL pointer dereference at 00000000000002f1
 - component: Kernel
   create_time: 20180418T09:18:00
   id: 1090009
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Broken supported.conf leading to unusuable kernel-default-base
 - component: Kernel
   create_time: 20180418T08:23:00
