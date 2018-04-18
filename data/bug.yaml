@@ -3176,8 +3176,8 @@
 - component: X.Org
   create_time: 20180206T14:45:00
   id: 1079607
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 15.0B & TW20180203 Xorg terminates with error if Composite is disabled
 - component: KDE Workspace (Plasma)
   create_time: 20180206T11:23:00
@@ -7172,6 +7172,25 @@
   status: IN_PROGRESS
   summary: hb_report does not work, failed to connect to other nodes.
 '20180416':
+- component: Kernel
+  create_time: 20180418T09:18:00
+  id: 1090009
+  resolution: ''
+  status: NEW
+  summary: Broken supported.conf leading to unusuable kernel-default-base
+- component: Kernel
+  create_time: 20180418T08:23:00
+  id: 1089998
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'radeon: swiotlb buffer is full'
+- component: Other
+  create_time: 20180418T05:53:00
+  id: 1089970
+  resolution: ''
+  status: NEW
+  summary: '[HPC, environment modules] /etc/profile.d snippets of ''Modules'' and
+    ''lua-lmod'' Conflict'
 - component: LibreOffice
   create_time: 20180417T20:25:00
   id: 1089941
