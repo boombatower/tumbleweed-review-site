@@ -7218,8 +7218,8 @@
 - component: LibreOffice
   create_time: 20180417T20:25:00
   id: 1089941
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Very slow loading documents when LibreOffice it not yet open
 - component: Samba
   create_time: 20180417T19:36:00
