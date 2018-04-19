@@ -5447,8 +5447,8 @@
 - component: Basesystem
   create_time: 20180309T09:33:00
   id: 1084620
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: kernel-vanilla build fails'
 - component: Sound
   create_time: 20180309T07:55:00
