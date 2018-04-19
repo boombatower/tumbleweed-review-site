@@ -6511,7 +6511,7 @@
   status: NEW
   summary: weird behavior in konsole with remapped key
 '20180401':
-- component: Other
+- component: Kernel
   create_time: 20180401T22:23:00
   id: 1087725
   resolution: ''
@@ -6537,7 +6537,7 @@
   status: IN_PROGRESS
   summary: '[Build 20180330] openQA test fails in btrfs_autocompletion'
 '20180402':
-- component: Basesystem
+- component: Kernel
   create_time: 20180402T21:50:00
   id: 1087796
   resolution: ''
