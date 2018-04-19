@@ -698,9 +698,9 @@
     summary: released!
 '20180416':
   announcement: 2018-04.664
-  reference_count: 7
+  reference_count: 8
   thread_count: 1
   threads:
   - messages: [2018-04.670]
-    reference_count: 7
+    reference_count: 8
     summary: what happened to kernel-default-4.16.2?
