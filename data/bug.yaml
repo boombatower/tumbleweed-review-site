@@ -7172,6 +7172,13 @@
   status: IN_PROGRESS
   summary: hb_report does not work, failed to connect to other nodes.
 '20180416':
+- component: Kernel
+  create_time: 20180419T07:51:00
+  id: 1090162
+  resolution: ''
+  status: NEW
+  summary: Support TCP MD5SIG option for bgp md5 password auth (when using openSUSE
+    as a router)
 - component: Basesystem
   create_time: 20180418T15:17:00
   id: 1090085
@@ -7330,7 +7337,7 @@
   create_time: 20180416T21:15:00
   id: 1089764
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'openSUSE Tumbleweed: AARCH64: CONFIG_NR_CPUS should be set to 256'
 - component: Samba
   create_time: 20180416T20:13:00
