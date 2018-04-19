@@ -2935,8 +2935,8 @@
 - component: Virtualization:Other
   create_time: 20180202T19:37:00
   id: 1079164
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: DNS does not appear to be working when using QEMU User Networking (SLIRP)
 - component: YaST2
   create_time: 20180202T16:56:00
@@ -6228,8 +6228,8 @@
 - component: Kernel
   create_time: 20180324T23:17:00
   id: 1086739
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Kernel panic booting install DVD(s): kernel BUG at ../kernel/resource.c:722'
 - component: Installation
   create_time: 20180324T23:06:00
@@ -6254,7 +6254,7 @@
   create_time: 20180329T16:53:00
   id: 1087507
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: gtk3-branding-openSUSE discards admin/systemwide changes to /etc/gtk-3.0/settings.ini
 - component: YaST2
   create_time: 20180329T15:24:00
@@ -7021,8 +7021,8 @@
 - component: Basesystem
   create_time: 20180412T11:17:00
   id: 1089332
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: dracut doesn't use the nfs server address given by DHCP
 - component: Kernel
   create_time: 20180412T11:08:00
@@ -7172,6 +7172,18 @@
   status: IN_PROGRESS
   summary: hb_report does not work, failed to connect to other nodes.
 '20180416':
+- component: Kernel
+  create_time: 20180419T16:33:00
+  id: 1090262
+  resolution: ''
+  status: NEW
+  summary: Intel Wireless drivers missing in latest kernel
+- component: Other
+  create_time: 20180419T11:36:00
+  id: 1090209
+  resolution: ''
+  status: NEW
+  summary: Package libgccjit
 - component: Kernel
   create_time: 20180419T07:51:00
   id: 1090162
