@@ -7217,6 +7217,12 @@
   status: RESOLVED
   summary: Container-Runtime pattern not installed
 '20180417':
+- component: YaST2
+  create_time: 20180420T17:19:00
+  id: 1090415
+  resolution: ''
+  status: NEW
+  summary: Launching Yast2 causes QStandardPaths error, wrong ownership
 - component: Other
   create_time: 20180420T15:54:00
   id: 1090405
