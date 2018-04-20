@@ -704,3 +704,11 @@
   - messages: [2018-04.670]
     reference_count: 11
     summary: what happened to kernel-default-4.16.2?
+'20180417':
+  announcement: 2018-04.724
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages: [2018-04.725]
+    reference_count: 1
+    summary: released!  - chown message from postfix install
