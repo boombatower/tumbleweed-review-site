@@ -7172,6 +7172,12 @@
   status: IN_PROGRESS
   summary: hb_report does not work, failed to connect to other nodes.
 '20180416':
+- component: Basesystem
+  create_time: 20180420T10:25:00
+  id: 1090355
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: qemu build fails'
 - component: Kernel
   create_time: 20180419T16:33:00
   id: 1090262
@@ -7188,7 +7194,7 @@
   create_time: 20180419T07:51:00
   id: 1090162
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Support TCP MD5SIG option for bgp md5 password auth (when using openSUSE
     as a router)
 - component: Basesystem
@@ -7230,8 +7236,8 @@
 - component: Other
   create_time: 20180418T05:53:00
   id: 1089970
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[HPC, environment modules] /etc/profile.d snippets of ''Modules'' and
     ''lua-lmod'' Conflict'
 - component: LibreOffice
