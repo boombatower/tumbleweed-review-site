@@ -4986,7 +4986,7 @@
   id: 1083860
   resolution: ''
   status: CONFIRMED
-  summary: 'nvidia 390.25: Switching to VT and back restarts/kills X applications'
+  summary: 'nvidia 390.42: Switching to VT and back restarts/kills X applications'
 - component: X.Org
   create_time: 20180304T00:22:00
   id: 1083853
@@ -5996,8 +5996,8 @@
 - component: Kubic
   create_time: 20180319T13:19:00
   id: 1085832
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: snapper fails if not installed locale is set
 '20180320':
 - component: Patterns
@@ -6610,8 +6610,8 @@
 - component: Other
   create_time: 20180403T10:17:00
   id: 1087863
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 7z fails to extract .rar archives
 - component: Bootloader
   create_time: 20180403T09:00:00
@@ -7172,6 +7172,106 @@
   status: IN_PROGRESS
   summary: hb_report does not work, failed to connect to other nodes.
 '20180416':
+- component: Kernel
+  create_time: 20180416T21:15:00
+  id: 1089764
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'openSUSE Tumbleweed: AARCH64: CONFIG_NR_CPUS should be set to 256'
+- component: Samba
+  create_time: 20180416T20:13:00
+  id: 1089758
+  resolution: ''
+  status: NEW
+  summary: LoadParm().load_default() fails with "Unable to load default file"
+- component: Security
+  create_time: 20180416T15:30:00
+  id: 1089731
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2018-10113: gegl: The process function in operations/external/ppm-load.c
+    has unbounded memory allocation, leading to a denial of service'
+- component: Security
+  create_time: 20180416T15:28:00
+  id: 1089730
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2018-10111: gegl: The render_rectangle function inprocess/gegl-processor.c
+    has unbounded memory allocation, leading to a denial of service'
+- component: Kernel
+  create_time: 20180416T12:57:00
+  id: 1089701
+  resolution: ''
+  status: NEW
+  summary: With kernel 4.16 webcam video is not working with Skype and Google Hangouts
+- component: Kernel
+  create_time: 20180416T09:12:00
+  id: 1089656
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: some HW has more then 128 CPUs
+- component: Kubic
+  create_time: 20180416T08:23:00
+  id: 1089649
+  resolution: FIXED
+  status: RESOLVED
+  summary: Container-Runtime pattern not installed
+'20180417':
+- component: Other
+  create_time: 20180420T15:54:00
+  id: 1090405
+  resolution: ''
+  status: NEW
+  summary: Segmentation fault with python3, python3-gobject and WebKit2 WebView
+- component: Kubic
+  create_time: 20180420T15:37:00
+  id: 1090402
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Unknown Artifact after log-in dialogue is appeared
+- component: Containers
+  create_time: 20180420T14:48:00
+  id: 1090398
+  resolution: ''
+  status: NEW
+  summary: 'kubelet starts with errors:  Fail to get rootfs information unable to
+    find data for container'
+- component: Containers
+  create_time: 20180420T14:43:00
+  id: 1090396
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: kubelet fails get system container, cgroup stats and container info
+- component: Development
+  create_time: 20180420T13:44:00
+  id: 1090386
+  resolution: ''
+  status: NEW
+  summary: cross-arm-linux-gnueabi-gcc depends on obsolete libmpfr.so.4
+- component: Installation
+  create_time: 20180420T12:20:00
+  id: 1090372
+  resolution: ''
+  status: NEW
+  summary: Server System Roles have suboptimal default firewall settings
+- component: Security
+  create_time: 20180420T12:08:00
+  id: 1090371
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: cinnamon-control-center: new polkit policy org.cinnamon.controlcenter.datetime'
+- component: Basesystem
+  create_time: 20180420T11:41:00
+  id: 1090367
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'GCC 8: virtualbox build fails'
+- component: Basesystem
+  create_time: 20180420T10:58:00
+  id: 1090362
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'GCC 8: MozillaFirefox build fails'
 - component: Basesystem
   create_time: 20180420T10:25:00
   id: 1090355
@@ -7351,47 +7451,3 @@
   resolution: ''
   status: NEW
   summary: monodis segfaults on gnome-do dll
-- component: Kernel
-  create_time: 20180416T21:15:00
-  id: 1089764
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'openSUSE Tumbleweed: AARCH64: CONFIG_NR_CPUS should be set to 256'
-- component: Samba
-  create_time: 20180416T20:13:00
-  id: 1089758
-  resolution: ''
-  status: NEW
-  summary: LoadParm().load_default() fails with "Unable to load default file"
-- component: Security
-  create_time: 20180416T15:30:00
-  id: 1089731
-  resolution: ''
-  status: NEW
-  summary: 'VUL-1: CVE-2018-10113: gegl: The process function in operations/external/ppm-load.c
-    has unbounded memory allocation, leading to a denial of service'
-- component: Security
-  create_time: 20180416T15:28:00
-  id: 1089730
-  resolution: ''
-  status: NEW
-  summary: 'VUL-1: CVE-2018-10111: gegl: The render_rectangle function inprocess/gegl-processor.c
-    has unbounded memory allocation, leading to a denial of service'
-- component: Kernel
-  create_time: 20180416T12:57:00
-  id: 1089701
-  resolution: ''
-  status: NEW
-  summary: With kernel 4.16 webcam video is not working with Skype and Google Hangouts
-- component: Kernel
-  create_time: 20180416T09:12:00
-  id: 1089656
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: some HW has more then 128 CPUs
-- component: Kubic
-  create_time: 20180416T08:23:00
-  id: 1089649
-  resolution: FIXED
-  status: RESOLVED
-  summary: Container-Runtime pattern not installed
