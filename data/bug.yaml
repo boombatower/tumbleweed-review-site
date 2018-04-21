@@ -7373,6 +7373,12 @@
   summary: monodis segfaults on gnome-do dll
 '20180419':
 - component: Kernel
+  create_time: 20180421T20:31:00
+  id: 1090458
+  resolution: ''
+  status: NEW
+  summary: Problem with ath10k firmware
+- component: Kernel
   create_time: 20180421T15:02:00
   id: 1090456
   resolution: ''
