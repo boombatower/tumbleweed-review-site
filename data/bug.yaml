@@ -7372,6 +7372,12 @@
   status: NEW
   summary: monodis segfaults on gnome-do dll
 '20180419':
+- component: Kernel
+  create_time: 20180421T15:02:00
+  id: 1090456
+  resolution: ''
+  status: NEW
+  summary: amdgpu [RX Vega 64] system freeze while gaming
 - component: YaST2
   create_time: 20180420T17:19:00
   id: 1090415
@@ -7442,8 +7448,8 @@
 - component: Kernel
   create_time: 20180419T16:33:00
   id: 1090262
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Intel Wireless drivers missing in latest kernel
 - component: Other
   create_time: 20180419T11:36:00
