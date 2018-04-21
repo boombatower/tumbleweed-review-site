@@ -7175,8 +7175,8 @@
 - component: Kernel
   create_time: 20180416T21:15:00
   id: 1089764
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'openSUSE Tumbleweed: AARCH64: CONFIG_NR_CPUS should be set to 256'
 - component: Samba
   create_time: 20180416T20:13:00
@@ -7217,92 +7217,6 @@
   status: RESOLVED
   summary: Container-Runtime pattern not installed
 '20180417':
-- component: YaST2
-  create_time: 20180420T17:19:00
-  id: 1090415
-  resolution: ''
-  status: NEW
-  summary: Launching Yast2 causes QStandardPaths error, wrong ownership
-- component: Other
-  create_time: 20180420T15:54:00
-  id: 1090405
-  resolution: ''
-  status: NEW
-  summary: Segmentation fault with python3, python3-gobject and WebKit2 WebView
-- component: Kubic
-  create_time: 20180420T15:37:00
-  id: 1090402
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: Unknown Artifact after log-in dialogue is appeared
-- component: Containers
-  create_time: 20180420T14:48:00
-  id: 1090398
-  resolution: ''
-  status: NEW
-  summary: 'kubelet starts with errors:  Fail to get rootfs information unable to
-    find data for container'
-- component: Containers
-  create_time: 20180420T14:43:00
-  id: 1090396
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: kubelet fails get system container, cgroup stats and container info
-- component: Development
-  create_time: 20180420T13:44:00
-  id: 1090386
-  resolution: ''
-  status: NEW
-  summary: cross-arm-linux-gnueabi-gcc depends on obsolete libmpfr.so.4
-- component: Installation
-  create_time: 20180420T12:20:00
-  id: 1090372
-  resolution: ''
-  status: NEW
-  summary: Server System Roles have suboptimal default firewall settings
-- component: Security
-  create_time: 20180420T12:08:00
-  id: 1090371
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: cinnamon-control-center: new polkit policy org.cinnamon.controlcenter.datetime'
-- component: Basesystem
-  create_time: 20180420T11:41:00
-  id: 1090367
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'GCC 8: virtualbox build fails'
-- component: Basesystem
-  create_time: 20180420T10:58:00
-  id: 1090362
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'GCC 8: MozillaFirefox build fails'
-- component: Basesystem
-  create_time: 20180420T10:25:00
-  id: 1090355
-  resolution: ''
-  status: NEW
-  summary: 'GCC 8: qemu build fails'
-- component: Kernel
-  create_time: 20180419T16:33:00
-  id: 1090262
-  resolution: ''
-  status: NEW
-  summary: Intel Wireless drivers missing in latest kernel
-- component: Other
-  create_time: 20180419T11:36:00
-  id: 1090209
-  resolution: ''
-  status: NEW
-  summary: Package libgccjit
-- component: Kernel
-  create_time: 20180419T07:51:00
-  id: 1090162
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Support TCP MD5SIG option for bgp md5 password auth (when using openSUSE
-    as a router)
 - component: Basesystem
   create_time: 20180418T15:17:00
   id: 1090085
@@ -7457,3 +7371,90 @@
   resolution: ''
   status: NEW
   summary: monodis segfaults on gnome-do dll
+'20180419':
+- component: YaST2
+  create_time: 20180420T17:19:00
+  id: 1090415
+  resolution: ''
+  status: NEW
+  summary: Launching Yast2 causes QStandardPaths error, wrong ownership
+- component: Other
+  create_time: 20180420T15:54:00
+  id: 1090405
+  resolution: ''
+  status: NEW
+  summary: Segmentation fault with python3, python3-gobject and WebKit2 WebView
+- component: Kubic
+  create_time: 20180420T15:37:00
+  id: 1090402
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Unknown Artifact after log-in dialogue is appeared
+- component: Containers
+  create_time: 20180420T14:48:00
+  id: 1090398
+  resolution: ''
+  status: NEW
+  summary: 'kubelet starts with errors:  Fail to get rootfs information unable to
+    find data for container'
+- component: Containers
+  create_time: 20180420T14:43:00
+  id: 1090396
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: kubelet fails get system container, cgroup stats and container info
+- component: Development
+  create_time: 20180420T13:44:00
+  id: 1090386
+  resolution: ''
+  status: NEW
+  summary: cross-arm-linux-gnueabi-gcc depends on obsolete libmpfr.so.4
+- component: Installation
+  create_time: 20180420T12:20:00
+  id: 1090372
+  resolution: ''
+  status: NEW
+  summary: Server System Roles have suboptimal default firewall settings
+- component: Security
+  create_time: 20180420T12:08:00
+  id: 1090371
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: cinnamon-control-center: new polkit policy org.cinnamon.controlcenter.datetime'
+- component: Basesystem
+  create_time: 20180420T11:41:00
+  id: 1090367
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'GCC 8: virtualbox build fails'
+- component: Basesystem
+  create_time: 20180420T10:58:00
+  id: 1090362
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'GCC 8: MozillaFirefox build fails'
+- component: Basesystem
+  create_time: 20180420T10:25:00
+  id: 1090355
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: qemu build fails'
+- component: Kernel
+  create_time: 20180419T16:33:00
+  id: 1090262
+  resolution: ''
+  status: NEW
+  summary: Intel Wireless drivers missing in latest kernel
+- component: Other
+  create_time: 20180419T11:36:00
+  id: 1090209
+  resolution: ''
+  status: NEW
+  summary: Package libgccjit
+- component: Kernel
+  create_time: 20180419T07:51:00
+  id: 1090162
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Support TCP MD5SIG option for bgp md5 password auth (when using openSUSE
+    as a router)
