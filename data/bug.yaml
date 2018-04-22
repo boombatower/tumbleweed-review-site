@@ -7372,6 +7372,13 @@
   status: NEW
   summary: monodis segfaults on gnome-do dll
 '20180419':
+- component: Basesystem
+  create_time: 20180422T16:51:00
+  id: 1090476
+  resolution: ''
+  status: NEW
+  summary: Stopping NetworkManager service leaves file systems on Linux Software RAID
+    unmounted
 - component: Kernel
   create_time: 20180422T06:45:00
   id: 1090467
