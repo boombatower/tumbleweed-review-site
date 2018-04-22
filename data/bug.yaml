@@ -7373,6 +7373,12 @@
   summary: monodis segfaults on gnome-do dll
 '20180419':
 - component: Kernel
+  create_time: 20180422T06:45:00
+  id: 1090467
+  resolution: ''
+  status: NEW
+  summary: '*ERROR* CPU pipe A FIFO underrun (on Intel N3450)'
+- component: Kernel
   create_time: 20180421T20:31:00
   id: 1090458
   resolution: ''
