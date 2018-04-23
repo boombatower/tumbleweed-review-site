@@ -7168,8 +7168,8 @@
 - component: High Availability
   create_time: 20180410T03:30:00
   id: 1088784
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: hb_report does not work, failed to connect to other nodes.
 '20180416':
 - component: Kernel
