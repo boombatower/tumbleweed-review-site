@@ -7288,8 +7288,8 @@
 - component: Development
   create_time: 20180417T10:14:00
   id: 1089833
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'sparse: thousands of warnings about ''indirect_branch'': unknown attribute'
 - component: Other
   create_time: 20180417T08:52:00
@@ -7372,6 +7372,58 @@
   status: NEW
   summary: monodis segfaults on gnome-do dll
 '20180419':
+- component: Kernel
+  create_time: 20180419T16:33:00
+  id: 1090262
+  resolution: FIXED
+  status: RESOLVED
+  summary: Intel Wireless drivers missing in latest kernel
+- component: Other
+  create_time: 20180419T11:36:00
+  id: 1090209
+  resolution: ''
+  status: NEW
+  summary: Package libgccjit
+- component: Kernel
+  create_time: 20180419T07:51:00
+  id: 1090162
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Support TCP MD5SIG option for bgp md5 password auth (when using openSUSE
+    as a router)
+'20180420':
+- component: Bootloader
+  create_time: 20180423T10:36:00
+  id: 1090524
+  resolution: ''
+  status: NEW
+  summary: Failed grub2/install message in grub2-i386-pc %posttrans script
+- component: YaST2
+  create_time: 20180423T10:12:00
+  id: 1090520
+  resolution: ''
+  status: IN_PROGRESS
+  summary: active flag for lvm thin pools is probed wrong
+- component: Printing
+  create_time: 20180423T09:51:00
+  id: 1090516
+  resolution: ''
+  status: CONFIRMED
+  summary: gutenprint version upgrade to 5.2.14 to get native PCL 5c color laser printer
+    support
+- component: Other
+  create_time: 20180423T09:47:00
+  id: 1090515
+  resolution: ''
+  status: NEW
+  summary: bash-completion for 7z - rar is no longer supported and can be removed
+- component: Upgrade Problems
+  create_time: 20180423T07:59:00
+  id: 1090505
+  resolution: ''
+  status: NEW
+  summary: An older version of openSUSE Tumbleweed did not show any updates because
+    zypper repos of type "yast2" are not found (needs to be rpm-md)
 - component: Basesystem
   create_time: 20180422T16:51:00
   id: 1090476
@@ -7440,12 +7492,6 @@
   resolution: ''
   status: NEW
   summary: Server System Roles have suboptimal default firewall settings
-- component: Security
-  create_time: 20180420T12:08:00
-  id: 1090371
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: cinnamon-control-center: new polkit policy org.cinnamon.controlcenter.datetime'
 - component: Basesystem
   create_time: 20180420T11:41:00
   id: 1090367
@@ -7462,24 +7508,5 @@
   create_time: 20180420T10:25:00
   id: 1090355
   resolution: ''
-  status: NEW
-  summary: 'GCC 8: qemu build fails'
-- component: Kernel
-  create_time: 20180419T16:33:00
-  id: 1090262
-  resolution: FIXED
-  status: RESOLVED
-  summary: Intel Wireless drivers missing in latest kernel
-- component: Other
-  create_time: 20180419T11:36:00
-  id: 1090209
-  resolution: ''
-  status: NEW
-  summary: Package libgccjit
-- component: Kernel
-  create_time: 20180419T07:51:00
-  id: 1090162
-  resolution: ''
   status: IN_PROGRESS
-  summary: Support TCP MD5SIG option for bgp md5 password auth (when using openSUSE
-    as a router)
+  summary: 'GCC 8: qemu build fails'
