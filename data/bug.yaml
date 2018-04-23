@@ -1624,8 +1624,8 @@
 - component: Development
   create_time: 20180113T18:25:00
   id: 1075883
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: rust-std does not get updated together with rust
 - component: X11 Applications
   create_time: 20180113T15:25:00
@@ -6071,8 +6071,8 @@
 - component: Basesystem
   create_time: 20180322T11:14:00
   id: 1086447
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: clusterlvm support pulled by default
 - component: Development
   create_time: 20180322T11:00:00
@@ -6406,8 +6406,8 @@
 - component: Basesystem
   create_time: 20180326T23:41:00
   id: 1086987
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: python-dogpile.cache fails to build on non x86_64
 - component: KDE Workspace (Plasma)
   create_time: 20180326T15:51:00
@@ -6647,8 +6647,8 @@
 - component: Kubic
   create_time: 20180405T15:27:00
   id: 1088319
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Pause container not from DVD used
 - component: Maintenance
   create_time: 20180405T14:30:00
@@ -6867,8 +6867,8 @@
 - component: Samba
   create_time: 20180408T12:35:00
   id: 1088574
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Just updated TW now SMB daemon fails to start
 - component: Live Medium
   create_time: 20180407T21:55:00
@@ -7392,6 +7392,26 @@
   summary: Support TCP MD5SIG option for bgp md5 password auth (when using openSUSE
     as a router)
 '20180420':
+- component: YaST2
+  create_time: 20180423T18:05:00
+  id: 1090592
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180422] openQA test fails in yast2_apparmor - "yast/wfm.rb:253
+    Client /usr/share/YaST2/clients/aa-settings.rb failed with ''undefined method
+    `toggle'' for nil:NilClass'' (NoMethodError)."'
+- component: AppArmor
+  create_time: 20180423T13:48:00
+  id: 1090545
+  resolution: FIXED
+  status: RESOLVED
+  summary: apparmor.service cannot be started due to missing executeable rights
+- component: Kubic
+  create_time: 20180423T12:44:00
+  id: 1090536
+  resolution: FIXED
+  status: RESOLVED
+  summary: timezone_proposal - Changing Timezone has no effect
 - component: Bootloader
   create_time: 20180423T10:36:00
   id: 1090524
@@ -7401,14 +7421,14 @@
 - component: YaST2
   create_time: 20180423T10:12:00
   id: 1090520
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: active flag for lvm thin pools is probed wrong
 - component: Printing
   create_time: 20180423T09:51:00
   id: 1090516
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: gutenprint version upgrade to 5.2.14 to get native PCL 5c color laser printer
     support
 - component: Other
@@ -7452,8 +7472,8 @@
 - component: YaST2
   create_time: 20180420T17:19:00
   id: 1090415
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Launching Yast2 causes QStandardPaths error, wrong ownership
 - component: Other
   create_time: 20180420T15:54:00
