@@ -726,8 +726,8 @@
 - component: Basesystem
   create_time: 20171215T08:10:00
   id: 1073028
-  resolution: ''
-  status: REOPENED
+  resolution: INVALID
+  status: RESOLVED
   summary: System stuck at boot after timed out waiting for device(device uuid).
 '20171216':
 - component: Usability
@@ -6352,8 +6352,8 @@
 - component: Basesystem
   create_time: 20180327T13:00:00
   id: 1087075
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: texlive tests fail'
 - component: X11 Applications
   create_time: 20180327T12:49:00
@@ -6388,8 +6388,8 @@
 - component: Patterns
   create_time: 20180327T12:11:00
   id: 1087063
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'intel [Gen3]: xf86-video-intel not installed by default on <= Gen3'
 - component: Other
   create_time: 20180327T11:03:00
@@ -6533,8 +6533,8 @@
 - component: Patterns
   create_time: 20180401T01:43:00
   id: 1087710
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180330] openQA test fails in btrfs_autocompletion'
 '20180402':
 - component: Kernel
@@ -6690,8 +6690,8 @@
 - component: Patterns
   create_time: 20180404T23:32:00
   id: 1088229
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '"readonly_root_tools" pattern missing on Tumbleweed media'
 - component: KDE Workspace (Plasma)
   create_time: 20180404T19:46:00
@@ -7392,6 +7392,36 @@
   summary: Support TCP MD5SIG option for bgp md5 password auth (when using openSUSE
     as a router)
 '20180420':
+- component: X11 Applications
+  create_time: 20180424T08:50:00
+  id: 1090677
+  resolution: ''
+  status: NEW
+  summary: 'X11:RemoteDesktop/freerdp: Bug missing pulse support'
+- component: Sound
+  create_time: 20180424T07:47:00
+  id: 1090658
+  resolution: ''
+  status: NEW
+  summary: alsamixer aborts with realtek usb audio 0bda:4014
+- component: High Availability
+  create_time: 20180424T06:33:00
+  id: 1090641
+  resolution: ''
+  status: IN_PROGRESS
+  summary: kronosnet-1.3 is available now
+- component: Basesystem
+  create_time: 20180424T06:03:00
+  id: 1090636
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: pgrep -P 1 seg.faults in containers
+- component: Installation
+  create_time: 20180424T05:09:00
+  id: 1090634
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: netinstall not work in russian language (while detect disks)
 - component: YaST2
   create_time: 20180423T18:05:00
   id: 1090592
@@ -7434,8 +7464,8 @@
 - component: Other
   create_time: 20180423T09:47:00
   id: 1090515
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: bash-completion for 7z - rar is no longer supported and can be removed
 - component: Upgrade Problems
   create_time: 20180423T07:59:00
