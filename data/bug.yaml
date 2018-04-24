@@ -7392,6 +7392,12 @@
   summary: Support TCP MD5SIG option for bgp md5 password auth (when using openSUSE
     as a router)
 '20180420':
+- component: Basesystem
+  create_time: 20180424T22:03:00
+  id: 1090789
+  resolution: ''
+  status: NEW
+  summary: btrfsmaintenance doens't work per default in transactional server role
 - component: Apache
   create_time: 20180424T10:55:00
   id: 1090695
