@@ -6659,8 +6659,8 @@
 - component: Basesystem
   create_time: 20180405T13:46:00
   id: 1088306
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Mess in /etc/os-release files for different openSUSE branches
 - component: Kubic
   create_time: 20180405T13:20:00
@@ -6854,8 +6854,8 @@
 - component: Patterns
   create_time: 20180409T08:58:00
   id: 1088615
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: gnome-desktop Wayland and gnome-desktop X11 both listed in installation
     setting
 - component: GNOME
@@ -6873,8 +6873,8 @@
 - component: Live Medium
   create_time: 20180407T21:55:00
   id: 1088562
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WONTFIX
+  status: RESOLVED
   summary: '[Build 20180406] khelpcenter on livemedia: content looks broken'
 - component: Installation
   create_time: 20180407T17:52:00
@@ -7392,17 +7392,23 @@
   summary: Support TCP MD5SIG option for bgp md5 password auth (when using openSUSE
     as a router)
 '20180420':
+- component: Apache
+  create_time: 20180424T10:55:00
+  id: 1090695
+  resolution: ''
+  status: REOPENED
+  summary: mod_proxy_uwsgi is missing
 - component: X11 Applications
   create_time: 20180424T08:50:00
   id: 1090677
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'X11:RemoteDesktop/freerdp: Bug missing pulse support'
 - component: Sound
   create_time: 20180424T07:47:00
   id: 1090658
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: alsamixer aborts with realtek usb audio 0bda:4014
 - component: High Availability
   create_time: 20180424T06:33:00
