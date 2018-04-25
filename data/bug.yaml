@@ -7392,6 +7392,12 @@
   summary: Support TCP MD5SIG option for bgp md5 password auth (when using openSUSE
     as a router)
 '20180420':
+- component: GNOME
+  create_time: 20180425T08:38:00
+  id: 1090846
+  resolution: ''
+  status: NEW
+  summary: Wayland restarts randomly
 - component: Basesystem
   create_time: 20180424T22:03:00
   id: 1090789
@@ -7469,8 +7475,8 @@
 - component: Printing
   create_time: 20180423T09:51:00
   id: 1090516
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: gutenprint version upgrade to 5.2.14 to get native PCL 5c color laser printer
     support
 - component: Other
@@ -7483,9 +7489,8 @@
   create_time: 20180423T07:59:00
   id: 1090505
   resolution: ''
-  status: NEW
-  summary: An older version of openSUSE Tumbleweed did not show any updates because
-    zypper repos of type "yast2" are not found (needs to be rpm-md)
+  status: REOPENED
+  summary: yast2 automatic online update or zypper did not update my system
 - component: Basesystem
   create_time: 20180422T16:51:00
   id: 1090476
