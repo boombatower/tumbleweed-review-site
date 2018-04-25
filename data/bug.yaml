@@ -4457,8 +4457,8 @@
 - component: Kernel
   create_time: 20180223T09:38:00
   id: 1082504
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Patch file not found ar3k/AthrBT_0x00000200.dfu
 - component: GNOME
   create_time: 20180223T06:41:00
@@ -7392,54 +7392,6 @@
   summary: Support TCP MD5SIG option for bgp md5 password auth (when using openSUSE
     as a router)
 '20180420':
-- component: GNOME
-  create_time: 20180425T08:38:00
-  id: 1090846
-  resolution: ''
-  status: NEW
-  summary: Wayland restarts randomly
-- component: Basesystem
-  create_time: 20180424T22:03:00
-  id: 1090789
-  resolution: ''
-  status: NEW
-  summary: btrfsmaintenance doens't work per default in transactional server role
-- component: Apache
-  create_time: 20180424T10:55:00
-  id: 1090695
-  resolution: ''
-  status: REOPENED
-  summary: mod_proxy_uwsgi is missing
-- component: X11 Applications
-  create_time: 20180424T08:50:00
-  id: 1090677
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'X11:RemoteDesktop/freerdp: Bug missing pulse support'
-- component: Sound
-  create_time: 20180424T07:47:00
-  id: 1090658
-  resolution: FIXED
-  status: RESOLVED
-  summary: alsamixer aborts with realtek usb audio 0bda:4014
-- component: High Availability
-  create_time: 20180424T06:33:00
-  id: 1090641
-  resolution: ''
-  status: IN_PROGRESS
-  summary: kronosnet-1.3 is available now
-- component: Basesystem
-  create_time: 20180424T06:03:00
-  id: 1090636
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: pgrep -P 1 seg.faults in containers
-- component: Installation
-  create_time: 20180424T05:09:00
-  id: 1090634
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: netinstall not work in russian language (while detect disks)
 - component: YaST2
   create_time: 20180423T18:05:00
   id: 1090592
@@ -7489,8 +7441,9 @@
   create_time: 20180423T07:59:00
   id: 1090505
   resolution: ''
-  status: REOPENED
-  summary: yast2 automatic online update or zypper did not update my system
+  status: NEW
+  summary: yast2 automatic online update calls useless "zypper patch" on Tumbleweed
+    instead of "zypper dup"
 - component: Basesystem
   create_time: 20180422T16:51:00
   id: 1090476
@@ -7577,3 +7530,64 @@
   resolution: ''
   status: IN_PROGRESS
   summary: 'GCC 8: qemu build fails'
+'20180424':
+- component: Kubic
+  create_time: 20180425T14:47:00
+  id: 1090913
+  resolution: ''
+  status: NEW
+  summary: Default timezone is US/Eastern and not UTC
+- component: Basesystem
+  create_time: 20180425T12:28:00
+  id: 1090896
+  resolution: ''
+  status: NEW
+  summary: systemd--modules-load shows error message
+- component: GNOME
+  create_time: 20180425T08:38:00
+  id: 1090846
+  resolution: ''
+  status: NEW
+  summary: Wayland restarts randomly
+- component: Basesystem
+  create_time: 20180424T22:03:00
+  id: 1090789
+  resolution: ''
+  status: NEW
+  summary: btrfsmaintenance doens't work per default in transactional server role
+- component: Apache
+  create_time: 20180424T10:55:00
+  id: 1090695
+  resolution: ''
+  status: REOPENED
+  summary: mod_proxy_uwsgi is missing
+- component: X11 Applications
+  create_time: 20180424T08:50:00
+  id: 1090677
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'X11:RemoteDesktop/freerdp: Bug missing pulse support'
+- component: Sound
+  create_time: 20180424T07:47:00
+  id: 1090658
+  resolution: FIXED
+  status: RESOLVED
+  summary: alsamixer aborts with realtek usb audio 0bda:4014
+- component: High Availability
+  create_time: 20180424T06:33:00
+  id: 1090641
+  resolution: ''
+  status: IN_PROGRESS
+  summary: kronosnet-1.3 is available now
+- component: Basesystem
+  create_time: 20180424T06:03:00
+  id: 1090636
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: pgrep -P 1 seg.faults in containers
+- component: Installation
+  create_time: 20180424T05:09:00
+  id: 1090634
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: netinstall not work in russian language (while detect disks)
