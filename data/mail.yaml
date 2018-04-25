@@ -724,6 +724,12 @@
   threads: []
 '20180424':
   announcement: 2018-04.791
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 3
+  thread_count: 2
+  threads:
+  - messages: [2018-04.792]
+    reference_count: 2
+    summary: 'released - var-lib-nfs-rpc_pipefs.mount: Failed'
+  - messages: [2018-04.793]
+    reference_count: 1
+    summary: 'released - failed to load module loop: libbd_loop.so.2'
