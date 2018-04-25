@@ -7558,8 +7558,8 @@
 - component: Apache
   create_time: 20180424T10:55:00
   id: 1090695
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: mod_proxy_uwsgi is missing
 - component: X11 Applications
   create_time: 20180424T08:50:00
