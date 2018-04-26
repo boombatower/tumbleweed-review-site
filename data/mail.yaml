@@ -724,11 +724,11 @@
   threads: []
 '20180424':
   announcement: 2018-04.791
-  reference_count: 3
+  reference_count: 4
   thread_count: 2
   threads:
   - messages: [2018-04.792]
-    reference_count: 2
+    reference_count: 3
     summary: 'released - var-lib-nfs-rpc_pipefs.mount: Failed'
   - messages: [2018-04.793]
     reference_count: 1
