@@ -7531,6 +7531,12 @@
   status: IN_PROGRESS
   summary: 'GCC 8: qemu build fails'
 '20180424':
+- component: Other
+  create_time: 20180425T23:20:00
+  id: 1090978
+  resolution: ''
+  status: NEW
+  summary: Audacity 2.2.2-1.3 doesn't start
 - component: Kubic
   create_time: 20180425T14:47:00
   id: 1090913
