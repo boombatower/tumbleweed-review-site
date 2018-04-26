@@ -7460,8 +7460,8 @@
 - component: Kernel
   create_time: 20180421T20:31:00
   id: 1090458
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Problem with ath10k firmware
 - component: Kernel
   create_time: 20180421T15:02:00
@@ -7527,8 +7527,8 @@
 - component: Basesystem
   create_time: 20180420T10:25:00
   id: 1090355
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: qemu build fails'
 '20180424':
 - component: Kernel
