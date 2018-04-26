@@ -3453,8 +3453,8 @@
 - component: YaST2
   create_time: 20180208T10:49:00
   id: 1080037
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '"yast2 lan list" warns about closing STDIN'
 - component: GNOME
   create_time: 20180208T09:18:00
@@ -6948,8 +6948,8 @@
 - component: Kernel
   create_time: 20180413T06:12:00
   id: 1089467
-  resolution: FEATURE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: dell 5520 docking station WD15 poor audio quality
 - component: Kernel
   create_time: 20180413T05:59:00
@@ -7531,6 +7531,12 @@
   status: IN_PROGRESS
   summary: 'GCC 8: qemu build fails'
 '20180424':
+- component: Kernel
+  create_time: 20180426T14:47:00
+  id: 1091097
+  resolution: ''
+  status: NEW
+  summary: 9p kernel module(s) needed for kubic development environment
 - component: Other
   create_time: 20180425T23:20:00
   id: 1090978
