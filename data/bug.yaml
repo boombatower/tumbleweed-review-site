@@ -7531,36 +7531,6 @@
   status: RESOLVED
   summary: 'GCC 8: qemu build fails'
 '20180424':
-- component: Kernel
-  create_time: 20180426T14:47:00
-  id: 1091097
-  resolution: ''
-  status: NEW
-  summary: 9p kernel module(s) needed for kubic development environment
-- component: Other
-  create_time: 20180425T23:20:00
-  id: 1090978
-  resolution: ''
-  status: NEW
-  summary: Audacity 2.2.2-1.3 doesn't start
-- component: Kubic
-  create_time: 20180425T14:47:00
-  id: 1090913
-  resolution: ''
-  status: NEW
-  summary: Default timezone is US/Eastern and not UTC
-- component: Basesystem
-  create_time: 20180425T12:28:00
-  id: 1090896
-  resolution: ''
-  status: NEW
-  summary: systemd--modules-load shows error message
-- component: GNOME
-  create_time: 20180425T08:38:00
-  id: 1090846
-  resolution: ''
-  status: NEW
-  summary: Wayland restarts randomly
 - component: Basesystem
   create_time: 20180424T22:03:00
   id: 1090789
@@ -7603,3 +7573,34 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: netinstall not work in russian language (while detect disks)
+'20180425':
+- component: Kernel
+  create_time: 20180426T14:47:00
+  id: 1091097
+  resolution: ''
+  status: NEW
+  summary: 9p kernel module(s) needed for kubic development environment
+- component: Other
+  create_time: 20180425T23:20:00
+  id: 1090978
+  resolution: ''
+  status: NEW
+  summary: Audacity 2.2.2-1.3 doesn't start
+- component: Kubic
+  create_time: 20180425T14:47:00
+  id: 1090913
+  resolution: ''
+  status: NEW
+  summary: Default timezone is US/Eastern and not UTC
+- component: Basesystem
+  create_time: 20180425T12:28:00
+  id: 1090896
+  resolution: ''
+  status: NEW
+  summary: systemd--modules-load shows error message
+- component: GNOME
+  create_time: 20180425T08:38:00
+  id: 1090846
+  resolution: ''
+  status: NEW
+  summary: Wayland restarts randomly
