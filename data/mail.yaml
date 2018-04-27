@@ -733,3 +733,8 @@
   - messages: [2018-04.793]
     reference_count: 1
     summary: 'released - failed to load module loop: libbd_loop.so.2'
+'20180425':
+  announcement: 2018-04.816
+  reference_count: 0
+  thread_count: 0
+  threads: []
