@@ -1291,8 +1291,8 @@
 - component: Installation
   create_time: 20180103T08:48:00
   id: 1074433
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Installation hangs at finding hardware stage
 - component: AppArmor
   create_time: 20180103T08:16:00
@@ -2984,8 +2984,8 @@
 - component: YaST2
   create_time: 20180202T11:50:00
   id: 1079049
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Packet yast2-trans should be build with the newest translations
 - component: libzypp
   create_time: 20180202T09:32:00
@@ -3577,8 +3577,8 @@
 - component: Installation
   create_time: 20180211T19:53:00
   id: 1080489
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Installation of Tumbleweed fails with DeviceRealDisk for Storage:Module
 - component: Development
   create_time: 20180211T19:35:00
@@ -4426,8 +4426,8 @@
 - component: Installation
   create_time: 20180223T18:08:00
   id: 1082622
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: No snapper configuration at installation
 - component: Development
   create_time: 20180223T11:50:00
@@ -5627,7 +5627,7 @@
 - component: Network
   create_time: 20180315T16:11:00
   id: 1085506
-  resolution: FIXED
+  resolution: WONTFIX
   status: RESOLVED
   summary: mvapich2/openmpi1/2/3 not built with slurm support
 - component: Basesystem
@@ -6936,8 +6936,8 @@
 - component: libzypp
   create_time: 20180413T11:17:00
   id: 1089497
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: libzypp tests failure with GnuPG 2.2.6
 - component: Kernel
   create_time: 20180413T09:05:00
@@ -7530,6 +7530,13 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'GCC 8: qemu build fails'
+- component: Patterns
+  create_time: 20180420T06:33:00
+  id: 1090319
+  resolution: ''
+  status: IN_PROGRESS
+  summary: pattern:gnome-20180321-lp150.1.1.x86_64 requires patterns-gnome-gnome,
+    but this requirement cannot be provided
 '20180424':
 - component: Basesystem
   create_time: 20180424T22:03:00
@@ -7574,6 +7581,12 @@
   status: RESOLVED
   summary: netinstall not work in russian language (while detect disks)
 '20180425':
+- component: Other
+  create_time: 20180427T15:37:00
+  id: 1091245
+  resolution: ''
+  status: NEW
+  summary: '[20180425] VNC not working. Black screen appears.'
 - component: KDE Workspace (Plasma)
   create_time: 20180427T09:40:00
   id: 1091191
@@ -7597,12 +7610,13 @@
   id: 1091097
   resolution: ''
   status: NEW
-  summary: 9p kernel module(s) needed for kubic development environment
+  summary: 9p kernel module(s) needed in kernel-default-base for kubic development
+    environment
 - component: Other
   create_time: 20180425T23:20:00
   id: 1090978
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Audacity 2.2.2-1.3 doesn't start
 - component: Kubic
   create_time: 20180425T14:47:00
