@@ -735,11 +735,11 @@
     summary: 'released - failed to load module loop: libbd_loop.so.2'
 '20180425':
   announcement: 2018-04.816
-  reference_count: 21
+  reference_count: 38
   thread_count: 2
   threads:
   - messages: [2018-04.820]
-    reference_count: 16
+    reference_count: 33
     summary: released!
   - messages: [2018-04.826]
     reference_count: 5
