@@ -5627,8 +5627,8 @@
 - component: Network
   create_time: 20180315T16:11:00
   id: 1085506
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: mvapich2/openmpi1/2/3 not built with slurm support
 - component: Basesystem
   create_time: 20180315T13:55:00
@@ -7574,6 +7574,24 @@
   status: RESOLVED
   summary: netinstall not work in russian language (while detect disks)
 '20180425':
+- component: KDE Workspace (Plasma)
+  create_time: 20180427T09:40:00
+  id: 1091191
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: KDE Plasma doesn't play login sound
+- component: Translations
+  create_time: 20180427T09:16:00
+  id: 1091185
+  resolution: ''
+  status: NEW
+  summary: weblate uses different formatting than gettext
+- component: Samba
+  create_time: 20180427T08:10:00
+  id: 1091179
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Update samba to 4.8.1
 - component: Kernel
   create_time: 20180426T14:47:00
   id: 1091097
