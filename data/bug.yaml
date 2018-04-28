@@ -7581,6 +7581,12 @@
   status: RESOLVED
   summary: netinstall not work in russian language (while detect disks)
 '20180425':
+- component: YaST2
+  create_time: 20180428T07:42:00
+  id: 1091286
+  resolution: ''
+  status: NEW
+  summary: libyui-qt{,-pkg,graph} does not build with Qt 5.11
 - component: Other
   create_time: 20180427T15:37:00
   id: 1091245
