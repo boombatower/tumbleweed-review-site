@@ -7581,11 +7581,29 @@
   status: RESOLVED
   summary: netinstall not work in russian language (while detect disks)
 '20180425':
+- component: Development
+  create_time: 20180428T21:49:00
+  id: 1091300
+  resolution: ''
+  status: NEW
+  summary: xfsprogs v4.16.0 package build failure
+- component: Development
+  create_time: 20180428T21:49:00
+  id: 1091299
+  resolution: ''
+  status: NEW
+  summary: xfsprogs v4.16.0 package build failure
+- component: Kubic
+  create_time: 20180428T17:18:00
+  id: 1091296
+  resolution: ''
+  status: NEW
+  summary: Description of MicroOS system role
 - component: X.Org
   create_time: 20180428T13:34:00
   id: 1091292
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Factory] Steam| .local/share/Steam/ubuntu12_32/steam: symbol lookup error:
     /usr/lib/libxcb-dri3.so.0: undefined symbol: xcb_send_request_with_fds'
 - component: YaST2
