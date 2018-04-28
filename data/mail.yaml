@@ -735,14 +735,14 @@
     summary: 'released - failed to load module loop: libbd_loop.so.2'
 '20180425':
   announcement: 2018-04.816
-  reference_count: 45
+  reference_count: 47
   thread_count: 3
   threads:
   - messages: [2018-04.878]
-    reference_count: 6
+    reference_count: 7
     summary: ', no miniwindows preview in KDE.'
   - messages: [2018-04.820]
-    reference_count: 34
+    reference_count: 35
     summary: released!
   - messages: [2018-04.826]
     reference_count: 5
