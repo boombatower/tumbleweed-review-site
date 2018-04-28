@@ -7581,6 +7581,13 @@
   status: RESOLVED
   summary: netinstall not work in russian language (while detect disks)
 '20180425':
+- component: X.Org
+  create_time: 20180428T13:34:00
+  id: 1091292
+  resolution: ''
+  status: NEW
+  summary: '[Factory] Steam| .local/share/Steam/ubuntu12_32/steam: symbol lookup error:
+    /usr/lib/libxcb-dri3.so.0: undefined symbol: xcb_send_request_with_fds'
 - component: YaST2
   create_time: 20180428T07:42:00
   id: 1091286
