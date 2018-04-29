@@ -6269,7 +6269,7 @@
   status: RESOLVED
   summary: Transactional Server Role in Leap 15/TW - Allows installation on disks
     under 16GB
-- component: Development
+- component: Basesystem
   create_time: 20180329T10:48:00
   id: 1087430
   resolution: ''
