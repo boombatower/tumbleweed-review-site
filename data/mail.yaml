@@ -735,20 +735,23 @@
     summary: 'released - failed to load module loop: libbd_loop.so.2'
 '20180425':
   announcement: 2018-04.816
-  reference_count: 48
+  reference_count: 49
   thread_count: 3
   threads:
   - messages: [2018-04.878]
     reference_count: 8
     summary: ', no miniwindows preview in KDE.'
   - messages: [2018-04.820]
-    reference_count: 35
+    reference_count: 36
     summary: released!
   - messages: [2018-04.826]
     reference_count: 5
     summary: got gpg-offline removed
 '20180427':
   announcement: 2018-04.914
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages: [2018-04.924]
+    reference_count: 2
+    summary: Failed to mount /sysroot
