@@ -747,3 +747,8 @@
   - messages: [2018-04.826]
     reference_count: 5
     summary: got gpg-offline removed
+'20180427':
+  announcement: 2018-04.914
+  reference_count: 0
+  thread_count: 0
+  threads: []
