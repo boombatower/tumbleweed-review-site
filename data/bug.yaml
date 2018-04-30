@@ -7581,6 +7581,18 @@
   status: RESOLVED
   summary: netinstall not work in russian language (while detect disks)
 '20180425':
+- component: Security
+  create_time: 20180430T00:04:00
+  id: 1091316
+  resolution: ''
+  status: NEW
+  summary: transactional-update - lack of error handling of the mktemp command
+- component: Other
+  create_time: 20180429T14:30:00
+  id: 1091309
+  resolution: ''
+  status: NEW
+  summary: libgphoto2-6 - broken import pictures
 - component: Development
   create_time: 20180428T21:49:00
   id: 1091300
@@ -7590,8 +7602,8 @@
 - component: Development
   create_time: 20180428T21:49:00
   id: 1091299
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: xfsprogs v4.16.0 package build failure
 - component: Kubic
   create_time: 20180428T17:18:00
