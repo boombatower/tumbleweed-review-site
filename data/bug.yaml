@@ -684,8 +684,8 @@
 - component: Virtualization:Tools
   create_time: 20171215T22:08:00
   id: 1073174
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: version 10.2.0 of open-vm-tools is available
 - component: Other
   create_time: 20171215T20:16:00
@@ -2436,8 +2436,8 @@
 - component: YaST2
   create_time: 20180126T10:28:00
   id: 1077726
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Can't install packages anymore due to internal error.
 - component: High Availability
   create_time: 20180126T02:42:00
@@ -5009,8 +5009,8 @@
 - component: Other
   create_time: 20180305T14:16:00
   id: 1083961
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Every salt command produces multiple tracebacks
 - component: Kubic
   create_time: 20180305T09:22:00
@@ -5466,8 +5466,8 @@
 - component: Network
   create_time: 20180311T19:27:00
   id: 1084812
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: VERIFIED
   summary: '[aarch64] IPv4 DNS leading to segfaults'
 - component: Kernel
   create_time: 20180311T19:20:00
@@ -7463,11 +7463,11 @@
   resolution: FIXED
   status: RESOLVED
   summary: Problem with ath10k firmware
-- component: Kernel
+- component: X.Org
   create_time: 20180421T15:02:00
   id: 1090456
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: amdgpu [RX Vega 64] system freeze while gaming
 - component: YaST2
   create_time: 20180420T17:19:00
@@ -7613,6 +7613,24 @@
   status: NEW
   summary: Wayland restarts randomly
 '20180427':
+- component: Samba
+  create_time: 20180430T15:38:00
+  id: 1091442
+  resolution: ''
+  status: NEW
+  summary: Can not properly use SUSE Samba-Share as lowerdir for an overlay
+- component: KDE Workspace (Plasma)
+  create_time: 20180430T13:50:00
+  id: 1091401
+  resolution: ''
+  status: NEW
+  summary: empty KDE Desktop after ppc64 (BE) TW install
+- component: Other
+  create_time: 20180430T12:05:00
+  id: 1091376
+  resolution: ''
+  status: NEW
+  summary: Mozilla Thunderbird for i586 is not built
 - component: GNOME
   create_time: 20180430T09:40:00
   id: 1091353
@@ -7629,7 +7647,7 @@
   create_time: 20180430T00:04:00
   id: 1091316
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: transactional-update - lack of error handling of the mktemp command
 - component: Other
   create_time: 20180429T14:30:00
@@ -7658,8 +7676,8 @@
 - component: X.Org
   create_time: 20180428T13:34:00
   id: 1091292
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Factory] Steam| .local/share/Steam/ubuntu12_32/steam: symbol lookup error:
     /usr/lib/libxcb-dri3.so.0: undefined symbol: xcb_send_request_with_fds'
 - component: YaST2
@@ -7677,8 +7695,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180427T09:40:00
   id: 1091191
-  resolution: UPSTREAM
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: KDE Plasma doesn't play login sound
 - component: Translations
   create_time: 20180427T09:16:00
