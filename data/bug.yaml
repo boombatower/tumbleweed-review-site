@@ -7613,6 +7613,12 @@
   status: NEW
   summary: Wayland restarts randomly
 '20180427':
+- component: GNOME
+  create_time: 20180501T10:05:00
+  id: 1091516
+  resolution: ''
+  status: NEW
+  summary: gdm login screen is scaled to 200% apparently
 - component: Other
   create_time: 20180430T18:24:00
   id: 1091478
