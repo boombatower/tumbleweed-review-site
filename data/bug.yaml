@@ -7613,6 +7613,12 @@
   status: NEW
   summary: Wayland restarts randomly
 '20180427':
+- component: Other
+  create_time: 20180501T11:25:00
+  id: 1091522
+  resolution: ''
+  status: NEW
+  summary: wine game graphics layout broken in fullscreen
 - component: GNOME
   create_time: 20180501T10:05:00
   id: 1091516
