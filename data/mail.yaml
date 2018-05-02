@@ -763,3 +763,8 @@
   - messages: [2018-05.10]
     reference_count: 2
     summary: gpg debug flag enabled
+'20180501':
+  announcement: 2018-05.24
+  reference_count: 0
+  thread_count: 0
+  threads: []
