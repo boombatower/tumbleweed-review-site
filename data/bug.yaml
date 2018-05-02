@@ -7613,6 +7613,80 @@
   status: NEW
   summary: Wayland restarts randomly
 '20180427':
+- component: Development
+  create_time: 20180428T21:49:00
+  id: 1091300
+  resolution: ''
+  status: NEW
+  summary: xfsprogs v4.16.0 package build failure
+- component: Development
+  create_time: 20180428T21:49:00
+  id: 1091299
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: xfsprogs v4.16.0 package build failure
+- component: Kubic
+  create_time: 20180428T17:18:00
+  id: 1091296
+  resolution: ''
+  status: NEW
+  summary: Description of MicroOS system role
+- component: X.Org
+  create_time: 20180428T13:34:00
+  id: 1091292
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Factory] Steam| .local/share/Steam/ubuntu12_32/steam: symbol lookup error:
+    /usr/lib/libxcb-dri3.so.0: undefined symbol: xcb_send_request_with_fds'
+- component: YaST2
+  create_time: 20180428T07:42:00
+  id: 1091286
+  resolution: ''
+  status: NEW
+  summary: libyui-qt{,-pkg,graph} does not build with Qt 5.11
+- component: Other
+  create_time: 20180427T15:37:00
+  id: 1091245
+  resolution: ''
+  status: NEW
+  summary: '[20180425] VNC not working. Black screen appears.'
+- component: KDE Workspace (Plasma)
+  create_time: 20180427T09:40:00
+  id: 1091191
+  resolution: ''
+  status: REOPENED
+  summary: KDE Plasma doesn't play login sound
+- component: Translations
+  create_time: 20180427T09:16:00
+  id: 1091185
+  resolution: ''
+  status: NEW
+  summary: weblate uses different formatting than gettext
+- component: Samba
+  create_time: 20180427T08:10:00
+  id: 1091179
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Update samba to 4.8.1
+'20180429':
+- component: GNOME
+  create_time: 20180502T02:30:00
+  id: 1091593
+  resolution: ''
+  status: NEW
+  summary: 'cpg: Inform clients about left nodes during pause'
+- component: Firefox
+  create_time: 20180502T01:41:00
+  id: 1091592
+  resolution: ''
+  status: NEW
+  summary: Firefox breaks KWin / Aurorae
+- component: YaST2
+  create_time: 20180501T22:13:00
+  id: 1091585
+  resolution: ''
+  status: NEW
+  summary: Error running GRUB setup in YAST
 - component: Other
   create_time: 20180501T11:25:00
   id: 1091522
@@ -7673,58 +7747,3 @@
   resolution: ''
   status: NEW
   summary: libgphoto2-6 - broken import pictures
-- component: Development
-  create_time: 20180428T21:49:00
-  id: 1091300
-  resolution: ''
-  status: NEW
-  summary: xfsprogs v4.16.0 package build failure
-- component: Development
-  create_time: 20180428T21:49:00
-  id: 1091299
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: xfsprogs v4.16.0 package build failure
-- component: Kubic
-  create_time: 20180428T17:18:00
-  id: 1091296
-  resolution: ''
-  status: NEW
-  summary: Description of MicroOS system role
-- component: X.Org
-  create_time: 20180428T13:34:00
-  id: 1091292
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Factory] Steam| .local/share/Steam/ubuntu12_32/steam: symbol lookup error:
-    /usr/lib/libxcb-dri3.so.0: undefined symbol: xcb_send_request_with_fds'
-- component: YaST2
-  create_time: 20180428T07:42:00
-  id: 1091286
-  resolution: ''
-  status: NEW
-  summary: libyui-qt{,-pkg,graph} does not build with Qt 5.11
-- component: Other
-  create_time: 20180427T15:37:00
-  id: 1091245
-  resolution: ''
-  status: NEW
-  summary: '[20180425] VNC not working. Black screen appears.'
-- component: KDE Workspace (Plasma)
-  create_time: 20180427T09:40:00
-  id: 1091191
-  resolution: ''
-  status: REOPENED
-  summary: KDE Plasma doesn't play login sound
-- component: Translations
-  create_time: 20180427T09:16:00
-  id: 1091185
-  resolution: ''
-  status: NEW
-  summary: weblate uses different formatting than gettext
-- component: Samba
-  create_time: 20180427T08:10:00
-  id: 1091179
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Update samba to 4.8.1
