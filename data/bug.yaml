@@ -6665,8 +6665,8 @@
 - component: Kubic
   create_time: 20180405T13:20:00
   id: 1088304
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: DVD offer upgrade option
 - component: Development
   create_time: 20180405T11:00:00
@@ -7669,7 +7669,13 @@
   status: IN_PROGRESS
   summary: Update samba to 4.8.1
 '20180429':
-- component: GNOME
+- component: Network
+  create_time: 20180502T06:12:00
+  id: 1091603
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'iproute2: "ip route add default via <ipv6_address>" not parsed correctly'
+- component: High Availability
   create_time: 20180502T02:30:00
   id: 1091593
   resolution: ''
@@ -7717,7 +7723,7 @@
   resolution: ''
   status: NEW
   summary: empty KDE Desktop after ppc64 (BE) TW install
-- component: Other
+- component: Firefox
   create_time: 20180430T12:05:00
   id: 1091376
   resolution: ''
@@ -7735,12 +7741,6 @@
   resolution: ''
   status: NEW
   summary: '[Build 20180417] /bin/login dumped core within openQA upgrade test'
-- component: Security
-  create_time: 20180430T00:04:00
-  id: 1091316
-  resolution: ''
-  status: IN_PROGRESS
-  summary: transactional-update - lack of error handling of the mktemp command
 - component: Other
   create_time: 20180429T14:30:00
   id: 1091309
