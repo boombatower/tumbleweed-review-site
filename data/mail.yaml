@@ -749,9 +749,17 @@
     summary: got gpg-offline removed
 '20180427':
   announcement: 2018-04.914
-  reference_count: 2
+  reference_count: 3
   thread_count: 1
   threads:
   - messages: [2018-04.924]
-    reference_count: 2
+    reference_count: 3
     summary: Failed to mount /sysroot
+'20180429':
+  announcement: 2018-05.7
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages: [2018-05.10]
+    reference_count: 2
+    summary: gpg debug flag enabled
