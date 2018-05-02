@@ -4961,7 +4961,7 @@
   create_time: 20180304T14:02:00
   id: 1083866
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Kernel 4.15 - USB network adapter r8152 freeze
 - component: GNOME
   create_time: 20180304T13:44:00
@@ -6083,8 +6083,8 @@
 - component: Development
   create_time: 20180322T10:57:00
   id: 1086444
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Clang package misses some CMake targets
 - component: Basesystem
   create_time: 20180322T00:18:00
@@ -6930,8 +6930,8 @@
 - component: Kubic
   create_time: 20180413T11:47:00
   id: 1089501
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: salt-call --local network.default_route throws exception
 - component: libzypp
   create_time: 20180413T11:17:00
@@ -7045,8 +7045,8 @@
 - component: Samba
   create_time: 20180412T06:24:00
   id: 1089278
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: /usr/lib/cups/backend/smb in Samba 4.8.0 seems to have become incompatible
     with CUPS (Samba 4.7.6 works)
 - component: Other
@@ -7660,7 +7660,7 @@
   create_time: 20180427T09:16:00
   id: 1091185
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: weblate uses different formatting than gettext
 - component: Samba
   create_time: 20180427T08:10:00
@@ -7669,6 +7669,24 @@
   status: IN_PROGRESS
   summary: Update samba to 4.8.1
 '20180429':
+- component: Security
+  create_time: 20180502T14:58:00
+  id: 1091680
+  resolution: ''
+  status: NEW
+  summary: 'rpmlint: False warnings about systemd-service-without-service_ macros'
+- component: YaST2
+  create_time: 20180502T14:03:00
+  id: 1091669
+  resolution: ''
+  status: NEW
+  summary: 'Regression: AutoYAST not using product subvolume configuration'
+- component: LXDE
+  create_time: 20180502T09:47:00
+  id: 1091635
+  resolution: ''
+  status: CONFIRMED
+  summary: 'LXQT:  Problem with Terminal Command in PCManFM-Qt'
 - component: Network
   create_time: 20180502T06:12:00
   id: 1091603
@@ -7685,7 +7703,7 @@
   create_time: 20180502T01:41:00
   id: 1091592
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Firefox breaks KWin / Aurorae
 - component: YaST2
   create_time: 20180501T22:13:00
