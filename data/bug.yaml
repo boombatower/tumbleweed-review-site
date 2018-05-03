@@ -7642,7 +7642,7 @@
   create_time: 20180428T07:42:00
   id: 1091286
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: libyui-qt{,-pkg,graph} does not build with Qt 5.11
 - component: Other
   create_time: 20180427T15:37:00
@@ -7712,6 +7712,44 @@
   status: NEW
   summary: libgphoto2-6 - broken import pictures
 '20180501':
+- component: Other
+  create_time: 20180503T09:07:00
+  id: 1091784
+  resolution: ''
+  status: NEW
+  summary: SDDM screen is black after boot
+- component: KDE Applications
+  create_time: 20180503T08:52:00
+  id: 1091780
+  resolution: ''
+  status: NEW
+  summary: Dolphin hides mount points for NTFS partitions since Tumbleweed update
+    (at least 20180427)
+- component: LibreOffice
+  create_time: 20180503T08:13:00
+  id: 1091772
+  resolution: ''
+  status: NEW
+  summary: '[staging] FTBFS: libreoffice fails to build against icu 61.1'
+- component: Other
+  create_time: 20180503T07:38:00
+  id: 1091764
+  resolution: ''
+  status: NEW
+  summary: '[staging] FTBFS: nojdejs8 fails to build against icu 61.1'
+- component: Kernel
+  create_time: 20180503T07:31:00
+  id: 1091762
+  resolution: ''
+  status: NEW
+  summary: 'Regression 4.14=>4.16: data corruption with FCoE/FIP packets over bridged
+    VLAN'
+- component: KDE Applications
+  create_time: 20180503T06:09:00
+  id: 1091752
+  resolution: ''
+  status: NEW
+  summary: pulseaudio shows constant 18% cpu when kontact is running
 - component: Sound
   create_time: 20180503T02:38:00
   id: 1091743
@@ -7747,7 +7785,7 @@
   create_time: 20180502T14:03:00
   id: 1091669
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'Regression: AutoYAST not using product subvolume configuration'
 - component: LXDE
   create_time: 20180502T09:47:00
@@ -7777,7 +7815,7 @@
   create_time: 20180501T22:13:00
   id: 1091585
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Error running GRUB setup in YAST
 - component: Other
   create_time: 20180501T11:25:00
