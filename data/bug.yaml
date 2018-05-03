@@ -7712,6 +7712,19 @@
   status: NEW
   summary: libgphoto2-6 - broken import pictures
 '20180501':
+- component: Sound
+  create_time: 20180503T02:38:00
+  id: 1091743
+  resolution: ''
+  status: NEW
+  summary: There is no sound on the speakers (as long as you do not connect or disconnect
+    the headphones).
+- component: Other
+  create_time: 20180502T23:40:00
+  id: 1091742
+  resolution: ''
+  status: NEW
+  summary: system does not boot after upgrade to kdump-0.8.16-14.1
 - component: Other
   create_time: 20180502T17:02:00
   id: 1091701
@@ -7752,7 +7765,7 @@
   create_time: 20180502T02:30:00
   id: 1091593
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'cpg: Inform clients about left nodes during pause'
 - component: Firefox
   create_time: 20180502T01:41:00
