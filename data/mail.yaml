@@ -735,11 +735,11 @@
     summary: 'released - failed to load module loop: libbd_loop.so.2'
 '20180425':
   announcement: 2018-04.816
-  reference_count: 49
+  reference_count: 50
   thread_count: 3
   threads:
   - messages: [2018-04.878]
-    reference_count: 8
+    reference_count: 9
     summary: ', no miniwindows preview in KDE.'
   - messages: [2018-04.820]
     reference_count: 36
@@ -757,12 +757,15 @@
     summary: Failed to mount /sysroot
 '20180429':
   announcement: 2018-05.7
-  reference_count: 2
-  thread_count: 1
+  reference_count: 5
+  thread_count: 2
   threads:
   - messages: [2018-05.10]
     reference_count: 2
     summary: gpg debug flag enabled
+  - messages: [2018-05.28]
+    reference_count: 3
+    summary: '] Add back mozilla-enable-csd.patch'
 '20180501':
   announcement: 2018-05.24
   reference_count: 0
