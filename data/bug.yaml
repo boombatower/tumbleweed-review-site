@@ -3547,7 +3547,7 @@
   create_time: 20180209T08:50:00
   id: 1080244
   resolution: ''
-  status: IN_PROGRESS
+  status: REOPENED
   summary: conflict of liberation-fonts and liberation2-fonts
 '20180210':
 - component: X11 Applications
@@ -7201,8 +7201,8 @@
 - component: Kernel
   create_time: 20180416T12:57:00
   id: 1089701
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: With kernel 4.16 webcam video is not working with Skype and Google Hangouts
 - component: Kernel
   create_time: 20180416T09:12:00
@@ -7712,6 +7712,44 @@
   status: NEW
   summary: libgphoto2-6 - broken import pictures
 '20180501':
+- component: KDE Workspace (Plasma)
+  create_time: 20180503T13:32:00
+  id: 1091832
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'openSUSEdark Plasma theme broken: no event markers in Plasma calendar'
+- component: Containers
+  create_time: 20180503T11:54:00
+  id: 1091819
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Docker fails to stop container
+- component: KDE Workspace (Plasma)
+  create_time: 20180503T11:53:00
+  id: 1091818
+  resolution: ''
+  status: NEW
+  summary: After starting a Wayland Plasma session and leaving the session, login
+    into a normal Plasma session does not work
+- component: KDE Workspace (Plasma)
+  create_time: 20180503T11:46:00
+  id: 1091816
+  resolution: ''
+  status: NEW
+  summary: Using Wayland Plasma Konsole does not allow to enter characters like ',
+    ", and ^
+- component: Network
+  create_time: 20180503T10:31:00
+  id: 1091802
+  resolution: ''
+  status: NEW
+  summary: 'openldap2: incomplete macro expansion(?) in script'
+- component: Network
+  create_time: 20180503T09:33:00
+  id: 1091791
+  resolution: ''
+  status: NEW
+  summary: resolve.conf issue from latest update
 - component: Other
   create_time: 20180503T09:07:00
   id: 1091784
@@ -7721,8 +7759,8 @@
 - component: KDE Applications
   create_time: 20180503T08:52:00
   id: 1091780
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Dolphin hides mount points for NTFS partitions since Tumbleweed update
     (at least 20180427)
 - component: LibreOffice
@@ -7740,8 +7778,8 @@
 - component: Kernel
   create_time: 20180503T07:31:00
   id: 1091762
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Regression 4.14=>4.16: data corruption with FCoE/FIP packets over bridged
     VLAN'
 - component: KDE Applications
@@ -7790,8 +7828,8 @@
 - component: LXDE
   create_time: 20180502T09:47:00
   id: 1091635
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LXQT:  Problem with Terminal Command in PCManFM-Qt'
 - component: Network
   create_time: 20180502T06:12:00
@@ -7814,8 +7852,8 @@
 - component: YaST2
   create_time: 20180501T22:13:00
   id: 1091585
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Error running GRUB setup in YAST
 - component: Other
   create_time: 20180501T11:25:00
