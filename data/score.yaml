@@ -305,5 +305,8 @@
   score: 77
   stability_level: pending
 '20180501':
-  score: 88
+  score: 90
+  stability_level: pending
+'20180502':
+  score: 93
   stability_level: pending
