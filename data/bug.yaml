@@ -7712,6 +7712,37 @@
   status: NEW
   summary: libgphoto2-6 - broken import pictures
 '20180501':
+- component: YaST2
+  create_time: 20180501T22:13:00
+  id: 1091585
+  resolution: FIXED
+  status: RESOLVED
+  summary: Error running GRUB setup in YAST
+- component: Other
+  create_time: 20180501T11:25:00
+  id: 1091522
+  resolution: ''
+  status: NEW
+  summary: wine game graphics layout broken in fullscreen
+- component: GNOME
+  create_time: 20180501T10:05:00
+  id: 1091516
+  resolution: ''
+  status: NEW
+  summary: gdm login screen is scaled to 200% apparently
+'20180502':
+- component: Development
+  create_time: 20180503T17:31:00
+  id: 1091864
+  resolution: ''
+  status: NEW
+  summary: '[RPM] The %make_jobs macro from marcos.cmake gets overwritten by macro.qt5'
+- component: KDE Workspace (Plasma)
+  create_time: 20180503T15:45:00
+  id: 1091852
+  resolution: ''
+  status: NEW
+  summary: '"Workspace (Plasma)" is completely broken and shows black screen + cursor.'
 - component: KDE Workspace (Plasma)
   create_time: 20180503T13:32:00
   id: 1091832
@@ -7823,7 +7854,7 @@
   create_time: 20180502T14:03:00
   id: 1091669
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: 'Regression: AutoYAST not using product subvolume configuration'
 - component: LXDE
   create_time: 20180502T09:47:00
@@ -7849,21 +7880,3 @@
   resolution: FIXED
   status: RESOLVED
   summary: Firefox breaks KWin / Aurorae
-- component: YaST2
-  create_time: 20180501T22:13:00
-  id: 1091585
-  resolution: FIXED
-  status: RESOLVED
-  summary: Error running GRUB setup in YAST
-- component: Other
-  create_time: 20180501T11:25:00
-  id: 1091522
-  resolution: ''
-  status: NEW
-  summary: wine game graphics layout broken in fullscreen
-- component: GNOME
-  create_time: 20180501T10:05:00
-  id: 1091516
-  resolution: ''
-  status: NEW
-  summary: gdm login screen is scaled to 200% apparently
