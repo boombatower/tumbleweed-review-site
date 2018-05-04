@@ -7731,6 +7731,18 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
+- component: Bootloader
+  create_time: 20180504T15:01:00
+  id: 1092000
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed can't boot after 20180427 update
+- component: Basesystem
+  create_time: 20180504T10:29:00
+  id: 1091961
+  resolution: ''
+  status: NEW
+  summary: 'openssl: c_rehash fails due to missing quotes around $dir and $prefix'
 - component: Other
   create_time: 20180504T09:22:00
   id: 1091945
@@ -7858,8 +7870,8 @@
 - component: YaST2
   create_time: 20180502T14:03:00
   id: 1091669
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Regression: AutoYAST not using product subvolume configuration'
 - component: LXDE
   create_time: 20180502T09:47:00
@@ -7876,8 +7888,8 @@
 - component: High Availability
   create_time: 20180502T02:30:00
   id: 1091593
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'cpg: Inform clients about left nodes during pause'
 - component: Firefox
   create_time: 20180502T01:41:00
