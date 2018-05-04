@@ -757,14 +757,14 @@
     summary: Failed to mount /sysroot
 '20180429':
   announcement: 2018-05.7
-  reference_count: 10
+  reference_count: 12
   thread_count: 2
   threads:
   - messages: [2018-05.10]
     reference_count: 2
     summary: gpg debug flag enabled
   - messages: [2018-05.28]
-    reference_count: 8
+    reference_count: 10
     summary: '] Add back mozilla-enable-csd.patch'
 '20180501':
   announcement: 2018-05.24
