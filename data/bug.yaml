@@ -5297,8 +5297,8 @@
 - component: Basesystem
   create_time: 20180309T10:11:00
   id: 1084650
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: python-base is miscompiled'
 - component: Basesystem
   create_time: 20180309T10:06:00
@@ -5339,8 +5339,8 @@
 - component: Basesystem
   create_time: 20180309T10:05:00
   id: 1084643
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: gdb build fails'
 - component: Basesystem
   create_time: 20180309T10:05:00
@@ -6364,14 +6364,14 @@
 - component: Firefox
   create_time: 20180327T12:46:00
   id: 1087070
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: MozillaFirefox FTBFS with GCC8
 - component: KDE Applications
   create_time: 20180327T12:43:00
   id: 1087068
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: libqt5-qtwebengine FTBFS with GCC8
 - component: Basesystem
   create_time: 20180327T12:42:00
@@ -7143,8 +7143,8 @@
 - component: Basesystem
   create_time: 20180410T14:23:00
   id: 1088885
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: zbar build fails'
 - component: YaST2
   create_time: 20180410T11:12:00
@@ -7220,8 +7220,8 @@
 - component: Basesystem
   create_time: 20180418T15:17:00
   id: 1090085
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: apr is miscompiled'
 - component: Kernel
   create_time: 20180418T14:10:00
@@ -7515,14 +7515,14 @@
 - component: Basesystem
   create_time: 20180420T11:41:00
   id: 1090367
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: virtualbox build fails'
 - component: Basesystem
   create_time: 20180420T10:58:00
   id: 1090362
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: MozillaFirefox build fails'
 - component: Basesystem
   create_time: 20180420T10:25:00
@@ -7731,6 +7731,12 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
+- component: Other
+  create_time: 20180504T09:22:00
+  id: 1091945
+  resolution: ''
+  status: NEW
+  summary: ImageMagick displays images and menues transparantly
 - component: Development
   create_time: 20180503T17:31:00
   id: 1091864
@@ -7767,8 +7773,7 @@
   id: 1091816
   resolution: ''
   status: NEW
-  summary: Using Wayland Plasma Konsole does not allow to enter characters like ',
-    ", and ^
+  summary: Plasma Wayland does not use the configured system keyboard layout
 - component: Network
   create_time: 20180503T10:31:00
   id: 1091802
