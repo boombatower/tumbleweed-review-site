@@ -7807,7 +7807,7 @@
 - component: KDE Applications
   create_time: 20180503T08:52:00
   id: 1091780
-  resolution: UPSTREAM
+  resolution: FIXED
   status: RESOLVED
   summary: Dolphin hides mount points for NTFS partitions since Tumbleweed update
     (at least 20180427)
