@@ -5328,7 +5328,7 @@
   create_time: 20180309T10:05:00
   id: 1084645
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 8: ceph build fails'
 - component: libzypp
   create_time: 20180309T10:05:00
