@@ -7777,7 +7777,7 @@
   create_time: 20180503T11:53:00
   id: 1091818
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: After starting a Wayland Plasma session and leaving the session, login
     into a normal Plasma session does not work
 - component: KDE Workspace (Plasma)
