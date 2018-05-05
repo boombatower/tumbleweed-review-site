@@ -7731,6 +7731,12 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
+- component: Network
+  create_time: 20180505T18:15:00
+  id: 1092053
+  resolution: ''
+  status: NEW
+  summary: Update ser2net package to include latest upstream version (3.5)
 - component: Bootloader
   create_time: 20180504T15:01:00
   id: 1092000
