@@ -7731,6 +7731,18 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
+- component: Kubic
+  create_time: 20180506T19:16:00
+  id: 1092062
+  resolution: ''
+  status: NEW
+  summary: Missing files in tumbleweed repo
+- component: Installation
+  create_time: 20180506T16:26:00
+  id: 1092060
+  resolution: ''
+  status: NEW
+  summary: appdata-icons.tar.gz does not exist in http://download.opensuse.org/tumbleweed/repo/oss/
 - component: Network
   create_time: 20180505T18:15:00
   id: 1092053
