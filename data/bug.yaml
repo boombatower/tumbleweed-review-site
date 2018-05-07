@@ -7101,8 +7101,8 @@
 - component: Security
   create_time: 20180411T11:47:00
   id: 1089082
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: '"polkit-untracked-privilege" affects non-Factory packages'
 - component: Kernel
   create_time: 20180411T02:37:00
@@ -7387,8 +7387,8 @@
 - component: Kernel
   create_time: 20180419T07:51:00
   id: 1090162
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Support TCP MD5SIG option for bgp md5 password auth (when using openSUSE
     as a router)
 '20180420':
@@ -7731,11 +7731,17 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
+- component: Other
+  create_time: 20180507T07:13:00
+  id: 1092090
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20180504] All openQA tests fail trying to access download.opensuse.org'
 - component: Kubic
   create_time: 20180506T19:16:00
   id: 1092062
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Missing files in tumbleweed repo
 - component: Installation
   create_time: 20180506T16:26:00
