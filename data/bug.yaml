@@ -7641,8 +7641,8 @@
 - component: YaST2
   create_time: 20180428T07:42:00
   id: 1091286
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: libyui-qt{,-pkg,graph} does not build with Qt 5.11
 - component: Other
   create_time: 20180427T15:37:00
@@ -7669,6 +7669,12 @@
   status: IN_PROGRESS
   summary: Update samba to 4.8.1
 '20180429':
+- component: GNOME
+  create_time: 20180430T19:48:00
+  id: 1091487
+  resolution: ''
+  status: NEW
+  summary: 'GNOME:Factory/patterns-gnome: gnome-menus is still needed for GNOME DE'
 - component: Other
   create_time: 20180430T18:24:00
   id: 1091478
@@ -7679,7 +7685,7 @@
   create_time: 20180430T15:38:00
   id: 1091442
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Can not properly use SUSE Samba-Share as lowerdir for an overlay
 - component: KDE Workspace (Plasma)
   create_time: 20180430T13:50:00
@@ -7731,6 +7737,30 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
+- component: Kernel
+  create_time: 20180507T15:34:00
+  id: 1092195
+  resolution: ''
+  status: NEW
+  summary: External monitors sometimes start flashing after being blanked out
+- component: YaST2
+  create_time: 20180507T12:27:00
+  id: 1092155
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180506] openQA test fails in yast2_http'
+- component: Virtualization:Other
+  create_time: 20180507T11:46:00
+  id: 1092148
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180506] openQA test fails in docker_compose'
+- component: Basesystem
+  create_time: 20180507T10:33:00
+  id: 1092131
+  resolution: ''
+  status: NEW
+  summary: Emoji One Color causes strange number glyphs in Firefox
 - component: Other
   create_time: 20180507T07:13:00
   id: 1092090
@@ -7746,8 +7776,8 @@
 - component: Installation
   create_time: 20180506T16:26:00
   id: 1092060
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: appdata-icons.tar.gz does not exist in http://download.opensuse.org/tumbleweed/repo/oss/
 - component: Network
   create_time: 20180505T18:15:00
