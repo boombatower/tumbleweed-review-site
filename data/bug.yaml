@@ -7101,8 +7101,8 @@
 - component: Security
   create_time: 20180411T11:47:00
   id: 1089082
-  resolution: NORESPONSE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '"polkit-untracked-privilege" affects non-Factory packages'
 - component: Kernel
   create_time: 20180411T02:37:00
@@ -7737,6 +7737,18 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
+- component: Basesystem
+  create_time: 20180507T21:39:00
+  id: 1092246
+  resolution: ''
+  status: NEW
+  summary: 'Tumbleweed:  "systemd-udevd" appear to be looping'
+- component: GNOME
+  create_time: 20180507T16:20:00
+  id: 1092204
+  resolution: FIXED
+  status: RESOLVED
+  summary: gvfs-metadata spams journalctl (Tumbleweed)
 - component: Kernel
   create_time: 20180507T15:34:00
   id: 1092195
