@@ -7737,6 +7737,55 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
+- component: Basesystem
+  create_time: 20180509T14:56:00
+  id: 1092590
+  resolution: ''
+  status: NEW
+  summary: 'Tumbleweed-ARM-JeOS-efi.armv7l-2018.05.08: Hangs at pre-mount hook'
+- component: Development
+  create_time: 20180509T11:38:00
+  id: 1092546
+  resolution: INVALID
+  status: RESOLVED
+  summary: Qt5.10 refers to QWebKit instead of QWebEngine when generating Makefiles
+    out of *.pro files
+- component: Basesystem
+  create_time: 20180509T11:31:00
+  id: 1092544
+  resolution: ''
+  status: CONFIRMED
+  summary: 'GCC 8: mariadb test fails'
+- component: Xen
+  create_time: 20180509T11:30:00
+  id: 1092543
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: xen build fails'
+- component: Patterns
+  create_time: 20180509T11:29:00
+  id: 1092542
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: GNOME (Basic) pattern does not include gnome-session-wayland
+- component: X.Org
+  create_time: 20180509T11:27:00
+  id: 1092541
+  resolution: ''
+  status: CONFIRMED
+  summary: 'GCC 8: xf86-video-intel build fails on i586'
+- component: YaST2
+  create_time: 20180509T11:07:00
+  id: 1092534
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'GCC 8:  yast2-bootloader tests fail on i586'
+- component: Basesystem
+  create_time: 20180509T10:50:00
+  id: 1092530
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: gsl test failure on i586'
 - component: Development
   create_time: 20180509T09:21:00
   id: 1092500
@@ -7923,12 +7972,6 @@
   resolution: ''
   status: NEW
   summary: Update ser2net package to include latest upstream version (3.5)
-- component: Bootloader
-  create_time: 20180504T15:01:00
-  id: 1092000
-  resolution: ''
-  status: NEW
-  summary: Tumbleweed can't boot after 20180427 update
 - component: Basesystem
   create_time: 20180504T10:29:00
   id: 1091961
