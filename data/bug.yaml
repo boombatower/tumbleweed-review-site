@@ -2789,8 +2789,8 @@
 - component: Other
   create_time: 20180201T17:08:00
   id: 1078844
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/john fails to build'
 - component: Other
   create_time: 20180201T17:08:00
@@ -6309,8 +6309,8 @@
 - component: Basesystem
   create_time: 20180328T14:13:00
   id: 1087316
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[automake1.16] libtool fails to build'
 - component: Other
   create_time: 20180328T13:12:00
@@ -6394,8 +6394,8 @@
 - component: Other
   create_time: 20180327T11:03:00
   id: 1087052
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/dunelegacy fails to build'
 - component: Other
   create_time: 20180327T10:39:00
@@ -6812,8 +6812,8 @@
 - component: Samba
   create_time: 20180409T18:08:00
   id: 1088736
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: apparmor denies net_admin capability to smb, nmb and winbindd
 - component: Installation
   create_time: 20180409T17:34:00
@@ -7737,6 +7737,102 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
+- component: Kernel
+  create_time: 20180509T01:16:00
+  id: 1092456
+  resolution: ''
+  status: NEW
+  summary: 4.17 regression loading custom SPI module
+- component: Basesystem
+  create_time: 20180508T18:15:00
+  id: 1092425
+  resolution: ''
+  status: NEW
+  summary: Assertion failure in libclang on i586 (when building qtdoc)
+- component: Other
+  create_time: 20180508T13:02:00
+  id: 1092370
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/slapi-nis fails to build'
+- component: Other
+  create_time: 20180508T13:01:00
+  id: 1092369
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/open-vm-tools fails to build'
+- component: Other
+  create_time: 20180508T13:01:00
+  id: 1092368
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/pvm fails to build'
+- component: Other
+  create_time: 20180508T12:59:00
+  id: 1092366
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/linux_pcnfsd2 fails to build'
+- component: Other
+  create_time: 20180508T12:58:00
+  id: 1092365
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/password-store fails to build'
+- component: Other
+  create_time: 20180508T12:57:00
+  id: 1092364
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/xnoise fails to build'
+- component: Other
+  create_time: 20180508T12:57:00
+  id: 1092363
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/cram fails to build'
+- component: KDE Applications
+  create_time: 20180508T12:55:00
+  id: 1092362
+  resolution: INVALID
+  status: RESOLVED
+  summary: kde touchpad control claims to disable touchpad on keyboard, but it doesn't
+- component: Other
+  create_time: 20180508T12:51:00
+  id: 1092360
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/dmtcp fails to build'
+- component: Other
+  create_time: 20180508T12:51:00
+  id: 1092359
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/cmpi-bindings fails to build'
+- component: Other
+  create_time: 20180508T12:50:00
+  id: 1092358
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/bind-dyndb-ldap fails to build'
+- component: Other
+  create_time: 20180508T12:49:00
+  id: 1092357
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/votca-xtp fails to build'
+- component: Other
+  create_time: 20180508T12:48:00
+  id: 1092356
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/peerunity fails to build'
+- component: Other
+  create_time: 20180508T12:45:00
+  id: 1092355
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/openlmi-scripts fails to build'
 - component: Basesystem
   create_time: 20180507T21:39:00
   id: 1092246
