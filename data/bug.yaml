@@ -6746,8 +6746,8 @@
 - component: YaST2
   create_time: 20180406T14:12:00
   id: 1088488
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'proposal_runner.rb: "no implicit conversion of Array into String"'
 - component: Development
   create_time: 20180406T11:38:00
@@ -7737,6 +7737,19 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
+- component: Basesystem
+  create_time: 20180510T12:01:00
+  id: 1092758
+  resolution: ''
+  status: NEW
+  summary: 'GCC 8: dd_rescue build fails'
+- component: Other
+  create_time: 20180510T10:59:00
+  id: 1092737
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180508] openQA test fails in hexchat - Wrong visualization for
+    special characters and numbers.'
 - component: Development
   create_time: 20180510T07:53:00
   id: 1092697
@@ -7873,8 +7886,8 @@
 - component: Other
   create_time: 20180508T12:57:00
   id: 1092364
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/xnoise fails to build'
 - component: Other
   create_time: 20180508T12:57:00
@@ -7945,8 +7958,8 @@
 - component: YaST2
   create_time: 20180507T12:27:00
   id: 1092155
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180506] openQA test fails in yast2_http'
 - component: Virtualization:Other
   create_time: 20180507T11:46:00
@@ -7987,8 +8000,8 @@
 - component: Basesystem
   create_time: 20180504T10:29:00
   id: 1091961
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'openssl: c_rehash fails due to missing quotes around $dir and $prefix'
 - component: Other
   create_time: 20180504T09:22:00
