@@ -5154,8 +5154,8 @@
 - component: Other
   create_time: 20180307T14:11:00
   id: 1084320
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Nextcloud rpm requires mod_php_any which is missing.
 - component: Security
   create_time: 20180307T11:47:00
@@ -7737,6 +7737,12 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
+- component: libzypp
+  create_time: 20180510T17:11:00
+  id: 1092822
+  resolution: ''
+  status: NEW
+  summary: zypper se suggests the use of zypper search-packages on Tumbleweed
 - component: Basesystem
   create_time: 20180510T12:01:00
   id: 1092758
@@ -7833,7 +7839,7 @@
   create_time: 20180509T07:29:00
   id: 1092486
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Haskell is not available at Factory for ARMv7
 - component: Kernel
   create_time: 20180509T05:13:00
@@ -7995,7 +8001,7 @@
   create_time: 20180505T18:15:00
   id: 1092053
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Update ser2net package to include latest upstream version (3.5)
 - component: Basesystem
   create_time: 20180504T10:29:00
