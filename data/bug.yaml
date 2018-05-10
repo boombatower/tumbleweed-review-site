@@ -7759,8 +7759,8 @@
 - component: Xen
   create_time: 20180509T11:30:00
   id: 1092543
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: xen build fails'
 - component: Patterns
   create_time: 20180509T11:29:00
@@ -7810,7 +7810,7 @@
   resolution: ''
   status: NEW
   summary: Haskell is not available at Factory for ARMv7
-- component: Other
+- component: Kernel
   create_time: 20180509T05:13:00
   id: 1092466
   resolution: ''
