@@ -4202,8 +4202,8 @@
   create_time: 20180219T19:35:00
   id: 1081643
   resolution: ''
-  status: NEW
-  summary: Boot from Root Partition option is missing from grub2 module in TW
+  status: CONFIRMED
+  summary: Make Boot from Partition clear where it is installed
 - component: AutoYaST
   create_time: 20180219T18:14:00
   id: 1081640
@@ -7737,6 +7737,18 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
+- component: Development
+  create_time: 20180510T07:53:00
+  id: 1092697
+  resolution: FIXED
+  status: RESOLVED
+  summary: LLVM build fails on armv7l
+- component: Other
+  create_time: 20180510T05:31:00
+  id: 1092681
+  resolution: ''
+  status: NEW
+  summary: .repo file missing in Factory and Leap15.0 repos
 - component: Basesystem
   create_time: 20180509T14:56:00
   id: 1092590
@@ -7795,8 +7807,8 @@
 - component: Other
   create_time: 20180509T08:06:00
   id: 1092493
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'aws CLI tool fails to run: ModuleNotFoundError: No module named ''botocore.vendored'''
 - component: Basesystem
   create_time: 20180509T07:55:00
@@ -7934,7 +7946,7 @@
   create_time: 20180507T12:27:00
   id: 1092155
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20180506] openQA test fails in yast2_http'
 - component: Virtualization:Other
   create_time: 20180507T11:46:00
@@ -8049,8 +8061,8 @@
 - component: LibreOffice
   create_time: 20180503T08:13:00
   id: 1091772
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[staging] FTBFS: libreoffice fails to build against icu 61.1'
 - component: Other
   create_time: 20180503T07:38:00
