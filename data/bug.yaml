@@ -6948,8 +6948,8 @@
 - component: Kernel
   create_time: 20180413T06:12:00
   id: 1089467
-  resolution: ''
-  status: REOPENED
+  resolution: WONTFIX
+  status: RESOLVED
   summary: dell 5520 docking station WD15 poor audio quality
 - component: Kernel
   create_time: 20180413T05:59:00
@@ -7737,6 +7737,24 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
+- component: GNOME
+  create_time: 20180511T14:06:00
+  id: 1092944
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180510] openQA test fails in thunderbird - welcome page is disorganized'
+- component: Other
+  create_time: 20180511T07:54:00
+  id: 1092881
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC, scalapack] For non-HPC builds package BLACS headers only once'
+- component: libzypp
+  create_time: 20180511T07:21:00
+  id: 1092877
+  resolution: ''
+  status: NEW
+  summary: zypper dup core dumps
 - component: YaST2
   create_time: 20180510T23:59:00
   id: 1092845
@@ -7774,7 +7792,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: LLVM build fails on armv7l
-- component: YaST2
+- component: Other
   create_time: 20180510T05:31:00
   id: 1092681
   resolution: ''
@@ -7869,7 +7887,7 @@
   create_time: 20180508T18:15:00
   id: 1092425
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Assertion failure in libclang on i586 (when building qtdoc)
 - component: Other
   create_time: 20180508T13:02:00
@@ -8099,7 +8117,7 @@
   create_time: 20180503T07:38:00
   id: 1091764
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[staging] FTBFS: nojdejs8 fails to build against icu 61.1'
 - component: Kernel
   create_time: 20180503T07:31:00
