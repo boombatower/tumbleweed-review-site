@@ -7616,8 +7616,8 @@
 - component: Development
   create_time: 20180428T21:49:00
   id: 1091300
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: xfsprogs v4.16.0 package build failure
 - component: Development
   create_time: 20180428T21:49:00
@@ -7737,6 +7737,18 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
+- component: YaST2
+  create_time: 20180510T23:59:00
+  id: 1092845
+  resolution: ''
+  status: NEW
+  summary: YaST displays wrong title for applications in Gnome
+- component: Development
+  create_time: 20180510T23:42:00
+  id: 1092843
+  resolution: FIXED
+  status: RESOLVED
+  summary: xfsprogs v4.16.1 xfsprogs.spec eyesore
 - component: libzypp
   create_time: 20180510T17:11:00
   id: 1092822
@@ -7762,7 +7774,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: LLVM build fails on armv7l
-- component: Other
+- component: YaST2
   create_time: 20180510T05:31:00
   id: 1092681
   resolution: ''
