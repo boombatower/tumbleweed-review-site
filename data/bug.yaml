@@ -2771,8 +2771,7 @@
   id: 1078408
   resolution: ''
   status: NEW
-  summary: logitech-hidpp-device 0003:046d:200D.0006 unable to retrieve the name of
-    the device
+  summary: X Segmentation fault at address 0x20
 '20180201':
 - component: Other
   create_time: 20180201T17:13:00
@@ -7737,6 +7736,12 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
+- component: YaST2
+  create_time: 20180511T14:29:00
+  id: 1092950
+  resolution: ''
+  status: NEW
+  summary: Crash in yast2-bootloader
 - component: GNOME
   create_time: 20180511T14:06:00
   id: 1092944
@@ -7869,7 +7874,7 @@
   create_time: 20180509T07:29:00
   id: 1092486
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Haskell is not available at Factory for ARMv7
 - component: Kernel
   create_time: 20180509T05:13:00
