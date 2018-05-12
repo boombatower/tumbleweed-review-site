@@ -2663,8 +2663,8 @@
 - component: Other
   create_time: 20180130T17:48:00
   id: 1078346
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: socat transient tests failures UNIXLISTENFORK, EXECPTYKILL for PowerPC
 - component: Basesystem
   create_time: 20180130T16:34:00
@@ -7736,6 +7736,19 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
+- component: KDE Workspace (Plasma)
+  create_time: 20180512T13:17:00
+  id: 1093030
+  resolution: ''
+  status: NEW
+  summary: Warning message when plasmashell starts and metadata error
+- component: YaST2
+  create_time: 20180512T12:59:00
+  id: 1093029
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180511] openQA test fails in yast2_dns_server - "named.service
+    is not active, cannot reload."'
 - component: Other
   create_time: 20180512T07:33:00
   id: 1093024
