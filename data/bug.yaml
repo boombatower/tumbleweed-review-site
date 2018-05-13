@@ -7817,6 +7817,13 @@
   status: NEW
   summary: '[Build 20180508] openQA test fails in hexchat - Wrong visualization for
     special characters and numbers.'
+- component: Other
+  create_time: 20180510T09:37:00
+  id: 1092719
+  resolution: ''
+  status: NEW
+  summary: 'X11:xfce/xfce4-panel-plugin-netspeed: IA__gtk_widget_show: assertion ''GTK_IS_WIDGET
+    (widget)'' failed'
 - component: Development
   create_time: 20180510T07:53:00
   id: 1092697
