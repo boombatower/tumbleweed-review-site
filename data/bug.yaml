@@ -7736,6 +7736,13 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
+- component: Installation
+  create_time: 20180513T04:42:00
+  id: 1093033
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180511] openQA test fails in consoletest_setup, curl failed with
+    Could not connect to Server'
 - component: KDE Workspace (Plasma)
   create_time: 20180512T13:17:00
   id: 1093030
