@@ -5380,8 +5380,8 @@
 - component: Basesystem
   create_time: 20180309T10:03:00
   id: 1084636
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: libyui build fails'
 - component: Basesystem
   create_time: 20180309T10:03:00
@@ -6076,8 +6076,8 @@
 - component: Development
   create_time: 20180322T11:00:00
   id: 1086445
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: libLLVMTableGen not packaged
 - component: Development
   create_time: 20180322T10:57:00
@@ -7590,14 +7590,14 @@
 - component: Other
   create_time: 20180425T23:20:00
   id: 1090978
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Audacity 2.2.2-1.3 doesn't start
 - component: Kubic
   create_time: 20180425T14:47:00
   id: 1090913
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Default timezone is US/Eastern and not UTC
 - component: Basesystem
   create_time: 20180425T12:28:00
@@ -7664,15 +7664,15 @@
 - component: Samba
   create_time: 20180427T08:10:00
   id: 1091179
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Update samba to 4.8.1
 '20180429':
 - component: GNOME
   create_time: 20180430T19:48:00
   id: 1091487
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GNOME:Factory/patterns-gnome: gnome-menus is still needed for GNOME DE'
 - component: Other
   create_time: 20180430T18:24:00
@@ -7713,8 +7713,8 @@
 - component: Other
   create_time: 20180429T14:30:00
   id: 1091309
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: libgphoto2-6 - broken import pictures
 '20180501':
 - component: YaST2
@@ -7736,68 +7736,11 @@
   status: NEW
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
-- component: Installation
-  create_time: 20180513T04:42:00
-  id: 1093033
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180511] openQA test fails in consoletest_setup, curl failed with
-    Could not connect to Server'
-- component: KDE Workspace (Plasma)
-  create_time: 20180512T13:17:00
-  id: 1093030
-  resolution: ''
-  status: NEW
-  summary: Warning message when plasmashell starts and metadata error
-- component: YaST2
-  create_time: 20180512T12:59:00
-  id: 1093029
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180511] openQA test fails in yast2_dns_server - "named.service
-    is not active, cannot reload."'
-- component: Other
-  create_time: 20180512T07:33:00
-  id: 1093024
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180508] openQA test fails in start_install - " nothing provides
-    libwebp.so.6()(64bit) needed by libavcodec57-3.4.2-1.1.ppc64le"'
-- component: Network
-  create_time: 20180512T02:28:00
-  id: 1093020
-  resolution: ''
-  status: NEW
-  summary: Enable ChaCha20/Poly1305 support in strongswan
-- component: YaST2
-  create_time: 20180511T14:29:00
-  id: 1092950
-  resolution: ''
-  status: NEW
-  summary: Crash in yast2-bootloader
-- component: GNOME
-  create_time: 20180511T14:06:00
-  id: 1092944
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180510] openQA test fails in thunderbird - welcome page is disorganized'
-- component: Other
-  create_time: 20180511T07:54:00
-  id: 1092881
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[HPC, scalapack] For non-HPC builds package BLACS headers only once'
-- component: libzypp
-  create_time: 20180511T07:21:00
-  id: 1092877
-  resolution: ''
-  status: NEW
-  summary: zypper dup core dumps
 - component: YaST2
   create_time: 20180510T23:59:00
   id: 1092845
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: YaST displays wrong title for applications in Gnome
 - component: Development
   create_time: 20180510T23:42:00
@@ -7814,8 +7757,8 @@
 - component: Basesystem
   create_time: 20180510T12:01:00
   id: 1092758
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: dd_rescue build fails'
 - component: Other
   create_time: 20180510T10:59:00
@@ -7889,8 +7832,8 @@
 - component: Basesystem
   create_time: 20180509T10:50:00
   id: 1092530
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'GCC 8: gsl test failure on i586'
 - component: Development
   create_time: 20180509T09:21:00
@@ -7901,8 +7844,8 @@
 - component: Other
   create_time: 20180509T08:06:00
   id: 1092493
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'aws CLI tool fails to run: ModuleNotFoundError: No module named ''botocore.vendored'''
 - component: Basesystem
   create_time: 20180509T07:55:00
@@ -8238,3 +8181,202 @@
   resolution: FIXED
   status: RESOLVED
   summary: Firefox breaks KWin / Aurorae
+'20180511':
+- component: Basesystem
+  create_time: 20180514T20:04:00
+  id: 1093213
+  resolution: ''
+  status: NEW
+  summary: 'dracut: module firmware semantic gap'
+- component: Basesystem
+  create_time: 20180514T16:27:00
+  id: 1093179
+  resolution: ''
+  status: NEW
+  summary: vsftpd using service template file in pre/postun
+- component: Basesystem
+  create_time: 20180514T16:25:00
+  id: 1093176
+  resolution: ''
+  status: NEW
+  summary: util-linux using service template file in pre/postun
+- component: Basesystem
+  create_time: 20180514T16:24:00
+  id: 1093175
+  resolution: ''
+  status: NEW
+  summary: usb_modeswitch using service template file in pre/postun
+- component: Basesystem
+  create_time: 20180514T16:22:00
+  id: 1093174
+  resolution: ''
+  status: NEW
+  summary: telnet using service template file in pre/postun
+- component: Basesystem
+  create_time: 20180514T16:02:00
+  id: 1093172
+  resolution: ''
+  status: NEW
+  summary: salt salt-proxy using service file template in pre/post
+- component: Basesystem
+  create_time: 20180514T16:00:00
+  id: 1093170
+  resolution: ''
+  status: NEW
+  summary: rdma-core srp_daemon using service template file in pre/postun
+- component: KVM
+  create_time: 20180514T15:49:00
+  id: 1093169
+  resolution: ''
+  status: NEW
+  summary: qemu guest-agent using systemd service template in pre/preun/post/postun
+- component: High Availability
+  create_time: 20180514T15:46:00
+  id: 1093168
+  resolution: ''
+  status: NEW
+  summary: 'pacemaker: using service template in preun/postun'
+- component: Basesystem
+  create_time: 20180514T15:37:00
+  id: 1093165
+  resolution: ''
+  status: NEW
+  summary: csync2 using service template csync2@.service in preun
+- component: Basesystem
+  create_time: 20180514T15:35:00
+  id: 1093163
+  resolution: ''
+  status: NEW
+  summary: 'mdadm: using service templates in preun is wrong:'
+- component: Basesystem
+  create_time: 20180514T15:31:00
+  id: 1093160
+  resolution: ''
+  status: NEW
+  summary: 'libteam: teamd@.service in pre/post is wrong.'
+- component: Security
+  create_time: 20180514T13:40:00
+  id: 1093143
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'accountsservice: new polkit privielge: change-own-password'
+- component: Containers
+  create_time: 20180514T12:23:00
+  id: 1093132
+  resolution: ''
+  status: NEW
+  summary: 'Error CRI: unable to check if the container runtime dockershim.sock is
+    running'
+- component: Bootloader
+  create_time: 20180514T10:54:00
+  id: 1093113
+  resolution: ''
+  status: NEW
+  summary: invalid partition table! error
+- component: YaST2
+  create_time: 20180514T10:51:00
+  id: 1093111
+  resolution: ''
+  status: NEW
+  summary: YaST uses deprecated firewallctl commands instead of firewall-cmd (introduced
+    by firewalld upgrade to 0.5.1)
+- component: Other
+  create_time: 20180514T10:38:00
+  id: 1093105
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180508] openQA: random casing of "default keyring" string in
+    seahorse'
+- component: YaST2
+  create_time: 20180514T07:27:00
+  id: 1093071
+  resolution: ''
+  status: CONFIRMED
+  summary: YaST constantly steals focus
+- component: Firefox
+  create_time: 20180514T06:31:00
+  id: 1093059
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180508] openQA test fails in firefox - firefox "dumped core"'
+- component: KDE Workspace (Plasma)
+  create_time: 20180513T22:15:00
+  id: 1093048
+  resolution: ''
+  status: NEW
+  summary: Missing icons since Plasma 5.12.5
+- component: KDE Applications
+  create_time: 20180513T22:12:00
+  id: 1093047
+  resolution: ''
+  status: NEW
+  summary: kinfocenter crashes since Plasma 5.12.5
+- component: Kubic
+  create_time: 20180513T12:18:00
+  id: 1093039
+  resolution: ''
+  status: NEW
+  summary: '[openQA] post rollback, the expected package is not found'
+- component: X11 Applications
+  create_time: 20180513T11:14:00
+  id: 1093037
+  resolution: ''
+  status: NEW
+  summary: 'Avogadro 1.2.0 crashes on startup: undefined symbol _ZN9OpenBabel5OBMol8NextBondERN9__gnu_cxx17__normal_iteratorIPPNS_6OBBondESt6vectorIS4_SaIS4_EEEE'
+- component: Installation
+  create_time: 20180513T04:42:00
+  id: 1093033
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180511] openQA test fails in consoletest_setup, curl failed with
+    Could not connect to Server'
+- component: KDE Workspace (Plasma)
+  create_time: 20180512T13:17:00
+  id: 1093030
+  resolution: ''
+  status: NEW
+  summary: Warning message when plasmashell starts and metadata error
+- component: YaST2
+  create_time: 20180512T12:59:00
+  id: 1093029
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180511] openQA test fails in yast2_dns_server - "named.service
+    is not active, cannot reload."'
+- component: Other
+  create_time: 20180512T07:33:00
+  id: 1093024
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180508] openQA test fails in start_install - " nothing provides
+    libwebp.so.6()(64bit) needed by libavcodec57-3.4.2-1.1.ppc64le"'
+- component: Network
+  create_time: 20180512T02:28:00
+  id: 1093020
+  resolution: ''
+  status: NEW
+  summary: Enable ChaCha20/Poly1305 support in strongswan
+- component: YaST2
+  create_time: 20180511T14:29:00
+  id: 1092950
+  resolution: ''
+  status: NEW
+  summary: Crash in yast2-bootloader
+- component: GNOME
+  create_time: 20180511T14:06:00
+  id: 1092944
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180510] openQA test fails in thunderbird - welcome page is disorganized'
+- component: Other
+  create_time: 20180511T07:54:00
+  id: 1092881
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC, scalapack] For non-HPC builds package BLACS headers only once'
+- component: libzypp
+  create_time: 20180511T07:21:00
+  id: 1092877
+  resolution: ''
+  status: NEW
+  summary: zypper dup core dumps
