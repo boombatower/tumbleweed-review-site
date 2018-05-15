@@ -781,9 +781,12 @@
     summary: /sysroot not mounted after update
 '20180511':
   announcement: 2018-05.140
-  reference_count: 3
-  thread_count: 1
+  reference_count: 5
+  thread_count: 2
   threads:
   - messages: [2018-05.143]
-    reference_count: 3
+    reference_count: 4
     summary: released! (Thank you)
+  - messages: [2018-05.146]
+    reference_count: 1
+    summary: released!
