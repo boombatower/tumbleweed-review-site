@@ -1280,7 +1280,7 @@
   create_time: 20180103T13:45:00
   id: 1074491
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: python2-matplotlib needs python-backports.functools_lru_cache
 - component: Other
   create_time: 20180103T12:14:00
@@ -8233,6 +8233,12 @@
   status: NEW
   summary: zypper dup core dumps
 '20180513':
+- component: YaST2
+  create_time: 20180515T16:49:00
+  id: 1093392
+  resolution: ''
+  status: NEW
+  summary: yast2 timezone does not change /etc/sysconfig/clock correctly
 - component: Basesystem
   create_time: 20180515T15:12:00
   id: 1093378
