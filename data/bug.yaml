@@ -5989,8 +5989,8 @@
 - component: Basesystem
   create_time: 20180319T14:11:00
   id: 1085834
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: In latest bash build, 'bash -l' no longer reads ~/.bashrc
 - component: Kubic
   create_time: 20180319T13:19:00
@@ -6076,8 +6076,8 @@
 - component: Development
   create_time: 20180322T11:00:00
   id: 1086445
-  resolution: INVALID
-  status: RESOLVED
+  resolution: ''
+  status: IN_PROGRESS
   summary: libLLVMTableGen not packaged
 - component: Development
   create_time: 20180322T10:57:00
@@ -6252,8 +6252,8 @@
 - component: Other
   create_time: 20180329T16:53:00
   id: 1087507
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: gtk3-branding-openSUSE discards admin/systemwide changes to /etc/gtk-3.0/settings.ini
 - component: YaST2
   create_time: 20180329T15:24:00
@@ -7532,8 +7532,8 @@
 - component: Patterns
   create_time: 20180420T06:33:00
   id: 1090319
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: pattern:gnome-20180321-lp150.1.1.x86_64 requires patterns-gnome-gnome,
     but this requirement cannot be provided
 '20180424':
@@ -8182,6 +8182,81 @@
   status: RESOLVED
   summary: Firefox breaks KWin / Aurorae
 '20180511':
+- component: KDE Workspace (Plasma)
+  create_time: 20180512T13:17:00
+  id: 1093030
+  resolution: ''
+  status: NEW
+  summary: Warning message when plasmashell starts and metadata error
+- component: YaST2
+  create_time: 20180512T12:59:00
+  id: 1093029
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180511] openQA test fails in yast2_dns_server - "named.service
+    is not active, cannot reload."'
+- component: Other
+  create_time: 20180512T07:33:00
+  id: 1093024
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180508] openQA test fails in start_install - " nothing provides
+    libwebp.so.6()(64bit) needed by libavcodec57-3.4.2-1.1.ppc64le"'
+- component: Network
+  create_time: 20180512T02:28:00
+  id: 1093020
+  resolution: ''
+  status: NEW
+  summary: Enable ChaCha20/Poly1305 support in strongswan
+- component: YaST2
+  create_time: 20180511T14:29:00
+  id: 1092950
+  resolution: ''
+  status: NEW
+  summary: Crash in yast2-bootloader
+- component: GNOME
+  create_time: 20180511T14:06:00
+  id: 1092944
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: '[Build 20180510] openQA test fails in thunderbird - welcome page is disorganized'
+- component: Other
+  create_time: 20180511T07:54:00
+  id: 1092881
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[HPC, scalapack] For non-HPC builds package BLACS headers only once'
+- component: libzypp
+  create_time: 20180511T07:21:00
+  id: 1092877
+  resolution: ''
+  status: NEW
+  summary: zypper dup core dumps
+'20180513':
+- component: Basesystem
+  create_time: 20180515T15:12:00
+  id: 1093378
+  resolution: ''
+  status: NEW
+  summary: conflicting udev rules completely break USB Serial bridges
+- component: Other
+  create_time: 20180515T14:24:00
+  id: 1093369
+  resolution: ''
+  status: NEW
+  summary: '[20180513] Wrong digest when installing digikam-5.9.0-1.2'
+- component: Basesystem
+  create_time: 20180515T10:44:00
+  id: 1093320
+  resolution: ''
+  status: NEW
+  summary: nscd crashes its service with SIGABRT
+- component: Basesystem
+  create_time: 20180515T09:29:00
+  id: 1093295
+  resolution: ''
+  status: NEW
+  summary: polkit-agent-helper authentication failure for first password enter attempt
 - component: Other
   create_time: 20180515T06:30:00
   id: 1093258
@@ -8282,8 +8357,8 @@
 - component: YaST2
   create_time: 20180514T10:51:00
   id: 1093111
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: YaST uses deprecated firewallctl commands instead of firewall-cmd (introduced
     by firewalld upgrade to 0.5.1)
 - component: Other
@@ -8336,53 +8411,3 @@
   status: NEW
   summary: '[Build 20180511] openQA test fails in consoletest_setup, curl failed with
     Could not connect to Server'
-- component: KDE Workspace (Plasma)
-  create_time: 20180512T13:17:00
-  id: 1093030
-  resolution: ''
-  status: NEW
-  summary: Warning message when plasmashell starts and metadata error
-- component: YaST2
-  create_time: 20180512T12:59:00
-  id: 1093029
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180511] openQA test fails in yast2_dns_server - "named.service
-    is not active, cannot reload."'
-- component: Other
-  create_time: 20180512T07:33:00
-  id: 1093024
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180508] openQA test fails in start_install - " nothing provides
-    libwebp.so.6()(64bit) needed by libavcodec57-3.4.2-1.1.ppc64le"'
-- component: Network
-  create_time: 20180512T02:28:00
-  id: 1093020
-  resolution: ''
-  status: NEW
-  summary: Enable ChaCha20/Poly1305 support in strongswan
-- component: YaST2
-  create_time: 20180511T14:29:00
-  id: 1092950
-  resolution: ''
-  status: NEW
-  summary: Crash in yast2-bootloader
-- component: GNOME
-  create_time: 20180511T14:06:00
-  id: 1092944
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: '[Build 20180510] openQA test fails in thunderbird - welcome page is disorganized'
-- component: Other
-  create_time: 20180511T07:54:00
-  id: 1092881
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[HPC, scalapack] For non-HPC builds package BLACS headers only once'
-- component: libzypp
-  create_time: 20180511T07:21:00
-  id: 1092877
-  resolution: ''
-  status: NEW
-  summary: zypper dup core dumps
