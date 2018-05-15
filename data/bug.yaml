@@ -7647,7 +7647,7 @@
   create_time: 20180427T15:37:00
   id: 1091245
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[20180425] VNC not working. Black screen appears.'
 - component: KDE Workspace (Plasma)
   create_time: 20180427T09:40:00
@@ -8182,6 +8182,12 @@
   status: RESOLVED
   summary: Firefox breaks KWin / Aurorae
 '20180511':
+- component: Other
+  create_time: 20180515T06:30:00
+  id: 1093258
+  resolution: ''
+  status: NEW
+  summary: Problem with zsh
 - component: Basesystem
   create_time: 20180514T20:04:00
   id: 1093213
@@ -8365,8 +8371,8 @@
 - component: GNOME
   create_time: 20180511T14:06:00
   id: 1092944
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: '[Build 20180510] openQA test fails in thunderbird - welcome page is disorganized'
 - component: Other
   create_time: 20180511T07:54:00
