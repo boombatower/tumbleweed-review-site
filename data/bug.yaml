@@ -1261,8 +1261,8 @@
 - component: Bootloader
   create_time: 20180103T23:20:00
   id: 1074566
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'rpi3: Boot failed due to library missing'
 - component: Kubic
   create_time: 20180103T15:40:00
@@ -6917,8 +6917,8 @@
 - component: Bootloader
   create_time: 20180414T08:59:00
   id: 1089609
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Raspberry Pi 3B+ image not booting
 - component: AppArmor
   create_time: 20180413T20:19:00
@@ -7869,7 +7869,7 @@
   create_time: 20180509T01:16:00
   id: 1092456
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 4.17 regression loading custom SPI module
 - component: Basesystem
   create_time: 20180508T18:15:00
@@ -8233,6 +8233,18 @@
   status: NEW
   summary: zypper dup core dumps
 '20180513':
+- component: Basesystem
+  create_time: 20180516T08:02:00
+  id: 1093464
+  resolution: ''
+  status: NEW
+  summary: Rush crash when building Firefox
+- component: Kubic
+  create_time: 20180516T07:22:00
+  id: 1093460
+  resolution: INVALID
+  status: RESOLVED
+  summary: Fail to start systemd timer
 - component: YaST2
   create_time: 20180515T16:49:00
   id: 1093392
