@@ -6911,14 +6911,14 @@
 - component: KDE Applications
   create_time: 20180414T19:02:00
   id: 1089614
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: baloo_file using huge amounts of memory
 - component: Bootloader
   create_time: 20180414T08:59:00
   id: 1089609
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Raspberry Pi 3B+ image not booting
 - component: AppArmor
   create_time: 20180413T20:19:00
@@ -8242,8 +8242,8 @@
 - component: Basesystem
   create_time: 20180514T16:27:00
   id: 1093179
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: vsftpd using service template file in pre/postun
 - component: Basesystem
   create_time: 20180514T16:25:00
@@ -8382,6 +8382,18 @@
   summary: '[Build 20180511] openQA test fails in consoletest_setup, curl failed with
     Could not connect to Server'
 '20180515':
+- component: KDE Workspace (Plasma)
+  create_time: 20180516T18:30:00
+  id: 1093573
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Plasma shell error
+- component: KDE Workspace (Plasma)
+  create_time: 20180516T17:46:00
+  id: 1093567
+  resolution: FIXED
+  status: RESOLVED
+  summary: kactivity continually crashing
 - component: Basesystem
   create_time: 20180516T08:02:00
   id: 1093464
