@@ -7314,7 +7314,7 @@
   id: 1089814
   resolution: ''
   status: NEW
-  summary: 'pdns,pdns-recursor: Fails to build with Boost 1.67.0'
+  summary: 'pdns-recursor: Fails to build with Boost 1.67.0'
 - component: GNOME
   create_time: 20180417T08:39:00
   id: 1089813
@@ -8104,8 +8104,8 @@
 - component: Other
   create_time: 20180503T07:38:00
   id: 1091764
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[staging] FTBFS: nojdejs8 fails to build against icu 61.1'
 - component: Kernel
   create_time: 20180503T07:31:00
@@ -8231,7 +8231,7 @@
   id: 1092877
   resolution: ''
   status: NEW
-  summary: zypper dup core dumps
+  summary: vasprintf(&dest, "%s", str) doesn't always fill whole destination
 '20180513':
 - component: Basesystem
   create_time: 20180514T20:04:00
@@ -8382,6 +8382,54 @@
   summary: '[Build 20180511] openQA test fails in consoletest_setup, curl failed with
     Could not connect to Server'
 '20180515':
+- component: X11 Applications
+  create_time: 20180517T14:53:00
+  id: 1093733
+  resolution: ''
+  status: NEW
+  summary: wireshark fails to build against Qt 5.11
+- component: X11 Applications
+  create_time: 20180517T14:53:00
+  id: 1093732
+  resolution: ''
+  status: CONFIRMED
+  summary: vlc fails to build against Qt 5.11
+- component: Virtualization:Other
+  create_time: 20180517T14:52:00
+  id: 1093731
+  resolution: ''
+  status: NEW
+  summary: virtualbox fails to build against Qt 5.11
+- component: Other
+  create_time: 20180517T14:38:00
+  id: 1093729
+  resolution: ''
+  status: NEW
+  summary: qimageblitz fails to build with Qt 5.11
+- component: X11 Applications
+  create_time: 20180517T14:20:00
+  id: 1093723
+  resolution: ''
+  status: NEW
+  summary: darktable usermanual is in french
+- component: GNOME
+  create_time: 20180517T13:08:00
+  id: 1093709
+  resolution: ''
+  status: NEW
+  summary: 'GNOME:Factory/gtksourceview4: duplicate binaries produced with gtksourceview'
+- component: Other
+  create_time: 20180517T11:56:00
+  id: 1093693
+  resolution: ''
+  status: NEW
+  summary: All texlive commands failing after update to texlive-2018
+- component: GNOME
+  create_time: 20180517T11:28:00
+  id: 1093691
+  resolution: ''
+  status: NEW
+  summary: GNOME Music application multiplies album covers on Albums tab
 - component: Other
   create_time: 20180517T08:37:00
   id: 1093633
