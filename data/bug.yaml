@@ -7965,7 +7965,7 @@
   create_time: 20180507T21:39:00
   id: 1092246
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Tumbleweed:  "systemd-udevd" appear to be looping'
 - component: GNOME
   create_time: 20180507T16:20:00
@@ -8226,7 +8226,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: '[HPC, scalapack] For non-HPC builds package BLACS headers only once'
-- component: libzypp
+- component: Basesystem
   create_time: 20180511T07:21:00
   id: 1092877
   resolution: ''
@@ -8391,8 +8391,8 @@
 - component: X11 Applications
   create_time: 20180517T14:53:00
   id: 1093732
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: vlc fails to build against Qt 5.11
 - component: Virtualization:Other
   create_time: 20180517T14:52:00
