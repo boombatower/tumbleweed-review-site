@@ -3832,8 +3832,8 @@
 - component: Network
   create_time: 20180213T16:13:00
   id: 1080832
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Wicked is not acquiring an IPv4 address with DHCP since recent update
 - component: YaST2
   create_time: 20180213T12:24:00
@@ -7627,8 +7627,8 @@
 - component: Kubic
   create_time: 20180428T17:18:00
   id: 1091296
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Description of MicroOS system role
 - component: X.Org
   create_time: 20180428T13:34:00
@@ -8382,6 +8382,18 @@
   summary: '[Build 20180511] openQA test fails in consoletest_setup, curl failed with
     Could not connect to Server'
 '20180515':
+- component: Other
+  create_time: 20180517T08:37:00
+  id: 1093633
+  resolution: ''
+  status: NEW
+  summary: uwsgi does not detect installed python plugin
+- component: Basesystem
+  create_time: 20180517T06:53:00
+  id: 1093625
+  resolution: ''
+  status: NEW
+  summary: biosdevname crashes due to infinite recursion in smbios_setslot
 - component: X11 Applications
   create_time: 20180516T21:52:00
   id: 1093592
