@@ -8382,6 +8382,12 @@
   summary: '[Build 20180511] openQA test fails in consoletest_setup, curl failed with
     Could not connect to Server'
 '20180515':
+- component: X11 Applications
+  create_time: 20180516T21:52:00
+  id: 1093592
+  resolution: ''
+  status: NEW
+  summary: redshift doesn't work after geoclue2 update
 - component: KDE Workspace (Plasma)
   create_time: 20180516T18:30:00
   id: 1093573
