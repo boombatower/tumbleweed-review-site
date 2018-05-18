@@ -7886,8 +7886,8 @@
 - component: Other
   create_time: 20180508T13:01:00
   id: 1092369
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/open-vm-tools fails to build'
 - component: Other
   create_time: 20180508T13:01:00
@@ -8382,6 +8382,43 @@
   summary: '[Build 20180511] openQA test fails in consoletest_setup, curl failed with
     Could not connect to Server'
 '20180515':
+- component: YaST2
+  create_time: 20180515T16:49:00
+  id: 1093392
+  resolution: ''
+  status: NEW
+  summary: yast2 timezone does not change /etc/sysconfig/clock correctly
+- component: Basesystem
+  create_time: 20180515T15:12:00
+  id: 1093378
+  resolution: ''
+  status: NEW
+  summary: conflicting udev rules completely break USB Serial bridges
+- component: Other
+  create_time: 20180515T14:24:00
+  id: 1093369
+  resolution: ''
+  status: NEW
+  summary: '[20180513] Wrong digest when installing digikam-5.9.0-1.2'
+- component: Basesystem
+  create_time: 20180515T10:44:00
+  id: 1093320
+  resolution: ''
+  status: NEW
+  summary: nscd crashes its service with SIGABRT
+- component: Basesystem
+  create_time: 20180515T09:29:00
+  id: 1093295
+  resolution: ''
+  status: NEW
+  summary: polkit-agent-helper authentication failure for first password enter attempt
+- component: Other
+  create_time: 20180515T06:30:00
+  id: 1093258
+  resolution: ''
+  status: NEW
+  summary: Problem with zsh
+'20180516':
 - component: X11 Applications
   create_time: 20180517T14:53:00
   id: 1093733
@@ -8472,39 +8509,3 @@
   resolution: INVALID
   status: RESOLVED
   summary: Fail to start systemd timer
-- component: YaST2
-  create_time: 20180515T16:49:00
-  id: 1093392
-  resolution: ''
-  status: NEW
-  summary: yast2 timezone does not change /etc/sysconfig/clock correctly
-- component: Basesystem
-  create_time: 20180515T15:12:00
-  id: 1093378
-  resolution: ''
-  status: NEW
-  summary: conflicting udev rules completely break USB Serial bridges
-- component: Other
-  create_time: 20180515T14:24:00
-  id: 1093369
-  resolution: ''
-  status: NEW
-  summary: '[20180513] Wrong digest when installing digikam-5.9.0-1.2'
-- component: Basesystem
-  create_time: 20180515T10:44:00
-  id: 1093320
-  resolution: ''
-  status: NEW
-  summary: nscd crashes its service with SIGABRT
-- component: Basesystem
-  create_time: 20180515T09:29:00
-  id: 1093295
-  resolution: ''
-  status: NEW
-  summary: polkit-agent-helper authentication failure for first password enter attempt
-- component: Other
-  create_time: 20180515T06:30:00
-  id: 1093258
-  resolution: ''
-  status: NEW
-  summary: Problem with zsh
