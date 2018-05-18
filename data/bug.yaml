@@ -3552,8 +3552,8 @@
 - component: X11 Applications
   create_time: 20180211T23:36:00
   id: 1080494
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: fvwm2 missing alternatives configuration
 - component: X11 Applications
   create_time: 20180211T23:31:00
@@ -4052,7 +4052,7 @@
   status: RESOLVED
   summary: 'TW 20180214 NetworkManager segv Segmentation fault. #0  0x0000555cae32f7a3
     in nm_connection_clear_secrets (connection=connection@entry=0x6c00000001) at libnm-core/nm-connection.c:1662'
-- component: Other
+- component: Kernel
   create_time: 20180217T08:34:00
   id: 1081427
   resolution: ''
@@ -6180,7 +6180,7 @@
   create_time: 20180325T16:18:00
   id: 1086757
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: Images for Raspberry Pi 1/2/3 does not boot - only Splash Screen Rainbow
 - component: LibreOffice
   create_time: 20180325T15:12:00
@@ -7337,8 +7337,8 @@
 - component: Other
   create_time: 20180417T08:29:00
   id: 1089810
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'leechcraft: Fails to build with Boost 1.67.0'
 - component: Other
   create_time: 20180417T08:25:00
@@ -7739,8 +7739,8 @@
 - component: YaST2
   create_time: 20180510T23:59:00
   id: 1092845
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: YaST displays wrong title for applications in Gnome
 - component: Development
   create_time: 20180510T23:42:00
@@ -7966,7 +7966,8 @@
   id: 1092246
   resolution: ''
   status: IN_PROGRESS
-  summary: 'Tumbleweed:  "systemd-udevd" appear to be looping'
+  summary: 'Tumbleweed:  hid2hci called from a udev rule is constantly failing leading
+    to a busy system'
 - component: GNOME
   create_time: 20180507T16:20:00
   id: 1092204
@@ -8067,8 +8068,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180503T11:46:00
   id: 1091816
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Plasma Wayland does not use the configured system keyboard layout
 - component: Network
   create_time: 20180503T10:31:00
@@ -8331,7 +8332,7 @@
   status: RESOLVED
   summary: YaST uses deprecated firewallctl commands instead of firewall-cmd (introduced
     by firewalld upgrade to 0.5.1)
-- component: Other
+- component: GNOME
   create_time: 20180514T10:38:00
   id: 1093105
   resolution: ''
@@ -8419,6 +8420,31 @@
   status: NEW
   summary: Problem with zsh
 '20180516':
+- component: Bootloader
+  create_time: 20180518T10:39:00
+  id: 1093853
+  resolution: ''
+  status: NEW
+  summary: Bootloader enters entry with wrong UUID
+- component: Other
+  create_time: 20180518T08:34:00
+  id: 1093827
+  resolution: ''
+  status: NEW
+  summary: imagewriter fails with dbus error
+- component: Other
+  create_time: 20180518T08:16:00
+  id: 1093817
+  resolution: ''
+  status: NEW
+  summary: live-grub-stick depends on lsb-release
+- component: Basesystem
+  create_time: 20180518T07:20:00
+  id: 1093808
+  resolution: ''
+  status: NEW
+  summary: gpg2 update to 2.2.7 (or minor rpm update), breaks own-repository signing
+    key
 - component: X11 Applications
   create_time: 20180517T14:53:00
   id: 1093733
@@ -8470,8 +8496,8 @@
 - component: Other
   create_time: 20180517T08:37:00
   id: 1093633
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: uwsgi does not detect installed python plugin
 - component: Basesystem
   create_time: 20180517T06:53:00
