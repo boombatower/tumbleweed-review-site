@@ -876,8 +876,8 @@
 - component: Virtualization:Other
   create_time: 20171221T01:06:00
   id: 1073760
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: vmtoolsd process running as user aborts with segfault
 - component: Virtualization:Other
   create_time: 20171220T16:54:00
@@ -7070,8 +7070,8 @@
 - component: Virtualization:Tools
   create_time: 20180411T18:00:00
   id: 1089181
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: please update open-vm-tools to 10.2.5
 - component: Other
   create_time: 20180411T14:27:00
@@ -7791,7 +7791,7 @@
   id: 1092590
   resolution: ''
   status: NEW
-  summary: 'Tumbleweed-ARM-JeOS-efi.armv7l-2018.05.08: Hangs at pre-mount hook'
+  summary: 'Tumbleweed-ARM-JeOS-efi.armv7l-2018.05.17: Hangs at pre-mount hook'
 - component: Development
   create_time: 20180509T11:38:00
   id: 1092546
@@ -8420,6 +8420,12 @@
   status: NEW
   summary: Problem with zsh
 '20180516':
+- component: Kubic
+  create_time: 20180518T20:44:00
+  id: 1093947
+  resolution: ''
+  status: NEW
+  summary: '[openQA] /etc/salt/minion.d/master.conf missing on Kubic worker installs'
 - component: Bootloader
   create_time: 20180518T10:39:00
   id: 1093853
