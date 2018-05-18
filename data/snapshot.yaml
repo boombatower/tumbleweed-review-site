@@ -1376,3 +1376,30 @@
   binary_unique_count: 1148
   disk_base: 842M
   disk_shared: 3.0G
+'20180515':
+  binary_count: 57494
+  binary_interest:
+    Mesa: 18.0.3
+    gcc: '7'
+    gcc7: 7.3.1+r258812
+    gcc8: 8.0.1+r259636
+    gnome-builder: 3.28.1
+    gtk3-devel: 3.22.30
+    kate: 18.04.0
+    kernel-source: 4.16.8
+    libqt5-qtbase-devel: 5.10.0
+    llvm: 6.0.0
+    plasma-framework: 5.45.0
+    plasma5-workspace: 5.12.5
+    xf86-video-amdgpu: 18.0.1
+    xf86-video-ati: 18.0.1
+    xf86-video-intel: 2.99.917+git781.c8990575
+    xf86-video-nouveau: 1.0.15
+    xorg-x11-server: 1.19.6
+  binary_interest_changed:
+  - gcc7
+  - kernel-source
+  - gcc7
+  binary_unique_count: 7699
+  disk_base: 844M
+  disk_shared: 5.3G
