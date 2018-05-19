@@ -810,6 +810,9 @@
   threads: []
 '20180517':
   announcement: 2018-05.240
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 3
+  thread_count: 1
+  threads:
+  - messages: [2018-05.256]
+    reference_count: 3
+    summary: no summary given
