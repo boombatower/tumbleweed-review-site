@@ -8503,8 +8503,8 @@
 - component: Other
   create_time: 20180517T14:38:00
   id: 1093729
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: qimageblitz fails to build with Qt 5.11
 - component: X11 Applications
   create_time: 20180517T14:20:00
