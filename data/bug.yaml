@@ -2235,8 +2235,8 @@
 - component: Other
   create_time: 20180123T09:59:00
   id: 1077175
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180122] Enlightenment fails to start upon login'
 - component: Development
   create_time: 20180123T07:30:00
