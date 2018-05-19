@@ -140,16 +140,16 @@
   score: 67
   stability_level: unstable
 '20180205':
-  score: 65
-  stability_level: unstable
+  score: 80
+  stability_level: moderate
 '20180206':
-  score: 60
+  score: 66
   stability_level: unstable
 '20180207':
-  score: 57
+  score: 60
   stability_level: unstable
 '20180208':
-  score: 63
+  score: 64
   stability_level: unstable
 '20180209':
   score: 64
