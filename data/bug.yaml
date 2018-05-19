@@ -8420,6 +8420,37 @@
   status: NEW
   summary: Problem with zsh
 '20180516':
+- component: X11 Applications
+  create_time: 20180516T21:52:00
+  id: 1093592
+  resolution: ''
+  status: NEW
+  summary: redshift doesn't work after geoclue2 update
+- component: KDE Workspace (Plasma)
+  create_time: 20180516T18:30:00
+  id: 1093573
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Plasma shell error
+- component: KDE Workspace (Plasma)
+  create_time: 20180516T17:46:00
+  id: 1093567
+  resolution: FIXED
+  status: RESOLVED
+  summary: kactivity continually crashing
+- component: Basesystem
+  create_time: 20180516T08:02:00
+  id: 1093464
+  resolution: ''
+  status: NEW
+  summary: Rush crash when building Firefox
+- component: Kubic
+  create_time: 20180516T07:22:00
+  id: 1093460
+  resolution: INVALID
+  status: RESOLVED
+  summary: Fail to start systemd timer
+'20180517':
 - component: Kubic
   create_time: 20180518T20:44:00
   id: 1093947
@@ -8511,33 +8542,3 @@
   resolution: ''
   status: NEW
   summary: biosdevname crashes due to infinite recursion in smbios_setslot
-- component: X11 Applications
-  create_time: 20180516T21:52:00
-  id: 1093592
-  resolution: ''
-  status: NEW
-  summary: redshift doesn't work after geoclue2 update
-- component: KDE Workspace (Plasma)
-  create_time: 20180516T18:30:00
-  id: 1093573
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: Plasma shell error
-- component: KDE Workspace (Plasma)
-  create_time: 20180516T17:46:00
-  id: 1093567
-  resolution: FIXED
-  status: RESOLVED
-  summary: kactivity continually crashing
-- component: Basesystem
-  create_time: 20180516T08:02:00
-  id: 1093464
-  resolution: ''
-  status: NEW
-  summary: Rush crash when building Firefox
-- component: Kubic
-  create_time: 20180516T07:22:00
-  id: 1093460
-  resolution: INVALID
-  status: RESOLVED
-  summary: Fail to start systemd timer
