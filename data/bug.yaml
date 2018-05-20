@@ -8451,6 +8451,12 @@
   status: RESOLVED
   summary: Fail to start systemd timer
 '20180517':
+- component: Other
+  create_time: 20180520T04:46:00
+  id: 1093984
+  resolution: ''
+  status: NEW
+  summary: 'Octave: GUI application menu link not created in Plasma desktop'
 - component: Kubic
   create_time: 20180518T20:44:00
   id: 1093947
