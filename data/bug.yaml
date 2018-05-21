@@ -8544,6 +8544,13 @@
   summary: biosdevname crashes due to infinite recursion in smbios_setslot
 '20180519':
 - component: Other
+  create_time: 20180521T00:49:00
+  id: 1093995
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'drbdmanage: Update to the latest 0.99.17 to fix the issue of big volume
+    assignment'
+- component: Other
   create_time: 20180520T04:46:00
   id: 1093984
   resolution: ''
