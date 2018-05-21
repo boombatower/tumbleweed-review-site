@@ -7771,7 +7771,7 @@
   create_time: 20180510T09:37:00
   id: 1092719
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'X11:xfce/xfce4-panel-plugin-netspeed: IA__gtk_widget_show: assertion ''GTK_IS_WIDGET
     (widget)'' failed'
 - component: Development
@@ -8542,7 +8542,14 @@
   resolution: ''
   status: NEW
   summary: biosdevname crashes due to infinite recursion in smbios_setslot
-'20180519':
+'20180519': []
+'20180520':
+- component: Kernel
+  create_time: 20180521T17:35:00
+  id: 1094085
+  resolution: ''
+  status: NEW
+  summary: Cannot install nvidia drivers. ksym(default:vfree)
 - component: Bootloader
   create_time: 20180521T07:30:00
   id: 1094015
