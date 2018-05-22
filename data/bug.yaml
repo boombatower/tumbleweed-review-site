@@ -4132,8 +4132,8 @@
 - component: Kernel
   create_time: 20180218T17:44:00
   id: 1081473
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Nvidia Jetson TX1 does not boot from SD on Tumbleweed
 - component: Basesystem
   create_time: 20180218T16:53:00
@@ -4872,8 +4872,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180303T15:49:00
   id: 1083838
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: KDE Plasma 5.12 splash screen is cut off
 - component: Java
   create_time: 20180303T14:52:00
