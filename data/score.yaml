@@ -318,7 +318,7 @@
   stability_level: moderate
 '20180515':
   score: 95
-  stability_level: pending
+  stability_level: stable
 '20180516':
   score: 97
   stability_level: pending
