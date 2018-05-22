@@ -8544,6 +8544,30 @@
   summary: biosdevname crashes due to infinite recursion in smbios_setslot
 '20180519': []
 '20180520':
+- component: Sound
+  create_time: 20180522T18:25:00
+  id: 1094255
+  resolution: ''
+  status: NEW
+  summary: Bluetooth headset wrong profile (HSP instead of A2DP)
+- component: Printing
+  create_time: 20180522T15:20:00
+  id: 1094233
+  resolution: ''
+  status: NEW
+  summary: cups-exec uses execve wrong to call backend/smb
+- component: Network
+  create_time: 20180522T15:20:00
+  id: 1094232
+  resolution: ''
+  status: NEW
+  summary: openvswitch-2.9.1 fails to build with DPDK-18.02.1
+- component: Development
+  create_time: 20180522T14:51:00
+  id: 1094222
+  resolution: ''
+  status: NEW
+  summary: gcc-8 on opensuse tumbleweed points to wrong location when displaying error
 - component: GNOME
   create_time: 20180522T07:51:00
   id: 1094148
