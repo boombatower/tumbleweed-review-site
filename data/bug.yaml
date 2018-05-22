@@ -6112,8 +6112,8 @@
 - component: Other
   create_time: 20180321T11:33:00
   id: 1086213
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: asciidoctor doesn't set manpage source and manual entries
 - component: Basesystem
   create_time: 20180321T11:30:00
@@ -8124,8 +8124,8 @@
 - component: Sound
   create_time: 20180503T02:38:00
   id: 1091743
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: There is no sound on the speakers (as long as you do not connect or disconnect
     the headphones).
 - component: Other
@@ -8230,8 +8230,8 @@
 - component: Basesystem
   create_time: 20180511T07:21:00
   id: 1092877
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: vasprintf(&dest, "%s", str) doesn't always fill whole destination
 '20180513':
 - component: Basesystem
@@ -8366,8 +8366,8 @@
 - component: Kubic
   create_time: 20180513T12:18:00
   id: 1093039
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[openQA] post rollback, the expected package is not found'
 - component: X11 Applications
   create_time: 20180513T11:14:00
@@ -8544,11 +8544,18 @@
   summary: biosdevname crashes due to infinite recursion in smbios_setslot
 '20180519': []
 '20180520':
-- component: Kernel
+- component: GNOME
+  create_time: 20180522T07:51:00
+  id: 1094148
+  resolution: ''
+  status: NEW
+  summary: '[SLE-Classic] The "Applications" window floats far away from the menu
+    bar.'
+- component: X11 3rd Party Driver
   create_time: 20180521T17:35:00
   id: 1094085
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Cannot install nvidia drivers. ksym(default:vfree)
 - component: Bootloader
   create_time: 20180521T07:30:00
