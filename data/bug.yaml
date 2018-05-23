@@ -8274,7 +8274,7 @@
   create_time: 20180514T16:00:00
   id: 1093170
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: rdma-core srp_daemon using service template file in pre/postun
 - component: KVM
   create_time: 20180514T15:49:00
