@@ -2067,7 +2067,7 @@
   id: 1076835
   resolution: ''
   status: NEW
-  summary: '[Build 20180117] Enlightenmnet: newly asks for language'
+  summary: '[Build 20180117] Enlightenment: newly asks for language'
 - component: Other
   create_time: 20180119T13:58:00
   id: 1076819
@@ -2223,8 +2223,8 @@
 - component: Other
   create_time: 20180123T12:35:00
   id: 1077218
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'llvm5: build often stalls obs workers'
 - component: Bootloader
   create_time: 20180123T10:55:00
@@ -4456,8 +4456,8 @@
 - component: Kernel
   create_time: 20180223T09:38:00
   id: 1082504
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Patch file not found ar3k/AthrBT_0x00000200.dfu
 - component: GNOME
   create_time: 20180223T06:41:00
@@ -6040,8 +6040,8 @@
 - component: X11 Applications
   create_time: 20180322T19:25:00
   id: 1086546
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Missing dependency for remmina (1.2.0~rcgit.27-1.1)
 - component: Security
   create_time: 20180322T14:23:00
@@ -7312,8 +7312,8 @@
 - component: Other
   create_time: 20180417T08:39:00
   id: 1089814
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'pdns-recursor: Fails to build with Boost 1.67.0'
 - component: GNOME
   create_time: 20180417T08:39:00
@@ -7325,14 +7325,14 @@
 - component: Other
   create_time: 20180417T08:35:00
   id: 1089812
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'libtorrent-rasterbar: Fails to build with Boost 1.67.0'
 - component: LibreOffice
   create_time: 20180417T08:32:00
   id: 1089811
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'liborcus: Fails to build with Boost 1.67.0'
 - component: Other
   create_time: 20180417T08:29:00
@@ -7552,8 +7552,8 @@
 - component: X11 Applications
   create_time: 20180424T08:50:00
   id: 1090677
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'X11:RemoteDesktop/freerdp: Bug missing pulse support'
 - component: Sound
   create_time: 20180424T07:47:00
@@ -7640,8 +7640,8 @@
 - component: YaST2
   create_time: 20180428T07:42:00
   id: 1091286
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: IN_PROGRESS
   summary: libyui-qt{,-pkg,graph} does not build with Qt 5.11
 - component: Other
   create_time: 20180427T15:37:00
@@ -7802,8 +7802,8 @@
 - component: Basesystem
   create_time: 20180509T11:31:00
   id: 1092544
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: mariadb test fails'
 - component: Xen
   create_time: 20180509T11:30:00
@@ -7820,8 +7820,8 @@
 - component: X.Org
   create_time: 20180509T11:27:00
   id: 1092541
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: xf86-video-intel build fails on i586'
 - component: YaST2
   create_time: 20180509T11:07:00
@@ -7851,7 +7851,7 @@
   create_time: 20180509T07:55:00
   id: 1092489
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 8:  schily build fails on i586'
 - component: Development
   create_time: 20180509T07:29:00
@@ -8485,8 +8485,8 @@
 - component: X11 Applications
   create_time: 20180517T14:53:00
   id: 1093733
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: wireshark fails to build against Qt 5.11
 - component: X11 Applications
   create_time: 20180517T14:53:00
@@ -8540,41 +8540,17 @@
   create_time: 20180517T06:53:00
   id: 1093625
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: biosdevname crashes due to infinite recursion in smbios_setslot
 '20180519': []
 '20180520':
-- component: Sound
-  create_time: 20180522T18:25:00
-  id: 1094255
+- component: Other
+  create_time: 20180520T04:46:00
+  id: 1093984
   resolution: ''
   status: NEW
-  summary: Bluetooth headset wrong profile (HSP instead of A2DP)
-- component: Printing
-  create_time: 20180522T15:20:00
-  id: 1094233
-  resolution: ''
-  status: NEW
-  summary: cups-exec uses execve wrong to call backend/smb
-- component: Network
-  create_time: 20180522T15:20:00
-  id: 1094232
-  resolution: ''
-  status: NEW
-  summary: openvswitch-2.9.1 fails to build with DPDK-18.02.1
-- component: Development
-  create_time: 20180522T14:51:00
-  id: 1094222
-  resolution: ''
-  status: NEW
-  summary: gcc-8 on opensuse tumbleweed points to wrong location when displaying error
-- component: GNOME
-  create_time: 20180522T07:51:00
-  id: 1094148
-  resolution: ''
-  status: NEW
-  summary: '[SLE-Classic] The "Applications" window floats far away from the menu
-    bar.'
+  summary: 'Octave: GUI application menu link not created in Plasma desktop'
+'20180521':
 - component: X11 3rd Party Driver
   create_time: 20180521T17:35:00
   id: 1094085
@@ -8595,9 +8571,108 @@
   status: IN_PROGRESS
   summary: 'drbdmanage: Update to the latest 0.99.17 to fix the issue of big volume
     assignment'
-- component: Other
-  create_time: 20180520T04:46:00
-  id: 1093984
+'20180522':
+- component: Firefox
+  create_time: 20180525T10:47:00
+  id: 1094668
   resolution: ''
   status: NEW
-  summary: 'Octave: GUI application menu link not created in Plasma desktop'
+  summary: Firefox start failure ppc64le in TW
+- component: Virtualization:Tools
+  create_time: 20180525T08:19:00
+  id: 1094638
+  resolution: ''
+  status: NEW
+  summary: QEMU doesn't redirect F10 key
+- component: Basesystem
+  create_time: 20180525T07:36:00
+  id: 1094627
+  resolution: ''
+  status: NEW
+  summary: neovim mouse support is broken due to incompatibility with libtermkey library
+- component: GNOME
+  create_time: 20180524T21:24:00
+  id: 1094584
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180522] multi_users_dm: no keyboard input'
+- component: Kernel
+  create_time: 20180524T20:39:00
+  id: 1094575
+  resolution: ''
+  status: NEW
+  summary: 'openSUSE - qeth_l2 (s390x): 4.17-rc6 kernel assigns different MAC address
+    than 4.16 or SLE15'
+- component: Other
+  create_time: 20180524T19:33:00
+  id: 1094566
+  resolution: ''
+  status: NEW
+  summary: 'Flatpak 0.10.4 "open(O_TMPFILE): Permission denied"'
+- component: KVM
+  create_time: 20180523T17:44:00
+  id: 1094406
+  resolution: ''
+  status: NEW
+  summary: next qemu package (v2.12) in devel repo fails with SATA+Windows10 guest
+- component: KDE Workspace (Plasma)
+  create_time: 20180523T15:17:00
+  id: 1094376
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: kactivitymanagerd crashes
+- component: Other
+  create_time: 20180523T11:27:00
+  id: 1094343
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Gajim's Plugin Installer is broken
+- component: Other
+  create_time: 20180523T09:40:00
+  id: 1094328
+  resolution: ''
+  status: NEW
+  summary: nfs-server or netcfg could create /etc/exports.d
+- component: Kernel
+  create_time: 20180523T09:21:00
+  id: 1094324
+  resolution: ''
+  status: NEW
+  summary: Hibernation mode did not work
+- component: Development
+  create_time: 20180523T09:12:00
+  id: 1094323
+  resolution: ''
+  status: NEW
+  summary: packages do not build reproducibly from pip install
+- component: Sound
+  create_time: 20180522T18:25:00
+  id: 1094255
+  resolution: ''
+  status: NEW
+  summary: Bluetooth headset wrong profile (HSP instead of A2DP)
+- component: Samba
+  create_time: 20180522T15:20:00
+  id: 1094233
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: /usr/lib/cups/backend/smb does not behave in compliance with CUPS
+- component: Network
+  create_time: 20180522T15:20:00
+  id: 1094232
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: 'openvswitch-2.9.1 fails to build: using internal DPDK symbol (rte_mempool_ops_get_count)'
+- component: Development
+  create_time: 20180522T14:51:00
+  id: 1094222
+  resolution: ''
+  status: IN_PROGRESS
+  summary: gcc-8 on opensuse tumbleweed points to wrong location when displaying error
+- component: GNOME
+  create_time: 20180522T07:51:00
+  id: 1094148
+  resolution: ''
+  status: NEW
+  summary: '[SLE-Classic] The "Applications" window floats far away from the menu
+    bar.'
