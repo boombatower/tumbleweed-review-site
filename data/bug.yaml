@@ -8604,6 +8604,43 @@
   summary: '[SLE-Classic] The "Applications" window floats far away from the menu
     bar.'
 '20180523':
+- component: KVM
+  create_time: 20180523T17:44:00
+  id: 1094406
+  resolution: ''
+  status: CONFIRMED
+  summary: next qemu package (v2.12) in devel repo fails with SATA+Windows10 guest
+- component: KDE Workspace (Plasma)
+  create_time: 20180523T15:17:00
+  id: 1094376
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: kactivitymanagerd crashes
+- component: Other
+  create_time: 20180523T11:27:00
+  id: 1094343
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Gajim's Plugin Installer is broken
+- component: Other
+  create_time: 20180523T09:40:00
+  id: 1094328
+  resolution: ''
+  status: NEW
+  summary: nfs-server or netcfg could create /etc/exports.d
+- component: Kernel
+  create_time: 20180523T09:21:00
+  id: 1094324
+  resolution: ''
+  status: NEW
+  summary: Hibernation mode did not work
+- component: Development
+  create_time: 20180523T09:12:00
+  id: 1094323
+  resolution: ''
+  status: NEW
+  summary: packages do not build reproducibly from pip install
+'20180524':
 - component: Other
   create_time: 20180525T16:11:00
   id: 1094717
@@ -8653,39 +8690,3 @@
   resolution: ''
   status: NEW
   summary: 'Flatpak 0.10.4 "open(O_TMPFILE): Permission denied"'
-- component: KVM
-  create_time: 20180523T17:44:00
-  id: 1094406
-  resolution: ''
-  status: CONFIRMED
-  summary: next qemu package (v2.12) in devel repo fails with SATA+Windows10 guest
-- component: KDE Workspace (Plasma)
-  create_time: 20180523T15:17:00
-  id: 1094376
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: kactivitymanagerd crashes
-- component: Other
-  create_time: 20180523T11:27:00
-  id: 1094343
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Gajim's Plugin Installer is broken
-- component: Other
-  create_time: 20180523T09:40:00
-  id: 1094328
-  resolution: ''
-  status: NEW
-  summary: nfs-server or netcfg could create /etc/exports.d
-- component: Kernel
-  create_time: 20180523T09:21:00
-  id: 1094324
-  resolution: ''
-  status: NEW
-  summary: Hibernation mode did not work
-- component: Development
-  create_time: 20180523T09:12:00
-  id: 1094323
-  resolution: ''
-  status: NEW
-  summary: packages do not build reproducibly from pip install
