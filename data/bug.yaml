@@ -8641,6 +8641,74 @@
   status: NEW
   summary: packages do not build reproducibly from pip install
 '20180524':
+- component: GNOME
+  create_time: 20180524T21:24:00
+  id: 1094584
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180522] multi_users_dm: no keyboard input'
+- component: Kernel
+  create_time: 20180524T20:39:00
+  id: 1094575
+  resolution: ''
+  status: NEW
+  summary: 'openSUSE - qeth_l2 (s390x): 4.17-rc6 kernel assigns different MAC address
+    than 4.16 or SLE15'
+- component: Other
+  create_time: 20180524T19:33:00
+  id: 1094566
+  resolution: ''
+  status: NEW
+  summary: 'Flatpak 0.10.4 "open(O_TMPFILE): Permission denied"'
+'20180525':
+- component: Other
+  create_time: 20180527T16:14:00
+  id: 1094777
+  resolution: ''
+  status: NEW
+  summary: Blender cycles are broken
+- component: X11 Applications
+  create_time: 20180527T13:15:00
+  id: 1094774
+  resolution: ''
+  status: NEW
+  summary: desktop-file-utils do not recognize "font" media type
+- component: Containers
+  create_time: 20180527T11:34:00
+  id: 1094773
+  resolution: ''
+  status: NEW
+  summary: timezone package missing from default install
+- component: GNOME
+  create_time: 20180527T09:59:00
+  id: 1094770
+  resolution: ''
+  status: NEW
+  summary: Powering Off USB hard drive crashes OS
+- component: GNOME
+  create_time: 20180527T03:19:00
+  id: 1094765
+  resolution: ''
+  status: NEW
+  summary: Package GDM theme separately to allow for switching
+- component: Basesystem
+  create_time: 20180526T14:57:00
+  id: 1094758
+  resolution: ''
+  status: NEW
+  summary: ksysguardd prevents suspend when no network
+- component: KDE Applications
+  create_time: 20180526T12:00:00
+  id: 1094752
+  resolution: ''
+  status: NEW
+  summary: Device Notifier and Dolphin will not mount encrypted external drives
+- component: Firefox
+  create_time: 20180526T09:00:00
+  id: 1094747
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Open with option in download dialog has no effect with kmozillahelper
 - component: Other
   create_time: 20180525T16:11:00
   id: 1094717
@@ -8671,22 +8739,3 @@
   resolution: ''
   status: NEW
   summary: neovim mouse support is broken due to incompatibility with libtermkey library
-- component: GNOME
-  create_time: 20180524T21:24:00
-  id: 1094584
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180522] multi_users_dm: no keyboard input'
-- component: Kernel
-  create_time: 20180524T20:39:00
-  id: 1094575
-  resolution: ''
-  status: NEW
-  summary: 'openSUSE - qeth_l2 (s390x): 4.17-rc6 kernel assigns different MAC address
-    than 4.16 or SLE15'
-- component: Other
-  create_time: 20180524T19:33:00
-  id: 1094566
-  resolution: ''
-  status: NEW
-  summary: 'Flatpak 0.10.4 "open(O_TMPFILE): Permission denied"'
