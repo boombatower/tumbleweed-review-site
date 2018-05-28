@@ -6972,7 +6972,7 @@
   create_time: 20180412T19:24:00
   id: 1089434
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: enchant-2 voikko backend installed but not hunspell backend despite en.GB
     language settings
 - component: Kernel
@@ -8661,6 +8661,13 @@
   status: NEW
   summary: 'Flatpak 0.10.4 "open(O_TMPFILE): Permission denied"'
 '20180525':
+- component: Live Medium
+  create_time: 20180527T21:48:00
+  id: 1094788
+  resolution: ''
+  status: NEW
+  summary: Leap 15.0 and TW live system attempt format partition "is apparently in
+    use by the system"
 - component: Other
   create_time: 20180527T16:14:00
   id: 1094777
