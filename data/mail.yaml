@@ -843,11 +843,22 @@
   threads: []
 '20180524':
   announcement: 2018-05.393
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 11
+  thread_count: 1
+  threads:
+  - messages: [2018-05.407]
+    reference_count: 11
+    summary: NVidia-problems with
 '20180525':
   announcement: 2018-05.402
+  reference_count: 3
+  thread_count: 1
+  threads:
+  - messages: [2018-05.405]
+    reference_count: 3
+    summary: perl version bump broke texlive-biber-bin dependency
+'20180528':
+  announcement: 2018-05.489
   reference_count: 0
   thread_count: 0
   threads: []
