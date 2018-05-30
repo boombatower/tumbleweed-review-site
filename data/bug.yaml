@@ -8055,8 +8055,8 @@
 - component: Containers
   create_time: 20180503T11:54:00
   id: 1091819
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Docker fails to stop container
 - component: KDE Workspace (Plasma)
   create_time: 20180503T11:53:00
@@ -8472,8 +8472,8 @@
 - component: Other
   create_time: 20180518T08:16:00
   id: 1093817
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: live-grub-stick depends on lsb-release
 - component: Basesystem
   create_time: 20180518T07:20:00
@@ -8683,8 +8683,8 @@
 - component: Containers
   create_time: 20180527T11:34:00
   id: 1094773
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: timezone package missing from default install
 - component: GNOME
   create_time: 20180527T09:59:00
@@ -8747,6 +8747,19 @@
   status: NEW
   summary: neovim mouse support is broken due to incompatibility with libtermkey library
 '20180528':
+- component: Network
+  create_time: 20180530T06:48:00
+  id: 1095136
+  resolution: ''
+  status: NEW
+  summary: networks manager drops connection and hangs the computer
+- component: Kubic
+  create_time: 20180530T06:08:00
+  id: 1095131
+  resolution: ''
+  status: NEW
+  summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
+    "/var/lib/kubelet"'
 - component: Basesystem
   create_time: 20180529T20:15:00
   id: 1095101
