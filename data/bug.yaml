@@ -4218,8 +4218,8 @@
 - component: Containers
   create_time: 20180219T15:48:00
   id: 1081613
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: iptables-restore invalid option in kube-proxy
 - component: Other
   create_time: 20180219T15:31:00
@@ -5259,13 +5259,13 @@
   create_time: 20180309T21:26:00
   id: 1084766
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: kubernetes-kubelet doesn't create /var/lib/kubelet properly in transactional-update
 - component: Containers
   create_time: 20180309T21:24:00
   id: 1084765
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: kubeternetes-kubeadm seems to be missing dependencies
 - component: Kernel
   create_time: 20180309T17:16:00
@@ -5669,8 +5669,8 @@
 - component: Containers
   create_time: 20180314T21:26:00
   id: 1085380
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'docker-init: missing binary (when using docker run --init parameter)'
 - component: YaST2
   create_time: 20180314T11:40:00
@@ -6488,7 +6488,7 @@
   create_time: 20180331T09:01:00
   id: 1087699
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Velum Branding
 - component: Sound
   create_time: 20180331T05:46:00
@@ -8200,7 +8200,7 @@
   create_time: 20180512T07:33:00
   id: 1093024
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: '[Build 20180508] openQA test fails in start_install - " nothing provides
     libwebp.so.6()(64bit) needed by libavcodec57-3.4.2-1.1.ppc64le"'
 - component: Network
@@ -8349,7 +8349,7 @@
   create_time: 20180514T06:31:00
   id: 1093059
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20180508] openQA test fails in firefox - firefox "dumped core"'
 - component: KDE Workspace (Plasma)
   create_time: 20180513T22:15:00
@@ -8665,14 +8665,14 @@
   create_time: 20180527T21:48:00
   id: 1094788
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Leap 15.0 and TW live system attempt format partition "is apparently in
     use by the system"
 - component: Other
   create_time: 20180527T16:14:00
   id: 1094777
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Blender cycles are broken
 - component: X11 Applications
   create_time: 20180527T13:15:00
@@ -8746,3 +8746,108 @@
   resolution: ''
   status: NEW
   summary: neovim mouse support is broken due to incompatibility with libtermkey library
+'20180528':
+- component: Basesystem
+  create_time: 20180529T20:15:00
+  id: 1095101
+  resolution: ''
+  status: NEW
+  summary: cross-avr-gcc7 contains debug info and thus is huge
+- component: Development
+  create_time: 20180529T13:29:00
+  id: 1095041
+  resolution: ''
+  status: NEW
+  summary: 'python3-botocore: :''AWSHTTPSConnection'' object has no attribute ''ssl_context'''
+- component: GNOME
+  create_time: 20180529T11:48:00
+  id: 1095011
+  resolution: ''
+  status: NEW
+  summary: Pakagekit should download appstream data on packagekit refresh
+- component: KDE Workspace (Plasma)
+  create_time: 20180529T09:47:00
+  id: 1094987
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180528] Firefox failure on plasma/wayland / livecd'
+- component: KDE Workspace (Plasma)
+  create_time: 20180529T04:23:00
+  id: 1094939
+  resolution: ''
+  status: NEW
+  summary: Kwin crashes with seg fault immediately after login.
+- component: Basesystem
+  create_time: 20180528T21:39:00
+  id: 1094930
+  resolution: ''
+  status: NEW
+  summary: fsck.btrfs should not recommend dangerous procedure
+- component: Basesystem
+  create_time: 20180528T21:34:00
+  id: 1094929
+  resolution: FIXED
+  status: RESOLVED
+  summary: ARCHIVES.gz is missing
+- component: Installation
+  create_time: 20180528T17:20:00
+  id: 1094927
+  resolution: ''
+  status: NEW
+  summary: installer uses a second disk even if told not to do so
+- component: Installation
+  create_time: 20180528T16:27:00
+  id: 1094924
+  resolution: ''
+  status: CONFIRMED
+  summary: partition imported during installation would all be formatted by default
+- component: Basesystem
+  create_time: 20180528T12:43:00
+  id: 1094893
+  resolution: ''
+  status: NEW
+  summary: Bug in scriptlet vlc-qt-3.0.2-6.3.x86_64
+- component: Other
+  create_time: 20180528T12:19:00
+  id: 1094886
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'Publishing:TeXLive/texlive: perl version bump to 5.26.2 broke texlive-biber-bin
+    dependency in Factory'
+- component: Installation
+  create_time: 20180528T11:27:00
+  id: 1094877
+  resolution: INVALID
+  status: VERIFIED
+  summary: '[Build 20180527] openQA test fails in partitioning_firstdisk - /dev/vdb
+    is missing in Selec Hard Disk(s) proposal'
+- component: YaST2
+  create_time: 20180528T11:24:00
+  id: 1094875
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Running the yast2-storage-ng testsuite takes terribly long time
+- component: Containers
+  create_time: 20180528T10:39:00
+  id: 1094863
+  resolution: ''
+  status: NEW
+  summary: Podman hangs when using CNI loopback example
+- component: Containers
+  create_time: 20180528T10:11:00
+  id: 1094858
+  resolution: ''
+  status: CONFIRMED
+  summary: Remove outdated options from default /etc/containers/storage.conf
+- component: Other
+  create_time: 20180528T07:05:00
+  id: 1094816
+  resolution: ''
+  status: NEW
+  summary: zathura-0.4.0 unable to open pdf files
+- component: Network
+  create_time: 20180528T06:30:00
+  id: 1094808
+  resolution: ''
+  status: NEW
+  summary: kernels 4.15 and 4.16 break xl2tpd <  1.3.12
