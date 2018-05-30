@@ -1349,3 +1349,21 @@
   binary_unique_count: 292
   disk_base: 839M
   disk_shared: 507M
+'20180524':
+  binary_count: 20
+  binary_interest: {}
+  binary_interest_changed:
+  - Mesa
+  - gcc7
+  - gcc8
+  - libqt5-qtbase-devel
+  - plasma-framework
+  - kernel-source
+  - Mesa
+  - gcc7
+  - gcc8
+  - libqt5-qtbase-devel
+  - plasma-framework
+  binary_unique_count: 3752
+  disk_base: 838M
+  disk_shared: 5.9G
