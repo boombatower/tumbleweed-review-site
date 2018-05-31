@@ -3545,8 +3545,8 @@
 - component: X11 Applications
   create_time: 20180209T08:50:00
   id: 1080244
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: conflict of liberation-fonts and liberation2-fonts
 '20180210':
 - component: X11 Applications
@@ -7293,8 +7293,8 @@
 - component: Other
   create_time: 20180417T08:52:00
   id: 1089820
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'uhd: Fails to build with Boost 1.67.0'
 - component: Network
   create_time: 20180417T08:48:00
@@ -7349,8 +7349,8 @@
 - component: Other
   create_time: 20180417T08:14:00
   id: 1089806
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'gnuradio: Fails to build with Boost 1.67.0'
 - component: Other
   create_time: 20180417T08:09:00
@@ -8261,8 +8261,8 @@
 - component: Basesystem
   create_time: 20180514T16:22:00
   id: 1093174
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: telnet using service template file in pre/postun
 - component: Basesystem
   create_time: 20180514T16:02:00
@@ -8379,7 +8379,7 @@
   create_time: 20180513T04:42:00
   id: 1093033
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20180511] openQA test fails in consoletest_setup, curl failed with
     Could not connect to Server'
 '20180515':
@@ -8747,49 +8747,6 @@
   status: NEW
   summary: neovim mouse support is broken due to incompatibility with libtermkey library
 '20180528':
-- component: Network
-  create_time: 20180530T06:48:00
-  id: 1095136
-  resolution: ''
-  status: NEW
-  summary: networks manager drops connection and hangs the computer
-- component: Kubic
-  create_time: 20180530T06:08:00
-  id: 1095131
-  resolution: ''
-  status: NEW
-  summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
-    "/var/lib/kubelet"'
-- component: Basesystem
-  create_time: 20180529T20:15:00
-  id: 1095101
-  resolution: ''
-  status: NEW
-  summary: cross-avr-gcc7 contains debug info and thus is huge
-- component: Development
-  create_time: 20180529T13:29:00
-  id: 1095041
-  resolution: ''
-  status: NEW
-  summary: 'python3-botocore: :''AWSHTTPSConnection'' object has no attribute ''ssl_context'''
-- component: GNOME
-  create_time: 20180529T11:48:00
-  id: 1095011
-  resolution: ''
-  status: NEW
-  summary: Pakagekit should download appstream data on packagekit refresh
-- component: KDE Workspace (Plasma)
-  create_time: 20180529T09:47:00
-  id: 1094987
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180528] Firefox failure on plasma/wayland / livecd'
-- component: KDE Workspace (Plasma)
-  create_time: 20180529T04:23:00
-  id: 1094939
-  resolution: ''
-  status: NEW
-  summary: Kwin crashes with seg fault immediately after login.
 - component: Basesystem
   create_time: 20180528T21:39:00
   id: 1094930
@@ -8855,8 +8812,8 @@
 - component: Other
   create_time: 20180528T07:05:00
   id: 1094816
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: zathura-0.4.0 unable to open pdf files
 - component: Network
   create_time: 20180528T06:30:00
@@ -8864,3 +8821,72 @@
   resolution: ''
   status: NEW
   summary: kernels 4.15 and 4.16 break xl2tpd <  1.3.12
+'20180529':
+- component: KDE Workspace (Plasma)
+  create_time: 20180530T12:12:00
+  id: 1095208
+  resolution: ''
+  status: NEW
+  summary: In System Settings->Regional Settings the only language available is American
+    English
+- component: Firefox
+  create_time: 20180530T11:35:00
+  id: 1095198
+  resolution: ''
+  status: NEW
+  summary: Firefox 60.0.1 tls handshake times out
+- component: X11 3rd Party Driver
+  create_time: 20180530T10:49:00
+  id: 1095186
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'Errors in NVidia-driver: resolution, second monitor,'
+- component: Other
+  create_time: 20180530T09:36:00
+  id: 1095172
+  resolution: ''
+  status: NEW
+  summary: bibletime won't install
+- component: Network
+  create_time: 20180530T06:48:00
+  id: 1095136
+  resolution: ''
+  status: NEW
+  summary: networks manager drops connection and hangs the computer
+- component: Kubic
+  create_time: 20180530T06:08:00
+  id: 1095131
+  resolution: ''
+  status: NEW
+  summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
+    "/var/lib/kubelet"'
+- component: Basesystem
+  create_time: 20180529T20:15:00
+  id: 1095101
+  resolution: ''
+  status: NEW
+  summary: cross-avr-gcc7 contains debug info and thus is huge
+- component: Development
+  create_time: 20180529T13:29:00
+  id: 1095041
+  resolution: ''
+  status: CONFIRMED
+  summary: 'python3-botocore: :''AWSHTTPSConnection'' object has no attribute ''ssl_context'''
+- component: GNOME
+  create_time: 20180529T11:48:00
+  id: 1095011
+  resolution: ''
+  status: NEW
+  summary: Pakagekit should download appstream data on packagekit refresh
+- component: KDE Workspace (Plasma)
+  create_time: 20180529T09:47:00
+  id: 1094987
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180528] Firefox failure on plasma/wayland / livecd'
+- component: KDE Workspace (Plasma)
+  create_time: 20180529T04:23:00
+  id: 1094939
+  resolution: ''
+  status: NEW
+  summary: Kwin crashes with seg fault immediately after login.
