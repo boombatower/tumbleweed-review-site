@@ -4387,8 +4387,8 @@
 - component: Other
   create_time: 20180221T12:36:00
   id: 1082002
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'uwsgi: service fails to start because hard-coded user wwwrun does not
     exist'
 - component: Kubic
