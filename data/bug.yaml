@@ -1297,8 +1297,8 @@
 - component: AppArmor
   create_time: 20180103T08:16:00
   id: 1074429
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[20180101] AppArmor cannot be started in Kubic'
 - component: Kernel
   create_time: 20180103T00:00:00
@@ -8607,8 +8607,8 @@
 - component: KVM
   create_time: 20180523T17:44:00
   id: 1094406
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: next qemu package (v2.12) in devel repo fails with SATA+Windows10 guest
 - component: KDE Workspace (Plasma)
   create_time: 20180523T15:17:00
@@ -8862,8 +8862,8 @@
 - component: Virtualization:Other
   create_time: 20180531T16:08:00
   id: 1095419
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'libvirt fails to run any existing virtual machine or create new ones with
     error: initing chardev'
 - component: GNOME
