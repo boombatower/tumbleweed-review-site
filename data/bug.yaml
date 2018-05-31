@@ -6984,8 +6984,8 @@
 - component: Other
   create_time: 20180412T12:57:00
   id: 1089352
-  resolution: WONTFIX
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Testing bug for python-bugzilla interface in order to test mass scripting
 - component: Kernel
   create_time: 20180412T12:40:00
@@ -7640,8 +7640,8 @@
 - component: YaST2
   create_time: 20180428T07:42:00
   id: 1091286
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: libyui-qt{,-pkg,graph} does not build with Qt 5.11
 - component: Other
   create_time: 20180427T15:37:00
@@ -7850,8 +7850,8 @@
 - component: Basesystem
   create_time: 20180509T07:55:00
   id: 1092489
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8:  schily build fails on i586'
 - component: Development
   create_time: 20180509T07:29:00
@@ -7868,8 +7868,8 @@
 - component: Kernel
   create_time: 20180509T01:16:00
   id: 1092456
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 4.17 regression loading custom SPI module
 - component: Basesystem
   create_time: 20180508T18:15:00
@@ -8763,7 +8763,7 @@
   create_time: 20180528T17:20:00
   id: 1094927
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: installer uses a second disk even if told not to do so
 - component: Installation
   create_time: 20180528T16:27:00
@@ -8822,6 +8822,56 @@
   status: NEW
   summary: kernels 4.15 and 4.16 break xl2tpd <  1.3.12
 '20180529':
+- component: Basesystem
+  create_time: 20180529T20:15:00
+  id: 1095101
+  resolution: ''
+  status: NEW
+  summary: cross-avr-gcc7 contains debug info and thus is huge
+- component: Development
+  create_time: 20180529T13:29:00
+  id: 1095041
+  resolution: ''
+  status: CONFIRMED
+  summary: 'python3-botocore: :''AWSHTTPSConnection'' object has no attribute ''ssl_context'''
+- component: GNOME
+  create_time: 20180529T11:48:00
+  id: 1095011
+  resolution: ''
+  status: NEW
+  summary: Pakagekit should download appstream data on packagekit refresh
+- component: KDE Workspace (Plasma)
+  create_time: 20180529T09:47:00
+  id: 1094987
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180528] Firefox failure on plasma/wayland / livecd'
+- component: KDE Workspace (Plasma)
+  create_time: 20180529T04:23:00
+  id: 1094939
+  resolution: ''
+  status: NEW
+  summary: Kwin crashes with seg fault immediately after login.
+'20180530':
+- component: Other
+  create_time: 20180531T16:34:00
+  id: 1095425
+  resolution: ''
+  status: NEW
+  summary: The ICU library ignores the users locale setting
+- component: Virtualization:Other
+  create_time: 20180531T16:08:00
+  id: 1095419
+  resolution: ''
+  status: NEW
+  summary: 'libvirt fails to run any existing virtual machine or create new ones with
+    error: initing chardev'
+- component: GNOME
+  create_time: 20180531T08:40:00
+  id: 1095325
+  resolution: ''
+  status: NEW
+  summary: '"SLE Classic" gnome extension causes problems when toggled in gnome-tweaks'
 - component: KDE Workspace (Plasma)
   create_time: 20180530T12:12:00
   id: 1095208
@@ -8860,33 +8910,3 @@
   status: NEW
   summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
     "/var/lib/kubelet"'
-- component: Basesystem
-  create_time: 20180529T20:15:00
-  id: 1095101
-  resolution: ''
-  status: NEW
-  summary: cross-avr-gcc7 contains debug info and thus is huge
-- component: Development
-  create_time: 20180529T13:29:00
-  id: 1095041
-  resolution: ''
-  status: CONFIRMED
-  summary: 'python3-botocore: :''AWSHTTPSConnection'' object has no attribute ''ssl_context'''
-- component: GNOME
-  create_time: 20180529T11:48:00
-  id: 1095011
-  resolution: ''
-  status: NEW
-  summary: Pakagekit should download appstream data on packagekit refresh
-- component: KDE Workspace (Plasma)
-  create_time: 20180529T09:47:00
-  id: 1094987
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180528] Firefox failure on plasma/wayland / livecd'
-- component: KDE Workspace (Plasma)
-  create_time: 20180529T04:23:00
-  id: 1094939
-  resolution: ''
-  status: NEW
-  summary: Kwin crashes with seg fault immediately after login.
