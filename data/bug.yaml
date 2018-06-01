@@ -982,7 +982,7 @@
   create_time: 20171227T11:53:00
   id: 1074135
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: libsmbclient0 pulls in the entire server
 - component: Other
   create_time: 20171227T10:46:00
@@ -5303,7 +5303,7 @@
   create_time: 20180309T10:06:00
   id: 1084649
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: '[META] GCC 8 package failures'
 - component: Basesystem
   create_time: 20180309T10:06:00
@@ -5326,8 +5326,8 @@
 - component: Basesystem
   create_time: 20180309T10:05:00
   id: 1084645
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: ceph build fails'
 - component: libzypp
   create_time: 20180309T10:05:00
@@ -5374,8 +5374,8 @@
 - component: Basesystem
   create_time: 20180309T10:03:00
   id: 1084637
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: elfutils build fails'
 - component: Basesystem
   create_time: 20180309T10:03:00
@@ -6076,8 +6076,8 @@
 - component: Development
   create_time: 20180322T11:00:00
   id: 1086445
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: libLLVMTableGen not packaged
 - component: Development
   create_time: 20180322T10:57:00
@@ -6338,8 +6338,8 @@
 - component: Basesystem
   create_time: 20180327T16:03:00
   id: 1087135
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: rust build fails'
 - component: Other
   create_time: 20180327T13:31:00
@@ -7231,8 +7231,8 @@
 - component: Installation
   create_time: 20180418T12:39:00
   id: 1090056
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: YaST tries to install bootloader on NFS despite saying that it doesn't
 - component: Kernel
   create_time: 20180418T10:56:00
@@ -7808,8 +7808,8 @@
 - component: Xen
   create_time: 20180509T11:30:00
   id: 1092543
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'GCC 8: xen build fails'
 - component: Patterns
   create_time: 20180509T11:29:00
@@ -8658,7 +8658,7 @@
   create_time: 20180524T19:33:00
   id: 1094566
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Flatpak 0.10.4 "open(O_TMPFILE): Permission denied"'
 '20180525':
 - component: Live Medium
@@ -8853,11 +8853,41 @@
   status: NEW
   summary: Kwin crashes with seg fault immediately after login.
 '20180530':
+- component: Kernel
+  create_time: 20180601T15:02:00
+  id: 1095592
+  resolution: ''
+  status: NEW
+  summary: Network doesn't work with kernel 4.16.12 on a lenovo B5400
+- component: X11 Applications
+  create_time: 20180601T14:33:00
+  id: 1095587
+  resolution: ''
+  status: NEW
+  summary: 'devel:languages:python/spyder3: undeclared dependency python3-cloudpickle'
+- component: Bootloader
+  create_time: 20180601T11:45:00
+  id: 1095555
+  resolution: ''
+  status: NEW
+  summary: HiKey 960 hangs in UEFI - removable media not detected?
+- component: Basesystem
+  create_time: 20180601T07:30:00
+  id: 1095499
+  resolution: ''
+  status: NEW
+  summary: Let's come up with python3-debug package
+- component: Firefox
+  create_time: 20180601T07:11:00
+  id: 1095494
+  resolution: ''
+  status: NEW
+  summary: Create ASAN and UBSAN flavors of MozillaFirefox
 - component: Other
   create_time: 20180531T16:34:00
   id: 1095425
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: The ICU library ignores the users locale setting
 - component: Virtualization:Other
   create_time: 20180531T16:08:00
@@ -8875,15 +8905,15 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180530T12:12:00
   id: 1095208
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: In System Settings->Regional Settings the only language available is American
     English
 - component: Firefox
   create_time: 20180530T11:35:00
   id: 1095198
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Firefox 60.0.1 tls handshake times out
 - component: X11 3rd Party Driver
   create_time: 20180530T10:49:00
