@@ -8671,8 +8671,8 @@
 - component: Other
   create_time: 20180527T16:14:00
   id: 1094777
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Blender cycles are broken
 - component: X11 Applications
   create_time: 20180527T13:15:00
@@ -8863,7 +8863,7 @@
   create_time: 20180601T15:02:00
   id: 1095592
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Network doesn't work with kernel 4.16.12 on a lenovo B5400
 - component: X11 Applications
   create_time: 20180601T14:33:00
