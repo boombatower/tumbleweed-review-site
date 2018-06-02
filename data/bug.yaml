@@ -8853,6 +8853,12 @@
   status: NEW
   summary: Kwin crashes with seg fault immediately after login.
 '20180530':
+- component: Installation
+  create_time: 20180602T16:03:00
+  id: 1095666
+  resolution: ''
+  status: NEW
+  summary: Sword has broken dependencies
 - component: Kernel
   create_time: 20180601T15:02:00
   id: 1095592
