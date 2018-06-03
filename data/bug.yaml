@@ -7051,8 +7051,8 @@
 - component: Other
   create_time: 20180412T01:09:00
   id: 1089272
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Python-m2crypto error keeps osc from running
 - component: Installation
   create_time: 20180411T23:24:00
@@ -8853,6 +8853,12 @@
   status: NEW
   summary: Kwin crashes with seg fault immediately after login.
 '20180530':
+- component: Kernel
+  create_time: 20180603T04:27:00
+  id: 1095680
+  resolution: ''
+  status: NEW
+  summary: boot hangs on "loading initial ramdisk" after upgrade to kernel 4.16.12-default
 - component: Installation
   create_time: 20180602T16:03:00
   id: 1095666
