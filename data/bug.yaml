@@ -8853,6 +8853,67 @@
   status: NEW
   summary: Kwin crashes with seg fault immediately after login.
 '20180530':
+- component: KDE Applications
+  create_time: 20180603T15:06:00
+  id: 1095698
+  resolution: ''
+  status: NEW
+  summary: Dragonplayer does not work with phonon-backend-vlc and phonon4qt5-backend-vlc
+- component: Basesystem
+  create_time: 20180603T14:10:00
+  id: 1095697
+  resolution: ''
+  status: NEW
+  summary: file /etc/issue is root readable only
+- component: Xen
+  create_time: 20180603T13:45:00
+  id: 1095695
+  resolution: ''
+  status: NEW
+  summary: virt-manager fails to start existing VM
+- component: Xen
+  create_time: 20180603T13:44:00
+  id: 1095694
+  resolution: ''
+  status: NEW
+  summary: virt-manager fails to start existing VM
+- component: Xen
+  create_time: 20180603T13:39:00
+  id: 1095693
+  resolution: ''
+  status: NEW
+  summary: virt-manager fails to start existing VM
+- component: Xen
+  create_time: 20180603T13:37:00
+  id: 1095692
+  resolution: ''
+  status: NEW
+  summary: virt-manager fails to start existing VM
+- component: Xen
+  create_time: 20180603T13:36:00
+  id: 1095691
+  resolution: ''
+  status: NEW
+  summary: virt-manager fails to start existing VM
+- component: Xen
+  create_time: 20180603T13:34:00
+  id: 1095690
+  resolution: ''
+  status: NEW
+  summary: virt-manager fails to start existing VM
+- component: Other
+  create_time: 20180603T13:15:00
+  id: 1095689
+  resolution: ''
+  status: NEW
+  summary: loop device set up with udisksctl requires root permission to delete with
+    udisksctl
+- component: KDE Applications
+  create_time: 20180603T13:08:00
+  id: 1095688
+  resolution: ''
+  status: NEW
+  summary: Missing package when installing digikam on OpenSUSE with GNOME
 - component: Other
   create_time: 20180603T06:20:00
   id: 1095682
