@@ -8856,8 +8856,8 @@
 - component: KDE Applications
   create_time: 20180603T15:06:00
   id: 1095698
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Dragonplayer does not work with phonon-backend-vlc and phonon4qt5-backend-vlc
 - component: Basesystem
   create_time: 20180603T14:10:00
