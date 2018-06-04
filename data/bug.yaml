@@ -158,8 +158,8 @@
 - component: Containers
   create_time: 20171204T14:12:00
   id: 1071063
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'golang: tests fail to build on random packages intermittently with errors
     about missing stdlib'
 - component: KVM
@@ -7838,8 +7838,8 @@
 - component: Development
   create_time: 20180509T09:21:00
   id: 1092500
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: patch leaks temporary file when applying ed-style patch
 - component: Other
   create_time: 20180509T08:06:00
@@ -8192,8 +8192,8 @@
 - component: YaST2
   create_time: 20180512T12:59:00
   id: 1093029
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180511] openQA test fails in yast2_dns_server - "named.service
     is not active, cannot reload."'
 - component: Other
@@ -8268,7 +8268,7 @@
   create_time: 20180514T16:02:00
   id: 1093172
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: salt salt-proxy using service file template in pre/post
 - component: Basesystem
   create_time: 20180514T16:00:00
@@ -8497,8 +8497,8 @@
 - component: Virtualization:Other
   create_time: 20180517T14:52:00
   id: 1093731
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: virtualbox fails to build against Qt 5.11
 - component: Other
   create_time: 20180517T14:38:00
@@ -8853,17 +8853,53 @@
   status: NEW
   summary: Kwin crashes with seg fault immediately after login.
 '20180530':
+- component: Development
+  create_time: 20180604T11:05:00
+  id: 1095795
+  resolution: ''
+  status: NEW
+  summary: acl package does not build reproducibly from gettext
+- component: Other
+  create_time: 20180604T09:50:00
+  id: 1095769
+  resolution: ''
+  status: NEW
+  summary: Add Development/Languages/NodeJS rpm group
+- component: Other
+  create_time: 20180604T09:08:00
+  id: 1095747
+  resolution: ''
+  status: NEW
+  summary: python-wxPython missing libraries
+- component: High Availability
+  create_time: 20180604T06:43:00
+  id: 1095728
+  resolution: ''
+  status: NEW
+  summary: Hawk uses incorrect library version
+- component: Other
+  create_time: 20180604T06:30:00
+  id: 1095725
+  resolution: ''
+  status: NEW
+  summary: Borg mount command missing dependency python3-llfuse
+- component: Other
+  create_time: 20180604T06:12:00
+  id: 1095717
+  resolution: ''
+  status: NEW
+  summary: 'OBS build failed with "illegal operation: 0001 ilc:1 [#1] SMP"'
 - component: KDE Applications
   create_time: 20180603T15:06:00
   id: 1095698
-  resolution: WONTFIX
+  resolution: INVALID
   status: RESOLVED
   summary: Dragonplayer does not work with phonon-backend-vlc and phonon4qt5-backend-vlc
 - component: Basesystem
   create_time: 20180603T14:10:00
   id: 1095697
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: file /etc/issue is root readable only
 - component: Xen
   create_time: 20180603T13:45:00
@@ -8874,32 +8910,32 @@
 - component: Xen
   create_time: 20180603T13:44:00
   id: 1095694
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: virt-manager fails to start existing VM
 - component: Xen
   create_time: 20180603T13:39:00
   id: 1095693
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: virt-manager fails to start existing VM
 - component: Xen
   create_time: 20180603T13:37:00
   id: 1095692
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: virt-manager fails to start existing VM
 - component: Xen
   create_time: 20180603T13:36:00
   id: 1095691
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: virt-manager fails to start existing VM
 - component: Xen
   create_time: 20180603T13:34:00
   id: 1095690
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: virt-manager fails to start existing VM
 - component: Other
   create_time: 20180603T13:15:00
@@ -8965,8 +9001,8 @@
 - component: Other
   create_time: 20180531T16:34:00
   id: 1095425
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: The ICU library ignores the users locale setting
 - component: Virtualization:Other
   create_time: 20180531T16:08:00
