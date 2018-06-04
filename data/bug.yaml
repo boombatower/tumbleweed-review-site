@@ -8671,8 +8671,8 @@
 - component: Other
   create_time: 20180527T16:14:00
   id: 1094777
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Blender cycles are broken
 - component: X11 Applications
   create_time: 20180527T13:15:00
@@ -8853,6 +8853,12 @@
   status: NEW
   summary: Kwin crashes with seg fault immediately after login.
 '20180530':
+- component: Containers
+  create_time: 20180604T13:28:00
+  id: 1095817
+  resolution: ''
+  status: IN_PROGRESS
+  summary: containers packages fail randomly due to %check
 - component: Development
   create_time: 20180604T11:05:00
   id: 1095795
@@ -8953,8 +8959,8 @@
 - component: Other
   create_time: 20180603T06:20:00
   id: 1095682
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: MySQL-Workbench couldn't be started (rebuild is needed)
 - component: Kernel
   create_time: 20180603T04:27:00
