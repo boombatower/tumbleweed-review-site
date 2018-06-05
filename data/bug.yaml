@@ -8853,6 +8853,12 @@
   status: NEW
   summary: Kwin crashes with seg fault immediately after login.
 '20180530':
+- component: Basesystem
+  create_time: 20180605T08:51:00
+  id: 1095973
+  resolution: ''
+  status: NEW
+  summary: wrong error message from systemctl
 - component: YaST2
   create_time: 20180604T20:05:00
   id: 1095886
@@ -8983,8 +8989,8 @@
 - component: Kernel
   create_time: 20180601T15:02:00
   id: 1095592
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Network doesn't work with kernel 4.16.12 on a lenovo B5400
 - component: X11 Applications
   create_time: 20180601T14:33:00
