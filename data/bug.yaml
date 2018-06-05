@@ -4406,8 +4406,8 @@
 - component: Basesystem
   create_time: 20180221T09:02:00
   id: 1081941
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: OBS cannot build LVM kiwi images due to udev not running
 - component: Ruby
   create_time: 20180221T08:10:00
@@ -7989,8 +7989,8 @@
 - component: Virtualization:Other
   create_time: 20180507T11:46:00
   id: 1092148
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180506] openQA test fails in docker_compose'
 - component: Firefox
   create_time: 20180507T10:33:00
