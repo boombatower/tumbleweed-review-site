@@ -8882,7 +8882,7 @@
   create_time: 20180606T09:39:00
   id: 1096208
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: 'snapper: fails to build with Boost 1.67.0'
 - component: Development
   create_time: 20180606T07:13:00
