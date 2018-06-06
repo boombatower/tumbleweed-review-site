@@ -4181,8 +4181,8 @@
 - component: LibreOffice
   create_time: 20180218T01:55:00
   id: 1081447
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Libreoffice 6.0.1 crashes while loading app
 - component: Other
   create_time: 20180218T01:53:00
@@ -8192,8 +8192,8 @@
 - component: YaST2
   create_time: 20180512T12:59:00
   id: 1093029
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '[Build 20180511] openQA test fails in yast2_dns_server - "named.service
     is not active, cannot reload."'
 - component: Other
@@ -8853,6 +8853,19 @@
   status: NEW
   summary: Kwin crashes with seg fault immediately after login.
 '20180530':
+- component: YaST2
+  create_time: 20180606T09:39:00
+  id: 1096208
+  resolution: ''
+  status: CONFIRMED
+  summary: 'snapper: fails to build with Boost 1.67.0'
+- component: Development
+  create_time: 20180606T07:13:00
+  id: 1096168
+  resolution: ''
+  status: IN_PROGRESS
+  summary: LLVM llvm_map_components_to_libnames reports individual libraries instead
+    of single "LLVM"
 - component: Basesystem
   create_time: 20180605T08:51:00
   id: 1095973
