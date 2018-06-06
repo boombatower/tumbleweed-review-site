@@ -4246,6 +4246,12 @@
   resolution: ''
   status: NEW
   summary: Poor support of icons in YaST
+- component: AutoYaST
+  create_time: 20180219T08:42:00
+  id: 1081509
+  resolution: ''
+  status: CONFIRMED
+  summary: AutoYaST ignores "priority" in add-ons section
 - component: Installation
   create_time: 20180219T08:42:00
   id: 1081508
@@ -6817,8 +6823,8 @@
 - component: Installation
   create_time: 20180409T17:34:00
   id: 1088734
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Windows shown during installation look ugly
 - component: Basesystem
   create_time: 20180409T14:40:00
@@ -6878,8 +6884,8 @@
 - component: Installation
   create_time: 20180407T17:52:00
   id: 1088560
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Installation processes at a certain point remain in a blocking state.
 - component: YaST2
   create_time: 20180407T16:21:00
@@ -8213,7 +8219,7 @@
   create_time: 20180511T14:29:00
   id: 1092950
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Crash in yast2-bootloader
 - component: GNOME
   create_time: 20180511T14:06:00
@@ -8264,12 +8270,6 @@
   resolution: FIXED
   status: RESOLVED
   summary: telnet using service template file in pre/postun
-- component: Basesystem
-  create_time: 20180514T16:02:00
-  id: 1093172
-  resolution: ''
-  status: IN_PROGRESS
-  summary: salt salt-proxy using service file template in pre/post
 - component: Basesystem
   create_time: 20180514T16:00:00
   id: 1093170
@@ -8853,6 +8853,31 @@
   status: NEW
   summary: Kwin crashes with seg fault immediately after login.
 '20180530':
+- component: Basesystem
+  create_time: 20180606T16:16:00
+  id: 1096292
+  resolution: ''
+  status: NEW
+  summary: Please update libwacom2 from 0.23 to current 0.30
+- component: AppArmor
+  create_time: 20180606T14:27:00
+  id: 1096269
+  resolution: ''
+  status: NEW
+  summary: libvirt cannot start default network
+- component: Kernel
+  create_time: 20180606T14:10:00
+  id: 1096262
+  resolution: ''
+  status: NEW
+  summary: When variant changes on a kernel branch uploads to IBS may fail
+- component: Basesystem
+  create_time: 20180606T12:30:00
+  id: 1096241
+  resolution: ''
+  status: NEW
+  summary: '[opensuse][tumbleweed][20180603][liveCD/rescue] Shutdown takes too much
+    time when lvmetad doesn''t respond to SIGKILL'
 - component: YaST2
   create_time: 20180606T09:39:00
   id: 1096208
