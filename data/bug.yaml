@@ -3120,8 +3120,8 @@
 - component: GNOME
   create_time: 20180205T10:16:00
   id: 1079320
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180203] openQA test fails in NM_wpa2_enterprise'
 - component: Kernel
   create_time: 20180205T08:47:00
