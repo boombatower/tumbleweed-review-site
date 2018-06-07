@@ -545,8 +545,8 @@
 - component: YaST2
   create_time: 20171212T14:58:00
   id: 1072411
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'libyui-qt: Remove one line to make it work with wayland'
 - component: Containers
   create_time: 20171212T14:33:00
@@ -2369,8 +2369,8 @@
 - component: Other
   create_time: 20180125T12:19:00
   id: 1077607
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: php7-pear-MDB2 build failed
 - component: Other
   create_time: 20180125T12:00:00
@@ -4230,8 +4230,8 @@
 - component: Bootloader
   create_time: 20180219T14:10:00
   id: 1081577
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: uefi grub2 fails to find Tumbleweed after installatation w/ existing Fedora
     partition
 - component: Other
@@ -8554,8 +8554,8 @@
 - component: X11 3rd Party Driver
   create_time: 20180521T17:35:00
   id: 1094085
-  resolution: ''
-  status: CONFIRMED
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Cannot install nvidia drivers. ksym(default:vfree)
 - component: Bootloader
   create_time: 20180521T07:30:00
@@ -8854,16 +8854,28 @@
   summary: Kwin crashes with seg fault immediately after login.
 '20180530':
 - component: Basesystem
-  create_time: 20180606T16:16:00
-  id: 1096292
+  create_time: 20180607T13:07:00
+  id: 1096516
   resolution: ''
   status: NEW
+  summary: '[openqa] coredump recorded for /bin/login'
+- component: Basesystem
+  create_time: 20180607T07:41:00
+  id: 1096401
+  resolution: ''
+  status: NEW
+  summary: 'snapper: segfault found in openQA tests'
+- component: Basesystem
+  create_time: 20180606T16:16:00
+  id: 1096292
+  resolution: FIXED
+  status: RESOLVED
   summary: Please update libwacom2 from 0.23 to current 0.30
 - component: AppArmor
   create_time: 20180606T14:27:00
   id: 1096269
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: libvirt cannot start default network
 - component: Kernel
   create_time: 20180606T14:10:00
@@ -8881,8 +8893,8 @@
 - component: YaST2
   create_time: 20180606T09:39:00
   id: 1096208
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'snapper: fails to build with Boost 1.67.0'
 - component: Development
   create_time: 20180606T07:13:00
@@ -8902,7 +8914,7 @@
   id: 1095886
   resolution: ''
   status: NEW
-  summary: Software installation module does not work
+  summary: '[Tumbleweed] YaST Software installation module does not work'
 - component: Containers
   create_time: 20180604T13:28:00
   id: 1095817
@@ -9015,8 +9027,8 @@
 - component: Kernel
   create_time: 20180603T04:27:00
   id: 1095680
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: boot hangs on "loading initial ramdisk" after upgrade to kernel 4.16.12-default
 - component: Installation
   create_time: 20180602T16:03:00
@@ -9070,8 +9082,8 @@
 - component: GNOME
   create_time: 20180531T08:40:00
   id: 1095325
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '"SLE Classic" gnome extension causes problems when toggled in gnome-tweaks'
 - component: KDE Workspace (Plasma)
   create_time: 20180530T12:12:00
