@@ -8854,6 +8854,12 @@
   summary: Kwin crashes with seg fault immediately after login.
 '20180530':
 - component: Basesystem
+  create_time: 20180607T19:48:00
+  id: 1096586
+  resolution: ''
+  status: NEW
+  summary: ISC dhcp-server 4.3 is EOL -> update to 4.4.1
+- component: Basesystem
   create_time: 20180607T13:07:00
   id: 1096516
   resolution: ''
