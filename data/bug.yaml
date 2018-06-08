@@ -8853,6 +8853,12 @@
   status: NEW
   summary: Kwin crashes with seg fault immediately after login.
 '20180530':
+- component: Other
+  create_time: 20180608T05:57:00
+  id: 1096622
+  resolution: ''
+  status: NEW
+  summary: mjpegtools stuck at version 2.0.0
 - component: Basesystem
   create_time: 20180607T19:48:00
   id: 1096586
