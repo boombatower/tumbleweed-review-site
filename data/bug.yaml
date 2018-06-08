@@ -869,8 +869,8 @@
 - component: Kernel
   create_time: 20171221T10:23:00
   id: 1073836
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Disable CONFIG_SPI_INTEL_SPI_PLATFORM for avoiding breaking BIOS on Lenovo
     & others
 - component: Virtualization:Other
@@ -8924,8 +8924,8 @@
 - component: YaST2
   create_time: 20180604T20:05:00
   id: 1095886
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: '[Tumbleweed] YaST Software installation module does not work'
 - component: Containers
   create_time: 20180604T13:28:00
