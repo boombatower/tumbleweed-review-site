@@ -8539,8 +8539,8 @@
 - component: Basesystem
   create_time: 20180517T06:53:00
   id: 1093625
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: biosdevname crashes due to infinite recursion in smbios_setslot
 '20180519': []
 '20180520':
@@ -8949,7 +8949,7 @@
   create_time: 20180604T09:08:00
   id: 1095747
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: python-wxPython missing libraries
 - component: High Availability
   create_time: 20180604T06:43:00
