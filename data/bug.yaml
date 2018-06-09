@@ -9074,6 +9074,12 @@
   summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
     "/var/lib/kubelet"'
 '20180606':
+- component: KDE Applications
+  create_time: 20180609T11:37:00
+  id: 1096806
+  resolution: ''
+  status: NEW
+  summary: tumbleweed 20180606 problem with running KDE programs over ssh -X
 - component: libzypp
   create_time: 20180609T04:52:00
   id: 1096803
