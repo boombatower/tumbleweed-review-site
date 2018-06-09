@@ -8853,68 +8853,6 @@
   status: NEW
   summary: Kwin crashes with seg fault immediately after login.
 '20180530':
-- component: Other
-  create_time: 20180608T05:57:00
-  id: 1096622
-  resolution: ''
-  status: NEW
-  summary: mjpegtools stuck at version 2.0.0
-- component: Basesystem
-  create_time: 20180607T19:48:00
-  id: 1096586
-  resolution: ''
-  status: NEW
-  summary: ISC dhcp-server 4.3 is EOL -> update to 4.4.1
-- component: Basesystem
-  create_time: 20180607T13:07:00
-  id: 1096516
-  resolution: ''
-  status: NEW
-  summary: '[openqa] coredump recorded for /bin/login'
-- component: Basesystem
-  create_time: 20180607T07:41:00
-  id: 1096401
-  resolution: ''
-  status: NEW
-  summary: 'snapper: segfault found in openQA tests'
-- component: Basesystem
-  create_time: 20180606T16:16:00
-  id: 1096292
-  resolution: FIXED
-  status: RESOLVED
-  summary: Please update libwacom2 from 0.23 to current 0.30
-- component: AppArmor
-  create_time: 20180606T14:27:00
-  id: 1096269
-  resolution: INVALID
-  status: RESOLVED
-  summary: libvirt cannot start default network
-- component: Kernel
-  create_time: 20180606T14:10:00
-  id: 1096262
-  resolution: ''
-  status: NEW
-  summary: When variant changes on a kernel branch uploads to IBS may fail
-- component: Basesystem
-  create_time: 20180606T12:30:00
-  id: 1096241
-  resolution: ''
-  status: NEW
-  summary: '[opensuse][tumbleweed][20180603][liveCD/rescue] Shutdown takes too much
-    time when lvmetad doesn''t respond to SIGKILL'
-- component: YaST2
-  create_time: 20180606T09:39:00
-  id: 1096208
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'snapper: fails to build with Boost 1.67.0'
-- component: Development
-  create_time: 20180606T07:13:00
-  id: 1096168
-  resolution: ''
-  status: IN_PROGRESS
-  summary: LLVM llvm_map_components_to_libnames reports individual libraries instead
-    of single "LLVM"
 - component: Basesystem
   create_time: 20180605T08:51:00
   id: 1095973
@@ -9135,3 +9073,78 @@
   status: NEW
   summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
     "/var/lib/kubelet"'
+'20180606':
+- component: libzypp
+  create_time: 20180609T04:52:00
+  id: 1096803
+  resolution: ''
+  status: NEW
+  summary: zypper "Reading installed packages" takes long time
+- component: KDE Applications
+  create_time: 20180609T00:54:00
+  id: 1096801
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Bluetooth mouse flashes in add device window
+- component: Other
+  create_time: 20180608T05:57:00
+  id: 1096622
+  resolution: ''
+  status: NEW
+  summary: mjpegtools stuck at version 2.0.0
+- component: Basesystem
+  create_time: 20180607T19:48:00
+  id: 1096586
+  resolution: ''
+  status: NEW
+  summary: ISC dhcp-server 4.3 is EOL -> update to 4.4.1
+- component: Basesystem
+  create_time: 20180607T13:07:00
+  id: 1096516
+  resolution: ''
+  status: NEW
+  summary: '[openqa] coredump recorded for /bin/login'
+- component: Basesystem
+  create_time: 20180607T07:41:00
+  id: 1096401
+  resolution: ''
+  status: NEW
+  summary: 'snapper: segfault found in openQA tests'
+- component: Basesystem
+  create_time: 20180606T16:16:00
+  id: 1096292
+  resolution: FIXED
+  status: RESOLVED
+  summary: Please update libwacom2 from 0.23 to current 0.30
+- component: AppArmor
+  create_time: 20180606T14:27:00
+  id: 1096269
+  resolution: INVALID
+  status: RESOLVED
+  summary: libvirt cannot start default network
+- component: Kernel
+  create_time: 20180606T14:10:00
+  id: 1096262
+  resolution: ''
+  status: NEW
+  summary: When variant changes on a kernel branch uploads to IBS may fail
+- component: Basesystem
+  create_time: 20180606T12:30:00
+  id: 1096241
+  resolution: ''
+  status: NEW
+  summary: '[opensuse][tumbleweed][20180603][liveCD/rescue] Shutdown takes too much
+    time when lvmetad doesn''t respond to SIGKILL'
+- component: YaST2
+  create_time: 20180606T09:39:00
+  id: 1096208
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'snapper: fails to build with Boost 1.67.0'
+- component: Development
+  create_time: 20180606T07:13:00
+  id: 1096168
+  resolution: ''
+  status: IN_PROGRESS
+  summary: LLVM llvm_map_components_to_libnames reports individual libraries instead
+    of single "LLVM"
