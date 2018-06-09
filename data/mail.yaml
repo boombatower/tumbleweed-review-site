@@ -872,3 +872,11 @@
   reference_count: 0
   thread_count: 0
   threads: []
+'20180606':
+  announcement: 2018-06.73
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages: [2018-06.74]
+    reference_count: 1
+    summary: '] - zypper dup issue with libQt5Positioning5'
