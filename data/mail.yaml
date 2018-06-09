@@ -874,11 +874,11 @@
   threads: []
 '20180606':
   announcement: 2018-06.73
-  reference_count: 4
+  reference_count: 7
   thread_count: 2
   threads:
   - messages: [2018-06.74]
-    reference_count: 2
+    reference_count: 5
     summary: '] - zypper dup issue with libQt5Positioning5'
   - messages: [2018-06.76]
     reference_count: 2
