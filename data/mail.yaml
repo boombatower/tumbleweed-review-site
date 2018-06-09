@@ -874,9 +874,12 @@
   threads: []
 '20180606':
   announcement: 2018-06.73
-  reference_count: 1
-  thread_count: 1
+  reference_count: 4
+  thread_count: 2
   threads:
   - messages: [2018-06.74]
-    reference_count: 1
+    reference_count: 2
     summary: '] - zypper dup issue with libQt5Positioning5'
+  - messages: [2018-06.76]
+    reference_count: 2
+    summary: problem with running KDE programs over ssh -X
