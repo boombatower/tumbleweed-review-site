@@ -9074,6 +9074,18 @@
   summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
     "/var/lib/kubelet"'
 '20180606':
+- component: Kernel
+  create_time: 20180609T15:19:00
+  id: 1096809
+  resolution: ''
+  status: NEW
+  summary: Update to TW 20180606 unreliable WiFI authentication
+- component: Kernel
+  create_time: 20180609T13:01:00
+  id: 1096807
+  resolution: ''
+  status: NEW
+  summary: Failed to read list of keymaps
 - component: KDE Applications
   create_time: 20180609T11:37:00
   id: 1096806
