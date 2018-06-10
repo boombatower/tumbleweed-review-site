@@ -9074,6 +9074,39 @@
   summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
     "/var/lib/kubelet"'
 '20180606':
+- component: Other
+  create_time: 20180609T20:01:00
+  id: 1096819
+  resolution: ''
+  status: NEW
+  summary: virt-install - Couldn't find hvm kernel for SUSE tree
+- component: X.Org
+  create_time: 20180609T19:53:00
+  id: 1096818
+  resolution: ''
+  status: NEW
+  summary: Logitech MX Anywhere 2S does not register middle click and additional buttons
+- component: KDE Workspace (Plasma)
+  create_time: 20180609T19:31:00
+  id: 1096817
+  resolution: ''
+  status: NEW
+  summary: 'wayland: when window is maximized, choosing help->about in different apps
+    resizes maximized window'
+- component: KDE Workspace (Plasma)
+  create_time: 20180609T19:13:00
+  id: 1096816
+  resolution: ''
+  status: NEW
+  summary: when screen energy saving is turned on, picture doesnt come up after using
+    mouse/keyboard
+- component: KDE Workspace (Plasma)
+  create_time: 20180609T19:06:00
+  id: 1096815
+  resolution: ''
+  status: NEW
+  summary: 'system settings: changing order and scale of monitor is not persisted
+    between reboots'
 - component: Kernel
   create_time: 20180609T15:19:00
   id: 1096809
