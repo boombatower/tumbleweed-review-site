@@ -563,15 +563,15 @@
 - component: Other
   create_time: 20171212T11:44:00
   id: 1072375
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: obs-service-source_validator tries to validate debian <package>_source.changes
     file like a rpm changelog
 - component: Other
   create_time: 20171212T10:33:00
   id: 1072359
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: obs-service-set_version has UTF8/Unicode problem at build-time
 - component: Kernel
   create_time: 20171212T10:33:00
@@ -4249,8 +4249,8 @@
 - component: AutoYaST
   create_time: 20180219T08:42:00
   id: 1081509
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: AutoYaST ignores "priority" in add-ons section
 - component: Installation
   create_time: 20180219T08:42:00
@@ -5308,8 +5308,8 @@
 - component: Basesystem
   create_time: 20180309T10:06:00
   id: 1084649
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[META] GCC 8 package failures'
 - component: Basesystem
   create_time: 20180309T10:06:00
@@ -6971,8 +6971,8 @@
 - component: Other
   create_time: 20180412T20:11:00
   id: 1089438
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'python3-flake8: problem with restrained pycodestyle version'
 - component: GNOME
   create_time: 20180412T19:24:00
@@ -7814,8 +7814,8 @@
 - component: Xen
   create_time: 20180509T11:30:00
   id: 1092543
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 8: xen build fails'
 - component: Patterns
   create_time: 20180509T11:29:00
@@ -8743,8 +8743,8 @@
 - component: Basesystem
   create_time: 20180525T07:36:00
   id: 1094627
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: neovim mouse support is broken due to incompatibility with libtermkey library
 '20180528':
 - component: Basesystem
@@ -8807,7 +8807,7 @@
   create_time: 20180528T10:11:00
   id: 1094858
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Remove outdated options from default /etc/containers/storage.conf
 - component: Other
   create_time: 20180528T07:05:00
@@ -9074,6 +9074,69 @@
   summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
     "/var/lib/kubelet"'
 '20180606':
+- component: Sound
+  create_time: 20180612T03:36:00
+  id: 1097084
+  resolution: ''
+  status: NEW
+  summary: Very strange bug with a music in openSUSE Tumbleweed
+- component: Virtualization:Tools
+  create_time: 20180611T19:49:00
+  id: 1097047
+  resolution: ''
+  status: NEW
+  summary: libvmtools should not be a separate package from open-vm-tools
+- component: Basesystem
+  create_time: 20180611T16:01:00
+  id: 1097006
+  resolution: ''
+  status: NEW
+  summary: dwz debuginfo splitting is one-thread and very very slow on packages which
+    have too many libs
+- component: Development
+  create_time: 20180611T14:16:00
+  id: 1096981
+  resolution: ''
+  status: NEW
+  summary: "Checking support for GCC option \u201Cfstack-clash-protection\u201D together\
+    \ with \u201Cocamlc.opt\u201D"
+- component: Kernel
+  create_time: 20180611T13:01:00
+  id: 1096961
+  resolution: ''
+  status: NEW
+  summary: 'WARNING: CPU: 1 PID: 359 at ../drivers/gpu/drm/drm_vblank.c:1073 drm_wait_one_vblank+0x148/0x150
+    [drm]'
+- component: Other
+  create_time: 20180611T11:22:00
+  id: 1096943
+  resolution: ''
+  status: NEW
+  summary: Add $HOME/.config/composer/vendor/bin to $PATH
+- component: Basesystem
+  create_time: 20180611T11:04:00
+  id: 1096936
+  resolution: ''
+  status: NEW
+  summary: rpm should require 7zr for extracting 7zip tarballs
+- component: YaST2
+  create_time: 20180611T09:07:00
+  id: 1096900
+  resolution: ''
+  status: NEW
+  summary: Offer graphical alternative to disk log view during installation
+- component: Network
+  create_time: 20180611T07:47:00
+  id: 1096884
+  resolution: ''
+  status: NEW
+  summary: Firewalld prevents shutdown or reboot on iMac
+- component: Kernel
+  create_time: 20180610T14:32:00
+  id: 1096831
+  resolution: ''
+  status: NEW
+  summary: Boot hangs at SwitchRoot, need to append 5 to boot parameters
 - component: Other
   create_time: 20180609T20:01:00
   id: 1096819
@@ -9083,8 +9146,8 @@
 - component: X.Org
   create_time: 20180609T19:53:00
   id: 1096818
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Logitech MX Anywhere 2S does not register middle click and additional buttons
 - component: KDE Workspace (Plasma)
   create_time: 20180609T19:31:00
@@ -9113,12 +9176,12 @@
   resolution: ''
   status: NEW
   summary: Update to TW 20180606 unreliable WiFI authentication
-- component: Kernel
+- component: Basesystem
   create_time: 20180609T13:01:00
   id: 1096807
   resolution: ''
-  status: NEW
-  summary: Failed to read list of keymaps
+  status: REOPENED
+  summary: ftw/nftw with FTW_MOUNT does not work on overlayfs
 - component: KDE Applications
   create_time: 20180609T11:37:00
   id: 1096806
@@ -9141,7 +9204,7 @@
   create_time: 20180608T05:57:00
   id: 1096622
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: mjpegtools stuck at version 2.0.0
 - component: Basesystem
   create_time: 20180607T19:48:00
