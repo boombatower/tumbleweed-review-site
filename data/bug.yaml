@@ -9074,7 +9074,26 @@
   summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
     "/var/lib/kubelet"'
 '20180606':
-- component: X11 Applications
+- component: Development
+  create_time: 20180612T19:29:00
+  id: 1097283
+  resolution: ''
+  status: NEW
+  summary: GCC8 cannot build GCC6 with GCC8 on ppc64le only
+- component: Development
+  create_time: 20180612T16:56:00
+  id: 1097255
+  resolution: ''
+  status: NEW
+  summary: 'GCC8 ppc64 cc1: error: unrecognized command line option ''-Wno-unknown-warning-option''
+    [-Werror]'
+- component: Translations
+  create_time: 20180612T14:11:00
+  id: 1097232
+  resolution: ''
+  status: NEW
+  summary: 'desktop-file-translations: mimeinfo.pot clones Transifex translation'
+- component: X.Org
   create_time: 20180612T13:50:00
   id: 1097227
   resolution: ''
