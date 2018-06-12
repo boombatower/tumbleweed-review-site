@@ -8800,8 +8800,8 @@
 - component: Containers
   create_time: 20180528T10:39:00
   id: 1094863
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Podman hangs when using CNI loopback example
 - component: Containers
   create_time: 20180528T10:11:00
@@ -9074,6 +9074,24 @@
   summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
     "/var/lib/kubelet"'
 '20180606':
+- component: X11 Applications
+  create_time: 20180612T13:50:00
+  id: 1097227
+  resolution: ''
+  status: NEW
+  summary: QT apps fail to work via remote X connection
+- component: X.Org
+  create_time: 20180612T12:13:00
+  id: 1097207
+  resolution: ''
+  status: NEW
+  summary: Resize issues with GLX windows with i965 and sw drivers
+- component: Sound
+  create_time: 20180612T10:26:00
+  id: 1097170
+  resolution: ''
+  status: NEW
+  summary: Pulseaudio equalizer not working
 - component: Sound
   create_time: 20180612T03:36:00
   id: 1097084
@@ -9096,8 +9114,8 @@
 - component: Development
   create_time: 20180611T14:16:00
   id: 1096981
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: "Checking support for GCC option \u201Cfstack-clash-protection\u201D together\
     \ with \u201Cocamlc.opt\u201D"
 - component: Kernel
@@ -9110,8 +9128,8 @@
 - component: Other
   create_time: 20180611T11:22:00
   id: 1096943
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Add $HOME/.config/composer/vendor/bin to $PATH
 - component: Basesystem
   create_time: 20180611T11:04:00
@@ -9192,7 +9210,7 @@
   create_time: 20180609T04:52:00
   id: 1096803
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: zypper "Reading installed packages" takes long time
 - component: KDE Applications
   create_time: 20180609T00:54:00
