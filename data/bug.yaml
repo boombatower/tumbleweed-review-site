@@ -9074,6 +9074,24 @@
   summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
     "/var/lib/kubelet"'
 '20180606':
+- component: Basesystem
+  create_time: 20180613T11:57:00
+  id: 1097449
+  resolution: ''
+  status: NEW
+  summary: tar fails to pass tests on aarch64
+- component: Development
+  create_time: 20180613T11:06:00
+  id: 1097436
+  resolution: ''
+  status: NEW
+  summary: 'gcc: internal compiler error during python3 build'
+- component: Basesystem
+  create_time: 20180613T10:38:00
+  id: 1097425
+  resolution: ''
+  status: CONFIRMED
+  summary: Fails to create LVM volume if lvm+RAID1
 - component: Other
   create_time: 20180613T09:04:00
   id: 1097388
@@ -9084,7 +9102,7 @@
   create_time: 20180612T19:29:00
   id: 1097283
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: GCC8 cannot build GCC6 with GCC8 on ppc64le only
 - component: Development
   create_time: 20180612T16:56:00
