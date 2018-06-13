@@ -9080,7 +9080,7 @@
   resolution: ''
   status: NEW
   summary: tar fails to pass tests on aarch64
-- component: Development
+- component: Kernel
   create_time: 20180613T11:06:00
   id: 1097436
   resolution: ''
@@ -9242,12 +9242,12 @@
   id: 1096807
   resolution: ''
   status: REOPENED
-  summary: localectl should not use FTW_MOUNT
+  summary: ftw/nftw with FTW_MOUNT does not work on overlayfs
 - component: KDE Applications
   create_time: 20180609T11:37:00
   id: 1096806
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: tumbleweed 20180606 problem with running KDE programs over ssh -X
 - component: libzypp
   create_time: 20180609T04:52:00
