@@ -918,8 +918,8 @@
 - component: GNOME
   create_time: 20171220T08:30:00
   id: 1073610
-  resolution: NORESPONSE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: KDE plasma software manager applet starts even if there is no network available
 - component: Basesystem
   create_time: 20171220T07:57:00
@@ -9074,6 +9074,12 @@
   summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
     "/var/lib/kubelet"'
 '20180606':
+- component: Other
+  create_time: 20180613T09:04:00
+  id: 1097388
+  resolution: ''
+  status: NEW
+  summary: cloud-init running before network online
 - component: Development
   create_time: 20180612T19:29:00
   id: 1097283
@@ -9083,8 +9089,8 @@
 - component: Development
   create_time: 20180612T16:56:00
   id: 1097255
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'GCC8 ppc64 cc1: error: unrecognized command line option ''-Wno-unknown-warning-option''
     [-Werror]'
 - component: Translations
@@ -9218,7 +9224,7 @@
   id: 1096807
   resolution: ''
   status: REOPENED
-  summary: ftw/nftw with FTW_MOUNT does not work on overlayfs
+  summary: localectl should not use FTW_MOUNT
 - component: KDE Applications
   create_time: 20180609T11:37:00
   id: 1096806
