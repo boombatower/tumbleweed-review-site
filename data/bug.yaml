@@ -918,8 +918,8 @@
 - component: GNOME
   create_time: 20171220T08:30:00
   id: 1073610
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: KDE plasma software manager applet starts even if there is no network available
 - component: Basesystem
   create_time: 20171220T07:57:00
