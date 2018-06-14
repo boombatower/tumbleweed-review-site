@@ -9133,7 +9133,7 @@
   create_time: 20180612T10:26:00
   id: 1097170
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Pulseaudio equalizer not working
 - component: Sound
   create_time: 20180612T03:36:00
