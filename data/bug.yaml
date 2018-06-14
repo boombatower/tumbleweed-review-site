@@ -5465,8 +5465,8 @@
 - component: Basesystem
   create_time: 20180311T23:52:00
   id: 1084818
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: initrd always ask for password also if password is provided in /etc/crypttab
 - component: Network
   create_time: 20180311T19:27:00
@@ -8800,8 +8800,8 @@
 - component: Containers
   create_time: 20180528T10:39:00
   id: 1094863
-  resolution: INVALID
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Podman hangs when using CNI loopback example
 - component: Containers
   create_time: 20180528T10:11:00
@@ -9084,7 +9084,7 @@
   create_time: 20180614T09:26:00
   id: 1097625
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: chronyd not starting on admin nodes
 - component: Other
   create_time: 20180614T07:49:00
@@ -9157,8 +9157,8 @@
 - component: Sound
   create_time: 20180612T10:26:00
   id: 1097170
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Pulseaudio equalizer not working
 - component: Sound
   create_time: 20180612T03:36:00
