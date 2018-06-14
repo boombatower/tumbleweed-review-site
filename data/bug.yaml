@@ -9074,6 +9074,31 @@
   summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
     "/var/lib/kubelet"'
 '20180606':
+- component: Development
+  create_time: 20180614T09:27:00
+  id: 1097626
+  resolution: ''
+  status: NEW
+  summary: 'guile-git: test suite fails on i586'
+- component: Kubic
+  create_time: 20180614T09:26:00
+  id: 1097625
+  resolution: ''
+  status: NEW
+  summary: chronyd not starting on admin nodes
+- component: Other
+  create_time: 20180614T07:49:00
+  id: 1097611
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180608] packages conflicting suggesting to downgrade: kubernetes-kubeadm
+    & kubernetes-master'
+- component: GNOME
+  create_time: 20180614T05:52:00
+  id: 1097581
+  resolution: ''
+  status: NEW
+  summary: 'PackageKit: zypp backend needs implementation for GetFilesLocal.'
 - component: Basesystem
   create_time: 20180613T11:57:00
   id: 1097449
@@ -9184,7 +9209,7 @@
   create_time: 20180611T09:07:00
   id: 1096900
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: Offer graphical alternative to disk log view during installation
 - component: Network
   create_time: 20180611T07:47:00
