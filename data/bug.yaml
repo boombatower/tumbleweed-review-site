@@ -1888,8 +1888,8 @@
 - component: Development
   create_time: 20180116T09:15:00
   id: 1076146
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Automake testsuite broken on foreign distros, breaks packages generated
     with opensuse
 - component: Basesystem
@@ -2350,8 +2350,8 @@
 - component: AppArmor
   create_time: 20180124T01:41:00
   id: 1077315
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: openQA-gru can't be started due to apparmor   policy
 '20180125':
 - component: YaST2
@@ -3887,8 +3887,8 @@
 - component: Upgrade Problems
   create_time: 20180214T16:29:00
   id: 1081028
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: 'wxMaxima : Requerimientos Insatisfactorios. Conflictos. Rompe Sistema.'
 - component: Sound
   create_time: 20180214T15:54:00
@@ -4269,8 +4269,8 @@
 - component: Other
   create_time: 20180219T07:01:00
   id: 1081494
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: 'traps: http.so errors found - please investigate'
 '20180220':
 - component: Development
@@ -4529,8 +4529,8 @@
 - component: Kernel
   create_time: 20180222T14:37:00
   id: 1082308
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'BUG: unable to handle kernel NULL pointer dereference at 0000000000000040'
 - component: X.Org
   create_time: 20180222T14:33:00
@@ -5539,8 +5539,8 @@
 - component: Kernel
   create_time: 20180312T12:42:00
   id: 1084876
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Realtek 8812AU support
 - component: Other
   create_time: 20180312T11:52:00
@@ -6519,8 +6519,8 @@
 - component: Kernel
   create_time: 20180401T22:23:00
   id: 1087725
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Possible Issues on Resuming from Suspend or Hibernate
 - component: Kubic
   create_time: 20180401T16:36:00
@@ -6646,8 +6646,8 @@
 - component: Kernel
   create_time: 20180405T21:00:00
   id: 1088382
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Heavy performance loss since update mid-March
 - component: Kubic
   create_time: 20180405T15:27:00
@@ -6984,8 +6984,8 @@
 - component: Kernel
   create_time: 20180412T14:10:00
   id: 1089367
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kernel 4.16 problem with ACPI on Acer HW
 - component: Other
   create_time: 20180412T12:57:00
@@ -7032,8 +7032,8 @@
 - component: Kernel
   create_time: 20180412T11:08:00
   id: 1089330
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: kernel-default-4.16.0-1.6 do not boot and work with Adaptek ASR8805 RAID
 - component: Other
   create_time: 20180412T09:47:00
@@ -7243,8 +7243,8 @@
 - component: Kernel
   create_time: 20180418T10:56:00
   id: 1090038
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: NULL pointer dereference at 00000000000002f1
 - component: Kernel
   create_time: 20180418T09:18:00
@@ -7898,8 +7898,8 @@
 - component: Other
   create_time: 20180508T13:01:00
   id: 1092368
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/pvm fails to build'
 - component: Other
   create_time: 20180508T12:59:00
@@ -9074,61 +9074,6 @@
   summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
     "/var/lib/kubelet"'
 '20180606':
-- component: Network
-  create_time: 20180615T06:39:00
-  id: 1097772
-  resolution: ''
-  status: NEW
-  summary: 'wicked: macvlan interface does not get dhcp4 address'
-- component: Development
-  create_time: 20180614T09:27:00
-  id: 1097626
-  resolution: ''
-  status: NEW
-  summary: 'guile-git: test suite fails on i586'
-- component: Kubic
-  create_time: 20180614T09:26:00
-  id: 1097625
-  resolution: ''
-  status: IN_PROGRESS
-  summary: chronyd not starting on admin nodes
-- component: Other
-  create_time: 20180614T07:49:00
-  id: 1097611
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180608] packages conflicting suggesting to downgrade: kubernetes-kubeadm
-    & kubernetes-master'
-- component: GNOME
-  create_time: 20180614T05:52:00
-  id: 1097581
-  resolution: ''
-  status: NEW
-  summary: 'PackageKit: zypp backend needs implementation for GetFilesLocal.'
-- component: Basesystem
-  create_time: 20180613T11:57:00
-  id: 1097449
-  resolution: ''
-  status: NEW
-  summary: tar fails to pass tests on aarch64
-- component: Kernel
-  create_time: 20180613T11:06:00
-  id: 1097436
-  resolution: ''
-  status: NEW
-  summary: 'gcc: internal compiler error during python3 build'
-- component: Basesystem
-  create_time: 20180613T10:38:00
-  id: 1097425
-  resolution: ''
-  status: CONFIRMED
-  summary: Fails to create LVM volume if lvm+RAID1
-- component: Other
-  create_time: 20180613T09:04:00
-  id: 1097388
-  resolution: ''
-  status: NEW
-  summary: cloud-init running before network online
 - component: Development
   create_time: 20180612T19:29:00
   id: 1097283
@@ -9158,7 +9103,7 @@
   create_time: 20180612T12:13:00
   id: 1097207
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Resize issues with GLX windows with i965 and sw drivers
 - component: Sound
   create_time: 20180612T10:26:00
@@ -9176,7 +9121,7 @@
   create_time: 20180611T19:49:00
   id: 1097047
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: libvmtools should not be a separate package from open-vm-tools
 - component: Basesystem
   create_time: 20180611T16:01:00
@@ -9354,3 +9299,95 @@
   status: IN_PROGRESS
   summary: LLVM llvm_map_components_to_libnames reports individual libraries instead
     of single "LLVM"
+'20180613':
+- component: Basesystem
+  create_time: 20180615T15:33:00
+  id: 1097869
+  resolution: ''
+  status: NEW
+  summary: Shift overflow in libkmod.h
+- component: Other
+  create_time: 20180615T15:24:00
+  id: 1097867
+  resolution: ''
+  status: NEW
+  summary: transactional-update needs a minimum version of rsync, but misses requires
+- component: LXDE
+  create_time: 20180615T13:24:00
+  id: 1097856
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Package LXQt 0.13.0
+- component: LXDE
+  create_time: 20180615T11:54:00
+  id: 1097842
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Installer shows no LXQt icon in pattern
+- component: YaST2
+  create_time: 20180615T11:46:00
+  id: 1097840
+  resolution: ''
+  status: NEW
+  summary: yast sysconfig displaymanager setting unnecessary
+- component: Network
+  create_time: 20180615T06:39:00
+  id: 1097772
+  resolution: ''
+  status: NEW
+  summary: 'wicked: macvlan interface does not get dhcp4 address'
+- component: Development
+  create_time: 20180614T09:27:00
+  id: 1097626
+  resolution: ''
+  status: NEW
+  summary: 'guile-git: test suite fails on i586'
+- component: Kubic
+  create_time: 20180614T09:26:00
+  id: 1097625
+  resolution: ''
+  status: IN_PROGRESS
+  summary: chronyd not starting on admin nodes
+- component: Other
+  create_time: 20180614T07:49:00
+  id: 1097611
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180608] packages conflicting suggesting to downgrade: kubernetes-kubeadm
+    & kubernetes-master'
+- component: Development
+  create_time: 20180614T06:10:00
+  id: 1097590
+  resolution: FIXED
+  status: RESOLVED
+  summary: Qt5 Documentation broken
+- component: GNOME
+  create_time: 20180614T05:52:00
+  id: 1097581
+  resolution: ''
+  status: NEW
+  summary: 'PackageKit: zypp backend needs implementation for GetFilesLocal.'
+- component: Basesystem
+  create_time: 20180613T11:57:00
+  id: 1097449
+  resolution: ''
+  status: NEW
+  summary: tar fails to pass tests on aarch64
+- component: Kernel
+  create_time: 20180613T11:06:00
+  id: 1097436
+  resolution: ''
+  status: NEW
+  summary: 'gcc: internal compiler error during python3 build'
+- component: Basesystem
+  create_time: 20180613T10:38:00
+  id: 1097425
+  resolution: ''
+  status: CONFIRMED
+  summary: Fails to create LVM volume if lvm+RAID1
+- component: Other
+  create_time: 20180613T09:04:00
+  id: 1097388
+  resolution: ''
+  status: NEW
+  summary: cloud-init running before network online
