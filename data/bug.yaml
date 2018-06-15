@@ -9300,6 +9300,12 @@
   summary: LLVM llvm_map_components_to_libnames reports individual libraries instead
     of single "LLVM"
 '20180613':
+- component: GNOME
+  create_time: 20180615T19:44:00
+  id: 1097908
+  resolution: ''
+  status: NEW
+  summary: nm-applet seg faults
 - component: Basesystem
   create_time: 20180615T15:33:00
   id: 1097869
