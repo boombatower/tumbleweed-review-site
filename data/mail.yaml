@@ -885,15 +885,15 @@
     summary: problem with running KDE programs over ssh -X
 '20180613':
   announcement: 2018-06.196
-  reference_count: 9
+  reference_count: 13
   thread_count: 3
   threads:
   - messages: [2018-06.197, 2018-06.202]
-    reference_count: 7
+    reference_count: 8
     summary: no summary given
   - messages: [2018-06.199]
     reference_count: 1
     summary: Wrong checksum for ghc-base
   - messages: [2018-06.205]
-    reference_count: 1
+    reference_count: 4
     summary: failed to summarize
