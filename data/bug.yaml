@@ -4055,8 +4055,8 @@
 - component: Kernel
   create_time: 20180217T08:34:00
   id: 1081427
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'openSUSE-Tumbleweed-ARM-JeOS-efi.armv7l-2018.02.14: mount: /fs-resize:
     unknown filesystem type ''btrfs'''
 - component: Bootloader
@@ -5220,8 +5220,8 @@
 - component: Kernel
   create_time: 20180308T08:41:00
   id: 1084438
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: nouveau backtrace in nouveau_bo_move_ntfy+0xc9/0xd0
 - component: Upgrade Problems
   create_time: 20180308T04:39:00
@@ -7983,8 +7983,8 @@
 - component: Kernel
   create_time: 20180507T15:34:00
   id: 1092195
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: External monitors sometimes start flashing after being blanked out
 - component: YaST2
   create_time: 20180507T12:27:00
@@ -9070,10 +9070,16 @@
   create_time: 20180530T06:08:00
   id: 1095131
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
     "/var/lib/kubelet"'
 '20180606':
+- component: Network
+  create_time: 20180615T06:39:00
+  id: 1097772
+  resolution: ''
+  status: NEW
+  summary: 'wicked: macvlan interface does not get dhcp4 address'
 - component: Development
   create_time: 20180614T09:27:00
   id: 1097626
@@ -9126,8 +9132,8 @@
 - component: Development
   create_time: 20180612T19:29:00
   id: 1097283
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: GCC8 cannot build GCC6 with GCC8 on ppc64le only
 - component: Development
   create_time: 20180612T16:56:00
@@ -9189,8 +9195,8 @@
 - component: Kernel
   create_time: 20180611T13:01:00
   id: 1096961
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'WARNING: CPU: 1 PID: 359 at ../drivers/gpu/drm/drm_vblank.c:1073 drm_wait_one_vblank+0x148/0x150
     [drm]'
 - component: Other
@@ -9217,7 +9223,7 @@
   resolution: ''
   status: NEW
   summary: Firewalld prevents shutdown or reboot on iMac
-- component: Kernel
+- component: Basesystem
   create_time: 20180610T14:32:00
   id: 1096831
   resolution: ''
