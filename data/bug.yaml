@@ -1131,7 +1131,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'flare-game: player takes no damage'
-- component: Usability
+- component: X.Org
   create_time: 20171229T10:28:00
   id: 1074217
   resolution: ''
@@ -1735,8 +1735,8 @@
 - component: Other
   create_time: 20180110T22:01:00
   id: 1075465
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: signond QObject disconnect unexpected null parameter
 - component: GNOME
   create_time: 20180110T19:34:00
@@ -5038,8 +5038,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180305T01:39:00
   id: 1083880
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'QXcbConnection: XCB error: 3 (BadWindow), sequence: 32874, resource id:
     85983279, major code: 15 (QueryTree), minor code: 0'
 - component: X.Org
@@ -8086,8 +8086,8 @@
 - component: Network
   create_time: 20180503T09:33:00
   id: 1091791
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: resolve.conf issue from latest update
 - component: Other
   create_time: 20180503T09:07:00
@@ -8322,8 +8322,8 @@
 - component: Bootloader
   create_time: 20180514T10:54:00
   id: 1093113
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: invalid partition table! error
 - component: YaST2
   create_time: 20180514T10:51:00
@@ -9300,6 +9300,12 @@
   summary: LLVM llvm_map_components_to_libnames reports individual libraries instead
     of single "LLVM"
 '20180613':
+- component: GNOME
+  create_time: 20180616T18:32:00
+  id: 1097935
+  resolution: ''
+  status: NEW
+  summary: VLC terminates gnome session
 - component: YaST2
   create_time: 20180616T12:35:00
   id: 1097933
