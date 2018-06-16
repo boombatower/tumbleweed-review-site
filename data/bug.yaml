@@ -9300,6 +9300,20 @@
   summary: LLVM llvm_map_components_to_libnames reports individual libraries instead
     of single "LLVM"
 '20180613':
+- component: Commercial
+  create_time: 20180616T09:01:00
+  id: 1097929
+  resolution: ''
+  status: NEW
+  summary: Steam on Tumbleweed (libxcb-dri3.so.0 said to be missing, but is installed,
+    also 32bit)
+- component: Other
+  create_time: 20180616T08:04:00
+  id: 1097928
+  resolution: ''
+  status: NEW
+  summary: 'widelands (foss game) cannot be installed: libicuuc.so.60.2()(64bit) not
+    available'
 - component: GNOME
   create_time: 20180615T19:44:00
   id: 1097908
@@ -9310,7 +9324,7 @@
   create_time: 20180615T15:33:00
   id: 1097869
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Shift overflow in libkmod.h
 - component: Other
   create_time: 20180615T15:24:00
