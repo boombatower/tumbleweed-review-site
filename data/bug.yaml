@@ -9300,6 +9300,77 @@
   summary: LLVM llvm_map_components_to_libnames reports individual libraries instead
     of single "LLVM"
 '20180613':
+- component: Development
+  create_time: 20180614T09:27:00
+  id: 1097626
+  resolution: ''
+  status: NEW
+  summary: 'guile-git: test suite fails on i586'
+- component: Kubic
+  create_time: 20180614T09:26:00
+  id: 1097625
+  resolution: ''
+  status: IN_PROGRESS
+  summary: chronyd not starting on admin nodes
+- component: Other
+  create_time: 20180614T07:49:00
+  id: 1097611
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180608] packages conflicting suggesting to downgrade: kubernetes-kubeadm
+    & kubernetes-master'
+- component: Development
+  create_time: 20180614T06:10:00
+  id: 1097590
+  resolution: FIXED
+  status: RESOLVED
+  summary: Qt5 Documentation broken
+- component: GNOME
+  create_time: 20180614T05:52:00
+  id: 1097581
+  resolution: ''
+  status: NEW
+  summary: 'PackageKit: zypp backend needs implementation for GetFilesLocal.'
+- component: Basesystem
+  create_time: 20180613T11:57:00
+  id: 1097449
+  resolution: ''
+  status: NEW
+  summary: tar fails to pass tests on aarch64
+- component: Kernel
+  create_time: 20180613T11:06:00
+  id: 1097436
+  resolution: ''
+  status: NEW
+  summary: 'gcc: internal compiler error during python3 build'
+- component: Basesystem
+  create_time: 20180613T10:38:00
+  id: 1097425
+  resolution: ''
+  status: CONFIRMED
+  summary: Fails to create LVM volume if lvm+RAID1
+- component: Other
+  create_time: 20180613T09:04:00
+  id: 1097388
+  resolution: ''
+  status: NEW
+  summary: cloud-init running before network online
+'20180615':
+- component: X.Org
+  create_time: 20180617T15:58:00
+  id: 1097950
+  resolution: ''
+  status: NEW
+  summary: Optimus laptop multi monitor does not connect without editing configs and
+    running commands. Crashes desktop on unplug. X goes into boot loop when restarting
+    desktop manager.
+- component: KDE Applications
+  create_time: 20180617T15:42:00
+  id: 1097949
+  resolution: ''
+  status: NEW
+  summary: KDE Desktop background not working, network manager broken, kwin crashes
+    on monitor unplug
 - component: KDE Workspace (Plasma)
   create_time: 20180617T08:19:00
   id: 1097943
@@ -9386,58 +9457,3 @@
   resolution: ''
   status: NEW
   summary: 'wicked: macvlan interface does not get dhcp4 address'
-- component: Development
-  create_time: 20180614T09:27:00
-  id: 1097626
-  resolution: ''
-  status: NEW
-  summary: 'guile-git: test suite fails on i586'
-- component: Kubic
-  create_time: 20180614T09:26:00
-  id: 1097625
-  resolution: ''
-  status: IN_PROGRESS
-  summary: chronyd not starting on admin nodes
-- component: Other
-  create_time: 20180614T07:49:00
-  id: 1097611
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180608] packages conflicting suggesting to downgrade: kubernetes-kubeadm
-    & kubernetes-master'
-- component: Development
-  create_time: 20180614T06:10:00
-  id: 1097590
-  resolution: FIXED
-  status: RESOLVED
-  summary: Qt5 Documentation broken
-- component: GNOME
-  create_time: 20180614T05:52:00
-  id: 1097581
-  resolution: ''
-  status: NEW
-  summary: 'PackageKit: zypp backend needs implementation for GetFilesLocal.'
-- component: Basesystem
-  create_time: 20180613T11:57:00
-  id: 1097449
-  resolution: ''
-  status: NEW
-  summary: tar fails to pass tests on aarch64
-- component: Kernel
-  create_time: 20180613T11:06:00
-  id: 1097436
-  resolution: ''
-  status: NEW
-  summary: 'gcc: internal compiler error during python3 build'
-- component: Basesystem
-  create_time: 20180613T10:38:00
-  id: 1097425
-  resolution: ''
-  status: CONFIRMED
-  summary: Fails to create LVM volume if lvm+RAID1
-- component: Other
-  create_time: 20180613T09:04:00
-  id: 1097388
-  resolution: ''
-  status: NEW
-  summary: cloud-init running before network online
