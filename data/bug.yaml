@@ -3647,8 +3647,8 @@
 - component: Kernel
   create_time: 20180211T03:57:00
   id: 1080452
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Broadcom chipset 43228 intermittently disconnecting
 - component: Kernel
   create_time: 20180211T01:24:00
@@ -9300,6 +9300,18 @@
   summary: LLVM llvm_map_components_to_libnames reports individual libraries instead
     of single "LLVM"
 '20180613':
+- component: KDE Workspace (Plasma)
+  create_time: 20180617T08:19:00
+  id: 1097943
+  resolution: ''
+  status: NEW
+  summary: kcminit segfaults with snapshot 20180613
+- component: LXDE
+  create_time: 20180617T05:33:00
+  id: 1097939
+  resolution: ''
+  status: NEW
+  summary: nm-applet error after update tumbleweed 32bit to 20180613
 - component: GNOME
   create_time: 20180616T18:32:00
   id: 1097935
