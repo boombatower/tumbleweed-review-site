@@ -9207,7 +9207,7 @@
   status: NEW
   summary: 'system settings: changing order and scale of monitor is not persisted
     between reboots'
-- component: Kernel
+- component: Network
   create_time: 20180609T15:19:00
   id: 1096809
   resolution: ''
