@@ -1303,8 +1303,8 @@
 - component: Kernel
   create_time: 20180103T00:00:00
   id: 1074406
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'amdgpu 0000:01:00.0: Invalid PCI ROM header signature: expecting 0xaa55,
     got 0xffff'
 '20180104':
@@ -8725,8 +8725,8 @@
 - component: Other
   create_time: 20180525T13:48:00
   id: 1094693
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: rpcgen does not support newstyle or MT-safe code
 - component: Firefox
   create_time: 20180525T10:47:00
@@ -8794,8 +8794,8 @@
 - component: YaST2
   create_time: 20180528T11:24:00
   id: 1094875
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Running the yast2-storage-ng testsuite takes terribly long time
 - component: Containers
   create_time: 20180528T10:39:00
@@ -9070,7 +9070,7 @@
   create_time: 20180530T06:08:00
   id: 1095131
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
     "/var/lib/kubelet"'
 '20180606':
@@ -9126,8 +9126,8 @@
 - component: Basesystem
   create_time: 20180611T16:01:00
   id: 1097006
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: dwz debuginfo splitting is one-thread and very very slow on packages which
     have too many libs
 - component: Development
@@ -9213,11 +9213,11 @@
   resolution: ''
   status: NEW
   summary: Update to TW 20180606 unreliable WiFI authentication
-- component: Basesystem
+- component: Kernel
   create_time: 20180609T13:01:00
   id: 1096807
-  resolution: ''
-  status: REOPENED
+  resolution: INVALID
+  status: RESOLVED
   summary: ftw/nftw with FTW_MOUNT does not work on overlayfs
 - component: KDE Applications
   create_time: 20180609T11:37:00
@@ -9356,7 +9356,62 @@
   status: NEW
   summary: cloud-init running before network online
 '20180615':
-- component: X.Org
+- component: Other
+  create_time: 20180618T22:37:00
+  id: 1098142
+  resolution: ''
+  status: NEW
+  summary: TeXLive cannot register font - Can't locate TeXLive/TLUtils.pm
+- component: Kernel
+  create_time: 20180618T15:40:00
+  id: 1098074
+  resolution: ''
+  status: NEW
+  summary: Keyboard does not work under Linux kernel 4.17.1
+- component: Other
+  create_time: 20180618T15:02:00
+  id: 1098066
+  resolution: ''
+  status: NEW
+  summary: 'package obs-service-download_files: installation error'
+- component: KVM
+  create_time: 20180618T14:10:00
+  id: 1098056
+  resolution: ''
+  status: NEW
+  summary: https://github.com/openSUSE/qemu/commit/ba79c7b6559b50210be412d7f23e83749b4982a9
+    is obsolete
+- component: Network
+  create_time: 20180618T12:57:00
+  id: 1098041
+  resolution: ''
+  status: NEW
+  summary: bcm43xx-firmware incompatible with transactional-update
+- component: Development
+  create_time: 20180618T11:35:00
+  id: 1098031
+  resolution: ''
+  status: NEW
+  summary: Can't build anything after upgrade to gcc8
+- component: Development
+  create_time: 20180618T09:05:00
+  id: 1098006
+  resolution: ''
+  status: NEW
+  summary: 'golang-packaging: gotest does not print failure reason'
+- component: KDE Workspace (Plasma)
+  create_time: 20180618T07:56:00
+  id: 1097992
+  resolution: ''
+  status: NEW
+  summary: folder view widget on panel too small
+- component: YaST2
+  create_time: 20180618T03:42:00
+  id: 1097956
+  resolution: ''
+  status: CONFIRMED
+  summary: 'yast2-storage-ng: missing a URL in the spec file'
+- component: Other
   create_time: 20180617T15:58:00
   id: 1097950
   resolution: ''
@@ -9394,7 +9449,8 @@
   id: 1097933
   resolution: ''
   status: NEW
-  summary: YaST2 partitioner always through error when trying to run
+  summary: '[storage-ng] Partitioner throws error "incompatible character encodings:
+    ASCII-8BIT and UTF-8" in simplified Chinese'
 - component: KDE Workspace (Plasma)
   create_time: 20180616T11:39:00
   id: 1097932
@@ -9404,15 +9460,15 @@
 - component: Commercial
   create_time: 20180616T09:01:00
   id: 1097929
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Steam on Tumbleweed (libxcb-dri3.so.0 said to be missing, but is installed,
     also 32bit)
 - component: Other
   create_time: 20180616T08:04:00
   id: 1097928
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'widelands (foss game) cannot be installed: libicuuc.so.60.2()(64bit) not
     available'
 - component: GNOME
@@ -9449,7 +9505,7 @@
   create_time: 20180615T11:46:00
   id: 1097840
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: yast sysconfig displaymanager setting unnecessary
 - component: Network
   create_time: 20180615T06:39:00
