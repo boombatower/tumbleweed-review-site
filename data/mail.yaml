@@ -899,7 +899,7 @@
     summary: failed to summarize
 '20180615':
   announcement: 2018-06.223
-  reference_count: 20
+  reference_count: 22
   thread_count: 4
   threads:
   - messages: [2018-06.235]
@@ -909,8 +909,13 @@
     reference_count: 5
     summary: '] missing module-gconf in pulseaudio'
   - messages: [2018-06.240]
-    reference_count: 6
+    reference_count: 8
     summary: Mouse clicks stops working
   - messages: [2018-06.229]
     reference_count: 7
     summary: '] - device notifier fails to see removable drives'
+'20180618':
+  announcement: 2018-06.252
+  reference_count: 0
+  thread_count: 0
+  threads: []
