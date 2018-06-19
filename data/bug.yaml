@@ -8567,8 +8567,8 @@
 - component: Other
   create_time: 20180521T00:49:00
   id: 1093995
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'drbdmanage: Update to the latest 0.99.17 to fix the issue of big volume
     assignment'
 '20180522':
