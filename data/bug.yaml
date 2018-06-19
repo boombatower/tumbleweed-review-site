@@ -198,8 +198,8 @@
 - component: Kernel
   create_time: 20171205T15:56:00
   id: 1071330
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Shutdown takes very long time to be completed
 - component: YaST2
   create_time: 20171205T09:41:00
@@ -6801,8 +6801,8 @@
 - component: YaST2
   create_time: 20180409T20:40:00
   id: 1088759
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180406] openQA test fails in yast2_control_center with errors
     about "YUIPlugin.cc(YUIPlugin):50 Could not load UI plugin "qt_zypp_solver_dialog":
     libyui-qt_zypp_solver_dialog.so.8: cannot open shared object file: No such file
@@ -9126,8 +9126,8 @@
 - component: Basesystem
   create_time: 20180611T16:01:00
   id: 1097006
-  resolution: WONTFIX
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: dwz debuginfo splitting is one-thread and very very slow on packages which
     have too many libs
 - component: Development
@@ -9356,11 +9356,17 @@
   status: NEW
   summary: cloud-init running before network online
 '20180615':
+- component: KDE Applications
+  create_time: 20180619T10:01:00
+  id: 1098191
+  resolution: ''
+  status: NEW
+  summary: doxywizard will not build with qt 5.11
 - component: Other
   create_time: 20180618T22:37:00
   id: 1098142
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: TeXLive cannot register font - Can't locate TeXLive/TLUtils.pm
 - component: Kernel
   create_time: 20180618T15:40:00
@@ -9402,8 +9408,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180618T07:56:00
   id: 1097992
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: folder view widget on panel too small
 - component: YaST2
   create_time: 20180618T03:42:00
@@ -9447,8 +9453,8 @@
 - component: YaST2
   create_time: 20180616T12:35:00
   id: 1097933
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[storage-ng] Partitioner throws error "incompatible character encodings:
     ASCII-8BIT and UTF-8" in simplified Chinese'
 - component: KDE Workspace (Plasma)
