@@ -899,17 +899,17 @@
     summary: failed to summarize
 '20180615':
   announcement: 2018-06.223
-  reference_count: 13
+  reference_count: 18
   thread_count: 4
   threads:
   - messages: [2018-06.235]
     reference_count: 2
     summary: no summary given
   - messages: [2018-06.239]
-    reference_count: 1
+    reference_count: 5
     summary: '] missing module-gconf in pulseaudio'
   - messages: [2018-06.240]
-    reference_count: 3
+    reference_count: 4
     summary: Mouse clicks stops working
   - messages: [2018-06.229]
     reference_count: 7
