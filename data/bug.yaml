@@ -2010,8 +2010,8 @@
 - component: Basesystem
   create_time: 20180117T07:34:00
   id: 1076312
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: incorrect lang package contents after upgrade to rpm 4.14
 - component: X11 Applications
   create_time: 20180117T04:34:00
@@ -5116,8 +5116,8 @@
 - component: YaST2
   create_time: 20180306T00:55:00
   id: 1084044
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Yast2 --Install from Tumbleweed locks up
 '20180307':
 - component: GNOME
@@ -6802,7 +6802,7 @@
   create_time: 20180409T20:40:00
   id: 1088759
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20180406] openQA test fails in yast2_control_center with errors
     about "YUIPlugin.cc(YUIPlugin):50 Could not load UI plugin "qt_zypp_solver_dialog":
     libyui-qt_zypp_solver_dialog.so.8: cannot open shared object file: No such file
@@ -8899,7 +8899,7 @@
   create_time: 20180604T06:30:00
   id: 1095725
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Borg mount command missing dependency python3-llfuse
 - component: Other
   create_time: 20180604T06:12:00
@@ -9356,11 +9356,17 @@
   status: NEW
   summary: cloud-init running before network online
 '20180615':
+- component: KDE Workspace (Plasma)
+  create_time: 20180619T14:36:00
+  id: 1098239
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'System Tray: Networks: Unuseable'
 - component: KDE Applications
   create_time: 20180619T10:01:00
   id: 1098191
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: doxywizard will not build with qt 5.11
 - component: Other
   create_time: 20180618T22:37:00
@@ -9396,8 +9402,8 @@
 - component: Development
   create_time: 20180618T11:35:00
   id: 1098031
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Can't build anything after upgrade to gcc8
 - component: Development
   create_time: 20180618T09:05:00
