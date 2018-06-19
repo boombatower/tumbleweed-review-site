@@ -9356,6 +9356,109 @@
   status: NEW
   summary: cloud-init running before network online
 '20180615':
+- component: Other
+  create_time: 20180617T15:58:00
+  id: 1097950
+  resolution: ''
+  status: NEW
+  summary: Optimus laptop multi monitor does not connect without editing configs and
+    running commands. Crashes desktop on unplug. X goes into boot loop when restarting
+    desktop manager.
+- component: KDE Applications
+  create_time: 20180617T15:42:00
+  id: 1097949
+  resolution: ''
+  status: NEW
+  summary: KDE Desktop background not working, network manager broken, kwin crashes
+    on monitor unplug
+- component: KDE Workspace (Plasma)
+  create_time: 20180617T08:19:00
+  id: 1097943
+  resolution: ''
+  status: NEW
+  summary: kcminit segfaults with snapshot 20180613
+- component: LXDE
+  create_time: 20180617T05:33:00
+  id: 1097939
+  resolution: ''
+  status: NEW
+  summary: nm-applet error after update tumbleweed 32bit to 20180613
+- component: GNOME
+  create_time: 20180616T18:32:00
+  id: 1097935
+  resolution: ''
+  status: NEW
+  summary: VLC terminates gnome session
+- component: YaST2
+  create_time: 20180616T12:35:00
+  id: 1097933
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[storage-ng] Partitioner throws error "incompatible character encodings:
+    ASCII-8BIT and UTF-8" in simplified Chinese'
+- component: KDE Workspace (Plasma)
+  create_time: 20180616T11:39:00
+  id: 1097932
+  resolution: ''
+  status: NEW
+  summary: kde plasma network manager bigger than expected after update
+- component: Commercial
+  create_time: 20180616T09:01:00
+  id: 1097929
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Steam on Tumbleweed (libxcb-dri3.so.0 said to be missing, but is installed,
+    also 32bit)
+- component: Other
+  create_time: 20180616T08:04:00
+  id: 1097928
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'widelands (foss game) cannot be installed: libicuuc.so.60.2()(64bit) not
+    available'
+- component: GNOME
+  create_time: 20180615T19:44:00
+  id: 1097908
+  resolution: FIXED
+  status: RESOLVED
+  summary: nm-applet seg faults
+- component: Basesystem
+  create_time: 20180615T15:33:00
+  id: 1097869
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Shift overflow in libkmod.h
+- component: Other
+  create_time: 20180615T15:24:00
+  id: 1097867
+  resolution: ''
+  status: NEW
+  summary: transactional-update needs a minimum version of rsync, but misses requires
+- component: LXDE
+  create_time: 20180615T13:24:00
+  id: 1097856
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Package LXQt 0.13.0
+- component: LXDE
+  create_time: 20180615T11:54:00
+  id: 1097842
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Installer shows no LXQt icon in pattern
+- component: YaST2
+  create_time: 20180615T11:46:00
+  id: 1097840
+  resolution: ''
+  status: CONFIRMED
+  summary: yast sysconfig displaymanager setting unnecessary
+- component: Network
+  create_time: 20180615T06:39:00
+  id: 1097772
+  resolution: ''
+  status: NEW
+  summary: 'wicked: macvlan interface does not get dhcp4 address'
+'20180618':
 - component: KDE Workspace (Plasma)
   create_time: 20180619T14:36:00
   id: 1098239
@@ -9423,105 +9526,3 @@
   resolution: ''
   status: CONFIRMED
   summary: 'yast2-storage-ng: missing a URL in the spec file'
-- component: Other
-  create_time: 20180617T15:58:00
-  id: 1097950
-  resolution: ''
-  status: NEW
-  summary: Optimus laptop multi monitor does not connect without editing configs and
-    running commands. Crashes desktop on unplug. X goes into boot loop when restarting
-    desktop manager.
-- component: KDE Applications
-  create_time: 20180617T15:42:00
-  id: 1097949
-  resolution: ''
-  status: NEW
-  summary: KDE Desktop background not working, network manager broken, kwin crashes
-    on monitor unplug
-- component: KDE Workspace (Plasma)
-  create_time: 20180617T08:19:00
-  id: 1097943
-  resolution: ''
-  status: NEW
-  summary: kcminit segfaults with snapshot 20180613
-- component: LXDE
-  create_time: 20180617T05:33:00
-  id: 1097939
-  resolution: ''
-  status: NEW
-  summary: nm-applet error after update tumbleweed 32bit to 20180613
-- component: GNOME
-  create_time: 20180616T18:32:00
-  id: 1097935
-  resolution: ''
-  status: NEW
-  summary: VLC terminates gnome session
-- component: YaST2
-  create_time: 20180616T12:35:00
-  id: 1097933
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: '[storage-ng] Partitioner throws error "incompatible character encodings:
-    ASCII-8BIT and UTF-8" in simplified Chinese'
-- component: KDE Workspace (Plasma)
-  create_time: 20180616T11:39:00
-  id: 1097932
-  resolution: ''
-  status: NEW
-  summary: kde plasma network manager bigger than expected after update
-- component: Commercial
-  create_time: 20180616T09:01:00
-  id: 1097929
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: Steam on Tumbleweed (libxcb-dri3.so.0 said to be missing, but is installed,
-    also 32bit)
-- component: Other
-  create_time: 20180616T08:04:00
-  id: 1097928
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'widelands (foss game) cannot be installed: libicuuc.so.60.2()(64bit) not
-    available'
-- component: GNOME
-  create_time: 20180615T19:44:00
-  id: 1097908
-  resolution: ''
-  status: NEW
-  summary: nm-applet seg faults
-- component: Basesystem
-  create_time: 20180615T15:33:00
-  id: 1097869
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Shift overflow in libkmod.h
-- component: Other
-  create_time: 20180615T15:24:00
-  id: 1097867
-  resolution: ''
-  status: NEW
-  summary: transactional-update needs a minimum version of rsync, but misses requires
-- component: LXDE
-  create_time: 20180615T13:24:00
-  id: 1097856
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Package LXQt 0.13.0
-- component: LXDE
-  create_time: 20180615T11:54:00
-  id: 1097842
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Installer shows no LXQt icon in pattern
-- component: YaST2
-  create_time: 20180615T11:46:00
-  id: 1097840
-  resolution: ''
-  status: CONFIRMED
-  summary: yast sysconfig displaymanager setting unnecessary
-- component: Network
-  create_time: 20180615T06:39:00
-  id: 1097772
-  resolution: ''
-  status: NEW
-  summary: 'wicked: macvlan interface does not get dhcp4 address'
