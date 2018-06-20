@@ -9380,8 +9380,8 @@
 - component: LXDE
   create_time: 20180617T05:33:00
   id: 1097939
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: nm-applet error after update tumbleweed 32bit to 20180613
 - component: GNOME
   create_time: 20180616T18:32:00
