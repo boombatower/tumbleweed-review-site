@@ -8631,8 +8631,8 @@
 - component: Kernel
   create_time: 20180523T09:21:00
   id: 1094324
-  resolution: NORESPONSE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Hibernation mode did not work
 - component: Development
   create_time: 20180523T09:12:00
@@ -8768,8 +8768,8 @@
 - component: Installation
   create_time: 20180528T16:27:00
   id: 1094924
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: partition imported during installation would all be formatted by default
 - component: Basesystem
   create_time: 20180528T12:43:00
@@ -8857,7 +8857,7 @@
   create_time: 20180605T08:51:00
   id: 1095973
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: wrong error message from systemctl
 - component: YaST2
   create_time: 20180604T20:05:00
@@ -9096,8 +9096,8 @@
 - component: X.Org
   create_time: 20180612T13:50:00
   id: 1097227
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: QT apps fail to work via remote X connection
 - component: X.Org
   create_time: 20180612T12:13:00
@@ -9216,8 +9216,8 @@
 - component: Kernel
   create_time: 20180609T13:01:00
   id: 1096807
-  resolution: INVALID
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: ftw/nftw with FTW_MOUNT does not work on overlayfs
 - component: KDE Applications
   create_time: 20180609T11:37:00
@@ -9426,7 +9426,7 @@
   create_time: 20180615T15:33:00
   id: 1097869
   resolution: ''
-  status: IN_PROGRESS
+  status: REOPENED
   summary: Shift overflow in libkmod.h
 - component: Other
   create_time: 20180615T15:24:00
@@ -9459,12 +9459,42 @@
   status: NEW
   summary: 'wicked: macvlan interface does not get dhcp4 address'
 '20180618':
+- component: libzypp
+  create_time: 20180620T14:10:00
+  id: 1098432
+  resolution: ''
+  status: NEW
+  summary: zypper dup does not update boost devel packages
+- component: Basesystem
+  create_time: 20180620T13:59:00
+  id: 1098431
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Qt based applications do not work over SSH X forwarded connection
+- component: Security
+  create_time: 20180620T13:04:00
+  id: 1098423
+  resolution: ''
+  status: NEW
+  summary: 'systemd.ppc64le: E: polkit-untracked-privilege'
+- component: YaST2
+  create_time: 20180620T11:50:00
+  id: 1098407
+  resolution: ''
+  status: NEW
+  summary: yast2 network fails to work if without autoyast
+- component: Kernel
+  create_time: 20180620T11:40:00
+  id: 1098404
+  resolution: ''
+  status: NEW
+  summary: e1000e Detected Hardware Unit Hang on I219-LM (Dell E7470)
 - component: X.Org
   create_time: 20180620T10:36:00
   id: 1098392
   resolution: ''
   status: NEW
-  summary: mouse clicks register in a single location
+  summary: 'Virtualbox: mouse clicks register in a single location with libinput driver'
 - component: Other
   create_time: 20180620T05:20:00
   id: 1098320
