@@ -3721,8 +3721,8 @@
 - component: Upgrade Problems
   create_time: 20180212T17:50:00
   id: 1080652
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Upgrade from earlier Tumbleweed version fails with missing package that
     can't be removed
 - component: Other
@@ -4100,8 +4100,8 @@
 - component: Other
   create_time: 20180216T08:27:00
   id: 1081292
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'sysdig-kmp-default: error messages during installation ''zypper dup'''
 - component: Virtualization:Other
   create_time: 20180216T05:55:00
@@ -4330,8 +4330,8 @@
 - component: Other
   create_time: 20180220T05:24:00
   id: 1081662
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Automount Removal Storage Media Broken
 - component: Installation
   create_time: 20180220T01:00:00
@@ -9459,6 +9459,18 @@
   status: NEW
   summary: 'wicked: macvlan interface does not get dhcp4 address'
 '20180618':
+- component: X.Org
+  create_time: 20180620T10:36:00
+  id: 1098392
+  resolution: ''
+  status: NEW
+  summary: mouse clicks register in a single location
+- component: Other
+  create_time: 20180620T05:20:00
+  id: 1098320
+  resolution: ''
+  status: NEW
+  summary: openSUSE/imagewriter won't launch
 - component: KDE Workspace (Plasma)
   create_time: 20180619T14:36:00
   id: 1098239
