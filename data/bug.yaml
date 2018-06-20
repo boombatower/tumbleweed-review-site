@@ -6658,8 +6658,8 @@
 - component: Maintenance
   create_time: 20180405T14:30:00
   id: 1088310
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python3-botocore-1.9.6 possibly breaking aws-cli
 - component: Basesystem
   create_time: 20180405T13:46:00
@@ -8901,7 +8901,7 @@
   resolution: ''
   status: IN_PROGRESS
   summary: Borg mount command missing dependency python3-llfuse
-- component: Other
+- component: Kernel
   create_time: 20180604T06:12:00
   id: 1095717
   resolution: ''
@@ -9425,8 +9425,8 @@
 - component: Basesystem
   create_time: 20180615T15:33:00
   id: 1097869
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Shift overflow in libkmod.h
 - component: Other
   create_time: 20180615T15:24:00
@@ -9522,8 +9522,8 @@
 - component: Kernel
   create_time: 20180618T15:40:00
   id: 1098074
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Keyboard does not work under Linux kernel 4.17.1
 - component: Other
   create_time: 20180618T15:02:00
