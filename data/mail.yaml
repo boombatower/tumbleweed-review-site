@@ -874,9 +874,12 @@
   threads: []
 '20180606':
   announcement: 2018-06.73
-  reference_count: 12
-  thread_count: 2
+  reference_count: 13
+  thread_count: 3
   threads:
+  - messages: [2018-06.261]
+    reference_count: 1
+    summary: boost headers
   - messages: [2018-06.74]
     reference_count: 9
     summary: '] - zypper dup issue with libQt5Positioning5'
@@ -899,17 +902,17 @@
     summary: failed to summarize
 '20180615':
   announcement: 2018-06.223
-  reference_count: 25
+  reference_count: 28
   thread_count: 4
   threads:
   - messages: [2018-06.235]
-    reference_count: 3
+    reference_count: 4
     summary: no summary given
   - messages: [2018-06.239]
     reference_count: 5
     summary: '] missing module-gconf in pulseaudio'
   - messages: [2018-06.240]
-    reference_count: 10
+    reference_count: 12
     summary: Mouse clicks stops working
   - messages: [2018-06.229]
     reference_count: 7
