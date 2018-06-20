@@ -356,14 +356,14 @@
   score: 94
   stability_level: stable
 '20180606':
-  score: 82
+  score: 79
   stability_level: moderate
 '20180613':
-  score: 65
+  score: 63
   stability_level: unstable
 '20180615':
-  score: 34
+  score: 30
   stability_level: pending
 '20180618':
-  score: 72
+  score: 70
   stability_level: pending
