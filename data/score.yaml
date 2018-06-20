@@ -360,10 +360,10 @@
   stability_level: moderate
 '20180613':
   score: 65
-  stability_level: pending
+  stability_level: unstable
 '20180615':
-  score: 36
+  score: 34
   stability_level: pending
 '20180618':
-  score: 73
+  score: 72
   stability_level: pending
