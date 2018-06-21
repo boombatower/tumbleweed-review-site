@@ -8856,8 +8856,8 @@
 - component: Basesystem
   create_time: 20180605T08:51:00
   id: 1095973
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: wrong error message from systemctl
 - component: YaST2
   create_time: 20180604T20:05:00
@@ -9412,8 +9412,8 @@
 - component: Other
   create_time: 20180616T08:04:00
   id: 1097928
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'widelands (foss game) cannot be installed: libicuuc.so.60.2()(64bit) not
     available'
 - component: GNOME
@@ -9459,7 +9459,19 @@
   status: NEW
   summary: 'wicked: macvlan interface does not get dhcp4 address'
 '20180618':
-- component: libzypp
+- component: Development
+  create_time: 20180621T08:10:00
+  id: 1098551
+  resolution: ''
+  status: NEW
+  summary: gcc 8.1.1 prints incorrect warning for snprintf size
+- component: Basesystem
+  create_time: 20180621T08:10:00
+  id: 1098550
+  resolution: ''
+  status: NEW
+  summary: Current Tumbleweed Pine64 image fails to boot
+- component: Development
   create_time: 20180620T14:10:00
   id: 1098432
   resolution: ''
@@ -9489,12 +9501,13 @@
   resolution: ''
   status: NEW
   summary: e1000e Detected Hardware Unit Hang on I219-LM (Dell E7470)
-- component: X.Org
+- component: Kernel
   create_time: 20180620T10:36:00
   id: 1098392
   resolution: ''
   status: NEW
-  summary: 'Virtualbox: mouse clicks register in a single location with libinput driver'
+  summary: 'Regression with Kernel 4.17: Missing events with pointer devices (affects
+    libinput)'
 - component: Other
   create_time: 20180620T05:20:00
   id: 1098320
