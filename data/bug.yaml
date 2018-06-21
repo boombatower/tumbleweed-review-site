@@ -8044,7 +8044,7 @@
   create_time: 20180503T17:31:00
   id: 1091864
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[RPM] The %make_jobs macro from marcos.cmake gets overwritten by macro.qt5'
 - component: KDE Workspace (Plasma)
   create_time: 20180503T15:45:00
@@ -9459,11 +9459,23 @@
   status: NEW
   summary: 'wicked: macvlan interface does not get dhcp4 address'
 '20180618':
+- component: KDE Workspace (Plasma)
+  create_time: 20180621T15:30:00
+  id: 1098661
+  resolution: ''
+  status: NEW
+  summary: gtk 2.0 defaults conflict
+- component: Development
+  create_time: 20180621T14:39:00
+  id: 1098653
+  resolution: ''
+  status: NEW
+  summary: updating openmpi erases mpi-selector settings
 - component: Development
   create_time: 20180621T08:10:00
   id: 1098551
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: gcc 8.1.1 prints incorrect warning for snprintf size
 - component: Basesystem
   create_time: 20180621T08:10:00
@@ -9486,8 +9498,8 @@
 - component: Security
   create_time: 20180620T13:04:00
   id: 1098423
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'systemd.ppc64le: E: polkit-untracked-privilege'
 - component: YaST2
   create_time: 20180620T11:50:00
