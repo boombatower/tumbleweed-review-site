@@ -9459,6 +9459,20 @@
   status: NEW
   summary: 'wicked: macvlan interface does not get dhcp4 address'
 '20180618':
+- component: Patterns
+  create_time: 20180621T19:21:00
+  id: 1098676
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180603][aarch64] openQA test fails in start_install - "nothing
+    provides libqalculate.so.14()(64bit) needed by plasma5-workspace-5.12.5-1.2.aarch64"'
+- component: Patterns
+  create_time: 20180621T19:17:00
+  id: 1098675
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180603][aarch64] openQA test fails in installation_overview -
+    "nothing provides /bin/sh needed by product:openSUSE-20180603-0.aarch64"'
 - component: KDE Workspace (Plasma)
   create_time: 20180621T15:30:00
   id: 1098661
