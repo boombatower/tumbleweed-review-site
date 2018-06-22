@@ -9459,6 +9459,18 @@
   status: NEW
   summary: 'wicked: macvlan interface does not get dhcp4 address'
 '20180618':
+- component: KDE Workspace (Plasma)
+  create_time: 20180622T03:11:00
+  id: 1098720
+  resolution: ''
+  status: NEW
+  summary: nm5-applet don't update passwords
+- component: Other
+  create_time: 20180622T02:52:00
+  id: 1098718
+  resolution: ''
+  status: NEW
+  summary: 3d modelling software (Blender, FreeCAD) missing dependencies
 - component: Patterns
   create_time: 20180621T19:21:00
   id: 1098676
