@@ -9459,6 +9459,86 @@
   status: NEW
   summary: 'wicked: macvlan interface does not get dhcp4 address'
 '20180618':
+- component: KDE Workspace (Plasma)
+  create_time: 20180619T14:36:00
+  id: 1098239
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'System Tray: Networks: Unuseable'
+- component: KDE Applications
+  create_time: 20180619T10:01:00
+  id: 1098191
+  resolution: FIXED
+  status: RESOLVED
+  summary: doxywizard will not build with qt 5.11
+- component: Other
+  create_time: 20180618T22:37:00
+  id: 1098142
+  resolution: ''
+  status: IN_PROGRESS
+  summary: TeXLive cannot register font - Can't locate TeXLive/TLUtils.pm
+- component: Kernel
+  create_time: 20180618T15:40:00
+  id: 1098074
+  resolution: FIXED
+  status: RESOLVED
+  summary: Keyboard does not work under Linux kernel 4.17.1
+- component: Other
+  create_time: 20180618T15:02:00
+  id: 1098066
+  resolution: ''
+  status: NEW
+  summary: 'package obs-service-download_files: installation error'
+- component: KVM
+  create_time: 20180618T14:10:00
+  id: 1098056
+  resolution: ''
+  status: NEW
+  summary: https://github.com/openSUSE/qemu/commit/ba79c7b6559b50210be412d7f23e83749b4982a9
+    is obsolete
+- component: Network
+  create_time: 20180618T12:57:00
+  id: 1098041
+  resolution: ''
+  status: NEW
+  summary: bcm43xx-firmware incompatible with transactional-update
+- component: Development
+  create_time: 20180618T11:35:00
+  id: 1098031
+  resolution: INVALID
+  status: RESOLVED
+  summary: Can't build anything after upgrade to gcc8
+- component: Development
+  create_time: 20180618T09:05:00
+  id: 1098006
+  resolution: ''
+  status: NEW
+  summary: 'golang-packaging: gotest does not print failure reason'
+- component: KDE Workspace (Plasma)
+  create_time: 20180618T07:56:00
+  id: 1097992
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: folder view widget on panel too small
+- component: YaST2
+  create_time: 20180618T03:42:00
+  id: 1097956
+  resolution: ''
+  status: CONFIRMED
+  summary: 'yast2-storage-ng: missing a URL in the spec file'
+'20180620':
+- component: GNOME
+  create_time: 20180622T12:34:00
+  id: 1098807
+  resolution: ''
+  status: NEW
+  summary: gnome-shell sigsegv while openQA user_gui_login on PowerPC
+- component: Other
+  create_time: 20180622T11:51:00
+  id: 1098800
+  resolution: ''
+  status: REOPENED
+  summary: neovim does not provide its system-wide configuration
 - component: Other
   create_time: 20180622T08:53:00
   id: 1098764
@@ -9548,8 +9628,8 @@
 - component: YaST2
   create_time: 20180620T11:50:00
   id: 1098407
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2 network fails to work if without autoyast
 - component: Kernel
   create_time: 20180620T11:40:00
@@ -9570,70 +9650,3 @@
   resolution: ''
   status: NEW
   summary: openSUSE/imagewriter won't launch
-- component: KDE Workspace (Plasma)
-  create_time: 20180619T14:36:00
-  id: 1098239
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'System Tray: Networks: Unuseable'
-- component: KDE Applications
-  create_time: 20180619T10:01:00
-  id: 1098191
-  resolution: FIXED
-  status: RESOLVED
-  summary: doxywizard will not build with qt 5.11
-- component: Other
-  create_time: 20180618T22:37:00
-  id: 1098142
-  resolution: ''
-  status: IN_PROGRESS
-  summary: TeXLive cannot register font - Can't locate TeXLive/TLUtils.pm
-- component: Kernel
-  create_time: 20180618T15:40:00
-  id: 1098074
-  resolution: FIXED
-  status: RESOLVED
-  summary: Keyboard does not work under Linux kernel 4.17.1
-- component: Other
-  create_time: 20180618T15:02:00
-  id: 1098066
-  resolution: ''
-  status: NEW
-  summary: 'package obs-service-download_files: installation error'
-- component: KVM
-  create_time: 20180618T14:10:00
-  id: 1098056
-  resolution: ''
-  status: NEW
-  summary: https://github.com/openSUSE/qemu/commit/ba79c7b6559b50210be412d7f23e83749b4982a9
-    is obsolete
-- component: Network
-  create_time: 20180618T12:57:00
-  id: 1098041
-  resolution: ''
-  status: NEW
-  summary: bcm43xx-firmware incompatible with transactional-update
-- component: Development
-  create_time: 20180618T11:35:00
-  id: 1098031
-  resolution: INVALID
-  status: RESOLVED
-  summary: Can't build anything after upgrade to gcc8
-- component: Development
-  create_time: 20180618T09:05:00
-  id: 1098006
-  resolution: ''
-  status: NEW
-  summary: 'golang-packaging: gotest does not print failure reason'
-- component: KDE Workspace (Plasma)
-  create_time: 20180618T07:56:00
-  id: 1097992
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: folder view widget on panel too small
-- component: YaST2
-  create_time: 20180618T03:42:00
-  id: 1097956
-  resolution: ''
-  status: CONFIRMED
-  summary: 'yast2-storage-ng: missing a URL in the spec file'
