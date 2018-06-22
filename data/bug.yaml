@@ -2717,8 +2717,8 @@
 - component: Basesystem
   create_time: 20180130T05:49:00
   id: 1078206
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Upgrading to 20180128 breaks sudo and fails at switch root during boot
 '20180131':
 - component: Other
@@ -9459,6 +9459,24 @@
   status: NEW
   summary: 'wicked: macvlan interface does not get dhcp4 address'
 '20180618':
+- component: Other
+  create_time: 20180622T08:53:00
+  id: 1098764
+  resolution: ''
+  status: NEW
+  summary: opal is build failed with linux-glibc-devel 4.17
+- component: Basesystem
+  create_time: 20180622T07:44:00
+  id: 1098749
+  resolution: ''
+  status: NEW
+  summary: libiscsi fails to build with rdma-core v18.1
+- component: Installation
+  create_time: 20180622T07:37:00
+  id: 1098748
+  resolution: ''
+  status: NEW
+  summary: Can not install kernel source package
 - component: KDE Workspace (Plasma)
   create_time: 20180622T03:11:00
   id: 1098720
@@ -9468,8 +9486,8 @@
 - component: Other
   create_time: 20180622T02:52:00
   id: 1098718
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 3d modelling software (Blender, FreeCAD) missing dependencies
 - component: Patterns
   create_time: 20180621T19:21:00
