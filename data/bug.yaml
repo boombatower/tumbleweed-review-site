@@ -9527,6 +9527,18 @@
   status: CONFIRMED
   summary: 'yast2-storage-ng: missing a URL in the spec file'
 '20180620':
+- component: KDE Applications
+  create_time: 20180622T21:55:00
+  id: 1098894
+  resolution: ''
+  status: NEW
+  summary: Edit / Delete addresses in Kaddressbook is impossible
+- component: Patterns
+  create_time: 20180622T18:58:00
+  id: 1098878
+  resolution: ''
+  status: NEW
+  summary: Gwenview missing in Tumbleweed 20180618 KDE pattern
 - component: GNOME
   create_time: 20180622T12:34:00
   id: 1098807
