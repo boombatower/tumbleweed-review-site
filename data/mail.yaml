@@ -924,11 +924,11 @@
   threads: []
 '20180620':
   announcement: 2018-06.269
-  reference_count: 2
+  reference_count: 3
   thread_count: 2
   threads:
   - messages: [2018-06.282]
-    reference_count: 1
+    reference_count: 2
     summary: released! Brokes WI-FI and Cinnamon
   - messages: [2018-06.270]
     reference_count: 1
