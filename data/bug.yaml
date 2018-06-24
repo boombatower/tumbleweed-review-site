@@ -9609,6 +9609,25 @@
   status: NEW
   summary: openSUSE/imagewriter won't launch
 '20180622':
+- component: KDE Workspace (Plasma)
+  create_time: 20180624T10:29:00
+  id: 1098922
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Software Updates widget can no longer install packages, asks user to run
+    'zypper dup' manually
+- component: KDE Applications
+  create_time: 20180624T09:03:00
+  id: 1098918
+  resolution: ''
+  status: NEW
+  summary: KOrganizer not syncing with Google Calendars
+- component: Kernel
+  create_time: 20180624T08:04:00
+  id: 1098917
+  resolution: ''
+  status: NEW
+  summary: Laptop's keyboard & touchpad not detected on Linux 4.17
 - component: Kernel
   create_time: 20180623T17:12:00
   id: 1098915
