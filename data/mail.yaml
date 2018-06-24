@@ -933,3 +933,8 @@
   - messages: [2018-06.270]
     reference_count: 1
     summary: '] - plasma desktop not correct'
+'20180622':
+  announcement: 2018-06.285
+  reference_count: 0
+  thread_count: 0
+  threads: []
