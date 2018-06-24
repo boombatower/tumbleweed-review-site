@@ -9618,8 +9618,8 @@
 - component: Kernel
   create_time: 20180623T16:24:00
   id: 1098914
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Power Management does not work with kernel 4.17
 - component: KDE Workspace (Plasma)
   create_time: 20180623T14:23:00
