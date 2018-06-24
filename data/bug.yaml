@@ -9527,60 +9527,6 @@
   status: CONFIRMED
   summary: 'yast2-storage-ng: missing a URL in the spec file'
 '20180620':
-- component: KDE Applications
-  create_time: 20180622T21:55:00
-  id: 1098894
-  resolution: ''
-  status: NEW
-  summary: Edit / Delete addresses in Kaddressbook is impossible
-- component: Patterns
-  create_time: 20180622T18:58:00
-  id: 1098878
-  resolution: ''
-  status: NEW
-  summary: Gwenview missing in Tumbleweed 20180618 KDE pattern
-- component: GNOME
-  create_time: 20180622T12:34:00
-  id: 1098807
-  resolution: ''
-  status: NEW
-  summary: gnome-shell sigsegv while openQA user_gui_login on PowerPC
-- component: Other
-  create_time: 20180622T11:51:00
-  id: 1098800
-  resolution: ''
-  status: REOPENED
-  summary: neovim does not provide its system-wide configuration
-- component: Other
-  create_time: 20180622T08:53:00
-  id: 1098764
-  resolution: ''
-  status: NEW
-  summary: opal is build failed with linux-glibc-devel 4.17
-- component: Basesystem
-  create_time: 20180622T07:44:00
-  id: 1098749
-  resolution: ''
-  status: NEW
-  summary: libiscsi fails to build with rdma-core v18.1
-- component: Installation
-  create_time: 20180622T07:37:00
-  id: 1098748
-  resolution: ''
-  status: NEW
-  summary: Can not install kernel source package
-- component: KDE Workspace (Plasma)
-  create_time: 20180622T03:11:00
-  id: 1098720
-  resolution: ''
-  status: NEW
-  summary: nm5-applet don't update passwords
-- component: Other
-  create_time: 20180622T02:52:00
-  id: 1098718
-  resolution: INVALID
-  status: RESOLVED
-  summary: 3d modelling software (Blender, FreeCAD) missing dependencies
 - component: Patterns
   create_time: 20180621T19:21:00
   id: 1098676
@@ -9662,3 +9608,82 @@
   resolution: ''
   status: NEW
   summary: openSUSE/imagewriter won't launch
+'20180622':
+- component: Kernel
+  create_time: 20180623T17:12:00
+  id: 1098915
+  resolution: ''
+  status: NEW
+  summary: Intel Microcode isn't loaded during boot
+- component: Kernel
+  create_time: 20180623T16:24:00
+  id: 1098914
+  resolution: ''
+  status: NEW
+  summary: Power Management does not work with kernel 4.17
+- component: KDE Workspace (Plasma)
+  create_time: 20180623T14:23:00
+  id: 1098913
+  resolution: ''
+  status: NEW
+  summary: Touchpad service don't start
+- component: KDE Workspace (Plasma)
+  create_time: 20180623T13:15:00
+  id: 1098911
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: qt apps over ssh -X will show empty, not responding window
+- component: KDE Applications
+  create_time: 20180622T21:55:00
+  id: 1098894
+  resolution: ''
+  status: NEW
+  summary: Edit / Delete addresses in Kaddressbook is impossible
+- component: Patterns
+  create_time: 20180622T18:58:00
+  id: 1098878
+  resolution: ''
+  status: NEW
+  summary: Gwenview missing in Tumbleweed 20180618 KDE pattern
+- component: GNOME
+  create_time: 20180622T12:34:00
+  id: 1098807
+  resolution: ''
+  status: NEW
+  summary: gnome-shell sigsegv while openQA user_gui_login on PowerPC
+- component: Other
+  create_time: 20180622T11:51:00
+  id: 1098800
+  resolution: ''
+  status: REOPENED
+  summary: neovim does not provide its system-wide configuration
+- component: Other
+  create_time: 20180622T08:53:00
+  id: 1098764
+  resolution: ''
+  status: NEW
+  summary: opal is build failed with linux-glibc-devel 4.17
+- component: Basesystem
+  create_time: 20180622T07:44:00
+  id: 1098749
+  resolution: ''
+  status: NEW
+  summary: libiscsi fails to build with rdma-core v18.1
+- component: Installation
+  create_time: 20180622T07:37:00
+  id: 1098748
+  resolution: ''
+  status: NEW
+  summary: Can not install kernel source package
+- component: KDE Workspace (Plasma)
+  create_time: 20180622T03:11:00
+  id: 1098720
+  resolution: ''
+  status: NEW
+  summary: nm5-applet don't update passwords
+- component: Other
+  create_time: 20180622T02:52:00
+  id: 1098718
+  resolution: INVALID
+  status: RESOLVED
+  summary: 3d modelling software (Blender, FreeCAD) missing dependencies
