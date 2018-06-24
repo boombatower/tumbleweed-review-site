@@ -9609,6 +9609,12 @@
   status: NEW
   summary: openSUSE/imagewriter won't launch
 '20180622':
+- component: Xfce
+  create_time: 20180624T17:00:00
+  id: 1098927
+  resolution: ''
+  status: NEW
+  summary: Check responsiveness for GUI of Thunar 1.8.1
 - component: KDE Workspace (Plasma)
   create_time: 20180624T10:29:00
   id: 1098922
