@@ -7922,8 +7922,8 @@
 - component: Other
   create_time: 20180508T12:57:00
   id: 1092363
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/cram fails to build'
 - component: KDE Applications
   create_time: 20180508T12:55:00
@@ -8774,8 +8774,8 @@
 - component: Basesystem
   create_time: 20180528T12:43:00
   id: 1094893
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Bug in scriptlet vlc-qt-3.0.2-6.3.x86_64
 - component: Other
   create_time: 20180528T12:19:00
@@ -8801,7 +8801,7 @@
   create_time: 20180528T10:39:00
   id: 1094863
   resolution: ''
-  status: REOPENED
+  status: IN_PROGRESS
   summary: Podman hangs when using CNI loopback example
 - component: Containers
   create_time: 20180528T10:11:00
@@ -9399,8 +9399,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180616T11:39:00
   id: 1097932
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kde plasma network manager bigger than expected after update
 - component: Commercial
   create_time: 20180616T09:01:00
@@ -9530,15 +9530,15 @@
 - component: Patterns
   create_time: 20180621T19:21:00
   id: 1098676
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180603][aarch64] openQA test fails in start_install - "nothing
     provides libqalculate.so.14()(64bit) needed by plasma5-workspace-5.12.5-1.2.aarch64"'
 - component: Patterns
   create_time: 20180621T19:17:00
   id: 1098675
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180603][aarch64] openQA test fails in installation_overview -
     "nothing provides /bin/sh needed by product:openSUSE-20180603-0.aarch64"'
 - component: KDE Workspace (Plasma)
@@ -9618,8 +9618,8 @@
 - component: Patterns
   create_time: 20180622T18:58:00
   id: 1098878
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Gwenview missing in Tumbleweed 20180618 KDE pattern
 - component: GNOME
   create_time: 20180622T12:34:00
@@ -9642,14 +9642,14 @@
 - component: Basesystem
   create_time: 20180622T07:44:00
   id: 1098749
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: libiscsi fails to build with rdma-core v18.1
-- component: Installation
+- component: libzypp
   create_time: 20180622T07:37:00
   id: 1098748
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Can not install kernel source package
 - component: KDE Workspace (Plasma)
   create_time: 20180622T03:11:00
@@ -9664,6 +9664,60 @@
   status: RESOLVED
   summary: 3d modelling software (Blender, FreeCAD) missing dependencies
 '20180623':
+- component: Basesystem
+  create_time: 20180625T20:01:00
+  id: 1099054
+  resolution: ''
+  status: IN_PROGRESS
+  summary: multipath-tools 0.7.7 shouldn't change SUSE path detection default
+- component: Security
+  create_time: 20180625T19:15:00
+  id: 1099051
+  resolution: ''
+  status: NEW
+  summary: rkhunter hashes not updated
+- component: Other
+  create_time: 20180625T19:13:00
+  id: 1099050
+  resolution: ''
+  status: NEW
+  summary: texstudio packages should disable update check by default
+- component: Basesystem
+  create_time: 20180625T15:51:00
+  id: 1099028
+  resolution: ''
+  status: IN_PROGRESS
+  summary: multipathd 0.7.7 crashes on path deletion and re-addition
+- component: Basesystem
+  create_time: 20180625T15:40:00
+  id: 1099026
+  resolution: INVALID
+  status: RESOLVED
+  summary: '"multipathd show config" prints wrong output for delay_*_checks'
+- component: Kernel
+  create_time: 20180625T14:17:00
+  id: 1099012
+  resolution: ''
+  status: NEW
+  summary: 'BUG: unable to handle kernel paging request at 000000100000004c in put_css_set_locked'
+- component: Kubic
+  create_time: 20180625T13:11:00
+  id: 1099005
+  resolution: ''
+  status: NEW
+  summary: Remove Partitioner from Kubic Installation
+- component: Kernel
+  create_time: 20180625T11:41:00
+  id: 1098995
+  resolution: ''
+  status: NEW
+  summary: Unusually large kernel-macros package
+- component: Patterns
+  create_time: 20180625T11:26:00
+  id: 1098989
+  resolution: INVALID
+  status: RESOLVED
+  summary: libgdbm4 conflicts with gdbm-lang
 - component: Xfce
   create_time: 20180624T17:00:00
   id: 1098927
