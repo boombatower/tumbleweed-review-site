@@ -366,13 +366,13 @@
   stability_level: unstable
 '20180618':
   score: 55
-  stability_level: pending
+  stability_level: unstable
 '20180620':
-  score: 62
+  score: 58
   stability_level: pending
 '20180622':
-  score: 84
+  score: 72
   stability_level: pending
 '20180623':
-  score: 92
+  score: 87
   stability_level: pending
