@@ -368,8 +368,11 @@
   score: 55
   stability_level: pending
 '20180620':
-  score: 64
+  score: 62
   stability_level: pending
 '20180622':
   score: 84
+  stability_level: pending
+'20180623':
+  score: 92
   stability_level: pending
