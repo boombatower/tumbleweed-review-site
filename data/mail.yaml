@@ -924,17 +924,22 @@
   threads: []
 '20180620':
   announcement: 2018-06.269
-  reference_count: 4
+  reference_count: 6
   thread_count: 2
   threads:
   - messages: [2018-06.282]
-    reference_count: 3
+    reference_count: 5
     summary: released! Brokes WI-FI and Cinnamon
   - messages: [2018-06.270]
     reference_count: 1
     summary: '] - plasma desktop not correct'
 '20180622':
   announcement: 2018-06.285
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180623':
+  announcement: 2018-06.288
   reference_count: 0
   thread_count: 0
   threads: []
