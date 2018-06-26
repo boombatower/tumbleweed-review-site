@@ -9686,8 +9686,8 @@
 - component: Kernel
   create_time: 20180624T08:04:00
   id: 1098917
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Laptop's keyboard & touchpad not detected on Linux 4.17
 - component: Kernel
   create_time: 20180623T17:12:00
