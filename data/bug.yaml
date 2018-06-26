@@ -9664,11 +9664,74 @@
   status: RESOLVED
   summary: 3d modelling software (Blender, FreeCAD) missing dependencies
 '20180623':
+- component: Xfce
+  create_time: 20180624T17:00:00
+  id: 1098927
+  resolution: ''
+  status: NEW
+  summary: Check responsiveness for GUI of Thunar 1.8.1
+- component: KDE Workspace (Plasma)
+  create_time: 20180624T10:29:00
+  id: 1098922
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Software Updates widget can no longer install packages, asks user to run
+    'zypper dup' manually
+- component: KDE Applications
+  create_time: 20180624T09:03:00
+  id: 1098918
+  resolution: ''
+  status: NEW
+  summary: KOrganizer not syncing with Google Calendars
+- component: Kernel
+  create_time: 20180624T08:04:00
+  id: 1098917
+  resolution: ''
+  status: NEW
+  summary: Laptop's keyboard & touchpad not detected on Linux 4.17
+- component: Kernel
+  create_time: 20180623T17:12:00
+  id: 1098915
+  resolution: ''
+  status: NEW
+  summary: Intel Microcode isn't loaded during boot
+- component: Kernel
+  create_time: 20180623T16:24:00
+  id: 1098914
+  resolution: FIXED
+  status: RESOLVED
+  summary: Power Management does not work with kernel 4.17
+- component: KDE Workspace (Plasma)
+  create_time: 20180623T14:23:00
+  id: 1098913
+  resolution: ''
+  status: NEW
+  summary: Touchpad service don't start
+- component: KDE Workspace (Plasma)
+  create_time: 20180623T13:15:00
+  id: 1098911
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: qt apps over ssh -X will show empty, not responding window
+'20180625':
+- component: Installation
+  create_time: 20180626T15:40:00
+  id: 1099187
+  resolution: ''
+  status: NEW
+  summary: The partition for Intels' Rapid Start Technology will be deleted during
+    the installation
+- component: X11 Applications
+  create_time: 20180626T12:31:00
+  id: 1099160
+  resolution: ''
+  status: NEW
+  summary: Missing dependency for FreeCAD
 - component: Basesystem
   create_time: 20180626T08:35:00
   id: 1099119
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: cross-ppc64-gcc7 and others build failed in OBS for TW ppc64le
 - component: X.Org
   create_time: 20180626T07:45:00
@@ -9704,8 +9767,8 @@
 - component: Other
   create_time: 20180625T22:47:00
   id: 1099073
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'can''t install qbittorrent : nothing provides the dependency libboost_system.so.1.66.0'
 - component: Basesystem
   create_time: 20180625T20:01:00
@@ -9758,55 +9821,6 @@
 - component: libzypp
   create_time: 20180625T11:26:00
   id: 1098989
-  resolution: ''
-  status: REOPENED
+  resolution: INVALID
+  status: RESOLVED
   summary: libgdbm4 conflicts with gdbm-lang
-- component: Xfce
-  create_time: 20180624T17:00:00
-  id: 1098927
-  resolution: ''
-  status: NEW
-  summary: Check responsiveness for GUI of Thunar 1.8.1
-- component: KDE Workspace (Plasma)
-  create_time: 20180624T10:29:00
-  id: 1098922
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Software Updates widget can no longer install packages, asks user to run
-    'zypper dup' manually
-- component: KDE Applications
-  create_time: 20180624T09:03:00
-  id: 1098918
-  resolution: ''
-  status: NEW
-  summary: KOrganizer not syncing with Google Calendars
-- component: Kernel
-  create_time: 20180624T08:04:00
-  id: 1098917
-  resolution: ''
-  status: NEW
-  summary: Laptop's keyboard & touchpad not detected on Linux 4.17
-- component: Kernel
-  create_time: 20180623T17:12:00
-  id: 1098915
-  resolution: ''
-  status: NEW
-  summary: Intel Microcode isn't loaded during boot
-- component: Kernel
-  create_time: 20180623T16:24:00
-  id: 1098914
-  resolution: FIXED
-  status: RESOLVED
-  summary: Power Management does not work with kernel 4.17
-- component: KDE Workspace (Plasma)
-  create_time: 20180623T14:23:00
-  id: 1098913
-  resolution: ''
-  status: NEW
-  summary: Touchpad service don't start
-- component: KDE Workspace (Plasma)
-  create_time: 20180623T13:15:00
-  id: 1098911
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: qt apps over ssh -X will show empty, not responding window
