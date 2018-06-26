@@ -9664,6 +9664,19 @@
   status: RESOLVED
   summary: 3d modelling software (Blender, FreeCAD) missing dependencies
 '20180623':
+- component: Kernel
+  create_time: 20180626T00:03:00
+  id: 1099078
+  resolution: ''
+  status: NEW
+  summary: 'v4.18-rc2 runs into fatal "Internal error: SP/PC alignment exception:
+    8a000000 [#1] SMP"'
+- component: Other
+  create_time: 20180625T22:47:00
+  id: 1099073
+  resolution: ''
+  status: NEW
+  summary: 'can''t install qbittorrent : nothing provides the dependency libboost_system.so.1.66.0'
 - component: Basesystem
   create_time: 20180625T20:01:00
   id: 1099054
