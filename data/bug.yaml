@@ -9605,8 +9605,8 @@
 - component: Other
   create_time: 20180620T05:20:00
   id: 1098320
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: openSUSE/imagewriter won't launch
 '20180622':
 - component: KDE Applications
@@ -9664,6 +9664,36 @@
   status: RESOLVED
   summary: 3d modelling software (Blender, FreeCAD) missing dependencies
 '20180623':
+- component: Basesystem
+  create_time: 20180626T08:35:00
+  id: 1099119
+  resolution: ''
+  status: NEW
+  summary: cross-ppc64-gcc7 and others build failed in OBS for TW ppc64le
+- component: X.Org
+  create_time: 20180626T07:45:00
+  id: 1099113
+  resolution: FIXED
+  status: RESOLVED
+  summary: Heap overflow in X server compiled using GCC8 with LTO
+- component: Kernel
+  create_time: 20180626T07:24:00
+  id: 1099109
+  resolution: FIXED
+  status: RESOLVED
+  summary: Dell XPS 13 9370 - video camera not working (patch attached)
+- component: YaST2
+  create_time: 20180626T06:46:00
+  id: 1099104
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180625] YaST fails to copy ssh keys to new system'
+- component: Basesystem
+  create_time: 20180626T05:47:00
+  id: 1099091
+  resolution: ''
+  status: NEW
+  summary: ps command is broken
 - component: Kernel
   create_time: 20180626T00:03:00
   id: 1099078
@@ -9725,11 +9755,11 @@
   resolution: ''
   status: NEW
   summary: Unusually large kernel-macros package
-- component: Patterns
+- component: libzypp
   create_time: 20180625T11:26:00
   id: 1098989
-  resolution: INVALID
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: libgdbm4 conflicts with gdbm-lang
 - component: Xfce
   create_time: 20180624T17:00:00
