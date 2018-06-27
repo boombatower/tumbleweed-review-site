@@ -9374,8 +9374,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180617T08:19:00
   id: 1097943
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kcminit segfaults with snapshot 20180613
 - component: LXDE
   create_time: 20180617T05:33:00
@@ -9592,8 +9592,8 @@
 - component: Kernel
   create_time: 20180620T11:40:00
   id: 1098404
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: e1000e Detected Hardware Unit Hang on I219-LM (Dell E7470)
 - component: Kernel
   create_time: 20180620T10:36:00
@@ -9715,6 +9715,80 @@
   summary: qt apps over ssh -X will show empty, not responding window
 '20180625':
 - component: Other
+  create_time: 20180625T22:47:00
+  id: 1099073
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'can''t install qbittorrent : nothing provides the dependency libboost_system.so.1.66.0'
+- component: Basesystem
+  create_time: 20180625T20:01:00
+  id: 1099054
+  resolution: ''
+  status: IN_PROGRESS
+  summary: multipath-tools 0.7.7 shouldn't change SUSE path detection default
+- component: Security
+  create_time: 20180625T19:15:00
+  id: 1099051
+  resolution: ''
+  status: NEW
+  summary: rkhunter hashes not updated
+- component: Other
+  create_time: 20180625T19:13:00
+  id: 1099050
+  resolution: ''
+  status: NEW
+  summary: texstudio packages should disable update check by default
+- component: Basesystem
+  create_time: 20180625T15:51:00
+  id: 1099028
+  resolution: ''
+  status: IN_PROGRESS
+  summary: multipathd 0.7.7 crashes on path deletion and re-addition
+- component: Basesystem
+  create_time: 20180625T15:40:00
+  id: 1099026
+  resolution: INVALID
+  status: RESOLVED
+  summary: '"multipathd show config" prints wrong output for delay_*_checks'
+- component: Kernel
+  create_time: 20180625T14:17:00
+  id: 1099012
+  resolution: ''
+  status: NEW
+  summary: 'BUG: unable to handle kernel paging request at 000000100000004c in put_css_set_locked'
+- component: Kubic
+  create_time: 20180625T13:11:00
+  id: 1099005
+  resolution: ''
+  status: NEW
+  summary: Remove Partitioner from Kubic Installation
+- component: Kernel
+  create_time: 20180625T11:41:00
+  id: 1098995
+  resolution: ''
+  status: NEW
+  summary: Unusually large kernel-macros package
+- component: libzypp
+  create_time: 20180625T11:26:00
+  id: 1098989
+  resolution: INVALID
+  status: RESOLVED
+  summary: libgdbm4 conflicts with gdbm-lang
+'20180626':
+- component: Basesystem
+  create_time: 20180627T20:03:00
+  id: 1099391
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: cannot boot system installed on lvm ontop raid1 after update (Cannot activate
+    LVs in VG vghome while PVs appear on duplicate devices)
+- component: Security
+  create_time: 20180627T16:25:00
+  id: 1099347
+  resolution: ''
+  status: NEW
+  summary: changed system file permissions on upgrade
+- component: Other
   create_time: 20180627T15:44:00
   id: 1099340
   resolution: ''
@@ -9788,63 +9862,3 @@
   status: NEW
   summary: 'v4.18-rc2 runs into fatal "Internal error: SP/PC alignment exception:
     8a000000 [#1] SMP"'
-- component: Other
-  create_time: 20180625T22:47:00
-  id: 1099073
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'can''t install qbittorrent : nothing provides the dependency libboost_system.so.1.66.0'
-- component: Basesystem
-  create_time: 20180625T20:01:00
-  id: 1099054
-  resolution: ''
-  status: IN_PROGRESS
-  summary: multipath-tools 0.7.7 shouldn't change SUSE path detection default
-- component: Security
-  create_time: 20180625T19:15:00
-  id: 1099051
-  resolution: ''
-  status: NEW
-  summary: rkhunter hashes not updated
-- component: Other
-  create_time: 20180625T19:13:00
-  id: 1099050
-  resolution: ''
-  status: NEW
-  summary: texstudio packages should disable update check by default
-- component: Basesystem
-  create_time: 20180625T15:51:00
-  id: 1099028
-  resolution: ''
-  status: IN_PROGRESS
-  summary: multipathd 0.7.7 crashes on path deletion and re-addition
-- component: Basesystem
-  create_time: 20180625T15:40:00
-  id: 1099026
-  resolution: INVALID
-  status: RESOLVED
-  summary: '"multipathd show config" prints wrong output for delay_*_checks'
-- component: Kernel
-  create_time: 20180625T14:17:00
-  id: 1099012
-  resolution: ''
-  status: NEW
-  summary: 'BUG: unable to handle kernel paging request at 000000100000004c in put_css_set_locked'
-- component: Kubic
-  create_time: 20180625T13:11:00
-  id: 1099005
-  resolution: ''
-  status: NEW
-  summary: Remove Partitioner from Kubic Installation
-- component: Kernel
-  create_time: 20180625T11:41:00
-  id: 1098995
-  resolution: ''
-  status: NEW
-  summary: Unusually large kernel-macros package
-- component: libzypp
-  create_time: 20180625T11:26:00
-  id: 1098989
-  resolution: INVALID
-  status: RESOLVED
-  summary: libgdbm4 conflicts with gdbm-lang
