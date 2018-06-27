@@ -9252,8 +9252,8 @@
 - component: Basesystem
   create_time: 20180607T13:07:00
   id: 1096516
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[openqa] coredump recorded for /bin/login'
 - component: Basesystem
   create_time: 20180607T07:41:00
@@ -9714,13 +9714,37 @@
   status: RESOLVED
   summary: qt apps over ssh -X will show empty, not responding window
 '20180625':
+- component: Other
+  create_time: 20180627T15:44:00
+  id: 1099340
+  resolution: ''
+  status: IN_PROGRESS
+  summary: cloud-init-config-suse defaults to ubuntu
+- component: Basesystem
+  create_time: 20180627T14:42:00
+  id: 1099329
+  resolution: ''
+  status: NEW
+  summary: lvm setup on softraid fails to boot without lvmetad in initrd
+- component: Kernel
+  create_time: 20180627T12:53:00
+  id: 1099312
+  resolution: ''
+  status: NEW
+  summary: system turns unresponsive with very high load and many blocked tasks, e.g.
+    in btrfs_buffer_uptodate
+- component: Other
+  create_time: 20180627T10:12:00
+  id: 1099288
+  resolution: ''
+  status: NEW
+  summary: FlightGear 2018.2.2
 - component: Installation
   create_time: 20180626T15:40:00
   id: 1099187
-  resolution: ''
-  status: NEW
-  summary: The partition for Intels' Rapid Start Technology will be deleted during
-    the installation
+  resolution: FEATURE
+  status: RESOLVED
+  summary: Don't delete the partition for Intels' Rapid Start Technology during installation
 - component: X11 Applications
   create_time: 20180626T12:31:00
   id: 1099160
