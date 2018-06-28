@@ -6124,8 +6124,8 @@
 - component: Basesystem
   create_time: 20180321T11:30:00
   id: 1086212
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: rpm is not replacing a changed file, and not creating rpmsave/rpmnew backups
 - component: YaST2
   create_time: 20180321T09:43:00
@@ -9775,6 +9775,25 @@
   status: RESOLVED
   summary: libgdbm4 conflicts with gdbm-lang
 '20180626':
+- component: Other
+  create_time: 20180628T12:13:00
+  id: 1099494
+  resolution: ''
+  status: NEW
+  summary: zypper calls snapper, snapshot creation failed while snapper already running,
+    still stalling system
+- component: GNOME
+  create_time: 20180628T11:04:00
+  id: 1099483
+  resolution: ''
+  status: NEW
+  summary: GDM fails to start
+- component: Other
+  create_time: 20180628T10:14:00
+  id: 1099475
+  resolution: ''
+  status: NEW
+  summary: Texlive language babel does not recommend its respective hyphen
 - component: Basesystem
   create_time: 20180627T20:03:00
   id: 1099391
@@ -9852,8 +9871,8 @@
 - component: Basesystem
   create_time: 20180626T05:47:00
   id: 1099091
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: ps command is broken
 - component: Kernel
   create_time: 20180626T00:03:00
