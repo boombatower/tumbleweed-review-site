@@ -9599,7 +9599,7 @@
   create_time: 20180620T10:36:00
   id: 1098392
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Regression with Kernel 4.17: Missing events with pointer devices (affects
     libinput)'
 - component: Other
@@ -9704,8 +9704,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180623T14:23:00
   id: 1098913
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Touchpad service don't start
 - component: KDE Workspace (Plasma)
   create_time: 20180623T13:15:00
