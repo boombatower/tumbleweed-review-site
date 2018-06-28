@@ -8886,8 +8886,8 @@
 - component: Other
   create_time: 20180604T09:08:00
   id: 1095747
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: python-wxPython missing libraries
 - component: High Availability
   create_time: 20180604T06:43:00
@@ -9177,8 +9177,8 @@
 - component: Other
   create_time: 20180609T20:01:00
   id: 1096819
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: virt-install - Couldn't find hvm kernel for SUSE tree
 - component: X.Org
   create_time: 20180609T19:53:00
@@ -9804,8 +9804,8 @@
 - component: Security
   create_time: 20180627T16:25:00
   id: 1099347
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: changed system file permissions on upgrade
 - component: Other
   create_time: 20180627T15:44:00
