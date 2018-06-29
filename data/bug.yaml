@@ -8904,8 +8904,8 @@
 - component: Kernel
   create_time: 20180604T06:12:00
   id: 1095717
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'OBS build failed with "illegal operation: 0001 ilc:1 [#1] SMP"'
 - component: KDE Applications
   create_time: 20180603T15:06:00
@@ -9775,6 +9775,80 @@
   status: RESOLVED
   summary: libgdbm4 conflicts with gdbm-lang
 '20180626':
+- component: Installation
+  create_time: 20180626T15:40:00
+  id: 1099187
+  resolution: FEATURE
+  status: RESOLVED
+  summary: Don't delete the partition for Intels' Rapid Start Technology during installation
+- component: X11 Applications
+  create_time: 20180626T12:31:00
+  id: 1099160
+  resolution: ''
+  status: NEW
+  summary: Missing dependency for FreeCAD
+- component: Basesystem
+  create_time: 20180626T08:35:00
+  id: 1099119
+  resolution: ''
+  status: IN_PROGRESS
+  summary: cross-ppc64-gcc7 and others build failed in OBS for TW ppc64le
+- component: X.Org
+  create_time: 20180626T07:45:00
+  id: 1099113
+  resolution: FIXED
+  status: RESOLVED
+  summary: Heap overflow in X server compiled using GCC8 with LTO
+- component: Kernel
+  create_time: 20180626T07:24:00
+  id: 1099109
+  resolution: FIXED
+  status: RESOLVED
+  summary: Dell XPS 13 9370 - video camera not working (patch attached)
+- component: YaST2
+  create_time: 20180626T06:46:00
+  id: 1099104
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180625] YaST fails to copy ssh keys to new system'
+- component: Basesystem
+  create_time: 20180626T05:47:00
+  id: 1099091
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: ps command is broken
+- component: Kernel
+  create_time: 20180626T00:03:00
+  id: 1099078
+  resolution: FIXED
+  status: VERIFIED
+  summary: 'v4.18-rc2 runs into fatal "Internal error: SP/PC alignment exception:
+    8a000000 [#1] SMP"'
+'20180627':
+- component: Network
+  create_time: 20180629T14:40:00
+  id: 1099705
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'openldap: s: command not found'
+- component: Kubic
+  create_time: 20180629T14:12:00
+  id: 1099700
+  resolution: ''
+  status: NEW
+  summary: 'Kubic snapshot 20180618: Bootstrap Kubernetes cluster failed'
+- component: Network
+  create_time: 20180629T13:49:00
+  id: 1099698
+  resolution: ''
+  status: NEW
+  summary: firewalld puts icmp into ip6tables
+- component: Network
+  create_time: 20180629T12:09:00
+  id: 1099682
+  resolution: ''
+  status: NEW
+  summary: vsftpd doesn't stop all instantiated services on shutdown
 - component: KDE Workspace (Plasma)
   create_time: 20180629T09:48:00
   id: 1099664
@@ -9874,52 +9948,3 @@
   resolution: ''
   status: NEW
   summary: FlightGear 2018.2.2
-- component: Installation
-  create_time: 20180626T15:40:00
-  id: 1099187
-  resolution: FEATURE
-  status: RESOLVED
-  summary: Don't delete the partition for Intels' Rapid Start Technology during installation
-- component: X11 Applications
-  create_time: 20180626T12:31:00
-  id: 1099160
-  resolution: ''
-  status: NEW
-  summary: Missing dependency for FreeCAD
-- component: Basesystem
-  create_time: 20180626T08:35:00
-  id: 1099119
-  resolution: ''
-  status: IN_PROGRESS
-  summary: cross-ppc64-gcc7 and others build failed in OBS for TW ppc64le
-- component: X.Org
-  create_time: 20180626T07:45:00
-  id: 1099113
-  resolution: FIXED
-  status: RESOLVED
-  summary: Heap overflow in X server compiled using GCC8 with LTO
-- component: Kernel
-  create_time: 20180626T07:24:00
-  id: 1099109
-  resolution: FIXED
-  status: RESOLVED
-  summary: Dell XPS 13 9370 - video camera not working (patch attached)
-- component: YaST2
-  create_time: 20180626T06:46:00
-  id: 1099104
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180625] YaST fails to copy ssh keys to new system'
-- component: Basesystem
-  create_time: 20180626T05:47:00
-  id: 1099091
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: ps command is broken
-- component: Kernel
-  create_time: 20180626T00:03:00
-  id: 1099078
-  resolution: FIXED
-  status: VERIFIED
-  summary: 'v4.18-rc2 runs into fatal "Internal error: SP/PC alignment exception:
-    8a000000 [#1] SMP"'
