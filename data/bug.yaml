@@ -9825,6 +9825,19 @@
   summary: 'v4.18-rc2 runs into fatal "Internal error: SP/PC alignment exception:
     8a000000 [#1] SMP"'
 '20180627':
+- component: Other
+  create_time: 20180629T22:00:00
+  id: 1099745
+  resolution: ''
+  status: NEW
+  summary: '[kubic][transactional server] systemd fails to boot, reports $subvolume
+    already mounted'
+- component: Installation
+  create_time: 20180629T21:48:00
+  id: 1099744
+  resolution: ''
+  status: NEW
+  summary: Cannot reinstall system with the same LVM VG name
 - component: Network
   create_time: 20180629T14:40:00
   id: 1099705
