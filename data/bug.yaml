@@ -9775,6 +9775,42 @@
   status: RESOLVED
   summary: libgdbm4 conflicts with gdbm-lang
 '20180626':
+- component: KDE Workspace (Plasma)
+  create_time: 20180629T09:48:00
+  id: 1099664
+  resolution: ''
+  status: NEW
+  summary: SDDM freezes for a few seconds before starting Plasma
+- component: KDE Applications
+  create_time: 20180629T08:24:00
+  id: 1099645
+  resolution: ''
+  status: NEW
+  summary: KDE PIM Kmail issue
+- component: Security
+  create_time: 20180629T07:31:00
+  id: 1099634
+  resolution: ''
+  status: NEW
+  summary: FIPS test should not empty entropy pool below a specific size
+- component: Usability
+  create_time: 20180629T06:08:00
+  id: 1099620
+  resolution: ''
+  status: NEW
+  summary: Libinput-tools breaks libinput-gestures
+- component: Other
+  create_time: 20180629T04:18:00
+  id: 1099600
+  resolution: ''
+  status: NEW
+  summary: Expired gpg key 6F88BB2F
+- component: Installation
+  create_time: 20180629T04:07:00
+  id: 1099599
+  resolution: ''
+  status: NEW
+  summary: Problem resizing partition
 - component: Virtualization:Tools
   create_time: 20180628T22:19:00
   id: 1099589
