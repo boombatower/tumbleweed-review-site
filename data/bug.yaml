@@ -9775,6 +9775,12 @@
   status: RESOLVED
   summary: libgdbm4 conflicts with gdbm-lang
 '20180626':
+- component: Virtualization:Tools
+  create_time: 20180628T22:19:00
+  id: 1099589
+  resolution: ''
+  status: NEW
+  summary: VirtualBox forgets status bar and toolbar
 - component: Other
   create_time: 20180628T12:13:00
   id: 1099494
@@ -9877,7 +9883,7 @@
 - component: Kernel
   create_time: 20180626T00:03:00
   id: 1099078
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: VERIFIED
   summary: 'v4.18-rc2 runs into fatal "Internal error: SP/PC alignment exception:
     8a000000 [#1] SMP"'
