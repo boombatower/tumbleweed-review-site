@@ -9825,6 +9825,52 @@
   summary: 'v4.18-rc2 runs into fatal "Internal error: SP/PC alignment exception:
     8a000000 [#1] SMP"'
 '20180627':
+- component: Basesystem
+  create_time: 20180627T20:03:00
+  id: 1099391
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: cannot boot system installed on lvm ontop raid1 after update (Cannot activate
+    LVs in VG vghome while PVs appear on duplicate devices)
+- component: Security
+  create_time: 20180627T16:25:00
+  id: 1099347
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: changed system file permissions on upgrade
+- component: Other
+  create_time: 20180627T15:44:00
+  id: 1099340
+  resolution: ''
+  status: IN_PROGRESS
+  summary: cloud-init-config-suse defaults to ubuntu
+- component: Basesystem
+  create_time: 20180627T14:42:00
+  id: 1099329
+  resolution: ''
+  status: NEW
+  summary: lvm setup on softraid fails to boot without lvmetad in initrd
+- component: Kernel
+  create_time: 20180627T12:53:00
+  id: 1099312
+  resolution: ''
+  status: NEW
+  summary: system turns unresponsive with very high load and many blocked tasks, e.g.
+    in btrfs_buffer_uptodate
+- component: Other
+  create_time: 20180627T10:12:00
+  id: 1099288
+  resolution: ''
+  status: NEW
+  summary: FlightGear 2018.2.2
+'20180628':
+- component: YaST2
+  create_time: 20180630T15:07:00
+  id: 1099762
+  resolution: ''
+  status: NEW
+  summary: '[libstorage-ng] [kubic] undefined method "safe_copy" - YaST2 crashes if
+    disk is too small for a viable proposal'
 - component: Security
   create_time: 20180630T09:12:00
   id: 1099755
@@ -9948,41 +9994,3 @@
   resolution: ''
   status: NEW
   summary: Texlive language babel does not recommend its respective hyphen
-- component: Basesystem
-  create_time: 20180627T20:03:00
-  id: 1099391
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: cannot boot system installed on lvm ontop raid1 after update (Cannot activate
-    LVs in VG vghome while PVs appear on duplicate devices)
-- component: Security
-  create_time: 20180627T16:25:00
-  id: 1099347
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: changed system file permissions on upgrade
-- component: Other
-  create_time: 20180627T15:44:00
-  id: 1099340
-  resolution: ''
-  status: IN_PROGRESS
-  summary: cloud-init-config-suse defaults to ubuntu
-- component: Basesystem
-  create_time: 20180627T14:42:00
-  id: 1099329
-  resolution: ''
-  status: NEW
-  summary: lvm setup on softraid fails to boot without lvmetad in initrd
-- component: Kernel
-  create_time: 20180627T12:53:00
-  id: 1099312
-  resolution: ''
-  status: NEW
-  summary: system turns unresponsive with very high load and many blocked tasks, e.g.
-    in btrfs_buffer_uptodate
-- component: Other
-  create_time: 20180627T10:12:00
-  id: 1099288
-  resolution: ''
-  status: NEW
-  summary: FlightGear 2018.2.2
