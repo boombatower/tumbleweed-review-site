@@ -9825,6 +9825,24 @@
   summary: 'v4.18-rc2 runs into fatal "Internal error: SP/PC alignment exception:
     8a000000 [#1] SMP"'
 '20180627':
+- component: Security
+  create_time: 20180630T09:12:00
+  id: 1099755
+  resolution: ''
+  status: NEW
+  summary: /etc/hosts.allow /etc/hosts.deny not support ssh
+- component: Security
+  create_time: 20180630T08:56:00
+  id: 1099754
+  resolution: ''
+  status: NEW
+  summary: /etc/polkit-1/rules.d/90-default-privs.rules "useless-text"
+- component: Development
+  create_time: 20180630T05:30:00
+  id: 1099752
+  resolution: ''
+  status: NEW
+  summary: Qt creator has no debug layout anymore ( qtcreator )
 - component: Kernel
   create_time: 20180630T02:39:00
   id: 1099750
@@ -9896,8 +9914,8 @@
 - component: Other
   create_time: 20180629T04:18:00
   id: 1099600
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Expired gpg key 6F88BB2F
 - component: Installation
   create_time: 20180629T04:07:00
