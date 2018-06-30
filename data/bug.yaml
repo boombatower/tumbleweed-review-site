@@ -9869,8 +9869,8 @@
   id: 1099762
   resolution: ''
   status: NEW
-  summary: '[libstorage-ng] [kubic] undefined method "safe_copy" - YaST2 crashes if
-    disk is too small for a viable proposal'
+  summary: '[storage-ng] [kubic] undefined method "safe_copy" - YaST2 crashes if disk
+    is too small for a viable proposal'
 - component: Security
   create_time: 20180630T09:12:00
   id: 1099755
