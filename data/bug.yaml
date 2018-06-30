@@ -9825,6 +9825,13 @@
   summary: 'v4.18-rc2 runs into fatal "Internal error: SP/PC alignment exception:
     8a000000 [#1] SMP"'
 '20180627':
+- component: Kernel
+  create_time: 20180630T02:39:00
+  id: 1099750
+  resolution: ''
+  status: NEW
+  summary: Kernel 4.17.2-1-default xhci_hcd ERROR Transfer event TRB DMA ptr not part
+    of current TD ep_index
 - component: Other
   create_time: 20180629T22:00:00
   id: 1099745
