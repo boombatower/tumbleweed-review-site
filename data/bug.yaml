@@ -9864,6 +9864,12 @@
   status: NEW
   summary: FlightGear 2018.2.2
 '20180628':
+- component: Kernel
+  create_time: 20180701T05:03:00
+  id: 1099769
+  resolution: ''
+  status: NEW
+  summary: btrfs balance generates 100% CPU usage for long periods (15min's +)
 - component: YaST2
   create_time: 20180630T15:07:00
   id: 1099762
