@@ -9864,6 +9864,12 @@
   status: NEW
   summary: FlightGear 2018.2.2
 '20180628':
+- component: X.Org
+  create_time: 20180701T19:15:00
+  id: 1099778
+  resolution: ''
+  status: NEW
+  summary: Missing keys in Czech UCW keybord layout.
 - component: Kernel
   create_time: 20180701T05:03:00
   id: 1099769
