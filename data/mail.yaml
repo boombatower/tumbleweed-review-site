@@ -955,14 +955,19 @@
   threads: []
 '20180627':
   announcement: 2018-06.352
-  reference_count: 2
+  reference_count: 6
   thread_count: 1
   threads:
   - messages: [2018-07.1]
-    reference_count: 2
+    reference_count: 6
     summary: Many games stoped working
 '20180628':
   announcement: 2018-06.367
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180629':
+  announcement: 2018-07.8
   reference_count: 0
   thread_count: 0
   threads: []
