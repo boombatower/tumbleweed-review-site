@@ -9890,6 +9890,12 @@
   status: NEW
   summary: Texlive language babel does not recommend its respective hyphen
 '20180629':
+- component: KDE Workspace (Plasma)
+  create_time: 20180702T19:51:00
+  id: 1099900
+  resolution: ''
+  status: NEW
+  summary: kscreen configuration on wayland not persistent
 - component: Other
   create_time: 20180702T16:22:00
   id: 1099880
