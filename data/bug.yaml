@@ -9598,8 +9598,8 @@
 - component: Kernel
   create_time: 20180620T10:36:00
   id: 1098392
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Regression with Kernel 4.17: Missing events with pointer devices (affects
     libinput)'
 - component: Other
@@ -9636,8 +9636,8 @@
 - component: Other
   create_time: 20180622T08:53:00
   id: 1098764
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: opal is build failed with linux-glibc-devel 4.17
 - component: Basesystem
   create_time: 20180622T07:44:00
@@ -9864,17 +9864,55 @@
   status: NEW
   summary: FlightGear 2018.2.2
 '20180628':
+- component: Virtualization:Tools
+  create_time: 20180628T22:19:00
+  id: 1099589
+  resolution: FIXED
+  status: RESOLVED
+  summary: VirtualBox forgets status bar and toolbar
+- component: Other
+  create_time: 20180628T12:13:00
+  id: 1099494
+  resolution: ''
+  status: NEW
+  summary: zypper calls snapper, snapshot creation failed while snapper already running,
+    still stalling system
+- component: GNOME
+  create_time: 20180628T11:04:00
+  id: 1099483
+  resolution: ''
+  status: NEW
+  summary: GDM fails to start
+- component: Other
+  create_time: 20180628T10:14:00
+  id: 1099475
+  resolution: ''
+  status: NEW
+  summary: Texlive language babel does not recommend its respective hyphen
+'20180629':
+- component: X.Org
+  create_time: 20180702T09:23:00
+  id: 1099812
+  resolution: ''
+  status: NEW
+  summary: 'modesetting driver: xrandr fails'
+- component: Other
+  create_time: 20180702T07:00:00
+  id: 1099800
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180629] LxQT does not start up session, but asks for WM'
 - component: X.Org
   create_time: 20180701T19:15:00
   id: 1099778
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Missing keys in Czech UCW keybord layout.
 - component: Kernel
   create_time: 20180701T05:03:00
   id: 1099769
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: btrfs balance generates 100% CPU usage for long periods (15min's +)
 - component: YaST2
   create_time: 20180630T15:07:00
@@ -9886,15 +9924,15 @@
 - component: Security
   create_time: 20180630T09:12:00
   id: 1099755
-  resolution: ''
-  status: NEW
-  summary: /etc/hosts.allow /etc/hosts.deny not support ssh
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'netcfg: /etc/hosts.allow and /etc/hosts.deny deprecated?'
 - component: Security
   create_time: 20180630T08:56:00
   id: 1099754
   resolution: ''
   status: NEW
-  summary: /etc/polkit-1/rules.d/90-default-privs.rules "useless-text"
+  summary: 'polkit-default-privs: improve documentation in /etc/polkit-1/rules.d/90-default-privs.rules'
 - component: Development
   create_time: 20180630T05:30:00
   id: 1099752
@@ -9981,28 +10019,3 @@
   resolution: ''
   status: NEW
   summary: Problem resizing partition
-- component: Virtualization:Tools
-  create_time: 20180628T22:19:00
-  id: 1099589
-  resolution: FIXED
-  status: RESOLVED
-  summary: VirtualBox forgets status bar and toolbar
-- component: Other
-  create_time: 20180628T12:13:00
-  id: 1099494
-  resolution: ''
-  status: NEW
-  summary: zypper calls snapper, snapshot creation failed while snapper already running,
-    still stalling system
-- component: GNOME
-  create_time: 20180628T11:04:00
-  id: 1099483
-  resolution: ''
-  status: NEW
-  summary: GDM fails to start
-- component: Other
-  create_time: 20180628T10:14:00
-  id: 1099475
-  resolution: ''
-  status: NEW
-  summary: Texlive language babel does not recommend its respective hyphen
