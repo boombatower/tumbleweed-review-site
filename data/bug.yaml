@@ -9984,8 +9984,8 @@
 - component: Virtualization:Tools
   create_time: 20180628T22:19:00
   id: 1099589
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: VirtualBox forgets status bar and toolbar
 - component: Other
   create_time: 20180628T12:13:00
