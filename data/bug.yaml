@@ -7758,7 +7758,7 @@
   create_time: 20180510T17:11:00
   id: 1092822
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: zypper se suggests the use of zypper search-packages on Tumbleweed
 - component: Basesystem
   create_time: 20180510T12:01:00
@@ -9890,6 +9890,18 @@
   status: NEW
   summary: Texlive language babel does not recommend its respective hyphen
 '20180629':
+- component: GNOME
+  create_time: 20180703T10:19:00
+  id: 1099959
+  resolution: ''
+  status: NEW
+  summary: evolution mail body format defaults to HTML/base64
+- component: Other
+  create_time: 20180703T06:05:00
+  id: 1099930
+  resolution: ''
+  status: NEW
+  summary: Notebook does reboot instead power off when pressing power button
 - component: KDE Workspace (Plasma)
   create_time: 20180702T19:51:00
   id: 1099900
@@ -9907,7 +9919,7 @@
   create_time: 20180702T09:23:00
   id: 1099812
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'modesetting driver: xrandr fails'
 - component: Other
   create_time: 20180702T07:00:00
@@ -9937,8 +9949,8 @@
 - component: Security
   create_time: 20180630T09:12:00
   id: 1099755
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'netcfg: /etc/hosts.allow and /etc/hosts.deny deprecated?'
 - component: Security
   create_time: 20180630T08:56:00
@@ -9988,7 +10000,7 @@
   create_time: 20180629T13:49:00
   id: 1099698
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: firewalld puts icmp into ip6tables
 - component: Network
   create_time: 20180629T12:09:00
