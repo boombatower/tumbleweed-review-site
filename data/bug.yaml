@@ -3108,8 +3108,8 @@
 - component: Bootloader
   create_time: 20180205T11:05:00
   id: 1079332
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 40_custom renamed to 40_custom.rpmsave during update
 - component: Bootloader
   create_time: 20180205T11:00:00
@@ -9809,7 +9809,7 @@
   create_time: 20180626T06:46:00
   id: 1099104
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20180625] YaST fails to copy ssh keys to new system'
 - component: Basesystem
   create_time: 20180626T05:47:00
@@ -9994,8 +9994,35 @@
   id: 1099599
   resolution: ''
   status: NEW
-  summary: Problem resizing partition
+  summary: 'YaST Partitioner: Can''t resize partition larger if there is another one
+    behind it, even if it''s not yet created'
 '20180701':
+- component: X.Org
+  create_time: 20180701T19:15:00
+  id: 1099778
+  resolution: INVALID
+  status: RESOLVED
+  summary: Missing keys in Czech UCW keybord layout.
+- component: Kernel
+  create_time: 20180701T05:03:00
+  id: 1099769
+  resolution: ''
+  status: CONFIRMED
+  summary: btrfs balance generates 100% CPU usage for long periods (15min's +)
+'20180702':
+- component: Basesystem
+  create_time: 20180704T14:54:00
+  id: 1100145
+  resolution: ''
+  status: NEW
+  summary: TW snapshots 2018-06-26 breaks device mapper
+- component: GNOME
+  create_time: 20180704T13:10:00
+  id: 1100134
+  resolution: ''
+  status: NEW
+  summary: pkcon randomly fails to download packages from http://openqa.opensuse.org
+    but zypper works
 - component: Basesystem
   create_time: 20180704T10:50:00
   id: 1100108
@@ -10026,7 +10053,7 @@
   resolution: ''
   status: NEW
   summary: evolution mail body format defaults to HTML/base64
-- component: Other
+- component: Kernel
   create_time: 20180703T06:05:00
   id: 1099930
   resolution: ''
@@ -10057,15 +10084,3 @@
   resolution: ''
   status: CONFIRMED
   summary: '[Build 20180629] LxQT does not start up session, but asks for WM'
-- component: X.Org
-  create_time: 20180701T19:15:00
-  id: 1099778
-  resolution: INVALID
-  status: RESOLVED
-  summary: Missing keys in Czech UCW keybord layout.
-- component: Kernel
-  create_time: 20180701T05:03:00
-  id: 1099769
-  resolution: ''
-  status: CONFIRMED
-  summary: btrfs balance generates 100% CPU usage for long periods (15min's +)
