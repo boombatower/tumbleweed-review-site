@@ -9996,6 +9996,12 @@
   status: NEW
   summary: Problem resizing partition
 '20180701':
+- component: GNOME
+  create_time: 20180704T02:07:00
+  id: 1100041
+  resolution: ''
+  status: NEW
+  summary: The "switch user" disappeared from control center on Tumbleweed gnome
 - component: X.Org
   create_time: 20180703T11:16:00
   id: 1099974
