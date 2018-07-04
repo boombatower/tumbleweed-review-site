@@ -9922,7 +9922,7 @@
   status: NEW
   summary: Kernel 4.17.2-1-default xhci_hcd ERROR Transfer event TRB DMA ptr not part
     of current TD ep_index
-- component: Other
+- component: Kernel
   create_time: 20180629T22:00:00
   id: 1099745
   resolution: ''
@@ -9996,6 +9996,18 @@
   status: NEW
   summary: Problem resizing partition
 '20180701':
+- component: Basesystem
+  create_time: 20180704T10:50:00
+  id: 1100108
+  resolution: ''
+  status: NEW
+  summary: column width very very large, not adaptable
+- component: Installation
+  create_time: 20180704T08:14:00
+  id: 1100077
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180702] NVME@Uefi: could not prepare boot variable'
 - component: GNOME
   create_time: 20180704T02:07:00
   id: 1100041
@@ -10043,7 +10055,7 @@
   create_time: 20180702T07:00:00
   id: 1099800
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20180629] LxQT does not start up session, but asks for WM'
 - component: X.Org
   create_time: 20180701T19:15:00
