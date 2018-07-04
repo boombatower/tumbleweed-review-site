@@ -9517,8 +9517,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180618T07:56:00
   id: 1097992
-  resolution: UPSTREAM
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: folder view widget on panel too small
 - component: YaST2
   create_time: 20180618T03:42:00
@@ -10010,6 +10010,13 @@
   status: CONFIRMED
   summary: btrfs balance generates 100% CPU usage for long periods (15min's +)
 '20180702':
+- component: Firefox
+  create_time: 20180704T20:29:00
+  id: 1100156
+  resolution: FIXED
+  status: RESOLVED
+  summary: After update to Thunderbird 52.9 the language packages are not available
+    anymore
 - component: Basesystem
   create_time: 20180704T14:54:00
   id: 1100145
