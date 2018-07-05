@@ -4619,8 +4619,8 @@
 - component: Development
   create_time: 20180226T21:47:00
   id: 1082913
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: readline static library missing
 - component: Kernel
   create_time: 20180226T20:41:00
@@ -9808,8 +9808,8 @@
 - component: YaST2
   create_time: 20180626T06:46:00
   id: 1099104
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180625] YaST fails to copy ssh keys to new system'
 - component: Basesystem
   create_time: 20180626T05:47:00
@@ -9993,7 +9993,7 @@
   create_time: 20180629T04:07:00
   id: 1099599
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'YaST Partitioner: Can''t resize partition larger if there is another one
     behind it, even if it''s not yet created'
 '20180701':
@@ -10010,11 +10010,23 @@
   status: CONFIRMED
   summary: btrfs balance generates 100% CPU usage for long periods (15min's +)
 '20180702':
+- component: LXDE
+  create_time: 20180705T10:56:00
+  id: 1100208
+  resolution: ''
+  status: NEW
+  summary: Use default openSUSE wallpaper in LXQt
+- component: GNOME
+  create_time: 20180705T10:55:00
+  id: 1100207
+  resolution: ''
+  status: NEW
+  summary: '[Build 00015] openQA test fails in login_test'
 - component: Other
   create_time: 20180705T05:02:00
   id: 1100161
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: mount.cifs cant mount windows XP share
 - component: Firefox
   create_time: 20180704T20:29:00
