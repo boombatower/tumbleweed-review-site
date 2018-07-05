@@ -10010,6 +10010,12 @@
   status: CONFIRMED
   summary: btrfs balance generates 100% CPU usage for long periods (15min's +)
 '20180702':
+- component: Other
+  create_time: 20180705T05:02:00
+  id: 1100161
+  resolution: ''
+  status: NEW
+  summary: mount.cifs cant mount windows XP share
 - component: Firefox
   create_time: 20180704T20:29:00
   id: 1100156
