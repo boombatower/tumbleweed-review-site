@@ -9492,8 +9492,8 @@
 - component: KVM
   create_time: 20180618T14:10:00
   id: 1098056
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: https://github.com/openSUSE/qemu/commit/ba79c7b6559b50210be412d7f23e83749b4982a9
     is obsolete
 - component: Network
@@ -10036,6 +10036,19 @@
   status: CONFIRMED
   summary: '[Build 20180629] LxQT does not start up session, but asks for WM'
 '20180703':
+- component: Security
+  create_time: 20180705T22:36:00
+  id: 1100328
+  resolution: ''
+  status: NEW
+  summary: need review of new libvirt polkit rules
+- component: Virtualization:Tools
+  create_time: 20180705T19:15:00
+  id: 1100300
+  resolution: ''
+  status: NEW
+  summary: 'virt-viewer: Build fails because spice-gtk no longer has the spice-controller
+    library'
 - component: KDE Workspace (Plasma)
   create_time: 20180705T17:47:00
   id: 1100287
@@ -10053,15 +10066,15 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180705T17:40:00
   id: 1100282
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'wayland: wallpaper picture of the day / national georaphics not properly
     scaled on hidpi screen'
 - component: Basesystem
   create_time: 20180705T15:55:00
   id: 1100255
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: util-linux SUSE:SLE-15:GA changes missing in Factory
 - component: Basesystem
   create_time: 20180705T15:49:00
@@ -10078,20 +10091,20 @@
 - component: Basesystem
   create_time: 20180705T15:43:00
   id: 1100252
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: s390-tools SUSE:SLE-15:GA changes are missing in Factory
 - component: Other
   create_time: 20180705T15:40:00
   id: 1100251
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python3-susepubliccloudinfo SUSE:SLE-15:GA changes are missing on Factory
 - component: Other
   create_time: 20180705T15:38:00
   id: 1100249
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python-azure-agent SUSE:SLE-15:GA changes missing on Factory
 - component: Patterns
   create_time: 20180705T15:31:00
@@ -10108,8 +10121,8 @@
 - component: Other
   create_time: 20180705T15:25:00
   id: 1100245
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: SUSE:SLE-15:GA changes for amazon-ecs-init not pushed to Factory
 - component: Installation
   create_time: 20180705T14:28:00
