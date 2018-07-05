@@ -8800,8 +8800,8 @@
 - component: Containers
   create_time: 20180528T10:39:00
   id: 1094863
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Podman hangs when using CNI loopback example
 - component: Containers
   create_time: 20180528T10:11:00
@@ -10010,6 +10010,119 @@
   status: CONFIRMED
   summary: btrfs balance generates 100% CPU usage for long periods (15min's +)
 '20180702':
+- component: KDE Workspace (Plasma)
+  create_time: 20180702T19:51:00
+  id: 1099900
+  resolution: ''
+  status: NEW
+  summary: kscreen configuration on wayland not persistent
+- component: Other
+  create_time: 20180702T16:22:00
+  id: 1099880
+  resolution: ''
+  status: NEW
+  summary: 'yast2 Bug: Packman and NVIDIA repositories do not show in the list of
+    online community repositories'
+- component: X.Org
+  create_time: 20180702T09:23:00
+  id: 1099812
+  resolution: ''
+  status: CONFIRMED
+  summary: 'modesetting driver: xrandr fails'
+- component: Other
+  create_time: 20180702T07:00:00
+  id: 1099800
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build 20180629] LxQT does not start up session, but asks for WM'
+'20180703':
+- component: KDE Workspace (Plasma)
+  create_time: 20180705T17:47:00
+  id: 1100287
+  resolution: ''
+  status: NEW
+  summary: 'wayland: alt-tab or selecting help -> about on a maximized window resizes
+    that window'
+- component: KDE Workspace (Plasma)
+  create_time: 20180705T17:44:00
+  id: 1100285
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: 'wayland: going to settings -> fonts crashes app after setting fonts ->
+    antialiasing enabled'
+- component: KDE Workspace (Plasma)
+  create_time: 20180705T17:40:00
+  id: 1100282
+  resolution: ''
+  status: NEW
+  summary: 'wayland: wallpaper picture of the day / national georaphics not properly
+    scaled on hidpi screen'
+- component: Basesystem
+  create_time: 20180705T15:55:00
+  id: 1100255
+  resolution: ''
+  status: NEW
+  summary: util-linux SUSE:SLE-15:GA changes missing in Factory
+- component: Basesystem
+  create_time: 20180705T15:49:00
+  id: 1100254
+  resolution: ''
+  status: NEW
+  summary: tcl SUSE:SLE-15:GA changes are missing on Factory
+- component: Basesystem
+  create_time: 20180705T15:47:00
+  id: 1100253
+  resolution: FIXED
+  status: RESOLVED
+  summary: suse-build-key SUSE:SLE-15:GA changes are missing in Factory
+- component: Basesystem
+  create_time: 20180705T15:43:00
+  id: 1100252
+  resolution: ''
+  status: NEW
+  summary: s390-tools SUSE:SLE-15:GA changes are missing in Factory
+- component: Other
+  create_time: 20180705T15:40:00
+  id: 1100251
+  resolution: ''
+  status: NEW
+  summary: python3-susepubliccloudinfo SUSE:SLE-15:GA changes are missing on Factory
+- component: Other
+  create_time: 20180705T15:38:00
+  id: 1100249
+  resolution: ''
+  status: NEW
+  summary: python-azure-agent SUSE:SLE-15:GA changes missing on Factory
+- component: Patterns
+  create_time: 20180705T15:31:00
+  id: 1100248
+  resolution: ''
+  status: NEW
+  summary: patterns-devel-base SUSE:SLE-15:GA  changes not pushed to Factory
+- component: GNOME
+  create_time: 20180705T15:28:00
+  id: 1100246
+  resolution: ''
+  status: NEW
+  summary: json-glib SUSE:SLE-15:GA changes not pushed to Factory
+- component: Other
+  create_time: 20180705T15:25:00
+  id: 1100245
+  resolution: ''
+  status: NEW
+  summary: SUSE:SLE-15:GA changes for amazon-ecs-init not pushed to Factory
+- component: Installation
+  create_time: 20180705T14:28:00
+  id: 1100236
+  resolution: FIXED
+  status: RESOLVED
+  summary: mksusecd --rebuild-initrd does not include all required modules
+- component: X.Org
+  create_time: 20180705T14:07:00
+  id: 1100233
+  resolution: ''
+  status: NEW
+  summary: Display resolution wrong after monitors turned off and on again
 - component: LXDE
   create_time: 20180705T10:56:00
   id: 1100208
@@ -10084,28 +10197,3 @@
   resolution: ''
   status: NEW
   summary: Notebook does reboot instead power off when pressing power button
-- component: KDE Workspace (Plasma)
-  create_time: 20180702T19:51:00
-  id: 1099900
-  resolution: ''
-  status: NEW
-  summary: kscreen configuration on wayland not persistent
-- component: Other
-  create_time: 20180702T16:22:00
-  id: 1099880
-  resolution: ''
-  status: NEW
-  summary: 'yast2 Bug: Packman and NVIDIA repositories do not show in the list of
-    online community repositories'
-- component: X.Org
-  create_time: 20180702T09:23:00
-  id: 1099812
-  resolution: ''
-  status: CONFIRMED
-  summary: 'modesetting driver: xrandr fails'
-- component: Other
-  create_time: 20180702T07:00:00
-  id: 1099800
-  resolution: ''
-  status: CONFIRMED
-  summary: '[Build 20180629] LxQT does not start up session, but asks for WM'
