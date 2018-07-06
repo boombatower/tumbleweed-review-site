@@ -1134,8 +1134,8 @@
 - component: X.Org
   create_time: 20171229T10:28:00
   id: 1074217
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Three fingers tap sometimes not detected properly
 - component: Xfce
   create_time: 20171229T08:27:00
@@ -5953,8 +5953,8 @@
 - component: X11 Applications
   create_time: 20180319T23:40:00
   id: 1085951
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: inxi does not include enough dependencies
 - component: GNOME
   create_time: 20180319T21:40:00
@@ -8143,8 +8143,8 @@
 - component: Other
   create_time: 20180502T17:02:00
   id: 1091701
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Cinnamon continuously crashes after upgrade to Tumbleweed snapshot 20180427
 - component: GNOME
   create_time: 20180502T15:57:00
@@ -8619,8 +8619,8 @@
 - component: Other
   create_time: 20180523T11:27:00
   id: 1094343
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Gajim's Plugin Installer is broken
 - component: Other
   create_time: 20180523T09:40:00
@@ -10036,6 +10036,43 @@
   status: CONFIRMED
   summary: '[Build 20180629] LxQT does not start up session, but asks for WM'
 '20180703':
+- component: YaST2
+  create_time: 20180706T14:45:00
+  id: 1100427
+  resolution: ''
+  status: NEW
+  summary: Unable to install linux kernel via dud
+- component: Basesystem
+  create_time: 20180706T14:16:00
+  id: 1100417
+  resolution: ''
+  status: NEW
+  summary: NetworkManager as default for desktop system roles
+- component: Other
+  create_time: 20180706T13:53:00
+  id: 1100410
+  resolution: ''
+  status: NEW
+  summary: Environment Modules does not install global profile files
+- component: Translations
+  create_time: 20180706T12:37:00
+  id: 1100399
+  resolution: FIXED
+  status: RESOLVED
+  summary: some translation-update-upstream SUSE:SLE-15:GA changes are not submitted
+    to Factory
+- component: Translations
+  create_time: 20180706T12:33:00
+  id: 1100398
+  resolution: FIXED
+  status: RESOLVED
+  summary: translation-updates SUSE:SLE-15:GA changes not submitted for Factory
+- component: KDE Applications
+  create_time: 20180706T12:10:00
+  id: 1100393
+  resolution: ''
+  status: NEW
+  summary: phonon-gstreamer doesn't install video codecs
 - component: Virtualization:Tools
   create_time: 20180705T19:15:00
   id: 1100300
