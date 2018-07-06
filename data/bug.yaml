@@ -9189,8 +9189,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180609T19:31:00
   id: 1096817
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'wayland: when window is maximized, choosing help->about in different apps
     resizes maximized window'
 - component: KDE Workspace (Plasma)
@@ -9203,8 +9203,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180609T19:06:00
   id: 1096815
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'system settings: changing order and scale of monitor is not persisted
     between reboots'
 - component: Network
@@ -9303,8 +9303,8 @@
 - component: Development
   create_time: 20180614T09:27:00
   id: 1097626
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'guile-git: test suite fails on i586'
 - component: Kubic
   create_time: 20180614T09:26:00
@@ -10036,12 +10036,6 @@
   status: CONFIRMED
   summary: '[Build 20180629] LxQT does not start up session, but asks for WM'
 '20180703':
-- component: Security
-  create_time: 20180705T22:36:00
-  id: 1100328
-  resolution: ''
-  status: NEW
-  summary: need review of new libvirt polkit rules
 - component: Virtualization:Tools
   create_time: 20180705T19:15:00
   id: 1100300
@@ -10053,7 +10047,7 @@
   create_time: 20180705T17:47:00
   id: 1100287
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'wayland: alt-tab or selecting help -> about on a maximized window resizes
     that window'
 - component: KDE Workspace (Plasma)
@@ -10109,14 +10103,14 @@
 - component: Patterns
   create_time: 20180705T15:31:00
   id: 1100248
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: patterns-devel-base SUSE:SLE-15:GA  changes not pushed to Factory
 - component: GNOME
   create_time: 20180705T15:28:00
   id: 1100246
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: json-glib SUSE:SLE-15:GA changes not pushed to Factory
 - component: Other
   create_time: 20180705T15:25:00
