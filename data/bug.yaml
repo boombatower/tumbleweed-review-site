@@ -9841,8 +9841,8 @@
 - component: Other
   create_time: 20180627T15:44:00
   id: 1099340
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: cloud-init-config-suse defaults to ubuntu
 - component: Basesystem
   create_time: 20180627T14:42:00
@@ -10055,6 +10055,18 @@
   status: NEW
   summary: Notebook does reboot instead power off when pressing power button
 '20180704':
+- component: Development
+  create_time: 20180707T14:08:00
+  id: 1100497
+  resolution: ''
+  status: NEW
+  summary: 'wxwidgets: self compiled binary fails to run with version missmatch'
+- component: Other
+  create_time: 20180707T12:11:00
+  id: 1100496
+  resolution: ''
+  status: NEW
+  summary: neovim should depend on specific version of libtermkey1
 - component: KDE Workspace (Plasma)
   create_time: 20180707T10:30:00
   id: 1100495
@@ -10134,8 +10146,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180705T17:47:00
   id: 1100287
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'wayland: alt-tab or selecting help -> about on a maximized window resizes
     that window'
 - component: KDE Workspace (Plasma)
