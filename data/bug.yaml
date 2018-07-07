@@ -7701,8 +7701,8 @@
 - component: Firefox
   create_time: 20180430T12:05:00
   id: 1091376
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Mozilla Thunderbird for i586 is not built
 - component: GNOME
   create_time: 20180430T09:40:00
@@ -10036,6 +10036,57 @@
   status: CONFIRMED
   summary: '[Build 20180629] LxQT does not start up session, but asks for WM'
 '20180703':
+- component: X.Org
+  create_time: 20180703T11:16:00
+  id: 1099974
+  resolution: ''
+  status: NEW
+  summary: using Optimus secondary card with optirun fails on Xorg 1.20
+- component: GNOME
+  create_time: 20180703T10:19:00
+  id: 1099959
+  resolution: ''
+  status: NEW
+  summary: evolution mail body format defaults to HTML/base64
+- component: Kernel
+  create_time: 20180703T06:05:00
+  id: 1099930
+  resolution: ''
+  status: NEW
+  summary: Notebook does reboot instead power off when pressing power button
+'20180704':
+- component: KDE Workspace (Plasma)
+  create_time: 20180707T10:30:00
+  id: 1100495
+  resolution: ''
+  status: NEW
+  summary: 'KDE5: Window decoration too large after recent update'
+- component: LibreOffice
+  create_time: 20180707T10:19:00
+  id: 1100494
+  resolution: ''
+  status: NEW
+  summary: After last update cannot copy a couple of cells from google docs to libre
+    calc
+- component: KDE Workspace (Plasma)
+  create_time: 20180707T09:09:00
+  id: 1100493
+  resolution: ''
+  status: NEW
+  summary: Lots of different font sizes after tumbleweed update
+- component: Development
+  create_time: 20180707T03:22:00
+  id: 1100488
+  resolution: ''
+  status: IN_PROGRESS
+  summary: bash-doc random html corruption
+- component: GNOME
+  create_time: 20180707T02:16:00
+  id: 1100485
+  resolution: ''
+  status: NEW
+  summary: OpenSuseTumbleweed Gnome multiuser does not  "switch user", or return to
+    first user crashes
 - component: YaST2
   create_time: 20180706T14:45:00
   id: 1100427
@@ -10165,7 +10216,7 @@
   create_time: 20180705T14:07:00
   id: 1100233
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Display resolution wrong after monitors turned off and on again
 - component: LXDE
   create_time: 20180705T10:56:00
@@ -10223,21 +10274,3 @@
   resolution: ''
   status: NEW
   summary: The "switch user" disappeared from control center on Tumbleweed gnome
-- component: X.Org
-  create_time: 20180703T11:16:00
-  id: 1099974
-  resolution: ''
-  status: NEW
-  summary: using Optimus secondary card with optirun fails on Xorg 1.20
-- component: GNOME
-  create_time: 20180703T10:19:00
-  id: 1099959
-  resolution: ''
-  status: NEW
-  summary: evolution mail body format defaults to HTML/base64
-- component: Kernel
-  create_time: 20180703T06:05:00
-  id: 1099930
-  resolution: ''
-  status: NEW
-  summary: Notebook does reboot instead power off when pressing power button
