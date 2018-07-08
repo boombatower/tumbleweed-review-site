@@ -10055,6 +10055,18 @@
   status: NEW
   summary: Notebook does reboot instead power off when pressing power button
 '20180704':
+- component: Basesystem
+  create_time: 20180707T19:58:00
+  id: 1100504
+  resolution: ''
+  status: NEW
+  summary: GNU make 4.2.1 is broken wrt -jN
+- component: X.Org
+  create_time: 20180707T18:41:00
+  id: 1100503
+  resolution: ''
+  status: NEW
+  summary: Can't run X after upgrading Mesa
 - component: Development
   create_time: 20180707T14:08:00
   id: 1100497
