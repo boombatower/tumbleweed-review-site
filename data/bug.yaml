@@ -10055,6 +10055,18 @@
   status: NEW
   summary: Notebook does reboot instead power off when pressing power button
 '20180704':
+- component: Xen
+  create_time: 20180708T22:47:00
+  id: 1100516
+  resolution: ''
+  status: NEW
+  summary: qemu process kills itself with SIGABRT
+- component: Patterns
+  create_time: 20180708T20:16:00
+  id: 1100515
+  resolution: ''
+  status: NEW
+  summary: 'request: please make a minimal plasma pattern'
 - component: Basesystem
   create_time: 20180707T19:58:00
   id: 1100504
