@@ -9790,8 +9790,8 @@
 - component: Basesystem
   create_time: 20180626T08:35:00
   id: 1099119
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: cross-ppc64-gcc7 and others build failed in OBS for TW ppc64le
 - component: X.Org
   create_time: 20180626T07:45:00
@@ -10051,10 +10051,16 @@
 - component: Kernel
   create_time: 20180703T06:05:00
   id: 1099930
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Notebook does reboot instead power off when pressing power button
 '20180704':
+- component: Kernel
+  create_time: 20180709T07:19:00
+  id: 1100541
+  resolution: ''
+  status: NEW
+  summary: random freeze
 - component: Xen
   create_time: 20180708T22:47:00
   id: 1100516
