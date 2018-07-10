@@ -10083,8 +10083,8 @@
 - component: Translations
   create_time: 20180706T12:33:00
   id: 1100398
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: CONFIRMED
   summary: translation-updates SUSE:SLE-15:GA changes not submitted for Factory
 - component: KDE Applications
   create_time: 20180706T12:10:00
@@ -10243,6 +10243,25 @@
   status: NEW
   summary: The "switch user" disappeared from control center on Tumbleweed gnome
 '20180707':
+- component: Other
+  create_time: 20180710T17:39:00
+  id: 1100786
+  resolution: ''
+  status: NEW
+  summary: '"rsync" or its dependencies pull in even systemd and dracut and systemd-presets-branding-CAASP
+    (useless in containers at least)'
+- component: Translations
+  create_time: 20180710T15:05:00
+  id: 1100765
+  resolution: ''
+  status: NEW
+  summary: gimp create from screenshot  snap region is missing in french and error
+- component: Kernel
+  create_time: 20180710T14:20:00
+  id: 1100759
+  resolution: ''
+  status: NEW
+  summary: Periodic black screen at radeon
 - component: Kernel
   create_time: 20180710T11:57:00
   id: 1100732
