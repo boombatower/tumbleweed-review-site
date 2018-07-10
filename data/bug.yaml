@@ -10243,6 +10243,18 @@
   status: NEW
   summary: The "switch user" disappeared from control center on Tumbleweed gnome
 '20180707':
+- component: Kernel
+  create_time: 20180710T11:57:00
+  id: 1100732
+  resolution: ''
+  status: NEW
+  summary: coretemp numbering cores incorrectly on Xeon W3670 CPU
+- component: LibreOffice
+  create_time: 20180710T08:29:00
+  id: 1100704
+  resolution: ''
+  status: NEW
+  summary: OOO_FORCE_DESKTOP ignored by LibreOffice 6.1
 - component: Development
   create_time: 20180710T04:27:00
   id: 1100677
@@ -10343,8 +10355,8 @@
 - component: Development
   create_time: 20180707T03:22:00
   id: 1100488
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: bash-doc random html corruption
 - component: GNOME
   create_time: 20180707T02:16:00
