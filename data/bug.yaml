@@ -10243,6 +10243,18 @@
   status: NEW
   summary: The "switch user" disappeared from control center on Tumbleweed gnome
 '20180707':
+- component: Development
+  create_time: 20180710T04:27:00
+  id: 1100677
+  resolution: ''
+  status: NEW
+  summary: 'trackerbug: packages do not build reproducibly from compile-time CPU-detection'
+- component: Development
+  create_time: 20180710T00:40:00
+  id: 1100672
+  resolution: ''
+  status: NEW
+  summary: Cargo/Rustc fails on tumbleweed container
 - component: Other
   create_time: 20180709T21:33:00
   id: 1100660
