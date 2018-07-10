@@ -10243,6 +10243,12 @@
   status: NEW
   summary: The "switch user" disappeared from control center on Tumbleweed gnome
 '20180707':
+- component: Other
+  create_time: 20180709T21:33:00
+  id: 1100660
+  resolution: ''
+  status: NEW
+  summary: Snap packages error
 - component: LXDE
   create_time: 20180709T18:18:00
   id: 1100642
