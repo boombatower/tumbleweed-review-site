@@ -10243,6 +10243,87 @@
   status: NEW
   summary: The "switch user" disappeared from control center on Tumbleweed gnome
 '20180707':
+- component: Xen
+  create_time: 20180708T22:47:00
+  id: 1100516
+  resolution: ''
+  status: NEW
+  summary: qemu process kills itself with SIGABRT
+- component: Patterns
+  create_time: 20180708T20:16:00
+  id: 1100515
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'request: please make a minimal plasma pattern'
+- component: Basesystem
+  create_time: 20180707T19:58:00
+  id: 1100504
+  resolution: ''
+  status: NEW
+  summary: GNU make 4.2.1 is broken wrt -jN
+- component: X.Org
+  create_time: 20180707T18:41:00
+  id: 1100503
+  resolution: ''
+  status: NEW
+  summary: Can't run X after upgrading Mesa
+- component: Development
+  create_time: 20180707T14:08:00
+  id: 1100497
+  resolution: ''
+  status: NEW
+  summary: 'wxwidgets: self compiled binary fails to run with version missmatch'
+- component: Other
+  create_time: 20180707T12:11:00
+  id: 1100496
+  resolution: ''
+  status: NEW
+  summary: neovim should depend on specific version of libtermkey1
+- component: KDE Workspace (Plasma)
+  create_time: 20180707T10:30:00
+  id: 1100495
+  resolution: ''
+  status: NEW
+  summary: 'KDE5: Window decoration too large after recent update'
+- component: LibreOffice
+  create_time: 20180707T10:19:00
+  id: 1100494
+  resolution: ''
+  status: NEW
+  summary: After last update cannot copy a couple of cells from google docs to libre
+    calc
+- component: KDE Workspace (Plasma)
+  create_time: 20180707T09:09:00
+  id: 1100493
+  resolution: ''
+  status: NEW
+  summary: Lots of different font sizes after tumbleweed update
+- component: Development
+  create_time: 20180707T03:22:00
+  id: 1100488
+  resolution: FIXED
+  status: RESOLVED
+  summary: bash-doc random html corruption
+- component: GNOME
+  create_time: 20180707T02:16:00
+  id: 1100485
+  resolution: ''
+  status: NEW
+  summary: OpenSuseTumbleweed Gnome multiuser does not  "switch user", or return to
+    first user crashes
+'20180709':
+- component: Kubic
+  create_time: 20180711T10:46:00
+  id: 1100868
+  resolution: ''
+  status: NEW
+  summary: Can't start server with Kubic OpenStack images
+- component: libzypp
+  create_time: 20180711T08:23:00
+  id: 1100844
+  resolution: ''
+  status: NEW
+  summary: '''zypper pa --unneeded'' does not report packages in presence of an appplication'
 - component: Other
   create_time: 20180710T17:39:00
   id: 1100786
@@ -10316,71 +10397,3 @@
   resolution: ''
   status: NEW
   summary: random freeze
-- component: Xen
-  create_time: 20180708T22:47:00
-  id: 1100516
-  resolution: ''
-  status: NEW
-  summary: qemu process kills itself with SIGABRT
-- component: Patterns
-  create_time: 20180708T20:16:00
-  id: 1100515
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'request: please make a minimal plasma pattern'
-- component: Basesystem
-  create_time: 20180707T19:58:00
-  id: 1100504
-  resolution: ''
-  status: NEW
-  summary: GNU make 4.2.1 is broken wrt -jN
-- component: X.Org
-  create_time: 20180707T18:41:00
-  id: 1100503
-  resolution: ''
-  status: NEW
-  summary: Can't run X after upgrading Mesa
-- component: Development
-  create_time: 20180707T14:08:00
-  id: 1100497
-  resolution: ''
-  status: NEW
-  summary: 'wxwidgets: self compiled binary fails to run with version missmatch'
-- component: Other
-  create_time: 20180707T12:11:00
-  id: 1100496
-  resolution: ''
-  status: NEW
-  summary: neovim should depend on specific version of libtermkey1
-- component: KDE Workspace (Plasma)
-  create_time: 20180707T10:30:00
-  id: 1100495
-  resolution: ''
-  status: NEW
-  summary: 'KDE5: Window decoration too large after recent update'
-- component: LibreOffice
-  create_time: 20180707T10:19:00
-  id: 1100494
-  resolution: ''
-  status: NEW
-  summary: After last update cannot copy a couple of cells from google docs to libre
-    calc
-- component: KDE Workspace (Plasma)
-  create_time: 20180707T09:09:00
-  id: 1100493
-  resolution: ''
-  status: NEW
-  summary: Lots of different font sizes after tumbleweed update
-- component: Development
-  create_time: 20180707T03:22:00
-  id: 1100488
-  resolution: FIXED
-  status: RESOLVED
-  summary: bash-doc random html corruption
-- component: GNOME
-  create_time: 20180707T02:16:00
-  id: 1100485
-  resolution: ''
-  status: NEW
-  summary: OpenSuseTumbleweed Gnome multiuser does not  "switch user", or return to
-    first user crashes
