@@ -1004,3 +1004,8 @@
   - messages: [2018-07.76]
     reference_count: 1
     summary: 'TW: outdated wxwidgets libs'
+'20180710':
+  announcement: 2018-07.79
+  reference_count: 0
+  thread_count: 0
+  threads: []
