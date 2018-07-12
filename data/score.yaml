@@ -407,5 +407,8 @@
   score: 90
   stability_level: pending
 '20180709':
-  score: 91
+  score: 92
+  stability_level: pending
+'20180710':
+  score: 95
   stability_level: pending
