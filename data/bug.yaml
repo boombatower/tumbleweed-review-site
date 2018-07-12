@@ -10312,6 +10312,13 @@
   summary: OpenSuseTumbleweed Gnome multiuser does not  "switch user", or return to
     first user crashes
 '20180709':
+- component: Installation
+  create_time: 20180712T12:29:00
+  id: 1101023
+  resolution: ''
+  status: NEW
+  summary: In openQA 'grub2' test fails for aarch64 ISO (DVD+NET)  because UEFI bootloader
+    does not find openSUSE from HDD
 - component: Bootloader
   create_time: 20180711T22:58:00
   id: 1100955
