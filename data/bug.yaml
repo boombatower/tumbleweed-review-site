@@ -10312,6 +10312,19 @@
   summary: OpenSuseTumbleweed Gnome multiuser does not  "switch user", or return to
     first user crashes
 '20180709':
+- component: Other
+  create_time: 20180711T21:54:00
+  id: 1100949
+  resolution: ''
+  status: NEW
+  summary: 'gtk-recordMyDesktop: should require xwininfo'
+- component: Kernel
+  create_time: 20180711T19:39:00
+  id: 1100944
+  resolution: ''
+  status: NEW
+  summary: AppArmor network rule support - patch for backward compability for kernel
+    4.17+
 - component: Kubic
   create_time: 20180711T10:46:00
   id: 1100868
