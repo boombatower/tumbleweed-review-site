@@ -10312,6 +10312,12 @@
   summary: OpenSuseTumbleweed Gnome multiuser does not  "switch user", or return to
     first user crashes
 '20180709':
+- component: Bootloader
+  create_time: 20180711T22:58:00
+  id: 1100955
+  resolution: INVALID
+  status: RESOLVED
+  summary: "a\xE7\u0131l\u0131\u015F y\xFCkleyicisi sorunu"
 - component: Other
   create_time: 20180711T21:54:00
   id: 1100949
