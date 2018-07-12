@@ -10295,8 +10295,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180707T09:09:00
   id: 1100493
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Lots of different font sizes after tumbleweed update
 - component: Development
   create_time: 20180707T03:22:00
@@ -10312,6 +10312,43 @@
   summary: OpenSuseTumbleweed Gnome multiuser does not  "switch user", or return to
     first user crashes
 '20180709':
+- component: Other
+  create_time: 20180709T21:33:00
+  id: 1100660
+  resolution: ''
+  status: NEW
+  summary: Snap packages error
+- component: LXDE
+  create_time: 20180709T18:18:00
+  id: 1100642
+  resolution: ''
+  status: NEW
+  summary: LXQt Pattern missing Window Manager - Results in IceWM only or unusable
+- component: Xen
+  create_time: 20180709T17:54:00
+  id: 1100639
+  resolution: ''
+  status: NEW
+  summary: 'Xen: After shutting down VM, qemu is still running'
+- component: LibreOffice
+  create_time: 20180709T12:21:00
+  id: 1100589
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: Save Diolog shortened and missing default filename - Libreoffice
+- component: Kernel
+  create_time: 20180709T07:19:00
+  id: 1100541
+  resolution: ''
+  status: NEW
+  summary: random freeze
+'20180710':
+- component: Xen
+  create_time: 20180712T16:44:00
+  id: 1101058
+  resolution: ''
+  status: NEW
+  summary: qemu crashed on closing VM at xenstore_update_fe
 - component: Installation
   create_time: 20180712T12:29:00
   id: 1101023
@@ -10353,8 +10390,8 @@
 - component: Other
   create_time: 20180710T17:39:00
   id: 1100786
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '"rsync" or its dependencies pull in even systemd and dracut and systemd-presets-branding-CAASP
     (useless in containers at least)'
 - component: Translations
@@ -10393,33 +10430,3 @@
   resolution: ''
   status: NEW
   summary: Cargo/Rustc fails on tumbleweed container
-- component: Other
-  create_time: 20180709T21:33:00
-  id: 1100660
-  resolution: ''
-  status: NEW
-  summary: Snap packages error
-- component: LXDE
-  create_time: 20180709T18:18:00
-  id: 1100642
-  resolution: ''
-  status: NEW
-  summary: LXQt Pattern missing Window Manager - Results in IceWM only or unusable
-- component: Xen
-  create_time: 20180709T17:54:00
-  id: 1100639
-  resolution: ''
-  status: NEW
-  summary: 'Xen: After shutting down VM, qemu is still running'
-- component: LibreOffice
-  create_time: 20180709T12:21:00
-  id: 1100589
-  resolution: ''
-  status: NEW
-  summary: Save Diolog shortened and missing default filename - Libreoffice
-- component: Kernel
-  create_time: 20180709T07:19:00
-  id: 1100541
-  resolution: ''
-  status: NEW
-  summary: random freeze
