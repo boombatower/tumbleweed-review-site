@@ -10344,6 +10344,12 @@
   summary: random freeze
 '20180710':
 - component: Other
+  create_time: 20180713T02:55:00
+  id: 1101107
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'trackerbug: packages do not build reproducibly from including kernel version'
+- component: Other
   create_time: 20180712T23:51:00
   id: 1101104
   resolution: ''
@@ -10434,7 +10440,7 @@
   create_time: 20180710T04:27:00
   id: 1100677
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'trackerbug: packages do not build reproducibly from compile-time CPU-detection'
 - component: Development
   create_time: 20180710T00:40:00
