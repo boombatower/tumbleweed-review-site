@@ -10343,6 +10343,12 @@
   status: NEW
   summary: random freeze
 '20180710':
+- component: Kernel
+  create_time: 20180713T17:25:00
+  id: 1101194
+  resolution: ''
+  status: NEW
+  summary: 'JeOS-efi: Initramfs unpacking failed: junk in compressed archive'
 - component: Other
   create_time: 20180713T02:55:00
   id: 1101107
@@ -10427,8 +10433,8 @@
 - component: Kernel
   create_time: 20180710T11:57:00
   id: 1100732
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: coretemp numbering cores incorrectly on Xeon W3670 CPU
 - component: LibreOffice
   create_time: 20180710T08:29:00
