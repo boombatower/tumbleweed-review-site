@@ -10358,8 +10358,8 @@
 - component: Development
   create_time: 20180712T22:38:00
   id: 1101100
-  resolution: ''
-  status: NEW
+  resolution: MOVED
+  status: RESOLVED
   summary: Brackets is not starting
 - component: Xen
   create_time: 20180712T16:44:00
