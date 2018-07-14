@@ -10419,6 +10419,18 @@
   summary: Cargo/Rustc fails on tumbleweed container
 '20180712':
 - component: Kernel
+  create_time: 20180714T08:28:00
+  id: 1101238
+  resolution: ''
+  status: NEW
+  summary: Using nouveau with GTX970M leads to kernel panic
+- component: Translations
+  create_time: 20180714T07:43:00
+  id: 1101237
+  resolution: ''
+  status: NEW
+  summary: ImageWriter not displayed in German language
+- component: Kernel
   create_time: 20180713T17:25:00
   id: 1101194
   resolution: ''
