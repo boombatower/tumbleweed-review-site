@@ -10343,43 +10343,6 @@
   status: NEW
   summary: random freeze
 '20180710':
-- component: Kernel
-  create_time: 20180713T17:25:00
-  id: 1101194
-  resolution: ''
-  status: NEW
-  summary: 'JeOS-efi: Initramfs unpacking failed: junk in compressed archive'
-- component: Other
-  create_time: 20180713T02:55:00
-  id: 1101107
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'trackerbug: packages do not build reproducibly from including kernel version'
-- component: Other
-  create_time: 20180712T23:51:00
-  id: 1101104
-  resolution: ''
-  status: NEW
-  summary: 'xdg-desktop-por[19129]: segfault'
-- component: Development
-  create_time: 20180712T22:38:00
-  id: 1101100
-  resolution: MOVED
-  status: RESOLVED
-  summary: Brackets is not starting
-- component: Xen
-  create_time: 20180712T16:44:00
-  id: 1101058
-  resolution: ''
-  status: NEW
-  summary: qemu crashed on closing VM at xenstore_update_fe
-- component: Installation
-  create_time: 20180712T12:29:00
-  id: 1101023
-  resolution: ''
-  status: NEW
-  summary: In openQA 'grub2' test fails for aarch64 ISO (DVD+NET)  because UEFI bootloader
-    does not find openSUSE from HDD
 - component: Bootloader
   create_time: 20180711T22:58:00
   id: 1100955
@@ -10454,3 +10417,41 @@
   resolution: ''
   status: NEW
   summary: Cargo/Rustc fails on tumbleweed container
+'20180712':
+- component: Kernel
+  create_time: 20180713T17:25:00
+  id: 1101194
+  resolution: ''
+  status: NEW
+  summary: 'JeOS-efi: Initramfs unpacking failed: junk in compressed archive'
+- component: Other
+  create_time: 20180713T02:55:00
+  id: 1101107
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'trackerbug: packages do not build reproducibly from including kernel version'
+- component: Other
+  create_time: 20180712T23:51:00
+  id: 1101104
+  resolution: ''
+  status: NEW
+  summary: 'xdg-desktop-por[19129]: segfault'
+- component: Development
+  create_time: 20180712T22:38:00
+  id: 1101100
+  resolution: MOVED
+  status: RESOLVED
+  summary: Brackets is not starting
+- component: Xen
+  create_time: 20180712T16:44:00
+  id: 1101058
+  resolution: ''
+  status: NEW
+  summary: qemu crashed on closing VM at xenstore_update_fe
+- component: Installation
+  create_time: 20180712T12:29:00
+  id: 1101023
+  resolution: ''
+  status: NEW
+  summary: In openQA 'grub2' test fails for aarch64 ISO (DVD+NET)  because UEFI bootloader
+    does not find openSUSE from HDD
