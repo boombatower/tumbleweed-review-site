@@ -10418,6 +10418,18 @@
   status: NEW
   summary: Cargo/Rustc fails on tumbleweed container
 '20180712':
+- component: GNOME
+  create_time: 20180714T18:52:00
+  id: 1101243
+  resolution: ''
+  status: NEW
+  summary: '"Log out" button in "Log out" dialog does not work'
+- component: Other
+  create_time: 20180714T15:21:00
+  id: 1101241
+  resolution: ''
+  status: NEW
+  summary: mpv don't play any video
 - component: Kernel
   create_time: 20180714T08:28:00
   id: 1101238
