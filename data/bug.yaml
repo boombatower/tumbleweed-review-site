@@ -10418,6 +10418,20 @@
   status: NEW
   summary: Cargo/Rustc fails on tumbleweed container
 '20180712':
+- component: Other
+  create_time: 20180714T21:51:00
+  id: 1101245
+  resolution: ''
+  status: NEW
+  summary: 'systemd-vconsole-setup[177]: KDSKBENT: Input/output error: could not deallocate
+    keymap 128'
+- component: Kernel
+  create_time: 20180714T20:10:00
+  id: 1101244
+  resolution: ''
+  status: NEW
+  summary: Kernel regression or driver issue with Intel 82579LM network adapter on
+    Thinkpad w530
 - component: GNOME
   create_time: 20180714T18:52:00
   id: 1101243
