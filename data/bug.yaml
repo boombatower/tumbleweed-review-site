@@ -10418,6 +10418,12 @@
   status: NEW
   summary: Cargo/Rustc fails on tumbleweed container
 '20180712':
+- component: Xfce
+  create_time: 20180715T17:14:00
+  id: 1101258
+  resolution: ''
+  status: NEW
+  summary: Graphic glitch when opening windows and Whisker Menu
 - component: GNOME
   create_time: 20180715T10:20:00
   id: 1101252
@@ -10465,8 +10471,8 @@
 - component: Other
   create_time: 20180714T15:21:00
   id: 1101241
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: mpv don't play any video
 - component: Kernel
   create_time: 20180714T08:28:00
