@@ -10418,6 +10418,12 @@
   status: NEW
   summary: Cargo/Rustc fails on tumbleweed container
 '20180712':
+- component: KDE Applications
+  create_time: 20180715T06:45:00
+  id: 1101247
+  resolution: ''
+  status: NEW
+  summary: PIM-Suite Applications produces Sound-Error
 - component: Other
   create_time: 20180714T21:51:00
   id: 1101245
