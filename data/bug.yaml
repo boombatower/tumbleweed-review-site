@@ -10418,6 +10418,24 @@
   status: NEW
   summary: Cargo/Rustc fails on tumbleweed container
 '20180712':
+- component: GNOME
+  create_time: 20180715T10:20:00
+  id: 1101252
+  resolution: ''
+  status: NEW
+  summary: Gnome creates stack traces every few seconds in journal
+- component: Network
+  create_time: 20180715T10:19:00
+  id: 1101251
+  resolution: ''
+  status: NEW
+  summary: wpa_supplicant fails to use PEM files from network manager
+- component: KDE Workspace (Plasma)
+  create_time: 20180715T09:45:00
+  id: 1101249
+  resolution: ''
+  status: NEW
+  summary: 'Tumbleweed 32bit: switching off network kills plasma'
 - component: KDE Applications
   create_time: 20180715T06:45:00
   id: 1101247
