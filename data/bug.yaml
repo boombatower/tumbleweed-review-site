@@ -5559,7 +5559,7 @@
   create_time: 20180312T08:44:00
   id: 1084842
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: gcc on i*86 with option -mieee-fp requires obsolete libieee now disappeared
 '20180313':
 - component: Network
@@ -6424,7 +6424,7 @@
   create_time: 20180326T10:07:00
   id: 1086826
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Meanwhile protocol  (libmeanwhile1) - "Login verification down or unavailable"
 - component: Other
   create_time: 20180326T08:41:00
@@ -7910,8 +7910,8 @@
 - component: Other
   create_time: 20180508T12:58:00
   id: 1092365
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/password-store fails to build'
 - component: Other
   create_time: 20180508T12:57:00
@@ -9562,8 +9562,8 @@
 - component: Basesystem
   create_time: 20180621T08:10:00
   id: 1098550
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Current Tumbleweed Pine64 image fails to boot
 - component: Development
   create_time: 20180620T14:10:00
@@ -9950,8 +9950,8 @@
 - component: Network
   create_time: 20180629T13:49:00
   id: 1099698
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: firewalld puts icmp into ip6tables
 - component: Network
   create_time: 20180629T12:09:00
@@ -10418,11 +10418,23 @@
   status: NEW
   summary: Cargo/Rustc fails on tumbleweed container
 '20180712':
+- component: Kernel
+  create_time: 20180716T11:58:00
+  id: 1101330
+  resolution: ''
+  status: NEW
+  summary: Kernel 4.17.5 (aarch64) fails to boot on Cavium ThunderX1 (4.17.2 worked)
+- component: Basesystem
+  create_time: 20180716T11:52:00
+  id: 1101329
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: cannot create a new boot entry by efibootmgr
 - component: Installation
   create_time: 20180716T07:01:00
   id: 1101283
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180713] Fails to install on XFS'
 - component: Other
   create_time: 20180715T20:50:00
@@ -10469,8 +10481,8 @@
 - component: Other
   create_time: 20180714T21:51:00
   id: 1101245
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'systemd-vconsole-setup[177]: KDSKBENT: Input/output error: could not deallocate
     keymap 128'
 - component: Kernel
