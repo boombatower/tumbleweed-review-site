@@ -10418,6 +10418,12 @@
   status: NEW
   summary: Cargo/Rustc fails on tumbleweed container
 '20180712':
+- component: Installation
+  create_time: 20180716T07:01:00
+  id: 1101283
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180713] Fails to install on XFS'
 - component: Other
   create_time: 20180715T20:50:00
   id: 1101262
