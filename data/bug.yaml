@@ -10418,6 +10418,13 @@
   status: NEW
   summary: Cargo/Rustc fails on tumbleweed container
 '20180712':
+- component: Xfce
+  create_time: 20180716T21:20:00
+  id: 1101393
+  resolution: ''
+  status: NEW
+  summary: Suspend/Resumes shows desktop content before loading a lockscreen with
+    potential privacy concerns
 - component: Other
   create_time: 20180716T17:21:00
   id: 1101374
