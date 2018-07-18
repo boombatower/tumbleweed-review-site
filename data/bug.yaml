@@ -172,8 +172,8 @@
 - component: Virtualization:Other
   create_time: 20171204T09:31:00
   id: 1070985
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: vagrant depends on old rubygem-childprocess
 - component: libzypp
   create_time: 20171204T09:25:00
@@ -8441,8 +8441,8 @@
 - component: Basesystem
   create_time: 20180516T08:02:00
   id: 1093464
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Rush crash when building Firefox
 - component: Kubic
   create_time: 20180516T07:22:00
@@ -8650,8 +8650,8 @@
 - component: Kernel
   create_time: 20180524T20:39:00
   id: 1094575
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'openSUSE - qeth_l2 (s390x): 4.17-rc6 kernel assigns different MAC address
     than 4.16 or SLE15'
 - component: Other
@@ -9032,8 +9032,8 @@
 - component: GNOME
   create_time: 20180531T08:40:00
   id: 1095325
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '"SLE Classic" gnome extension causes problems when toggled in gnome-tweaks'
 - component: KDE Workspace (Plasma)
   create_time: 20180530T12:12:00
@@ -9425,8 +9425,8 @@
 - component: Basesystem
   create_time: 20180615T15:33:00
   id: 1097869
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Shift overflow in libkmod.h
 - component: Other
   create_time: 20180615T15:24:00
@@ -9446,6 +9446,12 @@
   resolution: ''
   status: IN_PROGRESS
   summary: Installer shows no LXQt icon in pattern
+- component: Kernel
+  create_time: 20180615T11:51:00
+  id: 1097841
+  resolution: ''
+  status: NEW
+  summary: '[Build 2094.1] openQA test fails in first_boot - sometime got kernel panic'
 - component: YaST2
   create_time: 20180615T11:46:00
   id: 1097840
@@ -9980,8 +9986,8 @@
 - component: Usability
   create_time: 20180629T06:08:00
   id: 1099620
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Libinput-tools breaks libinput-gestures
 - component: Other
   create_time: 20180629T04:18:00
@@ -10270,8 +10276,8 @@
 - component: Development
   create_time: 20180707T14:08:00
   id: 1100497
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'wxwidgets: self compiled binary fails to run with version missmatch'
 - component: Other
   create_time: 20180707T12:11:00
@@ -10288,8 +10294,8 @@
 - component: LibreOffice
   create_time: 20180707T10:19:00
   id: 1100494
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: After last update cannot copy a couple of cells from google docs to libre
     calc
 - component: KDE Workspace (Plasma)
@@ -10402,8 +10408,8 @@
 - component: LibreOffice
   create_time: 20180710T08:29:00
   id: 1100704
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: OOO_FORCE_DESKTOP ignored by LibreOffice 6.1
 - component: Development
   create_time: 20180710T04:27:00
@@ -10418,6 +10424,120 @@
   status: NEW
   summary: Cargo/Rustc fails on tumbleweed container
 '20180712':
+- component: Kernel
+  create_time: 20180713T17:25:00
+  id: 1101194
+  resolution: ''
+  status: NEW
+  summary: 'JeOS-efi: Initramfs unpacking failed: junk in compressed archive'
+- component: Other
+  create_time: 20180713T02:55:00
+  id: 1101107
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'trackerbug: packages do not build reproducibly from including kernel version'
+- component: Other
+  create_time: 20180712T23:51:00
+  id: 1101104
+  resolution: ''
+  status: NEW
+  summary: 'xdg-desktop-por[19129]: segfault'
+- component: Development
+  create_time: 20180712T22:38:00
+  id: 1101100
+  resolution: MOVED
+  status: RESOLVED
+  summary: Brackets is not starting
+- component: Xen
+  create_time: 20180712T16:44:00
+  id: 1101058
+  resolution: ''
+  status: NEW
+  summary: qemu crashed on closing VM at xenstore_update_fe
+- component: Installation
+  create_time: 20180712T12:29:00
+  id: 1101023
+  resolution: ''
+  status: NEW
+  summary: In openQA 'grub2' test fails for aarch64 ISO (DVD+NET)  because UEFI bootloader
+    does not find openSUSE from HDD
+'20180714':
+- component: X.Org
+  create_time: 20180718T16:10:00
+  id: 1101699
+  resolution: ''
+  status: CONFIRMED
+  summary: 'cirrus: modesetting/fbdev drivers no longer working in xorg-server 1.20'
+- component: Java
+  create_time: 20180718T13:07:00
+  id: 1101663
+  resolution: ''
+  status: NEW
+  summary: The %_jvmjardir macro is missing from the javapackages-tools package
+- component: Upgrade Problems
+  create_time: 20180718T12:21:00
+  id: 1101652
+  resolution: ''
+  status: NEW
+  summary: 'emacs-info update: install-info: No such file or directory for /usr/share/info/info.info.info.gz'
+- component: Installation
+  create_time: 20180718T11:26:00
+  id: 1101628
+  resolution: ''
+  status: NEW
+  summary: Can't run installation process of tumbleweed
+- component: LibreOffice
+  create_time: 20180718T09:46:00
+  id: 1101612
+  resolution: ''
+  status: NEW
+  summary: Scrollbars in LibreOffice not working [Plasma 5]
+- component: Basesystem
+  create_time: 20180718T07:57:00
+  id: 1101591
+  resolution: ''
+  status: NEW
+  summary: Unable to change VTs after wayland compositor crash
+- component: X.Org
+  create_time: 20180718T07:37:00
+  id: 1101587
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'Kaby Lake: xrandr and IceWM cannot find NEC''s native 1920x1200 mode when
+    connected via DisplayPort'
+- component: KDE Workspace (Plasma)
+  create_time: 20180718T02:31:00
+  id: 1101556
+  resolution: ''
+  status: NEW
+  summary: Battery indicator did not show battery information while starting work
+    from battery on toshiba tecra z40
+- component: Other
+  create_time: 20180717T18:47:00
+  id: 1101528
+  resolution: ''
+  status: NEW
+  summary: latest openshot-qt needs newer version of libopenshot
+- component: Security
+  create_time: 20180717T16:45:00
+  id: 1101512
+  resolution: ''
+  status: NEW
+  summary: 'ca-certificates-mozilla: implement additional CA trust changes as recommended
+    by the Mozilla CA certificate programprogram'
+- component: Kernel
+  create_time: 20180717T13:01:00
+  id: 1101465
+  resolution: FIXED
+  status: RESOLVED
+  summary: arm64 kernels are missing I2C_PXA config
+- component: Virtualization:Tools
+  create_time: 20180717T08:11:00
+  id: 1101420
+  resolution: ''
+  status: NEW
+  summary: 'spice-gtk: introduce separate group for spice-client-glib-usb-acl-helper
+    setuid binary'
 - component: Xfce
   create_time: 20180716T21:20:00
   id: 1101393
@@ -10436,7 +10556,8 @@
   id: 1101330
   resolution: ''
   status: NEW
-  summary: Kernel 4.17.5 (aarch64) fails to boot on Cavium ThunderX1 (4.17.2 worked)
+  summary: Kernel 4.17.5 (aarch64) refcount check in apparmor code on Cavium ThunderX1
+    (4.17.2 worked)
 - component: Basesystem
   create_time: 20180716T11:52:00
   id: 1101329
@@ -10454,7 +10575,7 @@
   id: 1101262
   resolution: ''
   status: IN_PROGRESS
-  summary: ceph's dpdk builds with march=native
+  summary: ceph's SPDK builds with march=native
 - component: Basesystem
   create_time: 20180715T19:19:00
   id: 1101260
@@ -10482,8 +10603,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180715T09:45:00
   id: 1101249
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Tumbleweed 32bit: switching off network kills plasma'
 - component: KDE Applications
   create_time: 20180715T06:45:00
@@ -10529,40 +10650,3 @@
   resolution: ''
   status: NEW
   summary: ImageWriter not displayed in German language
-- component: Kernel
-  create_time: 20180713T17:25:00
-  id: 1101194
-  resolution: ''
-  status: NEW
-  summary: 'JeOS-efi: Initramfs unpacking failed: junk in compressed archive'
-- component: Other
-  create_time: 20180713T02:55:00
-  id: 1101107
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'trackerbug: packages do not build reproducibly from including kernel version'
-- component: Other
-  create_time: 20180712T23:51:00
-  id: 1101104
-  resolution: ''
-  status: NEW
-  summary: 'xdg-desktop-por[19129]: segfault'
-- component: Development
-  create_time: 20180712T22:38:00
-  id: 1101100
-  resolution: MOVED
-  status: RESOLVED
-  summary: Brackets is not starting
-- component: Xen
-  create_time: 20180712T16:44:00
-  id: 1101058
-  resolution: ''
-  status: NEW
-  summary: qemu crashed on closing VM at xenstore_update_fe
-- component: Installation
-  create_time: 20180712T12:29:00
-  id: 1101023
-  resolution: ''
-  status: NEW
-  summary: In openQA 'grub2' test fails for aarch64 ISO (DVD+NET)  because UEFI bootloader
-    does not find openSUSE from HDD
