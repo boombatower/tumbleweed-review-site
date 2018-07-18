@@ -998,11 +998,11 @@
   threads: []
 '20180709':
   announcement: 2018-07.69
-  reference_count: 1
+  reference_count: 11
   thread_count: 1
   threads:
   - messages: [2018-07.76]
-    reference_count: 1
+    reference_count: 11
     summary: 'TW: outdated wxwidgets libs'
 '20180710':
   announcement: 2018-07.79
@@ -1011,6 +1011,11 @@
   threads: []
 '20180712':
   announcement: 2018-07.93
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180714':
+  announcement: 2018-07.139
   reference_count: 0
   thread_count: 0
   threads: []
