@@ -9939,7 +9939,7 @@
   create_time: 20180629T21:48:00
   id: 1099744
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Cannot reinstall system with the same LVM VG name
 - component: Network
   create_time: 20180629T14:40:00
@@ -10462,6 +10462,18 @@
   summary: In openQA 'grub2' test fails for aarch64 ISO (DVD+NET)  because UEFI bootloader
     does not find openSUSE from HDD
 '20180714':
+- component: Ruby
+  create_time: 20180719T07:59:00
+  id: 1101785
+  resolution: ''
+  status: NEW
+  summary: rubygem-mysql2 update to 0.5 broke velum
+- component: Other
+  create_time: 20180719T07:33:00
+  id: 1101780
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build 20180717] python-tornado 5.x update breaks salt'
 - component: X11 Applications
   create_time: 20180719T01:57:00
   id: 1101760
@@ -10492,12 +10504,12 @@
   resolution: ''
   status: NEW
   summary: 'emacs-info update: install-info: No such file or directory for /usr/share/info/info.info.info.gz'
-- component: Installation
+- component: Kernel
   create_time: 20180718T11:26:00
   id: 1101628
   resolution: ''
   status: NEW
-  summary: Can't run installation process of tumbleweed
+  summary: Can't boot kernel for Tumbleweed installation
 - component: LibreOffice
   create_time: 20180718T09:46:00
   id: 1101612
