@@ -10252,8 +10252,8 @@
 - component: Xen
   create_time: 20180708T22:47:00
   id: 1100516
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: qemu process kills itself with SIGABRT
 - component: Patterns
   create_time: 20180708T20:16:00
@@ -10462,6 +10462,18 @@
   summary: In openQA 'grub2' test fails for aarch64 ISO (DVD+NET)  because UEFI bootloader
     does not find openSUSE from HDD
 '20180714':
+- component: X11 Applications
+  create_time: 20180719T01:57:00
+  id: 1101760
+  resolution: ''
+  status: NEW
+  summary: X2go can't connect to local desktop session
+- component: Bootloader
+  create_time: 20180718T22:13:00
+  id: 1101747
+  resolution: ''
+  status: NEW
+  summary: no cursor after using e in plain text grub-efi menu
 - component: X.Org
   create_time: 20180718T16:10:00
   id: 1101699
