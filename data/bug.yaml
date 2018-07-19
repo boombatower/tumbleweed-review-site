@@ -8958,8 +8958,8 @@
 - component: Other
   create_time: 20180603T13:15:00
   id: 1095689
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: loop device set up with udisksctl requires root permission to delete with
     udisksctl
 - component: KDE Applications
@@ -9523,8 +9523,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180618T07:56:00
   id: 1097992
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: folder view widget on panel too small
 - component: YaST2
   create_time: 20180618T03:42:00
@@ -10032,8 +10032,8 @@
 - component: X.Org
   create_time: 20180702T09:23:00
   id: 1099812
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'modesetting driver: xrandr fails'
 - component: Other
   create_time: 20180702T07:00:00
@@ -10463,6 +10463,32 @@
     does not find openSUSE from HDD
 '20180714':
 - component: Kernel
+  create_time: 20180719T20:13:00
+  id: 1101949
+  resolution: ''
+  status: NEW
+  summary: all usb ports simultaneously die at seemingly random points, very frequently
+- component: Other
+  create_time: 20180719T20:10:00
+  id: 1101948
+  resolution: ''
+  status: NEW
+  summary: Audacity won't launch
+- component: Other
+  create_time: 20180719T17:01:00
+  id: 1101933
+  resolution: ''
+  status: NEW
+  summary: 'Error 14 running "/usr/share/ooRexx/rexxtry.rex", line 235: Incomplete
+    DO/SELECT/IFError 14 running "/usr/share/ooRexx/rexxtry.rex", line 235: Incomplete
+    DO/SELECT/IF'
+- component: Other
+  create_time: 20180719T15:26:00
+  id: 1101908
+  resolution: ''
+  status: NEW
+  summary: 'TW 20180714: rpm error from install of python-wxwidgets'
+- component: Kernel
   create_time: 20180719T10:18:00
   id: 1101822
   resolution: ''
@@ -10578,8 +10604,8 @@
 - component: Other
   create_time: 20180716T17:21:00
   id: 1101374
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: After zypper dup Audacity no longer runs
 - component: Kernel
   create_time: 20180716T11:58:00
