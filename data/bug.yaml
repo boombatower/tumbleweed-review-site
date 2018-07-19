@@ -9153,8 +9153,8 @@
 - component: Basesystem
   create_time: 20180611T11:04:00
   id: 1096936
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: rpm should require 7zr for extracting 7zip tarballs
 - component: YaST2
   create_time: 20180611T09:07:00
@@ -10462,6 +10462,12 @@
   summary: In openQA 'grub2' test fails for aarch64 ISO (DVD+NET)  because UEFI bootloader
     does not find openSUSE from HDD
 '20180714':
+- component: Kernel
+  create_time: 20180719T10:18:00
+  id: 1101822
+  resolution: ''
+  status: NEW
+  summary: cirrus.bpp=16 boot option leads to kernel Oops
 - component: Ruby
   create_time: 20180719T07:59:00
   id: 1101785
@@ -10489,8 +10495,8 @@
 - component: X.Org
   create_time: 20180718T16:10:00
   id: 1101699
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'cirrus: modesetting/fbdev drivers no longer working in xorg-server 1.20'
 - component: Java
   create_time: 20180718T13:07:00
