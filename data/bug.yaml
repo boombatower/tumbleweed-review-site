@@ -10371,8 +10371,8 @@
 - component: Kubic
   create_time: 20180711T10:46:00
   id: 1100868
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Can't start server with Kubic OpenStack images
 - component: libzypp
   create_time: 20180711T08:23:00
@@ -10462,6 +10462,30 @@
   summary: In openQA 'grub2' test fails for aarch64 ISO (DVD+NET)  because UEFI bootloader
     does not find openSUSE from HDD
 '20180714':
+- component: Other
+  create_time: 20180720T19:38:00
+  id: 1102110
+  resolution: ''
+  status: NEW
+  summary: QGIS crashes on startup on Tumbleweed
+- component: KDE Applications
+  create_time: 20180720T18:16:00
+  id: 1102103
+  resolution: ''
+  status: NEW
+  summary: kppp - Initial configuration could be improved
+- component: KDE Applications
+  create_time: 20180720T17:54:00
+  id: 1102102
+  resolution: ''
+  status: NEW
+  summary: kppp unable to set up transient service directory
+- component: Development
+  create_time: 20180720T16:22:00
+  id: 1102096
+  resolution: ''
+  status: NEW
+  summary: 'python-virtualenv:  --always-copy always fails'
 - component: Ruby
   create_time: 20180720T14:04:00
   id: 1102076
