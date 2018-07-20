@@ -10462,6 +10462,30 @@
   summary: In openQA 'grub2' test fails for aarch64 ISO (DVD+NET)  because UEFI bootloader
     does not find openSUSE from HDD
 '20180714':
+- component: Other
+  create_time: 20180720T00:43:00
+  id: 1101981
+  resolution: ''
+  status: NEW
+  summary: Spyder crashes on startup (Tumbleweed snapshot 20180714)
+- component: LXDE
+  create_time: 20180720T00:39:00
+  id: 1101980
+  resolution: ''
+  status: NEW
+  summary: after suspend mode sometimes wifi is off (tested on several laptops)
+- component: Installation
+  create_time: 20180720T00:21:00
+  id: 1101979
+  resolution: ''
+  status: NEW
+  summary: openSUSE Tumbleweed network installer fails (snapshot 14-07-2018)
+- component: X11 Applications
+  create_time: 20180719T21:40:00
+  id: 1101960
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Audacity won't start, "Mismatch between the program and library build versions"
 - component: Kernel
   create_time: 20180719T20:13:00
   id: 1101949
@@ -10471,8 +10495,8 @@
 - component: Other
   create_time: 20180719T20:10:00
   id: 1101948
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Audacity won't launch
 - component: Other
   create_time: 20180719T17:01:00
