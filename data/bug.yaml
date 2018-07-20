@@ -10245,8 +10245,8 @@
 - component: GNOME
   create_time: 20180704T02:07:00
   id: 1100041
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: The "switch user" disappeared from control center on Tumbleweed gnome
 '20180707':
 - component: Xen
