@@ -4989,8 +4989,8 @@
 - component: X11 3rd Party Driver
   create_time: 20180304T10:15:00
   id: 1083860
-  resolution: ''
-  status: CONFIRMED
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: 'nvidia 390.42: Switching to VT and back restarts/kills X applications'
 - component: X.Org
   create_time: 20180304T00:22:00
@@ -8544,7 +8544,7 @@
   summary: biosdevname crashes due to infinite recursion in smbios_setslot
 '20180519': []
 '20180520':
-- component: Other
+- component: Development
   create_time: 20180520T04:46:00
   id: 1093984
   resolution: ''
@@ -10462,7 +10462,26 @@
   summary: In openQA 'grub2' test fails for aarch64 ISO (DVD+NET)  because UEFI bootloader
     does not find openSUSE from HDD
 '20180714':
+- component: Ruby
+  create_time: 20180720T14:04:00
+  id: 1102076
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180719] Machinery not installable (rubgem-rack-protection vs
+    rubygem-sinatra)'
+- component: Ruby
+  create_time: 20180720T14:02:00
+  id: 1102075
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180719] openQA test fails in rails'
 - component: Other
+  create_time: 20180720T12:37:00
+  id: 1102051
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20180719] steam installation failed - nothing provides libnm-glib4-32bit'
+- component: Development
   create_time: 20180720T00:43:00
   id: 1101981
   resolution: ''
@@ -10509,14 +10528,14 @@
 - component: Other
   create_time: 20180719T15:26:00
   id: 1101908
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'TW 20180714: rpm error from install of python-wxwidgets'
 - component: Kernel
   create_time: 20180719T10:18:00
   id: 1101822
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: cirrus.bpp=16 boot option leads to kernel Oops
 - component: Ruby
   create_time: 20180719T07:59:00
@@ -10557,8 +10576,8 @@
 - component: Upgrade Problems
   create_time: 20180718T12:21:00
   id: 1101652
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'emacs-info update: install-info: No such file or directory for /usr/share/info/info.info.info.gz'
 - component: Kernel
   create_time: 20180718T11:26:00
@@ -10576,7 +10595,7 @@
   create_time: 20180718T07:57:00
   id: 1101591
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Unable to change VTs after wayland compositor crash
 - component: X.Org
   create_time: 20180718T07:37:00
