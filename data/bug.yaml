@@ -10321,8 +10321,8 @@
 - component: Other
   create_time: 20180709T21:33:00
   id: 1100660
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Snap packages error
 - component: LXDE
   create_time: 20180709T18:18:00
