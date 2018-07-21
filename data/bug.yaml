@@ -10462,123 +10462,6 @@
   summary: In openQA 'grub2' test fails for aarch64 ISO (DVD+NET)  because UEFI bootloader
     does not find openSUSE from HDD
 '20180714':
-- component: Other
-  create_time: 20180720T19:38:00
-  id: 1102110
-  resolution: ''
-  status: NEW
-  summary: QGIS crashes on startup on Tumbleweed
-- component: KDE Applications
-  create_time: 20180720T18:16:00
-  id: 1102103
-  resolution: ''
-  status: NEW
-  summary: kppp - Initial configuration could be improved
-- component: KDE Applications
-  create_time: 20180720T17:54:00
-  id: 1102102
-  resolution: ''
-  status: NEW
-  summary: kppp unable to set up transient service directory
-- component: Development
-  create_time: 20180720T16:22:00
-  id: 1102096
-  resolution: ''
-  status: NEW
-  summary: 'python-virtualenv:  --always-copy always fails'
-- component: Ruby
-  create_time: 20180720T14:04:00
-  id: 1102076
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180719] Machinery not installable (rubgem-rack-protection vs
-    rubygem-sinatra)'
-- component: Ruby
-  create_time: 20180720T14:02:00
-  id: 1102075
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180719] openQA test fails in rails'
-- component: Other
-  create_time: 20180720T12:37:00
-  id: 1102051
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20180719] steam installation failed - nothing provides libnm-glib4-32bit'
-- component: Development
-  create_time: 20180720T00:43:00
-  id: 1101981
-  resolution: ''
-  status: NEW
-  summary: Spyder crashes on startup (Tumbleweed snapshot 20180714)
-- component: LXDE
-  create_time: 20180720T00:39:00
-  id: 1101980
-  resolution: ''
-  status: NEW
-  summary: after suspend mode sometimes wifi is off (tested on several laptops)
-- component: Installation
-  create_time: 20180720T00:21:00
-  id: 1101979
-  resolution: ''
-  status: NEW
-  summary: openSUSE Tumbleweed network installer fails (snapshot 14-07-2018)
-- component: X11 Applications
-  create_time: 20180719T21:40:00
-  id: 1101960
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Audacity won't start, "Mismatch between the program and library build versions"
-- component: Kernel
-  create_time: 20180719T20:13:00
-  id: 1101949
-  resolution: ''
-  status: NEW
-  summary: all usb ports simultaneously die at seemingly random points, very frequently
-- component: Other
-  create_time: 20180719T20:10:00
-  id: 1101948
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Audacity won't launch
-- component: Other
-  create_time: 20180719T17:01:00
-  id: 1101933
-  resolution: ''
-  status: NEW
-  summary: 'Error 14 running "/usr/share/ooRexx/rexxtry.rex", line 235: Incomplete
-    DO/SELECT/IFError 14 running "/usr/share/ooRexx/rexxtry.rex", line 235: Incomplete
-    DO/SELECT/IF'
-- component: Other
-  create_time: 20180719T15:26:00
-  id: 1101908
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'TW 20180714: rpm error from install of python-wxwidgets'
-- component: Kernel
-  create_time: 20180719T10:18:00
-  id: 1101822
-  resolution: ''
-  status: IN_PROGRESS
-  summary: cirrus.bpp=16 boot option leads to kernel Oops
-- component: Ruby
-  create_time: 20180719T07:59:00
-  id: 1101785
-  resolution: ''
-  status: NEW
-  summary: rubygem-mysql2 update to 0.5 broke velum
-- component: Other
-  create_time: 20180719T07:33:00
-  id: 1101780
-  resolution: ''
-  status: CONFIRMED
-  summary: '[Build 20180717] python-tornado 5.x update breaks salt'
-- component: X11 Applications
-  create_time: 20180719T01:57:00
-  id: 1101760
-  resolution: ''
-  status: NEW
-  summary: X2go can't connect to local desktop session
 - component: Bootloader
   create_time: 20180718T22:13:00
   id: 1101747
@@ -10773,3 +10656,121 @@
   resolution: ''
   status: NEW
   summary: ImageWriter not displayed in German language
+'20180719':
+- component: Other
+  create_time: 20180720T19:38:00
+  id: 1102110
+  resolution: ''
+  status: NEW
+  summary: QGIS crashes on startup on Tumbleweed
+- component: KDE Applications
+  create_time: 20180720T18:16:00
+  id: 1102103
+  resolution: ''
+  status: NEW
+  summary: kppp - Initial configuration could be improved
+- component: KDE Applications
+  create_time: 20180720T17:54:00
+  id: 1102102
+  resolution: ''
+  status: NEW
+  summary: kppp unable to set up transient service directory
+- component: Development
+  create_time: 20180720T16:22:00
+  id: 1102096
+  resolution: ''
+  status: NEW
+  summary: 'python-virtualenv:  --always-copy always fails'
+- component: Ruby
+  create_time: 20180720T14:04:00
+  id: 1102076
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180719] Machinery not installable (rubgem-rack-protection vs
+    rubygem-sinatra)'
+- component: Ruby
+  create_time: 20180720T14:02:00
+  id: 1102075
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180719] openQA test fails in rails'
+- component: Other
+  create_time: 20180720T12:37:00
+  id: 1102051
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20180719] steam installation failed - nothing provides libnm-glib4-32bit'
+- component: Development
+  create_time: 20180720T00:43:00
+  id: 1101981
+  resolution: ''
+  status: NEW
+  summary: Spyder crashes on startup (Tumbleweed snapshot 20180714)
+- component: LXDE
+  create_time: 20180720T00:39:00
+  id: 1101980
+  resolution: ''
+  status: NEW
+  summary: after suspend mode sometimes wifi is off (tested on several laptops)
+- component: Installation
+  create_time: 20180720T00:21:00
+  id: 1101979
+  resolution: ''
+  status: NEW
+  summary: openSUSE Tumbleweed network installer fails (snapshot 14-07-2018)
+- component: X11 Applications
+  create_time: 20180719T21:40:00
+  id: 1101960
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Audacity won't start, "Mismatch between the program and library build versions"
+- component: Kernel
+  create_time: 20180719T20:13:00
+  id: 1101949
+  resolution: ''
+  status: NEW
+  summary: all usb ports simultaneously die at seemingly random points, very frequently
+- component: Other
+  create_time: 20180719T20:10:00
+  id: 1101948
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Audacity won't launch
+- component: Other
+  create_time: 20180719T17:01:00
+  id: 1101933
+  resolution: ''
+  status: NEW
+  summary: 'Error 14 running "/usr/share/ooRexx/rexxtry.rex", line 235: Incomplete
+    DO/SELECT/IFError 14 running "/usr/share/ooRexx/rexxtry.rex", line 235: Incomplete
+    DO/SELECT/IF'
+- component: Other
+  create_time: 20180719T15:26:00
+  id: 1101908
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'TW 20180714: rpm error from install of python-wxwidgets'
+- component: Kernel
+  create_time: 20180719T10:18:00
+  id: 1101822
+  resolution: ''
+  status: IN_PROGRESS
+  summary: cirrus.bpp=16 boot option leads to kernel Oops
+- component: Ruby
+  create_time: 20180719T07:59:00
+  id: 1101785
+  resolution: ''
+  status: NEW
+  summary: rubygem-mysql2 update to 0.5 broke velum
+- component: Other
+  create_time: 20180719T07:33:00
+  id: 1101780
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build 20180717] python-tornado 5.x update breaks salt'
+- component: X11 Applications
+  create_time: 20180719T01:57:00
+  id: 1101760
+  resolution: ''
+  status: NEW
+  summary: X2go can't connect to local desktop session
