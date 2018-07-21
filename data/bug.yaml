@@ -10662,7 +10662,8 @@
   id: 1102128
   resolution: ''
   status: NEW
-  summary: values at sysctl.conf don't override default kernel parameter values
+  summary: values at sysctl.conf don't override default kernel parameter values after
+    server boots
 - component: Network
   create_time: 20180721T07:37:00
   id: 1102127
