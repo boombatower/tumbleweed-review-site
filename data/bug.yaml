@@ -10321,8 +10321,8 @@
 - component: Other
   create_time: 20180709T21:33:00
   id: 1100660
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Snap packages error
 - component: LXDE
   create_time: 20180709T18:18:00
@@ -10657,6 +10657,24 @@
   status: NEW
   summary: ImageWriter not displayed in German language
 '20180719':
+- component: Kernel
+  create_time: 20180721T08:43:00
+  id: 1102128
+  resolution: ''
+  status: NEW
+  summary: values at sysctl.conf don't override default kernel parameter values
+- component: Network
+  create_time: 20180721T07:37:00
+  id: 1102127
+  resolution: ''
+  status: NEW
+  summary: Enable autoconf for ipv6 by default
+- component: Other
+  create_time: 20180721T07:23:00
+  id: 1102126
+  resolution: ''
+  status: NEW
+  summary: Ansible zypper module fails
 - component: Other
   create_time: 20180720T19:38:00
   id: 1102110
