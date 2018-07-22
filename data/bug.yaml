@@ -10647,8 +10647,8 @@
 - component: Kernel
   create_time: 20180714T08:28:00
   id: 1101238
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Using nouveau with GTX970M leads to kernel panic
 - component: Translations
   create_time: 20180714T07:43:00
