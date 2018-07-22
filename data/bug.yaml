@@ -10657,6 +10657,19 @@
   status: NEW
   summary: ImageWriter not displayed in German language
 '20180719':
+- component: LXDE
+  create_time: 20180722T02:34:00
+  id: 1102134
+  resolution: ''
+  status: NEW
+  summary: volume control disappears from lxpanel each time after reboot
+- component: YaST2
+  create_time: 20180721T21:28:00
+  id: 1102131
+  resolution: ''
+  status: NEW
+  summary: Fatal error "ARM with non-EFI" in yast2-bootloader module on Raspberry
+    Pi 2 model B
 - component: Kernel
   create_time: 20180721T08:43:00
   id: 1102128
