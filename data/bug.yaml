@@ -9259,7 +9259,7 @@
   create_time: 20180607T07:41:00
   id: 1096401
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'snapper: segfault found in openQA tests'
 - component: Basesystem
   create_time: 20180606T16:16:00
@@ -10591,8 +10591,8 @@
 - component: Xfce
   create_time: 20180715T17:14:00
   id: 1101258
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Graphic glitch when opening windows and Whisker Menu
 - component: GNOME
   create_time: 20180715T10:20:00
@@ -10657,62 +10657,6 @@
   status: NEW
   summary: ImageWriter not displayed in German language
 '20180719':
-- component: Other
-  create_time: 20180723T08:25:00
-  id: 1102181
-  resolution: ''
-  status: NEW
-  summary: prompt-toolkit upgrade breaks IPython
-- component: Translations
-  create_time: 20180722T18:27:00
-  id: 1102143
-  resolution: ''
-  status: NEW
-  summary: blueman-applet - missing German translations / l10n
-- component: Sound
-  create_time: 20180722T16:34:00
-  id: 1102140
-  resolution: ''
-  status: NEW
-  summary: No analog sound with Realtek ALC829 (HDMI sound is fine)
-- component: KDE Applications
-  create_time: 20180722T04:56:00
-  id: 1102136
-  resolution: ''
-  status: NEW
-  summary: After suspend mode wi-fi is not work (turned off)
-- component: LXDE
-  create_time: 20180722T02:34:00
-  id: 1102134
-  resolution: ''
-  status: NEW
-  summary: volume control disappears from lxpanel each time after reboot
-- component: YaST2
-  create_time: 20180721T21:28:00
-  id: 1102131
-  resolution: ''
-  status: NEW
-  summary: Fatal error "ARM with non-EFI" in yast2-bootloader module on Raspberry
-    Pi 2 model B
-- component: Kernel
-  create_time: 20180721T08:43:00
-  id: 1102128
-  resolution: ''
-  status: NEW
-  summary: values at sysctl.conf don't override default kernel parameter values after
-    server boots
-- component: Network
-  create_time: 20180721T07:37:00
-  id: 1102127
-  resolution: ''
-  status: NEW
-  summary: Enable autoconf for ipv6 by default
-- component: Other
-  create_time: 20180721T07:23:00
-  id: 1102126
-  resolution: ''
-  status: NEW
-  summary: Ansible zypper module fails
 - component: Other
   create_time: 20180720T19:38:00
   id: 1102110
@@ -10830,3 +10774,98 @@
   resolution: ''
   status: NEW
   summary: X2go can't connect to local desktop session
+'20180721':
+- component: Other
+  create_time: 20180723T18:37:00
+  id: 1102299
+  resolution: ''
+  status: NEW
+  summary: R-PKI package contains build date+time
+- component: LibreOffice
+  create_time: 20180723T17:26:00
+  id: 1102287
+  resolution: ''
+  status: NEW
+  summary: libreoffice kde-plasma save / open file dialog always inside home directory
+    not at last open / save position.
+- component: Other
+  create_time: 20180723T13:25:00
+  id: 1102244
+  resolution: ''
+  status: NEW
+  summary: WAF breaks with python 3.7
+- component: YaST2
+  create_time: 20180723T12:36:00
+  id: 1102235
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180721] named service is not stopped when stopping using yast
+    dns module'
+- component: KDE Applications
+  create_time: 20180723T11:04:00
+  id: 1102216
+  resolution: ''
+  status: NEW
+  summary: Game area is black in KBreakout 18.04.3.
+- component: Kernel
+  create_time: 20180723T09:51:00
+  id: 1102200
+  resolution: ''
+  status: NEW
+  summary: 'Random failure "tar: Skipping to next header" on aarch64'
+- component: Other
+  create_time: 20180723T08:25:00
+  id: 1102181
+  resolution: ''
+  status: NEW
+  summary: prompt-toolkit upgrade breaks IPython
+- component: Translations
+  create_time: 20180722T18:27:00
+  id: 1102143
+  resolution: ''
+  status: NEW
+  summary: blueman-applet - missing German translations / l10n
+- component: Sound
+  create_time: 20180722T16:34:00
+  id: 1102140
+  resolution: ''
+  status: NEW
+  summary: No analog sound with Realtek ALC829 (HDMI sound is fine)
+- component: KDE Applications
+  create_time: 20180722T04:56:00
+  id: 1102136
+  resolution: ''
+  status: NEW
+  summary: After suspend mode wi-fi is not work (turned off)
+- component: LXDE
+  create_time: 20180722T02:34:00
+  id: 1102134
+  resolution: ''
+  status: NEW
+  summary: volume control disappears from lxpanel each time after reboot
+- component: YaST2
+  create_time: 20180721T21:28:00
+  id: 1102131
+  resolution: ''
+  status: NEW
+  summary: Fatal error "ARM with non-EFI" in yast2-bootloader module on Raspberry
+    Pi 2 model B
+- component: Kernel
+  create_time: 20180721T08:43:00
+  id: 1102128
+  resolution: ''
+  status: NEW
+  summary: values at sysctl.conf don't override default kernel parameter values after
+    server boots
+- component: Network
+  create_time: 20180721T07:37:00
+  id: 1102127
+  resolution: ''
+  status: NEW
+  summary: Enable autoconf for ipv6 by default
+- component: Other
+  create_time: 20180721T07:23:00
+  id: 1102126
+  resolution: ''
+  status: NEW
+  summary: Ansible zypper module fails
