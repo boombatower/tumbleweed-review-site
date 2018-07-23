@@ -1011,9 +1011,12 @@
   threads: []
 '20180712':
   announcement: 2018-07.93
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages: [2018-07.163]
+    reference_count: 2
+    summary: failed to summarize
 '20180714':
   announcement: 2018-07.139
   reference_count: 0
@@ -1021,6 +1024,11 @@
   threads: []
 '20180719':
   announcement: 2018-07.147
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180721':
+  announcement: 2018-07.162
   reference_count: 0
   thread_count: 0
   threads: []
