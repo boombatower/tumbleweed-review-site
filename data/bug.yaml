@@ -10657,6 +10657,12 @@
   status: NEW
   summary: ImageWriter not displayed in German language
 '20180719':
+- component: Other
+  create_time: 20180723T08:25:00
+  id: 1102181
+  resolution: ''
+  status: NEW
+  summary: prompt-toolkit upgrade breaks IPython
 - component: Translations
   create_time: 20180722T18:27:00
   id: 1102143
@@ -10728,8 +10734,8 @@
 - component: Development
   create_time: 20180720T16:22:00
   id: 1102096
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'python-virtualenv:  --always-copy always fails'
 - component: Ruby
   create_time: 20180720T14:04:00
