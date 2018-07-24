@@ -10101,8 +10101,8 @@
 - component: Virtualization:Tools
   create_time: 20180705T19:15:00
   id: 1100300
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'virt-viewer: Build fails because spice-gtk no longer has the spice-controller
     library'
 - component: KDE Workspace (Plasma)
@@ -10716,7 +10716,7 @@
   create_time: 20180720T00:21:00
   id: 1101979
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: openSUSE Tumbleweed network installer fails (snapshot 14-07-2018)
 - component: X11 Applications
   create_time: 20180719T21:40:00
