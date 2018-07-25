@@ -6658,8 +6658,8 @@
 - component: Maintenance
   create_time: 20180405T14:30:00
   id: 1088310
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: python3-botocore-1.9.6 possibly breaking aws-cli
 - component: Basesystem
   create_time: 20180405T13:46:00
@@ -10704,8 +10704,8 @@
 - component: Development
   create_time: 20180720T00:43:00
   id: 1101981
-  resolution: ''
-  status: CONFIRMED
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Spyder crashes on startup (Tumbleweed snapshot 20180714)
 - component: LXDE
   create_time: 20180720T00:39:00
@@ -10779,8 +10779,8 @@
 - component: YaST2
   create_time: 20180721T21:28:00
   id: 1102131
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Fatal error "ARM with non-EFI" in yast2-bootloader module on Raspberry
     Pi 2 model B
 - component: Kernel
@@ -10828,6 +10828,31 @@
   status: NEW
   summary: volume control disappears from lxpanel each time after reboot
 '20180723':
+- component: X11 Applications
+  create_time: 20180725T15:27:00
+  id: 1102588
+  resolution: ''
+  status: NEW
+  summary: The "lightdm" displaymanager does not honor pam_kwallet
+- component: Basesystem
+  create_time: 20180725T15:18:00
+  id: 1102584
+  resolution: ''
+  status: NEW
+  summary: Setting default-displaymanager to "console" makes system unbootable
+- component: Kernel
+  create_time: 20180725T14:08:00
+  id: 1102569
+  resolution: ''
+  status: NEW
+  summary: Use the blk_mq scheduler framework
+- component: GNOME
+  create_time: 20180725T13:20:00
+  id: 1102563
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180722] openQA test fails to login in first_boot, autologin broken
+    on aarch64?'
 - component: Printing
   create_time: 20180725T09:28:00
   id: 1102529
@@ -10883,7 +10908,7 @@
   create_time: 20180723T12:36:00
   id: 1102235
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20180721] named service is not stopped when stopping using yast
     dns module'
 - component: KDE Applications
@@ -10902,5 +10927,5 @@
   create_time: 20180723T08:25:00
   id: 1102181
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: prompt-toolkit upgrade breaks IPython
