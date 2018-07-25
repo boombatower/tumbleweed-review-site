@@ -10467,7 +10467,8 @@
   id: 1101747
   resolution: ''
   status: NEW
-  summary: no cursor after using e in plain text grub-efi menu
+  summary: no cursor after using e in plain text grub-efi menu with GRUB_TERMINAL="console"
+    in /etc/default/grub
 - component: X.Org
   create_time: 20180718T16:10:00
   id: 1101699
@@ -10661,7 +10662,7 @@
   create_time: 20180720T19:38:00
   id: 1102110
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: QGIS crashes on startup on Tumbleweed
 - component: KDE Applications
   create_time: 20180720T18:16:00
