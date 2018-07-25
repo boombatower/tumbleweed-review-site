@@ -1985,8 +1985,8 @@
 - component: Network
   create_time: 20180117T09:28:00
   id: 1076346
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Thinkpad T470s ethernet works in installation but not in OS
 - component: LibreOffice
   create_time: 20180117T08:44:00
@@ -10803,6 +10803,43 @@
   status: NEW
   summary: Ansible zypper module fails
 '20180722':
+- component: Translations
+  create_time: 20180722T18:27:00
+  id: 1102143
+  resolution: ''
+  status: NEW
+  summary: blueman-applet - missing German translations / l10n
+- component: Sound
+  create_time: 20180722T16:34:00
+  id: 1102140
+  resolution: ''
+  status: NEW
+  summary: No analog sound with Realtek ALC829 (HDMI sound is fine)
+- component: KDE Applications
+  create_time: 20180722T04:56:00
+  id: 1102136
+  resolution: ''
+  status: NEW
+  summary: After suspend mode wi-fi is not work (turned off)
+- component: LXDE
+  create_time: 20180722T02:34:00
+  id: 1102134
+  resolution: ''
+  status: NEW
+  summary: volume control disappears from lxpanel each time after reboot
+'20180723':
+- component: Printing
+  create_time: 20180725T09:28:00
+  id: 1102529
+  resolution: ''
+  status: NEW
+  summary: mDNS patches incompatible with HPLIP rebase to 3.18.x
+- component: Containers
+  create_time: 20180725T08:44:00
+  id: 1102522
+  resolution: ''
+  status: NEW
+  summary: Docker v18.06-ce upgrade.
 - component: Other
   create_time: 20180724T16:40:00
   id: 1102454
@@ -10867,27 +10904,3 @@
   resolution: ''
   status: NEW
   summary: prompt-toolkit upgrade breaks IPython
-- component: Translations
-  create_time: 20180722T18:27:00
-  id: 1102143
-  resolution: ''
-  status: NEW
-  summary: blueman-applet - missing German translations / l10n
-- component: Sound
-  create_time: 20180722T16:34:00
-  id: 1102140
-  resolution: ''
-  status: NEW
-  summary: No analog sound with Realtek ALC829 (HDMI sound is fine)
-- component: KDE Applications
-  create_time: 20180722T04:56:00
-  id: 1102136
-  resolution: ''
-  status: NEW
-  summary: After suspend mode wi-fi is not work (turned off)
-- component: LXDE
-  create_time: 20180722T02:34:00
-  id: 1102134
-  resolution: ''
-  status: NEW
-  summary: volume control disappears from lxpanel each time after reboot
