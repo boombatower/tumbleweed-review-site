@@ -1032,3 +1032,11 @@
   reference_count: 0
   thread_count: 0
   threads: []
+'20180722':
+  announcement: 2018-07.168
+  reference_count: 7
+  thread_count: 1
+  threads:
+  - messages: [2018-07.171]
+    reference_count: 7
+    summary: xserver 1.20 breaks optimus
