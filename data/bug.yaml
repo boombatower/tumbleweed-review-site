@@ -9258,8 +9258,8 @@
 - component: Basesystem
   create_time: 20180607T07:41:00
   id: 1096401
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'snapper: segfault found in openQA tests'
 - component: Basesystem
   create_time: 20180606T16:16:00
@@ -10039,7 +10039,7 @@
   create_time: 20180702T07:00:00
   id: 1099800
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: '[Build 20180629] LxQT does not start up session, but asks for WM'
 '20180703':
 - component: X.Org
@@ -10239,8 +10239,8 @@
 - component: Installation
   create_time: 20180704T08:14:00
   id: 1100077
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180702] NVME@Uefi: could not prepare boot variable'
 - component: GNOME
   create_time: 20180704T02:07:00
@@ -10457,8 +10457,8 @@
 - component: Installation
   create_time: 20180712T12:29:00
   id: 1101023
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: In openQA 'grub2' test fails for aarch64 ISO (DVD+NET)  because UEFI bootloader
     does not find openSUSE from HDD
 '20180714':
@@ -10541,7 +10541,7 @@
   create_time: 20180717T08:11:00
   id: 1101420
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'spice-gtk: introduce separate group for spice-client-glib-usb-acl-helper
     setuid binary'
 - component: Xfce
@@ -10704,7 +10704,7 @@
   create_time: 20180720T00:43:00
   id: 1101981
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Spyder crashes on startup (Tumbleweed snapshot 20180714)
 - component: LXDE
   create_time: 20180720T00:39:00
@@ -10775,6 +10775,53 @@
   status: NEW
   summary: X2go can't connect to local desktop session
 '20180721':
+- component: YaST2
+  create_time: 20180721T21:28:00
+  id: 1102131
+  resolution: ''
+  status: NEW
+  summary: Fatal error "ARM with non-EFI" in yast2-bootloader module on Raspberry
+    Pi 2 model B
+- component: Kernel
+  create_time: 20180721T08:43:00
+  id: 1102128
+  resolution: ''
+  status: NEW
+  summary: values at sysctl.conf don't override default kernel parameter values after
+    server boots
+- component: Network
+  create_time: 20180721T07:37:00
+  id: 1102127
+  resolution: ''
+  status: NEW
+  summary: Enable autoconf for ipv6 by default
+- component: Other
+  create_time: 20180721T07:23:00
+  id: 1102126
+  resolution: ''
+  status: NEW
+  summary: Ansible zypper module fails
+'20180722':
+- component: Other
+  create_time: 20180724T16:40:00
+  id: 1102454
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180723] openQA test fails in keymap_or_locale ppc64 (BE) with
+    minimalx desktop'
+- component: Development
+  create_time: 20180724T11:52:00
+  id: 1102408
+  resolution: ''
+  status: CONFIRMED
+  summary: 'trackerbug: packages do not build reproducibly from race conditions'
+- component: Other
+  create_time: 20180724T08:43:00
+  id: 1102367
+  resolution: ''
+  status: NEW
+  summary: 'aws-cli broken dependency: requires python3-PyYAML <= 3.12, but this requirement
+    cannot be provided'
 - component: Other
   create_time: 20180723T18:37:00
   id: 1102299
@@ -10843,29 +10890,3 @@
   resolution: ''
   status: NEW
   summary: volume control disappears from lxpanel each time after reboot
-- component: YaST2
-  create_time: 20180721T21:28:00
-  id: 1102131
-  resolution: ''
-  status: NEW
-  summary: Fatal error "ARM with non-EFI" in yast2-bootloader module on Raspberry
-    Pi 2 model B
-- component: Kernel
-  create_time: 20180721T08:43:00
-  id: 1102128
-  resolution: ''
-  status: NEW
-  summary: values at sysctl.conf don't override default kernel parameter values after
-    server boots
-- component: Network
-  create_time: 20180721T07:37:00
-  id: 1102127
-  resolution: ''
-  status: NEW
-  summary: Enable autoconf for ipv6 by default
-- component: Other
-  create_time: 20180721T07:23:00
-  id: 1102126
-  resolution: ''
-  status: NEW
-  summary: Ansible zypper module fails
