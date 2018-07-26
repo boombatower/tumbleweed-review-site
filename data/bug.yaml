@@ -10828,6 +10828,19 @@
   status: NEW
   summary: volume control disappears from lxpanel each time after reboot
 '20180723':
+- component: KVM
+  create_time: 20180725T20:10:00
+  id: 1102627
+  resolution: ''
+  status: NEW
+  summary: seccomp resourcecontrol=deny causes defunct qemu process when using virtio
+    gpu / virgl
+- component: KDE Workspace (Plasma)
+  create_time: 20180725T20:04:00
+  id: 1102625
+  resolution: ''
+  status: NEW
+  summary: Snapshot 20180723 severely broke Kontact and Falkon
 - component: X11 Applications
   create_time: 20180725T15:27:00
   id: 1102588
@@ -10926,6 +10939,6 @@
 - component: Other
   create_time: 20180723T08:25:00
   id: 1102181
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: prompt-toolkit upgrade breaks IPython
