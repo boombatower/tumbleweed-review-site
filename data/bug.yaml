@@ -10201,8 +10201,8 @@
 - component: GNOME
   create_time: 20180705T10:55:00
   id: 1100207
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 00015] openQA test fails in login_test'
 - component: Other
   create_time: 20180705T05:02:00
@@ -10828,6 +10828,18 @@
   status: NEW
   summary: volume control disappears from lxpanel each time after reboot
 '20180723':
+- component: High Availability
+  create_time: 20180726T03:26:00
+  id: 1102668
+  resolution: ''
+  status: NEW
+  summary: LVM2 build from OBS does not work under mirrored clustered LVs
+- component: Other
+  create_time: 20180726T03:08:00
+  id: 1102667
+  resolution: ''
+  status: NEW
+  summary: libicu52_1 is required by .NET Core but is not provided.
 - component: KVM
   create_time: 20180725T20:10:00
   id: 1102627
