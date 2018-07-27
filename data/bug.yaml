@@ -1771,8 +1771,8 @@
 - component: Basesystem
   create_time: 20180110T11:01:00
   id: 1075359
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Long delay to switch root during boot
 - component: Usability
   create_time: 20180110T10:32:00
@@ -10496,8 +10496,8 @@
 - component: LibreOffice
   create_time: 20180718T09:46:00
   id: 1101612
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Scrollbars in LibreOffice not working [Plasma 5]
 - component: Basesystem
   create_time: 20180718T07:57:00
@@ -10661,8 +10661,8 @@
 - component: Other
   create_time: 20180720T19:38:00
   id: 1102110
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: QGIS crashes on startup on Tumbleweed
 - component: KDE Applications
   create_time: 20180720T18:16:00
@@ -10828,6 +10828,70 @@
   status: NEW
   summary: volume control disappears from lxpanel each time after reboot
 '20180723':
+- component: Network
+  create_time: 20180726T14:46:00
+  id: 1102761
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180725] firewalld: iptables v1.6.2: can''t initialize iptables
+    table `nat'':'
+- component: KVM
+  create_time: 20180726T13:44:00
+  id: 1102749
+  resolution: ''
+  status: NEW
+  summary: GL applications have blank output when using qemu virtio gpu / virgl
+- component: Basesystem
+  create_time: 20180726T11:49:00
+  id: 1102737
+  resolution: INVALID
+  status: RESOLVED
+  summary: Install does not work on Pentium III machine
+- component: GNOME
+  create_time: 20180726T11:32:00
+  id: 1102735
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180722] openQA test fails in first_boot - MESA-LOADER: failed
+    to retrieve device information on aarch64'
+- component: Basesystem
+  create_time: 20180726T08:43:00
+  id: 1102713
+  resolution: ''
+  status: NEW
+  summary: Systems hangs since last night update
+- component: Security
+  create_time: 20180726T07:58:00
+  id: 1102706
+  resolution: ''
+  status: NEW
+  summary: openSCAP tool generate remediation instructions script with incorrect format
+- component: Security
+  create_time: 20180726T07:52:00
+  id: 1102702
+  resolution: ''
+  status: NEW
+  summary: 'VUL-0: CVE-2018-14524: libredwg: dwg_decode_eed in decode.c leads to a
+    double free'
+- component: Apache
+  create_time: 20180726T07:47:00
+  id: 1102698
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180725] openQA test fails in php7'
+- component: Security
+  create_time: 20180726T07:43:00
+  id: 1102696
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2018-14471: libredwg: dwg_obj_block_control_get_block_headers
+    in dwg_api.c allows remote attackers to cause a denial of service'
+- component: KDE Applications
+  create_time: 20180726T07:01:00
+  id: 1102693
+  resolution: ''
+  status: NEW
+  summary: Minuet interface missing menus
 - component: High Availability
   create_time: 20180726T03:26:00
   id: 1102668
@@ -10837,8 +10901,8 @@
 - component: Other
   create_time: 20180726T03:08:00
   id: 1102667
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: libicu52_1 is required by .NET Core but is not provided.
 - component: KVM
   create_time: 20180725T20:10:00
@@ -10862,8 +10926,8 @@
 - component: Basesystem
   create_time: 20180725T15:18:00
   id: 1102584
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Setting default-displaymanager to "console" makes system unbootable
 - component: Kernel
   create_time: 20180725T14:08:00
@@ -10919,8 +10983,8 @@
 - component: LibreOffice
   create_time: 20180723T17:26:00
   id: 1102287
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: libreoffice kde-plasma save / open file dialog always inside home directory
     not at last open / save position.
 - component: Other
@@ -10932,8 +10996,8 @@
 - component: YaST2
   create_time: 20180723T12:36:00
   id: 1102235
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180721] named service is not stopped when stopping using yast
     dns module'
 - component: KDE Applications
@@ -10945,8 +11009,8 @@
 - component: Kernel
   create_time: 20180723T09:51:00
   id: 1102200
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'Random failure "tar: Skipping to next header" on aarch64'
 - component: Other
   create_time: 20180723T08:25:00
