@@ -9335,7 +9335,7 @@
   create_time: 20180613T11:57:00
   id: 1097449
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: tar fails to pass tests on aarch64
 - component: Kernel
   create_time: 20180613T11:06:00
@@ -10828,6 +10828,24 @@
   status: NEW
   summary: volume control disappears from lxpanel each time after reboot
 '20180723':
+- component: Other
+  create_time: 20180727T06:49:00
+  id: 1102826
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180726] LXQt tests fail during shutdown'
+- component: Kubic
+  create_time: 20180727T06:47:00
+  id: 1102825
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180726]'
+- component: Other
+  create_time: 20180727T05:45:00
+  id: 1102819
+  resolution: ''
+  status: NEW
+  summary: saltstack server_id changes with each run on python3
 - component: Network
   create_time: 20180726T14:46:00
   id: 1102761
