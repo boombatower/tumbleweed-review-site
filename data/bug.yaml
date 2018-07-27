@@ -8348,8 +8348,8 @@
 - component: Firefox
   create_time: 20180514T06:31:00
   id: 1093059
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180508] openQA test fails in firefox - firefox "dumped core"'
 - component: KDE Workspace (Plasma)
   create_time: 20180513T22:15:00
@@ -9334,8 +9334,8 @@
 - component: Basesystem
   create_time: 20180613T11:57:00
   id: 1097449
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: tar fails to pass tests on aarch64
 - component: Kernel
   create_time: 20180613T11:06:00
@@ -10829,6 +10829,36 @@
   summary: volume control disappears from lxpanel each time after reboot
 '20180723':
 - component: Other
+  create_time: 20180727T09:47:00
+  id: 1102852
+  resolution: ''
+  status: NEW
+  summary: perl-IO-Socket-SSL fails to build in 2019-03
+- component: Other
+  create_time: 20180727T09:17:00
+  id: 1102848
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build 20180722] openQA test fails in salt for AArch64'
+- component: Development
+  create_time: 20180727T08:35:00
+  id: 1102840
+  resolution: ''
+  status: CONFIRMED
+  summary: 'trackerbug: build fails at some time'
+- component: LXDE
+  create_time: 20180727T07:53:00
+  id: 1102838
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180726] VLC fails to play video (on LXDE)'
+- component: KDE Workspace (Plasma)
+  create_time: 20180727T07:17:00
+  id: 1102832
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build 20180726] ostart_wayland_plasma5 fails to login'
+- component: Other
   create_time: 20180727T06:49:00
   id: 1102826
   resolution: ''
@@ -10868,8 +10898,8 @@
 - component: GNOME
   create_time: 20180726T11:32:00
   id: 1102735
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[Build 20180722] openQA test fails in first_boot - MESA-LOADER: failed
     to retrieve device information on aarch64'
 - component: Basesystem
