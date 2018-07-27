@@ -10828,6 +10828,151 @@
   status: NEW
   summary: volume control disappears from lxpanel each time after reboot
 '20180723':
+- component: KVM
+  create_time: 20180725T20:10:00
+  id: 1102627
+  resolution: FIXED
+  status: RESOLVED
+  summary: seccomp resourcecontrol=deny causes defunct qemu process when using virtio
+    gpu / virgl
+- component: KDE Workspace (Plasma)
+  create_time: 20180725T20:04:00
+  id: 1102625
+  resolution: ''
+  status: NEW
+  summary: Snapshot 20180723 severely broke Kontact and Falkon
+- component: X11 Applications
+  create_time: 20180725T15:27:00
+  id: 1102588
+  resolution: ''
+  status: NEW
+  summary: The "lightdm" displaymanager does not honor pam_kwallet
+- component: Basesystem
+  create_time: 20180725T15:18:00
+  id: 1102584
+  resolution: FIXED
+  status: RESOLVED
+  summary: Setting default-displaymanager to "console" makes system unbootable
+- component: Kernel
+  create_time: 20180725T14:08:00
+  id: 1102569
+  resolution: ''
+  status: NEW
+  summary: Use the blk_mq scheduler framework
+- component: GNOME
+  create_time: 20180725T13:20:00
+  id: 1102563
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180722] openQA test fails to login in first_boot, autologin broken
+    on aarch64?'
+- component: Printing
+  create_time: 20180725T09:28:00
+  id: 1102529
+  resolution: ''
+  status: NEW
+  summary: mDNS patches incompatible with HPLIP rebase to 3.18.x
+- component: Containers
+  create_time: 20180725T08:44:00
+  id: 1102522
+  resolution: ''
+  status: NEW
+  summary: Docker v18.06-ce upgrade.
+- component: Other
+  create_time: 20180724T16:40:00
+  id: 1102454
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180723] openQA test fails in keymap_or_locale ppc64 (BE) with
+    minimalx desktop'
+- component: Development
+  create_time: 20180724T11:52:00
+  id: 1102408
+  resolution: ''
+  status: CONFIRMED
+  summary: 'trackerbug: packages do not build reproducibly from race conditions'
+- component: Other
+  create_time: 20180724T08:43:00
+  id: 1102367
+  resolution: ''
+  status: NEW
+  summary: 'aws-cli broken dependency: requires python3-PyYAML <= 3.12, but this requirement
+    cannot be provided'
+- component: Other
+  create_time: 20180723T18:37:00
+  id: 1102299
+  resolution: ''
+  status: NEW
+  summary: R-PKI package contains build date+time
+- component: LibreOffice
+  create_time: 20180723T17:26:00
+  id: 1102287
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: libreoffice kde-plasma save / open file dialog always inside home directory
+    not at last open / save position.
+- component: Other
+  create_time: 20180723T13:25:00
+  id: 1102244
+  resolution: ''
+  status: NEW
+  summary: WAF breaks with python 3.7
+- component: YaST2
+  create_time: 20180723T12:36:00
+  id: 1102235
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20180721] named service is not stopped when stopping using yast
+    dns module'
+- component: KDE Applications
+  create_time: 20180723T11:04:00
+  id: 1102216
+  resolution: ''
+  status: NEW
+  summary: Game area is black in KBreakout 18.04.3.
+- component: Kernel
+  create_time: 20180723T09:51:00
+  id: 1102200
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'Random failure "tar: Skipping to next header" on aarch64'
+- component: Other
+  create_time: 20180723T08:25:00
+  id: 1102181
+  resolution: FIXED
+  status: RESOLVED
+  summary: prompt-toolkit upgrade breaks IPython
+'20180726':
+- component: Virtualization:Tools
+  create_time: 20180727T17:18:00
+  id: 1102932
+  resolution: ''
+  status: NEW
+  summary: 'Virt-viewer cannot connect to remote host: Time-out at socket I/O'
+- component: Network
+  create_time: 20180727T16:22:00
+  id: 1102926
+  resolution: ''
+  status: NEW
+  summary: openssh 7.7p1 is not opening a tunnel, bug known and fixed upstream
+- component: Other
+  create_time: 20180727T15:13:00
+  id: 1102918
+  resolution: ''
+  status: NEW
+  summary: Duplicate Blender application desktop entry in menu
+- component: Other
+  create_time: 20180727T14:29:00
+  id: 1102911
+  resolution: ''
+  status: NEW
+  summary: ibutils package has bad Makefiles
+- component: Other
+  create_time: 20180727T13:25:00
+  id: 1102889
+  resolution: ''
+  status: NEW
+  summary: gdal linking to libproj perhaps broken
 - component: Other
   create_time: 20180727T09:47:00
   id: 1102852
@@ -10952,117 +11097,3 @@
   resolution: UPSTREAM
   status: RESOLVED
   summary: libicu52_1 is required by .NET Core but is not provided.
-- component: KVM
-  create_time: 20180725T20:10:00
-  id: 1102627
-  resolution: ''
-  status: NEW
-  summary: seccomp resourcecontrol=deny causes defunct qemu process when using virtio
-    gpu / virgl
-- component: KDE Workspace (Plasma)
-  create_time: 20180725T20:04:00
-  id: 1102625
-  resolution: ''
-  status: NEW
-  summary: Snapshot 20180723 severely broke Kontact and Falkon
-- component: X11 Applications
-  create_time: 20180725T15:27:00
-  id: 1102588
-  resolution: ''
-  status: NEW
-  summary: The "lightdm" displaymanager does not honor pam_kwallet
-- component: Basesystem
-  create_time: 20180725T15:18:00
-  id: 1102584
-  resolution: FIXED
-  status: RESOLVED
-  summary: Setting default-displaymanager to "console" makes system unbootable
-- component: Kernel
-  create_time: 20180725T14:08:00
-  id: 1102569
-  resolution: ''
-  status: NEW
-  summary: Use the blk_mq scheduler framework
-- component: GNOME
-  create_time: 20180725T13:20:00
-  id: 1102563
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180722] openQA test fails to login in first_boot, autologin broken
-    on aarch64?'
-- component: Printing
-  create_time: 20180725T09:28:00
-  id: 1102529
-  resolution: ''
-  status: NEW
-  summary: mDNS patches incompatible with HPLIP rebase to 3.18.x
-- component: Containers
-  create_time: 20180725T08:44:00
-  id: 1102522
-  resolution: ''
-  status: NEW
-  summary: Docker v18.06-ce upgrade.
-- component: Other
-  create_time: 20180724T16:40:00
-  id: 1102454
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180723] openQA test fails in keymap_or_locale ppc64 (BE) with
-    minimalx desktop'
-- component: Development
-  create_time: 20180724T11:52:00
-  id: 1102408
-  resolution: ''
-  status: CONFIRMED
-  summary: 'trackerbug: packages do not build reproducibly from race conditions'
-- component: Other
-  create_time: 20180724T08:43:00
-  id: 1102367
-  resolution: ''
-  status: NEW
-  summary: 'aws-cli broken dependency: requires python3-PyYAML <= 3.12, but this requirement
-    cannot be provided'
-- component: Other
-  create_time: 20180723T18:37:00
-  id: 1102299
-  resolution: ''
-  status: NEW
-  summary: R-PKI package contains build date+time
-- component: LibreOffice
-  create_time: 20180723T17:26:00
-  id: 1102287
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: libreoffice kde-plasma save / open file dialog always inside home directory
-    not at last open / save position.
-- component: Other
-  create_time: 20180723T13:25:00
-  id: 1102244
-  resolution: ''
-  status: NEW
-  summary: WAF breaks with python 3.7
-- component: YaST2
-  create_time: 20180723T12:36:00
-  id: 1102235
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20180721] named service is not stopped when stopping using yast
-    dns module'
-- component: KDE Applications
-  create_time: 20180723T11:04:00
-  id: 1102216
-  resolution: ''
-  status: NEW
-  summary: Game area is black in KBreakout 18.04.3.
-- component: Kernel
-  create_time: 20180723T09:51:00
-  id: 1102200
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'Random failure "tar: Skipping to next header" on aarch64'
-- component: Other
-  create_time: 20180723T08:25:00
-  id: 1102181
-  resolution: FIXED
-  status: RESOLVED
-  summary: prompt-toolkit upgrade breaks IPython
