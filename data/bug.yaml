@@ -10943,6 +10943,19 @@
   status: RESOLVED
   summary: prompt-toolkit upgrade breaks IPython
 '20180726':
+- component: X11 3rd Party Driver
+  create_time: 20180728T00:33:00
+  id: 1102969
+  resolution: ''
+  status: NEW
+  summary: module version discrepancy breaking graphic environment
+- component: X11 3rd Party Driver
+  create_time: 20180727T22:53:00
+  id: 1102962
+  resolution: ''
+  status: NEW
+  summary: The /Bumblebee/openSUSE_Tumbleweed/X11 don't obsolete the G04 (newest cards')
+    nvidia drivers
 - component: Virtualization:Tools
   create_time: 20180727T17:18:00
   id: 1102932
