@@ -10943,6 +10943,18 @@
   status: RESOLVED
   summary: prompt-toolkit upgrade breaks IPython
 '20180726':
+- component: X.Org
+  create_time: 20180728T11:08:00
+  id: 1102979
+  resolution: ''
+  status: NEW
+  summary: xorg-x11-server 1.20.0 update breaks Xfce with EXA acceleration
+- component: Basesystem
+  create_time: 20180728T10:45:00
+  id: 1102976
+  resolution: ''
+  status: NEW
+  summary: 'emacs-nox: new 2 sec startup delay'
 - component: X11 3rd Party Driver
   create_time: 20180728T00:33:00
   id: 1102969
