@@ -10943,6 +10943,31 @@
   status: RESOLVED
   summary: prompt-toolkit upgrade breaks IPython
 '20180726':
+- component: KDE Workspace (Plasma)
+  create_time: 20180728T16:41:00
+  id: 1102984
+  resolution: ''
+  status: NEW
+  summary: SDDM theme breeze-openSUSE does not load background component
+- component: YaST2
+  create_time: 20180728T16:17:00
+  id: 1102983
+  resolution: ''
+  status: NEW
+  summary: Leftover /etc/cron.d/suse-ntp_synchronize when switching NTP to daemon
+    mode
+- component: YaST2
+  create_time: 20180728T15:04:00
+  id: 1102982
+  resolution: ''
+  status: NEW
+  summary: Date and Time/NTP dialog - several errors during configuration
+- component: Network
+  create_time: 20180728T15:01:00
+  id: 1102981
+  resolution: ''
+  status: NEW
+  summary: OpenVPN files imported into Plasma Network Manager provides no WAN connection
 - component: X.Org
   create_time: 20180728T11:08:00
   id: 1102979
