@@ -10943,6 +10943,19 @@
   status: RESOLVED
   summary: prompt-toolkit upgrade breaks IPython
 '20180726':
+- component: Network
+  create_time: 20180729T06:12:00
+  id: 1102989
+  resolution: ''
+  status: NEW
+  summary: nm-applet works very slow with a wi-fi on LXDE. Switch to other ssid more
+    then 2 minutes
+- component: Development
+  create_time: 20180729T06:07:00
+  id: 1102988
+  resolution: ''
+  status: NEW
+  summary: qgit custom action not working
 - component: Other
   create_time: 20180729T01:00:00
   id: 1102986
