@@ -10943,6 +10943,18 @@
   status: RESOLVED
   summary: prompt-toolkit upgrade breaks IPython
 '20180726':
+- component: Other
+  create_time: 20180729T01:00:00
+  id: 1102986
+  resolution: ''
+  status: NEW
+  summary: Xelatex does not compile
+- component: Kernel
+  create_time: 20180729T00:55:00
+  id: 1102985
+  resolution: ''
+  status: NEW
+  summary: Synaptics touchpad does not work without grub edit
 - component: KDE Workspace (Plasma)
   create_time: 20180728T16:41:00
   id: 1102984
