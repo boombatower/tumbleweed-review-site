@@ -10943,6 +10943,18 @@
   status: RESOLVED
   summary: prompt-toolkit upgrade breaks IPython
 '20180726':
+- component: X11 Applications
+  create_time: 20180729T13:07:00
+  id: 1102999
+  resolution: ''
+  status: NEW
+  summary: LMMS won't start "invalid pointer"
+- component: X11 Applications
+  create_time: 20180729T12:48:00
+  id: 1102998
+  resolution: ''
+  status: NEW
+  summary: LinuxSampler conflicts with nilfs-utils
 - component: Network
   create_time: 20180729T06:12:00
   id: 1102989
@@ -10953,8 +10965,8 @@
 - component: Development
   create_time: 20180729T06:07:00
   id: 1102988
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: qgit custom action not working
 - component: Other
   create_time: 20180729T01:00:00
