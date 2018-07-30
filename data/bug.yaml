@@ -12,7 +12,7 @@
   status: NEW
   summary: '"/etc/zypp/zypp.conf:rpm.install.excludedocs = yes" breaks dovecot post
     scriptlet -> no working dovecot in containers'
-- component: Upgrade Problems
+- component: libzypp
   create_time: 20171201T20:28:00
   id: 1070851
   resolution: ''
@@ -6584,8 +6584,8 @@
 - component: Basesystem
   create_time: 20180403T15:50:00
   id: 1087925
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: sddm-helper not working with NIS enabled
 - component: Basesystem
   create_time: 20180403T15:43:00
@@ -7649,12 +7649,13 @@
   resolution: FIXED
   status: RESOLVED
   summary: libyui-qt{,-pkg,graph} does not build with Qt 5.11
-- component: Other
+- component: GNOME
   create_time: 20180427T15:37:00
   id: 1091245
   resolution: ''
   status: IN_PROGRESS
-  summary: '[20180425] VNC not working. Black screen appears.'
+  summary: '[20180425] Black screen in VNC because GTK selects Wayland backend in
+    X11 session.'
 - component: KDE Workspace (Plasma)
   create_time: 20180427T09:40:00
   id: 1091191
@@ -10783,7 +10784,7 @@
   status: RESOLVED
   summary: Fatal error "ARM with non-EFI" in yast2-bootloader module on Raspberry
     Pi 2 model B
-- component: Kernel
+- component: Basesystem
   create_time: 20180721T08:43:00
   id: 1102128
   resolution: ''
@@ -10943,11 +10944,17 @@
   status: RESOLVED
   summary: prompt-toolkit upgrade breaks IPython
 '20180726':
+- component: Installation
+  create_time: 20180730T06:59:00
+  id: 1103042
+  resolution: ''
+  status: NEW
+  summary: Default Partitions, Bad Sizes
 - component: Other
   create_time: 20180729T22:05:00
   id: 1103013
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python3-prompt_toolkit 2.0.4 Is Incompatible with python3-jupyter_ipython
     6.4.0
 - component: Development
@@ -11010,7 +11017,7 @@
   create_time: 20180728T15:04:00
   id: 1102982
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Date and Time/NTP dialog - several errors during configuration
 - component: Network
   create_time: 20180728T15:01:00
@@ -11119,7 +11126,7 @@
   create_time: 20180727T05:45:00
   id: 1102819
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: saltstack server_id changes with each run on python3
 - component: Network
   create_time: 20180726T14:46:00
