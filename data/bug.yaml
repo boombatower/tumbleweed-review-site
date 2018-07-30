@@ -6829,8 +6829,8 @@
 - component: Basesystem
   create_time: 20180409T14:40:00
   id: 1088702
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: rpcbind not starting with 20180404 Tumbleweed release
 - component: Kubic
   create_time: 20180409T12:18:00
@@ -8317,9 +8317,8 @@
   create_time: 20180514T12:23:00
   id: 1093132
   resolution: ''
-  status: NEW
-  summary: 'Error CRI: unable to check if the container runtime dockershim.sock is
-    running'
+  status: CONFIRMED
+  summary: kubeadm not running on Tumbleweed
 - component: Bootloader
   create_time: 20180514T10:54:00
   id: 1093113
@@ -10944,6 +10943,18 @@
   status: RESOLVED
   summary: prompt-toolkit upgrade breaks IPython
 '20180726':
+- component: GNOME
+  create_time: 20180730T12:30:00
+  id: 1103093
+  resolution: ''
+  status: NEW
+  summary: gdm SUSEPasswordlessEnable missing in gdm.schemas
+- component: LibreOffice
+  create_time: 20180730T10:51:00
+  id: 1103078
+  resolution: ''
+  status: NEW
+  summary: error while loading shared libraries
 - component: Installation
   create_time: 20180730T06:59:00
   id: 1103042
@@ -11003,8 +11014,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180728T16:41:00
   id: 1102984
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: SDDM theme breeze-openSUSE does not load background component
 - component: YaST2
   create_time: 20180728T16:17:00
@@ -11034,8 +11045,8 @@
 - component: Basesystem
   create_time: 20180728T10:45:00
   id: 1102976
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'emacs-nox: new 2 sec startup delay'
 - component: X11 3rd Party Driver
   create_time: 20180728T00:33:00
