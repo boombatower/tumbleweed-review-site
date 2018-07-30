@@ -10943,6 +10943,19 @@
   status: RESOLVED
   summary: prompt-toolkit upgrade breaks IPython
 '20180726':
+- component: Other
+  create_time: 20180729T22:05:00
+  id: 1103013
+  resolution: ''
+  status: NEW
+  summary: python3-prompt_toolkit 2.0.4 Is Incompatible with python3-jupyter_ipython
+    6.4.0
+- component: Development
+  create_time: 20180729T20:36:00
+  id: 1103012
+  resolution: ''
+  status: NEW
+  summary: Octave Forge packages shared library dependency
 - component: X11 Applications
   create_time: 20180729T13:07:00
   id: 1102999
