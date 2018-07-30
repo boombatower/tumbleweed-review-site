@@ -10944,6 +10944,18 @@
   summary: prompt-toolkit upgrade breaks IPython
 '20180726':
 - component: GNOME
+  create_time: 20180730T17:50:00
+  id: 1103136
+  resolution: ''
+  status: NEW
+  summary: 'Gnome: Xwayland crashes on FFox opening https://maps.google.com'
+- component: Basesystem
+  create_time: 20180730T16:21:00
+  id: 1103124
+  resolution: ''
+  status: NEW
+  summary: glibc postinstall should not reload init anymore
+- component: GNOME
   create_time: 20180730T12:30:00
   id: 1103093
   resolution: ''
