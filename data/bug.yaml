@@ -11199,8 +11199,8 @@
 - component: Apache
   create_time: 20180726T07:47:00
   id: 1102698
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180725] openQA test fails in php7'
 - component: Security
   create_time: 20180726T07:43:00
