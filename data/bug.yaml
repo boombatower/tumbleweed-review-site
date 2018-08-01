@@ -11016,7 +11016,7 @@
   create_time: 20180729T13:07:00
   id: 1102999
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: LMMS won't start "invalid pointer"
 - component: X11 Applications
   create_time: 20180729T12:48:00
