@@ -9443,8 +9443,8 @@
 - component: LXDE
   create_time: 20180615T11:54:00
   id: 1097842
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Installer shows no LXQt icon in pattern
 - component: Kernel
   create_time: 20180615T11:51:00
@@ -10944,6 +10944,19 @@
   summary: prompt-toolkit upgrade breaks IPython
 '20180726':
 - component: Basesystem
+  create_time: 20180801T04:49:00
+  id: 1103326
+  resolution: ''
+  status: NEW
+  summary: minimal_base pattern shouldn't have any recommends
+- component: Basesystem
+  create_time: 20180801T04:45:00
+  id: 1103325
+  resolution: ''
+  status: NEW
+  summary: 'Patterns: minimal_base_conflicts should probably be removed, its not in
+    Leap or SLE'
+- component: Basesystem
   create_time: 20180731T15:36:00
   id: 1103271
   resolution: ''
@@ -11106,8 +11119,8 @@
 - component: Other
   create_time: 20180727T13:25:00
   id: 1102889
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: gdal linking to libproj perhaps broken
 - component: Other
   create_time: 20180727T09:47:00
