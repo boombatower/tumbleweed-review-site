@@ -1035,8 +1035,8 @@
 - component: Basesystem
   create_time: 20171225T13:44:00
   id: 1074067
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Linux does not obey nice level of process running under systemd
 - component: KDE Workspace (Plasma)
   create_time: 20171225T11:57:00
@@ -9892,8 +9892,8 @@
 - component: Other
   create_time: 20180628T10:14:00
   id: 1099475
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Texlive language babel does not recommend its respective hyphen
 '20180629':
 - component: YaST2
@@ -10943,6 +10943,12 @@
   status: RESOLVED
   summary: prompt-toolkit upgrade breaks IPython
 '20180726':
+- component: Virtualization:Tools
+  create_time: 20180801T14:46:00
+  id: 1103426
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed installation freezes when using QXL driver
 - component: Basesystem
   create_time: 20180801T04:49:00
   id: 1103326
@@ -10973,7 +10979,8 @@
   id: 1103136
   resolution: ''
   status: IN_PROGRESS
-  summary: 'Gnome: Xwayland crashes on FFox opening https://maps.google.com'
+  summary: Wayland freeze triggered when browsing web using Firefox (often from Gnome
+    Wayland session)
 - component: Basesystem
   create_time: 20180730T16:21:00
   id: 1103124
@@ -11033,8 +11040,8 @@
 - component: Other
   create_time: 20180729T01:00:00
   id: 1102986
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Xelatex does not compile
 - component: Kernel
   create_time: 20180729T00:55:00
