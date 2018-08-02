@@ -433,3 +433,6 @@
 '20180726':
   score: 92
   stability_level: stable
+'20180731':
+  score: 96
+  stability_level: pending
