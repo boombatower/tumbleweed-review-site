@@ -10038,8 +10038,8 @@
 - component: Other
   create_time: 20180702T07:00:00
   id: 1099800
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180629] LxQT does not start up session, but asks for WM'
 '20180703':
 - component: X.Org
@@ -10943,6 +10943,19 @@
   status: RESOLVED
   summary: prompt-toolkit upgrade breaks IPython
 '20180726':
+- component: Other
+  create_time: 20180802T11:35:00
+  id: 1103561
+  resolution: ''
+  status: NEW
+  summary: '[HPC, slurmctld] slurmctld fails to start on boot when using a shared
+    remote StateSaveLocation'
+- component: X11 Applications
+  create_time: 20180802T11:15:00
+  id: 1103556
+  resolution: ''
+  status: NEW
+  summary: xorgxrdp doesn't match Xorg version
 - component: X.Org
   create_time: 20180802T09:22:00
   id: 1103537
