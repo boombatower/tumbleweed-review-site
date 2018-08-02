@@ -10264,8 +10264,8 @@
 - component: Basesystem
   create_time: 20180707T19:58:00
   id: 1100504
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: GNU make 4.2.1 is broken wrt -jN
 - component: X.Org
   create_time: 20180707T18:41:00
@@ -10943,62 +10943,6 @@
   status: RESOLVED
   summary: prompt-toolkit upgrade breaks IPython
 '20180726':
-- component: Other
-  create_time: 20180802T11:35:00
-  id: 1103561
-  resolution: ''
-  status: NEW
-  summary: '[HPC, slurmctld] slurmctld fails to start on boot when using a shared
-    remote StateSaveLocation'
-- component: X11 Applications
-  create_time: 20180802T11:15:00
-  id: 1103556
-  resolution: ''
-  status: NEW
-  summary: xorgxrdp doesn't match Xorg version
-- component: X.Org
-  create_time: 20180802T09:22:00
-  id: 1103537
-  resolution: ''
-  status: IN_PROGRESS
-  summary: X fails to start, if VNC is enabled
-- component: Kernel
-  create_time: 20180802T05:54:00
-  id: 1103514
-  resolution: ''
-  status: NEW
-  summary: Long boot time with USB External Hard Drive connected
-- component: Virtualization:Tools
-  create_time: 20180801T14:46:00
-  id: 1103426
-  resolution: ''
-  status: NEW
-  summary: Tumbleweed installation freezes when using QXL driver
-- component: Basesystem
-  create_time: 20180801T04:49:00
-  id: 1103326
-  resolution: ''
-  status: NEW
-  summary: minimal_base pattern shouldn't have any recommends
-- component: Basesystem
-  create_time: 20180801T04:45:00
-  id: 1103325
-  resolution: ''
-  status: NEW
-  summary: 'Patterns: minimal_base_conflicts should probably be removed, its not in
-    Leap or SLE'
-- component: Basesystem
-  create_time: 20180731T15:36:00
-  id: 1103271
-  resolution: ''
-  status: NEW
-  summary: After adding device to a btrfs filesystem, system does not boot
-- component: Development
-  create_time: 20180731T11:52:00
-  id: 1103239
-  resolution: ''
-  status: NEW
-  summary: valgrind doesn't understand -z separate-code linked objects
 - component: X.Org
   create_time: 20180730T17:50:00
   id: 1103136
@@ -11278,3 +11222,60 @@
   resolution: UPSTREAM
   status: RESOLVED
   summary: libicu52_1 is required by .NET Core but is not provided.
+'20180731':
+- component: Other
+  create_time: 20180802T11:35:00
+  id: 1103561
+  resolution: ''
+  status: NEW
+  summary: '[HPC, slurmctld] slurmctld fails to start on boot when using a shared
+    remote StateSaveLocation'
+- component: X11 Applications
+  create_time: 20180802T11:15:00
+  id: 1103556
+  resolution: ''
+  status: NEW
+  summary: xorgxrdp doesn't match Xorg version
+- component: X.Org
+  create_time: 20180802T09:22:00
+  id: 1103537
+  resolution: FIXED
+  status: RESOLVED
+  summary: X fails to start, if VNC is enabled
+- component: Kernel
+  create_time: 20180802T05:54:00
+  id: 1103514
+  resolution: ''
+  status: NEW
+  summary: Long boot time with USB External Hard Drive connected
+- component: Virtualization:Tools
+  create_time: 20180801T14:46:00
+  id: 1103426
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed installation freezes when using QXL driver
+- component: Basesystem
+  create_time: 20180801T04:49:00
+  id: 1103326
+  resolution: ''
+  status: NEW
+  summary: minimal_base pattern shouldn't have any recommends
+- component: Basesystem
+  create_time: 20180801T04:45:00
+  id: 1103325
+  resolution: ''
+  status: NEW
+  summary: 'Patterns: minimal_base_conflicts should probably be removed, its not in
+    Leap or SLE'
+- component: Basesystem
+  create_time: 20180731T15:36:00
+  id: 1103271
+  resolution: ''
+  status: NEW
+  summary: After adding device to a btrfs filesystem, system does not boot
+- component: Development
+  create_time: 20180731T11:52:00
+  id: 1103239
+  resolution: ''
+  status: NEW
+  summary: valgrind doesn't understand -z separate-code linked objects
