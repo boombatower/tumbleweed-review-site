@@ -9259,7 +9259,7 @@
   create_time: 20180607T07:41:00
   id: 1096401
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: 'snapper: segfault found in openQA tests'
 - component: Basesystem
   create_time: 20180606T16:16:00
@@ -10943,6 +10943,18 @@
   status: RESOLVED
   summary: prompt-toolkit upgrade breaks IPython
 '20180726':
+- component: X.Org
+  create_time: 20180802T09:22:00
+  id: 1103537
+  resolution: ''
+  status: IN_PROGRESS
+  summary: X fails to start, if VNC is enabled
+- component: Kernel
+  create_time: 20180802T05:54:00
+  id: 1103514
+  resolution: ''
+  status: NEW
+  summary: Long boot time with USB External Hard Drive connected
 - component: Virtualization:Tools
   create_time: 20180801T14:46:00
   id: 1103426
