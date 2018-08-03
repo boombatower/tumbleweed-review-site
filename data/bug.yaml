@@ -11223,6 +11223,18 @@
   status: RESOLVED
   summary: libicu52_1 is required by .NET Core but is not provided.
 '20180731':
+- component: GNOME
+  create_time: 20180803T01:37:00
+  id: 1103648
+  resolution: ''
+  status: NEW
+  summary: gpk-prefs has no option to disable automatic update checks
+- component: Other
+  create_time: 20180802T22:35:00
+  id: 1103640
+  resolution: ''
+  status: NEW
+  summary: Add NUT-Monitor package to openSUSE Tumbleweed
 - component: Other
   create_time: 20180802T11:35:00
   id: 1103561
