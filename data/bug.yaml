@@ -11223,6 +11223,18 @@
   status: RESOLVED
   summary: libicu52_1 is required by .NET Core but is not provided.
 '20180731':
+- component: X.Org
+  create_time: 20180803T20:06:00
+  id: 1103789
+  resolution: ''
+  status: NEW
+  summary: Xwayland gets stuck in infinite loop
+- component: X.Org
+  create_time: 20180803T18:52:00
+  id: 1103779
+  resolution: ''
+  status: NEW
+  summary: Firefox freezes Wayland session
 - component: Development
   create_time: 20180803T13:39:00
   id: 1103735
