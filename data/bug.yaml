@@ -8600,7 +8600,7 @@
   create_time: 20180522T07:51:00
   id: 1094148
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[SLE-Classic] The "Applications" window floats far away from the menu
     bar.'
 '20180523':
@@ -11223,6 +11223,12 @@
   status: RESOLVED
   summary: libicu52_1 is required by .NET Core but is not provided.
 '20180731':
+- component: Kernel
+  create_time: 20180803T08:06:00
+  id: 1103673
+  resolution: ''
+  status: NEW
+  summary: kernel-devel and kernel-default-devel inconsistent versions in download.opensuse.org
 - component: GNOME
   create_time: 20180803T01:37:00
   id: 1103648
