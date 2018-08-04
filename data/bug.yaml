@@ -11223,6 +11223,12 @@
   status: RESOLVED
   summary: libicu52_1 is required by .NET Core but is not provided.
 '20180731':
+- component: Containers
+  create_time: 20180804T09:42:00
+  id: 1103802
+  resolution: ''
+  status: NEW
+  summary: Enable ipv6 by default
 - component: X.Org
   create_time: 20180803T20:06:00
   id: 1103789
