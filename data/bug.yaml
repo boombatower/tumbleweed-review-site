@@ -11226,8 +11226,8 @@
 - component: X.Org
   create_time: 20180803T20:06:00
   id: 1103789
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Xwayland gets stuck in infinite loop
 - component: X.Org
   create_time: 20180803T18:52:00
