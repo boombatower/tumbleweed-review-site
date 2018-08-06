@@ -11286,6 +11286,12 @@
   status: NEW
   summary: valgrind doesn't understand -z separate-code linked objects
 '20180803':
+- component: Other
+  create_time: 20180806T05:40:00
+  id: 1103835
+  resolution: ''
+  status: NEW
+  summary: Firefox and other applications don't start with Glib-GIO-ERROR
 - component: X.Org
   create_time: 20180805T19:33:00
   id: 1103824
