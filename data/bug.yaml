@@ -8378,8 +8378,8 @@
 - component: Installation
   create_time: 20180513T04:42:00
   id: 1093033
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180511] openQA test fails in consoletest_setup, curl failed with
     Could not connect to Server'
 '20180515':
@@ -10699,7 +10699,7 @@
   create_time: 20180720T12:37:00
   id: 1102051
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20180719] steam installation failed - nothing provides libnm-glib4-32bit'
 - component: Development
   create_time: 20180720T00:43:00
@@ -10965,8 +10965,8 @@
 - component: Installation
   create_time: 20180730T06:59:00
   id: 1103042
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Default Partitions, Bad Sizes
 - component: Other
   create_time: 20180729T22:05:00
@@ -11239,8 +11239,8 @@
 - component: X11 Applications
   create_time: 20180802T11:15:00
   id: 1103556
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: xorgxrdp doesn't match Xorg version
 - component: X.Org
   create_time: 20180802T09:22:00
@@ -11286,42 +11286,6 @@
   status: NEW
   summary: valgrind doesn't understand -z separate-code linked objects
 '20180803':
-- component: Other
-  create_time: 20180806T05:40:00
-  id: 1103835
-  resolution: ''
-  status: NEW
-  summary: Firefox and other applications don't start with Glib-GIO-ERROR
-- component: X.Org
-  create_time: 20180805T19:33:00
-  id: 1103824
-  resolution: ''
-  status: NEW
-  summary: No windows rendered on external monitor with Nouveau and reverse prime.
-- component: X11 3rd Party Driver
-  create_time: 20180805T06:53:00
-  id: 1103816
-  resolution: ''
-  status: NEW
-  summary: nvidia-prime for openSUSE
-- component: Network
-  create_time: 20180805T06:32:00
-  id: 1103814
-  resolution: ''
-  status: NEW
-  summary: NetworkManager  - fortisslvpn and ssh
-- component: Security
-  create_time: 20180804T21:48:00
-  id: 1103811
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: meson: new polkit policies com.mesonbuild.install'
-- component: Containers
-  create_time: 20180804T09:42:00
-  id: 1103802
-  resolution: ''
-  status: NEW
-  summary: Enable ipv6 by default
 - component: X.Org
   create_time: 20180803T20:06:00
   id: 1103789
@@ -11343,19 +11307,74 @@
 - component: Installation
   create_time: 20180803T10:29:00
   id: 1103702
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Check Installation Media doesn't recognize bootable USB stick as a valid
     source
-- component: Kernel
-  create_time: 20180803T08:06:00
-  id: 1103673
-  resolution: ''
-  status: NEW
-  summary: kernel-devel and kernel-default-devel inconsistent versions in download.opensuse.org
 - component: GNOME
   create_time: 20180803T01:37:00
   id: 1103648
   resolution: ''
   status: NEW
   summary: gpk-prefs has no option to disable automatic update checks
+'20180804':
+- component: Development
+  create_time: 20180806T16:09:00
+  id: 1103927
+  resolution: ''
+  status: NEW
+  summary: 'RPM: brp-25-symlink fails when link or link-dest contains whitespace'
+- component: GNOME
+  create_time: 20180806T12:52:00
+  id: 1103912
+  resolution: INVALID
+  status: RESOLVED
+  summary: Latest update removes pam_mount from gdm
+- component: Kubic
+  create_time: 20180806T12:20:00
+  id: 1103906
+  resolution: ''
+  status: NEW
+  summary: Refocus Kubic on new architecture design
+- component: Other
+  create_time: 20180806T12:07:00
+  id: 1103904
+  resolution: ''
+  status: NEW
+  summary: Update Minetest to 4.17.1 please
+- component: Basesystem
+  create_time: 20180806T05:40:00
+  id: 1103835
+  resolution: ''
+  status: NEW
+  summary: Firefox and other applications don't start with Glib-GIO-ERROR
+- component: X.Org
+  create_time: 20180805T19:33:00
+  id: 1103824
+  resolution: ''
+  status: NEW
+  summary: No windows rendered on external monitor with Nouveau and reverse prime.
+- component: X11 Applications
+  create_time: 20180805T15:49:00
+  id: 1103822
+  resolution: ''
+  status: NEW
+  summary: Please update LMMS version in Multimedia repo to latest RC
+- component: X11 3rd Party Driver
+  create_time: 20180805T06:53:00
+  id: 1103816
+  resolution: ''
+  status: NEW
+  summary: nvidia-prime for openSUSE
+- component: Network
+  create_time: 20180805T06:32:00
+  id: 1103814
+  resolution: ''
+  status: NEW
+  summary: NetworkManager  - fortisslvpn and ssh
+- component: Containers
+  create_time: 20180804T09:42:00
+  id: 1103802
+  resolution: ''
+  status: NEW
+  summary: Enable ipv6 by default
