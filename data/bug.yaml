@@ -10838,8 +10838,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180725T20:04:00
   id: 1102625
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Snapshot 20180723 severely broke Kontact and Falkon
 - component: X11 Applications
   create_time: 20180725T15:27:00
@@ -11286,6 +11286,12 @@
   status: NEW
   summary: valgrind doesn't understand -z separate-code linked objects
 '20180803':
+- component: X.Org
+  create_time: 20180805T19:33:00
+  id: 1103824
+  resolution: ''
+  status: NEW
+  summary: No windows rendered on external monitor with Nouveau and reverse prime.
 - component: X11 3rd Party Driver
   create_time: 20180805T06:53:00
   id: 1103816
