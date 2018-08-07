@@ -11318,6 +11318,12 @@
   status: NEW
   summary: gpk-prefs has no option to disable automatic update checks
 '20180804':
+- component: Kernel
+  create_time: 20180807T09:37:00
+  id: 1104024
+  resolution: ''
+  status: NEW
+  summary: touchpad stops working randomly in thinkpad helix
 - component: Development
   create_time: 20180806T16:09:00
   id: 1103927
