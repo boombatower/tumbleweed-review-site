@@ -11137,8 +11137,8 @@
 - component: Kubic
   create_time: 20180727T06:47:00
   id: 1102825
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: '[Build 20180726]'
 - component: Other
   create_time: 20180727T05:45:00
