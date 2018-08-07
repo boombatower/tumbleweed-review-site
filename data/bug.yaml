@@ -11318,6 +11318,18 @@
   status: NEW
   summary: gpk-prefs has no option to disable automatic update checks
 '20180804':
+- component: GNOME
+  create_time: 20180807T20:47:00
+  id: 1104112
+  resolution: ''
+  status: NEW
+  summary: Fix Nautilus dependency on Tracker package in Tumbleweed 20180804
+- component: LibreOffice
+  create_time: 20180807T17:28:00
+  id: 1104094
+  resolution: ''
+  status: NEW
+  summary: Calc - cannot reduce width of spreadsheet to show less than 5 columns
 - component: Kernel
   create_time: 20180807T09:37:00
   id: 1104024
