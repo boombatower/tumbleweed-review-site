@@ -8386,8 +8386,8 @@
 - component: YaST2
   create_time: 20180515T16:49:00
   id: 1093392
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2 timezone does not change /etc/sysconfig/clock correctly
 - component: Basesystem
   create_time: 20180515T15:12:00
@@ -11349,6 +11349,12 @@
   status: NEW
   summary: Enable ipv6 by default
 '20180806':
+- component: X11 Applications
+  create_time: 20180808T12:17:00
+  id: 1104184
+  resolution: ''
+  status: NEW
+  summary: spyder3 crash
 - component: Security
   create_time: 20180808T06:06:00
   id: 1104135
@@ -11365,8 +11371,8 @@
 - component: LibreOffice
   create_time: 20180807T17:28:00
   id: 1104094
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Calc - cannot reduce width of spreadsheet to show less than 5 columns
 - component: Kernel
   create_time: 20180807T09:37:00
@@ -11396,7 +11402,7 @@
   create_time: 20180806T12:07:00
   id: 1103904
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Update Minetest to 4.17.1 please
 - component: Basesystem
   create_time: 20180806T05:40:00
