@@ -11349,37 +11349,6 @@
   status: NEW
   summary: Enable ipv6 by default
 '20180806':
-- component: X11 Applications
-  create_time: 20180808T12:17:00
-  id: 1104184
-  resolution: ''
-  status: NEW
-  summary: spyder3 crash
-- component: Security
-  create_time: 20180808T06:06:00
-  id: 1104135
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'polkit-default-privs: syntax error in GameMode whitelisting: "invalid
-    value (no in line 945"'
-- component: GNOME
-  create_time: 20180807T20:47:00
-  id: 1104112
-  resolution: ''
-  status: NEW
-  summary: Fix Nautilus dependency on Tracker package in Tumbleweed 20180804
-- component: LibreOffice
-  create_time: 20180807T17:28:00
-  id: 1104094
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: Calc - cannot reduce width of spreadsheet to show less than 5 columns
-- component: Kernel
-  create_time: 20180807T09:37:00
-  id: 1104024
-  resolution: ''
-  status: NEW
-  summary: touchpad stops working randomly in thinkpad helix
 - component: Development
   create_time: 20180806T16:09:00
   id: 1103927
@@ -11410,3 +11379,35 @@
   resolution: ''
   status: NEW
   summary: Firefox and other applications don't start with Glib-GIO-ERROR
+'20180807':
+- component: X11 Applications
+  create_time: 20180808T12:17:00
+  id: 1104184
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: spyder3 crash
+- component: Security
+  create_time: 20180808T06:06:00
+  id: 1104135
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'polkit-default-privs: syntax error in GameMode whitelisting: "invalid
+    value (no in line 945"'
+- component: GNOME
+  create_time: 20180807T20:47:00
+  id: 1104112
+  resolution: ''
+  status: NEW
+  summary: Fix Nautilus dependency on Tracker package in Tumbleweed 20180804
+- component: LibreOffice
+  create_time: 20180807T17:28:00
+  id: 1104094
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: Calc - cannot reduce width of spreadsheet to show less than 5 columns
+- component: Kernel
+  create_time: 20180807T09:37:00
+  id: 1104024
+  resolution: ''
+  status: NEW
+  summary: touchpad stops working randomly in thinkpad helix
