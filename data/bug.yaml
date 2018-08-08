@@ -11318,6 +11318,37 @@
   status: NEW
   summary: gpk-prefs has no option to disable automatic update checks
 '20180804':
+- component: X.Org
+  create_time: 20180805T19:33:00
+  id: 1103824
+  resolution: ''
+  status: NEW
+  summary: No windows rendered on external monitor with Nouveau and reverse prime.
+- component: X11 Applications
+  create_time: 20180805T15:49:00
+  id: 1103822
+  resolution: ''
+  status: NEW
+  summary: Please update LMMS version in Multimedia repo to latest RC
+- component: X11 3rd Party Driver
+  create_time: 20180805T06:53:00
+  id: 1103816
+  resolution: ''
+  status: NEW
+  summary: nvidia-prime for openSUSE
+- component: Network
+  create_time: 20180805T06:32:00
+  id: 1103814
+  resolution: ''
+  status: NEW
+  summary: NetworkManager  - fortisslvpn and ssh
+- component: Containers
+  create_time: 20180804T09:42:00
+  id: 1103802
+  resolution: ''
+  status: NEW
+  summary: Enable ipv6 by default
+'20180806':
 - component: GNOME
   create_time: 20180807T20:47:00
   id: 1104112
@@ -11366,33 +11397,3 @@
   resolution: ''
   status: NEW
   summary: Firefox and other applications don't start with Glib-GIO-ERROR
-- component: X.Org
-  create_time: 20180805T19:33:00
-  id: 1103824
-  resolution: ''
-  status: NEW
-  summary: No windows rendered on external monitor with Nouveau and reverse prime.
-- component: X11 Applications
-  create_time: 20180805T15:49:00
-  id: 1103822
-  resolution: ''
-  status: NEW
-  summary: Please update LMMS version in Multimedia repo to latest RC
-- component: X11 3rd Party Driver
-  create_time: 20180805T06:53:00
-  id: 1103816
-  resolution: ''
-  status: NEW
-  summary: nvidia-prime for openSUSE
-- component: Network
-  create_time: 20180805T06:32:00
-  id: 1103814
-  resolution: ''
-  status: NEW
-  summary: NetworkManager  - fortisslvpn and ssh
-- component: Containers
-  create_time: 20180804T09:42:00
-  id: 1103802
-  resolution: ''
-  status: NEW
-  summary: Enable ipv6 by default
