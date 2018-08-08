@@ -1815,8 +1815,8 @@
 - component: Other
   create_time: 20180115T11:08:00
   id: 1075971
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: update-alternatives - settings being reset
 - component: KDE Workspace (Plasma)
   create_time: 20180114T16:02:00
@@ -11349,6 +11349,13 @@
   status: NEW
   summary: Enable ipv6 by default
 '20180806':
+- component: Security
+  create_time: 20180808T06:06:00
+  id: 1104135
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'polkit-default-privs: syntax error in GameMode whitelisting: "invalid
+    value (no in line 945"'
 - component: GNOME
   create_time: 20180807T20:47:00
   id: 1104112
