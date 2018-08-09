@@ -9880,7 +9880,7 @@
   create_time: 20180628T12:13:00
   id: 1099494
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: zypper calls snapper, snapshot creation failed while snapper already running,
     still stalling system
 - component: GNOME
@@ -11187,8 +11187,8 @@
 - component: Security
   create_time: 20180726T07:52:00
   id: 1102702
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'VUL-0: CVE-2018-14524: libredwg: dwg_decode_eed in decode.c leads to a
     double free'
 - component: Apache
@@ -11200,8 +11200,8 @@
 - component: Security
   create_time: 20180726T07:43:00
   id: 1102696
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'VUL-1: CVE-2018-14471: libredwg: dwg_obj_block_control_get_block_headers
     in dwg_api.c allows remote attackers to cause a denial of service'
 - component: KDE Applications
@@ -11380,6 +11380,18 @@
   status: NEW
   summary: Firefox and other applications don't start with Glib-GIO-ERROR
 '20180807':
+- component: GNOME
+  create_time: 20180809T09:17:00
+  id: 1104322
+  resolution: ''
+  status: NEW
+  summary: Password accept but login failed
+- component: GNOME
+  create_time: 20180809T07:30:00
+  id: 1104305
+  resolution: ''
+  status: NEW
+  summary: User login prompt error after switch user
 - component: Basesystem
   create_time: 20180809T00:37:00
   id: 1104264
