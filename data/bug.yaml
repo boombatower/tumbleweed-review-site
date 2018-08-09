@@ -8983,8 +8983,8 @@
 - component: Installation
   create_time: 20180602T16:03:00
   id: 1095666
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Sword has broken dependencies
 - component: Kernel
   create_time: 20180601T15:02:00
@@ -11380,6 +11380,13 @@
   status: NEW
   summary: Firefox and other applications don't start with Glib-GIO-ERROR
 '20180807':
+- component: libzypp
+  create_time: 20180809T20:10:00
+  id: 1104415
+  resolution: ''
+  status: NEW
+  summary: zypper does not consider packages that are also applications as unneeded
+    if they are automatically installed
 - component: YaST2
   create_time: 20180809T16:35:00
   id: 1104382
