@@ -11380,6 +11380,18 @@
   status: NEW
   summary: Firefox and other applications don't start with Glib-GIO-ERROR
 '20180807':
+- component: YaST2
+  create_time: 20180809T16:35:00
+  id: 1104382
+  resolution: FIXED
+  status: RESOLVED
+  summary: Can not open any yast items
+- component: Installation
+  create_time: 20180809T15:43:00
+  id: 1104373
+  resolution: ''
+  status: NEW
+  summary: OpenSUSE Tumbleweed, WiFi Menu Broken in Netinstall
 - component: GNOME
   create_time: 20180809T09:17:00
   id: 1104322
