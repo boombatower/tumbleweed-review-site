@@ -11380,6 +11380,12 @@
   status: NEW
   summary: Firefox and other applications don't start with Glib-GIO-ERROR
 '20180807':
+- component: Basesystem
+  create_time: 20180809T00:37:00
+  id: 1104264
+  resolution: ''
+  status: NEW
+  summary: 'Recommended packages that are missing:'
 - component: X11 Applications
   create_time: 20180808T12:17:00
   id: 1104184
@@ -11397,7 +11403,7 @@
   create_time: 20180807T20:47:00
   id: 1104112
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Fix Nautilus dependency on Tracker package in Tumbleweed 20180804
 - component: LibreOffice
   create_time: 20180807T17:28:00
