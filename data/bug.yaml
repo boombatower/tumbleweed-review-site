@@ -7471,8 +7471,8 @@
 - component: X.Org
   create_time: 20180421T15:02:00
   id: 1090456
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: amdgpu [RX Vega 64] system freeze while gaming
 - component: YaST2
   create_time: 20180420T17:19:00
@@ -11403,13 +11403,13 @@
   create_time: 20180809T09:17:00
   id: 1104322
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Password accept but login failed
 - component: GNOME
   create_time: 20180809T07:30:00
   id: 1104305
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: User login prompt error after switch user
 - component: Basesystem
   create_time: 20180809T00:37:00
