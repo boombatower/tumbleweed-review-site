@@ -11295,8 +11295,8 @@
 - component: X.Org
   create_time: 20180803T18:52:00
   id: 1103779
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Firefox freezes Wayland session
 - component: Development
   create_time: 20180803T13:39:00
@@ -11380,6 +11380,44 @@
   status: NEW
   summary: Firefox and other applications don't start with Glib-GIO-ERROR
 '20180807':
+- component: GNOME
+  create_time: 20180807T20:47:00
+  id: 1104112
+  resolution: ''
+  status: CONFIRMED
+  summary: Fix Nautilus dependency on Tracker package in Tumbleweed 20180804
+- component: LibreOffice
+  create_time: 20180807T17:28:00
+  id: 1104094
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: Calc - cannot reduce width of spreadsheet to show less than 5 columns
+- component: Kernel
+  create_time: 20180807T09:37:00
+  id: 1104024
+  resolution: ''
+  status: NEW
+  summary: touchpad stops working randomly in thinkpad helix
+'20180808':
+- component: Kernel
+  create_time: 20180810T16:33:00
+  id: 1104529
+  resolution: ''
+  status: NEW
+  summary: 'Regression: cannot wake from STR'
+- component: Firefox
+  create_time: 20180810T13:51:00
+  id: 1104506
+  resolution: ''
+  status: NEW
+  summary: Webpage loading extremely slow when "Use proxy auto configuration URL"
+    is set in KDE System Proxy
+- component: Other
+  create_time: 20180810T11:30:00
+  id: 1104479
+  resolution: ''
+  status: NEW
+  summary: ucode-intel license change or license file added to tarball
 - component: Kubic
   create_time: 20180810T07:22:00
   id: 1104452
@@ -11409,7 +11447,7 @@
   create_time: 20180809T15:43:00
   id: 1104373
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: OpenSUSE Tumbleweed, WiFi Menu Broken in Netinstall
 - component: GNOME
   create_time: 20180809T09:17:00
@@ -11442,21 +11480,3 @@
   status: IN_PROGRESS
   summary: 'polkit-default-privs: syntax error in GameMode whitelisting: "invalid
     value (no in line 945"'
-- component: GNOME
-  create_time: 20180807T20:47:00
-  id: 1104112
-  resolution: ''
-  status: CONFIRMED
-  summary: Fix Nautilus dependency on Tracker package in Tumbleweed 20180804
-- component: LibreOffice
-  create_time: 20180807T17:28:00
-  id: 1104094
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: Calc - cannot reduce width of spreadsheet to show less than 5 columns
-- component: Kernel
-  create_time: 20180807T09:37:00
-  id: 1104024
-  resolution: ''
-  status: NEW
-  summary: touchpad stops working randomly in thinkpad helix
