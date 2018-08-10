@@ -10377,8 +10377,8 @@
 - component: libzypp
   create_time: 20180711T08:23:00
   id: 1100844
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '''zypper pa --unneeded'' does not report packages in presence of an appplication'
 - component: Other
   create_time: 20180710T17:39:00
@@ -11380,6 +11380,18 @@
   status: NEW
   summary: Firefox and other applications don't start with Glib-GIO-ERROR
 '20180807':
+- component: Kubic
+  create_time: 20180810T07:22:00
+  id: 1104452
+  resolution: ''
+  status: NEW
+  summary: 'transactional-update: /var/lib/zypp not a directory'
+- component: Basesystem
+  create_time: 20180810T05:03:00
+  id: 1104445
+  resolution: ''
+  status: CONFIRMED
+  summary: bzip2 package references bzip.org which may be stale
 - component: libzypp
   create_time: 20180809T20:10:00
   id: 1104415
