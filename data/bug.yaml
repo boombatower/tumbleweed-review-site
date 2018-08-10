@@ -11399,6 +11399,12 @@
   status: NEW
   summary: touchpad stops working randomly in thinkpad helix
 '20180808':
+- component: Other
+  create_time: 20180810T18:39:00
+  id: 1104541
+  resolution: ''
+  status: NEW
+  summary: 'sxiv: Error opening image'
 - component: Kernel
   create_time: 20180810T16:33:00
   id: 1104529
