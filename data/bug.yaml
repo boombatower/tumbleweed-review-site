@@ -11399,6 +11399,13 @@
   status: NEW
   summary: touchpad stops working randomly in thinkpad helix
 '20180808':
+- component: GNOME
+  create_time: 20180811T13:47:00
+  id: 1104585
+  resolution: ''
+  status: NEW
+  summary: Blackscreen on Gnome and Wayland on GPD-Pocket and the other Atom devices
+    in  Tumbleweed 20180807
 - component: Other
   create_time: 20180811T07:48:00
   id: 1104572
