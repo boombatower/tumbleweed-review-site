@@ -11399,6 +11399,12 @@
   status: NEW
   summary: touchpad stops working randomly in thinkpad helix
 '20180808':
+- component: Kernel
+  create_time: 20180811T03:39:00
+  id: 1104570
+  resolution: ''
+  status: NEW
+  summary: Synaptics touchpad does not work without grub edit
 - component: Other
   create_time: 20180810T18:39:00
   id: 1104541
