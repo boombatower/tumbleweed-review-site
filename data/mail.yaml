@@ -1077,6 +1077,9 @@
   threads: []
 '20180808':
   announcement: 2018-08.165
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages: [2018-08.170]
+    reference_count: 1
+    summary: fusesmb stopped working
