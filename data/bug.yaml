@@ -11399,6 +11399,12 @@
   status: NEW
   summary: touchpad stops working randomly in thinkpad helix
 '20180808':
+- component: Other
+  create_time: 20180811T07:48:00
+  id: 1104572
+  resolution: ''
+  status: NEW
+  summary: fusesmb no longer works after update of libfuse to version 2.9.8
 - component: Kernel
   create_time: 20180811T03:39:00
   id: 1104570
@@ -11417,7 +11423,7 @@
   resolution: ''
   status: NEW
   summary: 'Regression: cannot wake from STR'
-- component: Firefox
+- component: KDE Workspace (Plasma)
   create_time: 20180810T13:51:00
   id: 1104506
   resolution: ''
