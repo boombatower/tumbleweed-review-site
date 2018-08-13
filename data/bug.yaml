@@ -4005,7 +4005,7 @@
   create_time: 20180215T05:56:00
   id: 1081099
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Package Mypaint is broken
 - component: Basesystem
   create_time: 20180215T04:40:00
@@ -4734,8 +4734,8 @@
 - component: libzypp
   create_time: 20180227T10:33:00
   id: 1083023
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: '[Build 20180226] openQA test fails in salt  for ppc64 (BE)'
 - component: Security
   create_time: 20180227T10:30:00
@@ -10921,7 +10921,7 @@
   create_time: 20180723T12:36:00
   id: 1102235
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20180721] named service is not stopped when stopping using yast
     dns module'
 - component: KDE Applications
@@ -11403,7 +11403,7 @@
   create_time: 20180812T19:54:00
   id: 1104598
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: /etc/crictl.yaml owned by wrong package (cri-o not cri-tools)
 - component: X11 Applications
   create_time: 20180812T19:07:00
