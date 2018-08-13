@@ -3853,7 +3853,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: White background in One-Click Install window
-- component: GNOME
+- component: Network
   create_time: 20180213T10:17:00
   id: 1080761
   resolution: ''
@@ -11429,7 +11429,7 @@
   id: 1104529
   resolution: ''
   status: NEW
-  summary: 'Regression: cannot wake from STR'
+  summary: 'Regression: Linux 4.16.0 .. 4.17-rc2 cannot wake from STR'
 - component: KDE Workspace (Plasma)
   create_time: 20180810T13:51:00
   id: 1104506
@@ -11506,11 +11506,17 @@
   summary: 'polkit-default-privs: syntax error in GameMode whitelisting: "invalid
     value (no in line 945"'
 '20180812':
+- component: Virtualization:Tools
+  create_time: 20180813T15:23:00
+  id: 1104695
+  resolution: ''
+  status: NEW
+  summary: Cannot open console with virt-viewer after starting kvm-guest
 - component: YaST2
   create_time: 20180813T08:47:00
   id: 1104634
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: save_y2logs does not depend on bzip2
 - component: Kubic
   create_time: 20180812T19:54:00
@@ -11522,7 +11528,7 @@
   create_time: 20180812T19:07:00
   id: 1104597
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: Calibre takes a long time to load when many fonts are installed
 - component: Other
   create_time: 20180812T10:29:00
