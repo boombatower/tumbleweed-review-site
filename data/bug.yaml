@@ -8093,8 +8093,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180503T09:07:00
   id: 1091784
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: SDDM screen is black after boot
 - component: KDE Applications
   create_time: 20180503T08:52:00
@@ -8966,7 +8966,7 @@
   create_time: 20180603T13:08:00
   id: 1095688
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Missing package when installing digikam on OpenSUSE with GNOME
 - component: Other
   create_time: 20180603T06:20:00
@@ -11046,8 +11046,8 @@
 - component: X.Org
   create_time: 20180728T11:08:00
   id: 1102979
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: xorg-x11-server 1.20.0 update breaks Xfce with EXA acceleration
 - component: Basesystem
   create_time: 20180728T10:45:00
@@ -11107,8 +11107,8 @@
 - component: Other
   create_time: 20180727T09:17:00
   id: 1102848
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180722] openQA test fails in salt for AArch64'
 - component: Development
   create_time: 20180727T08:35:00
@@ -11125,8 +11125,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180727T07:17:00
   id: 1102832
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180726] ostart_wayland_plasma5 fails to login'
 - component: Other
   create_time: 20180727T06:49:00
@@ -11399,24 +11399,6 @@
   status: NEW
   summary: touchpad stops working randomly in thinkpad helix
 '20180808':
-- component: Kubic
-  create_time: 20180812T19:54:00
-  id: 1104598
-  resolution: ''
-  status: CONFIRMED
-  summary: /etc/crictl.yaml owned by wrong package (cri-o not cri-tools)
-- component: X11 Applications
-  create_time: 20180812T19:07:00
-  id: 1104597
-  resolution: ''
-  status: NEW
-  summary: Calibre takes a long time to load when many fonts are installed
-- component: Other
-  create_time: 20180812T10:29:00
-  id: 1104594
-  resolution: ''
-  status: NEW
-  summary: VoIP programs fail to connect to a SIP account.
 - component: GNOME
   create_time: 20180811T13:47:00
   id: 1104585
@@ -11523,3 +11505,28 @@
   status: IN_PROGRESS
   summary: 'polkit-default-privs: syntax error in GameMode whitelisting: "invalid
     value (no in line 945"'
+'20180812':
+- component: YaST2
+  create_time: 20180813T08:47:00
+  id: 1104634
+  resolution: ''
+  status: NEW
+  summary: save_y2logs does not depend on bzip2
+- component: Kubic
+  create_time: 20180812T19:54:00
+  id: 1104598
+  resolution: FIXED
+  status: RESOLVED
+  summary: /etc/crictl.yaml owned by wrong package (cri-o not cri-tools)
+- component: X11 Applications
+  create_time: 20180812T19:07:00
+  id: 1104597
+  resolution: ''
+  status: NEW
+  summary: Calibre takes a long time to load when many fonts are installed
+- component: Other
+  create_time: 20180812T10:29:00
+  id: 1104594
+  resolution: ''
+  status: NEW
+  summary: VoIP programs fail to connect to a SIP account.
