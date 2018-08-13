@@ -1083,3 +1083,8 @@
   - messages: [2018-08.170]
     reference_count: 1
     summary: fusesmb stopped working
+'20180812':
+  announcement: 2018-08.181
+  reference_count: 0
+  thread_count: 0
+  threads: []
