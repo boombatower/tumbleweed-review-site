@@ -11327,8 +11327,8 @@
 - component: X11 Applications
   create_time: 20180805T15:49:00
   id: 1103822
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please update LMMS version in Multimedia repo to latest RC
 - component: X11 3rd Party Driver
   create_time: 20180805T06:53:00
@@ -11399,6 +11399,24 @@
   status: NEW
   summary: touchpad stops working randomly in thinkpad helix
 '20180808':
+- component: Kubic
+  create_time: 20180812T19:54:00
+  id: 1104598
+  resolution: ''
+  status: NEW
+  summary: /etc/crictl.yaml owned by wrong package (cri-o not cri-tools)
+- component: X11 Applications
+  create_time: 20180812T19:07:00
+  id: 1104597
+  resolution: ''
+  status: NEW
+  summary: Calibre takes a long time to load when many fonts are installed
+- component: Other
+  create_time: 20180812T10:29:00
+  id: 1104594
+  resolution: ''
+  status: NEW
+  summary: VoIP programs fail to connect to a SIP account.
 - component: GNOME
   create_time: 20180811T13:47:00
   id: 1104585
