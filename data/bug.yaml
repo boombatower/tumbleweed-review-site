@@ -3078,8 +3078,8 @@
 - component: Kernel
   create_time: 20180205T17:27:00
   id: 1079416
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kernel 4.15 causing lock-up at shutdown
 - component: Kernel
   create_time: 20180205T16:55:00
@@ -11322,7 +11322,7 @@
   create_time: 20180805T19:33:00
   id: 1103824
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: No windows rendered on external monitor with Nouveau and reverse prime.
 - component: X11 Applications
   create_time: 20180805T15:49:00
@@ -11376,8 +11376,8 @@
 - component: Basesystem
   create_time: 20180806T05:40:00
   id: 1103835
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Firefox and other applications don't start with Glib-GIO-ERROR
 '20180807':
 - component: GNOME
