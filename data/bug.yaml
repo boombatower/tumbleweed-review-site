@@ -5086,8 +5086,8 @@
 - component: Kubic
   create_time: 20180306T15:51:00
   id: 1084149
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Introduce read-only-root-fs system_role in Leap 15 and Tumbleweed
 - component: Other
   create_time: 20180306T10:23:00
@@ -7281,8 +7281,8 @@
 - component: Kubic
   create_time: 20180417T13:08:00
   id: 1089871
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Cluster node vanishes in velum after accepting it
 - component: High Availability
   create_time: 20180417T10:30:00
@@ -7472,7 +7472,7 @@
   create_time: 20180421T15:02:00
   id: 1090456
   resolution: ''
-  status: REOPENED
+  status: CONFIRMED
   summary: amdgpu [RX Vega 64] system freeze while gaming
 - component: YaST2
   create_time: 20180420T17:19:00
@@ -8292,8 +8292,8 @@
 - component: Basesystem
   create_time: 20180514T15:37:00
   id: 1093165
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: csync2 using service template csync2@.service in preun
 - component: Basesystem
   create_time: 20180514T15:35:00
@@ -9950,8 +9950,8 @@
 - component: Kubic
   create_time: 20180629T14:12:00
   id: 1099700
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'Kubic snapshot 20180618: Bootstrap Kubernetes cluster failed'
 - component: Network
   create_time: 20180629T13:49:00
@@ -10545,7 +10545,7 @@
   status: IN_PROGRESS
   summary: 'spice-gtk: introduce separate group for spice-client-glib-usb-acl-helper
     setuid binary'
-- component: X.Org
+- component: Xfce
   create_time: 20180716T21:20:00
   id: 1101393
   resolution: ''
@@ -10946,8 +10946,8 @@
 - component: X.Org
   create_time: 20180730T17:50:00
   id: 1103136
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Wayland freeze triggered when browsing web using Firefox (often from Gnome
     Wayland session)
 - component: Basesystem
@@ -11058,14 +11058,14 @@
 - component: X11 3rd Party Driver
   create_time: 20180728T00:33:00
   id: 1102969
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: module version discrepancy breaking graphic environment
 - component: X11 3rd Party Driver
   create_time: 20180727T22:53:00
   id: 1102962
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: The /Bumblebee/openSUSE_Tumbleweed/X11 don't obsolete the G04 (newest cards')
     nvidia drivers
 - component: Virtualization:Tools
@@ -11506,11 +11506,54 @@
   summary: 'polkit-default-privs: syntax error in GameMode whitelisting: "invalid
     value (no in line 945"'
 '20180812':
+- component: Other
+  create_time: 20180814T19:30:00
+  id: 1104856
+  resolution: ''
+  status: NEW
+  summary: logrotate complains about wrong permission for squidGuard
+- component: Bootloader
+  create_time: 20180814T18:42:00
+  id: 1104850
+  resolution: ''
+  status: NEW
+  summary: Wrong prefix in GRUB at aarch64
+- component: Kernel
+  create_time: 20180814T16:49:00
+  id: 1104833
+  resolution: ''
+  status: NEW
+  summary: 'Initramfs unpacking failed: junk in compressed archive'
+- component: Kubic
+  create_time: 20180814T15:28:00
+  id: 1104821
+  resolution: ''
+  status: NEW
+  summary: Make cri-o default for kubernetes on Kubic
+- component: Virtualization:Tools
+  create_time: 20180814T15:20:00
+  id: 1104820
+  resolution: FIXED
+  status: RESOLVED
+  summary: libvirt json parse errors
+- component: YaST2
+  create_time: 20180814T12:25:00
+  id: 1104797
+  resolution: ''
+  status: CONFIRMED
+  summary: YaST creating dotfiles in $HOME
+- component: Kernel
+  create_time: 20180814T11:13:00
+  id: 1104792
+  resolution: ''
+  status: NEW
+  summary: magic-sysrq output does not show up on current selected console tty but
+    only in dmesg
 - component: Virtualization:Tools
   create_time: 20180813T15:23:00
   id: 1104695
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Cannot open console with virt-viewer after starting kvm-guest
 - component: YaST2
   create_time: 20180813T08:47:00
