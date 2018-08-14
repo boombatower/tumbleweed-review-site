@@ -11527,8 +11527,8 @@
 - component: X11 Applications
   create_time: 20180812T19:07:00
   id: 1104597
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Calibre takes a long time to load when many fonts are installed
 - component: Other
   create_time: 20180812T10:29:00
