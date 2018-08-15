@@ -11506,6 +11506,13 @@
   summary: 'polkit-default-privs: syntax error in GameMode whitelisting: "invalid
     value (no in line 945"'
 '20180812':
+- component: Basesystem
+  create_time: 20180814T22:44:00
+  id: 1104876
+  resolution: FIXED
+  status: RESOLVED
+  summary: Installing libxmlsec1-openssl1 does not upgrade libxmlsec1-1 to the same
+    version
 - component: Other
   create_time: 20180814T19:30:00
   id: 1104856
