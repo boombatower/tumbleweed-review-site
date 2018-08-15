@@ -11506,6 +11506,18 @@
   summary: 'polkit-default-privs: syntax error in GameMode whitelisting: "invalid
     value (no in line 945"'
 '20180812':
+- component: Other
+  create_time: 20180815T13:45:00
+  id: 1104935
+  resolution: ''
+  status: NEW
+  summary: AC power adapter detection does not work
+- component: GNOME
+  create_time: 20180815T08:54:00
+  id: 1104904
+  resolution: ''
+  status: NEW
+  summary: '[GNOME-Next Build 6.36] openQA test fails in finish_desktop'
 - component: Basesystem
   create_time: 20180814T22:44:00
   id: 1104876
