@@ -11422,7 +11422,7 @@
   create_time: 20180810T18:39:00
   id: 1104541
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'sxiv: Error opening image'
 - component: Kernel
   create_time: 20180810T16:33:00
@@ -11506,6 +11506,19 @@
   summary: 'polkit-default-privs: syntax error in GameMode whitelisting: "invalid
     value (no in line 945"'
 '20180812':
+- component: Installation
+  create_time: 20180815T20:03:00
+  id: 1104981
+  resolution: ''
+  status: NEW
+  summary: gscan2pdf not install in Tumbleweed
+- component: Sound
+  create_time: 20180815T15:55:00
+  id: 1104952
+  resolution: ''
+  status: NEW
+  summary: 'WINE: No sound in 32-bit SDL applications due to missing libpulse0-32bit
+    package'
 - component: Other
   create_time: 20180815T13:45:00
   id: 1104935
