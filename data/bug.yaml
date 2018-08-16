@@ -11429,7 +11429,8 @@
   id: 1104529
   resolution: ''
   status: NEW
-  summary: 'Regression: Linux 4.16.0 .. 4.17-rc2 cannot wake from STR'
+  summary: 'Regression: Linux 4.17 cannot wake from STR after ACPICA: Events: Stop
+    unconditionally clearing ACPI IRQs during suspend/resume'
 - component: KDE Workspace (Plasma)
   create_time: 20180810T13:51:00
   id: 1104506
