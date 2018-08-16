@@ -11506,6 +11506,18 @@
   summary: 'polkit-default-privs: syntax error in GameMode whitelisting: "invalid
     value (no in line 945"'
 '20180812':
+- component: Containers
+  create_time: 20180816T02:04:00
+  id: 1105000
+  resolution: ''
+  status: IN_PROGRESS
+  summary: harmonise docker and docker-kubic packaging
+- component: Network
+  create_time: 20180815T22:09:00
+  id: 1104990
+  resolution: ''
+  status: NEW
+  summary: firewalld cannot use NetworkManager interfaces
 - component: Installation
   create_time: 20180815T20:03:00
   id: 1104981
