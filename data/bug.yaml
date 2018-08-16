@@ -10393,7 +10393,7 @@
   resolution: ''
   status: NEW
   summary: gimp create from screenshot  snap region is missing in french and error
-- component: Kernel
+- component: X.Org
   create_time: 20180710T14:20:00
   id: 1100759
   resolution: ''
@@ -11527,8 +11527,8 @@
 - component: Sound
   create_time: 20180815T15:55:00
   id: 1104952
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'WINE: No sound in 32-bit SDL applications due to missing libpulse0-32bit
     package'
 - component: Other
