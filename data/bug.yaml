@@ -6479,8 +6479,8 @@
 - component: YaST2
   create_time: 20180330T00:48:00
   id: 1087555
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: "Configuring keyboard using Yast2 to use a German Keyboard with deadkeys\
     \ for console and KDE doesn\xB4t survive a reboot"
 '20180331':
@@ -7312,8 +7312,8 @@
 - component: Other
   create_time: 20180417T08:42:00
   id: 1089815
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'python-espressopp: Fails to build with Boost 1.67.0'
 - component: Other
   create_time: 20180417T08:39:00
@@ -7361,14 +7361,14 @@
 - component: Other
   create_time: 20180417T08:09:00
   id: 1089805
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'avogadro: Fails to build with Boost 1.67.0'
 - component: Other
   create_time: 20180417T07:51:00
   id: 1089801
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[TRACKER BUG] Boost upgrade to 1.67.0 compilation issues'
 - component: Development
   create_time: 20180417T03:40:00
@@ -10397,7 +10397,7 @@
   create_time: 20180710T14:20:00
   id: 1100759
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Periodic black screen at radeon
 - component: Kernel
   create_time: 20180710T11:57:00
@@ -11506,6 +11506,36 @@
   summary: 'polkit-default-privs: syntax error in GameMode whitelisting: "invalid
     value (no in line 945"'
 '20180812':
+- component: Basesystem
+  create_time: 20180816T14:13:00
+  id: 1105088
+  resolution: ''
+  status: NEW
+  summary: thin-provisioning-tools - Fails to build with Boost 1.68.0
+- component: Other
+  create_time: 20180816T14:05:00
+  id: 1105087
+  resolution: ''
+  status: NEW
+  summary: freeorion - Fails to build with Boost 1.68.0
+- component: Other
+  create_time: 20180816T13:48:00
+  id: 1105084
+  resolution: ''
+  status: NEW
+  summary: ledger - Fails to build with Boost 1.68.0
+- component: Other
+  create_time: 20180816T13:31:00
+  id: 1105081
+  resolution: ''
+  status: CONFIRMED
+  summary: '[TRACKER BUG] Boost upgrade to 1.68.0 compilation issues'
+- component: GNOME
+  create_time: 20180816T08:47:00
+  id: 1105030
+  resolution: ''
+  status: NEW
+  summary: Evolution missing dependency on enchant-2-backend-hunspell
 - component: Containers
   create_time: 20180816T02:04:00
   id: 1105000
@@ -11521,8 +11551,8 @@
 - component: Installation
   create_time: 20180815T20:03:00
   id: 1104981
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: gscan2pdf not install in Tumbleweed
 - component: Sound
   create_time: 20180815T15:55:00
