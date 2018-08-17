@@ -10754,8 +10754,8 @@
 - component: Kernel
   create_time: 20180719T10:18:00
   id: 1101822
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: cirrus.bpp=16 boot option leads to kernel Oops
 - component: Ruby
   create_time: 20180719T07:59:00
@@ -11507,11 +11507,17 @@
   summary: 'polkit-default-privs: syntax error in GameMode whitelisting: "invalid
     value (no in line 945"'
 '20180812':
+- component: Other
+  create_time: 20180817T07:22:00
+  id: 1105173
+  resolution: ''
+  status: NEW
+  summary: cmis-client - Fails to build with Boost 1.68.0
 - component: GNOME
   create_time: 20180817T01:53:00
   id: 1105158
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: nautilus SIGTRAP without tracker file /usr/share/tracker/domain-ontologies/default.rule
 - component: Development
   create_time: 20180816T21:26:00
