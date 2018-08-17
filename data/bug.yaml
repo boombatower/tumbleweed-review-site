@@ -10270,8 +10270,8 @@
 - component: X.Org
   create_time: 20180707T18:41:00
   id: 1100503
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Can't run X after upgrading Mesa
 - component: Development
   create_time: 20180707T14:08:00
@@ -11071,8 +11071,8 @@
 - component: Virtualization:Tools
   create_time: 20180727T17:18:00
   id: 1102932
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'Virt-viewer cannot connect to remote host: Time-out at socket I/O'
 - component: Network
   create_time: 20180727T16:22:00
@@ -11507,6 +11507,24 @@
   summary: 'polkit-default-privs: syntax error in GameMode whitelisting: "invalid
     value (no in line 945"'
 '20180812':
+- component: GNOME
+  create_time: 20180817T01:53:00
+  id: 1105158
+  resolution: ''
+  status: NEW
+  summary: nautilus SIGTRAP without tracker file /usr/share/tracker/domain-ontologies/default.rule
+- component: Development
+  create_time: 20180816T21:26:00
+  id: 1105150
+  resolution: ''
+  status: NEW
+  summary: Add Rakudo-Star (Perl6) package
+- component: Kernel
+  create_time: 20180816T21:20:00
+  id: 1105149
+  resolution: ''
+  status: NEW
+  summary: the whole machine keeps getting completely frozen up while gaming on steam
 - component: Basesystem
   create_time: 20180816T14:13:00
   id: 1105088
