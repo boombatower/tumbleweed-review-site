@@ -10061,11 +10061,11 @@
   status: RESOLVED
   summary: Notebook does reboot instead power off when pressing power button
 '20180704':
-- component: YaST2
+- component: libzypp
   create_time: 20180706T14:45:00
   id: 1100427
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Unable to install linux kernel via dud
 - component: Basesystem
   create_time: 20180706T14:16:00
@@ -11334,7 +11334,7 @@
   create_time: 20180805T06:53:00
   id: 1103816
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: nvidia-prime for openSUSE
 - component: Network
   create_time: 20180805T06:32:00
@@ -11507,11 +11507,36 @@
   summary: 'polkit-default-privs: syntax error in GameMode whitelisting: "invalid
     value (no in line 945"'
 '20180812':
+- component: Network
+  create_time: 20180817T14:31:00
+  id: 1105222
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'claws mail: remove faulty patch'
+- component: Other
+  create_time: 20180817T14:12:00
+  id: 1105217
+  resolution: ''
+  status: NEW
+  summary: 'aegisub: fails to build with Boost 1.68.0'
+- component: KDE Applications
+  create_time: 20180817T12:36:00
+  id: 1105207
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180815] openQA test fails in kontact - "Invalid parent" starting
+    up kontact'
+- component: X.Org
+  create_time: 20180817T09:01:00
+  id: 1105181
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180815] font in xterm is way bigger than before due to https://build.opensuse.org/package/rdiff/openSUSE:Factory/xterm?linkrev=base&rev=110'
 - component: Other
   create_time: 20180817T07:22:00
   id: 1105173
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: cmis-client - Fails to build with Boost 1.68.0
 - component: GNOME
   create_time: 20180817T01:53:00
@@ -11546,8 +11571,8 @@
 - component: Other
   create_time: 20180816T13:48:00
   id: 1105084
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: ledger - Fails to build with Boost 1.68.0
 - component: Other
   create_time: 20180816T13:31:00
