@@ -8922,8 +8922,8 @@
 - component: Xen
   create_time: 20180603T13:45:00
   id: 1095695
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: virt-manager fails to start existing VM
 - component: Xen
   create_time: 20180603T13:44:00
