@@ -10772,8 +10772,8 @@
 - component: X11 Applications
   create_time: 20180719T01:57:00
   id: 1101760
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: X2go can't connect to local desktop session
 '20180721':
 - component: YaST2
@@ -11507,6 +11507,94 @@
   summary: 'polkit-default-privs: syntax error in GameMode whitelisting: "invalid
     value (no in line 945"'
 '20180812':
+- component: Basesystem
+  create_time: 20180814T22:44:00
+  id: 1104876
+  resolution: FIXED
+  status: RESOLVED
+  summary: Installing libxmlsec1-openssl1 does not upgrade libxmlsec1-1 to the same
+    version
+- component: Other
+  create_time: 20180814T19:30:00
+  id: 1104856
+  resolution: ''
+  status: NEW
+  summary: logrotate complains about wrong permission for squidGuard
+- component: Bootloader
+  create_time: 20180814T18:42:00
+  id: 1104850
+  resolution: ''
+  status: NEW
+  summary: Wrong prefix in GRUB at aarch64
+- component: Kernel
+  create_time: 20180814T16:49:00
+  id: 1104833
+  resolution: ''
+  status: NEW
+  summary: 'Initramfs unpacking failed: junk in compressed archive'
+- component: Kubic
+  create_time: 20180814T15:28:00
+  id: 1104821
+  resolution: ''
+  status: NEW
+  summary: Make cri-o default for kubernetes on Kubic
+- component: Virtualization:Tools
+  create_time: 20180814T15:20:00
+  id: 1104820
+  resolution: FIXED
+  status: RESOLVED
+  summary: libvirt json parse errors
+- component: YaST2
+  create_time: 20180814T12:25:00
+  id: 1104797
+  resolution: ''
+  status: CONFIRMED
+  summary: YaST creating dotfiles in $HOME
+- component: Kernel
+  create_time: 20180814T11:13:00
+  id: 1104792
+  resolution: ''
+  status: NEW
+  summary: magic-sysrq output does not show up on current selected console tty but
+    only in dmesg
+- component: Virtualization:Tools
+  create_time: 20180813T15:23:00
+  id: 1104695
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Cannot open console with virt-viewer after starting kvm-guest
+- component: YaST2
+  create_time: 20180813T08:47:00
+  id: 1104634
+  resolution: INVALID
+  status: RESOLVED
+  summary: save_y2logs does not depend on bzip2
+- component: Kubic
+  create_time: 20180812T19:54:00
+  id: 1104598
+  resolution: FIXED
+  status: RESOLVED
+  summary: /etc/crictl.yaml owned by wrong package (cri-o not cri-tools)
+- component: X11 Applications
+  create_time: 20180812T19:07:00
+  id: 1104597
+  resolution: FIXED
+  status: RESOLVED
+  summary: Calibre takes a long time to load when many fonts are installed
+- component: Other
+  create_time: 20180812T10:29:00
+  id: 1104594
+  resolution: ''
+  status: NEW
+  summary: VoIP programs fail to connect to a SIP account.
+'20180815':
+- component: GNOME
+  create_time: 20180818T01:16:00
+  id: 1105268
+  resolution: ''
+  status: NEW
+  summary: 'Wayland: Screen rotation to left or right gives blank screen from second
+    attempt onward'
 - component: Virtualization:Tools
   create_time: 20180817T19:29:00
   id: 1105245
@@ -11629,83 +11717,3 @@
   resolution: ''
   status: NEW
   summary: '[GNOME-Next Build 6.36] openQA test fails in finish_desktop'
-- component: Basesystem
-  create_time: 20180814T22:44:00
-  id: 1104876
-  resolution: FIXED
-  status: RESOLVED
-  summary: Installing libxmlsec1-openssl1 does not upgrade libxmlsec1-1 to the same
-    version
-- component: Other
-  create_time: 20180814T19:30:00
-  id: 1104856
-  resolution: ''
-  status: NEW
-  summary: logrotate complains about wrong permission for squidGuard
-- component: Bootloader
-  create_time: 20180814T18:42:00
-  id: 1104850
-  resolution: ''
-  status: NEW
-  summary: Wrong prefix in GRUB at aarch64
-- component: Kernel
-  create_time: 20180814T16:49:00
-  id: 1104833
-  resolution: ''
-  status: NEW
-  summary: 'Initramfs unpacking failed: junk in compressed archive'
-- component: Kubic
-  create_time: 20180814T15:28:00
-  id: 1104821
-  resolution: ''
-  status: NEW
-  summary: Make cri-o default for kubernetes on Kubic
-- component: Virtualization:Tools
-  create_time: 20180814T15:20:00
-  id: 1104820
-  resolution: FIXED
-  status: RESOLVED
-  summary: libvirt json parse errors
-- component: YaST2
-  create_time: 20180814T12:25:00
-  id: 1104797
-  resolution: ''
-  status: CONFIRMED
-  summary: YaST creating dotfiles in $HOME
-- component: Kernel
-  create_time: 20180814T11:13:00
-  id: 1104792
-  resolution: ''
-  status: NEW
-  summary: magic-sysrq output does not show up on current selected console tty but
-    only in dmesg
-- component: Virtualization:Tools
-  create_time: 20180813T15:23:00
-  id: 1104695
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Cannot open console with virt-viewer after starting kvm-guest
-- component: YaST2
-  create_time: 20180813T08:47:00
-  id: 1104634
-  resolution: INVALID
-  status: RESOLVED
-  summary: save_y2logs does not depend on bzip2
-- component: Kubic
-  create_time: 20180812T19:54:00
-  id: 1104598
-  resolution: FIXED
-  status: RESOLVED
-  summary: /etc/crictl.yaml owned by wrong package (cri-o not cri-tools)
-- component: X11 Applications
-  create_time: 20180812T19:07:00
-  id: 1104597
-  resolution: FIXED
-  status: RESOLVED
-  summary: Calibre takes a long time to load when many fonts are installed
-- component: Other
-  create_time: 20180812T10:29:00
-  id: 1104594
-  resolution: ''
-  status: NEW
-  summary: VoIP programs fail to connect to a SIP account.
