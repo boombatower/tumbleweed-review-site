@@ -9636,8 +9636,8 @@
 - component: Other
   create_time: 20180622T11:51:00
   id: 1098800
-  resolution: ''
-  status: REOPENED
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: neovim does not provide its system-wide configuration
 - component: Other
   create_time: 20180622T08:53:00
@@ -11598,8 +11598,8 @@
 - component: Virtualization:Tools
   create_time: 20180817T19:29:00
   id: 1105245
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'libvirt - internal error: failed to parse JSON'
 - component: Network
   create_time: 20180817T14:31:00
