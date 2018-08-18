@@ -9636,7 +9636,7 @@
 - component: Other
   create_time: 20180622T11:51:00
   id: 1098800
-  resolution: UPSTREAM
+  resolution: FIXED
   status: RESOLVED
   summary: neovim does not provide its system-wide configuration
 - component: Other
