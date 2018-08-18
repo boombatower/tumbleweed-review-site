@@ -1090,6 +1090,9 @@
   threads: []
 '20180815':
   announcement: 2018-08.209
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 3
+  thread_count: 1
+  threads:
+  - messages: [2018-08.210]
+    reference_count: 3
+    summary: 'virt-manager: Unable to connect to libvirt qemu:///system'
