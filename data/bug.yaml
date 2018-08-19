@@ -11421,8 +11421,8 @@
 - component: Other
   create_time: 20180810T18:39:00
   id: 1104541
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'sxiv: Error opening image'
 - component: Kernel
   create_time: 20180810T16:33:00
@@ -11588,6 +11588,18 @@
   status: NEW
   summary: VoIP programs fail to connect to a SIP account.
 '20180815':
+- component: Basesystem
+  create_time: 20180819T20:17:00
+  id: 1105283
+  resolution: ''
+  status: NEW
+  summary: dwz fails to compress debug info for various packages
+- component: Kernel
+  create_time: 20180819T20:11:00
+  id: 1105282
+  resolution: ''
+  status: NEW
+  summary: vc4 not working in linuxrc because of PCM
 - component: GNOME
   create_time: 20180818T01:16:00
   id: 1105268
