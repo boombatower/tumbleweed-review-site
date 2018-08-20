@@ -7733,8 +7733,8 @@
 - component: Other
   create_time: 20180501T11:25:00
   id: 1091522
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: wine game graphics layout broken in fullscreen
 - component: GNOME
   create_time: 20180501T10:05:00
@@ -9568,8 +9568,8 @@
 - component: Basesystem
   create_time: 20180621T08:10:00
   id: 1098550
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Current Tumbleweed Pine64 image fails to boot
 - component: Development
   create_time: 20180620T14:10:00
@@ -10549,7 +10549,7 @@
   create_time: 20180716T21:20:00
   id: 1101393
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Suspend/Resumes shows desktop content before loading a lockscreen with
     potential privacy concerns
 - component: Other
@@ -11027,8 +11027,8 @@
 - component: YaST2
   create_time: 20180728T16:17:00
   id: 1102983
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Leftover /etc/cron.d/suse-ntp_synchronize when switching NTP to daemon
     mode
 - component: YaST2
@@ -11227,7 +11227,7 @@
   create_time: 20180802T22:35:00
   id: 1103640
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Add NUT-Monitor package to openSUSE Tumbleweed
 - component: Other
   create_time: 20180802T11:35:00
@@ -11484,8 +11484,8 @@
 - component: GNOME
   create_time: 20180809T07:30:00
   id: 1104305
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: User login prompt error after switch user
 - component: Basesystem
   create_time: 20180809T00:37:00
@@ -11588,6 +11588,20 @@
   status: NEW
   summary: VoIP programs fail to connect to a SIP account.
 '20180815':
+- component: KDE Workspace (Plasma)
+  create_time: 20180820T12:11:00
+  id: 1105340
+  resolution: ''
+  status: NEW
+  summary: 'KDialog --getsavefilename and --getopenfilename :  labels and filter wildcards
+    fail'
+- component: Installation
+  create_time: 20180820T11:36:00
+  id: 1105335
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180815] leap 15.0 installation is not listed when upgrading to
+    TW (unless show all partitions checkbox is checked)'
 - component: Kernel
   create_time: 20180820T07:32:00
   id: 1105302
