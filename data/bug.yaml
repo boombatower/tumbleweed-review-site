@@ -2626,8 +2626,8 @@
 - component: Network
   create_time: 20180129T07:26:00
   id: 1077913
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: NetworkManager being activated unexpectedly after last update
 '20180130':
 - component: Basesystem
@@ -11479,13 +11479,13 @@
   create_time: 20180809T09:17:00
   id: 1104322
   resolution: ''
-  status: CONFIRMED
+  status: REOPENED
   summary: Password accept but login failed
 - component: GNOME
   create_time: 20180809T07:30:00
   id: 1104305
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: User login prompt error after switch user
 - component: Basesystem
   create_time: 20180809T00:37:00
@@ -11588,6 +11588,13 @@
   status: NEW
   summary: VoIP programs fail to connect to a SIP account.
 '20180815':
+- component: Kernel
+  create_time: 20180820T07:32:00
+  id: 1105302
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180813] openQA test fails randomly due to ''watchdog: BUG: soft
+    lockup - CPU#0 stuck for 91s!'' or ''rcu_sched self-detected stall on CPU'''
 - component: Basesystem
   create_time: 20180819T20:17:00
   id: 1105283
@@ -11665,8 +11672,8 @@
 - component: Basesystem
   create_time: 20180816T14:13:00
   id: 1105088
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: thin-provisioning-tools - Fails to build with Boost 1.68.0
 - component: Other
   create_time: 20180816T14:05:00
