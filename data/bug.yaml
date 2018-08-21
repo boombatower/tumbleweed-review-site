@@ -11588,6 +11588,12 @@
   status: NEW
   summary: VoIP programs fail to connect to a SIP account.
 '20180815':
+- component: Kubic
+  create_time: 20180820T22:19:00
+  id: 1105421
+  resolution: ''
+  status: NEW
+  summary: CoreDNS doesn't start
 - component: KDE Workspace (Plasma)
   create_time: 20180820T12:11:00
   id: 1105340
