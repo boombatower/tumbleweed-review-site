@@ -9899,8 +9899,8 @@
 - component: YaST2
   create_time: 20180630T15:07:00
   id: 1099762
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[storage-ng] [kubic] undefined method "safe_copy" for nil:NilClass - YaST2
     crashes if disk is too small for a viable proposal'
 - component: Security
@@ -11427,8 +11427,8 @@
 - component: Kernel
   create_time: 20180810T16:33:00
   id: 1104529
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Regression: Linux 4.17 cannot wake from STR after ACPICA: Events: Stop
     unconditionally clearing ACPI IRQs during suspend/resume'
 - component: KDE Workspace (Plasma)
@@ -11588,52 +11588,6 @@
   status: NEW
   summary: VoIP programs fail to connect to a SIP account.
 '20180815':
-- component: Kubic
-  create_time: 20180820T22:19:00
-  id: 1105421
-  resolution: ''
-  status: IN_PROGRESS
-  summary: CoreDNS doesn't start
-- component: KDE Workspace (Plasma)
-  create_time: 20180820T12:11:00
-  id: 1105340
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: 'KDialog --getsavefilename and --getopenfilename :  labels and filter wildcards
-    fail'
-- component: Installation
-  create_time: 20180820T11:36:00
-  id: 1105335
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180815] leap 15.0 installation is not listed when upgrading to
-    TW (unless show all partitions checkbox is checked)'
-- component: Kernel
-  create_time: 20180820T07:32:00
-  id: 1105302
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180813] openQA test fails randomly due to ''watchdog: BUG: soft
-    lockup - CPU#0 stuck for 91s!'' or ''rcu_sched self-detected stall on CPU'''
-- component: Basesystem
-  create_time: 20180819T20:17:00
-  id: 1105283
-  resolution: ''
-  status: NEW
-  summary: dwz fails to compress debug info for various packages
-- component: Kernel
-  create_time: 20180819T20:11:00
-  id: 1105282
-  resolution: ''
-  status: NEW
-  summary: vc4 not working in linuxrc because of PCM
-- component: GNOME
-  create_time: 20180818T01:16:00
-  id: 1105268
-  resolution: ''
-  status: NEW
-  summary: 'Wayland: Screen rotation to left or right gives blank screen from second
-    attempt onward'
 - component: Virtualization:Tools
   create_time: 20180817T19:29:00
   id: 1105245
@@ -11748,7 +11702,7 @@
   create_time: 20180815T13:45:00
   id: 1104935
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: AC power adapter detection does not work
 - component: GNOME
   create_time: 20180815T08:54:00
@@ -11756,3 +11710,68 @@
   resolution: ''
   status: NEW
   summary: '[GNOME-Next Build 6.36] openQA test fails in finish_desktop'
+'20180818':
+- component: Other
+  create_time: 20180821T13:36:00
+  id: 1105510
+  resolution: ''
+  status: NEW
+  summary: 'iPXE build failure: Unrecognised relocation type 4'
+- component: LibreOffice
+  create_time: 20180821T11:36:00
+  id: 1105486
+  resolution: ''
+  status: NEW
+  summary: find-debuginfo.sh fails in libreoffice
+- component: Kubic
+  create_time: 20180821T11:21:00
+  id: 1105484
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'Error during installation: Snapshot20180815'
+- component: Kubic
+  create_time: 20180820T22:19:00
+  id: 1105421
+  resolution: ''
+  status: IN_PROGRESS
+  summary: CoreDNS doesn't start
+- component: KDE Workspace (Plasma)
+  create_time: 20180820T12:11:00
+  id: 1105340
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: 'KDialog --getsavefilename and --getopenfilename :  labels and filter wildcards
+    fail'
+- component: Installation
+  create_time: 20180820T11:36:00
+  id: 1105335
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180815] leap 15.0 installation is not listed when upgrading to
+    TW (unless show all partitions checkbox is checked)'
+- component: Kernel
+  create_time: 20180820T07:32:00
+  id: 1105302
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180813] openQA test fails randomly due to ''watchdog: BUG: soft
+    lockup - CPU#0 stuck for 91s!'' or ''rcu_sched self-detected stall on CPU'''
+- component: Basesystem
+  create_time: 20180819T20:17:00
+  id: 1105283
+  resolution: ''
+  status: NEW
+  summary: dwz fails to compress debug info for various packages
+- component: Kernel
+  create_time: 20180819T20:11:00
+  id: 1105282
+  resolution: ''
+  status: NEW
+  summary: vc4 not working in linuxrc because of PCM
+- component: GNOME
+  create_time: 20180818T01:16:00
+  id: 1105268
+  resolution: ''
+  status: NEW
+  summary: 'Wayland: Screen rotation to left or right gives blank screen from second
+    attempt onward'
