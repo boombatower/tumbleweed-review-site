@@ -11592,13 +11592,13 @@
   create_time: 20180820T22:19:00
   id: 1105421
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: CoreDNS doesn't start
 - component: KDE Workspace (Plasma)
   create_time: 20180820T12:11:00
   id: 1105340
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'KDialog --getsavefilename and --getopenfilename :  labels and filter wildcards
     fail'
 - component: Installation
