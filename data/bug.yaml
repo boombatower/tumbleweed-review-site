@@ -8274,8 +8274,8 @@
 - component: Basesystem
   create_time: 20180514T16:00:00
   id: 1093170
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: rdma-core srp_daemon using service template file in pre/postun
 - component: KVM
   create_time: 20180514T15:49:00
@@ -9557,7 +9557,7 @@
   create_time: 20180621T14:39:00
   id: 1098653
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: updating openmpi erases mpi-selector settings
 - component: Development
   create_time: 20180621T08:10:00
@@ -11090,7 +11090,7 @@
   create_time: 20180727T14:29:00
   id: 1102911
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: ibutils package has bad Makefiles
 - component: Other
   create_time: 20180727T13:25:00
@@ -11711,6 +11711,12 @@
   status: NEW
   summary: '[GNOME-Next Build 6.36] openQA test fails in finish_desktop'
 '20180818':
+- component: Kernel
+  create_time: 20180821T21:09:00
+  id: 1105573
+  resolution: ''
+  status: NEW
+  summary: No network with U.S. Robotics USR997902 and kernel 4.18.0-1-default
 - component: Other
   create_time: 20180821T13:36:00
   id: 1105510
