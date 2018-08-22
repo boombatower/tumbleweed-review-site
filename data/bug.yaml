@@ -11711,6 +11711,12 @@
   status: NEW
   summary: '[GNOME-Next Build 6.36] openQA test fails in finish_desktop'
 '20180818':
+- component: Basesystem
+  create_time: 20180822T08:56:00
+  id: 1105608
+  resolution: ''
+  status: NEW
+  summary: X crashes at startup in r300_dri of Mesa which crashes in GCC's libstdc++
 - component: Kernel
   create_time: 20180821T21:09:00
   id: 1105573
