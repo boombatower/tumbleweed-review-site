@@ -9353,7 +9353,7 @@
   create_time: 20180613T09:04:00
   id: 1097388
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: cloud-init running before network online
 '20180615':
 - component: Other
@@ -11376,8 +11376,8 @@
 - component: Basesystem
   create_time: 20180806T05:40:00
   id: 1103835
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Firefox and other applications don't start with Glib-GIO-ERROR
 '20180807':
 - component: GNOME
@@ -11711,6 +11711,25 @@
   status: NEW
   summary: '[GNOME-Next Build 6.36] openQA test fails in finish_desktop'
 '20180818':
+- component: Security
+  create_time: 20180822T20:55:00
+  id: 1105695
+  resolution: ''
+  status: NEW
+  summary: Firewalld does not apply selected zone
+- component: GNOME
+  create_time: 20180822T20:09:00
+  id: 1105691
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180820] openQA test fails in multi_users_dm - "appstreamcli"
+    core dumped'
+- component: Other
+  create_time: 20180822T17:40:00
+  id: 1105669
+  resolution: ''
+  status: NEW
+  summary: Unable to open huge ZIP archive
 - component: Installation
   create_time: 20180822T15:04:00
   id: 1105654
