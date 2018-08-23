@@ -8995,8 +8995,8 @@
 - component: X11 Applications
   create_time: 20180601T14:33:00
   id: 1095587
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'devel:languages:python/spyder3: undeclared dependency python3-cloudpickle'
 - component: Bootloader
   create_time: 20180601T11:45:00
@@ -11725,6 +11725,12 @@
   summary: 'Wayland: Screen rotation to left or right gives blank screen from second
     attempt onward'
 '20180820':
+- component: Network
+  create_time: 20180823T18:00:00
+  id: 1105821
+  resolution: ''
+  status: NEW
+  summary: firewalld drops icmpv6
 - component: Development
   create_time: 20180823T15:01:00
   id: 1105801
