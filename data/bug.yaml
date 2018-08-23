@@ -9001,7 +9001,7 @@
 - component: Bootloader
   create_time: 20180601T11:45:00
   id: 1095555
-  resolution: NORESPONSE
+  resolution: WONTFIX
   status: RESOLVED
   summary: HiKey 960 hangs in UEFI - removable media not detected?
 - component: Basesystem
@@ -9947,12 +9947,6 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'openldap: s: command not found'
-- component: Kubic
-  create_time: 20180629T14:12:00
-  id: 1099700
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'Kubic snapshot 20180618: Bootstrap Kubernetes cluster failed'
 - component: Network
   create_time: 20180629T13:49:00
   id: 1099698
@@ -11711,6 +11705,44 @@
   status: NEW
   summary: '[GNOME-Next Build 6.36] openQA test fails in finish_desktop'
 '20180818':
+- component: Basesystem
+  create_time: 20180819T20:17:00
+  id: 1105283
+  resolution: ''
+  status: NEW
+  summary: dwz fails to compress debug info for various packages
+- component: Kernel
+  create_time: 20180819T20:11:00
+  id: 1105282
+  resolution: ''
+  status: NEW
+  summary: vc4 not working in linuxrc because of PCM
+- component: GNOME
+  create_time: 20180818T01:16:00
+  id: 1105268
+  resolution: ''
+  status: NEW
+  summary: 'Wayland: Screen rotation to left or right gives blank screen from second
+    attempt onward'
+'20180820':
+- component: Development
+  create_time: 20180823T15:01:00
+  id: 1105801
+  resolution: ''
+  status: NEW
+  summary: Spyder 3.3.1-1.1 startup fail caused by spyder-kernels
+- component: KDE Workspace (Plasma)
+  create_time: 20180823T14:53:00
+  id: 1105798
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180820] Plasma 5 on wayland: wallpaper is missed'
+- component: YaST2
+  create_time: 20180823T14:49:00
+  id: 1105797
+  resolution: ''
+  status: NEW
+  summary: Keyboard Layout change via YaST doesn't affect GNOME
 - component: KDE Workspace (Plasma)
   create_time: 20180823T09:02:00
   id: 1105742
@@ -11837,22 +11869,3 @@
   status: NEW
   summary: '[Build 20180813] openQA test fails randomly due to ''watchdog: BUG: soft
     lockup - CPU#0 stuck for 91s!'' or ''rcu_sched self-detected stall on CPU'''
-- component: Basesystem
-  create_time: 20180819T20:17:00
-  id: 1105283
-  resolution: ''
-  status: NEW
-  summary: dwz fails to compress debug info for various packages
-- component: Kernel
-  create_time: 20180819T20:11:00
-  id: 1105282
-  resolution: ''
-  status: NEW
-  summary: vc4 not working in linuxrc because of PCM
-- component: GNOME
-  create_time: 20180818T01:16:00
-  id: 1105268
-  resolution: ''
-  status: NEW
-  summary: 'Wayland: Screen rotation to left or right gives blank screen from second
-    attempt onward'
