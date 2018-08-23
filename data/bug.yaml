@@ -3589,7 +3589,7 @@
   create_time: 20180211T17:37:00
   id: 1080485
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'dracut: device mapper cannot be disassembled  on shutdown'
 - component: Network
   create_time: 20180211T14:05:00
@@ -11089,8 +11089,8 @@
 - component: Other
   create_time: 20180727T14:29:00
   id: 1102911
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: ibutils package has bad Makefiles
 - component: Other
   create_time: 20180727T13:25:00
@@ -11711,6 +11711,12 @@
   status: NEW
   summary: '[GNOME-Next Build 6.36] openQA test fails in finish_desktop'
 '20180818':
+- component: KDE Workspace (Plasma)
+  create_time: 20180823T09:02:00
+  id: 1105742
+  resolution: ''
+  status: NEW
+  summary: lpoptions are ignored by KDE apps
 - component: Security
   create_time: 20180822T20:55:00
   id: 1105695
@@ -11734,13 +11740,13 @@
   create_time: 20180822T15:04:00
   id: 1105654
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'mesa-dri-nouveau: Incorrect description when confirming the package license'
 - component: Installation
   create_time: 20180822T14:49:00
   id: 1105650
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'Installation: "User Interface" selection usability improvements'
 - component: Development
   create_time: 20180822T13:42:00
