@@ -11588,6 +11588,13 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: 'libvirt - internal error: failed to parse JSON'
+- component: GNOME
+  create_time: 20180817T16:00:00
+  id: 1105229
+  resolution: ''
+  status: NEW
+  summary: GnomeShell/Plasmashell doesn't work with wayland-egl1 from wayland (still
+    worked with wayland-egl1 from Mesa)
 - component: Network
   create_time: 20180817T14:31:00
   id: 1105222
@@ -11725,12 +11732,25 @@
   summary: 'Wayland: Screen rotation to left or right gives blank screen from second
     attempt onward'
 '20180820':
+- component: Containers
+  create_time: 20180824T09:43:00
+  id: 1105899
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180820] not name resolution inside docker containers with default
+    network'
+- component: YaST2
+  create_time: 20180824T08:43:00
+  id: 1105891
+  resolution: ''
+  status: NEW
+  summary: yast2 - virtualization test not supported for ppc64le
 - component: Network
   create_time: 20180823T18:00:00
   id: 1105821
   resolution: ''
   status: NEW
-  summary: firewalld drops icmpv6
+  summary: firewalld on nftables drops icmpv6
 - component: Development
   create_time: 20180823T15:01:00
   id: 1105801
@@ -11746,8 +11766,8 @@
 - component: YaST2
   create_time: 20180823T14:49:00
   id: 1105797
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Keyboard Layout change via YaST doesn't affect GNOME
 - component: KDE Workspace (Plasma)
   create_time: 20180823T09:02:00
