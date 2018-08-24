@@ -10888,8 +10888,8 @@
 - component: Other
   create_time: 20180724T08:43:00
   id: 1102367
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'aws-cli broken dependency: requires python3-PyYAML <= 3.12, but this requirement
     cannot be provided'
 - component: Other
@@ -11732,6 +11732,12 @@
   summary: 'Wayland: Screen rotation to left or right gives blank screen from second
     attempt onward'
 '20180820':
+- component: Other
+  create_time: 20180824T19:56:00
+  id: 1105973
+  resolution: ''
+  status: CONFIRMED
+  summary: installation of zutils remove gzip and many other packages
 - component: X11 Applications
   create_time: 20180824T14:59:00
   id: 1105951
