@@ -11758,8 +11758,8 @@
 - component: Security
   create_time: 20180822T20:55:00
   id: 1105695
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Firewalld does not apply selected zone
 - component: GNOME
   create_time: 20180822T20:09:00
