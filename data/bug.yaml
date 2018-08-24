@@ -11732,13 +11732,24 @@
   summary: 'Wayland: Screen rotation to left or right gives blank screen from second
     attempt onward'
 '20180820':
+- component: X11 Applications
+  create_time: 20180824T14:59:00
+  id: 1105951
+  resolution: ''
+  status: NEW
+  summary: Update vala-panel-project packages, please.
+- component: Bootloader
+  create_time: 20180824T12:09:00
+  id: 1105923
+  resolution: ''
+  status: NEW
+  summary: Fails to usb boot on Apollo Lake laptops
 - component: Containers
   create_time: 20180824T09:43:00
   id: 1105899
   resolution: ''
-  status: NEW
-  summary: '[Build 20180820] not name resolution inside docker containers with default
-    network'
+  status: CONFIRMED
+  summary: '[Build 20180820] firewalld breaks container networking'
 - component: YaST2
   create_time: 20180824T08:43:00
   id: 1105891
