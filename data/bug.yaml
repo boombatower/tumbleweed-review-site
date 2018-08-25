@@ -11732,6 +11732,12 @@
   summary: 'Wayland: Screen rotation to left or right gives blank screen from second
     attempt onward'
 '20180820':
+- component: Network
+  create_time: 20180824T22:45:00
+  id: 1105983
+  resolution: ''
+  status: NEW
+  summary: openssh won't do tunnel forwarding
 - component: Other
   create_time: 20180824T19:56:00
   id: 1105973
