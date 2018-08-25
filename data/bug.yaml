@@ -11741,8 +11741,8 @@
 - component: Other
   create_time: 20180824T19:56:00
   id: 1105973
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: installation of zutils remove gzip and many other packages
 - component: X11 Applications
   create_time: 20180824T14:59:00
