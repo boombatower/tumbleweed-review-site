@@ -11732,6 +11732,18 @@
   summary: 'Wayland: Screen rotation to left or right gives blank screen from second
     attempt onward'
 '20180820':
+- component: Other
+  create_time: 20180825T20:00:00
+  id: 1105995
+  resolution: ''
+  status: NEW
+  summary: neon does not build in 2019-09
+- component: Kubic
+  create_time: 20180825T18:13:00
+  id: 1105992
+  resolution: ''
+  status: NEW
+  summary: Transactional-Update broken in snapshot 20180824
 - component: Network
   create_time: 20180824T22:45:00
   id: 1105983
