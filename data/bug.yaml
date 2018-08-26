@@ -11732,6 +11732,12 @@
   summary: 'Wayland: Screen rotation to left or right gives blank screen from second
     attempt onward'
 '20180820':
+- component: Kernel
+  create_time: 20180825T23:22:00
+  id: 1105997
+  resolution: ''
+  status: NEW
+  summary: Keyboard Brightness keys do not change keyboard brightness
 - component: Other
   create_time: 20180825T20:00:00
   id: 1105995
