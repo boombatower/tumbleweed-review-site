@@ -11364,8 +11364,8 @@
 - component: Other
   create_time: 20180806T12:07:00
   id: 1103904
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Update Minetest to 4.17.1 please
 - component: Basesystem
   create_time: 20180806T05:40:00
@@ -11377,8 +11377,8 @@
 - component: GNOME
   create_time: 20180807T20:47:00
   id: 1104112
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Fix Nautilus dependency on Tracker package in Tumbleweed 20180804
 - component: LibreOffice
   create_time: 20180807T17:28:00
@@ -11733,6 +11733,13 @@
     attempt onward'
 '20180820':
 - component: Basesystem
+  create_time: 20180826T16:16:00
+  id: 1106004
+  resolution: ''
+  status: NEW
+  summary: 'chown: cannot access ''/usr/lib/postfix/bin//postfix-ldap.so'': No such
+    file or directory'
+- component: Basesystem
   create_time: 20180826T15:50:00
   id: 1106003
   resolution: ''
@@ -11744,7 +11751,7 @@
   resolution: ''
   status: NEW
   summary: llvm-config contains gcc-incompatible flags
-- component: Kernel
+- component: KDE Workspace (Plasma)
   create_time: 20180825T23:22:00
   id: 1105997
   resolution: ''
@@ -11810,7 +11817,7 @@
   resolution: ''
   status: NEW
   summary: Spyder 3.3.1-1.1 startup fail caused by spyder-kernels
-- component: KDE Workspace (Plasma)
+- component: X.Org
   create_time: 20180823T14:53:00
   id: 1105798
   resolution: ''
