@@ -11732,6 +11732,18 @@
   summary: 'Wayland: Screen rotation to left or right gives blank screen from second
     attempt onward'
 '20180820':
+- component: Basesystem
+  create_time: 20180826T15:50:00
+  id: 1106003
+  resolution: ''
+  status: NEW
+  summary: 'Failed to try-restart klogd.service: Operation refused'
+- component: Development
+  create_time: 20180826T12:54:00
+  id: 1106000
+  resolution: ''
+  status: NEW
+  summary: llvm-config contains gcc-incompatible flags
 - component: Kernel
   create_time: 20180825T23:22:00
   id: 1105997
