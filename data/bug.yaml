@@ -10574,8 +10574,8 @@
 - component: Other
   create_time: 20180715T20:50:00
   id: 1101262
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: ceph's SPDK builds with march=native
 - component: Basesystem
   create_time: 20180715T19:19:00
@@ -11732,6 +11732,38 @@
   summary: 'Wayland: Screen rotation to left or right gives blank screen from second
     attempt onward'
 '20180820':
+- component: LibreOffice
+  create_time: 20180827T10:08:00
+  id: 1106073
+  resolution: ''
+  status: NEW
+  summary: calculation of time differences  wrong in LibreOffice 6.1
+- component: GNOME
+  create_time: 20180827T08:46:00
+  id: 1106051
+  resolution: ''
+  status: NEW
+  summary: Huge Nautilus icon in Xfce menu
+- component: Other
+  create_time: 20180827T08:16:00
+  id: 1106039
+  resolution: ''
+  status: NEW
+  summary: Package libOpenCL1 should create symlink libOpenCL.so
+- component: GNOME
+  create_time: 20180827T07:17:00
+  id: 1106027
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Tilix crashes with this error:" tilix: symbol lookup error: tilix: undefined
+    symbol:"'
+- component: Development
+  create_time: 20180827T05:02:00
+  id: 1106014
+  resolution: ''
+  status: NEW
+  summary: cross-arm-none-gcc8-8.1.1+r262873-1.3.x86_64 -mcpu=cortex-m0plus emits
+    incorrect arch
 - component: Basesystem
   create_time: 20180826T16:16:00
   id: 1106004
@@ -11767,7 +11799,7 @@
   create_time: 20180825T18:13:00
   id: 1105992
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Transactional-Update broken in snapshot 20180824
 - component: Network
   create_time: 20180824T22:45:00
@@ -11821,7 +11853,7 @@
   create_time: 20180823T14:53:00
   id: 1105798
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20180820] Plasma 5 on wayland: wallpaper is missed'
 - component: YaST2
   create_time: 20180823T14:49:00
