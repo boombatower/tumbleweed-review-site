@@ -1112,9 +1112,9 @@
     summary: Chrome/Firefox failure "GSettings schemas"
 '20180820':
   announcement: 2018-08.233
-  reference_count: 2
+  reference_count: 3
   thread_count: 1
   threads:
   - messages: [2018-08.254]
-    reference_count: 2
+    reference_count: 3
     summary: no summary given
