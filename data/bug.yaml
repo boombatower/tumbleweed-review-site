@@ -11732,6 +11732,12 @@
   summary: 'Wayland: Screen rotation to left or right gives blank screen from second
     attempt onward'
 '20180820':
+- component: Kernel
+  create_time: 20180827T20:32:00
+  id: 1106142
+  resolution: ''
+  status: NEW
+  summary: 'L1TF: Kernel not compiled for PAE. No mitigation for L1TF'
 - component: Other
   create_time: 20180827T13:38:00
   id: 1106104
