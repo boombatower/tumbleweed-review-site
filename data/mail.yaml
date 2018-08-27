@@ -1098,20 +1098,23 @@
     summary: 'virt-manager: Unable to connect to libvirt qemu:///system'
 '20180818':
   announcement: 2018-08.215
-  reference_count: 19
+  reference_count: 20
   thread_count: 3
   threads:
   - messages: [2018-08.216]
     reference_count: 7
     summary: Kernel 4.18 PAE on 64bit HW
   - messages: [2018-08.230]
-    reference_count: 7
+    reference_count: 8
     summary: released! -Screen display offset problems
   - messages: [2018-08.220, 2018-08.226]
     reference_count: 5
     summary: Chrome/Firefox failure "GSettings schemas"
 '20180820':
   announcement: 2018-08.233
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages: [2018-08.254]
+    reference_count: 2
+    summary: no summary given
