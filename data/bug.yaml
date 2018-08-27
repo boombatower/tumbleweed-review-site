@@ -5264,14 +5264,14 @@
 - component: Containers
   create_time: 20180309T21:26:00
   id: 1084766
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: kubernetes-kubelet doesn't create /var/lib/kubelet properly in transactional-update
 - component: Containers
   create_time: 20180309T21:24:00
   id: 1084765
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: kubeternetes-kubeadm seems to be missing dependencies
 - component: Kernel
   create_time: 20180309T17:16:00
@@ -6493,8 +6493,8 @@
 - component: Kubic
   create_time: 20180331T09:01:00
   id: 1087699
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Velum Branding
 - component: Sound
   create_time: 20180331T05:46:00
@@ -9069,8 +9069,8 @@
 - component: Kubic
   create_time: 20180530T06:08:00
   id: 1095131
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'kubelet service (1.10.2) fails to start: failed to get device for dir
     "/var/lib/kubelet"'
 '20180606':
@@ -11442,7 +11442,7 @@
   create_time: 20180810T07:22:00
   id: 1104452
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'transactional-update: /var/lib/zypp not a directory'
 - component: Basesystem
   create_time: 20180810T05:03:00
@@ -11732,11 +11732,23 @@
   summary: 'Wayland: Screen rotation to left or right gives blank screen from second
     attempt onward'
 '20180820':
+- component: Other
+  create_time: 20180827T13:38:00
+  id: 1106104
+  resolution: ''
+  status: NEW
+  summary: OBS (Open Broadcaster) Studio does not open
+- component: Other
+  create_time: 20180827T12:02:00
+  id: 1106091
+  resolution: FIXED
+  status: RESOLVED
+  summary: Tumbleweed ARM images publishing needs to be updated
 - component: LibreOffice
   create_time: 20180827T10:08:00
   id: 1106073
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: calculation of time differences  wrong in LibreOffice 6.1
 - component: GNOME
   create_time: 20180827T08:46:00
@@ -11780,9 +11792,15 @@
 - component: Development
   create_time: 20180826T12:54:00
   id: 1106000
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: llvm-config contains gcc-incompatible flags
+- component: X11 3rd Party Driver
+  create_time: 20180826T11:28:00
+  id: 1105998
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'X11:Drivers:Video/nvidia-gfxG04: Kernel 4.18 support'
 - component: KDE Workspace (Plasma)
   create_time: 20180825T23:22:00
   id: 1105997
@@ -11852,8 +11870,8 @@
 - component: X.Org
   create_time: 20180823T14:53:00
   id: 1105798
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180820] Plasma 5 on wayland: wallpaper is missed'
 - component: YaST2
   create_time: 20180823T14:49:00
@@ -11933,8 +11951,8 @@
 - component: Basesystem
   create_time: 20180822T08:56:00
   id: 1105608
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: X crashes at startup in r300_dri of Mesa which crashes in GCC's libstdc++
 - component: Kernel
   create_time: 20180821T21:09:00
