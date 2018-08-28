@@ -1098,8 +1098,8 @@
     summary: 'virt-manager: Unable to connect to libvirt qemu:///system'
 '20180818':
   announcement: 2018-08.215
-  reference_count: 20
-  thread_count: 3
+  reference_count: 26
+  thread_count: 4
   threads:
   - messages: [2018-08.216]
     reference_count: 7
@@ -1107,6 +1107,9 @@
   - messages: [2018-08.230]
     reference_count: 8
     summary: released! -Screen display offset problems
+  - messages: [2018-08.280]
+    reference_count: 6
+    summary: '(and later): gimp stopped working'
   - messages: [2018-08.220, 2018-08.226]
     reference_count: 5
     summary: Chrome/Firefox failure "GSettings schemas"
