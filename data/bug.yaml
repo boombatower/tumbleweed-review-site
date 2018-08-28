@@ -8410,8 +8410,8 @@
 - component: Basesystem
   create_time: 20180515T09:29:00
   id: 1093295
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: polkit-agent-helper authentication failure for first password enter attempt
 - component: Other
   create_time: 20180515T06:30:00
@@ -11684,7 +11684,7 @@
   create_time: 20180815T22:09:00
   id: 1104990
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: firewalld cannot use NetworkManager interfaces
 - component: Installation
   create_time: 20180815T20:03:00
@@ -11759,8 +11759,8 @@
 - component: LibreOffice
   create_time: 20180827T10:08:00
   id: 1106073
-  resolution: ''
-  status: CONFIRMED
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: calculation of time differences  wrong in LibreOffice 6.1
 - component: GNOME
   create_time: 20180827T08:46:00
