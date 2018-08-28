@@ -11447,8 +11447,8 @@
 - component: Basesystem
   create_time: 20180810T05:03:00
   id: 1104445
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: bzip2 package references bzip.org which may be stale
 - component: libzypp
   create_time: 20180809T20:10:00
@@ -11732,6 +11732,12 @@
   summary: 'Wayland: Screen rotation to left or right gives blank screen from second
     attempt onward'
 '20180820':
+- component: Kernel
+  create_time: 20180828T00:35:00
+  id: 1106152
+  resolution: ''
+  status: NEW
+  summary: Collabora/CODE docker container not working with kernel 4.18
 - component: Kernel
   create_time: 20180827T20:32:00
   id: 1106142
