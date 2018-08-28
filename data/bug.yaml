@@ -11732,6 +11732,37 @@
   summary: 'Wayland: Screen rotation to left or right gives blank screen from second
     attempt onward'
 '20180820':
+- component: Xfce
+  create_time: 20180828T15:08:00
+  id: 1106273
+  resolution: ''
+  status: NEW
+  summary: xfce4-panel-plugin-statusnotifier missing Blueman icon/applet
+- component: GNOME
+  create_time: 20180828T14:36:00
+  id: 1106266
+  resolution: ''
+  status: NEW
+  summary: Tilix crashes on latest snapshot
+- component: Other
+  create_time: 20180828T13:02:00
+  id: 1106247
+  resolution: ''
+  status: NEW
+  summary: Golang packaging produces unreadable logs in case of build failure
+- component: Network
+  create_time: 20180828T12:23:00
+  id: 1106234
+  resolution: ''
+  status: NEW
+  summary: Inconsistency and discrepancies of download speed - slow setting works
+    faster and vice versa
+- component: Basesystem
+  create_time: 20180828T10:58:00
+  id: 1106221
+  resolution: ''
+  status: NEW
+  summary: '"locale" might want to list "LANGUAGE" var as well'
 - component: Kernel
   create_time: 20180828T00:35:00
   id: 1106152
@@ -11975,8 +12006,8 @@
 - component: Other
   create_time: 20180821T13:36:00
   id: 1105510
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'iPXE build failure: Unrecognised relocation type 4'
 - component: LibreOffice
   create_time: 20180821T11:36:00
