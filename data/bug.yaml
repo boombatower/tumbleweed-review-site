@@ -9950,8 +9950,8 @@
 - component: Network
   create_time: 20180629T13:49:00
   id: 1099698
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: firewalld puts icmp into ip6tables
 - component: Network
   create_time: 20180629T12:09:00
@@ -11034,8 +11034,8 @@
 - component: Network
   create_time: 20180728T15:01:00
   id: 1102981
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: OpenVPN files imported into Plasma Network Manager provides no WAN connection
 - component: X.Org
   create_time: 20180728T11:08:00
@@ -11962,29 +11962,47 @@
   summary: '[Build 20180813] openQA test fails randomly due to ''watchdog: BUG: soft
     lockup - CPU#0 stuck for 91s!'' or ''rcu_sched self-detected stall on CPU'''
 '20180827':
+- component: Other
+  create_time: 20180829T09:54:00
+  id: 1106379
+  resolution: ''
+  status: NEW
+  summary: 'qmapshack from Tumbleweed: geo cant be installed or executed'
+- component: Other
+  create_time: 20180829T09:44:00
+  id: 1106378
+  resolution: ''
+  status: NEW
+  summary: pari-elldata is not installed correctly
+- component: Network
+  create_time: 20180829T08:46:00
+  id: 1106364
+  resolution: ''
+  status: NEW
+  summary: Reconnect after suspend not possible with NM 1.12.2 in snapshot 20180828
 - component: YaST2
   create_time: 20180828T22:23:00
   id: 1106319
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Exception when starting firewall tool from YaST2 GUI
 - component: Xfce
   create_time: 20180828T15:08:00
   id: 1106273
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: xfce4-panel-plugin-statusnotifier missing Blueman icon/applet
 - component: GNOME
   create_time: 20180828T14:36:00
   id: 1106266
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Tilix crashes on latest snapshot
 - component: Other
   create_time: 20180828T13:02:00
   id: 1106247
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Golang packaging produces unreadable logs in case of build failure
 - component: Network
   create_time: 20180828T12:23:00
