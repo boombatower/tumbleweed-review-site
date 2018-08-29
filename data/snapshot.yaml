@@ -1,40 +1,3 @@
-'20180424':
-  binary_count: 56953
-  binary_interest:
-    Mesa: 18.0.1
-    gcc: '7'
-    gcc7: 7.3.1+r258812
-    gcc8: 8.0.1+r259467
-    gnome-builder: 3.28.1
-    gtk3-devel: 3.22.30
-    kate: 17.12.3
-    kernel-source: 4.16.3
-    libqt5-qtbase-devel: 5.10.0
-    llvm: 6.0.0
-    plasma-framework: 5.45.0
-    plasma5-workspace: 5.12.4
-    xf86-video-amdgpu: 18.0.1
-    xf86-video-ati: 18.0.1
-    xf86-video-intel: 2.99.917+git781.c8990575
-    xf86-video-nouveau: 1.0.15
-    xorg-x11-server: 1.19.6
-  binary_interest_changed:
-  - Mesa
-  - gcc7
-  - gcc8
-  - gtk3-devel
-  - libqt5-qtbase-devel
-  - xorg-x11-server
-  - kernel-source
-  - Mesa
-  - gcc7
-  - gcc8
-  - gtk3-devel
-  - libqt5-qtbase-devel
-  - xorg-x11-server
-  binary_unique_count: 2838
-  disk_base: 830M
-  disk_shared: 5.4G
 '20180425':
   binary_count: 56958
   binary_interest:
@@ -1423,3 +1386,36 @@
   binary_unique_count: 10782
   disk_base: 931M
   disk_shared: 8.1G
+'20180827':
+  binary_count: 52542
+  binary_interest:
+    Mesa: 18.1.6
+    gcc: '8'
+    gcc7: 7.3.1+r263609
+    gcc8: 8.2.1+r263610
+    gnome-builder: 3.28.4
+    gtk3-devel: 3.22.30
+    kate: 18.08.0
+    kernel-source: 4.18.5
+    libqt5-qtbase-devel: 5.11.1
+    llvm: 6.0.1
+    plasma-framework: 5.49.0
+    plasma5-workspace: 5.13.4
+    xf86-video-amdgpu: 18.0.1
+    xf86-video-ati: 18.0.1
+    xf86-video-intel: 2.99.917+git781.c8990575
+    xf86-video-nouveau: 1.0.15
+    xorg-x11-server: 1.20.1
+  binary_interest_changed:
+  - gcc7
+  - gcc8
+  - kate
+  - plasma-framework
+  - kernel-source
+  - gcc7
+  - gcc8
+  - kate
+  - plasma-framework
+  binary_unique_count: 4208
+  disk_base: 932M
+  disk_shared: 6.6G
