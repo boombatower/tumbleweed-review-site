@@ -6472,8 +6472,8 @@
 - component: X11 Applications
   create_time: 20180330T03:13:00
   id: 1087558
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: enlightenment deskop got thousands of errors in .xsession-errors while
     move the windows of gtk
 - component: YaST2
@@ -11207,8 +11207,8 @@
 - component: High Availability
   create_time: 20180726T03:26:00
   id: 1102668
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: LVM2 build from OBS does not work under mirrored clustered LVs
 - component: Other
   create_time: 20180726T03:08:00
@@ -11962,6 +11962,12 @@
   summary: '[Build 20180813] openQA test fails randomly due to ''watchdog: BUG: soft
     lockup - CPU#0 stuck for 91s!'' or ''rcu_sched self-detected stall on CPU'''
 '20180827':
+- component: YaST2
+  create_time: 20180828T22:23:00
+  id: 1106319
+  resolution: ''
+  status: NEW
+  summary: Exception when starting firewall tool from YaST2 GUI
 - component: Xfce
   create_time: 20180828T15:08:00
   id: 1106273
