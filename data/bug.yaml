@@ -11815,7 +11815,7 @@
   create_time: 20180823T18:00:00
   id: 1105821
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: firewalld breaks ipv6 link-local communication due to blocked neighbor-advert
     packets
 - component: Development
@@ -12014,6 +12014,12 @@
   summary: cross-arm-none-gcc8-8.1.1+r262873-1.3.x86_64 -mcpu=cortex-m0plus emits
     incorrect arch
 '20180828':
+- component: Other
+  create_time: 20180829T20:01:00
+  id: 1106476
+  resolution: ''
+  status: NEW
+  summary: The package 'exercism' is severely outdated
 - component: Printing
   create_time: 20180829T13:32:00
   id: 1106416
@@ -12035,8 +12041,8 @@
 - component: Other
   create_time: 20180829T09:44:00
   id: 1106378
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: pari-elldata is not installed correctly
 - component: Network
   create_time: 20180829T08:46:00
