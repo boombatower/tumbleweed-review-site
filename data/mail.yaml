@@ -1123,12 +1123,17 @@
     summary: no summary given
 '20180827':
   announcement: 2018-08.295
-  reference_count: 16
+  reference_count: 20
   thread_count: 2
   threads:
   - messages: [2018-08.303]
     reference_count: 9
     summary: RMT dependencies
   - messages: [2018-08.300]
-    reference_count: 7
+    reference_count: 11
     summary: akondi / Google issue
+'20180828':
+  announcement: 2018-08.330
+  reference_count: 0
+  thread_count: 0
+  threads: []
