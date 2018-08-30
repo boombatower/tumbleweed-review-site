@@ -11802,8 +11802,8 @@
 - component: Containers
   create_time: 20180824T09:43:00
   id: 1105899
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180820] firewalld breaks container networking'
 - component: YaST2
   create_time: 20180824T08:43:00
@@ -11951,8 +11951,8 @@
 - component: Installation
   create_time: 20180820T11:36:00
   id: 1105335
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180815] leap 15.0 installation is not listed when upgrading to
     TW (unless show all partitions checkbox is checked)'
 - component: Kernel
@@ -12014,6 +12014,12 @@
   summary: cross-arm-none-gcc8-8.1.1+r262873-1.3.x86_64 -mcpu=cortex-m0plus emits
     incorrect arch
 '20180828':
+- component: Development
+  create_time: 20180830T07:15:00
+  id: 1106533
+  resolution: ''
+  status: NEW
+  summary: Haskell stack cannot load libgmp.so
 - component: Virtualization:Other
   create_time: 20180830T00:24:00
   id: 1106494
