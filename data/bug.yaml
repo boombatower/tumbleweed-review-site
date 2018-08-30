@@ -12058,6 +12058,24 @@
   status: NEW
   summary: Collabora/CODE docker container not working with kernel 4.18
 '20180829':
+- component: KDE Workspace (Plasma)
+  create_time: 20180830T19:57:00
+  id: 1106648
+  resolution: ''
+  status: NEW
+  summary: KDE NetworkManager applet always displays zero wlan connection speed
+- component: Kernel
+  create_time: 20180830T18:26:00
+  id: 1106635
+  resolution: ''
+  status: NEW
+  summary: DRM radeon GPU fault detected (gem object lookup failed)
+- component: Basesystem
+  create_time: 20180830T17:50:00
+  id: 1106629
+  resolution: ''
+  status: NEW
+  summary: Slow boot with encrypted root partition
 - component: GNOME
   create_time: 20180830T12:46:00
   id: 1106584
