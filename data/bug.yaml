@@ -12014,6 +12014,12 @@
   summary: cross-arm-none-gcc8-8.1.1+r262873-1.3.x86_64 -mcpu=cortex-m0plus emits
     incorrect arch
 '20180828':
+- component: Virtualization:Other
+  create_time: 20180830T00:24:00
+  id: 1106494
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed system freeze in VM (under KVM)
 - component: Other
   create_time: 20180829T20:01:00
   id: 1106476
