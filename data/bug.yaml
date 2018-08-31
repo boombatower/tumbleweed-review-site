@@ -6191,8 +6191,8 @@
 - component: LibreOffice
   create_time: 20180325T15:12:00
   id: 1086755
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LibreOffice Calc: Copy only works every other time.'
 - component: Kubic
   create_time: 20180325T15:08:00
@@ -11077,8 +11077,8 @@
 - component: Other
   create_time: 20180727T15:13:00
   id: 1102918
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Duplicate Blender application desktop entry in menu
 - component: Other
   create_time: 20180727T14:29:00
@@ -11754,8 +11754,8 @@
 - component: X11 3rd Party Driver
   create_time: 20180826T11:28:00
   id: 1105998
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'X11:Drivers:Video/nvidia-gfxG04: Kernel 4.18 support'
 - component: KDE Workspace (Plasma)
   create_time: 20180825T23:22:00
@@ -11959,7 +11959,7 @@
   create_time: 20180820T07:32:00
   id: 1105302
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20180813] openQA test fails randomly due to ''watchdog: BUG: soft
     lockup - CPU#0 stuck for 91s!'' or ''rcu_sched self-detected stall on CPU'''
 '20180827':
@@ -12058,11 +12058,17 @@
   status: NEW
   summary: Collabora/CODE docker container not working with kernel 4.18
 '20180829':
+- component: Network
+  create_time: 20180831T06:39:00
+  id: 1106705
+  resolution: ''
+  status: NEW
+  summary: NetworkManager requires CA private key for OpenVPN connection
 - component: Other
   create_time: 20180831T04:17:00
   id: 1106693
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: python2-pyliblzma does not conflict with python-pyliblzma
 - component: Xfce
   create_time: 20180830T23:04:00
