@@ -11653,8 +11653,8 @@
 - component: Other
   create_time: 20180816T14:05:00
   id: 1105087
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: freeorion - Fails to build with Boost 1.68.0
 - component: Other
   create_time: 20180816T13:48:00
@@ -12058,6 +12058,19 @@
   status: NEW
   summary: Collabora/CODE docker container not working with kernel 4.18
 '20180829':
+- component: Other
+  create_time: 20180831T04:17:00
+  id: 1106693
+  resolution: ''
+  status: NEW
+  summary: python2-pyliblzma does not conflict with python-pyliblzma
+- component: Xfce
+  create_time: 20180830T23:04:00
+  id: 1106676
+  resolution: ''
+  status: NEW
+  summary: 'Xplayer error at launch: couldn''t load ''/usr/lib64/xplayer/plugins/grilo/grilo.ui''
+    interface.'
 - component: KDE Workspace (Plasma)
   create_time: 20180830T19:57:00
   id: 1106648
