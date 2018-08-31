@@ -10358,8 +10358,8 @@
 - component: Kernel
   create_time: 20180711T19:39:00
   id: 1100944
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: AppArmor network rule support - patch for backward compability for kernel
     4.17+
 - component: Kubic
@@ -12058,6 +12058,12 @@
   status: NEW
   summary: Collabora/CODE docker container not working with kernel 4.18
 '20180829':
+- component: Kernel
+  create_time: 20180831T12:12:00
+  id: 1106751
+  resolution: ''
+  status: NEW
+  summary: iptables does not work with kernel-default-base
 - component: Network
   create_time: 20180831T06:39:00
   id: 1106705
@@ -12101,13 +12107,13 @@
   resolution: ''
   status: NEW
   summary: 'NetworkManager-applet: No longer able to edit or create VPN connections'
-- component: X.Org
+- component: Kernel
   create_time: 20180830T11:36:00
   id: 1106577
   resolution: ''
   status: NEW
-  summary: With kernel greater than 4.18.0, amdgpu causes X to consume 100% of CPU
-    and system hard crashes.
+  summary: 'amdgpu/Carrizo: With kernel greater than 4.18.0, it causes X to consume
+    100% of CPU and crashes system hard'
 - component: Other
   create_time: 20180830T10:40:00
   id: 1106573
@@ -12117,14 +12123,14 @@
 - component: Development
   create_time: 20180830T07:15:00
   id: 1106533
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Haskell stack cannot load libgmp.so
 - component: Virtualization:Other
   create_time: 20180830T00:24:00
   id: 1106494
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Tumbleweed system freeze in VM (under KVM)
 - component: Other
   create_time: 20180829T20:01:00
