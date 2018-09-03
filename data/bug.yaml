@@ -757,8 +757,8 @@
 - component: Kernel
   create_time: 20171216T16:10:00
   id: 1073193
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: No ttyS4 on Pine64
 - component: Kernel
   create_time: 20171216T11:45:00
@@ -3931,8 +3931,8 @@
 - component: GNOME
   create_time: 20180215T17:34:00
   id: 1081226
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Object Clutter.Clone (0x56545d8e4a80), has been already finalized. Impossible
     to get any property from it at tweener.js
 - component: GNOME
@@ -6106,8 +6106,8 @@
 - component: Basesystem
   create_time: 20180321T16:07:00
   id: 1086297
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: perl-Date-Manip fails in testsuite on all 32bit platforms
 - component: Firefox
   create_time: 20180321T14:42:00
@@ -9834,8 +9834,8 @@
 - component: Basesystem
   create_time: 20180627T20:03:00
   id: 1099391
-  resolution: DUPLICATE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: cannot boot system installed on lvm ontop raid1 after update (Cannot activate
     LVs in VG vghome while PVs appear on duplicate devices)
 - component: Security
@@ -10381,7 +10381,7 @@
   status: RESOLVED
   summary: '"rsync" or its dependencies pull in even systemd and dracut and systemd-presets-branding-CAASP
     (useless in containers at least)'
-- component: Translations
+- component: KDE Applications
   create_time: 20180710T15:05:00
   id: 1100765
   resolution: ''
@@ -10592,8 +10592,8 @@
 - component: GNOME
   create_time: 20180715T10:20:00
   id: 1101252
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Gnome creates stack traces every few seconds in journal
 - component: Network
   create_time: 20180715T10:19:00
@@ -12058,24 +12058,6 @@
   status: NEW
   summary: Collabora/CODE docker container not working with kernel 4.18
 '20180829':
-- component: Kernel
-  create_time: 20180831T12:12:00
-  id: 1106751
-  resolution: ''
-  status: NEW
-  summary: iptables does not work with kernel-default-base
-- component: Network
-  create_time: 20180831T06:39:00
-  id: 1106705
-  resolution: ''
-  status: NEW
-  summary: NetworkManager requires CA private key for OpenVPN connection
-- component: Other
-  create_time: 20180831T04:17:00
-  id: 1106693
-  resolution: INVALID
-  status: RESOLVED
-  summary: python2-pyliblzma does not conflict with python-pyliblzma
 - component: Xfce
   create_time: 20180830T23:04:00
   id: 1106676
@@ -12168,3 +12150,84 @@
   resolution: ''
   status: NEW
   summary: Reconnect after suspend not possible with NM 1.12.2 in snapshot 20180828
+'20180831':
+- component: Virtualization:Tools
+  create_time: 20180903T20:39:00
+  id: 1106967
+  resolution: ''
+  status: NEW
+  summary: Installing a VM requires definition of dnsmasq user/group by hand
+- component: Virtualization:Other
+  create_time: 20180903T20:18:00
+  id: 1106965
+  resolution: ''
+  status: NEW
+  summary: Attempting to install tumbleweed in qemu/kvm under tumbleweed hangs
+- component: KDE Applications
+  create_time: 20180903T17:42:00
+  id: 1106954
+  resolution: ''
+  status: NEW
+  summary: libqalculate has a weak dependency on its datafiles
+- component: KVM
+  create_time: 20180902T07:17:00
+  id: 1106841
+  resolution: FIXED
+  status: RESOLVED
+  summary: AArch32 KVM guests break on Hi1616 with 4.18
+- component: libzypp
+  create_time: 20180902T02:08:00
+  id: 1106839
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Bogus file conflict when doing "zypper dup" on Tumbleweed
+- component: YaST2
+  create_time: 20180901T19:32:00
+  id: 1106837
+  resolution: FIXED
+  status: RESOLVED
+  summary: Empty service warning for new repository in YaST
+- component: Other
+  create_time: 20180901T15:43:00
+  id: 1106834
+  resolution: ''
+  status: NEW
+  summary: Snappy cannot perform readlinkat() on the mount namespace
+- component: Kernel
+  create_time: 20180901T14:56:00
+  id: 1106833
+  resolution: ''
+  status: NEW
+  summary: '"NETDEV WATCHDOG: enp2s0 (r8169): transmit queue 0 timed out" panic effectively
+    takes network interface down'
+- component: Kernel
+  create_time: 20180901T10:53:00
+  id: 1106829
+  resolution: ''
+  status: NEW
+  summary: Kernel:HEAD is lacking dtb-* 4.19-rc1 packages
+- component: LibreOffice
+  create_time: 20180901T01:43:00
+  id: 1106814
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: Opening password protected xlsx file from "Recent Documents" list in Calc
+    causes memory leak
+- component: Kernel
+  create_time: 20180831T12:12:00
+  id: 1106751
+  resolution: ''
+  status: NEW
+  summary: iptables does not work with kernel-default-base
+- component: Network
+  create_time: 20180831T06:39:00
+  id: 1106705
+  resolution: ''
+  status: NEW
+  summary: NetworkManager requires CA private key for OpenVPN connection
+- component: Other
+  create_time: 20180831T04:17:00
+  id: 1106693
+  resolution: INVALID
+  status: RESOLVED
+  summary: python2-pyliblzma does not conflict with python-pyliblzma
