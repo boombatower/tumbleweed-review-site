@@ -12093,7 +12093,7 @@
   create_time: 20180830T11:36:00
   id: 1106577
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'amdgpu/Carrizo: With kernel greater than 4.18.0, it causes X to consume
     100% of CPU and crashes system hard'
 - component: Other
@@ -12151,7 +12151,20 @@
   status: NEW
   summary: Reconnect after suspend not possible with NM 1.12.2 in snapshot 20180828
 '20180831':
-- component: Virtualization:Tools
+- component: KDE Workspace (Plasma)
+  create_time: 20180904T07:38:00
+  id: 1106997
+  resolution: ''
+  status: NEW
+  summary: Plasma startup hangs and sometimes ksmserver error
+- component: Network
+  create_time: 20180904T07:27:00
+  id: 1106993
+  resolution: ''
+  status: NEW
+  summary: 'NetworkManager 1.12.2: "Connection activation failed: Could not find source
+    connection." when starting VPN'
+- component: YaST2
   create_time: 20180903T20:39:00
   id: 1106967
   resolution: ''
