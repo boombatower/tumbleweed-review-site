@@ -11441,8 +11441,8 @@
 - component: Kubic
   create_time: 20180810T07:22:00
   id: 1104452
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'transactional-update: /var/lib/zypp not a directory'
 - component: Basesystem
   create_time: 20180810T05:03:00
@@ -12074,8 +12074,8 @@
 - component: Kernel
   create_time: 20180830T18:26:00
   id: 1106635
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: DRM radeon GPU fault detected (gem object lookup failed)
 - component: Basesystem
   create_time: 20180830T17:50:00
@@ -12151,67 +12151,6 @@
   status: NEW
   summary: Reconnect after suspend not possible with NM 1.12.2 in snapshot 20180828
 '20180831':
-- component: Development
-  create_time: 20180905T00:30:00
-  id: 1107219
-  resolution: ''
-  status: NEW
-  summary: vim-plugin-NERDtree-4.2.0-37.1.noarch fails to create new files and folders
-- component: Network
-  create_time: 20180904T21:28:00
-  id: 1107197
-  resolution: ''
-  status: NEW
-  summary: NetworkManager coredump in _con_curl_check_connectivity
-- component: Development
-  create_time: 20180904T14:39:00
-  id: 1107123
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'pmdk: update to 1.4.2'
-- component: Live Medium
-  create_time: 20180904T13:28:00
-  id: 1107104
-  resolution: ''
-  status: NEW
-  summary: KDE LiveCD does not boot in UEFI mode
-- component: Other
-  create_time: 20180904T13:27:00
-  id: 1107103
-  resolution: ''
-  status: NEW
-  summary: Requesting icons for KDE Plasma and PIM patterns
-- component: KDE Workspace (Plasma)
-  create_time: 20180904T07:38:00
-  id: 1106997
-  resolution: ''
-  status: NEW
-  summary: Plasma startup hangs and sometimes ksmserver error
-- component: Network
-  create_time: 20180904T07:27:00
-  id: 1106993
-  resolution: ''
-  status: NEW
-  summary: 'NetworkManager 1.12.2: "Connection activation failed: Could not find source
-    connection." when starting VPN'
-- component: YaST2
-  create_time: 20180903T20:39:00
-  id: 1106967
-  resolution: ''
-  status: NEW
-  summary: Installing a VM requires definition of dnsmasq user/group by hand
-- component: Virtualization:Other
-  create_time: 20180903T20:18:00
-  id: 1106965
-  resolution: ''
-  status: NEW
-  summary: Attempting to install tumbleweed in qemu/kvm under tumbleweed hangs
-- component: KDE Applications
-  create_time: 20180903T17:42:00
-  id: 1106954
-  resolution: ''
-  status: NEW
-  summary: libqalculate has a weak dependency on its datafiles
 - component: KVM
   create_time: 20180902T07:17:00
   id: 1106841
@@ -12274,3 +12213,90 @@
   resolution: INVALID
   status: RESOLVED
   summary: python2-pyliblzma does not conflict with python-pyliblzma
+'20180903':
+- component: Kubic
+  create_time: 20180905T12:40:00
+  id: 1107283
+  resolution: ''
+  status: NEW
+  summary: Don't create /cloud-init-config subvolume by default
+- component: Development
+  create_time: 20180905T11:53:00
+  id: 1107276
+  resolution: ''
+  status: NEW
+  summary: Cargo fails to down load dependencies.
+- component: Kernel
+  create_time: 20180905T10:11:00
+  id: 1107257
+  resolution: ''
+  status: NEW
+  summary: 'arm: Crash in netlink/sk_filter_trim_cap on ARMv7'
+- component: YaST2
+  create_time: 20180905T09:30:00
+  id: 1107250
+  resolution: ''
+  status: NEW
+  summary: 'Failed to load Module ''TftpServer'' due to: component cannot import namespace
+    ''SystemdSocket'''
+- component: Development
+  create_time: 20180905T00:30:00
+  id: 1107219
+  resolution: ''
+  status: NEW
+  summary: vim-plugin-NERDtree-4.2.0-37.1.noarch fails to create new files and folders
+- component: Network
+  create_time: 20180904T21:28:00
+  id: 1107197
+  resolution: ''
+  status: NEW
+  summary: NetworkManager coredump in _con_curl_check_connectivity
+- component: Development
+  create_time: 20180904T14:39:00
+  id: 1107123
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'pmdk: update to 1.4.2'
+- component: Live Medium
+  create_time: 20180904T13:28:00
+  id: 1107104
+  resolution: ''
+  status: NEW
+  summary: KDE LiveCD does not boot in UEFI mode
+- component: Other
+  create_time: 20180904T13:27:00
+  id: 1107103
+  resolution: ''
+  status: NEW
+  summary: Requesting icons for KDE Plasma and PIM patterns
+- component: KDE Workspace (Plasma)
+  create_time: 20180904T07:38:00
+  id: 1106997
+  resolution: ''
+  status: NEW
+  summary: Plasma startup hangs and sometimes ksmserver error
+- component: Network
+  create_time: 20180904T07:27:00
+  id: 1106993
+  resolution: ''
+  status: NEW
+  summary: 'NetworkManager 1.12.2: "Connection activation failed: Could not find source
+    connection." when starting VPN'
+- component: YaST2
+  create_time: 20180903T20:39:00
+  id: 1106967
+  resolution: ''
+  status: NEW
+  summary: Installing a VM requires definition of dnsmasq user/group by hand
+- component: Virtualization:Other
+  create_time: 20180903T20:18:00
+  id: 1106965
+  resolution: ''
+  status: NEW
+  summary: Attempting to install tumbleweed in qemu/kvm under tumbleweed hangs
+- component: KDE Applications
+  create_time: 20180903T17:42:00
+  id: 1106954
+  resolution: ''
+  status: NEW
+  summary: libqalculate has a weak dependency on its datafiles
