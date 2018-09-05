@@ -12152,6 +12152,18 @@
   summary: Reconnect after suspend not possible with NM 1.12.2 in snapshot 20180828
 '20180831':
 - component: Development
+  create_time: 20180905T00:30:00
+  id: 1107219
+  resolution: ''
+  status: NEW
+  summary: vim-plugin-NERDtree-4.2.0-37.1.noarch fails to create new files and folders
+- component: Network
+  create_time: 20180904T21:28:00
+  id: 1107197
+  resolution: ''
+  status: NEW
+  summary: NetworkManager coredump in _con_curl_check_connectivity
+- component: Development
   create_time: 20180904T14:39:00
   id: 1107123
   resolution: ''
