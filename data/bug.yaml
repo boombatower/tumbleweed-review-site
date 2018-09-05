@@ -11598,8 +11598,8 @@
 - component: Network
   create_time: 20180817T14:31:00
   id: 1105222
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'claws mail: remove faulty patch'
 - component: Other
   create_time: 20180817T14:12:00
@@ -12214,6 +12214,18 @@
   status: RESOLVED
   summary: python2-pyliblzma does not conflict with python-pyliblzma
 '20180903':
+- component: Java
+  create_time: 20180905T18:46:00
+  id: 1107342
+  resolution: ''
+  status: NEW
+  summary: JAVA_HOME incorrectly set by /etc/profile.d/alljava.*
+- component: KDE Workspace (Plasma)
+  create_time: 20180905T14:46:00
+  id: 1107313
+  resolution: ''
+  status: NEW
+  summary: 'Update applet: Your system is offline'
 - component: Kubic
   create_time: 20180905T12:40:00
   id: 1107283
