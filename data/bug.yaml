@@ -12294,7 +12294,7 @@
   status: NEW
   summary: 'NetworkManager 1.12.2: "Connection activation failed: Could not find source
     connection." when starting VPN'
-- component: YaST2
+- component: Virtualization:Tools
   create_time: 20180903T20:39:00
   id: 1106967
   resolution: ''
