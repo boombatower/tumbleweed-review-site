@@ -12214,11 +12214,17 @@
   status: RESOLVED
   summary: python2-pyliblzma does not conflict with python-pyliblzma
 '20180903':
+- component: Basesystem
+  create_time: 20180906T13:05:00
+  id: 1107472
+  resolution: ''
+  status: NEW
+  summary: Wrong RPM_OPT_FLAGS check in post-build-checks
 - component: YaST2
   create_time: 20180906T05:28:00
   id: 1107403
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: libstorage-ng uses setenv between fork and exec
 - component: Java
   create_time: 20180905T18:46:00
@@ -12303,8 +12309,8 @@
 - component: Virtualization:Tools
   create_time: 20180903T20:39:00
   id: 1106967
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Installing a VM requires definition of dnsmasq user/group by hand
 - component: Virtualization:Other
   create_time: 20180903T20:18:00
