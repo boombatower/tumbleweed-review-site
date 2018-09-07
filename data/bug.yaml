@@ -12214,6 +12214,12 @@
   status: RESOLVED
   summary: python2-pyliblzma does not conflict with python-pyliblzma
 '20180903':
+- component: Virtualization:Tools
+  create_time: 20180906T19:48:00
+  id: 1107534
+  resolution: ''
+  status: NEW
+  summary: libvirt seems to need mount namespaces for adding/removing disk images
 - component: Basesystem
   create_time: 20180906T13:05:00
   id: 1107472
