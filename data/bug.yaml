@@ -11453,8 +11453,8 @@
 - component: libzypp
   create_time: 20180809T20:10:00
   id: 1104415
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: zypper does not consider packages that are also applications as unneeded
     if they are automatically installed
 - component: YaST2
@@ -12214,67 +12214,6 @@
   status: RESOLVED
   summary: python2-pyliblzma does not conflict with python-pyliblzma
 '20180903':
-- component: Virtualization:Tools
-  create_time: 20180906T19:48:00
-  id: 1107534
-  resolution: ''
-  status: NEW
-  summary: libvirt seems to need mount namespaces for adding/removing disk images
-- component: Basesystem
-  create_time: 20180906T13:05:00
-  id: 1107472
-  resolution: ''
-  status: NEW
-  summary: Wrong RPM_OPT_FLAGS check in post-build-checks
-- component: YaST2
-  create_time: 20180906T05:28:00
-  id: 1107403
-  resolution: FIXED
-  status: RESOLVED
-  summary: libstorage-ng uses setenv between fork and exec
-- component: Java
-  create_time: 20180905T18:46:00
-  id: 1107342
-  resolution: ''
-  status: NEW
-  summary: JAVA_HOME incorrectly set by /etc/profile.d/alljava.*
-- component: KDE Workspace (Plasma)
-  create_time: 20180905T14:46:00
-  id: 1107313
-  resolution: ''
-  status: NEW
-  summary: 'Update applet: Your system is offline'
-- component: Kubic
-  create_time: 20180905T12:40:00
-  id: 1107283
-  resolution: ''
-  status: NEW
-  summary: Don't create /cloud-init-config subvolume by default
-- component: Development
-  create_time: 20180905T11:53:00
-  id: 1107276
-  resolution: ''
-  status: NEW
-  summary: Cargo fails to down load dependencies.
-- component: Kernel
-  create_time: 20180905T10:11:00
-  id: 1107257
-  resolution: ''
-  status: NEW
-  summary: 'arm: Crash in netlink/sk_filter_trim_cap on ARMv7'
-- component: YaST2
-  create_time: 20180905T09:30:00
-  id: 1107250
-  resolution: ''
-  status: NEW
-  summary: 'Failed to load Module ''TftpServer'' due to: component cannot import namespace
-    ''SystemdSocket'''
-- component: Development
-  create_time: 20180905T00:30:00
-  id: 1107219
-  resolution: ''
-  status: NEW
-  summary: vim-plugin-NERDtree-4.2.0-37.1.noarch fails to create new files and folders
 - component: Network
   create_time: 20180904T21:28:00
   id: 1107197
@@ -12330,3 +12269,101 @@
   resolution: ''
   status: NEW
   summary: libqalculate has a weak dependency on its datafiles
+'20180905':
+- component: Kernel
+  create_time: 20180907T09:40:00
+  id: 1107641
+  resolution: ''
+  status: NEW
+  summary: No keyboard backlit on Asus UX410UA with kernel 4.18
+- component: Other
+  create_time: 20180907T09:31:00
+  id: 1107637
+  resolution: ''
+  status: NEW
+  summary: '[staging] FTBFS: pcp fails due to papi update'
+- component: Basesystem
+  create_time: 20180907T07:49:00
+  id: 1107617
+  resolution: ''
+  status: NEW
+  summary: 'udev: fix default value of udev.children-max'
+- component: Basesystem
+  create_time: 20180907T07:34:00
+  id: 1107615
+  resolution: ''
+  status: NEW
+  summary: sysconfig requires ifup
+- component: Basesystem
+  create_time: 20180907T07:26:00
+  id: 1107611
+  resolution: ''
+  status: NEW
+  summary: move /etc/modprobe.d/50-blacklist.conf out of sysconfig
+- component: Basesystem
+  create_time: 20180907T06:08:00
+  id: 1107587
+  resolution: ''
+  status: CONFIRMED
+  summary: snapper uses setenv between fork and exec
+- component: Virtualization:Tools
+  create_time: 20180906T19:48:00
+  id: 1107534
+  resolution: ''
+  status: NEW
+  summary: libvirt seems to need mount namespaces for adding/removing disk images
+- component: Basesystem
+  create_time: 20180906T13:05:00
+  id: 1107472
+  resolution: ''
+  status: NEW
+  summary: Wrong RPM_OPT_FLAGS check in post-build-checks
+- component: YaST2
+  create_time: 20180906T05:28:00
+  id: 1107403
+  resolution: FIXED
+  status: RESOLVED
+  summary: libstorage-ng uses setenv between fork and exec
+- component: Java
+  create_time: 20180905T18:46:00
+  id: 1107342
+  resolution: ''
+  status: NEW
+  summary: JAVA_HOME incorrectly set by /etc/profile.d/alljava.*
+- component: KDE Workspace (Plasma)
+  create_time: 20180905T14:46:00
+  id: 1107313
+  resolution: ''
+  status: NEW
+  summary: 'Update applet: Your system is offline'
+- component: Kubic
+  create_time: 20180905T12:40:00
+  id: 1107283
+  resolution: ''
+  status: NEW
+  summary: Don't create /cloud-init-config subvolume by default
+- component: Development
+  create_time: 20180905T11:53:00
+  id: 1107276
+  resolution: ''
+  status: NEW
+  summary: Cargo fails to down load dependencies.
+- component: Kernel
+  create_time: 20180905T10:11:00
+  id: 1107257
+  resolution: ''
+  status: NEW
+  summary: 'arm: Crash in netlink/sk_filter_trim_cap on ARMv7'
+- component: YaST2
+  create_time: 20180905T09:30:00
+  id: 1107250
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: 'Failed to load Module ''TftpServer'' due to: component cannot import namespace
+    ''SystemdSocket'''
+- component: Development
+  create_time: 20180905T00:30:00
+  id: 1107219
+  resolution: ''
+  status: NEW
+  summary: vim-plugin-NERDtree-4.2.0-37.1.noarch fails to create new files and folders
