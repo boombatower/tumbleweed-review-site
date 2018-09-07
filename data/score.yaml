@@ -461,7 +461,7 @@
   score: 52
   stability_level: unstable
 '20180820':
-  score: 59
+  score: 58
   stability_level: unstable
 '20180827':
   score: 60
@@ -474,7 +474,10 @@
   stability_level: stable
 '20180831':
   score: 95
-  stability_level: pending
+  stability_level: stable
 '20180903':
-  score: 96
+  score: 97
+  stability_level: pending
+'20180905':
+  score: 97
   stability_level: pending
