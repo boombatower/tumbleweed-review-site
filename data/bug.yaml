@@ -12273,8 +12273,8 @@
 - component: KDE Applications
   create_time: 20180908T12:50:00
   id: 1107758
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Auto drop for freecell no longer works with kpat 18.08, works for Leap
     42.3 and 15.0
 - component: Printing
