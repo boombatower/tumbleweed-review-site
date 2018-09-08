@@ -12270,6 +12270,13 @@
   status: NEW
   summary: libqalculate has a weak dependency on its datafiles
 '20180905':
+- component: KDE Applications
+  create_time: 20180908T12:50:00
+  id: 1107758
+  resolution: ''
+  status: NEW
+  summary: Auto drop for freecell no longer works with kpat 18.08, works for Leap
+    42.3 and 15.0
 - component: Printing
   create_time: 20180907T16:29:00
   id: 1107711
@@ -12291,8 +12298,8 @@
 - component: Other
   create_time: 20180907T09:31:00
   id: 1107637
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[staging] FTBFS: pcp fails due to papi update'
 - component: Basesystem
   create_time: 20180907T07:49:00
