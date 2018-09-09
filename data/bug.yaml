@@ -12270,6 +12270,12 @@
   status: NEW
   summary: libqalculate has a weak dependency on its datafiles
 '20180905':
+- component: Other
+  create_time: 20180908T22:19:00
+  id: 1107761
+  resolution: ''
+  status: NEW
+  summary: recomended packages for mcomix
 - component: KDE Applications
   create_time: 20180908T12:50:00
   id: 1107758
