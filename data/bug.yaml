@@ -12270,6 +12270,12 @@
   status: NEW
   summary: libqalculate has a weak dependency on its datafiles
 '20180905':
+- component: Basesystem
+  create_time: 20180909T03:46:00
+  id: 1107762
+  resolution: ''
+  status: NEW
+  summary: gvfs does not detect USB drive being ejected when using Thunar
 - component: Other
   create_time: 20180908T22:19:00
   id: 1107761
