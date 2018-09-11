@@ -11767,7 +11767,7 @@
   create_time: 20180825T20:00:00
   id: 1105995
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: neon does not build in 2019-09
 - component: Kubic
   create_time: 20180825T18:13:00
