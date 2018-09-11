@@ -2167,8 +2167,8 @@
 - component: Basesystem
   create_time: 20180121T22:02:00
   id: 1076927
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: XFCE Terminal does not update the tittle correctly
 - component: GNOME
   create_time: 20180121T16:05:00
@@ -11822,7 +11822,7 @@
   create_time: 20180823T15:01:00
   id: 1105801
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Spyder 3.3.1-1.1 startup fail caused by spyder-kernels
 - component: X.Org
   create_time: 20180823T14:53:00
@@ -11914,8 +11914,8 @@
 - component: Kernel
   create_time: 20180821T21:09:00
   id: 1105573
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: No network with U.S. Robotics USR997902 and kernel 4.18.0-1-default
 - component: Other
   create_time: 20180821T13:36:00
@@ -12270,42 +12270,6 @@
   status: NEW
   summary: libqalculate has a weak dependency on its datafiles
 '20180905':
-- component: Development
-  create_time: 20180910T18:19:00
-  id: 1107893
-  resolution: ''
-  status: NEW
-  summary: after update to trac-1.2.3 - localization "de" not available anymore
-- component: KDE Workspace (Plasma)
-  create_time: 20180910T16:32:00
-  id: 1107881
-  resolution: ''
-  status: NEW
-  summary: OpenSUSE theme makes screen edges system settings unusable
-- component: Development
-  create_time: 20180910T09:45:00
-  id: 1107814
-  resolution: ''
-  status: NEW
-  summary: python-openstacksdk build gets stuck on 1-core-VM
-- component: Other
-  create_time: 20180910T08:16:00
-  id: 1107798
-  resolution: ''
-  status: NEW
-  summary: Fails to update the last python2-appdirs/python3-appdirs in Tumbleweed
-- component: YaST2
-  create_time: 20180910T07:21:00
-  id: 1107793
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Cannot run firewall module
-- component: Network
-  create_time: 20180910T01:49:00
-  id: 1107777
-  resolution: ''
-  status: NEW
-  summary: Can't connect to wifi network after suspend (not always)
 - component: Basesystem
   create_time: 20180909T03:46:00
   id: 1107762
@@ -12353,7 +12317,7 @@
   create_time: 20180907T07:49:00
   id: 1107617
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'udev: fix default value of udev.children-max'
 - component: Basesystem
   create_time: 20180907T07:34:00
@@ -12434,3 +12398,82 @@
   resolution: ''
   status: NEW
   summary: vim-plugin-NERDtree-4.2.0-37.1.noarch fails to create new files and folders
+'20180910':
+- component: AutoYaST
+  create_time: 20180911T14:42:00
+  id: 1108032
+  resolution: ''
+  status: NEW
+  summary: autoyast dies with Internal error
+- component: Xfce
+  create_time: 20180911T13:08:00
+  id: 1108015
+  resolution: ''
+  status: NEW
+  summary: midori crashes
+- component: Basesystem
+  create_time: 20180911T09:13:00
+  id: 1107973
+  resolution: ''
+  status: NEW
+  summary: perl fails to build with libxcrypt
+- component: YaST2
+  create_time: 20180911T08:08:00
+  id: 1107953
+  resolution: FIXED
+  status: RESOLVED
+  summary: yast2-ruby-bindings testsuite failure
+- component: Basesystem
+  create_time: 20180911T07:22:00
+  id: 1107941
+  resolution: ''
+  status: NEW
+  summary: machines.target not enabled by default
+- component: X.Org
+  create_time: 20180911T07:06:00
+  id: 1107938
+  resolution: ''
+  status: NEW
+  summary: 'libinput: Bump version to 1.12.0'
+- component: Apache
+  create_time: 20180911T06:32:00
+  id: 1107930
+  resolution: ''
+  status: NEW
+  summary: SYSCONFIG_FILE variable not defined in /usr/share/apache2/script-helpers
+- component: Development
+  create_time: 20180910T18:19:00
+  id: 1107893
+  resolution: ''
+  status: NEW
+  summary: after update to trac-1.2.3 - localization "de" not available anymore
+- component: KDE Workspace (Plasma)
+  create_time: 20180910T16:32:00
+  id: 1107881
+  resolution: ''
+  status: NEW
+  summary: OpenSUSE theme makes screen edges system settings unusable
+- component: Development
+  create_time: 20180910T09:45:00
+  id: 1107814
+  resolution: ''
+  status: NEW
+  summary: python-openstacksdk build gets stuck on 1-core-VM
+- component: Other
+  create_time: 20180910T08:16:00
+  id: 1107798
+  resolution: ''
+  status: NEW
+  summary: Fails to update the last python2-appdirs/python3-appdirs in Tumbleweed
+- component: YaST2
+  create_time: 20180910T07:21:00
+  id: 1107793
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Cannot run firewall module
+- component: Network
+  create_time: 20180910T01:49:00
+  id: 1107777
+  resolution: ''
+  status: NEW
+  summary: Can't connect to wifi network after suspend (not always)
