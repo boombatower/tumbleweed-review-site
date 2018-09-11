@@ -1154,6 +1154,14 @@
   threads: []
 '20180905':
   announcement: 2018-09.34
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages: [2018-09.48]
+    reference_count: 1
+    summary: KIO SFTP stops working with libssh 0.8.2 and ecdsa-sha2-nistp256
+'20180910':
+  announcement: 2018-09.49
   reference_count: 0
   thread_count: 0
   threads: []
