@@ -9876,7 +9876,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: VirtualBox forgets status bar and toolbar
-- component: Other
+- component: libzypp
   create_time: 20180628T12:13:00
   id: 1099494
   resolution: ''
@@ -10712,7 +10712,8 @@
   id: 1101979
   resolution: ''
   status: CONFIRMED
-  summary: openSUSE Tumbleweed network installer fails (snapshot 14-07-2018)
+  summary: 'openSUSE Tumbleweed: Mounting a filesystem fails and libstorage-ng throws
+    an exception'
 - component: X11 Applications
   create_time: 20180719T21:40:00
   id: 1101960
@@ -12399,6 +12400,18 @@
   status: NEW
   summary: vim-plugin-NERDtree-4.2.0-37.1.noarch fails to create new files and folders
 '20180910':
+- component: AutoYaST
+  create_time: 20180912T15:09:00
+  id: 1108199
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180910] autoyast profile doesn''t validate when cloning system'
+- component: Other
+  create_time: 20180912T15:00:00
+  id: 1108197
+  resolution: ''
+  status: NEW
+  summary: 'daps: PDF generation error'
 - component: Installation
   create_time: 20180912T13:00:00
   id: 1108178
