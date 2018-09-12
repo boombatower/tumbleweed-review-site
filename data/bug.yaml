@@ -12399,6 +12399,32 @@
   status: NEW
   summary: vim-plugin-NERDtree-4.2.0-37.1.noarch fails to create new files and folders
 '20180910':
+- component: Installation
+  create_time: 20180912T13:00:00
+  id: 1108178
+  resolution: ''
+  status: NEW
+  summary: translator-credits is used in release notes
+- component: Basesystem
+  create_time: 20180912T11:35:00
+  id: 1108165
+  resolution: ''
+  status: NEW
+  summary: Zypper as well as gpk-update-viewer try to install i586 kernel on x86_64
+- component: Development
+  create_time: 20180912T10:52:00
+  id: 1108160
+  resolution: ''
+  status: NEW
+  summary: 'icecream scheduler fails to start: systemd unit has other user than created
+    by RPM script'
+- component: KDE Workspace (Plasma)
+  create_time: 20180912T09:42:00
+  id: 1108147
+  resolution: ''
+  status: NEW
+  summary: KIO SFTP doesn't connect using ecdsa-sha2-nistp256 host keys after update
+    to libssh 0.8
 - component: YaST2
   create_time: 20180912T07:51:00
   id: 1108129
@@ -12408,8 +12434,8 @@
 - component: AutoYaST
   create_time: 20180911T14:42:00
   id: 1108032
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'autoyast dies with Internal error: undefined method `tmpdir'' for #<Yast::AutoinstConfigClass:0x0000000001c08770>'
 - component: Xfce
   create_time: 20180911T13:08:00
