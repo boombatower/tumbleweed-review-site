@@ -12399,12 +12399,18 @@
   status: NEW
   summary: vim-plugin-NERDtree-4.2.0-37.1.noarch fails to create new files and folders
 '20180910':
+- component: YaST2
+  create_time: 20180912T07:51:00
+  id: 1108129
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Yast -> firewalld module crash
 - component: AutoYaST
   create_time: 20180911T14:42:00
   id: 1108032
   resolution: ''
   status: NEW
-  summary: autoyast dies with Internal error
+  summary: 'autoyast dies with Internal error: undefined method `tmpdir'' for #<Yast::AutoinstConfigClass:0x0000000001c08770>'
 - component: Xfce
   create_time: 20180911T13:08:00
   id: 1108015
