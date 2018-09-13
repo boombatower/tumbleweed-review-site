@@ -4817,7 +4817,7 @@
   create_time: 20180301T10:23:00
   id: 1083473
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Use systemd user socket for starting / enabling PulseAudio
 - component: GNOME
   create_time: 20180301T09:45:00
@@ -8478,8 +8478,8 @@
 - component: Basesystem
   create_time: 20180518T07:20:00
   id: 1093808
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: gpg2 update to 2.2.7 (or minor rpm update), breaks own-repository signing
     key
 - component: X11 Applications
@@ -10390,8 +10390,8 @@
 - component: X.Org
   create_time: 20180710T14:20:00
   id: 1100759
-  resolution: ''
-  status: CONFIRMED
+  resolution: INVALID
+  status: RESOLVED
   summary: Periodic black screen at radeon
 - component: Kernel
   create_time: 20180710T11:57:00
@@ -12083,7 +12083,7 @@
   id: 1106629
   resolution: ''
   status: NEW
-  summary: Slow boot with encrypted root partition
+  summary: Slow boot with encrypted root partition on NVMe and Ryzen CPU
 - component: GNOME
   create_time: 20180830T12:46:00
   id: 1106584
@@ -12400,6 +12400,85 @@
   status: NEW
   summary: vim-plugin-NERDtree-4.2.0-37.1.noarch fails to create new files and folders
 '20180910':
+- component: Development
+  create_time: 20180910T18:19:00
+  id: 1107893
+  resolution: ''
+  status: NEW
+  summary: after update to trac-1.2.3 - localization "de" not available anymore
+- component: KDE Workspace (Plasma)
+  create_time: 20180910T16:32:00
+  id: 1107881
+  resolution: ''
+  status: NEW
+  summary: OpenSUSE theme makes screen edges system settings unusable
+- component: Development
+  create_time: 20180910T09:45:00
+  id: 1107814
+  resolution: ''
+  status: NEW
+  summary: python-openstacksdk build gets stuck on 1-core-VM
+- component: Other
+  create_time: 20180910T08:16:00
+  id: 1107798
+  resolution: ''
+  status: NEW
+  summary: Fails to update the last python2-appdirs/python3-appdirs in Tumbleweed
+- component: YaST2
+  create_time: 20180910T07:21:00
+  id: 1107793
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Cannot run firewall module
+- component: Network
+  create_time: 20180910T01:49:00
+  id: 1107777
+  resolution: ''
+  status: NEW
+  summary: Can't connect to wifi network after suspend (not always)
+'20180911':
+- component: Xfce
+  create_time: 20180913T20:18:00
+  id: 1108381
+  resolution: ''
+  status: NEW
+  summary: missing recommends entry for gcr-ssh-askpass
+- component: Sound
+  create_time: 20180913T18:30:00
+  id: 1108364
+  resolution: ''
+  status: NEW
+  summary: ALSA don't set or mute default and sysdefault capture devices
+- component: KDE Workspace (Plasma)
+  create_time: 20180913T14:47:00
+  id: 1108329
+  resolution: ''
+  status: NEW
+  summary: Plasma lockscreen can't unlock if there is no display manager installed
+- component: KDE Workspace (Plasma)
+  create_time: 20180913T14:18:00
+  id: 1108322
+  resolution: ''
+  status: NEW
+  summary: Artifact in blinking cursor when being prompt to enter root password (KDE-su)
+- component: Kernel
+  create_time: 20180913T13:49:00
+  id: 1108317
+  resolution: ''
+  status: NEW
+  summary: Suspend to RAM works  only for the first time
+- component: Basesystem
+  create_time: 20180913T12:01:00
+  id: 1108307
+  resolution: ''
+  status: NEW
+  summary: 'timezone: end of seasonal daylight saving time changes in 2019'
+- component: Other
+  create_time: 20180913T09:18:00
+  id: 1108289
+  resolution: ''
+  status: NEW
+  summary: adjust installation-images according to iptables change
 - component: AutoYaST
   create_time: 20180912T15:09:00
   id: 1108199
@@ -12412,12 +12491,6 @@
   resolution: ''
   status: NEW
   summary: 'daps: PDF generation error'
-- component: Installation
-  create_time: 20180912T13:00:00
-  id: 1108178
-  resolution: ''
-  status: NEW
-  summary: translator-credits is used in release notes
 - component: Basesystem
   create_time: 20180912T11:35:00
   id: 1108165
@@ -12486,39 +12559,3 @@
   resolution: ''
   status: NEW
   summary: SYSCONFIG_FILE variable not defined in /usr/share/apache2/script-helpers
-- component: Development
-  create_time: 20180910T18:19:00
-  id: 1107893
-  resolution: ''
-  status: NEW
-  summary: after update to trac-1.2.3 - localization "de" not available anymore
-- component: KDE Workspace (Plasma)
-  create_time: 20180910T16:32:00
-  id: 1107881
-  resolution: ''
-  status: NEW
-  summary: OpenSUSE theme makes screen edges system settings unusable
-- component: Development
-  create_time: 20180910T09:45:00
-  id: 1107814
-  resolution: ''
-  status: NEW
-  summary: python-openstacksdk build gets stuck on 1-core-VM
-- component: Other
-  create_time: 20180910T08:16:00
-  id: 1107798
-  resolution: ''
-  status: NEW
-  summary: Fails to update the last python2-appdirs/python3-appdirs in Tumbleweed
-- component: YaST2
-  create_time: 20180910T07:21:00
-  id: 1107793
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Cannot run firewall module
-- component: Network
-  create_time: 20180910T01:49:00
-  id: 1107777
-  resolution: ''
-  status: NEW
-  summary: Can't connect to wifi network after suspend (not always)
