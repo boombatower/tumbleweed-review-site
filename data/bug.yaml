@@ -6191,8 +6191,8 @@
 - component: LibreOffice
   create_time: 20180325T15:12:00
   id: 1086755
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'LibreOffice Calc: Copy only works every other time.'
 - component: Kubic
   create_time: 20180325T15:08:00
@@ -12437,6 +12437,18 @@
   status: NEW
   summary: Can't connect to wifi network after suspend (not always)
 '20180911':
+- component: YaST2
+  create_time: 20180914T08:43:00
+  id: 1108424
+  resolution: ''
+  status: NEW
+  summary: Authenticate YaST2 with polkit
+- component: YaST2
+  create_time: 20180914T08:40:00
+  id: 1108422
+  resolution: ''
+  status: NEW
+  summary: Provide a way for yast build tools to install dead symlinks
 - component: Xfce
   create_time: 20180913T20:18:00
   id: 1108381
