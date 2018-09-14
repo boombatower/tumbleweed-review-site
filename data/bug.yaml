@@ -12437,6 +12437,12 @@
   status: NEW
   summary: Can't connect to wifi network after suspend (not always)
 '20180911':
+- component: Kernel
+  create_time: 20180914T18:46:00
+  id: 1108533
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'master (4.19-rc3): BUG in ip_do_fragment()'
 - component: Security
   create_time: 20180914T10:31:00
   id: 1108450
