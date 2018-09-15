@@ -12302,7 +12302,7 @@
   resolution: ''
   status: NEW
   summary: plasma-nm loses all connection info
-- component: Kernel
+- component: GNOME
   create_time: 20180907T09:40:00
   id: 1107641
   resolution: ''
@@ -12560,6 +12560,26 @@
   status: NEW
   summary: SYSCONFIG_FILE variable not defined in /usr/share/apache2/script-helpers
 '20180914':
+- component: KDE Workspace (Plasma)
+  create_time: 20180915T21:09:00
+  id: 1108563
+  resolution: ''
+  status: NEW
+  summary: Lock screen wallpaper when set to "picture of the day" not getting any
+    images on lock screen.
+- component: Kernel
+  create_time: 20180915T17:53:00
+  id: 1108560
+  resolution: ''
+  status: NEW
+  summary: AMDGPU regression, multi-head not working on 4.18, 4.19RC3, but does on
+    4.16
+- component: Kernel
+  create_time: 20180915T15:23:00
+  id: 1108559
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Vega 64 multihead no longer works after update to kernel 4.18
 - component: GNOME
   create_time: 20180915T11:14:00
   id: 1108556
