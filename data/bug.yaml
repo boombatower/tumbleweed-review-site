@@ -12437,6 +12437,13 @@
   status: NEW
   summary: Can't connect to wifi network after suspend (not always)
 '20180911':
+- component: X.Org
+  create_time: 20180914T22:36:00
+  id: 1108549
+  resolution: ''
+  status: NEW
+  summary: startx unsets DBUS_SESSION_BUS_ADDRESS, which breaks user dbus session
+    launched by systemd
 - component: Kernel
   create_time: 20180914T18:46:00
   id: 1108533
