@@ -12527,7 +12527,7 @@
   create_time: 20180911T13:08:00
   id: 1108015
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: midori crashes
 - component: Basesystem
   create_time: 20180911T09:13:00
@@ -12560,11 +12560,24 @@
   status: NEW
   summary: SYSCONFIG_FILE variable not defined in /usr/share/apache2/script-helpers
 '20180914':
+- component: GNOME
+  create_time: 20180915T11:14:00
+  id: 1108556
+  resolution: ''
+  status: NEW
+  summary: '''zypper dup'' periodically breaks GTK due to corrupt gsettings - gschemas
+    installation'
+- component: Network
+  create_time: 20180915T09:20:00
+  id: 1108555
+  resolution: ''
+  status: NEW
+  summary: Intermittent Network Disconnection
 - component: X.Org
   create_time: 20180914T22:36:00
   id: 1108549
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: startx unsets DBUS_SESSION_BUS_ADDRESS, which breaks user dbus session
     launched by systemd
 - component: Kernel
