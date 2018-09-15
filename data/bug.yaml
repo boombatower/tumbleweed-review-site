@@ -12437,37 +12437,6 @@
   status: NEW
   summary: Can't connect to wifi network after suspend (not always)
 '20180911':
-- component: X.Org
-  create_time: 20180914T22:36:00
-  id: 1108549
-  resolution: ''
-  status: NEW
-  summary: startx unsets DBUS_SESSION_BUS_ADDRESS, which breaks user dbus session
-    launched by systemd
-- component: Kernel
-  create_time: 20180914T18:46:00
-  id: 1108533
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'master (4.19-rc3): BUG in ip_do_fragment()'
-- component: Security
-  create_time: 20180914T10:31:00
-  id: 1108450
-  resolution: FIXED
-  status: RESOLVED
-  summary: weechat gnutls fails in handshake
-- component: YaST2
-  create_time: 20180914T08:43:00
-  id: 1108424
-  resolution: FEATURE
-  status: RESOLVED
-  summary: Authenticate YaST2 with polkit
-- component: YaST2
-  create_time: 20180914T08:40:00
-  id: 1108422
-  resolution: ''
-  status: NEW
-  summary: Provide a way for yast build tools to install dead symlinks
 - component: Xfce
   create_time: 20180913T20:18:00
   id: 1108381
@@ -12590,3 +12559,35 @@
   resolution: ''
   status: NEW
   summary: SYSCONFIG_FILE variable not defined in /usr/share/apache2/script-helpers
+'20180914':
+- component: X.Org
+  create_time: 20180914T22:36:00
+  id: 1108549
+  resolution: ''
+  status: NEW
+  summary: startx unsets DBUS_SESSION_BUS_ADDRESS, which breaks user dbus session
+    launched by systemd
+- component: Kernel
+  create_time: 20180914T18:46:00
+  id: 1108533
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'master (4.19-rc3): BUG in ip_do_fragment()'
+- component: Security
+  create_time: 20180914T10:31:00
+  id: 1108450
+  resolution: FIXED
+  status: RESOLVED
+  summary: weechat gnutls fails in handshake
+- component: YaST2
+  create_time: 20180914T08:43:00
+  id: 1108424
+  resolution: FEATURE
+  status: RESOLVED
+  summary: Authenticate YaST2 with polkit
+- component: YaST2
+  create_time: 20180914T08:40:00
+  id: 1108422
+  resolution: ''
+  status: NEW
+  summary: Provide a way for yast build tools to install dead symlinks
