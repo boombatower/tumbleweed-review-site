@@ -1172,9 +1172,9 @@
   threads: []
 '20180914':
   announcement: 2018-09.57
-  reference_count: 2
+  reference_count: 3
   thread_count: 1
   threads:
   - messages: [2018-09.58]
-    reference_count: 2
+    reference_count: 3
     summary: released! - Can't find Krita
