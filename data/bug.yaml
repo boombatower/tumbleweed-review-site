@@ -12560,6 +12560,18 @@
   status: NEW
   summary: SYSCONFIG_FILE variable not defined in /usr/share/apache2/script-helpers
 '20180914':
+- component: Translations
+  create_time: 20180916T12:07:00
+  id: 1108572
+  resolution: ''
+  status: NEW
+  summary: Why are there both locale/ and locale-langpack/
+- component: Translations
+  create_time: 20180916T11:59:00
+  id: 1108571
+  resolution: ''
+  status: NEW
+  summary: coreutils.mo in both LC_MESSAGES and LC_TIME
 - component: Network
   create_time: 20180916T06:32:00
   id: 1108570
@@ -12571,7 +12583,7 @@
   create_time: 20180916T04:19:00
   id: 1108567
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: qBittorrent crashes in latest Tumbleweed snapshot
 - component: X11 Applications
   create_time: 20180916T02:48:00
