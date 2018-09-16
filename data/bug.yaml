@@ -12560,6 +12560,19 @@
   status: NEW
   summary: SYSCONFIG_FILE variable not defined in /usr/share/apache2/script-helpers
 '20180914':
+- component: Network
+  create_time: 20180916T06:32:00
+  id: 1108570
+  resolution: ''
+  status: NEW
+  summary: After restarting NetworkManager service, it cannot read passwords from
+    wallet
+- component: Other
+  create_time: 20180916T04:19:00
+  id: 1108567
+  resolution: ''
+  status: NEW
+  summary: qBittorrent crashes in latest Tumbleweed snapshot
 - component: X11 Applications
   create_time: 20180916T02:48:00
   id: 1108566
