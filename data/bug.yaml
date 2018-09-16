@@ -12560,6 +12560,18 @@
   status: NEW
   summary: SYSCONFIG_FILE variable not defined in /usr/share/apache2/script-helpers
 '20180914':
+- component: X11 Applications
+  create_time: 20180916T02:48:00
+  id: 1108566
+  resolution: ''
+  status: NEW
+  summary: Thunderbird crashes during startup
+- component: Other
+  create_time: 20180916T02:18:00
+  id: 1108565
+  resolution: ''
+  status: NEW
+  summary: '''command-not-found'' script syntax error'
 - component: KDE Workspace (Plasma)
   create_time: 20180915T21:09:00
   id: 1108563
