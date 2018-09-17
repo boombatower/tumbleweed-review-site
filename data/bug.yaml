@@ -12592,6 +12592,12 @@
   status: NEW
   summary: Provide a way for yast build tools to install dead symlinks
 '20180915':
+- component: KDE Applications
+  create_time: 20180916T22:30:00
+  id: 1108577
+  resolution: ''
+  status: NEW
+  summary: Gmail authentication fails in kmail
 - component: Translations
   create_time: 20180916T12:07:00
   id: 1108572
