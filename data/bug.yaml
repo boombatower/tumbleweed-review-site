@@ -7851,8 +7851,8 @@
 - component: Other
   create_time: 20180509T08:06:00
   id: 1092493
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'aws CLI tool fails to run: ModuleNotFoundError: No module named ''botocore.vendored'''
 - component: Basesystem
   create_time: 20180509T07:55:00
@@ -12626,6 +12626,19 @@
   status: NEW
   summary: Intermittent Network Disconnection
 '20180916':
+- component: Containers
+  create_time: 20180917T18:05:00
+  id: 1108698
+  resolution: ''
+  status: NEW
+  summary: aarch64 Tumbleweed docker container does not match published repo
+- component: Kernel
+  create_time: 20180917T16:04:00
+  id: 1108689
+  resolution: ''
+  status: NEW
+  summary: After BIOS update of my HP Envy x360 13m-ag0xxx (AMD Ryzen 7 2700U) Linux
+    startup freezes with blank screen
 - component: Network
   create_time: 20180917T11:56:00
   id: 1108658
