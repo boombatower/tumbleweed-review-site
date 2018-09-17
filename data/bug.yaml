@@ -8199,8 +8199,8 @@
 - component: YaST2
   create_time: 20180512T12:59:00
   id: 1093029
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180511] openQA test fails in yast2_dns_server - "named.service
     is not active, cannot reload."'
 - component: Other
@@ -11436,8 +11436,8 @@
 - component: Other
   create_time: 20180810T11:30:00
   id: 1104479
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: ucode-intel license change or license file added to tarball
 - component: Kubic
   create_time: 20180810T07:22:00
@@ -12592,6 +12592,24 @@
   status: NEW
   summary: Provide a way for yast build tools to install dead symlinks
 '20180915':
+- component: YaST2
+  create_time: 20180917T09:23:00
+  id: 1108628
+  resolution: ''
+  status: NEW
+  summary: fails to call firewall-offline-cmd in the installation
+- component: Basesystem
+  create_time: 20180917T08:55:00
+  id: 1108623
+  resolution: ''
+  status: NEW
+  summary: iSCSI initiator delays boot for ~2 mins
+- component: GNOME
+  create_time: 20180917T08:47:00
+  id: 1108619
+  resolution: ''
+  status: NEW
+  summary: NetworkManager dumped core in nm_connectivity_check_start
 - component: KDE Applications
   create_time: 20180916T22:30:00
   id: 1108577
@@ -12623,7 +12641,7 @@
   resolution: ''
   status: CONFIRMED
   summary: qBittorrent crashes in latest Tumbleweed snapshot
-- component: X11 Applications
+- component: Firefox
   create_time: 20180916T02:48:00
   id: 1108566
   resolution: ''
