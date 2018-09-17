@@ -8200,7 +8200,7 @@
   create_time: 20180512T12:59:00
   id: 1093029
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20180511] openQA test fails in yast2_dns_server - "named.service
     is not active, cannot reload."'
 - component: Other
@@ -9480,8 +9480,8 @@
 - component: Other
   create_time: 20180618T22:37:00
   id: 1098142
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: TeXLive cannot register font - Can't locate TeXLive/TLUtils.pm
 - component: Kernel
   create_time: 20180618T15:40:00
@@ -12218,8 +12218,8 @@
 - component: Network
   create_time: 20180904T21:28:00
   id: 1107197
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: NetworkManager coredump in _con_curl_check_connectivity
 - component: Development
   create_time: 20180904T14:39:00
@@ -12494,8 +12494,8 @@
 - component: Basesystem
   create_time: 20180912T11:35:00
   id: 1108165
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Zypper as well as gpk-update-viewer try to install i586 kernel on x86_64
 - component: Development
   create_time: 20180912T10:52:00
@@ -12556,8 +12556,8 @@
 - component: Apache
   create_time: 20180911T06:32:00
   id: 1107930
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: SYSCONFIG_FILE variable not defined in /usr/share/apache2/script-helpers
 '20180914':
 - component: X.Org
@@ -12592,67 +12592,6 @@
   status: NEW
   summary: Provide a way for yast build tools to install dead symlinks
 '20180915':
-- component: YaST2
-  create_time: 20180917T09:23:00
-  id: 1108628
-  resolution: ''
-  status: NEW
-  summary: fails to call firewall-offline-cmd in the installation
-- component: Basesystem
-  create_time: 20180917T08:55:00
-  id: 1108623
-  resolution: ''
-  status: NEW
-  summary: iSCSI initiator delays boot for ~2 mins
-- component: GNOME
-  create_time: 20180917T08:47:00
-  id: 1108619
-  resolution: ''
-  status: NEW
-  summary: NetworkManager dumped core in nm_connectivity_check_start
-- component: KDE Applications
-  create_time: 20180916T22:30:00
-  id: 1108577
-  resolution: ''
-  status: NEW
-  summary: Gmail authentication fails in kmail
-- component: Translations
-  create_time: 20180916T12:07:00
-  id: 1108572
-  resolution: ''
-  status: NEW
-  summary: Why are there both locale/ and locale-langpack/
-- component: Translations
-  create_time: 20180916T11:59:00
-  id: 1108571
-  resolution: ''
-  status: NEW
-  summary: coreutils.mo in both LC_MESSAGES and LC_TIME
-- component: Network
-  create_time: 20180916T06:32:00
-  id: 1108570
-  resolution: ''
-  status: NEW
-  summary: After restarting NetworkManager service, it cannot read passwords from
-    wallet
-- component: Other
-  create_time: 20180916T04:19:00
-  id: 1108567
-  resolution: ''
-  status: CONFIRMED
-  summary: qBittorrent crashes in latest Tumbleweed snapshot
-- component: Firefox
-  create_time: 20180916T02:48:00
-  id: 1108566
-  resolution: ''
-  status: NEW
-  summary: Thunderbird crashes during startup
-- component: Other
-  create_time: 20180916T02:18:00
-  id: 1108565
-  resolution: ''
-  status: NEW
-  summary: '''command-not-found'' script syntax error'
 - component: KDE Workspace (Plasma)
   create_time: 20180915T21:09:00
   id: 1108563
@@ -12686,3 +12625,102 @@
   resolution: ''
   status: NEW
   summary: Intermittent Network Disconnection
+'20180916':
+- component: Network
+  create_time: 20180917T11:56:00
+  id: 1108658
+  resolution: ''
+  status: NEW
+  summary: Wired network on Raspberry Pi 3 doesn't work unless tcpdump is running
+- component: Other
+  create_time: 20180917T11:41:00
+  id: 1108655
+  resolution: ''
+  status: NEW
+  summary: memcached x86_64 build failed on Factory
+- component: Network
+  create_time: 20180917T11:06:00
+  id: 1108651
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: firewalld update seems to break mdns
+- component: GNOME
+  create_time: 20180917T10:34:00
+  id: 1108649
+  resolution: ''
+  status: NEW
+  summary: Polari doesn't work anymore after update to 20180915 (from 20180820)
+- component: Firefox
+  create_time: 20180917T10:03:00
+  id: 1108640
+  resolution: ''
+  status: NEW
+  summary: Thunderbird 60 wrong time in Calendar
+- component: KDE Workspace (Plasma)
+  create_time: 20180917T10:00:00
+  id: 1108638
+  resolution: ''
+  status: NEW
+  summary: nothing provides plasma5-desktop >= 5.13.5 needed by plasma5-session-5.13.5-1.1.noarch
+    (BE)
+- component: YaST2
+  create_time: 20180917T09:23:00
+  id: 1108628
+  resolution: FIXED
+  status: RESOLVED
+  summary: fails to call firewall-offline-cmd in the installation
+- component: Basesystem
+  create_time: 20180917T08:55:00
+  id: 1108623
+  resolution: ''
+  status: NEW
+  summary: iSCSI initiator delays boot for ~2 mins
+- component: GNOME
+  create_time: 20180917T08:47:00
+  id: 1108619
+  resolution: ''
+  status: NEW
+  summary: NetworkManager dumped core in nm_connectivity_check_start
+- component: KDE Applications
+  create_time: 20180916T22:30:00
+  id: 1108577
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Gmail authentication fails in kmail
+- component: Translations
+  create_time: 20180916T12:07:00
+  id: 1108572
+  resolution: INVALID
+  status: RESOLVED
+  summary: Why are there both locale/ and locale-langpack/
+- component: Translations
+  create_time: 20180916T11:59:00
+  id: 1108571
+  resolution: ''
+  status: NEW
+  summary: coreutils.mo in both LC_MESSAGES and LC_TIME
+- component: Network
+  create_time: 20180916T06:32:00
+  id: 1108570
+  resolution: ''
+  status: NEW
+  summary: After restarting NetworkManager service, it cannot read passwords from
+    wallet
+- component: Other
+  create_time: 20180916T04:19:00
+  id: 1108567
+  resolution: ''
+  status: CONFIRMED
+  summary: qBittorrent crashes in latest Tumbleweed snapshot
+- component: Firefox
+  create_time: 20180916T02:48:00
+  id: 1108566
+  resolution: ''
+  status: NEW
+  summary: Thunderbird crashes during startup
+- component: Other
+  create_time: 20180916T02:18:00
+  id: 1108565
+  resolution: ''
+  status: NEW
+  summary: '''command-not-found'' script syntax error'
