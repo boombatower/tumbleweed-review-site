@@ -11743,8 +11743,8 @@
 - component: Basesystem
   create_time: 20180826T15:50:00
   id: 1106003
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'Failed to try-restart klogd.service: Operation refused'
 - component: Development
   create_time: 20180826T12:54:00
@@ -12728,8 +12728,8 @@
 - component: Firefox
   create_time: 20180916T02:48:00
   id: 1108566
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Thunderbird crashes during startup
 - component: Other
   create_time: 20180916T02:18:00
