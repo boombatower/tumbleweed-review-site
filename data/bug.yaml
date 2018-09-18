@@ -12218,8 +12218,8 @@
 - component: Network
   create_time: 20180904T21:28:00
   id: 1107197
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: NetworkManager coredump in _con_curl_check_connectivity
 - component: Development
   create_time: 20180904T14:39:00
@@ -12670,6 +12670,12 @@
   status: NEW
   summary: '''command-not-found'' script syntax error'
 '20180917':
+- component: KDE Workspace (Plasma)
+  create_time: 20180918T15:51:00
+  id: 1108846
+  resolution: ''
+  status: NEW
+  summary: gmenudbusmenuproxy needs appmenu-gtk-module
 - component: Containers
   create_time: 20180917T18:05:00
   id: 1108698
