@@ -1180,14 +1180,19 @@
     summary: released! - Can't find Krita
 '20180915':
   announcement: 2018-09.61
-  reference_count: 6
+  reference_count: 7
   thread_count: 1
   threads:
   - messages: [2018-09.65]
-    reference_count: 6
+    reference_count: 7
     summary: broken
 '20180916':
   announcement: 2018-09.70
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20180917':
+  announcement: 2018-09.74
   reference_count: 0
   thread_count: 0
   threads: []
