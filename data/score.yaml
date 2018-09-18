@@ -486,13 +486,13 @@
   stability_level: stable
 '20180911':
   score: 96
-  stability_level: pending
+  stability_level: stable
 '20180914':
   score: 95
   stability_level: pending
 '20180915':
-  score: 92
+  score: 91
   stability_level: pending
 '20180916':
-  score: 95
+  score: 94
   stability_level: pending
