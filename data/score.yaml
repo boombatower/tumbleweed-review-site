@@ -491,8 +491,11 @@
   score: 95
   stability_level: pending
 '20180915':
-  score: 91
+  score: 90
   stability_level: pending
 '20180916':
-  score: 94
+  score: 95
+  stability_level: pending
+'20180917':
+  score: 97
   stability_level: pending
