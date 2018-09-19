@@ -10710,8 +10710,8 @@
 - component: Installation
   create_time: 20180720T00:21:00
   id: 1101979
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'openSUSE Tumbleweed: Mounting a filesystem fails and libstorage-ng throws
     an exception'
 - component: X11 Applications
@@ -12526,8 +12526,8 @@
 - component: Xfce
   create_time: 20180911T13:08:00
   id: 1108015
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: midori crashes
 - component: Basesystem
   create_time: 20180911T09:13:00
@@ -12666,10 +12666,16 @@
 - component: Other
   create_time: 20180916T02:18:00
   id: 1108565
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '''command-not-found'' script syntax error'
 '20180917':
+- component: Basesystem
+  create_time: 20180919T12:27:00
+  id: 1108977
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Tracker bug for known incompatibilities with OpenSSL 1.1.1
 - component: Security
   create_time: 20180919T10:05:00
   id: 1108949
