@@ -12200,7 +12200,7 @@
   create_time: 20180831T12:12:00
   id: 1106751
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: iptables does not work with kernel-default-base
 - component: Network
   create_time: 20180831T06:39:00
@@ -12670,6 +12670,31 @@
   status: NEW
   summary: '''command-not-found'' script syntax error'
 '20180917':
+- component: Security
+  create_time: 20180919T10:05:00
+  id: 1108949
+  resolution: ''
+  status: NEW
+  summary: missing selinux-policy-minimum pkg makes system reboot failed
+- component: Other
+  create_time: 20180919T10:02:00
+  id: 1108947
+  resolution: ''
+  status: NEW
+  summary: Node / Nodegit segfault when running Antora
+- component: Basesystem
+  create_time: 20180919T08:47:00
+  id: 1108936
+  resolution: ''
+  status: NEW
+  summary: elfutils is broken on s390x
+- component: YaST2
+  create_time: 20180919T08:32:00
+  id: 1108934
+  resolution: ''
+  status: NEW
+  summary: installer crashes while doing version upgrade - File exists @ dir_s_mkdir
+    - /mnt/var/adm/backup/system-upgrade
 - component: KDE Workspace (Plasma)
   create_time: 20180918T15:51:00
   id: 1108846
