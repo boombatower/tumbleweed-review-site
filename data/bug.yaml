@@ -12124,8 +12124,8 @@
 - component: Printing
   create_time: 20180829T13:32:00
   id: 1106416
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Please update epson-inkjet-printer-escpr to version 1.6.23
 - component: Patterns
   create_time: 20180829T12:33:00
