@@ -11767,8 +11767,8 @@
 - component: Other
   create_time: 20180825T20:00:00
   id: 1105995
-  resolution: ''
-  status: CONFIRMED
+  resolution: WONTFIX
+  status: RESOLVED
   summary: neon does not build in 2019-09
 - component: Kubic
   create_time: 20180825T18:13:00
@@ -12069,8 +12069,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180830T19:57:00
   id: 1106648
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: KDE NetworkManager applet always displays zero wlan connection speed
 - component: Kernel
   create_time: 20180830T18:26:00
@@ -12670,43 +12670,6 @@
   status: RESOLVED
   summary: '''command-not-found'' script syntax error'
 '20180917':
-- component: Kernel
-  create_time: 20180919T18:15:00
-  id: 1109029
-  resolution: ''
-  status: NEW
-  summary: shutdown and reboot taking 3 minutes or longer
-- component: Basesystem
-  create_time: 20180919T12:27:00
-  id: 1108977
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Tracker bug for known incompatibilities with OpenSSL 1.1.1
-- component: Security
-  create_time: 20180919T10:05:00
-  id: 1108949
-  resolution: ''
-  status: NEW
-  summary: missing selinux-policy-minimum pkg makes system reboot failed
-- component: Other
-  create_time: 20180919T10:02:00
-  id: 1108947
-  resolution: ''
-  status: NEW
-  summary: Node / Nodegit segfault when running Antora
-- component: Basesystem
-  create_time: 20180919T08:47:00
-  id: 1108936
-  resolution: ''
-  status: NEW
-  summary: elfutils is broken on s390x
-- component: YaST2
-  create_time: 20180919T08:32:00
-  id: 1108934
-  resolution: ''
-  status: NEW
-  summary: installer crashes while doing version upgrade - File exists @ dir_s_mkdir
-    - /mnt/var/adm/backup/system-upgrade
 - component: KDE Workspace (Plasma)
   create_time: 20180918T15:51:00
   id: 1108846
@@ -12781,3 +12744,47 @@
   resolution: ''
   status: NEW
   summary: NetworkManager dumped core in nm_connectivity_check_start
+'20180919':
+- component: Network
+  create_time: 20180920T07:40:00
+  id: 1109086
+  resolution: ''
+  status: NEW
+  summary: Network manager crashes with 'double linked list' error
+- component: Kernel
+  create_time: 20180919T18:15:00
+  id: 1109029
+  resolution: ''
+  status: NEW
+  summary: shutdown and reboot taking 3 minutes or longer
+- component: Basesystem
+  create_time: 20180919T12:27:00
+  id: 1108977
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Tracker bug for known incompatibilities with OpenSSL 1.1.1
+- component: Security
+  create_time: 20180919T10:05:00
+  id: 1108949
+  resolution: ''
+  status: NEW
+  summary: missing selinux-policy-minimum pkg makes system reboot failed
+- component: Other
+  create_time: 20180919T10:02:00
+  id: 1108947
+  resolution: ''
+  status: NEW
+  summary: Node / Nodegit segfault when running Antora
+- component: Basesystem
+  create_time: 20180919T08:47:00
+  id: 1108936
+  resolution: ''
+  status: NEW
+  summary: elfutils is broken on s390x
+- component: YaST2
+  create_time: 20180919T08:32:00
+  id: 1108934
+  resolution: FIXED
+  status: RESOLVED
+  summary: installer crashes while doing version upgrade - File exists @ dir_s_mkdir
+    - /mnt/var/adm/backup/system-upgrade
