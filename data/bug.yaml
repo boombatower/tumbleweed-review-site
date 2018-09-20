@@ -12124,8 +12124,8 @@
 - component: Printing
   create_time: 20180829T13:32:00
   id: 1106416
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Please update epson-inkjet-printer-escpr to version 1.6.23
 - component: Patterns
   create_time: 20180829T12:33:00
@@ -12261,8 +12261,8 @@
 - component: Virtualization:Other
   create_time: 20180903T20:18:00
   id: 1106965
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Attempting to install tumbleweed in qemu/kvm under tumbleweed hangs
 - component: KDE Applications
   create_time: 20180903T17:42:00
@@ -12342,7 +12342,7 @@
   create_time: 20180906T19:48:00
   id: 1107534
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: libvirt seems to need mount namespaces for adding/removing disk images
 - component: Basesystem
   create_time: 20180906T13:05:00
@@ -12670,6 +12670,12 @@
   status: RESOLVED
   summary: '''command-not-found'' script syntax error'
 '20180917':
+- component: Kernel
+  create_time: 20180919T18:15:00
+  id: 1109029
+  resolution: ''
+  status: NEW
+  summary: shutdown and reboot taking 3 minutes or longer
 - component: Basesystem
   create_time: 20180919T12:27:00
   id: 1108977
