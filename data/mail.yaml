@@ -1196,3 +1196,11 @@
   reference_count: 0
   thread_count: 0
   threads: []
+'20180919':
+  announcement: 2018-09.135
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages: [2018-09.137]
+    reference_count: 1
+    summary: Please open bug 972463
