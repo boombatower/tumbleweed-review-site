@@ -4005,7 +4005,7 @@
   create_time: 20180215T05:56:00
   id: 1081099
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Package Mypaint is broken
 - component: Basesystem
   create_time: 20180215T04:40:00
@@ -6823,8 +6823,8 @@
 - component: Installation
   create_time: 20180409T17:34:00
   id: 1088734
-  resolution: NORESPONSE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Windows shown during installation look ugly
 - component: Basesystem
   create_time: 20180409T14:40:00
