@@ -12783,6 +12783,12 @@
   summary: installer crashes while doing version upgrade - File exists @ dir_s_mkdir
     - /mnt/var/adm/backup/system-upgrade
 '20180920':
+- component: KDE Applications
+  create_time: 20180922T02:42:00
+  id: 1109372
+  resolution: ''
+  status: NEW
+  summary: Dolphin complains about ambiguous shortcuts
 - component: Development
   create_time: 20180921T22:31:00
   id: 1109367
