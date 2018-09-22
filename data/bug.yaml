@@ -5545,8 +5545,8 @@
 - component: Other
   create_time: 20180312T11:52:00
   id: 1084871
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: btrfsmaintenance-refresh.path missing
 - component: YaST2
   create_time: 20180312T10:34:00
@@ -9790,8 +9790,8 @@
 - component: X11 Applications
   create_time: 20180626T12:31:00
   id: 1099160
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Missing dependency for FreeCAD
 - component: Basesystem
   create_time: 20180626T08:35:00
@@ -12550,8 +12550,8 @@
 - component: X.Org
   create_time: 20180911T07:06:00
   id: 1107938
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'libinput: Bump version to 1.12.0'
 - component: Apache
   create_time: 20180911T06:32:00
@@ -12783,6 +12783,19 @@
   summary: installer crashes while doing version upgrade - File exists @ dir_s_mkdir
     - /mnt/var/adm/backup/system-upgrade
 '20180920':
+- component: Upgrade Problems
+  create_time: 20180922T08:18:00
+  id: 1109375
+  resolution: ''
+  status: NEW
+  summary: certbot upgrade requires another version of python2-acme
+- component: Other
+  create_time: 20180922T06:55:00
+  id: 1109373
+  resolution: ''
+  status: CONFIRMED
+  summary: '[HPC, slurm] slurm-node & slurm-config not setup right in %pre/%post scriptlets
+    due to missing Requires(pre/post)'
 - component: KDE Applications
   create_time: 20180922T02:42:00
   id: 1109372
