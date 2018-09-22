@@ -8093,8 +8093,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180503T09:07:00
   id: 1091784
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: IN_PROGRESS
   summary: SDDM screen is black after boot
 - component: KDE Applications
   create_time: 20180503T08:52:00
@@ -11686,7 +11686,7 @@
   id: 1104990
   resolution: ''
   status: IN_PROGRESS
-  summary: firewalld cannot use NetworkManager interfaces
+  summary: firewalld fails when rich rules uses ipset
 - component: Installation
   create_time: 20180815T20:03:00
   id: 1104981
@@ -12341,8 +12341,8 @@
 - component: Virtualization:Tools
   create_time: 20180906T19:48:00
   id: 1107534
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: libvirt seems to need mount namespaces for adding/removing disk images
 - component: Basesystem
   create_time: 20180906T13:05:00
@@ -12745,6 +12745,62 @@
   status: NEW
   summary: NetworkManager dumped core in nm_connectivity_check_start
 '20180919':
+- component: Kernel
+  create_time: 20180919T18:15:00
+  id: 1109029
+  resolution: ''
+  status: NEW
+  summary: shutdown and reboot taking 3 minutes or longer
+- component: Basesystem
+  create_time: 20180919T12:27:00
+  id: 1108977
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Tracker bug for known incompatibilities with OpenSSL 1.1.1
+- component: Security
+  create_time: 20180919T10:05:00
+  id: 1108949
+  resolution: ''
+  status: NEW
+  summary: missing selinux-policy-minimum pkg makes system reboot failed
+- component: Other
+  create_time: 20180919T10:02:00
+  id: 1108947
+  resolution: ''
+  status: NEW
+  summary: Node / Nodegit segfault when running Antora
+- component: Basesystem
+  create_time: 20180919T08:47:00
+  id: 1108936
+  resolution: ''
+  status: NEW
+  summary: elfutils is broken on s390x
+- component: YaST2
+  create_time: 20180919T08:32:00
+  id: 1108934
+  resolution: FIXED
+  status: RESOLVED
+  summary: installer crashes while doing version upgrade - File exists @ dir_s_mkdir
+    - /mnt/var/adm/backup/system-upgrade
+'20180920':
+- component: Development
+  create_time: 20180921T22:31:00
+  id: 1109367
+  resolution: ''
+  status: NEW
+  summary: Qt5 documentation packages are incomplete
+- component: Network
+  create_time: 20180921T22:16:00
+  id: 1109365
+  resolution: ''
+  status: NEW
+  summary: after last update wifi connection to android phones did not work
+- component: Other
+  create_time: 20180921T19:34:00
+  id: 1109355
+  resolution: ''
+  status: NEW
+  summary: Gajim package is missing dependencies
 - component: YaST2
   create_time: 20180921T14:21:00
   id: 1109310
@@ -12794,40 +12850,3 @@
   resolution: ''
   status: NEW
   summary: Network manager crashes with 'double linked list' error
-- component: Kernel
-  create_time: 20180919T18:15:00
-  id: 1109029
-  resolution: ''
-  status: NEW
-  summary: shutdown and reboot taking 3 minutes or longer
-- component: Basesystem
-  create_time: 20180919T12:27:00
-  id: 1108977
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Tracker bug for known incompatibilities with OpenSSL 1.1.1
-- component: Security
-  create_time: 20180919T10:05:00
-  id: 1108949
-  resolution: ''
-  status: NEW
-  summary: missing selinux-policy-minimum pkg makes system reboot failed
-- component: Other
-  create_time: 20180919T10:02:00
-  id: 1108947
-  resolution: ''
-  status: NEW
-  summary: Node / Nodegit segfault when running Antora
-- component: Basesystem
-  create_time: 20180919T08:47:00
-  id: 1108936
-  resolution: ''
-  status: NEW
-  summary: elfutils is broken on s390x
-- component: YaST2
-  create_time: 20180919T08:32:00
-  id: 1108934
-  resolution: FIXED
-  status: RESOLVED
-  summary: installer crashes while doing version upgrade - File exists @ dir_s_mkdir
-    - /mnt/var/adm/backup/system-upgrade
