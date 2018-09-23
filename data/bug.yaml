@@ -12819,7 +12819,7 @@
   create_time: 20180921T22:31:00
   id: 1109367
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Qt5 documentation packages are incomplete
 - component: Network
   create_time: 20180921T22:16:00
