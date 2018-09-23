@@ -12784,6 +12784,12 @@
     - /mnt/var/adm/backup/system-upgrade
 '20180920':
 - component: YaST2
+  create_time: 20180922T20:49:00
+  id: 1109382
+  resolution: ''
+  status: NEW
+  summary: Use correct directories in xdg icon spec for YaST Icons
+- component: YaST2
   create_time: 20180922T14:21:00
   id: 1109378
   resolution: ''
