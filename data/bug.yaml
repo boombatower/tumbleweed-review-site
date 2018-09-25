@@ -12549,8 +12549,8 @@
 - component: Apache
   create_time: 20180911T06:32:00
   id: 1107930
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: NEW
   summary: SYSCONFIG_FILE variable not defined in /usr/share/apache2/script-helpers
 '20180914':
 - component: X.Org
@@ -12776,6 +12776,55 @@
   summary: installer crashes while doing version upgrade - File exists @ dir_s_mkdir
     - /mnt/var/adm/backup/system-upgrade
 '20180920':
+- component: GNOME
+  create_time: 20180925T06:17:00
+  id: 1109551
+  resolution: ''
+  status: NEW
+  summary: 'GNOME Contacts 3.30: no icon shown for running app in top panel'
+- component: Other
+  create_time: 20180925T05:06:00
+  id: 1109541
+  resolution: ''
+  status: NEW
+  summary: dtv-scan-tables differs between architectures
+- component: Other
+  create_time: 20180925T04:57:00
+  id: 1109540
+  resolution: ''
+  status: NEW
+  summary: branding-openSUSE differs between architectures
+- component: Other
+  create_time: 20180925T04:53:00
+  id: 1109539
+  resolution: ''
+  status: NEW
+  summary: bouncycastle differs between architectures
+- component: Other
+  create_time: 20180925T04:46:00
+  id: 1109537
+  resolution: ''
+  status: NEW
+  summary: autoconf and autoconf213 differs between architectures
+- component: Other
+  create_time: 20180925T04:31:00
+  id: 1109536
+  resolution: ''
+  status: NEW
+  summary: /usr/bin/ads differs between architectures
+- component: Development
+  create_time: 20180925T04:13:00
+  id: 1109534
+  resolution: ''
+  status: NEW
+  summary: 'trackerbug: arch-dependent noarch packages'
+- component: Basesystem
+  create_time: 20180925T03:27:00
+  id: 1109532
+  resolution: ''
+  status: NEW
+  summary: '[gcc8 regression]rubygem-cppjieba_rb segfault with -O1,2,3 optimization
+    flag on openSUSE only systems'
 - component: Virtualization:Tools
   create_time: 20180924T15:10:00
   id: 1109471
