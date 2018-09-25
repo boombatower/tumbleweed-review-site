@@ -4004,8 +4004,8 @@
 - component: Other
   create_time: 20180215T05:56:00
   id: 1081099
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Package Mypaint is broken
 - component: Basesystem
   create_time: 20180215T04:40:00
@@ -11608,13 +11608,6 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'aegisub: fails to build with Boost 1.68.0'
-- component: KDE Applications
-  create_time: 20180817T12:36:00
-  id: 1105207
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180815] openQA test fails in kontact - "Invalid parent" starting
-    up kontact'
 - component: X.Org
   create_time: 20180817T09:01:00
   id: 1105181
@@ -11684,8 +11677,8 @@
 - component: Network
   create_time: 20180815T22:09:00
   id: 1104990
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: firewalld fails when rich rules uses ipset
 - component: Installation
   create_time: 20180815T20:03:00
@@ -12441,7 +12434,7 @@
   create_time: 20180913T20:18:00
   id: 1108381
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: missing recommends entry for gcr-ssh-askpass
 - component: Sound
   create_time: 20180913T18:30:00
@@ -12622,8 +12615,8 @@
 - component: Network
   create_time: 20180915T09:20:00
   id: 1108555
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Intermittent Network Disconnection
 '20180916':
 - component: KDE Applications
@@ -12711,7 +12704,7 @@
   create_time: 20180917T10:34:00
   id: 1108649
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Polari doesn't work anymore after update to 20180915 (from 20180820)
 - component: Firefox
   create_time: 20180917T10:03:00
@@ -12783,6 +12776,43 @@
   summary: installer crashes while doing version upgrade - File exists @ dir_s_mkdir
     - /mnt/var/adm/backup/system-upgrade
 '20180920':
+- component: Virtualization:Tools
+  create_time: 20180924T15:10:00
+  id: 1109471
+  resolution: ''
+  status: NEW
+  summary: VM hangs installling TW or Leap 15 on Intel Core 2 Duo
+- component: Development
+  create_time: 20180924T15:04:00
+  id: 1109470
+  resolution: ''
+  status: NEW
+  summary: noarch post-build-checks contains arch-dependent /etc/suse-ignored-rpaths.conf
+- component: Other
+  create_time: 20180924T11:00:00
+  id: 1109438
+  resolution: ''
+  status: REOPENED
+  summary: 'autoyast: internal error: /mounts/mp_0001/usr/share/YaST2/modules/AutoInstallRules.rb:913:in
+    `Merge'
+- component: Other
+  create_time: 20180924T09:25:00
+  id: 1109424
+  resolution: ''
+  status: NEW
+  summary: Segmentation fault for VLC in %post
+- component: KDE Workspace (Plasma)
+  create_time: 20180924T09:06:00
+  id: 1109420
+  resolution: ''
+  status: NEW
+  summary: plasma5-desktop does not build reproducibly (parallelism)
+- component: Kernel
+  create_time: 20180923T14:32:00
+  id: 1109385
+  resolution: ''
+  status: NEW
+  summary: NVIDIA module didn't get updated after installing a new kernel
 - component: YaST2
   create_time: 20180922T20:49:00
   id: 1109382
@@ -12824,8 +12854,8 @@
 - component: Network
   create_time: 20180921T22:16:00
   id: 1109365
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: after last update wifi connection to android phones did not work
 - component: Other
   create_time: 20180921T19:34:00
@@ -12836,8 +12866,8 @@
 - component: YaST2
   create_time: 20180921T14:21:00
   id: 1109310
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Install yast icons with module, instead of yast-theme
 - component: GNOME
   create_time: 20180921T13:14:00
