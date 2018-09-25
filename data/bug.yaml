@@ -12776,6 +12776,12 @@
   summary: installer crashes while doing version upgrade - File exists @ dir_s_mkdir
     - /mnt/var/adm/backup/system-upgrade
 '20180920':
+- component: Development
+  create_time: 20180925T09:05:00
+  id: 1109597
+  resolution: ''
+  status: NEW
+  summary: CodeLite won't run after installing from repo
 - component: GNOME
   create_time: 20180925T06:17:00
   id: 1109551
