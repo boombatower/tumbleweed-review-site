@@ -2524,7 +2524,7 @@
   status: RESOLVED
   summary: installer uses old btrfs subvolume structure when not using the suggested
     partitioning scheme
-- component: KDE Workspace (Plasma)
+- component: X.Org
   create_time: 20180128T09:35:00
   id: 1077865
   resolution: ''
@@ -4668,8 +4668,8 @@
 - component: Network
   create_time: 20180228T18:26:00
   id: 1083361
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: firewalld fails to work with utf strings while building in OBS/osc
 - component: Basesystem
   create_time: 20180228T17:10:00
@@ -12264,7 +12264,7 @@
   status: NEW
   summary: libqalculate has a weak dependency on its datafiles
 '20180905':
-- component: Basesystem
+- component: GNOME
   create_time: 20180909T03:46:00
   id: 1107762
   resolution: ''
@@ -12469,8 +12469,8 @@
 - component: Other
   create_time: 20180913T09:18:00
   id: 1108289
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: adjust installation-images according to iptables change
 - component: AutoYaST
   create_time: 20180912T15:09:00
@@ -12882,6 +12882,25 @@
   status: NEW
   summary: Network manager crashes with 'double linked list' error
 '20180924':
+- component: Virtualization:Other
+  create_time: 20180926T11:56:00
+  id: 1109832
+  resolution: ''
+  status: NEW
+  summary: libvirt-daemon-config-network not installed by yast vm
+- component: Network
+  create_time: 20180926T09:53:00
+  id: 1109803
+  resolution: INVALID
+  status: RESOLVED
+  summary: NetXtreme BCM5755 Gigabit Ethernet PCI Express adapter not supported by
+    TW 20180924 installer
+- component: X11 Applications
+  create_time: 20180926T09:22:00
+  id: 1109796
+  resolution: ''
+  status: NEW
+  summary: libappindicator3 issues
 - component: Other
   create_time: 20180926T05:21:00
   id: 1109759
