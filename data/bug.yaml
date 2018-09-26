@@ -12704,7 +12704,7 @@
   create_time: 20180917T10:34:00
   id: 1108649
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Polari doesn't work anymore after update to 20180915 (from 20180820)
 - component: Firefox
   create_time: 20180917T10:03:00
@@ -12753,8 +12753,8 @@
 - component: Security
   create_time: 20180919T10:05:00
   id: 1108949
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: missing selinux-policy-minimum pkg makes system reboot failed
 - component: Other
   create_time: 20180919T10:02:00
@@ -12776,92 +12776,6 @@
   summary: installer crashes while doing version upgrade - File exists @ dir_s_mkdir
     - /mnt/var/adm/backup/system-upgrade
 '20180920':
-- component: Development
-  create_time: 20180925T09:05:00
-  id: 1109597
-  resolution: ''
-  status: NEW
-  summary: CodeLite won't run after installing from repo
-- component: GNOME
-  create_time: 20180925T06:17:00
-  id: 1109551
-  resolution: ''
-  status: NEW
-  summary: 'GNOME Contacts 3.30: no icon shown for running app in top panel'
-- component: Other
-  create_time: 20180925T05:06:00
-  id: 1109541
-  resolution: ''
-  status: NEW
-  summary: dtv-scan-tables differs between architectures
-- component: Other
-  create_time: 20180925T04:57:00
-  id: 1109540
-  resolution: ''
-  status: NEW
-  summary: branding-openSUSE differs between architectures
-- component: Other
-  create_time: 20180925T04:53:00
-  id: 1109539
-  resolution: ''
-  status: NEW
-  summary: bouncycastle differs between architectures
-- component: Other
-  create_time: 20180925T04:46:00
-  id: 1109537
-  resolution: ''
-  status: NEW
-  summary: autoconf and autoconf213 differs between architectures
-- component: Other
-  create_time: 20180925T04:31:00
-  id: 1109536
-  resolution: ''
-  status: NEW
-  summary: /usr/bin/ads differs between architectures
-- component: Development
-  create_time: 20180925T04:13:00
-  id: 1109534
-  resolution: ''
-  status: NEW
-  summary: 'trackerbug: arch-dependent noarch packages'
-- component: Basesystem
-  create_time: 20180925T03:27:00
-  id: 1109532
-  resolution: ''
-  status: NEW
-  summary: '[gcc8 regression]rubygem-cppjieba_rb segfault with -O1,2,3 optimization
-    flag on openSUSE only systems'
-- component: Virtualization:Tools
-  create_time: 20180924T15:10:00
-  id: 1109471
-  resolution: ''
-  status: NEW
-  summary: VM hangs installling TW or Leap 15 on Intel Core 2 Duo
-- component: Development
-  create_time: 20180924T15:04:00
-  id: 1109470
-  resolution: ''
-  status: NEW
-  summary: noarch post-build-checks contains arch-dependent /etc/suse-ignored-rpaths.conf
-- component: Other
-  create_time: 20180924T11:00:00
-  id: 1109438
-  resolution: ''
-  status: REOPENED
-  summary: 'autoyast: internal error: /mounts/mp_0001/usr/share/YaST2/modules/AutoInstallRules.rb:913:in
-    `Merge'
-- component: Other
-  create_time: 20180924T09:25:00
-  id: 1109424
-  resolution: ''
-  status: NEW
-  summary: Segmentation fault for VLC in %post
-- component: KDE Workspace (Plasma)
-  create_time: 20180924T09:06:00
-  id: 1109420
-  resolution: ''
-  status: NEW
-  summary: plasma5-desktop does not build reproducibly (parallelism)
 - component: Kernel
   create_time: 20180923T14:32:00
   id: 1109385
@@ -12967,3 +12881,102 @@
   resolution: ''
   status: NEW
   summary: Network manager crashes with 'double linked list' error
+'20180924':
+- component: GNOME
+  create_time: 20180925T15:23:00
+  id: 1109687
+  resolution: ''
+  status: NEW
+  summary: gnome-news differs between architectures
+- component: Other
+  create_time: 20180925T15:19:00
+  id: 1109685
+  resolution: ''
+  status: NEW
+  summary: ghostscript-fonts-grops differs between architectures
+- component: Development
+  create_time: 20180925T09:05:00
+  id: 1109597
+  resolution: ''
+  status: NEW
+  summary: CodeLite won't run after installing from repo
+- component: GNOME
+  create_time: 20180925T06:17:00
+  id: 1109551
+  resolution: ''
+  status: NEW
+  summary: 'GNOME Contacts 3.30: no icon shown for running app in top panel'
+- component: Other
+  create_time: 20180925T05:06:00
+  id: 1109541
+  resolution: ''
+  status: NEW
+  summary: dtv-scan-tables differs between architectures
+- component: Other
+  create_time: 20180925T04:57:00
+  id: 1109540
+  resolution: ''
+  status: NEW
+  summary: branding-openSUSE differs between architectures
+- component: Other
+  create_time: 20180925T04:53:00
+  id: 1109539
+  resolution: ''
+  status: NEW
+  summary: bouncycastle differs between architectures
+- component: Other
+  create_time: 20180925T04:46:00
+  id: 1109537
+  resolution: ''
+  status: NEW
+  summary: autoconf and autoconf213 differs between architectures
+- component: Other
+  create_time: 20180925T04:31:00
+  id: 1109536
+  resolution: ''
+  status: NEW
+  summary: /usr/bin/ads differs between architectures
+- component: Development
+  create_time: 20180925T04:13:00
+  id: 1109534
+  resolution: ''
+  status: NEW
+  summary: 'trackerbug: arch-dependent noarch packages'
+- component: Basesystem
+  create_time: 20180925T03:27:00
+  id: 1109532
+  resolution: ''
+  status: NEW
+  summary: '[gcc8 regression]rubygem-cppjieba_rb segfault with -O1,2,3 optimization
+    flag on openSUSE only systems'
+- component: Virtualization:Tools
+  create_time: 20180924T15:10:00
+  id: 1109471
+  resolution: ''
+  status: NEW
+  summary: VM hangs installling TW or Leap 15 on Intel Core 2 Duo
+- component: Development
+  create_time: 20180924T15:04:00
+  id: 1109470
+  resolution: ''
+  status: NEW
+  summary: noarch post-build-checks contains arch-dependent /etc/suse-ignored-rpaths.conf
+- component: Other
+  create_time: 20180924T11:00:00
+  id: 1109438
+  resolution: ''
+  status: REOPENED
+  summary: 'autoyast: internal error: /mounts/mp_0001/usr/share/YaST2/modules/AutoInstallRules.rb:913:in
+    `Merge'
+- component: Other
+  create_time: 20180924T09:25:00
+  id: 1109424
+  resolution: ''
+  status: NEW
+  summary: Segmentation fault for VLC in %post
+- component: KDE Workspace (Plasma)
+  create_time: 20180924T09:06:00
+  id: 1109420
+  resolution: ''
+  status: NEW
+  summary: plasma5-desktop does not build reproducibly (parallelism)
