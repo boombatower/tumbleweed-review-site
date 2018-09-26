@@ -12882,6 +12882,36 @@
   status: NEW
   summary: Network manager crashes with 'double linked list' error
 '20180924':
+- component: Other
+  create_time: 20180926T05:21:00
+  id: 1109759
+  resolution: ''
+  status: NEW
+  summary: websocketpp-devel differs between architectures
+- component: Other
+  create_time: 20180926T04:12:00
+  id: 1109757
+  resolution: ''
+  status: NEW
+  summary: skinlf and jgoodies-forms differ between architectures
+- component: Other
+  create_time: 20180926T04:04:00
+  id: 1109755
+  resolution: ''
+  status: NEW
+  summary: scons differs between architectures
+- component: Other
+  create_time: 20180926T03:56:00
+  id: 1109754
+  resolution: ''
+  status: NEW
+  summary: perl noarch packages differ between architectures
+- component: Development
+  create_time: 20180926T01:27:00
+  id: 1109752
+  resolution: ''
+  status: NEW
+  summary: Geany Spell Check plugin locked to Finish which isn't installed
 - component: GNOME
   create_time: 20180925T15:23:00
   id: 1109687
