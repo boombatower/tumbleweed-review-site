@@ -12882,6 +12882,56 @@
   status: NEW
   summary: Network manager crashes with 'double linked list' error
 '20180924':
+- component: Virtualization:Tools
+  create_time: 20180924T15:10:00
+  id: 1109471
+  resolution: ''
+  status: NEW
+  summary: VM hangs installling TW or Leap 15 on Intel Core 2 Duo
+- component: Development
+  create_time: 20180924T15:04:00
+  id: 1109470
+  resolution: ''
+  status: NEW
+  summary: noarch post-build-checks contains arch-dependent /etc/suse-ignored-rpaths.conf
+- component: Other
+  create_time: 20180924T11:00:00
+  id: 1109438
+  resolution: ''
+  status: REOPENED
+  summary: 'autoyast: internal error: /mounts/mp_0001/usr/share/YaST2/modules/AutoInstallRules.rb:913:in
+    `Merge'
+- component: Other
+  create_time: 20180924T09:25:00
+  id: 1109424
+  resolution: ''
+  status: NEW
+  summary: Segmentation fault for VLC in %post
+- component: KDE Workspace (Plasma)
+  create_time: 20180924T09:06:00
+  id: 1109420
+  resolution: ''
+  status: NEW
+  summary: plasma5-desktop does not build reproducibly (parallelism)
+'20180925':
+- component: GNOME
+  create_time: 20180926T18:25:00
+  id: 1109905
+  resolution: ''
+  status: NEW
+  summary: gnome-keyring-pam does not auto-unlock in KDE
+- component: Other
+  create_time: 20180926T16:47:00
+  id: 1109896
+  resolution: ''
+  status: NEW
+  summary: /etc/zsh-command-not-found executing python 2 instead of python 3.
+- component: GNOME
+  create_time: 20180926T16:41:00
+  id: 1109895
+  resolution: ''
+  status: NEW
+  summary: .pc files in noarch -devel pkg differ from architecture
 - component: Virtualization:Other
   create_time: 20180926T11:56:00
   id: 1109832
@@ -12989,43 +13039,12 @@
   create_time: 20180925T04:13:00
   id: 1109534
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'trackerbug: arch-dependent noarch packages'
 - component: Basesystem
   create_time: 20180925T03:27:00
   id: 1109532
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[gcc8 regression]rubygem-cppjieba_rb segfault with -O1,2,3 optimization
     flag on openSUSE only systems'
-- component: Virtualization:Tools
-  create_time: 20180924T15:10:00
-  id: 1109471
-  resolution: ''
-  status: NEW
-  summary: VM hangs installling TW or Leap 15 on Intel Core 2 Duo
-- component: Development
-  create_time: 20180924T15:04:00
-  id: 1109470
-  resolution: ''
-  status: NEW
-  summary: noarch post-build-checks contains arch-dependent /etc/suse-ignored-rpaths.conf
-- component: Other
-  create_time: 20180924T11:00:00
-  id: 1109438
-  resolution: ''
-  status: REOPENED
-  summary: 'autoyast: internal error: /mounts/mp_0001/usr/share/YaST2/modules/AutoInstallRules.rb:913:in
-    `Merge'
-- component: Other
-  create_time: 20180924T09:25:00
-  id: 1109424
-  resolution: ''
-  status: NEW
-  summary: Segmentation fault for VLC in %post
-- component: KDE Workspace (Plasma)
-  create_time: 20180924T09:06:00
-  id: 1109420
-  resolution: ''
-  status: NEW
-  summary: plasma5-desktop does not build reproducibly (parallelism)
