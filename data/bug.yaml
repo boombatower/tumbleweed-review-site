@@ -10954,8 +10954,8 @@
 - component: LibreOffice
   create_time: 20180730T10:51:00
   id: 1103078
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: error while loading shared libraries
 - component: Installation
   create_time: 20180730T06:59:00
@@ -12917,15 +12917,9 @@
 - component: Other
   create_time: 20180927T04:50:00
   id: 1109949
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: foma segfault
-- component: Security
-  create_time: 20180927T01:31:00
-  id: 1109938
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: Sec audit NetworkManager-fortisslvpn -- New package, suse-dbus-unauthorized-service'
 - component: GNOME
   create_time: 20180926T18:25:00
   id: 1109905
