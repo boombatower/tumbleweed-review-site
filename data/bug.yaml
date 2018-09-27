@@ -12915,6 +12915,30 @@
   summary: plasma5-desktop does not build reproducibly (parallelism)
 '20180925':
 - component: Other
+  create_time: 20180927T15:24:00
+  id: 1110032
+  resolution: ''
+  status: NEW
+  summary: lollypop,pithos,mozo differ between architectures
+- component: Other
+  create_time: 20180927T15:01:00
+  id: 1110028
+  resolution: ''
+  status: NEW
+  summary: 4 java noarch packages vary between architectures
+- component: Other
+  create_time: 20180927T14:48:00
+  id: 1110024
+  resolution: ''
+  status: NEW
+  summary: noarch java packages differ between architectures
+- component: X.Org
+  create_time: 20180927T14:35:00
+  id: 1110020
+  resolution: ''
+  status: NEW
+  summary: 4 xorg noarch packages differ from architecture
+- component: Other
   create_time: 20180927T04:50:00
   id: 1109949
   resolution: FIXED
