@@ -12032,7 +12032,7 @@
   resolution: ''
   status: CONFIRMED
   summary: Golang packaging produces unreadable logs in case of build failure
-- component: Network
+- component: Kernel
   create_time: 20180828T12:23:00
   id: 1106234
   resolution: ''
@@ -12914,6 +12914,18 @@
   status: NEW
   summary: plasma5-desktop does not build reproducibly (parallelism)
 '20180925':
+- component: Other
+  create_time: 20180927T04:50:00
+  id: 1109949
+  resolution: ''
+  status: NEW
+  summary: foma segfault
+- component: Security
+  create_time: 20180927T01:31:00
+  id: 1109938
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: Sec audit NetworkManager-fortisslvpn -- New package, suse-dbus-unauthorized-service'
 - component: GNOME
   create_time: 20180926T18:25:00
   id: 1109905
