@@ -12914,11 +12914,24 @@
   status: NEW
   summary: plasma5-desktop does not build reproducibly (parallelism)
 '20180925':
+- component: Basesystem
+  create_time: 20180928T06:38:00
+  id: 1110092
+  resolution: ''
+  status: NEW
+  summary: clang 6.0.1 fails to correctly initialize structures and produces broken
+    binaries!
+- component: GNOME
+  create_time: 20180928T06:29:00
+  id: 1110090
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180926] GNOME Music fails to start in upgrade scenarios'
 - component: YaST2
   create_time: 20180928T00:56:00
   id: 1110076
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Yast-Squid module requires Squid installed otherwise it crashes on startup
 - component: Other
   create_time: 20180927T15:24:00
@@ -12941,8 +12954,8 @@
 - component: X.Org
   create_time: 20180927T14:35:00
   id: 1110020
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 4 xorg noarch packages differ from architecture
 - component: Other
   create_time: 20180927T04:50:00
