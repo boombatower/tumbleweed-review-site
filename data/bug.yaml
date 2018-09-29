@@ -12742,7 +12742,7 @@
   create_time: 20180919T18:15:00
   id: 1109029
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: shutdown and reboot taking 3 minutes or longer
 - component: Basesystem
   create_time: 20180919T12:27:00
@@ -12982,6 +12982,12 @@
   summary: '[gcc8 regression]rubygem-cppjieba_rb segfault with -O1,2,3 optimization
     flag on openSUSE only systems'
 '20180926':
+- component: Installation
+  create_time: 20180929T14:32:00
+  id: 1110239
+  resolution: ''
+  status: NEW
+  summary: Allow to remove background from roles screen
 - component: YaST2
   create_time: 20180929T10:10:00
   id: 1110236
