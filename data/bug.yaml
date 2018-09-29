@@ -7871,7 +7871,7 @@
   id: 1092466
   resolution: ''
   status: NEW
-  summary: hibernate did not work
+  summary: hibernate did not work (only on 32bit tumbleweed)
 - component: Kernel
   create_time: 20180509T01:16:00
   id: 1092456
@@ -12738,7 +12738,7 @@
   status: NEW
   summary: NetworkManager dumped core in nm_connectivity_check_start
 '20180919':
-- component: Kernel
+- component: Basesystem
   create_time: 20180919T18:15:00
   id: 1109029
   resolution: ''
@@ -12835,8 +12835,8 @@
 - component: YaST2
   create_time: 20180921T14:21:00
   id: 1109310
-  resolution: INVALID
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Install yast icons with module, instead of yast-theme
 - component: GNOME
   create_time: 20180921T13:14:00
