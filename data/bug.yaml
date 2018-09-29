@@ -12982,6 +12982,12 @@
   summary: '[gcc8 regression]rubygem-cppjieba_rb segfault with -O1,2,3 optimization
     flag on openSUSE only systems'
 '20180926':
+- component: YaST2
+  create_time: 20180929T10:10:00
+  id: 1110236
+  resolution: ''
+  status: NEW
+  summary: Schematize YaST icons' names
 - component: Other
   create_time: 20180928T11:34:00
   id: 1110149
@@ -12998,7 +13004,7 @@
   create_time: 20180928T10:02:00
   id: 1110134
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: 'Trying to use kontact in the krypton live medium to access IMAP I get
     "SASL(-4): no mechanism available: No worthy mechs found", known?'
 - component: KDE Applications
