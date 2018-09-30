@@ -12445,8 +12445,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180913T14:47:00
   id: 1108329
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Plasma lockscreen can't unlock if there is no display manager installed
 - component: KDE Workspace (Plasma)
   create_time: 20180913T14:18:00
@@ -12983,6 +12983,24 @@
   summary: '[gcc8 regression]rubygem-cppjieba_rb segfault with -O1,2,3 optimization
     flag on openSUSE only systems'
 '20180926':
+- component: Kernel
+  create_time: 20180930T13:49:00
+  id: 1110253
+  resolution: ''
+  status: NEW
+  summary: sata_mv reported bug while dd_rescue a problematic disk
+- component: Kernel
+  create_time: 20180930T13:47:00
+  id: 1110252
+  resolution: ''
+  status: NEW
+  summary: sata_mv reported bug while dd_rescue a problematic disk
+- component: Security
+  create_time: 20180930T08:06:00
+  id: 1110245
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Connection to online repositories should be HTTPS
 - component: YaST2
   create_time: 20180929T22:08:00
   id: 1110241
