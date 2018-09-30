@@ -12743,7 +12743,8 @@
   id: 1109029
   resolution: ''
   status: CONFIRMED
-  summary: shutdown and reboot taking 3 minutes or longer
+  summary: Unable to suspend, shutdown/reboot taking ~3mins on some 2nd-gen Ryzen
+    systems
 - component: Basesystem
   create_time: 20180919T12:27:00
   id: 1108977
@@ -12982,6 +12983,12 @@
   summary: '[gcc8 regression]rubygem-cppjieba_rb segfault with -O1,2,3 optimization
     flag on openSUSE only systems'
 '20180926':
+- component: YaST2
+  create_time: 20180929T22:08:00
+  id: 1110241
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Make yast-theme hicolor use new Gnome Icon Guidelines
 - component: Installation
   create_time: 20180929T14:32:00
   id: 1110239
