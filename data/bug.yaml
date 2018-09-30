@@ -12226,7 +12226,7 @@
   resolution: ''
   status: NEW
   summary: KDE LiveCD does not boot in UEFI mode
-- component: Other
+- component: Patterns
   create_time: 20180904T13:27:00
   id: 1107103
   resolution: ''
@@ -12983,6 +12983,18 @@
   summary: '[gcc8 regression]rubygem-cppjieba_rb segfault with -O1,2,3 optimization
     flag on openSUSE only systems'
 '20180926':
+- component: Other
+  create_time: 20180930T18:12:00
+  id: 1110260
+  resolution: ''
+  status: NEW
+  summary: pcscd fails to find Yubikey (LIBUSB_ERROR_TIMEOUT)
+- component: Basesystem
+  create_time: 20180930T18:03:00
+  id: 1110259
+  resolution: ''
+  status: NEW
+  summary: btrfsmaintenance update hangs waiting for job restarts
 - component: Kernel
   create_time: 20180930T13:49:00
   id: 1110253
