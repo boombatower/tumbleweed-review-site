@@ -857,8 +857,8 @@
 - component: Other
   create_time: 20171221T10:33:00
   id: 1073841
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'presage: split off doc package'
 - component: Other
   create_time: 20171221T10:31:00
@@ -12793,7 +12793,7 @@
   create_time: 20180922T14:21:00
   id: 1109378
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Deprecate share/YaST2/theme/current/icons symlink with Qt's (and DE's)
     native icon theme switching methods
 - component: Upgrade Problems
@@ -12983,6 +12983,12 @@
   summary: '[gcc8 regression]rubygem-cppjieba_rb segfault with -O1,2,3 optimization
     flag on openSUSE only systems'
 '20180926':
+- component: Basesystem
+  create_time: 20181001T05:01:00
+  id: 1110266
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'zsh: invalid syntax for command-not-found'
 - component: Other
   create_time: 20180930T18:12:00
   id: 1110260
@@ -12998,8 +13004,8 @@
 - component: Kernel
   create_time: 20180930T13:49:00
   id: 1110253
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: sata_mv reported bug while dd_rescue a problematic disk
 - component: Kernel
   create_time: 20180930T13:47:00
@@ -13066,7 +13072,7 @@
   create_time: 20180928T06:38:00
   id: 1110092
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: clang 6.0.1 fails to correctly initialize structures and produces broken
     binaries!
 - component: GNOME
