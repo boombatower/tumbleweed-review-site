@@ -13081,6 +13081,12 @@
   status: NEW
   summary: Geany Spell Check plugin locked to Finish which isn't installed
 '20180928':
+- component: KDE Workspace (Plasma)
+  create_time: 20181001T19:16:00
+  id: 1110382
+  resolution: ''
+  status: NEW
+  summary: sddm can not start plasma with Xserver but only with Wayland
 - component: Development
   create_time: 20181001T13:33:00
   id: 1110339
@@ -13097,7 +13103,7 @@
   create_time: 20181001T08:48:00
   id: 1110294
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: vpp-18.07.1 build -j1 fails
 - component: Basesystem
   create_time: 20181001T05:01:00
@@ -13145,8 +13151,8 @@
   create_time: 20180929T14:32:00
   id: 1110239
   resolution: ''
-  status: NEW
-  summary: Allow to remove background from roles screen
+  status: CONFIRMED
+  summary: Allow to remove background from roles screen (allow widget specific styling)
 - component: YaST2
   create_time: 20180929T10:10:00
   id: 1110236
