@@ -6923,8 +6923,8 @@
 - component: Bootloader
   create_time: 20180414T08:59:00
   id: 1089609
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Raspberry Pi 3B+ image not booting
 - component: AppArmor
   create_time: 20180413T20:19:00
@@ -12549,8 +12549,8 @@
 - component: Apache
   create_time: 20180911T06:32:00
   id: 1107930
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: SYSCONFIG_FILE variable not defined in /usr/share/apache2/script-helpers
 '20180914':
 - component: X.Org
@@ -12983,6 +12983,122 @@
   summary: '[gcc8 regression]rubygem-cppjieba_rb segfault with -O1,2,3 optimization
     flag on openSUSE only systems'
 '20180926':
+- component: Other
+  create_time: 20180927T15:24:00
+  id: 1110032
+  resolution: ''
+  status: IN_PROGRESS
+  summary: lollypop,pithos,mozo differ between architectures
+- component: Other
+  create_time: 20180927T15:01:00
+  id: 1110028
+  resolution: ''
+  status: NEW
+  summary: 4 java noarch packages vary between architectures
+- component: Other
+  create_time: 20180927T14:48:00
+  id: 1110024
+  resolution: ''
+  status: NEW
+  summary: noarch java packages differ between architectures
+- component: X.Org
+  create_time: 20180927T14:35:00
+  id: 1110020
+  resolution: FIXED
+  status: RESOLVED
+  summary: 4 xorg noarch packages differ from architecture
+- component: Other
+  create_time: 20180927T04:50:00
+  id: 1109949
+  resolution: FIXED
+  status: RESOLVED
+  summary: foma segfault
+- component: GNOME
+  create_time: 20180926T18:25:00
+  id: 1109905
+  resolution: ''
+  status: NEW
+  summary: gnome-keyring-pam does not auto-unlock in KDE
+- component: Other
+  create_time: 20180926T16:47:00
+  id: 1109896
+  resolution: ''
+  status: IN_PROGRESS
+  summary: /etc/zsh-command-not-found executing python 2 instead of python 3.
+- component: GNOME
+  create_time: 20180926T16:41:00
+  id: 1109895
+  resolution: ''
+  status: NEW
+  summary: .pc files in noarch -devel pkg differ from architecture
+- component: Virtualization:Other
+  create_time: 20180926T11:56:00
+  id: 1109832
+  resolution: ''
+  status: NEW
+  summary: libvirt-daemon-config-network not installed by yast vm
+- component: Network
+  create_time: 20180926T09:53:00
+  id: 1109803
+  resolution: INVALID
+  status: RESOLVED
+  summary: NetXtreme BCM5755 Gigabit Ethernet PCI Express adapter not supported by
+    TW 20180924 installer
+- component: X11 Applications
+  create_time: 20180926T09:22:00
+  id: 1109796
+  resolution: ''
+  status: NEW
+  summary: libappindicator3 issues
+- component: Other
+  create_time: 20180926T05:21:00
+  id: 1109759
+  resolution: ''
+  status: NEW
+  summary: websocketpp-devel differs between architectures
+- component: Other
+  create_time: 20180926T04:12:00
+  id: 1109757
+  resolution: ''
+  status: NEW
+  summary: skinlf and jgoodies-forms differ between architectures
+- component: Other
+  create_time: 20180926T04:04:00
+  id: 1109755
+  resolution: ''
+  status: NEW
+  summary: scons differs between architectures
+- component: Other
+  create_time: 20180926T03:56:00
+  id: 1109754
+  resolution: ''
+  status: NEW
+  summary: perl noarch packages differ between architectures
+- component: Development
+  create_time: 20180926T01:27:00
+  id: 1109752
+  resolution: ''
+  status: NEW
+  summary: Geany Spell Check plugin locked to Finish which isn't installed
+'20180928':
+- component: Development
+  create_time: 20181001T13:33:00
+  id: 1110339
+  resolution: ''
+  status: NEW
+  summary: xine-lib xine-list-1.2 randomly missing entries
+- component: YaST2
+  create_time: 20181001T09:00:00
+  id: 1110296
+  resolution: ''
+  status: NEW
+  summary: Make YaST Control Center Qt look a little bit more modern
+- component: Development
+  create_time: 20181001T08:48:00
+  id: 1110294
+  resolution: ''
+  status: NEW
+  summary: vpp-18.07.1 build -j1 fails
 - component: Basesystem
   create_time: 20181001T05:01:00
   id: 1110266
@@ -13071,8 +13187,8 @@
 - component: Basesystem
   create_time: 20180928T06:38:00
   id: 1110092
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: INVALID
+  status: RESOLVED
   summary: clang 6.0.1 fails to correctly initialize structures and produces broken
     binaries!
 - component: GNOME
@@ -13087,100 +13203,3 @@
   resolution: ''
   status: CONFIRMED
   summary: Yast-Squid module requires Squid installed otherwise it crashes on startup
-- component: Other
-  create_time: 20180927T15:24:00
-  id: 1110032
-  resolution: ''
-  status: IN_PROGRESS
-  summary: lollypop,pithos,mozo differ between architectures
-- component: Other
-  create_time: 20180927T15:01:00
-  id: 1110028
-  resolution: ''
-  status: NEW
-  summary: 4 java noarch packages vary between architectures
-- component: Other
-  create_time: 20180927T14:48:00
-  id: 1110024
-  resolution: ''
-  status: NEW
-  summary: noarch java packages differ between architectures
-- component: X.Org
-  create_time: 20180927T14:35:00
-  id: 1110020
-  resolution: FIXED
-  status: RESOLVED
-  summary: 4 xorg noarch packages differ from architecture
-- component: Other
-  create_time: 20180927T04:50:00
-  id: 1109949
-  resolution: FIXED
-  status: RESOLVED
-  summary: foma segfault
-- component: GNOME
-  create_time: 20180926T18:25:00
-  id: 1109905
-  resolution: ''
-  status: NEW
-  summary: gnome-keyring-pam does not auto-unlock in KDE
-- component: Other
-  create_time: 20180926T16:47:00
-  id: 1109896
-  resolution: ''
-  status: NEW
-  summary: /etc/zsh-command-not-found executing python 2 instead of python 3.
-- component: GNOME
-  create_time: 20180926T16:41:00
-  id: 1109895
-  resolution: ''
-  status: NEW
-  summary: .pc files in noarch -devel pkg differ from architecture
-- component: Virtualization:Other
-  create_time: 20180926T11:56:00
-  id: 1109832
-  resolution: ''
-  status: NEW
-  summary: libvirt-daemon-config-network not installed by yast vm
-- component: Network
-  create_time: 20180926T09:53:00
-  id: 1109803
-  resolution: INVALID
-  status: RESOLVED
-  summary: NetXtreme BCM5755 Gigabit Ethernet PCI Express adapter not supported by
-    TW 20180924 installer
-- component: X11 Applications
-  create_time: 20180926T09:22:00
-  id: 1109796
-  resolution: ''
-  status: NEW
-  summary: libappindicator3 issues
-- component: Other
-  create_time: 20180926T05:21:00
-  id: 1109759
-  resolution: ''
-  status: NEW
-  summary: websocketpp-devel differs between architectures
-- component: Other
-  create_time: 20180926T04:12:00
-  id: 1109757
-  resolution: ''
-  status: NEW
-  summary: skinlf and jgoodies-forms differ between architectures
-- component: Other
-  create_time: 20180926T04:04:00
-  id: 1109755
-  resolution: ''
-  status: NEW
-  summary: scons differs between architectures
-- component: Other
-  create_time: 20180926T03:56:00
-  id: 1109754
-  resolution: ''
-  status: NEW
-  summary: perl noarch packages differ between architectures
-- component: Development
-  create_time: 20180926T01:27:00
-  id: 1109752
-  resolution: ''
-  status: NEW
-  summary: Geany Spell Check plugin locked to Finish which isn't installed
