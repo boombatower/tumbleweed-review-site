@@ -5726,8 +5726,8 @@
 - component: X11 Applications
   create_time: 20180317T23:50:00
   id: 1085769
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: With default fontconfig, color emoji don't work in the apps that use cairo
     for rendering
 - component: Other
@@ -6112,8 +6112,8 @@
 - component: Firefox
   create_time: 20180321T14:42:00
   id: 1086260
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'firefox 59: more reliably fails to build than succeeds'
 - component: Other
   create_time: 20180321T11:33:00
@@ -7887,8 +7887,8 @@
 - component: Other
   create_time: 20180508T13:02:00
   id: 1092370
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/slapi-nis fails to build'
 - component: Other
   create_time: 20180508T13:01:00
@@ -7905,8 +7905,8 @@
 - component: Other
   create_time: 20180508T12:59:00
   id: 1092366
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/linux_pcnfsd2 fails to build'
 - component: Other
   create_time: 20180508T12:58:00
@@ -7935,32 +7935,32 @@
 - component: Other
   create_time: 20180508T12:51:00
   id: 1092360
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/dmtcp fails to build'
 - component: Other
   create_time: 20180508T12:51:00
   id: 1092359
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/cmpi-bindings fails to build'
 - component: Other
   create_time: 20180508T12:50:00
   id: 1092358
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/bind-dyndb-ldap fails to build'
 - component: Other
   create_time: 20180508T12:49:00
   id: 1092357
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/votca-xtp fails to build'
 - component: Other
   create_time: 20180508T12:48:00
   id: 1092356
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/peerunity fails to build'
 - component: Other
   create_time: 20180508T12:45:00
@@ -13081,6 +13081,25 @@
   status: NEW
   summary: Geany Spell Check plugin locked to Finish which isn't installed
 '20180928':
+- component: Usability
+  create_time: 20181002T08:15:00
+  id: 1110412
+  resolution: ''
+  status: NEW
+  summary: Color Emoji support is disabled by Noto Emoji (monochrome) and DejaVu fonts
+- component: Containers
+  create_time: 20181002T08:10:00
+  id: 1110410
+  resolution: ''
+  status: NEW
+  summary: openSUSE:Factory/velum is currently unresolvable
+- component: YaST2
+  create_time: 20181002T07:07:00
+  id: 1110407
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180928] New widget for service configuration shows "Inacti" instead
+    of "Inactive"'
 - component: KDE Workspace (Plasma)
   create_time: 20181001T19:16:00
   id: 1110382
@@ -13091,7 +13110,7 @@
   create_time: 20181001T13:33:00
   id: 1110339
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: xine-lib xine-list-1.2 randomly missing entries
 - component: YaST2
   create_time: 20181001T09:00:00
