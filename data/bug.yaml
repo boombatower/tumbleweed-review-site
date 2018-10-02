@@ -12415,7 +12415,7 @@
   create_time: 20180910T08:16:00
   id: 1107798
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Fails to update the last python2-appdirs/python3-appdirs in Tumbleweed
 - component: YaST2
   create_time: 20180910T07:21:00
@@ -13035,7 +13035,7 @@
   create_time: 20180926T11:56:00
   id: 1109832
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: libvirt-daemon-config-network not installed by yast vm
 - component: Network
   create_time: 20180926T09:53:00
@@ -13081,6 +13081,12 @@
   status: NEW
   summary: Geany Spell Check plugin locked to Finish which isn't installed
 '20180928':
+- component: Kernel
+  create_time: 20181002T16:07:00
+  id: 1110472
+  resolution: ''
+  status: NEW
+  summary: 'hidpp20_batterylevel_get_battery_capacity: received protocol error 0x09'
 - component: Kubic
   create_time: 20181002T13:54:00
   id: 1110456
@@ -13114,8 +13120,8 @@
 - component: YaST2
   create_time: 20181002T07:07:00
   id: 1110407
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180928] New widget for service configuration shows "Inacti" instead
     of "Inactive"'
 - component: KDE Workspace (Plasma)
