@@ -12855,7 +12855,7 @@
   create_time: 20180921T12:50:00
   id: 1109302
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: firewalld blocks iscsi firmware interfaces
 - component: GNOME
   create_time: 20180921T12:38:00
@@ -13081,6 +13081,24 @@
   status: NEW
   summary: Geany Spell Check plugin locked to Finish which isn't installed
 '20180928':
+- component: Kubic
+  create_time: 20181002T13:54:00
+  id: 1110456
+  resolution: ''
+  status: NEW
+  summary: rsyslog not logging most messages
+- component: Kernel
+  create_time: 20181002T12:54:00
+  id: 1110443
+  resolution: ''
+  status: NEW
+  summary: Ethernet is broken on Raspberry Pi 3 B+
+- component: KDE Workspace (Plasma)
+  create_time: 20181002T09:43:00
+  id: 1110421
+  resolution: ''
+  status: NEW
+  summary: Brightness change without effect after suspend (and removing external screen)
 - component: Usability
   create_time: 20181002T08:15:00
   id: 1110412
