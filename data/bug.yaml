@@ -13081,6 +13081,18 @@
   status: NEW
   summary: Geany Spell Check plugin locked to Finish which isn't installed
 '20180928':
+- component: Other
+  create_time: 20181002T21:45:00
+  id: 1110513
+  resolution: ''
+  status: NEW
+  summary: convert jpeg to pdf does not work anymore
+- component: Other
+  create_time: 20181002T21:40:00
+  id: 1110512
+  resolution: ''
+  status: NEW
+  summary: Bump appimaged to latest, it is now provided by separate git repo
 - component: Kernel
   create_time: 20181002T16:07:00
   id: 1110472
