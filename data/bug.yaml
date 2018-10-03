@@ -10276,8 +10276,8 @@
 - component: Other
   create_time: 20180707T12:11:00
   id: 1100496
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: neovim should depend on specific version of libtermkey1
 - component: KDE Workspace (Plasma)
   create_time: 20180707T10:30:00
@@ -13081,6 +13081,24 @@
   status: NEW
   summary: Geany Spell Check plugin locked to Finish which isn't installed
 '20180928':
+- component: Basesystem
+  create_time: 20181003T12:10:00
+  id: 1110587
+  resolution: ''
+  status: NEW
+  summary: 'multipath-tools: fix dmevents polling on tumbleweed with kernel 4.16'
+- component: Basesystem
+  create_time: 20181003T11:57:00
+  id: 1110586
+  resolution: ''
+  status: NEW
+  summary: 'multipath-tools: suppress some irritating log messages'
+- component: Kernel
+  create_time: 20181003T10:53:00
+  id: 1110576
+  resolution: ''
+  status: NEW
+  summary: kworker running at 100%CPU (on usb interrupt?)
 - component: Other
   create_time: 20181002T21:45:00
   id: 1110513
