@@ -6824,8 +6824,9 @@
   create_time: 20180409T17:34:00
   id: 1088734
   resolution: ''
-  status: REOPENED
-  summary: Windows shown during installation look ugly
+  status: CONFIRMED
+  summary: Windows shown during installation look ugly, YaST does not use the icewm-theme-yast-installation
+    package
 - component: Basesystem
   create_time: 20180409T14:40:00
   id: 1088702
@@ -13081,6 +13082,18 @@
   status: NEW
   summary: Geany Spell Check plugin locked to Finish which isn't installed
 '20180928':
+- component: Development
+  create_time: 20181004T08:43:00
+  id: 1110708
+  resolution: ''
+  status: NEW
+  summary: gdb does not build reproducibly
+- component: Kubic
+  create_time: 20181004T08:02:00
+  id: 1110701
+  resolution: ''
+  status: NEW
+  summary: patterns-caasp-MicroOS change breaks rolling update
 - component: Development
   create_time: 20181003T23:16:00
   id: 1110669
