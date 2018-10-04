@@ -11859,8 +11859,8 @@
 - component: Installation
   create_time: 20180822T15:04:00
   id: 1105654
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'mesa-dri-nouveau: Incorrect description when confirming the package license'
 - component: Installation
   create_time: 20180822T14:49:00
@@ -12837,8 +12837,8 @@
 - component: YaST2
   create_time: 20180921T14:21:00
   id: 1109310
-  resolution: ''
-  status: REOPENED
+  resolution: FEATURE
+  status: RESOLVED
   summary: Install yast icons with module, instead of yast-theme
 - component: GNOME
   create_time: 20180921T13:14:00
@@ -13082,6 +13082,111 @@
   status: NEW
   summary: Geany Spell Check plugin locked to Finish which isn't installed
 '20180928':
+- component: Other
+  create_time: 20180930T18:12:00
+  id: 1110260
+  resolution: ''
+  status: NEW
+  summary: pcscd fails to find Yubikey (LIBUSB_ERROR_TIMEOUT)
+- component: Basesystem
+  create_time: 20180930T18:03:00
+  id: 1110259
+  resolution: ''
+  status: NEW
+  summary: btrfsmaintenance update hangs waiting for job restarts
+- component: Kernel
+  create_time: 20180930T13:49:00
+  id: 1110253
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: sata_mv reported bug while dd_rescue a problematic disk
+- component: Kernel
+  create_time: 20180930T13:47:00
+  id: 1110252
+  resolution: ''
+  status: NEW
+  summary: sata_mv reported bug while dd_rescue a problematic disk
+- component: Security
+  create_time: 20180930T08:06:00
+  id: 1110245
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Connection to online repositories should be HTTPS
+- component: YaST2
+  create_time: 20180929T22:08:00
+  id: 1110241
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Make yast-theme hicolor use new Gnome Icon Guidelines
+- component: Installation
+  create_time: 20180929T14:32:00
+  id: 1110239
+  resolution: ''
+  status: CONFIRMED
+  summary: Allow to remove background from roles screen (allow widget specific styling)
+- component: YaST2
+  create_time: 20180929T10:10:00
+  id: 1110236
+  resolution: FEATURE
+  status: RESOLVED
+  summary: Schematize YaST icons' names
+- component: Other
+  create_time: 20180928T11:34:00
+  id: 1110149
+  resolution: ''
+  status: NEW
+  summary: noarch png files differ from architecture
+- component: Other
+  create_time: 20180928T11:24:00
+  id: 1110146
+  resolution: ''
+  status: NEW
+  summary: docbook-xsl-stylesheets has incomplete xml catalog file
+- component: Live Medium
+  create_time: 20180928T10:02:00
+  id: 1110134
+  resolution: FIXED
+  status: VERIFIED
+  summary: 'Trying to use kontact in the krypton live medium to access IMAP I get
+    "SASL(-4): no mechanism available: No worthy mechs found", known?'
+- component: KDE Applications
+  create_time: 20180928T08:33:00
+  id: 1110111
+  resolution: ''
+  status: NEW
+  summary: pam_kwallet trying to unlock before ecryptfs mounted home folder
+- component: Kernel
+  create_time: 20180928T08:25:00
+  id: 1110109
+  resolution: ''
+  status: NEW
+  summary: HDD/swap performance regression
+- component: Basesystem
+  create_time: 20180928T06:38:00
+  id: 1110092
+  resolution: INVALID
+  status: RESOLVED
+  summary: clang 6.0.1 fails to correctly initialize structures and produces broken
+    binaries!
+- component: GNOME
+  create_time: 20180928T06:29:00
+  id: 1110090
+  resolution: ''
+  status: NEW
+  summary: '[Build 20180926] GNOME Music fails to start in upgrade scenarios'
+- component: YaST2
+  create_time: 20180928T00:56:00
+  id: 1110076
+  resolution: ''
+  status: CONFIRMED
+  summary: Yast-Squid module requires Squid installed otherwise it crashes on startup
+'20181001':
+- component: Development
+  create_time: 20181004T09:40:00
+  id: 1110722
+  resolution: ''
+  status: NEW
+  summary: pocl uses compile-time CPU detection
 - component: Development
   create_time: 20181004T08:43:00
   id: 1110708
@@ -13209,101 +13314,3 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: 'zsh: invalid syntax for command-not-found'
-- component: Other
-  create_time: 20180930T18:12:00
-  id: 1110260
-  resolution: ''
-  status: NEW
-  summary: pcscd fails to find Yubikey (LIBUSB_ERROR_TIMEOUT)
-- component: Basesystem
-  create_time: 20180930T18:03:00
-  id: 1110259
-  resolution: ''
-  status: NEW
-  summary: btrfsmaintenance update hangs waiting for job restarts
-- component: Kernel
-  create_time: 20180930T13:49:00
-  id: 1110253
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: sata_mv reported bug while dd_rescue a problematic disk
-- component: Kernel
-  create_time: 20180930T13:47:00
-  id: 1110252
-  resolution: ''
-  status: NEW
-  summary: sata_mv reported bug while dd_rescue a problematic disk
-- component: Security
-  create_time: 20180930T08:06:00
-  id: 1110245
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: Connection to online repositories should be HTTPS
-- component: YaST2
-  create_time: 20180929T22:08:00
-  id: 1110241
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Make yast-theme hicolor use new Gnome Icon Guidelines
-- component: Installation
-  create_time: 20180929T14:32:00
-  id: 1110239
-  resolution: ''
-  status: CONFIRMED
-  summary: Allow to remove background from roles screen (allow widget specific styling)
-- component: YaST2
-  create_time: 20180929T10:10:00
-  id: 1110236
-  resolution: ''
-  status: NEW
-  summary: Schematize YaST icons' names
-- component: Other
-  create_time: 20180928T11:34:00
-  id: 1110149
-  resolution: ''
-  status: NEW
-  summary: noarch png files differ from architecture
-- component: Other
-  create_time: 20180928T11:24:00
-  id: 1110146
-  resolution: ''
-  status: NEW
-  summary: docbook-xsl-stylesheets has incomplete xml catalog file
-- component: Live Medium
-  create_time: 20180928T10:02:00
-  id: 1110134
-  resolution: FIXED
-  status: VERIFIED
-  summary: 'Trying to use kontact in the krypton live medium to access IMAP I get
-    "SASL(-4): no mechanism available: No worthy mechs found", known?'
-- component: KDE Applications
-  create_time: 20180928T08:33:00
-  id: 1110111
-  resolution: ''
-  status: NEW
-  summary: pam_kwallet trying to unlock before ecryptfs mounted home folder
-- component: Kernel
-  create_time: 20180928T08:25:00
-  id: 1110109
-  resolution: ''
-  status: NEW
-  summary: HDD/swap performance regression
-- component: Basesystem
-  create_time: 20180928T06:38:00
-  id: 1110092
-  resolution: INVALID
-  status: RESOLVED
-  summary: clang 6.0.1 fails to correctly initialize structures and produces broken
-    binaries!
-- component: GNOME
-  create_time: 20180928T06:29:00
-  id: 1110090
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180926] GNOME Music fails to start in upgrade scenarios'
-- component: YaST2
-  create_time: 20180928T00:56:00
-  id: 1110076
-  resolution: ''
-  status: CONFIRMED
-  summary: Yast-Squid module requires Squid installed otherwise it crashes on startup
