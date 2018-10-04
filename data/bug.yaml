@@ -13081,6 +13081,18 @@
   status: NEW
   summary: Geany Spell Check plugin locked to Finish which isn't installed
 '20180928':
+- component: Development
+  create_time: 20181003T23:16:00
+  id: 1110669
+  resolution: ''
+  status: NEW
+  summary: twisted.internet.gireactor (python3-Twisted) requires pygtkcompat
+- component: Network
+  create_time: 20181003T23:05:00
+  id: 1110668
+  resolution: ''
+  status: NEW
+  summary: python3-avahi is not python3 compatible
 - component: Basesystem
   create_time: 20181003T12:10:00
   id: 1110587
