@@ -12623,8 +12623,8 @@
 - component: KDE Applications
   create_time: 20180916T22:30:00
   id: 1108577
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Gmail authentication fails in kmail
 - component: Translations
   create_time: 20180916T12:07:00
@@ -13181,6 +13181,12 @@
   status: CONFIRMED
   summary: Yast-Squid module requires Squid installed otherwise it crashes on startup
 '20181001':
+- component: Upgrade Problems
+  create_time: 20181004T20:52:00
+  id: 1110822
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed 20181001 libkdexoauth2 conflict
 - component: Development
   create_time: 20181004T09:40:00
   id: 1110722
