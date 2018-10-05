@@ -12377,8 +12377,8 @@
 - component: Kernel
   create_time: 20180905T10:11:00
   id: 1107257
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'arm: Crash in netlink/sk_filter_trim_cap on ARMv7'
 - component: YaST2
   create_time: 20180905T09:30:00
@@ -13023,8 +13023,8 @@
 - component: Other
   create_time: 20180926T16:47:00
   id: 1109896
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: /etc/zsh-command-not-found executing python 2 instead of python 3.
 - component: GNOME
   create_time: 20180926T16:41:00
@@ -13181,6 +13181,12 @@
   status: CONFIRMED
   summary: Yast-Squid module requires Squid installed otherwise it crashes on startup
 '20181001':
+- component: Salt
+  create_time: 20181005T14:04:00
+  id: 1110932
+  resolution: ''
+  status: NEW
+  summary: 'TypeError: run() got an unexpected keyword argument ''async'''
 - component: Upgrade Problems
   create_time: 20181004T20:52:00
   id: 1110822
