@@ -12778,11 +12778,11 @@
   summary: installer crashes while doing version upgrade - File exists @ dir_s_mkdir
     - /mnt/var/adm/backup/system-upgrade
 '20180920':
-- component: Kernel
+- component: X11 3rd Party Driver
   create_time: 20180923T14:32:00
   id: 1109385
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: NVIDIA module didn't get updated after installing a new kernel
 - component: YaST2
   create_time: 20180922T20:49:00
@@ -13181,6 +13181,43 @@
   status: CONFIRMED
   summary: Yast-Squid module requires Squid installed otherwise it crashes on startup
 '20181001':
+- component: KDE Workspace (Plasma)
+  create_time: 20181001T19:16:00
+  id: 1110382
+  resolution: ''
+  status: NEW
+  summary: sddm can not start plasma with Xserver but only with Wayland
+- component: Development
+  create_time: 20181001T13:33:00
+  id: 1110339
+  resolution: ''
+  status: IN_PROGRESS
+  summary: xine-lib xine-list-1.2 randomly missing entries
+- component: YaST2
+  create_time: 20181001T09:00:00
+  id: 1110296
+  resolution: ''
+  status: NEW
+  summary: Make YaST Control Center Qt look a little bit more modern
+- component: Development
+  create_time: 20181001T08:48:00
+  id: 1110294
+  resolution: ''
+  status: IN_PROGRESS
+  summary: vpp-18.07.1 build -j1 fails
+- component: Basesystem
+  create_time: 20181001T05:01:00
+  id: 1110266
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'zsh: invalid syntax for command-not-found'
+'20181002':
+- component: X11 Applications
+  create_time: 20181005T17:21:00
+  id: 1110948
+  resolution: ''
+  status: NEW
+  summary: Pidgin spellcheck underline words and lang switcher not available
 - component: Salt
   create_time: 20181005T14:04:00
   id: 1110932
@@ -13296,33 +13333,3 @@
   status: RESOLVED
   summary: '[Build 20180928] New widget for service configuration shows "Inacti" instead
     of "Inactive"'
-- component: KDE Workspace (Plasma)
-  create_time: 20181001T19:16:00
-  id: 1110382
-  resolution: ''
-  status: NEW
-  summary: sddm can not start plasma with Xserver but only with Wayland
-- component: Development
-  create_time: 20181001T13:33:00
-  id: 1110339
-  resolution: ''
-  status: IN_PROGRESS
-  summary: xine-lib xine-list-1.2 randomly missing entries
-- component: YaST2
-  create_time: 20181001T09:00:00
-  id: 1110296
-  resolution: ''
-  status: NEW
-  summary: Make YaST Control Center Qt look a little bit more modern
-- component: Development
-  create_time: 20181001T08:48:00
-  id: 1110294
-  resolution: ''
-  status: IN_PROGRESS
-  summary: vpp-18.07.1 build -j1 fails
-- component: Basesystem
-  create_time: 20181001T05:01:00
-  id: 1110266
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'zsh: invalid syntax for command-not-found'
