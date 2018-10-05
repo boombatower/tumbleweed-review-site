@@ -13185,7 +13185,7 @@
   create_time: 20181004T20:52:00
   id: 1110822
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Tumbleweed 20181001 libkdexoauth2 conflict
 - component: Development
   create_time: 20181004T09:40:00
