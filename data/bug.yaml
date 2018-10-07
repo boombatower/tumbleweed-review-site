@@ -4704,8 +4704,8 @@
 - component: Other
   create_time: 20180228T02:20:00
   id: 1083212
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Please drop mkfontscale/mkfontdir usage from texlive font packages
 - component: Sound
   create_time: 20180227T22:32:00
