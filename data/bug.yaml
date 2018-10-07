@@ -13212,6 +13212,13 @@
   status: RESOLVED
   summary: 'zsh: invalid syntax for command-not-found'
 '20181002':
+- component: Other
+  create_time: 20181007T03:36:00
+  id: 1110975
+  resolution: ''
+  status: NEW
+  summary: can't install x2go client (version `LIBSSH_0.7.2' not found (required by
+    x2goclient)
 - component: X11 Applications
   create_time: 20181005T17:21:00
   id: 1110948
