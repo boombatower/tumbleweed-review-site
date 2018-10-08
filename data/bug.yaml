@@ -9033,8 +9033,8 @@
 - component: GNOME
   create_time: 20180531T08:40:00
   id: 1095325
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '"SLE Classic" gnome extension causes problems when toggled in gnome-tweaks'
 - component: KDE Workspace (Plasma)
   create_time: 20180530T12:12:00
@@ -13212,6 +13212,19 @@
   status: RESOLVED
   summary: 'zsh: invalid syntax for command-not-found'
 '20181002':
+- component: YaST2
+  create_time: 20181007T21:36:00
+  id: 1110986
+  resolution: ''
+  status: NEW
+  summary: Installer Error on MacBook Pro 2016 - YaST2/clients/inst_disk_proposal.rb
+    failed with 'Storage::Exception'
+- component: X.Org
+  create_time: 20181007T21:22:00
+  id: 1110985
+  resolution: ''
+  status: NEW
+  summary: TW Plasma Intel driver random freezes
 - component: Other
   create_time: 20181007T03:36:00
   id: 1110975
