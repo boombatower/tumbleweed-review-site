@@ -4704,8 +4704,8 @@
 - component: Other
   create_time: 20180228T02:20:00
   id: 1083212
-  resolution: WONTFIX
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Please drop mkfontscale/mkfontdir usage from texlive font packages
 - component: Sound
   create_time: 20180227T22:32:00
@@ -6837,7 +6837,7 @@
   create_time: 20180409T12:18:00
   id: 1088676
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: config file paths in manual page wrong
 - component: Kernel
   create_time: 20180409T11:12:00
@@ -12781,8 +12781,8 @@
 - component: X11 3rd Party Driver
   create_time: 20180923T14:32:00
   id: 1109385
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: NVIDIA module didn't get updated after installing a new kernel
 - component: YaST2
   create_time: 20180922T20:49:00
@@ -13202,8 +13202,8 @@
 - component: Development
   create_time: 20181001T08:48:00
   id: 1110294
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: vpp-18.07.1 build -j1 fails
 - component: Basesystem
   create_time: 20181001T05:01:00
@@ -13212,6 +13212,18 @@
   status: RESOLVED
   summary: 'zsh: invalid syntax for command-not-found'
 '20181002':
+- component: Basesystem
+  create_time: 20181008T11:33:00
+  id: 1111047
+  resolution: ''
+  status: NEW
+  summary: haveged crashes regular on openSUSE Kubic
+- component: Patterns
+  create_time: 20181008T09:51:00
+  id: 1111031
+  resolution: ''
+  status: NEW
+  summary: libqt5-qtstyleplugins-platformtheme-gtk2 not installed for GTK desktops
 - component: Kubic
   create_time: 20181008T08:14:00
   id: 1111012
@@ -13229,7 +13241,7 @@
   create_time: 20181007T21:22:00
   id: 1110985
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: TW Plasma Intel driver random freezes
 - component: X11 Applications
   create_time: 20181005T17:21:00
