@@ -67,8 +67,8 @@
 - component: Virtualization:Other
   create_time: 20171203T17:48:00
   id: 1070917
-  resolution: ''
-  status: NEW
+  resolution: FEATURE
+  status: RESOLVED
   summary: 'libvirt: qemu/kvm VMs not confined by default'
 - component: Virtualization:Other
   create_time: 20171203T17:47:00
@@ -13212,73 +13212,6 @@
   status: RESOLVED
   summary: 'zsh: invalid syntax for command-not-found'
 '20181002':
-- component: Basesystem
-  create_time: 20181008T11:33:00
-  id: 1111047
-  resolution: ''
-  status: NEW
-  summary: haveged crashes regular on openSUSE Kubic
-- component: Patterns
-  create_time: 20181008T09:51:00
-  id: 1111031
-  resolution: ''
-  status: NEW
-  summary: libqt5-qtstyleplugins-platformtheme-gtk2 not installed for GTK desktops
-- component: Kubic
-  create_time: 20181008T08:14:00
-  id: 1111012
-  resolution: ''
-  status: NEW
-  summary: cri-o writes log files to /tmp
-- component: YaST2
-  create_time: 20181007T21:36:00
-  id: 1110986
-  resolution: ''
-  status: NEW
-  summary: Installer Error on MacBook Pro 2016 - YaST2/clients/inst_disk_proposal.rb
-    failed with 'Storage::Exception'
-- component: X.Org
-  create_time: 20181007T21:22:00
-  id: 1110985
-  resolution: ''
-  status: IN_PROGRESS
-  summary: TW Plasma Intel driver random freezes
-- component: X11 Applications
-  create_time: 20181005T17:21:00
-  id: 1110948
-  resolution: ''
-  status: NEW
-  summary: Pidgin spellcheck underline words and lang switcher not available
-- component: Salt
-  create_time: 20181005T14:04:00
-  id: 1110932
-  resolution: ''
-  status: NEW
-  summary: 'TypeError: run() got an unexpected keyword argument ''async'''
-- component: Upgrade Problems
-  create_time: 20181004T20:52:00
-  id: 1110822
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Tumbleweed 20181001 libkdexoauth2 conflict
-- component: Development
-  create_time: 20181004T09:40:00
-  id: 1110722
-  resolution: ''
-  status: NEW
-  summary: pocl uses compile-time CPU detection
-- component: Development
-  create_time: 20181004T08:43:00
-  id: 1110708
-  resolution: ''
-  status: NEW
-  summary: gdb does not build reproducibly
-- component: Kubic
-  create_time: 20181004T08:02:00
-  id: 1110701
-  resolution: ''
-  status: NEW
-  summary: patterns-caasp-MicroOS change breaks rolling update
 - component: Development
   create_time: 20181003T23:16:00
   id: 1110669
@@ -13364,3 +13297,71 @@
   status: RESOLVED
   summary: '[Build 20180928] New widget for service configuration shows "Inacti" instead
     of "Inactive"'
+'20181004':
+- component: Basesystem
+  create_time: 20181008T11:33:00
+  id: 1111047
+  resolution: ''
+  status: NEW
+  summary: haveged crashes regular on openSUSE Kubic
+- component: Patterns
+  create_time: 20181008T09:51:00
+  id: 1111031
+  resolution: ''
+  status: NEW
+  summary: libqt5-qtstyleplugins-platformtheme-gtk2 not installed for GTK desktops
+- component: Kubic
+  create_time: 20181008T08:14:00
+  id: 1111012
+  resolution: ''
+  status: NEW
+  summary: cri-o writes log files to /tmp
+- component: YaST2
+  create_time: 20181007T21:36:00
+  id: 1110986
+  resolution: ''
+  status: NEW
+  summary: Installer Error on MacBook Pro 2016 - YaST2/clients/inst_disk_proposal.rb
+    failed with 'Storage::Exception'
+- component: X.Org
+  create_time: 20181007T21:22:00
+  id: 1110985
+  resolution: ''
+  status: IN_PROGRESS
+  summary: TW Plasma Intel driver random freezes
+- component: X11 Applications
+  create_time: 20181005T17:21:00
+  id: 1110948
+  resolution: ''
+  status: NEW
+  summary: Pidgin spellcheck underline words and lang switcher not available
+- component: Salt
+  create_time: 20181005T14:04:00
+  id: 1110932
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'TypeError: run() got an unexpected keyword argument ''async'''
+- component: Upgrade Problems
+  create_time: 20181004T20:52:00
+  id: 1110822
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Tumbleweed 20181001 libkdexoauth2 conflict
+- component: Development
+  create_time: 20181004T09:40:00
+  id: 1110722
+  resolution: ''
+  status: IN_PROGRESS
+  summary: pocl uses compile-time CPU detection
+- component: Development
+  create_time: 20181004T08:43:00
+  id: 1110708
+  resolution: ''
+  status: NEW
+  summary: gdb does not build reproducibly
+- component: Kubic
+  create_time: 20181004T08:02:00
+  id: 1110701
+  resolution: ''
+  status: NEW
+  summary: patterns-caasp-MicroOS change breaks rolling update
