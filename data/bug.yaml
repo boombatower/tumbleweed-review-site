@@ -4872,8 +4872,8 @@
 - component: Other
   create_time: 20180303T15:56:00
   id: 1083839
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: add option to support legacy, insecure SSHv1 client connections
 - component: KDE Workspace (Plasma)
   create_time: 20180303T15:49:00
@@ -11773,8 +11773,8 @@
 - component: Network
   create_time: 20180824T22:45:00
   id: 1105983
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: openssh won't do tunnel forwarding
 - component: Other
   create_time: 20180824T19:56:00
@@ -12072,7 +12072,7 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: DRM radeon GPU fault detected (gem object lookup failed)
-- component: Basesystem
+- component: Kernel
   create_time: 20180830T17:50:00
   id: 1106629
   resolution: ''
@@ -12130,8 +12130,8 @@
 - component: Other
   create_time: 20180829T09:54:00
   id: 1106379
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'qmapshack from Tumbleweed: geo cant be installed or executed'
 - component: Other
   create_time: 20180829T09:44:00
@@ -13298,6 +13298,19 @@
   summary: '[Build 20180928] New widget for service configuration shows "Inacti" instead
     of "Inactive"'
 '20181004':
+- component: Kernel
+  create_time: 20181009T12:39:00
+  id: 1111221
+  resolution: ''
+  status: NEW
+  summary: 'WARNING: CPU: 0 PID: 130 at drivers/hv/hv_balloon.c:1269 balloon_up+0x34a/0x360
+    [hv_balloon]'
+- component: Other
+  create_time: 20181009T12:39:00
+  id: 1111220
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181008] Steam client outdated / openQA test fails in steam'
 - component: Virtualization:Tools
   create_time: 20181009T06:58:00
   id: 1111155
