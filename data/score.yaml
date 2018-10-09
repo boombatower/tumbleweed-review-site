@@ -374,16 +374,16 @@
   score: 90
   stability_level: moderate
 '20180623':
-  score: 85
-  stability_level: moderate
+  score: 95
+  stability_level: stable
 '20180625':
-  score: 83
+  score: 87
   stability_level: moderate
 '20180626':
-  score: 82
+  score: 84
   stability_level: moderate
 '20180627':
-  score: 76
+  score: 77
   stability_level: moderate
 '20180628':
   score: 80
@@ -392,7 +392,7 @@
   score: 80
   stability_level: moderate
 '20180701':
-  score: 81
+  score: 82
   stability_level: moderate
 '20180702':
   score: 82
