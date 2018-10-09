@@ -8600,8 +8600,8 @@
 - component: GNOME
   create_time: 20180522T07:51:00
   id: 1094148
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[SLE-Classic] The "Applications" window floats far away from the menu
     bar.'
 '20180523':
@@ -13298,6 +13298,18 @@
   summary: '[Build 20180928] New widget for service configuration shows "Inacti" instead
     of "Inactive"'
 '20181004':
+- component: Virtualization:Tools
+  create_time: 20181009T06:58:00
+  id: 1111155
+  resolution: ''
+  status: NEW
+  summary: PowerPC LE port of TW does not run X11 under virtualisation
+- component: GNOME
+  create_time: 20181009T04:31:00
+  id: 1111135
+  resolution: ''
+  status: NEW
+  summary: Pitivi on Tumbleweed throwing severe errors and a missing soft dependency
 - component: Basesystem
   create_time: 20181008T11:33:00
   id: 1111047
