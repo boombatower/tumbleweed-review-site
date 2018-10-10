@@ -11203,8 +11203,8 @@
 - component: KDE Applications
   create_time: 20180726T07:01:00
   id: 1102693
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Minuet interface missing menus
 - component: High Availability
   create_time: 20180726T03:26:00
@@ -12452,8 +12452,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180913T14:18:00
   id: 1108322
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Artifact in blinking cursor when being prompt to enter root password (KDE-su)
 - component: Kernel
   create_time: 20180913T13:49:00
@@ -12849,8 +12849,8 @@
 - component: Cloud:Tools
   create_time: 20180921T12:55:00
   id: 1109303
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'aws s3 sync fails:  __init__() got an unexpected keyword argument ''ssl_context'''
 - component: Security
   create_time: 20180921T12:50:00
@@ -13298,6 +13298,31 @@
   summary: '[Build 20180928] New widget for service configuration shows "Inacti" instead
     of "Inactive"'
 '20181004':
+- component: GNOME
+  create_time: 20181010T19:26:00
+  id: 1111443
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181009] openQA test fails in sshxterm: Message about inactivity
+    does not disappear'
+- component: Cloud:Tools
+  create_time: 20181010T18:47:00
+  id: 1111441
+  resolution: ''
+  status: NEW
+  summary: Cloud-init opensuse tumbleweed Power
+- component: Installation
+  create_time: 20181010T18:43:00
+  id: 1111440
+  resolution: ''
+  status: NEW
+  summary: .treeinfo of Opensuse-Tumbleweed-ppc64le ISO
+- component: Patterns
+  create_time: 20181010T16:12:00
+  id: 1111426
+  resolution: FIXED
+  status: RESOLVED
+  summary: transactional server pattern too big
 - component: X11 Applications
   create_time: 20181010T15:22:00
   id: 1111422
@@ -13334,7 +13359,7 @@
   create_time: 20181010T09:37:00
   id: 1111342
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Backport fix for dnsmasq into Tumbleweed (add permission to open log files)
 - component: GNOME
   create_time: 20181010T08:03:00
