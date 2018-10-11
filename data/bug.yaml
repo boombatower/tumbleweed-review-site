@@ -12987,8 +12987,8 @@
 - component: Other
   create_time: 20180927T15:24:00
   id: 1110032
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: lollypop,pithos,mozo differ between architectures
 - component: Other
   create_time: 20180927T15:01:00
@@ -13366,6 +13366,12 @@
   status: RESOLVED
   summary: patterns-caasp-MicroOS change breaks rolling update
 '20181009':
+- component: Development
+  create_time: 20181011T20:21:00
+  id: 1111572
+  resolution: ''
+  status: NEW
+  summary: patch segfaults if it can't write *.orig
 - component: Basesystem
   create_time: 20181011T12:09:00
   id: 1111523
