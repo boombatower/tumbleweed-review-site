@@ -12397,8 +12397,8 @@
 - component: Development
   create_time: 20180910T18:19:00
   id: 1107893
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: after update to trac-1.2.3 - localization "de" not available anymore
 - component: KDE Workspace (Plasma)
   create_time: 20180910T16:32:00
@@ -13298,101 +13298,6 @@
   summary: '[Build 20180928] New widget for service configuration shows "Inacti" instead
     of "Inactive"'
 '20181004':
-- component: GNOME
-  create_time: 20181010T19:26:00
-  id: 1111443
-  resolution: ''
-  status: NEW
-  summary: '[Build 20181009] openQA test fails in sshxterm: Message about inactivity
-    does not disappear'
-- component: Cloud:Tools
-  create_time: 20181010T18:47:00
-  id: 1111441
-  resolution: ''
-  status: NEW
-  summary: Cloud-init opensuse tumbleweed Power
-- component: Installation
-  create_time: 20181010T18:43:00
-  id: 1111440
-  resolution: ''
-  status: NEW
-  summary: .treeinfo of Opensuse-Tumbleweed-ppc64le ISO
-- component: Patterns
-  create_time: 20181010T16:12:00
-  id: 1111426
-  resolution: FIXED
-  status: RESOLVED
-  summary: transactional server pattern too big
-- component: X11 Applications
-  create_time: 20181010T15:22:00
-  id: 1111422
-  resolution: ''
-  status: NEW
-  summary: '[Build 20181009] openQA test fails in vlc: Ctrl-n does not open medium
-    selection window'
-- component: KDE Workspace (Plasma)
-  create_time: 20181010T15:15:00
-  id: 1111420
-  resolution: ''
-  status: NEW
-  summary: krunner doesn't show results in some openQA tests
-- component: YaST2
-  create_time: 20181010T14:48:00
-  id: 1111414
-  resolution: ''
-  status: NEW
-  summary: snapper's background comparison makes the system unusable
-- component: Samba
-  create_time: 20181010T11:42:00
-  id: 1111373
-  resolution: ''
-  status: NEW
-  summary: 'INTERNAL ERROR: Signal 11 in pid 2026 (4.9.1-git.46.ff87d06baceSUSE-oS15.5-x86_64)'
-- component: Printing
-  create_time: 20181010T10:00:00
-  id: 1111351
-  resolution: ''
-  status: NEW
-  summary: At shutdown the cups service is waiting for remote printer services without
-    network
-- component: AppArmor
-  create_time: 20181010T09:37:00
-  id: 1111342
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Backport fix for dnsmasq into Tumbleweed (add permission to open log files)
-- component: GNOME
-  create_time: 20181010T08:03:00
-  id: 1111323
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'transmission-qt: try to load translations from app executable directory
-    which is /usr/bin on openSUSE'
-- component: Kernel
-  create_time: 20181009T12:39:00
-  id: 1111221
-  resolution: ''
-  status: NEW
-  summary: 'WARNING: CPU: 0 PID: 130 at drivers/hv/hv_balloon.c:1269 balloon_up+0x34a/0x360
-    [hv_balloon]'
-- component: Other
-  create_time: 20181009T12:39:00
-  id: 1111220
-  resolution: ''
-  status: NEW
-  summary: '[Build 20181008] Steam client outdated / openQA test fails in steam'
-- component: Virtualization:Tools
-  create_time: 20181009T06:58:00
-  id: 1111155
-  resolution: ''
-  status: NEW
-  summary: PowerPC LE port of TW does not run X11 under virtualisation
-- component: GNOME
-  create_time: 20181009T04:31:00
-  id: 1111135
-  resolution: ''
-  status: NEW
-  summary: Pitivi on Tumbleweed throwing severe errors and a missing soft dependency
 - component: Basesystem
   create_time: 20181008T11:33:00
   id: 1111047
@@ -13460,3 +13365,99 @@
   resolution: FIXED
   status: RESOLVED
   summary: patterns-caasp-MicroOS change breaks rolling update
+'20181009':
+- component: GNOME
+  create_time: 20181010T19:26:00
+  id: 1111443
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181009] openQA test fails in sshxterm: Message about inactivity
+    does not disappear'
+- component: Cloud:Tools
+  create_time: 20181010T18:47:00
+  id: 1111441
+  resolution: ''
+  status: NEW
+  summary: Cloud-init opensuse tumbleweed Power
+- component: Other
+  create_time: 20181010T18:43:00
+  id: 1111440
+  resolution: ''
+  status: NEW
+  summary: .treeinfo of Opensuse-Tumbleweed-ppc64le ISO
+- component: Patterns
+  create_time: 20181010T16:12:00
+  id: 1111426
+  resolution: FIXED
+  status: RESOLVED
+  summary: transactional server pattern too big
+- component: X11 Applications
+  create_time: 20181010T15:22:00
+  id: 1111422
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181009] openQA test fails in vlc: Ctrl-n does not open medium
+    selection window'
+- component: KDE Workspace (Plasma)
+  create_time: 20181010T15:15:00
+  id: 1111420
+  resolution: ''
+  status: NEW
+  summary: krunner doesn't show results in some openQA tests
+- component: Kernel
+  create_time: 20181010T14:48:00
+  id: 1111414
+  resolution: ''
+  status: NEW
+  summary: snapper's background comparison makes the system unusable
+- component: Samba
+  create_time: 20181010T11:42:00
+  id: 1111373
+  resolution: ''
+  status: NEW
+  summary: 'INTERNAL ERROR: Signal 11 in pid 2026 (4.9.1-git.46.ff87d06baceSUSE-oS15.5-x86_64)'
+- component: Printing
+  create_time: 20181010T10:00:00
+  id: 1111351
+  resolution: ''
+  status: NEW
+  summary: At shutdown the cups service is waiting for remote printer services without
+    network
+- component: AppArmor
+  create_time: 20181010T09:37:00
+  id: 1111342
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Backport fix for dnsmasq into Tumbleweed (add permission to open log files)
+- component: GNOME
+  create_time: 20181010T08:03:00
+  id: 1111323
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'transmission-qt: try to load translations from app executable directory
+    which is /usr/bin on openSUSE'
+- component: Kernel
+  create_time: 20181009T12:39:00
+  id: 1111221
+  resolution: ''
+  status: NEW
+  summary: 'WARNING: CPU: 0 PID: 130 at drivers/hv/hv_balloon.c:1269 balloon_up+0x34a/0x360
+    [hv_balloon]'
+- component: Other
+  create_time: 20181009T12:39:00
+  id: 1111220
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181008] Steam client outdated / openQA test fails in steam'
+- component: Virtualization:Tools
+  create_time: 20181009T06:58:00
+  id: 1111155
+  resolution: ''
+  status: NEW
+  summary: PowerPC LE port of TW does not run X11 under virtualisation
+- component: GNOME
+  create_time: 20181009T04:31:00
+  id: 1111135
+  resolution: ''
+  status: NEW
+  summary: Pitivi on Tumbleweed throwing severe errors and a missing soft dependency
