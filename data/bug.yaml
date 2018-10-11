@@ -10599,8 +10599,8 @@
 - component: Network
   create_time: 20180715T10:19:00
   id: 1101251
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: wpa_supplicant fails to use PEM files from network manager
 - component: KDE Workspace (Plasma)
   create_time: 20180715T09:45:00
@@ -12820,7 +12820,7 @@
   create_time: 20180921T22:31:00
   id: 1109367
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: Qt5 documentation packages are incomplete
 - component: Network
   create_time: 20180921T22:16:00
@@ -13263,8 +13263,8 @@
 - component: Kubic
   create_time: 20181002T13:54:00
   id: 1110456
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: rsyslog not logging most messages
 - component: Kernel
   create_time: 20181002T12:54:00
@@ -13366,6 +13366,13 @@
   status: RESOLVED
   summary: patterns-caasp-MicroOS change breaks rolling update
 '20181009':
+- component: Basesystem
+  create_time: 20181011T12:09:00
+  id: 1111523
+  resolution: ''
+  status: NEW
+  summary: Btrfs consume too much CPU resources and cause desktop freeze after zypper
+    dup
 - component: GNOME
   create_time: 20181010T19:26:00
   id: 1111443
