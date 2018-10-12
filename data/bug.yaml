@@ -12526,8 +12526,8 @@
 - component: Basesystem
   create_time: 20180911T09:13:00
   id: 1107973
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: perl fails to build with libxcrypt
 - component: YaST2
   create_time: 20180911T08:08:00
@@ -13369,8 +13369,8 @@
 - component: KDE Applications
   create_time: 20181012T08:08:00
   id: 1111606
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[Build 20181009] openQA test fails in kontact because of a fatal error:
     invalid parent'
 - component: Development
