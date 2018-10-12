@@ -146,8 +146,8 @@
 - component: Basesystem
   create_time: 20171204T14:50:00
   id: 1071076
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: usbguard should provide sample rules.conf file
 - component: Kernel
   create_time: 20171204T14:49:00
@@ -13366,6 +13366,13 @@
   status: RESOLVED
   summary: patterns-caasp-MicroOS change breaks rolling update
 '20181009':
+- component: KDE Applications
+  create_time: 20181012T08:08:00
+  id: 1111606
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181009] openQA test fails in kontact because of a fatal error:
+    invalid parent'
 - component: Development
   create_time: 20181011T20:21:00
   id: 1111572
