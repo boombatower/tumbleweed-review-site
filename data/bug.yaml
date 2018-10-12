@@ -12173,8 +12173,8 @@
 - component: Kernel
   create_time: 20180901T14:56:00
   id: 1106833
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: '"NETDEV WATCHDOG: enp2s0 (r8169): transmit queue 0 timed out" panic effectively
     takes network interface down'
 - component: Kernel
