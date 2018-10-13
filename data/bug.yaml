@@ -13366,6 +13366,48 @@
   status: RESOLVED
   summary: patterns-caasp-MicroOS change breaks rolling update
 '20181009':
+- component: Kernel
+  create_time: 20181013T07:40:00
+  id: 1111751
+  resolution: ''
+  status: NEW
+  summary: Driver has suspect GRO implementation
+- component: Other
+  create_time: 20181013T04:15:00
+  id: 1111744
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/xfsprogs'
+- component: Other
+  create_time: 20181013T04:14:00
+  id: 1111743
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/systemd'
+- component: Other
+  create_time: 20181013T04:13:00
+  id: 1111742
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/shim'
+- component: Other
+  create_time: 20181013T04:12:00
+  id: 1111741
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/rust'
+- component: Other
+  create_time: 20181013T04:11:00
+  id: 1111740
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/ruby'
+- component: Other
+  create_time: 20181013T04:09:00
+  id: 1111739
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/rpm'
 - component: Other
   create_time: 20181013T04:07:00
   id: 1111738
@@ -13411,8 +13453,8 @@
 - component: Other
   create_time: 20181013T03:54:00
   id: 1111731
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/krita'
 - component: Other
   create_time: 20181013T03:52:00
