@@ -8361,8 +8361,8 @@
 - component: KDE Applications
   create_time: 20180513T22:12:00
   id: 1093047
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kinfocenter crashes since Plasma 5.12.5
 - component: Kubic
   create_time: 20180513T12:18:00
@@ -13366,6 +13366,120 @@
   status: RESOLVED
   summary: patterns-caasp-MicroOS change breaks rolling update
 '20181009':
+- component: Other
+  create_time: 20181013T04:07:00
+  id: 1111738
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/php7'
+- component: Other
+  create_time: 20181013T04:06:00
+  id: 1111737
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/openssh'
+- component: Other
+  create_time: 20181013T04:01:00
+  id: 1111736
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/octave'
+- component: Other
+  create_time: 20181013T04:00:00
+  id: 1111735
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/mypaint'
+- component: Other
+  create_time: 20181013T03:59:00
+  id: 1111734
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/lvm'
+- component: Other
+  create_time: 20181013T03:57:00
+  id: 1111733
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/lighttpd'
+- component: Other
+  create_time: 20181013T03:56:00
+  id: 1111732
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/libselinux'
+- component: Other
+  create_time: 20181013T03:54:00
+  id: 1111731
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/krita'
+- component: Other
+  create_time: 20181013T03:52:00
+  id: 1111730
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/flatpak'
+- component: Other
+  create_time: 20181013T03:50:00
+  id: 1111729
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/file'
+- component: Other
+  create_time: 20181013T03:48:00
+  id: 1111728
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/efibootmgr'
+- component: Other
+  create_time: 20181013T03:47:00
+  id: 1111727
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/dnf'
+- component: Other
+  create_time: 20181013T03:45:00
+  id: 1111726
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/dhcp'
+- component: Other
+  create_time: 20181013T03:42:00
+  id: 1111725
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/cmake'
+- component: Other
+  create_time: 20181013T03:39:00
+  id: 1111724
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/busybox'
+- component: Other
+  create_time: 20181013T03:37:00
+  id: 1111723
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/binutils'
+- component: Other
+  create_time: 20181013T03:32:00
+  id: 1111722
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/bind'
+- component: Other
+  create_time: 20181013T03:31:00
+  id: 1111721
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/tomcat'
+- component: YaST2
+  create_time: 20181013T00:30:00
+  id: 1111720
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Sidebar styling resets when external module is loaded in YaST installation
 - component: KDE Applications
   create_time: 20181012T08:08:00
   id: 1111606
