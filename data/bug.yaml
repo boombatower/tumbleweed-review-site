@@ -13366,6 +13366,12 @@
   status: RESOLVED
   summary: patterns-caasp-MicroOS change breaks rolling update
 '20181009':
+- component: Network
+  create_time: 20181014T07:28:00
+  id: 1111761
+  resolution: ''
+  status: NEW
+  summary: NetworkManager-applet with mixed languages
 - component: YaST2
   create_time: 20181013T22:26:00
   id: 1111760
