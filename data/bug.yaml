@@ -235,8 +235,8 @@
 - component: Other
   create_time: 20171209T21:14:00
   id: 1072037
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: jupyter-kernelspec is missing
 - component: Firefox
   create_time: 20171209T20:17:00
@@ -3138,8 +3138,8 @@
 - component: Basesystem
   create_time: 20180205T06:53:00
   id: 1079286
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python-Markdown lacks dependency on python-setuptools
 - component: X11 Applications
   create_time: 20180205T04:14:00
@@ -5842,8 +5842,8 @@
 - component: Basesystem
   create_time: 20180316T13:46:00
   id: 1085661
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python-tornado fails to build on ppc64le
 - component: Basesystem
   create_time: 20180316T12:14:00
@@ -11848,8 +11848,8 @@
   id: 1105691
   resolution: ''
   status: NEW
-  summary: '[Build 20180820] openQA test fails in multi_users_dm - "appstreamcli"
-    core dumped'
+  summary: '[Build 20180820] many openQA tests fail on login into gnome session or
+    immediately afterwards - "appstreamcli" core dumped'
 - component: Other
   create_time: 20180822T17:40:00
   id: 1105669
@@ -12231,7 +12231,7 @@
   create_time: 20180904T13:27:00
   id: 1107103
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Requesting icons for KDE Plasma and PIM patterns
 - component: KDE Workspace (Plasma)
   create_time: 20180904T07:38:00
@@ -13197,7 +13197,7 @@
   create_time: 20181001T09:00:00
   id: 1110296
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Make YaST Control Center Qt look a little bit more modern
 - component: Development
   create_time: 20181001T08:48:00
@@ -13366,6 +13366,18 @@
   status: RESOLVED
   summary: patterns-caasp-MicroOS change breaks rolling update
 '20181009':
+- component: KDE Workspace (Plasma)
+  create_time: 20181014T18:36:00
+  id: 1111769
+  resolution: ''
+  status: NEW
+  summary: openSUSE plasma theme freezes plasma
+- component: Other
+  create_time: 20181014T17:05:00
+  id: 1111767
+  resolution: ''
+  status: NEW
+  summary: 'Atom editor dependency not found: libcurl.so.4(CURL_OPENSSL_3)(64bit)'
 - component: Network
   create_time: 20181014T07:28:00
   id: 1111761
