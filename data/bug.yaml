@@ -13367,6 +13367,12 @@
   summary: patterns-caasp-MicroOS change breaks rolling update
 '20181009':
 - component: YaST2
+  create_time: 20181013T22:26:00
+  id: 1111760
+  resolution: ''
+  status: NEW
+  summary: Allow for more in-depth descriptions of Roles
+- component: YaST2
   create_time: 20181013T20:22:00
   id: 1111759
   resolution: ''
