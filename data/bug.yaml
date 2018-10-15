@@ -7591,7 +7591,7 @@
   create_time: 20180426T14:47:00
   id: 1091097
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 9p kernel module(s) needed in kernel-default-base for kubic development
     environment
 - component: Other
@@ -7791,8 +7791,8 @@
 - component: Other
   create_time: 20180510T05:31:00
   id: 1092681
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: .repo file missing in Factory and Leap15.0 repos
 - component: Basesystem
   create_time: 20180509T14:56:00
@@ -8455,8 +8455,8 @@
 - component: Kubic
   create_time: 20180518T20:44:00
   id: 1093947
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: '[openQA] /etc/salt/minion.d/master.conf missing on Kubic worker installs'
 - component: Bootloader
   create_time: 20180518T10:39:00
@@ -9766,8 +9766,8 @@
 - component: Kubic
   create_time: 20180625T13:11:00
   id: 1099005
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Remove Partitioner from Kubic Installation
 - component: Kernel
   create_time: 20180625T11:41:00
@@ -10065,8 +10065,8 @@
 - component: Basesystem
   create_time: 20180706T14:16:00
   id: 1100417
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: NetworkManager as default for desktop system roles
 - component: Other
   create_time: 20180706T13:53:00
@@ -11531,8 +11531,8 @@
 - component: Kubic
   create_time: 20180814T15:28:00
   id: 1104821
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Make cri-o default for kubernetes on Kubic
 - component: Virtualization:Tools
   create_time: 20180814T15:20:00
@@ -11947,7 +11947,7 @@
   create_time: 20180820T11:36:00
   id: 1105335
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20180815] leap 15.0 installation is not listed when upgrading to
     TW (unless show all partitions checkbox is checked)'
 - component: Kernel
@@ -13115,8 +13115,8 @@
 - component: YaST2
   create_time: 20180929T22:08:00
   id: 1110241
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Make yast-theme hicolor use new Gnome Icon Guidelines
 - component: Installation
   create_time: 20180929T14:32:00
@@ -13218,7 +13218,7 @@
   resolution: ''
   status: NEW
   summary: twisted.internet.gireactor (python3-Twisted) requires pygtkcompat
-- component: Network
+- component: GNOME
   create_time: 20181003T23:05:00
   id: 1110668
   resolution: ''
@@ -13269,8 +13269,8 @@
 - component: Kernel
   create_time: 20181002T12:54:00
   id: 1110443
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Ethernet is broken on Raspberry Pi 3 B+
 - component: KDE Workspace (Plasma)
   create_time: 20181002T09:43:00
@@ -13366,211 +13366,6 @@
   status: RESOLVED
   summary: patterns-caasp-MicroOS change breaks rolling update
 '20181009':
-- component: KDE Workspace (Plasma)
-  create_time: 20181014T18:36:00
-  id: 1111769
-  resolution: ''
-  status: NEW
-  summary: openSUSE plasma theme freezes plasma
-- component: Other
-  create_time: 20181014T17:05:00
-  id: 1111767
-  resolution: ''
-  status: NEW
-  summary: 'Atom editor dependency not found: libcurl.so.4(CURL_OPENSSL_3)(64bit)'
-- component: Network
-  create_time: 20181014T07:28:00
-  id: 1111761
-  resolution: ''
-  status: NEW
-  summary: NetworkManager-applet with mixed languages
-- component: YaST2
-  create_time: 20181013T22:26:00
-  id: 1111760
-  resolution: ''
-  status: NEW
-  summary: Allow for more in-depth descriptions of Roles
-- component: YaST2
-  create_time: 20181013T20:22:00
-  id: 1111759
-  resolution: ''
-  status: NEW
-  summary: Images are pixelated in HiDPI in RichText
-- component: Other
-  create_time: 20181013T18:47:00
-  id: 1111757
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/gnutls'
-- component: Other
-  create_time: 20181013T18:00:00
-  id: 1111756
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/nfs-utils'
-- component: Kernel
-  create_time: 20181013T07:40:00
-  id: 1111751
-  resolution: ''
-  status: NEW
-  summary: Driver has suspect GRO implementation
-- component: Other
-  create_time: 20181013T04:15:00
-  id: 1111744
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/xfsprogs'
-- component: Other
-  create_time: 20181013T04:14:00
-  id: 1111743
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/systemd'
-- component: Other
-  create_time: 20181013T04:13:00
-  id: 1111742
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/shim'
-- component: Other
-  create_time: 20181013T04:12:00
-  id: 1111741
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/rust'
-- component: Other
-  create_time: 20181013T04:11:00
-  id: 1111740
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/ruby'
-- component: Other
-  create_time: 20181013T04:09:00
-  id: 1111739
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/rpm'
-- component: Other
-  create_time: 20181013T04:07:00
-  id: 1111738
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/php7'
-- component: Other
-  create_time: 20181013T04:06:00
-  id: 1111737
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/openssh'
-- component: Other
-  create_time: 20181013T04:01:00
-  id: 1111736
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/octave'
-- component: Other
-  create_time: 20181013T04:00:00
-  id: 1111735
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/mypaint'
-- component: Other
-  create_time: 20181013T03:59:00
-  id: 1111734
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/lvm'
-- component: Other
-  create_time: 20181013T03:57:00
-  id: 1111733
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/lighttpd'
-- component: Other
-  create_time: 20181013T03:56:00
-  id: 1111732
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/libselinux'
-- component: Other
-  create_time: 20181013T03:54:00
-  id: 1111731
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'Out of date package: openSUSE:Factory/krita'
-- component: Other
-  create_time: 20181013T03:52:00
-  id: 1111730
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/flatpak'
-- component: Other
-  create_time: 20181013T03:50:00
-  id: 1111729
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/file'
-- component: Other
-  create_time: 20181013T03:48:00
-  id: 1111728
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/efibootmgr'
-- component: Other
-  create_time: 20181013T03:47:00
-  id: 1111727
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/dnf'
-- component: Other
-  create_time: 20181013T03:45:00
-  id: 1111726
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/dhcp'
-- component: Other
-  create_time: 20181013T03:42:00
-  id: 1111725
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/cmake'
-- component: Other
-  create_time: 20181013T03:39:00
-  id: 1111724
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/busybox'
-- component: Other
-  create_time: 20181013T03:37:00
-  id: 1111723
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/binutils'
-- component: Other
-  create_time: 20181013T03:32:00
-  id: 1111722
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/bind'
-- component: Other
-  create_time: 20181013T03:31:00
-  id: 1111721
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/tomcat'
-- component: YaST2
-  create_time: 20181013T00:30:00
-  id: 1111720
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Sidebar styling resets when external module is loaded in YaST installation
-- component: KDE Applications
-  create_time: 20181012T08:08:00
-  id: 1111606
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: '[Build 20181009] openQA test fails in kontact because of a fatal error:
-    invalid parent'
 - component: Development
   create_time: 20181011T20:21:00
   id: 1111572
@@ -13679,3 +13474,258 @@
   resolution: ''
   status: NEW
   summary: Pitivi on Tumbleweed throwing severe errors and a missing soft dependency
+'20181012':
+- component: X11 Applications
+  create_time: 20181015T17:01:00
+  id: 1111906
+  resolution: ''
+  status: NEW
+  summary: Redshift unable to read config file - fopen permission denied
+- component: GNOME
+  create_time: 20181015T16:13:00
+  id: 1111898
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181012] openQA test fails in NM_wpa2_enterprise for ppc64le'
+- component: Kubic
+  create_time: 20181015T16:12:00
+  id: 1111897
+  resolution: ''
+  status: NEW
+  summary: transactional-update.service seems to run two instances of transactional-update
+- component: Network
+  create_time: 20181015T14:27:00
+  id: 1111873
+  resolution: ''
+  status: NEW
+  summary: wpa_supplicant missing eapol_test binary
+- component: Patterns
+  create_time: 20181015T14:11:00
+  id: 1111871
+  resolution: ''
+  status: NEW
+  summary: 'lxqt-powermanagement: battery not found, it requires upower (perhaps as
+    libkf5solid dependency)'
+- component: GNOME
+  create_time: 20181015T11:44:00
+  id: 1111842
+  resolution: ''
+  status: NEW
+  summary: Tilix does not launch CLI applications in Xfce
+- component: Network
+  create_time: 20181015T08:31:00
+  id: 1111796
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'urlwatch: missing dependency lxml'
+- component: Kubic
+  create_time: 20181015T07:21:00
+  id: 1111786
+  resolution: ''
+  status: NEW
+  summary: quit() tries to remove current snapshot
+- component: KDE Workspace (Plasma)
+  create_time: 20181014T18:36:00
+  id: 1111769
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: openSUSE plasma theme freezes plasma
+- component: Other
+  create_time: 20181014T17:05:00
+  id: 1111767
+  resolution: ''
+  status: NEW
+  summary: 'Atom editor dependency not found: libcurl.so.4(CURL_OPENSSL_3)(64bit)'
+- component: Network
+  create_time: 20181014T07:28:00
+  id: 1111761
+  resolution: ''
+  status: NEW
+  summary: NetworkManager-applet with mixed languages
+- component: YaST2
+  create_time: 20181013T22:26:00
+  id: 1111760
+  resolution: ''
+  status: CONFIRMED
+  summary: Allow for more in-depth descriptions of Roles
+- component: YaST2
+  create_time: 20181013T20:22:00
+  id: 1111759
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: Images are pixelated in HiDPI in RichText
+- component: Other
+  create_time: 20181013T18:47:00
+  id: 1111757
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Out of date package: openSUSE:Factory/gnutls'
+- component: Other
+  create_time: 20181013T18:00:00
+  id: 1111756
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/nfs-utils'
+- component: Kernel
+  create_time: 20181013T07:40:00
+  id: 1111751
+  resolution: ''
+  status: NEW
+  summary: Driver has suspect GRO implementation
+- component: Other
+  create_time: 20181013T04:15:00
+  id: 1111744
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/xfsprogs'
+- component: Other
+  create_time: 20181013T04:14:00
+  id: 1111743
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/systemd'
+- component: Other
+  create_time: 20181013T04:13:00
+  id: 1111742
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/shim'
+- component: Other
+  create_time: 20181013T04:12:00
+  id: 1111741
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/rust'
+- component: Other
+  create_time: 20181013T04:11:00
+  id: 1111740
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/ruby'
+- component: Other
+  create_time: 20181013T04:09:00
+  id: 1111739
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/rpm'
+- component: Other
+  create_time: 20181013T04:07:00
+  id: 1111738
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Out of date package: openSUSE:Factory/php7'
+- component: Other
+  create_time: 20181013T04:06:00
+  id: 1111737
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/openssh'
+- component: Other
+  create_time: 20181013T04:01:00
+  id: 1111736
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/octave'
+- component: Other
+  create_time: 20181013T04:00:00
+  id: 1111735
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/mypaint'
+- component: Other
+  create_time: 20181013T03:59:00
+  id: 1111734
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/lvm'
+- component: Other
+  create_time: 20181013T03:57:00
+  id: 1111733
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/lighttpd'
+- component: Other
+  create_time: 20181013T03:56:00
+  id: 1111732
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/libselinux'
+- component: Other
+  create_time: 20181013T03:54:00
+  id: 1111731
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Out of date package: openSUSE:Factory/krita'
+- component: Other
+  create_time: 20181013T03:52:00
+  id: 1111730
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/flatpak'
+- component: Other
+  create_time: 20181013T03:50:00
+  id: 1111729
+  resolution: FEATURE
+  status: RESOLVED
+  summary: 'Out of date package: openSUSE:Factory/file'
+- component: Other
+  create_time: 20181013T03:48:00
+  id: 1111728
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/efibootmgr'
+- component: Other
+  create_time: 20181013T03:47:00
+  id: 1111727
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/dnf'
+- component: Other
+  create_time: 20181013T03:45:00
+  id: 1111726
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/dhcp'
+- component: Other
+  create_time: 20181013T03:42:00
+  id: 1111725
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/cmake'
+- component: Other
+  create_time: 20181013T03:39:00
+  id: 1111724
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/busybox'
+- component: Other
+  create_time: 20181013T03:37:00
+  id: 1111723
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/binutils'
+- component: Other
+  create_time: 20181013T03:32:00
+  id: 1111722
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/bind'
+- component: Other
+  create_time: 20181013T03:31:00
+  id: 1111721
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/tomcat'
+- component: YaST2
+  create_time: 20181013T00:30:00
+  id: 1111720
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Sidebar styling resets when external module is loaded in YaST installation
+- component: KDE Applications
+  create_time: 20181012T08:08:00
+  id: 1111606
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20181009] openQA test fails in kontact because of a fatal error:
+    invalid parent'
