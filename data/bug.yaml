@@ -13475,6 +13475,19 @@
   status: NEW
   summary: Pitivi on Tumbleweed throwing severe errors and a missing soft dependency
 '20181012':
+- component: Other
+  create_time: 20181016T03:42:00
+  id: 1111951
+  resolution: ''
+  status: NEW
+  summary: 'multimedia:apps/mpd: Bug libfluidsynth1 is not available in Tumbleweed
+    repos'
+- component: Development
+  create_time: 20181016T03:40:00
+  id: 1111950
+  resolution: ''
+  status: NEW
+  summary: maildir-utils .elc varies between builds from parallelism
 - component: X11 Applications
   create_time: 20181015T17:01:00
   id: 1111906
