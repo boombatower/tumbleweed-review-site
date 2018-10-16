@@ -9310,8 +9310,8 @@
 - component: Kubic
   create_time: 20180614T09:26:00
   id: 1097625
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: chronyd not starting on admin nodes
 - component: Other
   create_time: 20180614T07:49:00
@@ -11846,8 +11846,8 @@
 - component: GNOME
   create_time: 20180822T20:09:00
   id: 1105691
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180820] many openQA tests fail on login into gnome session or
     immediately afterwards and even slow down KDE sessions - "appstreamcli" core dumped'
 - component: Other
@@ -13475,6 +13475,36 @@
   status: NEW
   summary: Pitivi on Tumbleweed throwing severe errors and a missing soft dependency
 '20181012':
+- component: Basesystem
+  create_time: 20181016T16:24:00
+  id: 1112047
+  resolution: ''
+  status: NEW
+  summary: sssd crashes on startup
+- component: YaST2
+  create_time: 20181016T15:42:00
+  id: 1112041
+  resolution: FIXED
+  status: RESOLVED
+  summary: Libyui-rake doesn't skip qrc data files
+- component: Other
+  create_time: 20181016T14:20:00
+  id: 1112026
+  resolution: ''
+  status: NEW
+  summary: wine-nine and wine-staging-nine must depend on Mesa-libd3d and Mesa-libd3d-32bit
+- component: Basesystem
+  create_time: 20181016T14:09:00
+  id: 1112024
+  resolution: ''
+  status: IN_PROGRESS
+  summary: logind does not properly recognize that a client is already inside a session
+- component: Security
+  create_time: 20181016T12:48:00
+  id: 1112008
+  resolution: ''
+  status: NEW
+  summary: firewalld reloads non-perm zone/interface mappings on reload
 - component: Other
   create_time: 20181016T09:13:00
   id: 1111977
