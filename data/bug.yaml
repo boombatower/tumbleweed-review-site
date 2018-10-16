@@ -11847,9 +11847,9 @@
   create_time: 20180822T20:09:00
   id: 1105691
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20180820] many openQA tests fail on login into gnome session or
-    immediately afterwards - "appstreamcli" core dumped'
+    immediately afterwards and even slow down KDE sessions - "appstreamcli" core dumped'
 - component: Other
   create_time: 20180822T17:40:00
   id: 1105669
@@ -13370,9 +13370,9 @@
   create_time: 20181011T20:21:00
   id: 1111572
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: patch segfaults if it can't write *.orig
-- component: Basesystem
+- component: Kernel
   create_time: 20181011T12:09:00
   id: 1111523
   resolution: ''
@@ -13476,6 +13476,19 @@
   summary: Pitivi on Tumbleweed throwing severe errors and a missing soft dependency
 '20181012':
 - component: Other
+  create_time: 20181016T09:13:00
+  id: 1111977
+  resolution: ''
+  status: NEW
+  summary: 'systemctl unmask packagekit.service: Failed to unmask unit: Connection
+    timed out'
+- component: Patterns
+  create_time: 20181016T06:29:00
+  id: 1111957
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 32bit firefox is not on the media
+- component: Other
   create_time: 20181016T03:42:00
   id: 1111951
   resolution: ''
@@ -13549,11 +13562,11 @@
   resolution: ''
   status: NEW
   summary: 'Atom editor dependency not found: libcurl.so.4(CURL_OPENSSL_3)(64bit)'
-- component: Network
+- component: KDE Workspace (Plasma)
   create_time: 20181014T07:28:00
   id: 1111761
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: NetworkManager-applet with mixed languages
 - component: YaST2
   create_time: 20181013T22:26:00
