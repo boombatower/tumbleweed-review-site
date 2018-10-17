@@ -12800,8 +12800,8 @@
 - component: Upgrade Problems
   create_time: 20180922T08:18:00
   id: 1109375
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: certbot upgrade requires another version of python2-acme
 - component: Other
   create_time: 20180922T06:55:00
@@ -13177,8 +13177,8 @@
 - component: YaST2
   create_time: 20180928T00:56:00
   id: 1110076
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Yast-Squid module requires Squid installed otherwise it crashes on startup
 '20181001':
 - component: KDE Workspace (Plasma)
@@ -13475,6 +13475,37 @@
   status: NEW
   summary: Pitivi on Tumbleweed throwing severe errors and a missing soft dependency
 '20181012':
+- component: Java
+  create_time: 20181017T14:13:00
+  id: 1112205
+  resolution: ''
+  status: NEW
+  summary: 'java: Japan changing to a new calendar era'
+- component: Development
+  create_time: 20181017T13:15:00
+  id: 1112189
+  resolution: ''
+  status: CONFIRMED
+  summary: interdiff leaves temporary files after quit
+- component: Other
+  create_time: 20181017T13:05:00
+  id: 1112186
+  resolution: ''
+  status: NEW
+  summary: Remmina out of date. Please update
+- component: Other
+  create_time: 20181017T12:49:00
+  id: 1112183
+  resolution: ''
+  status: NEW
+  summary: '[TRACKERBUG] Japan changing to a new calendar era'
+- component: Network
+  create_time: 20181017T11:26:00
+  id: 1112171
+  resolution: ''
+  status: NEW
+  summary: NetworkManager dumps core, restarts (partially) but doesn't bring network
+    back
 - component: High Availability
   create_time: 20181017T10:39:00
   id: 1112159
@@ -13510,8 +13541,8 @@
 - component: KDE Applications
   create_time: 20181017T00:17:00
   id: 1112078
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: boinc fails to start after last update
 - component: Basesystem
   create_time: 20181016T16:24:00
@@ -13534,8 +13565,8 @@
 - component: Basesystem
   create_time: 20181016T14:09:00
   id: 1112024
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: logind does not properly recognize that a client is already inside a session
 - component: Other
   create_time: 20181016T09:13:00
@@ -13790,7 +13821,7 @@
   create_time: 20181013T03:37:00
   id: 1111723
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'Out of date package: openSUSE:Factory/binutils'
 - component: Other
   create_time: 20181013T03:32:00
