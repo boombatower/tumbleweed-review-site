@@ -13475,6 +13475,38 @@
   status: NEW
   summary: Pitivi on Tumbleweed throwing severe errors and a missing soft dependency
 '20181012':
+- component: High Availability
+  create_time: 20181017T10:39:00
+  id: 1112159
+  resolution: ''
+  status: NEW
+  summary: hawk2 rpms differ between builds
+- component: High Availability
+  create_time: 20181017T10:31:00
+  id: 1112158
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: hawk2 rpms differ between builds
+- component: GNOME
+  create_time: 20181017T09:44:00
+  id: 1112138
+  resolution: ''
+  status: NEW
+  summary: X server crashes on GNOME Tumbleweed
+- component: Other
+  create_time: 20181017T07:28:00
+  id: 1112109
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181015] openQA test fails trying to write to serial device /dev/ttyS0
+    as root with "Input/output error" - agetty failed in background'
+- component: Kernel
+  create_time: 20181017T07:27:00
+  id: 1112108
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181015] openQA test fails trying to write to serial device /dev/ttyS0
+    as root with "Input/output error" - agetty failed in background'
 - component: KDE Applications
   create_time: 20181017T00:17:00
   id: 1112078
@@ -13505,12 +13537,6 @@
   resolution: ''
   status: IN_PROGRESS
   summary: logind does not properly recognize that a client is already inside a session
-- component: Security
-  create_time: 20181016T12:48:00
-  id: 1112008
-  resolution: ''
-  status: NEW
-  summary: firewalld reloads non-perm zone/interface mappings on reload
 - component: Other
   create_time: 20181016T09:13:00
   id: 1111977
@@ -13644,7 +13670,7 @@
   create_time: 20181013T04:14:00
   id: 1111743
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Out of date package: openSUSE:Factory/systemd'
 - component: Other
   create_time: 20181013T04:13:00
@@ -13667,8 +13693,8 @@
 - component: Other
   create_time: 20181013T04:09:00
   id: 1111739
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/rpm'
 - component: Other
   create_time: 20181013T04:07:00
@@ -13745,8 +13771,8 @@
 - component: Other
   create_time: 20181013T03:45:00
   id: 1111726
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/dhcp'
 - component: Other
   create_time: 20181013T03:42:00
