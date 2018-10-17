@@ -12887,8 +12887,8 @@
 - component: Virtualization:Tools
   create_time: 20180924T15:10:00
   id: 1109471
-  resolution: ''
-  status: CONFIRMED
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: VM hangs installling TW or Leap 15 on Intel Core 2 Duo
 - component: Development
   create_time: 20180924T15:04:00
@@ -13475,6 +13475,12 @@
   status: NEW
   summary: Pitivi on Tumbleweed throwing severe errors and a missing soft dependency
 '20181012':
+- component: KDE Applications
+  create_time: 20181017T00:17:00
+  id: 1112078
+  resolution: ''
+  status: NEW
+  summary: boinc fails to start after last update
 - component: Basesystem
   create_time: 20181016T16:24:00
   id: 1112047
