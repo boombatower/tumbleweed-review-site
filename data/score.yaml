@@ -530,5 +530,8 @@
   score: 97
   stability_level: stable
 '20181012':
-  score: 92
+  score: 95
+  stability_level: pending
+'20181015':
+  score: 95
   stability_level: pending
