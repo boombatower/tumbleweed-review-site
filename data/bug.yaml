@@ -1902,8 +1902,8 @@
 - component: Other
   create_time: 20180118T18:42:00
   id: 1076650
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'xtables-addons: no longer works after kernel update to 4.14.13-1-default'
 - component: Basesystem
   create_time: 20180118T18:11:00
@@ -5800,8 +5800,8 @@
 - component: Kernel
   create_time: 20180316T20:35:00
   id: 1085728
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'xtables-addons: missing symbols'
 - component: Sound
   create_time: 20180316T17:47:00
@@ -11116,7 +11116,7 @@
   create_time: 20180727T07:53:00
   id: 1102838
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20180726] VLC fails to play video (on LXDE)'
 - component: KDE Workspace (Plasma)
   create_time: 20180727T07:17:00
@@ -11228,8 +11228,8 @@
 - component: Other
   create_time: 20180802T11:35:00
   id: 1103561
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[HPC, slurmctld] slurmctld fails to start on boot when using a shared
     remote StateSaveLocation'
 - component: X11 Applications
@@ -12168,7 +12168,7 @@
   create_time: 20180901T15:43:00
   id: 1106834
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Snappy cannot perform readlinkat() on the mount namespace
 - component: Kernel
   create_time: 20180901T14:56:00
@@ -12806,8 +12806,8 @@
 - component: Other
   create_time: 20180922T06:55:00
   id: 1109373
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[HPC, slurm] slurm-node & slurm-config not setup right in %pre/%post scriptlets
     due to missing Requires(pre/post)'
 - component: KDE Applications
@@ -13475,174 +13475,6 @@
   status: NEW
   summary: Pitivi on Tumbleweed throwing severe errors and a missing soft dependency
 '20181012':
-- component: Java
-  create_time: 20181017T14:13:00
-  id: 1112205
-  resolution: ''
-  status: NEW
-  summary: 'java: Japan changing to a new calendar era'
-- component: Development
-  create_time: 20181017T13:15:00
-  id: 1112189
-  resolution: ''
-  status: CONFIRMED
-  summary: interdiff leaves temporary files after quit
-- component: Other
-  create_time: 20181017T13:05:00
-  id: 1112186
-  resolution: ''
-  status: NEW
-  summary: Remmina out of date. Please update
-- component: Other
-  create_time: 20181017T12:49:00
-  id: 1112183
-  resolution: ''
-  status: NEW
-  summary: '[TRACKERBUG] Japan changing to a new calendar era'
-- component: Network
-  create_time: 20181017T11:26:00
-  id: 1112171
-  resolution: ''
-  status: NEW
-  summary: NetworkManager dumps core, restarts (partially) but doesn't bring network
-    back
-- component: High Availability
-  create_time: 20181017T10:39:00
-  id: 1112159
-  resolution: ''
-  status: NEW
-  summary: hawk2 rpms differ between builds
-- component: High Availability
-  create_time: 20181017T10:31:00
-  id: 1112158
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: hawk2 rpms differ between builds
-- component: GNOME
-  create_time: 20181017T09:44:00
-  id: 1112138
-  resolution: ''
-  status: NEW
-  summary: X server crashes on GNOME Tumbleweed
-- component: Other
-  create_time: 20181017T07:28:00
-  id: 1112109
-  resolution: ''
-  status: NEW
-  summary: '[Build 20181015] openQA test fails trying to write to serial device /dev/ttyS0
-    as root with "Input/output error" - agetty failed in background'
-- component: Kernel
-  create_time: 20181017T07:27:00
-  id: 1112108
-  resolution: ''
-  status: NEW
-  summary: '[Build 20181015] openQA test fails trying to write to serial device /dev/ttyS0
-    as root with "Input/output error" - agetty failed in background'
-- component: KDE Applications
-  create_time: 20181017T00:17:00
-  id: 1112078
-  resolution: INVALID
-  status: RESOLVED
-  summary: boinc fails to start after last update
-- component: Basesystem
-  create_time: 20181016T16:24:00
-  id: 1112047
-  resolution: ''
-  status: NEW
-  summary: sssd crashes on startup
-- component: YaST2
-  create_time: 20181016T15:42:00
-  id: 1112041
-  resolution: FIXED
-  status: RESOLVED
-  summary: Libyui-rake doesn't skip qrc data files
-- component: Other
-  create_time: 20181016T14:20:00
-  id: 1112026
-  resolution: ''
-  status: NEW
-  summary: wine-nine and wine-staging-nine must depend on Mesa-libd3d and Mesa-libd3d-32bit
-- component: Basesystem
-  create_time: 20181016T14:09:00
-  id: 1112024
-  resolution: FIXED
-  status: RESOLVED
-  summary: logind does not properly recognize that a client is already inside a session
-- component: Other
-  create_time: 20181016T09:13:00
-  id: 1111977
-  resolution: ''
-  status: NEW
-  summary: 'systemctl unmask packagekit.service: Failed to unmask unit: Connection
-    timed out'
-- component: Patterns
-  create_time: 20181016T06:29:00
-  id: 1111957
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 32bit firefox is not on the media
-- component: Other
-  create_time: 20181016T03:42:00
-  id: 1111951
-  resolution: ''
-  status: NEW
-  summary: 'multimedia:apps/mpd: Bug libfluidsynth1 is not available in Tumbleweed
-    repos'
-- component: Development
-  create_time: 20181016T03:40:00
-  id: 1111950
-  resolution: ''
-  status: NEW
-  summary: maildir-utils .elc varies between builds from parallelism
-- component: X11 Applications
-  create_time: 20181015T17:01:00
-  id: 1111906
-  resolution: ''
-  status: NEW
-  summary: Redshift unable to read config file - fopen permission denied
-- component: GNOME
-  create_time: 20181015T16:13:00
-  id: 1111898
-  resolution: ''
-  status: NEW
-  summary: '[Build 20181012] openQA test fails in NM_wpa2_enterprise for ppc64le'
-- component: Kubic
-  create_time: 20181015T16:12:00
-  id: 1111897
-  resolution: ''
-  status: NEW
-  summary: transactional-update.service seems to run two instances of transactional-update
-- component: Network
-  create_time: 20181015T14:27:00
-  id: 1111873
-  resolution: ''
-  status: NEW
-  summary: wpa_supplicant missing eapol_test binary
-- component: Patterns
-  create_time: 20181015T14:11:00
-  id: 1111871
-  resolution: ''
-  status: NEW
-  summary: 'lxqt-powermanagement: battery not found, it requires upower (perhaps as
-    libkf5solid dependency)'
-- component: GNOME
-  create_time: 20181015T11:44:00
-  id: 1111842
-  resolution: ''
-  status: NEW
-  summary: Tilix does not launch CLI applications in Xfce
-- component: Network
-  create_time: 20181015T08:31:00
-  id: 1111796
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'urlwatch: missing dependency lxml'
-- component: Kubic
-  create_time: 20181015T07:21:00
-  id: 1111786
-  resolution: ''
-  status: NEW
-  summary: quit() tries to remove current snapshot
 - component: KDE Workspace (Plasma)
   create_time: 20181014T18:36:00
   id: 1111769
@@ -13658,8 +13490,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20181014T07:28:00
   id: 1111761
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: NetworkManager-applet with mixed languages
 - component: YaST2
   create_time: 20181013T22:26:00
@@ -13833,7 +13665,7 @@
   create_time: 20181013T03:31:00
   id: 1111721
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Out of date package: openSUSE:Factory/tomcat'
 - component: YaST2
   create_time: 20181013T00:30:00
@@ -13848,3 +13680,197 @@
   status: RESOLVED
   summary: '[Build 20181009] openQA test fails in kontact because of a fatal error:
     invalid parent'
+'20181015':
+- component: Kernel
+  create_time: 20181018T17:14:00
+  id: 1112464
+  resolution: ''
+  status: NEW
+  summary: after  20181015  and kernel 4.18.13-1-default nouveau fails to start secondary
+    screen on Nvidia quadro
+- component: YaST2
+  create_time: 20181018T13:42:00
+  id: 1112402
+  resolution: ''
+  status: CONFIRMED
+  summary: YaST partitioner UI feels slow (especially with RAIDs)
+- component: Development
+  create_time: 20181018T13:30:00
+  id: 1112389
+  resolution: ''
+  status: NEW
+  summary: GCC8 cannot build Libreoffice on ppc64
+- component: Basesystem
+  create_time: 20181018T12:13:00
+  id: 1112361
+  resolution: ''
+  status: NEW
+  summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
+- component: Java
+  create_time: 20181017T14:13:00
+  id: 1112205
+  resolution: ''
+  status: NEW
+  summary: 'java: Japan changing to a new calendar era'
+- component: Development
+  create_time: 20181017T13:15:00
+  id: 1112189
+  resolution: ''
+  status: CONFIRMED
+  summary: interdiff leaves temporary files after quit
+- component: Other
+  create_time: 20181017T13:05:00
+  id: 1112186
+  resolution: ''
+  status: NEW
+  summary: Remmina out of date. Please update
+- component: Other
+  create_time: 20181017T12:49:00
+  id: 1112183
+  resolution: ''
+  status: NEW
+  summary: '[TRACKERBUG] Japan changing to a new calendar era'
+- component: Network
+  create_time: 20181017T11:26:00
+  id: 1112171
+  resolution: ''
+  status: NEW
+  summary: NetworkManager dumps core, restarts (partially) but doesn't bring network
+    back
+- component: High Availability
+  create_time: 20181017T10:39:00
+  id: 1112159
+  resolution: ''
+  status: NEW
+  summary: hawk2 rpms differ between builds
+- component: High Availability
+  create_time: 20181017T10:31:00
+  id: 1112158
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: hawk2 rpms differ between builds
+- component: GNOME
+  create_time: 20181017T09:44:00
+  id: 1112138
+  resolution: ''
+  status: NEW
+  summary: X server crashes on GNOME Tumbleweed
+- component: Other
+  create_time: 20181017T07:28:00
+  id: 1112109
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181015] openQA test fails trying to write to serial device /dev/ttyS0
+    as root with "Input/output error" - agetty failed in background'
+- component: Kernel
+  create_time: 20181017T07:27:00
+  id: 1112108
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181015] openQA test fails trying to write to serial device /dev/ttyS0
+    as root with "Input/output error" - agetty failed in background'
+- component: KDE Applications
+  create_time: 20181017T00:17:00
+  id: 1112078
+  resolution: INVALID
+  status: RESOLVED
+  summary: boinc fails to start after last update
+- component: Basesystem
+  create_time: 20181016T16:24:00
+  id: 1112047
+  resolution: ''
+  status: NEW
+  summary: sssd crashes on startup
+- component: YaST2
+  create_time: 20181016T15:42:00
+  id: 1112041
+  resolution: FIXED
+  status: RESOLVED
+  summary: Libyui-rake doesn't skip qrc data files
+- component: Other
+  create_time: 20181016T14:20:00
+  id: 1112026
+  resolution: ''
+  status: NEW
+  summary: wine-nine and wine-staging-nine must depend on Mesa-libd3d and Mesa-libd3d-32bit
+- component: Basesystem
+  create_time: 20181016T14:09:00
+  id: 1112024
+  resolution: FIXED
+  status: RESOLVED
+  summary: logind does not properly recognize that a client is already inside a session
+- component: Other
+  create_time: 20181016T09:13:00
+  id: 1111977
+  resolution: ''
+  status: NEW
+  summary: 'systemctl unmask packagekit.service: Failed to unmask unit: Connection
+    timed out'
+- component: Patterns
+  create_time: 20181016T06:29:00
+  id: 1111957
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 32bit firefox is not on the media
+- component: Other
+  create_time: 20181016T03:42:00
+  id: 1111951
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'multimedia:apps/mpd: Bug libfluidsynth1 is not available in Tumbleweed
+    repos'
+- component: Development
+  create_time: 20181016T03:40:00
+  id: 1111950
+  resolution: ''
+  status: NEW
+  summary: maildir-utils .elc varies between builds from parallelism
+- component: X11 Applications
+  create_time: 20181015T17:01:00
+  id: 1111906
+  resolution: FIXED
+  status: RESOLVED
+  summary: Redshift unable to read config file - fopen permission denied
+- component: GNOME
+  create_time: 20181015T16:13:00
+  id: 1111898
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181012] openQA test fails in NM_wpa2_enterprise for ppc64le'
+- component: Kubic
+  create_time: 20181015T16:12:00
+  id: 1111897
+  resolution: ''
+  status: NEW
+  summary: transactional-update.service seems to run two instances of transactional-update
+- component: Network
+  create_time: 20181015T14:27:00
+  id: 1111873
+  resolution: ''
+  status: NEW
+  summary: wpa_supplicant missing eapol_test binary
+- component: Patterns
+  create_time: 20181015T14:11:00
+  id: 1111871
+  resolution: ''
+  status: NEW
+  summary: 'lxqt-powermanagement: battery not found, it requires upower (perhaps as
+    libkf5solid dependency)'
+- component: GNOME
+  create_time: 20181015T11:44:00
+  id: 1111842
+  resolution: ''
+  status: NEW
+  summary: Tilix does not launch CLI applications in Xfce
+- component: Network
+  create_time: 20181015T08:31:00
+  id: 1111796
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'urlwatch: missing dependency lxml'
+- component: Kubic
+  create_time: 20181015T07:21:00
+  id: 1111786
+  resolution: ''
+  status: NEW
+  summary: quit() tries to remove current snapshot
