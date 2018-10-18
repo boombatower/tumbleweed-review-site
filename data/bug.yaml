@@ -13184,8 +13184,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20181001T19:16:00
   id: 1110382
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: sddm can not start plasma with Xserver but only with Wayland
 - component: Development
   create_time: 20181001T13:33:00
