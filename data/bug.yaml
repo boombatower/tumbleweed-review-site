@@ -4406,8 +4406,8 @@
 - component: Basesystem
   create_time: 20180221T09:15:00
   id: 1081947
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: PAM module pam_keyinit is still not integrated in the SUSE PAM stack
 - component: Basesystem
   create_time: 20180221T09:02:00
@@ -7045,8 +7045,8 @@
 - component: KDE Applications
   create_time: 20180412T07:11:00
   id: 1089287
-  resolution: ''
-  status: REOPENED
+  resolution: INVALID
+  status: RESOLVED
   summary: sddm default configuration misses -keeptty option for X server
 - component: Samba
   create_time: 20180412T06:24:00
@@ -13681,6 +13681,12 @@
   summary: '[Build 20181009] openQA test fails in kontact because of a fatal error:
     invalid parent'
 '20181015':
+- component: libzypp
+  create_time: 20181019T13:45:00
+  id: 1112558
+  resolution: ''
+  status: NEW
+  summary: '''openSUSE-Tumbleweed-Update'' repo not refreshed TW 20181018 ppc64le'
 - component: KDE Applications
   create_time: 20181019T09:35:00
   id: 1112537
@@ -13724,11 +13730,11 @@
   status: NEW
   summary: python3-jupyter_ipython incompatible with current python3-prompt_toolkit
     2.0.6
-- component: Kernel
+- component: X.Org
   create_time: 20181018T17:14:00
   id: 1112464
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: after  20181015  and kernel 4.18.13-1-default nouveau fails to start secondary
     screen on Nvidia quadro
 - component: YaST2
