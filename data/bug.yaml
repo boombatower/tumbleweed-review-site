@@ -11073,8 +11073,8 @@
 - component: Network
   create_time: 20180727T16:22:00
   id: 1102926
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: openssh 7.7p1 is not opening a tunnel, bug known and fixed upstream
 - component: Other
   create_time: 20180727T15:13:00
@@ -13681,6 +13681,18 @@
   summary: '[Build 20181009] openQA test fails in kontact because of a fatal error:
     invalid parent'
 '20181015':
+- component: KDE Applications
+  create_time: 20181019T09:35:00
+  id: 1112537
+  resolution: ''
+  status: NEW
+  summary: Dependency Missing for VLC
+- component: Network
+  create_time: 20181019T06:56:00
+  id: 1112520
+  resolution: ''
+  status: NEW
+  summary: NetworkManager 1.12.2 crashes quite often
 - component: Other
   create_time: 20181019T01:30:00
   id: 1112508
@@ -13702,8 +13714,8 @@
 - component: Other
   create_time: 20181019T00:28:00
   id: 1112503
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/virtualbox'
 - component: Other
   create_time: 20181018T21:01:00
@@ -13833,8 +13845,8 @@
 - component: Other
   create_time: 20181016T09:13:00
   id: 1111977
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'systemctl unmask packagekit.service: Failed to unmask unit: Connection
     timed out'
 - component: Patterns
