@@ -13184,8 +13184,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20181001T19:16:00
   id: 1110382
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: sddm can not start plasma with Xserver but only with Wayland
 - component: Development
   create_time: 20181001T13:33:00
@@ -13681,6 +13681,37 @@
   summary: '[Build 20181009] openQA test fails in kontact because of a fatal error:
     invalid parent'
 '20181015':
+- component: Other
+  create_time: 20181019T01:30:00
+  id: 1112508
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/pam is out of date'
+- component: Other
+  create_time: 20181019T00:39:00
+  id: 1112506
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/traceroute'
+- component: Other
+  create_time: 20181019T00:36:00
+  id: 1112505
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/dracut'
+- component: Other
+  create_time: 20181019T00:28:00
+  id: 1112503
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/virtualbox'
+- component: Other
+  create_time: 20181018T21:01:00
+  id: 1112490
+  resolution: ''
+  status: NEW
+  summary: python3-jupyter_ipython incompatible with current python3-prompt_toolkit
+    2.0.6
 - component: Kernel
   create_time: 20181018T17:14:00
   id: 1112464
