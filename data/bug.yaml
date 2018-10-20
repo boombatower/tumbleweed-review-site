@@ -13681,6 +13681,20 @@
   summary: '[Build 20181009] openQA test fails in kontact because of a fatal error:
     invalid parent'
 '20181015':
+- component: Samba
+  create_time: 20181020T12:01:00
+  id: 1112618
+  resolution: ''
+  status: NEW
+  summary: SAMBA not starting
+- component: GNOME
+  create_time: 20181020T10:20:00
+  id: 1112616
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181018] openQA test fails in evolution showing a notice about
+    "Automatic suspend" pending due to inactivity while the machine is being used
+    actively'
 - component: libzypp
   create_time: 20181019T13:45:00
   id: 1112558
