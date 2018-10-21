@@ -13682,6 +13682,20 @@
   summary: '[Build 20181009] openQA test fails in kontact because of a fatal error:
     invalid parent'
 '20181015':
+- component: KDE Workspace (Plasma)
+  create_time: 20181021T10:08:00
+  id: 1112641
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181018] openQA test fails in kate - ksmserver stuck or crashed,
+    stack trace available'
+- component: GNOME
+  create_time: 20181021T09:35:00
+  id: 1112639
+  resolution: ''
+  status: NEW
+  summary: 'Python2/Glade crashes with glade file of green-recorder: gtkstyleproviderprivate.c:
+    No such file or directory.'
 - component: Basesystem
   create_time: 20181020T21:05:00
   id: 1112636
