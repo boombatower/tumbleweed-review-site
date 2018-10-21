@@ -3647,8 +3647,8 @@
 - component: Kernel
   create_time: 20180211T03:57:00
   id: 1080452
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Broadcom chipset 43228 intermittently disconnecting
 - component: Kernel
   create_time: 20180211T01:24:00
