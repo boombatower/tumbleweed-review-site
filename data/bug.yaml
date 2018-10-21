@@ -13682,6 +13682,19 @@
   summary: '[Build 20181009] openQA test fails in kontact because of a fatal error:
     invalid parent'
 '20181015':
+- component: Security
+  create_time: 20181021T16:20:00
+  id: 1112649
+  resolution: ''
+  status: NEW
+  summary: openssh 7.8p1 (network repo) - authentication failure pubkey (audit.patch
+    to blame?)
+- component: KVM
+  create_time: 20181021T14:26:00
+  id: 1112646
+  resolution: ''
+  status: NEW
+  summary: ksm.service start through qemu-ksm fails
 - component: KDE Workspace (Plasma)
   create_time: 20181021T10:08:00
   id: 1112641
