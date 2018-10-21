@@ -13682,6 +13682,19 @@
   summary: '[Build 20181009] openQA test fails in kontact because of a fatal error:
     invalid parent'
 '20181015':
+- component: Basesystem
+  create_time: 20181020T21:05:00
+  id: 1112636
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181015] systemd-udevd crashed two times in openQA test on aarch64'
+- component: Other
+  create_time: 20181020T20:57:00
+  id: 1112635
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181015] openQA test fails in gnucash, the gnome desktop runner
+    reports "gnucash" is not found but `which` reports /usr/bin/gnucash'
 - component: X.Org
   create_time: 20181020T20:10:00
   id: 1112634
@@ -13796,8 +13809,8 @@
 - component: Other
   create_time: 20181018T21:01:00
   id: 1112490
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python3-jupyter_ipython incompatible with current python3-prompt_toolkit
     2.0.6
 - component: X.Org
