@@ -7666,8 +7666,8 @@
 - component: Translations
   create_time: 20180427T09:16:00
   id: 1091185
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: weblate uses different formatting than gettext
 - component: Samba
   create_time: 20180427T08:10:00
@@ -13682,6 +13682,24 @@
   summary: '[Build 20181009] openQA test fails in kontact because of a fatal error:
     invalid parent'
 '20181015':
+- component: Basesystem
+  create_time: 20181022T12:46:00
+  id: 1112755
+  resolution: ''
+  status: CONFIRMED
+  summary: 'dmidecode: Fix Redfish Hostname print length'
+- component: Virtualization:Tools
+  create_time: 20181022T11:32:00
+  id: 1112729
+  resolution: ''
+  status: NEW
+  summary: virt-install requires python3-six
+- component: Development
+  create_time: 20181022T08:43:00
+  id: 1112690
+  resolution: ''
+  status: NEW
+  summary: 'gcc8: ASAN backtrace contain only hexadecimal offsets'
 - component: Other
   create_time: 20181022T05:36:00
   id: 1112662
@@ -13743,8 +13761,8 @@
 - component: Basesystem
   create_time: 20181020T21:05:00
   id: 1112636
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: '[Build 20181015] systemd-udevd crashed two times in openQA test on aarch64'
 - component: Other
   create_time: 20181020T20:57:00
@@ -13787,8 +13805,8 @@
 - component: Other
   create_time: 20181020T19:53:00
   id: 1112629
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/thttpd'
 - component: Other
   create_time: 20181020T19:45:00
@@ -13881,8 +13899,8 @@
 - component: YaST2
   create_time: 20181018T13:42:00
   id: 1112402
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: YaST partitioner UI feels slow (especially with RAIDs)
 - component: Development
   create_time: 20181018T13:30:00
