@@ -10877,8 +10877,8 @@
 - component: Other
   create_time: 20180724T16:40:00
   id: 1102454
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180723] openQA test fails in keymap_or_locale ppc64 (BE) with
     minimalx desktop'
 - component: Development
@@ -12726,7 +12726,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: fails to call firewall-offline-cmd in the installation
-- component: Basesystem
+- component: Kernel
   create_time: 20180917T08:55:00
   id: 1108623
   resolution: ''
@@ -12739,7 +12739,7 @@
   status: NEW
   summary: NetworkManager dumped core in nm_connectivity_check_start
 '20180919':
-- component: Basesystem
+- component: Kernel
   create_time: 20180919T18:15:00
   id: 1109029
   resolution: ''
@@ -12888,7 +12888,7 @@
   create_time: 20180924T15:10:00
   id: 1109471
   resolution: UPSTREAM
-  status: RESOLVED
+  status: VERIFIED
   summary: VM hangs installling TW or Leap 15 on Intel Core 2 Duo
 - component: Development
   create_time: 20180924T15:04:00
@@ -13545,8 +13545,8 @@
 - component: Other
   create_time: 20181013T04:12:00
   id: 1111741
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/rust'
 - component: Other
   create_time: 20181013T04:11:00
@@ -13848,9 +13848,47 @@
   create_time: 20181015T07:21:00
   id: 1111786
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: quit() tries to remove current snapshot
 '20181018':
+- component: Other
+  create_time: 20181023T12:42:00
+  id: 1112920
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181022] openQA test fails in start_install as plasma5-desktop
+    package not built for ppc64 (BE)'
+- component: Basesystem
+  create_time: 20181023T11:15:00
+  id: 1112897
+  resolution: ''
+  status: NEW
+  summary: rpm fails to extra debug and compress debug info with dwz
+- component: Patterns
+  create_time: 20181023T10:37:00
+  id: 1112889
+  resolution: ''
+  status: NEW
+  summary: Xfce Pattern Suggestion/Changes
+- component: GNOME
+  create_time: 20181023T07:50:00
+  id: 1112853
+  resolution: ''
+  status: NEW
+  summary: gnome-shell under wayland high cpu utilization
+- component: Basesystem
+  create_time: 20181023T07:33:00
+  id: 1112849
+  resolution: ''
+  status: NEW
+  summary: Throbber animation in openSUSE plymouth theme has suboptimal amount of
+    frames
+- component: Other
+  create_time: 20181023T07:09:00
+  id: 1112844
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/quagga'
 - component: Other
   create_time: 20181023T01:49:00
   id: 1112830
@@ -13902,8 +13940,8 @@
 - component: Other
   create_time: 20181022T05:36:00
   id: 1112662
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/opera'
 - component: Other
   create_time: 20181022T05:34:00
@@ -13914,8 +13952,8 @@
 - component: Other
   create_time: 20181022T05:32:00
   id: 1112660
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/at'
 - component: Other
   create_time: 20181022T00:09:00
@@ -14028,8 +14066,8 @@
 - component: Samba
   create_time: 20181020T12:01:00
   id: 1112618
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: SAMBA not starting
 - component: GNOME
   create_time: 20181020T10:20:00
@@ -14045,7 +14083,7 @@
   resolution: INVALID
   status: RESOLVED
   summary: '''openSUSE-Tumbleweed-Update'' repo not refreshed TW 20181018 ppc64le'
-- component: KDE Applications
+- component: X11 Applications
   create_time: 20181019T09:35:00
   id: 1112537
   resolution: ''
@@ -14060,8 +14098,8 @@
 - component: Other
   create_time: 20181019T01:30:00
   id: 1112508
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/pam is out of date'
 - component: Other
   create_time: 20181019T00:39:00
