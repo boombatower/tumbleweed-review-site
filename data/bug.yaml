@@ -13852,6 +13852,18 @@
   summary: quit() tries to remove current snapshot
 '20181018':
 - component: Other
+  create_time: 20181023T01:49:00
+  id: 1112830
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/stunnel'
+- component: GNOME
+  create_time: 20181022T21:57:00
+  id: 1112824
+  resolution: ''
+  status: NEW
+  summary: Severe Performance Degradation with update to latest tumbleweed (20181018)
+- component: Other
   create_time: 20181022T20:22:00
   id: 1112817
   resolution: ''
