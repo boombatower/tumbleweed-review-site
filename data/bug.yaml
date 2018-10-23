@@ -1747,8 +1747,8 @@
 - component: GNOME
   create_time: 20180110T14:02:00
   id: 1075384
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Flatpak prompts for root password at random times to update repos
 - component: Firefox
   create_time: 20180110T13:21:00
@@ -9433,7 +9433,7 @@
   create_time: 20180615T15:24:00
   id: 1097867
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: transactional-update needs a minimum version of rsync, but misses requires
 - component: LXDE
   create_time: 20180615T13:24:00
@@ -12730,7 +12730,7 @@
   create_time: 20180917T08:55:00
   id: 1108623
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: iSCSI initiator delays boot for ~2 mins
 - component: GNOME
   create_time: 20180917T08:47:00
@@ -13851,7 +13851,19 @@
   status: IN_PROGRESS
   summary: quit() tries to remove current snapshot
 '20181018':
-- component: Other
+- component: YaST2
+  create_time: 20181023T20:17:00
+  id: 1112973
+  resolution: ''
+  status: NEW
+  summary: Cant't start yast2 from menu
+- component: LXDE
+  create_time: 20181023T16:03:00
+  id: 1112961
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Use nicer icon theme for LXQt
+- component: KDE Workspace (Plasma)
   create_time: 20181023T12:42:00
   id: 1112920
   resolution: ''
@@ -13916,8 +13928,8 @@
 - component: KDE Applications
   create_time: 20181022T15:15:00
   id: 1112782
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Amarok does not go up - missing library
 - component: Basesystem
   create_time: 20181022T12:46:00
@@ -13934,8 +13946,8 @@
 - component: Development
   create_time: 20181022T08:43:00
   id: 1112690
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'gcc8: ASAN backtrace contain only hexadecimal offsets'
 - component: Other
   create_time: 20181022T05:36:00
