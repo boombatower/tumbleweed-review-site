@@ -13851,6 +13851,55 @@
   status: IN_PROGRESS
   summary: quit() tries to remove current snapshot
 '20181018':
+- component: Other
+  create_time: 20181024T04:04:00
+  id: 1113007
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/tripwire'
+- component: Other
+  create_time: 20181024T03:55:00
+  id: 1113006
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/sbc'
+- component: Other
+  create_time: 20181024T03:46:00
+  id: 1113005
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/autofs'
+- component: Other
+  create_time: 20181024T03:34:00
+  id: 1113003
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/syslinux'
+- component: Other
+  create_time: 20181024T03:31:00
+  id: 1113002
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/rpcbind'
+- component: Other
+  create_time: 20181024T03:27:00
+  id: 1113001
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/lmms'
+- component: Other
+  create_time: 20181024T03:24:00
+  id: 1113000
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/gitg'
+- component: GNOME
+  create_time: 20181024T02:58:00
+  id: 1112998
+  resolution: ''
+  status: NEW
+  summary: 'ibus-libpinyin: emoji come to the candidate lists if it was switched to
+    the traditional input method'
 - component: Basesystem
   create_time: 20181023T23:12:00
   id: 1112991
