@@ -9736,8 +9736,8 @@
 - component: Security
   create_time: 20180625T19:15:00
   id: 1099051
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: rkhunter hashes not updated
 - component: Other
   create_time: 20180625T19:13:00
@@ -14042,6 +14042,30 @@
   status: NEW
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
+- component: Basesystem
+  create_time: 20181024T21:18:00
+  id: 1113188
+  resolution: ''
+  status: NEW
+  summary: sync numlock-on path across packages
+- component: Installation
+  create_time: 20181024T18:23:00
+  id: 1113164
+  resolution: ''
+  status: NEW
+  summary: Installation media is missing fonts from yast-theme
+- component: Other
+  create_time: 20181024T17:58:00
+  id: 1113163
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/xmlgraphics-fop is out of date'
+- component: Basesystem
+  create_time: 20181024T17:57:00
+  id: 1113162
+  resolution: ''
+  status: NEW
+  summary: Updating Kernel in Tumbleweed creates additional folders in root
 - component: Other
   create_time: 20181024T16:21:00
   id: 1113151
@@ -14105,8 +14129,8 @@
 - component: Apache
   create_time: 20181024T14:40:00
   id: 1113123
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: VERIFIED
   summary: Apache2 does no longer load mod_php7 after the last patch update
 - component: Firefox
   create_time: 20181024T14:32:00
