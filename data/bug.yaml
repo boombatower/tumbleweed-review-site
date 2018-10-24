@@ -13172,7 +13172,7 @@
   create_time: 20180928T06:29:00
   id: 1110090
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20180926] GNOME Music fails to start in upgrade scenarios'
 - component: YaST2
   create_time: 20180928T00:56:00
@@ -13852,6 +13852,287 @@
   summary: quit() tries to remove current snapshot
 '20181018':
 - component: Basesystem
+  create_time: 20181021T20:52:00
+  id: 1112653
+  resolution: ''
+  status: NEW
+  summary: Bash's system-wide startup file for interactive shells overwrites history
+    control variables
+- component: Security
+  create_time: 20181021T16:20:00
+  id: 1112649
+  resolution: ''
+  status: NEW
+  summary: openssh 7.8p1 (network repo) - authentication failure pubkey (audit.patch
+    to blame?)
+- component: KVM
+  create_time: 20181021T14:26:00
+  id: 1112646
+  resolution: ''
+  status: NEW
+  summary: ksm.service start through qemu-ksm fails
+- component: KDE Workspace (Plasma)
+  create_time: 20181021T10:08:00
+  id: 1112641
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181018] openQA test fails in kate - ksmserver stuck or crashed,
+    stack trace available'
+- component: GNOME
+  create_time: 20181021T09:35:00
+  id: 1112639
+  resolution: ''
+  status: NEW
+  summary: 'Python2/Glade crashes with glade file of green-recorder: gtkstyleproviderprivate.c:
+    No such file or directory.'
+- component: Basesystem
+  create_time: 20181020T21:05:00
+  id: 1112636
+  resolution: INVALID
+  status: RESOLVED
+  summary: '[Build 20181015] systemd-udevd crashed two times in openQA test on aarch64'
+- component: Other
+  create_time: 20181020T20:57:00
+  id: 1112635
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181015] openQA test fails in gnucash, the gnome desktop runner
+    reports "gnucash" is not found but `which` reports /usr/bin/gnucash'
+- component: X.Org
+  create_time: 20181020T20:10:00
+  id: 1112634
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20181018] openQA test fails in gnucash - the X.Org server crashed
+    with segfault'
+- component: Other
+  create_time: 20181020T20:03:00
+  id: 1112633
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/sawfish is out of date'
+- component: Other
+  create_time: 20181020T19:59:00
+  id: 1112632
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/firebird'
+- component: Other
+  create_time: 20181020T19:55:00
+  id: 1112631
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/alacritty is out of date'
+- component: Other
+  create_time: 20181020T19:54:00
+  id: 1112630
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/joe'
+- component: Other
+  create_time: 20181020T19:53:00
+  id: 1112629
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Out of date package: openSUSE:Factory/thttpd'
+- component: Other
+  create_time: 20181020T19:45:00
+  id: 1112628
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/cdrdao'
+- component: Other
+  create_time: 20181020T19:42:00
+  id: 1112627
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'Out of date package: openSUSE:Factory/sysvinit'
+- component: Other
+  create_time: 20181020T19:40:00
+  id: 1112626
+  resolution: FEATURE
+  status: RESOLVED
+  summary: 'Out of date package: openSUSE:Factory/file'
+- component: Samba
+  create_time: 20181020T12:01:00
+  id: 1112618
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: SAMBA not starting
+- component: GNOME
+  create_time: 20181020T10:20:00
+  id: 1112616
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20181018] openQA test fails in evolution showing a notice about
+    "Automatic suspend" pending due to inactivity while the machine is being used
+    actively'
+- component: libzypp
+  create_time: 20181019T13:45:00
+  id: 1112558
+  resolution: INVALID
+  status: RESOLVED
+  summary: '''openSUSE-Tumbleweed-Update'' repo not refreshed TW 20181018 ppc64le'
+- component: X11 Applications
+  create_time: 20181019T09:35:00
+  id: 1112537
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Dependency Missing for VLC
+- component: Network
+  create_time: 20181019T06:56:00
+  id: 1112520
+  resolution: ''
+  status: NEW
+  summary: NetworkManager 1.12.2 crashes quite often
+- component: Other
+  create_time: 20181019T01:30:00
+  id: 1112508
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Out of date package: openSUSE:Factory/pam is out of date'
+- component: Other
+  create_time: 20181019T00:39:00
+  id: 1112506
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/traceroute'
+- component: Other
+  create_time: 20181019T00:36:00
+  id: 1112505
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/dracut'
+- component: Other
+  create_time: 20181019T00:28:00
+  id: 1112503
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'Out of date package: openSUSE:Factory/virtualbox'
+- component: Other
+  create_time: 20181018T21:01:00
+  id: 1112490
+  resolution: FIXED
+  status: RESOLVED
+  summary: python3-jupyter_ipython incompatible with current python3-prompt_toolkit
+    2.0.6
+- component: X.Org
+  create_time: 20181018T17:14:00
+  id: 1112464
+  resolution: ''
+  status: CONFIRMED
+  summary: after  20181015  and kernel 4.18.13-1-default nouveau fails to start secondary
+    screen on Nvidia quadro
+- component: YaST2
+  create_time: 20181018T13:42:00
+  id: 1112402
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST partitioner UI feels slow (especially with RAIDs)
+- component: Development
+  create_time: 20181018T13:30:00
+  id: 1112389
+  resolution: ''
+  status: NEW
+  summary: GCC8 cannot build Libreoffice on ppc64
+- component: Basesystem
+  create_time: 20181018T12:13:00
+  id: 1112361
+  resolution: ''
+  status: NEW
+  summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
+'20181022':
+- component: Other
+  create_time: 20181024T16:21:00
+  id: 1113151
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/libisoburn is out of date'
+- component: Other
+  create_time: 20181024T15:45:00
+  id: 1113144
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/slang is out of date'
+- component: Other
+  create_time: 20181024T15:44:00
+  id: 1113143
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/expect is out of date'
+- component: Other
+  create_time: 20181024T15:43:00
+  id: 1113142
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/mupdf is out of date'
+- component: Other
+  create_time: 20181024T15:42:00
+  id: 1113141
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/exo is out of date'
+- component: libzypp
+  create_time: 20181024T15:40:00
+  id: 1113139
+  resolution: ''
+  status: NEW
+  summary: zypper 'packages' command is slow when listing installed packages
+- component: Other
+  create_time: 20181024T15:40:00
+  id: 1113137
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/valgrind is out of date'
+- component: Other
+  create_time: 20181024T15:39:00
+  id: 1113136
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/ant is out of date'
+- component: Other
+  create_time: 20181024T15:38:00
+  id: 1113135
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/junit is out of date'
+- component: Other
+  create_time: 20181024T15:36:00
+  id: 1113134
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/soundtouch is out of date'
+- component: Apache
+  create_time: 20181024T14:40:00
+  id: 1113123
+  resolution: ''
+  status: NEW
+  summary: Apache2 does no longer load mod_php7 after the last patch update
+- component: Firefox
+  create_time: 20181024T14:32:00
+  id: 1113120
+  resolution: ''
+  status: NEW
+  summary: Firefox file picker for uploading  in KDE  is not the same as KDE applications
+- component: Other
+  create_time: 20181024T14:15:00
+  id: 1113116
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/libtirpc is out of date'
+- component: Other
+  create_time: 20181024T13:57:00
+  id: 1113114
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/cifs-utils is out of date'
+- component: X.Org
+  create_time: 20181024T11:32:00
+  id: 1113087
+  resolution: FIXED
+  status: RESOLVED
+  summary: /etc/X11/xim calls hostname -f
+- component: Basesystem
   create_time: 20181024T09:36:00
   id: 1113065
   resolution: FIXED
@@ -14130,193 +14411,3 @@
   resolution: ''
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/redis'
-- component: Basesystem
-  create_time: 20181021T20:52:00
-  id: 1112653
-  resolution: ''
-  status: NEW
-  summary: Bash's system-wide startup file for interactive shells overwrites history
-    control variables
-- component: Security
-  create_time: 20181021T16:20:00
-  id: 1112649
-  resolution: ''
-  status: NEW
-  summary: openssh 7.8p1 (network repo) - authentication failure pubkey (audit.patch
-    to blame?)
-- component: KVM
-  create_time: 20181021T14:26:00
-  id: 1112646
-  resolution: ''
-  status: NEW
-  summary: ksm.service start through qemu-ksm fails
-- component: KDE Workspace (Plasma)
-  create_time: 20181021T10:08:00
-  id: 1112641
-  resolution: ''
-  status: NEW
-  summary: '[Build 20181018] openQA test fails in kate - ksmserver stuck or crashed,
-    stack trace available'
-- component: GNOME
-  create_time: 20181021T09:35:00
-  id: 1112639
-  resolution: ''
-  status: NEW
-  summary: 'Python2/Glade crashes with glade file of green-recorder: gtkstyleproviderprivate.c:
-    No such file or directory.'
-- component: Basesystem
-  create_time: 20181020T21:05:00
-  id: 1112636
-  resolution: INVALID
-  status: RESOLVED
-  summary: '[Build 20181015] systemd-udevd crashed two times in openQA test on aarch64'
-- component: Other
-  create_time: 20181020T20:57:00
-  id: 1112635
-  resolution: ''
-  status: NEW
-  summary: '[Build 20181015] openQA test fails in gnucash, the gnome desktop runner
-    reports "gnucash" is not found but `which` reports /usr/bin/gnucash'
-- component: X.Org
-  create_time: 20181020T20:10:00
-  id: 1112634
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: '[Build 20181018] openQA test fails in gnucash - the X.Org server crashed
-    with segfault'
-- component: Other
-  create_time: 20181020T20:03:00
-  id: 1112633
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/sawfish is out of date'
-- component: Other
-  create_time: 20181020T19:59:00
-  id: 1112632
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/firebird'
-- component: Other
-  create_time: 20181020T19:55:00
-  id: 1112631
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/alacritty is out of date'
-- component: Other
-  create_time: 20181020T19:54:00
-  id: 1112630
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/joe'
-- component: Other
-  create_time: 20181020T19:53:00
-  id: 1112629
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'Out of date package: openSUSE:Factory/thttpd'
-- component: Other
-  create_time: 20181020T19:45:00
-  id: 1112628
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/cdrdao'
-- component: Other
-  create_time: 20181020T19:42:00
-  id: 1112627
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: 'Out of date package: openSUSE:Factory/sysvinit'
-- component: Other
-  create_time: 20181020T19:40:00
-  id: 1112626
-  resolution: FEATURE
-  status: RESOLVED
-  summary: 'Out of date package: openSUSE:Factory/file'
-- component: Samba
-  create_time: 20181020T12:01:00
-  id: 1112618
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: SAMBA not starting
-- component: GNOME
-  create_time: 20181020T10:20:00
-  id: 1112616
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: '[Build 20181018] openQA test fails in evolution showing a notice about
-    "Automatic suspend" pending due to inactivity while the machine is being used
-    actively'
-- component: libzypp
-  create_time: 20181019T13:45:00
-  id: 1112558
-  resolution: INVALID
-  status: RESOLVED
-  summary: '''openSUSE-Tumbleweed-Update'' repo not refreshed TW 20181018 ppc64le'
-- component: X11 Applications
-  create_time: 20181019T09:35:00
-  id: 1112537
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Dependency Missing for VLC
-- component: Network
-  create_time: 20181019T06:56:00
-  id: 1112520
-  resolution: ''
-  status: NEW
-  summary: NetworkManager 1.12.2 crashes quite often
-- component: Other
-  create_time: 20181019T01:30:00
-  id: 1112508
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'Out of date package: openSUSE:Factory/pam is out of date'
-- component: Other
-  create_time: 20181019T00:39:00
-  id: 1112506
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/traceroute'
-- component: Other
-  create_time: 20181019T00:36:00
-  id: 1112505
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/dracut'
-- component: Other
-  create_time: 20181019T00:28:00
-  id: 1112503
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'Out of date package: openSUSE:Factory/virtualbox'
-- component: Other
-  create_time: 20181018T21:01:00
-  id: 1112490
-  resolution: FIXED
-  status: RESOLVED
-  summary: python3-jupyter_ipython incompatible with current python3-prompt_toolkit
-    2.0.6
-- component: X.Org
-  create_time: 20181018T17:14:00
-  id: 1112464
-  resolution: ''
-  status: CONFIRMED
-  summary: after  20181015  and kernel 4.18.13-1-default nouveau fails to start secondary
-    screen on Nvidia quadro
-- component: YaST2
-  create_time: 20181018T13:42:00
-  id: 1112402
-  resolution: FIXED
-  status: RESOLVED
-  summary: YaST partitioner UI feels slow (especially with RAIDs)
-- component: Development
-  create_time: 20181018T13:30:00
-  id: 1112389
-  resolution: ''
-  status: NEW
-  summary: GCC8 cannot build Libreoffice on ppc64
-- component: Basesystem
-  create_time: 20181018T12:13:00
-  id: 1112361
-  resolution: ''
-  status: NEW
-  summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
