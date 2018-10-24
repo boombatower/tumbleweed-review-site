@@ -13852,6 +13852,12 @@
   summary: quit() tries to remove current snapshot
 '20181018':
 - component: Other
+  create_time: 20181024T04:36:00
+  id: 1113010
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/sshfs'
+- component: Other
   create_time: 20181024T04:04:00
   id: 1113007
   resolution: ''
