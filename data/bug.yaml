@@ -13851,6 +13851,12 @@
   status: IN_PROGRESS
   summary: quit() tries to remove current snapshot
 '20181018':
+- component: Basesystem
+  create_time: 20181023T23:12:00
+  id: 1112991
+  resolution: ''
+  status: NEW
+  summary: 'syatemd-rpm-macros: missing method for reload instead of restart on update'
 - component: YaST2
   create_time: 20181023T20:17:00
   id: 1112973
