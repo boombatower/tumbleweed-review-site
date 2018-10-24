@@ -8899,8 +8899,8 @@
 - component: Other
   create_time: 20180604T06:30:00
   id: 1095725
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Borg mount command missing dependency python3-llfuse
 - component: Kernel
   create_time: 20180604T06:12:00
@@ -13851,6 +13851,102 @@
   status: IN_PROGRESS
   summary: quit() tries to remove current snapshot
 '20181018':
+- component: Basesystem
+  create_time: 20181024T09:36:00
+  id: 1113065
+  resolution: FIXED
+  status: RESOLVED
+  summary: System call statx not usable without hacks
+- component: Other
+  create_time: 20181024T07:16:00
+  id: 1113041
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/proftpd is out of date'
+- component: Other
+  create_time: 20181024T07:10:00
+  id: 1113037
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/lightdm is out of date'
+- component: Other
+  create_time: 20181024T07:06:00
+  id: 1113036
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/usbutils is out of date'
+- component: Other
+  create_time: 20181024T07:03:00
+  id: 1113035
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/sg3_utils is out of date'
+- component: Other
+  create_time: 20181024T06:57:00
+  id: 1113032
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/ModemManager is out of date'
+- component: Other
+  create_time: 20181024T06:38:00
+  id: 1113031
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/unixodbc is out of date'
+- component: Other
+  create_time: 20181024T06:29:00
+  id: 1113028
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/rep-gtk is out of date'
+- component: Other
+  create_time: 20181024T06:24:00
+  id: 1113027
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/iso-codes is out of date'
+- component: Other
+  create_time: 20181024T06:07:00
+  id: 1113023
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/graphite2 is out of date'
+- component: Other
+  create_time: 20181024T06:00:00
+  id: 1113022
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/fontconfig is out of date'
+- component: Other
+  create_time: 20181024T05:37:00
+  id: 1113021
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/xapian-core is out of date'
+- component: Other
+  create_time: 20181024T05:33:00
+  id: 1113020
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/pcre2 is out of date'
+- component: Other
+  create_time: 20181024T05:18:00
+  id: 1113018
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/libbytesize'
+- component: Other
+  create_time: 20181024T05:03:00
+  id: 1113015
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/libaio'
+- component: Other
+  create_time: 20181024T05:02:00
+  id: 1113013
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/keyutils'
 - component: Other
   create_time: 20181024T04:36:00
   id: 1113010
@@ -13911,7 +14007,7 @@
   id: 1112991
   resolution: ''
   status: NEW
-  summary: 'syatemd-rpm-macros: missing method for reload instead of restart on update'
+  summary: 'systemd-rpm-macros: missing method for reload instead of restart on update'
 - component: YaST2
   create_time: 20181023T20:17:00
   id: 1112973
@@ -14160,7 +14256,7 @@
   create_time: 20181019T09:35:00
   id: 1112537
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Dependency Missing for VLC
 - component: Network
   create_time: 20181019T06:56:00
