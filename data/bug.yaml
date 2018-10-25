@@ -6308,8 +6308,8 @@
 - component: Kubic
   create_time: 20180328T15:49:00
   id: 1087331
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[cloud-init] ''apply_network_config is not currently implemented'' message'
 - component: Basesystem
   create_time: 20180328T14:13:00
@@ -9353,8 +9353,8 @@
 - component: Other
   create_time: 20180613T09:04:00
   id: 1097388
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: cloud-init running before network online
 '20180615':
 - component: Other
@@ -14036,6 +14036,12 @@
   status: IN_PROGRESS
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
+- component: Other
+  create_time: 20181025T19:23:00
+  id: 1113385
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/iproute2'
 - component: Other
   create_time: 20181025T16:22:00
   id: 1113350
