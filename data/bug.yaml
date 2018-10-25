@@ -2527,8 +2527,8 @@
 - component: X.Org
   create_time: 20180128T09:35:00
   id: 1077865
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Cannot assign FN+F12 (the Star button) on Thinkpad T470s to global shortcuts
 - component: KDE Workspace (Plasma)
   create_time: 20180128T09:33:00
@@ -9733,12 +9733,6 @@
   resolution: ''
   status: IN_PROGRESS
   summary: multipath-tools 0.7.7 shouldn't change SUSE path detection default
-- component: Security
-  create_time: 20180625T19:15:00
-  id: 1099051
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: rkhunter hashes not updated
 - component: Other
   create_time: 20180625T19:13:00
   id: 1099050
@@ -10184,8 +10178,8 @@
 - component: X.Org
   create_time: 20180705T14:07:00
   id: 1100233
-  resolution: ''
-  status: CONFIRMED
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Display resolution wrong after monitors turned off and on again
 - component: LXDE
   create_time: 20180705T10:56:00
@@ -11317,8 +11311,8 @@
 - component: X.Org
   create_time: 20180805T19:33:00
   id: 1103824
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: No windows rendered on external monitor with Nouveau and reverse prime.
 - component: X11 Applications
   create_time: 20180805T15:49:00
@@ -14039,9 +14033,28 @@
   create_time: 20181018T12:13:00
   id: 1112361
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
+- component: Other
+  create_time: 20181025T16:22:00
+  id: 1113350
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/ImageMagick is out of date'
+- component: Network
+  create_time: 20181025T13:12:00
+  id: 1113300
+  resolution: ''
+  status: NEW
+  summary: blueman requires root authetication on bootup and doesn't connect to audio
+    devices
+- component: YaST2
+  create_time: 20181025T12:32:00
+  id: 1113291
+  resolution: ''
+  status: CONFIRMED
+  summary: libyui binary packages conflict unnecessarily
 - component: YaST2
   create_time: 20181025T10:26:00
   id: 1113271
@@ -14190,8 +14203,8 @@
 - component: Other
   create_time: 20181024T07:10:00
   id: 1113037
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/lightdm is out of date'
 - component: Other
   create_time: 20181024T07:06:00
