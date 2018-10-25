@@ -13257,8 +13257,8 @@
 - component: Kernel
   create_time: 20181002T16:07:00
   id: 1110472
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'hidpp20_batterylevel_get_battery_capacity: received protocol error 0x09'
 - component: Kubic
   create_time: 20181002T13:54:00
@@ -14042,6 +14042,25 @@
   status: NEW
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
+- component: YaST2
+  create_time: 20181025T10:26:00
+  id: 1113271
+  resolution: FIXED
+  status: RESOLVED
+  summary: Libyui does not handle Perl libs properly
+- component: GNOME
+  create_time: 20181025T06:11:00
+  id: 1113215
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181023] FTBFS: openSUSE:Factory gnucash 3.2'
+- component: Network
+  create_time: 20181025T00:10:00
+  id: 1113198
+  resolution: ''
+  status: NEW
+  summary: 'still repeating:  wickedd[385]: ni_process_reap: process xxx has not exited
+    yet; now doing a blocking waitpid()'
 - component: Basesystem
   create_time: 20181024T21:18:00
   id: 1113188
@@ -14060,7 +14079,7 @@
   resolution: ''
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/xmlgraphics-fop is out of date'
-- component: Basesystem
+- component: Kernel
   create_time: 20181024T17:57:00
   id: 1113162
   resolution: ''
@@ -14081,8 +14100,8 @@
 - component: Other
   create_time: 20181024T15:44:00
   id: 1113143
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/expect is out of date'
 - component: Other
   create_time: 20181024T15:43:00
@@ -14100,7 +14119,7 @@
   create_time: 20181024T15:40:00
   id: 1113139
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: zypper 'packages' command is slow when listing installed packages
 - component: Other
   create_time: 20181024T15:40:00
@@ -14195,8 +14214,8 @@
 - component: Other
   create_time: 20181024T06:38:00
   id: 1113031
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/unixodbc is out of date'
 - component: Other
   create_time: 20181024T06:29:00
@@ -14213,8 +14232,8 @@
 - component: Other
   create_time: 20181024T06:07:00
   id: 1113023
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/graphite2 is out of date'
 - component: Other
   create_time: 20181024T06:00:00
@@ -14231,8 +14250,8 @@
 - component: Other
   create_time: 20181024T05:33:00
   id: 1113020
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/pcre2 is out of date'
 - component: Other
   create_time: 20181024T05:18:00
@@ -14279,8 +14298,8 @@
 - component: Other
   create_time: 20181024T03:34:00
   id: 1113003
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/syslinux'
 - component: Other
   create_time: 20181024T03:31:00
@@ -14292,7 +14311,7 @@
   create_time: 20181024T03:27:00
   id: 1113001
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Out of date package: openSUSE:Factory/lmms'
 - component: Other
   create_time: 20181024T03:24:00
