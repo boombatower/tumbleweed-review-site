@@ -14036,6 +14036,37 @@
   status: IN_PROGRESS
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
+- component: Basesystem
+  create_time: 20181026T15:31:00
+  id: 1113554
+  resolution: ''
+  status: NEW
+  summary: 'timezone: Morocco to halt daylight saving time changes and remain on UTC+1'
+- component: Other
+  create_time: 20181026T15:08:00
+  id: 1113553
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/lxterminal is out of date'
+- component: Basesystem
+  create_time: 20181026T14:17:00
+  id: 1113543
+  resolution: ''
+  status: NEW
+  summary: FreeDOS 1.2 isn't detected by os-prober
+- component: X.Org
+  create_time: 20181026T13:21:00
+  id: 1113533
+  resolution: ''
+  status: CONFIRMED
+  summary: VLC crashes with Mesa 18.2.3
+- component: Other
+  create_time: 20181026T11:30:00
+  id: 1113506
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181025] openQA test fails in await_install  ImportError: libffi.so.7:
+    cannot open shared object file: No such file or directory'
 - component: Development
   create_time: 20181026T09:39:00
   id: 1113476
@@ -14046,8 +14077,8 @@
 - component: Network
   create_time: 20181026T08:17:00
   id: 1113459
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Quasselclient does not authenticate
 - component: Other
   create_time: 20181026T02:10:00
@@ -14102,8 +14133,8 @@
 - component: Basesystem
   create_time: 20181024T21:18:00
   id: 1113188
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: sync numlock-on path across packages
 - component: Installation
   create_time: 20181024T18:23:00
