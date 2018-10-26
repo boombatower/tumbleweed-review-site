@@ -13583,7 +13583,7 @@
   id: 1111734
   resolution: ''
   status: NEW
-  summary: 'Out of date package: openSUSE:Factory/lvm'
+  summary: 'Out of date package: openSUSE:Factory/lvm2'
 - component: Other
   create_time: 20181013T03:57:00
   id: 1111733
@@ -14037,6 +14037,12 @@
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
 - component: Other
+  create_time: 20181026T02:10:00
+  id: 1113422
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/iptables is out of date'
+- component: Other
   create_time: 20181025T19:23:00
   id: 1113385
   resolution: ''
@@ -14379,8 +14385,8 @@
 - component: Patterns
   create_time: 20181023T10:37:00
   id: 1112889
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Xfce Pattern Suggestion/Changes
 - component: GNOME
   create_time: 20181023T07:50:00
