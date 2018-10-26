@@ -14040,7 +14040,7 @@
   create_time: 20181026T15:31:00
   id: 1113554
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'timezone: Morocco to halt daylight saving time changes and remain on UTC+1'
 - component: Other
   create_time: 20181026T15:08:00
