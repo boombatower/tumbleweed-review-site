@@ -14036,6 +14036,19 @@
   status: IN_PROGRESS
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
+- component: Development
+  create_time: 20181026T09:39:00
+  id: 1113476
+  resolution: ''
+  status: NEW
+  summary: TW QT5 SQL Postgres query does deliver record field names but does not
+    deliver records
+- component: Network
+  create_time: 20181026T08:17:00
+  id: 1113459
+  resolution: ''
+  status: NEW
+  summary: Quasselclient does not authenticate
 - component: Other
   create_time: 20181026T02:10:00
   id: 1113422
