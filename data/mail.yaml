@@ -1266,6 +1266,9 @@
   threads: []
 '20181022':
   announcement: 2018-10.248
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages: [2018-10.294]
+    reference_count: 1
+    summary: bbswitch kernel module was not updated
