@@ -13527,8 +13527,8 @@
 - component: Other
   create_time: 20181013T04:14:00
   id: 1111743
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/systemd'
 - component: Other
   create_time: 20181013T04:13:00
@@ -14037,10 +14037,28 @@
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
 - component: Other
-  create_time: 20181027T03:06:00
-  id: 1113606
+  create_time: 20181027T14:32:00
+  id: 1113617
   resolution: ''
   status: NEW
+  summary: 'Out of date package: openSUSE:Factory/libgcrypt is out of date'
+- component: Bootloader
+  create_time: 20181027T13:00:00
+  id: 1113615
+  resolution: ''
+  status: NEW
+  summary: TW 20181022 doesn't detect other OSes when setting up boot loader
+- component: YaST2
+  create_time: 20181027T12:23:00
+  id: 1113614
+  resolution: ''
+  status: NEW
+  summary: Yast2 samba-server module does not write smb.conf
+- component: Other
+  create_time: 20181027T03:06:00
+  id: 1113606
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/wine is out of date'
 - component: Other
   create_time: 20181027T02:11:00
@@ -14058,8 +14076,8 @@
 - component: Basesystem
   create_time: 20181026T15:31:00
   id: 1113554
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'timezone: Morocco to halt daylight saving time changes and remain on UTC+1'
 - component: Other
   create_time: 20181026T15:08:00
@@ -14418,7 +14436,7 @@
   create_time: 20181023T23:12:00
   id: 1112991
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'systemd-rpm-macros: missing method for reload instead of restart on update'
 - component: YaST2
   create_time: 20181023T20:17:00
