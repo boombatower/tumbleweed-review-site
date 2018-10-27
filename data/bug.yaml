@@ -14036,6 +14036,24 @@
   status: IN_PROGRESS
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
+- component: Virtualization:Other
+  create_time: 20181027T20:53:00
+  id: 1113622
+  resolution: ''
+  status: NEW
+  summary: 'TW 20181022: Virtualization/virtualbox is uninstallable'
+- component: Virtualization:Other
+  create_time: 20181027T20:18:00
+  id: 1113621
+  resolution: ''
+  status: NEW
+  summary: Virtualbox does not start on Tumbleweed
+- component: Other
+  create_time: 20181027T19:05:00
+  id: 1113620
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/guile is out of date'
 - component: Other
   create_time: 20181027T14:32:00
   id: 1113617
