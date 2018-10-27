@@ -14036,6 +14036,25 @@
   status: IN_PROGRESS
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
+- component: Other
+  create_time: 20181027T03:06:00
+  id: 1113606
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/wine is out of date'
+- component: Other
+  create_time: 20181027T02:11:00
+  id: 1113605
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/maim is out of date and does not
+    capture screenshots properly'
+- component: Other
+  create_time: 20181027T02:08:00
+  id: 1113604
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/slop is out of date'
 - component: Basesystem
   create_time: 20181026T15:31:00
   id: 1113554
