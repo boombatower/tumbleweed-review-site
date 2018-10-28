@@ -12636,7 +12636,7 @@
   create_time: 20180916T06:32:00
   id: 1108570
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: After restarting NetworkManager service, it cannot read passwords from
     wallet
 - component: Other
@@ -14036,6 +14036,36 @@
   status: IN_PROGRESS
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
+- component: Other
+  create_time: 20181028T02:35:00
+  id: 1113629
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/squid is out of date'
+- component: Other
+  create_time: 20181028T01:37:00
+  id: 1113628
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/inn is out of date'
+- component: Other
+  create_time: 20181028T01:35:00
+  id: 1113627
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/gnunet is out of date'
+- component: Other
+  create_time: 20181028T01:33:00
+  id: 1113626
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/mailutils is out of date'
+- component: Other
+  create_time: 20181028T01:32:00
+  id: 1113625
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/gdbm is out of date'
 - component: Virtualization:Other
   create_time: 20181027T20:53:00
   id: 1113622
