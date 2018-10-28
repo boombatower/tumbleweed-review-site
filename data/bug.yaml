@@ -13296,7 +13296,7 @@
   create_time: 20181008T11:33:00
   id: 1111047
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: haveged crashes regular on openSUSE Kubic
 - component: Patterns
   create_time: 20181008T09:51:00
@@ -13915,7 +13915,7 @@
   create_time: 20181020T19:55:00
   id: 1112631
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Out of date package: openSUSE:Factory/alacritty is out of date'
 - component: Other
   create_time: 20181020T19:54:00
@@ -14036,6 +14036,24 @@
   status: IN_PROGRESS
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
+- component: KDE Applications
+  create_time: 20181028T21:31:00
+  id: 1113637
+  resolution: ''
+  status: NEW
+  summary: digikam panorama creator wizard fails to terminate
+- component: GNOME
+  create_time: 20181028T18:21:00
+  id: 1113636
+  resolution: ''
+  status: NEW
+  summary: gnome-shell failed to start, libmozjs-60.so error
+- component: Basesystem
+  create_time: 20181028T08:11:00
+  id: 1113631
+  resolution: ''
+  status: NEW
+  summary: Need to fsck /dev/sdb2 on every boot
 - component: Other
   create_time: 20181028T02:35:00
   id: 1113629
@@ -14087,8 +14105,8 @@
 - component: Other
   create_time: 20181027T14:32:00
   id: 1113617
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/libgcrypt is out of date'
 - component: Bootloader
   create_time: 20181027T13:00:00
