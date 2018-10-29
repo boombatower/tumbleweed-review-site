@@ -14036,6 +14036,12 @@
   status: IN_PROGRESS
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
+- component: Basesystem
+  create_time: 20181029T00:30:00
+  id: 1113641
+  resolution: ''
+  status: NEW
+  summary: chrony not enabled by default
 - component: KDE Applications
   create_time: 20181028T21:31:00
   id: 1113637
