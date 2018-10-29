@@ -13321,7 +13321,7 @@
   create_time: 20181007T21:22:00
   id: 1110985
   resolution: ''
-  status: IN_PROGRESS
+  status: CONFIRMED
   summary: TW Plasma Intel driver random freezes
 - component: X11 Applications
   create_time: 20181005T17:21:00
@@ -14036,6 +14036,31 @@
   status: IN_PROGRESS
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
+- component: Network
+  create_time: 20181029T17:11:00
+  id: 1113786
+  resolution: ''
+  status: NEW
+  summary: NetworkManager segfault after sleep or adding new network device
+- component: Kubic
+  create_time: 20181029T16:34:00
+  id: 1113779
+  resolution: ''
+  status: NEW
+  summary: 'rebootmgrctl: org.opensuse.RebootMgr not provided'
+- component: Other
+  create_time: 20181029T14:58:00
+  id: 1113755
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[openssl1.1.1][staging] python fails to build / errorin the test suite'
+- component: Virtualization:Other
+  create_time: 20181029T13:02:00
+  id: 1113723
+  resolution: ''
+  status: NEW
+  summary: 'VirtualBox won''t launch VM on kernel 4.18.15:  Error 0x1 NS_ERROR_FAILURE
+    MachineWrap'
 - component: Basesystem
   create_time: 20181029T00:30:00
   id: 1113641
@@ -14063,8 +14088,8 @@
 - component: Other
   create_time: 20181028T02:35:00
   id: 1113629
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/squid is out of date'
 - component: Other
   create_time: 20181028T01:37:00
@@ -14101,7 +14126,7 @@
   id: 1113621
   resolution: ''
   status: NEW
-  summary: Virtualbox does not start on Tumbleweed
+  summary: 'Virtualbox: Error -10 in SUPR3HardenedMain!'
 - component: Other
   create_time: 20181027T19:05:00
   id: 1113620
@@ -14320,8 +14345,8 @@
 - component: Other
   create_time: 20181024T15:36:00
   id: 1113134
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/soundtouch is out of date'
 - component: Apache
   create_time: 20181024T14:40:00
@@ -14446,8 +14471,8 @@
 - component: Other
   create_time: 20181024T05:02:00
   id: 1113013
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/keyutils'
 - component: Other
   create_time: 20181024T04:36:00
@@ -14519,8 +14544,8 @@
 - component: LXDE
   create_time: 20181023T16:03:00
   id: 1112961
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Use nicer icon theme for LXQt
 - component: KDE Workspace (Plasma)
   create_time: 20181023T12:42:00
