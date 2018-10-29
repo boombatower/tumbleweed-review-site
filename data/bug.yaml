@@ -9576,7 +9576,7 @@
   create_time: 20180620T14:10:00
   id: 1098432
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: zypper dup does not update boost devel packages
 - component: Basesystem
   create_time: 20180620T13:59:00
@@ -12994,7 +12994,7 @@
   create_time: 20180927T14:48:00
   id: 1110024
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: noarch java packages differ between architectures
 - component: X.Org
   create_time: 20180927T14:35:00
@@ -14169,7 +14169,7 @@
   resolution: ''
   status: CONFIRMED
   summary: VLC crashes with Mesa 18.2.3
-- component: Other
+- component: YaST2
   create_time: 20181026T11:30:00
   id: 1113506
   resolution: ''
@@ -14321,7 +14321,7 @@
   create_time: 20181024T15:36:00
   id: 1113134
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Out of date package: openSUSE:Factory/soundtouch is out of date'
 - component: Apache
   create_time: 20181024T14:40:00
