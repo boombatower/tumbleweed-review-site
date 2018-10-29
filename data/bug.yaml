@@ -14036,6 +14036,12 @@
   status: IN_PROGRESS
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
+- component: Containers
+  create_time: 20181029T19:47:00
+  id: 1113811
+  resolution: ''
+  status: NEW
+  summary: podman doens't work for non-root users
 - component: Network
   create_time: 20181029T17:11:00
   id: 1113786
@@ -14624,8 +14630,8 @@
 - component: Virtualization:Tools
   create_time: 20181022T11:32:00
   id: 1112729
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: virt-install requires python3-six
 - component: Development
   create_time: 20181022T08:43:00
