@@ -13308,7 +13308,7 @@
   create_time: 20181008T08:14:00
   id: 1111012
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: cri-o writes log files to /tmp
 - component: YaST2
   create_time: 20181007T21:36:00
@@ -13563,8 +13563,8 @@
 - component: Other
   create_time: 20181013T04:06:00
   id: 1111737
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/openssh'
 - component: Other
   create_time: 20181013T04:01:00
@@ -14036,61 +14036,6 @@
   status: IN_PROGRESS
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
-- component: Virtualization:Other
-  create_time: 20181030T08:52:00
-  id: 1113894
-  resolution: ''
-  status: NEW
-  summary: '[Staging] Virtualbox fails to build against puthon 3.7'
-- component: Other
-  create_time: 20181030T08:10:00
-  id: 1113888
-  resolution: ''
-  status: NEW
-  summary: '[Staging]: strace fails to build against kernel / linux-glibc-devel 4.19'
-- component: Other
-  create_time: 20181030T05:10:00
-  id: 1113862
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openSUSE:Factory/bison is out of date'
-- component: Containers
-  create_time: 20181029T19:47:00
-  id: 1113811
-  resolution: ''
-  status: CONFIRMED
-  summary: podman doens't work for non-root users
-- component: Network
-  create_time: 20181029T17:11:00
-  id: 1113786
-  resolution: ''
-  status: NEW
-  summary: NetworkManager segfault after sleep or adding new network device
-- component: Kubic
-  create_time: 20181029T16:34:00
-  id: 1113779
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'rebootmgrctl: org.opensuse.RebootMgr not provided'
-- component: Other
-  create_time: 20181029T14:58:00
-  id: 1113755
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[openssl1.1.1][staging] python fails to build / errorin the test suite'
-- component: Virtualization:Other
-  create_time: 20181029T13:02:00
-  id: 1113723
-  resolution: ''
-  status: NEW
-  summary: 'VirtualBox won''t launch VM on kernel 4.18.15:  Error 0x1 NS_ERROR_FAILURE
-    MachineWrap'
-- component: Basesystem
-  create_time: 20181029T00:30:00
-  id: 1113641
-  resolution: ''
-  status: NEW
-  summary: chrony not enabled by default
 - component: KDE Applications
   create_time: 20181028T21:31:00
   id: 1113637
@@ -14154,8 +14099,8 @@
 - component: Other
   create_time: 20181027T19:05:00
   id: 1113620
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/guile is out of date'
 - component: Other
   create_time: 20181027T14:32:00
@@ -14681,3 +14626,83 @@
   resolution: ''
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/redis'
+'20181029':
+- component: Basesystem
+  create_time: 20181030T15:41:00
+  id: 1114008
+  resolution: ''
+  status: NEW
+  summary: SSH access fails after upgrade to openssh-7.8p1-1.1.x86_64
+- component: YaST2
+  create_time: 20181030T15:24:00
+  id: 1113996
+  resolution: ''
+  status: NEW
+  summary: yast2_hostnames parsing error has unclear error message
+- component: AutoYaST
+  create_time: 20181030T12:50:00
+  id: 1113946
+  resolution: ''
+  status: NEW
+  summary: ceph build fails in openSUSE:Factory:Staging:C
+- component: Basesystem
+  create_time: 20181030T12:46:00
+  id: 1113945
+  resolution: FIXED
+  status: RESOLVED
+  summary: texinfo build fails in openSUSE:Factory:Staging:C
+- component: Virtualization:Other
+  create_time: 20181030T08:52:00
+  id: 1113894
+  resolution: ''
+  status: NEW
+  summary: '[Staging] Virtualbox fails to build against puthon 3.7'
+- component: Other
+  create_time: 20181030T08:10:00
+  id: 1113888
+  resolution: ''
+  status: NEW
+  summary: '[Staging]: strace fails to build against kernel / linux-glibc-devel 4.19'
+- component: Other
+  create_time: 20181030T05:10:00
+  id: 1113862
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/bison is out of date'
+- component: Containers
+  create_time: 20181029T19:47:00
+  id: 1113811
+  resolution: ''
+  status: CONFIRMED
+  summary: podman doens't work for non-root users
+- component: Network
+  create_time: 20181029T17:11:00
+  id: 1113786
+  resolution: ''
+  status: NEW
+  summary: NetworkManager segfault after sleep or adding new network device
+- component: Kubic
+  create_time: 20181029T16:34:00
+  id: 1113779
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'rebootmgrctl: org.opensuse.RebootMgr not provided'
+- component: Other
+  create_time: 20181029T14:58:00
+  id: 1113755
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[openssl1.1.1][staging] python fails to build / errorin the test suite'
+- component: Virtualization:Other
+  create_time: 20181029T13:02:00
+  id: 1113723
+  resolution: ''
+  status: NEW
+  summary: 'VirtualBox won''t launch VM on kernel 4.18.15:  Error 0x1 NS_ERROR_FAILURE
+    MachineWrap'
+- component: Basesystem
+  create_time: 20181029T00:30:00
+  id: 1113641
+  resolution: ''
+  status: NEW
+  summary: chrony not enabled by default
