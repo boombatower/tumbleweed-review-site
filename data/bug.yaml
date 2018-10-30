@@ -14036,6 +14036,12 @@
   status: IN_PROGRESS
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
+- component: Other
+  create_time: 20181030T05:10:00
+  id: 1113862
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/bison is out of date'
 - component: Containers
   create_time: 20181029T19:47:00
   id: 1113811
