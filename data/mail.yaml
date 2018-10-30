@@ -1272,3 +1272,11 @@
   - messages: [2018-10.294]
     reference_count: 1
     summary: bbswitch kernel module was not updated
+'20181029':
+  announcement: 2018-10.359
+  reference_count: 4
+  thread_count: 1
+  threads:
+  - messages: [2018-10.361]
+    reference_count: 4
+    summary: openssh 7.8p1
