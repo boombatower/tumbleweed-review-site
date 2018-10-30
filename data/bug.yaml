@@ -12888,7 +12888,7 @@
   create_time: 20180924T15:04:00
   id: 1109470
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: noarch post-build-checks contains arch-dependent /etc/suse-ignored-rpaths.conf
 - component: Other
   create_time: 20180924T11:00:00
@@ -14036,6 +14036,18 @@
   status: IN_PROGRESS
   summary: '''snapper list'' shows invalid chars in fr_FR.UTF8'
 '20181022':
+- component: Virtualization:Other
+  create_time: 20181030T08:52:00
+  id: 1113894
+  resolution: ''
+  status: NEW
+  summary: '[Staging] Virtualbox fails to build against puthon 3.7'
+- component: Other
+  create_time: 20181030T08:10:00
+  id: 1113888
+  resolution: ''
+  status: NEW
+  summary: '[Staging]: strace fails to build against kernel / linux-glibc-devel 4.19'
 - component: Other
   create_time: 20181030T05:10:00
   id: 1113862
@@ -14046,7 +14058,7 @@
   create_time: 20181029T19:47:00
   id: 1113811
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: podman doens't work for non-root users
 - component: Network
   create_time: 20181029T17:11:00
@@ -14057,14 +14069,14 @@
 - component: Kubic
   create_time: 20181029T16:34:00
   id: 1113779
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'rebootmgrctl: org.opensuse.RebootMgr not provided'
 - component: Other
   create_time: 20181029T14:58:00
   id: 1113755
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[openssl1.1.1][staging] python fails to build / errorin the test suite'
 - component: Virtualization:Other
   create_time: 20181029T13:02:00
@@ -14118,8 +14130,8 @@
 - component: Other
   create_time: 20181028T01:33:00
   id: 1113626
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/mailutils is out of date'
 - component: Other
   create_time: 20181028T01:32:00
@@ -14229,14 +14241,14 @@
 - component: Other
   create_time: 20181026T02:10:00
   id: 1113422
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/iptables is out of date'
 - component: Other
   create_time: 20181025T19:23:00
   id: 1113385
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/iproute2'
 - component: Other
   create_time: 20181025T16:22:00
