@@ -14081,8 +14081,8 @@
 - component: Other
   create_time: 20181028T01:32:00
   id: 1113625
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/gdbm is out of date'
 - component: Virtualization:Other
   create_time: 20181027T20:53:00
@@ -14111,8 +14111,8 @@
 - component: Bootloader
   create_time: 20181027T13:00:00
   id: 1113615
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: TW 20181022 doesn't detect other OSes when setting up boot loader
 - component: YaST2
   create_time: 20181027T12:23:00
@@ -14198,8 +14198,8 @@
 - component: Other
   create_time: 20181025T16:22:00
   id: 1113350
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/ImageMagick is out of date'
 - component: Network
   create_time: 20181025T13:12:00
@@ -14410,8 +14410,8 @@
 - component: Other
   create_time: 20181024T06:00:00
   id: 1113022
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/fontconfig is out of date'
 - component: Other
   create_time: 20181024T05:37:00
@@ -14627,11 +14627,29 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/redis'
 '20181029':
+- component: Other
+  create_time: 20181031T09:20:00
+  id: 1114133
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: KiCad footprint wizard broken
+- component: Other
+  create_time: 20181031T09:18:00
+  id: 1114132
+  resolution: ''
+  status: NEW
+  summary: KiCad footprint wizard broken
+- component: Basesystem
+  create_time: 20181031T07:49:00
+  id: 1114113
+  resolution: ''
+  status: NEW
+  summary: the latest LVM2 can overwrite extents beyond metadata area
 - component: Network
   create_time: 20181031T06:08:00
   id: 1114090
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: OpenSSH-7.8p1 sshd closes connection after authentication
 - component: KDE Workspace (Plasma)
   create_time: 20181031T02:15:00
@@ -14655,7 +14673,7 @@
   create_time: 20181030T15:41:00
   id: 1114008
   resolution: ''
-  status: IN_PROGRESS
+  status: NEW
   summary: SSH access fails after upgrade to openssh-7.8p1-1.1.x86_64
 - component: YaST2
   create_time: 20181030T15:24:00
