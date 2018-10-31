@@ -13855,8 +13855,8 @@
 - component: Security
   create_time: 20181021T16:20:00
   id: 1112649
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: openssh 7.8p1 (network repo) - authentication failure pubkey (audit.patch
     to blame?)
 - component: KVM
@@ -14627,11 +14627,23 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/redis'
 '20181029':
+- component: Network
+  create_time: 20181030T20:22:00
+  id: 1114064
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: ssh pubkey authentication seems to be broken after latest upgrade
+- component: Xfce
+  create_time: 20181030T20:12:00
+  id: 1114062
+  resolution: ''
+  status: NEW
+  summary: 'mousepad: font settings are ignored'
 - component: Basesystem
   create_time: 20181030T15:41:00
   id: 1114008
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: SSH access fails after upgrade to openssh-7.8p1-1.1.x86_64
 - component: YaST2
   create_time: 20181030T15:24:00
