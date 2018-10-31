@@ -14627,6 +14627,30 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/redis'
 '20181029':
+- component: Development
+  create_time: 20181031T15:38:00
+  id: 1114209
+  resolution: ''
+  status: NEW
+  summary: 'go: provides(API) causes "have option" unresolveable builds'
+- component: YaST2
+  create_time: 20181031T14:01:00
+  id: 1114192
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: yast2-ruby-bindings does not support new grammatical form of month names
+- component: Patterns
+  create_time: 20181031T13:49:00
+  id: 1114189
+  resolution: ''
+  status: NEW
+  summary: 'TW: ntp is installed by default but not needed (as we use chrony)'
+- component: Other
+  create_time: 20181031T13:33:00
+  id: 1114186
+  resolution: ''
+  status: NEW
+  summary: package installation from elpa does not work in emacs-nox 26.1
 - component: Other
   create_time: 20181031T09:20:00
   id: 1114133
@@ -14738,8 +14762,8 @@
 - component: Virtualization:Other
   create_time: 20181029T13:02:00
   id: 1113723
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'VirtualBox won''t launch VM on kernel 4.18.15:  Error 0x1 NS_ERROR_FAILURE
     MachineWrap'
 - component: Basesystem
