@@ -10507,7 +10507,7 @@
   resolution: ''
   status: NEW
   summary: Battery indicator did not show battery information while starting work
-    from battery on toshiba tecra z40
+    from battery (Not always)
 - component: Other
   create_time: 20180717T18:47:00
   id: 1101528
@@ -13510,7 +13510,7 @@
   create_time: 20181013T18:00:00
   id: 1111756
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Out of date package: openSUSE:Factory/nfs-utils'
 - component: Kernel
   create_time: 20181013T07:40:00
@@ -14627,6 +14627,18 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/redis'
 '20181029':
+- component: Network
+  create_time: 20181031T06:08:00
+  id: 1114090
+  resolution: ''
+  status: NEW
+  summary: OpenSSH-7.8p1 sshd closes connection after authentication
+- component: KDE Workspace (Plasma)
+  create_time: 20181031T02:15:00
+  id: 1114077
+  resolution: ''
+  status: NEW
+  summary: '"Present Windows" edge effect failed on update'
 - component: Network
   create_time: 20181030T20:22:00
   id: 1114064
