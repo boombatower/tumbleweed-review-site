@@ -14627,6 +14627,12 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/redis'
 '20181029':
+- component: Basesystem
+  create_time: 20181101T12:03:00
+  id: 1114287
+  resolution: ''
+  status: NEW
+  summary: package build fails
 - component: Network
   create_time: 20181101T07:36:00
   id: 1114273
@@ -14651,12 +14657,6 @@
   resolution: ''
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/subversion is out of date'
-- component: X11 3rd Party Driver
-  create_time: 20181031T21:41:00
-  id: 1114251
-  resolution: ''
-  status: NEW
-  summary: NVIDIA driver components have different versions
 - component: Development
   create_time: 20181031T15:38:00
   id: 1114209
@@ -14720,8 +14720,8 @@
 - component: Xfce
   create_time: 20181030T20:12:00
   id: 1114062
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'mousepad: font settings are ignored'
 - component: Basesystem
   create_time: 20181030T15:41:00
@@ -14735,11 +14735,11 @@
   resolution: ''
   status: NEW
   summary: yast2_hostnames parsing error has unclear error message
-- component: AutoYaST
+- component: Other
   create_time: 20181030T12:50:00
   id: 1113946
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: ceph build fails in openSUSE:Factory:Staging:C
 - component: Basesystem
   create_time: 20181030T12:46:00
