@@ -9166,8 +9166,8 @@
 - component: Network
   create_time: 20180611T07:47:00
   id: 1096884
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Firewalld prevents shutdown or reboot on iMac
 - component: Basesystem
   create_time: 20180610T14:32:00
@@ -12642,8 +12642,8 @@
 - component: Other
   create_time: 20180916T04:19:00
   id: 1108567
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: qBittorrent crashes in latest Tumbleweed snapshot
 - component: Firefox
   create_time: 20180916T02:48:00
@@ -14649,7 +14649,7 @@
   create_time: 20181031T23:24:00
   id: 1114258
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Latest update of kcheckpass breaks custom PAM configuration
 - component: Other
   create_time: 20181031T22:41:00
@@ -14726,8 +14726,8 @@
 - component: Basesystem
   create_time: 20181030T15:41:00
   id: 1114008
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: SSH access fails after upgrade to openssh-7.8p1-1.1.x86_64
 - component: YaST2
   create_time: 20181030T15:24:00
