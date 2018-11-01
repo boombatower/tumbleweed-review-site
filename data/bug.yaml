@@ -14627,6 +14627,12 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/redis'
 '20181029':
+- component: Network
+  create_time: 20181101T07:36:00
+  id: 1114273
+  resolution: ''
+  status: NEW
+  summary: Broadband connection established but all packages dropped
 - component: GNOME
   create_time: 20181031T23:31:00
   id: 1114259
@@ -14720,8 +14726,8 @@
 - component: Basesystem
   create_time: 20181030T15:41:00
   id: 1114008
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: SSH access fails after upgrade to openssh-7.8p1-1.1.x86_64
 - component: YaST2
   create_time: 20181030T15:24:00
@@ -14733,7 +14739,7 @@
   create_time: 20181030T12:50:00
   id: 1113946
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: ceph build fails in openSUSE:Factory:Staging:C
 - component: Basesystem
   create_time: 20181030T12:46:00
