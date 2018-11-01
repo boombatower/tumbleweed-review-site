@@ -12723,8 +12723,8 @@
 - component: Kernel
   create_time: 20180917T08:55:00
   id: 1108623
-  resolution: ''
-  status: CONFIRMED
+  resolution: INVALID
+  status: RESOLVED
   summary: iSCSI initiator delays boot for ~2 mins
 - component: GNOME
   create_time: 20180917T08:47:00
@@ -14627,6 +14627,30 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/redis'
 '20181029':
+- component: GNOME
+  create_time: 20181031T23:31:00
+  id: 1114259
+  resolution: ''
+  status: NEW
+  summary: Disabled autostart for Tracker services are overwritten on updates
+- component: KDE Workspace (Plasma)
+  create_time: 20181031T23:24:00
+  id: 1114258
+  resolution: ''
+  status: NEW
+  summary: Latest update of kcheckpass breaks custom PAM configuration
+- component: Other
+  create_time: 20181031T22:41:00
+  id: 1114257
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/subversion is out of date'
+- component: X11 3rd Party Driver
+  create_time: 20181031T21:41:00
+  id: 1114251
+  resolution: ''
+  status: NEW
+  summary: NVIDIA driver components have different versions
 - component: Development
   create_time: 20181031T15:38:00
   id: 1114209
