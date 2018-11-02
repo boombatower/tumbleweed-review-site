@@ -2295,8 +2295,8 @@
 - component: Basesystem
   create_time: 20180122T11:13:00
   id: 1077015
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: zypper dup/up on Btrfs consume 100% CPU and freeze desktop
 - component: Other
   create_time: 20180122T10:57:00
@@ -14570,7 +14570,7 @@
   create_time: 20181022T20:22:00
   id: 1112817
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Firefox 63 requires rust >= 1.28
 - component: KDE Workspace (Plasma)
   create_time: 20181022T20:03:00
@@ -14627,6 +14627,51 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/redis'
 '20181029':
+- component: X11 Applications
+  create_time: 20181102T17:23:00
+  id: 1114537
+  resolution: ''
+  status: NEW
+  summary: Exec and TryExec of Gimp's /usr/share/applications/gimp.desktop should
+    be gimp
+- component: Kernel
+  create_time: 20181102T15:52:00
+  id: 1114523
+  resolution: FIXED
+  status: RESOLVED
+  summary: please add the aacraid driver to the default kernel config on ppc64le
+- component: Network
+  create_time: 20181102T14:20:00
+  id: 1114502
+  resolution: ''
+  status: NEW
+  summary: wpa_supplicant start before network.target and ignored Link section in
+    systemd-networkd config
+- component: Kubic
+  create_time: 20181102T10:43:00
+  id: 1114455
+  resolution: ''
+  status: NEW
+  summary: '[20181101] kubeadm_base installation failed'
+- component: Kubic
+  create_time: 20181102T10:25:00
+  id: 1114447
+  resolution: ''
+  status: NEW
+  summary: '[20181101] transactional-updates: line 707: [: single: integer expression
+    expected'
+- component: Network
+  create_time: 20181102T06:22:00
+  id: 1114404
+  resolution: ''
+  status: NEW
+  summary: 'NetworkManager segfault: error 6 in libc-2.27.so'
+- component: GNOME
+  create_time: 20181102T02:06:00
+  id: 1114391
+  resolution: ''
+  status: NEW
+  summary: nm-applet background not painted in lxpanel
 - component: YaST2
   create_time: 20181102T01:40:00
   id: 1114388
