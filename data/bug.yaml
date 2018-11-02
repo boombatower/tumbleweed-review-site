@@ -14261,7 +14261,7 @@
   create_time: 20181024T16:21:00
   id: 1113151
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Out of date package: openSUSE:Factory/libisoburn is out of date'
 - component: Other
   create_time: 20181024T15:45:00
@@ -14627,6 +14627,18 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/redis'
 '20181029':
+- component: YaST2
+  create_time: 20181102T01:40:00
+  id: 1114388
+  resolution: ''
+  status: NEW
+  summary: yast get error while update time with ntp server like pool.ntp.org
+- component: Security
+  create_time: 20181101T22:02:00
+  id: 1114383
+  resolution: ''
+  status: NEW
+  summary: chkstat is not always called after Zypper has installed packages
 - component: Basesystem
   create_time: 20181101T12:03:00
   id: 1114287
@@ -14648,8 +14660,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20181031T23:24:00
   id: 1114258
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Latest update of kcheckpass breaks custom PAM configuration
 - component: Other
   create_time: 20181031T22:41:00
@@ -14726,8 +14738,8 @@
 - component: Basesystem
   create_time: 20181030T15:41:00
   id: 1114008
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: SSH access fails after upgrade to openssh-7.8p1-1.1.x86_64
 - component: YaST2
   create_time: 20181030T15:24:00
