@@ -7772,7 +7772,7 @@
   create_time: 20180510T10:59:00
   id: 1092737
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20180508] openQA test fails in hexchat - Wrong visualization for
     special characters and numbers.'
 - component: Other
