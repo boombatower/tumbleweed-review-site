@@ -10538,7 +10538,7 @@
   create_time: 20180716T21:20:00
   id: 1101393
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Suspend/Resumes shows desktop content before loading a lockscreen with
     potential privacy concerns
 - component: Other
