@@ -14627,6 +14627,12 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/redis'
 '20181029':
+- component: Kernel
+  create_time: 20181103T09:45:00
+  id: 1114566
+  resolution: ''
+  status: NEW
+  summary: Warnings during kernel build
 - component: X11 Applications
   create_time: 20181102T17:23:00
   id: 1114537
