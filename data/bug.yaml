@@ -14260,8 +14260,8 @@
 - component: Other
   create_time: 20181024T16:21:00
   id: 1113151
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/libisoburn is out of date'
 - component: Other
   create_time: 20181024T15:45:00
@@ -14627,6 +14627,24 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/redis'
 '20181029':
+- component: YaST2
+  create_time: 20181103T18:03:00
+  id: 1114573
+  resolution: ''
+  status: NEW
+  summary: Expand libyui to support setting YImage from icon theme
+- component: Other
+  create_time: 20181103T16:42:00
+  id: 1114571
+  resolution: ''
+  status: NEW
+  summary: python-textX not reproducible
+- component: Network
+  create_time: 20181103T15:14:00
+  id: 1114569
+  resolution: ''
+  status: NEW
+  summary: Need to delete /etc/resolv.conf when connecting to Wifi with specific DNS
 - component: Kernel
   create_time: 20181103T09:45:00
   id: 1114566
