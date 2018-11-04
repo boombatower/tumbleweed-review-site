@@ -14627,6 +14627,18 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/redis'
 '20181029':
+- component: Other
+  create_time: 20181104T15:51:00
+  id: 1114591
+  resolution: ''
+  status: NEW
+  summary: Fish Fillets - Next Generation broken for Leap 15.0 and Tumbleweed
+- component: Basesystem
+  create_time: 20181104T15:01:00
+  id: 1114589
+  resolution: ''
+  status: NEW
+  summary: Add earlyoom package to the system
 - component: GNOME
   create_time: 20181104T06:39:00
   id: 1114587
