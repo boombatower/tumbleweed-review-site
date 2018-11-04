@@ -7772,7 +7772,7 @@
   create_time: 20180510T10:59:00
   id: 1092737
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: '[Build 20180508] openQA test fails in hexchat - Wrong visualization for
     special characters and numbers.'
 - component: Other
@@ -14627,6 +14627,18 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/redis'
 '20181029':
+- component: GNOME
+  create_time: 20181104T06:39:00
+  id: 1114587
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Disgusting performance gnome in opensuse
+- component: Bootloader
+  create_time: 20181104T04:19:00
+  id: 1114586
+  resolution: ''
+  status: NEW
+  summary: grub2-mkconfig is not building menu for other systems.
 - component: YaST2
   create_time: 20181103T18:03:00
   id: 1114573
