@@ -14627,6 +14627,18 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/redis'
 '20181029':
+- component: Bootloader
+  create_time: 20181105T19:14:00
+  id: 1114754
+  resolution: ''
+  status: NEW
+  summary: Can't boot with Tumbleweed Live CD
+- component: Kernel
+  create_time: 20181105T18:45:00
+  id: 1114752
+  resolution: ''
+  status: NEW
+  summary: kernel 4.18.15-1 show very low buff/cache ... so performance is very poor
 - component: GNOME
   create_time: 20181105T12:23:00
   id: 1114680
@@ -14680,17 +14692,17 @@
   status: NEW
   summary: 'Vulnerabilities: Type: l1tf mitigation: PTE Inversion; VMX: conditional
     cache flushes, SMT vulnerable'
-- component: Other
+- component: KDE Applications
   create_time: 20181105T03:15:00
   id: 1114602
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/kmymoney'
 - component: Other
   create_time: 20181105T03:13:00
   id: 1114601
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/libvirt'
 - component: Other
   create_time: 20181105T03:07:00
