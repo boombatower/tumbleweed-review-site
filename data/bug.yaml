@@ -11666,8 +11666,8 @@
 - component: Containers
   create_time: 20180816T02:04:00
   id: 1105000
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: harmonise docker and docker-kubic packaging
 - component: Network
   create_time: 20180815T22:09:00
@@ -12698,8 +12698,8 @@
 - component: GNOME
   create_time: 20180917T10:34:00
   id: 1108649
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Polari doesn't work anymore after update to 20180915 (from 20180820)
 - component: Firefox
   create_time: 20180917T10:03:00
@@ -13307,8 +13307,8 @@
 - component: Kubic
   create_time: 20181008T08:14:00
   id: 1111012
-  resolution: ''
-  status: CONFIRMED
+  resolution: WONTFIX
+  status: RESOLVED
   summary: cri-o writes log files to /tmp
 - component: YaST2
   create_time: 20181007T21:36:00
@@ -14166,8 +14166,8 @@
 - component: YaST2
   create_time: 20181026T11:30:00
   id: 1113506
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20181025] openQA test fails in await_install  ImportError: libffi.so.7:
     cannot open shared object file: No such file or directory'
 - component: Development
@@ -14627,6 +14627,46 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/redis'
 '20181029':
+- component: GNOME
+  create_time: 20181105T12:23:00
+  id: 1114680
+  resolution: ''
+  status: NEW
+  summary: NetworkManager Hotspot does not assign IP, dnsmasq cannot start because
+    AppArmor
+- component: YaST2
+  create_time: 20181105T12:14:00
+  id: 1114677
+  resolution: ''
+  status: NEW
+  summary: 'New UI for firewalld: dialog dissapear after switching service status'
+- component: YaST2
+  create_time: 20181105T11:49:00
+  id: 1114673
+  resolution: ''
+  status: NEW
+  summary: 'New UI for firewalld: interface not assigned to the right zone when changed
+    to public in first run'
+- component: YaST2
+  create_time: 20181105T10:53:00
+  id: 1114654
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181102] openQA test fails in select_patterns_and_packages'
+- component: YaST2
+  create_time: 20181105T08:11:00
+  id: 1114621
+  resolution: INVALID
+  status: RESOLVED
+  summary: '[Build 20181101] partitioning_splitusr: not possible to create a partition
+    on /dev/vda'
+- component: YaST2
+  create_time: 20181105T08:07:00
+  id: 1114620
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181101] yast2-branding makes seamless upgrade from 13.1 to TW
+    impossible'
 - component: Other
   create_time: 20181105T04:53:00
   id: 1114607
@@ -14644,7 +14684,7 @@
   create_time: 20181105T03:15:00
   id: 1114602
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Out of date package: openSUSE:Factory/kmymoney'
 - component: Other
   create_time: 20181105T03:13:00
@@ -14761,7 +14801,7 @@
   create_time: 20181101T22:02:00
   id: 1114383
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: chkstat is not always called after Zypper has installed packages
 - component: Basesystem
   create_time: 20181101T12:03:00
