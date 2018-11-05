@@ -13816,8 +13816,8 @@
 - component: Network
   create_time: 20181015T14:27:00
   id: 1111873
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: wpa_supplicant missing eapol_test binary
 - component: Patterns
   create_time: 20181015T14:11:00
@@ -14628,6 +14628,37 @@
   summary: 'Out of date package: openSUSE:Factory/redis'
 '20181029':
 - component: Other
+  create_time: 20181105T04:53:00
+  id: 1114607
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/mpd is out of date'
+- component: Security
+  create_time: 20181105T04:21:00
+  id: 1114603
+  resolution: ''
+  status: NEW
+  summary: 'Vulnerabilities: Type: l1tf mitigation: PTE Inversion; VMX: conditional
+    cache flushes, SMT vulnerable'
+- component: Other
+  create_time: 20181105T03:15:00
+  id: 1114602
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/kmymoney'
+- component: Other
+  create_time: 20181105T03:13:00
+  id: 1114601
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/libvirt'
+- component: Other
+  create_time: 20181105T03:07:00
+  id: 1114600
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/cinnamon'
+- component: Other
   create_time: 20181104T15:51:00
   id: 1114591
   resolution: ''
@@ -14648,8 +14679,8 @@
 - component: Bootloader
   create_time: 20181104T04:19:00
   id: 1114586
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: grub2-mkconfig is not building menu for other systems.
 - component: YaST2
   create_time: 20181103T18:03:00
@@ -14766,7 +14797,7 @@
   create_time: 20181031T15:38:00
   id: 1114209
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'go: provides(API) causes "have option" unresolveable builds'
 - component: YaST2
   create_time: 20181031T14:01:00
