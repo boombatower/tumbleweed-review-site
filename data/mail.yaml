@@ -1280,3 +1280,8 @@
   - messages: [2018-10.361]
     reference_count: 4
     summary: openssh 7.8p1
+'20181103':
+  announcement: 2018-11.8
+  reference_count: 0
+  thread_count: 0
+  threads: []
