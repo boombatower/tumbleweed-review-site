@@ -1544,8 +1544,8 @@
 - component: Basesystem
   create_time: 20180107T12:04:00
   id: 1074904
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: chronyd fails to start on boot
 - component: Other
   create_time: 20180107T04:56:00
@@ -13384,8 +13384,8 @@
 - component: Cloud:Tools
   create_time: 20181010T18:47:00
   id: 1111441
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Cloud-init opensuse tumbleweed Power
 - component: Other
   create_time: 20181010T18:43:00
@@ -14860,6 +14860,18 @@
   status: NEW
   summary: chrony not enabled by default
 '20181103':
+- component: libzypp
+  create_time: 20181106T18:04:00
+  id: 1114908
+  resolution: ''
+  status: NEW
+  summary: zypper --plus-content does not work as expected
+- component: KDE Applications
+  create_time: 20181106T14:27:00
+  id: 1114866
+  resolution: ''
+  status: NEW
+  summary: ICE difficulties with KTorrent 5.1.1
 - component: Printing
   create_time: 20181106T13:00:00
   id: 1114853
