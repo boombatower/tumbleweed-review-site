@@ -14813,8 +14813,8 @@
 - component: Other
   create_time: 20181030T08:10:00
   id: 1113888
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: '[Staging]: strace fails to build against kernel / linux-glibc-devel 4.19'
 - component: Other
   create_time: 20181030T05:10:00
