@@ -398,13 +398,13 @@
   score: 99
   stability_level: stable
 '20180703':
-  score: 89
-  stability_level: moderate
+  score: 99
+  stability_level: stable
 '20180704':
-  score: 82
+  score: 86
   stability_level: moderate
 '20180707':
-  score: 91
+  score: 93
   stability_level: stable
 '20180709':
   score: 81
@@ -413,7 +413,7 @@
   score: 91
   stability_level: stable
 '20180712':
-  score: 92
+  score: 93
   stability_level: stable
 '20180714':
   score: 94
@@ -545,5 +545,8 @@
   score: 86
   stability_level: moderate
 '20181103':
-  score: 91
+  score: 93
+  stability_level: pending
+'20181105':
+  score: 95
   stability_level: pending
