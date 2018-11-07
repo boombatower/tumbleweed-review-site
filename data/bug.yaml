@@ -14173,8 +14173,8 @@
 - component: Development
   create_time: 20181026T09:39:00
   id: 1113476
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: TW QT5 SQL Postgres query does deliver record field names but does not
     deliver records
 - component: Network
@@ -14650,14 +14650,14 @@
 - component: Kubic
   create_time: 20181102T10:43:00
   id: 1114455
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[20181101] kubeadm_base installation failed'
 - component: Kubic
   create_time: 20181102T10:25:00
   id: 1114447
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[20181101] transactional-updates: line 707: [: single: integer expression
     expected'
 - component: Network
@@ -14860,11 +14860,72 @@
   status: NEW
   summary: chrony not enabled by default
 '20181103':
+- component: Other
+  create_time: 20181104T15:51:00
+  id: 1114591
+  resolution: ''
+  status: NEW
+  summary: Fish Fillets - Next Generation broken for Leap 15.0 and Tumbleweed
+- component: Basesystem
+  create_time: 20181104T15:01:00
+  id: 1114589
+  resolution: ''
+  status: NEW
+  summary: Add earlyoom package to the system
+- component: GNOME
+  create_time: 20181104T06:39:00
+  id: 1114587
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Disgusting performance gnome in opensuse
+- component: Bootloader
+  create_time: 20181104T04:19:00
+  id: 1114586
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: grub2-mkconfig is not building menu for other systems.
+- component: YaST2
+  create_time: 20181103T18:03:00
+  id: 1114573
+  resolution: ''
+  status: CONFIRMED
+  summary: Expand libyui to support setting YImage from icon theme
+- component: Other
+  create_time: 20181103T16:42:00
+  id: 1114571
+  resolution: ''
+  status: NEW
+  summary: python-textX not reproducible
+- component: Network
+  create_time: 20181103T15:14:00
+  id: 1114569
+  resolution: ''
+  status: NEW
+  summary: Need to delete /etc/resolv.conf when connecting to Wifi with specific DNS
+- component: Kernel
+  create_time: 20181103T09:45:00
+  id: 1114566
+  resolution: ''
+  status: NEW
+  summary: Warnings during kernel build
+'20181105':
+- component: Cloud:Tools
+  create_time: 20181107T11:11:00
+  id: 1115000
+  resolution: ''
+  status: NEW
+  summary: cloud-init in TW snapshots 1105 and 1106 do not populate /etc/resolv.conf
+- component: Network
+  create_time: 20181107T08:46:00
+  id: 1114965
+  resolution: ''
+  status: NEW
+  summary: Update to 20181029 dropped /etc/sysconfig/SuSEfirewall2.d/services/sshd
 - component: libzypp
   create_time: 20181106T18:04:00
   id: 1114908
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: zypper --plus-content does not work as expected
 - component: KDE Applications
   create_time: 20181106T14:27:00
@@ -14945,8 +15006,8 @@
 - component: YaST2
   create_time: 20181105T08:07:00
   id: 1114620
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20181101] yast2-branding makes seamless upgrade from 13.1 to TW
     impossible'
 - component: Other
@@ -14980,51 +15041,3 @@
   resolution: ''
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/cinnamon'
-- component: Other
-  create_time: 20181104T15:51:00
-  id: 1114591
-  resolution: ''
-  status: NEW
-  summary: Fish Fillets - Next Generation broken for Leap 15.0 and Tumbleweed
-- component: Basesystem
-  create_time: 20181104T15:01:00
-  id: 1114589
-  resolution: ''
-  status: NEW
-  summary: Add earlyoom package to the system
-- component: GNOME
-  create_time: 20181104T06:39:00
-  id: 1114587
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Disgusting performance gnome in opensuse
-- component: Bootloader
-  create_time: 20181104T04:19:00
-  id: 1114586
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: grub2-mkconfig is not building menu for other systems.
-- component: YaST2
-  create_time: 20181103T18:03:00
-  id: 1114573
-  resolution: ''
-  status: CONFIRMED
-  summary: Expand libyui to support setting YImage from icon theme
-- component: Other
-  create_time: 20181103T16:42:00
-  id: 1114571
-  resolution: ''
-  status: NEW
-  summary: python-textX not reproducible
-- component: Network
-  create_time: 20181103T15:14:00
-  id: 1114569
-  resolution: ''
-  status: NEW
-  summary: Need to delete /etc/resolv.conf when connecting to Wifi with specific DNS
-- component: Kernel
-  create_time: 20181103T09:45:00
-  id: 1114566
-  resolution: ''
-  status: NEW
-  summary: Warnings during kernel build
