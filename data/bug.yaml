@@ -12318,7 +12318,7 @@
   create_time: 20180907T07:26:00
   id: 1107611
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: move /etc/modprobe.d/50-blacklist.conf out of sysconfig
 - component: Basesystem
   create_time: 20180907T06:08:00
@@ -13313,8 +13313,8 @@
 - component: YaST2
   create_time: 20181007T21:36:00
   id: 1110986
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Installer Error on MacBook Pro 2016 - YaST2/clients/inst_disk_proposal.rb
     failed with 'Storage::Exception'
 - component: X.Org
@@ -14130,7 +14130,7 @@
   create_time: 20181027T02:11:00
   id: 1113605
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Out of date package: openSUSE:Factory/maim is out of date and does not
     capture screenshots properly'
 - component: Other
@@ -14223,8 +14223,8 @@
 - component: GNOME
   create_time: 20181025T06:11:00
   id: 1113215
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20181023] FTBFS: openSUSE:Factory gnucash 3.2'
 - component: Network
   create_time: 20181025T00:10:00
@@ -14909,6 +14909,126 @@
   status: NEW
   summary: Warnings during kernel build
 '20181105':
+- component: YaST2
+  create_time: 20181107T19:09:00
+  id: 1115087
+  resolution: ''
+  status: NEW
+  summary: Yast2 Software Management with Illegible Icons
+- component: Kernel
+  create_time: 20181107T18:11:00
+  id: 1115081
+  resolution: ''
+  status: NEW
+  summary: XBox USB game controller not working in tumbleweed
+- component: Other
+  create_time: 20181107T15:59:00
+  id: 1115067
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/tomahawk fails to build'
+- component: Other
+  create_time: 20181107T15:59:00
+  id: 1115066
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/emacs-vm fails to build'
+- component: Other
+  create_time: 20181107T15:59:00
+  id: 1115065
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/emacs-dash fails to build'
+- component: Other
+  create_time: 20181107T15:58:00
+  id: 1115064
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/emacs-haskell-mode fails to build'
+- component: Other
+  create_time: 20181107T15:58:00
+  id: 1115063
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/attractmode fails to build'
+- component: Other
+  create_time: 20181107T15:57:00
+  id: 1115062
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/xsp fails to build'
+- component: Other
+  create_time: 20181107T15:57:00
+  id: 1115061
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'FTBFS: openSUSE:Factory/sdl-asylum fails to build'
+- component: Other
+  create_time: 20181107T15:55:00
+  id: 1115059
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/octave-forge-fuzzy-logic-toolkit fails to build'
+- component: Other
+  create_time: 20181107T15:55:00
+  id: 1115058
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/golang-googlecode-mango-doc fails to build'
+- component: Other
+  create_time: 20181107T15:55:00
+  id: 1115057
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/synergy fails to build'
+- component: Other
+  create_time: 20181107T15:54:00
+  id: 1115056
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/smillaenlarger fails to build'
+- component: Other
+  create_time: 20181107T15:54:00
+  id: 1115055
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/solarus-quest-editor fails to build'
+- component: Other
+  create_time: 20181107T15:53:00
+  id: 1115054
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/ext3grep fails to build'
+- component: Other
+  create_time: 20181107T15:53:00
+  id: 1115053
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/ext4magic fails to build'
+- component: Other
+  create_time: 20181107T15:52:00
+  id: 1115052
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/checkpolicy fails to build'
+- component: Other
+  create_time: 20181107T15:52:00
+  id: 1115050
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/octave-forge-fl-core fails to build'
+- component: Other
+  create_time: 20181107T15:52:00
+  id: 1115049
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/octave-forge-linear-algebra fails to build'
+- component: Other
+  create_time: 20181107T15:49:00
+  id: 1115048
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/octave-forge-communications fails to build'
 - component: Cloud:Tools
   create_time: 20181107T11:11:00
   id: 1115000
@@ -14930,15 +15050,16 @@
 - component: KDE Applications
   create_time: 20181106T14:27:00
   id: 1114866
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: ICE difficulties with KTorrent 5.1.1
-- component: Printing
+- component: Security
   create_time: 20181106T13:00:00
   id: 1114853
   resolution: ''
   status: NEW
-  summary: SMB printer settings test fails if the password includes a backtick
+  summary: 'VUL-1: yast2-printer: SMB printer settings test fails if the password
+    includes a backtick'
 - component: Kernel
   create_time: 20181106T12:15:00
   id: 1114846
