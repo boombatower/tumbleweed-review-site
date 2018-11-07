@@ -10310,8 +10310,8 @@
 - component: Other
   create_time: 20180709T21:33:00
   id: 1100660
-  resolution: ''
-  status: REOPENED
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Snap packages error
 - component: LXDE
   create_time: 20180709T18:18:00
@@ -12161,8 +12161,8 @@
 - component: Other
   create_time: 20180901T15:43:00
   id: 1106834
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Snappy cannot perform readlinkat() on the mount namespace
 - component: Kernel
   create_time: 20180901T14:56:00
