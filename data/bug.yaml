@@ -14909,6 +14909,24 @@
   status: NEW
   summary: Warnings during kernel build
 '20181105':
+- component: X.Org
+  create_time: 20181108T01:20:00
+  id: 1115121
+  resolution: ''
+  status: NEW
+  summary: X.Org log in loop
+- component: Virtualization:Tools
+  create_time: 20181107T23:54:00
+  id: 1115118
+  resolution: ''
+  status: NEW
+  summary: open-vm-tools 10.3.5 released
+- component: GNOME
+  create_time: 20181107T22:03:00
+  id: 1115109
+  resolution: ''
+  status: NEW
+  summary: empathy does not limit icon size in history
 - component: YaST2
   create_time: 20181107T19:09:00
   id: 1115087
