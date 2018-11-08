@@ -11654,8 +11654,8 @@
 - component: Other
   create_time: 20180816T13:31:00
   id: 1105081
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[TRACKER BUG] Boost upgrade to 1.68.0 compilation issues'
 - component: GNOME
   create_time: 20180816T08:47:00
@@ -12194,7 +12194,7 @@
   create_time: 20180831T06:39:00
   id: 1106705
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: NetworkManager requires CA private key for OpenVPN connection
 - component: Other
   create_time: 20180831T04:17:00
@@ -13210,7 +13210,7 @@
   create_time: 20181003T23:16:00
   id: 1110669
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: twisted.internet.gireactor (python3-Twisted) requires pygtkcompat
 - component: GNOME
   create_time: 20181003T23:05:00
@@ -14129,8 +14129,8 @@
 - component: Other
   create_time: 20181027T02:11:00
   id: 1113605
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/maim is out of date and does not
     capture screenshots properly'
 - component: Other
@@ -14909,156 +14909,6 @@
   status: NEW
   summary: Warnings during kernel build
 '20181105':
-- component: X.Org
-  create_time: 20181108T01:20:00
-  id: 1115121
-  resolution: ''
-  status: NEW
-  summary: X.Org log in loop
-- component: Virtualization:Tools
-  create_time: 20181107T23:54:00
-  id: 1115118
-  resolution: ''
-  status: NEW
-  summary: open-vm-tools 10.3.5 released
-- component: GNOME
-  create_time: 20181107T22:03:00
-  id: 1115109
-  resolution: ''
-  status: NEW
-  summary: empathy does not limit icon size in history
-- component: YaST2
-  create_time: 20181107T19:09:00
-  id: 1115087
-  resolution: ''
-  status: NEW
-  summary: Yast2 Software Management with Illegible Icons
-- component: Kernel
-  create_time: 20181107T18:11:00
-  id: 1115081
-  resolution: ''
-  status: NEW
-  summary: XBox USB game controller not working in tumbleweed
-- component: Other
-  create_time: 20181107T15:59:00
-  id: 1115067
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: 'FTBFS: openSUSE:Factory/tomahawk fails to build'
-- component: Other
-  create_time: 20181107T15:59:00
-  id: 1115066
-  resolution: ''
-  status: NEW
-  summary: 'FTBFS: openSUSE:Factory/emacs-vm fails to build'
-- component: Other
-  create_time: 20181107T15:59:00
-  id: 1115065
-  resolution: ''
-  status: NEW
-  summary: 'FTBFS: openSUSE:Factory/emacs-dash fails to build'
-- component: Other
-  create_time: 20181107T15:58:00
-  id: 1115064
-  resolution: ''
-  status: NEW
-  summary: 'FTBFS: openSUSE:Factory/emacs-haskell-mode fails to build'
-- component: Other
-  create_time: 20181107T15:58:00
-  id: 1115063
-  resolution: ''
-  status: NEW
-  summary: 'FTBFS: openSUSE:Factory/attractmode fails to build'
-- component: Other
-  create_time: 20181107T15:57:00
-  id: 1115062
-  resolution: ''
-  status: NEW
-  summary: 'FTBFS: openSUSE:Factory/xsp fails to build'
-- component: Other
-  create_time: 20181107T15:57:00
-  id: 1115061
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'FTBFS: openSUSE:Factory/sdl-asylum fails to build'
-- component: Other
-  create_time: 20181107T15:55:00
-  id: 1115059
-  resolution: ''
-  status: NEW
-  summary: 'FTBFS: openSUSE:Factory/octave-forge-fuzzy-logic-toolkit fails to build'
-- component: Other
-  create_time: 20181107T15:55:00
-  id: 1115058
-  resolution: ''
-  status: NEW
-  summary: 'FTBFS: openSUSE:Factory/golang-googlecode-mango-doc fails to build'
-- component: Other
-  create_time: 20181107T15:55:00
-  id: 1115057
-  resolution: ''
-  status: NEW
-  summary: 'FTBFS: openSUSE:Factory/synergy fails to build'
-- component: Other
-  create_time: 20181107T15:54:00
-  id: 1115056
-  resolution: ''
-  status: NEW
-  summary: 'FTBFS: openSUSE:Factory/smillaenlarger fails to build'
-- component: Other
-  create_time: 20181107T15:54:00
-  id: 1115055
-  resolution: ''
-  status: NEW
-  summary: 'FTBFS: openSUSE:Factory/solarus-quest-editor fails to build'
-- component: Other
-  create_time: 20181107T15:53:00
-  id: 1115054
-  resolution: ''
-  status: NEW
-  summary: 'FTBFS: openSUSE:Factory/ext3grep fails to build'
-- component: Other
-  create_time: 20181107T15:53:00
-  id: 1115053
-  resolution: ''
-  status: NEW
-  summary: 'FTBFS: openSUSE:Factory/ext4magic fails to build'
-- component: Other
-  create_time: 20181107T15:52:00
-  id: 1115052
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'FTBFS: openSUSE:Factory/checkpolicy fails to build'
-- component: Other
-  create_time: 20181107T15:52:00
-  id: 1115050
-  resolution: ''
-  status: NEW
-  summary: 'FTBFS: openSUSE:Factory/octave-forge-fl-core fails to build'
-- component: Other
-  create_time: 20181107T15:52:00
-  id: 1115049
-  resolution: ''
-  status: NEW
-  summary: 'FTBFS: openSUSE:Factory/octave-forge-linear-algebra fails to build'
-- component: Other
-  create_time: 20181107T15:49:00
-  id: 1115048
-  resolution: ''
-  status: NEW
-  summary: 'FTBFS: openSUSE:Factory/octave-forge-communications fails to build'
-- component: Cloud:Tools
-  create_time: 20181107T11:11:00
-  id: 1115000
-  resolution: ''
-  status: NEW
-  summary: cloud-init in TW snapshots 1105 and 1106 do not populate /etc/resolv.conf
-- component: Network
-  create_time: 20181107T08:46:00
-  id: 1114965
-  resolution: ''
-  status: NEW
-  summary: Update to 20181029 dropped /etc/sysconfig/SuSEfirewall2.d/services/sshd
 - component: libzypp
   create_time: 20181106T18:04:00
   id: 1114908
@@ -15131,8 +14981,8 @@
 - component: YaST2
   create_time: 20181105T10:53:00
   id: 1114654
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20181102] PatternSelector / PackageSelector icons missing: openQA
     test fails in select_patterns_and_packages'
 - component: YaST2
@@ -15180,3 +15030,197 @@
   resolution: ''
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/cinnamon'
+'20181107':
+- component: KDE Workspace (Plasma)
+  create_time: 20181108T13:45:00
+  id: 1115233
+  resolution: ''
+  status: NEW
+  summary: keyboard not functional after system resume
+- component: Other
+  create_time: 20181108T11:38:00
+  id: 1115213
+  resolution: ''
+  status: NEW
+  summary: php7 should not require smtp_daemon
+- component: GNOME
+  create_time: 20181108T10:25:00
+  id: 1115189
+  resolution: ''
+  status: NEW
+  summary: Evolution is built without libnotify support
+- component: YaST2
+  create_time: 20181108T10:10:00
+  id: 1115188
+  resolution: ''
+  status: NEW
+  summary: Mis-parsing of XML by 'yast2 software-update' on powerpc linux opensuse
+    tumbleweed
+- component: Other
+  create_time: 20181108T10:03:00
+  id: 1115183
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Nextcloud client / Nautilus extension fails to launch
+- component: Other
+  create_time: 20181108T08:42:00
+  id: 1115169
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181107] rabbitmq falis to start'
+- component: Other
+  create_time: 20181108T08:42:00
+  id: 1115168
+  resolution: ''
+  status: NEW
+  summary: '[util-linux] incorrect socket path in uuidd.socket'
+- component: X.Org
+  create_time: 20181108T01:20:00
+  id: 1115121
+  resolution: ''
+  status: NEW
+  summary: X.Org log in loop
+- component: Virtualization:Tools
+  create_time: 20181107T23:54:00
+  id: 1115118
+  resolution: ''
+  status: NEW
+  summary: open-vm-tools 10.3.5 released
+- component: GNOME
+  create_time: 20181107T22:03:00
+  id: 1115109
+  resolution: ''
+  status: NEW
+  summary: empathy does not limit icon size in history
+- component: YaST2
+  create_time: 20181107T19:09:00
+  id: 1115087
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: Yast2 Software Management with Illegible Icons
+- component: Kernel
+  create_time: 20181107T18:11:00
+  id: 1115081
+  resolution: ''
+  status: NEW
+  summary: XBox USB game controller not working in tumbleweed
+- component: Other
+  create_time: 20181107T15:59:00
+  id: 1115067
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/tomahawk fails to build'
+- component: Other
+  create_time: 20181107T15:59:00
+  id: 1115066
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/emacs-vm fails to build'
+- component: Other
+  create_time: 20181107T15:59:00
+  id: 1115065
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/emacs-dash fails to build'
+- component: Other
+  create_time: 20181107T15:58:00
+  id: 1115064
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/emacs-haskell-mode fails to build'
+- component: Other
+  create_time: 20181107T15:58:00
+  id: 1115063
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/attractmode fails to build'
+- component: Other
+  create_time: 20181107T15:57:00
+  id: 1115062
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/xsp fails to build'
+- component: Other
+  create_time: 20181107T15:57:00
+  id: 1115061
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/sdl-asylum fails to build'
+- component: Other
+  create_time: 20181107T15:55:00
+  id: 1115059
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/octave-forge-fuzzy-logic-toolkit fails to build'
+- component: Other
+  create_time: 20181107T15:55:00
+  id: 1115058
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/golang-googlecode-mango-doc fails to build'
+- component: Other
+  create_time: 20181107T15:55:00
+  id: 1115057
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: openSUSE:Factory/synergy fails to build'
+- component: Other
+  create_time: 20181107T15:54:00
+  id: 1115056
+  resolution: ''
+  status: CONFIRMED
+  summary: 'FTBFS: openSUSE:Factory/smillaenlarger fails to build'
+- component: Other
+  create_time: 20181107T15:54:00
+  id: 1115055
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/solarus-quest-editor fails to build'
+- component: Other
+  create_time: 20181107T15:53:00
+  id: 1115054
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/ext3grep fails to build'
+- component: Other
+  create_time: 20181107T15:53:00
+  id: 1115053
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/ext4magic fails to build'
+- component: Other
+  create_time: 20181107T15:52:00
+  id: 1115052
+  resolution: ''
+  status: REOPENED
+  summary: 'FTBFS: openSUSE:Factory/checkpolicy fails to build'
+- component: Other
+  create_time: 20181107T15:52:00
+  id: 1115050
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/octave-forge-fl-core fails to build'
+- component: Other
+  create_time: 20181107T15:52:00
+  id: 1115049
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/octave-forge-linear-algebra fails to build'
+- component: Other
+  create_time: 20181107T15:49:00
+  id: 1115048
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/octave-forge-communications fails to build'
+- component: Cloud:Tools
+  create_time: 20181107T11:11:00
+  id: 1115000
+  resolution: ''
+  status: NEW
+  summary: cloud-init in TW snapshots 1105 and 1106 do not populate /etc/resolv.conf
+- component: Network
+  create_time: 20181107T08:46:00
+  id: 1114965
+  resolution: ''
+  status: NEW
+  summary: Update to 20181029 dropped /etc/sysconfig/SuSEfirewall2.d/services/sshd
