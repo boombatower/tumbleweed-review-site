@@ -14112,7 +14112,7 @@
   create_time: 20181027T13:00:00
   id: 1113615
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: TW 20181022 doesn't detect other OSes when setting up boot loader
 - component: YaST2
   create_time: 20181027T12:23:00
@@ -14938,7 +14938,7 @@
   create_time: 20181106T09:36:00
   id: 1114818
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: New kubeadm NTP screen does not prefill ntp.org pool servers
 - component: YaST2
   create_time: 20181106T08:27:00
@@ -15003,7 +15003,7 @@
   create_time: 20181105T04:53:00
   id: 1114607
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'Out of date package: openSUSE:Factory/mpd is out of date'
 - component: Security
   create_time: 20181105T04:21:00
@@ -15119,14 +15119,14 @@
 - component: Other
   create_time: 20181107T15:59:00
   id: 1115065
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/emacs-dash fails to build'
 - component: Other
   create_time: 20181107T15:58:00
   id: 1115064
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/emacs-haskell-mode fails to build'
 - component: Other
   create_time: 20181107T15:58:00
