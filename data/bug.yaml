@@ -15008,8 +15008,8 @@
 - component: Security
   create_time: 20181105T04:21:00
   id: 1114603
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Vulnerabilities: Type: l1tf mitigation: PTE Inversion; VMX: conditional
     cache flushes, SMT vulnerable'
 - component: KDE Applications
@@ -15031,6 +15031,150 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/cinnamon'
 '20181107':
+- component: Other
+  create_time: 20181109T16:17:00
+  id: 1115471
+  resolution: ''
+  status: NEW
+  summary: retext is not able to parse file contents
+- component: libzypp
+  create_time: 20181109T16:11:00
+  id: 1115469
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20181108] openQA test fails in select_patterns_and_packages'
+- component: Other
+  create_time: 20181109T15:20:00
+  id: 1115465
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Out of date package: openSUSE:Factory/php7 is out of date'
+- component: Other
+  create_time: 20181109T15:19:00
+  id: 1115464
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/docker is out of date'
+- component: Security
+  create_time: 20181109T15:18:00
+  id: 1115463
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Out of date package: openSUSE:Factory/virtualbox is out of date'
+- component: Other
+  create_time: 20181109T15:16:00
+  id: 1115462
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/samba is out of date'
+- component: Basesystem
+  create_time: 20181109T15:08:00
+  id: 1115459
+  resolution: ''
+  status: NEW
+  summary: 'yum: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T15:06:00
+  id: 1115458
+  resolution: ''
+  status: NEW
+  summary: 'tmpwatch: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T15:05:00
+  id: 1115457
+  resolution: ''
+  status: NEW
+  summary: 'storeBackup: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T15:04:00
+  id: 1115456
+  resolution: ''
+  status: NEW
+  summary: 'sarg: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T15:03:00
+  id: 1115455
+  resolution: ''
+  status: NEW
+  summary: 'rkhunter: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T15:01:00
+  id: 1115454
+  resolution: ''
+  status: NEW
+  summary: 'postgrey: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T14:59:00
+  id: 1115453
+  resolution: ''
+  status: NEW
+  summary: 'patch2mail: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T14:58:00
+  id: 1115452
+  resolution: ''
+  status: NEW
+  summary: 'openlmi-providers: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T14:56:00
+  id: 1115451
+  resolution: ''
+  status: NEW
+  summary: 'nagios: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T14:51:00
+  id: 1115448
+  resolution: ''
+  status: NEW
+  summary: 'munin: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T14:50:00
+  id: 1115447
+  resolution: ''
+  status: NEW
+  summary: 'matomo: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T14:50:00
+  id: 1115446
+  resolution: ''
+  status: NEW
+  summary: 'mailman: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T14:49:00
+  id: 1115445
+  resolution: ''
+  status: NEW
+  summary: 'logwatch: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T14:48:00
+  id: 1115444
+  resolution: ''
+  status: NEW
+  summary: 'logdigest: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T14:47:00
+  id: 1115443
+  resolution: ''
+  status: NEW
+  summary: 'leafnode: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T14:46:00
+  id: 1115442
+  resolution: ''
+  status: NEW
+  summary: 'hylafax+: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T14:44:00
+  id: 1115439
+  resolution: ''
+  status: NEW
+  summary: 'etckeeper: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T14:43:00
+  id: 1115438
+  resolution: ''
+  status: NEW
+  summary: 'cyrus-imapd: migrate from cron to systemd timers'
 - component: Basesystem
   create_time: 20181109T14:36:00
   id: 1115436
