@@ -15003,7 +15003,7 @@
   create_time: 20181105T04:53:00
   id: 1114607
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: 'Out of date package: openSUSE:Factory/mpd is out of date'
 - component: Security
   create_time: 20181105T04:21:00
@@ -15031,6 +15031,18 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/cinnamon'
 '20181107':
+- component: YaST2
+  create_time: 20181109T08:02:00
+  id: 1115345
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[20181108] Yast2 Software Management UI failed loading'
+- component: libzypp
+  create_time: 20181109T07:41:00
+  id: 1115341
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build 20181108] openQA test fails in yast2_i'
 - component: Other
   create_time: 20181109T02:05:00
   id: 1115308
@@ -15065,7 +15077,7 @@
   create_time: 20181108T10:25:00
   id: 1115189
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Evolution is built without libnotify support
 - component: YaST2
   create_time: 20181108T10:10:00
@@ -15239,6 +15251,6 @@
 - component: Network
   create_time: 20181107T08:46:00
   id: 1114965
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Update to 20181029 dropped /etc/sysconfig/SuSEfirewall2.d/services/sshd
