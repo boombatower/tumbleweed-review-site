@@ -14051,8 +14051,8 @@
 - component: Basesystem
   create_time: 20181028T08:11:00
   id: 1113631
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: VERIFIED
   summary: Need to fsck /dev/sdb2 on every boot
 - component: Other
   create_time: 20181028T02:35:00
@@ -14501,8 +14501,8 @@
 - component: Basesystem
   create_time: 20181023T23:12:00
   id: 1112991
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'systemd-rpm-macros: missing method for reload instead of restart on update'
 - component: YaST2
   create_time: 20181023T20:17:00
@@ -14587,8 +14587,8 @@
 - component: Basesystem
   create_time: 20181022T12:46:00
   id: 1112755
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'dmidecode: Fix Redfish Hostname print length'
 - component: Virtualization:Tools
   create_time: 20181022T11:32:00
@@ -14905,8 +14905,8 @@
 - component: Kernel
   create_time: 20181103T09:45:00
   id: 1114566
-  resolution: ''
-  status: NEW
+  resolution: MOVED
+  status: RESOLVED
   summary: Warnings during kernel build
 '20181105':
 - component: libzypp
@@ -15031,6 +15031,50 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/cinnamon'
 '20181107':
+- component: Basesystem
+  create_time: 20181109T14:36:00
+  id: 1115436
+  resolution: ''
+  status: NEW
+  summary: 'cacti: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T14:34:00
+  id: 1115435
+  resolution: ''
+  status: NEW
+  summary: 'atop: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T14:32:00
+  id: 1115434
+  resolution: ''
+  status: NEW
+  summary: 'apt-cacher-ng: migrate from cron to systemd timers'
+- component: Basesystem
+  create_time: 20181109T14:14:00
+  id: 1115430
+  resolution: ''
+  status: NEW
+  summary: '[TRACKERBUG-OPENSUSE] FATE#323635: Reduce usage of cron in favour of systemd
+    timers'
+- component: Other
+  create_time: 20181109T11:25:00
+  id: 1115388
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: 'calibre: error on startup: "AttributeError: ''NoneType'' object has no
+    attribute ''load_style''"'
+- component: Security
+  create_time: 20181109T10:07:00
+  id: 1115370
+  resolution: ''
+  status: NEW
+  summary: 'yubikey-manager: Missing dependency ykpers'
+- component: Containers
+  create_time: 20181109T09:48:00
+  id: 1115367
+  resolution: ''
+  status: NEW
+  summary: devel:kubic coreos-metadata ppc64le build error  Could not compile `openssh-keys`
 - component: YaST2
   create_time: 20181109T08:02:00
   id: 1115345
@@ -15251,6 +15295,6 @@
 - component: Network
   create_time: 20181107T08:46:00
   id: 1114965
-  resolution: DUPLICATE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Update to 20181029 dropped /etc/sysconfig/SuSEfirewall2.d/services/sshd
