@@ -12993,8 +12993,8 @@
 - component: Other
   create_time: 20180927T14:48:00
   id: 1110024
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: noarch java packages differ between architectures
 - component: X.Org
   create_time: 20180927T14:35:00
@@ -13970,8 +13970,8 @@
 - component: X11 Applications
   create_time: 20181019T09:35:00
   id: 1112537
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Dependency Missing for VLC
 - component: Network
   create_time: 20181019T06:56:00
@@ -14302,8 +14302,8 @@
 - component: Other
   create_time: 20181024T15:39:00
   id: 1113136
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/ant is out of date'
 - component: Other
   create_time: 20181024T15:38:00
@@ -15031,6 +15031,24 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/cinnamon'
 '20181107':
+- component: Other
+  create_time: 20181109T02:05:00
+  id: 1115308
+  resolution: ''
+  status: NEW
+  summary: Variety Wallpaper switcher
+- component: Other
+  create_time: 20181108T21:47:00
+  id: 1115296
+  resolution: ''
+  status: NEW
+  summary: firewalld has 2 configuration tools
+- component: Firefox
+  create_time: 20181108T21:08:00
+  id: 1115294
+  resolution: ''
+  status: NEW
+  summary: Add patch for global menu
 - component: KDE Workspace (Plasma)
   create_time: 20181108T13:45:00
   id: 1115233
@@ -15077,8 +15095,8 @@
 - component: X.Org
   create_time: 20181108T01:20:00
   id: 1115121
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: X.Org log in loop
 - component: Virtualization:Tools
   create_time: 20181107T23:54:00
@@ -15174,7 +15192,7 @@
   create_time: 20181107T15:54:00
   id: 1115055
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'FTBFS: openSUSE:Factory/solarus-quest-editor fails to build'
 - component: Other
   create_time: 20181107T15:53:00
