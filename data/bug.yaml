@@ -15002,8 +15002,8 @@
 - component: Other
   create_time: 20181105T04:53:00
   id: 1114607
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/mpd is out of date'
 - component: Security
   create_time: 20181105T04:21:00
@@ -15031,6 +15031,12 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/cinnamon'
 '20181107':
+- component: Basesystem
+  create_time: 20181109T22:30:00
+  id: 1115512
+  resolution: ''
+  status: NEW
+  summary: pam-config does not find (nor load) pam_yubico.so
 - component: Other
   create_time: 20181109T16:17:00
   id: 1115471
