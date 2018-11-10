@@ -14711,8 +14711,8 @@
 - component: Other
   create_time: 20181031T22:41:00
   id: 1114257
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/subversion is out of date'
 - component: Development
   create_time: 20181031T15:38:00
@@ -15031,6 +15031,18 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/cinnamon'
 '20181107':
+- component: Other
+  create_time: 20181110T12:59:00
+  id: 1115532
+  resolution: ''
+  status: NEW
+  summary: 'hylafax+: spec.file  BuildRequire: tiff missing'
+- component: Basesystem
+  create_time: 20181110T10:55:00
+  id: 1115529
+  resolution: ''
+  status: NEW
+  summary: chronyd version 3.4 has problems starting the command socket
 - component: Basesystem
   create_time: 20181109T22:30:00
   id: 1115512
