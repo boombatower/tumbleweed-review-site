@@ -15079,7 +15079,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/virtualbox is out of date'
-- component: Other
+- component: Samba
   create_time: 20181109T15:16:00
   id: 1115462
   resolution: ''
