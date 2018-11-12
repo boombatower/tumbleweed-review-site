@@ -5509,8 +5509,8 @@
 - component: GNOME
   create_time: 20180312T18:34:00
   id: 1084943
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: NetworkManager with autoconnect enabled displays error messages
 - component: Basesystem
   create_time: 20180312T17:05:00
@@ -5551,8 +5551,8 @@
 - component: YaST2
   create_time: 20180312T10:34:00
   id: 1084864
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: YaST module names are too similar to some desktop environment configuration
     modules
 - component: Development
@@ -12206,8 +12206,8 @@
 - component: Network
   create_time: 20180904T21:28:00
   id: 1107197
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: NetworkManager coredump in _con_curl_check_connectivity
 - component: Development
   create_time: 20180904T14:39:00
@@ -12869,7 +12869,7 @@
   create_time: 20180921T11:42:00
   id: 1109284
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: ppc specific utilities should be split out of util-linux
 - component: Network
   create_time: 20180920T07:40:00
@@ -13665,8 +13665,8 @@
 - component: YaST2
   create_time: 20181013T00:30:00
   id: 1111720
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Sidebar styling resets when external module is loaded in YaST installation
 - component: KDE Applications
   create_time: 20181012T08:08:00
@@ -14013,8 +14013,8 @@
 - component: X.Org
   create_time: 20181018T17:14:00
   id: 1112464
-  resolution: ''
-  status: CONFIRMED
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: after  20181015  and kernel 4.18.13-1-default nouveau fails to start secondary
     screen on Nvidia quadro
 - component: YaST2
@@ -14167,7 +14167,7 @@
   create_time: 20181026T11:30:00
   id: 1113506
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20181025] openQA test fails in await_install  ImportError: libffi.so.7:
     cannot open shared object file: No such file or directory'
 - component: Development
@@ -14254,8 +14254,8 @@
 - component: Kernel
   create_time: 20181024T17:57:00
   id: 1113162
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Updating Kernel in Tumbleweed creates additional folders in root
 - component: Other
   create_time: 20181024T16:21:00
@@ -15031,18 +15031,6 @@
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/cinnamon'
 '20181107':
-- component: Other
-  create_time: 20181110T12:59:00
-  id: 1115532
-  resolution: ''
-  status: NEW
-  summary: 'hylafax+: spec.file  BuildRequire: tiff missing'
-- component: Basesystem
-  create_time: 20181110T10:55:00
-  id: 1115529
-  resolution: ''
-  status: NEW
-  summary: chronyd version 3.4 has problems starting the command socket
 - component: Basesystem
   create_time: 20181109T22:30:00
   id: 1115512
@@ -15071,7 +15059,7 @@
   create_time: 20181109T15:19:00
   id: 1115464
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'Out of date package: openSUSE:Factory/docker is out of date'
 - component: Security
   create_time: 20181109T15:18:00
@@ -15083,7 +15071,7 @@
   create_time: 20181109T15:16:00
   id: 1115462
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Out of date package: openSUSE:Factory/samba is out of date'
 - component: Basesystem
   create_time: 20181109T15:08:00
@@ -15403,14 +15391,14 @@
 - component: Other
   create_time: 20181107T15:54:00
   id: 1115056
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/smillaenlarger fails to build'
 - component: Other
   create_time: 20181107T15:54:00
   id: 1115055
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/solarus-quest-editor fails to build'
 - component: Other
   create_time: 20181107T15:53:00
@@ -15422,7 +15410,7 @@
   create_time: 20181107T15:53:00
   id: 1115053
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'FTBFS: openSUSE:Factory/ext4magic fails to build'
 - component: Other
   create_time: 20181107T15:52:00
@@ -15460,3 +15448,60 @@
   resolution: ''
   status: REOPENED
   summary: Update to 20181029 dropped /etc/sysconfig/SuSEfirewall2.d/services/sshd
+'20181110':
+- component: Other
+  create_time: 20181112T16:07:00
+  id: 1115645
+  resolution: ''
+  status: NEW
+  summary: Factory/TW requires cargo/rust cbindgen to be able to compile Firefox >=
+    63
+- component: Security
+  create_time: 20181112T15:00:00
+  id: 1115634
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'VUL-1: CVE-2018-19184: geth: cmd/evm/runner.go allows attackers to cause
+    a denial of service (SEGV) via crafted bytecode'
+- component: X.Org
+  create_time: 20181112T13:03:00
+  id: 1115627
+  resolution: ''
+  status: IN_PROGRESS
+  summary: xrandr crashes X when executed in xinitrc
+- component: Kernel
+  create_time: 20181112T10:22:00
+  id: 1115602
+  resolution: ''
+  status: NEW
+  summary: kernel BUG at security/selinux/avc.c:147
+- component: Security
+  create_time: 20181112T09:28:00
+  id: 1115595
+  resolution: ''
+  status: NEW
+  summary: 'ykman-gui: Cannot be started due to missing dependencies'
+- component: Installation
+  create_time: 20181112T08:44:00
+  id: 1115584
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Software Selection missing check box during installation
+- component: Development
+  create_time: 20181111T15:45:00
+  id: 1115549
+  resolution: ''
+  status: NEW
+  summary: perl-Gtk3 requested
+- component: Other
+  create_time: 20181110T12:59:00
+  id: 1115532
+  resolution: ''
+  status: NEW
+  summary: 'hylafax+: spec.file  BuildRequire: tiff missing'
+- component: Basesystem
+  create_time: 20181110T10:55:00
+  id: 1115529
+  resolution: ''
+  status: NEW
+  summary: chronyd version 3.4 has problems starting the command socket
