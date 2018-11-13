@@ -13282,8 +13282,8 @@
 - component: Containers
   create_time: 20181002T08:10:00
   id: 1110410
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: openSUSE:Factory/velum is currently unresolvable
 - component: YaST2
   create_time: 20181002T07:07:00
@@ -15217,8 +15217,8 @@
 - component: Security
   create_time: 20181109T10:07:00
   id: 1115370
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'yubikey-manager: Missing dependency ykpers'
 - component: Containers
   create_time: 20181109T09:48:00
@@ -15247,8 +15247,8 @@
 - component: Other
   create_time: 20181108T21:47:00
   id: 1115296
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: firewalld has 2 configuration tools
 - component: Firefox
   create_time: 20181108T21:08:00
@@ -15320,8 +15320,8 @@
 - component: YaST2
   create_time: 20181107T19:09:00
   id: 1115087
-  resolution: UPSTREAM
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Yast2 Software Management with Illegible Icons
 - component: Kernel
   create_time: 20181107T18:11:00
@@ -15450,6 +15450,19 @@
   status: REOPENED
   summary: Update to 20181029 dropped /etc/sysconfig/SuSEfirewall2.d/services/sshd
 '20181110':
+- component: YaST2
+  create_time: 20181113T17:53:00
+  id: 1115858
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181112] openQA test fails in yast2_i "Couldn''t load plug-in
+    ncurses-pkg" for ppc64le'
+- component: Security
+  create_time: 20181113T15:50:00
+  id: 1115816
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'ykman-gui: Cannot be started due to missing dependencies'
 - component: Containers
   create_time: 20181113T14:35:00
   id: 1115800
@@ -15528,8 +15541,8 @@
 - component: Security
   create_time: 20181112T09:28:00
   id: 1115595
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'ykman-gui: Cannot be started due to missing dependencies'
 - component: Installation
   create_time: 20181112T08:44:00
