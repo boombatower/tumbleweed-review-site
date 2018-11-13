@@ -4387,8 +4387,8 @@
 - component: Basesystem
   create_time: 20180221T13:43:00
   id: 1082023
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: git send-email fails to authenticate with SMTP server
 - component: Other
   create_time: 20180221T12:36:00
@@ -6658,8 +6658,8 @@
 - component: Maintenance
   create_time: 20180405T14:30:00
   id: 1088310
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: python3-botocore-1.9.6 possibly breaking aws-cli
 - component: Basesystem
   create_time: 20180405T13:46:00
@@ -12108,7 +12108,8 @@
   id: 1106476
   resolution: ''
   status: NEW
-  summary: The package 'exercism' is severely outdated
+  summary: 'golang-github-exercism-cli: exercism: does not work with current exercism.io
+    API'
 - component: Printing
   create_time: 20180829T13:32:00
   id: 1106416
@@ -15404,7 +15405,7 @@
   create_time: 20181107T15:53:00
   id: 1115054
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'FTBFS: openSUSE:Factory/ext3grep fails to build'
 - component: Other
   create_time: 20181107T15:53:00
@@ -15449,6 +15450,49 @@
   status: REOPENED
   summary: Update to 20181029 dropped /etc/sysconfig/SuSEfirewall2.d/services/sshd
 '20181110':
+- component: Containers
+  create_time: 20181113T14:35:00
+  id: 1115800
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181112] openQA test fails in docker_image_rpm as missing ppc64le
+    opensuse-tumbleweed-image'
+- component: Network
+  create_time: 20181113T13:29:00
+  id: 1115788
+  resolution: ''
+  status: NEW
+  summary: networkmanager segfault error 4 in libc-2.27.so
+- component: Other
+  create_time: 20181113T12:29:00
+  id: 1115778
+  resolution: ''
+  status: IN_PROGRESS
+  summary: ibus-libpinyin build failed for openSUSE Leap 15
+- component: Other
+  create_time: 20181113T11:19:00
+  id: 1115769
+  resolution: ''
+  status: NEW
+  summary: python-paramiko throw traceback if python-gssapi installed
+- component: Other
+  create_time: 20181113T10:09:00
+  id: 1115748
+  resolution: ''
+  status: NEW
+  summary: Calibre fails on start
+- component: YaST2
+  create_time: 20181113T09:56:00
+  id: 1115745
+  resolution: ''
+  status: NEW
+  summary: "YaST2 software management could not load plug-in \u201Cqt-pkg\u201D."
+- component: Installation
+  create_time: 20181113T05:10:00
+  id: 1115699
+  resolution: ''
+  status: NEW
+  summary: YaST Installation cannot source icons from Qt theme methods
 - component: Other
   create_time: 20181113T01:41:00
   id: 1115690
