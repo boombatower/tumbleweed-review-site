@@ -15450,6 +15450,12 @@
   summary: Update to 20181029 dropped /etc/sysconfig/SuSEfirewall2.d/services/sshd
 '20181110':
 - component: Other
+  create_time: 20181113T01:41:00
+  id: 1115690
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/vagrant is out of date'
+- component: Other
   create_time: 20181112T16:07:00
   id: 1115645
   resolution: ''
