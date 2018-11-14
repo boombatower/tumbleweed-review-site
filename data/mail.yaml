@@ -1302,6 +1302,9 @@
   threads: []
 '20181112':
   announcement: 2018-11.81
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 6
+  thread_count: 1
+  threads:
+  - messages: [2018-11.82]
+    reference_count: 6
+    summary: nvidia 390.87 build fails
