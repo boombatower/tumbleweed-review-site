@@ -5860,8 +5860,8 @@
 - component: Kubic
   create_time: 20180316T10:59:00
   id: 1085632
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: salt-api container with python3 backtrace
 - component: KDE Applications
   create_time: 20180316T10:57:00
@@ -6454,8 +6454,8 @@
 - component: Kubic
   create_time: 20180330T20:43:00
   id: 1087685
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kubic's New-installation-flow; yast2-caasp specific functionality missing
 - component: Kernel
   create_time: 20180330T13:21:00
@@ -9895,7 +9895,7 @@
   create_time: 20180630T15:07:00
   id: 1099762
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[storage-ng] [kubic] undefined method "safe_copy" for nil:NilClass - YaST2
     crashes if disk is too small for a viable proposal'
 - component: Security
@@ -11335,8 +11335,8 @@
 - component: Containers
   create_time: 20180804T09:42:00
   id: 1103802
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Enable ipv6 by default
 '20180806':
 - component: Development
@@ -11354,8 +11354,8 @@
 - component: Kubic
   create_time: 20180806T12:20:00
   id: 1103906
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Refocus Kubic on new architecture design
 - component: Other
   create_time: 20180806T12:07:00
@@ -11927,8 +11927,8 @@
 - component: Kubic
   create_time: 20180820T22:19:00
   id: 1105421
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: CoreDNS doesn't start
 - component: KDE Workspace (Plasma)
   create_time: 20180820T12:11:00
@@ -12360,8 +12360,8 @@
 - component: Kubic
   create_time: 20180905T12:40:00
   id: 1107283
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Don't create /cloud-init-config subvolume by default
 - component: Development
   create_time: 20180905T11:53:00
@@ -14857,8 +14857,8 @@
 - component: Basesystem
   create_time: 20181029T00:30:00
   id: 1113641
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: chrony not enabled by default
 '20181103':
 - component: Other
@@ -14938,8 +14938,8 @@
 - component: YaST2
   create_time: 20181106T09:36:00
   id: 1114818
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: New kubeadm NTP screen does not prefill ntp.org pool servers
 - component: YaST2
   create_time: 20181106T08:27:00
@@ -15277,8 +15277,8 @@
 - component: YaST2
   create_time: 20181108T10:10:00
   id: 1115188
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Mis-parsing of XML by 'yast2 software-update' on powerpc linux opensuse
     tumbleweed
 - component: Other
@@ -15450,6 +15450,236 @@
   status: REOPENED
   summary: Update to 20181029 dropped /etc/sysconfig/SuSEfirewall2.d/services/sshd
 '20181110':
+- component: Development
+  create_time: 20181111T15:45:00
+  id: 1115549
+  resolution: ''
+  status: NEW
+  summary: perl-Gtk3 requested
+- component: Other
+  create_time: 20181110T12:59:00
+  id: 1115532
+  resolution: ''
+  status: NEW
+  summary: 'hylafax+: spec.file  BuildRequire: tiff missing'
+- component: Basesystem
+  create_time: 20181110T10:55:00
+  id: 1115529
+  resolution: ''
+  status: NEW
+  summary: chronyd version 3.4 has problems starting the command socket
+'20181112':
+- component: Basesystem
+  create_time: 20181114T15:35:00
+  id: 1116036
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by scsirastools into native systemd services
+- component: Other
+  create_time: 20181114T15:34:00
+  id: 1116035
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by scmon into native systemd services
+- component: Basesystem
+  create_time: 20181114T15:31:00
+  id: 1116034
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by safte-monitor into native systemd services
+- component: Network
+  create_time: 20181114T15:30:00
+  id: 1116033
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by qos into native systemd services
+- component: Network
+  create_time: 20181114T15:29:00
+  id: 1116032
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by pen into native systemd services
+- component: Network
+  create_time: 20181114T15:28:00
+  id: 1116030
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by pdnsd into native systemd services
+- component: OpenStack
+  create_time: 20181114T15:25:00
+  id: 1116029
+  resolution: ''
+  status: NEW
+  summary: 'openstack-suse-macros: please drop /etc/init.d/openstack-skeleton'
+- component: Other
+  create_time: 20181114T15:19:00
+  id: 1116025
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by nxtvepg into native systemd services
+- component: Basesystem
+  create_time: 20181114T15:18:00
+  id: 1116023
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by mhvtl into native systemd services
+- component: Other
+  create_time: 20181114T15:16:00
+  id: 1116022
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by mailman into native systemd services
+- component: Kernel
+  create_time: 20181114T15:15:00
+  id: 1116021
+  resolution: ''
+  status: NEW
+  summary: k10temp and iwlwifi sensor output missing
+- component: Other
+  create_time: 20181114T15:15:00
+  id: 1116020
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by mailgraph into native systemd services
+- component: Basesystem
+  create_time: 20181114T15:13:00
+  id: 1116019
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by  kbdsniffd into native systemd services
+- component: Network
+  create_time: 20181114T15:11:00
+  id: 1116018
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by i4l-base into native systemd services
+- component: Network
+  create_time: 20181114T15:10:00
+  id: 1116017
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by inn into native systemd services
+- component: GNOME
+  create_time: 20181114T15:04:00
+  id: 1116016
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Please convert SysV init scripts by libinfinity into native systemd services
+- component: Network
+  create_time: 20181114T14:56:00
+  id: 1116015
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by fonehome into native systemd services
+- component: Other
+  create_time: 20181114T14:52:00
+  id: 1116014
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by  fwnn into native systemd services
+- component: Other
+  create_time: 20181114T14:48:00
+  id: 1116012
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by firebird into native systemd services
+- component: GNOME
+  create_time: 20181114T14:43:00
+  id: 1116011
+  resolution: ''
+  status: NEW
+  summary: '[staging] autologin results in session crash with GDM 3.30.x'
+- component: KDE Applications
+  create_time: 20181114T14:38:00
+  id: 1116010
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by festival into native systemd services
+- component: Other
+  create_time: 20181114T14:31:00
+  id: 1116009
+  resolution: ''
+  status: NEW
+  summary: Please drop /etc/init.d/epmd from erlang-epmd
+- component: Network
+  create_time: 20181114T14:25:00
+  id: 1116007
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by dkimproxy into native systemd services
+- component: Installation
+  create_time: 20181114T14:24:00
+  id: 1116006
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: '[kubic] storage-ng is not able to propose a partitioning schema for Kubic
+    on 10GB disk'
+- component: Installation
+  create_time: 20181114T14:13:00
+  id: 1116003
+  resolution: ''
+  status: NEW
+  summary: '[Build1491.5][Staging][sidebar] sidebar stores multiple width setups at
+    the same time'
+- component: Other
+  create_time: 20181114T14:07:00
+  id: 1115999
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by cyrus-imapd into native systemd services
+- component: Kernel
+  create_time: 20181114T14:03:00
+  id: 1115998
+  resolution: ''
+  status: NEW
+  summary: irq/17 high cpu usage upon resume
+- component: Other
+  create_time: 20181114T14:01:00
+  id: 1115997
+  resolution: ''
+  status: NEW
+  summary: Please convert  SysV init scripts shipped by xrootd-server into native
+    systemd services.
+- component: Installation
+  create_time: 20181114T13:59:00
+  id: 1115996
+  resolution: ''
+  status: NEW
+  summary: '[Build1491.5][Staging][sidebar] Map is not resized properly on Clock and
+    Time zone page'
+- component: Installation
+  create_time: 20181114T13:53:00
+  id: 1115994
+  resolution: ''
+  status: NEW
+  summary: '[Build1491.5][Staging][sidebar] Expert partitioner requires more horizontal
+    scrolling with sidebar'
+- component: Installation
+  create_time: 20181114T13:40:00
+  id: 1115991
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build1491.5][Staging][sidebar] Sidebar max size is not limited'
+- component: Installation
+  create_time: 20181114T13:33:00
+  id: 1115988
+  resolution: ''
+  status: NEW
+  summary: '[Build1491.5][Staging][sidebar] License agreement textbox gets too much
+    empty space when sidebar is closed'
+- component: Installation
+  create_time: 20181114T13:24:00
+  id: 1115986
+  resolution: ''
+  status: NEW
+  summary: '[Build1491.5][Staging][sidebar] Load linuxrc Network Configuration doesn''t
+    fit the screen'
+- component: libzypp
+  create_time: 20181114T10:16:00
+  id: 1115957
+  resolution: ''
+  status: NEW
+  summary: zypper doesn't install qqc2-desktop-style
 - component: YaST2
   create_time: 20181114T09:16:00
   id: 1115953
@@ -15534,13 +15764,13 @@
   create_time: 20181113T09:56:00
   id: 1115745
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: "YaST2 software management could not load plug-in \u201Cqt-pkg\u201D."
 - component: Installation
   create_time: 20181113T05:10:00
   id: 1115699
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: YaST Installation cannot source icons from Qt theme methods
 - component: Other
   create_time: 20181113T01:41:00
@@ -15586,21 +15816,3 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: Software Selection missing check box during installation
-- component: Development
-  create_time: 20181111T15:45:00
-  id: 1115549
-  resolution: ''
-  status: NEW
-  summary: perl-Gtk3 requested
-- component: Other
-  create_time: 20181110T12:59:00
-  id: 1115532
-  resolution: ''
-  status: NEW
-  summary: 'hylafax+: spec.file  BuildRequire: tiff missing'
-- component: Basesystem
-  create_time: 20181110T10:55:00
-  id: 1115529
-  resolution: ''
-  status: NEW
-  summary: chronyd version 3.4 has problems starting the command socket
