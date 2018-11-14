@@ -10846,8 +10846,8 @@
 - component: Kernel
   create_time: 20180725T14:08:00
   id: 1102569
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Use the blk_mq scheduler framework
 - component: GNOME
   create_time: 20180725T13:20:00
@@ -12863,8 +12863,8 @@
 - component: Basesystem
   create_time: 20180921T11:58:00
   id: 1109290
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: move setctsid out of util-linux to kiwi
 - component: Basesystem
   create_time: 20180921T11:42:00
@@ -15235,8 +15235,8 @@
 - component: libzypp
   create_time: 20181109T07:41:00
   id: 1115341
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20181108] openQA test fails in yast2_i'
 - component: Other
   create_time: 20181109T02:05:00
@@ -15469,6 +15469,116 @@
   status: NEW
   summary: chronyd version 3.4 has problems starting the command socket
 '20181112':
+- component: Kernel
+  create_time: 20181114T20:20:00
+  id: 1116087
+  resolution: ''
+  status: NEW
+  summary: kde kworker/16:0-events-unbound  causing slowdown to 2 to 4 second screen
+    updates since [build 20181112]
+- component: Other
+  create_time: 20181114T20:10:00
+  id: 1116084
+  resolution: ''
+  status: NEW
+  summary: Auto-mounting encrypted external disk requires root password
+- component: Maintenance
+  create_time: 20181114T18:18:00
+  id: 1116075
+  resolution: INVALID
+  status: RESOLVED
+  summary: kicad-templates-5.0.1-2.1.noarch.rpm not found zypper dup tumbleweed 20181112-0
+- component: Other
+  create_time: 20181114T17:25:00
+  id: 1116067
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/python-dns-lexicon fails to build'
+- component: Other
+  create_time: 20181114T17:23:00
+  id: 1116064
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/python-pyparsing-doc fails to build'
+- component: Other
+  create_time: 20181114T17:23:00
+  id: 1116063
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/hgview fails to build'
+- component: Other
+  create_time: 20181114T17:22:00
+  id: 1116062
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/freeorion fails to build'
+- component: Other
+  create_time: 20181114T17:19:00
+  id: 1116061
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/pound fails to build'
+- component: Network
+  create_time: 20181114T17:01:00
+  id: 1116057
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by network-autoconfig into native systemd
+    services
+- component: Other
+  create_time: 20181114T16:59:00
+  id: 1116056
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by compcache into native systemd services
+- component: Mono
+  create_time: 20181114T16:58:00
+  id: 1116055
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by xsp into native systemd services
+- component: X.Org
+  create_time: 20181114T16:56:00
+  id: 1116053
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by xfs into native systemd services
+- component: Network
+  create_time: 20181114T16:43:00
+  id: 1116052
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by wondershaper into native systemd services
+- component: Virtualization:Tools
+  create_time: 20181114T16:29:00
+  id: 1116050
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by virtualbox into native systemd services
+- component: Other
+  create_time: 20181114T16:25:00
+  id: 1116048
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by ushare into native systemd services
+- component: Network
+  create_time: 20181114T15:41:00
+  id: 1116039
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by Supybot into native systemd services
+- component: Samba
+  create_time: 20181114T15:40:00
+  id: 1116038
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by smbtad into native systemd services
+- component: Other
+  create_time: 20181114T15:37:00
+  id: 1116037
+  resolution: ''
+  status: NEW
+  summary: Please convert SysV init scripts by siproxd into native systemd services
 - component: Basesystem
   create_time: 20181114T15:35:00
   id: 1116036
@@ -15503,7 +15613,7 @@
   create_time: 20181114T15:28:00
   id: 1116030
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Please convert SysV init scripts by pdnsd into native systemd services
 - component: OpenStack
   create_time: 20181114T15:25:00
@@ -15568,8 +15678,8 @@
 - component: Network
   create_time: 20181114T14:56:00
   id: 1116015
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by fonehome into native systemd services
 - component: Other
   create_time: 20181114T14:52:00
@@ -15637,7 +15747,7 @@
   create_time: 20181114T14:01:00
   id: 1115997
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Please convert  SysV init scripts shipped by xrootd-server into native
     systemd services.
 - component: Installation
@@ -15671,7 +15781,7 @@
   create_time: 20181114T13:24:00
   id: 1115986
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build1491.5][Staging][sidebar] Load linuxrc Network Configuration doesn''t
     fit the screen'
 - component: libzypp
