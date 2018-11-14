@@ -15516,7 +15516,7 @@
   create_time: 20181112T16:07:00
   id: 1115645
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Factory/TW requires cargo/rust cbindgen to be able to compile Firefox >=
     63
 - component: Security
