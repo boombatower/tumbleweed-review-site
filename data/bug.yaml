@@ -12826,8 +12826,8 @@
 - component: Other
   create_time: 20180921T19:34:00
   id: 1109355
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Gajim package is missing dependencies
 - component: YaST2
   create_time: 20180921T14:21:00
@@ -14285,8 +14285,8 @@
 - component: Other
   create_time: 20181024T15:42:00
   id: 1113141
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/exo is out of date'
 - component: libzypp
   create_time: 20181024T15:40:00
@@ -15469,6 +15469,24 @@
   status: NEW
   summary: chronyd version 3.4 has problems starting the command socket
 '20181112':
+- component: Other
+  create_time: 20181115T08:58:00
+  id: 1116161
+  resolution: ''
+  status: NEW
+  summary: Gajim is missing 'precis-i18n'
+- component: Basesystem
+  create_time: 20181115T07:58:00
+  id: 1116154
+  resolution: ''
+  status: NEW
+  summary: device-mapper is flooding console with errors during shutdown
+- component: Sound
+  create_time: 20181115T07:57:00
+  id: 1116153
+  resolution: ''
+  status: NEW
+  summary: Audacity cannot play/record sound via PulseAudio with libasound2-1.1.7
 - component: Kubic
   create_time: 20181115T03:36:00
   id: 1116116
