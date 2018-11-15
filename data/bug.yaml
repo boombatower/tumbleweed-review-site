@@ -7516,7 +7516,7 @@
   create_time: 20180420T12:20:00
   id: 1090372
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Server System Roles have suboptimal default firewall settings
 - component: Basesystem
   create_time: 20180420T11:41:00
@@ -15469,6 +15469,25 @@
   status: NEW
   summary: chronyd version 3.4 has problems starting the command socket
 '20181112':
+- component: Kernel
+  create_time: 20181115T18:41:00
+  id: 1116239
+  resolution: ''
+  status: NEW
+  summary: '[drm:amdgpu_ucode_get_load_type [amdgpu]] *ERROR* Unknown firmware load
+    type'
+- component: Other
+  create_time: 20181115T16:34:00
+  id: 1116232
+  resolution: ''
+  status: NEW
+  summary: screen now sets TERM to screen-xterm
+- component: KVM
+  create_time: 20181115T15:59:00
+  id: 1116225
+  resolution: ''
+  status: NEW
+  summary: qemu ALSA backend broken
 - component: Other
   create_time: 20181115T08:58:00
   id: 1116161
@@ -15539,8 +15558,8 @@
 - component: Other
   create_time: 20181114T17:22:00
   id: 1116062
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/freeorion fails to build'
 - component: Other
   create_time: 20181114T17:19:00
@@ -15916,7 +15935,7 @@
   create_time: 20181113T01:41:00
   id: 1115690
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Out of date package: openSUSE:Factory/vagrant is out of date'
 - component: Other
   create_time: 20181112T16:07:00
