@@ -15469,6 +15469,18 @@
   status: NEW
   summary: chronyd version 3.4 has problems starting the command socket
 '20181112':
+- component: Kubic
+  create_time: 20181115T03:36:00
+  id: 1116116
+  resolution: ''
+  status: NEW
+  summary: 'dex Version: was not built properly'
+- component: Kernel
+  create_time: 20181114T23:17:00
+  id: 1116106
+  resolution: ''
+  status: NEW
+  summary: Kernel 4.19.1 won't boot (black screen)
 - component: Kernel
   create_time: 20181114T20:20:00
   id: 1116087
@@ -15600,8 +15612,8 @@
 - component: Network
   create_time: 20181114T15:30:00
   id: 1116033
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by qos into native systemd services
 - component: Network
   create_time: 20181114T15:29:00
@@ -15753,15 +15765,15 @@
 - component: Installation
   create_time: 20181114T13:59:00
   id: 1115996
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[Build1491.5][Staging][sidebar] Map is not resized properly on Clock and
     Time zone page'
 - component: Installation
   create_time: 20181114T13:53:00
   id: 1115994
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build1491.5][Staging][sidebar] Expert partitioner requires more horizontal
     scrolling with sidebar'
 - component: Installation
