@@ -6721,7 +6721,7 @@
   create_time: 20180404T14:10:00
   id: 1088114
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Journal not persistent
 - component: Basesystem
   create_time: 20180404T11:01:00
@@ -12901,8 +12901,8 @@
 - component: Other
   create_time: 20180924T09:25:00
   id: 1109424
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Segmentation fault for VLC in %post
 - component: KDE Workspace (Plasma)
   create_time: 20180924T09:06:00
@@ -13282,8 +13282,8 @@
 - component: Containers
   create_time: 20181002T08:10:00
   id: 1110410
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: openSUSE:Factory/velum is currently unresolvable
 - component: YaST2
   create_time: 20181002T07:07:00
@@ -13780,8 +13780,8 @@
 - component: Patterns
   create_time: 20181016T06:29:00
   id: 1111957
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 32bit firefox is not on the media
 - component: Other
   create_time: 20181016T03:42:00
@@ -14926,7 +14926,7 @@
   create_time: 20181106T13:00:00
   id: 1114853
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'VUL-1: yast2-printer: SMB printer settings test fails if the password
     includes a backtick'
 - component: Kernel
@@ -15478,14 +15478,14 @@
 - component: Basesystem
   create_time: 20181115T07:58:00
   id: 1116154
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: device-mapper is flooding console with errors during shutdown
 - component: Sound
   create_time: 20181115T07:57:00
   id: 1116153
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Audacity cannot play/record sound via PulseAudio with libasound2-1.1.7
 - component: Kubic
   create_time: 20181115T03:36:00
@@ -15570,8 +15570,8 @@
 - component: X.Org
   create_time: 20181114T16:56:00
   id: 1116053
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by xfs into native systemd services
 - component: Network
   create_time: 20181114T16:43:00
@@ -15702,8 +15702,8 @@
 - component: GNOME
   create_time: 20181114T15:04:00
   id: 1116016
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by libinfinity into native systemd services
 - component: Network
   create_time: 20181114T14:56:00
@@ -15900,7 +15900,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: Calibre fails on start
-- component: YaST2
+- component: libzypp
   create_time: 20181113T09:56:00
   id: 1115745
   resolution: ''
