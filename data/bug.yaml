@@ -1765,8 +1765,8 @@
 - component: Other
   create_time: 20180110T11:51:00
   id: 1075365
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: hgview not installable
 - component: Basesystem
   create_time: 20180110T11:01:00
@@ -12194,8 +12194,8 @@
 - component: Network
   create_time: 20180831T06:39:00
   id: 1106705
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: NetworkManager requires CA private key for OpenVPN connection
 - component: Other
   create_time: 20180831T04:17:00
@@ -15265,8 +15265,8 @@
 - component: Other
   create_time: 20181108T11:38:00
   id: 1115213
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: php7 should not require smtp_daemon
 - component: GNOME
   create_time: 20181108T10:25:00
@@ -15570,8 +15570,8 @@
 - component: Other
   create_time: 20181114T17:23:00
   id: 1116063
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/hgview fails to build'
 - component: Other
   create_time: 20181114T17:22:00
@@ -15854,8 +15854,8 @@
 - component: libzypp
   create_time: 20181114T10:16:00
   id: 1115957
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: zypper doesn't install qqc2-desktop-style
 - component: YaST2
   create_time: 20181114T09:16:00
