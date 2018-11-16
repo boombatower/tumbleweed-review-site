@@ -1302,9 +1302,12 @@
   threads: []
 '20181112':
   announcement: 2018-11.81
-  reference_count: 9
-  thread_count: 1
+  reference_count: 10
+  thread_count: 2
   threads:
+  - messages: [2018-11.114]
+    reference_count: 1
+    summary: '[Solved]: Nvidia problems after update'
   - messages: [2018-11.82]
     reference_count: 9
     summary: nvidia 390.87 build fails
