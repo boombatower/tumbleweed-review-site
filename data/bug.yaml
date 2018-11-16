@@ -15411,8 +15411,8 @@
 - component: Other
   create_time: 20181107T15:53:00
   id: 1115053
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/ext4magic fails to build'
 - component: Other
   create_time: 20181107T15:52:00
@@ -15470,11 +15470,25 @@
   status: NEW
   summary: chronyd version 3.4 has problems starting the command socket
 '20181112':
+- component: Installation
+  create_time: 20181116T16:11:00
+  id: 1116377
+  resolution: ''
+  status: NEW
+  summary: '[Build892.2][staging] Enabling online repos pop-up is shown multiple times
+    if "No" was clicked'
+- component: KDE Applications
+  create_time: 20181116T15:53:00
+  id: 1116374
+  resolution: ''
+  status: NEW
+  summary: 'Kaffeine: no channel reception, no picture no sound,  after latest update
+    TW20181112'
 - component: AutoYaST
   create_time: 20181116T14:16:00
   id: 1116359
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[Build 20181116] openQA test fails in yast2_clone_system'
 - component: YaST2
   create_time: 20181116T11:48:00
