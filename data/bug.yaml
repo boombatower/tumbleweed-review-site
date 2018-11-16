@@ -1396,14 +1396,14 @@
 - component: Other
   create_time: 20180105T10:35:00
   id: 1074795
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'tcpflow: fails to build with openssl 1.1'
 - component: Other
   create_time: 20180105T10:33:00
   id: 1074794
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'john: fails to build with openssl 1.1'
 - component: Other
   create_time: 20180105T10:30:00
@@ -1859,7 +1859,7 @@
   create_time: 20180116T20:54:00
   id: 1076265
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: openSUSE-Tumbleweed-Kubic-release will never be updated
 - component: AppArmor
   create_time: 20180116T18:37:00
@@ -13773,8 +13773,8 @@
 - component: Other
   create_time: 20181016T09:13:00
   id: 1111977
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'systemctl unmask packagekit.service: Failed to unmask unit: Connection
     timed out'
 - component: Patterns
@@ -14684,7 +14684,8 @@
   id: 1114383
   resolution: ''
   status: CONFIRMED
-  summary: chkstat is not always called after Zypper has installed packages
+  summary: 'permissions: permissions.local is not honored by zypper updates (chkstat
+    is not always called)'
 - component: Basesystem
   create_time: 20181101T12:03:00
   id: 1114287
@@ -14888,8 +14889,8 @@
 - component: YaST2
   create_time: 20181103T18:03:00
   id: 1114573
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Expand libyui to support setting YImage from icon theme
 - component: Other
   create_time: 20181103T16:42:00
@@ -15204,7 +15205,7 @@
   create_time: 20181109T14:14:00
   id: 1115430
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[TRACKERBUG-OPENSUSE] FATE#323635: Reduce usage of cron in favour of systemd
     timers'
 - component: Other
@@ -15469,6 +15470,18 @@
   status: NEW
   summary: chronyd version 3.4 has problems starting the command socket
 '20181112':
+- component: AutoYaST
+  create_time: 20181116T14:16:00
+  id: 1116359
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181116] openQA test fails in yast2_clone_system'
+- component: YaST2
+  create_time: 20181116T11:48:00
+  id: 1116332
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181115] more than one product auto-selected for installation'
 - component: YaST2
   create_time: 20181116T00:41:00
   id: 1116278
@@ -15479,7 +15492,7 @@
   create_time: 20181116T00:01:00
   id: 1116277
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'klogconsole: split out of util-linux or upstream'
 - component: Basesystem
   create_time: 20181115T23:30:00
