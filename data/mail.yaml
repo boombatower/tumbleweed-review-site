@@ -1302,8 +1302,8 @@
   threads: []
 '20181112':
   announcement: 2018-11.81
-  reference_count: 12
-  thread_count: 2
+  reference_count: 14
+  thread_count: 3
   threads:
   - messages: [2018-11.114]
     reference_count: 2
@@ -1311,3 +1311,6 @@
   - messages: [2018-11.82]
     reference_count: 10
     summary: nvidia 390.87 build fails
+  - messages: [2018-11.151]
+    reference_count: 2
+    summary: failed to summarize
