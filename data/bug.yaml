@@ -13830,8 +13830,8 @@
 - component: GNOME
   create_time: 20181015T11:44:00
   id: 1111842
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Tilix does not launch CLI applications in Xfce
 - component: Network
   create_time: 20181015T08:31:00
@@ -15983,6 +15983,12 @@
   status: RESOLVED
   summary: Software Selection missing check box during installation
 '20181116':
+- component: Network
+  create_time: 20181117T17:31:00
+  id: 1116439
+  resolution: ''
+  status: NEW
+  summary: privoxy segfaults with 20181116
 - component: Security
   create_time: 20181117T11:33:00
   id: 1116432
