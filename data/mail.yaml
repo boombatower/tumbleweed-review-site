@@ -1314,3 +1314,8 @@
   - messages: [2018-11.151]
     reference_count: 2
     summary: failed to summarize
+'20181116':
+  announcement: 2018-11.159
+  reference_count: 0
+  thread_count: 0
+  threads: []
