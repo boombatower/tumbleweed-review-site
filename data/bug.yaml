@@ -3647,8 +3647,8 @@
 - component: Kernel
   create_time: 20180211T03:57:00
   id: 1080452
-  resolution: ''
-  status: REOPENED
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Broadcom chipset 43228 intermittently disconnecting
 - component: Kernel
   create_time: 20180211T01:24:00
@@ -13516,8 +13516,8 @@
 - component: Kernel
   create_time: 20181013T07:40:00
   id: 1111751
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Driver has suspect GRO implementation
 - component: Other
   create_time: 20181013T04:15:00
@@ -15983,6 +15983,12 @@
   status: RESOLVED
   summary: Software Selection missing check box during installation
 '20181116':
+- component: Kernel
+  create_time: 20181117T06:14:00
+  id: 1116426
+  resolution: ''
+  status: NEW
+  summary: Dell Latitude E6220 DRM shutdown errors
 - component: Kernel
   create_time: 20181117T02:31:00
   id: 1116425
