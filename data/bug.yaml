@@ -12075,8 +12075,8 @@
 - component: GNOME
   create_time: 20180830T12:46:00
   id: 1106584
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'NetworkManager-applet: No longer able to edit or create VPN connections'
 - component: Kernel
   create_time: 20180830T11:36:00
@@ -15470,44 +15470,6 @@
   status: NEW
   summary: chronyd version 3.4 has problems starting the command socket
 '20181112':
-- component: Installation
-  create_time: 20181116T16:11:00
-  id: 1116377
-  resolution: ''
-  status: NEW
-  summary: '[Build892.2][staging] Enabling online repos pop-up is shown multiple times
-    if "No" was clicked'
-- component: KDE Applications
-  create_time: 20181116T15:53:00
-  id: 1116374
-  resolution: ''
-  status: NEW
-  summary: 'Kaffeine: no channel reception, no picture no sound,  after latest update
-    TW20181112'
-- component: AutoYaST
-  create_time: 20181116T14:16:00
-  id: 1116359
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: '[Build 20181116] openQA test fails in yast2_clone_system'
-- component: YaST2
-  create_time: 20181116T11:48:00
-  id: 1116332
-  resolution: ''
-  status: NEW
-  summary: '[Build 20181115] more than one product auto-selected for installation'
-- component: YaST2
-  create_time: 20181116T00:41:00
-  id: 1116278
-  resolution: ''
-  status: NEW
-  summary: Titles in yast-installation have too much padding on the left
-- component: Basesystem
-  create_time: 20181116T00:01:00
-  id: 1116277
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'klogconsole: split out of util-linux or upstream'
 - component: Basesystem
   create_time: 20181115T23:30:00
   id: 1116272
@@ -16020,3 +15982,48 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: Software Selection missing check box during installation
+'20181116':
+- component: Kernel
+  create_time: 20181117T02:31:00
+  id: 1116425
+  resolution: ''
+  status: NEW
+  summary: 4.19.1-1.pae did not boot
+- component: Installation
+  create_time: 20181116T16:11:00
+  id: 1116377
+  resolution: ''
+  status: NEW
+  summary: '[Build892.2][staging] Enabling online repos pop-up is shown multiple times
+    if "No" was clicked'
+- component: KDE Applications
+  create_time: 20181116T15:53:00
+  id: 1116374
+  resolution: ''
+  status: NEW
+  summary: 'Kaffeine: no channel reception, no picture no sound,  after latest update
+    TW20181112'
+- component: AutoYaST
+  create_time: 20181116T14:16:00
+  id: 1116359
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20181116] openQA test fails in yast2_clone_system'
+- component: YaST2
+  create_time: 20181116T11:48:00
+  id: 1116332
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181115] more than one product auto-selected for installation'
+- component: YaST2
+  create_time: 20181116T00:41:00
+  id: 1116278
+  resolution: ''
+  status: NEW
+  summary: Titles in yast-installation have too much padding on the left
+- component: Basesystem
+  create_time: 20181116T00:01:00
+  id: 1116277
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'klogconsole: split out of util-linux or upstream'
