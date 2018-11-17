@@ -15983,12 +15983,18 @@
   status: RESOLVED
   summary: Software Selection missing check box during installation
 '20181116':
+- component: Security
+  create_time: 20181117T11:33:00
+  id: 1116432
+  resolution: ''
+  status: NEW
+  summary: ipset save -file <filename> produces empty files
 - component: Kernel
   create_time: 20181117T06:14:00
   id: 1116426
   resolution: ''
   status: NEW
-  summary: Dell Latitude E6220 DRM shutdown errors
+  summary: Dell Latitude E6220 DRM shutdown errors - "flip_done timed out" (in drm_kms_helper)
 - component: Kernel
   create_time: 20181117T02:31:00
   id: 1116425
