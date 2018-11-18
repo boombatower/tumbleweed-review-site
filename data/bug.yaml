@@ -14953,7 +14953,8 @@
   id: 1114754
   resolution: ''
   status: NEW
-  summary: Can't boot with Tumbleweed Live CD
+  summary: Can't boot with any Bootables (Tumbleweed Live CD, Tumbleweed/Leap/SLE
+    installers)
 - component: Kernel
   create_time: 20181105T18:45:00
   id: 1114752
