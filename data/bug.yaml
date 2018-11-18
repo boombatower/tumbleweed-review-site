@@ -12894,8 +12894,8 @@
 - component: Other
   create_time: 20180924T11:00:00
   id: 1109438
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: VERIFIED
   summary: 'autoyast: internal error: /mounts/mp_0001/usr/share/YaST2/modules/AutoInstallRules.rb:913:in
     `Merge'
 - component: Other
@@ -13869,8 +13869,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20181021T10:08:00
   id: 1112641
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[Build 20181018] openQA test fails in kate - ksmserver stuck or crashed,
     stack trace available'
 - component: GNOME
@@ -15322,8 +15322,8 @@
 - component: YaST2
   create_time: 20181107T19:09:00
   id: 1115087
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Yast2 Software Management with Illegible Icons
 - component: Kernel
   create_time: 20181107T18:11:00
@@ -15984,6 +15984,25 @@
   status: RESOLVED
   summary: Software Selection missing check box during installation
 '20181116':
+- component: KDE Applications
+  create_time: 20181118T19:46:00
+  id: 1116459
+  resolution: ''
+  status: NEW
+  summary: 'TW: since latest update recurrent crashes of akonadi_birthday resource.'
+- component: Other
+  create_time: 20181118T19:37:00
+  id: 1116458
+  resolution: ''
+  status: CONFIRMED
+  summary: '[HPC, macros] Handle Dependencies properly when providers are available
+    both in the default and HPC Module Path'
+- component: YaST2
+  create_time: 20181118T17:03:00
+  id: 1116456
+  resolution: ''
+  status: NEW
+  summary: Load QPalette with QSS for libyui-qt theming
 - component: LibreOffice
   create_time: 20181118T10:41:00
   id: 1116451
@@ -16034,13 +16053,13 @@
   status: NEW
   summary: '[Build892.2][staging] Enabling online repos pop-up is shown multiple times
     if "No" was clicked'
-- component: KDE Applications
+- component: Kernel
   create_time: 20181116T15:53:00
   id: 1116374
-  resolution: INVALID
-  status: RESOLVED
-  summary: 'Kaffeine: no channel reception, no picture no sound,  after latest update
-    TW20181112'
+  resolution: ''
+  status: REOPENED
+  summary: Kernel update TW20181112 to 4.19.1 breaks functionality of Technisat skystar
+    DVB-S PCI card.
 - component: AutoYaST
   create_time: 20181116T14:16:00
   id: 1116359
