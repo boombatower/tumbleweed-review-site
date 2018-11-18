@@ -15983,6 +15983,12 @@
   status: RESOLVED
   summary: Software Selection missing check box during installation
 '20181116':
+- component: Kernel
+  create_time: 20181118T03:09:00
+  id: 1116448
+  resolution: ''
+  status: NEW
+  summary: Memory leak on openSUSE Tumbleweed.
 - component: Network
   create_time: 20181117T17:31:00
   id: 1116439
