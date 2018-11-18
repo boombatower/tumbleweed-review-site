@@ -13411,7 +13411,7 @@
   create_time: 20181010T15:15:00
   id: 1111420
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: krunner doesn't show results in some openQA tests
 - component: Kernel
   create_time: 20181010T14:48:00
@@ -15984,6 +15984,19 @@
   status: RESOLVED
   summary: Software Selection missing check box during installation
 '20181116':
+- component: LibreOffice
+  create_time: 20181118T10:41:00
+  id: 1116451
+  resolution: ''
+  status: NEW
+  summary: LO help find function doesn't find some entrie
+- component: Development
+  create_time: 20181118T10:08:00
+  id: 1116449
+  resolution: ''
+  status: NEW
+  summary: Matplotlib will not work with Julia 1.0.2 to produce plots, using PyPlot
+    module
 - component: Kernel
   create_time: 20181118T03:09:00
   id: 1116448
@@ -16024,8 +16037,8 @@
 - component: KDE Applications
   create_time: 20181116T15:53:00
   id: 1116374
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'Kaffeine: no channel reception, no picture no sound,  after latest update
     TW20181112'
 - component: AutoYaST
