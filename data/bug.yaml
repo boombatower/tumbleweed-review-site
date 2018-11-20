@@ -4387,8 +4387,8 @@
 - component: Basesystem
   create_time: 20180221T13:43:00
   id: 1082023
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: git send-email fails to authenticate with SMTP server
 - component: Other
   create_time: 20180221T12:36:00
@@ -10846,8 +10846,8 @@
 - component: Kernel
   create_time: 20180725T14:08:00
   id: 1102569
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Use the blk_mq scheduler framework
 - component: GNOME
   create_time: 20180725T13:20:00
@@ -14211,8 +14211,8 @@
 - component: YaST2
   create_time: 20181025T12:32:00
   id: 1113291
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: libyui binary packages conflict unnecessarily
 - component: YaST2
   create_time: 20181025T10:26:00
@@ -15479,8 +15479,8 @@
 - component: Kernel
   create_time: 20181115T18:41:00
   id: 1116239
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[drm:amdgpu_ucode_get_load_type [amdgpu]] *ERROR* Unknown firmware load
     type'
 - component: Other
@@ -15983,6 +15983,75 @@
   status: RESOLVED
   summary: Software Selection missing check box during installation
 '20181116':
+- component: Network
+  create_time: 20181117T17:31:00
+  id: 1116439
+  resolution: ''
+  status: NEW
+  summary: privoxy segfaults with 20181116
+- component: Security
+  create_time: 20181117T11:33:00
+  id: 1116432
+  resolution: ''
+  status: NEW
+  summary: ipset save -file <filename> produces empty files
+- component: Kernel
+  create_time: 20181117T06:14:00
+  id: 1116426
+  resolution: ''
+  status: NEW
+  summary: Dell Latitude E6220 DRM shutdown errors - "flip_done timed out" (in drm_kms_helper)
+- component: Kernel
+  create_time: 20181117T02:31:00
+  id: 1116425
+  resolution: ''
+  status: NEW
+  summary: 4.19.1-1.pae did not boot
+- component: Installation
+  create_time: 20181116T16:11:00
+  id: 1116377
+  resolution: INVALID
+  status: RESOLVED
+  summary: '[Build892.2][staging] Enabling online repos pop-up is shown multiple times
+    if "No" was clicked'
+- component: Kernel
+  create_time: 20181116T15:53:00
+  id: 1116374
+  resolution: ''
+  status: REOPENED
+  summary: Kernel update TW20181112 to 4.19.1 breaks functionality of Technisat skystar
+    DVB-S PCI card.
+- component: AutoYaST
+  create_time: 20181116T14:16:00
+  id: 1116359
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20181116] openQA test fails in yast2_clone_system'
+- component: YaST2
+  create_time: 20181116T11:48:00
+  id: 1116332
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181115] more than one product auto-selected for installation'
+- component: YaST2
+  create_time: 20181116T00:41:00
+  id: 1116278
+  resolution: ''
+  status: NEW
+  summary: Titles in yast-installation have too much padding on the left
+- component: Basesystem
+  create_time: 20181116T00:01:00
+  id: 1116277
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'klogconsole: split out of util-linux or upstream'
+'20181118':
+- component: Basesystem
+  create_time: 20181120T09:09:00
+  id: 1116670
+  resolution: ''
+  status: NEW
+  summary: ssh access on Raspberry Pi 1B gives error (armv6)
 - component: Sound
   create_time: 20181119T23:00:00
   id: 1116622
@@ -15992,8 +16061,8 @@
 - component: YaST2
   create_time: 20181119T21:28:00
   id: 1116618
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Hardly visible "checkmark" icon in Software selection - [Build 20181118]
     openQA test fails in select_patterns_and_packages
 - component: GNOME
@@ -16113,65 +16182,3 @@
   resolution: ''
   status: NEW
   summary: Memory leak on openSUSE Tumbleweed.
-- component: Network
-  create_time: 20181117T17:31:00
-  id: 1116439
-  resolution: ''
-  status: NEW
-  summary: privoxy segfaults with 20181116
-- component: Security
-  create_time: 20181117T11:33:00
-  id: 1116432
-  resolution: ''
-  status: NEW
-  summary: ipset save -file <filename> produces empty files
-- component: Kernel
-  create_time: 20181117T06:14:00
-  id: 1116426
-  resolution: ''
-  status: NEW
-  summary: Dell Latitude E6220 DRM shutdown errors - "flip_done timed out" (in drm_kms_helper)
-- component: Kernel
-  create_time: 20181117T02:31:00
-  id: 1116425
-  resolution: ''
-  status: NEW
-  summary: 4.19.1-1.pae did not boot
-- component: Installation
-  create_time: 20181116T16:11:00
-  id: 1116377
-  resolution: INVALID
-  status: RESOLVED
-  summary: '[Build892.2][staging] Enabling online repos pop-up is shown multiple times
-    if "No" was clicked'
-- component: Kernel
-  create_time: 20181116T15:53:00
-  id: 1116374
-  resolution: ''
-  status: REOPENED
-  summary: Kernel update TW20181112 to 4.19.1 breaks functionality of Technisat skystar
-    DVB-S PCI card.
-- component: AutoYaST
-  create_time: 20181116T14:16:00
-  id: 1116359
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: '[Build 20181116] openQA test fails in yast2_clone_system'
-- component: YaST2
-  create_time: 20181116T11:48:00
-  id: 1116332
-  resolution: ''
-  status: NEW
-  summary: '[Build 20181115] more than one product auto-selected for installation'
-- component: YaST2
-  create_time: 20181116T00:41:00
-  id: 1116278
-  resolution: ''
-  status: NEW
-  summary: Titles in yast-installation have too much padding on the left
-- component: Basesystem
-  create_time: 20181116T00:01:00
-  id: 1116277
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'klogconsole: split out of util-linux or upstream'
