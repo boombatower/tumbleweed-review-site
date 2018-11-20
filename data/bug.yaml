@@ -7484,8 +7484,8 @@
 - component: Other
   create_time: 20180420T15:54:00
   id: 1090405
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Segmentation fault with python3, python3-gobject and WebKit2 WebView
 - component: Kubic
   create_time: 20180420T15:37:00
@@ -11024,8 +11024,8 @@
 - component: YaST2
   create_time: 20180728T15:04:00
   id: 1102982
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Date and Time/NTP dialog - several errors during configuration
 - component: Network
   create_time: 20180728T15:01:00
@@ -14207,8 +14207,7 @@
   id: 1113300
   resolution: ''
   status: NEW
-  summary: blueman requires root authetication on bootup and doesn't connect to audio
-    devices
+  summary: blueman requires root authetication on bootup
 - component: YaST2
   create_time: 20181025T12:32:00
   id: 1113291
@@ -14244,7 +14243,7 @@
   create_time: 20181024T18:23:00
   id: 1113164
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Installation media is missing fonts from yast-theme
 - component: Other
   create_time: 20181024T17:58:00
@@ -14477,8 +14476,8 @@
 - component: Other
   create_time: 20181024T03:31:00
   id: 1113002
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/rpcbind'
 - component: Other
   create_time: 20181024T03:27:00
@@ -15494,13 +15493,13 @@
   create_time: 20181115T15:59:00
   id: 1116225
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: qemu ALSA backend broken
 - component: Other
   create_time: 20181115T08:58:00
   id: 1116161
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Gajim is missing 'precis-i18n'
 - component: Basesystem
   create_time: 20181115T07:58:00
@@ -15699,8 +15698,8 @@
 - component: Kernel
   create_time: 20181114T15:15:00
   id: 1116021
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: k10temp and iwlwifi sensor output missing
 - component: Other
   create_time: 20181114T15:15:00
@@ -15747,8 +15746,8 @@
 - component: Other
   create_time: 20181114T14:48:00
   id: 1116012
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Please convert SysV init scripts by firebird into native systemd services
 - component: GNOME
   create_time: 20181114T14:43:00
@@ -15863,7 +15862,7 @@
   create_time: 20181114T08:55:00
   id: 1115949
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: '[Build 20181112] Theme issue: ''selected/checked'' is barely visible'
 - component: Kernel
   create_time: 20181114T08:46:00
@@ -15930,8 +15929,8 @@
 - component: libzypp
   create_time: 20181113T09:56:00
   id: 1115745
-  resolution: ''
-  status: REOPENED
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: "YaST2 software management could not load plug-in \u201Cqt-pkg\u201D."
 - component: Installation
   create_time: 20181113T05:10:00
@@ -15948,8 +15947,8 @@
 - component: Other
   create_time: 20181112T16:07:00
   id: 1115645
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: IN_PROGRESS
   summary: Factory/TW requires cargo/rust cbindgen to be able to compile Firefox >=
     63
 - component: Security
@@ -15984,6 +15983,98 @@
   status: RESOLVED
   summary: Software Selection missing check box during installation
 '20181116':
+- component: Sound
+  create_time: 20181119T23:00:00
+  id: 1116622
+  resolution: ''
+  status: NEW
+  summary: Pulseaudio locks audio device for applications using alsa-plugin
+- component: YaST2
+  create_time: 20181119T21:28:00
+  id: 1116618
+  resolution: ''
+  status: NEW
+  summary: Hardly visible "checkmark" icon in Software selection - [Build 20181118]
+    openQA test fails in select_patterns_and_packages
+- component: GNOME
+  create_time: 20181119T20:46:00
+  id: 1116615
+  resolution: ''
+  status: NEW
+  summary: Periodic short freezes of the DE
+- component: X.Org
+  create_time: 20181119T19:46:00
+  id: 1116611
+  resolution: ''
+  status: NEW
+  summary: 'RADEON(G0): Failed to initialize surface manager with xf86-video-amdgpu'
+- component: Kernel
+  create_time: 20181119T16:48:00
+  id: 1116598
+  resolution: ''
+  status: NEW
+  summary: RPC kernel msg in root-console make power_action('poweroff') to timeout
+- component: Security
+  create_time: 20181119T16:29:00
+  id: 1116596
+  resolution: ''
+  status: NEW
+  summary: python sepolicy missing
+- component: Other
+  create_time: 20181119T16:03:00
+  id: 1116589
+  resolution: ''
+  status: NEW
+  summary: 'ImageMagick: convert: attempt to perform an operation not allowed by the
+    security policy'
+- component: YaST2
+  create_time: 20181119T15:30:00
+  id: 1116584
+  resolution: ''
+  status: NEW
+  summary: libyui-qt* missing after latest TW upgrade
+- component: YaST2
+  create_time: 20181119T13:23:00
+  id: 1116568
+  resolution: ''
+  status: NEW
+  summary: yast2 hostnames can freeze OS
+- component: Kernel
+  create_time: 20181119T12:48:00
+  id: 1116564
+  resolution: FEATURE
+  status: RESOLVED
+  summary: unknown filesystem type 'f2fs' with kernel:standard
+- component: Installation
+  create_time: 20181119T12:43:00
+  id: 1116562
+  resolution: ''
+  status: NEW
+  summary: '[Build892.4][Staging][M][sidebar] No icons for in the system view tree'
+- component: Other
+  create_time: 20181119T11:28:00
+  id: 1116552
+  resolution: ''
+  status: NEW
+  summary: Packaging Issues related to openSUSE:Factory/389-ds
+- component: GNOME
+  create_time: 20181119T11:26:00
+  id: 1116550
+  resolution: ''
+  status: NEW
+  summary: PackageKit doesn't respect solver.cleandepsOnRemove option in zypp.conf
+- component: Xen
+  create_time: 20181119T09:48:00
+  id: 1116524
+  resolution: ''
+  status: NEW
+  summary: 'Package xen-tools-4.11.0_09-2.1.x86_64 broken: Missing /bin/domu-xenstore'
+- component: Other
+  create_time: 20181119T07:43:00
+  id: 1116485
+  resolution: ''
+  status: NEW
+  summary: ibus indicator Chinese preference doesn't pop up
 - component: KDE Applications
   create_time: 20181118T19:46:00
   id: 1116459
@@ -16049,8 +16140,8 @@
 - component: Installation
   create_time: 20181116T16:11:00
   id: 1116377
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: '[Build892.2][staging] Enabling online repos pop-up is shown multiple times
     if "No" was clicked'
 - component: Kernel
