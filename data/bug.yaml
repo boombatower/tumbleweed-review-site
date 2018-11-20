@@ -16046,6 +16046,24 @@
   status: IN_PROGRESS
   summary: 'klogconsole: split out of util-linux or upstream'
 '20181118':
+- component: Other
+  create_time: 20181120T20:18:00
+  id: 1116778
+  resolution: ''
+  status: NEW
+  summary: Steam sc-controller gui not working
+- component: Installation
+  create_time: 20181120T17:45:00
+  id: 1116763
+  resolution: INVALID
+  status: RESOLVED
+  summary: Missing Packages from Tumbleweed ISO
+- component: Other
+  create_time: 20181120T17:09:00
+  id: 1116759
+  resolution: ''
+  status: NEW
+  summary: gr-osmosdr uninstallable missing deps
 - component: Basesystem
   create_time: 20181120T09:09:00
   id: 1116670
@@ -16117,8 +16135,8 @@
 - component: Installation
   create_time: 20181119T12:43:00
   id: 1116562
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build892.4][Staging][M][sidebar] No icons for in the system view tree'
 - component: Other
   create_time: 20181119T11:28:00
