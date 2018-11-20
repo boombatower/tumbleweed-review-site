@@ -560,5 +560,8 @@
   score: 59
   stability_level: unstable
 '20181116':
-  score: 80
+  score: 67
+  stability_level: pending
+'20181118':
+  score: 84
   stability_level: pending
