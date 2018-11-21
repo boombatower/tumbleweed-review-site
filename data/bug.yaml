@@ -14320,8 +14320,8 @@
 - component: Apache
   create_time: 20181024T14:40:00
   id: 1113123
-  resolution: INVALID
-  status: VERIFIED
+  resolution: ''
+  status: REOPENED
   summary: Apache2 does no longer load mod_php7 after the last patch update
 - component: Firefox
   create_time: 20181024T14:32:00
@@ -14919,8 +14919,8 @@
 - component: KDE Applications
   create_time: 20181106T14:27:00
   id: 1114866
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: ICE difficulties with KTorrent 5.1.1
 - component: Security
   create_time: 20181106T13:00:00
@@ -15297,8 +15297,8 @@
 - component: Other
   create_time: 20181108T08:42:00
   id: 1115168
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[util-linux] incorrect socket path in uuidd.socket'
 - component: X.Org
   create_time: 20181108T01:20:00
@@ -15687,7 +15687,7 @@
   create_time: 20181114T15:18:00
   id: 1116023
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Please convert SysV init scripts by mhvtl into native systemd services
 - component: Other
   create_time: 20181114T15:16:00
@@ -15862,7 +15862,7 @@
   create_time: 20181114T08:55:00
   id: 1115949
   resolution: ''
-  status: REOPENED
+  status: IN_PROGRESS
   summary: '[Build 20181112] Theme issue: ''selected/checked'' is barely visible'
 - component: Kernel
   create_time: 20181114T08:46:00
@@ -15874,7 +15874,7 @@
   create_time: 20181114T08:12:00
   id: 1115942
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Fonts in all applications are green and magenta or have a cast of that
 - component: Other
   create_time: 20181114T07:53:00
@@ -15992,8 +15992,8 @@
 - component: Security
   create_time: 20181117T11:33:00
   id: 1116432
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: ipset save -file <filename> produces empty files
 - component: Kernel
   create_time: 20181117T06:14:00
@@ -16046,6 +16046,12 @@
   status: IN_PROGRESS
   summary: 'klogconsole: split out of util-linux or upstream'
 '20181118':
+- component: GNOME
+  create_time: 20181121T11:00:00
+  id: 1116867
+  resolution: ''
+  status: NEW
+  summary: udev rule for printer installation fails due to missing python module
 - component: Basesystem
   create_time: 20181121T10:12:00
   id: 1116849
@@ -16142,7 +16148,7 @@
   create_time: 20181119T13:23:00
   id: 1116568
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: yast2 hostnames can freeze OS
 - component: Kernel
   create_time: 20181119T12:48:00
@@ -16204,7 +16210,7 @@
   id: 1116451
   resolution: ''
   status: NEW
-  summary: LO help find function doesn't find some entrie
+  summary: Use new help system for libreoffice
 - component: Development
   create_time: 20181118T10:08:00
   id: 1116449
