@@ -2387,8 +2387,8 @@
 - component: Other
   create_time: 20180125T11:54:00
   id: 1077600
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180113] openQA test fails in install_and_reboot'
 - component: Other
   create_time: 20180125T11:41:00
@@ -5428,8 +5428,8 @@
 - component: Upgrade Problems
   create_time: 20180309T09:59:00
   id: 1084629
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: System hangs in boot after upgrade to Tumbleweed 20180307
 - component: Basesystem
   create_time: 20180309T09:55:00
@@ -11366,8 +11366,8 @@
 - component: Basesystem
   create_time: 20180806T05:40:00
   id: 1103835
-  resolution: ''
-  status: REOPENED
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Firefox and other applications don't start with Glib-GIO-ERROR
 '20180807':
 - component: GNOME
@@ -13876,8 +13876,8 @@
 - component: GNOME
   create_time: 20181021T09:35:00
   id: 1112639
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'Python2/Glade crashes with glade file of green-recorder: gtkstyleproviderprivate.c:
     No such file or directory.'
 - component: Basesystem
@@ -15475,7 +15475,7 @@
   id: 1116272
   resolution: ''
   status: CONFIRMED
-  summary: 'multipath 0.7.9: map falsely flushed after devmap event'
+  summary: 'multipath 0.7.9: map falsely removed after devmap event'
 - component: Kernel
   create_time: 20181115T18:41:00
   id: 1116239
@@ -16030,8 +16030,8 @@
 - component: YaST2
   create_time: 20181116T11:48:00
   id: 1116332
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20181115] more than one product auto-selected for installation'
 - component: YaST2
   create_time: 20181116T00:41:00
@@ -16046,6 +16046,18 @@
   status: IN_PROGRESS
   summary: 'klogconsole: split out of util-linux or upstream'
 '20181118':
+- component: Basesystem
+  create_time: 20181121T10:12:00
+  id: 1116849
+  resolution: ''
+  status: NEW
+  summary: Failed to start Load Kernel Modules
+- component: Virtualization:Tools
+  create_time: 20181121T08:54:00
+  id: 1116824
+  resolution: ''
+  status: NEW
+  summary: Virt-manager fails to create snapshot
 - component: GNOME
   create_time: 20181121T00:31:00
   id: 1116806
@@ -16142,7 +16154,7 @@
   create_time: 20181119T12:43:00
   id: 1116562
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build892.4][Staging][M][sidebar] No icons for in the system view tree'
 - component: Other
   create_time: 20181119T11:28:00
