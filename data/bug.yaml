@@ -16046,6 +16046,12 @@
   status: IN_PROGRESS
   summary: 'klogconsole: split out of util-linux or upstream'
 '20181118':
+- component: GNOME
+  create_time: 20181121T00:31:00
+  id: 1116806
+  resolution: ''
+  status: NEW
+  summary: Buildstream is missing a python3-click dependency
 - component: Other
   create_time: 20181120T20:18:00
   id: 1116778
