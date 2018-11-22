@@ -6836,8 +6836,8 @@
 - component: Kubic
   create_time: 20180409T12:18:00
   id: 1088676
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: config file paths in manual page wrong
 - component: Kernel
   create_time: 20180409T11:12:00
@@ -9432,8 +9432,8 @@
 - component: Other
   create_time: 20180615T15:24:00
   id: 1097867
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: transactional-update needs a minimum version of rsync, but misses requires
 - component: LXDE
   create_time: 20180615T13:24:00
@@ -11761,8 +11761,8 @@
 - component: Kubic
   create_time: 20180825T18:13:00
   id: 1105992
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Transactional-Update broken in snapshot 20180824
 - component: Network
   create_time: 20180824T22:45:00
@@ -14894,8 +14894,8 @@
 - component: Other
   create_time: 20181103T16:42:00
   id: 1114571
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: python-textX not reproducible
 - component: Network
   create_time: 20181103T15:14:00
@@ -16177,6 +16177,12 @@
   status: NEW
   summary: Memory leak on openSUSE Tumbleweed.
 '20181120':
+- component: Basesystem
+  create_time: 20181122T16:50:00
+  id: 1117063
+  resolution: ''
+  status: NEW
+  summary: rpm set the write bit of /etc/machine-id each time systemd package is updated
 - component: Basesystem
   create_time: 20181122T07:53:00
   id: 1116995
