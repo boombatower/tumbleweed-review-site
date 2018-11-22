@@ -7515,8 +7515,8 @@
 - component: Installation
   create_time: 20180420T12:20:00
   id: 1090372
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Server System Roles have suboptimal default firewall settings
 - component: Basesystem
   create_time: 20180420T11:41:00
@@ -13410,8 +13410,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20181010T15:15:00
   id: 1111420
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: krunner doesn't show results in some openQA tests
 - component: Kernel
   create_time: 20181010T14:48:00
@@ -14895,7 +14895,7 @@
   create_time: 20181103T16:42:00
   id: 1114571
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: python-textX not reproducible
 - component: Network
   create_time: 20181103T15:14:00
@@ -15784,7 +15784,7 @@
   create_time: 20181114T14:13:00
   id: 1116003
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build1491.5][Staging][sidebar] sidebar stores multiple width setups at
     the same time'
 - component: Other
@@ -16036,8 +16036,8 @@
 - component: YaST2
   create_time: 20181116T00:41:00
   id: 1116278
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Titles in yast-installation have too much padding on the left
 - component: Basesystem
   create_time: 20181116T00:01:00
@@ -16046,60 +16046,6 @@
   status: IN_PROGRESS
   summary: 'klogconsole: split out of util-linux or upstream'
 '20181118':
-- component: Basesystem
-  create_time: 20181122T07:53:00
-  id: 1116995
-  resolution: ''
-  status: NEW
-  summary: packagekit leaking file descriptors (and huge log file) ?
-- component: GNOME
-  create_time: 20181121T11:00:00
-  id: 1116867
-  resolution: ''
-  status: NEW
-  summary: udev rule for printer installation fails due to missing python module
-- component: Basesystem
-  create_time: 20181121T10:12:00
-  id: 1116849
-  resolution: ''
-  status: NEW
-  summary: Failed to start Load Kernel Modules
-- component: Virtualization:Tools
-  create_time: 20181121T08:54:00
-  id: 1116824
-  resolution: ''
-  status: NEW
-  summary: Virt-manager fails to create snapshot
-- component: GNOME
-  create_time: 20181121T00:31:00
-  id: 1116806
-  resolution: ''
-  status: NEW
-  summary: Buildstream is missing a python3-click dependency
-- component: Other
-  create_time: 20181120T20:18:00
-  id: 1116778
-  resolution: ''
-  status: NEW
-  summary: Steam sc-controller gui not working
-- component: Installation
-  create_time: 20181120T17:45:00
-  id: 1116763
-  resolution: INVALID
-  status: RESOLVED
-  summary: Missing Packages from Tumbleweed ISO
-- component: Other
-  create_time: 20181120T17:09:00
-  id: 1116759
-  resolution: ''
-  status: NEW
-  summary: gr-osmosdr uninstallable missing deps
-- component: Basesystem
-  create_time: 20181120T09:09:00
-  id: 1116670
-  resolution: ''
-  status: NEW
-  summary: ssh access on Raspberry Pi 1B gives error (armv6)
 - component: Sound
   create_time: 20181119T23:00:00
   id: 1116622
@@ -16230,3 +16176,58 @@
   resolution: ''
   status: NEW
   summary: Memory leak on openSUSE Tumbleweed.
+'20181120':
+- component: Basesystem
+  create_time: 20181122T07:53:00
+  id: 1116995
+  resolution: ''
+  status: NEW
+  summary: packagekit leaking file descriptors (and huge log file) ?
+- component: GNOME
+  create_time: 20181121T11:00:00
+  id: 1116867
+  resolution: ''
+  status: NEW
+  summary: udev rule for printer installation fails due to missing python module
+- component: Basesystem
+  create_time: 20181121T10:12:00
+  id: 1116849
+  resolution: ''
+  status: NEW
+  summary: Failed to start Load Kernel Modules
+- component: Virtualization:Tools
+  create_time: 20181121T08:54:00
+  id: 1116824
+  resolution: ''
+  status: NEW
+  summary: Virt-manager fails to create snapshot
+- component: GNOME
+  create_time: 20181121T00:31:00
+  id: 1116806
+  resolution: ''
+  status: NEW
+  summary: Buildstream is missing a python3-click dependency
+- component: Other
+  create_time: 20181120T20:18:00
+  id: 1116778
+  resolution: ''
+  status: NEW
+  summary: Steam sc-controller gui not working
+- component: Installation
+  create_time: 20181120T17:45:00
+  id: 1116763
+  resolution: INVALID
+  status: RESOLVED
+  summary: Missing Packages from Tumbleweed ISO
+- component: Other
+  create_time: 20181120T17:09:00
+  id: 1116759
+  resolution: ''
+  status: NEW
+  summary: gr-osmosdr uninstallable missing deps
+- component: Basesystem
+  create_time: 20181120T09:09:00
+  id: 1116670
+  resolution: ''
+  status: NEW
+  summary: ssh access on Raspberry Pi 1B gives error (armv6)
