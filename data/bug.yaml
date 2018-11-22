@@ -15467,7 +15467,7 @@
   create_time: 20181110T10:55:00
   id: 1115529
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: chronyd version 3.4 has problems starting the command socket
 '20181112':
 - component: Basesystem
@@ -15498,8 +15498,8 @@
 - component: Other
   create_time: 20181115T08:58:00
   id: 1116161
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Gajim is missing 'precis-i18n'
 - component: Basesystem
   create_time: 20181115T07:58:00
@@ -15836,8 +15836,8 @@
 - component: Installation
   create_time: 20181114T13:24:00
   id: 1115986
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: VERIFIED
   summary: '[Build1491.5][Staging][sidebar] Load linuxrc Network Configuration doesn''t
     fit the screen'
 - component: libzypp
@@ -16046,6 +16046,12 @@
   status: IN_PROGRESS
   summary: 'klogconsole: split out of util-linux or upstream'
 '20181118':
+- component: Basesystem
+  create_time: 20181122T07:53:00
+  id: 1116995
+  resolution: ''
+  status: NEW
+  summary: packagekit leaking file descriptors (and huge log file) ?
 - component: GNOME
   create_time: 20181121T11:00:00
   id: 1116867
@@ -16134,8 +16140,8 @@
 - component: Other
   create_time: 20181119T16:03:00
   id: 1116589
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'ImageMagick: convert: attempt to perform an operation not allowed by the
     security policy'
 - component: YaST2
