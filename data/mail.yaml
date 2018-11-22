@@ -1241,11 +1241,11 @@
   threads: []
 '20181004':
   announcement: 2018-10.118
-  reference_count: 1
+  reference_count: 2
   thread_count: 1
   threads:
   - messages: [2018-11.260]
-    reference_count: 1
+    reference_count: 2
     summary: Imagemagick and CVE-2017-11532
 '20181009':
   announcement: 2018-10.153
