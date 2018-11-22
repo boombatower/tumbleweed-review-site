@@ -458,22 +458,22 @@
   score: 93
   stability_level: stable
 '20180818':
-  score: 67
+  score: 52
   stability_level: unstable
 '20180820':
-  score: 79
-  stability_level: moderate
+  score: 58
+  stability_level: unstable
 '20180827':
-  score: 67
+  score: 59
   stability_level: unstable
 '20180828':
-  score: 86
+  score: 83
   stability_level: moderate
 '20180829':
-  score: 93
+  score: 91
   stability_level: stable
 '20180831':
-  score: 96
+  score: 95
   stability_level: stable
 '20180903':
   score: 97
@@ -557,11 +557,14 @@
   score: 96
   stability_level: stable
 '20181112':
-  score: 74
-  stability_level: moderate
+  score: 59
+  stability_level: unstable
 '20181116':
-  score: 88
+  score: 67
   stability_level: pending
 '20181118':
-  score: 92
+  score: 84
+  stability_level: pending
+'20181120':
+  score: 93
   stability_level: pending
