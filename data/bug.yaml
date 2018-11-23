@@ -12471,8 +12471,8 @@
 - component: AutoYaST
   create_time: 20180912T15:09:00
   id: 1108199
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180910] autoyast profile doesn''t validate when cloning system'
 - component: Other
   create_time: 20180912T15:00:00
@@ -14320,8 +14320,8 @@
 - component: Apache
   create_time: 20181024T14:40:00
   id: 1113123
-  resolution: ''
-  status: REOPENED
+  resolution: INVALID
+  status: RESOLVED
   summary: Apache2 does no longer load mod_php7 after the last patch update
 - component: Firefox
   create_time: 20181024T14:32:00
@@ -16177,6 +16177,24 @@
   status: NEW
   summary: Memory leak on openSUSE Tumbleweed.
 '20181120':
+- component: Other
+  create_time: 20181123T09:33:00
+  id: 1117121
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[METABUG] Update guile to 2.2 on Tumbleweed'
+- component: Ruby
+  create_time: 20181123T09:06:00
+  id: 1117113
+  resolution: ''
+  status: NEW
+  summary: 'ruby2.5: make: invalid option -- ''x'' in build'
+- component: Kernel
+  create_time: 20181123T06:25:00
+  id: 1117095
+  resolution: ''
+  status: NEW
+  summary: 'vc4: Failed to allocate from CMA, graphics freezes'
 - component: Basesystem
   create_time: 20181122T16:50:00
   id: 1117063
