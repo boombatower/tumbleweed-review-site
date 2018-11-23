@@ -14932,8 +14932,8 @@
 - component: Kernel
   create_time: 20181106T12:15:00
   id: 1114846
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: ppc64 kernel breaks on P9 because of radix tree
 - component: YaST2
   create_time: 20181106T09:36:00
