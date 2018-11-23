@@ -10491,8 +10491,8 @@
 - component: Basesystem
   create_time: 20180718T07:57:00
   id: 1101591
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Unable to change VTs after wayland compositor crash
 - component: X.Org
   create_time: 20180718T07:37:00
@@ -16177,36 +16177,6 @@
   status: NEW
   summary: Memory leak on openSUSE Tumbleweed.
 '20181120':
-- component: Other
-  create_time: 20181123T09:33:00
-  id: 1117121
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[METABUG] Update guile to 2.2 on Tumbleweed'
-- component: Ruby
-  create_time: 20181123T09:06:00
-  id: 1117113
-  resolution: ''
-  status: NEW
-  summary: 'ruby2.5: make: invalid option -- ''x'' in build'
-- component: Kernel
-  create_time: 20181123T06:25:00
-  id: 1117095
-  resolution: ''
-  status: NEW
-  summary: 'vc4: Failed to allocate from CMA, graphics freezes'
-- component: Basesystem
-  create_time: 20181122T16:50:00
-  id: 1117063
-  resolution: ''
-  status: NEW
-  summary: rpm set the write bit of /etc/machine-id each time systemd package is updated
-- component: Basesystem
-  create_time: 20181122T07:53:00
-  id: 1116995
-  resolution: ''
-  status: NEW
-  summary: packagekit leaking file descriptors (and huge log file) ?
 - component: GNOME
   create_time: 20181121T11:00:00
   id: 1116867
@@ -16252,6 +16222,38 @@
 - component: Basesystem
   create_time: 20181120T09:09:00
   id: 1116670
+  resolution: FIXED
+  status: RESOLVED
+  summary: ssh access on Raspberry Pi 1B gives error (armv6)
+'20181122':
+- component: Other
+  create_time: 20181123T09:33:00
+  id: 1117121
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[METABUG] Update guile to 2.2 on Tumbleweed'
+- component: Ruby
+  create_time: 20181123T09:06:00
+  id: 1117113
   resolution: ''
   status: NEW
-  summary: ssh access on Raspberry Pi 1B gives error (armv6)
+  summary: 'ruby2.5: make: invalid option -- ''x'' in build'
+- component: Kernel
+  create_time: 20181123T06:25:00
+  id: 1117095
+  resolution: ''
+  status: NEW
+  summary: 'vc4: Failed to allocate from CMA, graphics freezes'
+- component: Basesystem
+  create_time: 20181122T16:50:00
+  id: 1117063
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'systemd.spec: the test for figuring out if /etc/machine-id is writable
+    is incorrect'
+- component: Basesystem
+  create_time: 20181122T07:53:00
+  id: 1116995
+  resolution: ''
+  status: NEW
+  summary: packagekit leaking file descriptors (and huge log file) ?
