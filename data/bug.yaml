@@ -14094,8 +14094,8 @@
 - component: Virtualization:Other
   create_time: 20181027T20:18:00
   id: 1113621
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Virtualbox: Error -10 in SUPR3HardenedMain!'
 - component: Other
   create_time: 20181027T19:05:00
@@ -14320,8 +14320,8 @@
 - component: Apache
   create_time: 20181024T14:40:00
   id: 1113123
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Apache2 does no longer load mod_php7 after the last patch update
 - component: Firefox
   create_time: 20181024T14:32:00
@@ -14557,8 +14557,8 @@
 - component: Other
   create_time: 20181023T01:49:00
   id: 1112830
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/stunnel'
 - component: GNOME
   create_time: 20181022T21:57:00
@@ -16226,6 +16226,31 @@
   status: RESOLVED
   summary: ssh access on Raspberry Pi 1B gives error (armv6)
 '20181122':
+- component: Basesystem
+  create_time: 20181124T20:17:00
+  id: 1117217
+  resolution: ''
+  status: NEW
+  summary: ypbind (NIS) is not started automatically although configured to do so
+    tumbleweed snapshot 20181120
+- component: Other
+  create_time: 20181124T19:03:00
+  id: 1117216
+  resolution: ''
+  status: NEW
+  summary: 'Snappy: cannot determine nfs usage in generateSystemKey'
+- component: KDE Workspace (Plasma)
+  create_time: 20181124T18:37:00
+  id: 1117215
+  resolution: ''
+  status: NEW
+  summary: Inconsistent Results from External Displays using Energy Saving mode
+- component: Other
+  create_time: 20181124T17:22:00
+  id: 1117214
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/libblockdev is out of date'
 - component: YaST2
   create_time: 20181124T11:44:00
   id: 1117208
