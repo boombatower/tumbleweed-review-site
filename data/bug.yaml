@@ -13619,7 +13619,7 @@
   create_time: 20181013T03:48:00
   id: 1111728
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'Out of date package: openSUSE:Factory/efibootmgr'
 - component: Other
   create_time: 20181013T03:47:00
@@ -16251,6 +16251,13 @@
   status: RESOLVED
   summary: 'systemd.spec: the test for figuring out if /etc/machine-id is writable
     is incorrect'
+- component: Installation
+  create_time: 20181122T13:20:00
+  id: 1117045
+  resolution: ''
+  status: REOPENED
+  summary: 'Option "shell" in linuxrc fallback menu fails with "sh: line 0: exec:
+    setctsid/setsid: not found"'
 - component: Basesystem
   create_time: 20181122T07:53:00
   id: 1116995
