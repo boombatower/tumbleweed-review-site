@@ -13179,8 +13179,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20181001T19:16:00
   id: 1110382
-  resolution: ''
-  status: REOPENED
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: sddm can not start plasma with Xserver but only with Wayland
 - component: Development
   create_time: 20181001T13:33:00
@@ -14320,8 +14320,8 @@
 - component: Apache
   create_time: 20181024T14:40:00
   id: 1113123
-  resolution: INVALID
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Apache2 does no longer load mod_php7 after the last patch update
 - component: Firefox
   create_time: 20181024T14:32:00
@@ -16226,6 +16226,12 @@
   status: RESOLVED
   summary: ssh access on Raspberry Pi 1B gives error (armv6)
 '20181122':
+- component: YaST2
+  create_time: 20181124T11:44:00
+  id: 1117208
+  resolution: ''
+  status: NEW
+  summary: Yast2-country Keyboard Settings are Erroneous
 - component: Other
   create_time: 20181123T09:33:00
   id: 1117121
