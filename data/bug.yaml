@@ -16226,6 +16226,12 @@
   status: RESOLVED
   summary: ssh access on Raspberry Pi 1B gives error (armv6)
 '20181122':
+- component: Maintenance
+  create_time: 20181125T15:56:00
+  id: 1117235
+  resolution: ''
+  status: NEW
+  summary: online_update patches instead of dup on tumbleweed rendering it useless
 - component: Kernel
   create_time: 20181125T04:53:00
   id: 1117224
