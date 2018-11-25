@@ -16226,6 +16226,19 @@
   status: RESOLVED
   summary: ssh access on Raspberry Pi 1B gives error (armv6)
 '20181122':
+- component: Kernel
+  create_time: 20181125T04:53:00
+  id: 1117224
+  resolution: ''
+  status: NEW
+  summary: 'ACPI Warning: SystemIO range 0x0000000000000428-0x000000000000042F conflicts
+    with OpRegion 0x0000000000000400-0x000000000000047F (\PMIO) (20180810/utaddress-213)'
+- component: Basesystem
+  create_time: 20181125T02:04:00
+  id: 1117223
+  resolution: ''
+  status: NEW
+  summary: package bpftrace
 - component: Basesystem
   create_time: 20181124T20:17:00
   id: 1117217
