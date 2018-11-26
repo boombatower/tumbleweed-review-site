@@ -11624,8 +11624,8 @@
 - component: Development
   create_time: 20180816T21:26:00
   id: 1105150
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Add Rakudo-Star (Perl6) package
 - component: Kernel
   create_time: 20180816T21:20:00
@@ -13723,8 +13723,8 @@
 - component: GNOME
   create_time: 20181017T09:44:00
   id: 1112138
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: X server crashes on GNOME Tumbleweed
 - component: Other
   create_time: 20181017T07:28:00
@@ -14950,8 +14950,8 @@
 - component: Bootloader
   create_time: 20181105T19:14:00
   id: 1114754
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Can't boot with any Bootables (Tumbleweed Live CD, Tumbleweed/Leap/SLE
     installers)
 - component: Kernel
@@ -16226,6 +16226,18 @@
   status: RESOLVED
   summary: ssh access on Raspberry Pi 1B gives error (armv6)
 '20181122':
+- component: YaST2
+  create_time: 20181126T09:15:00
+  id: 1117273
+  resolution: ''
+  status: NEW
+  summary: Yast2 AppArmor crash when configuring profiles
+- component: X11 Applications
+  create_time: 20181126T08:06:00
+  id: 1117266
+  resolution: ''
+  status: NEW
+  summary: wxMaxima segfaults upon launch
 - component: Maintenance
   create_time: 20181125T15:56:00
   id: 1117235
