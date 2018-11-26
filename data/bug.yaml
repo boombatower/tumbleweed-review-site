@@ -1017,8 +1017,8 @@
 - component: GNOME
   create_time: 20171225T20:32:00
   id: 1074074
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: suspend hibernate resume doesn't work, /etc/NetworkManager/dispatcher.d/nfs
 - component: YaST2
   create_time: 20171225T20:11:00
@@ -14088,8 +14088,8 @@
 - component: Virtualization:Other
   create_time: 20181027T20:53:00
   id: 1113622
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'TW 20181022: Virtualization/virtualbox is uninstallable'
 - component: Virtualization:Other
   create_time: 20181027T20:18:00
@@ -15460,9 +15460,9 @@
 - component: Other
   create_time: 20181110T12:59:00
   id: 1115532
-  resolution: ''
-  status: NEW
-  summary: 'hylafax+: spec.file  BuildRequire: tiff missing'
+  resolution: FIXED
+  status: RESOLVED
+  summary: hylafax+ missing JBIG-in-TIFF support
 - component: Basesystem
   create_time: 20181110T10:55:00
   id: 1115529
