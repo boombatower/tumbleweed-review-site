@@ -16226,6 +16226,13 @@
   status: RESOLVED
   summary: ssh access on Raspberry Pi 1B gives error (armv6)
 '20181122':
+- component: Basesystem
+  create_time: 20181126T16:26:00
+  id: 1117355
+  resolution: ''
+  status: IN_PROGRESS
+  summary: libgcrypt runs selfcheck including hmac based binary verifcation outside
+    fips mode. breaks keepassxc
 - component: Virtualization:Tools
   create_time: 20181126T13:25:00
   id: 1117324
@@ -16241,8 +16248,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20181126T12:29:00
   id: 1117316
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: XMLListModel QML support missing from Qt 5.12
 - component: Other
   create_time: 20181126T11:56:00
