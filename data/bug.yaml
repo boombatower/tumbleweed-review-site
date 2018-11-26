@@ -9576,7 +9576,7 @@
   create_time: 20180620T14:10:00
   id: 1098432
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: zypper dup does not update boost devel packages
 - component: Basesystem
   create_time: 20180620T13:59:00
@@ -16226,6 +16226,30 @@
   status: RESOLVED
   summary: ssh access on Raspberry Pi 1B gives error (armv6)
 '20181122':
+- component: Virtualization:Tools
+  create_time: 20181126T13:25:00
+  id: 1117324
+  resolution: ''
+  status: NEW
+  summary: virt-manager unable to create a sparse (dynamically allocated) qcow2 image
+- component: Basesystem
+  create_time: 20181126T12:36:00
+  id: 1117317
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'systemd:  tmpfile init broken with systemd Nov 16'
+- component: KDE Workspace (Plasma)
+  create_time: 20181126T12:29:00
+  id: 1117316
+  resolution: ''
+  status: NEW
+  summary: XMLListModel QML support missing from Qt 5.12
+- component: Other
+  create_time: 20181126T11:56:00
+  id: 1117307
+  resolution: ''
+  status: NEW
+  summary: geda-gaf fails to build with guile-2.2
 - component: YaST2
   create_time: 20181126T09:15:00
   id: 1117273
@@ -16286,7 +16310,7 @@
   create_time: 20181124T11:44:00
   id: 1117208
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Yast2-country Keyboard Settings are Erroneous
 - component: Other
   create_time: 20181123T09:33:00
@@ -16316,8 +16340,8 @@
 - component: Installation
   create_time: 20181122T13:20:00
   id: 1117045
-  resolution: ''
-  status: REOPENED
+  resolution: INVALID
+  status: RESOLVED
   summary: 'Option "shell" in linuxrc fallback menu fails with "sh: line 0: exec:
     setctsid/setsid: not found"'
 - component: Basesystem
