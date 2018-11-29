@@ -11323,8 +11323,8 @@
 - component: X11 3rd Party Driver
   create_time: 20180805T06:53:00
   id: 1103816
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: nvidia-prime for openSUSE
 - component: Network
   create_time: 20180805T06:32:00
@@ -13417,7 +13417,7 @@
   create_time: 20181010T14:48:00
   id: 1111414
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: snapper's background comparison makes the system unusable
 - component: Samba
   create_time: 20181010T11:42:00
@@ -14766,8 +14766,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20181031T02:15:00
   id: 1114077
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: '"Present Windows" edge effect failed on update'
 - component: Network
   create_time: 20181030T20:22:00
@@ -15510,8 +15510,8 @@
 - component: Sound
   create_time: 20181115T07:57:00
   id: 1116153
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Audacity cannot play/record sound via PulseAudio with libasound2-1.1.7
 - component: Kubic
   create_time: 20181115T03:36:00
@@ -15710,8 +15710,8 @@
 - component: Basesystem
   create_time: 20181114T15:13:00
   id: 1116019
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by  kbdsniffd into native systemd services
 - component: Network
   create_time: 20181114T15:11:00
@@ -16318,14 +16318,14 @@
 - component: Kernel
   create_time: 20181128T21:23:00
   id: 1117712
-  resolution: ''
-  status: NEW
+  resolution: FEATURE
+  status: RESOLVED
   summary: zypper dup does not load kernel-firmware
 - component: Other
   create_time: 20181128T18:44:00
   id: 1117696
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'pocketsphinx-0.8-1.1:  no cmn type batch recognized'
 - component: Maintenance
   create_time: 20181128T12:56:00
