@@ -13761,8 +13761,8 @@
 - component: Other
   create_time: 20181016T14:20:00
   id: 1112026
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: wine-nine and wine-staging-nine must depend on Mesa-libd3d and Mesa-libd3d-32bit
 - component: Basesystem
   create_time: 20181016T14:09:00
@@ -16315,6 +16315,25 @@
   status: NEW
   summary: packagekit leaking file descriptors (and huge log file) ?
 '20181126':
+- component: Virtualization:Tools
+  create_time: 20181129T18:48:00
+  id: 1117846
+  resolution: ''
+  status: NEW
+  summary: 'virt-manager: Checking for virtualization packages error'
+- component: Other
+  create_time: 20181129T18:22:00
+  id: 1117844
+  resolution: ''
+  status: NEW
+  summary: Dovecot throws permissions errors about /var/run/dovecot/stats-writer when
+    delivering mail
+- component: X.Org
+  create_time: 20181129T16:20:00
+  id: 1117833
+  resolution: ''
+  status: NEW
+  summary: 'Wayland: briefffffffffff unresponsivvvvvvvvvvvveness and repeated keys'
 - component: Kernel
   create_time: 20181128T21:23:00
   id: 1117712
@@ -16330,8 +16349,8 @@
 - component: Maintenance
   create_time: 20181128T12:56:00
   id: 1117647
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: update-checker is broken out of the box
 - component: YaST2
   create_time: 20181128T12:22:00
