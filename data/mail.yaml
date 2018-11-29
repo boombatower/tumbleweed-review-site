@@ -1337,3 +1337,11 @@
   reference_count: 0
   thread_count: 0
   threads: []
+'20181126':
+  announcement: 2018-11.290
+  reference_count: 7
+  thread_count: 1
+  threads:
+  - messages: [2018-11.292]
+    reference_count: 7
+    summary: No sound
