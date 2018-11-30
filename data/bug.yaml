@@ -16315,62 +16315,6 @@
   status: NEW
   summary: packagekit leaking file descriptors (and huge log file) ?
 '20181126':
-- component: Virtualization:Tools
-  create_time: 20181129T18:48:00
-  id: 1117846
-  resolution: ''
-  status: NEW
-  summary: 'virt-manager: Checking for virtualization packages error'
-- component: Other
-  create_time: 20181129T18:22:00
-  id: 1117844
-  resolution: ''
-  status: NEW
-  summary: Dovecot throws permissions errors about /var/run/dovecot/stats-writer when
-    delivering mail
-- component: X.Org
-  create_time: 20181129T16:20:00
-  id: 1117833
-  resolution: ''
-  status: NEW
-  summary: 'Wayland: briefffffffffff unresponsivvvvvvvvvvvveness and repeated keys'
-- component: Kernel
-  create_time: 20181128T21:23:00
-  id: 1117712
-  resolution: FEATURE
-  status: RESOLVED
-  summary: zypper dup does not load kernel-firmware
-- component: Other
-  create_time: 20181128T18:44:00
-  id: 1117696
-  resolution: ''
-  status: CONFIRMED
-  summary: 'pocketsphinx-0.8-1.1:  no cmn type batch recognized'
-- component: Maintenance
-  create_time: 20181128T12:56:00
-  id: 1117647
-  resolution: FIXED
-  status: RESOLVED
-  summary: update-checker is broken out of the box
-- component: YaST2
-  create_time: 20181128T12:22:00
-  id: 1117643
-  resolution: ''
-  status: NEW
-  summary: '[Build 20181127] yast ldap server module does not report error about missing
-    package'
-- component: OpenStack
-  create_time: 20181128T12:06:00
-  id: 1117640
-  resolution: ''
-  status: NEW
-  summary: '''openstack application'' sub-command missing after installing python2/3-openstackclient'
-- component: Kernel
-  create_time: 20181128T08:28:00
-  id: 1117584
-  resolution: ''
-  status: NEW
-  summary: Failed to get unique processor _UID
 - component: Basesystem
   create_time: 20181127T14:54:00
   id: 1117489
@@ -16438,3 +16382,60 @@
   resolution: ''
   status: NEW
   summary: wxMaxima segfaults upon launch
+'20181128':
+- component: Virtualization:Tools
+  create_time: 20181129T18:48:00
+  id: 1117846
+  resolution: ''
+  status: NEW
+  summary: 'virt-manager: Checking for virtualization packages error'
+- component: Other
+  create_time: 20181129T18:22:00
+  id: 1117844
+  resolution: ''
+  status: NEW
+  summary: Dovecot throws permissions errors about /var/run/dovecot/stats-writer when
+    delivering mail
+- component: X.Org
+  create_time: 20181129T16:20:00
+  id: 1117833
+  resolution: ''
+  status: NEW
+  summary: 'Wayland: briefffffffffff unresponsivvvvvvvvvvvveness and repeated keys'
+- component: Kernel
+  create_time: 20181128T21:23:00
+  id: 1117712
+  resolution: FEATURE
+  status: RESOLVED
+  summary: zypper dup does not load kernel-firmware
+- component: Other
+  create_time: 20181128T18:44:00
+  id: 1117696
+  resolution: ''
+  status: CONFIRMED
+  summary: 'pocketsphinx-0.8-1.1:  no cmn type batch recognized'
+- component: Maintenance
+  create_time: 20181128T12:56:00
+  id: 1117647
+  resolution: FIXED
+  status: RESOLVED
+  summary: update-checker is broken out of the box
+- component: YaST2
+  create_time: 20181128T12:22:00
+  id: 1117643
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181127] yast ldap server module does not report error about missing
+    package'
+- component: OpenStack
+  create_time: 20181128T12:06:00
+  id: 1117640
+  resolution: ''
+  status: NEW
+  summary: '''openstack application'' sub-command missing after installing python2/3-openstackclient'
+- component: Kernel
+  create_time: 20181128T08:28:00
+  id: 1117584
+  resolution: ''
+  status: NEW
+  summary: Failed to get unique processor _UID
