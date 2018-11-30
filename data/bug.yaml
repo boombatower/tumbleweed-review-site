@@ -4243,8 +4243,8 @@
 - component: YaST2
   create_time: 20180219T09:03:00
   id: 1081517
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Poor support of icons in YaST
 - component: AutoYaST
   create_time: 20180219T08:42:00
@@ -12471,8 +12471,8 @@
 - component: AutoYaST
   create_time: 20180912T15:09:00
   id: 1108199
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '[Build 20180910] autoyast profile doesn''t validate when cloning system'
 - component: Other
   create_time: 20180912T15:00:00
@@ -12577,8 +12577,8 @@
 - component: YaST2
   create_time: 20180914T08:40:00
   id: 1108422
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Provide a way for yast build tools to install dead symlinks
 '20180915':
 - component: KDE Workspace (Plasma)
@@ -12782,14 +12782,14 @@
 - component: YaST2
   create_time: 20180922T20:49:00
   id: 1109382
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Use correct directories in xdg icon spec for YaST Icons
 - component: YaST2
   create_time: 20180922T14:21:00
   id: 1109378
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Deprecate share/YaST2/theme/current/icons symlink with Qt's (and DE's)
     native icon theme switching methods
 - component: Upgrade Problems
@@ -15292,7 +15292,7 @@
   create_time: 20181108T08:42:00
   id: 1115169
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: '[Build 20181107] rabbitmq falis to start'
 - component: Other
   create_time: 20181108T08:42:00
@@ -15796,8 +15796,8 @@
 - component: Kernel
   create_time: 20181114T14:03:00
   id: 1115998
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: irq/17 high cpu usage upon resume
 - component: Other
   create_time: 20181114T14:01:00
@@ -16383,37 +16383,6 @@
   status: NEW
   summary: wxMaxima segfaults upon launch
 '20181128':
-- component: Printing
-  create_time: 20181130T12:40:00
-  id: 1117926
-  resolution: ''
-  status: NEW
-  summary: Very slow printing via remote cups server
-- component: YaST2
-  create_time: 20181130T09:32:00
-  id: 1117894
-  resolution: ''
-  status: NEW
-  summary: YAST2 Software installation or deleting crashes
-- component: Virtualization:Tools
-  create_time: 20181129T18:48:00
-  id: 1117846
-  resolution: ''
-  status: NEW
-  summary: 'virt-manager: Checking for virtualization packages error'
-- component: Other
-  create_time: 20181129T18:22:00
-  id: 1117844
-  resolution: ''
-  status: NEW
-  summary: Dovecot throws permissions errors about /var/run/dovecot/stats-writer when
-    delivering mail
-- component: X.Org
-  create_time: 20181129T16:20:00
-  id: 1117833
-  resolution: ''
-  status: NEW
-  summary: 'Wayland: briefffffffffff unresponsivvvvvvvvvvvveness and repeated keys'
 - component: Kernel
   create_time: 20181128T21:23:00
   id: 1117712
@@ -16451,3 +16420,41 @@
   resolution: ''
   status: NEW
   summary: Failed to get unique processor _UID
+'20181129':
+- component: Basesystem
+  create_time: 20181130T14:26:00
+  id: 1117938
+  resolution: ''
+  status: NEW
+  summary: systemd - mailto for systemd timers
+- component: Printing
+  create_time: 20181130T12:40:00
+  id: 1117926
+  resolution: ''
+  status: NEW
+  summary: Very slow printing via remote cups server
+- component: YaST2
+  create_time: 20181130T09:32:00
+  id: 1117894
+  resolution: ''
+  status: NEW
+  summary: YAST2 Software installation or deleting crashes
+- component: Virtualization:Tools
+  create_time: 20181129T18:48:00
+  id: 1117846
+  resolution: ''
+  status: NEW
+  summary: 'virt-manager: Checking for virtualization packages error'
+- component: Other
+  create_time: 20181129T18:22:00
+  id: 1117844
+  resolution: ''
+  status: NEW
+  summary: Dovecot throws permissions errors about /var/run/dovecot/stats-writer when
+    delivering mail
+- component: X.Org
+  create_time: 20181129T16:20:00
+  id: 1117833
+  resolution: ''
+  status: NEW
+  summary: 'Wayland: briefffffffffff unresponsivvvvvvvvvvvveness and repeated keys'
