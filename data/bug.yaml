@@ -15687,7 +15687,7 @@
   create_time: 20181114T15:18:00
   id: 1116023
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Please convert SysV init scripts by mhvtl into native systemd services
 - component: Other
   create_time: 20181114T15:16:00
