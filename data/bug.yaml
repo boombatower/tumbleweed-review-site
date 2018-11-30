@@ -11520,7 +11520,7 @@
   create_time: 20180814T16:49:00
   id: 1104833
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Initramfs unpacking failed: junk in compressed archive'
 - component: Kubic
   create_time: 20180814T15:28:00
@@ -16049,8 +16049,8 @@
 - component: Sound
   create_time: 20181119T23:00:00
   id: 1116622
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Pulseaudio locks audio device for applications using alsa-plugin
 - component: YaST2
   create_time: 20181119T21:28:00
@@ -16383,6 +16383,18 @@
   status: NEW
   summary: wxMaxima segfaults upon launch
 '20181128':
+- component: Printing
+  create_time: 20181130T12:40:00
+  id: 1117926
+  resolution: ''
+  status: NEW
+  summary: Very slow printing via remote cups server
+- component: YaST2
+  create_time: 20181130T09:32:00
+  id: 1117894
+  resolution: ''
+  status: NEW
+  summary: YAST2 Software installation or deleting crashes
 - component: Virtualization:Tools
   create_time: 20181129T18:48:00
   id: 1117846
