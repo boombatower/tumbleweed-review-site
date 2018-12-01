@@ -16421,6 +16421,13 @@
   status: NEW
   summary: Failed to get unique processor _UID
 '20181129':
+- component: Upgrade Problems
+  create_time: 20181201T18:07:00
+  id: 1118044
+  resolution: ''
+  status: NEW
+  summary: After upgrade of Tumbleweed 20180310 -> 20181129 the firewall (SuSEfirewall2)
+    prevents ssh login
 - component: GNOME
   create_time: 20181201T14:49:00
   id: 1118040
