@@ -10865,8 +10865,8 @@
 - component: Containers
   create_time: 20180725T08:44:00
   id: 1102522
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Docker v18.06-ce upgrade.
 - component: Other
   create_time: 20180724T16:40:00
