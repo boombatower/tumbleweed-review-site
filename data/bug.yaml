@@ -16204,8 +16204,8 @@
 - component: Other
   create_time: 20181120T20:18:00
   id: 1116778
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Steam sc-controller gui not working
 - component: Installation
   create_time: 20181120T17:45:00
@@ -16379,8 +16379,8 @@
 - component: X11 Applications
   create_time: 20181126T08:06:00
   id: 1117266
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: wxMaxima segfaults upon launch
 '20181128':
 - component: Kernel
@@ -16421,6 +16421,13 @@
   status: NEW
   summary: Failed to get unique processor _UID
 '20181129':
+- component: GNOME
+  create_time: 20181201T14:49:00
+  id: 1118040
+  resolution: ''
+  status: NEW
+  summary: GNOME Software happily allows user to install Flatpak apps although they
+    cannot be launched because of missing flatpak dependency
 - component: Basesystem
   create_time: 20181130T14:26:00
   id: 1117938
@@ -16436,8 +16443,8 @@
 - component: YaST2
   create_time: 20181130T09:32:00
   id: 1117894
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: YAST2 Software installation or deleting crashes
 - component: Virtualization:Tools
   create_time: 20181129T18:48:00
