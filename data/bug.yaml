@@ -16421,6 +16421,12 @@
   status: NEW
   summary: Failed to get unique processor _UID
 '20181129':
+- component: KDE Applications
+  create_time: 20181202T04:20:00
+  id: 1118052
+  resolution: ''
+  status: NEW
+  summary: Segmentation fault akregator (version 5.9.3) when closing the full article
 - component: Upgrade Problems
   create_time: 20181201T18:07:00
   id: 1118044
