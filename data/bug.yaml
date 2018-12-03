@@ -15516,8 +15516,8 @@
 - component: Kubic
   create_time: 20181115T03:36:00
   id: 1116116
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'dex Version: was not built properly'
 - component: Kernel
   create_time: 20181114T23:17:00
@@ -16421,6 +16421,12 @@
   status: NEW
   summary: Failed to get unique processor _UID
 '20181129':
+- component: Kernel
+  create_time: 20181203T01:46:00
+  id: 1118066
+  resolution: ''
+  status: NEW
+  summary: perf outputs partial kernel backtraces
 - component: KDE Applications
   create_time: 20181202T04:20:00
   id: 1118052
