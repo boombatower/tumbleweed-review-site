@@ -328,7 +328,7 @@
   create_time: 20171208T10:39:00
   id: 1071941
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: pip installs packages in /usr/lib instead of /usr/local/lib
 - component: Virtualization:Tools
   create_time: 20171208T08:07:00
@@ -15905,8 +15905,8 @@
 - component: Network
   create_time: 20181113T13:29:00
   id: 1115788
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: networkmanager segfault error 4 in libc-2.27.so
 - component: Other
   create_time: 20181113T12:29:00
@@ -16421,6 +16421,39 @@
   status: NEW
   summary: Failed to get unique processor _UID
 '20181129':
+- component: Virtualization:Tools
+  create_time: 20181129T18:48:00
+  id: 1117846
+  resolution: ''
+  status: NEW
+  summary: 'virt-manager: Checking for virtualization packages error'
+- component: Other
+  create_time: 20181129T18:22:00
+  id: 1117844
+  resolution: ''
+  status: NEW
+  summary: Dovecot throws permissions errors about /var/run/dovecot/stats-writer when
+    delivering mail
+- component: X.Org
+  create_time: 20181129T16:20:00
+  id: 1117833
+  resolution: ''
+  status: NEW
+  summary: 'Wayland: briefffffffffff unresponsivvvvvvvvvvvveness and repeated keys'
+'20181130':
+- component: Development
+  create_time: 20181203T16:08:00
+  id: 1118163
+  resolution: ''
+  status: NEW
+  summary: LTO introduces indeterminism into .o files
+- component: Security
+  create_time: 20181203T16:01:00
+  id: 1118161
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Firejail will not work as installed from main repository; had to edit permissions
+    settings
 - component: Kubic
   create_time: 20181203T14:23:00
   id: 1118150
@@ -16455,8 +16488,8 @@
 - component: KDE Applications
   create_time: 20181202T04:20:00
   id: 1118052
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Segmentation fault akregator (version 5.9.3) when closing the full article
 - component: Upgrade Problems
   create_time: 20181201T18:07:00
@@ -16490,22 +16523,3 @@
   resolution: FIXED
   status: RESOLVED
   summary: YAST2 Software installation or deleting crashes
-- component: Virtualization:Tools
-  create_time: 20181129T18:48:00
-  id: 1117846
-  resolution: ''
-  status: NEW
-  summary: 'virt-manager: Checking for virtualization packages error'
-- component: Other
-  create_time: 20181129T18:22:00
-  id: 1117844
-  resolution: ''
-  status: NEW
-  summary: Dovecot throws permissions errors about /var/run/dovecot/stats-writer when
-    delivering mail
-- component: X.Org
-  create_time: 20181129T16:20:00
-  id: 1117833
-  resolution: ''
-  status: NEW
-  summary: 'Wayland: briefffffffffff unresponsivvvvvvvvvvvveness and repeated keys'
