@@ -13922,7 +13922,7 @@
   create_time: 20181020T19:54:00
   id: 1112630
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Out of date package: openSUSE:Factory/joe'
 - component: Other
   create_time: 20181020T19:53:00
@@ -14118,8 +14118,8 @@
 - component: YaST2
   create_time: 20181027T12:23:00
   id: 1113614
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Yast2 samba-server module does not write smb.conf
 - component: Other
   create_time: 20181027T03:06:00
@@ -16421,6 +16421,13 @@
   status: NEW
   summary: Failed to get unique processor _UID
 '20181129':
+- component: Cloud:Tools
+  create_time: 20181203T08:45:00
+  id: 1118099
+  resolution: ''
+  status: NEW
+  summary: aws-cli-1.16.48-1.1.noarch requires python3-colorama <= 0.3.9, but this
+    requirement cannot be provided
 - component: Kernel
   create_time: 20181203T01:46:00
   id: 1118066
