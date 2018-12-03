@@ -15764,8 +15764,8 @@
 - component: Other
   create_time: 20181114T14:31:00
   id: 1116009
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please drop /etc/init.d/epmd from erlang-epmd
 - component: Network
   create_time: 20181114T14:25:00
@@ -16421,11 +16421,29 @@
   status: NEW
   summary: Failed to get unique processor _UID
 '20181129':
+- component: Kubic
+  create_time: 20181203T14:23:00
+  id: 1118150
+  resolution: ''
+  status: NEW
+  summary: binutils pulled in again.
+- component: Security
+  create_time: 20181203T10:57:00
+  id: 1118117
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: tuned: polkit unauthorized privilege (log_capture)'
+- component: Installation
+  create_time: 20181203T10:29:00
+  id: 1118114
+  resolution: ''
+  status: CONFIRMED
+  summary: Installer disallows root access with usessh=1
 - component: Cloud:Tools
   create_time: 20181203T08:45:00
   id: 1118099
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: aws-cli-1.16.48-1.1.noarch requires python3-colorama <= 0.3.9, but this
     requirement cannot be provided
 - component: Kernel
