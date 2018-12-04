@@ -8639,7 +8639,7 @@
   create_time: 20180523T09:12:00
   id: 1094323
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: packages do not build reproducibly from pip install
 '20180524':
 - component: GNOME
@@ -15941,8 +15941,8 @@
 - component: Other
   create_time: 20181113T01:41:00
   id: 1115690
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/vagrant is out of date'
 - component: Other
   create_time: 20181112T16:07:00
@@ -16441,6 +16441,18 @@
   status: NEW
   summary: 'Wayland: briefffffffffff unresponsivvvvvvvvvvvveness and repeated keys'
 '20181130':
+- component: Basesystem
+  create_time: 20181204T15:23:00
+  id: 1118356
+  resolution: ''
+  status: NEW
+  summary: systemd shuts down network on reboot when root is on NFS
+- component: Other
+  create_time: 20181204T13:36:00
+  id: 1118327
+  resolution: ''
+  status: NEW
+  summary: Nextcloud client 100% cpu and crash at exit
 - component: Bootloader
   create_time: 20181204T08:53:00
   id: 1118279
@@ -16472,12 +16484,6 @@
   resolution: ''
   status: NEW
   summary: binutils pulled in again.
-- component: Security
-  create_time: 20181203T10:57:00
-  id: 1118117
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: tuned: polkit unauthorized privilege (log_capture)'
 - component: Installation
   create_time: 20181203T10:29:00
   id: 1118114
