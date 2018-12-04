@@ -4387,8 +4387,8 @@
 - component: Basesystem
   create_time: 20180221T13:43:00
   id: 1082023
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: git send-email fails to authenticate with SMTP server
 - component: Other
   create_time: 20180221T12:36:00
@@ -16441,6 +16441,18 @@
   status: NEW
   summary: 'Wayland: briefffffffffff unresponsivvvvvvvvvvvveness and repeated keys'
 '20181130':
+- component: Bootloader
+  create_time: 20181204T08:53:00
+  id: 1118279
+  resolution: ''
+  status: NEW
+  summary: os-prober unconditionally pulls btrfsprogs
+- component: Other
+  create_time: 20181204T06:49:00
+  id: 1118259
+  resolution: ''
+  status: NEW
+  summary: qtwebengine - No hardware accelerated video decoding
 - component: Development
   create_time: 20181203T16:08:00
   id: 1118163
