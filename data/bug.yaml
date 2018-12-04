@@ -16129,8 +16129,8 @@
 - component: Xen
   create_time: 20181119T09:48:00
   id: 1116524
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Package xen-tools-4.11.0_09-2.1.x86_64 broken: Missing /bin/domu-xenstore'
 - component: Other
   create_time: 20181119T07:43:00
