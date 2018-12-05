@@ -6930,8 +6930,8 @@
 - component: AppArmor
   create_time: 20180413T20:19:00
   id: 1089594
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: AppArmor profile for updatedb
 - component: Kubic
   create_time: 20180413T11:47:00
@@ -8461,8 +8461,8 @@
 - component: Bootloader
   create_time: 20180518T10:39:00
   id: 1093853
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Bootloader enters entry with wrong UUID
 - component: Other
   create_time: 20180518T08:34:00
@@ -13750,7 +13750,7 @@
   create_time: 20181016T16:24:00
   id: 1112047
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: sssd crashes on startup
 - component: YaST2
   create_time: 20181016T15:42:00
@@ -15060,8 +15060,8 @@
 - component: Other
   create_time: 20181109T15:19:00
   id: 1115464
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/docker is out of date'
 - component: Security
   create_time: 20181109T15:18:00
@@ -16465,7 +16465,7 @@
   create_time: 20181130T14:26:00
   id: 1117938
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: systemd - mailto for systemd timers
 - component: Printing
   create_time: 20181130T12:40:00
@@ -16480,17 +16480,29 @@
   status: RESOLVED
   summary: YAST2 Software installation or deleting crashes
 '20181203':
+- component: Samba
+  create_time: 20181205T15:01:00
+  id: 1118508
+  resolution: ''
+  status: IN_PROGRESS
+  summary: libldb1 version mismatch in Samba dsdb component 1.4.3 vs 1.4.2
+- component: Development
+  create_time: 20181205T11:38:00
+  id: 1118471
+  resolution: INVALID
+  status: RESOLVED
+  summary: module perl-FIle-BOM requires MODULE_COMPAT_5.28.1, Tumbleweed has 5.26.2
 - component: Containers
   create_time: 20181205T08:54:00
   id: 1118444
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Podman broken (some issue with seccomp profile)
 - component: Installation
   create_time: 20181204T23:33:00
   id: 1118410
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: hicolor-icon-theme doesn't get installed in installation images
 - component: Basesystem
   create_time: 20181204T22:01:00
@@ -16531,8 +16543,8 @@
 - component: Kernel
   create_time: 20181204T15:48:00
   id: 1118358
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: system powered down unrequested
 - component: Basesystem
   create_time: 20181204T15:23:00
