@@ -16480,6 +16480,12 @@
   status: RESOLVED
   summary: YAST2 Software installation or deleting crashes
 '20181203':
+- component: Containers
+  create_time: 20181205T08:54:00
+  id: 1118444
+  resolution: ''
+  status: NEW
+  summary: Podman broken (some issue with seccomp profile)
 - component: Installation
   create_time: 20181204T23:33:00
   id: 1118410
@@ -16521,7 +16527,7 @@
   id: 1118363
   resolution: ''
   status: NEW
-  summary: shim-install is broken
+  summary: shim-install didn't specify the target for grub2-install
 - component: Kernel
   create_time: 20181204T15:48:00
   id: 1118358
