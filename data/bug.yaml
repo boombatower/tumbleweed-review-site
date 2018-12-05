@@ -16441,6 +16441,57 @@
   status: NEW
   summary: 'Wayland: briefffffffffff unresponsivvvvvvvvvvvveness and repeated keys'
 '20181130':
+- component: KDE Applications
+  create_time: 20181202T04:20:00
+  id: 1118052
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: Segmentation fault akregator (version 5.9.3) when closing the full article
+- component: Upgrade Problems
+  create_time: 20181201T18:07:00
+  id: 1118044
+  resolution: ''
+  status: NEW
+  summary: After upgrade of Tumbleweed 20180310 -> 20181129 the firewall (SuSEfirewall2)
+    prevents ssh login
+- component: GNOME
+  create_time: 20181201T14:49:00
+  id: 1118040
+  resolution: ''
+  status: NEW
+  summary: GNOME Software happily allows user to install Flatpak apps although they
+    cannot be launched because of missing flatpak dependency
+- component: Basesystem
+  create_time: 20181130T14:26:00
+  id: 1117938
+  resolution: ''
+  status: NEW
+  summary: systemd - mailto for systemd timers
+- component: Printing
+  create_time: 20181130T12:40:00
+  id: 1117926
+  resolution: ''
+  status: NEW
+  summary: Very slow printing via remote cups server
+- component: YaST2
+  create_time: 20181130T09:32:00
+  id: 1117894
+  resolution: FIXED
+  status: RESOLVED
+  summary: YAST2 Software installation or deleting crashes
+'20181203':
+- component: Installation
+  create_time: 20181204T23:33:00
+  id: 1118410
+  resolution: ''
+  status: NEW
+  summary: hicolor-icon-theme doesn't get installed in installation images
+- component: Basesystem
+  create_time: 20181204T22:01:00
+  id: 1118400
+  resolution: ''
+  status: NEW
+  summary: EXT4 FS Installed and xfs and btrfs services installed
 - component: Network
   create_time: 20181204T17:47:00
   id: 1118375
@@ -16539,41 +16590,3 @@
   resolution: ''
   status: NEW
   summary: perf outputs partial kernel backtraces
-- component: KDE Applications
-  create_time: 20181202T04:20:00
-  id: 1118052
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: Segmentation fault akregator (version 5.9.3) when closing the full article
-- component: Upgrade Problems
-  create_time: 20181201T18:07:00
-  id: 1118044
-  resolution: ''
-  status: NEW
-  summary: After upgrade of Tumbleweed 20180310 -> 20181129 the firewall (SuSEfirewall2)
-    prevents ssh login
-- component: GNOME
-  create_time: 20181201T14:49:00
-  id: 1118040
-  resolution: ''
-  status: NEW
-  summary: GNOME Software happily allows user to install Flatpak apps although they
-    cannot be launched because of missing flatpak dependency
-- component: Basesystem
-  create_time: 20181130T14:26:00
-  id: 1117938
-  resolution: ''
-  status: NEW
-  summary: systemd - mailto for systemd timers
-- component: Printing
-  create_time: 20181130T12:40:00
-  id: 1117926
-  resolution: ''
-  status: NEW
-  summary: Very slow printing via remote cups server
-- component: YaST2
-  create_time: 20181130T09:32:00
-  id: 1117894
-  resolution: FIXED
-  status: RESOLVED
-  summary: YAST2 Software installation or deleting crashes
