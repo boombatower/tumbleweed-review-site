@@ -16519,50 +16519,6 @@
   status: NEW
   summary: perf outputs partial kernel backtraces
 '20181204':
-- component: Development
-  create_time: 20181206T09:31:00
-  id: 1118611
-  resolution: ''
-  status: NEW
-  summary: python-Cython 0.29 removed support for subinterpreters (downgrade required)
-- component: Development
-  create_time: 20181205T17:07:00
-  id: 1118523
-  resolution: ''
-  status: NEW
-  summary: gsplit-dwarf warning with dwarf4, not working with dwarf5
-- component: YaST2
-  create_time: 20181205T16:59:00
-  id: 1118521
-  resolution: ''
-  status: NEW
-  summary: YaST conflicts with irrelevant software due to having icons with generic
-    names from hicolor
-- component: Virtualization:Other
-  create_time: 20181205T15:38:00
-  id: 1118511
-  resolution: ''
-  status: NEW
-  summary: After update to VirtualBox 5.2.22 with Tumbleweed 20181203, a Windows 8.1
-    VM fails to start
-- component: Samba
-  create_time: 20181205T15:01:00
-  id: 1118508
-  resolution: ''
-  status: IN_PROGRESS
-  summary: libldb1 version mismatch in Samba dsdb component 1.4.3 vs 1.4.2
-- component: Development
-  create_time: 20181205T11:38:00
-  id: 1118471
-  resolution: INVALID
-  status: RESOLVED
-  summary: module perl-FIle-BOM requires MODULE_COMPAT_5.28.1, Tumbleweed has 5.26.2
-- component: Containers
-  create_time: 20181205T08:54:00
-  id: 1118444
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Podman broken (some issue with seccomp profile)
 - component: Installation
   create_time: 20181204T23:33:00
   id: 1118410
@@ -16635,3 +16591,74 @@
   resolution: ''
   status: NEW
   summary: qtwebengine - No hardware accelerated video decoding
+'20181205':
+- component: LibreOffice
+  create_time: 20181206T15:25:00
+  id: 1118662
+  resolution: ''
+  status: NEW
+  summary: Writer crashes when trying to open Bibliography Database without installed
+    libreoffice-base
+- component: Development
+  create_time: 20181206T13:01:00
+  id: 1118644
+  resolution: ''
+  status: NEW
+  summary: Debug symbols are broken with gcc 8.2.1 20181108 and ld.gold 2.31.1.20180828-2)
+    1.16
+- component: YaST2
+  create_time: 20181206T12:58:00
+  id: 1118643
+  resolution: ''
+  status: IN_PROGRESS
+  summary: YaST crashes, killed by the OOM killer
+- component: Development
+  create_time: 20181206T09:51:00
+  id: 1118619
+  resolution: ''
+  status: CONFIRMED
+  summary: ninja fails to build software in 2038
+- component: Development
+  create_time: 20181206T09:31:00
+  id: 1118611
+  resolution: ''
+  status: IN_PROGRESS
+  summary: python-Cython 0.29 removed support for subinterpreters (downgrade required)
+- component: Development
+  create_time: 20181205T17:07:00
+  id: 1118523
+  resolution: ''
+  status: NEW
+  summary: gsplit-dwarf warning with dwarf4, not working with dwarf5
+- component: YaST2
+  create_time: 20181205T16:59:00
+  id: 1118521
+  resolution: ''
+  status: NEW
+  summary: YaST conflicts with irrelevant software due to having icons with generic
+    names from hicolor
+- component: Virtualization:Other
+  create_time: 20181205T15:38:00
+  id: 1118511
+  resolution: FIXED
+  status: RESOLVED
+  summary: After update to VirtualBox 5.2.22 with Tumbleweed 20181203, a Windows 8.1
+    VM fails to start
+- component: Samba
+  create_time: 20181205T15:01:00
+  id: 1118508
+  resolution: ''
+  status: IN_PROGRESS
+  summary: libldb1 version mismatch in Samba dsdb component 1.4.3 vs 1.4.2
+- component: Development
+  create_time: 20181205T11:38:00
+  id: 1118471
+  resolution: INVALID
+  status: RESOLVED
+  summary: module perl-FIle-BOM requires MODULE_COMPAT_5.28.1, Tumbleweed has 5.26.2
+- component: Containers
+  create_time: 20181205T08:54:00
+  id: 1118444
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Podman broken (some issue with seccomp profile)
