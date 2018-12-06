@@ -16520,6 +16520,12 @@
   summary: perf outputs partial kernel backtraces
 '20181204':
 - component: Development
+  create_time: 20181206T09:31:00
+  id: 1118611
+  resolution: ''
+  status: NEW
+  summary: python-Cython 0.29 removed support for subinterpreters (downgrade required)
+- component: Development
   create_time: 20181205T17:07:00
   id: 1118523
   resolution: ''
@@ -16608,8 +16614,8 @@
 - component: Basesystem
   create_time: 20181204T15:23:00
   id: 1118356
-  resolution: ''
-  status: NEW
+  resolution: FEATURE
+  status: RESOLVED
   summary: systemd shuts down network on reboot when root is on NFS
 - component: Other
   create_time: 20181204T13:36:00
