@@ -16596,8 +16596,8 @@
 - component: Bootloader
   create_time: 20181204T16:40:00
   id: 1118363
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: shim-install didn't specify the target for grub2-install
 - component: Kernel
   create_time: 20181204T15:48:00
