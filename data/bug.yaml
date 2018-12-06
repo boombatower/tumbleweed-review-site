@@ -15309,8 +15309,8 @@
 - component: Virtualization:Tools
   create_time: 20181107T23:54:00
   id: 1115118
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: open-vm-tools 10.3.5 released
 - component: GNOME
   create_time: 20181107T22:03:00
@@ -15405,8 +15405,8 @@
 - component: Other
   create_time: 20181107T15:53:00
   id: 1115054
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/ext3grep fails to build'
 - component: Other
   create_time: 20181107T15:53:00
@@ -16424,8 +16424,8 @@
 - component: Virtualization:Tools
   create_time: 20181129T18:48:00
   id: 1117846
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'virt-manager: Checking for virtualization packages error'
 - component: Other
   create_time: 20181129T18:22:00
@@ -16592,6 +16592,12 @@
   status: NEW
   summary: qtwebengine - No hardware accelerated video decoding
 '20181205':
+- component: Other
+  create_time: 20181206T18:39:00
+  id: 1118671
+  resolution: ''
+  status: NEW
+  summary: Wacom tablet stops working when fwupd runs
 - component: LibreOffice
   create_time: 20181206T15:25:00
   id: 1118662
