@@ -16592,6 +16592,12 @@
   status: NEW
   summary: qtwebengine - No hardware accelerated video decoding
 '20181205':
+- component: Kernel
+  create_time: 20181206T22:41:00
+  id: 1118689
+  resolution: ''
+  status: NEW
+  summary: 32bit x86 4.19 pae and vanilla kernels randomly lockup or trigger reboot
 - component: Other
   create_time: 20181206T18:39:00
   id: 1118671
