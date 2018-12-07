@@ -16645,8 +16645,8 @@
 - component: YaST2
   create_time: 20181205T16:59:00
   id: 1118521
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: YaST conflicts with irrelevant software due to having icons with generic
     names from hicolor
 - component: Virtualization:Other
