@@ -15547,8 +15547,8 @@
 - component: Other
   create_time: 20181114T17:25:00
   id: 1116067
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/python-dns-lexicon fails to build'
 - component: Other
   create_time: 20181114T17:23:00
@@ -16319,7 +16319,7 @@
   create_time: 20181127T14:54:00
   id: 1117489
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Consider dropping the use of YAST_IS_RUNNING in systemd rpm macros
 - component: Network
   create_time: 20181127T14:20:00
@@ -16592,6 +16592,18 @@
   status: NEW
   summary: qtwebengine - No hardware accelerated video decoding
 '20181205':
+- component: libzypp
+  create_time: 20181207T11:17:00
+  id: 1118758
+  resolution: ''
+  status: NEW
+  summary: Please define SYSTEMD_OFFLINE=1 when managing packages inside a chroot
+- component: Other
+  create_time: 20181207T10:16:00
+  id: 1118754
+  resolution: ''
+  status: NEW
+  summary: 'mariadb: PerconaFT is AGPL and should be removed from the package'
 - component: Kernel
   create_time: 20181206T22:41:00
   id: 1118689
