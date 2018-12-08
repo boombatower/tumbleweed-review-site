@@ -16631,6 +16631,12 @@
   status: IN_PROGRESS
   summary: Podman broken (some issue with seccomp profile)
 '20181206':
+- component: Installation
+  create_time: 20181208T07:18:00
+  id: 1118852
+  resolution: ''
+  status: NEW
+  summary: Touchpad does not work during installation on Asus Zenbook S UX391UA
 - component: libzypp
   create_time: 20181207T11:17:00
   id: 1118758
