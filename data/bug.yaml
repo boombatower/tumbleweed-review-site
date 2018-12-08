@@ -16592,6 +16592,45 @@
   status: NEW
   summary: qtwebengine - No hardware accelerated video decoding
 '20181205':
+- component: Development
+  create_time: 20181205T17:07:00
+  id: 1118523
+  resolution: ''
+  status: NEW
+  summary: gsplit-dwarf warning with dwarf4, not working with dwarf5
+- component: YaST2
+  create_time: 20181205T16:59:00
+  id: 1118521
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST conflicts with irrelevant software due to having icons with generic
+    names from hicolor
+- component: Virtualization:Other
+  create_time: 20181205T15:38:00
+  id: 1118511
+  resolution: FIXED
+  status: RESOLVED
+  summary: After update to VirtualBox 5.2.22 with Tumbleweed 20181203, a Windows 8.1
+    VM fails to start
+- component: Samba
+  create_time: 20181205T15:01:00
+  id: 1118508
+  resolution: ''
+  status: IN_PROGRESS
+  summary: libldb1 version mismatch in Samba dsdb component 1.4.3 vs 1.4.2
+- component: Development
+  create_time: 20181205T11:38:00
+  id: 1118471
+  resolution: INVALID
+  status: RESOLVED
+  summary: module perl-FIle-BOM requires MODULE_COMPAT_5.28.1, Tumbleweed has 5.26.2
+- component: Containers
+  create_time: 20181205T08:54:00
+  id: 1118444
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Podman broken (some issue with seccomp profile)
+'20181206':
 - component: libzypp
   create_time: 20181207T11:17:00
   id: 1118758
@@ -16648,41 +16687,3 @@
   resolution: ''
   status: IN_PROGRESS
   summary: python-Cython 0.29 removed support for subinterpreters (downgrade required)
-- component: Development
-  create_time: 20181205T17:07:00
-  id: 1118523
-  resolution: ''
-  status: NEW
-  summary: gsplit-dwarf warning with dwarf4, not working with dwarf5
-- component: YaST2
-  create_time: 20181205T16:59:00
-  id: 1118521
-  resolution: FIXED
-  status: RESOLVED
-  summary: YaST conflicts with irrelevant software due to having icons with generic
-    names from hicolor
-- component: Virtualization:Other
-  create_time: 20181205T15:38:00
-  id: 1118511
-  resolution: FIXED
-  status: RESOLVED
-  summary: After update to VirtualBox 5.2.22 with Tumbleweed 20181203, a Windows 8.1
-    VM fails to start
-- component: Samba
-  create_time: 20181205T15:01:00
-  id: 1118508
-  resolution: ''
-  status: IN_PROGRESS
-  summary: libldb1 version mismatch in Samba dsdb component 1.4.3 vs 1.4.2
-- component: Development
-  create_time: 20181205T11:38:00
-  id: 1118471
-  resolution: INVALID
-  status: RESOLVED
-  summary: module perl-FIle-BOM requires MODULE_COMPAT_5.28.1, Tumbleweed has 5.26.2
-- component: Containers
-  create_time: 20181205T08:54:00
-  id: 1118444
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Podman broken (some issue with seccomp profile)
