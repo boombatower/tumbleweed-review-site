@@ -16631,6 +16631,61 @@
   status: IN_PROGRESS
   summary: Podman broken (some issue with seccomp profile)
 '20181206':
+- component: Other
+  create_time: 20181208T21:55:00
+  id: 1118864
+  resolution: ''
+  status: NEW
+  summary: Possible easy fix for Steam Controller issues
+- component: Other
+  create_time: 20181208T20:26:00
+  id: 1118862
+  resolution: ''
+  status: NEW
+  summary: '[Snapshot 20180508] issue-generator doesn''t ignore temporary files generating
+    undesired content for /etc/issue'
+- component: Other
+  create_time: 20181208T19:51:00
+  id: 1118861
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed and Leap should stick to a single openmpi version
+- component: Live Medium
+  create_time: 20181208T13:09:00
+  id: 1118859
+  resolution: ''
+  status: NEW
+  summary: Make Installation and Upgrade .desktop files translatable
+- component: Live Medium
+  create_time: 20181208T12:47:00
+  id: 1118858
+  resolution: ''
+  status: NEW
+  summary: Can not change installer language
+- component: Live Medium
+  create_time: 20181208T12:41:00
+  id: 1118857
+  resolution: ''
+  status: NEW
+  summary: Add danish translations to live medie
+- component: Bootloader
+  create_time: 20181208T12:08:00
+  id: 1118856
+  resolution: ''
+  status: NEW
+  summary: Grub Menu Entries with Wrong Language
+- component: Live Medium
+  create_time: 20181208T12:04:00
+  id: 1118855
+  resolution: ''
+  status: NEW
+  summary: Disable lock screen during installation
+- component: Other
+  create_time: 20181208T10:31:00
+  id: 1118854
+  resolution: ''
+  status: NEW
+  summary: FreeCAD Binary compatibility break
 - component: Installation
   create_time: 20181208T07:18:00
   id: 1118852
