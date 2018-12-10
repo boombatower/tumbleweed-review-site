@@ -4965,8 +4965,8 @@
 - component: Kernel
   create_time: 20180304T14:02:00
   id: 1083866
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: INVALID
+  status: RESOLVED
   summary: Kernel 4.15 - USB network adapter r8152 freeze
 - component: GNOME
   create_time: 20180304T13:44:00
@@ -13849,8 +13849,8 @@
 - component: Basesystem
   create_time: 20181021T20:52:00
   id: 1112653
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Bash's system-wide startup file for interactive shells overwrites history
     control variables
 - component: Security
@@ -14808,8 +14808,8 @@
 - component: Virtualization:Other
   create_time: 20181030T08:52:00
   id: 1113894
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Staging] Virtualbox fails to build against puthon 3.7'
 - component: Other
   create_time: 20181030T08:10:00
@@ -15522,8 +15522,8 @@
 - component: Kernel
   create_time: 20181114T23:17:00
   id: 1116106
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kernel 4.19.1 won't boot (black screen)
 - component: Kernel
   create_time: 20181114T20:20:00
@@ -16634,8 +16634,8 @@
 - component: libzypp
   create_time: 20181207T11:17:00
   id: 1118758
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please define SYSTEMD_OFFLINE=1 when managing packages inside a chroot
 - component: Other
   create_time: 20181207T10:16:00
@@ -16688,6 +16688,30 @@
   status: IN_PROGRESS
   summary: python-Cython 0.29 removed support for subinterpreters (downgrade required)
 '20181208':
+- component: Basesystem
+  create_time: 20181210T11:51:00
+  id: 1118953
+  resolution: ''
+  status: NEW
+  summary: suse-module-tools depends on perl
+- component: Virtualization:Other
+  create_time: 20181210T11:43:00
+  id: 1118952
+  resolution: ''
+  status: NEW
+  summary: AppArmor profile update
+- component: Translations
+  create_time: 20181210T11:24:00
+  id: 1118949
+  resolution: ''
+  status: NEW
+  summary: Missing translations for new error message in YaST
+- component: Basesystem
+  create_time: 20181210T10:38:00
+  id: 1118937
+  resolution: ''
+  status: NEW
+  summary: 'multipath-tools: logs with -v3 are too verbose'
 - component: Network
   create_time: 20181209T22:39:00
   id: 1118876
