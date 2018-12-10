@@ -16700,12 +16700,6 @@
   resolution: ''
   status: NEW
   summary: AppArmor profile update
-- component: Translations
-  create_time: 20181210T11:24:00
-  id: 1118949
-  resolution: ''
-  status: NEW
-  summary: Missing translations for new error message in YaST
 - component: Basesystem
   create_time: 20181210T10:38:00
   id: 1118937
