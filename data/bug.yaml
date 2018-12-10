@@ -15174,8 +15174,8 @@
 - component: Basesystem
   create_time: 20181109T14:44:00
   id: 1115439
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'etckeeper: migrate from cron to systemd timers'
 - component: Basesystem
   create_time: 20181109T14:43:00
@@ -15911,8 +15911,8 @@
 - component: Other
   create_time: 20181113T12:29:00
   id: 1115778
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: ibus-libpinyin build failed for openSUSE Leap 15
 - component: Other
   create_time: 20181113T11:19:00
@@ -16093,8 +16093,8 @@
 - component: YaST2
   create_time: 20181119T15:30:00
   id: 1116584
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: libyui-qt* missing after latest TW upgrade
 - component: YaST2
   create_time: 20181119T13:23:00
@@ -16135,8 +16135,8 @@
 - component: Other
   create_time: 20181119T07:43:00
   id: 1116485
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: ibus indicator Chinese preference doesn't pop up
 - component: KDE Applications
   create_time: 20181118T19:46:00
@@ -16154,8 +16154,8 @@
 - component: YaST2
   create_time: 20181118T17:03:00
   id: 1116456
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Load QPalette with QSS for libyui-qt theming
 - component: LibreOffice
   create_time: 20181118T10:41:00
@@ -16631,6 +16631,82 @@
   status: IN_PROGRESS
   summary: Podman broken (some issue with seccomp profile)
 '20181206':
+- component: libzypp
+  create_time: 20181207T11:17:00
+  id: 1118758
+  resolution: ''
+  status: NEW
+  summary: Please define SYSTEMD_OFFLINE=1 when managing packages inside a chroot
+- component: Other
+  create_time: 20181207T10:16:00
+  id: 1118754
+  resolution: ''
+  status: NEW
+  summary: 'mariadb: PerconaFT is AGPL and should be removed from the package'
+- component: Kernel
+  create_time: 20181206T22:41:00
+  id: 1118689
+  resolution: ''
+  status: NEW
+  summary: 32bit x86 4.19 pae and vanilla kernels randomly lockup or trigger reboot
+- component: Other
+  create_time: 20181206T18:39:00
+  id: 1118671
+  resolution: ''
+  status: NEW
+  summary: Wacom tablet stops working when fwupd runs
+- component: LibreOffice
+  create_time: 20181206T15:25:00
+  id: 1118662
+  resolution: ''
+  status: NEW
+  summary: Writer crashes when trying to open Bibliography Database without installed
+    libreoffice-base
+- component: Development
+  create_time: 20181206T13:01:00
+  id: 1118644
+  resolution: ''
+  status: NEW
+  summary: Debug symbols are broken with gcc 8.2.1 20181108 and ld.gold 2.31.1.20180828-2)
+    1.16
+- component: YaST2
+  create_time: 20181206T12:58:00
+  id: 1118643
+  resolution: ''
+  status: IN_PROGRESS
+  summary: YaST crashes, killed by the OOM killer
+- component: Development
+  create_time: 20181206T09:51:00
+  id: 1118619
+  resolution: ''
+  status: CONFIRMED
+  summary: ninja fails to build software in 2038
+- component: Development
+  create_time: 20181206T09:31:00
+  id: 1118611
+  resolution: ''
+  status: IN_PROGRESS
+  summary: python-Cython 0.29 removed support for subinterpreters (downgrade required)
+'20181208':
+- component: Network
+  create_time: 20181209T22:39:00
+  id: 1118876
+  resolution: ''
+  status: NEW
+  summary: After resume from suspend NFS is no longer mounted
+- component: KDE Applications
+  create_time: 20181209T12:24:00
+  id: 1118870
+  resolution: ''
+  status: NEW
+  summary: K3b uses wrong encoding for file names and media tags (complains of missing
+    LC_* environment variables)
+- component: Kernel
+  create_time: 20181209T12:08:00
+  id: 1118868
+  resolution: ''
+  status: NEW
+  summary: kernel panic on shutdown
 - component: Other
   create_time: 20181208T21:55:00
   id: 1118864
@@ -16692,59 +16768,3 @@
   resolution: ''
   status: NEW
   summary: Touchpad does not work during installation on Asus Zenbook S UX391UA
-- component: libzypp
-  create_time: 20181207T11:17:00
-  id: 1118758
-  resolution: ''
-  status: NEW
-  summary: Please define SYSTEMD_OFFLINE=1 when managing packages inside a chroot
-- component: Other
-  create_time: 20181207T10:16:00
-  id: 1118754
-  resolution: ''
-  status: NEW
-  summary: 'mariadb: PerconaFT is AGPL and should be removed from the package'
-- component: Kernel
-  create_time: 20181206T22:41:00
-  id: 1118689
-  resolution: ''
-  status: NEW
-  summary: 32bit x86 4.19 pae and vanilla kernels randomly lockup or trigger reboot
-- component: Other
-  create_time: 20181206T18:39:00
-  id: 1118671
-  resolution: ''
-  status: NEW
-  summary: Wacom tablet stops working when fwupd runs
-- component: LibreOffice
-  create_time: 20181206T15:25:00
-  id: 1118662
-  resolution: ''
-  status: NEW
-  summary: Writer crashes when trying to open Bibliography Database without installed
-    libreoffice-base
-- component: Development
-  create_time: 20181206T13:01:00
-  id: 1118644
-  resolution: ''
-  status: NEW
-  summary: Debug symbols are broken with gcc 8.2.1 20181108 and ld.gold 2.31.1.20180828-2)
-    1.16
-- component: YaST2
-  create_time: 20181206T12:58:00
-  id: 1118643
-  resolution: ''
-  status: IN_PROGRESS
-  summary: YaST crashes, killed by the OOM killer
-- component: Development
-  create_time: 20181206T09:51:00
-  id: 1118619
-  resolution: ''
-  status: CONFIRMED
-  summary: ninja fails to build software in 2038
-- component: Development
-  create_time: 20181206T09:31:00
-  id: 1118611
-  resolution: ''
-  status: IN_PROGRESS
-  summary: python-Cython 0.29 removed support for subinterpreters (downgrade required)
