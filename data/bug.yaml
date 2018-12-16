@@ -8036,12 +8036,6 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'openssl: c_rehash fails due to missing quotes around $dir and $prefix'
-- component: Other
-  create_time: 20180504T09:22:00
-  id: 1091945
-  resolution: ''
-  status: NEW
-  summary: ImageMagick displays images and menues transparantly
 - component: Development
   create_time: 20180503T17:31:00
   id: 1091864
@@ -11606,8 +11600,8 @@
 - component: X.Org
   create_time: 20180817T09:01:00
   id: 1105181
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: '[Build 20180815] font in xterm is way bigger than before due to https://build.opensuse.org/package/rdiff/openSUSE:Factory/xterm?linkrev=base&rev=110'
 - component: Other
   create_time: 20180817T07:22:00
@@ -12225,8 +12219,8 @@
 - component: Patterns
   create_time: 20180904T13:27:00
   id: 1107103
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Requesting icons for KDE Plasma and PIM patterns
 - component: KDE Workspace (Plasma)
   create_time: 20180904T07:38:00
@@ -13055,8 +13049,8 @@
 - component: Other
   create_time: 20180926T04:12:00
   id: 1109757
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: skinlf and jgoodies-forms differ between architectures
 - component: Other
   create_time: 20180926T04:04:00
@@ -13436,7 +13430,7 @@
   create_time: 20181010T09:37:00
   id: 1111342
   resolution: ''
-  status: IN_PROGRESS
+  status: CONFIRMED
   summary: Backport fix for dnsmasq into Tumbleweed (add permission to open log files)
 - component: GNOME
   create_time: 20181010T08:03:00
@@ -13448,8 +13442,8 @@
 - component: Kernel
   create_time: 20181009T12:39:00
   id: 1111221
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'WARNING: CPU: 0 PID: 130 at drivers/hv/hv_balloon.c:1269 balloon_up+0x34a/0x360
     [hv_balloon]'
 - component: Other
@@ -13842,8 +13836,8 @@
 - component: Kubic
   create_time: 20181015T07:21:00
   id: 1111786
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: quit() tries to remove current snapshot
 '20181018':
 - component: Basesystem
@@ -14242,8 +14236,8 @@
 - component: Installation
   create_time: 20181024T18:23:00
   id: 1113164
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Installation media is missing fonts from yast-theme
 - component: Other
   create_time: 20181024T17:58:00
@@ -14754,8 +14748,8 @@
 - component: Basesystem
   create_time: 20181031T07:49:00
   id: 1114113
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: the latest LVM2 can overwrite extents beyond metadata area
 - component: Network
   create_time: 20181031T06:08:00
@@ -15291,8 +15285,8 @@
 - component: Other
   create_time: 20181108T08:42:00
   id: 1115169
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20181107] rabbitmq falis to start'
 - component: Other
   create_time: 20181108T08:42:00
@@ -15466,8 +15460,8 @@
 - component: Basesystem
   create_time: 20181110T10:55:00
   id: 1115529
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: chronyd version 3.4 has problems starting the command socket
 '20181112':
 - component: Basesystem
@@ -16062,8 +16056,8 @@
 - component: GNOME
   create_time: 20181119T20:46:00
   id: 1116615
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Periodic short freezes of the DE
 - component: X.Org
   create_time: 20181119T19:46:00
@@ -16093,8 +16087,8 @@
 - component: YaST2
   create_time: 20181119T15:30:00
   id: 1116584
-  resolution: NORESPONSE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: libyui-qt* missing after latest TW upgrade
 - component: YaST2
   create_time: 20181119T13:23:00
@@ -16248,10 +16242,9 @@
 - component: Basesystem
   create_time: 20181124T20:17:00
   id: 1117217
-  resolution: ''
-  status: NEW
-  summary: ypbind (NIS) is not started automatically although configured to do so
-    tumbleweed snapshot 20181120
+  resolution: FIXED
+  status: RESOLVED
+  summary: rpcbind fails to start (tumbleweed snapshot 20181120)
 - component: Other
   create_time: 20181124T19:03:00
   id: 1117216
@@ -16438,7 +16431,7 @@
   create_time: 20181129T16:20:00
   id: 1117833
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'Wayland: briefffffffffff unresponsivvvvvvvvvvvveness and repeated keys'
 '20181130':
 - component: KDE Applications
@@ -16534,8 +16527,8 @@
 - component: Network
   create_time: 20181204T17:47:00
   id: 1118375
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please include proper dependencies in ntpd.service against time-sync.target
 - component: Network
   create_time: 20181204T17:37:00
@@ -16582,8 +16575,8 @@
 - component: Bootloader
   create_time: 20181204T08:53:00
   id: 1118279
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: os-prober unconditionally pulls btrfsprogs
 - component: Other
   create_time: 20181204T06:49:00
@@ -16641,7 +16634,7 @@
   create_time: 20181207T10:16:00
   id: 1118754
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'mariadb: PerconaFT is AGPL and should be removed from the package'
 - component: Kernel
   create_time: 20181206T22:41:00
@@ -16672,20 +16665,20 @@
 - component: YaST2
   create_time: 20181206T12:58:00
   id: 1118643
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: YaST crashes, killed by the OOM killer
 - component: Development
   create_time: 20181206T09:51:00
   id: 1118619
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: ninja fails to build software in 2038
 - component: Development
   create_time: 20181206T09:31:00
   id: 1118611
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: python-Cython 0.29 removed support for subinterpreters (downgrade required)
 '20181208':
 - component: Basesystem
@@ -16777,8 +16770,8 @@
 - component: Other
   create_time: 20181208T10:31:00
   id: 1118854
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: FreeCAD Binary compatibility break
 - component: Installation
   create_time: 20181208T07:18:00
@@ -16786,3 +16779,152 @@
   resolution: ''
   status: NEW
   summary: Touchpad does not work during installation on Asus Zenbook S UX391UA
+'20181211':
+- component: KDE Applications
+  create_time: 20181211T21:33:00
+  id: 1119186
+  resolution: ''
+  status: NEW
+  summary: 'kdevelop5: Code completion and parser don''t work'
+- component: Kubic
+  create_time: 20181211T15:48:00
+  id: 1119153
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Podman networking broken in MicroOS System Role
+- component: Development
+  create_time: 20181211T10:18:00
+  id: 1119092
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'llvm7: libLLVM is ABI incompatible between GCC and CLANG'
+- component: Basesystem
+  create_time: 20181211T09:59:00
+  id: 1119088
+  resolution: ''
+  status: NEW
+  summary: KVM guest start at boot failure
+- component: Security
+  create_time: 20181211T06:18:00
+  id: 1119056
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'Root exploit at uid overflowing attack with systemctl: CVE-2018-19788'
+'20181212':
+- component: KDE Workspace (Plasma)
+  create_time: 20181212T23:53:00
+  id: 1119326
+  resolution: ''
+  status: NEW
+  summary: openSUSE Tumbleweed 20181211 Plasma application window problems
+- component: Kubic
+  create_time: 20181212T16:07:00
+  id: 1119288
+  resolution: ''
+  status: NEW
+  summary: 'MicroOS: 20GB disk too small'
+- component: Kubic
+  create_time: 20181212T16:00:00
+  id: 1119287
+  resolution: ''
+  status: NEW
+  summary: Document system requirements
+- component: Containers
+  create_time: 20181212T13:36:00
+  id: 1119265
+  resolution: INVALID
+  status: RESOLVED
+  summary: Docker daemon non-functional - fails to connect to containerd, containerd
+    not running
+- component: GNOME
+  create_time: 20181212T09:09:00
+  id: 1119216
+  resolution: ''
+  status: NEW
+  summary: XWayland window on GNOME get scrambled after screenshot
+'20181213':
+- component: Other
+  create_time: 20181215T14:06:00
+  id: 1119636
+  resolution: ''
+  status: NEW
+  summary: 'Backintime-qt4 does not start with ModuleNotFoundError: No module named
+    ''PyQt4.sip'''
+- component: Basesystem
+  create_time: 20181215T12:41:00
+  id: 1119634
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'go: multi-version installation is broken on version switch'
+- component: Other
+  create_time: 20181215T10:36:00
+  id: 1119630
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: cyrus-imapd.service contains bogus User and Group specification
+- component: Other
+  create_time: 20181215T10:34:00
+  id: 1119629
+  resolution: ''
+  status: NEW
+  summary: cyrus-imapd.service contains bogus User and Group specification
+- component: YaST2
+  create_time: 20181215T10:12:00
+  id: 1119627
+  resolution: ''
+  status: NEW
+  summary: Some missing German translations and typos in YaST2 on LXDE-Desktop
+- component: Kernel
+  create_time: 20181215T02:26:00
+  id: 1119621
+  resolution: ''
+  status: NEW
+  summary: kernel 4.19 + i915 gives black screen/intermittent display
+- component: Security
+  create_time: 20181215T01:54:00
+  id: 1119619
+  resolution: ''
+  status: NEW
+  summary: certbot does not renew certificates (again)
+- component: Other
+  create_time: 20181214T19:35:00
+  id: 1119580
+  resolution: FIXED
+  status: RESOLVED
+  summary: Frescobaldi doesn't start; probably bug in python-poppler-qt5 or python3-poppler-qt5
+- component: Security
+  create_time: 20181214T12:31:00
+  id: 1119534
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181213] openQA test fails in selinux_setup'
+- component: Kubic
+  create_time: 20181214T09:52:00
+  id: 1119511
+  resolution: ''
+  status: NEW
+  summary: Not possible to login to Kubic/MicroOS anymore via ssh
+- component: Kubic
+  create_time: 20181214T09:25:00
+  id: 1119508
+  resolution: ''
+  status: NEW
+  summary: Upstream kubeadm page does not list openSUSE Kubic as supported platform
+- component: GNOME
+  create_time: 20181214T08:41:00
+  id: 1119495
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: keyboard lags and multiple messages libinput error client bug offset negative
+- component: Kubic
+  create_time: 20181213T10:57:00
+  id: 1119378
+  resolution: ''
+  status: CONFIRMED
+  summary: Define labels for openSUSE containers
+- component: Kubic
+  create_time: 20181213T08:07:00
+  id: 1119359
+  resolution: ''
+  status: NEW
+  summary: kubic.opensuse.org needs prominent link to Portal:Kubic wiki
