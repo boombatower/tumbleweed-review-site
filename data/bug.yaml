@@ -16843,6 +16843,12 @@
   status: NEW
   summary: XWayland window on GNOME get scrambled after screenshot
 '20181213':
+- component: Kernel
+  create_time: 20181216T10:13:00
+  id: 1119649
+  resolution: ''
+  status: NEW
+  summary: Realtek r8169 receive performance regression in kernel 4.19
 - component: Other
   create_time: 20181215T14:06:00
   id: 1119636
