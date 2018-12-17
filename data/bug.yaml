@@ -14065,7 +14065,7 @@
   create_time: 20181028T01:35:00
   id: 1113627
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Out of date package: openSUSE:Factory/gnunet is out of date'
 - component: Other
   create_time: 20181028T01:33:00
@@ -15578,8 +15578,8 @@
 - component: Other
   create_time: 20181114T16:59:00
   id: 1116056
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by compcache into native systemd services
 - component: Mono
   create_time: 20181114T16:58:00
