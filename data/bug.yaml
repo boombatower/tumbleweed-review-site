@@ -8863,8 +8863,8 @@
 - component: Containers
   create_time: 20180604T13:28:00
   id: 1095817
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: containers packages fail randomly due to %check
 - component: Development
   create_time: 20180604T11:05:00
@@ -14058,8 +14058,8 @@
 - component: Other
   create_time: 20181028T01:37:00
   id: 1113628
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/inn is out of date'
 - component: Other
   create_time: 20181028T01:35:00
@@ -15716,8 +15716,8 @@
 - component: Network
   create_time: 20181114T15:10:00
   id: 1116017
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by inn into native systemd services
 - component: GNOME
   create_time: 20181114T15:04:00
@@ -16495,8 +16495,8 @@
 - component: Installation
   create_time: 20181203T10:29:00
   id: 1118114
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Installer disallows root access with usessh=1
 - component: Cloud:Tools
   create_time: 20181203T08:45:00
@@ -16844,11 +16844,17 @@
   summary: XWayland window on GNOME get scrambled after screenshot
 '20181213':
 - component: Other
-  create_time: 20181217T02:07:00
-  id: 1119656
+  create_time: 20181217T11:25:00
+  id: 1119706
   resolution: ''
   status: NEW
-  summary: Update tkgate (version 2.1)
+  summary: go get broken for   import path patterns containing "..."
+- component: Development
+  create_time: 20181217T09:38:00
+  id: 1119686
+  resolution: ''
+  status: NEW
+  summary: python-sphinx alias broken in TW
 - component: Network
   create_time: 20181216T15:46:00
   id: 1119651
