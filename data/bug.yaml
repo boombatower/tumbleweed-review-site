@@ -13857,8 +13857,8 @@
 - component: KVM
   create_time: 20181021T14:26:00
   id: 1112646
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: ksm.service start through qemu-ksm fails
 - component: KDE Workspace (Plasma)
   create_time: 20181021T10:08:00
@@ -16843,6 +16843,12 @@
   status: NEW
   summary: XWayland window on GNOME get scrambled after screenshot
 '20181213':
+- component: Other
+  create_time: 20181217T02:07:00
+  id: 1119656
+  resolution: ''
+  status: NEW
+  summary: Update tkgate (version 2.1)
 - component: Network
   create_time: 20181216T15:46:00
   id: 1119651
