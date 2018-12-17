@@ -1392,9 +1392,12 @@
   threads: []
 '20181212':
   announcement: 2018-12.86
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 3
+  thread_count: 1
+  threads:
+  - messages: [2018-12.103]
+    reference_count: 3
+    summary: no summary given
 '20181213':
   announcement: 2018-12.90
   reference_count: 0
