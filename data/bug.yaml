@@ -16844,6 +16844,12 @@
   summary: XWayland window on GNOME get scrambled after screenshot
 '20181213':
 - component: Other
+  create_time: 20181218T07:10:00
+  id: 1119782
+  resolution: ''
+  status: NEW
+  summary: backintime dbus exception
+- component: Other
   create_time: 20181217T11:25:00
   id: 1119706
   resolution: ''
