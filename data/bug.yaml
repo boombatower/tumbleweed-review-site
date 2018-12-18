@@ -14730,8 +14730,8 @@
 - component: Other
   create_time: 20181031T13:33:00
   id: 1114186
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: package installation from elpa does not work in emacs-nox 26.1
 - component: Other
   create_time: 20181031T09:20:00
