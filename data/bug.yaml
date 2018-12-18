@@ -15441,8 +15441,8 @@
 - component: Network
   create_time: 20181107T08:46:00
   id: 1114965
-  resolution: ''
-  status: REOPENED
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Update to 20181029 dropped /etc/sysconfig/SuSEfirewall2.d/services/sshd
 '20181110':
 - component: Development
@@ -16444,7 +16444,7 @@
   create_time: 20181201T18:07:00
   id: 1118044
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: After upgrade of Tumbleweed 20180310 -> 20181129 the firewall (SuSEfirewall2)
     prevents ssh login
 - component: GNOME
@@ -16783,8 +16783,8 @@
 - component: KDE Applications
   create_time: 20181211T21:33:00
   id: 1119186
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'kdevelop5: Code completion and parser don''t work'
 - component: Kubic
   create_time: 20181211T15:48:00
