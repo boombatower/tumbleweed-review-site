@@ -11841,8 +11841,8 @@
 - component: Other
   create_time: 20180822T17:40:00
   id: 1105669
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Unable to open huge ZIP archive
 - component: Installation
   create_time: 20180822T15:04:00
@@ -15103,7 +15103,7 @@
   create_time: 20181109T15:01:00
   id: 1115454
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'postgrey: migrate from cron to systemd timers'
 - component: Basesystem
   create_time: 20181109T14:59:00
@@ -16496,7 +16496,7 @@
   create_time: 20181203T10:29:00
   id: 1118114
   resolution: ''
-  status: REOPENED
+  status: CONFIRMED
   summary: Installer disallows root access with usessh=1
 - component: Cloud:Tools
   create_time: 20181203T08:45:00
@@ -16814,8 +16814,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20181212T23:53:00
   id: 1119326
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: openSUSE Tumbleweed 20181211 Plasma application window problems
 - component: Kubic
   create_time: 20181212T16:07:00
@@ -16843,6 +16843,45 @@
   status: NEW
   summary: XWayland window on GNOME get scrambled after screenshot
 '20181213':
+- component: Kubic
+  create_time: 20181213T10:57:00
+  id: 1119378
+  resolution: ''
+  status: CONFIRMED
+  summary: Define labels for openSUSE containers
+- component: Kubic
+  create_time: 20181213T08:07:00
+  id: 1119359
+  resolution: ''
+  status: NEW
+  summary: kubic.opensuse.org needs prominent link to Portal:Kubic wiki
+'20181214':
+- component: libzypp
+  create_time: 20181218T17:31:00
+  id: 1119873
+  resolution: ''
+  status: NEW
+  summary: 'zypper search: inconsistent results for `-t package kernel-default` vs
+    `package:kernel-default`'
+- component: Other
+  create_time: 20181218T16:33:00
+  id: 1119863
+  resolution: ''
+  status: NEW
+  summary: kiwi aborts with traceback when setting btrfs qgroups
+- component: YaST2
+  create_time: 20181218T16:07:00
+  id: 1119852
+  resolution: ''
+  status: NEW
+  summary: yast/wfm.rb:253 Client /usr/share/YaST2/clients/lan.rb failed with 'undefined
+    method `split' for nil:NilClass' (NoMethodError).
+- component: Other
+  create_time: 20181218T14:12:00
+  id: 1119833
+  resolution: ''
+  status: NEW
+  summary: Issues with keystrokes and mouse movements
 - component: Other
   create_time: 20181218T07:10:00
   id: 1119782
@@ -16946,15 +16985,3 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: keyboard lags and multiple messages libinput error client bug offset negative
-- component: Kubic
-  create_time: 20181213T10:57:00
-  id: 1119378
-  resolution: ''
-  status: CONFIRMED
-  summary: Define labels for openSUSE containers
-- component: Kubic
-  create_time: 20181213T08:07:00
-  id: 1119359
-  resolution: ''
-  status: NEW
-  summary: kubic.opensuse.org needs prominent link to Portal:Kubic wiki
