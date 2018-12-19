@@ -1405,6 +1405,9 @@
   threads: []
 '20181214':
   announcement: 2018-12.108
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages: [2018-12.111]
+    reference_count: 1
+    summary: QT library incompatibilities
