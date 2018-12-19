@@ -16856,6 +16856,24 @@
   status: NEW
   summary: kubic.opensuse.org needs prominent link to Portal:Kubic wiki
 '20181214':
+- component: Basesystem
+  create_time: 20181218T22:34:00
+  id: 1119898
+  resolution: ''
+  status: NEW
+  summary: 'multipath-tools: ANA information missing for NVMe maps'
+- component: Basesystem
+  create_time: 20181218T22:31:00
+  id: 1119897
+  resolution: ''
+  status: NEW
+  summary: 'multipath-tools: path group prio displayed incorrectly'
+- component: Basesystem
+  create_time: 20181218T22:23:00
+  id: 1119895
+  resolution: ''
+  status: NEW
+  summary: 'Factory: kmod fails to build on s390x'
 - component: libzypp
   create_time: 20181218T17:31:00
   id: 1119873
