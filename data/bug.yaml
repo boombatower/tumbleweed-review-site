@@ -16608,8 +16608,8 @@
 - component: Samba
   create_time: 20181205T15:01:00
   id: 1118508
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: libldb1 version mismatch in Samba dsdb component 1.4.3 vs 1.4.2
 - component: Development
   create_time: 20181205T11:38:00
@@ -16702,8 +16702,8 @@
 - component: Network
   create_time: 20181209T22:39:00
   id: 1118876
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: After resume from suspend NFS is no longer mounted
 - component: KDE Applications
   create_time: 20181209T12:24:00
@@ -16857,6 +16857,18 @@
   summary: kubic.opensuse.org needs prominent link to Portal:Kubic wiki
 '20181214':
 - component: Basesystem
+  create_time: 20181219T11:42:00
+  id: 1119953
+  resolution: ''
+  status: NEW
+  summary: Raspberry Pi 3B shows crash during boot after update to kernel-default-4.4.165-81.1
+- component: YaST2
+  create_time: 20181219T09:20:00
+  id: 1119928
+  resolution: ''
+  status: NEW
+  summary: Import of public ssh key failed/not written to .ssh/authorized_keys
+- component: Basesystem
   create_time: 20181218T22:34:00
   id: 1119898
   resolution: ''
@@ -16955,7 +16967,7 @@
   resolution: ''
   status: NEW
   summary: cyrus-imapd.service contains bogus User and Group specification
-- component: YaST2
+- component: Translations
   create_time: 20181215T10:12:00
   id: 1119627
   resolution: ''
