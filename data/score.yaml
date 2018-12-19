@@ -603,10 +603,10 @@
   stability_level: stable
 '20181212':
   score: 93
-  stability_level: pending
+  stability_level: stable
 '20181213':
   score: 97
   stability_level: pending
 '20181214':
-  score: 96
+  score: 93
   stability_level: pending
