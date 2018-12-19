@@ -12973,11 +12973,11 @@
   summary: '[gcc8 regression]rubygem-cppjieba_rb segfault with -O1,2,3 optimization
     flag on openSUSE only systems'
 '20180926':
-- component: Other
+- component: GNOME
   create_time: 20180927T15:24:00
   id: 1110032
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: lollypop,pithos,mozo differ between architectures
 - component: Other
   create_time: 20180927T15:01:00
@@ -14858,8 +14858,8 @@
 - component: Other
   create_time: 20181104T15:51:00
   id: 1114591
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Fish Fillets - Next Generation broken for Leap 15.0 and Tumbleweed
 - component: Basesystem
   create_time: 20181104T15:01:00
@@ -16489,8 +16489,8 @@
 - component: Kubic
   create_time: 20181203T14:23:00
   id: 1118150
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: binutils pulled in again.
 - component: Installation
   create_time: 20181203T10:29:00
@@ -16708,8 +16708,8 @@
 - component: KDE Applications
   create_time: 20181209T12:24:00
   id: 1118870
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: K3b uses wrong encoding for file names and media tags (complains of missing
     LC_* environment variables)
 - component: Kernel
@@ -16906,12 +16906,12 @@
   status: NEW
   summary: yast/wfm.rb:253 Client /usr/share/YaST2/clients/lan.rb failed with 'undefined
     method `split' for nil:NilClass' (NoMethodError).
-- component: Other
+- component: GNOME
   create_time: 20181218T14:12:00
   id: 1119833
   resolution: ''
   status: NEW
-  summary: Issues with keystrokes and mouse movements
+  summary: High CPU usage by gnome-shell (keyboard & mouse unresponsive)
 - component: Other
   create_time: 20181218T07:10:00
   id: 1119782
