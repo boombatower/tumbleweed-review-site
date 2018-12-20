@@ -16856,6 +16856,13 @@
   status: NEW
   summary: kubic.opensuse.org needs prominent link to Portal:Kubic wiki
 '20181214':
+- component: Other
+  create_time: 20181220T12:36:00
+  id: 1120075
+  resolution: ''
+  status: NEW
+  summary: kiwi builds on OBS randomly fail for *-efi image with 'no space left' error
+    on rsync
 - component: Basesystem
   create_time: 20181219T11:42:00
   id: 1119953
@@ -16902,8 +16909,8 @@
 - component: YaST2
   create_time: 20181218T16:07:00
   id: 1119852
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast/wfm.rb:253 Client /usr/share/YaST2/clients/lan.rb failed with 'undefined
     method `split' for nil:NilClass' (NoMethodError).
 - component: GNOME
