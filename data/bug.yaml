@@ -1433,8 +1433,8 @@
 - component: YaST2
   create_time: 20180104T18:06:00
   id: 1074696
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Update yast-python-bindings to python3
 - component: YaST2
   create_time: 20180104T08:41:00
@@ -8384,12 +8384,6 @@
   resolution: FIXED
   status: RESOLVED
   summary: yast2 timezone does not change /etc/sysconfig/clock correctly
-- component: Basesystem
-  create_time: 20180515T15:12:00
-  id: 1093378
-  resolution: ''
-  status: NEW
-  summary: conflicting udev rules completely break USB Serial bridges
 - component: Other
   create_time: 20180515T14:24:00
   id: 1093369
@@ -11941,8 +11935,8 @@
 - component: Kernel
   create_time: 20180820T07:32:00
   id: 1105302
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180813] openQA test fails randomly due to ''watchdog: BUG: soft
     lockup - CPU#0 stuck for 91s!'' or ''rcu_sched self-detected stall on CPU'''
 '20180827':
@@ -13416,8 +13410,8 @@
 - component: Samba
   create_time: 20181010T11:42:00
   id: 1111373
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'INTERNAL ERROR: Signal 11 in pid 2026 (4.9.1-git.46.ff87d06baceSUSE-oS15.5-x86_64)'
 - component: Printing
   create_time: 20181010T10:00:00
@@ -15699,7 +15693,7 @@
   create_time: 20181114T15:15:00
   id: 1116020
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Please convert SysV init scripts by mailgraph into native systemd services
 - component: Basesystem
   create_time: 20181114T15:13:00
@@ -16857,75 +16851,6 @@
   summary: kubic.opensuse.org needs prominent link to Portal:Kubic wiki
 '20181214':
 - component: Other
-  create_time: 20181220T12:36:00
-  id: 1120075
-  resolution: ''
-  status: NEW
-  summary: kiwi builds on OBS randomly fail for *-efi image with 'no space left' error
-    on rsync
-- component: Basesystem
-  create_time: 20181219T11:42:00
-  id: 1119953
-  resolution: ''
-  status: NEW
-  summary: Raspberry Pi 3B shows crash during boot after update to kernel-default-4.4.165-81.1
-- component: YaST2
-  create_time: 20181219T09:20:00
-  id: 1119928
-  resolution: ''
-  status: NEW
-  summary: Import of public ssh key failed/not written to .ssh/authorized_keys
-- component: Basesystem
-  create_time: 20181218T22:34:00
-  id: 1119898
-  resolution: ''
-  status: NEW
-  summary: 'multipath-tools: ANA information missing for NVMe maps'
-- component: Basesystem
-  create_time: 20181218T22:31:00
-  id: 1119897
-  resolution: ''
-  status: NEW
-  summary: 'multipath-tools: path group prio displayed incorrectly'
-- component: Basesystem
-  create_time: 20181218T22:23:00
-  id: 1119895
-  resolution: ''
-  status: NEW
-  summary: 'Factory: kmod fails to build on s390x'
-- component: libzypp
-  create_time: 20181218T17:31:00
-  id: 1119873
-  resolution: ''
-  status: NEW
-  summary: 'zypper search: inconsistent results for `-t package kernel-default` vs
-    `package:kernel-default`'
-- component: Other
-  create_time: 20181218T16:33:00
-  id: 1119863
-  resolution: ''
-  status: NEW
-  summary: kiwi aborts with traceback when setting btrfs qgroups
-- component: YaST2
-  create_time: 20181218T16:07:00
-  id: 1119852
-  resolution: FIXED
-  status: RESOLVED
-  summary: yast/wfm.rb:253 Client /usr/share/YaST2/clients/lan.rb failed with 'undefined
-    method `split' for nil:NilClass' (NoMethodError).
-- component: GNOME
-  create_time: 20181218T14:12:00
-  id: 1119833
-  resolution: ''
-  status: NEW
-  summary: High CPU usage by gnome-shell (keyboard & mouse unresponsive)
-- component: Other
-  create_time: 20181218T07:10:00
-  id: 1119782
-  resolution: ''
-  status: NEW
-  summary: backintime dbus exception
-- component: Other
   create_time: 20181217T11:25:00
   id: 1119706
   resolution: ''
@@ -17022,3 +16947,85 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: keyboard lags and multiple messages libinput error client bug offset negative
+'20181218':
+- component: Development
+  create_time: 20181220T15:57:00
+  id: 1120098
+  resolution: ''
+  status: NEW
+  summary: Clang 7 packaging is inconsistent
+- component: KDE Workspace (Plasma)
+  create_time: 20181220T14:47:00
+  id: 1120090
+  resolution: ''
+  status: NEW
+  summary: Flickering screen since 20181214
+- component: Other
+  create_time: 20181220T12:36:00
+  id: 1120075
+  resolution: ''
+  status: NEW
+  summary: kiwi builds on OBS randomly fail for *-efi image with 'no space left' error
+    on rsync
+- component: Basesystem
+  create_time: 20181219T11:42:00
+  id: 1119953
+  resolution: ''
+  status: NEW
+  summary: Raspberry Pi 3B shows crash during boot after update to kernel-default-4.4.165-81.1
+- component: YaST2
+  create_time: 20181219T09:20:00
+  id: 1119928
+  resolution: ''
+  status: NEW
+  summary: Import of public ssh key failed/not written to .ssh/authorized_keys
+- component: Basesystem
+  create_time: 20181218T22:34:00
+  id: 1119898
+  resolution: ''
+  status: NEW
+  summary: 'multipath-tools: ANA information missing for NVMe maps'
+- component: Basesystem
+  create_time: 20181218T22:31:00
+  id: 1119897
+  resolution: ''
+  status: NEW
+  summary: 'multipath-tools: path group prio displayed incorrectly'
+- component: Basesystem
+  create_time: 20181218T22:23:00
+  id: 1119895
+  resolution: ''
+  status: NEW
+  summary: 'Factory: kmod fails to build on s390x'
+- component: libzypp
+  create_time: 20181218T17:31:00
+  id: 1119873
+  resolution: ''
+  status: NEW
+  summary: 'zypper search: inconsistent results for `-t package kernel-default` vs
+    `package:kernel-default`'
+- component: Other
+  create_time: 20181218T16:33:00
+  id: 1119863
+  resolution: ''
+  status: NEW
+  summary: kiwi aborts with traceback when setting btrfs qgroups
+- component: YaST2
+  create_time: 20181218T16:07:00
+  id: 1119852
+  resolution: FIXED
+  status: RESOLVED
+  summary: yast/wfm.rb:253 Client /usr/share/YaST2/clients/lan.rb failed with 'undefined
+    method `split' for nil:NilClass' (NoMethodError).
+- component: GNOME
+  create_time: 20181218T14:12:00
+  id: 1119833
+  resolution: ''
+  status: NEW
+  summary: High CPU usage by gnome-shell (keyboard & mouse unresponsive)
+- component: Other
+  create_time: 20181218T07:10:00
+  id: 1119782
+  resolution: ''
+  status: NEW
+  summary: backintime dbus exception
