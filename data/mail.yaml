@@ -1414,3 +1414,8 @@
   - messages: [2018-12.111, 2018-12.128]
     reference_count: 7
     summary: QT library incompatibilities
+'20181218':
+  announcement: 2018-12.143
+  reference_count: 0
+  thread_count: 0
+  threads: []
