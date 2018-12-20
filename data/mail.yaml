@@ -1405,12 +1405,12 @@
   threads: []
 '20181214':
   announcement: 2018-12.108
-  reference_count: 7
+  reference_count: 9
   thread_count: 2
   threads:
   - messages: [2018-12.117]
-    reference_count: 1
+    reference_count: 2
     summary: python3-pyotherside fails
   - messages: [2018-12.111, 2018-12.128]
-    reference_count: 6
+    reference_count: 7
     summary: QT library incompatibilities
