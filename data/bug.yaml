@@ -13423,8 +13423,8 @@
 - component: AppArmor
   create_time: 20181010T09:37:00
   id: 1111342
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Backport fix for dnsmasq into Tumbleweed (add permission to open log files)
 - component: GNOME
   create_time: 20181010T08:03:00
@@ -16884,8 +16884,8 @@
 - component: Basesystem
   create_time: 20181215T12:41:00
   id: 1119634
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'go: multi-version installation is broken on version switch'
 - component: Other
   create_time: 20181215T10:36:00
@@ -16948,6 +16948,18 @@
   status: RESOLVED
   summary: keyboard lags and multiple messages libinput error client bug offset negative
 '20181218':
+- component: KDE Applications
+  create_time: 20181221T15:02:00
+  id: 1120233
+  resolution: ''
+  status: NEW
+  summary: konsole crashes on text selection
+- component: Development
+  create_time: 20181221T14:08:00
+  id: 1120220
+  resolution: ''
+  status: NEW
+  summary: osc / build lacks dependency for qemu-kvm
 - component: GNOME
   create_time: 20181221T10:47:00
   id: 1120200
