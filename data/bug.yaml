@@ -16948,6 +16948,12 @@
   status: RESOLVED
   summary: keyboard lags and multiple messages libinput error client bug offset negative
 '20181218':
+- component: Basesystem
+  create_time: 20181221T01:19:00
+  id: 1120143
+  resolution: ''
+  status: NEW
+  summary: Raspberry Pi display is black after 20181214 update
 - component: Development
   create_time: 20181220T15:57:00
   id: 1120098
