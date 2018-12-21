@@ -16161,8 +16161,8 @@
 - component: Kernel
   create_time: 20181118T03:09:00
   id: 1116448
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Memory leak on openSUSE Tumbleweed.
 '20181120':
 - component: GNOME
@@ -16948,6 +16948,12 @@
   status: RESOLVED
   summary: keyboard lags and multiple messages libinput error client bug offset negative
 '20181218':
+- component: Kernel
+  create_time: 20181221T07:07:00
+  id: 1120162
+  resolution: ''
+  status: NEW
+  summary: 'Kernel panic or freeze: drm i915 ERROR timeout waiting for DP idle patterns'
 - component: Basesystem
   create_time: 20181221T01:19:00
   id: 1120143
