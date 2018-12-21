@@ -9481,8 +9481,8 @@
 - component: Other
   create_time: 20180618T15:02:00
   id: 1098066
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'package obs-service-download_files: installation error'
 - component: KVM
   create_time: 20180618T14:10:00
@@ -13522,8 +13522,8 @@
 - component: Other
   create_time: 20181013T04:13:00
   id: 1111742
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/shim'
 - component: Other
   create_time: 20181013T04:12:00
@@ -16833,8 +16833,8 @@
 - component: GNOME
   create_time: 20181212T09:09:00
   id: 1119216
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: XWayland window on GNOME get scrambled after screenshot
 '20181213':
 - component: Kubic
@@ -16948,6 +16948,26 @@
   status: RESOLVED
   summary: keyboard lags and multiple messages libinput error client bug offset negative
 '20181218':
+- component: GNOME
+  create_time: 20181221T10:47:00
+  id: 1120200
+  resolution: ''
+  status: NEW
+  summary: MIT-MAGIC-COOKIE error prevents start of flatpak apps when YaST set domain
+    name exists
+- component: Kernel
+  create_time: 20181221T09:29:00
+  id: 1120186
+  resolution: ''
+  status: NEW
+  summary: HP Compaq nx8220 does not boot anymore (black screen only) starting with
+    Linux kernel 4.19-1-pae (32bit)
+- component: X.Org
+  create_time: 20181221T08:16:00
+  id: 1120172
+  resolution: ''
+  status: NEW
+  summary: KDE Plasma screen tearing in X11 with Intel GPU
 - component: Kernel
   create_time: 20181221T07:07:00
   id: 1120162
