@@ -16948,6 +16948,63 @@
   status: RESOLVED
   summary: keyboard lags and multiple messages libinput error client bug offset negative
 '20181218':
+- component: Basesystem
+  create_time: 20181218T22:34:00
+  id: 1119898
+  resolution: ''
+  status: NEW
+  summary: 'multipath-tools: ANA information missing for NVMe maps'
+- component: Basesystem
+  create_time: 20181218T22:31:00
+  id: 1119897
+  resolution: ''
+  status: NEW
+  summary: 'multipath-tools: path group prio displayed incorrectly'
+- component: Basesystem
+  create_time: 20181218T22:23:00
+  id: 1119895
+  resolution: ''
+  status: NEW
+  summary: 'Factory: kmod fails to build on s390x'
+- component: libzypp
+  create_time: 20181218T17:31:00
+  id: 1119873
+  resolution: ''
+  status: NEW
+  summary: 'zypper search: inconsistent results for `-t package kernel-default` vs
+    `package:kernel-default`'
+- component: Other
+  create_time: 20181218T16:33:00
+  id: 1119863
+  resolution: ''
+  status: NEW
+  summary: kiwi aborts with traceback when setting btrfs qgroups
+- component: YaST2
+  create_time: 20181218T16:07:00
+  id: 1119852
+  resolution: FIXED
+  status: RESOLVED
+  summary: yast/wfm.rb:253 Client /usr/share/YaST2/clients/lan.rb failed with 'undefined
+    method `split' for nil:NilClass' (NoMethodError).
+- component: GNOME
+  create_time: 20181218T14:12:00
+  id: 1119833
+  resolution: ''
+  status: NEW
+  summary: High CPU usage by gnome-shell (keyboard & mouse unresponsive)
+- component: Other
+  create_time: 20181218T07:10:00
+  id: 1119782
+  resolution: ''
+  status: NEW
+  summary: backintime dbus exception
+'20181219':
+- component: KDE Applications
+  create_time: 20181222T15:39:00
+  id: 1120261
+  resolution: ''
+  status: NEW
+  summary: KDevelop crashes on opening project settings
 - component: Translations
   create_time: 20181222T13:46:00
   id: 1120259
@@ -17041,53 +17098,3 @@
   resolution: ''
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
-- component: Basesystem
-  create_time: 20181218T22:34:00
-  id: 1119898
-  resolution: ''
-  status: NEW
-  summary: 'multipath-tools: ANA information missing for NVMe maps'
-- component: Basesystem
-  create_time: 20181218T22:31:00
-  id: 1119897
-  resolution: ''
-  status: NEW
-  summary: 'multipath-tools: path group prio displayed incorrectly'
-- component: Basesystem
-  create_time: 20181218T22:23:00
-  id: 1119895
-  resolution: ''
-  status: NEW
-  summary: 'Factory: kmod fails to build on s390x'
-- component: libzypp
-  create_time: 20181218T17:31:00
-  id: 1119873
-  resolution: ''
-  status: NEW
-  summary: 'zypper search: inconsistent results for `-t package kernel-default` vs
-    `package:kernel-default`'
-- component: Other
-  create_time: 20181218T16:33:00
-  id: 1119863
-  resolution: ''
-  status: NEW
-  summary: kiwi aborts with traceback when setting btrfs qgroups
-- component: YaST2
-  create_time: 20181218T16:07:00
-  id: 1119852
-  resolution: FIXED
-  status: RESOLVED
-  summary: yast/wfm.rb:253 Client /usr/share/YaST2/clients/lan.rb failed with 'undefined
-    method `split' for nil:NilClass' (NoMethodError).
-- component: GNOME
-  create_time: 20181218T14:12:00
-  id: 1119833
-  resolution: ''
-  status: NEW
-  summary: High CPU usage by gnome-shell (keyboard & mouse unresponsive)
-- component: Other
-  create_time: 20181218T07:10:00
-  id: 1119782
-  resolution: ''
-  status: NEW
-  summary: backintime dbus exception
