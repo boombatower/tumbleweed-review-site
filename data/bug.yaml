@@ -16948,6 +16948,18 @@
   status: RESOLVED
   summary: keyboard lags and multiple messages libinput error client bug offset negative
 '20181218':
+- component: Translations
+  create_time: 20181222T13:46:00
+  id: 1120259
+  resolution: ''
+  status: NEW
+  summary: Incomplete German translations in GnuCash
+- component: Network
+  create_time: 20181222T11:59:00
+  id: 1120257
+  resolution: ''
+  status: NEW
+  summary: Postfix install/update fails for non-default maildrop_gid
 - component: Kernel
   create_time: 20181222T01:19:00
   id: 1120254
