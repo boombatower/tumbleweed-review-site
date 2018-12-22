@@ -16948,6 +16948,12 @@
   status: RESOLVED
   summary: keyboard lags and multiple messages libinput error client bug offset negative
 '20181218':
+- component: Kernel
+  create_time: 20181222T01:19:00
+  id: 1120254
+  resolution: ''
+  status: NEW
+  summary: Xorg cannot run during install and after, z390 + i9-9900k + UHD 630 graphics
 - component: KDE Applications
   create_time: 20181221T15:02:00
   id: 1120233
