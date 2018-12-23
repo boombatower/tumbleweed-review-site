@@ -16999,6 +16999,18 @@
   status: NEW
   summary: backintime dbus exception
 '20181219':
+- component: libzypp
+  create_time: 20181223T00:30:00
+  id: 1120263
+  resolution: ''
+  status: NEW
+  summary: zypper ps should mention "reboot needed
+- component: X11 Applications
+  create_time: 20181222T20:56:00
+  id: 1120262
+  resolution: ''
+  status: NEW
+  summary: 'Anki not starting: Anki only supports Qt 5.9.x at this time.'
 - component: KDE Applications
   create_time: 20181222T15:39:00
   id: 1120261
