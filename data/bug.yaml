@@ -16999,6 +16999,18 @@
   status: NEW
   summary: backintime dbus exception
 '20181219':
+- component: Network
+  create_time: 20181223T11:17:00
+  id: 1120268
+  resolution: ''
+  status: NEW
+  summary: Default route lost after suspend/resume (closing laptop lid)
+- component: Development
+  create_time: 20181223T10:34:00
+  id: 1120267
+  resolution: ''
+  status: NEW
+  summary: perl debugger coredump related to libreadline.so.7 rl_prep_terminal()
 - component: Other
   create_time: 20181223T04:31:00
   id: 1120266
