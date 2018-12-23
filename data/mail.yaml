@@ -1421,11 +1421,11 @@
   threads: []
 '20181219':
   announcement: 2018-12.148
-  reference_count: 4
+  reference_count: 5
   thread_count: 2
   threads:
   - messages: [2018-12.151]
-    reference_count: 3
+    reference_count: 4
     summary: perl-issues
   - messages: [2018-12.154]
     reference_count: 1
