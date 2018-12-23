@@ -16999,6 +16999,12 @@
   status: NEW
   summary: backintime dbus exception
 '20181219':
+- component: Other
+  create_time: 20181223T04:31:00
+  id: 1120266
+  resolution: ''
+  status: NEW
+  summary: 'neovim: a ''q'' char in place of the cursor in the linux tty (TERM=linux)'
 - component: libzypp
   create_time: 20181223T00:30:00
   id: 1120263
