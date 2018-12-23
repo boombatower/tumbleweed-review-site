@@ -16999,6 +16999,12 @@
   status: NEW
   summary: backintime dbus exception
 '20181219':
+- component: libzypp
+  create_time: 20181223T19:41:00
+  id: 1120270
+  resolution: ''
+  status: NEW
+  summary: '"zypper search --repo" is broken'
 - component: Network
   create_time: 20181223T11:17:00
   id: 1120268
