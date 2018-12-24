@@ -16999,6 +16999,12 @@
   status: NEW
   summary: backintime dbus exception
 '20181219':
+- component: Firefox
+  create_time: 20181224T11:46:00
+  id: 1120285
+  resolution: INVALID
+  status: RESOLVED
+  summary: Firefox does not remember exceptions of content blocking
 - component: libzypp
   create_time: 20181223T19:41:00
   id: 1120270
