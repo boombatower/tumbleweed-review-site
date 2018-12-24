@@ -15784,8 +15784,8 @@
 - component: Kernel
   create_time: 20181114T14:03:00
   id: 1115998
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: irq/17 high cpu usage upon resume
 - component: Other
   create_time: 20181114T14:01:00
