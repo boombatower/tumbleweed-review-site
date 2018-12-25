@@ -612,7 +612,7 @@
   stability_level: moderate
 '20181218':
   score: 94
-  stability_level: pending
+  stability_level: stable
 '20181219':
   score: 84
   stability_level: pending
