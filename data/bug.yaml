@@ -16999,6 +16999,18 @@
   status: NEW
   summary: backintime dbus exception
 '20181219':
+- component: Network
+  create_time: 20181225T09:37:00
+  id: 1120294
+  resolution: ''
+  status: NEW
+  summary: Network
+- component: Translations
+  create_time: 20181225T09:28:00
+  id: 1120292
+  resolution: ''
+  status: NEW
+  summary: Language
 - component: Firefox
   create_time: 20181224T11:46:00
   id: 1120285
