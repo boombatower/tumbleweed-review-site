@@ -1430,3 +1430,8 @@
   - messages: [2018-12.154]
     reference_count: 1
     summary: released! - I like this snapshot
+'20181224':
+  announcement: 2018-12.160
+  reference_count: 0
+  thread_count: 0
+  threads: []
