@@ -11949,8 +11949,8 @@
 - component: Other
   create_time: 20180827T13:38:00
   id: 1106104
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: OBS (Open Broadcaster) Studio does not open
 - component: Other
   create_time: 20180827T12:02:00
@@ -17135,6 +17135,12 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Other
+  create_time: 20181226T16:44:00
+  id: 1120310
+  resolution: ''
+  status: NEW
+  summary: Nextcloud-client 2.5.1 crashes on account setup
 - component: Basesystem
   create_time: 20181225T16:47:00
   id: 1120298
