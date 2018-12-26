@@ -16999,30 +16999,6 @@
   status: NEW
   summary: backintime dbus exception
 '20181219':
-- component: Basesystem
-  create_time: 20181225T16:47:00
-  id: 1120298
-  resolution: ''
-  status: NEW
-  summary: Serial console input not working as expected, no new login prompt - agetty?
-- component: Network
-  create_time: 20181225T09:37:00
-  id: 1120294
-  resolution: ''
-  status: NEW
-  summary: Network
-- component: Translations
-  create_time: 20181225T09:28:00
-  id: 1120292
-  resolution: INVALID
-  status: RESOLVED
-  summary: Language
-- component: Firefox
-  create_time: 20181224T11:46:00
-  id: 1120285
-  resolution: INVALID
-  status: RESOLVED
-  summary: Firefox does not remember exceptions of content blocking
 - component: libzypp
   create_time: 20181223T19:41:00
   id: 1120270
@@ -17158,3 +17134,28 @@
   resolution: ''
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
+'20181224':
+- component: Basesystem
+  create_time: 20181225T16:47:00
+  id: 1120298
+  resolution: ''
+  status: NEW
+  summary: Serial console input not working as expected, no new login prompt - agetty?
+- component: Network
+  create_time: 20181225T09:37:00
+  id: 1120294
+  resolution: ''
+  status: NEW
+  summary: Network
+- component: Translations
+  create_time: 20181225T09:28:00
+  id: 1120292
+  resolution: INVALID
+  status: RESOLVED
+  summary: Language
+- component: Firefox
+  create_time: 20181224T11:46:00
+  id: 1120285
+  resolution: INVALID
+  status: RESOLVED
+  summary: Firefox does not remember exceptions of content blocking
