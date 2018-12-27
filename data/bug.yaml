@@ -13154,8 +13154,8 @@
 - component: GNOME
   create_time: 20180928T06:29:00
   id: 1110090
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180926] GNOME Music fails to start in upgrade scenarios'
 - component: YaST2
   create_time: 20180928T00:56:00
@@ -17135,6 +17135,12 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Development
+  create_time: 20181227T10:03:00
+  id: 1120329
+  resolution: ''
+  status: NEW
+  summary: python-sh fails tests on 1-core VM
 - component: Apache
   create_time: 20181227T08:12:00
   id: 1120322
