@@ -17135,6 +17135,12 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Apache
+  create_time: 20181227T08:12:00
+  id: 1120322
+  resolution: ''
+  status: NEW
+  summary: Update 20181219 Kopano Webapp php-mapi not found
 - component: Other
   create_time: 20181226T16:44:00
   id: 1120310
