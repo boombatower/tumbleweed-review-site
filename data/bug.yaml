@@ -17056,8 +17056,8 @@
 - component: Kernel
   create_time: 20181222T01:19:00
   id: 1120254
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Xorg cannot run during install and after, z390 + i9-9900k + UHD 630 graphics
 - component: KDE Applications
   create_time: 20181221T15:02:00
@@ -17135,6 +17135,36 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Other
+  create_time: 20181228T04:21:00
+  id: 1120368
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/groff is out of date'
+- component: Other
+  create_time: 20181228T04:18:00
+  id: 1120367
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/grep is out of date'
+- component: Other
+  create_time: 20181228T04:03:00
+  id: 1120366
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/mutt is out of date'
+- component: Other
+  create_time: 20181228T04:01:00
+  id: 1120365
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/virtualbox is out  of date'
+- component: Other
+  create_time: 20181228T03:58:00
+  id: 1120364
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/systemd is out of date'
 - component: Development
   create_time: 20181227T22:15:00
   id: 1120360
