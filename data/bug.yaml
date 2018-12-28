@@ -12459,8 +12459,8 @@
 - component: AutoYaST
   create_time: 20180912T15:09:00
   id: 1108199
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180910] autoyast profile doesn''t validate when cloning system'
 - component: Other
   create_time: 20180912T15:00:00
@@ -17135,6 +17135,12 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Development
+  create_time: 20181228T15:13:00
+  id: 1120384
+  resolution: ''
+  status: NEW
+  summary: 'running cpan: *** buffer overflow detected ***: /usr/bin/perl terminated'
 - component: Other
   create_time: 20181228T04:21:00
   id: 1120368
