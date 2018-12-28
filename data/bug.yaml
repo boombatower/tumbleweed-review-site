@@ -17135,6 +17135,12 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Development
+  create_time: 20181227T22:15:00
+  id: 1120360
+  resolution: ''
+  status: NEW
+  summary: Dead symlinks in antlr-manual-2.7.7-116.1.noarch
 - component: Basesystem
   create_time: 20181227T18:49:00
   id: 1120354
