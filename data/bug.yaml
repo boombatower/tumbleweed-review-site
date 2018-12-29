@@ -17135,6 +17135,12 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Other
+  create_time: 20181229T17:44:00
+  id: 1120397
+  resolution: ''
+  status: NEW
+  summary: I Cannot launch YaST modules from the LXQt programs menu
 - component: Development
   create_time: 20181228T15:13:00
   id: 1120384
