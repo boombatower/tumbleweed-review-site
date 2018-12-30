@@ -17136,6 +17136,12 @@
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
 - component: Other
+  create_time: 20181229T22:54:00
+  id: 1120400
+  resolution: ''
+  status: NEW
+  summary: OpenRCT2 Missing Files
+- component: Other
   create_time: 20181229T17:44:00
   id: 1120397
   resolution: ''
