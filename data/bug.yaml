@@ -17032,8 +17032,8 @@
 - component: X11 Applications
   create_time: 20181222T20:56:00
   id: 1120262
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Anki not starting: Anki only supports Qt 5.9.x at this time.'
 - component: KDE Applications
   create_time: 20181222T15:39:00
@@ -17136,6 +17136,12 @@
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
 - component: Other
+  create_time: 20181230T20:33:00
+  id: 1120404
+  resolution: ''
+  status: NEW
+  summary: 'Octave throws warning: Could not copy help collection to temporary file'
+- component: Other
   create_time: 20181229T22:54:00
   id: 1120400
   resolution: ''
@@ -17174,8 +17180,8 @@
 - component: Other
   create_time: 20181228T04:01:00
   id: 1120365
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/virtualbox is out  of date'
 - component: Other
   create_time: 20181228T03:58:00
