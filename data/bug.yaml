@@ -16960,7 +16960,7 @@
   resolution: ''
   status: NEW
   summary: 'multipath-tools: path group prio displayed incorrectly'
-- component: Basesystem
+- component: Kernel
   create_time: 20181218T22:23:00
   id: 1119895
   resolution: ''
