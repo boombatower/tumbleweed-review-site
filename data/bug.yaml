@@ -17135,6 +17135,18 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Kernel
+  create_time: 20181231T01:50:00
+  id: 1120407
+  resolution: ''
+  status: NEW
+  summary: Epson XP-340 Series Driver Required
+- component: Kernel
+  create_time: 20181230T22:27:00
+  id: 1120405
+  resolution: ''
+  status: NEW
+  summary: Serial Wacom tablet and touchscreen (X201t) not detected in Tumbleweed/15.0
 - component: Other
   create_time: 20181230T20:33:00
   id: 1120404
