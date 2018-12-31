@@ -1432,12 +1432,12 @@
     summary: released! - I like this snapshot
 '20181224':
   announcement: 2018-12.160
-  reference_count: 3
+  reference_count: 6
   thread_count: 2
   threads:
   - messages: [2018-12.164]
     reference_count: 1
     summary: ', but still no postgresql update'
   - messages: [2018-12.173]
-    reference_count: 2
+    reference_count: 5
     summary: plain hardware installation fails network
