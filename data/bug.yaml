@@ -17135,6 +17135,12 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Installation
+  create_time: 20181231T10:56:00
+  id: 1120410
+  resolution: ''
+  status: NEW
+  summary: Broken LVM2 support in installation
 - component: Kernel
   create_time: 20181231T01:50:00
   id: 1120407
