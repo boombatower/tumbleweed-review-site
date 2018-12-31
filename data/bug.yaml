@@ -14933,7 +14933,7 @@
   create_time: 20181106T08:27:00
   id: 1114807
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'New UI for firewalld: service does not stop'
 - component: Bootloader
   create_time: 20181105T19:14:00
@@ -17135,6 +17135,12 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: X.Org
+  create_time: 20181231T17:05:00
+  id: 1120416
+  resolution: ''
+  status: NEW
+  summary: Packages using llvm meta-package are not rebuilt automatically
 - component: Installation
   create_time: 20181231T10:56:00
   id: 1120410
