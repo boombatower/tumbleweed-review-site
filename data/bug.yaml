@@ -4914,8 +4914,8 @@
 - component: Development
   create_time: 20180303T09:58:00
   id: 1083830
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: ffado fails to build with Python3 scons
 - component: Development
   create_time: 20180303T02:43:00
@@ -14932,8 +14932,8 @@
 - component: YaST2
   create_time: 20181106T08:27:00
   id: 1114807
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'New UI for firewalld: service does not stop'
 - component: Bootloader
   create_time: 20181105T19:14:00
@@ -17068,8 +17068,8 @@
 - component: Development
   create_time: 20181221T14:08:00
   id: 1120220
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: osc / build lacks dependency for qemu-kvm
 - component: GNOME
   create_time: 20181221T10:47:00
@@ -17135,6 +17135,24 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Development
+  create_time: 20190102T13:10:00
+  id: 1120493
+  resolution: ''
+  status: NEW
+  summary: hamcrest does not build reproducibly ; affects junit
+- component: AppArmor
+  create_time: 20190102T10:44:00
+  id: 1120472
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181231] openQA test fails in aa_logprof'
+- component: libzypp
+  create_time: 20190102T09:22:00
+  id: 1120463
+  resolution: ''
+  status: NEW
+  summary: Zypper dup does not allow changing the vendor of installed resolvables
 - component: GNOME
   create_time: 20190102T08:08:00
   id: 1120456
@@ -17165,13 +17183,13 @@
   resolution: ''
   status: NEW
   summary: Broken LVM2 support in installation
-- component: Kernel
+- component: Printing
   create_time: 20181231T01:50:00
   id: 1120407
   resolution: ''
   status: NEW
   summary: Epson XP-340 Series Driver Required
-- component: Kernel
+- component: X.Org
   create_time: 20181230T22:27:00
   id: 1120405
   resolution: ''
@@ -17216,8 +17234,8 @@
 - component: Other
   create_time: 20181228T04:03:00
   id: 1120366
-  resolution: ''
-  status: NEW
+  resolution: FEATURE
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/mutt is out of date'
 - component: Other
   create_time: 20181228T04:01:00
