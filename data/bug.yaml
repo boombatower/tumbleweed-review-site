@@ -17136,6 +17136,12 @@
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
 - component: Development
+  create_time: 20190102T20:21:00
+  id: 1120538
+  resolution: ''
+  status: NEW
+  summary: cmake-3.13.1 and before, typo in patch  system-libs.patch
+- component: Development
   create_time: 20190102T13:10:00
   id: 1120493
   resolution: ''
