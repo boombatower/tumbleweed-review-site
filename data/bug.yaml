@@ -3032,8 +3032,8 @@
 - component: Other
   create_time: 20180204T09:23:00
   id: 1079230
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Latest Chromium (64.0) breaks gotomeeting chat and screen sharing, timezone
     undefined
 - component: Sound
@@ -17135,6 +17135,12 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: GNOME
+  create_time: 20190102T08:08:00
+  id: 1120456
+  resolution: ''
+  status: NEW
+  summary: Updating to libgtk-3-0-3.24.2-1.1 crashes gtk3 applications
 - component: Other
   create_time: 20190101T17:39:00
   id: 1120430
