@@ -10304,8 +10304,8 @@
 - component: LXDE
   create_time: 20180709T18:18:00
   id: 1100642
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: LXQt Pattern missing Window Manager - Results in IceWM only or unusable
 - component: Xen
   create_time: 20180709T17:54:00
@@ -12933,7 +12933,7 @@
   create_time: 20180925T04:57:00
   id: 1109540
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: branding-openSUSE differs between architectures
 - component: Other
   create_time: 20180925T04:53:00
@@ -13061,8 +13061,8 @@
 - component: Development
   create_time: 20180926T01:27:00
   id: 1109752
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Geany Spell Check plugin locked to Finish which isn't installed
 '20180928':
 - component: Other
@@ -17135,6 +17135,18 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Other
+  create_time: 20190101T17:39:00
+  id: 1120430
+  resolution: ''
+  status: NEW
+  summary: 0ad segfaults in libmozjs38.so
+- component: Other
+  create_time: 20190101T10:03:00
+  id: 1120427
+  resolution: ''
+  status: NEW
+  summary: Radiotray refuses to start with OSError
 - component: X.Org
   create_time: 20181231T17:05:00
   id: 1120416
