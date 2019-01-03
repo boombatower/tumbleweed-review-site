@@ -9253,9 +9253,9 @@
 - component: Basesystem
   create_time: 20180606T16:16:00
   id: 1096292
-  resolution: FIXED
-  status: RESOLVED
-  summary: Please update libwacom2 from 0.23 to current 0.30
+  resolution: ''
+  status: REOPENED
+  summary: libwacom does not support some hardware, including Huion 610 Pro tablet
 - component: AppArmor
   create_time: 20180606T14:27:00
   id: 1096269
@@ -16878,7 +16878,7 @@
   create_time: 20181215T14:06:00
   id: 1119636
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Backintime-qt4 does not start with ModuleNotFoundError: No module named
     ''PyQt4.sip'''
 - component: Basesystem
@@ -17135,6 +17135,12 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: YaST2
+  create_time: 20190103T18:56:00
+  id: 1120693
+  resolution: ''
+  status: NEW
+  summary: yast2 modules do not open
 - component: Basesystem
   create_time: 20190103T14:41:00
   id: 1120650
