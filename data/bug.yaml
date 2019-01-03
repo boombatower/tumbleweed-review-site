@@ -17135,6 +17135,12 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: YaST2
+  create_time: 20190103T08:15:00
+  id: 1120576
+  resolution: ''
+  status: NEW
+  summary: '[Build 20181231] openQA test fails in yast2_apparmor'
 - component: Development
   create_time: 20190102T20:21:00
   id: 1120538
