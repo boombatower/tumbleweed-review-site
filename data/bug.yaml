@@ -13205,7 +13205,7 @@
   create_time: 20181003T23:05:00
   id: 1110668
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: python3-avahi is not python3 compatible
 - component: Basesystem
   create_time: 20181003T12:10:00
