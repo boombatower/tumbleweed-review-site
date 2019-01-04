@@ -14664,7 +14664,7 @@
   create_time: 20181102T01:40:00
   id: 1114388
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: yast get error while update time with ntp server like pool.ntp.org
 - component: Security
   create_time: 20181101T22:02:00
@@ -17141,12 +17141,6 @@
   resolution: ''
   status: NEW
   summary: yast2 modules do not open
-- component: Basesystem
-  create_time: 20190103T14:41:00
-  id: 1120650
-  resolution: ''
-  status: NEW
-  summary: VirtualBox 6.0.0 and later require changes to permissions
 - component: Basesystem
   create_time: 20190103T11:12:00
   id: 1120608
