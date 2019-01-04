@@ -6658,8 +6658,8 @@
 - component: Maintenance
   create_time: 20180405T14:30:00
   id: 1088310
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: python3-botocore-1.9.6 possibly breaking aws-cli
 - component: Basesystem
   create_time: 20180405T13:46:00
@@ -17142,6 +17142,12 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Installation
+  create_time: 20190104T15:48:00
+  id: 1120804
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed installation failed becauseof grub2-arm-efi not selected
 - component: YaST2
   create_time: 20190104T15:11:00
   id: 1120793
