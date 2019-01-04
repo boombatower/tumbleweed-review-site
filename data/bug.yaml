@@ -12324,8 +12324,8 @@
 - component: Basesystem
   create_time: 20180906T13:05:00
   id: 1107472
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Wrong RPM_OPT_FLAGS check in post-build-checks
 - component: YaST2
   create_time: 20180906T05:28:00
@@ -13468,8 +13468,8 @@
 - component: Other
   create_time: 20181014T17:05:00
   id: 1111767
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'Atom editor dependency not found: libcurl.so.4(CURL_OPENSSL_3)(64bit)'
 - component: KDE Workspace (Plasma)
   create_time: 20181014T07:28:00
@@ -14193,8 +14193,8 @@
 - component: Network
   create_time: 20181025T13:12:00
   id: 1113300
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: blueman requires root authetication on bootup
 - component: YaST2
   create_time: 20181025T12:32:00
@@ -14676,8 +14676,8 @@
 - component: Basesystem
   create_time: 20181101T12:03:00
   id: 1114287
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: package build fails
 - component: Network
   create_time: 20181101T07:36:00
@@ -14858,8 +14858,8 @@
 - component: Basesystem
   create_time: 20181104T15:01:00
   id: 1114589
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Add earlyoom package to the system
 - component: GNOME
   create_time: 20181104T06:39:00
@@ -15602,8 +15602,8 @@
 - component: Other
   create_time: 20181114T16:25:00
   id: 1116048
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Please convert SysV init scripts by ushare into native systemd services
 - component: Network
   create_time: 20181114T15:41:00
@@ -16087,8 +16087,8 @@
 - component: YaST2
   create_time: 20181119T13:23:00
   id: 1116568
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2 hostnames can freeze OS
 - component: Kernel
   create_time: 20181119T12:48:00
@@ -17091,6 +17091,13 @@
   resolution: ''
   status: NEW
   summary: KDE Plasma screen tearing in X11 with Intel GPU
+- component: Other
+  create_time: 20181221T08:00:00
+  id: 1120170
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[tmux] split-window/new-window behaviour changed when PWD differs from
+    caller current directory'
 - component: Kernel
   create_time: 20181221T07:07:00
   id: 1120162
@@ -17136,11 +17143,53 @@
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
 - component: YaST2
+  create_time: 20190104T15:11:00
+  id: 1120793
+  resolution: ''
+  status: NEW
+  summary: aarch64 bootloader YaST has wrong layout on start-up
+- component: Basesystem
+  create_time: 20190104T14:04:00
+  id: 1120789
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: ltrace build fails'
+- component: Basesystem
+  create_time: 20190104T13:12:00
+  id: 1120781
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: icu tests fails'
+- component: Other
+  create_time: 20190104T10:38:00
+  id: 1120759
+  resolution: ''
+  status: NEW
+  summary: perl SIGSEGV with Term::ReadLine call readline()
+- component: Basesystem
+  create_time: 20190104T10:07:00
+  id: 1120754
+  resolution: ''
+  status: NEW
+  summary: '[META] GCC 9 package failures'
+- component: Basesystem
+  create_time: 20190104T09:38:00
+  id: 1120747
+  resolution: ''
+  status: NEW
+  summary: Unknown symbols listed when loading snd_hda_core
+- component: YaST2
   create_time: 20190103T18:56:00
   id: 1120693
   resolution: ''
   status: NEW
   summary: yast2 modules do not open
+- component: Kernel
+  create_time: 20190103T15:30:00
+  id: 1120664
+  resolution: ''
+  status: NEW
+  summary: btrfs seed device stats ioctl fails
 - component: Basesystem
   create_time: 20190103T11:12:00
   id: 1120608
