@@ -17142,6 +17142,12 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: X.Org
+  create_time: 20190105T03:04:00
+  id: 1120836
+  resolution: ''
+  status: NEW
+  summary: X session started with startx logs user out on X session exit
 - component: Installation
   create_time: 20190104T15:48:00
   id: 1120804
@@ -17362,8 +17368,8 @@
 - component: Basesystem
   create_time: 20181225T16:47:00
   id: 1120298
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Serial console input not working as expected, no new login prompt - agetty?
 - component: Network
   create_time: 20181225T09:37:00
