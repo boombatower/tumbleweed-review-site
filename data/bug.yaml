@@ -17089,7 +17089,7 @@
   create_time: 20181221T08:16:00
   id: 1120172
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: KDE Plasma screen tearing in X11 with Intel GPU
 - component: Other
   create_time: 20181221T08:00:00
@@ -17142,11 +17142,35 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: KDE Applications
+  create_time: 20190105T14:02:00
+  id: 1120845
+  resolution: ''
+  status: NEW
+  summary: kate does not remember the cursor position of last view or edit
+- component: KDE Workspace (Plasma)
+  create_time: 20190105T13:12:00
+  id: 1120844
+  resolution: ''
+  status: NEW
+  summary: Multiple concurrent sessions misbehaves
+- component: Other
+  create_time: 20190105T11:36:00
+  id: 1120842
+  resolution: ''
+  status: NEW
+  summary: youtube-dl missing ssl
+- component: YaST2
+  create_time: 20190105T10:51:00
+  id: 1120840
+  resolution: ''
+  status: NEW
+  summary: YaST2 firewalld module issue
 - component: X.Org
   create_time: 20190105T03:04:00
   id: 1120836
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: X session started with startx logs user out on X session exit
 - component: Installation
   create_time: 20190104T15:48:00
@@ -17279,7 +17303,7 @@
   create_time: 20181230T22:27:00
   id: 1120405
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Serial Wacom tablet and touchscreen (X201t) not detected in Tumbleweed/15.0
 - component: Other
   create_time: 20181230T20:33:00
