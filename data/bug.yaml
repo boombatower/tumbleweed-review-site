@@ -11399,8 +11399,8 @@
 - component: Other
   create_time: 20180810T18:39:00
   id: 1104541
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'sxiv: Error opening image'
 - component: Kernel
   create_time: 20180810T16:33:00
@@ -16995,8 +16995,8 @@
 - component: Other
   create_time: 20181218T07:10:00
   id: 1119782
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: backintime dbus exception
 '20181219':
 - component: libzypp
@@ -17274,7 +17274,7 @@
   id: 1120407
   resolution: ''
   status: NEW
-  summary: Epson XP-340 Series Driver Required
+  summary: Epson XP-340 Series Scanner Driver Required
 - component: X.Org
   create_time: 20181230T22:27:00
   id: 1120405
