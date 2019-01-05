@@ -11399,8 +11399,8 @@
 - component: Other
   create_time: 20180810T18:39:00
   id: 1104541
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'sxiv: Error opening image'
 - component: Kernel
   create_time: 20180810T16:33:00
@@ -17142,11 +17142,23 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Kernel
+  create_time: 20190105T20:09:00
+  id: 1120851
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Kernel 4.19 did not boot and gives a black screen
+- component: GNOME
+  create_time: 20190105T16:41:00
+  id: 1120847
+  resolution: ''
+  status: NEW
+  summary: Gnome "Automatic Login" doesn't work with Wayland and Nvidia drivers
 - component: KDE Applications
   create_time: 20190105T14:02:00
   id: 1120845
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: kate does not remember the cursor position of last view or edit
 - component: KDE Workspace (Plasma)
   create_time: 20190105T13:12:00
