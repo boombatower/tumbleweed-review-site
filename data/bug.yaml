@@ -17142,6 +17142,30 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Bootloader
+  create_time: 20190106T21:02:00
+  id: 1120869
+  resolution: ''
+  status: NEW
+  summary: Pine64 JeOS image no longer boots
+- component: Basesystem
+  create_time: 20190106T18:57:00
+  id: 1120868
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: bison build fails'
+- component: Basesystem
+  create_time: 20190106T17:20:00
+  id: 1120865
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: libffi build fails'
+- component: Basesystem
+  create_time: 20190106T16:07:00
+  id: 1120864
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: elfutils build fails on i586'
 - component: Basesystem
   create_time: 20190106T15:35:00
   id: 1120863
