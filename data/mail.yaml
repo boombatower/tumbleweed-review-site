@@ -1367,11 +1367,11 @@
   threads: []
 '20181204':
   announcement: 2018-12.43
-  reference_count: 2
+  reference_count: 5
   thread_count: 1
   threads:
   - messages: [2019-01.26]
-    reference_count: 2
+    reference_count: 5
     summary: no summary given
 '20181205':
   announcement: 2018-12.57
