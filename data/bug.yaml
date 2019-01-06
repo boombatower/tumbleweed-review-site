@@ -17178,7 +17178,7 @@
   resolution: ''
   status: NEW
   summary: YaST2 firewalld module issue
-- component: X.Org
+- component: Basesystem
   create_time: 20190105T03:04:00
   id: 1120836
   resolution: ''
