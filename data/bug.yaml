@@ -14858,8 +14858,8 @@
 - component: Basesystem
   create_time: 20181104T15:01:00
   id: 1114589
-  resolution: INVALID
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Add earlyoom package to the system
 - component: GNOME
   create_time: 20181104T06:39:00
@@ -17142,6 +17142,18 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Basesystem
+  create_time: 20190106T15:35:00
+  id: 1120863
+  resolution: ''
+  status: NEW
+  summary: installation hangs - "bad RIP value"
+- component: Basesystem
+  create_time: 20190106T15:34:00
+  id: 1120862
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: efivar build fails'
 - component: Kernel
   create_time: 20190105T20:09:00
   id: 1120851
