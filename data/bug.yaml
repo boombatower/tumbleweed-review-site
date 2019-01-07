@@ -7401,8 +7401,8 @@
 - component: YaST2
   create_time: 20180423T18:05:00
   id: 1090592
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180422] openQA test fails in yast2_apparmor - "yast/wfm.rb:253
     Client /usr/share/YaST2/clients/aa-settings.rb failed with ''undefined method
     `toggle'' for nil:NilClass'' (NoMethodError)."'
@@ -16135,8 +16135,8 @@
 - component: Other
   create_time: 20181118T19:37:00
   id: 1116458
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[HPC, macros] Handle Dependencies properly when providers are available
     both in the default and HPC Module Path'
 - component: YaST2
@@ -17142,6 +17142,44 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: AutoYaST
+  create_time: 20190107T21:48:00
+  id: 1120982
+  resolution: ''
+  status: NEW
+  summary: Extend AutoYast <partition> with create-if-not-exists possibility
+- component: AutoYaST
+  create_time: 20190107T21:13:00
+  id: 1120979
+  resolution: ''
+  status: NEW
+  summary: 'Retaining existing Software RAID via AutoYast is broken: "can''t find
+    reusable device"'
+- component: Other
+  create_time: 20190107T18:37:00
+  id: 1120969
+  resolution: ''
+  status: NEW
+  summary: Usbguard service doesn't autostart
+- component: Installation
+  create_time: 20190107T17:00:00
+  id: 1120962
+  resolution: ''
+  status: NEW
+  summary: 'linuxrc error yast2-trans-en_US.rpm: Digest verification failed'
+- component: AutoYaST
+  create_time: 20190107T16:44:00
+  id: 1120960
+  resolution: ''
+  status: NEW
+  summary: Undefined method "key?" thrown for any unknown XML tag with string content
+    in <partitions> block
+- component: Installation
+  create_time: 20190107T16:18:00
+  id: 1120957
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190103] keyboard language cannot be changed in textmode'
 - component: Development
   create_time: 20190107T14:58:00
   id: 1120947
