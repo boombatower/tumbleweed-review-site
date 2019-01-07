@@ -17142,6 +17142,24 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Basesystem
+  create_time: 20190107T08:37:00
+  id: 1120894
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: libidn build fails'
+- component: Sound
+  create_time: 20190107T08:33:00
+  id: 1120893
+  resolution: ''
+  status: NEW
+  summary: Upgrading TW broke alsa config
+- component: Other
+  create_time: 20190107T04:48:00
+  id: 1120873
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Vapoursynth is outdated
 - component: Bootloader
   create_time: 20190106T21:02:00
   id: 1120869
@@ -17309,7 +17327,7 @@
   create_time: 20190102T09:22:00
   id: 1120463
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Zypper dup does not allow changing the vendor of installed resolvables
 - component: GNOME
   create_time: 20190102T08:08:00
@@ -17404,8 +17422,8 @@
 - component: Other
   create_time: 20181228T03:58:00
   id: 1120364
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/systemd is out of date'
 - component: Development
   create_time: 20181227T22:15:00
