@@ -14915,8 +14915,8 @@
   id: 1114853
   resolution: ''
   status: CONFIRMED
-  summary: 'VUL-1: yast2-printer: SMB printer settings test fails if the password
-    includes a backtick'
+  summary: 'VUL-1: CVE-2018-20106: yast2-printer: SMB printer settings test fails
+    if the password includes a backtick'
 - component: Kernel
   create_time: 20181106T12:15:00
   id: 1114846
@@ -15805,7 +15805,7 @@
   create_time: 20181114T13:53:00
   id: 1115994
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build1491.5][Staging][sidebar] Expert partitioner requires more horizontal
     scrolling with sidebar'
 - component: Installation
@@ -16820,8 +16820,8 @@
 - component: Kubic
   create_time: 20181212T16:00:00
   id: 1119287
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Document system requirements
 - component: Containers
   create_time: 20181212T13:36:00
@@ -17142,6 +17142,37 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Development
+  create_time: 20190107T14:58:00
+  id: 1120947
+  resolution: ''
+  status: NEW
+  summary: 'build-compare: erlang contains timestamps'
+- component: Development
+  create_time: 20190107T13:58:00
+  id: 1120942
+  resolution: ''
+  status: NEW
+  summary: semi-xemacs custom-load.el varies between builds
+- component: Salt
+  create_time: 20190107T13:50:00
+  id: 1120941
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190103] openQA test fails in salt: Ping does not work on 32-bit
+    rescue cd'
+- component: Installation
+  create_time: 20190107T13:44:00
+  id: 1120938
+  resolution: ''
+  status: NEW
+  summary: Wrong repos added in installer
+- component: Xfce
+  create_time: 20190107T10:48:00
+  id: 1120913
+  resolution: ''
+  status: CONFIRMED
+  summary: xfce4-panel pulls in webkit
 - component: Basesystem
   create_time: 20190107T08:37:00
   id: 1120894
@@ -17151,8 +17182,8 @@
 - component: Sound
   create_time: 20190107T08:33:00
   id: 1120893
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Upgrading TW broke alsa config
 - component: Other
   create_time: 20190107T04:48:00
@@ -17241,15 +17272,15 @@
 - component: Installation
   create_time: 20190104T15:48:00
   id: 1120804
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Tumbleweed installation failed becauseof grub2-arm-efi not selected
 - component: YaST2
   create_time: 20190104T15:11:00
   id: 1120793
   resolution: ''
   status: NEW
-  summary: aarch64 bootloader YaST has wrong layout on start-up
+  summary: aarch64 bootloader YaST has wrong UI layout on start-up
 - component: Basesystem
   create_time: 20190104T14:04:00
   id: 1120789
