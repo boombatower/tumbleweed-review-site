@@ -1435,8 +1435,8 @@
     summary: released! - I like this snapshot
 '20181224':
   announcement: 2018-12.160
-  reference_count: 7
-  thread_count: 2
+  reference_count: 10
+  thread_count: 3
   threads:
   - messages: [2018-12.164]
     reference_count: 1
@@ -1444,3 +1444,6 @@
   - messages: [2018-12.173]
     reference_count: 6
     summary: plain hardware installation fails network
+  - messages: [2019-01.39]
+    reference_count: 3
+    summary: failed to summarize
