@@ -17142,6 +17142,12 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Installation
+  create_time: 20190108T09:38:00
+  id: 1121046
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190105] installer has no valid DNS resolution'
 - component: KVM
   create_time: 20190108T03:24:00
   id: 1121007
@@ -17239,8 +17245,8 @@
 - component: Bootloader
   create_time: 20190106T21:02:00
   id: 1120869
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: VERIFIED
   summary: Pine64 JeOS image no longer boots
 - component: Basesystem
   create_time: 20190106T18:57:00
