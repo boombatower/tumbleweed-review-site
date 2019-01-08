@@ -17142,6 +17142,13 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: KVM
+  create_time: 20190108T03:24:00
+  id: 1121007
+  resolution: ''
+  status: NEW
+  summary: Single GPU passthrough fails if using the Virtio SCSI controller and/or
+    copying the CPU configuration
 - component: AutoYaST
   create_time: 20190107T21:48:00
   id: 1120982
