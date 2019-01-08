@@ -13737,8 +13737,8 @@
 - component: Basesystem
   create_time: 20181016T16:24:00
   id: 1112047
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: sssd crashes on startup
 - component: YaST2
   create_time: 20181016T15:42:00
@@ -13977,8 +13977,8 @@
 - component: Other
   create_time: 20181019T00:39:00
   id: 1112506
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/traceroute'
 - component: Other
   create_time: 20181019T00:36:00
@@ -14964,8 +14964,8 @@
 - component: YaST2
   create_time: 20181105T11:49:00
   id: 1114673
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'New UI for firewalld: interface not assigned to the right zone when changed
     to public in first run'
 - component: YaST2
@@ -16783,8 +16783,8 @@
 - component: Kubic
   create_time: 20181211T15:48:00
   id: 1119153
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Podman networking broken in MicroOS System Role
 - component: Development
   create_time: 20181211T10:18:00
@@ -16977,7 +16977,7 @@
   create_time: 20181218T16:33:00
   id: 1119863
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: kiwi aborts with traceback when setting btrfs qgroups
 - component: YaST2
   create_time: 20181218T16:07:00
@@ -17142,6 +17142,55 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Salt
+  create_time: 20190108T15:35:00
+  id: 1121091
+  resolution: ''
+  status: NEW
+  summary: 'salt-call prints numerous error messages: AttributeError: module ''azure.storage''
+    has no attribute ''__version__'''
+- component: Xfce
+  create_time: 20190108T13:06:00
+  id: 1121076
+  resolution: ''
+  status: NEW
+  summary: midori 7.0.git20181130-1.1 segfaults
+- component: Development
+  create_time: 20190108T11:50:00
+  id: 1121067
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: perl crashes with buffer overflow when running git send-email
+- component: Basesystem
+  create_time: 20190108T11:43:00
+  id: 1121066
+  resolution: ''
+  status: NEW
+  summary: 'multipath-tools: compilation for SLE12-SP3 and older fails'
+- component: Basesystem
+  create_time: 20190108T11:14:00
+  id: 1121063
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: libzip build fails'
+- component: Basesystem
+  create_time: 20190108T11:01:00
+  id: 1121060
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'GCC 9: spirv-tools build fails'
+- component: Development
+  create_time: 20190108T10:24:00
+  id: 1121052
+  resolution: ''
+  status: NEW
+  summary: ghc should not use fixed subpackage versions
+- component: Other
+  create_time: 20190108T10:05:00
+  id: 1121051
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: gpgme fails since early 2019'
 - component: Installation
   create_time: 20190108T09:38:00
   id: 1121046
@@ -17228,7 +17277,7 @@
   create_time: 20190107T08:37:00
   id: 1120894
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9: libidn build fails'
 - component: Sound
   create_time: 20190107T08:33:00
@@ -17365,9 +17414,9 @@
 - component: YaST2
   create_time: 20190103T18:56:00
   id: 1120693
-  resolution: ''
-  status: NEW
-  summary: yast2 modules do not open
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'yast2 modules do not open: libyui-ncurses-pkg missing'
 - component: Kernel
   create_time: 20190103T15:30:00
   id: 1120664
@@ -17408,8 +17457,8 @@
 - component: libzypp
   create_time: 20190102T09:22:00
   id: 1120463
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Zypper dup does not allow changing the vendor of installed resolvables
 - component: GNOME
   create_time: 20190102T08:08:00
@@ -17450,8 +17499,8 @@
 - component: X.Org
   create_time: 20181230T22:27:00
   id: 1120405
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Serial Wacom tablet and touchscreen (X201t) not detected in Tumbleweed/15.0
 - component: Other
   create_time: 20181230T20:33:00
@@ -17474,8 +17523,8 @@
 - component: Development
   create_time: 20181228T15:13:00
   id: 1120384
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'running cpan: *** buffer overflow detected ***: /usr/bin/perl terminated'
 - component: Other
   create_time: 20181228T04:21:00
@@ -17486,8 +17535,8 @@
 - component: Other
   create_time: 20181228T04:18:00
   id: 1120367
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/grep is out of date'
 - component: Other
   create_time: 20181228T04:03:00
