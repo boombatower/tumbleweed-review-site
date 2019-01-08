@@ -15157,7 +15157,7 @@
   create_time: 20181109T14:46:00
   id: 1115442
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'hylafax+: migrate from cron to systemd timers'
 - component: Basesystem
   create_time: 20181109T14:44:00
@@ -16815,7 +16815,7 @@
   create_time: 20181212T16:07:00
   id: 1119288
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'MicroOS: 20GB disk too small'
 - component: Kubic
   create_time: 20181212T16:00:00
@@ -17142,6 +17142,12 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: YaST2
+  create_time: 20190108T17:16:00
+  id: 1121106
+  resolution: ''
+  status: NEW
+  summary: Yast python bindings do not provide translation function
 - component: Salt
   create_time: 20190108T15:35:00
   id: 1121091
@@ -17414,8 +17420,8 @@
 - component: YaST2
   create_time: 20190103T18:56:00
   id: 1120693
-  resolution: INVALID
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'yast2 modules do not open: libyui-ncurses-pkg missing'
 - component: Kernel
   create_time: 20190103T15:30:00
