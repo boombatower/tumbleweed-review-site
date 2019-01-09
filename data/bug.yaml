@@ -14386,8 +14386,8 @@
 - component: Other
   create_time: 20181024T06:24:00
   id: 1113027
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/iso-codes is out of date'
 - component: Other
   create_time: 20181024T06:07:00
@@ -16814,8 +16814,8 @@
 - component: Kubic
   create_time: 20181212T16:07:00
   id: 1119288
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'MicroOS: 20GB disk too small'
 - component: Kubic
   create_time: 20181212T16:00:00
@@ -17027,7 +17027,7 @@
   create_time: 20181223T00:30:00
   id: 1120263
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: zypper ps should mention "reboot needed
 - component: X11 Applications
   create_time: 20181222T20:56:00
@@ -17142,6 +17142,55 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Basesystem
+  create_time: 20190109T09:41:00
+  id: 1121214
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: libqt4 build fails'
+- component: Basesystem
+  create_time: 20190109T09:06:00
+  id: 1121208
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9:  grub2 build fails'
+- component: Basesystem
+  create_time: 20190109T08:38:00
+  id: 1121203
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9:  fwupdate build fails'
+- component: Basesystem
+  create_time: 20190109T08:20:00
+  id: 1121200
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: bctoolbox build failsbctoolbox'
+- component: Installation
+  create_time: 20190109T08:13:00
+  id: 1121198
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: problem during and after remote installation via ssh (at least)
+- component: Basesystem
+  create_time: 20190109T07:59:00
+  id: 1121196
+  resolution: ''
+  status: NEW
+  summary: 'console only login: after upgrade disabled root ssh password login (an
+    no key or other user exists)'
+- component: Installation
+  create_time: 20190109T06:58:00
+  id: 1121192
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: widget is broken when loading icon drive-harddisk-encrypted
+- component: Basesystem
+  create_time: 20190108T23:23:00
+  id: 1121134
+  resolution: ''
+  status: IN_PROGRESS
+  summary: multipathd crashes in "multipathd show path INVAL"
 - component: YaST2
   create_time: 20190108T17:16:00
   id: 1121106
@@ -17176,8 +17225,8 @@
 - component: Basesystem
   create_time: 20190108T11:14:00
   id: 1121063
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: libzip build fails'
 - component: Basesystem
   create_time: 20190108T11:01:00
@@ -17194,8 +17243,8 @@
 - component: Other
   create_time: 20190108T10:05:00
   id: 1121051
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: gpgme fails since early 2019'
 - component: Installation
   create_time: 20190108T09:38:00
