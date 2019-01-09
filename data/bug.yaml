@@ -16951,14 +16951,14 @@
 - component: Basesystem
   create_time: 20181218T22:34:00
   id: 1119898
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'multipath-tools: ANA information missing for NVMe maps'
 - component: Basesystem
   create_time: 20181218T22:31:00
   id: 1119897
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'multipath-tools: path group prio displayed incorrectly'
 - component: Kernel
   create_time: 20181218T22:23:00
@@ -17002,8 +17002,8 @@
 - component: libzypp
   create_time: 20181223T19:41:00
   id: 1120270
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '"zypper search --repo" is broken'
 - component: Network
   create_time: 20181223T11:17:00
@@ -17142,6 +17142,116 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Installation
+  create_time: 20190109T16:00:00
+  id: 1121286
+  resolution: ''
+  status: NEW
+  summary: Errors calculating how much should Windows be resized
+- component: Basesystem
+  create_time: 20190109T15:33:00
+  id: 1121281
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9:  cppunit build fails'
+- component: Basesystem
+  create_time: 20190109T15:25:00
+  id: 1121279
+  resolution: ''
+  status: NEW
+  summary: x-systemd.requires-mounts-for does not pull in non-x-initrd.mount dependencies
+- component: Security
+  create_time: 20190109T15:09:00
+  id: 1121277
+  resolution: ''
+  status: NEW
+  summary: firewalld does not copy permanent zone/interface mappings to running config
+    on reload
+- component: Basesystem
+  create_time: 20190109T15:06:00
+  id: 1121276
+  resolution: ''
+  status: NEW
+  summary: x-initrd.mount in fstab does not work with overlayfs and x-systemd.requires-mounts-for
+- component: YaST2
+  create_time: 20190109T15:01:00
+  id: 1121274
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190105] internal error when trying to edit settings in yast apparrmor
+    module'
+- component: Basesystem
+  create_time: 20190109T14:29:00
+  id: 1121270
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: mozjs52 build fails'
+- component: Basesystem
+  create_time: 20190109T14:14:00
+  id: 1121268
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: shim build fails'
+- component: Basesystem
+  create_time: 20190109T14:10:00
+  id: 1121267
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: openucx build fails'
+- component: Basesystem
+  create_time: 20190109T13:54:00
+  id: 1121265
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: gperftools build fails'
+- component: Basesystem
+  create_time: 20190109T13:39:00
+  id: 1121262
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9:  libX11 build fails on i586'
+- component: Kubic
+  create_time: 20190109T13:08:00
+  id: 1121256
+  resolution: ''
+  status: NEW
+  summary: Kubic installs with invalid locale setup
+- component: Basesystem
+  create_time: 20190109T13:04:00
+  id: 1121254
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: systemd-mini build fails'
+- component: Basesystem
+  create_time: 20190109T12:56:00
+  id: 1121251
+  resolution: ''
+  status: NEW
+  summary: dracut's 01-dist.conf is missing a space in omit_drivers
+- component: Development
+  create_time: 20190109T12:49:00
+  id: 1121250
+  resolution: ''
+  status: IN_PROGRESS
+  summary: icecream-scheduler fails to start
+- component: Basesystem
+  create_time: 20190109T10:45:00
+  id: 1121229
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: intel-gpu-tools build fails'
+- component: Basesystem
+  create_time: 20190109T10:21:00
+  id: 1121223
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9:  gpg2 build fails'
+- component: Basesystem
+  create_time: 20190109T10:08:00
+  id: 1121219
+  resolution: ''
+  status: NEW
+  summary: branding-preset-states doesn't handle timers
 - component: Basesystem
   create_time: 20190109T09:41:00
   id: 1121214
@@ -17188,8 +17298,8 @@
 - component: Basesystem
   create_time: 20190108T23:23:00
   id: 1121134
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: multipathd crashes in "multipathd show path INVAL"
 - component: YaST2
   create_time: 20190108T17:16:00
@@ -17219,8 +17329,8 @@
 - component: Basesystem
   create_time: 20190108T11:43:00
   id: 1121066
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'multipath-tools: compilation for SLE12-SP3 and older fails'
 - component: Basesystem
   create_time: 20190108T11:14:00
@@ -17295,7 +17405,7 @@
   create_time: 20190107T16:18:00
   id: 1120957
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20190103] keyboard language cannot be changed in textmode'
 - component: Development
   create_time: 20190107T14:58:00
@@ -17343,8 +17453,8 @@
 - component: Other
   create_time: 20190107T04:48:00
   id: 1120873
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Vapoursynth is outdated
 - component: Bootloader
   create_time: 20190106T21:02:00
