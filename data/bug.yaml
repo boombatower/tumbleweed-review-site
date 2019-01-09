@@ -16679,7 +16679,7 @@
   create_time: 20181210T11:51:00
   id: 1118953
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: suse-module-tools depends on perl
 - component: Virtualization:Other
   create_time: 20181210T11:43:00
@@ -16690,8 +16690,8 @@
 - component: Basesystem
   create_time: 20181210T10:38:00
   id: 1118937
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'multipath-tools: logs with -v3 are too verbose'
 - component: Network
   create_time: 20181209T22:39:00
@@ -17304,8 +17304,8 @@
 - component: YaST2
   create_time: 20190108T17:16:00
   id: 1121106
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Yast python bindings do not provide translation function
 - component: Salt
   create_time: 20190108T15:35:00
@@ -17532,7 +17532,7 @@
   create_time: 20190105T03:04:00
   id: 1120836
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: X session started with startx logs user out on X session exit
 - component: Installation
   create_time: 20190104T15:48:00
