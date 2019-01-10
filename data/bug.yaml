@@ -7864,8 +7864,8 @@
 - component: Development
   create_time: 20180509T07:29:00
   id: 1092486
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Haskell is not available at Factory for ARMv7
 - component: Kernel
   create_time: 20180509T05:13:00
@@ -11501,8 +11501,8 @@
 - component: Bootloader
   create_time: 20180814T18:42:00
   id: 1104850
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Wrong prefix in GRUB at aarch64
 - component: Kernel
   create_time: 20180814T16:49:00
@@ -17142,6 +17142,91 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: YaST2
+  create_time: 20190110T10:07:00
+  id: 1121425
+  resolution: ''
+  status: NEW
+  summary: Many YaST modules crash when they're opened on TW Snapshot 20190108
+- component: YaST2
+  create_time: 20190110T09:59:00
+  id: 1121421
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190108] openQA test fails in installation'
+- component: Development
+  create_time: 20190110T09:20:00
+  id: 1121409
+  resolution: ''
+  status: NEW
+  summary: Buffer overflow in Perl 5.28.1 with git send-email
+- component: Basesystem
+  create_time: 20190110T09:19:00
+  id: 1121408
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'GCC 9: vim build fails'
+- component: Basesystem
+  create_time: 20190110T09:17:00
+  id: 1121407
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: gpgme build fails'
+- component: YaST2
+  create_time: 20190110T09:17:00
+  id: 1121405
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190108] openQA test fails in yast2_samba bad chars in ncurse
+    screen'
+- component: Basesystem
+  create_time: 20190110T09:16:00
+  id: 1121404
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: bluez build fails'
+- component: Basesystem
+  create_time: 20190110T09:14:00
+  id: 1121402
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: libstorage-ng build fails'
+- component: Basesystem
+  create_time: 20190110T08:46:00
+  id: 1121397
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: go1.* build fails'
+- component: Basesystem
+  create_time: 20190110T08:42:00
+  id: 1121395
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: ceph build fails'
+- component: Basesystem
+  create_time: 20190110T08:38:00
+  id: 1121394
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: MozillaFirefox build fails'
+- component: Upgrade Problems
+  create_time: 20190110T08:34:00
+  id: 1121393
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build 20190108] openQA test fails in yast2_i'
+- component: Basesystem
+  create_time: 20190110T08:32:00
+  id: 1121391
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: xen build fails'
+- component: Basesystem
+  create_time: 20190110T08:07:00
+  id: 1121387
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9:  casync build fails'
 - component: Installation
   create_time: 20190109T16:00:00
   id: 1121286
@@ -17173,7 +17258,7 @@
   resolution: ''
   status: NEW
   summary: x-initrd.mount in fstab does not work with overlayfs and x-systemd.requires-mounts-for
-- component: YaST2
+- component: AppArmor
   create_time: 20190109T15:01:00
   id: 1121274
   resolution: ''
@@ -17256,7 +17341,7 @@
   create_time: 20190109T09:41:00
   id: 1121214
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9: libqt4 build fails'
 - component: Basesystem
   create_time: 20190109T09:06:00
