@@ -15986,8 +15986,8 @@
 - component: Kernel
   create_time: 20181117T06:14:00
   id: 1116426
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Dell Latitude E6220 DRM shutdown errors - "flip_done timed out" (in drm_kms_helper)
 - component: Kernel
   create_time: 20181117T02:31:00
@@ -16223,8 +16223,8 @@
 - component: Kernel
   create_time: 20181125T04:53:00
   id: 1117224
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'ACPI Warning: SystemIO range 0x0000000000000428-0x000000000000042F conflicts
     with OpRegion 0x0000000000000400-0x000000000000047F (\PMIO) (20180810/utaddress-213)'
 - component: Basesystem
@@ -16678,8 +16678,8 @@
 - component: Basesystem
   create_time: 20181210T11:51:00
   id: 1118953
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: INVALID
+  status: RESOLVED
   summary: suse-module-tools depends on perl
 - component: Virtualization:Other
   create_time: 20181210T11:43:00
@@ -17142,6 +17142,12 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: Installation
+  create_time: 20190110T19:44:00
+  id: 1121502
+  resolution: ''
+  status: NEW
+  summary: 'broken dependency: byobu / python3-newt'
 - component: X11 3rd Party Driver
   create_time: 20190110T14:34:00
   id: 1121467
@@ -17220,7 +17226,7 @@
   create_time: 20190110T09:16:00
   id: 1121404
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9: bluez build fails'
 - component: Basesystem
   create_time: 20190110T09:14:00
@@ -17647,8 +17653,8 @@
 - component: YaST2
   create_time: 20190105T10:51:00
   id: 1120840
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: YaST2 firewalld module security question
 - component: Basesystem
   create_time: 20190105T03:04:00
@@ -17717,7 +17723,7 @@
   status: NEW
   summary: Mounting external USB disk with udisks2 causes internal disk to spin-up
     from standby
-- component: YaST2
+- component: AppArmor
   create_time: 20190103T08:15:00
   id: 1120576
   resolution: ''
