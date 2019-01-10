@@ -11531,8 +11531,8 @@
 - component: Kernel
   create_time: 20180814T11:13:00
   id: 1104792
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: magic-sysrq output does not show up on current selected console tty but
     only in dmesg
 - component: Virtualization:Tools
@@ -16236,8 +16236,8 @@
 - component: Basesystem
   create_time: 20181124T20:17:00
   id: 1117217
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: rpcbind fails to start (tumbleweed snapshot 20181120)
 - component: Other
   create_time: 20181124T19:03:00
@@ -17142,11 +17142,48 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
+- component: X11 3rd Party Driver
+  create_time: 20190110T14:34:00
+  id: 1121467
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Incorrect packaging of dkms.conf in nvidia-gfx
+- component: Basesystem
+  create_time: 20190110T14:24:00
+  id: 1121465
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: ffmpeg-[34] build fails'
+- component: Basesystem
+  create_time: 20190110T14:22:00
+  id: 1121464
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: qemu build fails'
+- component: Basesystem
+  create_time: 20190110T14:21:00
+  id: 1121463
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: virtualbox build fails'
+- component: GNOME
+  create_time: 20190110T13:37:00
+  id: 1121456
+  resolution: ''
+  status: NEW
+  summary: libgtk-3.so does not export gtk_cell_accessible_parent_get_row_header_cells
+    function but Gtk-3.0.gir has it listed
+- component: Other
+  create_time: 20190110T13:32:00
+  id: 1121455
+  resolution: ''
+  status: NEW
+  summary: 'policycoreutils-2.8: missing seobject and python2'
 - component: YaST2
   create_time: 20190110T10:07:00
   id: 1121425
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Many YaST modules crash when they're opened on TW Snapshot 20190108
 - component: YaST2
   create_time: 20190110T09:59:00
@@ -17169,15 +17206,15 @@
 - component: Basesystem
   create_time: 20190110T09:17:00
   id: 1121407
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'GCC 9: gpgme build fails'
 - component: YaST2
   create_time: 20190110T09:17:00
   id: 1121405
   resolution: ''
   status: NEW
-  summary: '[Build 20190108] openQA test fails in yast2_samba bad chars in ncurse
+  summary: '[Build 20190108] openQA test fails in yast2_samba bad chars (^@) in ncurses
     screen'
 - component: Basesystem
   create_time: 20190110T09:16:00
@@ -17249,7 +17286,7 @@
   create_time: 20190109T15:09:00
   id: 1121277
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: firewalld does not copy permanent zone/interface mappings to running config
     on reload
 - component: Basesystem
@@ -17612,12 +17649,12 @@
   id: 1120840
   resolution: ''
   status: NEW
-  summary: YaST2 firewalld module issue
+  summary: YaST2 firewalld module security question
 - component: Basesystem
   create_time: 20190105T03:04:00
   id: 1120836
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: X session started with startx logs user out on X session exit
 - component: Installation
   create_time: 20190104T15:48:00
@@ -17664,8 +17701,8 @@
 - component: YaST2
   create_time: 20190103T18:56:00
   id: 1120693
-  resolution: ''
-  status: REOPENED
+  resolution: INVALID
+  status: RESOLVED
   summary: 'yast2 modules do not open: libyui-ncurses-pkg missing'
 - component: Kernel
   create_time: 20190103T15:30:00
@@ -17740,7 +17777,7 @@
   resolution: ''
   status: NEW
   summary: Broken LVM2 support in installation
-- component: Printing
+- component: Other
   create_time: 20181231T01:50:00
   id: 1120407
   resolution: ''
