@@ -1557,8 +1557,8 @@
 - component: Basesystem
   create_time: 20180109T20:38:00
   id: 1075255
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'multipath: problem if path WWID contains double quote'
 - component: X.Org
   create_time: 20180109T20:03:00
@@ -2657,8 +2657,8 @@
 - component: Basesystem
   create_time: 20180130T19:35:00
   id: 1078360
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: multipathd should ignore uevents from non-mpath dm devices
 - component: Other
   create_time: 20180130T17:48:00
@@ -9718,8 +9718,8 @@
 - component: Basesystem
   create_time: 20180625T20:01:00
   id: 1099054
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: multipath-tools 0.7.7 shouldn't change SUSE path detection default
 - component: Other
   create_time: 20180625T19:13:00
@@ -9730,8 +9730,8 @@
 - component: Basesystem
   create_time: 20180625T15:51:00
   id: 1099028
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: multipathd 0.7.7 crashes on path deletion and re-addition
 - component: Basesystem
   create_time: 20180625T15:40:00
@@ -13210,14 +13210,14 @@
 - component: Basesystem
   create_time: 20181003T12:10:00
   id: 1110587
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'multipath-tools: fix dmevents polling on tumbleweed with kernel 4.16'
 - component: Basesystem
   create_time: 20181003T11:57:00
   id: 1110586
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'multipath-tools: suppress some irritating log messages'
 - component: Kernel
   create_time: 20181003T10:53:00
@@ -15461,8 +15461,8 @@
 - component: Basesystem
   create_time: 20181115T23:30:00
   id: 1116272
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'multipath 0.7.9: map falsely removed after devmap event'
 - component: Kernel
   create_time: 20181115T18:41:00
