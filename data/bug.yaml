@@ -17549,6 +17549,67 @@
   status: RESOLVED
   summary: Firefox does not remember exceptions of content blocking
 '20190108':
+- component: X.Org
+  create_time: 20190111T15:21:00
+  id: 1121632
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Black screen on TW installer and later TW itself with AMD R5
+- component: Basesystem
+  create_time: 20190111T13:25:00
+  id: 1121611
+  resolution: ''
+  status: NEW
+  summary: Repositories added from .repo file are not set to auto-refresh but `zypper
+    ar --help` and the man page tells otherwise
+- component: OpenStack
+  create_time: 20190111T13:24:00
+  id: 1121610
+  resolution: ''
+  status: NEW
+  summary: '[BuildCycle] python-cliff, python-stestr, python-stevedore'
+- component: OpenStack
+  create_time: 20190111T13:20:00
+  id: 1121609
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[BuildCycle] python-oslo.config <-> python-oslo.log'
+- component: OpenStack
+  create_time: 20190111T13:18:00
+  id: 1121608
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[BuildCycle] python-os-service-types <-> python-keystoneauth1'
+- component: Virtualization:Other
+  create_time: 20190111T12:47:00
+  id: 1121604
+  resolution: ''
+  status: NEW
+  summary: QEMU 3.1 - "kvm_init_vcpu failed" if nested virtualisation enabled
+- component: Basesystem
+  create_time: 20190111T11:29:00
+  id: 1121592
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: python-Pygments build fails'
+- component: Basesystem
+  create_time: 20190111T11:25:00
+  id: 1121591
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: llvm[67] build fails'
+- component: Basesystem
+  create_time: 20190111T11:24:00
+  id: 1121589
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: libreoffice build fails'
+- component: Basesystem
+  create_time: 20190111T11:21:00
+  id: 1121588
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: gdb build fails'
 - component: Basesystem
   create_time: 20190111T09:12:00
   id: 1121563
@@ -17577,7 +17638,7 @@
   create_time: 20190111T03:17:00
   id: 1121525
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: xorg-x11-driver-input should not recommend xf86-input-{mouse,keyboard,joystick,vmmouse}
 - component: GNOME
   create_time: 20190110T23:17:00
@@ -17585,7 +17646,7 @@
   resolution: ''
   status: NEW
   summary: Polari wont start
-- component: Installation
+- component: Basesystem
   create_time: 20190110T19:44:00
   id: 1121502
   resolution: ''
@@ -17607,7 +17668,7 @@
   create_time: 20190110T14:22:00
   id: 1121464
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'GCC 9: qemu build fails'
 - component: Basesystem
   create_time: 20190110T14:21:00
@@ -17643,8 +17704,8 @@
 - component: Development
   create_time: 20190110T09:20:00
   id: 1121409
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Buffer overflow in Perl 5.28.1 with git send-email
 - component: Basesystem
   create_time: 20190110T09:19:00
@@ -17805,11 +17866,11 @@
   resolution: ''
   status: IN_PROGRESS
   summary: icecream-scheduler fails to start
-- component: Basesystem
+- component: X.Org
   create_time: 20190109T10:45:00
   id: 1121229
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: intel-gpu-tools build fails'
 - component: Basesystem
   create_time: 20190109T10:21:00
@@ -17846,7 +17907,7 @@
   id: 1121200
   resolution: ''
   status: NEW
-  summary: 'GCC 9: bctoolbox build failsbctoolbox'
+  summary: 'GCC 9: bctoolbox build fails'
 - component: Installation
   create_time: 20190109T08:13:00
   id: 1121198
