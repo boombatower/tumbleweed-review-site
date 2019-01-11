@@ -1447,3 +1447,8 @@
   - messages: [2019-01.39]
     reference_count: 3
     summary: failed to summarize
+'20190108':
+  announcement: 2019-01.92
+  reference_count: 0
+  thread_count: 0
+  threads: []
