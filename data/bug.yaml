@@ -11531,8 +11531,8 @@
 - component: Kernel
   create_time: 20180814T11:13:00
   id: 1104792
-  resolution: WONTFIX
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: magic-sysrq output does not show up on current selected console tty but
     only in dmesg
 - component: Virtualization:Tools
@@ -17549,6 +17549,30 @@
   status: RESOLVED
   summary: Firefox does not remember exceptions of content blocking
 '20190108':
+- component: Other
+  create_time: 20190111T21:45:00
+  id: 1121694
+  resolution: ''
+  status: NEW
+  summary: youtube-dl requires python-xml, but there is no proper dependency
+- component: Installation
+  create_time: 20190111T20:03:00
+  id: 1121677
+  resolution: ''
+  status: NEW
+  summary: Installer crashed
+- component: Other
+  create_time: 20190111T19:00:00
+  id: 1121672
+  resolution: ''
+  status: NEW
+  summary: Steam controller's Gamepad mode is broken for most games.
+- component: Kernel
+  create_time: 20190111T17:02:00
+  id: 1121654
+  resolution: ''
+  status: NEW
+  summary: 'Warning: modules_install: missing ''System.map'' file. Skipping depmod'
 - component: X.Org
   create_time: 20190111T15:21:00
   id: 1121632
@@ -17584,7 +17608,7 @@
   create_time: 20190111T12:47:00
   id: 1121604
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: QEMU 3.1 - "kvm_init_vcpu failed" if nested virtualisation enabled
 - component: Basesystem
   create_time: 20190111T11:29:00
@@ -17680,7 +17704,7 @@
   create_time: 20190110T13:37:00
   id: 1121456
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: libgtk-3.so does not export gtk_cell_accessible_parent_get_row_header_cells
     function but Gtk-3.0.gir has it listed
 - component: Other
