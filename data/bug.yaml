@@ -17142,361 +17142,6 @@
   status: NEW
   summary: Import of public ssh key failed/not written to .ssh/authorized_keys
 '20181224':
-- component: Installation
-  create_time: 20190110T19:44:00
-  id: 1121502
-  resolution: ''
-  status: NEW
-  summary: 'broken dependency: byobu / python3-newt'
-- component: X11 3rd Party Driver
-  create_time: 20190110T14:34:00
-  id: 1121467
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: Incorrect packaging of dkms.conf in nvidia-gfx
-- component: Basesystem
-  create_time: 20190110T14:24:00
-  id: 1121465
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: ffmpeg-[34] build fails'
-- component: Basesystem
-  create_time: 20190110T14:22:00
-  id: 1121464
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: qemu build fails'
-- component: Basesystem
-  create_time: 20190110T14:21:00
-  id: 1121463
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: virtualbox build fails'
-- component: GNOME
-  create_time: 20190110T13:37:00
-  id: 1121456
-  resolution: ''
-  status: NEW
-  summary: libgtk-3.so does not export gtk_cell_accessible_parent_get_row_header_cells
-    function but Gtk-3.0.gir has it listed
-- component: Other
-  create_time: 20190110T13:32:00
-  id: 1121455
-  resolution: ''
-  status: NEW
-  summary: 'policycoreutils-2.8: missing seobject and python2'
-- component: YaST2
-  create_time: 20190110T10:07:00
-  id: 1121425
-  resolution: FIXED
-  status: RESOLVED
-  summary: Many YaST modules crash when they're opened on TW Snapshot 20190108
-- component: YaST2
-  create_time: 20190110T09:59:00
-  id: 1121421
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190108] openQA test fails in installation'
-- component: Development
-  create_time: 20190110T09:20:00
-  id: 1121409
-  resolution: ''
-  status: NEW
-  summary: Buffer overflow in Perl 5.28.1 with git send-email
-- component: Basesystem
-  create_time: 20190110T09:19:00
-  id: 1121408
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'GCC 9: vim build fails'
-- component: Basesystem
-  create_time: 20190110T09:17:00
-  id: 1121407
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'GCC 9: gpgme build fails'
-- component: YaST2
-  create_time: 20190110T09:17:00
-  id: 1121405
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190108] openQA test fails in yast2_samba bad chars (^@) in ncurses
-    screen'
-- component: Basesystem
-  create_time: 20190110T09:16:00
-  id: 1121404
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'GCC 9: bluez build fails'
-- component: Basesystem
-  create_time: 20190110T09:14:00
-  id: 1121402
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: libstorage-ng build fails'
-- component: Basesystem
-  create_time: 20190110T08:46:00
-  id: 1121397
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: go1.* build fails'
-- component: Basesystem
-  create_time: 20190110T08:42:00
-  id: 1121395
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: ceph build fails'
-- component: Basesystem
-  create_time: 20190110T08:38:00
-  id: 1121394
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: MozillaFirefox build fails'
-- component: Upgrade Problems
-  create_time: 20190110T08:34:00
-  id: 1121393
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[Build 20190108] openQA test fails in yast2_i'
-- component: Basesystem
-  create_time: 20190110T08:32:00
-  id: 1121391
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: xen build fails'
-- component: Basesystem
-  create_time: 20190110T08:07:00
-  id: 1121387
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9:  casync build fails'
-- component: Installation
-  create_time: 20190109T16:00:00
-  id: 1121286
-  resolution: ''
-  status: NEW
-  summary: Errors calculating how much should Windows be resized
-- component: Basesystem
-  create_time: 20190109T15:33:00
-  id: 1121281
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9:  cppunit build fails'
-- component: Basesystem
-  create_time: 20190109T15:25:00
-  id: 1121279
-  resolution: ''
-  status: NEW
-  summary: x-systemd.requires-mounts-for does not pull in non-x-initrd.mount dependencies
-- component: Security
-  create_time: 20190109T15:09:00
-  id: 1121277
-  resolution: ''
-  status: IN_PROGRESS
-  summary: firewalld does not copy permanent zone/interface mappings to running config
-    on reload
-- component: Basesystem
-  create_time: 20190109T15:06:00
-  id: 1121276
-  resolution: ''
-  status: NEW
-  summary: x-initrd.mount in fstab does not work with overlayfs and x-systemd.requires-mounts-for
-- component: AppArmor
-  create_time: 20190109T15:01:00
-  id: 1121274
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190105] internal error when trying to edit settings in yast apparrmor
-    module'
-- component: Basesystem
-  create_time: 20190109T14:29:00
-  id: 1121270
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: mozjs52 build fails'
-- component: Basesystem
-  create_time: 20190109T14:14:00
-  id: 1121268
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: shim build fails'
-- component: Basesystem
-  create_time: 20190109T14:10:00
-  id: 1121267
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: openucx build fails'
-- component: Basesystem
-  create_time: 20190109T13:54:00
-  id: 1121265
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: gperftools build fails'
-- component: Basesystem
-  create_time: 20190109T13:39:00
-  id: 1121262
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9:  libX11 build fails on i586'
-- component: Kubic
-  create_time: 20190109T13:08:00
-  id: 1121256
-  resolution: ''
-  status: NEW
-  summary: Kubic installs with invalid locale setup
-- component: Basesystem
-  create_time: 20190109T13:04:00
-  id: 1121254
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: systemd-mini build fails'
-- component: Basesystem
-  create_time: 20190109T12:56:00
-  id: 1121251
-  resolution: ''
-  status: NEW
-  summary: dracut's 01-dist.conf is missing a space in omit_drivers
-- component: Development
-  create_time: 20190109T12:49:00
-  id: 1121250
-  resolution: ''
-  status: IN_PROGRESS
-  summary: icecream-scheduler fails to start
-- component: Basesystem
-  create_time: 20190109T10:45:00
-  id: 1121229
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: intel-gpu-tools build fails'
-- component: Basesystem
-  create_time: 20190109T10:21:00
-  id: 1121223
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9:  gpg2 build fails'
-- component: Basesystem
-  create_time: 20190109T10:08:00
-  id: 1121219
-  resolution: ''
-  status: NEW
-  summary: branding-preset-states doesn't handle timers
-- component: Basesystem
-  create_time: 20190109T09:41:00
-  id: 1121214
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'GCC 9: libqt4 build fails'
-- component: Basesystem
-  create_time: 20190109T09:06:00
-  id: 1121208
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9:  grub2 build fails'
-- component: Basesystem
-  create_time: 20190109T08:38:00
-  id: 1121203
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9:  fwupdate build fails'
-- component: Basesystem
-  create_time: 20190109T08:20:00
-  id: 1121200
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: bctoolbox build failsbctoolbox'
-- component: Installation
-  create_time: 20190109T08:13:00
-  id: 1121198
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: problem during and after remote installation via ssh (at least)
-- component: Basesystem
-  create_time: 20190109T07:59:00
-  id: 1121196
-  resolution: ''
-  status: NEW
-  summary: 'console only login: after upgrade disabled root ssh password login (an
-    no key or other user exists)'
-- component: Installation
-  create_time: 20190109T06:58:00
-  id: 1121192
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: widget is broken when loading icon drive-harddisk-encrypted
-- component: Basesystem
-  create_time: 20190108T23:23:00
-  id: 1121134
-  resolution: FIXED
-  status: RESOLVED
-  summary: multipathd crashes in "multipathd show path INVAL"
-- component: YaST2
-  create_time: 20190108T17:16:00
-  id: 1121106
-  resolution: FIXED
-  status: RESOLVED
-  summary: Yast python bindings do not provide translation function
-- component: Salt
-  create_time: 20190108T15:35:00
-  id: 1121091
-  resolution: ''
-  status: NEW
-  summary: 'salt-call prints numerous error messages: AttributeError: module ''azure.storage''
-    has no attribute ''__version__'''
-- component: Xfce
-  create_time: 20190108T13:06:00
-  id: 1121076
-  resolution: ''
-  status: NEW
-  summary: midori 7.0.git20181130-1.1 segfaults
-- component: Development
-  create_time: 20190108T11:50:00
-  id: 1121067
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: perl crashes with buffer overflow when running git send-email
-- component: Basesystem
-  create_time: 20190108T11:43:00
-  id: 1121066
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'multipath-tools: compilation for SLE12-SP3 and older fails'
-- component: Basesystem
-  create_time: 20190108T11:14:00
-  id: 1121063
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'GCC 9: libzip build fails'
-- component: Basesystem
-  create_time: 20190108T11:01:00
-  id: 1121060
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'GCC 9: spirv-tools build fails'
-- component: Development
-  create_time: 20190108T10:24:00
-  id: 1121052
-  resolution: ''
-  status: NEW
-  summary: ghc should not use fixed subpackage versions
-- component: Other
-  create_time: 20190108T10:05:00
-  id: 1121051
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'FTBFS: gpgme fails since early 2019'
-- component: Installation
-  create_time: 20190108T09:38:00
-  id: 1121046
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190105] installer has no valid DNS resolution'
-- component: KVM
-  create_time: 20190108T03:24:00
-  id: 1121007
-  resolution: ''
-  status: NEW
-  summary: Single GPU passthrough fails if using the Virtio SCSI controller and/or
-    copying the CPU configuration
 - component: AutoYaST
   create_time: 20190107T21:48:00
   id: 1120982
@@ -17903,3 +17548,371 @@
   resolution: INVALID
   status: RESOLVED
   summary: Firefox does not remember exceptions of content blocking
+'20190108':
+- component: X.Org
+  create_time: 20190111T03:17:00
+  id: 1121525
+  resolution: ''
+  status: NEW
+  summary: xorg-x11-driver-input should not recommend xf86-input-{mouse,keyboard,joystick,vmmouse}
+- component: GNOME
+  create_time: 20190110T23:17:00
+  id: 1121516
+  resolution: ''
+  status: NEW
+  summary: Polari wont start
+- component: Installation
+  create_time: 20190110T19:44:00
+  id: 1121502
+  resolution: ''
+  status: NEW
+  summary: 'broken dependency: byobu / python3-newt'
+- component: X11 3rd Party Driver
+  create_time: 20190110T14:34:00
+  id: 1121467
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Incorrect packaging of dkms.conf in nvidia-gfx
+- component: Basesystem
+  create_time: 20190110T14:24:00
+  id: 1121465
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: ffmpeg-[34] build fails'
+- component: Basesystem
+  create_time: 20190110T14:22:00
+  id: 1121464
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: qemu build fails'
+- component: Basesystem
+  create_time: 20190110T14:21:00
+  id: 1121463
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: virtualbox build fails'
+- component: GNOME
+  create_time: 20190110T13:37:00
+  id: 1121456
+  resolution: ''
+  status: NEW
+  summary: libgtk-3.so does not export gtk_cell_accessible_parent_get_row_header_cells
+    function but Gtk-3.0.gir has it listed
+- component: Other
+  create_time: 20190110T13:32:00
+  id: 1121455
+  resolution: ''
+  status: NEW
+  summary: 'policycoreutils-2.8: missing seobject and python2'
+- component: YaST2
+  create_time: 20190110T10:07:00
+  id: 1121425
+  resolution: FIXED
+  status: RESOLVED
+  summary: Many YaST modules crash when they're opened on TW Snapshot 20190108
+- component: YaST2
+  create_time: 20190110T09:59:00
+  id: 1121421
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190108] openQA test fails in installation'
+- component: Development
+  create_time: 20190110T09:20:00
+  id: 1121409
+  resolution: ''
+  status: NEW
+  summary: Buffer overflow in Perl 5.28.1 with git send-email
+- component: Basesystem
+  create_time: 20190110T09:19:00
+  id: 1121408
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'GCC 9: vim build fails'
+- component: Basesystem
+  create_time: 20190110T09:17:00
+  id: 1121407
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'GCC 9: gpgme build fails'
+- component: YaST2
+  create_time: 20190110T09:17:00
+  id: 1121405
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190108] openQA test fails in yast2_samba bad chars (^@) in ncurses
+    screen'
+- component: Basesystem
+  create_time: 20190110T09:16:00
+  id: 1121404
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'GCC 9: bluez build fails'
+- component: Basesystem
+  create_time: 20190110T09:14:00
+  id: 1121402
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: libstorage-ng build fails'
+- component: Basesystem
+  create_time: 20190110T08:46:00
+  id: 1121397
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: go1.* build fails'
+- component: Basesystem
+  create_time: 20190110T08:42:00
+  id: 1121395
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: ceph build fails'
+- component: Basesystem
+  create_time: 20190110T08:38:00
+  id: 1121394
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: MozillaFirefox build fails'
+- component: Upgrade Problems
+  create_time: 20190110T08:34:00
+  id: 1121393
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build 20190108] openQA test fails in yast2_i'
+- component: Basesystem
+  create_time: 20190110T08:32:00
+  id: 1121391
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: xen build fails'
+- component: Basesystem
+  create_time: 20190110T08:07:00
+  id: 1121387
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9:  casync build fails'
+- component: Installation
+  create_time: 20190109T16:00:00
+  id: 1121286
+  resolution: ''
+  status: NEW
+  summary: Errors calculating how much should Windows be resized
+- component: Basesystem
+  create_time: 20190109T15:33:00
+  id: 1121281
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9:  cppunit build fails'
+- component: Basesystem
+  create_time: 20190109T15:25:00
+  id: 1121279
+  resolution: ''
+  status: NEW
+  summary: x-systemd.requires-mounts-for does not pull in non-x-initrd.mount dependencies
+- component: Security
+  create_time: 20190109T15:09:00
+  id: 1121277
+  resolution: ''
+  status: IN_PROGRESS
+  summary: firewalld does not copy permanent zone/interface mappings to running config
+    on reload
+- component: Basesystem
+  create_time: 20190109T15:06:00
+  id: 1121276
+  resolution: ''
+  status: NEW
+  summary: x-initrd.mount in fstab does not work with overlayfs and x-systemd.requires-mounts-for
+- component: AppArmor
+  create_time: 20190109T15:01:00
+  id: 1121274
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190105] internal error when trying to edit settings in yast apparrmor
+    module'
+- component: Basesystem
+  create_time: 20190109T14:29:00
+  id: 1121270
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: mozjs52 build fails'
+- component: Basesystem
+  create_time: 20190109T14:14:00
+  id: 1121268
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: shim build fails'
+- component: Basesystem
+  create_time: 20190109T14:10:00
+  id: 1121267
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: openucx build fails'
+- component: Basesystem
+  create_time: 20190109T13:54:00
+  id: 1121265
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: gperftools build fails'
+- component: Basesystem
+  create_time: 20190109T13:39:00
+  id: 1121262
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9:  libX11 build fails on i586'
+- component: Kubic
+  create_time: 20190109T13:08:00
+  id: 1121256
+  resolution: ''
+  status: NEW
+  summary: Kubic installs with invalid locale setup
+- component: Basesystem
+  create_time: 20190109T13:04:00
+  id: 1121254
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: systemd-mini build fails'
+- component: Basesystem
+  create_time: 20190109T12:56:00
+  id: 1121251
+  resolution: ''
+  status: NEW
+  summary: dracut's 01-dist.conf is missing a space in omit_drivers
+- component: Development
+  create_time: 20190109T12:49:00
+  id: 1121250
+  resolution: ''
+  status: IN_PROGRESS
+  summary: icecream-scheduler fails to start
+- component: Basesystem
+  create_time: 20190109T10:45:00
+  id: 1121229
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: intel-gpu-tools build fails'
+- component: Basesystem
+  create_time: 20190109T10:21:00
+  id: 1121223
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9:  gpg2 build fails'
+- component: Basesystem
+  create_time: 20190109T10:08:00
+  id: 1121219
+  resolution: ''
+  status: NEW
+  summary: branding-preset-states doesn't handle timers
+- component: Basesystem
+  create_time: 20190109T09:41:00
+  id: 1121214
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'GCC 9: libqt4 build fails'
+- component: Basesystem
+  create_time: 20190109T09:06:00
+  id: 1121208
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9:  grub2 build fails'
+- component: Basesystem
+  create_time: 20190109T08:38:00
+  id: 1121203
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9:  fwupdate build fails'
+- component: Basesystem
+  create_time: 20190109T08:20:00
+  id: 1121200
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: bctoolbox build failsbctoolbox'
+- component: Installation
+  create_time: 20190109T08:13:00
+  id: 1121198
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: problem during and after remote installation via ssh (at least)
+- component: Basesystem
+  create_time: 20190109T07:59:00
+  id: 1121196
+  resolution: ''
+  status: NEW
+  summary: 'console only login: after upgrade disabled root ssh password login (an
+    no key or other user exists)'
+- component: Installation
+  create_time: 20190109T06:58:00
+  id: 1121192
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: widget is broken when loading icon drive-harddisk-encrypted
+- component: Basesystem
+  create_time: 20190108T23:23:00
+  id: 1121134
+  resolution: FIXED
+  status: RESOLVED
+  summary: multipathd crashes in "multipathd show path INVAL"
+- component: YaST2
+  create_time: 20190108T17:16:00
+  id: 1121106
+  resolution: FIXED
+  status: RESOLVED
+  summary: Yast python bindings do not provide translation function
+- component: Salt
+  create_time: 20190108T15:35:00
+  id: 1121091
+  resolution: ''
+  status: NEW
+  summary: 'salt-call prints numerous error messages: AttributeError: module ''azure.storage''
+    has no attribute ''__version__'''
+- component: Xfce
+  create_time: 20190108T13:06:00
+  id: 1121076
+  resolution: ''
+  status: NEW
+  summary: midori 7.0.git20181130-1.1 segfaults
+- component: Development
+  create_time: 20190108T11:50:00
+  id: 1121067
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: perl crashes with buffer overflow when running git send-email
+- component: Basesystem
+  create_time: 20190108T11:43:00
+  id: 1121066
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'multipath-tools: compilation for SLE12-SP3 and older fails'
+- component: Basesystem
+  create_time: 20190108T11:14:00
+  id: 1121063
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'GCC 9: libzip build fails'
+- component: Basesystem
+  create_time: 20190108T11:01:00
+  id: 1121060
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'GCC 9: spirv-tools build fails'
+- component: Development
+  create_time: 20190108T10:24:00
+  id: 1121052
+  resolution: ''
+  status: NEW
+  summary: ghc should not use fixed subpackage versions
+- component: Other
+  create_time: 20190108T10:05:00
+  id: 1121051
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: gpgme fails since early 2019'
+- component: Installation
+  create_time: 20190108T09:38:00
+  id: 1121046
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190105] installer has no valid DNS resolution'
+- component: KVM
+  create_time: 20190108T03:24:00
+  id: 1121007
+  resolution: ''
+  status: NEW
+  summary: Single GPU passthrough fails if using the Virtio SCSI controller and/or
+    copying the CPU configuration
