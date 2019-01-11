@@ -15849,8 +15849,8 @@
 - component: YaST2
   create_time: 20181114T08:55:00
   id: 1115949
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20181112] Theme issue: ''selected/checked'' is barely visible'
 - component: Kernel
   create_time: 20181114T08:46:00
@@ -17549,6 +17549,30 @@
   status: RESOLVED
   summary: Firefox does not remember exceptions of content blocking
 '20190108':
+- component: Basesystem
+  create_time: 20190111T09:12:00
+  id: 1121563
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: systemd build fails'
+- component: Basesystem
+  create_time: 20190111T09:06:00
+  id: 1121561
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: libqt5-qtbase build fails'
+- component: Basesystem
+  create_time: 20190111T09:04:00
+  id: 1121560
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: libqt5-qtwebengine build fails'
+- component: Other
+  create_time: 20190111T08:44:00
+  id: 1121558
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[staging] linux-atm fails to build agains linux-glibc-devel 4.20'
 - component: X.Org
   create_time: 20190111T03:17:00
   id: 1121525
