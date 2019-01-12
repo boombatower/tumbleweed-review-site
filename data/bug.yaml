@@ -17148,7 +17148,7 @@
   resolution: ''
   status: NEW
   summary: Extend AutoYast <partition> with create-if-not-exists possibility
-- component: AutoYaST
+- component: YaST2
   create_time: 20190107T21:13:00
   id: 1120979
   resolution: ''
@@ -17777,6 +17777,19 @@
   summary: Single GPU passthrough fails if using the Virtio SCSI controller and/or
     copying the CPU configuration
 '20190110':
+- component: Containers
+  create_time: 20190112T19:29:00
+  id: 1121721
+  resolution: ''
+  status: NEW
+  summary: docker-compose broken on TW20190110
+- component: YaST2
+  create_time: 20190112T19:15:00
+  id: 1121720
+  resolution: ''
+  status: NEW
+  summary: 'Retaining existing Software RAID via AutoYast is broken: y2storage always
+    formats MD'
 - component: Upgrade Problems
   create_time: 20190112T01:53:00
   id: 1121712
