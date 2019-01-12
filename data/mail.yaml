@@ -1452,3 +1452,11 @@
   reference_count: 0
   thread_count: 0
   threads: []
+'20190110':
+  announcement: 2019-01.97
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages: [2019-01.99]
+    reference_count: 1
+    summary: no summary given
