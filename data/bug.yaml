@@ -17549,261 +17549,6 @@
   status: RESOLVED
   summary: Firefox does not remember exceptions of content blocking
 '20190108':
-- component: Upgrade Problems
-  create_time: 20190112T01:53:00
-  id: 1121712
-  resolution: ''
-  status: NEW
-  summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
-- component: Other
-  create_time: 20190111T21:45:00
-  id: 1121694
-  resolution: ''
-  status: NEW
-  summary: youtube-dl requires python-xml, but there is no proper dependency
-- component: Installation
-  create_time: 20190111T20:03:00
-  id: 1121677
-  resolution: ''
-  status: NEW
-  summary: Installer crashed
-- component: Other
-  create_time: 20190111T19:00:00
-  id: 1121672
-  resolution: ''
-  status: NEW
-  summary: Steam controller's Gamepad mode is broken for most games.
-- component: Kernel
-  create_time: 20190111T17:02:00
-  id: 1121654
-  resolution: ''
-  status: NEW
-  summary: 'Warning: modules_install: missing ''System.map'' file. Skipping depmod'
-- component: X.Org
-  create_time: 20190111T15:21:00
-  id: 1121632
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Black screen on TW installer and later TW itself with AMD R5
-- component: Basesystem
-  create_time: 20190111T13:25:00
-  id: 1121611
-  resolution: ''
-  status: NEW
-  summary: Repositories added from .repo file are not set to auto-refresh but `zypper
-    ar --help` and the man page tells otherwise
-- component: OpenStack
-  create_time: 20190111T13:24:00
-  id: 1121610
-  resolution: ''
-  status: NEW
-  summary: '[BuildCycle] python-cliff, python-stestr, python-stevedore'
-- component: OpenStack
-  create_time: 20190111T13:20:00
-  id: 1121609
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[BuildCycle] python-oslo.config <-> python-oslo.log'
-- component: OpenStack
-  create_time: 20190111T13:18:00
-  id: 1121608
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[BuildCycle] python-os-service-types <-> python-keystoneauth1'
-- component: Virtualization:Other
-  create_time: 20190111T12:47:00
-  id: 1121604
-  resolution: ''
-  status: CONFIRMED
-  summary: QEMU 3.1 - "kvm_init_vcpu failed" if nested virtualisation enabled
-- component: Basesystem
-  create_time: 20190111T11:29:00
-  id: 1121592
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: python-Pygments build fails'
-- component: Basesystem
-  create_time: 20190111T11:25:00
-  id: 1121591
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: llvm[67] build fails'
-- component: Basesystem
-  create_time: 20190111T11:24:00
-  id: 1121589
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: libreoffice build fails'
-- component: Basesystem
-  create_time: 20190111T11:21:00
-  id: 1121588
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: gdb build fails'
-- component: Basesystem
-  create_time: 20190111T09:12:00
-  id: 1121563
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: systemd build fails'
-- component: Basesystem
-  create_time: 20190111T09:06:00
-  id: 1121561
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: libqt5-qtbase build fails'
-- component: Basesystem
-  create_time: 20190111T09:04:00
-  id: 1121560
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: libqt5-qtwebengine build fails'
-- component: Other
-  create_time: 20190111T08:44:00
-  id: 1121558
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[staging] linux-atm fails to build agains linux-glibc-devel 4.20'
-- component: X.Org
-  create_time: 20190111T03:17:00
-  id: 1121525
-  resolution: ''
-  status: IN_PROGRESS
-  summary: xorg-x11-driver-input should not recommend xf86-input-{mouse,keyboard,joystick,vmmouse}
-- component: GNOME
-  create_time: 20190110T23:17:00
-  id: 1121516
-  resolution: ''
-  status: NEW
-  summary: Polari wont start
-- component: Basesystem
-  create_time: 20190110T19:44:00
-  id: 1121502
-  resolution: ''
-  status: NEW
-  summary: 'broken dependency: byobu / python3-newt'
-- component: X11 3rd Party Driver
-  create_time: 20190110T14:34:00
-  id: 1121467
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: Incorrect packaging of dkms.conf in nvidia-gfx
-- component: Basesystem
-  create_time: 20190110T14:24:00
-  id: 1121465
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: ffmpeg-[34] build fails'
-- component: Basesystem
-  create_time: 20190110T14:22:00
-  id: 1121464
-  resolution: ''
-  status: CONFIRMED
-  summary: 'GCC 9: qemu build fails'
-- component: Basesystem
-  create_time: 20190110T14:21:00
-  id: 1121463
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: virtualbox build fails'
-- component: GNOME
-  create_time: 20190110T13:37:00
-  id: 1121456
-  resolution: ''
-  status: IN_PROGRESS
-  summary: libgtk-3.so does not export gtk_cell_accessible_parent_get_row_header_cells
-    function but Gtk-3.0.gir has it listed
-- component: Other
-  create_time: 20190110T13:32:00
-  id: 1121455
-  resolution: ''
-  status: NEW
-  summary: 'policycoreutils-2.8: missing seobject and python2'
-- component: YaST2
-  create_time: 20190110T10:07:00
-  id: 1121425
-  resolution: FIXED
-  status: RESOLVED
-  summary: Many YaST modules crash when they're opened on TW Snapshot 20190108
-- component: YaST2
-  create_time: 20190110T09:59:00
-  id: 1121421
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190108] openQA test fails in installation'
-- component: Development
-  create_time: 20190110T09:20:00
-  id: 1121409
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Buffer overflow in Perl 5.28.1 with git send-email
-- component: Basesystem
-  create_time: 20190110T09:19:00
-  id: 1121408
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'GCC 9: vim build fails'
-- component: Basesystem
-  create_time: 20190110T09:17:00
-  id: 1121407
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'GCC 9: gpgme build fails'
-- component: YaST2
-  create_time: 20190110T09:17:00
-  id: 1121405
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190108] openQA test fails in yast2_samba bad chars (^@) in ncurses
-    screen'
-- component: Basesystem
-  create_time: 20190110T09:16:00
-  id: 1121404
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'GCC 9: bluez build fails'
-- component: Basesystem
-  create_time: 20190110T09:14:00
-  id: 1121402
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: libstorage-ng build fails'
-- component: Basesystem
-  create_time: 20190110T08:46:00
-  id: 1121397
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: go1.* build fails'
-- component: Basesystem
-  create_time: 20190110T08:42:00
-  id: 1121395
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: ceph build fails'
-- component: Basesystem
-  create_time: 20190110T08:38:00
-  id: 1121394
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: MozillaFirefox build fails'
-- component: Upgrade Problems
-  create_time: 20190110T08:34:00
-  id: 1121393
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[Build 20190108] openQA test fails in yast2_i'
-- component: Basesystem
-  create_time: 20190110T08:32:00
-  id: 1121391
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: xen build fails'
-- component: Basesystem
-  create_time: 20190110T08:07:00
-  id: 1121387
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9:  casync build fails'
 - component: Installation
   create_time: 20190109T16:00:00
   id: 1121286
@@ -18031,3 +17776,260 @@
   status: NEW
   summary: Single GPU passthrough fails if using the Virtio SCSI controller and/or
     copying the CPU configuration
+'20190110':
+- component: Upgrade Problems
+  create_time: 20190112T01:53:00
+  id: 1121712
+  resolution: ''
+  status: NEW
+  summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
+- component: Other
+  create_time: 20190111T21:45:00
+  id: 1121694
+  resolution: ''
+  status: NEW
+  summary: youtube-dl requires python-xml, but there is no proper dependency
+- component: Installation
+  create_time: 20190111T20:03:00
+  id: 1121677
+  resolution: ''
+  status: NEW
+  summary: Installer crashed
+- component: Other
+  create_time: 20190111T19:00:00
+  id: 1121672
+  resolution: ''
+  status: NEW
+  summary: Steam controller's Gamepad mode is broken for most games.
+- component: Kernel
+  create_time: 20190111T17:02:00
+  id: 1121654
+  resolution: ''
+  status: NEW
+  summary: 'Warning: modules_install: missing ''System.map'' file. Skipping depmod'
+- component: X.Org
+  create_time: 20190111T15:21:00
+  id: 1121632
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'Black screen: Broken display code (amdgpu.dc=1) for Radeon R2/R3/R4/R5
+    Graphics [1002:98e4]'
+- component: Basesystem
+  create_time: 20190111T13:25:00
+  id: 1121611
+  resolution: ''
+  status: NEW
+  summary: Repositories added from .repo file are not set to auto-refresh but `zypper
+    ar --help` and the man page tells otherwise
+- component: OpenStack
+  create_time: 20190111T13:24:00
+  id: 1121610
+  resolution: ''
+  status: NEW
+  summary: '[BuildCycle] python-cliff, python-stestr, python-stevedore'
+- component: OpenStack
+  create_time: 20190111T13:20:00
+  id: 1121609
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[BuildCycle] python-oslo.config <-> python-oslo.log'
+- component: OpenStack
+  create_time: 20190111T13:18:00
+  id: 1121608
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[BuildCycle] python-os-service-types <-> python-keystoneauth1'
+- component: Virtualization:Other
+  create_time: 20190111T12:47:00
+  id: 1121604
+  resolution: ''
+  status: CONFIRMED
+  summary: QEMU 3.1 - "kvm_init_vcpu failed" if nested virtualisation enabled
+- component: Basesystem
+  create_time: 20190111T11:29:00
+  id: 1121592
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: python-Pygments build fails'
+- component: Basesystem
+  create_time: 20190111T11:25:00
+  id: 1121591
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: llvm[67] build fails'
+- component: Basesystem
+  create_time: 20190111T11:24:00
+  id: 1121589
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: libreoffice build fails'
+- component: Basesystem
+  create_time: 20190111T11:21:00
+  id: 1121588
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: gdb build fails'
+- component: Basesystem
+  create_time: 20190111T09:12:00
+  id: 1121563
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: systemd build fails'
+- component: Basesystem
+  create_time: 20190111T09:06:00
+  id: 1121561
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: libqt5-qtbase build fails'
+- component: Basesystem
+  create_time: 20190111T09:04:00
+  id: 1121560
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: libqt5-qtwebengine build fails'
+- component: Other
+  create_time: 20190111T08:44:00
+  id: 1121558
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[staging] linux-atm fails to build agains linux-glibc-devel 4.20'
+- component: X.Org
+  create_time: 20190111T03:17:00
+  id: 1121525
+  resolution: ''
+  status: IN_PROGRESS
+  summary: xorg-x11-driver-input should not recommend xf86-input-{mouse,keyboard,joystick,vmmouse}
+- component: GNOME
+  create_time: 20190110T23:17:00
+  id: 1121516
+  resolution: ''
+  status: NEW
+  summary: Polari wont start
+- component: Basesystem
+  create_time: 20190110T19:44:00
+  id: 1121502
+  resolution: ''
+  status: NEW
+  summary: 'broken dependency: byobu / python3-newt'
+- component: X11 3rd Party Driver
+  create_time: 20190110T14:34:00
+  id: 1121467
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Incorrect packaging of dkms.conf in nvidia-gfx
+- component: Basesystem
+  create_time: 20190110T14:24:00
+  id: 1121465
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: ffmpeg-[34] build fails'
+- component: Basesystem
+  create_time: 20190110T14:22:00
+  id: 1121464
+  resolution: ''
+  status: CONFIRMED
+  summary: 'GCC 9: qemu build fails'
+- component: Basesystem
+  create_time: 20190110T14:21:00
+  id: 1121463
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: virtualbox build fails'
+- component: GNOME
+  create_time: 20190110T13:37:00
+  id: 1121456
+  resolution: ''
+  status: IN_PROGRESS
+  summary: libgtk-3.so does not export gtk_cell_accessible_parent_get_row_header_cells
+    function but Gtk-3.0.gir has it listed
+- component: Other
+  create_time: 20190110T13:32:00
+  id: 1121455
+  resolution: ''
+  status: NEW
+  summary: 'policycoreutils-2.8: missing seobject and python2'
+- component: YaST2
+  create_time: 20190110T10:07:00
+  id: 1121425
+  resolution: FIXED
+  status: RESOLVED
+  summary: Many YaST modules crash when they're opened on TW Snapshot 20190108
+- component: YaST2
+  create_time: 20190110T09:59:00
+  id: 1121421
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190108] openQA test fails in installation'
+- component: Development
+  create_time: 20190110T09:20:00
+  id: 1121409
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Buffer overflow in Perl 5.28.1 with git send-email
+- component: Basesystem
+  create_time: 20190110T09:19:00
+  id: 1121408
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'GCC 9: vim build fails'
+- component: Basesystem
+  create_time: 20190110T09:17:00
+  id: 1121407
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'GCC 9: gpgme build fails'
+- component: YaST2
+  create_time: 20190110T09:17:00
+  id: 1121405
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190108] openQA test fails in yast2_samba bad chars (^@) in ncurses
+    screen'
+- component: Basesystem
+  create_time: 20190110T09:16:00
+  id: 1121404
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'GCC 9: bluez build fails'
+- component: Basesystem
+  create_time: 20190110T09:14:00
+  id: 1121402
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: libstorage-ng build fails'
+- component: Basesystem
+  create_time: 20190110T08:46:00
+  id: 1121397
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: go1.* build fails'
+- component: Basesystem
+  create_time: 20190110T08:42:00
+  id: 1121395
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: ceph build fails'
+- component: Basesystem
+  create_time: 20190110T08:38:00
+  id: 1121394
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: MozillaFirefox build fails'
+- component: Upgrade Problems
+  create_time: 20190110T08:34:00
+  id: 1121393
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build 20190108] openQA test fails in yast2_i'
+- component: Basesystem
+  create_time: 20190110T08:32:00
+  id: 1121391
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: xen build fails'
+- component: Basesystem
+  create_time: 20190110T08:07:00
+  id: 1121387
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9:  casync build fails'
