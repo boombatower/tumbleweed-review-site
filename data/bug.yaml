@@ -17549,6 +17549,12 @@
   status: RESOLVED
   summary: Firefox does not remember exceptions of content blocking
 '20190108':
+- component: Upgrade Problems
+  create_time: 20190112T01:53:00
+  id: 1121712
+  resolution: ''
+  status: NEW
+  summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
 - component: Other
   create_time: 20190111T21:45:00
   id: 1121694
