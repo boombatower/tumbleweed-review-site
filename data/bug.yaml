@@ -17777,6 +17777,12 @@
   summary: Single GPU passthrough fails if using the Virtio SCSI controller and/or
     copying the CPU configuration
 '20190110':
+- component: KDE Workspace (Plasma)
+  create_time: 20190113T13:11:00
+  id: 1121727
+  resolution: ''
+  status: NEW
+  summary: Can't connect after suspend to ram or lock screen
 - component: Containers
   create_time: 20190112T19:29:00
   id: 1121721
