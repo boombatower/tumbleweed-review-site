@@ -17778,10 +17778,22 @@
     copying the CPU configuration
 '20190110':
 - component: Other
+  create_time: 20190114T22:35:00
+  id: 1121914
+  resolution: ''
+  status: NEW
+  summary: PCP monitoring agent leaves behind zombie processes
+- component: Kubic
+  create_time: 20190114T21:27:00
+  id: 1121910
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build 20190111] podman test failed: Error configuring network'
+- component: Other
   create_time: 20190114T15:17:00
   id: 1121877
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: open-iscsi not using %license
 - component: Other
   create_time: 20190114T15:06:00
@@ -18038,8 +18050,8 @@
 - component: YaST2
   create_time: 20190110T10:07:00
   id: 1121425
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Many YaST modules crash when they're opened on TW Snapshot 20190108
 - component: YaST2
   create_time: 20190110T09:59:00
