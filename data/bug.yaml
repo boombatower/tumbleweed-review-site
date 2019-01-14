@@ -15060,8 +15060,8 @@
 - component: Samba
   create_time: 20181109T15:16:00
   id: 1115462
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/samba is out of date'
 - component: Basesystem
   create_time: 20181109T15:08:00
@@ -15837,8 +15837,8 @@
 - component: YaST2
   create_time: 20181114T09:16:00
   id: 1115953
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: '[Build 20181112] openQA test fails in yast2_snapper'
 - component: Basesystem
   create_time: 20181114T08:56:00
@@ -16266,8 +16266,8 @@
 - component: Other
   create_time: 20181123T09:33:00
   id: 1117121
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[METABUG] Update guile to 2.2 on Tumbleweed'
 - component: Ruby
   create_time: 20181123T09:06:00
@@ -16421,7 +16421,7 @@
   status: NEW
   summary: Dovecot throws permissions errors about /var/run/dovecot/stats-writer when
     delivering mail
-- component: X.Org
+- component: GNOME
   create_time: 20181129T16:20:00
   id: 1117833
   resolution: ''
@@ -17322,14 +17322,14 @@
 - component: Basesystem
   create_time: 20190104T14:04:00
   id: 1120789
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: ltrace build fails'
 - component: Basesystem
   create_time: 20190104T13:12:00
   id: 1120781
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: icu tests fails'
 - component: Other
   create_time: 20190104T10:38:00
@@ -17530,12 +17530,12 @@
   resolution: FIXED
   status: RESOLVED
   summary: Serial console input not working as expected, no new login prompt - agetty?
-- component: Network
+- component: X.Org
   create_time: 20181225T09:37:00
   id: 1120294
   resolution: ''
-  status: NEW
-  summary: Network
+  status: IN_PROGRESS
+  summary: xorg freezes with "secure file permissions" when clicking on networkmanager
 - component: Translations
   create_time: 20181225T09:28:00
   id: 1120292
@@ -17603,7 +17603,7 @@
   create_time: 20190109T14:10:00
   id: 1121267
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9: openucx build fails'
 - component: Basesystem
   create_time: 20190109T13:54:00
@@ -17748,8 +17748,8 @@
 - component: Basesystem
   create_time: 20190108T11:01:00
   id: 1121060
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: spirv-tools build fails'
 - component: Development
   create_time: 20190108T10:24:00
@@ -17777,6 +17777,74 @@
   summary: Single GPU passthrough fails if using the Virtio SCSI controller and/or
     copying the CPU configuration
 '20190110':
+- component: Other
+  create_time: 20190114T15:17:00
+  id: 1121877
+  resolution: ''
+  status: NEW
+  summary: open-iscsi not using %license
+- component: Other
+  create_time: 20190114T15:06:00
+  id: 1121876
+  resolution: ''
+  status: NEW
+  summary: 'autojump: bash integration does not work when /etc/profile.d/vte.sh is
+    present'
+- component: YaST2
+  create_time: 20190114T14:15:00
+  id: 1121865
+  resolution: ''
+  status: NEW
+  summary: undefined method `_' for FastGettext::Translation:Module
+- component: Other
+  create_time: 20190114T13:10:00
+  id: 1121852
+  resolution: ''
+  status: NEW
+  summary: 'python3-base: LICENSE in wrong directory'
+- component: Other
+  create_time: 20190114T13:06:00
+  id: 1121851
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'dmidecode: license in wrong directory'
+- component: Basesystem
+  create_time: 20190114T12:20:00
+  id: 1121841
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'polkit-default-privs: use _service file'
+- component: YaST2
+  create_time: 20190114T11:13:00
+  id: 1121830
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190111] openQA test fails in yast2_lan_hostname - unplanned changes
+    in yast2 lan UI'
+- component: Other
+  create_time: 20190114T11:08:00
+  id: 1121829
+  resolution: ''
+  status: NEW
+  summary: libpng16 fails in make test on aarch64
+- component: Sound
+  create_time: 20190114T10:12:00
+  id: 1121809
+  resolution: ''
+  status: NEW
+  summary: No audio over HDMI ( Lenovo Thinkpad P52, Quadro P2000)
+- component: YaST2
+  create_time: 20190114T09:45:00
+  id: 1121801
+  resolution: ''
+  status: CONFIRMED
+  summary: Guided Setup does not show help text
+- component: Patterns
+  create_time: 20190113T19:20:00
+  id: 1121730
+  resolution: ''
+  status: NEW
+  summary: patterns-base-x11 recommends xorg-x11 compability metapackage
 - component: KDE Workspace (Plasma)
   create_time: 20190113T13:11:00
   id: 1121727
@@ -17811,8 +17879,8 @@
 - component: Installation
   create_time: 20190111T20:03:00
   id: 1121677
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Installer crashed
 - component: Other
   create_time: 20190111T19:00:00
@@ -17988,8 +18056,8 @@
 - component: Basesystem
   create_time: 20190110T09:19:00
   id: 1121408
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: vim build fails'
 - component: Basesystem
   create_time: 20190110T09:17:00
@@ -18014,7 +18082,7 @@
   create_time: 20190110T09:14:00
   id: 1121402
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9: libstorage-ng build fails'
 - component: Basesystem
   create_time: 20190110T08:46:00
