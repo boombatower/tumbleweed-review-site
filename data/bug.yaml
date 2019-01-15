@@ -17426,8 +17426,8 @@
   create_time: 20181231T10:56:00
   id: 1120410
   resolution: ''
-  status: NEW
-  summary: Broken LVM2 support in installation
+  status: CONFIRMED
+  summary: No LVM snapshots support in yast-storage-ng
 - component: Other
   create_time: 20181231T01:50:00
   id: 1120407
@@ -17479,7 +17479,7 @@
 - component: Other
   create_time: 20181228T04:03:00
   id: 1120366
-  resolution: FEATURE
+  resolution: WONTFIX
   status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/mutt is out of date'
 - component: Other
@@ -17777,6 +17777,30 @@
   summary: Single GPU passthrough fails if using the Virtio SCSI controller and/or
     copying the CPU configuration
 '20190110':
+- component: GNOME
+  create_time: 20190115T09:22:00
+  id: 1121963
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190112] openQA test fails in NM_wpa2_enterprise'
+- component: Installation
+  create_time: 20190115T08:46:00
+  id: 1121959
+  resolution: ''
+  status: NEW
+  summary: Installer crash when creating encrypted partition
+- component: Java
+  create_time: 20190115T08:43:00
+  id: 1121958
+  resolution: ''
+  status: NEW
+  summary: '[BuildCycle] java-cup, jflex, qdox'
+- component: Java
+  create_time: 20190115T08:41:00
+  id: 1121956
+  resolution: ''
+  status: NEW
+  summary: '[BuildCycle] hamcrest, jmock'
 - component: Other
   create_time: 20190115T00:04:00
   id: 1121920
@@ -17873,7 +17897,7 @@
   create_time: 20190112T19:29:00
   id: 1121721
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: docker-compose broken on TW20190110
 - component: YaST2
   create_time: 20190112T19:15:00
@@ -18051,7 +18075,7 @@
   create_time: 20190110T13:32:00
   id: 1121455
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'policycoreutils-2.8: missing seobject and python2'
 - component: YaST2
   create_time: 20190110T10:07:00
@@ -18064,7 +18088,8 @@
   id: 1121421
   resolution: ''
   status: NEW
-  summary: '[Build 20190108] openQA test fails in installation'
+  summary: '[Build 20190108] openQA AutoYaST installation fails with ''undefined method
+    `hosts'' for nil:NilClass'' in save_network.rb'
 - component: Development
   create_time: 20190110T09:20:00
   id: 1121409
