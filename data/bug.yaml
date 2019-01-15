@@ -16426,7 +16426,7 @@
   id: 1117833
   resolution: ''
   status: CONFIRMED
-  summary: 'Wayland: briefffffffffff unresponsivvvvvvvvvvvveness and repeated keys'
+  summary: 'Wayland: brief unresponsiveness and repeated keys'
 '20181130':
 - component: KDE Applications
   create_time: 20181202T04:20:00
@@ -17158,8 +17158,8 @@
 - component: Other
   create_time: 20190107T18:37:00
   id: 1120969
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Usbguard service doesn't autostart
 - component: Installation
   create_time: 20190107T17:00:00
@@ -17777,6 +17777,24 @@
   summary: Single GPU passthrough fails if using the Virtio SCSI controller and/or
     copying the CPU configuration
 '20190110':
+- component: AppArmor
+  create_time: 20190115T20:23:00
+  id: 1122063
+  resolution: ''
+  status: NEW
+  summary: apparmor should enforce auditd running
+- component: libzypp
+  create_time: 20190115T20:01:00
+  id: 1122062
+  resolution: ''
+  status: NEW
+  summary: '[1.14.20] Image build fails with "The flag reposd-dir requires a argument."'
+- component: Virtualization:Other
+  create_time: 20190115T19:22:00
+  id: 1122054
+  resolution: ''
+  status: NEW
+  summary: Virtualization Snapshots broken for new VMs
 - component: Kubic
   create_time: 20190115T14:54:00
   id: 1122024
@@ -17794,7 +17812,7 @@
   create_time: 20190115T14:46:00
   id: 1122018
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20190112] openQA test fails in inkscape: inkscape doesn''t start'
 - component: Other
   create_time: 20190115T12:56:00
@@ -18069,7 +18087,7 @@
   create_time: 20190110T19:44:00
   id: 1121502
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'broken dependency: byobu / python3-newt'
 - component: X11 3rd Party Driver
   create_time: 20190110T14:34:00
