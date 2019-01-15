@@ -17443,8 +17443,8 @@
 - component: Other
   create_time: 20181230T20:33:00
   id: 1120404
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'Octave throws warning: Could not copy help collection to temporary file'
 - component: Other
   create_time: 20181229T22:54:00
@@ -17777,6 +17777,12 @@
   summary: Single GPU passthrough fails if using the Virtio SCSI controller and/or
     copying the CPU configuration
 '20190110':
+- component: Other
+  create_time: 20190115T00:04:00
+  id: 1121920
+  resolution: ''
+  status: NEW
+  summary: 'PCP regression: monitoring agent binaries dropped from package'
 - component: Other
   create_time: 20190114T22:35:00
   id: 1121914
