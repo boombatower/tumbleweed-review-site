@@ -1465,6 +1465,9 @@
     summary: Discover (plasma-discover) crashes on startup due to discover-backend-fwupd
 '20190112':
   announcement: 2019-01.132
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages: [2019-01.170]
+    reference_count: 2
+    summary: openssh update
