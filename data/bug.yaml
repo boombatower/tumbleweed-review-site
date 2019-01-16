@@ -17208,8 +17208,8 @@
 - component: Xfce
   create_time: 20190107T10:48:00
   id: 1120913
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: xfce4-panel pulls in webkit
 - component: Basesystem
   create_time: 20190107T08:37:00
@@ -17951,8 +17951,8 @@
 - component: YaST2
   create_time: 20190110T09:59:00
   id: 1121421
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190108] openQA AutoYaST installation fails with ''undefined method
     `hosts'' for nil:NilClass'' in save_network.rb'
 - component: Development
@@ -18026,9 +18026,58 @@
   create_time: 20190110T08:07:00
   id: 1121387
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9:  casync build fails'
 '20190112':
+- component: Xfce
+  create_time: 20190116T15:07:00
+  id: 1122206
+  resolution: ''
+  status: NEW
+  summary: XFCE leaves user session after login
+- component: Basesystem
+  create_time: 20190116T12:46:00
+  id: 1122186
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: openblas build fails'
+- component: Basesystem
+  create_time: 20190116T12:19:00
+  id: 1122182
+  resolution: ''
+  status: IN_PROGRESS
+  summary: multipath broken on power on tumbleweed
+- component: YaST2
+  create_time: 20190116T12:10:00
+  id: 1122181
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190115] openQA test fails in user_settings - warning with password
+    complexity does not appear'
+- component: Basesystem
+  create_time: 20190116T11:51:00
+  id: 1122177
+  resolution: ''
+  status: NEW
+  summary: openblas package does fail when there's a test error
+- component: Other
+  create_time: 20190116T11:47:00
+  id: 1122176
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190115] openQA test fails in steam'
+- component: Basesystem
+  create_time: 20190116T11:17:00
+  id: 1122169
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: liblouis build fails'
+- component: Java
+  create_time: 20190116T11:08:00
+  id: 1122165
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190115] openQA test fails in swing'
 - component: Kubic
   create_time: 20190116T10:27:00
   id: 1122154
@@ -18053,7 +18102,7 @@
   resolution: ''
   status: NEW
   summary: Virtualization Snapshots broken for new VMs
-- component: Containers
+- component: Kubic
   create_time: 20190115T14:54:00
   id: 1122024
   resolution: ''
@@ -18143,7 +18192,7 @@
   create_time: 20190114T14:15:00
   id: 1121865
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: undefined method `_' for FastGettext::Translation:Module
 - component: Other
   create_time: 20190114T13:10:00
