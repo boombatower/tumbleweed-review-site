@@ -1463,3 +1463,8 @@
   - messages: [2019-01.112]
     reference_count: 2
     summary: Discover (plasma-discover) crashes on startup due to discover-backend-fwupd
+'20190112':
+  announcement: 2019-01.132
+  reference_count: 0
+  thread_count: 0
+  threads: []
