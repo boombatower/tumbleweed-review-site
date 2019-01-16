@@ -17777,190 +17777,6 @@
   summary: Single GPU passthrough fails if using the Virtio SCSI controller and/or
     copying the CPU configuration
 '20190110':
-- component: AppArmor
-  create_time: 20190115T20:23:00
-  id: 1122063
-  resolution: ''
-  status: NEW
-  summary: apparmor should enforce auditd running
-- component: libzypp
-  create_time: 20190115T20:01:00
-  id: 1122062
-  resolution: ''
-  status: NEW
-  summary: '[1.14.20] Image build fails with "The flag reposd-dir requires a argument."'
-- component: Virtualization:Other
-  create_time: 20190115T19:22:00
-  id: 1122054
-  resolution: ''
-  status: NEW
-  summary: Virtualization Snapshots broken for new VMs
-- component: Kubic
-  create_time: 20190115T14:54:00
-  id: 1122024
-  resolution: ''
-  status: NEW
-  summary: '[Build20190112] Podman containers have no network after CNI configured
-    for kubeadm cluster'
-- component: X11 Applications
-  create_time: 20190115T14:54:00
-  id: 1122022
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190112] openQA test fails in vlc: VLC doesn''t play the video'
-- component: X11 Applications
-  create_time: 20190115T14:46:00
-  id: 1122018
-  resolution: ''
-  status: CONFIRMED
-  summary: '[Build 20190112] openQA test fails in inkscape: inkscape doesn''t start'
-- component: Other
-  create_time: 20190115T12:56:00
-  id: 1121995
-  resolution: ''
-  status: NEW
-  summary: 'live555: does not build shared libraries'
-- component: YaST2
-  create_time: 20190115T11:38:00
-  id: 1121991
-  resolution: ''
-  status: NEW
-  summary: 'TW20190110: Yast2-bootloader raises error in /usr/bin/grub2-editenv'
-- component: GNOME
-  create_time: 20190115T09:22:00
-  id: 1121963
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190112] openQA test fails in NM_wpa2_enterprise'
-- component: Installation
-  create_time: 20190115T08:46:00
-  id: 1121959
-  resolution: ''
-  status: NEW
-  summary: Installer crash when creating encrypted partition
-- component: Java
-  create_time: 20190115T08:43:00
-  id: 1121958
-  resolution: ''
-  status: NEW
-  summary: '[BuildCycle] java-cup, jflex, qdox'
-- component: Java
-  create_time: 20190115T08:41:00
-  id: 1121956
-  resolution: ''
-  status: NEW
-  summary: '[BuildCycle] hamcrest, jmock'
-- component: Other
-  create_time: 20190115T00:04:00
-  id: 1121920
-  resolution: ''
-  status: NEW
-  summary: 'PCP regression: monitoring agent binaries dropped from package'
-- component: Other
-  create_time: 20190114T22:35:00
-  id: 1121914
-  resolution: ''
-  status: NEW
-  summary: PCP monitoring agent leaves behind zombie processes
-- component: Kubic
-  create_time: 20190114T21:27:00
-  id: 1121910
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20190111] podman test failed: Error configuring network'
-- component: Other
-  create_time: 20190114T15:17:00
-  id: 1121877
-  resolution: ''
-  status: IN_PROGRESS
-  summary: open-iscsi not using %license
-- component: Other
-  create_time: 20190114T15:06:00
-  id: 1121876
-  resolution: ''
-  status: NEW
-  summary: 'autojump: bash integration does not work when /etc/profile.d/vte.sh is
-    present'
-- component: YaST2
-  create_time: 20190114T14:15:00
-  id: 1121865
-  resolution: ''
-  status: NEW
-  summary: undefined method `_' for FastGettext::Translation:Module
-- component: Other
-  create_time: 20190114T13:10:00
-  id: 1121852
-  resolution: ''
-  status: NEW
-  summary: 'python3-base: LICENSE in wrong directory'
-- component: Other
-  create_time: 20190114T13:06:00
-  id: 1121851
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'dmidecode: license in wrong directory'
-- component: Basesystem
-  create_time: 20190114T12:20:00
-  id: 1121841
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'polkit-default-privs: use _service file'
-- component: YaST2
-  create_time: 20190114T11:13:00
-  id: 1121830
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190111] openQA test fails in yast2_lan_hostname - unplanned changes
-    in yast2 lan UI'
-- component: Other
-  create_time: 20190114T11:08:00
-  id: 1121829
-  resolution: ''
-  status: NEW
-  summary: libpng16 fails in make test on aarch64
-- component: Sound
-  create_time: 20190114T10:12:00
-  id: 1121809
-  resolution: ''
-  status: NEW
-  summary: No audio over HDMI ( Lenovo Thinkpad P52, Quadro P2000)
-- component: YaST2
-  create_time: 20190114T09:45:00
-  id: 1121801
-  resolution: ''
-  status: CONFIRMED
-  summary: Guided Setup does not show help text
-- component: Patterns
-  create_time: 20190113T19:20:00
-  id: 1121730
-  resolution: ''
-  status: NEW
-  summary: patterns-base-x11 recommends xorg-x11 compability metapackage
-- component: KDE Workspace (Plasma)
-  create_time: 20190113T13:11:00
-  id: 1121727
-  resolution: ''
-  status: NEW
-  summary: Can't connect after suspend to ram or lock screen
-- component: Containers
-  create_time: 20190112T19:29:00
-  id: 1121721
-  resolution: ''
-  status: CONFIRMED
-  summary: docker-compose broken on TW20190110
-- component: YaST2
-  create_time: 20190112T19:15:00
-  id: 1121720
-  resolution: ''
-  status: NEW
-  summary: 'Retaining existing Software RAID via AutoYast is broken: y2storage always
-    formats MD'
-- component: Upgrade Problems
-  create_time: 20190112T01:53:00
-  id: 1121712
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
 - component: Other
   create_time: 20190111T21:45:00
   id: 1121694
@@ -18212,3 +18028,188 @@
   resolution: ''
   status: NEW
   summary: 'GCC 9:  casync build fails'
+'20190112':
+- component: AppArmor
+  create_time: 20190115T20:23:00
+  id: 1122063
+  resolution: ''
+  status: NEW
+  summary: apparmor should enforce auditd running
+- component: libzypp
+  create_time: 20190115T20:01:00
+  id: 1122062
+  resolution: ''
+  status: NEW
+  summary: '[1.14.20] Image build fails with "The flag reposd-dir requires a argument."'
+- component: Virtualization:Other
+  create_time: 20190115T19:22:00
+  id: 1122054
+  resolution: ''
+  status: NEW
+  summary: Virtualization Snapshots broken for new VMs
+- component: Kubic
+  create_time: 20190115T14:54:00
+  id: 1122024
+  resolution: ''
+  status: NEW
+  summary: '[Build20190112] Podman containers have no network after CNI configured
+    for kubeadm cluster'
+- component: X11 Applications
+  create_time: 20190115T14:54:00
+  id: 1122022
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190112] openQA test fails in vlc: VLC doesn''t play the video'
+- component: X11 Applications
+  create_time: 20190115T14:46:00
+  id: 1122018
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build 20190112] openQA test fails in inkscape: inkscape doesn''t start'
+- component: Other
+  create_time: 20190115T12:56:00
+  id: 1121995
+  resolution: ''
+  status: NEW
+  summary: 'live555: does not build shared libraries'
+- component: YaST2
+  create_time: 20190115T11:38:00
+  id: 1121991
+  resolution: ''
+  status: NEW
+  summary: 'TW20190110: Yast2-bootloader raises error in /usr/bin/grub2-editenv'
+- component: GNOME
+  create_time: 20190115T09:22:00
+  id: 1121963
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190112] openQA test fails in NM_wpa2_enterprise'
+- component: Installation
+  create_time: 20190115T08:46:00
+  id: 1121959
+  resolution: ''
+  status: NEW
+  summary: Installer crash when creating encrypted partition
+- component: Java
+  create_time: 20190115T08:43:00
+  id: 1121958
+  resolution: ''
+  status: NEW
+  summary: '[BuildCycle] java-cup, jflex, qdox'
+- component: Java
+  create_time: 20190115T08:41:00
+  id: 1121956
+  resolution: ''
+  status: NEW
+  summary: '[BuildCycle] hamcrest, jmock'
+- component: Other
+  create_time: 20190115T00:04:00
+  id: 1121920
+  resolution: ''
+  status: NEW
+  summary: 'PCP regression: monitoring agent binaries dropped from package'
+- component: Other
+  create_time: 20190114T22:35:00
+  id: 1121914
+  resolution: ''
+  status: NEW
+  summary: PCP monitoring agent leaves behind zombie processes
+- component: Kubic
+  create_time: 20190114T21:27:00
+  id: 1121910
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190111] podman test failed: Error configuring network'
+- component: Other
+  create_time: 20190114T15:17:00
+  id: 1121877
+  resolution: ''
+  status: IN_PROGRESS
+  summary: open-iscsi not using %license
+- component: Other
+  create_time: 20190114T15:06:00
+  id: 1121876
+  resolution: ''
+  status: NEW
+  summary: 'autojump: bash integration does not work when /etc/profile.d/vte.sh is
+    present'
+- component: YaST2
+  create_time: 20190114T14:15:00
+  id: 1121865
+  resolution: ''
+  status: NEW
+  summary: undefined method `_' for FastGettext::Translation:Module
+- component: Other
+  create_time: 20190114T13:10:00
+  id: 1121852
+  resolution: ''
+  status: NEW
+  summary: 'python3-base: LICENSE in wrong directory'
+- component: Other
+  create_time: 20190114T13:06:00
+  id: 1121851
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'dmidecode: license in wrong directory'
+- component: Basesystem
+  create_time: 20190114T12:20:00
+  id: 1121841
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'polkit-default-privs: use _service file'
+- component: YaST2
+  create_time: 20190114T11:13:00
+  id: 1121830
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190111] openQA test fails in yast2_lan_hostname - unplanned changes
+    in yast2 lan UI'
+- component: Other
+  create_time: 20190114T11:08:00
+  id: 1121829
+  resolution: ''
+  status: NEW
+  summary: libpng16 fails in make test on aarch64
+- component: Sound
+  create_time: 20190114T10:12:00
+  id: 1121809
+  resolution: ''
+  status: NEW
+  summary: No audio over HDMI ( Lenovo Thinkpad P52, Quadro P2000)
+- component: YaST2
+  create_time: 20190114T09:45:00
+  id: 1121801
+  resolution: ''
+  status: CONFIRMED
+  summary: Guided Setup does not show help text
+- component: Patterns
+  create_time: 20190113T19:20:00
+  id: 1121730
+  resolution: ''
+  status: NEW
+  summary: patterns-base-x11 recommends xorg-x11 compability metapackage
+- component: KDE Workspace (Plasma)
+  create_time: 20190113T13:11:00
+  id: 1121727
+  resolution: ''
+  status: NEW
+  summary: Can't connect after suspend to ram or lock screen
+- component: Containers
+  create_time: 20190112T19:29:00
+  id: 1121721
+  resolution: ''
+  status: CONFIRMED
+  summary: docker-compose broken on TW20190110
+- component: YaST2
+  create_time: 20190112T19:15:00
+  id: 1121720
+  resolution: ''
+  status: NEW
+  summary: 'Retaining existing Software RAID via AutoYast is broken: y2storage always
+    formats MD'
+- component: Upgrade Problems
+  create_time: 20190112T01:53:00
+  id: 1121712
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
