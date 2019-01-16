@@ -1821,8 +1821,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180114T16:02:00
   id: 1075906
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: screenlock crashes
 - component: X.Org
   create_time: 20180114T13:51:00
@@ -6991,8 +6991,8 @@
 - component: Other
   create_time: 20180412T12:57:00
   id: 1089352
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Testing bug for python-bugzilla interface in order to test mass scripting
 - component: Kernel
   create_time: 20180412T12:40:00
@@ -17467,8 +17467,8 @@
 - component: Other
   create_time: 20181228T04:21:00
   id: 1120368
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/groff is out of date'
 - component: Other
   create_time: 20181228T04:18:00
@@ -17578,7 +17578,7 @@
   create_time: 20190109T15:06:00
   id: 1121276
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: x-initrd.mount in fstab does not work with overlayfs and x-systemd.requires-mounts-for
 - component: AppArmor
   create_time: 20190109T15:01:00
@@ -18029,6 +18029,12 @@
   status: NEW
   summary: 'GCC 9:  casync build fails'
 '20190112':
+- component: Kubic
+  create_time: 20190116T10:27:00
+  id: 1122154
+  resolution: FIXED
+  status: RESOLVED
+  summary: openssh-askpass always pulled in with an update
 - component: AppArmor
   create_time: 20190115T20:23:00
   id: 1122063
@@ -18038,8 +18044,8 @@
 - component: libzypp
   create_time: 20190115T20:01:00
   id: 1122062
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[1.14.20] Image build fails with "The flag reposd-dir requires a argument."'
 - component: Virtualization:Other
   create_time: 20190115T19:22:00
@@ -18047,11 +18053,11 @@
   resolution: ''
   status: NEW
   summary: Virtualization Snapshots broken for new VMs
-- component: Kubic
+- component: Containers
   create_time: 20190115T14:54:00
   id: 1122024
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build20190112] Podman containers have no network after CNI configured
     for kubeadm cluster'
 - component: X11 Applications
