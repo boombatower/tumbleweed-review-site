@@ -17038,8 +17038,8 @@
 - component: KDE Applications
   create_time: 20181222T15:39:00
   id: 1120261
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: KDevelop crashes on opening project settings
 - component: Translations
   create_time: 20181222T13:46:00
@@ -18029,140 +18029,6 @@
   status: IN_PROGRESS
   summary: 'GCC 9:  casync build fails'
 '20190112':
-- component: Xfce
-  create_time: 20190116T15:07:00
-  id: 1122206
-  resolution: ''
-  status: NEW
-  summary: XFCE leaves user session after login
-- component: Basesystem
-  create_time: 20190116T12:46:00
-  id: 1122186
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: openblas build fails'
-- component: Basesystem
-  create_time: 20190116T12:19:00
-  id: 1122182
-  resolution: ''
-  status: IN_PROGRESS
-  summary: multipath broken on power on tumbleweed
-- component: YaST2
-  create_time: 20190116T12:10:00
-  id: 1122181
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20190115] openQA test fails in user_settings - warning with password
-    complexity does not appear'
-- component: Basesystem
-  create_time: 20190116T11:51:00
-  id: 1122177
-  resolution: ''
-  status: NEW
-  summary: openblas package does fail when there's a test error
-- component: Other
-  create_time: 20190116T11:47:00
-  id: 1122176
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190115] openQA test fails in steam'
-- component: Basesystem
-  create_time: 20190116T11:17:00
-  id: 1122169
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: liblouis build fails'
-- component: Java
-  create_time: 20190116T11:08:00
-  id: 1122165
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190115] openQA test fails in swing'
-- component: Kubic
-  create_time: 20190116T10:27:00
-  id: 1122154
-  resolution: FIXED
-  status: RESOLVED
-  summary: openssh-askpass always pulled in with an update
-- component: AppArmor
-  create_time: 20190115T20:23:00
-  id: 1122063
-  resolution: ''
-  status: NEW
-  summary: apparmor should enforce auditd running
-- component: libzypp
-  create_time: 20190115T20:01:00
-  id: 1122062
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[1.14.20] Image build fails with "The flag reposd-dir requires a argument."'
-- component: Virtualization:Other
-  create_time: 20190115T19:22:00
-  id: 1122054
-  resolution: ''
-  status: NEW
-  summary: Virtualization Snapshots broken for new VMs
-- component: Kubic
-  create_time: 20190115T14:54:00
-  id: 1122024
-  resolution: ''
-  status: CONFIRMED
-  summary: '[Build20190112] Podman containers have no network after CNI configured
-    for kubeadm cluster'
-- component: X11 Applications
-  create_time: 20190115T14:54:00
-  id: 1122022
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190112] openQA test fails in vlc: VLC doesn''t play the video'
-- component: X11 Applications
-  create_time: 20190115T14:46:00
-  id: 1122018
-  resolution: ''
-  status: CONFIRMED
-  summary: '[Build 20190112] openQA test fails in inkscape: inkscape doesn''t start'
-- component: Other
-  create_time: 20190115T12:56:00
-  id: 1121995
-  resolution: ''
-  status: NEW
-  summary: 'live555: does not build shared libraries'
-- component: YaST2
-  create_time: 20190115T11:38:00
-  id: 1121991
-  resolution: ''
-  status: NEW
-  summary: 'TW20190110: Yast2-bootloader raises error in /usr/bin/grub2-editenv'
-- component: GNOME
-  create_time: 20190115T09:22:00
-  id: 1121963
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190112] openQA test fails in NM_wpa2_enterprise'
-- component: Installation
-  create_time: 20190115T08:46:00
-  id: 1121959
-  resolution: ''
-  status: NEW
-  summary: Installer crash when creating encrypted partition
-- component: Java
-  create_time: 20190115T08:43:00
-  id: 1121958
-  resolution: ''
-  status: NEW
-  summary: '[BuildCycle] java-cup, jflex, qdox'
-- component: Java
-  create_time: 20190115T08:41:00
-  id: 1121956
-  resolution: ''
-  status: NEW
-  summary: '[BuildCycle] hamcrest, jmock'
-- component: Other
-  create_time: 20190115T00:04:00
-  id: 1121920
-  resolution: ''
-  status: NEW
-  summary: 'PCP regression: monitoring agent binaries dropped from package'
 - component: Other
   create_time: 20190114T22:35:00
   id: 1121914
@@ -18268,3 +18134,144 @@
   resolution: WONTFIX
   status: RESOLVED
   summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
+'20190115':
+- component: KDE Workspace (Plasma)
+  create_time: 20190116T17:17:00
+  id: 1122227
+  resolution: ''
+  status: NEW
+  summary: Plasma + openGL compositing = unusable graphical glitches
+- component: Xfce
+  create_time: 20190116T15:07:00
+  id: 1122206
+  resolution: ''
+  status: NEW
+  summary: XFCE leaves user session after login
+- component: Basesystem
+  create_time: 20190116T12:46:00
+  id: 1122186
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: openblas build fails'
+- component: Basesystem
+  create_time: 20190116T12:19:00
+  id: 1122182
+  resolution: ''
+  status: IN_PROGRESS
+  summary: multipath broken on power on tumbleweed
+- component: YaST2
+  create_time: 20190116T12:10:00
+  id: 1122181
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190115] openQA test fails in user_settings - warning with password
+    complexity does not appear'
+- component: Basesystem
+  create_time: 20190116T11:51:00
+  id: 1122177
+  resolution: ''
+  status: NEW
+  summary: openblas package does fail when there's a test error
+- component: Other
+  create_time: 20190116T11:47:00
+  id: 1122176
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190115] openQA test fails in steam'
+- component: Basesystem
+  create_time: 20190116T11:17:00
+  id: 1122169
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: liblouis build fails'
+- component: Java
+  create_time: 20190116T11:08:00
+  id: 1122165
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190115] openQA test fails in swing'
+- component: Kubic
+  create_time: 20190116T10:27:00
+  id: 1122154
+  resolution: FIXED
+  status: RESOLVED
+  summary: openssh-askpass always pulled in with an update
+- component: AppArmor
+  create_time: 20190115T20:23:00
+  id: 1122063
+  resolution: ''
+  status: NEW
+  summary: apparmor should enforce auditd running
+- component: libzypp
+  create_time: 20190115T20:01:00
+  id: 1122062
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[1.14.20] Image build fails with "The flag reposd-dir requires a argument."'
+- component: Virtualization:Other
+  create_time: 20190115T19:22:00
+  id: 1122054
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Virtualization Snapshots broken for new VMs
+- component: Kubic
+  create_time: 20190115T14:54:00
+  id: 1122024
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build20190112] Podman containers have no network after CNI configured
+    for kubeadm cluster'
+- component: X11 Applications
+  create_time: 20190115T14:54:00
+  id: 1122022
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190112] openQA test fails in vlc: VLC doesn''t play the video'
+- component: X11 Applications
+  create_time: 20190115T14:46:00
+  id: 1122018
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build 20190112] openQA test fails in inkscape: inkscape doesn''t start'
+- component: Other
+  create_time: 20190115T12:56:00
+  id: 1121995
+  resolution: ''
+  status: NEW
+  summary: 'live555: does not build shared libraries'
+- component: YaST2
+  create_time: 20190115T11:38:00
+  id: 1121991
+  resolution: ''
+  status: NEW
+  summary: 'TW20190110: Yast2-bootloader raises error in /usr/bin/grub2-editenv'
+- component: GNOME
+  create_time: 20190115T09:22:00
+  id: 1121963
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190112] openQA test fails in NM_wpa2_enterprise'
+- component: Installation
+  create_time: 20190115T08:46:00
+  id: 1121959
+  resolution: ''
+  status: NEW
+  summary: Installer crash when creating encrypted partition
+- component: Java
+  create_time: 20190115T08:43:00
+  id: 1121958
+  resolution: ''
+  status: NEW
+  summary: '[BuildCycle] java-cup, jflex, qdox'
+- component: Java
+  create_time: 20190115T08:41:00
+  id: 1121956
+  resolution: ''
+  status: NEW
+  summary: '[BuildCycle] hamcrest, jmock'
+- component: Other
+  create_time: 20190115T00:04:00
+  id: 1121920
+  resolution: ''
+  status: NEW
+  summary: 'PCP regression: monitoring agent binaries dropped from package'
