@@ -3588,8 +3588,8 @@
 - component: Basesystem
   create_time: 20180211T17:37:00
   id: 1080485
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'dracut: device mapper cannot be disassembled  on shutdown'
 - component: Network
   create_time: 20180211T14:05:00
@@ -15541,8 +15541,8 @@
 - component: Other
   create_time: 20181114T17:23:00
   id: 1116064
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/python-pyparsing-doc fails to build'
 - component: Other
   create_time: 20181114T17:23:00
@@ -17766,8 +17766,8 @@
 - component: Installation
   create_time: 20190108T09:38:00
   id: 1121046
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190105] installer has no valid DNS resolution'
 - component: KVM
   create_time: 20190108T03:24:00
@@ -17830,8 +17830,8 @@
 - component: OpenStack
   create_time: 20190111T13:18:00
   id: 1121608
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[BuildCycle] python-os-service-types <-> python-keystoneauth1'
 - component: Virtualization:Other
   create_time: 20190111T12:47:00
@@ -17945,8 +17945,8 @@
 - component: YaST2
   create_time: 20190110T10:07:00
   id: 1121425
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Many YaST modules crash when they're opened on TW Snapshot 20190108
 - component: YaST2
   create_time: 20190110T09:59:00
@@ -18135,6 +18135,18 @@
   status: RESOLVED
   summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
 '20190115':
+- component: Kubic
+  create_time: 20190117T09:17:00
+  id: 1122296
+  resolution: ''
+  status: NEW
+  summary: openSUSE:Factory/kubic-kured-image is unresolvable for i586
+- component: Other
+  create_time: 20190117T06:41:00
+  id: 1122267
+  resolution: ''
+  status: NEW
+  summary: MongoDB SSPL v1 license and the DFSG
 - component: KDE Workspace (Plasma)
   create_time: 20190116T17:17:00
   id: 1122227
