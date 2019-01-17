@@ -3588,8 +3588,8 @@
 - component: Basesystem
   create_time: 20180211T17:37:00
   id: 1080485
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'dracut: device mapper cannot be disassembled  on shutdown'
 - component: Network
   create_time: 20180211T14:05:00
@@ -17657,7 +17657,7 @@
   create_time: 20190109T10:08:00
   id: 1121219
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: branding-preset-states doesn't handle timers
 - component: Basesystem
   create_time: 20190109T09:41:00
@@ -18135,6 +18135,18 @@
   status: RESOLVED
   summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
 '20190115':
+- component: KDE Workspace (Plasma)
+  create_time: 20190117T20:22:00
+  id: 1122415
+  resolution: ''
+  status: NEW
+  summary: Installing KDE pattern should not install nouveau if nvidia module is loaded
+- component: Other
+  create_time: 20190117T19:33:00
+  id: 1122410
+  resolution: ''
+  status: NEW
+  summary: lxqt-sudo does not pass $XAUTHLOCALHOSTNAME
 - component: Kernel
   create_time: 20190117T17:05:00
   id: 1122395
