@@ -1473,9 +1473,9 @@
     summary: openssh update
 '20190115':
   announcement: 2019-01.193
-  reference_count: 8
+  reference_count: 9
   thread_count: 1
   threads:
   - messages: [2019-01.204]
-    reference_count: 8
+    reference_count: 9
     summary: released!
