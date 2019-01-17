@@ -17503,8 +17503,8 @@
 - component: Basesystem
   create_time: 20181227T18:49:00
   id: 1120354
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'sudo 1.8.26: manpage broken'
 - component: Development
   create_time: 20181227T10:03:00
@@ -17570,8 +17570,8 @@
 - component: Security
   create_time: 20190109T15:09:00
   id: 1121277
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: firewalld does not copy permanent zone/interface mappings to running config
     on reload
 - component: Basesystem
@@ -17808,11 +17808,11 @@
   status: IN_PROGRESS
   summary: 'Black screen: Broken display code (amdgpu.dc=1) for Radeon R2/R3/R4/R5
     Graphics [1002:98e4]'
-- component: Basesystem
+- component: libzypp
   create_time: 20190111T13:25:00
   id: 1121611
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Repositories added from .repo file are not set to auto-refresh but `zypper
     ar --help` and the man page tells otherwise
 - component: OpenStack
@@ -17824,8 +17824,8 @@
 - component: OpenStack
   create_time: 20190111T13:20:00
   id: 1121609
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[BuildCycle] python-oslo.config <-> python-oslo.log'
 - component: OpenStack
   create_time: 20190111T13:18:00
@@ -17951,8 +17951,8 @@
 - component: YaST2
   create_time: 20190110T09:59:00
   id: 1121421
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '[Build 20190108] openQA AutoYaST installation fails with ''undefined method
     `hosts'' for nil:NilClass'' in save_network.rb'
 - component: Development
@@ -18135,6 +18135,25 @@
   status: RESOLVED
   summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
 '20190115':
+- component: Kernel
+  create_time: 20190117T17:05:00
+  id: 1122395
+  resolution: ''
+  status: NEW
+  summary: 'qemu-system-ppc64: KVM does not support 1TiB segments which guest expects
+    on ppc64le'
+- component: YaST2
+  create_time: 20190117T16:06:00
+  id: 1122387
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190112] Undefined method ''fetch'' occurs while saving Host Configuration'
+- component: KDE Workspace (Plasma)
+  create_time: 20190117T13:05:00
+  id: 1122357
+  resolution: ''
+  status: NEW
+  summary: Moving cursor at second monitor is switching  virtual desktops.
 - component: Kubic
   create_time: 20190117T09:17:00
   id: 1122296
@@ -18150,8 +18169,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190116T17:17:00
   id: 1122227
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Plasma + openGL compositing = unusable graphical glitches
 - component: Xfce
   create_time: 20190116T15:07:00
