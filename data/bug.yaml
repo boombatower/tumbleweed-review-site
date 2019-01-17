@@ -16877,8 +16877,8 @@
 - component: Other
   create_time: 20181215T14:06:00
   id: 1119636
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Backintime-qt4 does not start with ModuleNotFoundError: No module named
     ''PyQt4.sip'''
 - component: Basesystem
