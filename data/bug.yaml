@@ -5092,8 +5092,8 @@
 - component: Other
   create_time: 20180306T10:23:00
   id: 1084085
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Freetype2 new TrueType interpreter in release >= 2.6.4 broke full hinting
 - component: Other
   create_time: 20180306T09:50:00
@@ -16217,8 +16217,8 @@
 - component: Maintenance
   create_time: 20181125T15:56:00
   id: 1117235
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: online_update patches instead of dup on tumbleweed rendering it useless
 - component: Kernel
   create_time: 20181125T04:53:00
@@ -17094,8 +17094,8 @@
 - component: Other
   create_time: 20181221T08:00:00
   id: 1120170
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '[tmux] split-window/new-window behaviour changed when PWD differs from
     caller current directory'
 - component: Kernel
@@ -18135,6 +18135,36 @@
   status: RESOLVED
   summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
 '20190115':
+- component: Security
+  create_time: 20190118T10:26:00
+  id: 1122483
+  resolution: ''
+  status: NEW
+  summary: Boringssl fails to build for aarch64
+- component: YaST2
+  create_time: 20190118T09:43:00
+  id: 1122473
+  resolution: ''
+  status: NEW
+  summary: Error when starting Yast2 services manager
+- component: libzypp
+  create_time: 20190118T09:37:00
+  id: 1122471
+  resolution: ''
+  status: NEW
+  summary: zypper --root gets confused if rpm is uninstalled
+- component: Basesystem
+  create_time: 20190118T07:40:00
+  id: 1122455
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'transactional-update and rw-root-fs: error message during update'
+- component: YaST2
+  create_time: 20190118T07:06:00
+  id: 1122451
+  resolution: ''
+  status: NEW
+  summary: Yast ncurses does not open Network Settings perl error
 - component: KDE Workspace (Plasma)
   create_time: 20190117T20:22:00
   id: 1122415
@@ -18169,8 +18199,8 @@
 - component: Kubic
   create_time: 20190117T09:17:00
   id: 1122296
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: openSUSE:Factory/kubic-kured-image is unresolvable for i586
 - component: Other
   create_time: 20190117T06:41:00
@@ -18194,7 +18224,7 @@
   create_time: 20190116T12:46:00
   id: 1122186
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9: openblas build fails'
 - component: Basesystem
   create_time: 20190116T12:19:00
