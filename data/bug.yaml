@@ -2757,7 +2757,7 @@
   create_time: 20180131T10:56:00
   id: 1078485
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: python-base test_multiprocessing on self.assertTrue(got_signal[0]) failure
     ppc64le
 - component: Virtualization:Other
@@ -15132,8 +15132,8 @@
 - component: Basesystem
   create_time: 20181109T14:50:00
   id: 1115446
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'mailman: migrate from cron to systemd timers'
 - component: Basesystem
   create_time: 20181109T14:49:00
@@ -18135,6 +18135,18 @@
   status: RESOLVED
   summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
 '20190115':
+- component: YaST2
+  create_time: 20190118T19:36:00
+  id: 1122534
+  resolution: ''
+  status: NEW
+  summary: yast-samba-client sometimes fails to join, finding server unreliable
+- component: YaST2
+  create_time: 20190118T19:22:00
+  id: 1122532
+  resolution: FIXED
+  status: RESOLVED
+  summary: Python modules can't be import via yast-python-bindings
 - component: Other
   create_time: 20190118T14:05:00
   id: 1122506
