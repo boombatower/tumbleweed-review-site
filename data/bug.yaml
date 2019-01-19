@@ -18135,6 +18135,12 @@
   status: RESOLVED
   summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
 '20190115':
+- component: Network
+  create_time: 20190119T04:42:00
+  id: 1122555
+  resolution: ''
+  status: NEW
+  summary: Qomui DNS leaks on Tumbleweed
 - component: YaST2
   create_time: 20190118T19:36:00
   id: 1122534
