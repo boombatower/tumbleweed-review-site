@@ -18135,6 +18135,19 @@
   status: RESOLVED
   summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
 '20190115':
+- component: Kernel
+  create_time: 20190119T08:58:00
+  id: 1122557
+  resolution: ''
+  status: NEW
+  summary: 'Since update to kernel 4.20.1 boot stops with error "device-mapper: table:
+    table load rejected: not all devices are blk-mq request-stackable"'
+- component: YaST2
+  create_time: 20190119T08:37:00
+  id: 1122556
+  resolution: ''
+  status: NEW
+  summary: Yast2 Hostnames module issue
 - component: Network
   create_time: 20190119T04:42:00
   id: 1122555
