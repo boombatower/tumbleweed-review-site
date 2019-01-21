@@ -441,8 +441,8 @@
 - component: Other
   create_time: 20171206T16:11:00
   id: 1071566
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: openSUSE:Factory/tomoe-gtk fails to build
 - component: Other
   create_time: 20171206T16:10:00
@@ -938,8 +938,8 @@
 - component: Installation
   create_time: 20171222T16:03:00
   id: 1074012
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: pdflatex.fmt missing
 - component: X.Org
   create_time: 20171222T13:34:00
@@ -11507,8 +11507,8 @@
 - component: Kernel
   create_time: 20180814T16:49:00
   id: 1104833
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Initramfs unpacking failed: junk in compressed archive'
 - component: Kubic
   create_time: 20180814T15:28:00
@@ -13405,7 +13405,7 @@
   create_time: 20181010T14:48:00
   id: 1111414
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: snapper's background comparison makes the system unusable
 - component: Samba
   create_time: 20181010T11:42:00
@@ -17120,7 +17120,7 @@
   create_time: 20181220T14:47:00
   id: 1120090
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Flickering screen since 20181214
 - component: Other
   create_time: 20181220T12:36:00
@@ -17317,7 +17317,7 @@
   create_time: 20190104T15:11:00
   id: 1120793
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: aarch64 bootloader YaST has wrong UI layout on start-up
 - component: Basesystem
   create_time: 20190104T14:04:00
@@ -17431,8 +17431,8 @@
 - component: Other
   create_time: 20181231T01:50:00
   id: 1120407
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Epson XP-340 Series Scanner Driver Required
 - component: X.Org
   create_time: 20181230T22:27:00
@@ -18058,7 +18058,7 @@
   create_time: 20190114T14:15:00
   id: 1121865
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: undefined method `_' for FastGettext::Translation:Module
 - component: Other
   create_time: 20190114T13:10:00
@@ -18135,6 +18135,61 @@
   status: RESOLVED
   summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
 '20190115':
+- component: GNOME
+  create_time: 20190121T19:00:00
+  id: 1122687
+  resolution: ''
+  status: NEW
+  summary: Polari missing dependency (typelib-1_0-Gspell-1)
+- component: Basesystem
+  create_time: 20190121T14:39:00
+  id: 1122665
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'libtirpc-devel: incorrect header location'
+- component: Other
+  create_time: 20190121T14:38:00
+  id: 1122664
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190112] Password prompt is not always automatically focused causing
+    a regression'
+- component: Basesystem
+  create_time: 20190121T12:30:00
+  id: 1122649
+  resolution: ''
+  status: NEW
+  summary: armv7 boards are not able to suspend properly
+- component: Kernel
+  create_time: 20190121T12:18:00
+  id: 1122646
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Touchscreen driver fails to load (i2c-ELAN0732:00)
+- component: Bootloader
+  create_time: 20190121T10:43:00
+  id: 1122614
+  resolution: ''
+  status: NEW
+  summary: armv7 efistub enablement missing in GRUB2
+- component: Other
+  create_time: 20190120T22:19:00
+  id: 1122573
+  resolution: ''
+  status: NEW
+  summary: octave-forge packages in repo link against old octave version
+- component: KDE Workspace (Plasma)
+  create_time: 20190119T17:46:00
+  id: 1122562
+  resolution: ''
+  status: NEW
+  summary: US keyboard layout always come out of no where after reboot.
+- component: Other
+  create_time: 20190119T16:21:00
+  id: 1122561
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openSUSE:Factory/mongodb is out of date'
 - component: Kernel
   create_time: 20190119T08:58:00
   id: 1122557
@@ -18145,9 +18200,9 @@
 - component: YaST2
   create_time: 20190119T08:37:00
   id: 1122556
-  resolution: ''
-  status: NEW
-  summary: Yast2 Hostnames module issue
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'Yast2 Hostnames internal error: Undefined method ''fetch'' for <Yast::Term::...>'
 - component: Network
   create_time: 20190119T04:42:00
   id: 1122555
@@ -18193,8 +18248,8 @@
 - component: libzypp
   create_time: 20190118T09:37:00
   id: 1122471
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: zypper --root gets confused if rpm is uninstalled
 - component: Basesystem
   create_time: 20190118T07:40:00
@@ -18370,8 +18425,8 @@
 - component: Installation
   create_time: 20190115T08:46:00
   id: 1121959
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Installer crash when creating encrypted partition
 - component: Java
   create_time: 20190115T08:43:00
