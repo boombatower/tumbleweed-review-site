@@ -17632,8 +17632,8 @@
 - component: Basesystem
   create_time: 20190109T12:56:00
   id: 1121251
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: dracut's 01-dist.conf is missing a space in omit_drivers
 - component: Development
   create_time: 20190109T12:49:00
