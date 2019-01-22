@@ -16969,8 +16969,8 @@
 - component: libzypp
   create_time: 20181218T17:31:00
   id: 1119873
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'zypper search: inconsistent results for `-t package kernel-default` vs
     `package:kernel-default`'
 - component: Other
@@ -17026,8 +17026,8 @@
 - component: libzypp
   create_time: 20181223T00:30:00
   id: 1120263
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: zypper ps should mention "reboot needed
 - component: X11 Applications
   create_time: 20181222T20:56:00
@@ -18128,6 +18128,25 @@
   status: RESOLVED
   summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
 '20190115':
+- component: Kubic
+  create_time: 20190122T17:32:00
+  id: 1122799
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed base container on hub.docker.com broken, contains 2 layers,
+    1 expected
+- component: Commercial
+  create_time: 20190122T17:23:00
+  id: 1122798
+  resolution: ''
+  status: NEW
+  summary: Nvidia 390.87 issue kernel 4.20
+- component: Patterns
+  create_time: 20190122T15:01:00
+  id: 1122778
+  resolution: ''
+  status: NEW
+  summary: x11 pattern recommends YaST and x11_opt
 - component: YaST2
   create_time: 20190122T10:24:00
   id: 1122746
@@ -18348,6 +18367,12 @@
   resolution: ''
   status: NEW
   summary: '[Build 20190115] openQA test fails in steam'
+- component: Installation
+  create_time: 20190116T11:45:00
+  id: 1122174
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build 142.1] multiple missing icons'
 - component: Basesystem
   create_time: 20190116T11:17:00
   id: 1122169
