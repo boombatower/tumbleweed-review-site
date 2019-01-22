@@ -1473,11 +1473,11 @@
     summary: openssh update
 '20190115':
   announcement: 2019-01.193
-  reference_count: 10
+  reference_count: 12
   thread_count: 2
   threads:
   - messages: [2019-01.204]
-    reference_count: 9
+    reference_count: 11
     summary: released!
   - messages: [2019-01.357]
     reference_count: 1
