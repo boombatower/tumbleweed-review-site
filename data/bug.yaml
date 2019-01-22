@@ -16437,8 +16437,8 @@
 - component: Upgrade Problems
   create_time: 20181201T18:07:00
   id: 1118044
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: After upgrade of Tumbleweed 20180310 -> 20181129 the firewall (SuSEfirewall2)
     prevents ssh login
 - component: GNOME
@@ -17027,7 +17027,7 @@
   create_time: 20181223T00:30:00
   id: 1120263
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: zypper ps should mention "reboot needed
 - component: X11 Applications
   create_time: 20181222T20:56:00
@@ -17091,13 +17091,6 @@
   resolution: ''
   status: IN_PROGRESS
   summary: KDE Plasma screen tearing in X11 with Intel GPU
-- component: Other
-  create_time: 20181221T08:00:00
-  id: 1120170
-  resolution: ''
-  status: REOPENED
-  summary: '[tmux] split-window/new-window behaviour changed when PWD differs from
-    caller current directory'
 - component: Kernel
   create_time: 20181221T07:07:00
   id: 1120162
@@ -17818,8 +17811,8 @@
 - component: OpenStack
   create_time: 20190111T13:24:00
   id: 1121610
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[BuildCycle] python-cliff, python-stestr, python-stevedore'
 - component: OpenStack
   create_time: 20190111T13:20:00
@@ -18135,6 +18128,12 @@
   status: RESOLVED
   summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
 '20190115':
+- component: YaST2
+  create_time: 20190122T10:24:00
+  id: 1122746
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: YaST partitioner GUI application crashes upon start
 - component: GNOME
   create_time: 20190121T19:00:00
   id: 1122687
@@ -18286,7 +18285,7 @@
   create_time: 20190117T16:06:00
   id: 1122387
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20190112] Undefined method ''fetch'' occurs while saving Host Configuration'
 - component: KDE Workspace (Plasma)
   create_time: 20190117T13:05:00
