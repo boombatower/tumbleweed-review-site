@@ -17649,8 +17649,8 @@
 - component: Basesystem
   create_time: 20190109T10:08:00
   id: 1121219
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: branding-preset-states doesn't handle timers
 - component: Basesystem
   create_time: 20190109T09:41:00
@@ -18128,11 +18128,18 @@
   status: RESOLVED
   summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
 '20190115':
+- component: Installation
+  create_time: 20190122T19:27:00
+  id: 1122804
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190121] openQA test fails in user_settings with high occurence
+    of mistyping of capital letters, potentially since submission of Qt 5.12'
 - component: Kubic
   create_time: 20190122T17:32:00
   id: 1122799
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Tumbleweed base container on hub.docker.com broken, contains 2 layers,
     1 expected
 - component: Commercial
@@ -18140,7 +18147,7 @@
   id: 1122798
   resolution: ''
   status: NEW
-  summary: Nvidia 390.87 issue kernel 4.20
+  summary: Nvidia 390.87 issue installation on kernel 4.20
 - component: Patterns
   create_time: 20190122T15:01:00
   id: 1122778
