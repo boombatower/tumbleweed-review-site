@@ -1473,9 +1473,12 @@
     summary: openssh update
 '20190115':
   announcement: 2019-01.193
-  reference_count: 9
-  thread_count: 1
+  reference_count: 10
+  thread_count: 2
   threads:
   - messages: [2019-01.204]
     reference_count: 9
     summary: released!
+  - messages: [2019-01.357]
+    reference_count: 1
+    summary: 'TW 2019011[05]: Suspend issue w. two monitors'
