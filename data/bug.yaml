@@ -18128,6 +18128,12 @@
   status: RESOLVED
   summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
 '20190115':
+- component: YaST2
+  create_time: 20190123T02:01:00
+  id: 1122828
+  resolution: ''
+  status: NEW
+  summary: Recommended packages randomly disabled during fresh install
 - component: Installation
   create_time: 20190122T19:27:00
   id: 1122804
