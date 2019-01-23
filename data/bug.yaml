@@ -16515,8 +16515,8 @@
 - component: Basesystem
   create_time: 20181204T22:01:00
   id: 1118400
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: EXT4 FS Installed and xfs and btrfs services installed
 - component: Network
   create_time: 20181204T17:47:00
@@ -17578,7 +17578,7 @@
   id: 1121274
   resolution: ''
   status: IN_PROGRESS
-  summary: '[Build 20190105] internal error when trying to edit settings in yast apparrmor
+  summary: '[Build 20190105] internal error when trying to edit settings in yast apparmor
     module'
 - component: Basesystem
   create_time: 20190109T14:29:00
@@ -18050,8 +18050,8 @@
 - component: YaST2
   create_time: 20190114T14:15:00
   id: 1121865
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: undefined method `_' for FastGettext::Translation:Module
 - component: Other
   create_time: 20190114T13:10:00
@@ -18128,20 +18128,38 @@
   status: RESOLVED
   summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
 '20190115':
+- component: Installation
+  create_time: 20190123T10:49:00
+  id: 1122867
+  resolution: ''
+  status: CONFIRMED
+  summary: Do not set "acl,user_xattr" mount options for EXT filesystems
+- component: Development
+  create_time: 20190123T09:30:00
+  id: 1122855
+  resolution: ''
+  status: NEW
+  summary: fpc fails to build on obs-arm-7 worker only
+- component: Kernel
+  create_time: 20190123T08:23:00
+  id: 1122847
+  resolution: ''
+  status: NEW
+  summary: mmc is broken on some armv7 boards
 - component: YaST2
   create_time: 20190123T02:01:00
   id: 1122828
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Recommended packages randomly disabled during fresh install
-- component: Installation
+- component: Other
   create_time: 20190122T19:27:00
   id: 1122804
   resolution: ''
   status: NEW
   summary: '[Build 20190121] openQA test fails in user_settings with high occurence
     of mistyping of capital letters, potentially since submission of Qt 5.12'
-- component: Kubic
+- component: Other
   create_time: 20190122T17:32:00
   id: 1122799
   resolution: ''
@@ -18316,8 +18334,8 @@
 - component: YaST2
   create_time: 20190117T16:06:00
   id: 1122387
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190112] Undefined method ''fetch'' occurs while saving Host Configuration'
 - component: KDE Workspace (Plasma)
   create_time: 20190117T13:05:00
@@ -18335,7 +18353,7 @@
   create_time: 20190117T06:41:00
   id: 1122267
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: MongoDB SSPL v1 license and the DFSG
 - component: KDE Workspace (Plasma)
   create_time: 20190116T17:17:00
