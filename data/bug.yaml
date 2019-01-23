@@ -16684,8 +16684,8 @@
 - component: Virtualization:Other
   create_time: 20181210T11:43:00
   id: 1118952
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: AppArmor profile update
 - component: Basesystem
   create_time: 20181210T10:38:00
@@ -17919,8 +17919,8 @@
 - component: Basesystem
   create_time: 20190110T14:21:00
   id: 1121463
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: virtualbox build fails'
 - component: GNOME
   create_time: 20190110T13:37:00
@@ -18037,8 +18037,8 @@
 - component: Other
   create_time: 20190114T15:17:00
   id: 1121877
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: open-iscsi not using %license
 - component: Other
   create_time: 20190114T15:06:00
@@ -18128,105 +18128,6 @@
   status: RESOLVED
   summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
 '20190115':
-- component: Other
-  create_time: 20190123T13:54:00
-  id: 1122892
-  resolution: ''
-  status: NEW
-  summary: sysconfig variable for postgresql's initdb
-- component: Installation
-  create_time: 20190123T10:49:00
-  id: 1122867
-  resolution: ''
-  status: CONFIRMED
-  summary: Do not set "acl,user_xattr" mount options for EXT filesystems
-- component: Development
-  create_time: 20190123T09:30:00
-  id: 1122855
-  resolution: ''
-  status: NEW
-  summary: fpc fails to build on obs-arm-7 worker only
-- component: Kernel
-  create_time: 20190123T08:23:00
-  id: 1122847
-  resolution: ''
-  status: NEW
-  summary: mmc is broken on some armv7 boards
-- component: YaST2
-  create_time: 20190123T02:01:00
-  id: 1122828
-  resolution: NORESPONSE
-  status: RESOLVED
-  summary: Recommended packages randomly disabled during fresh install
-- component: Other
-  create_time: 20190122T19:27:00
-  id: 1122804
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190121] openQA test fails in user_settings with high occurence
-    of mistyping of capital letters, potentially since submission of Qt 5.12'
-- component: Other
-  create_time: 20190122T17:32:00
-  id: 1122799
-  resolution: ''
-  status: CONFIRMED
-  summary: Tumbleweed base container on hub.docker.com broken, contains 2 layers,
-    1 expected
-- component: Commercial
-  create_time: 20190122T17:23:00
-  id: 1122798
-  resolution: ''
-  status: NEW
-  summary: Nvidia 390.87 issue installation on kernel 4.20
-- component: Patterns
-  create_time: 20190122T15:01:00
-  id: 1122778
-  resolution: ''
-  status: NEW
-  summary: x11 pattern recommends YaST and x11_opt
-- component: YaST2
-  create_time: 20190122T10:24:00
-  id: 1122746
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: YaST partitioner GUI application crashes upon start
-- component: GNOME
-  create_time: 20190121T19:00:00
-  id: 1122687
-  resolution: ''
-  status: NEW
-  summary: Polari missing dependency (typelib-1_0-Gspell-1)
-- component: Basesystem
-  create_time: 20190121T14:39:00
-  id: 1122665
-  resolution: INVALID
-  status: RESOLVED
-  summary: 'libtirpc-devel: incorrect header location'
-- component: Other
-  create_time: 20190121T14:38:00
-  id: 1122664
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190112] Password prompt is not always automatically focused causing
-    a regression'
-- component: Basesystem
-  create_time: 20190121T12:30:00
-  id: 1122649
-  resolution: ''
-  status: NEW
-  summary: armv7 boards are not able to suspend properly
-- component: Kernel
-  create_time: 20190121T12:18:00
-  id: 1122646
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: Touchscreen driver fails to load (i2c-ELAN0732:00)
-- component: Bootloader
-  create_time: 20190121T10:43:00
-  id: 1122614
-  resolution: ''
-  status: NEW
-  summary: armv7 efistub enablement missing in GRUB2
 - component: Other
   create_time: 20190120T22:19:00
   id: 1122573
@@ -18507,3 +18408,110 @@
   resolution: ''
   status: NEW
   summary: 'PCP regression: monitoring agent binaries dropped from package'
+'20190121':
+- component: Firefox
+  create_time: 20190123T17:54:00
+  id: 1122928
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Firefox can't access the Internet without restarting if the network changed
+    or if you had to reconnect to a network if the connection was lost
+- component: Other
+  create_time: 20190123T13:54:00
+  id: 1122892
+  resolution: ''
+  status: NEW
+  summary: sysconfig variable for postgresql's initdb
+- component: Installation
+  create_time: 20190123T10:49:00
+  id: 1122867
+  resolution: ''
+  status: CONFIRMED
+  summary: Do not set "acl,user_xattr" mount options for EXT filesystems
+- component: Development
+  create_time: 20190123T09:30:00
+  id: 1122855
+  resolution: ''
+  status: NEW
+  summary: fpc fails to build on obs-arm-7 worker only
+- component: Kernel
+  create_time: 20190123T08:23:00
+  id: 1122847
+  resolution: ''
+  status: NEW
+  summary: mmc is broken on some armv7 boards
+- component: YaST2
+  create_time: 20190123T02:01:00
+  id: 1122828
+  resolution: NORESPONSE
+  status: RESOLVED
+  summary: Recommended packages randomly disabled during fresh install
+- component: Other
+  create_time: 20190122T19:27:00
+  id: 1122804
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190121] openQA test fails in user_settings with high occurence
+    of mistyping of capital letters, potentially since submission of Qt 5.12'
+- component: Other
+  create_time: 20190122T17:32:00
+  id: 1122799
+  resolution: ''
+  status: CONFIRMED
+  summary: Tumbleweed base container on hub.docker.com broken, contains 2 layers,
+    1 expected
+- component: Commercial
+  create_time: 20190122T17:23:00
+  id: 1122798
+  resolution: ''
+  status: NEW
+  summary: Nvidia 390.87 issue installation on kernel 4.20
+- component: Patterns
+  create_time: 20190122T15:01:00
+  id: 1122778
+  resolution: ''
+  status: NEW
+  summary: x11 pattern recommends YaST and x11_opt
+- component: YaST2
+  create_time: 20190122T10:24:00
+  id: 1122746
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: YaST partitioner GUI application crashes upon start
+- component: GNOME
+  create_time: 20190121T19:00:00
+  id: 1122687
+  resolution: ''
+  status: NEW
+  summary: Polari missing dependency (typelib-1_0-Gspell-1)
+- component: Basesystem
+  create_time: 20190121T14:39:00
+  id: 1122665
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'libtirpc-devel: incorrect header location'
+- component: Other
+  create_time: 20190121T14:38:00
+  id: 1122664
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190112] Password prompt is not always automatically focused causing
+    a regression'
+- component: Basesystem
+  create_time: 20190121T12:30:00
+  id: 1122649
+  resolution: ''
+  status: NEW
+  summary: armv7 boards are not able to suspend properly
+- component: Kernel
+  create_time: 20190121T12:18:00
+  id: 1122646
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Touchscreen driver fails to load (i2c-ELAN0732:00)
+- component: Bootloader
+  create_time: 20190121T10:43:00
+  id: 1122614
+  resolution: ''
+  status: NEW
+  summary: armv7 efistub enablement missing in GRUB2
