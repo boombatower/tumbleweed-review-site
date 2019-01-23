@@ -13404,8 +13404,8 @@
 - component: Kernel
   create_time: 20181010T14:48:00
   id: 1111414
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: snapper's background comparison makes the system unusable
 - component: Samba
   create_time: 20181010T11:42:00
@@ -16148,8 +16148,8 @@
 - component: LibreOffice
   create_time: 20181118T10:41:00
   id: 1116451
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Use new help system for libreoffice
 - component: Development
   create_time: 20181118T10:08:00
@@ -17145,7 +17145,7 @@
   create_time: 20190107T21:13:00
   id: 1120979
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'Retaining existing Software RAID via AutoYast is broken: "can''t find
     reusable device"'
 - component: Other
@@ -18118,7 +18118,7 @@
   create_time: 20190112T19:15:00
   id: 1121720
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'Retaining existing Software RAID via AutoYast is broken: y2storage always
     formats MD'
 - component: Upgrade Problems
@@ -18128,6 +18128,12 @@
   status: RESOLVED
   summary: perl-Mcrypt and libmcrypt won't install, only 32bit in repo
 '20190115':
+- component: Other
+  create_time: 20190123T13:54:00
+  id: 1122892
+  resolution: ''
+  status: NEW
+  summary: sysconfig variable for postgresql's initdb
 - component: Installation
   create_time: 20190123T10:49:00
   id: 1122867
@@ -18468,8 +18474,8 @@
 - component: YaST2
   create_time: 20190115T11:38:00
   id: 1121991
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'TW20190110: Yast2-bootloader raises error in /usr/bin/grub2-editenv'
 - component: GNOME
   create_time: 20190115T09:22:00
