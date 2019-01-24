@@ -10336,7 +10336,7 @@
   create_time: 20180711T21:54:00
   id: 1100949
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'gtk-recordMyDesktop: should require xwininfo'
 - component: Kernel
   create_time: 20180711T19:39:00
@@ -17088,8 +17088,8 @@
 - component: X.Org
   create_time: 20181221T08:16:00
   id: 1120172
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: KDE Plasma screen tearing in X11 with Intel GPU
 - component: Kernel
   create_time: 20181221T07:07:00
@@ -17576,8 +17576,8 @@
 - component: AppArmor
   create_time: 20190109T15:01:00
   id: 1121274
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190105] internal error when trying to edit settings in yast apparmor
     module'
 - component: Basesystem
@@ -17883,8 +17883,8 @@
 - component: X.Org
   create_time: 20190111T03:17:00
   id: 1121525
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: xorg-x11-driver-input should not recommend xf86-input-{mouse,keyboard,joystick,vmmouse}
 - component: GNOME
   create_time: 20190110T23:17:00
@@ -18409,17 +18409,35 @@
   status: NEW
   summary: 'PCP regression: monitoring agent binaries dropped from package'
 '20190121':
+- component: YaST2
+  create_time: 20190124T16:35:00
+  id: 1123069
+  resolution: ''
+  status: NEW
+  summary: yast2 unable to open "Date and Time"
+- component: X11 3rd Party Driver
+  create_time: 20190124T15:07:00
+  id: 1123058
+  resolution: ''
+  status: IN_PROGRESS
+  summary: no nvidia kernel symbols for 4.20
+- component: Other
+  create_time: 20190124T13:20:00
+  id: 1123047
+  resolution: ''
+  status: NEW
+  summary: pdfcompare broken since Python 2 -> Python 3 conversion
 - component: Installation
   create_time: 20190124T08:56:00
   id: 1122994
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[installation-images] Follow changes of ''nfs-utils'''
 - component: Installation
   create_time: 20190124T08:50:00
   id: 1122992
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[installation-images] Follow changes of ''grub2'''
 - component: Other
   create_time: 20190124T08:15:00
