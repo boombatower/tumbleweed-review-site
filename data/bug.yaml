@@ -17944,8 +17944,8 @@
 - component: YaST2
   create_time: 20190110T09:59:00
   id: 1121421
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190108] openQA AutoYaST installation fails with ''undefined method
     `hosts'' for nil:NilClass'' in save_network.rb'
 - component: Development
@@ -18074,8 +18074,8 @@
 - component: YaST2
   create_time: 20190114T11:13:00
   id: 1121830
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: '[Build 20190111] openQA test fails in yast2_lan_hostname - unplanned changes
     in yast2 lan UI'
 - component: Other
@@ -18409,6 +18409,24 @@
   status: NEW
   summary: 'PCP regression: monitoring agent binaries dropped from package'
 '20190121':
+- component: Installation
+  create_time: 20190124T08:56:00
+  id: 1122994
+  resolution: ''
+  status: NEW
+  summary: '[installation-images] Follow changes of ''nfs-utils'''
+- component: Installation
+  create_time: 20190124T08:50:00
+  id: 1122992
+  resolution: ''
+  status: NEW
+  summary: '[installation-images] Follow changes of ''grub2'''
+- component: Other
+  create_time: 20190124T08:15:00
+  id: 1122987
+  resolution: ''
+  status: NEW
+  summary: python-mitmproxy broken on Tumbleweed.
 - component: Firefox
   create_time: 20190123T17:54:00
   id: 1122928
