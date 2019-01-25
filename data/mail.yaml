@@ -1484,9 +1484,12 @@
     summary: 'TW 2019011[05]: Suspend issue w. two monitors'
 '20190121':
   announcement: 2019-01.370
-  reference_count: 4
-  thread_count: 1
+  reference_count: 10
+  thread_count: 2
   threads:
   - messages: [2019-01.372]
-    reference_count: 4
+    reference_count: 8
     summary: failed to summarize
+  - messages: [2019-01.379]
+    reference_count: 2
+    summary: rubygem-activesupport isn't installable
