@@ -18409,6 +18409,12 @@
   status: NEW
   summary: 'PCP regression: monitoring agent binaries dropped from package'
 '20190121':
+- component: Translations
+  create_time: 20190124T23:05:00
+  id: 1123088
+  resolution: ''
+  status: NEW
+  summary: 'virtualbox-qt: Grammar and wording in VBoxPermissions is unnatural'
 - component: YaST2
   create_time: 20190124T16:35:00
   id: 1123069
@@ -18420,7 +18426,7 @@
   id: 1123058
   resolution: ''
   status: IN_PROGRESS
-  summary: no nvidia kernel symbols for 4.20
+  summary: Kernel 4.20 breaks build of 390.87 (G04) driver
 - component: Other
   create_time: 20190124T13:20:00
   id: 1123047
