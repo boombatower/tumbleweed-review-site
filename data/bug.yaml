@@ -9304,8 +9304,8 @@
 - component: Other
   create_time: 20180614T07:49:00
   id: 1097611
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180608] packages conflicting suggesting to downgrade: kubernetes-kubeadm
     & kubernetes-master'
 - component: Development
@@ -15596,8 +15596,8 @@
 - component: Virtualization:Tools
   create_time: 20181114T16:29:00
   id: 1116050
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by virtualbox into native systemd services
 - component: Other
   create_time: 20181114T16:25:00
@@ -17088,7 +17088,7 @@
 - component: X.Org
   create_time: 20181221T08:16:00
   id: 1120172
-  resolution: FIXED
+  resolution: DUPLICATE
   status: RESOLVED
   summary: KDE Plasma screen tearing in X11 with Intel GPU
 - component: Kernel
@@ -17112,8 +17112,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20181220T14:47:00
   id: 1120090
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Flickering screen since 20181214
 - component: Other
   create_time: 20181220T12:36:00
@@ -18200,7 +18200,7 @@
   id: 1122473
   resolution: ''
   status: IN_PROGRESS
-  summary: Error when starting Yast2 services manager
+  summary: ncurses yast2 control center cannot start any modules
 - component: libzypp
   create_time: 20190118T09:37:00
   id: 1122471
@@ -18409,6 +18409,44 @@
   status: NEW
   summary: 'PCP regression: monitoring agent binaries dropped from package'
 '20190121':
+- component: Kernel
+  create_time: 20190125T16:40:00
+  id: 1123198
+  resolution: ''
+  status: NEW
+  summary: rtl8723de wifi
+- component: Other
+  create_time: 20190125T13:35:00
+  id: 1123170
+  resolution: ''
+  status: NEW
+  summary: armv7 images build in Tumbleweed have a broken EFI partition
+- component: YaST2
+  create_time: 20190125T12:45:00
+  id: 1123165
+  resolution: ''
+  status: NEW
+  summary: yast2-rmt crashes with "yast/wfm.rb:253 Client /usr/share/YaST2/clients/rmt.rb
+    failed with 'Service unit 'mysql' not found'" when started within docker container
+- component: Basesystem
+  create_time: 20190125T09:27:00
+  id: 1123136
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: dovecot23 build fails'
+- component: Cloud:Images
+  create_time: 20190125T08:00:00
+  id: 1123119
+  resolution: FIXED
+  status: RESOLVED
+  summary: podman 1.0 update broke building (in OBS only?)
+- component: Ruby
+  create_time: 20190125T07:58:00
+  id: 1123118
+  resolution: ''
+  status: NEW
+  summary: rubygem-activesupport-5.2 couldn't be installed due to lack of tzinfo:1
+    dependency
 - component: Translations
   create_time: 20190124T23:05:00
   id: 1123088
@@ -18418,8 +18456,8 @@
 - component: YaST2
   create_time: 20190124T16:35:00
   id: 1123069
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: yast2 unable to open "Date and Time"
 - component: X11 3rd Party Driver
   create_time: 20190124T15:07:00
