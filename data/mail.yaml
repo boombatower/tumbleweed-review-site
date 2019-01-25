@@ -1484,9 +1484,9 @@
     summary: 'TW 2019011[05]: Suspend issue w. two monitors'
 '20190121':
   announcement: 2019-01.370
-  reference_count: 1
+  reference_count: 4
   thread_count: 1
   threads:
   - messages: [2019-01.372]
-    reference_count: 1
+    reference_count: 4
     summary: failed to summarize
