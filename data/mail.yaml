@@ -1493,3 +1493,8 @@
   - messages: [2019-01.379]
     reference_count: 2
     summary: rubygem-activesupport isn't installable
+'20190124':
+  announcement: 2019-01.462
+  reference_count: 0
+  thread_count: 0
+  threads: []
