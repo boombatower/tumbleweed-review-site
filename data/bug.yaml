@@ -17327,8 +17327,8 @@
 - component: Other
   create_time: 20190104T10:38:00
   id: 1120759
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: perl SIGSEGV with Term::ReadLine call readline()
 - component: Basesystem
   create_time: 20190104T10:07:00
@@ -18409,93 +18409,6 @@
   status: NEW
   summary: 'PCP regression: monitoring agent binaries dropped from package'
 '20190121':
-- component: YaST2
-  create_time: 20190126T06:05:00
-  id: 1123239
-  resolution: ''
-  status: NEW
-  summary: Launching "Systemd Journal" via menu shortcut should elevate permissions
-    like other YaST modules
-- component: Kernel
-  create_time: 20190125T16:40:00
-  id: 1123198
-  resolution: ''
-  status: NEW
-  summary: rtl8723de wifi
-- component: Other
-  create_time: 20190125T13:35:00
-  id: 1123170
-  resolution: ''
-  status: NEW
-  summary: armv7 images build in Tumbleweed have a broken EFI partition
-- component: YaST2
-  create_time: 20190125T12:45:00
-  id: 1123165
-  resolution: ''
-  status: NEW
-  summary: yast2-rmt crashes with "yast/wfm.rb:253 Client /usr/share/YaST2/clients/rmt.rb
-    failed with 'Service unit 'mysql' not found'" when started within docker container
-- component: Basesystem
-  create_time: 20190125T09:27:00
-  id: 1123136
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: dovecot23 build fails'
-- component: Cloud:Images
-  create_time: 20190125T08:00:00
-  id: 1123119
-  resolution: FIXED
-  status: RESOLVED
-  summary: podman 1.0 update broke building (in OBS only?)
-- component: Ruby
-  create_time: 20190125T07:58:00
-  id: 1123118
-  resolution: ''
-  status: NEW
-  summary: rubygem-activesupport-5.2 couldn't be installed due to lack of tzinfo:1
-    dependency
-- component: Translations
-  create_time: 20190124T23:05:00
-  id: 1123088
-  resolution: ''
-  status: NEW
-  summary: 'virtualbox-qt: Grammar and wording in VBoxPermissions is unnatural'
-- component: YaST2
-  create_time: 20190124T16:35:00
-  id: 1123069
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: yast2 unable to open "Date and Time"
-- component: X11 3rd Party Driver
-  create_time: 20190124T15:07:00
-  id: 1123058
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Kernel 4.20 breaks build of 390.87 (G04) driver
-- component: Other
-  create_time: 20190124T13:20:00
-  id: 1123047
-  resolution: ''
-  status: NEW
-  summary: pdfcompare broken since Python 2 -> Python 3 conversion
-- component: Installation
-  create_time: 20190124T08:56:00
-  id: 1122994
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[installation-images] Follow changes of ''nfs-utils'''
-- component: Installation
-  create_time: 20190124T08:50:00
-  id: 1122992
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[installation-images] Follow changes of ''grub2'''
-- component: Other
-  create_time: 20190124T08:15:00
-  id: 1122987
-  resolution: ''
-  status: NEW
-  summary: python-mitmproxy broken on Tumbleweed.
 - component: Firefox
   create_time: 20190123T17:54:00
   id: 1122928
@@ -18602,3 +18515,91 @@
   resolution: ''
   status: NEW
   summary: armv7 efistub enablement missing in GRUB2
+'20190124':
+- component: YaST2
+  create_time: 20190126T06:05:00
+  id: 1123239
+  resolution: ''
+  status: NEW
+  summary: Launching "Systemd Journal" via menu shortcut should elevate permissions
+    like other YaST modules
+- component: Kernel
+  create_time: 20190125T16:40:00
+  id: 1123198
+  resolution: ''
+  status: NEW
+  summary: rtl8723de wifi
+- component: Other
+  create_time: 20190125T13:35:00
+  id: 1123170
+  resolution: ''
+  status: NEW
+  summary: armv7 images build in Tumbleweed have a broken EFI partition
+- component: YaST2
+  create_time: 20190125T12:45:00
+  id: 1123165
+  resolution: ''
+  status: NEW
+  summary: yast2-rmt crashes with "yast/wfm.rb:253 Client /usr/share/YaST2/clients/rmt.rb
+    failed with 'Service unit 'mysql' not found'" when started within docker container
+- component: Basesystem
+  create_time: 20190125T09:27:00
+  id: 1123136
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: dovecot23 build fails'
+- component: Cloud:Images
+  create_time: 20190125T08:00:00
+  id: 1123119
+  resolution: FIXED
+  status: RESOLVED
+  summary: podman 1.0 update broke building (in OBS only?)
+- component: Ruby
+  create_time: 20190125T07:58:00
+  id: 1123118
+  resolution: ''
+  status: NEW
+  summary: rubygem-activesupport-5.2 couldn't be installed due to lack of tzinfo:1
+    dependency
+- component: Translations
+  create_time: 20190124T23:05:00
+  id: 1123088
+  resolution: ''
+  status: NEW
+  summary: 'virtualbox-qt: Grammar and wording in VBoxPermissions is unnatural'
+- component: YaST2
+  create_time: 20190124T16:35:00
+  id: 1123069
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: yast2 unable to open "Date and Time"
+- component: X11 3rd Party Driver
+  create_time: 20190124T15:07:00
+  id: 1123058
+  resolution: FIXED
+  status: RESOLVED
+  summary: Kernel 4.20 breaks build of 390.87 (G04) driver
+- component: Other
+  create_time: 20190124T13:20:00
+  id: 1123047
+  resolution: ''
+  status: NEW
+  summary: pdfcompare broken since Python 2 -> Python 3 conversion
+- component: Installation
+  create_time: 20190124T08:56:00
+  id: 1122994
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[installation-images] Follow changes of ''nfs-utils'''
+- component: Installation
+  create_time: 20190124T08:50:00
+  id: 1122992
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[installation-images] Follow changes of ''grub2'''
+- component: Other
+  create_time: 20190124T08:15:00
+  id: 1122987
+  resolution: ''
+  status: NEW
+  summary: python-mitmproxy broken on Tumbleweed.
