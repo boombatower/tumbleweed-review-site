@@ -13198,8 +13198,8 @@
 - component: Development
   create_time: 20181003T23:16:00
   id: 1110669
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: twisted.internet.gireactor (python3-Twisted) requires pygtkcompat
 - component: GNOME
   create_time: 20181003T23:05:00
@@ -15680,8 +15680,8 @@
 - component: Other
   create_time: 20181114T15:16:00
   id: 1116022
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by mailman into native systemd services
 - component: Kernel
   create_time: 20181114T15:15:00
@@ -16444,8 +16444,8 @@
 - component: GNOME
   create_time: 20181201T14:49:00
   id: 1118040
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: GNOME Software happily allows user to install Flatpak apps although they
     cannot be launched because of missing flatpak dependency
 - component: Basesystem
