@@ -18409,6 +18409,13 @@
   status: NEW
   summary: 'PCP regression: monitoring agent binaries dropped from package'
 '20190121':
+- component: YaST2
+  create_time: 20190126T06:05:00
+  id: 1123239
+  resolution: ''
+  status: NEW
+  summary: Launching "Systemd Journal" via menu shortcut should elevate permissions
+    like other YaST modules
 - component: Kernel
   create_time: 20190125T16:40:00
   id: 1123198
