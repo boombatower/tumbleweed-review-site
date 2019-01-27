@@ -7472,8 +7472,8 @@
 - component: X.Org
   create_time: 20180421T15:02:00
   id: 1090456
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: amdgpu [RX Vega 64] system freeze while gaming
 - component: YaST2
   create_time: 20180420T17:19:00
