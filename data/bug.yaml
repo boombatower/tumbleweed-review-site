@@ -14082,8 +14082,8 @@
 - component: Virtualization:Other
   create_time: 20181027T20:18:00
   id: 1113621
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'Virtualbox: Error -10 in SUPR3HardenedMain!'
 - component: Other
   create_time: 20181027T19:05:00
@@ -18516,6 +18516,18 @@
   status: NEW
   summary: armv7 efistub enablement missing in GRUB2
 '20190124':
+- component: Other
+  create_time: 20190127T14:42:00
+  id: 1123254
+  resolution: ''
+  status: NEW
+  summary: oslc compiler (OpenShadingLanguage) can not find its std headers
+- component: Other
+  create_time: 20190127T14:37:00
+  id: 1123252
+  resolution: ''
+  status: NEW
+  summary: Package OpenShadingLanguage forces instllation ofl old libLLVM
 - component: Other
   create_time: 20190127T10:49:00
   id: 1123247
