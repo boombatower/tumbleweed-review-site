@@ -629,11 +629,11 @@
   score: 89
   stability_level: moderate
 '20190115':
-  score: 61
+  score: 58
   stability_level: unstable
 '20190121':
-  score: 55
+  score: 54
   stability_level: pending
 '20190124':
-  score: 80
+  score: 79
   stability_level: pending
