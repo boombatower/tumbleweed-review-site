@@ -18516,6 +18516,34 @@
   status: NEW
   summary: armv7 efistub enablement missing in GRUB2
 '20190124':
+- component: Other
+  create_time: 20190127T10:49:00
+  id: 1123247
+  resolution: ''
+  status: NEW
+  summary: Gajim requires nbxmpp version that's not available
+- component: Bootloader
+  create_time: 20190127T09:00:00
+  id: 1123245
+  resolution: ''
+  status: NEW
+  summary: After zypper dup from Leap:15.0 to Tumbleweed boot fails intermittently
+    failed to find grub_efi_allocate_fixed
+- component: Other
+  create_time: 20190127T08:39:00
+  id: 1123244
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190124/20190125] openQA test fails in terminology - terminology
+    shows up in task panel but does not open up'
+- component: X.Org
+  create_time: 20190127T06:54:00
+  id: 1123243
+  resolution: ''
+  status: IN_PROGRESS
+  summary: xf86-video-nouveau gets installed though xorg-x11-driver-video is not installed
+    and modesetting is the upstream/preferred DDX NVidia driver and xf86-video-nouveau
+    presence usurps use of modesetting DDX and solver.onlyRequires = true
 - component: YaST2
   create_time: 20190126T06:05:00
   id: 1123239
