@@ -16236,8 +16236,8 @@
 - component: Basesystem
   create_time: 20181124T20:17:00
   id: 1117217
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: rpcbind fails to start (tumbleweed snapshot 20181120)
 - component: Other
   create_time: 20181124T19:03:00
@@ -16317,8 +16317,8 @@
 - component: Kernel
   create_time: 20181127T14:04:00
   id: 1117480
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'IMA / overlayfs: Permission denied when truncating files on copy_up'
 - component: Network
   create_time: 20181127T11:29:00
@@ -18516,7 +18516,7 @@
   status: NEW
   summary: armv7 efistub enablement missing in GRUB2
 '20190124':
-- component: Translations
+- component: KDE Workspace (Plasma)
   create_time: 20190124T23:05:00
   id: 1123088
   resolution: ''
@@ -18559,6 +18559,26 @@
   status: NEW
   summary: python-mitmproxy broken on Tumbleweed.
 '20190125':
+- component: Basesystem
+  create_time: 20190128T12:11:00
+  id: 1123350
+  resolution: ''
+  status: NEW
+  summary: Newest image of Tumbleweed, Snapshot20190121, on Raspberry Pi 2 does not
+    boot
+- component: Kernel
+  create_time: 20190128T10:28:00
+  id: 1123328
+  resolution: ''
+  status: NEW
+  summary: obs-arm-7 hangs on umount/mount (obs worker kvm builds) with kernel >=
+    4.19
+- component: Basesystem
+  create_time: 20190128T08:58:00
+  id: 1123282
+  resolution: ''
+  status: IN_PROGRESS
+  summary: systemd-devel misses package to provide stdarg.h
 - component: Other
   create_time: 20190127T14:42:00
   id: 1123254
@@ -18594,8 +18614,8 @@
 - component: X.Org
   create_time: 20190127T06:54:00
   id: 1123243
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WONTFIX
+  status: RESOLVED
   summary: xf86-video-nouveau gets installed though xorg-x11-driver-video is not installed
     and modesetting is the upstream/preferred DDX NVidia driver and xf86-video-nouveau
     presence usurps use of modesetting DDX and solver.onlyRequires = true
