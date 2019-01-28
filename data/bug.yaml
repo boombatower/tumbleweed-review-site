@@ -14214,6 +14214,12 @@
   resolution: FIXED
   status: RESOLVED
   summary: '[Build 20181023] FTBFS: openSUSE:Factory gnucash 3.2'
+- component: X11 Applications
+  create_time: 20181025T05:17:00
+  id: 1113211
+  resolution: ''
+  status: NEW
+  summary: Chromium 70 update broke video playback on AMD videocards
 - component: Network
   create_time: 20181025T00:10:00
   id: 1113198
@@ -17309,8 +17315,8 @@
 - component: YaST2
   create_time: 20190104T15:11:00
   id: 1120793
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: aarch64 bootloader YaST has wrong UI layout on start-up
 - component: Basesystem
   create_time: 20190104T14:04:00
@@ -18559,6 +18565,25 @@
   status: NEW
   summary: python-mitmproxy broken on Tumbleweed.
 '20190125':
+- component: Containers
+  create_time: 20190128T16:58:00
+  id: 1123387
+  resolution: ''
+  status: NEW
+  summary: podman broken without apparmor_parser
+- component: KDE Workspace (Plasma)
+  create_time: 20190128T14:50:00
+  id: 1123368
+  resolution: ''
+  status: NEW
+  summary: KDE openGL crash at startup, but after login-logout it will work fine until
+    the next reboot.
+- component: YaST2
+  create_time: 20190128T12:45:00
+  id: 1123355
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Perl error when calling OneClickInstallCLI
 - component: Basesystem
   create_time: 20190128T12:11:00
   id: 1123350
