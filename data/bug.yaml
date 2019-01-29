@@ -16181,7 +16181,7 @@
   create_time: 20181121T10:12:00
   id: 1116849
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Failed to start Load Kernel Modules
 - component: Virtualization:Tools
   create_time: 20181121T08:54:00
@@ -18087,8 +18087,8 @@
 - component: Other
   create_time: 20190114T11:08:00
   id: 1121829
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: libpng16 fails in make test on aarch64
 - component: Sound
   create_time: 20190114T10:12:00
@@ -18565,6 +18565,18 @@
   status: NEW
   summary: python-mitmproxy broken on Tumbleweed.
 '20190125':
+- component: Kubic
+  create_time: 20190129T10:41:00
+  id: 1123481
+  resolution: FIXED
+  status: RESOLVED
+  summary: addon= does not work
+- component: LibreOffice
+  create_time: 20190129T08:04:00
+  id: 1123455
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190126] openQA test fails in libreoffice_recent_documents'
 - component: Other
   create_time: 20190128T19:50:00
   id: 1123401
@@ -18607,8 +18619,8 @@
 - component: Basesystem
   create_time: 20190128T08:58:00
   id: 1123282
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: INVALID
+  status: RESOLVED
   summary: systemd-devel misses package to provide stdarg.h
 - component: Other
   create_time: 20190127T14:42:00
