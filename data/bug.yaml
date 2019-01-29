@@ -16620,8 +16620,8 @@
 - component: Containers
   create_time: 20181205T08:54:00
   id: 1118444
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Podman broken (some issue with seccomp profile)
 '20181206':
 - component: libzypp
@@ -18204,8 +18204,8 @@
 - component: YaST2
   create_time: 20190118T09:43:00
   id: 1122473
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: ncurses yast2 control center cannot start any modules
 - component: libzypp
   create_time: 20190118T09:37:00
@@ -18565,6 +18565,18 @@
   status: NEW
   summary: python-mitmproxy broken on Tumbleweed.
 '20190125':
+- component: Other
+  create_time: 20190129T16:45:00
+  id: 1123552
+  resolution: ''
+  status: NEW
+  summary: Files with wrong written SUSE on Tumbleweed medium
+- component: Kubic
+  create_time: 20190129T15:34:00
+  id: 1123534
+  resolution: ''
+  status: NEW
+  summary: openSUSE-Tumbleweed-Kubic-x86_64 uses tumbleweed workflow
 - component: Kubic
   create_time: 20190129T10:41:00
   id: 1123481
@@ -18666,7 +18678,7 @@
   create_time: 20190126T06:05:00
   id: 1123239
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Launching "Systemd Journal" via menu shortcut should elevate permissions
     like other YaST modules
 - component: Kernel
