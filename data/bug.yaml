@@ -18565,6 +18565,12 @@
   status: NEW
   summary: python-mitmproxy broken on Tumbleweed.
 '20190125':
+- component: Other
+  create_time: 20190128T19:50:00
+  id: 1123401
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190126][FTBFS] Hugin failed to build against exiv2  0.27.0'
 - component: Containers
   create_time: 20190128T16:58:00
   id: 1123387
