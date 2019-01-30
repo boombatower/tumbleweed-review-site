@@ -17412,8 +17412,8 @@
 - component: Other
   create_time: 20190101T10:03:00
   id: 1120427
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Radiotray refuses to start with OSError
 - component: X.Org
   create_time: 20181231T17:05:00
@@ -17582,8 +17582,8 @@
 - component: AppArmor
   create_time: 20190109T15:01:00
   id: 1121274
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190105] internal error when trying to edit settings in yast apparmor
     module'
 - component: Basesystem
@@ -17625,8 +17625,8 @@
 - component: Basesystem
   create_time: 20190109T13:04:00
   id: 1121254
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'GCC 9: systemd-mini build fails'
 - component: Basesystem
   create_time: 20190109T12:56:00
@@ -17848,7 +17848,7 @@
   create_time: 20190111T11:25:00
   id: 1121591
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9: llvm[67] build fails'
 - component: Basesystem
   create_time: 20190111T11:24:00
@@ -17872,13 +17872,13 @@
   create_time: 20190111T09:06:00
   id: 1121561
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9: libqt5-qtbase build fails'
 - component: Basesystem
   create_time: 20190111T09:04:00
   id: 1121560
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'GCC 9: libqt5-qtwebengine build fails'
 - component: Other
   create_time: 20190111T08:44:00
@@ -17938,8 +17938,8 @@
 - component: Other
   create_time: 20190110T13:32:00
   id: 1121455
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'policycoreutils-2.8: missing seobject and python2'
 - component: YaST2
   create_time: 20190110T10:07:00
@@ -18317,7 +18317,7 @@
   resolution: ''
   status: CONFIRMED
   summary: '[Build 142.1] multiple missing icons'
-- component: Basesystem
+- component: GNOME
   create_time: 20190116T11:17:00
   id: 1122169
   resolution: ''
@@ -18565,6 +18565,13 @@
   status: NEW
   summary: python-mitmproxy broken on Tumbleweed.
 '20190125':
+- component: Kernel
+  create_time: 20190130T07:49:00
+  id: 1123631
+  resolution: ''
+  status: NEW
+  summary: NetCommWireless chipset bcm43526 doesn't seem to be supported out of the
+    box
 - component: Other
   create_time: 20190129T16:45:00
   id: 1123552
