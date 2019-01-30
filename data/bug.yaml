@@ -11468,8 +11468,8 @@
 - component: Basesystem
   create_time: 20180809T00:37:00
   id: 1104264
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Recommended packages that are missing:'
 - component: X11 Applications
   create_time: 20180808T12:17:00
@@ -17582,8 +17582,8 @@
 - component: AppArmor
   create_time: 20190109T15:01:00
   id: 1121274
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '[Build 20190105] internal error when trying to edit settings in yast apparmor
     module'
 - component: Basesystem
