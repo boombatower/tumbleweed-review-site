@@ -13018,8 +13018,8 @@
 - component: Virtualization:Other
   create_time: 20180926T11:56:00
   id: 1109832
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: libvirt-daemon-config-network not installed by yast vm
 - component: Network
   create_time: 20180926T09:53:00
@@ -15892,8 +15892,8 @@
 - component: Containers
   create_time: 20181113T14:35:00
   id: 1115800
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20181112] openQA test fails in docker_image_rpm as missing ppc64le
     opensuse-tumbleweed-image'
 - component: Network
@@ -18143,8 +18143,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190119T17:46:00
   id: 1122562
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: US keyboard layout always come out of no where after reboot.
 - component: Other
   create_time: 20190119T16:21:00
@@ -18562,9 +18562,72 @@
   create_time: 20190124T08:15:00
   id: 1122987
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: python-mitmproxy broken on Tumbleweed.
 '20190125':
+- component: Kernel
+  create_time: 20190125T16:40:00
+  id: 1123198
+  resolution: ''
+  status: NEW
+  summary: rtl8723de wifi
+- component: Bootloader
+  create_time: 20190125T13:35:00
+  id: 1123170
+  resolution: ''
+  status: IN_PROGRESS
+  summary: armv7 Beagle images built in Tumbleweed have a broken EFI partition
+- component: YaST2
+  create_time: 20190125T12:45:00
+  id: 1123165
+  resolution: ''
+  status: NEW
+  summary: yast2-rmt crashes with "yast/wfm.rb:253 Client /usr/share/YaST2/clients/rmt.rb
+    failed with 'Service unit 'mysql' not found'" when started within docker container
+- component: Basesystem
+  create_time: 20190125T09:27:00
+  id: 1123136
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: dovecot23 build fails'
+- component: Cloud:Images
+  create_time: 20190125T08:00:00
+  id: 1123119
+  resolution: FIXED
+  status: RESOLVED
+  summary: podman 1.0 update broke building (in OBS only?)
+- component: Ruby
+  create_time: 20190125T07:58:00
+  id: 1123118
+  resolution: ''
+  status: NEW
+  summary: rubygem-activesupport-5.2 couldn't be installed due to lack of tzinfo:1
+    dependency
+'20190126':
+- component: Basesystem
+  create_time: 20190130T16:31:00
+  id: 1123721
+  resolution: ''
+  status: IN_PROGRESS
+  summary: suse-module-tools must not depend on mkintird / dracut
+- component: Basesystem
+  create_time: 20190130T15:56:00
+  id: 1123714
+  resolution: ''
+  status: NEW
+  summary: re.pl crash with coredump
+- component: Virtualization:Other
+  create_time: 20190130T14:49:00
+  id: 1123699
+  resolution: ''
+  status: NEW
+  summary: libvirt does not start default network automatically
+- component: Kernel
+  create_time: 20190130T14:41:00
+  id: 1123697
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '"rpm -V kernel-default" shows wrong permissions for initrd'
 - component: Kernel
   create_time: 20190130T07:49:00
   id: 1123631
@@ -18688,41 +18751,3 @@
   status: CONFIRMED
   summary: Launching "Systemd Journal" via menu shortcut should elevate permissions
     like other YaST modules
-- component: Kernel
-  create_time: 20190125T16:40:00
-  id: 1123198
-  resolution: ''
-  status: NEW
-  summary: rtl8723de wifi
-- component: Other
-  create_time: 20190125T13:35:00
-  id: 1123170
-  resolution: ''
-  status: NEW
-  summary: armv7 images build in Tumbleweed have a broken EFI partition
-- component: YaST2
-  create_time: 20190125T12:45:00
-  id: 1123165
-  resolution: ''
-  status: NEW
-  summary: yast2-rmt crashes with "yast/wfm.rb:253 Client /usr/share/YaST2/clients/rmt.rb
-    failed with 'Service unit 'mysql' not found'" when started within docker container
-- component: Basesystem
-  create_time: 20190125T09:27:00
-  id: 1123136
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: dovecot23 build fails'
-- component: Cloud:Images
-  create_time: 20190125T08:00:00
-  id: 1123119
-  resolution: FIXED
-  status: RESOLVED
-  summary: podman 1.0 update broke building (in OBS only?)
-- component: Ruby
-  create_time: 20190125T07:58:00
-  id: 1123118
-  resolution: ''
-  status: NEW
-  summary: rubygem-activesupport-5.2 couldn't be installed due to lack of tzinfo:1
-    dependency
