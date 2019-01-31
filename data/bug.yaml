@@ -18469,8 +18469,8 @@
 - component: Commercial
   create_time: 20190122T17:23:00
   id: 1122798
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Nvidia 390.87 issue installation on kernel 4.20
 - component: Patterns
   create_time: 20190122T15:01:00
