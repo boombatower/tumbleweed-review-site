@@ -17124,8 +17124,8 @@
 - component: Other
   create_time: 20181220T12:36:00
   id: 1120075
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: kiwi builds on OBS randomly fail for *-efi image with 'no space left' error
     on rsync
 - component: Basesystem
@@ -17866,7 +17866,7 @@
   create_time: 20190111T09:12:00
   id: 1121563
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9: systemd build fails'
 - component: Basesystem
   create_time: 20190111T09:06:00
@@ -18604,6 +18604,30 @@
   summary: rubygem-activesupport-5.2 couldn't be installed due to lack of tzinfo:1
     dependency
 '20190126':
+- component: Other
+  create_time: 20190131T09:44:00
+  id: 1123813
+  resolution: ''
+  status: NEW
+  summary: 'jumpnbump: Crashes when going off the top of the screen'
+- component: Security
+  create_time: 20190131T09:09:00
+  id: 1123799
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'AUDIT-0: flatpak: New polkit-unauthorized-privilege'
+- component: GNOME
+  create_time: 20190131T09:06:00
+  id: 1123798
+  resolution: ''
+  status: NEW
+  summary: itstool / python3-libxml2-python randomly segfaults
+- component: Xfce
+  create_time: 20190131T07:37:00
+  id: 1123781
+  resolution: FIXED
+  status: RESOLVED
+  summary: catfish fails to build againtst python  3.7
 - component: Security
   create_time: 20190130T22:48:00
   id: 1123747
@@ -18726,7 +18750,7 @@
   create_time: 20190127T10:49:00
   id: 1123247
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Gajim requires nbxmpp version that's not available
 - component: Bootloader
   create_time: 20190127T09:00:00
