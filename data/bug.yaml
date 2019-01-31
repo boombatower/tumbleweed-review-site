@@ -12460,7 +12460,7 @@
   create_time: 20180912T15:09:00
   id: 1108199
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20180910] autoyast profile doesn''t validate when cloning system'
 - component: Other
   create_time: 20180912T15:00:00
@@ -16177,7 +16177,7 @@
   resolution: ''
   status: NEW
   summary: udev rule for printer installation fails due to missing python module
-- component: Basesystem
+- component: YaST2
   create_time: 20181121T10:12:00
   id: 1116849
   resolution: ''
@@ -17583,7 +17583,7 @@
   create_time: 20190109T15:01:00
   id: 1121274
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20190105] internal error when trying to edit settings in yast apparmor
     module'
 - component: Basesystem
@@ -18248,7 +18248,7 @@
   create_time: 20190117T16:06:00
   id: 1122387
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20190112] Undefined method ''fetch'' occurs while saving Host Configuration'
 - component: KDE Workspace (Plasma)
   create_time: 20190117T13:05:00
@@ -18604,6 +18604,12 @@
   summary: rubygem-activesupport-5.2 couldn't be installed due to lack of tzinfo:1
     dependency
 '20190126':
+- component: Basesystem
+  create_time: 20190131T16:18:00
+  id: 1123898
+  resolution: ''
+  status: NEW
+  summary: new rule for libmtp-udev
 - component: Other
   create_time: 20190131T09:44:00
   id: 1123813
@@ -18632,7 +18638,7 @@
   create_time: 20190130T22:48:00
   id: 1123747
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: udisks2: polkit-untracked-privilege'
 - component: Basesystem
   create_time: 20190130T16:31:00
@@ -18661,8 +18667,8 @@
 - component: Kernel
   create_time: 20190130T07:49:00
   id: 1123631
-  resolution: ''
-  status: NEW
+  resolution: FEATURE
+  status: RESOLVED
   summary: NetCommWireless chipset bcm43526 doesn't seem to be supported out of the
     box
 - component: Other
