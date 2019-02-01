@@ -16181,8 +16181,8 @@
   create_time: 20181121T10:12:00
   id: 1116849
   resolution: ''
-  status: IN_PROGRESS
-  summary: Failed to start Load Kernel Modules
+  status: CONFIRMED
+  summary: 'yast2-sound: do not add sound modules to initrd'
 - component: Virtualization:Tools
   create_time: 20181121T08:54:00
   id: 1116824
@@ -16641,7 +16641,8 @@
   id: 1118689
   resolution: ''
   status: NEW
-  summary: 32bit x86 4.19 pae and vanilla kernels randomly lockup or trigger reboot
+  summary: 32bit x86 4.19 4.20 5.0-rc pae and vanilla kernels randomly lockup or trigger
+    reboot
 - component: Other
   create_time: 20181206T18:39:00
   id: 1118671
@@ -17106,8 +17107,8 @@
 - component: Basesystem
   create_time: 20181221T01:19:00
   id: 1120143
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Raspberry Pi display is black after 20181214 update
 - component: Development
   create_time: 20181220T15:57:00
@@ -17576,8 +17577,8 @@
 - component: Basesystem
   create_time: 20190109T15:06:00
   id: 1121276
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: x-initrd.mount in fstab does not work with overlayfs and x-systemd.requires-mounts-for
 - component: AppArmor
   create_time: 20190109T15:01:00
@@ -18604,6 +18605,24 @@
   summary: rubygem-activesupport-5.2 couldn't be installed due to lack of tzinfo:1
     dependency
 '20190126':
+- component: Basesystem
+  create_time: 20190201T11:27:00
+  id: 1123982
+  resolution: ''
+  status: NEW
+  summary: multipathd fails to create multipaths on iscsi
+- component: libzypp
+  create_time: 20190201T09:26:00
+  id: 1123967
+  resolution: FIXED
+  status: RESOLVED
+  summary: Inconsistent behavior when refreshing repositories
+- component: LibreOffice
+  create_time: 20190201T07:29:00
+  id: 1123960
+  resolution: INVALID
+  status: RESOLVED
+  summary: LibreOffice missing libreoffice-gtk3
 - component: Basesystem
   create_time: 20190131T16:18:00
   id: 1123898
