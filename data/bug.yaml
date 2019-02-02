@@ -8036,12 +8036,6 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'openssl: c_rehash fails due to missing quotes around $dir and $prefix'
-- component: Development
-  create_time: 20180503T17:31:00
-  id: 1091864
-  resolution: ''
-  status: CONFIRMED
-  summary: '[RPM] The %make_jobs macro from marcos.cmake gets overwritten by macro.qt5'
 - component: KDE Workspace (Plasma)
   create_time: 20180503T15:45:00
   id: 1091852
@@ -17132,8 +17126,8 @@
 - component: Basesystem
   create_time: 20181219T11:42:00
   id: 1119953
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Raspberry Pi 3B shows crash during boot after update to kernel-default-4.4.165-81.1
 - component: YaST2
   create_time: 20181219T09:20:00
@@ -17419,8 +17413,8 @@
 - component: X.Org
   create_time: 20181231T17:05:00
   id: 1120416
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Packages using llvm meta-package are not rebuilt automatically
 - component: Installation
   create_time: 20181231T10:56:00
@@ -18605,6 +18599,24 @@
   summary: rubygem-activesupport-5.2 couldn't be installed due to lack of tzinfo:1
     dependency
 '20190126':
+- component: Usability
+  create_time: 20190202T19:17:00
+  id: 1124063
+  resolution: ''
+  status: NEW
+  summary: Wrong USB flash mount options
+- component: X11 Applications
+  create_time: 20190202T18:45:00
+  id: 1124061
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190201]  gnuhealth uninstallable'
+- component: Development
+  create_time: 20190202T13:56:00
+  id: 1124058
+  resolution: ''
+  status: NEW
+  summary: rpmdiff output useless when dependencies change
 - component: Development
   create_time: 20190202T07:27:00
   id: 1124054
