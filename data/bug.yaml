@@ -17920,8 +17920,8 @@
 - component: Basesystem
   create_time: 20190110T14:22:00
   id: 1121464
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: qemu build fails'
 - component: Basesystem
   create_time: 20190110T14:21:00
@@ -18125,7 +18125,7 @@
   create_time: 20190112T19:15:00
   id: 1121720
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: 'Retaining existing Software RAID via AutoYast is broken: y2storage always
     formats MD'
 - component: Upgrade Problems
@@ -18605,6 +18605,13 @@
   summary: rubygem-activesupport-5.2 couldn't be installed due to lack of tzinfo:1
     dependency
 '20190126':
+- component: Other
+  create_time: 20190201T21:50:00
+  id: 1124043
+  resolution: ''
+  status: NEW
+  summary: 'abort (core dumped)  perl -MTerm::ReadLine -E ''Term::ReadLine->new("test")->readline("test:
+    ")'''
 - component: Basesystem
   create_time: 20190201T11:27:00
   id: 1123982
