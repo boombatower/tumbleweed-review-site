@@ -18605,6 +18605,12 @@
   summary: rubygem-activesupport-5.2 couldn't be installed due to lack of tzinfo:1
     dependency
 '20190126':
+- component: Development
+  create_time: 20190202T07:27:00
+  id: 1124054
+  resolution: FIXED
+  status: RESOLVED
+  summary: rpmlint breaks texlive-specs-e
 - component: Other
   create_time: 20190201T21:50:00
   id: 1124043
