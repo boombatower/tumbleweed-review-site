@@ -18783,6 +18783,12 @@
   summary: Launching "Systemd Journal" via menu shortcut should elevate permissions
     like other YaST modules
 '20190201':
+- component: Bootloader
+  create_time: 20190203T16:11:00
+  id: 1124088
+  resolution: ''
+  status: NEW
+  summary: /bin/dracut-emergency refers to /dev/consoles (with an s)
 - component: YaST2
   create_time: 20190203T12:32:00
   id: 1124082
@@ -18793,7 +18799,7 @@
   create_time: 20190203T10:23:00
   id: 1124071
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20190201] openQA test fails in podman_image'
 - component: Patterns
   create_time: 20190203T09:25:00
