@@ -18599,55 +18599,6 @@
   summary: rubygem-activesupport-5.2 couldn't be installed due to lack of tzinfo:1
     dependency
 '20190126':
-- component: Usability
-  create_time: 20190202T19:17:00
-  id: 1124063
-  resolution: ''
-  status: NEW
-  summary: Wrong USB flash mount options
-- component: X11 Applications
-  create_time: 20190202T18:45:00
-  id: 1124061
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20190201]  gnuhealth uninstallable'
-- component: Development
-  create_time: 20190202T13:56:00
-  id: 1124058
-  resolution: ''
-  status: NEW
-  summary: rpmdiff output useless when dependencies change
-- component: Development
-  create_time: 20190202T07:27:00
-  id: 1124054
-  resolution: FIXED
-  status: RESOLVED
-  summary: rpmlint breaks texlive-specs-e
-- component: Other
-  create_time: 20190201T21:50:00
-  id: 1124043
-  resolution: ''
-  status: NEW
-  summary: 'abort (core dumped)  perl -MTerm::ReadLine -E ''Term::ReadLine->new("test")->readline("test:
-    ")'''
-- component: Basesystem
-  create_time: 20190201T11:27:00
-  id: 1123982
-  resolution: ''
-  status: NEW
-  summary: multipathd fails to create multipaths on iscsi
-- component: libzypp
-  create_time: 20190201T09:26:00
-  id: 1123967
-  resolution: FIXED
-  status: RESOLVED
-  summary: Inconsistent behavior when refreshing repositories
-- component: LibreOffice
-  create_time: 20190201T07:29:00
-  id: 1123960
-  resolution: INVALID
-  status: RESOLVED
-  summary: LibreOffice missing libreoffice-gtk3
 - component: Basesystem
   create_time: 20190131T16:18:00
   id: 1123898
@@ -18831,3 +18782,90 @@
   status: CONFIRMED
   summary: Launching "Systemd Journal" via menu shortcut should elevate permissions
     like other YaST modules
+'20190201':
+- component: YaST2
+  create_time: 20190203T12:32:00
+  id: 1124082
+  resolution: ''
+  status: NEW
+  summary: Please add CPU governor setting to YaST Kernel Settings module
+- component: Containers
+  create_time: 20190203T10:23:00
+  id: 1124071
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190201] openQA test fails in podman_image'
+- component: Patterns
+  create_time: 20190203T09:25:00
+  id: 1124067
+  resolution: ''
+  status: NEW
+  summary: patterns-kde-kde_yast should not require yast2-theme-oxygen anymore for
+    openSUSE TW
+- component: Live Medium
+  create_time: 20190203T09:19:00
+  id: 1124066
+  resolution: ''
+  status: NEW
+  summary: KDE LiveCD provides a lot of Joe's Own Editor entries in application menu
+- component: YaST2
+  create_time: 20190203T09:12:00
+  id: 1124065
+  resolution: ''
+  status: NEW
+  summary: YaST2 filesystem snapshots module error at opening in Live CD
+- component: YaST2
+  create_time: 20190203T09:07:00
+  id: 1124064
+  resolution: ''
+  status: NEW
+  summary: Internal error while opening YaST2 Boot loader module in LiveCD
+- component: Usability
+  create_time: 20190202T19:17:00
+  id: 1124063
+  resolution: ''
+  status: NEW
+  summary: Wrong USB flash mount options
+- component: X11 Applications
+  create_time: 20190202T18:45:00
+  id: 1124061
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190201]  gnuhealth uninstallable'
+- component: Development
+  create_time: 20190202T13:56:00
+  id: 1124058
+  resolution: ''
+  status: NEW
+  summary: rpmdiff output useless when dependencies change
+- component: Development
+  create_time: 20190202T07:27:00
+  id: 1124054
+  resolution: FIXED
+  status: RESOLVED
+  summary: rpmlint breaks texlive-specs-e
+- component: Other
+  create_time: 20190201T21:50:00
+  id: 1124043
+  resolution: ''
+  status: NEW
+  summary: 'abort (core dumped)  perl -MTerm::ReadLine -E ''Term::ReadLine->new("test")->readline("test:
+    ")'''
+- component: Basesystem
+  create_time: 20190201T11:27:00
+  id: 1123982
+  resolution: ''
+  status: NEW
+  summary: multipathd fails to create multipaths on iscsi
+- component: libzypp
+  create_time: 20190201T09:26:00
+  id: 1123967
+  resolution: FIXED
+  status: RESOLVED
+  summary: Inconsistent behavior when refreshing repositories
+- component: LibreOffice
+  create_time: 20190201T07:29:00
+  id: 1123960
+  resolution: INVALID
+  status: RESOLVED
+  summary: LibreOffice missing libreoffice-gtk3
