@@ -1858,8 +1858,8 @@
 - component: Kubic
   create_time: 20180116T20:54:00
   id: 1076265
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: openSUSE-Tumbleweed-Kubic-release will never be updated
 - component: AppArmor
   create_time: 20180116T18:37:00
@@ -7515,8 +7515,8 @@
 - component: Installation
   create_time: 20180420T12:20:00
   id: 1090372
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Server System Roles have suboptimal default firewall settings
 - component: Basesystem
   create_time: 20180420T11:41:00
@@ -18750,8 +18750,8 @@
 - component: Other
   create_time: 20190127T10:49:00
   id: 1123247
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Gajim requires nbxmpp version that's not available
 - component: Bootloader
   create_time: 20190127T09:00:00
@@ -18783,6 +18783,31 @@
   summary: Launching "Systemd Journal" via menu shortcut should elevate permissions
     like other YaST modules
 '20190201':
+- component: KDE Workspace (Plasma)
+  create_time: 20190204T19:37:00
+  id: 1124222
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190202] openQA test fails in user_gui_login (kdeconnectd crash)'
+- component: Security
+  create_time: 20190204T18:12:00
+  id: 1124212
+  resolution: ''
+  status: NEW
+  summary: firewalld does not update the ifcfg-files properly when reloading after
+    permanent zone changes
+- component: Kubic
+  create_time: 20190204T14:38:00
+  id: 1124175
+  resolution: INVALID
+  status: RESOLVED
+  summary: needs-restarting does not detect reboot from transactional-update
+- component: Bootloader
+  create_time: 20190204T13:49:00
+  id: 1124165
+  resolution: ''
+  status: NEW
+  summary: cpio archives in gfxboot are not bitwise identical
 - component: libzypp
   create_time: 20190204T12:45:00
   id: 1124156
@@ -18885,8 +18910,8 @@
   create_time: 20190203T09:12:00
   id: 1124065
   resolution: ''
-  status: NEW
-  summary: YaST2 filesystem snapshots module error at opening in Live CD
+  status: CONFIRMED
+  summary: YaST2 filesystem snapshots module error at startup
 - component: YaST2
   create_time: 20190203T09:07:00
   id: 1124064
