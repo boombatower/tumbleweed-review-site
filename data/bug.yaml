@@ -18783,6 +18783,18 @@
   summary: Launching "Systemd Journal" via menu shortcut should elevate permissions
     like other YaST modules
 '20190201':
+- component: Installation
+  create_time: 20190203T21:16:00
+  id: 1124092
+  resolution: ''
+  status: NEW
+  summary: Installer crashes when trying to reuse existing disk layout
+- component: Development
+  create_time: 20190203T20:53:00
+  id: 1124091
+  resolution: ''
+  status: NEW
+  summary: 'g++ internal compiler error: Illegal instruction'
 - component: Bootloader
   create_time: 20190203T16:11:00
   id: 1124088
