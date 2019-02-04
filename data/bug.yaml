@@ -17609,7 +17609,7 @@
   create_time: 20190109T13:39:00
   id: 1121262
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9:  libX11 build fails on i586'
 - component: Kubic
   create_time: 20190109T13:08:00
@@ -18784,16 +18784,65 @@
     like other YaST modules
 '20190201':
 - component: libzypp
-  create_time: 20190204T04:02:00
-  id: 1124096
+  create_time: 20190204T12:45:00
+  id: 1124156
   resolution: ''
   status: NEW
+  summary: zypper dup always creates updateTestcase-2019-*
+- component: Network
+  create_time: 20190204T12:25:00
+  id: 1124152
+  resolution: ''
+  status: NEW
+  summary: /etc/resolv.conf no symlink to /run/netconfig/resolv.conf
+- component: Development
+  create_time: 20190204T11:06:00
+  id: 1124140
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Crash around _Sp_make_shared_tag when mixing g++7 and g++8 binaries
+- component: Kubic
+  create_time: 20190204T09:59:00
+  id: 1124129
+  resolution: ''
+  status: NEW
+  summary: tmpfiles.d/kubernetes.conf uses legacy path, systemd complaining
+- component: Other
+  create_time: 20190204T09:28:00
+  id: 1124125
+  resolution: ''
+  status: NEW
+  summary: lxc requires python(abi) = 3.6
+- component: Patterns
+  create_time: 20190204T09:25:00
+  id: 1124124
+  resolution: ''
+  status: NEW
+  summary: python3-raven requires python(abi) = 3.6
+- component: Other
+  create_time: 20190204T08:54:00
+  id: 1124118
+  resolution: ''
+  status: NEW
+  summary: 'fonts-config: use of uninitialized value'
+- component: libzypp
+  create_time: 20190204T07:54:00
+  id: 1124110
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '"zypper dup --force-resolution --allow-vendor-change --from ..." doesn''t
+    work'
+- component: libzypp
+  create_time: 20190204T04:02:00
+  id: 1124096
+  resolution: FIXED
+  status: RESOLVED
   summary: zypper option --repo is broken
 - component: Installation
   create_time: 20190203T21:16:00
   id: 1124092
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Installer crashes when trying to reuse existing disk layout
 - component: Development
   create_time: 20190203T20:53:00
@@ -18842,8 +18891,8 @@
   create_time: 20190203T09:07:00
   id: 1124064
   resolution: ''
-  status: NEW
-  summary: Internal error while opening YaST2 Boot loader module in LiveCD
+  status: CONFIRMED
+  summary: Internal error while opening YaST2 Boot loader module
 - component: Usability
   create_time: 20190202T19:17:00
   id: 1124063
