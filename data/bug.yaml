@@ -18783,6 +18783,12 @@
   summary: Launching "Systemd Journal" via menu shortcut should elevate permissions
     like other YaST modules
 '20190201':
+- component: libzypp
+  create_time: 20190204T04:02:00
+  id: 1124096
+  resolution: ''
+  status: NEW
+  summary: zypper option --repo is broken
 - component: Installation
   create_time: 20190203T21:16:00
   id: 1124092
