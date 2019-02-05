@@ -18783,6 +18783,19 @@
   summary: Launching "Systemd Journal" via menu shortcut should elevate permissions
     like other YaST modules
 '20190201':
+- component: Compiz
+  create_time: 20190204T21:28:00
+  id: 1124230
+  resolution: ''
+  status: NEW
+  summary: CCSM (Compiz Config Settings Manager) won't start after upgrade to python
+    3.7
+- component: Other
+  create_time: 20190204T20:24:00
+  id: 1124225
+  resolution: ''
+  status: NEW
+  summary: Lutris should require typelib-1.0-GTK-3_0
 - component: KDE Workspace (Plasma)
   create_time: 20190204T19:37:00
   id: 1124222
