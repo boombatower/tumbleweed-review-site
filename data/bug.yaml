@@ -18809,6 +18809,26 @@
   status: RESOLVED
   summary: LibreOffice missing libreoffice-gtk3
 '20190202':
+- component: KDE Applications
+  create_time: 20190205T16:37:00
+  id: 1124363
+  resolution: ''
+  status: NEW
+  summary: Temperature Plasmoid does not update the temperature of GPU and CPU (AMD
+    970 Chipset).
+- component: YaST2
+  create_time: 20190205T14:51:00
+  id: 1124340
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190202] openQA test fails in yast2_dns_server with "Error: ATTENTION:
+    /etc/named.d/forwarders.conf is not a link to /var/run/netconfig/bind-forwarders.conf"'
+- component: Security
+  create_time: 20190205T14:50:00
+  id: 1124339
+  resolution: ''
+  status: NEW
+  summary: Blueman 2.0.8 adds new blueman.rules to /usr/share/polkit-1/rules.d/blueman.rules
 - component: Installation
   create_time: 20190205T11:53:00
   id: 1124314
