@@ -18794,7 +18794,7 @@
   create_time: 20190204T20:24:00
   id: 1124225
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Lutris should require typelib-1.0-GTK-3_0
 - component: KDE Workspace (Plasma)
   create_time: 20190204T19:37:00
