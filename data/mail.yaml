@@ -1510,7 +1510,7 @@
   threads: []
 '20190201':
   announcement: 2019-02.63
-  reference_count: 29
+  reference_count: 31
   thread_count: 4
   threads:
   - messages: [2019-02.64]
@@ -1523,16 +1523,16 @@
     reference_count: 2
     summary: released!]
   - messages: [2019-02.83]
-    reference_count: 6
+    reference_count: 8
     summary: released!)
 '20190202':
   announcement: 2019-02.120
-  reference_count: 5
+  reference_count: 8
   thread_count: 2
   threads:
   - messages: [2019-02.126]
     reference_count: 3
     summary: no summary given
   - messages: [2019-02.138]
-    reference_count: 2
+    reference_count: 5
     summary: failed to summarize
