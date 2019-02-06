@@ -1536,3 +1536,11 @@
   - messages: [2019-02.138]
     reference_count: 5
     summary: failed to summarize
+'20190205':
+  announcement: 2019-02.178
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages: [2019-02.197]
+    reference_count: 1
+    summary: no summary given
