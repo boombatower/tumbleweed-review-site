@@ -18809,6 +18809,19 @@
   status: RESOLVED
   summary: LibreOffice missing libreoffice-gtk3
 '20190202':
+- component: YaST2
+  create_time: 20190205T20:03:00
+  id: 1124390
+  resolution: ''
+  status: NEW
+  summary: yast-samba-client incorrectly parses output from net ads lookup, "Join
+    the domain Pre-Win2k Domain"
+- component: Other
+  create_time: 20190205T19:59:00
+  id: 1124388
+  resolution: ''
+  status: NEW
+  summary: colord mistake in spec file
 - component: KDE Applications
   create_time: 20190205T16:37:00
   id: 1124363
