@@ -2133,8 +2133,8 @@
 - component: YaST2
   create_time: 20180119T08:41:00
   id: 1076729
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[storage-ng] undefined method ''copy'' when attempting to install Kubic
     on a 10GB disk'
 - component: GNOME
@@ -2908,8 +2908,8 @@
 - component: Installation
   create_time: 20180201T08:59:00
   id: 1078716
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Kubic Installation -- Calling the YaST module inst_casp_overview has failed
 - component: YaST2
   create_time: 20180201T08:57:00
@@ -17926,8 +17926,8 @@
 - component: GNOME
   create_time: 20190110T13:37:00
   id: 1121456
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: libgtk-3.so does not export gtk_cell_accessible_parent_get_row_header_cells
     function but Gtk-3.0.gir has it listed
 - component: Other
@@ -18809,96 +18809,6 @@
   status: RESOLVED
   summary: LibreOffice missing libreoffice-gtk3
 '20190202':
-- component: Installation
-  create_time: 20190206T12:15:00
-  id: 1124467
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190202] digest check fails for yast2-trans-en_US.rpm during Net
-    installation'
-- component: Network
-  create_time: 20190206T12:04:00
-  id: 1124465
-  resolution: ''
-  status: NEW
-  summary: 'avahi-daemon: Failed to open /etc/resolv.conf: No such file or directory'
-- component: Other
-  create_time: 20190206T09:58:00
-  id: 1124446
-  resolution: ''
-  status: NEW
-  summary: 'PHP 7.3 preg_match(): JIT compilation failed: no more memory (need pcre.jit=0
-    by default in php.ini)'
-- component: Other
-  create_time: 20190206T08:34:00
-  id: 1124429
-  resolution: ''
-  status: NEW
-  summary: Is Cinnamon still being updated / maintained for Tumbleweed?
-- component: YaST2
-  create_time: 20190205T20:03:00
-  id: 1124390
-  resolution: ''
-  status: CONFIRMED
-  summary: yast-samba-client incorrectly parses output from net ads lookup, "Join
-    the domain Pre-Win2k Domain"
-- component: Other
-  create_time: 20190205T19:59:00
-  id: 1124388
-  resolution: ''
-  status: NEW
-  summary: colord mistake in spec file
-- component: KDE Applications
-  create_time: 20190205T16:37:00
-  id: 1124363
-  resolution: ''
-  status: NEW
-  summary: Temperature Plasmoid does not update the temperature of GPU and CPU (AMD
-    970 Chipset).
-- component: YaST2
-  create_time: 20190205T14:51:00
-  id: 1124340
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190202] openQA test fails in yast2_dns_server with "Error: ATTENTION:
-    /etc/named.d/forwarders.conf is not a link to /var/run/netconfig/bind-forwarders.conf"'
-- component: Security
-  create_time: 20190205T14:50:00
-  id: 1124339
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: blueman: Blueman 2.0.8 adds new blueman.rules to /usr/share/polkit-1/rules.d/blueman.rules'
-- component: Installation
-  create_time: 20190205T11:53:00
-  id: 1124314
-  resolution: ''
-  status: NEW
-  summary: 'Dell Precision 5530: NVME drive is not accessibe in UEFI mode'
-- component: Containers
-  create_time: 20190205T11:18:00
-  id: 1124308
-  resolution: ''
-  status: NEW
-  summary: 'docker: update to 18.09.1'
-- component: Containers
-  create_time: 20190205T10:59:00
-  id: 1124305
-  resolution: ''
-  status: NEW
-  summary: kubernetes-dashboard has binaries in it's source tarball
-- component: KDE Workspace (Plasma)
-  create_time: 20190205T10:00:00
-  id: 1124294
-  resolution: ''
-  status: NEW
-  summary: '[Snapshot 20190201] SDDM login fails using wayland - after crash, login
-    screen is shown again'
-- component: libzypp
-  create_time: 20190205T09:15:00
-  id: 1124282
-  resolution: ''
-  status: NEW
-  summary: Zypper crashes system (root partition full)
 - component: Compiz
   create_time: 20190204T21:28:00
   id: 1124230
@@ -19071,3 +18981,120 @@
   resolution: FIXED
   status: RESOLVED
   summary: rpmlint breaks texlive-specs-e
+'20190205':
+- component: Other
+  create_time: 20190206T18:20:00
+  id: 1124521
+  resolution: ''
+  status: NEW
+  summary: libvpx5 release is a debug build
+- component: Installation
+  create_time: 20190206T16:28:00
+  id: 1124508
+  resolution: ''
+  status: NEW
+  summary: TW 20190205  Installer font much too small
+- component: KVM
+  create_time: 20190206T15:28:00
+  id: 1124504
+  resolution: ''
+  status: NEW
+  summary: 'Nested intel kvm not working with current tumbleweed 20190205: KVM internal
+    error. Suberror: 1 - emulation failure'
+- component: Basesystem
+  create_time: 20190206T14:01:00
+  id: 1124481
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190201] openQA test fails in lvm_thin_check - bash v5 file descriptors
+    for ~/.bash_history'
+- component: Installation
+  create_time: 20190206T12:15:00
+  id: 1124467
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190202] digest check fails for yast2-trans-en_US.rpm during Net
+    installation'
+- component: Network
+  create_time: 20190206T12:04:00
+  id: 1124465
+  resolution: ''
+  status: NEW
+  summary: 'avahi-daemon: Failed to open /etc/resolv.conf: No such file or directory'
+- component: Other
+  create_time: 20190206T09:58:00
+  id: 1124446
+  resolution: ''
+  status: NEW
+  summary: 'PHP 7.3 preg_match(): JIT compilation failed: no more memory (need pcre.jit=0
+    by default in php.ini)'
+- component: Other
+  create_time: 20190206T08:34:00
+  id: 1124429
+  resolution: ''
+  status: NEW
+  summary: Is Cinnamon still being updated / maintained for Tumbleweed?
+- component: YaST2
+  create_time: 20190205T20:03:00
+  id: 1124390
+  resolution: ''
+  status: CONFIRMED
+  summary: yast-samba-client incorrectly parses output from net ads lookup, "Join
+    the domain Pre-Win2k Domain"
+- component: Other
+  create_time: 20190205T19:59:00
+  id: 1124388
+  resolution: ''
+  status: NEW
+  summary: colord mistake in spec file
+- component: KDE Applications
+  create_time: 20190205T16:37:00
+  id: 1124363
+  resolution: ''
+  status: NEW
+  summary: Temperature Plasmoid does not update the temperature of GPU and CPU (AMD
+    970 Chipset).
+- component: YaST2
+  create_time: 20190205T14:51:00
+  id: 1124340
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190202] openQA test fails in yast2_dns_server with "Error: ATTENTION:
+    /etc/named.d/forwarders.conf is not a link to /var/run/netconfig/bind-forwarders.conf"'
+- component: Security
+  create_time: 20190205T14:50:00
+  id: 1124339
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: blueman: Blueman 2.0.8 adds new blueman.rules to /usr/share/polkit-1/rules.d/blueman.rules'
+- component: Installation
+  create_time: 20190205T11:53:00
+  id: 1124314
+  resolution: ''
+  status: NEW
+  summary: 'Dell Precision 5530: NVME drive is not accessibe in UEFI mode'
+- component: Containers
+  create_time: 20190205T11:18:00
+  id: 1124308
+  resolution: ''
+  status: NEW
+  summary: 'docker: update to 18.09.1'
+- component: Containers
+  create_time: 20190205T10:59:00
+  id: 1124305
+  resolution: ''
+  status: NEW
+  summary: kubernetes-dashboard has binaries in it's source tarball
+- component: KDE Workspace (Plasma)
+  create_time: 20190205T10:00:00
+  id: 1124294
+  resolution: ''
+  status: CONFIRMED
+  summary: If the graphics driver is not supported, kwin_wayland fails silently when
+    using sddm
+- component: libzypp
+  create_time: 20190205T09:15:00
+  id: 1124282
+  resolution: ''
+  status: NEW
+  summary: Zypper crashes system (root partition full)
