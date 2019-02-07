@@ -1527,14 +1527,14 @@
     summary: released!)
 '20190202':
   announcement: 2019-02.120
-  reference_count: 8
+  reference_count: 11
   thread_count: 2
   threads:
   - messages: [2019-02.126]
     reference_count: 3
     summary: no summary given
   - messages: [2019-02.138]
-    reference_count: 5
+    reference_count: 8
     summary: failed to summarize
 '20190205':
   announcement: 2019-02.178
