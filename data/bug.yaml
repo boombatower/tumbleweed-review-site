@@ -13642,8 +13642,8 @@
 - component: Other
   create_time: 20181013T03:31:00
   id: 1111721
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/tomcat'
 - component: YaST2
   create_time: 20181013T00:30:00
@@ -18675,8 +18675,8 @@
 - component: Kubic
   create_time: 20190129T15:34:00
   id: 1123534
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: openSUSE-Tumbleweed-Kubic-x86_64 uses tumbleweed workflow
 - component: Kubic
   create_time: 20190129T10:41:00
@@ -18850,14 +18850,14 @@
 - component: libzypp
   create_time: 20190204T12:45:00
   id: 1124156
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: zypper dup always creates updateTestcase-2019-*
 - component: Network
   create_time: 20190204T12:25:00
   id: 1124152
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: /etc/resolv.conf no symlink to /run/netconfig/resolv.conf
 - component: Development
   create_time: 20190204T11:06:00
@@ -18982,6 +18982,24 @@
   status: RESOLVED
   summary: rpmlint breaks texlive-specs-e
 '20190205':
+- component: X.Org
+  create_time: 20190207T12:10:00
+  id: 1124625
+  resolution: ''
+  status: NEW
+  summary: Screen resolution is very low on and after boot
+- component: Kubic
+  create_time: 20190207T09:48:00
+  id: 1124590
+  resolution: ''
+  status: NEW
+  summary: openSUSE-release and openSUSE-Tumbleweed-Kubic-release marked for installation
+- component: YaST2
+  create_time: 20190207T09:23:00
+  id: 1124581
+  resolution: ''
+  status: CONFIRMED
+  summary: Missing '/' mount point
 - component: KDE Applications
   create_time: 20190207T07:55:00
   id: 1124573
@@ -18999,12 +19017,12 @@
   id: 1124544
   resolution: ''
   status: NEW
-  summary: KDE automatically logs in
+  summary: Screen not locked after suspend
 - component: Installation
   create_time: 20190206T21:34:00
   id: 1124539
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: '[Build 20190202] digest check fails for yast2-trans-en_US.rpm during Net
     installation'
 - component: Other
@@ -19023,7 +19041,7 @@
   create_time: 20190206T15:28:00
   id: 1124504
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'Nested intel kvm not working with current tumbleweed 20190205: KVM internal
     error. Suberror: 1 - emulation failure'
 - component: Basesystem
@@ -19042,8 +19060,8 @@
 - component: Other
   create_time: 20190206T09:58:00
   id: 1124446
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'PHP 7.3 preg_match(): JIT compilation failed: no more memory (need pcre.jit=0
     by default in php.ini)'
 - component: Other
@@ -19075,8 +19093,8 @@
 - component: YaST2
   create_time: 20190205T14:51:00
   id: 1124340
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190202] openQA test fails in yast2_dns_server with "Error: ATTENTION:
     /etc/named.d/forwarders.conf is not a link to /var/run/netconfig/bind-forwarders.conf"'
 - component: Security
@@ -19114,5 +19132,5 @@
   create_time: 20190205T09:15:00
   id: 1124282
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Zypper crashes system (root partition full)
