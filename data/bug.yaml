@@ -18982,6 +18982,18 @@
   status: RESOLVED
   summary: rpmlint breaks texlive-specs-e
 '20190205':
+- component: KDE Applications
+  create_time: 20190207T07:55:00
+  id: 1124573
+  resolution: ''
+  status: NEW
+  summary: kdelibs4 depends on upower
+- component: Other
+  create_time: 20190207T06:48:00
+  id: 1124568
+  resolution: ''
+  status: NEW
+  summary: 'missing dependency : ibus-hangul package needs python2-gobject package.'
 - component: KDE Workspace (Plasma)
   create_time: 20190206T22:08:00
   id: 1124544
