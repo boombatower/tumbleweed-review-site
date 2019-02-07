@@ -7275,8 +7275,8 @@
 - component: Samba
   create_time: 20180417T19:36:00
   id: 1089938
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast-samba-client fails to join if /etc/samba/smb.conf or /etc/krb5.conf
     don't exist
 - component: Kubic
@@ -18982,6 +18982,19 @@
   status: RESOLVED
   summary: rpmlint breaks texlive-specs-e
 '20190205':
+- component: KDE Workspace (Plasma)
+  create_time: 20190206T22:08:00
+  id: 1124544
+  resolution: ''
+  status: NEW
+  summary: KDE automatically logs in
+- component: Installation
+  create_time: 20190206T21:34:00
+  id: 1124539
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190202] digest check fails for yast2-trans-en_US.rpm during Net
+    installation'
 - component: Other
   create_time: 20190206T18:20:00
   id: 1124521
@@ -18992,7 +19005,7 @@
   create_time: 20190206T16:28:00
   id: 1124508
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: TW 20190205  Installer font much too small
 - component: KVM
   create_time: 20190206T15:28:00
@@ -19008,13 +19021,6 @@
   status: NEW
   summary: '[Build 20190201] openQA test fails in lvm_thin_check - bash v5 file descriptors
     for ~/.bash_history'
-- component: Installation
-  create_time: 20190206T12:15:00
-  id: 1124467
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190202] digest check fails for yast2-trans-en_US.rpm during Net
-    installation'
 - component: Network
   create_time: 20190206T12:04:00
   id: 1124465
