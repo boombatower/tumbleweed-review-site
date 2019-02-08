@@ -920,7 +920,7 @@
   id: 1073610
   resolution: ''
   status: REOPENED
-  summary: KDE plasma software manager applet starts even if there is no network available
+  summary: PackageKit indicates network is available even though it's not
 - component: Basesystem
   create_time: 20171220T07:57:00
   id: 1073606
@@ -18786,8 +18786,8 @@
 - component: Other
   create_time: 20190201T21:50:00
   id: 1124043
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'abort (core dumped)  perl -MTerm::ReadLine -E ''Term::ReadLine->new("test")->readline("test:
     ")'''
 - component: Basesystem
@@ -18982,6 +18982,25 @@
   status: RESOLVED
   summary: rpmlint breaks texlive-specs-e
 '20190205':
+- component: Other
+  create_time: 20190208T13:47:00
+  id: 1124816
+  resolution: ''
+  status: NEW
+  summary: Firefox freezes intermittently burning 100% CPU due to fontconfig 2.13.1-1.1
+    update
+- component: YaST2
+  create_time: 20190208T11:33:00
+  id: 1124790
+  resolution: ''
+  status: NEW
+  summary: YaST2 partitioner - dangerous/wrong proposal
+- component: YaST2
+  create_time: 20190208T11:26:00
+  id: 1124789
+  resolution: ''
+  status: NEW
+  summary: System roles need improvement
 - component: X11 Applications
   create_time: 20190207T23:12:00
   id: 1124707
@@ -19021,8 +19040,8 @@
 - component: X.Org
   create_time: 20190207T12:10:00
   id: 1124625
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Screen resolution is very low on and after boot
 - component: Kubic
   create_time: 20190207T09:48:00
