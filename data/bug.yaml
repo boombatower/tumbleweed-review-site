@@ -18886,8 +18886,8 @@
 - component: Other
   create_time: 20190204T08:54:00
   id: 1124118
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'fonts-config: use of uninitialized value'
 - component: libzypp
   create_time: 20190204T07:54:00
@@ -18982,11 +18982,47 @@
   status: RESOLVED
   summary: rpmlint breaks texlive-specs-e
 '20190205':
+- component: X11 Applications
+  create_time: 20190207T23:12:00
+  id: 1124707
+  resolution: ''
+  status: NEW
+  summary: chromium crashes after latest tumbleweed update
+- component: Other
+  create_time: 20190207T22:21:00
+  id: 1124701
+  resolution: ''
+  status: NEW
+  summary: 'games/mouseboat: Bug no longer runs'
+- component: KDE Workspace (Plasma)
+  create_time: 20190207T19:07:00
+  id: 1124684
+  resolution: ''
+  status: NEW
+  summary: The Software Updates check applet always fails at boot
+- component: Installation
+  create_time: 20190207T18:37:00
+  id: 1124680
+  resolution: ''
+  status: NEW
+  summary: EFI/bios_grub partitions not created in the same disk used by root
+- component: Basesystem
+  create_time: 20190207T16:20:00
+  id: 1124665
+  resolution: ''
+  status: NEW
+  summary: Imagewriter cant write exotic formats (Windows-ISO)
+- component: Security
+  create_time: 20190207T14:15:00
+  id: 1124648
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Please update clamav to version 0.101.1
 - component: X.Org
   create_time: 20190207T12:10:00
   id: 1124625
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Screen resolution is very low on and after boot
 - component: Kubic
   create_time: 20190207T09:48:00
