@@ -12300,8 +12300,8 @@
 - component: Basesystem
   create_time: 20180907T07:26:00
   id: 1107611
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: move /etc/modprobe.d/50-blacklist.conf out of sysconfig
 - component: Basesystem
   create_time: 20180907T06:08:00
@@ -18632,8 +18632,8 @@
 - component: Security
   create_time: 20190130T22:48:00
   id: 1123747
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: udisks2: polkit-untracked-privilege'
 - component: Basesystem
   create_time: 20190130T16:31:00
@@ -18644,8 +18644,8 @@
 - component: Basesystem
   create_time: 20190130T15:56:00
   id: 1123714
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: re.pl crash with coredump
 - component: Virtualization:Other
   create_time: 20190130T14:49:00
@@ -18982,6 +18982,18 @@
   status: RESOLVED
   summary: rpmlint breaks texlive-specs-e
 '20190205':
+- component: KDE Workspace (Plasma)
+  create_time: 20190208T15:33:00
+  id: 1124829
+  resolution: ''
+  status: NEW
+  summary: Disable updates in Discover for Tumbleweed
+- component: Installation
+  create_time: 20190208T14:59:00
+  id: 1124823
+  resolution: ''
+  status: NEW
+  summary: btrfsmaintenance service enabled, although no BTRFS used
 - component: Other
   create_time: 20190208T13:47:00
   id: 1124816
