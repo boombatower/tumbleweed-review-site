@@ -5159,7 +5159,7 @@
 - component: Other
   create_time: 20180307T14:11:00
   id: 1084320
-  resolution: WORKSFORME
+  resolution: FIXED
   status: RESOLVED
   summary: Nextcloud rpm requires mod_php_any which is missing.
 - component: Security
@@ -18982,6 +18982,12 @@
   status: RESOLVED
   summary: rpmlint breaks texlive-specs-e
 '20190205':
+- component: Other
+  create_time: 20190208T22:03:00
+  id: 1124855
+  resolution: ''
+  status: NEW
+  summary: fortune error
 - component: KDE Workspace (Plasma)
   create_time: 20190208T15:33:00
   id: 1124829
