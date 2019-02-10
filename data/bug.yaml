@@ -18982,6 +18982,12 @@
   status: RESOLVED
   summary: rpmlint breaks texlive-specs-e
 '20190205':
+- component: Other
+  create_time: 20190210T03:44:00
+  id: 1124881
+  resolution: ''
+  status: NEW
+  summary: Chromium crashes on startup
 - component: Basesystem
   create_time: 20190210T01:09:00
   id: 1124877
