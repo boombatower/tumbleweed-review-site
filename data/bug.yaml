@@ -18982,6 +18982,33 @@
   status: RESOLVED
   summary: rpmlint breaks texlive-specs-e
 '20190205':
+- component: libzypp
+  create_time: 20190210T15:13:00
+  id: 1124897
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190208] openQA test fails in chrome'
+- component: YaST2
+  create_time: 20190210T13:53:00
+  id: 1124895
+  resolution: ''
+  status: NEW
+  summary: By clicking on YasT2 configuration_management I get Error no formulas available
+    Please check log files.
+- component: YaST2
+  create_time: 20190210T13:51:00
+  id: 1124894
+  resolution: ''
+  status: NEW
+  summary: By clicking on YasT2 configuration_management I get Error no formulas available
+    Please check log files.
+- component: YaST2
+  create_time: 20190210T13:49:00
+  id: 1124893
+  resolution: ''
+  status: NEW
+  summary: By clicking on YasT2 configuration_management I get Error no formulas available
+    Please check log files.
 - component: Other
   create_time: 20190210T03:44:00
   id: 1124881
