@@ -14076,8 +14076,8 @@
 - component: Virtualization:Other
   create_time: 20181027T20:18:00
   id: 1113621
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Virtualbox: Error -10 in SUPR3HardenedMain!'
 - component: Other
   create_time: 20181027T19:05:00
@@ -15785,7 +15785,7 @@
   create_time: 20181114T14:03:00
   id: 1115998
   resolution: ''
-  status: REOPENED
+  status: NEW
   summary: irq/17 high cpu usage upon resume
 - component: Other
   create_time: 20181114T14:01:00
@@ -18813,7 +18813,7 @@
   create_time: 20190204T21:28:00
   id: 1124230
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: CCSM (Compiz Config Settings Manager) won't start after upgrade to python
     3.7
 - component: Other
@@ -18982,6 +18982,24 @@
   status: RESOLVED
   summary: rpmlint breaks texlive-specs-e
 '20190205':
+- component: Basesystem
+  create_time: 20190210T01:09:00
+  id: 1124877
+  resolution: ''
+  status: NEW
+  summary: Plymouth Hangs Upon Reboot
+- component: Other
+  create_time: 20190209T21:14:00
+  id: 1124872
+  resolution: ''
+  status: NEW
+  summary: cputype-armv6 no longer works
+- component: X11 Applications
+  create_time: 20190209T15:48:00
+  id: 1124868
+  resolution: ''
+  status: NEW
+  summary: torbrowser-launcher missing python dependency
 - component: Other
   create_time: 20190208T22:03:00
   id: 1124855
@@ -19000,11 +19018,11 @@
   resolution: ''
   status: NEW
   summary: btrfsmaintenance service enabled, although no BTRFS used
-- component: Other
+- component: Basesystem
   create_time: 20190208T13:47:00
   id: 1124816
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Firefox freezes intermittently burning 100% CPU due to fontconfig 2.13.1-1.1
     update
 - component: YaST2
