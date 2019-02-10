@@ -1538,9 +1538,12 @@
     summary: failed to summarize
 '20190205':
   announcement: 2019-02.178
-  reference_count: 1
-  thread_count: 1
+  reference_count: 2
+  thread_count: 2
   threads:
   - messages: [2019-02.197]
     reference_count: 1
     summary: no summary given
+  - messages: [2019-02.289]
+    reference_count: 1
+    summary: released! => unoperabel KDE
