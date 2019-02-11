@@ -18982,6 +18982,24 @@
   status: RESOLVED
   summary: rpmlint breaks texlive-specs-e
 '20190205':
+- component: Basesystem
+  create_time: 20190210T22:33:00
+  id: 1124911
+  resolution: ''
+  status: NEW
+  summary: tumbleweed update freezes during probe of hard disk
+- component: X.Org
+  create_time: 20190210T21:11:00
+  id: 1124910
+  resolution: ''
+  status: NEW
+  summary: Xorg is broken after fresh netinstall
+- component: Other
+  create_time: 20190210T20:37:00
+  id: 1124909
+  resolution: ''
+  status: NEW
+  summary: 'Regression: scanner AGFA 1212u stops working after the first/preview scan'
 - component: libzypp
   create_time: 20190210T15:13:00
   id: 1124897
