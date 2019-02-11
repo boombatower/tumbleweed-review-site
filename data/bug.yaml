@@ -18991,8 +18991,8 @@
 - component: X.Org
   create_time: 20190210T21:11:00
   id: 1124910
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Xorg is broken after fresh netinstall
 - component: Other
   create_time: 20190210T20:37:00
@@ -19030,8 +19030,8 @@
 - component: Other
   create_time: 20190210T03:44:00
   id: 1124881
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Chromium crashes on startup
 - component: Basesystem
   create_time: 20190210T01:09:00
@@ -19170,8 +19170,8 @@
 - component: Other
   create_time: 20190206T18:20:00
   id: 1124521
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: libvpx5 release is a debug build
 - component: Installation
   create_time: 20190206T16:28:00
