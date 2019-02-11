@@ -4686,8 +4686,8 @@
 - component: Kernel
   create_time: 20180228T10:06:00
   id: 1083266
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Network adapter doesn't wake up from suspend since kernel 4.15
 - component: AppArmor
   create_time: 20180228T06:04:00
@@ -11673,8 +11673,8 @@
 - component: Other
   create_time: 20180815T13:45:00
   id: 1104935
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: AC power adapter detection does not work
 - component: GNOME
   create_time: 20180815T08:54:00
@@ -16933,8 +16933,8 @@
 - component: Kubic
   create_time: 20181214T09:52:00
   id: 1119511
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Not possible to login to Kubic/MicroOS anymore via ssh
 - component: Kubic
   create_time: 20181214T09:25:00
@@ -17145,8 +17145,8 @@
 - component: YaST2
   create_time: 20190107T21:13:00
   id: 1120979
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Retaining existing Software RAID via AutoYast is broken: "can''t find
     reusable device"'
 - component: Other
@@ -17250,8 +17250,8 @@
 - component: Basesystem
   create_time: 20190106T15:35:00
   id: 1120863
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: installation hangs - "bad RIP value"
 - component: Basesystem
   create_time: 20190106T15:34:00
@@ -17450,7 +17450,7 @@
   create_time: 20181229T17:44:00
   id: 1120397
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: I Cannot launch YaST modules from the LXQt programs menu
 - component: Development
   create_time: 20181228T15:13:00
@@ -18118,8 +18118,8 @@
 - component: YaST2
   create_time: 20190112T19:15:00
   id: 1121720
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Retaining existing Software RAID via AutoYast is broken: y2storage always
     formats MD'
 - component: Upgrade Problems
@@ -18856,8 +18856,8 @@
 - component: Network
   create_time: 20190204T12:25:00
   id: 1124152
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: /etc/resolv.conf no symlink to /run/netconfig/resolv.conf
 - component: Development
   create_time: 20190204T11:06:00
@@ -18982,6 +18982,24 @@
   status: RESOLVED
   summary: rpmlint breaks texlive-specs-e
 '20190205':
+- component: YaST2
+  create_time: 20190211T13:29:00
+  id: 1124995
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190208] openQA test fails in yast2_rmt - nothing provides ruby2.5-rubygem-bundler'
+- component: YaST2
+  create_time: 20190211T11:39:00
+  id: 1124964
+  resolution: ''
+  status: NEW
+  summary: blender has no menu and icons
+- component: Installation
+  create_time: 20190211T09:40:00
+  id: 1124945
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190208] instsys missing: root'
 - component: Basesystem
   create_time: 20190210T22:33:00
   id: 1124911
@@ -19003,8 +19021,8 @@
 - component: libzypp
   create_time: 20190210T15:13:00
   id: 1124897
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190208] openQA test fails in chrome'
 - component: YaST2
   create_time: 20190210T13:53:00
@@ -19016,15 +19034,15 @@
 - component: YaST2
   create_time: 20190210T13:51:00
   id: 1124894
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: By clicking on YasT2 configuration_management I get Error no formulas available
     Please check log files.
 - component: YaST2
   create_time: 20190210T13:49:00
   id: 1124893
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: By clicking on YasT2 configuration_management I get Error no formulas available
     Please check log files.
 - component: Other
@@ -19219,11 +19237,11 @@
   status: CONFIRMED
   summary: yast-samba-client incorrectly parses output from net ads lookup, "Join
     the domain Pre-Win2k Domain"
-- component: Other
+- component: GNOME
   create_time: 20190205T19:59:00
   id: 1124388
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: colord mistake in spec file
 - component: KDE Applications
   create_time: 20190205T16:37:00
