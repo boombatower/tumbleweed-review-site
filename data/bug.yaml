@@ -6136,8 +6136,8 @@
 - component: Other
   create_time: 20180321T06:44:00
   id: 1086166
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: nothing provides libpng12-0 needed by lsb-4.0-31.2.x86_64
 - component: GNOME
   create_time: 20180321T01:05:00
@@ -14901,8 +14901,8 @@
 - component: libzypp
   create_time: 20181106T18:04:00
   id: 1114908
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: zypper --plus-content does not work as expected
 - component: KDE Applications
   create_time: 20181106T14:27:00
@@ -15579,7 +15579,7 @@
   create_time: 20181114T16:58:00
   id: 1116055
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Please convert SysV init scripts by xsp into native systemd services
 - component: X.Org
   create_time: 20181114T16:56:00
@@ -15632,8 +15632,8 @@
 - component: Other
   create_time: 20181114T15:34:00
   id: 1116035
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by scmon into native systemd services
 - component: Basesystem
   create_time: 20181114T15:31:00
@@ -18982,6 +18982,36 @@
   status: RESOLVED
   summary: rpmlint breaks texlive-specs-e
 '20190205':
+- component: Basesystem
+  create_time: 20190212T14:13:00
+  id: 1125142
+  resolution: ''
+  status: NEW
+  summary: LXQT pattern comes without tar preinstalled
+- component: Other
+  create_time: 20190212T13:09:00
+  id: 1125139
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190209] openQA test fails in gnuhealth_client_first_time'
+- component: Other
+  create_time: 20190212T12:28:00
+  id: 1125134
+  resolution: ''
+  status: NEW
+  summary: package version for mutt (and others?) distorted
+- component: Firefox
+  create_time: 20190212T06:24:00
+  id: 1125078
+  resolution: ''
+  status: NEW
+  summary: Loading page in a new tab force pages on other tabs reloading
+- component: YaST2
+  create_time: 20190212T06:04:00
+  id: 1125076
+  resolution: ''
+  status: NEW
+  summary: yast2-configuration-management fails to build in staging:D
 - component: libzypp
   create_time: 20190211T21:16:00
   id: 1125044
@@ -18994,6 +19024,12 @@
   resolution: ''
   status: NEW
   summary: 'Change default kconfig: CONFIG_PREEMPT_VOLUNTARY'
+- component: Security
+  create_time: 20190211T13:58:00
+  id: 1124998
+  resolution: ''
+  status: NEW
+  summary: split off services from firewalld
 - component: YaST2
   create_time: 20190211T13:29:00
   id: 1124995
@@ -19004,13 +19040,13 @@
   create_time: 20190211T11:39:00
   id: 1124964
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: blender has no menu and icons
 - component: Installation
   create_time: 20190211T09:40:00
   id: 1124945
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190208] instsys missing: root'
 - component: Basesystem
   create_time: 20190210T22:33:00
