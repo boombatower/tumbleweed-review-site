@@ -13198,8 +13198,8 @@
 - component: GNOME
   create_time: 20181003T23:05:00
   id: 1110668
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: python3-avahi is not python3 compatible
 - component: Basesystem
   create_time: 20181003T12:10:00
@@ -18982,141 +18982,6 @@
   status: RESOLVED
   summary: rpmlint breaks texlive-specs-e
 '20190205':
-- component: Basesystem
-  create_time: 20190212T14:13:00
-  id: 1125142
-  resolution: ''
-  status: NEW
-  summary: LXQT pattern comes without tar preinstalled
-- component: Other
-  create_time: 20190212T13:09:00
-  id: 1125139
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190209] openQA test fails in gnuhealth_client_first_time'
-- component: Other
-  create_time: 20190212T12:28:00
-  id: 1125134
-  resolution: ''
-  status: NEW
-  summary: package version for mutt (and others?) distorted
-- component: Firefox
-  create_time: 20190212T06:24:00
-  id: 1125078
-  resolution: ''
-  status: NEW
-  summary: Loading page in a new tab force pages on other tabs reloading
-- component: YaST2
-  create_time: 20190212T06:04:00
-  id: 1125076
-  resolution: ''
-  status: NEW
-  summary: yast2-configuration-management fails to build in staging:D
-- component: libzypp
-  create_time: 20190211T21:16:00
-  id: 1125044
-  resolution: ''
-  status: NEW
-  summary: Integer overflow for for huge package (4.4 GByte installed)?
-- component: Kernel
-  create_time: 20190211T14:51:00
-  id: 1125004
-  resolution: ''
-  status: NEW
-  summary: 'Change default kconfig: CONFIG_PREEMPT_VOLUNTARY'
-- component: Security
-  create_time: 20190211T13:58:00
-  id: 1124998
-  resolution: ''
-  status: NEW
-  summary: split off services from firewalld
-- component: YaST2
-  create_time: 20190211T13:29:00
-  id: 1124995
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190208] openQA test fails in yast2_rmt - nothing provides ruby2.5-rubygem-bundler'
-- component: YaST2
-  create_time: 20190211T11:39:00
-  id: 1124964
-  resolution: ''
-  status: IN_PROGRESS
-  summary: blender has no menu and icons
-- component: Installation
-  create_time: 20190211T09:40:00
-  id: 1124945
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20190208] instsys missing: root'
-- component: Basesystem
-  create_time: 20190210T22:33:00
-  id: 1124911
-  resolution: ''
-  status: NEW
-  summary: tumbleweed update freezes during probe of hard disk
-- component: X.Org
-  create_time: 20190210T21:11:00
-  id: 1124910
-  resolution: INVALID
-  status: RESOLVED
-  summary: Xorg is broken after fresh netinstall
-- component: Other
-  create_time: 20190210T20:37:00
-  id: 1124909
-  resolution: ''
-  status: NEW
-  summary: 'Regression: scanner AGFA 1212u stops working after the first/preview scan'
-- component: libzypp
-  create_time: 20190210T15:13:00
-  id: 1124897
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20190208] openQA test fails in chrome'
-- component: YaST2
-  create_time: 20190210T13:53:00
-  id: 1124895
-  resolution: ''
-  status: NEW
-  summary: By clicking on YasT2 configuration_management I get Error no formulas available
-    Please check log files.
-- component: YaST2
-  create_time: 20190210T13:51:00
-  id: 1124894
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: By clicking on YasT2 configuration_management I get Error no formulas available
-    Please check log files.
-- component: YaST2
-  create_time: 20190210T13:49:00
-  id: 1124893
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: By clicking on YasT2 configuration_management I get Error no formulas available
-    Please check log files.
-- component: Other
-  create_time: 20190210T03:44:00
-  id: 1124881
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Chromium crashes on startup
-- component: Basesystem
-  create_time: 20190210T01:09:00
-  id: 1124877
-  resolution: ''
-  status: NEW
-  summary: Plymouth Hangs Upon Reboot
-- component: Other
-  create_time: 20190209T21:14:00
-  id: 1124872
-  resolution: ''
-  status: NEW
-  summary: cputype-armv6 no longer works
-- component: X11 Applications
-  create_time: 20190209T15:48:00
-  id: 1124868
-  resolution: ''
-  status: IN_PROGRESS
-  summary: torbrowser-launcher missing python dependency
 - component: Other
   create_time: 20190208T22:03:00
   id: 1124855
@@ -19308,8 +19173,8 @@
 - component: Security
   create_time: 20190205T14:50:00
   id: 1124339
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: blueman: Blueman 2.0.8 adds new blueman.rules to /usr/share/polkit-1/rules.d/blueman.rules'
 - component: Installation
   create_time: 20190205T11:53:00
@@ -19342,3 +19207,151 @@
   resolution: ''
   status: CONFIRMED
   summary: Zypper crashes system (root partition full)
+'20190209':
+- component: Basesystem
+  create_time: 20190212T19:04:00
+  id: 1125178
+  resolution: ''
+  status: NEW
+  summary: ldconfig ignores directory /usr/lib64/hugin
+- component: KDE Applications
+  create_time: 20190212T17:27:00
+  id: 1125166
+  resolution: ''
+  status: NEW
+  summary: 'Amarok: Error message: Could not find requested component'
+- component: Basesystem
+  create_time: 20190212T14:13:00
+  id: 1125142
+  resolution: ''
+  status: NEW
+  summary: LXQT pattern comes without tar preinstalled
+- component: Other
+  create_time: 20190212T13:09:00
+  id: 1125139
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190209] openQA test fails in gnuhealth_client_first_time'
+- component: Other
+  create_time: 20190212T12:28:00
+  id: 1125134
+  resolution: ''
+  status: NEW
+  summary: package version for mutt (and others?) distorted
+- component: Firefox
+  create_time: 20190212T06:24:00
+  id: 1125078
+  resolution: ''
+  status: NEW
+  summary: Loading page in a new tab force pages on other tabs reloading
+- component: YaST2
+  create_time: 20190212T06:04:00
+  id: 1125076
+  resolution: ''
+  status: NEW
+  summary: yast2-configuration-management fails to build in staging:D
+- component: libzypp
+  create_time: 20190211T21:16:00
+  id: 1125044
+  resolution: ''
+  status: NEW
+  summary: Integer overflow for for huge package (4.4 GByte installed)?
+- component: Kernel
+  create_time: 20190211T14:51:00
+  id: 1125004
+  resolution: ''
+  status: NEW
+  summary: 'Change default kconfig: CONFIG_PREEMPT_VOLUNTARY'
+- component: Security
+  create_time: 20190211T13:58:00
+  id: 1124998
+  resolution: ''
+  status: NEW
+  summary: split off services from firewalld
+- component: YaST2
+  create_time: 20190211T13:29:00
+  id: 1124995
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190208] openQA test fails in yast2_rmt - nothing provides ruby2.5-rubygem-bundler'
+- component: YaST2
+  create_time: 20190211T11:39:00
+  id: 1124964
+  resolution: ''
+  status: IN_PROGRESS
+  summary: blender has no menu and icons
+- component: Installation
+  create_time: 20190211T09:40:00
+  id: 1124945
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190208] instsys missing: root'
+- component: Basesystem
+  create_time: 20190210T22:33:00
+  id: 1124911
+  resolution: ''
+  status: NEW
+  summary: tumbleweed update freezes during probe of hard disk
+- component: X.Org
+  create_time: 20190210T21:11:00
+  id: 1124910
+  resolution: INVALID
+  status: RESOLVED
+  summary: Xorg is broken after fresh netinstall
+- component: Other
+  create_time: 20190210T20:37:00
+  id: 1124909
+  resolution: ''
+  status: NEW
+  summary: 'Regression: scanner AGFA 1212u stops working after the first/preview scan'
+- component: libzypp
+  create_time: 20190210T15:13:00
+  id: 1124897
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190208] openQA test fails in chrome'
+- component: YaST2
+  create_time: 20190210T13:53:00
+  id: 1124895
+  resolution: ''
+  status: NEW
+  summary: By clicking on YasT2 configuration_management I get Error no formulas available
+    Please check log files.
+- component: YaST2
+  create_time: 20190210T13:51:00
+  id: 1124894
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: By clicking on YasT2 configuration_management I get Error no formulas available
+    Please check log files.
+- component: YaST2
+  create_time: 20190210T13:49:00
+  id: 1124893
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: By clicking on YasT2 configuration_management I get Error no formulas available
+    Please check log files.
+- component: Other
+  create_time: 20190210T03:44:00
+  id: 1124881
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Chromium crashes on startup
+- component: Basesystem
+  create_time: 20190210T01:09:00
+  id: 1124877
+  resolution: ''
+  status: NEW
+  summary: Plymouth Hangs Upon Reboot
+- component: Other
+  create_time: 20190209T21:14:00
+  id: 1124872
+  resolution: ''
+  status: NEW
+  summary: cputype-armv6 no longer works
+- component: X11 Applications
+  create_time: 20190209T15:48:00
+  id: 1124868
+  resolution: ''
+  status: IN_PROGRESS
+  summary: torbrowser-launcher missing python dependency
