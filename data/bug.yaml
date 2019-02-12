@@ -11235,14 +11235,14 @@
 - component: Basesystem
   create_time: 20180801T04:49:00
   id: 1103326
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: minimal_base pattern shouldn't have any recommends
 - component: Basesystem
   create_time: 20180801T04:45:00
   id: 1103325
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Patterns: minimal_base_conflicts should probably be removed, its not in
     Leap or SLE'
 - component: Basesystem
@@ -12101,8 +12101,8 @@
 - component: Patterns
   create_time: 20180829T12:33:00
   id: 1106405
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'patterns-base: do not pull in hardware specific packages'
 - component: Other
   create_time: 20180829T09:54:00
@@ -18100,8 +18100,8 @@
 - component: Patterns
   create_time: 20190113T19:20:00
   id: 1121730
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: patterns-base-x11 recommends xorg-x11 compability metapackage
 - component: KDE Workspace (Plasma)
   create_time: 20190113T13:11:00
@@ -18982,6 +18982,12 @@
   status: RESOLVED
   summary: rpmlint breaks texlive-specs-e
 '20190205':
+- component: libzypp
+  create_time: 20190211T21:16:00
+  id: 1125044
+  resolution: ''
+  status: NEW
+  summary: Integer overflow for for huge package (4.4 GByte installed)?
 - component: Kernel
   create_time: 20190211T14:51:00
   id: 1125004
