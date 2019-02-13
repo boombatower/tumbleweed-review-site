@@ -19208,6 +19208,13 @@
   status: CONFIRMED
   summary: Zypper crashes system (root partition full)
 '20190209':
+- component: LibreOffice
+  create_time: 20190212T22:53:00
+  id: 1125210
+  resolution: ''
+  status: NEW
+  summary: Libreoffice shows issues after switch to full KDE stack for KDE Frameworks
+    integration
 - component: Basesystem
   create_time: 20190212T19:04:00
   id: 1125178
