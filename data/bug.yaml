@@ -7515,8 +7515,8 @@
 - component: Installation
   create_time: 20180420T12:20:00
   id: 1090372
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Server System Roles have suboptimal default firewall settings
 - component: Basesystem
   create_time: 20180420T11:41:00
@@ -16311,8 +16311,8 @@
 - component: Network
   create_time: 20181127T14:20:00
   id: 1117483
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'openvswitch: please consider dropping the use of DISABLE_STOP_ON_REMOVAL/DISABLE_RESTART_ON_UPDATE'
 - component: Kernel
   create_time: 20181127T14:04:00
@@ -16451,8 +16451,8 @@
 - component: Basesystem
   create_time: 20181130T14:26:00
   id: 1117938
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: systemd - mailto for systemd timers
 - component: Printing
   create_time: 20181130T12:40:00
@@ -19010,8 +19010,8 @@
 - component: YaST2
   create_time: 20190208T11:33:00
   id: 1124790
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: YaST2 partitioner - dangerous/wrong proposal
 - component: YaST2
   create_time: 20190208T11:26:00
@@ -19166,8 +19166,8 @@
 - component: YaST2
   create_time: 20190205T14:51:00
   id: 1124340
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '[Build 20190202] openQA test fails in yast2_dns_server with "Error: ATTENTION:
     /etc/named.d/forwarders.conf is not a link to /var/run/netconfig/bind-forwarders.conf"'
 - component: Security
@@ -19208,6 +19208,36 @@
   status: CONFIRMED
   summary: Zypper crashes system (root partition full)
 '20190209':
+- component: Bootloader
+  create_time: 20190213T13:16:00
+  id: 1125307
+  resolution: ''
+  status: NEW
+  summary: master-boot-code grew by 10311.753x - wrong use of objcopy
+- component: libzypp
+  create_time: 20190213T12:45:00
+  id: 1125300
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Unable to install local rpm through zypper command
+- component: Other
+  create_time: 20190213T12:25:00
+  id: 1125298
+  resolution: FIXED
+  status: RESOLVED
+  summary: Rename java-xz to xz-java leads to file conflict
+- component: Kernel
+  create_time: 20190213T10:30:00
+  id: 1125278
+  resolution: ''
+  status: IN_PROGRESS
+  summary: bonnie++ file delete regression between SLE15 and 4.20
+- component: Patterns
+  create_time: 20190213T09:20:00
+  id: 1125267
+  resolution: ''
+  status: NEW
+  summary: apparmor-utils is not installed from DVD anymore
 - component: LibreOffice
   create_time: 20190212T22:53:00
   id: 1125210
@@ -19227,12 +19257,12 @@
   resolution: ''
   status: NEW
   summary: 'Amarok: Error message: Could not find requested component'
-- component: Basesystem
+- component: YaST2
   create_time: 20190212T14:13:00
   id: 1125142
   resolution: ''
-  status: NEW
-  summary: LXQT pattern comes without tar preinstalled
+  status: CONFIRMED
+  summary: yast2-logs needs tar
 - component: Other
   create_time: 20190212T13:09:00
   id: 1125139
@@ -19278,8 +19308,8 @@
 - component: YaST2
   create_time: 20190211T11:39:00
   id: 1124964
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: blender has no menu and icons
 - component: Installation
   create_time: 20190211T09:40:00
