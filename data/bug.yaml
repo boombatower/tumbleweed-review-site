@@ -10398,8 +10398,8 @@
 - component: Kernel
   create_time: 20180713T17:25:00
   id: 1101194
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'JeOS-efi: Initramfs unpacking failed: junk in compressed archive'
 - component: Other
   create_time: 20180713T02:55:00
@@ -19013,11 +19013,11 @@
   resolution: INVALID
   status: RESOLVED
   summary: YaST2 partitioner - dangerous/wrong proposal
-- component: YaST2
+- component: Patterns
   create_time: 20190208T11:26:00
   id: 1124789
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: System roles need improvement
 - component: X11 Applications
   create_time: 20190207T23:12:00
