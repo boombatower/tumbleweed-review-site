@@ -19211,8 +19211,8 @@
 - component: LibreOffice
   create_time: 20190212T22:53:00
   id: 1125210
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Libreoffice shows issues after switch to full KDE stack for KDE Frameworks
     integration
 - component: Basesystem
@@ -19239,12 +19239,6 @@
   resolution: ''
   status: NEW
   summary: '[Build 20190209] openQA test fails in gnuhealth_client_first_time'
-- component: Other
-  create_time: 20190212T12:28:00
-  id: 1125134
-  resolution: ''
-  status: NEW
-  summary: package version for mutt (and others?) distorted
 - component: Firefox
   create_time: 20190212T06:24:00
   id: 1125078
