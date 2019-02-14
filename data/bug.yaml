@@ -17157,8 +17157,8 @@
 - component: Installation
   create_time: 20190107T17:00:00
   id: 1120962
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'linuxrc error yast2-trans-en_US.rpm: Digest verification failed'
 - component: AutoYaST
   create_time: 20190107T16:44:00
@@ -19207,6 +19207,42 @@
   status: CONFIRMED
   summary: Zypper crashes system (root partition full)
 '20190209':
+- component: Kubic
+  create_time: 20190214T17:18:00
+  id: 1125488
+  resolution: ''
+  status: IN_PROGRESS
+  summary: transactional-update cleanup removes data from /etc
+- component: KDE Workspace (Plasma)
+  create_time: 20190214T16:48:00
+  id: 1125483
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190213] openQA test fails in finish_desktop'
+- component: libzypp
+  create_time: 20190214T16:09:00
+  id: 1125477
+  resolution: ''
+  status: NEW
+  summary: '[TRACK] - solved by utilizing job based API of libsolv'
+- component: libzypp
+  create_time: 20190214T16:03:00
+  id: 1125476
+  resolution: ''
+  status: NEW
+  summary: '[TRACK] solved by implementing customizable output'
+- component: libzypp
+  create_time: 20190214T15:44:00
+  id: 1125471
+  resolution: ''
+  status: NEW
+  summary: '[TRACK] solved by ''zypper cleanup'' command/options'
+- component: libzypp
+  create_time: 20190214T15:41:00
+  id: 1125470
+  resolution: ''
+  status: NEW
+  summary: '[TRACK] solved by FETCHER / MEDIABACKEND enhancement'
 - component: Basesystem
   create_time: 20190214T14:23:00
   id: 1125458
