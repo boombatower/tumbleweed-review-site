@@ -10836,8 +10836,7 @@
   id: 1102563
   resolution: ''
   status: NEW
-  summary: '[Build 20180722] openQA test fails to login in first_boot, autologin broken
-    on aarch64?'
+  summary: GNOME autologin broken on aarch64
 - component: Printing
   create_time: 20180725T09:28:00
   id: 1102529
@@ -13787,8 +13786,8 @@
 - component: GNOME
   create_time: 20181015T16:13:00
   id: 1111898
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20181012] openQA test fails in NM_wpa2_enterprise for ppc64le'
 - component: Kubic
   create_time: 20181015T16:12:00
@@ -18856,8 +18855,8 @@
 - component: Network
   create_time: 20190204T12:25:00
   id: 1124152
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: /etc/resolv.conf no symlink to /run/netconfig/resolv.conf
 - component: Development
   create_time: 20190204T11:06:00
@@ -19065,7 +19064,7 @@
   create_time: 20190207T09:48:00
   id: 1124590
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: openSUSE-release and openSUSE-Tumbleweed-Kubic-release marked for installation
 - component: YaST2
   create_time: 20190207T09:23:00
@@ -19208,6 +19207,85 @@
   status: CONFIRMED
   summary: Zypper crashes system (root partition full)
 '20190209':
+- component: Basesystem
+  create_time: 20190214T14:23:00
+  id: 1125458
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: nodejs8 build fails'
+- component: Basesystem
+  create_time: 20190214T13:38:00
+  id: 1125453
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'GCC 9: libxcrypt build fails'
+- component: YaST2
+  create_time: 20190214T12:57:00
+  id: 1125450
+  resolution: ''
+  status: IN_PROGRESS
+  summary: yast2-theme-oxygen package is unusable
+- component: Security
+  create_time: 20190214T11:29:00
+  id: 1125438
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: systemd: status of /usr/share/polkit-1/rules.d/systemd-networkd.rules'
+- component: Security
+  create_time: 20190214T11:12:00
+  id: 1125434
+  resolution: ''
+  status: NEW
+  summary: 'PackageKit: removal of /usr/share/polkit-1/rules.d/org.freedesktop.packagekit.rules'
+- component: Security
+  create_time: 20190214T10:58:00
+  id: 1125433
+  resolution: ''
+  status: NEW
+  summary: 'gvfs: removal of /usr/share/polkit-1/rules.d/org.gtk.vfs.file-operations.rules'
+- component: Security
+  create_time: 20190214T10:54:00
+  id: 1125432
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: gnome-initial-setup: purpose of /usr/share/polkit-1/rules.d/20-gnome-initial-setup.rules'
+- component: Security
+  create_time: 20190214T10:43:00
+  id: 1125428
+  resolution: ''
+  status: NEW
+  summary: 'fwupd: removal of /usr/share/polkit-1/rules.d/org.freedesktop.fwupd.rules'
+- component: Security
+  create_time: 20190214T10:38:00
+  id: 1125427
+  resolution: ''
+  status: NEW
+  summary: 'cinnamon-control-center: removal of /usr/share/polkit-1/rules.d/cinnamon-control-center.rules'
+- component: YaST2
+  create_time: 20190214T10:28:00
+  id: 1125424
+  resolution: ''
+  status: NEW
+  summary: Displaying icons broken in YaST Control Center and YaST Packager
+- component: Security
+  create_time: 20190214T10:08:00
+  id: 1125420
+  resolution: ''
+  status: NEW
+  summary: 'VUL-0: CVE-2019-8337: msmtp: certificate-verification results are not
+    properly checked in tls_trust_file default configuration'
+- component: Basesystem
+  create_time: 20190214T09:46:00
+  id: 1125418
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: xtrabackup build fails'
+- component: libzypp
+  create_time: 20190214T09:35:00
+  id: 1125415
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'zypper: refresh disabled repos'
 - component: Other
   create_time: 20190214T08:01:00
   id: 1125398
