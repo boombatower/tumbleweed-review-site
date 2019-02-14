@@ -19208,6 +19208,19 @@
   status: CONFIRMED
   summary: Zypper crashes system (root partition full)
 '20190209':
+- component: Installation
+  create_time: 20190214T02:20:00
+  id: 1125376
+  resolution: ''
+  status: NEW
+  summary: 'Installation: New user is not added in `video` group -> results in permission
+    issue for /dev/dri/card0'
+- component: Other
+  create_time: 20190214T01:55:00
+  id: 1125374
+  resolution: ''
+  status: NEW
+  summary: Lutris lacks dependencies
 - component: Bootloader
   create_time: 20190213T13:16:00
   id: 1125307
