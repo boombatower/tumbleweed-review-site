@@ -15632,8 +15632,8 @@
 - component: Other
   create_time: 20181114T15:34:00
   id: 1116035
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Please convert SysV init scripts by scmon into native systemd services
 - component: Basesystem
   create_time: 20181114T15:31:00
@@ -18954,8 +18954,8 @@
 - component: YaST2
   create_time: 20190203T09:07:00
   id: 1124064
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Internal error while opening YaST2 Boot loader module
 - component: Usability
   create_time: 20190202T19:17:00
@@ -19208,6 +19208,13 @@
   status: CONFIRMED
   summary: Zypper crashes system (root partition full)
 '20190209':
+- component: Other
+  create_time: 20190214T08:01:00
+  id: 1125398
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190213] openQA test fails in machinery, no machinery-helper for
+    ppc64le'
 - component: Installation
   create_time: 20190214T02:20:00
   id: 1125376
