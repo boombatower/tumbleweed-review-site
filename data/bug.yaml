@@ -19207,178 +19207,6 @@
   status: CONFIRMED
   summary: Zypper crashes system (root partition full)
 '20190209':
-- component: Other
-  create_time: 20190215T14:01:00
-  id: 1125605
-  resolution: ''
-  status: NEW
-  summary: Bug in libpsm2-2 11.2.23 Causes 15s Delay Starting Programs Linked With
-    libpsm2
-- component: YaST2
-  create_time: 20190215T11:58:00
-  id: 1125594
-  resolution: ''
-  status: NEW
-  summary: YaST no longer have some hardcoded PNG icons (default Breeze theme)
-- component: Other
-  create_time: 20190215T11:36:00
-  id: 1125588
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190214] chromium: pressing alt tears down GNOME session'
-- component: Sound
-  create_time: 20190215T11:27:00
-  id: 1125586
-  resolution: ''
-  status: IN_PROGRESS
-  summary: pasystray mouse bindings doesn't work
-- component: Live Medium
-  create_time: 20190215T08:25:00
-  id: 1125545
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20190214] openQA test fails in desktop_mainmenu: konsole not installed'
-- component: Other
-  create_time: 20190215T07:45:00
-  id: 1125542
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190214] python-qt4 build failure stops zdup process'
-- component: Kubic
-  create_time: 20190214T17:18:00
-  id: 1125488
-  resolution: ''
-  status: IN_PROGRESS
-  summary: transactional-update cleanup removes data from /etc
-- component: KDE Workspace (Plasma)
-  create_time: 20190214T16:48:00
-  id: 1125483
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20190213] openQA test fails in finish_desktop'
-- component: libzypp
-  create_time: 20190214T16:09:00
-  id: 1125477
-  resolution: ''
-  status: NEW
-  summary: '[TRACK] solved by utilizing job based API of libsolv'
-- component: libzypp
-  create_time: 20190214T16:03:00
-  id: 1125476
-  resolution: ''
-  status: NEW
-  summary: '[TRACK] solved by implementing customizable output'
-- component: libzypp
-  create_time: 20190214T15:44:00
-  id: 1125471
-  resolution: ''
-  status: NEW
-  summary: '[TRACK] solved by ''zypper cleanup'' command/options'
-- component: libzypp
-  create_time: 20190214T15:41:00
-  id: 1125470
-  resolution: ''
-  status: NEW
-  summary: '[TRACK] solved by FETCHER / MEDIABACKEND enhancement'
-- component: Basesystem
-  create_time: 20190214T14:23:00
-  id: 1125458
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: nodejs8 build fails'
-- component: Basesystem
-  create_time: 20190214T13:38:00
-  id: 1125453
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'GCC 9: libxcrypt build fails'
-- component: YaST2
-  create_time: 20190214T12:57:00
-  id: 1125450
-  resolution: ''
-  status: IN_PROGRESS
-  summary: yast2-theme-oxygen package is unusable
-- component: Security
-  create_time: 20190214T11:29:00
-  id: 1125438
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: systemd: status of /usr/share/polkit-1/rules.d/systemd-networkd.rules'
-- component: Security
-  create_time: 20190214T11:12:00
-  id: 1125434
-  resolution: ''
-  status: NEW
-  summary: 'PackageKit: removal of /usr/share/polkit-1/rules.d/org.freedesktop.packagekit.rules'
-- component: Security
-  create_time: 20190214T10:58:00
-  id: 1125433
-  resolution: ''
-  status: NEW
-  summary: 'gvfs: removal of /usr/share/polkit-1/rules.d/org.gtk.vfs.file-operations.rules'
-- component: Security
-  create_time: 20190214T10:54:00
-  id: 1125432
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: gnome-initial-setup: purpose of /usr/share/polkit-1/rules.d/20-gnome-initial-setup.rules'
-- component: Security
-  create_time: 20190214T10:43:00
-  id: 1125428
-  resolution: ''
-  status: NEW
-  summary: 'fwupd: removal of /usr/share/polkit-1/rules.d/org.freedesktop.fwupd.rules'
-- component: Security
-  create_time: 20190214T10:38:00
-  id: 1125427
-  resolution: ''
-  status: NEW
-  summary: 'cinnamon-control-center: removal of /usr/share/polkit-1/rules.d/cinnamon-control-center.rules'
-- component: YaST2
-  create_time: 20190214T10:28:00
-  id: 1125424
-  resolution: FIXED
-  status: RESOLVED
-  summary: Displaying icons broken in YaST Control Center and YaST Packager
-- component: Security
-  create_time: 20190214T10:08:00
-  id: 1125420
-  resolution: ''
-  status: NEW
-  summary: 'VUL-0: CVE-2019-8337: msmtp: certificate-verification results are not
-    properly checked in tls_trust_file default configuration'
-- component: Basesystem
-  create_time: 20190214T09:46:00
-  id: 1125418
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: xtrabackup build fails'
-- component: libzypp
-  create_time: 20190214T09:35:00
-  id: 1125415
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'zypper: refresh disabled repos'
-- component: Other
-  create_time: 20190214T08:01:00
-  id: 1125398
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190213] openQA test fails in machinery, no machinery-helper for
-    ppc64le'
-- component: Installation
-  create_time: 20190214T02:20:00
-  id: 1125376
-  resolution: ''
-  status: NEW
-  summary: 'Installation: New user is not added in `video` group -> results in permission
-    issue for /dev/dri/card0'
-- component: Other
-  create_time: 20190214T01:55:00
-  id: 1125374
-  resolution: ''
-  status: NEW
-  summary: Lutris lacks dependencies
 - component: Bootloader
   create_time: 20190213T13:16:00
   id: 1125307
@@ -19557,3 +19385,194 @@
   resolution: ''
   status: IN_PROGRESS
   summary: torbrowser-launcher missing python dependency
+'20190214':
+- component: X.Org
+  create_time: 20190215T18:36:00
+  id: 1125624
+  resolution: ''
+  status: NEW
+  summary: Wrong path for xorg-session.log
+- component: Basesystem
+  create_time: 20190215T16:33:00
+  id: 1125619
+  resolution: ''
+  status: NEW
+  summary: System does reboot instead of doing shutdown
+- component: Basesystem
+  create_time: 20190215T15:40:00
+  id: 1125616
+  resolution: ''
+  status: NEW
+  summary: '[stagnig] syslinux fails to build due aliasing bugs in lzo'
+- component: Other
+  create_time: 20190215T14:01:00
+  id: 1125605
+  resolution: ''
+  status: NEW
+  summary: Bug in libpsm2-2 11.2.23 Causes 15s Delay Starting Programs Linked With
+    libpsm2
+- component: YaST2
+  create_time: 20190215T11:58:00
+  id: 1125594
+  resolution: ''
+  status: CONFIRMED
+  summary: YaST no longer have some hardcoded PNG icons (default Breeze theme)
+- component: Other
+  create_time: 20190215T11:36:00
+  id: 1125588
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190214] chromium: pressing alt tears down GNOME session'
+- component: Sound
+  create_time: 20190215T11:27:00
+  id: 1125586
+  resolution: ''
+  status: IN_PROGRESS
+  summary: pasystray mouse bindings doesn't work
+- component: Live Medium
+  create_time: 20190215T08:25:00
+  id: 1125545
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190214] openQA test fails in desktop_mainmenu: konsole not installed'
+- component: Other
+  create_time: 20190215T07:45:00
+  id: 1125542
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190214] python-qt4 build failure stops zdup process'
+- component: Kubic
+  create_time: 20190214T17:18:00
+  id: 1125488
+  resolution: ''
+  status: IN_PROGRESS
+  summary: transactional-update cleanup removes data from /etc
+- component: KDE Workspace (Plasma)
+  create_time: 20190214T16:48:00
+  id: 1125483
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190213] openQA test fails in finish_desktop'
+- component: libzypp
+  create_time: 20190214T16:09:00
+  id: 1125477
+  resolution: ''
+  status: NEW
+  summary: '[TRACK] solved by utilizing job based API of libsolv'
+- component: libzypp
+  create_time: 20190214T16:03:00
+  id: 1125476
+  resolution: ''
+  status: NEW
+  summary: '[TRACK] solved by implementing customizable output'
+- component: libzypp
+  create_time: 20190214T15:44:00
+  id: 1125471
+  resolution: ''
+  status: NEW
+  summary: '[TRACK] solved by ''zypper cleanup'' command/options'
+- component: libzypp
+  create_time: 20190214T15:41:00
+  id: 1125470
+  resolution: ''
+  status: NEW
+  summary: '[TRACK] solved by FETCHER / MEDIABACKEND enhancement'
+- component: Basesystem
+  create_time: 20190214T14:23:00
+  id: 1125458
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: nodejs8 build fails'
+- component: Basesystem
+  create_time: 20190214T13:38:00
+  id: 1125453
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'GCC 9: libxcrypt build fails'
+- component: YaST2
+  create_time: 20190214T12:57:00
+  id: 1125450
+  resolution: ''
+  status: REOPENED
+  summary: yast2-theme-oxygen package is unusable
+- component: Security
+  create_time: 20190214T11:29:00
+  id: 1125438
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: systemd: status of /usr/share/polkit-1/rules.d/systemd-networkd.rules'
+- component: Security
+  create_time: 20190214T11:12:00
+  id: 1125434
+  resolution: ''
+  status: NEW
+  summary: 'PackageKit: removal of /usr/share/polkit-1/rules.d/org.freedesktop.packagekit.rules'
+- component: Security
+  create_time: 20190214T10:58:00
+  id: 1125433
+  resolution: ''
+  status: NEW
+  summary: 'gvfs: removal of /usr/share/polkit-1/rules.d/org.gtk.vfs.file-operations.rules'
+- component: Security
+  create_time: 20190214T10:54:00
+  id: 1125432
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: gnome-initial-setup: purpose of /usr/share/polkit-1/rules.d/20-gnome-initial-setup.rules'
+- component: Security
+  create_time: 20190214T10:43:00
+  id: 1125428
+  resolution: ''
+  status: NEW
+  summary: 'fwupd: removal of /usr/share/polkit-1/rules.d/org.freedesktop.fwupd.rules'
+- component: Security
+  create_time: 20190214T10:38:00
+  id: 1125427
+  resolution: ''
+  status: NEW
+  summary: 'cinnamon-control-center: removal of /usr/share/polkit-1/rules.d/cinnamon-control-center.rules'
+- component: YaST2
+  create_time: 20190214T10:28:00
+  id: 1125424
+  resolution: FIXED
+  status: RESOLVED
+  summary: Displaying icons broken in YaST Control Center and YaST Packager
+- component: Security
+  create_time: 20190214T10:08:00
+  id: 1125420
+  resolution: ''
+  status: NEW
+  summary: 'VUL-0: CVE-2019-8337: msmtp: certificate-verification results are not
+    properly checked in tls_trust_file default configuration'
+- component: Basesystem
+  create_time: 20190214T09:46:00
+  id: 1125418
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: xtrabackup build fails'
+- component: libzypp
+  create_time: 20190214T09:35:00
+  id: 1125415
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'zypper: refresh disabled repos'
+- component: Other
+  create_time: 20190214T08:01:00
+  id: 1125398
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190213] openQA test fails in machinery, no machinery-helper for
+    ppc64le'
+- component: Installation
+  create_time: 20190214T02:20:00
+  id: 1125376
+  resolution: ''
+  status: NEW
+  summary: 'Installation: New user is not added in `video` group -> results in permission
+    issue for /dev/dri/card0'
+- component: Other
+  create_time: 20190214T01:55:00
+  id: 1125374
+  resolution: ''
+  status: NEW
+  summary: Lutris lacks dependencies
