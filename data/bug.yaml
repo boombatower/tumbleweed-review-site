@@ -17853,8 +17853,8 @@
 - component: Basesystem
   create_time: 20190111T11:21:00
   id: 1121588
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: gdb build fails'
 - component: Basesystem
   create_time: 20190111T09:12:00
@@ -17982,8 +17982,8 @@
 - component: Basesystem
   create_time: 20190110T09:14:00
   id: 1121402
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: libstorage-ng build fails'
 - component: Basesystem
   create_time: 20190110T08:46:00
@@ -18315,7 +18315,7 @@
   create_time: 20190116T11:17:00
   id: 1122169
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9: liblouis build fails'
 - component: Java
   create_time: 20190116T11:08:00
@@ -19207,6 +19207,31 @@
   status: CONFIRMED
   summary: Zypper crashes system (root partition full)
 '20190209':
+- component: Other
+  create_time: 20190215T14:01:00
+  id: 1125605
+  resolution: ''
+  status: NEW
+  summary: Bug in libpsm2-2 11.2.23 Causes 15s Delay Starting Programs Linked With
+    libpsm2
+- component: YaST2
+  create_time: 20190215T11:58:00
+  id: 1125594
+  resolution: ''
+  status: NEW
+  summary: YaST no longer have some hardcoded PNG icons (default Breeze theme)
+- component: Other
+  create_time: 20190215T11:36:00
+  id: 1125588
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190214] chromium: pressing alt tears down GNOME session'
+- component: Sound
+  create_time: 20190215T11:27:00
+  id: 1125586
+  resolution: ''
+  status: IN_PROGRESS
+  summary: pasystray mouse bindings doesn't work
 - component: Live Medium
   create_time: 20190215T08:25:00
   id: 1125545
@@ -19312,8 +19337,8 @@
 - component: YaST2
   create_time: 20190214T10:28:00
   id: 1125424
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Displaying icons broken in YaST Control Center and YaST Packager
 - component: Security
   create_time: 20190214T10:08:00
@@ -19463,7 +19488,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: '[Build 20190208] instsys missing: root'
-- component: Basesystem
+- component: Installation
   create_time: 20190210T22:33:00
   id: 1124911
   resolution: ''
