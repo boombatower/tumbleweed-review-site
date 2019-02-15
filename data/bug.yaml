@@ -14662,8 +14662,8 @@
 - component: YaST2
   create_time: 20181102T01:40:00
   id: 1114388
-  resolution: ''
-  status: REOPENED
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: yast get error while update time with ntp server like pool.ntp.org
 - component: Security
   create_time: 20181101T22:02:00
@@ -17231,8 +17231,8 @@
 - component: Basesystem
   create_time: 20190106T18:57:00
   id: 1120868
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: bison build fails'
 - component: Basesystem
   create_time: 20190106T17:20:00
@@ -19207,6 +19207,18 @@
   status: CONFIRMED
   summary: Zypper crashes system (root partition full)
 '20190209':
+- component: Live Medium
+  create_time: 20190215T08:25:00
+  id: 1125545
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190214] openQA test fails in desktop_mainmenu: konsole not installed'
+- component: Other
+  create_time: 20190215T07:45:00
+  id: 1125542
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190214] python-qt4 build failure stops zdup process'
 - component: Kubic
   create_time: 20190214T17:18:00
   id: 1125488
@@ -19224,7 +19236,7 @@
   id: 1125477
   resolution: ''
   status: NEW
-  summary: '[TRACK] - solved by utilizing job based API of libsolv'
+  summary: '[TRACK] solved by utilizing job based API of libsolv'
 - component: libzypp
   create_time: 20190214T16:03:00
   id: 1125476
@@ -19375,7 +19387,7 @@
 - component: LibreOffice
   create_time: 20190212T22:53:00
   id: 1125210
-  resolution: UPSTREAM
+  resolution: FIXED
   status: RESOLVED
   summary: Libreoffice shows issues after switch to full KDE stack for KDE Frameworks
     integration
