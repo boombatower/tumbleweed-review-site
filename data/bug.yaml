@@ -18234,8 +18234,8 @@
 - component: Kernel
   create_time: 20190117T17:05:00
   id: 1122395
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'qemu-system-ppc64: KVM does not support 1TiB segments which guest expects
     on ppc64le'
 - component: YaST2
@@ -19386,6 +19386,12 @@
   status: IN_PROGRESS
   summary: torbrowser-launcher missing python dependency
 '20190214':
+- component: Development
+  create_time: 20190216T14:30:00
+  id: 1125664
+  resolution: ''
+  status: NEW
+  summary: Spyder 3.3.2 broken  menu and toolbars icons
 - component: libzypp
   create_time: 20190216T09:07:00
   id: 1125655
@@ -19407,8 +19413,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190215T22:28:00
   id: 1125637
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: sddm update always overwrites /usr/share/sddm/scripts/Xsetup
 - component: Other
   create_time: 20190215T22:07:00
