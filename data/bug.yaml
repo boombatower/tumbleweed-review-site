@@ -19386,6 +19386,18 @@
   status: IN_PROGRESS
   summary: torbrowser-launcher missing python dependency
 '20190214':
+- component: libzypp
+  create_time: 20190216T09:07:00
+  id: 1125655
+  resolution: ''
+  status: NEW
+  summary: zypper enhancement
+- component: Firefox
+  create_time: 20190216T07:52:00
+  id: 1125653
+  resolution: ''
+  status: NEW
+  summary: Status bar of Firefox won't display in local language
 - component: Network
   create_time: 20190216T02:14:00
   id: 1125649
@@ -19401,8 +19413,8 @@
 - component: Other
   create_time: 20190215T22:07:00
   id: 1125636
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Python3-qt4 cannot be installed due to missing python3-sip(api) = 12.5
 - component: GNOME
   create_time: 20190215T18:36:00
