@@ -19386,6 +19386,19 @@
   status: IN_PROGRESS
   summary: torbrowser-launcher missing python dependency
 '20190214':
+- component: Printing
+  create_time: 20190216T17:51:00
+  id: 1125667
+  resolution: ''
+  status: NEW
+  summary: 'hplip: hp-setup dumps core'
+- component: Virtualization:Other
+  create_time: 20190216T15:38:00
+  id: 1125665
+  resolution: ''
+  status: NEW
+  summary: 'libvirt regression: can''t start domains in qemu:///session -- prctl failed
+    to enable ''dac_override'' in the AMBIENT set'
 - component: Development
   create_time: 20190216T14:30:00
   id: 1125664
