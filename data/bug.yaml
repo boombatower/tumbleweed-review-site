@@ -17829,8 +17829,8 @@
 - component: Virtualization:Other
   create_time: 20190111T12:47:00
   id: 1121604
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: QEMU 3.1 - "kvm_init_vcpu failed" if nested virtualisation enabled
 - component: Basesystem
   create_time: 20190111T11:29:00
@@ -19386,7 +19386,25 @@
   status: IN_PROGRESS
   summary: torbrowser-launcher missing python dependency
 '20190214':
-- component: X.Org
+- component: Network
+  create_time: 20190216T02:14:00
+  id: 1125649
+  resolution: ''
+  status: NEW
+  summary: nm-applet did not respond under LXDE
+- component: KDE Workspace (Plasma)
+  create_time: 20190215T22:28:00
+  id: 1125637
+  resolution: ''
+  status: NEW
+  summary: sddm update always overwrites /usr/share/sddm/scripts/Xsetup
+- component: Other
+  create_time: 20190215T22:07:00
+  id: 1125636
+  resolution: ''
+  status: NEW
+  summary: Python3-qt4 cannot be installed due to missing python3-sip(api) = 12.5
+- component: GNOME
   create_time: 20190215T18:36:00
   id: 1125624
   resolution: ''
