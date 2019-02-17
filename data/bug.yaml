@@ -19386,6 +19386,19 @@
   status: IN_PROGRESS
   summary: torbrowser-launcher missing python dependency
 '20190214':
+- component: GNOME
+  create_time: 20190216T22:40:00
+  id: 1125672
+  resolution: ''
+  status: NEW
+  summary: Gbrainy is crashing
+- component: Cloud:Tools
+  create_time: 20190216T21:52:00
+  id: 1125671
+  resolution: ''
+  status: NEW
+  summary: azure-cli-core-2.0.45-1.2.noarch requires python3-tabulate <= 0.8.2, but
+    this requirement cannot be provided
 - component: Printing
   create_time: 20190216T17:51:00
   id: 1125667
