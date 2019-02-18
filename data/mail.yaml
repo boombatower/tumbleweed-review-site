@@ -1538,14 +1538,14 @@
     summary: failed to summarize
 '20190205':
   announcement: 2019-02.178
-  reference_count: 5
+  reference_count: 7
   thread_count: 2
   threads:
   - messages: [2019-02.197]
     reference_count: 1
     summary: no summary given
   - messages: [2019-02.289]
-    reference_count: 4
+    reference_count: 6
     summary: released! => unoperabel KDE
 '20190209':
   announcement: 2019-02.371
@@ -1560,3 +1560,8 @@
   - messages: [2019-02.448]
     reference_count: 9
     summary: Plasma screenlock does not unlock
+'20190215':
+  announcement: 2019-02.465
+  reference_count: 0
+  thread_count: 0
+  threads: []
