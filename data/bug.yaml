@@ -7288,8 +7288,8 @@
 - component: High Availability
   create_time: 20180417T10:30:00
   id: 1089836
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: corosync-2.4.4 is available now
 - component: Development
   create_time: 20180417T10:14:00
@@ -16795,8 +16795,8 @@
 - component: Basesystem
   create_time: 20181211T09:59:00
   id: 1119088
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: KVM guest start at boot failure
 - component: Security
   create_time: 20181211T06:18:00
@@ -17859,8 +17859,8 @@
 - component: Basesystem
   create_time: 20190111T09:12:00
   id: 1121563
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'GCC 9: systemd build fails'
 - component: Basesystem
   create_time: 20190111T09:06:00
@@ -17908,7 +17908,7 @@
   create_time: 20190110T14:24:00
   id: 1121465
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9: ffmpeg-[34] build fails'
 - component: Basesystem
   create_time: 20190110T14:22:00
@@ -18568,8 +18568,8 @@
 - component: Bootloader
   create_time: 20190125T13:35:00
   id: 1123170
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: armv7 Beagle images built in Tumbleweed have a broken EFI partition
 - component: YaST2
   create_time: 20190125T12:45:00
@@ -19387,6 +19387,12 @@
   status: IN_PROGRESS
   summary: torbrowser-launcher missing python dependency
 '20190214':
+- component: Installation
+  create_time: 20190218T07:42:00
+  id: 1125718
+  resolution: ''
+  status: NEW
+  summary: pop up with 'Software changed' message after grub update
 - component: Other
   create_time: 20190217T23:50:00
   id: 1125691
@@ -19468,13 +19474,13 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: Python3-qt4 cannot be installed due to missing python3-sip(api) = 12.5
-- component: GNOME
+- component: KDE Workspace (Plasma)
   create_time: 20190215T18:36:00
   id: 1125624
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Wrong path for xorg-session.log
-- component: Basesystem
+- component: Kernel
   create_time: 20190215T16:33:00
   id: 1125619
   resolution: ''
@@ -19490,7 +19496,7 @@
   create_time: 20190215T14:01:00
   id: 1125605
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Bug in libpsm2-2 11.2.23 Causes 15s Delay Starting Programs Linked With
     libpsm2
 - component: YaST2
