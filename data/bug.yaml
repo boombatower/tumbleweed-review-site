@@ -15668,7 +15668,7 @@
   create_time: 20181114T15:19:00
   id: 1116025
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Please convert SysV init scripts by nxtvepg into native systemd services
 - component: Basesystem
   create_time: 20181114T15:18:00
@@ -15904,8 +15904,8 @@
 - component: Other
   create_time: 20181113T11:19:00
   id: 1115769
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python-paramiko throw traceback if python-gssapi installed
 - component: Other
   create_time: 20181113T10:09:00
@@ -19523,6 +19523,45 @@
   status: NEW
   summary: Lutris lacks dependencies
 '20190215':
+- component: X11 Applications
+  create_time: 20190218T16:42:00
+  id: 1125820
+  resolution: ''
+  status: NEW
+  summary: orphaned packages needed by geeqie
+- component: YaST2
+  create_time: 20190218T16:41:00
+  id: 1125819
+  resolution: ''
+  status: NEW
+  summary: YaST2 fonts - Internal error
+- component: Basesystem
+  create_time: 20190218T16:28:00
+  id: 1125818
+  resolution: ''
+  status: NEW
+  summary: 'bash 5.0: regression on sed invocation with character class and variable
+    substitution'
+- component: YaST2
+  create_time: 20190218T16:10:00
+  id: 1125814
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190125] YaST2 keyboard module applies settings even when Cancel
+    button is pressed'
+- component: X11 Applications
+  create_time: 20190218T16:08:00
+  id: 1125813
+  resolution: ''
+  status: NEW
+  summary: Firefox, 100% CPU load on all cores,  for ~20 seconds, every minute, removing
+    ~/.fonts
+- component: KDE Workspace (Plasma)
+  create_time: 20190218T15:50:00
+  id: 1125811
+  resolution: ''
+  status: NEW
+  summary: Windows are shown in the wrong workspace after being minimized
 - component: Basesystem
   create_time: 20190218T14:19:00
   id: 1125790
@@ -19546,7 +19585,7 @@
   create_time: 20190218T13:02:00
   id: 1125779
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20190215] autoyast profile doesn''t validate when cloning the system'
 - component: Basesystem
   create_time: 20190218T12:52:00
