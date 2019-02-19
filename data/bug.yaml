@@ -19703,7 +19703,7 @@
   resolution: ''
   status: CONFIRMED
   summary: '[Build 20190125] YaST2 keyboard module applies settings even when Cancel
-    button is pressed'
+    button is pressed on icewm'
 - component: X11 Applications
   create_time: 20190218T16:08:00
   id: 1125813
