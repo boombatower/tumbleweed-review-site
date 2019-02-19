@@ -19271,8 +19271,8 @@
 - component: GNOME
   create_time: 20190212T06:24:00
   id: 1125078
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Firefox under Gnome - loading page in a new tab prevent pages on other
     tabs shown
 - component: YaST2
@@ -19523,6 +19523,12 @@
   status: NEW
   summary: Lutris lacks dependencies
 '20190215':
+- component: Virtualization:Tools
+  create_time: 20190219T01:34:00
+  id: 1125841
+  resolution: ''
+  status: NEW
+  summary: AppArmor security driver not enabled for QEMU in libvirt
 - component: X11 Applications
   create_time: 20190218T16:42:00
   id: 1125820
@@ -19552,8 +19558,8 @@
 - component: X11 Applications
   create_time: 20190218T16:08:00
   id: 1125813
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Firefox, 100% CPU load on all cores,  for ~20 seconds, every minute, removing
     ~/.fonts
 - component: KDE Workspace (Plasma)
