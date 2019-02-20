@@ -18990,8 +18990,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190208T15:33:00
   id: 1124829
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Disable updates in Discover for Tumbleweed
 - component: Basesystem
   create_time: 20190208T14:59:00
@@ -19641,55 +19641,6 @@
   status: NEW
   summary: '[Build 20190214] python-qt4 build failure stops zdup process'
 '20190217':
-- component: YaST2
-  create_time: 20190220T08:50:00
-  id: 1126043
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9:  yast2-ruby-bindings build fails'
-- component: Ruby
-  create_time: 20190219T22:38:00
-  id: 1125999
-  resolution: ''
-  status: NEW
-  summary: Please refresh package go-tools so it will install
-- component: Kubic
-  create_time: 20190219T13:50:00
-  id: 1125949
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Drop docker from install media, tidy up pattern+system-role names and descriptions
-- component: KDE Workspace (Plasma)
-  create_time: 20190219T10:44:00
-  id: 1125919
-  resolution: ''
-  status: NEW
-  summary: Fix software dependencies around Breeze::BoxShadowRenderer::calculateMinimumBoxSize(int)
-- component: KDE Workspace (Plasma)
-  create_time: 20190219T09:45:00
-  id: 1125901
-  resolution: ''
-  status: NEW
-  summary: Application Launcher Menu shows 16 okular entries
-- component: KDE Applications
-  create_time: 20190219T08:36:00
-  id: 1125875
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190217] kdeconnected segfault'
-- component: Development
-  create_time: 20190219T08:32:00
-  id: 1125872
-  resolution: ''
-  status: NEW
-  summary: rpm resolver should add Python Requires for packages with *.py files in
-    /usr/lib*/python*/
-- component: Virtualization:Tools
-  create_time: 20190219T01:34:00
-  id: 1125841
-  resolution: ''
-  status: NEW
-  summary: AppArmor security driver not enabled for QEMU in libvirt
 - component: X11 Applications
   create_time: 20190218T16:42:00
   id: 1125820
@@ -19764,7 +19715,7 @@
   create_time: 20190218T12:25:00
   id: 1125772
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9: autogen build fails'
 - component: GNOME
   create_time: 20190218T10:50:00
@@ -19797,3 +19748,84 @@
   status: NEW
   summary: scp does not accept brace expantion breaking High Availability "crm cluster
     join"
+'20190219':
+- component: GNOME
+  create_time: 20190220T14:51:00
+  id: 1126116
+  resolution: ''
+  status: NEW
+  summary: Fix error source for a SIGSEGV crash in Epiphany 3.30.2
+- component: YaST2
+  create_time: 20190220T14:33:00
+  id: 1126112
+  resolution: ''
+  status: NEW
+  summary: yast python3 bindings error shown 'unexpect exception' and no trace information
+    for errors
+- component: Basesystem
+  create_time: 20190220T13:44:00
+  id: 1126102
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: open-vm-tools build fails on i586'
+- component: Kernel
+  create_time: 20190220T12:39:00
+  id: 1126091
+  resolution: ''
+  status: CONFIRMED
+  summary: Dell 5520 network via docking station WD15 failures
+- component: Development
+  create_time: 20190220T12:13:00
+  id: 1126088
+  resolution: ''
+  status: NEW
+  summary: libmariadb.pc installed in seemingly wrong location
+- component: YaST2
+  create_time: 20190220T08:50:00
+  id: 1126043
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9:  yast2-ruby-bindings build fails'
+- component: Containers
+  create_time: 20190219T22:38:00
+  id: 1125999
+  resolution: ''
+  status: NEW
+  summary: Please refresh package go-tools so it will install
+- component: Kubic
+  create_time: 20190219T13:50:00
+  id: 1125949
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Drop docker from install media, tidy up pattern+system-role names and descriptions
+- component: KDE Workspace (Plasma)
+  create_time: 20190219T10:44:00
+  id: 1125919
+  resolution: ''
+  status: NEW
+  summary: Fix software dependencies around Breeze::BoxShadowRenderer::calculateMinimumBoxSize(int)
+- component: KDE Workspace (Plasma)
+  create_time: 20190219T09:45:00
+  id: 1125901
+  resolution: ''
+  status: NEW
+  summary: Application Launcher Menu shows 16 okular entries
+- component: KDE Applications
+  create_time: 20190219T08:36:00
+  id: 1125875
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190217] kdeconnected segfault'
+- component: Development
+  create_time: 20190219T08:32:00
+  id: 1125872
+  resolution: ''
+  status: NEW
+  summary: rpm resolver should add Python Requires for packages with *.py files in
+    /usr/lib*/python*/
+- component: Virtualization:Tools
+  create_time: 20190219T01:34:00
+  id: 1125841
+  resolution: ''
+  status: NEW
+  summary: AppArmor security driver not enabled for QEMU in libvirt
