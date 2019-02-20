@@ -19445,7 +19445,7 @@
   create_time: 20190214T11:29:00
   id: 1125438
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: systemd: status of /usr/share/polkit-1/rules.d/systemd-networkd.rules'
 - component: Security
   create_time: 20190214T11:12:00
@@ -19625,8 +19625,8 @@
 - component: Sound
   create_time: 20190215T11:27:00
   id: 1125586
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: pasystray mouse bindings doesn't work
 - component: Live Medium
   create_time: 20190215T08:25:00
@@ -19641,6 +19641,12 @@
   status: NEW
   summary: '[Build 20190214] python-qt4 build failure stops zdup process'
 '20190217':
+- component: YaST2
+  create_time: 20190220T08:50:00
+  id: 1126043
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9:  yast2-ruby-bindings build fails'
 - component: Ruby
   create_time: 20190219T22:38:00
   id: 1125999
@@ -19775,8 +19781,8 @@
 - component: Other
   create_time: 20190217T23:50:00
   id: 1125691
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: updating python-sip-common python3-qt5 python3-sip breaks backintime-qt4-1.1.24-1.3.noarch
 - component: Other
   create_time: 20190217T18:17:00
