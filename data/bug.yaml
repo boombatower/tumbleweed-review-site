@@ -19248,7 +19248,7 @@
   create_time: 20190212T19:04:00
   id: 1125178
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: ldconfig ignores directory /usr/lib64/hugin
 - component: KDE Applications
   create_time: 20190212T17:27:00
@@ -19749,6 +19749,13 @@
   summary: scp does not accept brace expantion breaking High Availability "crm cluster
     join"
 '20190219':
+- component: YaST2
+  create_time: 20190220T17:21:00
+  id: 1126137
+  resolution: ''
+  status: NEW
+  summary: can't change keyboard to french from english after zypper dup on vm using
+    nomachin nxserver
 - component: GNOME
   create_time: 20190220T14:51:00
   id: 1126116
