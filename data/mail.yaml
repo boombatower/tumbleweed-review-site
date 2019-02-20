@@ -1573,3 +1573,8 @@
   - messages: [2019-02.485]
     reference_count: 2
     summary: Packagekit updates on Tumbleweed
+'20190219':
+  announcement: 2019-02.496
+  reference_count: 0
+  thread_count: 0
+  threads: []
