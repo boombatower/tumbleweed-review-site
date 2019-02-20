@@ -19545,8 +19545,8 @@
 - component: Virtualization:Other
   create_time: 20190216T15:38:00
   id: 1125665
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'libvirt regression: can''t start domains in qemu:///session -- prctl failed
     to enable ''dac_override'' in the AMBIENT set'
 - component: Development
@@ -19641,6 +19641,12 @@
   status: NEW
   summary: '[Build 20190214] python-qt4 build failure stops zdup process'
 '20190217':
+- component: Ruby
+  create_time: 20190219T22:38:00
+  id: 1125999
+  resolution: ''
+  status: NEW
+  summary: Please refresh package go-tools so it will install
 - component: Kubic
   create_time: 20190219T13:50:00
   id: 1125949
