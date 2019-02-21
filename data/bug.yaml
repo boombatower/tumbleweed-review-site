@@ -19749,6 +19749,18 @@
   summary: scp does not accept brace expantion breaking High Availability "crm cluster
     join"
 '20190219':
+- component: Development
+  create_time: 20190221T21:22:00
+  id: 1126363
+  resolution: ''
+  status: NEW
+  summary: luajit not supported on ppc64
+- component: KDE Applications
+  create_time: 20190221T21:22:00
+  id: 1126362
+  resolution: ''
+  status: NEW
+  summary: Forum text is not preserved for a reply with Konqueror 18.12.2.
 - component: Virtualization:Tools
   create_time: 20190221T13:56:00
   id: 1126292
