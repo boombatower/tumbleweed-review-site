@@ -19272,7 +19272,7 @@
   create_time: 20190212T06:24:00
   id: 1125078
   resolution: DUPLICATE
-  status: RESOLVED
+  status: VERIFIED
   summary: Firefox under Gnome - loading page in a new tab prevent pages on other
     tabs shown
 - component: YaST2
@@ -19749,6 +19749,12 @@
   summary: scp does not accept brace expantion breaking High Availability "crm cluster
     join"
 '20190219':
+- component: Kernel
+  create_time: 20190221T01:39:00
+  id: 1126166
+  resolution: ''
+  status: NEW
+  summary: Kernel panic during install
 - component: YaST2
   create_time: 20190220T17:21:00
   id: 1126137
