@@ -9916,7 +9916,7 @@
   create_time: 20180629T21:48:00
   id: 1099744
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Cannot reinstall system with the same LVM VG name
 - component: Network
   create_time: 20180629T14:40:00
@@ -18344,8 +18344,8 @@
 - component: Virtualization:Other
   create_time: 20190115T19:22:00
   id: 1122054
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Virtualization Snapshots broken for new VMs
 - component: Kubic
   create_time: 20190115T14:54:00
@@ -19291,7 +19291,7 @@
   create_time: 20190211T14:51:00
   id: 1125004
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Change default kconfig: CONFIG_PREEMPT_VOLUNTARY'
 - component: Security
   create_time: 20190211T13:58:00
@@ -19505,8 +19505,8 @@
 - component: Other
   create_time: 20190214T08:01:00
   id: 1125398
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[Build 20190213] openQA test fails in machinery, no machinery-helper for
     ppc64le'
 - component: Installation
@@ -19749,6 +19749,31 @@
   summary: scp does not accept brace expantion breaking High Availability "crm cluster
     join"
 '20190219':
+- component: Virtualization:Tools
+  create_time: 20190221T13:56:00
+  id: 1126292
+  resolution: ''
+  status: NEW
+  summary: 'libvirt  /usr/lib64/libvirt.so.0: version `LIBVIRT_PRIVATE_5.0.0'' not
+    found'
+- component: Network
+  create_time: 20190221T11:45:00
+  id: 1126269
+  resolution: ''
+  status: NEW
+  summary: 'qutebrowser: missing PyQtWebEngine'
+- component: Development
+  create_time: 20190221T10:29:00
+  id: 1126261
+  resolution: ''
+  status: NEW
+  summary: Cross-compilers are not able to compile a simple hello-world
+- component: GNOME
+  create_time: 20190221T09:55:00
+  id: 1126249
+  resolution: ''
+  status: NEW
+  summary: Broken forum post preview with Epiphany 3.30.2
 - component: YaST2
   create_time: 20190221T09:15:00
   id: 1126236
@@ -19803,8 +19828,8 @@
 - component: YaST2
   create_time: 20190220T08:50:00
   id: 1126043
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9:  yast2-ruby-bindings build fails'
 - component: Containers
   create_time: 20190219T22:38:00
