@@ -19749,6 +19749,12 @@
   summary: scp does not accept brace expantion breaking High Availability "crm cluster
     join"
 '20190219':
+- component: Samba
+  create_time: 20190221T23:14:00
+  id: 1126377
+  resolution: ''
+  status: NEW
+  summary: Samba AppArmor sniplet no longer updated - script needs a patch
 - component: Development
   create_time: 20190221T21:22:00
   id: 1126363
