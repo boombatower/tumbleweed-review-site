@@ -17255,8 +17255,8 @@
 - component: Basesystem
   create_time: 20190106T15:34:00
   id: 1120862
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: efivar build fails'
 - component: Kernel
   create_time: 20190105T20:09:00
@@ -18686,8 +18686,8 @@
 - component: LibreOffice
   create_time: 20190129T08:04:00
   id: 1123455
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190126] openQA test fails in libreoffice_recent_documents'
 - component: Other
   create_time: 20190128T19:50:00
@@ -19040,7 +19040,7 @@
   create_time: 20190207T18:37:00
   id: 1124680
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: EFI/bios_grub partitions not created in the same disk used by root
 - component: Basesystem
   create_time: 20190207T16:20:00
@@ -19749,6 +19749,24 @@
   summary: scp does not accept brace expantion breaking High Availability "crm cluster
     join"
 '20190219':
+- component: Other
+  create_time: 20190222T10:01:00
+  id: 1126449
+  resolution: ''
+  status: NEW
+  summary: 'php7: wrong time displayed'
+- component: KDE Applications
+  create_time: 20190222T09:43:00
+  id: 1126447
+  resolution: ''
+  status: NEW
+  summary: Opening KMail/Kontact causes PulseAudio output to be garbled and doubled
+- component: Network
+  create_time: 20190222T07:57:00
+  id: 1126426
+  resolution: ''
+  status: NEW
+  summary: 'net-snmp: please drop use of $FIRST_ARG'
 - component: Samba
   create_time: 20190221T23:14:00
   id: 1126377
