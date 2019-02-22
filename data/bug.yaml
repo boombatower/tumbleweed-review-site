@@ -7421,8 +7421,8 @@
 - component: Bootloader
   create_time: 20180423T10:36:00
   id: 1090524
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Failed grub2/install message in grub2-i386-pc %posttrans script
 - component: YaST2
   create_time: 20180423T10:12:00
@@ -16304,8 +16304,8 @@
 - component: Basesystem
   create_time: 20181127T14:54:00
   id: 1117489
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'systemd-rpm-macros: consider dropping the use of YAST_IS_RUNNING'
 - component: Network
   create_time: 20181127T14:20:00
@@ -17237,8 +17237,8 @@
 - component: Basesystem
   create_time: 20190106T17:20:00
   id: 1120865
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: libffi build fails'
 - component: Basesystem
   create_time: 20190106T16:07:00
@@ -17835,15 +17835,15 @@
 - component: Basesystem
   create_time: 20190111T11:29:00
   id: 1121592
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: python-Pygments build fails'
 - component: Basesystem
   create_time: 20190111T11:25:00
   id: 1121591
   resolution: ''
   status: IN_PROGRESS
-  summary: 'GCC 9: llvm[67] build fails'
+  summary: 'GCC 9: llvm6 build fails'
 - component: Basesystem
   create_time: 20190111T11:24:00
   id: 1121589
@@ -19432,8 +19432,8 @@
 - component: Basesystem
   create_time: 20190214T13:38:00
   id: 1125453
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: libxcrypt build fails'
 - component: YaST2
   create_time: 20190214T12:57:00
@@ -19685,7 +19685,7 @@
   id: 1125790
   resolution: ''
   status: NEW
-  summary: 'GCC 9: dovecot23 build failspython-pyside-shiboken'
+  summary: 'GCC 9: python-pyside-shiboken build fails'
 - component: Other
   create_time: 20190218T14:14:00
   id: 1125787
@@ -19749,6 +19749,32 @@
   summary: scp does not accept brace expantion breaking High Availability "crm cluster
     join"
 '20190219':
+- component: Kernel
+  create_time: 20190222T15:08:00
+  id: 1126512
+  resolution: ''
+  status: NEW
+  summary: kernel-default-4.20.10-2.1.g4c06520 obsoletes drm-kmp-default for an unrelated
+    distribution
+- component: Other
+  create_time: 20190222T13:40:00
+  id: 1126499
+  resolution: ''
+  status: NEW
+  summary: Use the same spec and changes files for libxml2 and python-libxml2
+- component: Other
+  create_time: 20190222T11:30:00
+  id: 1126478
+  resolution: ''
+  status: NEW
+  summary: 'python3-pytest-html, python3-pytest-metadata: bad path shipped with .pyc
+    files'
+- component: Other
+  create_time: 20190222T10:50:00
+  id: 1126468
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: sddm writes logs into wrong directory
 - component: Other
   create_time: 20190222T10:01:00
   id: 1126449
@@ -19771,7 +19797,7 @@
   create_time: 20190221T23:14:00
   id: 1126377
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Samba AppArmor sniplet no longer updated - script needs a patch
 - component: Development
   create_time: 20190221T21:22:00
