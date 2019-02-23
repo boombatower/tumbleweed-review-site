@@ -19749,6 +19749,25 @@
   summary: scp does not accept brace expantion breaking High Availability "crm cluster
     join"
 '20190219':
+- component: GNOME
+  create_time: 20190223T20:05:00
+  id: 1126607
+  resolution: ''
+  status: NEW
+  summary: Fix settings dialogue for Builder 3.30.3
+- component: Printing
+  create_time: 20190223T14:29:00
+  id: 1126601
+  resolution: ''
+  status: NEW
+  summary: hp-check from hplip-3.18.6-1.4.x86_64 fails with PolicyKit missing
+- component: LibreOffice
+  create_time: 20190223T13:47:00
+  id: 1126600
+  resolution: ''
+  status: NEW
+  summary: 'Libreoffice Calc: Time format - due to rounding error displays wrong digits
+    (after reload/recalc)'
 - component: Other
   create_time: 20190223T07:10:00
   id: 1126592
