@@ -15029,8 +15029,8 @@
 - component: Other
   create_time: 20181109T16:17:00
   id: 1115471
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: retext is not able to parse file contents
 - component: libzypp
   create_time: 20181109T16:11:00
@@ -19081,8 +19081,8 @@
 - component: Other
   create_time: 20190207T06:48:00
   id: 1124568
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'missing dependency : ibus-hangul package needs python2-gobject package.'
 - component: KDE Workspace (Plasma)
   create_time: 20190206T22:08:00
