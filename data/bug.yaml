@@ -13605,8 +13605,8 @@
 - component: Other
   create_time: 20181013T03:47:00
   id: 1111727
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/dnf'
 - component: Other
   create_time: 20181013T03:45:00
@@ -19749,6 +19749,12 @@
   summary: scp does not accept brace expantion breaking High Availability "crm cluster
     join"
 '20190219':
+- component: Basesystem
+  create_time: 20190224T00:08:00
+  id: 1126609
+  resolution: ''
+  status: NEW
+  summary: tuned logging errors
 - component: GNOME
   create_time: 20190223T20:05:00
   id: 1126607
