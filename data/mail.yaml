@@ -1554,11 +1554,11 @@
   threads: []
 '20190214':
   announcement: 2019-02.447
-  reference_count: 9
+  reference_count: 10
   thread_count: 1
   threads:
   - messages: [2019-02.448]
-    reference_count: 9
+    reference_count: 10
     summary: Plasma screenlock does not unlock
 '20190215':
   announcement: 2019-02.465
@@ -1567,14 +1567,19 @@
   threads: []
 '20190217':
   announcement: 2019-02.484
-  reference_count: 2
+  reference_count: 6
   thread_count: 1
   threads:
   - messages: [2019-02.485]
-    reference_count: 2
+    reference_count: 6
     summary: Packagekit updates on Tumbleweed
 '20190219':
   announcement: 2019-02.496
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20190220':
+  announcement: 2019-02.556
   reference_count: 0
   thread_count: 0
   threads: []
