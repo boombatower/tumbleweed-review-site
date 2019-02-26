@@ -19793,6 +19793,24 @@
   status: NEW
   summary: AppArmor security driver not enabled for QEMU in libvirt
 '20190220':
+- component: High Availability
+  create_time: 20190226T09:29:00
+  id: 1126968
+  resolution: ''
+  status: NEW
+  summary: 'ocfs2: openSUSE:Factory - ocfs2-tools - Build fail notification'
+- component: Other
+  create_time: 20190226T08:00:00
+  id: 1126946
+  resolution: ''
+  status: NEW
+  summary: 'signal 4 (Illegal instruction: illegal operand) in libucs.0'
+- component: GNOME
+  create_time: 20190226T07:48:00
+  id: 1126943
+  resolution: ''
+  status: NEW
+  summary: packagekit unit file missing
 - component: Development
   create_time: 20190225T22:19:00
   id: 1126907
@@ -19816,7 +19834,7 @@
   create_time: 20190225T17:11:00
   id: 1126871
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Error messages when importing mount points are not informative enough
 - component: Development
   create_time: 20190225T17:05:00
