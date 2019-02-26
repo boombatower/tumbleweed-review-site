@@ -2995,8 +2995,8 @@
 - component: libzypp
   create_time: 20180202T09:24:00
   id: 1079017
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'zypper: option ''--from'' has no auto-completion'
 - component: Kubic
   create_time: 20180202T09:12:00
@@ -17797,8 +17797,8 @@
 - component: X.Org
   create_time: 20190111T15:21:00
   id: 1121632
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Black screen: Broken display code (amdgpu.dc=1) for Radeon R2/R3/R4/R5
     Graphics [1002:98e4]'
 - component: libzypp
@@ -18350,8 +18350,8 @@
 - component: Kubic
   create_time: 20190115T14:54:00
   id: 1122024
-  resolution: ''
-  status: CONFIRMED
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: '[Build20190112] Podman containers have no network after CNI configured
     for kubeadm cluster'
 - component: X11 Applications
@@ -19106,8 +19106,8 @@
 - component: Installation
   create_time: 20190206T16:28:00
   id: 1124508
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: TW 20190205  Installer font much too small
 - component: KVM
   create_time: 20190206T15:28:00
@@ -19963,6 +19963,18 @@
   status: RESOLVED
   summary: 'GCC 9:  yast2-ruby-bindings build fails'
 '20190224':
+- component: AppArmor
+  create_time: 20190226T19:58:00
+  id: 1127073
+  resolution: ''
+  status: IN_PROGRESS
+  summary: /usr/{bin,sbin}/dnsmasq profile name alternation breaks libvirt
+- component: Kernel
+  create_time: 20190226T19:49:00
+  id: 1127072
+  resolution: ''
+  status: NEW
+  summary: '[amdgpu] AMD Radeon VII (Vega20) Support'
 - component: LXDE
   create_time: 20190226T15:53:00
   id: 1127043
