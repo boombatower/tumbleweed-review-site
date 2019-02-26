@@ -5577,8 +5577,8 @@
 - component: KDE Applications
   create_time: 20180313T21:45:00
   id: 1085172
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: unable to copy-paste from konsole any more
 - component: KDE Workspace (Plasma)
   create_time: 20180313T20:48:00
@@ -6033,8 +6033,8 @@
 - component: X.Org
   create_time: 20180323T10:19:00
   id: 1086640
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: modesetting driver for intel (Skylake) unusable for multi monitor due to
     tearing
 - component: Basesystem
@@ -8343,8 +8343,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180513T22:15:00
   id: 1093048
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Missing icons since Plasma 5.12.5
 - component: KDE Applications
   create_time: 20180513T22:12:00
@@ -16055,8 +16055,8 @@
 - component: X.Org
   create_time: 20181119T19:46:00
   id: 1116611
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: 'RADEON(G0): Failed to initialize surface manager with xf86-video-amdgpu'
 - component: Kernel
   create_time: 20181119T16:48:00
@@ -16770,8 +16770,8 @@
 - component: Installation
   create_time: 20181208T07:18:00
   id: 1118852
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Touchpad does not work during installation on Asus Zenbook S UX391UA
 '20181211':
 - component: KDE Applications
@@ -17526,8 +17526,8 @@
 - component: X.Org
   create_time: 20181225T09:37:00
   id: 1120294
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: xorg freezes with "secure file permissions" when clicking on networkmanager
 - component: Translations
   create_time: 20181225T09:28:00
@@ -17590,7 +17590,7 @@
   create_time: 20190109T14:14:00
   id: 1121268
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9: shim build fails'
 - component: Basesystem
   create_time: 20190109T14:10:00
@@ -17655,8 +17655,8 @@
 - component: Basesystem
   create_time: 20190109T09:41:00
   id: 1121214
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: libqt4 build fails'
 - component: Basesystem
   create_time: 20190109T09:06:00
@@ -19107,7 +19107,7 @@
   create_time: 20190206T16:28:00
   id: 1124508
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: TW 20190205  Installer font much too small
 - component: KVM
   create_time: 20190206T15:28:00
@@ -19377,8 +19377,8 @@
 - component: Other
   create_time: 20190209T21:14:00
   id: 1124872
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: cputype-armv6 no longer works
 - component: X11 Applications
   create_time: 20190209T15:48:00
@@ -19793,79 +19793,6 @@
   status: NEW
   summary: AppArmor security driver not enabled for QEMU in libvirt
 '20190220':
-- component: High Availability
-  create_time: 20190226T09:29:00
-  id: 1126968
-  resolution: ''
-  status: NEW
-  summary: 'ocfs2: openSUSE:Factory - ocfs2-tools - Build fail notification'
-- component: Other
-  create_time: 20190226T08:00:00
-  id: 1126946
-  resolution: ''
-  status: NEW
-  summary: 'signal 4 (Illegal instruction: illegal operand) in libucs.0'
-- component: GNOME
-  create_time: 20190226T07:48:00
-  id: 1126943
-  resolution: ''
-  status: NEW
-  summary: packagekit unit file missing
-- component: Development
-  create_time: 20190225T22:19:00
-  id: 1126907
-  resolution: ''
-  status: NEW
-  summary: LLVM requires patching to prevent a rustc crash when building Firefox
-- component: GNOME
-  create_time: 20190225T19:46:00
-  id: 1126901
-  resolution: ''
-  status: NEW
-  summary: 'gnome-terminal-server: SIGSEGV in gdk_x11_device_manager_xi2_translate_event'
-- component: Kubic
-  create_time: 20190225T19:45:00
-  id: 1126900
-  resolution: ''
-  status: NEW
-  summary: 'health-checker: grub2-editenv: error: cannot open `/boot/grub2/grubenv'':
-    Read-only file system.'
-- component: YaST2
-  create_time: 20190225T17:11:00
-  id: 1126871
-  resolution: ''
-  status: CONFIRMED
-  summary: Error messages when importing mount points are not informative enough
-- component: Development
-  create_time: 20190225T17:05:00
-  id: 1126868
-  resolution: ''
-  status: NEW
-  summary: Resolving package dependencies for Python ABI 3.7 (because of Meson 0.49.1)
-- component: X11 Applications
-  create_time: 20190225T15:54:00
-  id: 1126842
-  resolution: ''
-  status: NEW
-  summary: mnemosyne crashes in all opensuse editions but 15.1
-- component: Basesystem
-  create_time: 20190225T14:30:00
-  id: 1126817
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'GCC 9: libqt5-qtbase build fails'
-- component: Network
-  create_time: 20190225T09:57:00
-  id: 1126756
-  resolution: FIXED
-  status: RESOLVED
-  summary: package mrsh is missing the servers like mrlogind and mrshd
-- component: Basesystem
-  create_time: 20190224T00:08:00
-  id: 1126609
-  resolution: ''
-  status: NEW
-  summary: tuned logging errors
 - component: GNOME
   create_time: 20190223T20:05:00
   id: 1126607
@@ -20035,3 +19962,95 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'GCC 9:  yast2-ruby-bindings build fails'
+'20190224':
+- component: LXDE
+  create_time: 20190226T15:53:00
+  id: 1127043
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190225] LXQt fails to pick a WM'
+- component: Virtualization:Other
+  create_time: 20190226T11:29:00
+  id: 1127000
+  resolution: ''
+  status: NEW
+  summary: qemu smb share leaves a lot of zombies
+- component: KVM
+  create_time: 20190226T11:05:00
+  id: 1126990
+  resolution: ''
+  status: NEW
+  summary: 9p virtio mount stalls after S4 resume
+- component: High Availability
+  create_time: 20190226T09:29:00
+  id: 1126968
+  resolution: ''
+  status: NEW
+  summary: 'ocfs2: openSUSE:Factory - ocfs2-tools - Build fail notification'
+- component: Other
+  create_time: 20190226T08:00:00
+  id: 1126946
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'signal 4 (Illegal instruction: illegal operand) in libucs.0'
+- component: GNOME
+  create_time: 20190226T07:48:00
+  id: 1126943
+  resolution: ''
+  status: NEW
+  summary: packagekit unit file missing
+- component: Development
+  create_time: 20190225T22:19:00
+  id: 1126907
+  resolution: FIXED
+  status: RESOLVED
+  summary: LLVM requires patching to prevent a rustc crash when building Firefox
+- component: GNOME
+  create_time: 20190225T19:46:00
+  id: 1126901
+  resolution: ''
+  status: NEW
+  summary: 'gnome-terminal-server: SIGSEGV in gdk_x11_device_manager_xi2_translate_event'
+- component: Kubic
+  create_time: 20190225T19:45:00
+  id: 1126900
+  resolution: ''
+  status: NEW
+  summary: 'health-checker: grub2-editenv: error: cannot open `/boot/grub2/grubenv'':
+    Read-only file system.'
+- component: YaST2
+  create_time: 20190225T17:11:00
+  id: 1126871
+  resolution: ''
+  status: CONFIRMED
+  summary: Error messages when importing mount points are not informative enough
+- component: Development
+  create_time: 20190225T17:05:00
+  id: 1126868
+  resolution: ''
+  status: NEW
+  summary: Resolving package dependencies for Python ABI 3.7 (because of Meson 0.49.1)
+- component: X11 Applications
+  create_time: 20190225T15:54:00
+  id: 1126842
+  resolution: ''
+  status: NEW
+  summary: mnemosyne crashes in all opensuse editions but 15.1
+- component: Basesystem
+  create_time: 20190225T14:30:00
+  id: 1126817
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'GCC 9: libqt5-qtbase build fails'
+- component: Network
+  create_time: 20190225T09:57:00
+  id: 1126756
+  resolution: FIXED
+  status: RESOLVED
+  summary: package mrsh is missing the servers like mrlogind and mrshd
+- component: Basesystem
+  create_time: 20190224T00:08:00
+  id: 1126609
+  resolution: ''
+  status: NEW
+  summary: tuned logging errors
