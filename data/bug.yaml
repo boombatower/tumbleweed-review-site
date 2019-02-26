@@ -9915,8 +9915,8 @@
 - component: Installation
   create_time: 20180629T21:48:00
   id: 1099744
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Cannot reinstall system with the same LVM VG name
 - component: Network
   create_time: 20180629T14:40:00
@@ -17243,8 +17243,8 @@
 - component: Basesystem
   create_time: 20190106T16:07:00
   id: 1120864
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: elfutils build fails on i586'
 - component: Basesystem
   create_time: 20190106T15:35:00
@@ -17644,7 +17644,7 @@
   create_time: 20190109T10:21:00
   id: 1121223
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9:  gpg2 build fails'
 - component: Basesystem
   create_time: 20190109T10:08:00
@@ -17843,7 +17843,7 @@
   id: 1121591
   resolution: ''
   status: IN_PROGRESS
-  summary: 'GCC 9: llvm6 build fails'
+  summary: 'GCC 9: llvm[67] build fails'
 - component: Basesystem
   create_time: 20190111T11:24:00
   id: 1121589
@@ -18831,7 +18831,7 @@
   create_time: 20190204T18:12:00
   id: 1124212
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: firewalld does not update the ifcfg-files properly when reloading after
     permanent zone changes
 - component: Kubic
@@ -19113,7 +19113,7 @@
   create_time: 20190206T15:28:00
   id: 1124504
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: 'Nested intel kvm not working with current tumbleweed 20190205: KVM internal
     error. Suberror: 1 - emulation failure'
 - component: Basesystem
@@ -19333,7 +19333,7 @@
   create_time: 20190210T20:37:00
   id: 1124909
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Regression: scanner AGFA 1212u stops working after the first/preview scan'
 - component: libzypp
   create_time: 20190210T15:13:00
@@ -19560,7 +19560,7 @@
   id: 1125655
   resolution: ''
   status: NEW
-  summary: zypper enhancement
+  summary: zypper enhancement - update zypper/rpm before updating further packages
 - component: Firefox
   create_time: 20190216T07:52:00
   id: 1125653
@@ -19606,8 +19606,8 @@
 - component: Other
   create_time: 20190215T14:01:00
   id: 1125605
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Bug in libpsm2-2 11.2.23 Causes 15s Delay Starting Programs Linked With
     libpsm2
 - component: YaST2
@@ -19709,7 +19709,7 @@
   create_time: 20190218T12:52:00
   id: 1125775
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: firewalld missing python firewall
 - component: Basesystem
   create_time: 20190218T12:25:00
@@ -19749,6 +19749,99 @@
   summary: scp does not accept brace expantion breaking High Availability "crm cluster
     join"
 '20190219':
+- component: Containers
+  create_time: 20190219T22:38:00
+  id: 1125999
+  resolution: ''
+  status: NEW
+  summary: Please refresh package go-tools so it will install
+- component: Kubic
+  create_time: 20190219T13:50:00
+  id: 1125949
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Drop docker from install media, tidy up pattern+system-role names and descriptions
+- component: KDE Workspace (Plasma)
+  create_time: 20190219T10:44:00
+  id: 1125919
+  resolution: ''
+  status: NEW
+  summary: Fix software dependencies around Breeze::BoxShadowRenderer::calculateMinimumBoxSize(int)
+- component: KDE Workspace (Plasma)
+  create_time: 20190219T09:45:00
+  id: 1125901
+  resolution: ''
+  status: NEW
+  summary: Application Launcher Menu shows 16 okular entries
+- component: KDE Applications
+  create_time: 20190219T08:36:00
+  id: 1125875
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190217] kdeconnected segfault'
+- component: Development
+  create_time: 20190219T08:32:00
+  id: 1125872
+  resolution: ''
+  status: NEW
+  summary: rpm resolver should add Python Requires for packages with *.py files in
+    /usr/lib*/python*/
+- component: Virtualization:Tools
+  create_time: 20190219T01:34:00
+  id: 1125841
+  resolution: ''
+  status: NEW
+  summary: AppArmor security driver not enabled for QEMU in libvirt
+'20190220':
+- component: Development
+  create_time: 20190225T22:19:00
+  id: 1126907
+  resolution: ''
+  status: NEW
+  summary: LLVM requires patching to prevent a rustc crash when building Firefox
+- component: GNOME
+  create_time: 20190225T19:46:00
+  id: 1126901
+  resolution: ''
+  status: NEW
+  summary: 'gnome-terminal-server: SIGSEGV in gdk_x11_device_manager_xi2_translate_event'
+- component: Kubic
+  create_time: 20190225T19:45:00
+  id: 1126900
+  resolution: ''
+  status: NEW
+  summary: 'health-checker: grub2-editenv: error: cannot open `/boot/grub2/grubenv'':
+    Read-only file system.'
+- component: YaST2
+  create_time: 20190225T17:11:00
+  id: 1126871
+  resolution: ''
+  status: NEW
+  summary: Error messages when importing mount points are not informative enough
+- component: Development
+  create_time: 20190225T17:05:00
+  id: 1126868
+  resolution: ''
+  status: NEW
+  summary: Resolving package dependencies for Python ABI 3.7 (because of Meson 0.49.1)
+- component: X11 Applications
+  create_time: 20190225T15:54:00
+  id: 1126842
+  resolution: ''
+  status: NEW
+  summary: mnemosyne crashes in all opensuse editions but 15.1
+- component: Basesystem
+  create_time: 20190225T14:30:00
+  id: 1126817
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'GCC 9: libqt5-qtbase build fails'
+- component: Network
+  create_time: 20190225T09:57:00
+  id: 1126756
+  resolution: FIXED
+  status: RESOLVED
+  summary: package mrsh is missing the servers like mrlogind and mrshd
 - component: Basesystem
   create_time: 20190224T00:08:00
   id: 1126609
@@ -19809,8 +19902,8 @@
 - component: Other
   create_time: 20190222T10:01:00
   id: 1126449
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'php7: wrong time displayed'
 - component: KDE Applications
   create_time: 20190222T09:43:00
@@ -19833,8 +19926,8 @@
 - component: Development
   create_time: 20190221T21:22:00
   id: 1126363
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: luajit not supported on ppc64
 - component: KDE Applications
   create_time: 20190221T21:22:00
@@ -19924,46 +20017,3 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'GCC 9:  yast2-ruby-bindings build fails'
-- component: Containers
-  create_time: 20190219T22:38:00
-  id: 1125999
-  resolution: ''
-  status: NEW
-  summary: Please refresh package go-tools so it will install
-- component: Kubic
-  create_time: 20190219T13:50:00
-  id: 1125949
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Drop docker from install media, tidy up pattern+system-role names and descriptions
-- component: KDE Workspace (Plasma)
-  create_time: 20190219T10:44:00
-  id: 1125919
-  resolution: ''
-  status: NEW
-  summary: Fix software dependencies around Breeze::BoxShadowRenderer::calculateMinimumBoxSize(int)
-- component: KDE Workspace (Plasma)
-  create_time: 20190219T09:45:00
-  id: 1125901
-  resolution: ''
-  status: NEW
-  summary: Application Launcher Menu shows 16 okular entries
-- component: KDE Applications
-  create_time: 20190219T08:36:00
-  id: 1125875
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190217] kdeconnected segfault'
-- component: Development
-  create_time: 20190219T08:32:00
-  id: 1125872
-  resolution: ''
-  status: NEW
-  summary: rpm resolver should add Python Requires for packages with *.py files in
-    /usr/lib*/python*/
-- component: Virtualization:Tools
-  create_time: 20190219T01:34:00
-  id: 1125841
-  resolution: ''
-  status: NEW
-  summary: AppArmor security driver not enabled for QEMU in libvirt
