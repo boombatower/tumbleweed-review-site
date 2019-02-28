@@ -669,7 +669,13 @@
   stability_level: stable
 '20190220':
   score: 95
-  stability_level: pending
+  stability_level: stable
 '20190224':
-  score: 96
+  score: 97
+  stability_level: pending
+'20190225':
+  score: 91
+  stability_level: pending
+'20190226':
+  score: 94
   stability_level: pending
