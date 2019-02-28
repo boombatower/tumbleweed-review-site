@@ -4406,8 +4406,8 @@
 - component: Basesystem
   create_time: 20180221T09:15:00
   id: 1081947
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: IN_PROGRESS
   summary: PAM module pam_keyinit is still not integrated in the SUSE PAM stack
 - component: Basesystem
   create_time: 20180221T09:02:00
@@ -6720,8 +6720,8 @@
 - component: Kubic
   create_time: 20180404T14:10:00
   id: 1088114
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Journal not persistent
 - component: Basesystem
   create_time: 20180404T11:01:00
@@ -9843,8 +9843,8 @@
 - component: Other
   create_time: 20180627T10:12:00
   id: 1099288
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: FlightGear 2018.2.2
 '20180628':
 - component: Virtualization:Tools
@@ -14963,8 +14963,8 @@
 - component: YaST2
   create_time: 20181105T11:49:00
   id: 1114673
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'New UI for firewalld: interface not assigned to the right zone when changed
     to public in first run'
 - component: YaST2
@@ -15866,8 +15866,8 @@
 - component: Other
   create_time: 20181114T07:53:00
   id: 1115940
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert  bzflag SysV init scripts into systemd native services
 - component: YaST2
   create_time: 20181113T17:53:00
@@ -16846,8 +16846,8 @@
 - component: Kubic
   create_time: 20181213T08:07:00
   id: 1119359
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kubic.opensuse.org needs prominent link to Portal:Kubic wiki
 '20181214':
 - component: Other
@@ -17552,7 +17552,7 @@
   create_time: 20190109T15:33:00
   id: 1121281
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9:  cppunit build fails'
 - component: Basesystem
   create_time: 20190109T15:25:00
@@ -17843,7 +17843,7 @@
   id: 1121591
   resolution: ''
   status: IN_PROGRESS
-  summary: 'GCC 9: llvm[67] build fails'
+  summary: 'GCC 9: llvm6 build fails'
 - component: Basesystem
   create_time: 20190111T11:24:00
   id: 1121589
@@ -18308,8 +18308,8 @@
 - component: Installation
   create_time: 20190116T11:45:00
   id: 1122174
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 142.1] multiple missing icons'
 - component: GNOME
   create_time: 20190116T11:17:00
@@ -19002,8 +19002,8 @@
 - component: Basesystem
   create_time: 20190208T13:47:00
   id: 1124816
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Firefox freezes intermittently burning 100% CPU due to fontconfig 2.13.1-1.1
     update
 - component: YaST2
@@ -19764,14 +19764,14 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190219T10:44:00
   id: 1125919
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Fix software dependencies around Breeze::BoxShadowRenderer::calculateMinimumBoxSize(int)
 - component: KDE Workspace (Plasma)
   create_time: 20190219T09:45:00
   id: 1125901
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Application Launcher Menu shows 16 okular entries
 - component: KDE Applications
   create_time: 20190219T08:36:00
@@ -19790,7 +19790,7 @@
   create_time: 20190219T01:34:00
   id: 1125841
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: AppArmor security driver not enabled for QEMU in libvirt
 '20190220':
 - component: GNOME
@@ -19963,54 +19963,13 @@
   status: RESOLVED
   summary: 'GCC 9:  yast2-ruby-bindings build fails'
 '20190224':
-- component: AppArmor
-  create_time: 20190226T19:58:00
-  id: 1127073
-  resolution: ''
-  status: IN_PROGRESS
-  summary: /usr/{bin,sbin}/dnsmasq profile name alternation breaks libvirt
-- component: Kernel
-  create_time: 20190226T19:49:00
-  id: 1127072
+- component: Basesystem
+  create_time: 20190224T00:08:00
+  id: 1126609
   resolution: ''
   status: NEW
-  summary: '[amdgpu] AMD Radeon VII (Vega20) Support'
-- component: LXDE
-  create_time: 20190226T15:53:00
-  id: 1127043
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190225] LXQt fails to pick a WM'
-- component: Virtualization:Other
-  create_time: 20190226T11:29:00
-  id: 1127000
-  resolution: ''
-  status: NEW
-  summary: qemu smb share leaves a lot of zombies
-- component: KVM
-  create_time: 20190226T11:05:00
-  id: 1126990
-  resolution: ''
-  status: NEW
-  summary: 9p virtio mount stalls after S4 resume
-- component: High Availability
-  create_time: 20190226T09:29:00
-  id: 1126968
-  resolution: ''
-  status: NEW
-  summary: 'ocfs2: openSUSE:Factory - ocfs2-tools - Build fail notification'
-- component: Other
-  create_time: 20190226T08:00:00
-  id: 1126946
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'signal 4 (Illegal instruction: illegal operand) in libucs.0'
-- component: GNOME
-  create_time: 20190226T07:48:00
-  id: 1126943
-  resolution: ''
-  status: NEW
-  summary: packagekit unit file missing
+  summary: tuned logging errors
+'20190225':
 - component: Development
   create_time: 20190225T22:19:00
   id: 1126907
@@ -20060,9 +20019,144 @@
   resolution: FIXED
   status: RESOLVED
   summary: package mrsh is missing the servers like mrlogind and mrshd
-- component: Basesystem
-  create_time: 20190224T00:08:00
-  id: 1126609
+'20190226':
+- component: Other
+  create_time: 20190228T18:52:00
+  id: 1127415
   resolution: ''
   status: NEW
-  summary: tuned logging errors
+  summary: 'xpra: build with OpenGL'
+- component: Basesystem
+  create_time: 20190228T17:56:00
+  id: 1127411
+  resolution: ''
+  status: NEW
+  summary: yast2-vm not included when installing Server role
+- component: LXQt
+  create_time: 20190228T15:03:00
+  id: 1127388
+  resolution: ''
+  status: NEW
+  summary: Test Bug
+- component: Ruby
+  create_time: 20190228T11:23:00
+  id: 1127344
+  resolution: FIXED
+  status: RESOLVED
+  summary: ruby2.6-rubygem-bundler conflicts with ruby2.6
+- component: Kernel
+  create_time: 20190228T11:06:00
+  id: 1127339
+  resolution: ''
+  status: NEW
+  summary: 'kernel: efi: EFI_MEMMAP is not enabled'
+- component: Development
+  create_time: 20190227T20:58:00
+  id: 1127260
+  resolution: ''
+  status: NEW
+  summary: Internal compiler error when trying to build VTK 8.2.0
+- component: Installation
+  create_time: 20190227T15:51:00
+  id: 1127228
+  resolution: FIXED
+  status: RESOLVED
+  summary: Network proposal does not handle packages dependencies correctly
+- component: Basesystem
+  create_time: 20190227T15:03:00
+  id: 1127220
+  resolution: ''
+  status: NEW
+  summary: '[libgpgme] gpgme_op_import issue when signal is received (e.g. CTRL-C
+    in zypper)'
+- component: libzypp
+  create_time: 20190227T14:13:00
+  id: 1127209
+  resolution: INVALID
+  status: RESOLVED
+  summary: zypper complains about --quiet --verbose cmdline option
+- component: Other
+  create_time: 20190227T12:57:00
+  id: 1127196
+  resolution: ''
+  status: NEW
+  summary: obs-studio fails to launch with libsrt1 from repos
+- component: Development
+  create_time: 20190227T12:18:00
+  id: 1127188
+  resolution: ''
+  status: NEW
+  summary: cannot update kernel configuration with cross-compiler
+- component: Installation
+  create_time: 20190227T11:46:00
+  id: 1127173
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'ISO images downloaded from opensuse.org give: no properly formatted SHA256
+    checksum lines found'
+- component: YaST2
+  create_time: 20190227T10:04:00
+  id: 1127138
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST runs programs with wrong absolute path
+- component: Basesystem
+  create_time: 20190227T08:27:00
+  id: 1127123
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: boost build fails'
+- component: Basesystem
+  create_time: 20190227T08:24:00
+  id: 1127121
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'GCC 9:  libqt4-devel-doc build fails'
+- component: AppArmor
+  create_time: 20190226T19:58:00
+  id: 1127073
+  resolution: ''
+  status: IN_PROGRESS
+  summary: /usr/{bin,sbin}/dnsmasq profile name alternation breaks libvirt
+- component: Kernel
+  create_time: 20190226T19:49:00
+  id: 1127072
+  resolution: ''
+  status: NEW
+  summary: '[amdgpu] AMD Radeon VII (Vega20) Support'
+- component: LXDE
+  create_time: 20190226T15:53:00
+  id: 1127043
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build 20190225] LXQt fails to pick a WM'
+- component: Virtualization:Other
+  create_time: 20190226T11:29:00
+  id: 1127000
+  resolution: ''
+  status: CONFIRMED
+  summary: qemu smb share leaves a lot of zombies
+- component: KVM
+  create_time: 20190226T11:05:00
+  id: 1126990
+  resolution: ''
+  status: NEW
+  summary: 9p virtio mount stalls after S4 resume
+- component: High Availability
+  create_time: 20190226T09:29:00
+  id: 1126968
+  resolution: ''
+  status: NEW
+  summary: 'ocfs2: openSUSE:Factory - ocfs2-tools - Build fail notification'
+- component: Other
+  create_time: 20190226T08:00:00
+  id: 1126946
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'signal 4 (Illegal instruction: illegal operand) in libucs.0'
+- component: GNOME
+  create_time: 20190226T07:48:00
+  id: 1126943
+  resolution: ''
+  status: NEW
+  summary: packagekit unit file missing
