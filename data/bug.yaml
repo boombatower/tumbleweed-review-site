@@ -17989,7 +17989,7 @@
   create_time: 20190110T08:42:00
   id: 1121395
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9: ceph build fails'
 - component: Basesystem
   create_time: 20190110T08:38:00
@@ -19015,8 +19015,8 @@
 - component: X11 Applications
   create_time: 20190207T23:12:00
   id: 1124707
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: chromium crashes after latest tumbleweed update
 - component: Other
   create_time: 20190207T22:21:00
@@ -19284,8 +19284,8 @@
 - component: Kernel
   create_time: 20190211T14:51:00
   id: 1125004
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Change default kconfig: CONFIG_PREEMPT_VOLUNTARY'
 - component: Security
   create_time: 20190211T13:58:00
@@ -19480,8 +19480,8 @@
 - component: Security
   create_time: 20190214T10:08:00
   id: 1125420
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'VUL-0: CVE-2019-8337: msmtp: certificate-verification results are not
     properly checked in tls_trust_file default configuration'
 - component: Basesystem
@@ -19947,8 +19947,8 @@
 - component: Development
   create_time: 20190220T12:13:00
   id: 1126088
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: libmariadb.pc installed in seemingly wrong location
 - component: YaST2
   create_time: 20190220T08:50:00
@@ -20014,6 +20014,24 @@
   status: RESOLVED
   summary: package mrsh is missing the servers like mrlogind and mrshd
 '20190226':
+- component: Development
+  create_time: 20190301T17:49:00
+  id: 1127564
+  resolution: ''
+  status: NEW
+  summary: gcc bug in double calculation in i586
+- component: Kernel
+  create_time: 20190301T16:12:00
+  id: 1127552
+  resolution: ''
+  status: NEW
+  summary: Disable fbcon deferred takeover behavior?
+- component: Basesystem
+  create_time: 20190301T15:17:00
+  id: 1127544
+  resolution: ''
+  status: NEW
+  summary: efibootmgr is broken
 - component: Cloud:Images
   create_time: 20190301T11:31:00
   id: 1127508
@@ -20024,7 +20042,7 @@
   create_time: 20190301T00:09:00
   id: 1127443
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Can't install vagrant, nothing provides /usr/bin/ruby.ruby2.5
 - component: Development
   create_time: 20190228T22:42:00
@@ -20042,7 +20060,7 @@
   create_time: 20190228T17:56:00
   id: 1127411
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: yast2-vm not included when installing Server role
 - component: LXQt
   create_time: 20190228T15:03:00
