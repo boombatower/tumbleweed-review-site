@@ -19546,7 +19546,7 @@
   create_time: 20190216T15:38:00
   id: 1125665
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: 'libvirt regression: can''t start domains in qemu:///session -- prctl failed
     to enable ''dac_override'' in the AMBIENT set'
 - component: Development
@@ -20020,6 +20020,18 @@
   status: RESOLVED
   summary: package mrsh is missing the servers like mrlogind and mrshd
 '20190226':
+- component: Ruby
+  create_time: 20190301T00:09:00
+  id: 1127443
+  resolution: ''
+  status: NEW
+  summary: Can't install vagrant, nothing provides /usr/bin/ruby.ruby2.5
+- component: Development
+  create_time: 20190228T22:42:00
+  id: 1127435
+  resolution: ''
+  status: NEW
+  summary: nothing provides python2-sip(api) = 12.5 needed by python2-qt4-4.12.3-1.3.x86_64
 - component: Other
   create_time: 20190228T18:52:00
   id: 1127415
