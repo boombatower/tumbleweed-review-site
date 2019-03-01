@@ -10660,12 +10660,6 @@
   status: NEW
   summary: '[Build 20180719] Machinery not installable (rubgem-rack-protection vs
     rubygem-sinatra)'
-- component: Ruby
-  create_time: 20180720T14:02:00
-  id: 1102075
-  resolution: ''
-  status: NEW
-  summary: '[Build 20180719] openQA test fails in rails'
 - component: Other
   create_time: 20180720T12:37:00
   id: 1102051
@@ -14963,8 +14957,8 @@
 - component: YaST2
   create_time: 20181105T11:49:00
   id: 1114673
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'New UI for firewalld: interface not assigned to the right zone when changed
     to public in first run'
 - component: YaST2
@@ -20020,6 +20014,12 @@
   status: RESOLVED
   summary: package mrsh is missing the servers like mrlogind and mrshd
 '20190226':
+- component: Cloud:Images
+  create_time: 20190301T11:31:00
+  id: 1127508
+  resolution: ''
+  status: NEW
+  summary: Docker image is missing gzip
 - component: Ruby
   create_time: 20190301T00:09:00
   id: 1127443
@@ -20029,14 +20029,14 @@
 - component: Development
   create_time: 20190228T22:42:00
   id: 1127435
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: nothing provides python2-sip(api) = 12.5 needed by python2-qt4-4.12.3-1.3.x86_64
 - component: Other
   create_time: 20190228T18:52:00
   id: 1127415
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'xpra: build with OpenGL'
 - component: Basesystem
   create_time: 20190228T17:56:00
@@ -20047,9 +20047,21 @@
 - component: LXQt
   create_time: 20190228T15:03:00
   id: 1127388
+  resolution: FIXED
+  status: RESOLVED
+  summary: Test Bug
+- component: Security
+  create_time: 20190228T13:02:00
+  id: 1127368
   resolution: ''
   status: NEW
-  summary: Test Bug
+  summary: 'AUDIT-0: snapd: add set*id permissions related to snapd (/usr/lib/snapd/snap-confine)'
+- component: Security
+  create_time: 20190228T12:49:00
+  id: 1127366
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: snapd: add polkit privileges related to snapd (io.snapcraft.snapd.*)'
 - component: Ruby
   create_time: 20190228T11:23:00
   id: 1127344
@@ -20066,7 +20078,7 @@
   create_time: 20190227T20:58:00
   id: 1127260
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Internal compiler error when trying to build VTK 8.2.0
 - component: Installation
   create_time: 20190227T15:51:00
@@ -20136,7 +20148,7 @@
   resolution: ''
   status: NEW
   summary: '[amdgpu] AMD Radeon VII (Vega20) Support'
-- component: LXDE
+- component: LXQt
   create_time: 20190226T15:53:00
   id: 1127043
   resolution: ''
