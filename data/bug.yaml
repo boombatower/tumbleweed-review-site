@@ -20014,6 +20014,13 @@
   status: RESOLVED
   summary: package mrsh is missing the servers like mrlogind and mrshd
 '20190226':
+- component: YaST2
+  create_time: 20190302T17:43:00
+  id: 1127605
+  resolution: ''
+  status: NEW
+  summary: Can not install packages via 1-click install in appliance if dummy-release
+    is installed
 - component: Printing
   create_time: 20190301T21:15:00
   id: 1127586
