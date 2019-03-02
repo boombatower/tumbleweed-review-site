@@ -19631,8 +19631,8 @@
 - component: Other
   create_time: 20190215T07:45:00
   id: 1125542
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190214] python-qt4 build failure stops zdup process'
 '20190217':
 - component: X11 Applications
@@ -19784,7 +19784,7 @@
   create_time: 20190219T01:34:00
   id: 1125841
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: AppArmor security driver not enabled for QEMU in libvirt
 '20190220':
 - component: GNOME
@@ -20014,6 +20014,12 @@
   status: RESOLVED
   summary: package mrsh is missing the servers like mrlogind and mrshd
 '20190226':
+- component: Printing
+  create_time: 20190301T21:15:00
+  id: 1127586
+  resolution: ''
+  status: NEW
+  summary: Please split libijs into its own package (for cups-filters)
 - component: Development
   create_time: 20190301T17:49:00
   id: 1127564
