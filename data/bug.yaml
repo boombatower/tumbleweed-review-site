@@ -20014,55 +20014,6 @@
   status: RESOLVED
   summary: package mrsh is missing the servers like mrlogind and mrshd
 '20190226':
-- component: KDE Workspace (Plasma)
-  create_time: 20190302T21:59:00
-  id: 1127609
-  resolution: ''
-  status: NEW
-  summary: plasma-nm5 loses connections after stop/start of NetworkManager
-- component: YaST2
-  create_time: 20190302T17:43:00
-  id: 1127605
-  resolution: ''
-  status: NEW
-  summary: Can not install packages via 1-click install in appliance if dummy-release
-    is installed
-- component: Printing
-  create_time: 20190301T21:15:00
-  id: 1127586
-  resolution: ''
-  status: NEW
-  summary: Please split libijs into its own package (for cups-filters)
-- component: Development
-  create_time: 20190301T17:49:00
-  id: 1127564
-  resolution: ''
-  status: NEW
-  summary: gcc bug in double calculation in i586
-- component: Kernel
-  create_time: 20190301T16:12:00
-  id: 1127552
-  resolution: ''
-  status: NEW
-  summary: Disable fbcon deferred takeover behavior?
-- component: Basesystem
-  create_time: 20190301T15:17:00
-  id: 1127544
-  resolution: ''
-  status: NEW
-  summary: efibootmgr is broken
-- component: Cloud:Images
-  create_time: 20190301T11:31:00
-  id: 1127508
-  resolution: ''
-  status: NEW
-  summary: Docker image is missing gzip
-- component: Ruby
-  create_time: 20190301T00:09:00
-  id: 1127443
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Can't install vagrant, nothing provides /usr/bin/ruby.ruby2.5
 - component: Development
   create_time: 20190228T22:42:00
   id: 1127435
@@ -20221,3 +20172,59 @@
   resolution: ''
   status: NEW
   summary: packagekit unit file missing
+'20190301':
+- component: Kernel
+  create_time: 20190303T13:08:00
+  id: 1127613
+  resolution: ''
+  status: NEW
+  summary: no wifi on raspberry 3B+
+- component: KDE Workspace (Plasma)
+  create_time: 20190302T21:59:00
+  id: 1127609
+  resolution: ''
+  status: NEW
+  summary: plasma-nm5 loses connections after stop/start of NetworkManager
+- component: YaST2
+  create_time: 20190302T17:43:00
+  id: 1127605
+  resolution: ''
+  status: NEW
+  summary: Can not install packages via 1-click install in appliance if dummy-release
+    is installed
+- component: Printing
+  create_time: 20190301T21:15:00
+  id: 1127586
+  resolution: ''
+  status: NEW
+  summary: Please split libijs into its own package (for cups-filters)
+- component: Development
+  create_time: 20190301T17:49:00
+  id: 1127564
+  resolution: ''
+  status: NEW
+  summary: gcc bug in double calculation in i586
+- component: Kernel
+  create_time: 20190301T16:12:00
+  id: 1127552
+  resolution: ''
+  status: NEW
+  summary: Disable fbcon deferred takeover behavior?
+- component: Basesystem
+  create_time: 20190301T15:17:00
+  id: 1127544
+  resolution: ''
+  status: NEW
+  summary: efibootmgr is broken
+- component: Cloud:Images
+  create_time: 20190301T11:31:00
+  id: 1127508
+  resolution: ''
+  status: NEW
+  summary: Docker image is missing gzip
+- component: Ruby
+  create_time: 20190301T00:09:00
+  id: 1127443
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Can't install vagrant, nothing provides /usr/bin/ruby.ruby2.5
