@@ -19871,8 +19871,8 @@
 - component: KDE Applications
   create_time: 20190221T21:22:00
   id: 1126362
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Forum text is not preserved for a reply with Konqueror 18.12.2.
 - component: Virtualization:Tools
   create_time: 20190221T13:56:00
@@ -20014,6 +20014,12 @@
   status: RESOLVED
   summary: package mrsh is missing the servers like mrlogind and mrshd
 '20190226':
+- component: KDE Workspace (Plasma)
+  create_time: 20190302T21:59:00
+  id: 1127609
+  resolution: ''
+  status: NEW
+  summary: plasma-nm5 loses connections after stop/start of NetworkManager
 - component: YaST2
   create_time: 20190302T17:43:00
   id: 1127605
