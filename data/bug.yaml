@@ -20174,6 +20174,24 @@
   summary: packagekit unit file missing
 '20190301':
 - component: Kernel
+  create_time: 20190303T16:04:00
+  id: 1127616
+  resolution: ''
+  status: NEW
+  summary: Realtek RTS522A / rtsx_pci SD card reader does not work
+- component: Basesystem
+  create_time: 20190303T15:31:00
+  id: 1127615
+  resolution: ''
+  status: NEW
+  summary: Image armv6l-2019.02.12-Snapshot20190217 does not allow vi to start
+- component: Basesystem
+  create_time: 20190303T15:26:00
+  id: 1127614
+  resolution: ''
+  status: NEW
+  summary: Image armv6l-2019.02.12-Snapshot20190217 does not generate /etc/resolv.conf
+- component: Kernel
   create_time: 20190303T13:08:00
   id: 1127613
   resolution: ''
