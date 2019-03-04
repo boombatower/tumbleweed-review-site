@@ -10918,8 +10918,8 @@
 - component: Basesystem
   create_time: 20180730T16:21:00
   id: 1103124
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: glibc postinstall should not reload init anymore
 - component: LibreOffice
   create_time: 20180730T10:51:00
@@ -16304,8 +16304,8 @@
 - component: Network
   create_time: 20181127T14:20:00
   id: 1117483
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'openvswitch: please consider dropping the use of DISABLE_STOP_ON_REMOVAL/DISABLE_RESTART_ON_UPDATE'
 - component: Kernel
   create_time: 20181127T14:04:00
@@ -16834,8 +16834,8 @@
 - component: Kubic
   create_time: 20181213T10:57:00
   id: 1119378
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Define labels for openSUSE containers
 - component: Kubic
   create_time: 20181213T08:07:00
@@ -17988,8 +17988,8 @@
 - component: Basesystem
   create_time: 20190110T08:42:00
   id: 1121395
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: ceph build fails'
 - component: Basesystem
   create_time: 20190110T08:38:00
@@ -18711,8 +18711,8 @@
 - component: Basesystem
   create_time: 20190128T12:11:00
   id: 1123350
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Newest image of Tumbleweed, Snapshot20190121, on Raspberry Pi 2 does not
     boot
 - component: Kernel
@@ -20173,6 +20173,24 @@
   status: NEW
   summary: packagekit unit file missing
 '20190301':
+- component: Network
+  create_time: 20190304T17:21:00
+  id: 1127776
+  resolution: ''
+  status: NEW
+  summary: openssh package recommends >150 new packages
+- component: Other
+  create_time: 20190304T16:46:00
+  id: 1127769
+  resolution: ''
+  status: NEW
+  summary: 'virt-bootstrap ppc64le build failed ''Architecture is not included: powerpc64le'''
+- component: KDE Workspace (Plasma)
+  create_time: 20190304T16:03:00
+  id: 1127763
+  resolution: ''
+  status: NEW
+  summary: Suspend and Hibernation causes reboot
 - component: Other
   create_time: 20190304T13:02:00
   id: 1127733
@@ -20197,7 +20215,7 @@
   create_time: 20190304T09:49:00
   id: 1127701
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: fstrim -Av runs trim on each btrfs subvolume
 - component: Basesystem
   create_time: 20190304T09:46:00
