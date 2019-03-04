@@ -1603,6 +1603,12 @@
   threads: []
 '20190301':
   announcement: 2019-03.9
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 3
+  thread_count: 2
+  threads:
+  - messages: [2019-03.13]
+    reference_count: 1
+    summary: no summary given
+  - messages: [2019-03.14]
+    reference_count: 2
+    summary: drpm in createrepo_c
