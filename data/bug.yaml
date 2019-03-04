@@ -20173,6 +20173,13 @@
   status: NEW
   summary: packagekit unit file missing
 '20190301':
+- component: Installation
+  create_time: 20190304T07:36:00
+  id: 1127672
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190301] openQA test fails in partitioning, missing x11 pattern
+    because Mesa-drivers build failure'
 - component: Kernel
   create_time: 20190303T16:04:00
   id: 1127616
