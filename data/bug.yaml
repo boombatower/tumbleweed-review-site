@@ -1173,8 +1173,8 @@
 - component: Basesystem
   create_time: 20171231T15:10:00
   id: 1074250
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: rfkill man page file conflicts
 - component: Other
   create_time: 20171231T11:10:00
@@ -13769,7 +13769,7 @@
   create_time: 20181016T03:40:00
   id: 1111950
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: maildir-utils .elc varies between builds from parallelism
 - component: X11 Applications
   create_time: 20181015T17:01:00
@@ -16322,8 +16322,8 @@
 - component: Basesystem
   create_time: 20181126T16:26:00
   id: 1117355
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: libgcrypt runs selfcheck including hmac based binary verifcation outside
     fips mode. breaks keepassxc
 - component: Virtualization:Tools
@@ -19384,8 +19384,8 @@
 - component: Kubic
   create_time: 20190214T17:18:00
   id: 1125488
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: transactional-update cleanup removes data from /etc
 - component: KDE Workspace (Plasma)
   create_time: 20190214T16:48:00
@@ -20023,8 +20023,8 @@
 - component: Other
   create_time: 20190228T18:52:00
   id: 1127415
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'xpra: build with OpenGL'
 - component: Basesystem
   create_time: 20190228T17:56:00
@@ -20139,8 +20139,8 @@
 - component: LXQt
   create_time: 20190226T15:53:00
   id: 1127043
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190225] LXQt fails to pick a WM'
 - component: Virtualization:Other
   create_time: 20190226T11:29:00
@@ -20163,8 +20163,8 @@
 - component: Other
   create_time: 20190226T08:00:00
   id: 1126946
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'signal 4 (Illegal instruction: illegal operand) in libucs.0'
 - component: GNOME
   create_time: 20190226T07:48:00
@@ -20173,13 +20173,62 @@
   status: NEW
   summary: packagekit unit file missing
 '20190301':
-- component: Installation
-  create_time: 20190304T07:36:00
-  id: 1127672
+- component: Other
+  create_time: 20190304T13:02:00
+  id: 1127733
   resolution: ''
   status: NEW
-  summary: '[Build 20190301] openQA test fails in partitioning, missing x11 pattern
-    because Mesa-drivers build failure'
+  summary: Plymouth doesn't show the current keyboard layout when asking for the password
+    to decrypt disks
+- component: Other
+  create_time: 20190304T12:46:00
+  id: 1127730
+  resolution: ''
+  status: NEW
+  summary: hddtemp sees an HDD as sleeping when it is not
+- component: YaST2
+  create_time: 20190304T10:58:00
+  id: 1127714
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190301] yast2_apparmor does not display mode column when profile
+    name is too long'
+- component: Basesystem
+  create_time: 20190304T09:49:00
+  id: 1127701
+  resolution: ''
+  status: NEW
+  summary: fstrim -Av runs trim on each btrfs subvolume
+- component: Basesystem
+  create_time: 20190304T09:46:00
+  id: 1127700
+  resolution: ''
+  status: NEW
+  summary: bash patch bash50-001/bash50-002 seems to break env expansion
+- component: Printing
+  create_time: 20190304T09:05:00
+  id: 1127687
+  resolution: ''
+  status: NEW
+  summary: hplip cannot install network printers and scanners like hp 3055
+- component: Other
+  create_time: 20190304T09:02:00
+  id: 1127686
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190301] rmt-server package is not available for TW'
+- component: Development
+  create_time: 20190304T08:54:00
+  id: 1127683
+  resolution: ''
+  status: NEW
+  summary: internal compiler error
+- component: X.Org
+  create_time: 20190304T07:36:00
+  id: 1127672
+  resolution: FIXED
+  status: RESOLVED
+  summary: Mesa-drivers build fails on ppc64
 - component: Kernel
   create_time: 20190303T16:04:00
   id: 1127616
@@ -20227,7 +20276,7 @@
   create_time: 20190301T17:49:00
   id: 1127564
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: gcc bug in double calculation in i586
 - component: Kernel
   create_time: 20190301T16:12:00
