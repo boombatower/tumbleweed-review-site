@@ -6438,12 +6438,6 @@
   resolution: ''
   status: NEW
   summary: fonts-config warns about ninitialized HOME in posttrans
-- component: YaST2
-  create_time: 20180326T06:55:00
-  id: 1086789
-  resolution: ''
-  status: CONFIRMED
-  summary: 'YaST:Head/yast2: ignores scaling configuration'
 - component: libzypp
   create_time: 20180326T06:26:00
   id: 1086783
@@ -8576,8 +8570,8 @@
 - component: Development
   create_time: 20180522T14:51:00
   id: 1094222
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: gcc-8 on opensuse tumbleweed points to wrong location when displaying error
 - component: GNOME
   create_time: 20180522T07:51:00
@@ -12436,7 +12430,8 @@
   id: 1108307
   resolution: ''
   status: NEW
-  summary: 'timezone: end of seasonal daylight saving time changes in 2019'
+  summary: 'timezone: end of seasonal daylight saving time changes in the European
+    Union'
 - component: Other
   create_time: 20180913T09:18:00
   id: 1108289
@@ -13768,8 +13763,8 @@
 - component: Development
   create_time: 20181016T03:40:00
   id: 1111950
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: maildir-utils .elc varies between builds from parallelism
 - component: X11 Applications
   create_time: 20181015T17:01:00
@@ -17166,7 +17161,7 @@
   id: 1120957
   resolution: ''
   status: CONFIRMED
-  summary: '[Build 20190103] keyboard language cannot be changed in textmode'
+  summary: '[Build 20190103] keyboard language cannot be changed in textmode on qemu'
 - component: Development
   create_time: 20190107T14:58:00
   id: 1120947
@@ -18204,8 +18199,8 @@
 - component: Basesystem
   create_time: 20190118T07:40:00
   id: 1122455
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'transactional-update and rw-root-fs: error message during update'
 - component: YaST2
   create_time: 20190118T07:06:00
@@ -18855,8 +18850,8 @@
 - component: Development
   create_time: 20190204T11:06:00
   id: 1124140
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Crash around _Sp_make_shared_tag when mixing g++7 and g++8 binaries
 - component: Kubic
   create_time: 20190204T09:59:00
@@ -19697,7 +19692,7 @@
   create_time: 20190218T13:02:00
   id: 1125779
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: '[Build 20190215] autoyast profile doesn''t validate when cloning the system'
 - component: Basesystem
   create_time: 20190218T12:52:00
@@ -20173,11 +20168,59 @@
   status: RESOLVED
   summary: packagekit unit file missing
 '20190301':
-- component: Cloud:Images
+- component: Kubic
+  create_time: 20190305T13:41:00
+  id: 1127941
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Introduce MicroOS-defaults pattern
+- component: Other
+  create_time: 20190305T13:22:00
+  id: 1127934
+  resolution: ''
+  status: NEW
+  summary: dvipdf fails in tumbleweed
+- component: Other
+  create_time: 20190305T12:13:00
+  id: 1127911
+  resolution: ''
+  status: NEW
+  summary: Minetest 5.0.0 needs group and user whitelisted
+- component: LibreOffice
+  create_time: 20190305T10:45:00
+  id: 1127895
+  resolution: ''
+  status: NEW
+  summary: 'oomath: openQA doesn''t render anything when running on KDE'
+- component: Kernel
+  create_time: 20190305T10:10:00
+  id: 1127886
+  resolution: ''
+  status: IN_PROGRESS
+  summary: drop openSUSE specific nf_conntrack_slp module
+- component: AppArmor
+  create_time: 20190305T09:40:00
+  id: 1127877
+  resolution: ''
+  status: NEW
+  summary: apparmor can not handle  /bin/sh or /bin/bash if those are links
+- component: Kernel
+  create_time: 20190305T09:11:00
+  id: 1127867
+  resolution: ''
+  status: NEW
+  summary: Can not use /proc/pressure/*
+- component: Development
+  create_time: 20190305T08:24:00
+  id: 1127857
+  resolution: ''
+  status: IN_PROGRESS
+  summary: libreoffice fails to build against devel:gcc
+- component: Containers
   create_time: 20190305T07:43:00
   id: 1127849
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Zypper segfaults in official openSUSE docker image (opensuse/ namespace)
 - component: Security
   create_time: 20190305T07:36:00
@@ -20203,7 +20246,7 @@
   id: 1127798
   resolution: ''
   status: NEW
-  summary: yast2 lan fails
+  summary: 'yast2 lan: Internal Error: undefined method `shellescape'' for nil:NilClass'
 - component: Network
   create_time: 20190304T17:21:00
   id: 1127776
@@ -20342,8 +20385,8 @@
 - component: Containers
   create_time: 20190301T11:31:00
   id: 1127508
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: official openSUSE docker image (opensuse/ namespace) is missing gzip
 - component: Ruby
   create_time: 20190301T00:09:00
