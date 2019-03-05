@@ -8239,8 +8239,8 @@
 - component: Basesystem
   create_time: 20180514T16:25:00
   id: 1093176
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: util-linux using service template file in pre/postun
 - component: Basesystem
   create_time: 20180514T16:24:00
@@ -10157,11 +10157,11 @@
   resolution: NORESPONSE
   status: RESOLVED
   summary: Display resolution wrong after monitors turned off and on again
-- component: LXDE
+- component: LXQt
   create_time: 20180705T10:56:00
   id: 1100208
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Use default openSUSE wallpaper in LXQt
 - component: GNOME
   create_time: 20180705T10:55:00
@@ -19101,8 +19101,8 @@
 - component: KVM
   create_time: 20190206T15:28:00
   id: 1124504
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Nested intel kvm not working with current tumbleweed 20190205: KVM internal
     error. Suberror: 1 - emulation failure'
 - component: Basesystem
@@ -19206,7 +19206,7 @@
   create_time: 20190213T12:45:00
   id: 1125300
   resolution: DUPLICATE
-  status: RESOLVED
+  status: VERIFIED
   summary: Unable to install local rpm through zypper command
 - component: Other
   create_time: 20190213T12:25:00
@@ -20018,8 +20018,8 @@
 - component: Other
   create_time: 20190228T18:52:00
   id: 1127415
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'xpra: build with OpenGL'
 - component: Basesystem
   create_time: 20190228T17:56:00
@@ -20168,6 +20168,37 @@
   status: RESOLVED
   summary: packagekit unit file missing
 '20190301':
+- component: KDE Applications
+  create_time: 20190305T19:48:00
+  id: 1128005
+  resolution: ''
+  status: NEW
+  summary: Falkon is missing the 'web_browser' package symbol
+- component: X11 3rd Party Driver
+  create_time: 20190305T16:14:00
+  id: 1127979
+  resolution: FIXED
+  status: RESOLVED
+  summary: No display resolutions available after nvidia driver update to 418.43 on
+    Dell Precision 5520
+- component: Basesystem
+  create_time: 20190305T14:33:00
+  id: 1127955
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: mono-core build fails on i586'
+- component: OpenStack
+  create_time: 20190305T14:27:00
+  id: 1127954
+  resolution: ''
+  status: NEW
+  summary: openstack client produce issubclass() arg 1 must be a class
+- component: Basesystem
+  create_time: 20190305T14:25:00
+  id: 1127953
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: meson:test build fails on i586'
 - component: Kubic
   create_time: 20190305T13:41:00
   id: 1127941
@@ -20289,7 +20320,7 @@
   create_time: 20190304T09:49:00
   id: 1127701
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: fstrim -Av runs trim on each btrfs subvolume
 - component: Basesystem
   create_time: 20190304T09:46:00
