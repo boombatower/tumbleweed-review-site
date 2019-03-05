@@ -5183,8 +5183,8 @@
 - component: Basesystem
   create_time: 20180307T11:10:00
   id: 1084281
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: '[cmake] feature-suse-python-interp-search-order.patch breaks cantor'
 '20180308':
 - component: Other
@@ -17364,8 +17364,8 @@
 - component: Development
   create_time: 20190102T20:21:00
   id: 1120538
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: cmake-3.13.1 and before, typo in patch  system-libs.patch
 - component: Development
   create_time: 20190102T13:10:00
@@ -20169,10 +20169,29 @@
 - component: GNOME
   create_time: 20190226T07:48:00
   id: 1126943
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: packagekit unit file missing
 '20190301':
+- component: Network
+  create_time: 20190305T01:27:00
+  id: 1127817
+  resolution: ''
+  status: NEW
+  summary: NetworkManager 1.14.6-1.1-x86-64 did not work with my Atheros AR9285 wireless
+    card
+- component: Kernel
+  create_time: 20190304T22:09:00
+  id: 1127808
+  resolution: ''
+  status: NEW
+  summary: Please consider CONFIG_HARDENED_USERCOPY and CONFIG_SLAB_FREELIST_HARDENED
+- component: YaST2
+  create_time: 20190304T20:42:00
+  id: 1127798
+  resolution: ''
+  status: NEW
+  summary: yast2 lan fails
 - component: Network
   create_time: 20190304T17:21:00
   id: 1127776
@@ -20308,7 +20327,7 @@
   resolution: ''
   status: NEW
   summary: efibootmgr is broken
-- component: Cloud:Images
+- component: Containers
   create_time: 20190301T11:31:00
   id: 1127508
   resolution: ''
