@@ -20173,6 +20173,18 @@
   status: RESOLVED
   summary: packagekit unit file missing
 '20190301':
+- component: Cloud:Images
+  create_time: 20190305T07:43:00
+  id: 1127849
+  resolution: ''
+  status: NEW
+  summary: Zypper segfaults in official openSUSE docker image (opensuse/ namespace)
+- component: Security
+  create_time: 20190305T07:36:00
+  id: 1127847
+  resolution: ''
+  status: NEW
+  summary: 'Please review new DBUS system service file: org.freedesktop.hostname1.get-product-uuid'
 - component: Network
   create_time: 20190305T01:27:00
   id: 1127817
@@ -20332,7 +20344,7 @@
   id: 1127508
   resolution: ''
   status: NEW
-  summary: Docker image is missing gzip
+  summary: official openSUSE docker image (opensuse/ namespace) is missing gzip
 - component: Ruby
   create_time: 20190301T00:09:00
   id: 1127443
