@@ -1612,3 +1612,11 @@
   - messages: [2019-03.14]
     reference_count: 2
     summary: drpm in createrepo_c
+'20190305':
+  announcement: 2019-03.35
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages: [2019-03.36]
+    reference_count: 2
+    summary: no summary given
