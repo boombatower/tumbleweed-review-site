@@ -20197,7 +20197,7 @@
   create_time: 20190305T14:27:00
   id: 1127954
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: openstack client produce issubclass() arg 1 must be a class
 - component: Basesystem
   create_time: 20190305T14:25:00
