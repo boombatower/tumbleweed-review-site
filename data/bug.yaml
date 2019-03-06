@@ -3671,8 +3671,8 @@
 - component: Other
   create_time: 20180210T19:04:00
   id: 1080443
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: AppCSXCAD cannot find libmpi.so.12
 - component: Other
   create_time: 20180210T17:39:00
@@ -20168,6 +20168,12 @@
   status: RESOLVED
   summary: packagekit unit file missing
 '20190301':
+- component: Kernel
+  create_time: 20190305T21:50:00
+  id: 1128045
+  resolution: ''
+  status: NEW
+  summary: please consider dropping CONFIG_DEVKMEM
 - component: KDE Applications
   create_time: 20190305T19:48:00
   id: 1128005
