@@ -19498,7 +19498,7 @@
   status: RESOLVED
   summary: '[Build 20190213] openQA test fails in machinery, no machinery-helper for
     ppc64le'
-- component: Installation
+- component: YaST2
   create_time: 20190214T02:20:00
   id: 1125376
   resolution: ''
@@ -20037,7 +20037,7 @@
   create_time: 20190228T14:56:00
   id: 1127387
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: systemd-tmpfiles need updating from /var/run/* to /run/*
 - component: Security
   create_time: 20190228T13:02:00
@@ -20174,116 +20174,6 @@
   status: RESOLVED
   summary: packagekit unit file missing
 '20190301':
-- component: Bootloader
-  create_time: 20190306T08:52:00
-  id: 1128099
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'u-boot: xilinxzynqmpgeneric package fails to build'
-- component: Kernel
-  create_time: 20190305T21:50:00
-  id: 1128045
-  resolution: ''
-  status: NEW
-  summary: please consider dropping CONFIG_DEVKMEM
-- component: KDE Applications
-  create_time: 20190305T19:48:00
-  id: 1128005
-  resolution: ''
-  status: NEW
-  summary: Falkon is missing the 'web_browser' package symbol
-- component: X11 3rd Party Driver
-  create_time: 20190305T16:14:00
-  id: 1127979
-  resolution: FIXED
-  status: RESOLVED
-  summary: No display resolutions available after nvidia driver update to 418.43 on
-    Dell Precision 5520
-- component: Basesystem
-  create_time: 20190305T14:33:00
-  id: 1127955
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: mono-core build fails on i586'
-- component: OpenStack
-  create_time: 20190305T14:27:00
-  id: 1127954
-  resolution: ''
-  status: IN_PROGRESS
-  summary: openstack client produce issubclass() arg 1 must be a class
-- component: Basesystem
-  create_time: 20190305T14:25:00
-  id: 1127953
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: meson:test build fails on i586'
-- component: Kubic
-  create_time: 20190305T13:41:00
-  id: 1127941
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Introduce MicroOS-defaults pattern
-- component: Other
-  create_time: 20190305T13:22:00
-  id: 1127934
-  resolution: ''
-  status: NEW
-  summary: dvipdf fails in tumbleweed
-- component: Other
-  create_time: 20190305T12:13:00
-  id: 1127911
-  resolution: ''
-  status: NEW
-  summary: Minetest 5.0.0 needs group and user whitelisted
-- component: LibreOffice
-  create_time: 20190305T10:45:00
-  id: 1127895
-  resolution: ''
-  status: NEW
-  summary: 'oomath: openQA doesn''t render anything when running on KDE'
-- component: Kernel
-  create_time: 20190305T10:10:00
-  id: 1127886
-  resolution: ''
-  status: IN_PROGRESS
-  summary: drop openSUSE specific nf_conntrack_slp module
-- component: AppArmor
-  create_time: 20190305T09:40:00
-  id: 1127877
-  resolution: ''
-  status: NEW
-  summary: apparmor can not handle  /bin/sh or /bin/bash if those are links
-- component: Kernel
-  create_time: 20190305T09:11:00
-  id: 1127867
-  resolution: ''
-  status: NEW
-  summary: Can not use /proc/pressure/*
-- component: Development
-  create_time: 20190305T08:24:00
-  id: 1127857
-  resolution: ''
-  status: IN_PROGRESS
-  summary: libreoffice fails to build against devel:gcc
-- component: Containers
-  create_time: 20190305T07:43:00
-  id: 1127849
-  resolution: ''
-  status: CONFIRMED
-  summary: Zypper segfaults in official openSUSE docker image (opensuse/ namespace)
-- component: Security
-  create_time: 20190305T07:36:00
-  id: 1127847
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'AUDIT-0: systemd: new D-Bus method / polkit action org.freedesktop.hostname1.get-product-uuid'
-- component: Network
-  create_time: 20190305T01:27:00
-  id: 1127817
-  resolution: ''
-  status: NEW
-  summary: NetworkManager 1.14.6-1.1-x86-64 did not work with my Atheros AR9285 wireless
-    card
 - component: Kernel
   create_time: 20190304T22:09:00
   id: 1127808
@@ -20443,3 +20333,162 @@
   resolution: ''
   status: IN_PROGRESS
   summary: Can't install vagrant, nothing provides /usr/bin/ruby.ruby2.5
+'20190305':
+- component: GNOME
+  create_time: 20190306T18:51:00
+  id: 1128212
+  resolution: ''
+  status: NEW
+  summary: gsettings-desktop-schemas -- Patch needs dropping or rebase
+- component: GNOME
+  create_time: 20190306T18:45:00
+  id: 1128210
+  resolution: ''
+  status: NEW
+  summary: Tracker + Tracker-miners -- Patches needs dropping or rebase
+- component: GNOME
+  create_time: 20190306T16:48:00
+  id: 1128196
+  resolution: ''
+  status: NEW
+  summary: gnome-settings-daemon -- Patches needs dropping or rebase
+- component: GNOME
+  create_time: 20190306T16:45:00
+  id: 1128195
+  resolution: ''
+  status: NEW
+  summary: gnome-control-center -- Patches needs dropping or rebase
+- component: GNOME
+  create_time: 20190306T16:44:00
+  id: 1128194
+  resolution: ''
+  status: NEW
+  summary: Gnome-shell -- Patches needs dropping or rebase
+- component: GNOME
+  create_time: 20190306T16:42:00
+  id: 1128193
+  resolution: ''
+  status: NEW
+  summary: Mutter -- Patches needs dropping or rebase
+- component: GNOME
+  create_time: 20190306T16:39:00
+  id: 1128192
+  resolution: ''
+  status: NEW
+  summary: Accountsservice patches -- Drop or rebase
+- component: GNOME
+  create_time: 20190306T16:34:00
+  id: 1128190
+  resolution: ''
+  status: NEW
+  summary: GNOME 3.32.0 in Tumbleweed - Brewing in GNOME:Next
+- component: Bootloader
+  create_time: 20190306T08:52:00
+  id: 1128099
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'u-boot: xilinxzynqmpgeneric package fails to build'
+- component: Kernel
+  create_time: 20190305T21:50:00
+  id: 1128045
+  resolution: ''
+  status: NEW
+  summary: please consider dropping CONFIG_DEVKMEM
+- component: KDE Applications
+  create_time: 20190305T19:48:00
+  id: 1128005
+  resolution: ''
+  status: NEW
+  summary: Falkon is missing the 'web_browser' package symbol
+- component: X11 3rd Party Driver
+  create_time: 20190305T16:14:00
+  id: 1127979
+  resolution: FIXED
+  status: RESOLVED
+  summary: No display resolutions available after nvidia driver update to 418.43 on
+    Dell Precision 5520
+- component: Basesystem
+  create_time: 20190305T14:33:00
+  id: 1127955
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: mono-core build fails on i586'
+- component: OpenStack
+  create_time: 20190305T14:27:00
+  id: 1127954
+  resolution: ''
+  status: IN_PROGRESS
+  summary: openstack client produce issubclass() arg 1 must be a class
+- component: Basesystem
+  create_time: 20190305T14:25:00
+  id: 1127953
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: meson:test build fails on i586'
+- component: Kubic
+  create_time: 20190305T13:41:00
+  id: 1127941
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Introduce MicroOS-defaults pattern
+- component: Other
+  create_time: 20190305T13:22:00
+  id: 1127934
+  resolution: ''
+  status: NEW
+  summary: dvipdf fails in tumbleweed
+- component: Other
+  create_time: 20190305T12:13:00
+  id: 1127911
+  resolution: ''
+  status: NEW
+  summary: Minetest 5.0.0 needs group and user whitelisted
+- component: LibreOffice
+  create_time: 20190305T10:45:00
+  id: 1127895
+  resolution: ''
+  status: NEW
+  summary: 'oomath: openQA doesn''t render anything when running on KDE'
+- component: Kernel
+  create_time: 20190305T10:10:00
+  id: 1127886
+  resolution: ''
+  status: IN_PROGRESS
+  summary: drop openSUSE specific nf_conntrack_slp module
+- component: AppArmor
+  create_time: 20190305T09:40:00
+  id: 1127877
+  resolution: ''
+  status: NEW
+  summary: apparmor can not handle  /bin/sh or /bin/bash if those are links
+- component: Kernel
+  create_time: 20190305T09:11:00
+  id: 1127867
+  resolution: ''
+  status: NEW
+  summary: Can not use /proc/pressure/*
+- component: Development
+  create_time: 20190305T08:24:00
+  id: 1127857
+  resolution: ''
+  status: IN_PROGRESS
+  summary: libreoffice fails to build against devel:gcc
+- component: Containers
+  create_time: 20190305T07:43:00
+  id: 1127849
+  resolution: ''
+  status: CONFIRMED
+  summary: Zypper segfaults in official openSUSE docker image (opensuse/ namespace)
+- component: Security
+  create_time: 20190305T07:36:00
+  id: 1127847
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'AUDIT-0: systemd: new D-Bus method / polkit action org.freedesktop.hostname1.get-product-uuid'
+- component: Network
+  create_time: 20190305T01:27:00
+  id: 1127817
+  resolution: ''
+  status: NEW
+  summary: NetworkManager 1.14.6-1.1-x86-64 did not work with my Atheros AR9285 wireless
+    card
