@@ -19778,8 +19778,8 @@
 - component: Virtualization:Tools
   create_time: 20190219T01:34:00
   id: 1125841
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: AppArmor security driver not enabled for QEMU in libvirt
 '20190220':
 - component: GNOME
