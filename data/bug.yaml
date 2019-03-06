@@ -6454,8 +6454,8 @@
 - component: Kernel
   create_time: 20180330T13:21:00
   id: 1087635
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: r8152 livelocks during pm_runtime_suspend
 - component: KDE Workspace (Plasma)
   create_time: 20180330T11:37:00
@@ -7603,8 +7603,8 @@
 - component: Basesystem
   create_time: 20180425T12:28:00
   id: 1090896
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: systemd--modules-load shows error message
 - component: GNOME
   create_time: 20180425T08:38:00
@@ -17632,8 +17632,8 @@
 - component: Basesystem
   create_time: 20190109T10:21:00
   id: 1121223
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9:  gpg2 build fails'
 - component: Basesystem
   create_time: 20190109T10:08:00
@@ -19691,8 +19691,8 @@
 - component: AutoYaST
   create_time: 20190218T13:02:00
   id: 1125779
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190215] autoyast profile doesn''t validate when cloning the system'
 - component: Basesystem
   create_time: 20190218T12:52:00
@@ -19848,8 +19848,8 @@
 - component: Network
   create_time: 20190222T07:57:00
   id: 1126426
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'net-snmp: please drop use of $FIRST_ARG'
 - component: Samba
   create_time: 20190221T23:14:00
@@ -20033,11 +20033,17 @@
   resolution: FIXED
   status: RESOLVED
   summary: Test Bug
+- component: Basesystem
+  create_time: 20190228T14:56:00
+  id: 1127387
+  resolution: ''
+  status: NEW
+  summary: systemd-tmpfiles need updating from /var/run/* to /run/*
 - component: Security
   create_time: 20190228T13:02:00
   id: 1127368
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: snapd: add set*id permissions related to snapd (/usr/lib/snapd/snap-confine)'
 - component: Security
   create_time: 20190228T12:49:00
@@ -20168,6 +20174,12 @@
   status: RESOLVED
   summary: packagekit unit file missing
 '20190301':
+- component: Bootloader
+  create_time: 20190306T08:52:00
+  id: 1128099
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'u-boot: xilinxzynqmpgeneric package fails to build'
 - component: Kernel
   create_time: 20190305T21:50:00
   id: 1128045
@@ -20262,9 +20274,9 @@
 - component: Security
   create_time: 20190305T07:36:00
   id: 1127847
-  resolution: ''
-  status: NEW
-  summary: 'Please review new DBUS system service file: org.freedesktop.hostname1.get-product-uuid'
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'AUDIT-0: systemd: new D-Bus method / polkit action org.freedesktop.hostname1.get-product-uuid'
 - component: Network
   create_time: 20190305T01:27:00
   id: 1127817
@@ -20349,8 +20361,8 @@
 - component: Development
   create_time: 20190304T08:54:00
   id: 1127683
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: internal compiler error
 - component: X.Org
   create_time: 20190304T07:36:00
@@ -20379,8 +20391,8 @@
 - component: Kernel
   create_time: 20190303T13:08:00
   id: 1127613
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: no wifi on raspberry 3B+
 - component: KDE Workspace (Plasma)
   create_time: 20190302T21:59:00
