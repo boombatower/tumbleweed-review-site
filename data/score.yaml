@@ -680,5 +680,8 @@
   score: 93
   stability_level: stable
 '20190301':
-  score: 87
+  score: 88
+  stability_level: pending
+'20190305':
+  score: 89
   stability_level: pending
