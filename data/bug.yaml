@@ -13104,8 +13104,8 @@
 - component: Other
   create_time: 20180928T11:24:00
   id: 1110146
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: docbook-xsl-stylesheets has incomplete xml catalog file
 - component: Live Medium
   create_time: 20180928T10:02:00
@@ -18001,8 +18001,8 @@
 - component: Basesystem
   create_time: 20190110T08:32:00
   id: 1121391
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: xen build fails'
 - component: Basesystem
   create_time: 20190110T08:07:00
@@ -19930,8 +19930,8 @@
 - component: Basesystem
   create_time: 20190220T13:44:00
   id: 1126102
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: open-vm-tools build fails on i586'
 - component: Kernel
   create_time: 20190220T12:39:00
@@ -20334,6 +20334,48 @@
   status: IN_PROGRESS
   summary: Can't install vagrant, nothing provides /usr/bin/ruby.ruby2.5
 '20190305':
+- component: Basesystem
+  create_time: 20190307T12:47:00
+  id: 1128333
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'GCC 9: openmpi:standard build fails'
+- component: YaST2
+  create_time: 20190307T11:20:00
+  id: 1128320
+  resolution: ''
+  status: CONFIRMED
+  summary: 'YaST Partitioner: Don''t suggest /run/... mount point for USB media'
+- component: Printing
+  create_time: 20190307T09:45:00
+  id: 1128306
+  resolution: ''
+  status: NEW
+  summary: hplip fails because they can't find /etc/PolicyKit
+- component: Basesystem
+  create_time: 20190307T09:38:00
+  id: 1128302
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: python-numpy build fails'
+- component: Basesystem
+  create_time: 20190307T09:35:00
+  id: 1128299
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: open-lldp build fails'
+- component: Basesystem
+  create_time: 20190307T08:53:00
+  id: 1128281
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'E: polkit-untracked-privilege (Badness: 10000) org.freedesktop.hostname1.get-product-uuid'
+- component: YaST2
+  create_time: 20190307T08:45:00
+  id: 1128279
+  resolution: FIXED
+  status: RESOLVED
+  summary: add a refresh button to yast2-snapper
 - component: Kernel
   create_time: 20190307T01:01:00
   id: 1128245
@@ -20361,8 +20403,8 @@
 - component: GNOME
   create_time: 20190306T18:45:00
   id: 1128210
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Tracker + Tracker-miners -- Patches needs dropping or rebase
 - component: GNOME
   create_time: 20190306T16:48:00
@@ -20446,8 +20488,8 @@
 - component: Kubic
   create_time: 20190305T13:41:00
   id: 1127941
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Introduce MicroOS-defaults pattern
 - component: Other
   create_time: 20190305T13:22:00
@@ -20476,8 +20518,8 @@
 - component: AppArmor
   create_time: 20190305T09:40:00
   id: 1127877
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: apparmor can not handle  /bin/sh or /bin/bash if those are links
 - component: Kernel
   create_time: 20190305T09:11:00
