@@ -20334,6 +20334,24 @@
   status: IN_PROGRESS
   summary: Can't install vagrant, nothing provides /usr/bin/ruby.ruby2.5
 '20190305':
+- component: Kernel
+  create_time: 20190307T01:01:00
+  id: 1128245
+  resolution: ''
+  status: NEW
+  summary: Please enable YAMA LSM
+- component: LibreOffice
+  create_time: 20190306T22:15:00
+  id: 1128231
+  resolution: ''
+  status: NEW
+  summary: LibreOffice sub-windows overflow the screen
+- component: Other
+  create_time: 20190306T21:52:00
+  id: 1128230
+  resolution: ''
+  status: NEW
+  summary: 'fwupd: broken skript in RPM package?'
 - component: GNOME
   create_time: 20190306T18:51:00
   id: 1128212
