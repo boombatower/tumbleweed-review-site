@@ -13050,8 +13050,8 @@
 - component: Other
   create_time: 20180930T18:12:00
   id: 1110260
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: pcscd fails to find Yubikey (LIBUSB_ERROR_TIMEOUT)
 - component: Basesystem
   create_time: 20180930T18:03:00
@@ -19716,7 +19716,7 @@
   create_time: 20190218T07:42:00
   id: 1125718
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: pop up with 'Software changed' message after grub update
 - component: Other
   create_time: 20190217T23:50:00
@@ -20334,6 +20334,24 @@
   status: IN_PROGRESS
   summary: Can't install vagrant, nothing provides /usr/bin/ruby.ruby2.5
 '20190305':
+- component: X11 Applications
+  create_time: 20190307T19:25:00
+  id: 1128397
+  resolution: ''
+  status: NEW
+  summary: Cannot disable entirely QT scaling on HiDPI Display
+- component: YaST2
+  create_time: 20190307T15:36:00
+  id: 1128364
+  resolution: ''
+  status: NEW
+  summary: 'yast2-pkg-bindings: fails to build with boost 1.69.0'
+- component: Other
+  create_time: 20190307T15:20:00
+  id: 1128358
+  resolution: ''
+  status: NEW
+  summary: flatpak app are unable to connect to the network
 - component: Basesystem
   create_time: 20190307T12:47:00
   id: 1128333
