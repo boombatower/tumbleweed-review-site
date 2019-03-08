@@ -7226,8 +7226,8 @@
 - component: Kernel
   create_time: 20180418T14:10:00
   id: 1090074
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: kernel WARNING for NVMe over Fabrics
 - component: Installation
   create_time: 20180418T12:39:00
@@ -12839,8 +12839,8 @@
 - component: Basesystem
   create_time: 20180921T11:42:00
   id: 1109284
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: ppc specific utilities should be split out of util-linux
 - component: Network
   create_time: 20180920T07:40:00
@@ -14502,8 +14502,8 @@
 - component: Basesystem
   create_time: 20181023T11:15:00
   id: 1112897
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: rpm fails to extra debug and compress debug info with dwz
 - component: Patterns
   create_time: 20181023T10:37:00
@@ -15620,8 +15620,8 @@
 - component: Other
   create_time: 20181114T15:34:00
   id: 1116035
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by scmon into native systemd services
 - component: Basesystem
   create_time: 20181114T15:31:00
@@ -16018,8 +16018,8 @@
 - component: Basesystem
   create_time: 20181116T00:01:00
   id: 1116277
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'klogconsole: split out of util-linux or upstream'
 '20181118':
 - component: Sound
@@ -17196,8 +17196,8 @@
 - component: Basesystem
   create_time: 20190107T08:37:00
   id: 1120894
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: libidn build fails'
 - component: Sound
   create_time: 20190107T08:33:00
@@ -17572,8 +17572,8 @@
 - component: Basesystem
   create_time: 20190109T14:29:00
   id: 1121270
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: mozjs52 build fails'
 - component: Basesystem
   create_time: 20190109T14:14:00
@@ -17596,8 +17596,8 @@
 - component: Basesystem
   create_time: 20190109T13:39:00
   id: 1121262
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9:  libX11 build fails on i586'
 - component: Kubic
   create_time: 20190109T13:08:00
@@ -17657,7 +17657,7 @@
   create_time: 20190109T08:38:00
   id: 1121203
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 9:  fwupdate build fails'
 - component: Basesystem
   create_time: 20190109T08:20:00
@@ -17830,14 +17830,14 @@
 - component: Basesystem
   create_time: 20190111T11:25:00
   id: 1121591
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: llvm6 build fails'
 - component: Basesystem
   create_time: 20190111T11:24:00
   id: 1121589
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'GCC 9: libreoffice build fails'
 - component: Basesystem
   create_time: 20190111T11:21:00
@@ -17854,8 +17854,8 @@
 - component: Basesystem
   create_time: 20190111T09:06:00
   id: 1121561
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: libqt5-qtbase build fails'
 - component: Basesystem
   create_time: 20190111T09:04:00
@@ -17902,8 +17902,8 @@
 - component: Basesystem
   create_time: 20190110T14:22:00
   id: 1121464
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'GCC 9: qemu build fails'
 - component: Basesystem
   create_time: 20190110T14:21:00
@@ -17979,7 +17979,7 @@
   id: 1121397
   resolution: ''
   status: NEW
-  summary: 'GCC 9: go1.* build fails'
+  summary: 'GCC 9: go1.4 build fails'
 - component: Basesystem
   create_time: 20190110T08:42:00
   id: 1121395
@@ -17989,8 +17989,8 @@
 - component: Basesystem
   create_time: 20190110T08:38:00
   id: 1121394
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: MozillaFirefox build fails'
 - component: Upgrade Problems
   create_time: 20190110T08:34:00
@@ -18303,8 +18303,8 @@
 - component: GNOME
   create_time: 20190116T11:17:00
   id: 1122169
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: liblouis build fails'
 - component: Java
   create_time: 20190116T11:08:00
@@ -19415,8 +19415,8 @@
 - component: Basesystem
   create_time: 20190214T14:23:00
   id: 1125458
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: nodejs8 build fails'
 - component: Basesystem
   create_time: 20190214T13:38:00
@@ -19482,8 +19482,8 @@
 - component: Basesystem
   create_time: 20190214T09:46:00
   id: 1125418
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: xtrabackup build fails'
 - component: libzypp
   create_time: 20190214T09:35:00
@@ -20116,8 +20116,8 @@
 - component: Basesystem
   create_time: 20190227T08:27:00
   id: 1127123
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: boost build fails'
 - component: Basesystem
   create_time: 20190227T08:24:00
@@ -20183,8 +20183,8 @@
 - component: YaST2
   create_time: 20190304T20:42:00
   id: 1127798
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'yast2 lan: Internal Error: undefined method `shellescape'' for nil:NilClass'
 - component: Network
   create_time: 20190304T17:21:00
@@ -20356,8 +20356,8 @@
 - component: Basesystem
   create_time: 20190305T14:33:00
   id: 1127955
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: mono-core build fails on i586'
 - component: OpenStack
   create_time: 20190305T14:27:00
@@ -20377,12 +20377,12 @@
   resolution: FIXED
   status: RESOLVED
   summary: Introduce MicroOS-defaults pattern
-- component: Other
+- component: Security
   create_time: 20190305T13:22:00
   id: 1127934
   resolution: ''
-  status: NEW
-  summary: dvipdf fails in tumbleweed
+  status: CONFIRMED
+  summary: dvipdf fails in Tumbleweed because of /etc/apparmor.d/usr.bin.gs
 - component: Other
   create_time: 20190305T12:13:00
   id: 1127911
@@ -20439,6 +20439,43 @@
   summary: NetworkManager 1.14.6-1.1-x86-64 did not work with my Atheros AR9285 wireless
     card
 '20190306':
+- component: Other
+  create_time: 20190308T14:02:00
+  id: 1128524
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: CPU frequency is lower than expected on Raspberry Pi 3 B+
+- component: Containers
+  create_time: 20190308T10:49:00
+  id: 1128484
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Official Docker images should not have Non-OSS repository
+- component: Security
+  create_time: 20190308T09:45:00
+  id: 1128467
+  resolution: ''
+  status: CONFIRMED
+  summary: Recently introduced apparmor profile for ghostscript breaks printing over
+    IJS (hpijs)
+- component: Installation
+  create_time: 20190308T09:28:00
+  id: 1128465
+  resolution: ''
+  status: NEW
+  summary: 'installation-images: Required adjustments for mkfontscale obsoleting mkfontdir'
+- component: LibreOffice
+  create_time: 20190308T09:15:00
+  id: 1128462
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190307] LO base: connection to "testdatabase" failed'
+- component: Basesystem
+  create_time: 20190308T09:12:00
+  id: 1128460
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'GCC 9: libunistring build fails'
 - component: X11 Applications
   create_time: 20190307T19:25:00
   id: 1128397
@@ -20448,8 +20485,8 @@
 - component: YaST2
   create_time: 20190307T15:36:00
   id: 1128364
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'yast2-pkg-bindings: fails to build with boost 1.69.0'
 - component: Other
   create_time: 20190307T15:20:00
