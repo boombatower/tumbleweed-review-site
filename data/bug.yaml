@@ -19498,7 +19498,7 @@
   status: RESOLVED
   summary: '[Build 20190213] openQA test fails in machinery, no machinery-helper for
     ppc64le'
-- component: YaST2
+- component: Basesystem
   create_time: 20190214T02:20:00
   id: 1125376
   resolution: ''
@@ -20184,7 +20184,7 @@
   create_time: 20190304T20:42:00
   id: 1127798
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'yast2 lan: Internal Error: undefined method `shellescape'' for nil:NilClass'
 - component: Network
   create_time: 20190304T17:21:00
