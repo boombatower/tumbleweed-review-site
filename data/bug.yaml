@@ -6424,7 +6424,7 @@
   create_time: 20180326T10:07:00
   id: 1086826
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Meanwhile protocol  (libmeanwhile1) - "Login verification down or unavailable"
 - component: Other
   create_time: 20180326T08:41:00
@@ -16915,8 +16915,8 @@
 - component: Security
   create_time: 20181214T12:31:00
   id: 1119534
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20181213] openQA test fails in selinux_setup'
 - component: Kubic
   create_time: 20181214T09:52:00
@@ -17902,8 +17902,8 @@
 - component: Basesystem
   create_time: 20190110T14:22:00
   id: 1121464
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: qemu build fails'
 - component: Basesystem
   create_time: 20190110T14:21:00
@@ -20439,109 +20439,6 @@
   summary: NetworkManager 1.14.6-1.1-x86-64 did not work with my Atheros AR9285 wireless
     card
 '20190306':
-- component: Other
-  create_time: 20190308T14:02:00
-  id: 1128524
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: CPU frequency is lower than expected on Raspberry Pi 3 B+
-- component: Containers
-  create_time: 20190308T10:49:00
-  id: 1128484
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: Official Docker images should not have Non-OSS repository
-- component: Security
-  create_time: 20190308T09:45:00
-  id: 1128467
-  resolution: ''
-  status: CONFIRMED
-  summary: Recently introduced apparmor profile for ghostscript breaks printing over
-    IJS (hpijs)
-- component: Installation
-  create_time: 20190308T09:28:00
-  id: 1128465
-  resolution: ''
-  status: NEW
-  summary: 'installation-images: Required adjustments for mkfontscale obsoleting mkfontdir'
-- component: LibreOffice
-  create_time: 20190308T09:15:00
-  id: 1128462
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20190307] LO base: connection to "testdatabase" failed'
-- component: Basesystem
-  create_time: 20190308T09:12:00
-  id: 1128460
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'GCC 9: libunistring build fails'
-- component: X11 Applications
-  create_time: 20190307T19:25:00
-  id: 1128397
-  resolution: ''
-  status: NEW
-  summary: Cannot disable entirely QT scaling on HiDPI Display
-- component: YaST2
-  create_time: 20190307T15:36:00
-  id: 1128364
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'yast2-pkg-bindings: fails to build with boost 1.69.0'
-- component: Other
-  create_time: 20190307T15:20:00
-  id: 1128358
-  resolution: ''
-  status: NEW
-  summary: flatpak app are unable to connect to the network
-- component: Basesystem
-  create_time: 20190307T12:47:00
-  id: 1128333
-  resolution: INVALID
-  status: RESOLVED
-  summary: 'GCC 9: openmpi:standard build fails'
-- component: YaST2
-  create_time: 20190307T11:20:00
-  id: 1128320
-  resolution: ''
-  status: CONFIRMED
-  summary: 'YaST Partitioner: Don''t suggest /run/... mount point for USB media'
-- component: Printing
-  create_time: 20190307T09:45:00
-  id: 1128306
-  resolution: ''
-  status: NEW
-  summary: hplip fails because they can't find /etc/PolicyKit
-- component: Basesystem
-  create_time: 20190307T09:38:00
-  id: 1128302
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: python-numpy build fails'
-- component: Basesystem
-  create_time: 20190307T09:35:00
-  id: 1128299
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: open-lldp build fails'
-- component: Basesystem
-  create_time: 20190307T08:53:00
-  id: 1128281
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'E: polkit-untracked-privilege (Badness: 10000) org.freedesktop.hostname1.get-product-uuid'
-- component: YaST2
-  create_time: 20190307T08:45:00
-  id: 1128279
-  resolution: FIXED
-  status: RESOLVED
-  summary: add a refresh button to yast2-snapper
-- component: Kernel
-  create_time: 20190307T01:01:00
-  id: 1128245
-  resolution: ''
-  status: NEW
-  summary: Please enable YAMA LSM
 - component: LibreOffice
   create_time: 20190306T22:15:00
   id: 1128231
@@ -20608,3 +20505,132 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'u-boot: xilinxzynqmpgeneric package fails to build'
+'20190307':
+- component: LXQt
+  create_time: 20190308T20:16:00
+  id: 1128570
+  resolution: ''
+  status: NEW
+  summary: pcmanfm-qt crashes when no application is assigned to a file type
+- component: Security
+  create_time: 20190308T18:12:00
+  id: 1128560
+  resolution: ''
+  status: NEW
+  summary: 'new polkit rule: org.freedesktop.NetworkManager.wifi.scan'
+- component: Other
+  create_time: 20190308T16:52:00
+  id: 1128555
+  resolution: ''
+  status: NEW
+  summary: sshd fails to start after update - XCRYPT_2.0 not found
+- component: Kernel
+  create_time: 20190308T16:18:00
+  id: 1128546
+  resolution: ''
+  status: NEW
+  summary: '''Unable to handle kernel paging request at virtual address ffffd5023df74718''
+    error on iptable on RPi3 B+'
+- component: Other
+  create_time: 20190308T14:02:00
+  id: 1128524
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: CPU frequency is lower than expected on Raspberry Pi 3 B+
+- component: Containers
+  create_time: 20190308T10:49:00
+  id: 1128484
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Official Docker images should not have Non-OSS repository
+- component: Security
+  create_time: 20190308T09:45:00
+  id: 1128467
+  resolution: ''
+  status: CONFIRMED
+  summary: Recently introduced apparmor profile for ghostscript breaks printing over
+    IJS (hpijs)
+- component: Installation
+  create_time: 20190308T09:28:00
+  id: 1128465
+  resolution: ''
+  status: NEW
+  summary: 'installation-images: Required adjustments for mkfontscale obsoleting mkfontdir'
+- component: LibreOffice
+  create_time: 20190308T09:15:00
+  id: 1128462
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190307] LO base: connection to "testdatabase" failed'
+- component: Basesystem
+  create_time: 20190308T09:12:00
+  id: 1128460
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'GCC 9: libunistring build fails'
+- component: X11 Applications
+  create_time: 20190307T19:25:00
+  id: 1128397
+  resolution: FIXED
+  status: RESOLVED
+  summary: Cannot disable entirely QT scaling on HiDPI Display
+- component: YaST2
+  create_time: 20190307T15:36:00
+  id: 1128364
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'yast2-pkg-bindings: fails to build with boost 1.69.0'
+- component: Other
+  create_time: 20190307T15:20:00
+  id: 1128358
+  resolution: ''
+  status: NEW
+  summary: flatpak app are unable to connect to the network
+- component: Basesystem
+  create_time: 20190307T12:47:00
+  id: 1128333
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'GCC 9: openmpi:standard build fails'
+- component: YaST2
+  create_time: 20190307T11:20:00
+  id: 1128320
+  resolution: ''
+  status: CONFIRMED
+  summary: 'YaST Partitioner: Don''t suggest /run/... mount point for USB media'
+- component: Printing
+  create_time: 20190307T09:45:00
+  id: 1128306
+  resolution: ''
+  status: NEW
+  summary: hplip fails because they can't find /etc/PolicyKit
+- component: Basesystem
+  create_time: 20190307T09:38:00
+  id: 1128302
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: python-numpy build fails'
+- component: Basesystem
+  create_time: 20190307T09:35:00
+  id: 1128299
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: open-lldp build fails'
+- component: Basesystem
+  create_time: 20190307T08:53:00
+  id: 1128281
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'E: polkit-untracked-privilege (Badness: 10000) org.freedesktop.hostname1.get-product-uuid'
+- component: YaST2
+  create_time: 20190307T08:45:00
+  id: 1128279
+  resolution: FIXED
+  status: RESOLVED
+  summary: add a refresh button to yast2-snapper
+- component: Kernel
+  create_time: 20190307T01:01:00
+  id: 1128245
+  resolution: ''
+  status: NEW
+  summary: Please enable YAMA LSM
