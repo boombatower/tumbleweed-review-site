@@ -18638,8 +18638,8 @@
 - component: Virtualization:Other
   create_time: 20190130T14:49:00
   id: 1123699
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: libvirt does not start default network automatically
 - component: Kernel
   create_time: 20190130T14:41:00
@@ -20506,6 +20506,18 @@
   status: RESOLVED
   summary: 'u-boot: xilinxzynqmpgeneric package fails to build'
 '20190307':
+- component: GNOME
+  create_time: 20190308T22:48:00
+  id: 1128589
+  resolution: ''
+  status: NEW
+  summary: GDM - patches and build needs major rework and bumping to 3.32.x
+- component: Network
+  create_time: 20190308T22:03:00
+  id: 1128581
+  resolution: ''
+  status: NEW
+  summary: Wicked network service stopped resolving hostnames after 2019-02-09 update
 - component: LXQt
   create_time: 20190308T20:16:00
   id: 1128570
