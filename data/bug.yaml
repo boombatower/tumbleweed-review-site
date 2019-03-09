@@ -18638,8 +18638,8 @@
 - component: Virtualization:Other
   create_time: 20190130T14:49:00
   id: 1123699
-  resolution: NORESPONSE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: libvirt does not start default network automatically
 - component: Kernel
   create_time: 20190130T14:41:00
