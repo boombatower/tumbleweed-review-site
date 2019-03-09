@@ -20524,12 +20524,6 @@
   resolution: ''
   status: NEW
   summary: pcmanfm-qt crashes when no application is assigned to a file type
-- component: Security
-  create_time: 20190308T18:12:00
-  id: 1128560
-  resolution: ''
-  status: NEW
-  summary: 'new polkit rule: org.freedesktop.NetworkManager.wifi.scan'
 - component: Other
   create_time: 20190308T16:52:00
   id: 1128555
