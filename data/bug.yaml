@@ -16623,7 +16623,7 @@
   id: 1118689
   resolution: ''
   status: NEW
-  summary: 32bit x86 4.19 4.20 5.0-rc pae and vanilla kernels randomly lockup or trigger
+  summary: 32bit x86 4.19 4.20 5.0 pae and vanilla kernels randomly lockup or trigger
     reboot
 - component: Other
   create_time: 20181206T18:39:00
@@ -18862,8 +18862,8 @@
 - component: Other
   create_time: 20190204T09:28:00
   id: 1124125
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: lxc requires python(abi) = 3.6
 - component: Patterns
   create_time: 20190204T09:25:00
@@ -20343,8 +20343,8 @@
 - component: KDE Applications
   create_time: 20190305T19:48:00
   id: 1128005
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Falkon is missing the 'web_browser' package symbol
 - component: X11 3rd Party Driver
   create_time: 20190305T16:14:00
