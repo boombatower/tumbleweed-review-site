@@ -20158,8 +20158,8 @@
 - component: High Availability
   create_time: 20190226T09:29:00
   id: 1126968
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'ocfs2: openSUSE:Factory - ocfs2-tools - Build fail notification'
 - component: Other
   create_time: 20190226T08:00:00
