@@ -20318,8 +20318,8 @@
 - component: Basesystem
   create_time: 20190301T15:17:00
   id: 1127544
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: efibootmgr is broken
 - component: Containers
   create_time: 20190301T11:31:00
@@ -20506,6 +20506,12 @@
   status: RESOLVED
   summary: 'u-boot: xilinxzynqmpgeneric package fails to build'
 '20190307':
+- component: Kernel
+  create_time: 20190311T05:38:00
+  id: 1128636
+  resolution: ''
+  status: NEW
+  summary: 'TCP: New fragment overlaps old data (retransmission?) Malformed Packet??'
 - component: AppArmor
   create_time: 20190310T00:26:00
   id: 1128608
