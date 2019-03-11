@@ -20527,8 +20527,8 @@
 - component: Other
   create_time: 20190308T16:52:00
   id: 1128555
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: sshd fails to start after update - XCRYPT_2.0 not found
 - component: Kernel
   create_time: 20190308T16:18:00
@@ -20641,6 +20641,18 @@
   status: NEW
   summary: Please enable YAMA LSM
 '20190310':
+- component: Other
+  create_time: 20190311T20:27:00
+  id: 1128780
+  resolution: ''
+  status: NEW
+  summary: mysql-workbench 8.x  crashes with mySQL 8.0 ...
+- component: Other
+  create_time: 20190311T18:57:00
+  id: 1128773
+  resolution: ''
+  status: NEW
+  summary: No graphical Interface for Options of Backintime GUI
 - component: KDE Workspace (Plasma)
   create_time: 20190311T14:13:00
   id: 1128733
