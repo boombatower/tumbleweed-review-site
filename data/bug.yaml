@@ -15692,8 +15692,8 @@
 - component: Network
   create_time: 20181114T15:11:00
   id: 1116018
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by i4l-base into native systemd services
 - component: Network
   create_time: 20181114T15:10:00
@@ -15716,8 +15716,8 @@
 - component: Other
   create_time: 20181114T14:52:00
   id: 1116014
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by  fwnn into native systemd services
 - component: Other
   create_time: 20181114T14:48:00
@@ -17590,8 +17590,8 @@
 - component: Basesystem
   create_time: 20190109T13:54:00
   id: 1121265
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: gperftools build fails'
 - component: Basesystem
   create_time: 20190109T13:39:00
@@ -17979,7 +17979,7 @@
   id: 1121397
   resolution: ''
   status: NEW
-  summary: 'GCC 9: go1.4 build fails'
+  summary: 'GCC 9: go{1.4,1.9,1.10,1.11} build fails'
 - component: Basesystem
   create_time: 20190110T08:42:00
   id: 1121395
@@ -19733,8 +19733,8 @@
 - component: Basesystem
   create_time: 20190217T12:27:00
   id: 1125687
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: scp does not accept brace expantion breaking High Availability "crm cluster
     join"
 '20190219':
@@ -20387,7 +20387,7 @@
   create_time: 20190305T12:13:00
   id: 1127911
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Minetest 5.0.0 needs group and user whitelisted
 - component: LibreOffice
   create_time: 20190305T10:45:00
@@ -20506,24 +20506,6 @@
   status: RESOLVED
   summary: 'u-boot: xilinxzynqmpgeneric package fails to build'
 '20190307':
-- component: Kernel
-  create_time: 20190311T05:38:00
-  id: 1128636
-  resolution: ''
-  status: NEW
-  summary: 'TCP: New fragment overlaps old data (retransmission?) Malformed Packet??'
-- component: AppArmor
-  create_time: 20190310T00:26:00
-  id: 1128608
-  resolution: ''
-  status: NEW
-  summary: 'ghostscript: AppArmor packaging issues'
-- component: AppArmor
-  create_time: 20190310T00:18:00
-  id: 1128607
-  resolution: ''
-  status: NEW
-  summary: gs profile should have a profile name
 - component: GNOME
   create_time: 20190308T22:48:00
   id: 1128589
@@ -20552,7 +20534,7 @@
   create_time: 20190308T16:18:00
   id: 1128546
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '''Unable to handle kernel paging request at virtual address ffffd5023df74718''
     error on iptable on RPi3 B+'
 - component: Other
@@ -20658,3 +20640,52 @@
   resolution: ''
   status: NEW
   summary: Please enable YAMA LSM
+'20190310':
+- component: KDE Workspace (Plasma)
+  create_time: 20190311T14:13:00
+  id: 1128733
+  resolution: ''
+  status: NEW
+  summary: globally disabled composite extension makes plasma unusable
+- component: Basesystem
+  create_time: 20190311T13:01:00
+  id: 1128721
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: multipath-tools build fails'
+- component: AutoYaST
+  create_time: 20190311T11:44:00
+  id: 1128707
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190310] Element profile has extra content: add-on'
+- component: AppArmor
+  create_time: 20190311T10:54:00
+  id: 1128697
+  resolution: ''
+  status: NEW
+  summary: 'ghostscript: AppArmor profile additions'
+- component: Kernel
+  create_time: 20190311T10:19:00
+  id: 1128691
+  resolution: ''
+  status: NEW
+  summary: Raspberry Pi 3 B/B+ - Boot from USB breaks reboot
+- component: Kernel
+  create_time: 20190311T05:38:00
+  id: 1128636
+  resolution: ''
+  status: NEW
+  summary: 'TCP: New fragment overlaps old data (retransmission?) Malformed Packet??'
+- component: AppArmor
+  create_time: 20190310T00:26:00
+  id: 1128608
+  resolution: ''
+  status: NEW
+  summary: 'ghostscript: AppArmor packaging issues'
+- component: AppArmor
+  create_time: 20190310T00:18:00
+  id: 1128607
+  resolution: ''
+  status: NEW
+  summary: gs profile should have a profile name
