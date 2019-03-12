@@ -20641,6 +20641,42 @@
   status: NEW
   summary: Please enable YAMA LSM
 '20190310':
+- component: GNOME
+  create_time: 20190312T08:52:00
+  id: 1128835
+  resolution: ''
+  status: NEW
+  summary: pam_keyinit.so doesn't seem to work as expected when logging in with GDM
+- component: Basesystem
+  create_time: 20190312T08:24:00
+  id: 1128831
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: opencc build fails'
+- component: GNOME
+  create_time: 20190312T07:48:00
+  id: 1128827
+  resolution: ''
+  status: NEW
+  summary: gnome-shell-extensions -- Patches need rebase or dropping
+- component: Other
+  create_time: 20190312T07:17:00
+  id: 1128824
+  resolution: ''
+  status: NEW
+  summary: aseprite unable to build
+- component: Other
+  create_time: 20190312T07:15:00
+  id: 1128823
+  resolution: ''
+  status: NEW
+  summary: dumb unable to build after allegro updated
+- component: GNOME
+  create_time: 20190312T06:23:00
+  id: 1128813
+  resolution: FIXED
+  status: RESOLVED
+  summary: file-roller -- patches needs rebase or dropping
 - component: Other
   create_time: 20190311T20:27:00
   id: 1128780
@@ -20668,8 +20704,8 @@
 - component: AutoYaST
   create_time: 20190311T11:44:00
   id: 1128707
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190310] Element profile has extra content: add-on'
 - component: AppArmor
   create_time: 20190311T10:54:00
