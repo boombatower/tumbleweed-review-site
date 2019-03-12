@@ -684,7 +684,7 @@
   stability_level: moderate
 '20190305':
   score: 90
-  stability_level: pending
+  stability_level: moderate
 '20190306':
   score: 95
   stability_level: pending
@@ -692,5 +692,5 @@
   score: 95
   stability_level: pending
 '20190310':
-  score: 97
+  score: 96
   stability_level: pending
