@@ -20642,6 +20642,24 @@
   summary: Please enable YAMA LSM
 '20190310':
 - component: Basesystem
+  create_time: 20190312T17:53:00
+  id: 1128957
+  resolution: ''
+  status: NEW
+  summary: NetworkManager is busy looping
+- component: Upgrade Problems
+  create_time: 20190312T16:03:00
+  id: 1128945
+  resolution: ''
+  status: NEW
+  summary: Segmentation Fault in zypper on after upgrade to Tumbleweed 20190310
+- component: Basesystem
+  create_time: 20190312T15:47:00
+  id: 1128943
+  resolution: ''
+  status: NEW
+  summary: dtc crashes with segmentation fault
+- component: Basesystem
   create_time: 20190312T15:16:00
   id: 1128936
   resolution: ''
@@ -20746,8 +20764,8 @@
 - component: Other
   create_time: 20190311T18:57:00
   id: 1128773
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: No graphical Interface for Options of Backintime GUI
 - component: KDE Workspace (Plasma)
   create_time: 20190311T14:13:00
