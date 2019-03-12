@@ -10650,8 +10650,8 @@
 - component: Ruby
   create_time: 20180720T14:04:00
   id: 1102076
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180719] Machinery not installable (rubgem-rack-protection vs
     rubygem-sinatra)'
 - component: Other
@@ -19173,8 +19173,8 @@
 - component: Containers
   create_time: 20190205T11:18:00
   id: 1124308
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'docker: update to 18.09.1'
 - component: Containers
   create_time: 20190205T10:59:00
@@ -19199,8 +19199,8 @@
 - component: Bootloader
   create_time: 20190213T13:16:00
   id: 1125307
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: master-boot-code grew by 10311.753x - wrong use of objcopy
 - component: libzypp
   create_time: 20190213T12:45:00
@@ -20641,6 +20641,66 @@
   status: NEW
   summary: Please enable YAMA LSM
 '20190310':
+- component: Basesystem
+  create_time: 20190312T15:16:00
+  id: 1128936
+  resolution: ''
+  status: NEW
+  summary: bash LINENO variable wrong
+- component: GNOME
+  create_time: 20190312T15:10:00
+  id: 1128934
+  resolution: ''
+  status: NEW
+  summary: Update  libgda to current version 5.2.8
+- component: LXQt
+  create_time: 20190312T13:59:00
+  id: 1128915
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190311] Permission dialog on shutdown'
+- component: Installation
+  create_time: 20190312T13:34:00
+  id: 1128907
+  resolution: ''
+  status: NEW
+  summary: '[201903*] Not able to remove a partition when installing on a UEFI system'
+- component: KDE Workspace (Plasma)
+  create_time: 20190312T12:17:00
+  id: 1128891
+  resolution: ''
+  status: NEW
+  summary: sddm not working after zypper dup
+- component: KDE Workspace (Plasma)
+  create_time: 20190312T10:26:00
+  id: 1128854
+  resolution: ''
+  status: NEW
+  summary: openSUSEdark Theme  networkmanager icons issue
+- component: YaST2
+  create_time: 20190312T10:20:00
+  id: 1128853
+  resolution: ''
+  status: CONFIRMED
+  summary: yast2 doesn't handle transactional mode
+- component: Other
+  create_time: 20190312T09:56:00
+  id: 1128846
+  resolution: ''
+  status: NEW
+  summary: chrony-dnssrv@.service has wrong path to helper script
+- component: LibreOffice
+  create_time: 20190312T09:52:00
+  id: 1128845
+  resolution: FIXED
+  status: RESOLVED
+  summary: Libreoffice 6.2.1 VCL kde5 copy paste broken
+- component: Other
+  create_time: 20190312T09:46:00
+  id: 1128844
+  resolution: ''
+  status: IN_PROGRESS
+  summary: scdoc with flawed pkgconfig file
 - component: GNOME
   create_time: 20190312T08:52:00
   id: 1128835
