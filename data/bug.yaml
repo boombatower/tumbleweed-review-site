@@ -19311,7 +19311,7 @@
   id: 1124911
   resolution: ''
   status: NEW
-  summary: tumbleweed update freezes during probe of hard disk
+  summary: Tumbleweed Installer Crashes When Updating Online Repositories
 - component: X.Org
   create_time: 20190210T21:11:00
   id: 1124910
