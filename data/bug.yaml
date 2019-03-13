@@ -19797,8 +19797,8 @@
 - component: LibreOffice
   create_time: 20190223T13:47:00
   id: 1126600
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Libreoffice Calc: Time format - due to rounding error displays wrong digits
     (after reload/recalc)'
 - component: Other
@@ -20039,12 +20039,6 @@
   resolution: ''
   status: IN_PROGRESS
   summary: systemd-tmpfiles need updating from /var/run/* to /run/*
-- component: Security
-  create_time: 20190228T13:02:00
-  id: 1127368
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'AUDIT-0: snapd: add set*id permissions related to snapd (/usr/lib/snapd/snap-confine)'
 - component: Security
   create_time: 20190228T12:49:00
   id: 1127366
@@ -20362,8 +20356,8 @@
 - component: OpenStack
   create_time: 20190305T14:27:00
   id: 1127954
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: openstack client produce issubclass() arg 1 must be a class
 - component: Basesystem
   create_time: 20190305T14:25:00
@@ -20442,8 +20436,8 @@
 - component: LibreOffice
   create_time: 20190306T22:15:00
   id: 1128231
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: LibreOffice sub-windows overflow the screen
 - component: Other
   create_time: 20190306T21:52:00
@@ -20641,6 +20635,18 @@
   status: NEW
   summary: Please enable YAMA LSM
 '20190310':
+- component: Kubic
+  create_time: 20190313T15:35:00
+  id: 1129095
+  resolution: ''
+  status: NEW
+  summary: Make yast2_caasp kubeadm ntp screen more genericly available
+- component: GNOME
+  create_time: 20190313T13:25:00
+  id: 1129083
+  resolution: ''
+  status: NEW
+  summary: Network manager consumes 100% CPU shortly after startup
 - component: Basesystem
   create_time: 20190313T08:47:00
   id: 1129036
@@ -20651,7 +20657,7 @@
   create_time: 20190313T08:44:00
   id: 1129035
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Very high load caused by GTM on Dell 7290
 - component: Other
   create_time: 20190313T07:55:00
