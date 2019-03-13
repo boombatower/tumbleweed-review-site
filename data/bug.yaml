@@ -15639,7 +15639,7 @@
   create_time: 20181114T15:29:00
   id: 1116032
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Please convert SysV init scripts by pen into native systemd services
 - component: Network
   create_time: 20181114T15:28:00
@@ -18298,7 +18298,7 @@
   create_time: 20190116T11:45:00
   id: 1122174
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 142.1] multiple missing icons'
 - component: GNOME
   create_time: 20190116T11:17:00
@@ -20479,7 +20479,7 @@
   create_time: 20190306T16:44:00
   id: 1128194
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Gnome-shell -- Patches needs dropping or rebase
 - component: GNOME
   create_time: 20190306T16:42:00
@@ -20559,8 +20559,8 @@
 - component: Installation
   create_time: 20190308T09:28:00
   id: 1128465
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'installation-images: Required adjustments for mkfontscale obsoleting mkfontdir'
 - component: LibreOffice
   create_time: 20190308T09:15:00
@@ -20642,6 +20642,24 @@
   summary: Please enable YAMA LSM
 '20190310':
 - component: Basesystem
+  create_time: 20190313T08:47:00
+  id: 1129036
+  resolution: ''
+  status: NEW
+  summary: 'bash: update-alternative handling causes errors'
+- component: X.Org
+  create_time: 20190313T08:44:00
+  id: 1129035
+  resolution: ''
+  status: NEW
+  summary: Very high load caused by GTM on Dell 7290
+- component: Other
+  create_time: 20190313T07:55:00
+  id: 1129031
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190312] Hugin fails to build against boost 1.69'
+- component: Basesystem
   create_time: 20190312T17:53:00
   id: 1128957
   resolution: ''
@@ -20651,7 +20669,7 @@
   create_time: 20190312T16:03:00
   id: 1128945
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Segmentation Fault in zypper on after upgrade to Tumbleweed 20190310
 - component: Basesystem
   create_time: 20190312T15:47:00
