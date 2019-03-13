@@ -18415,7 +18415,7 @@
   create_time: 20190123T10:49:00
   id: 1122867
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Do not set "acl,user_xattr" mount options for EXT filesystems
 - component: Development
   create_time: 20190123T09:30:00
