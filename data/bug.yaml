@@ -18544,8 +18544,8 @@
 - component: Other
   create_time: 20190124T08:15:00
   id: 1122987
-  resolution: ''
-  status: CONFIRMED
+  resolution: WONTFIX
+  status: RESOLVED
   summary: python-mitmproxy broken on Tumbleweed.
 '20190125':
 - component: Kernel
@@ -20043,7 +20043,7 @@
   create_time: 20190228T12:49:00
   id: 1127366
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: snapd: add polkit privileges related to snapd (io.snapcraft.snapd.*)'
 - component: Ruby
   create_time: 20190228T11:23:00
@@ -20060,8 +20060,8 @@
 - component: Development
   create_time: 20190227T20:58:00
   id: 1127260
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Internal compiler error when trying to build VTK 8.2.0
 - component: Installation
   create_time: 20190227T15:51:00
@@ -20416,8 +20416,8 @@
 - component: Containers
   create_time: 20190305T07:43:00
   id: 1127849
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Zypper segfaults in official openSUSE docker image (opensuse/ namespace)
 - component: Security
   create_time: 20190305T07:36:00
@@ -20696,6 +20696,31 @@
   status: NEW
   summary: gs profile should have a profile name
 '20190312':
+- component: Kernel
+  create_time: 20190314T14:37:00
+  id: 1129258
+  resolution: ''
+  status: NEW
+  summary: 'BUG: unable to handle kernel NULL pointer dereference at 0000000000000040
+    on __irq_domain_deactivate_irq+0x26/0x50 at psmouse_smbus_remove_i2c_device'
+- component: YaST2
+  create_time: 20190314T14:10:00
+  id: 1129257
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build 20190313] Installer offers product twice'
+- component: YaST2
+  create_time: 20190314T13:07:00
+  id: 1129246
+  resolution: ''
+  status: NEW
+  summary: YaST2 doesn't start tftp service properly
+- component: Printing
+  create_time: 20190314T11:48:00
+  id: 1129228
+  resolution: ''
+  status: NEW
+  summary: 'hplip: transition from hpijs to hpcups'
 - component: Basesystem
   create_time: 20190314T07:10:00
   id: 1129160
