@@ -20635,6 +20635,67 @@
   status: NEW
   summary: Please enable YAMA LSM
 '20190310':
+- component: Other
+  create_time: 20190311T20:27:00
+  id: 1128780
+  resolution: ''
+  status: NEW
+  summary: mysql-workbench 8.x  crashes with mySQL 8.0 ...
+- component: Other
+  create_time: 20190311T18:57:00
+  id: 1128773
+  resolution: INVALID
+  status: RESOLVED
+  summary: No graphical Interface for Options of Backintime GUI
+- component: KDE Workspace (Plasma)
+  create_time: 20190311T14:13:00
+  id: 1128733
+  resolution: ''
+  status: NEW
+  summary: globally disabled composite extension makes plasma unusable
+- component: Basesystem
+  create_time: 20190311T13:01:00
+  id: 1128721
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: multipath-tools build fails'
+- component: AutoYaST
+  create_time: 20190311T11:44:00
+  id: 1128707
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190310] Element profile has extra content: add-on'
+- component: AppArmor
+  create_time: 20190311T10:54:00
+  id: 1128697
+  resolution: ''
+  status: NEW
+  summary: 'ghostscript: AppArmor profile additions'
+- component: Kernel
+  create_time: 20190311T10:19:00
+  id: 1128691
+  resolution: ''
+  status: NEW
+  summary: Raspberry Pi 3 B/B+ - Boot from USB breaks reboot
+- component: Kernel
+  create_time: 20190311T05:38:00
+  id: 1128636
+  resolution: ''
+  status: NEW
+  summary: 'TCP: New fragment overlaps old data (retransmission?) Malformed Packet??'
+- component: AppArmor
+  create_time: 20190310T00:26:00
+  id: 1128608
+  resolution: ''
+  status: NEW
+  summary: 'ghostscript: AppArmor packaging issues'
+- component: AppArmor
+  create_time: 20190310T00:18:00
+  id: 1128607
+  resolution: ''
+  status: NEW
+  summary: gs profile should have a profile name
+'20190312':
 - component: Kubic
   create_time: 20190313T15:35:00
   id: 1129095
@@ -20779,63 +20840,3 @@
   resolution: FIXED
   status: RESOLVED
   summary: file-roller -- patches needs rebase or dropping
-- component: Other
-  create_time: 20190311T20:27:00
-  id: 1128780
-  resolution: ''
-  status: NEW
-  summary: mysql-workbench 8.x  crashes with mySQL 8.0 ...
-- component: Other
-  create_time: 20190311T18:57:00
-  id: 1128773
-  resolution: INVALID
-  status: RESOLVED
-  summary: No graphical Interface for Options of Backintime GUI
-- component: KDE Workspace (Plasma)
-  create_time: 20190311T14:13:00
-  id: 1128733
-  resolution: ''
-  status: NEW
-  summary: globally disabled composite extension makes plasma unusable
-- component: Basesystem
-  create_time: 20190311T13:01:00
-  id: 1128721
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: multipath-tools build fails'
-- component: AutoYaST
-  create_time: 20190311T11:44:00
-  id: 1128707
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20190310] Element profile has extra content: add-on'
-- component: AppArmor
-  create_time: 20190311T10:54:00
-  id: 1128697
-  resolution: ''
-  status: NEW
-  summary: 'ghostscript: AppArmor profile additions'
-- component: Kernel
-  create_time: 20190311T10:19:00
-  id: 1128691
-  resolution: ''
-  status: NEW
-  summary: Raspberry Pi 3 B/B+ - Boot from USB breaks reboot
-- component: Kernel
-  create_time: 20190311T05:38:00
-  id: 1128636
-  resolution: ''
-  status: NEW
-  summary: 'TCP: New fragment overlaps old data (retransmission?) Malformed Packet??'
-- component: AppArmor
-  create_time: 20190310T00:26:00
-  id: 1128608
-  resolution: ''
-  status: NEW
-  summary: 'ghostscript: AppArmor packaging issues'
-- component: AppArmor
-  create_time: 20190310T00:18:00
-  id: 1128607
-  resolution: ''
-  status: NEW
-  summary: gs profile should have a profile name
