@@ -20696,6 +20696,12 @@
   status: NEW
   summary: gs profile should have a profile name
 '20190312':
+- component: Basesystem
+  create_time: 20190314T15:46:00
+  id: 1129274
+  resolution: ''
+  status: NEW
+  summary: ceph-test build failed as no OBS worker with enough disk space for ppc64le
 - component: Kernel
   create_time: 20190314T14:37:00
   id: 1129258
@@ -20706,8 +20712,8 @@
 - component: YaST2
   create_time: 20190314T14:10:00
   id: 1129257
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190313] Installer offers product twice'
 - component: YaST2
   create_time: 20190314T13:07:00
