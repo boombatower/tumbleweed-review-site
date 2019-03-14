@@ -20696,6 +20696,12 @@
   status: NEW
   summary: gs profile should have a profile name
 '20190312':
+- component: Basesystem
+  create_time: 20190314T07:10:00
+  id: 1129160
+  resolution: ''
+  status: NEW
+  summary: openblas ppc64 segfault invalid memory ref when ./dblat3 < ./dblat3.dat
 - component: Kubic
   create_time: 20190313T15:35:00
   id: 1129095
