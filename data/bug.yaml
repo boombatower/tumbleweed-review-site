@@ -17096,7 +17096,7 @@
   create_time: 20181220T15:57:00
   id: 1120098
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Clang 7 packaging is inconsistent
 - component: KDE Workspace (Plasma)
   create_time: 20181220T14:47:00
