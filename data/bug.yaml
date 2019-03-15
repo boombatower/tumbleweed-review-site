@@ -5558,8 +5558,8 @@
 - component: Development
   create_time: 20180312T08:44:00
   id: 1084842
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: gcc on i*86 with option -mieee-fp requires obsolete libieee now disappeared
 '20180313':
 - component: Network
@@ -20301,8 +20301,8 @@
   create_time: 20190301T17:49:00
   id: 1127564
   resolution: ''
-  status: IN_PROGRESS
-  summary: gcc bug in double calculation in i586
+  status: NEW
+  summary: glibc bug returning excess precision from log() and friends with x87 math
 - component: Kernel
   create_time: 20190301T16:12:00
   id: 1127552
