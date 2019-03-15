@@ -15608,8 +15608,8 @@
 - component: Other
   create_time: 20181114T15:37:00
   id: 1116037
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by siproxd into native systemd services
 - component: Basesystem
   create_time: 20181114T15:35:00
@@ -18563,8 +18563,8 @@
 - component: YaST2
   create_time: 20190125T12:45:00
   id: 1123165
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: yast2-rmt crashes with "yast/wfm.rb:253 Client /usr/share/YaST2/clients/rmt.rb
     failed with 'Service unit 'mysql' not found'" when started within docker container
 - component: Basesystem
@@ -19433,8 +19433,8 @@
 - component: Security
   create_time: 20190214T11:29:00
   id: 1125438
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: systemd: status of /usr/share/polkit-1/rules.d/systemd-networkd.rules'
 - component: Security
   create_time: 20190214T11:12:00
@@ -20044,7 +20044,8 @@
   id: 1127366
   resolution: ''
   status: IN_PROGRESS
-  summary: 'AUDIT-0: snapd: add polkit privileges related to snapd (io.snapcraft.snapd.*)'
+  summary: 'AUDIT-0: snapd: review of new daemon running as root and polkit privileges
+    related to snapd (io.snapcraft.snapd.*)'
 - component: Ruby
   create_time: 20190228T11:23:00
   id: 1127344
@@ -20699,8 +20700,8 @@
 - component: Basesystem
   create_time: 20190314T15:46:00
   id: 1129274
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: ceph-test build failed as no OBS worker with enough disk space for ppc64le
 - component: Kernel
   create_time: 20190314T14:37:00
