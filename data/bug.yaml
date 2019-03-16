@@ -20842,6 +20842,12 @@
   status: RESOLVED
   summary: file-roller -- patches needs rebase or dropping
 '20190314':
+- component: Kernel
+  create_time: 20190316T07:35:00
+  id: 1129471
+  resolution: ''
+  status: NEW
+  summary: 'kernel 5.0.1-1-default: Problem loading X.509 certificate -65'
 - component: Network
   create_time: 20190316T00:34:00
   id: 1129470
@@ -20867,12 +20873,6 @@
   resolution: ''
   status: NEW
   summary: NetworkManager - Update to 1.16.0 and rebase/drop patches as needed.
-- component: Security
-  create_time: 20190315T18:01:00
-  id: 1129452
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: [certmonger]: [suse-dbus-unauthorized-service]'
 - component: Basesystem
   create_time: 20190314T15:46:00
   id: 1129274
