@@ -20842,6 +20842,13 @@
   status: RESOLVED
   summary: file-roller -- patches needs rebase or dropping
 '20190314':
+- component: Installation
+  create_time: 20190316T19:39:00
+  id: 1129479
+  resolution: ''
+  status: NEW
+  summary: omit showopts from GRUB_CMDLINE_LINUX_DEFAULT= in /etc/default/grub and
+    /boot/grub2/grub.cfg when grub 0.97 with gfxboot are not or not to be installed
 - component: Kernel
   create_time: 20190316T07:35:00
   id: 1129471
