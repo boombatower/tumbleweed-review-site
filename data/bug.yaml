@@ -20657,8 +20657,8 @@
 - component: Basesystem
   create_time: 20190311T13:01:00
   id: 1128721
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: multipath-tools build fails'
 - component: AutoYaST
   create_time: 20190311T11:44:00
@@ -20814,8 +20814,8 @@
 - component: Basesystem
   create_time: 20190312T08:24:00
   id: 1128831
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'GCC 9: opencc build fails'
 - component: GNOME
   create_time: 20190312T07:48:00
@@ -20842,6 +20842,19 @@
   status: RESOLVED
   summary: file-roller -- patches needs rebase or dropping
 '20190314':
+- component: Network
+  create_time: 20190316T00:34:00
+  id: 1129470
+  resolution: ''
+  status: NEW
+  summary: NetworkManager clocks up 100% CPU
+- component: Other
+  create_time: 20190315T22:33:00
+  id: 1129466
+  resolution: ''
+  status: NEW
+  summary: fwupd cannot update BIOS with UEFI Secure Boot enabled because of missing
+    fwupdx64.efi.signed
 - component: Xfce
   create_time: 20190315T20:37:00
   id: 1129464
