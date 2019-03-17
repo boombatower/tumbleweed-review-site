@@ -20842,6 +20842,19 @@
   status: RESOLVED
   summary: file-roller -- patches needs rebase or dropping
 '20190314':
+- component: Other
+  create_time: 20190317T16:01:00
+  id: 1129494
+  resolution: ''
+  status: NEW
+  summary: rmt-server not available for armv7 on Tumbleweed
+- component: Kernel
+  create_time: 20190317T12:52:00
+  id: 1129487
+  resolution: ''
+  status: NEW
+  summary: Since kernel 5.0.1-1 boot is being delayed by "a stop job is running for
+    udev Kernel Device Manager"
 - component: libzypp
   create_time: 20190317T04:16:00
   id: 1129480
