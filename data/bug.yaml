@@ -7773,7 +7773,7 @@
   create_time: 20180510T09:37:00
   id: 1092719
   resolution: ''
-  status: CONFIRMED
+  status: NEW
   summary: 'X11:xfce/xfce4-panel-plugin-netspeed: IA__gtk_widget_show: assertion ''GTK_IS_WIDGET
     (widget)'' failed'
 - component: Development
@@ -19254,8 +19254,8 @@
 - component: Other
   create_time: 20190212T13:09:00
   id: 1125139
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: '[Build 20190209] openQA test fails in gnuhealth_client_first_time'
 - component: GNOME
   create_time: 20190212T06:24:00
@@ -20736,8 +20736,8 @@
 - component: Upgrade Problems
   create_time: 20190312T16:03:00
   id: 1128945
-  resolution: ''
-  status: CONFIRMED
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Segmentation Fault in zypper on after upgrade to Tumbleweed 20190310
 - component: Basesystem
   create_time: 20190312T15:47:00
@@ -20842,6 +20842,18 @@
   status: RESOLVED
   summary: file-roller -- patches needs rebase or dropping
 '20190314':
+- component: Network
+  create_time: 20190317T22:04:00
+  id: 1129500
+  resolution: ''
+  status: NEW
+  summary: NetworkManager does not connect to wireless network
+- component: GNOME
+  create_time: 20190317T18:35:00
+  id: 1129498
+  resolution: ''
+  status: NEW
+  summary: 'Synaptics touchpad issue: significant cursor shift upon finger lift.'
 - component: Other
   create_time: 20190317T16:01:00
   id: 1129494
@@ -20858,8 +20870,8 @@
 - component: libzypp
   create_time: 20190317T04:16:00
   id: 1129480
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: zypper segmentation fault
 - component: Installation
   create_time: 20190316T19:39:00
