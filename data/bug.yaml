@@ -20842,6 +20842,12 @@
   status: RESOLVED
   summary: file-roller -- patches needs rebase or dropping
 '20190314':
+- component: libzypp
+  create_time: 20190317T04:16:00
+  id: 1129480
+  resolution: ''
+  status: NEW
+  summary: zypper segmentation fault
 - component: Installation
   create_time: 20190316T19:39:00
   id: 1129479
