@@ -20842,6 +20842,18 @@
   status: RESOLVED
   summary: file-roller -- patches needs rebase or dropping
 '20190314':
+- component: Other
+  create_time: 20190317T22:54:00
+  id: 1129503
+  resolution: ''
+  status: NEW
+  summary: innoextract broken dependency libboost_iostreams.so.1.68.0
+- component: YaST2
+  create_time: 20190317T22:15:00
+  id: 1129501
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST2 - Software management crash
 - component: Network
   create_time: 20190317T22:04:00
   id: 1129500
@@ -20889,8 +20901,8 @@
 - component: Network
   create_time: 20190316T00:34:00
   id: 1129470
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: NetworkManager clocks up 100% CPU
 - component: Other
   create_time: 20190315T22:33:00
