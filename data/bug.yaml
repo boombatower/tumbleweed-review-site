@@ -20123,8 +20123,8 @@
 - component: AppArmor
   create_time: 20190226T19:58:00
   id: 1127073
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: /usr/{bin,sbin}/dnsmasq profile name alternation breaks libvirt
 - component: Kernel
   create_time: 20190226T19:49:00
@@ -20880,6 +20880,24 @@
   status: NEW
   summary: openblas ppc64 segfault invalid memory ref when ./dblat3 < ./dblat3.dat
 '20190315':
+- component: Network
+  create_time: 20190318T20:35:00
+  id: 1129646
+  resolution: ''
+  status: NEW
+  summary: NetworkManager does not work with IWD
+- component: Virtualization:Tools
+  create_time: 20190318T18:05:00
+  id: 1129635
+  resolution: ''
+  status: NEW
+  summary: virtualbox-qt startup note translation
+- component: Other
+  create_time: 20190318T16:24:00
+  id: 1129626
+  resolution: ''
+  status: NEW
+  summary: Nothing provides libboost_system.so.1.68.0()(64bit) needed by ...
 - component: Kubic
   create_time: 20190318T11:01:00
   id: 1129568
