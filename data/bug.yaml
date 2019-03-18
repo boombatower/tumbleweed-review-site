@@ -12638,8 +12638,8 @@
 - component: Containers
   create_time: 20180917T18:05:00
   id: 1108698
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: aarch64 Tumbleweed docker container does not match published repo
 - component: Kernel
   create_time: 20180917T16:04:00
@@ -20129,8 +20129,8 @@
 - component: Kernel
   create_time: 20190226T19:49:00
   id: 1127072
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[amdgpu] AMD Radeon VII (Vega20) Support'
 - component: LXQt
   create_time: 20190226T15:53:00
@@ -20742,8 +20742,8 @@
 - component: Basesystem
   create_time: 20190312T15:47:00
   id: 1128943
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: dtc crashes with segmentation fault
 - component: Basesystem
   create_time: 20190312T15:16:00
@@ -20842,6 +20842,56 @@
   status: RESOLVED
   summary: file-roller -- patches needs rebase or dropping
 '20190314':
+- component: Basesystem
+  create_time: 20190314T15:46:00
+  id: 1129274
+  resolution: FIXED
+  status: RESOLVED
+  summary: ceph-test build failed as no OBS worker with enough disk space for ppc64le
+- component: Kernel
+  create_time: 20190314T14:37:00
+  id: 1129258
+  resolution: ''
+  status: NEW
+  summary: 'BUG: unable to handle kernel NULL pointer dereference at 0000000000000040
+    on __irq_domain_deactivate_irq+0x26/0x50 at psmouse_smbus_remove_i2c_device'
+- component: YaST2
+  create_time: 20190314T14:10:00
+  id: 1129257
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190313] Installer offers product twice'
+- component: YaST2
+  create_time: 20190314T13:07:00
+  id: 1129246
+  resolution: ''
+  status: NEW
+  summary: YaST2 doesn't start tftp service properly
+- component: Printing
+  create_time: 20190314T11:48:00
+  id: 1129228
+  resolution: ''
+  status: NEW
+  summary: 'hplip: transition from hpijs to hpcups'
+- component: Basesystem
+  create_time: 20190314T07:10:00
+  id: 1129160
+  resolution: ''
+  status: NEW
+  summary: openblas ppc64 segfault invalid memory ref when ./dblat3 < ./dblat3.dat
+'20190315':
+- component: Kubic
+  create_time: 20190318T11:01:00
+  id: 1129568
+  resolution: ''
+  status: NEW
+  summary: envoy-proxy crashes with google::protobuf::FatalException
+- component: Kubic
+  create_time: 20190318T11:00:00
+  id: 1129566
+  resolution: ''
+  status: NEW
+  summary: ignition cannot write to /sysroot/etc with transactional-updates
 - component: Other
   create_time: 20190317T22:54:00
   id: 1129503
@@ -20923,40 +20973,3 @@
   resolution: ''
   status: NEW
   summary: NetworkManager - Update to 1.16.0 and rebase/drop patches as needed.
-- component: Basesystem
-  create_time: 20190314T15:46:00
-  id: 1129274
-  resolution: FIXED
-  status: RESOLVED
-  summary: ceph-test build failed as no OBS worker with enough disk space for ppc64le
-- component: Kernel
-  create_time: 20190314T14:37:00
-  id: 1129258
-  resolution: ''
-  status: NEW
-  summary: 'BUG: unable to handle kernel NULL pointer dereference at 0000000000000040
-    on __irq_domain_deactivate_irq+0x26/0x50 at psmouse_smbus_remove_i2c_device'
-- component: YaST2
-  create_time: 20190314T14:10:00
-  id: 1129257
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20190313] Installer offers product twice'
-- component: YaST2
-  create_time: 20190314T13:07:00
-  id: 1129246
-  resolution: ''
-  status: NEW
-  summary: YaST2 doesn't start tftp service properly
-- component: Printing
-  create_time: 20190314T11:48:00
-  id: 1129228
-  resolution: ''
-  status: NEW
-  summary: 'hplip: transition from hpijs to hpcups'
-- component: Basesystem
-  create_time: 20190314T07:10:00
-  id: 1129160
-  resolution: ''
-  status: NEW
-  summary: openblas ppc64 segfault invalid memory ref when ./dblat3 < ./dblat3.dat
