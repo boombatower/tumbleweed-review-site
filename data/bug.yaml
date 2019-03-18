@@ -14876,8 +14876,8 @@
 - component: Network
   create_time: 20181103T15:14:00
   id: 1114569
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Need to delete /etc/resolv.conf when connecting to Wifi with specific DNS
 - component: Kernel
   create_time: 20181103T09:45:00
@@ -14952,8 +14952,8 @@
 - component: YaST2
   create_time: 20181105T11:49:00
   id: 1114673
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'New UI for firewalld: interface not assigned to the right zone when changed
     to public in first run'
 - component: YaST2
@@ -18007,8 +18007,8 @@
 - component: Basesystem
   create_time: 20190110T08:07:00
   id: 1121387
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9:  casync build fails'
 '20190112':
 - component: Other
