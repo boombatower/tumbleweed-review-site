@@ -20880,55 +20880,6 @@
   status: NEW
   summary: openblas ppc64 segfault invalid memory ref when ./dblat3 < ./dblat3.dat
 '20190315':
-- component: Basesystem
-  create_time: 20190319T14:25:00
-  id: 1129773
-  resolution: ''
-  status: NEW
-  summary: snapper - improve error message during rm of next mounted snapshot in microos
-- component: Basesystem
-  create_time: 20190319T12:21:00
-  id: 1129751
-  resolution: ''
-  status: NEW
-  summary: command dig does not accept IPv6 address from /etc/resolv.conf
-- component: YaST2
-  create_time: 20190319T00:50:00
-  id: 1129663
-  resolution: ''
-  status: CONFIRMED
-  summary: 'setting up encrypted partition with YaST errors: stub do_reallot_text
-    called for LvmPv'
-- component: Network
-  create_time: 20190318T20:35:00
-  id: 1129646
-  resolution: ''
-  status: NEW
-  summary: NetworkManager does not work with IWD
-- component: Virtualization:Tools
-  create_time: 20190318T18:05:00
-  id: 1129635
-  resolution: ''
-  status: NEW
-  summary: virtualbox-qt startup note translation
-- component: Other
-  create_time: 20190318T16:24:00
-  id: 1129626
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Nothing provides libboost_system.so.1.68.0()(64bit) needed by ...
-- component: Kubic
-  create_time: 20190318T11:01:00
-  id: 1129568
-  resolution: ''
-  status: NEW
-  summary: envoy-proxy crashes with google::protobuf::FatalException
-- component: Kubic
-  create_time: 20190318T11:00:00
-  id: 1129566
-  resolution: ''
-  status: NEW
-  summary: ignition cannot write to /sysroot/etc with transactional-updates
 - component: Other
   create_time: 20190317T22:54:00
   id: 1129503
@@ -21010,3 +20961,65 @@
   resolution: FIXED
   status: RESOLVED
   summary: NetworkManager - Update to 1.16.0 and rebase/drop patches as needed.
+'20190318':
+- component: X.Org
+  create_time: 20190319T21:41:00
+  id: 1129830
+  resolution: ''
+  status: NEW
+  summary: TW update (<20190318) broke X completely
+- component: Other
+  create_time: 20190319T17:55:00
+  id: 1129811
+  resolution: ''
+  status: NEW
+  summary: Ekiga does not build and install
+- component: Basesystem
+  create_time: 20190319T14:25:00
+  id: 1129773
+  resolution: ''
+  status: NEW
+  summary: snapper - improve error message during rm of next mounted snapshot in microos
+- component: Basesystem
+  create_time: 20190319T12:21:00
+  id: 1129751
+  resolution: ''
+  status: NEW
+  summary: command dig does not accept IPv6 address from /etc/resolv.conf
+- component: YaST2
+  create_time: 20190319T00:50:00
+  id: 1129663
+  resolution: ''
+  status: CONFIRMED
+  summary: 'setting up encrypted partition with YaST errors: stub do_reallot_text
+    called for LvmPv'
+- component: Network
+  create_time: 20190318T20:35:00
+  id: 1129646
+  resolution: ''
+  status: NEW
+  summary: NetworkManager does not work with IWD
+- component: Virtualization:Tools
+  create_time: 20190318T18:05:00
+  id: 1129635
+  resolution: ''
+  status: NEW
+  summary: virtualbox-qt startup note translation
+- component: Other
+  create_time: 20190318T16:24:00
+  id: 1129626
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Nothing provides libboost_system.so.1.68.0()(64bit) needed by ...
+- component: Kubic
+  create_time: 20190318T11:01:00
+  id: 1129568
+  resolution: ''
+  status: IN_PROGRESS
+  summary: envoy-proxy crashes with google::protobuf::FatalException
+- component: Kubic
+  create_time: 20190318T11:00:00
+  id: 1129566
+  resolution: ''
+  status: NEW
+  summary: ignition cannot write to /sysroot/etc with transactional-updates
