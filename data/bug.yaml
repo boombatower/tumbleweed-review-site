@@ -20288,8 +20288,8 @@
 - component: YaST2
   create_time: 20190302T17:43:00
   id: 1127605
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Can not install packages via 1-click install in appliance if dummy-release
     is installed
 - component: Printing
@@ -20381,8 +20381,8 @@
 - component: Other
   create_time: 20190305T12:13:00
   id: 1127911
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Minetest 5.0.0 needs group and user whitelisted
 - component: LibreOffice
   create_time: 20190305T10:45:00
@@ -20880,11 +20880,23 @@
   status: NEW
   summary: openblas ppc64 segfault invalid memory ref when ./dblat3 < ./dblat3.dat
 '20190315':
+- component: Basesystem
+  create_time: 20190319T14:25:00
+  id: 1129773
+  resolution: ''
+  status: NEW
+  summary: snapper - improve error message during rm of next mounted snapshot in microos
+- component: Basesystem
+  create_time: 20190319T12:21:00
+  id: 1129751
+  resolution: ''
+  status: NEW
+  summary: command dig does not accept IPv6 address from /etc/resolv.conf
 - component: YaST2
   create_time: 20190319T00:50:00
   id: 1129663
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'setting up encrypted partition with YaST errors: stub do_reallot_text
     called for LvmPv'
 - component: Network
