@@ -20663,8 +20663,8 @@
 - component: AutoYaST
   create_time: 20190311T11:44:00
   id: 1128707
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '[Build 20190310] Element profile has extra content: add-on'
 - component: AppArmor
   create_time: 20190311T10:54:00
@@ -20903,7 +20903,7 @@
   create_time: 20190318T16:24:00
   id: 1129626
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Nothing provides libboost_system.so.1.68.0()(64bit) needed by ...
 - component: Kubic
   create_time: 20190318T11:01:00
