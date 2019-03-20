@@ -9742,8 +9742,8 @@
 - component: Kernel
   create_time: 20180625T11:41:00
   id: 1098995
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Unusually large kernel-macros package
 - component: libzypp
   create_time: 20180625T11:26:00
@@ -15579,7 +15579,7 @@
   create_time: 20181114T16:43:00
   id: 1116052
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Please convert SysV init scripts by wondershaper into native systemd services
 - component: Virtualization:Tools
   create_time: 20181114T16:29:00
@@ -20461,8 +20461,8 @@
 - component: GNOME
   create_time: 20190306T16:48:00
   id: 1128196
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: gnome-settings-daemon -- Patches needs dropping or rebase
 - component: GNOME
   create_time: 20190306T16:45:00
@@ -20473,8 +20473,8 @@
 - component: GNOME
   create_time: 20190306T16:44:00
   id: 1128194
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Gnome-shell -- Patches needs dropping or rebase
 - component: GNOME
   create_time: 20190306T16:42:00
@@ -20820,8 +20820,8 @@
 - component: GNOME
   create_time: 20190312T07:48:00
   id: 1128827
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: gnome-shell-extensions -- Patches need rebase or dropping
 - component: Other
   create_time: 20190312T07:17:00
@@ -20962,6 +20962,12 @@
   status: RESOLVED
   summary: NetworkManager - Update to 1.16.0 and rebase/drop patches as needed.
 '20190318':
+- component: Basesystem
+  create_time: 20190320T07:52:00
+  id: 1129852
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: python-networkx build fails'
 - component: X.Org
   create_time: 20190319T21:41:00
   id: 1129830
