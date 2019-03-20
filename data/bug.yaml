@@ -4505,8 +4505,8 @@
 - component: Other
   create_time: 20180222T15:09:00
   id: 1082318
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Packages must not mark license files as %doc
 - component: X.Org
   create_time: 20180222T15:02:00
@@ -14676,8 +14676,8 @@
 - component: GNOME
   create_time: 20181031T23:31:00
   id: 1114259
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Disabled autostart for Tracker services are overwritten on updates
 - component: KDE Workspace (Plasma)
   create_time: 20181031T23:24:00
@@ -18470,8 +18470,8 @@
 - component: GNOME
   create_time: 20190121T19:00:00
   id: 1122687
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Polari missing dependency (typelib-1_0-Gspell-1)
 - component: Basesystem
   create_time: 20190121T14:39:00
@@ -20962,13 +20962,37 @@
   status: RESOLVED
   summary: NetworkManager - Update to 1.16.0 and rebase/drop patches as needed.
 '20190318':
+- component: Network
+  create_time: 20190320T15:47:00
+  id: 1129951
+  resolution: ''
+  status: NEW
+  summary: 'dhclient: Don''t touch files in /var during post script'
+- component: Virtualization:Tools
+  create_time: 20190320T15:42:00
+  id: 1129950
+  resolution: ''
+  status: NEW
+  summary: JeOS-efi.armv7 fails on qemu aarch64 KVM
+- component: Other
+  create_time: 20190320T15:28:00
+  id: 1129947
+  resolution: ''
+  status: NEW
+  summary: kdump violates GPL on some images
+- component: Sound
+  create_time: 20190320T10:54:00
+  id: 1129905
+  resolution: ''
+  status: IN_PROGRESS
+  summary: mpd has invalid default config file
 - component: Basesystem
   create_time: 20190320T07:52:00
   id: 1129852
   resolution: ''
   status: NEW
   summary: 'GCC 9: python-networkx build fails'
-- component: X.Org
+- component: Basesystem
   create_time: 20190319T21:41:00
   id: 1129830
   resolution: ''
@@ -20983,8 +21007,8 @@
 - component: Basesystem
   create_time: 20190319T14:25:00
   id: 1129773
-  resolution: ''
-  status: NEW
+  resolution: FEATURE
+  status: RESOLVED
   summary: snapper - improve error message during rm of next mounted snapshot in microos
 - component: Basesystem
   create_time: 20190319T12:21:00
