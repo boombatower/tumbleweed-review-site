@@ -19805,7 +19805,7 @@
   create_time: 20190223T07:10:00
   id: 1126592
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Out of date package: openSUSE:Factory/icewm is out of date'
 - component: Kernel
   create_time: 20190222T15:08:00
@@ -20450,7 +20450,7 @@
   create_time: 20190306T18:51:00
   id: 1128212
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: gsettings-desktop-schemas -- Patch needs dropping or rebase
 - component: GNOME
   create_time: 20190306T18:45:00
@@ -20821,7 +20821,7 @@
   create_time: 20190312T07:48:00
   id: 1128827
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: gnome-shell-extensions -- Patches need rebase or dropping
 - component: Other
   create_time: 20190312T07:17:00
