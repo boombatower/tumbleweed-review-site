@@ -918,8 +918,8 @@
 - component: GNOME
   create_time: 20171220T08:30:00
   id: 1073610
-  resolution: ''
-  status: REOPENED
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: PackageKit indicates network is available even though it's not
 - component: Basesystem
   create_time: 20171220T07:57:00
