@@ -16563,8 +16563,8 @@
 - component: Other
   create_time: 20181204T06:49:00
   id: 1118259
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: qtwebengine - No hardware accelerated video decoding
 '20181205':
 - component: Development
@@ -18695,7 +18695,7 @@
   create_time: 20190128T16:58:00
   id: 1123387
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: podman broken without apparmor_parser
 - component: KDE Workspace (Plasma)
   create_time: 20190128T14:50:00
@@ -20099,8 +20099,8 @@
 - component: Development
   create_time: 20190227T12:18:00
   id: 1127188
-  resolution: WONTFIX
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: cannot update kernel configuration with cross-compiler
 - component: Installation
   create_time: 20190227T11:46:00
@@ -20797,8 +20797,8 @@
 - component: Other
   create_time: 20190312T09:56:00
   id: 1128846
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: chrony-dnssrv@.service has wrong path to helper script
 - component: LibreOffice
   create_time: 20190312T09:52:00
@@ -20940,8 +20940,8 @@
 - component: Kernel
   create_time: 20190316T07:35:00
   id: 1129471
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'kernel 5.0.1-1-default: Problem loading X.509 certificate -65'
 - component: Network
   create_time: 20190316T00:34:00
@@ -20969,60 +20969,6 @@
   status: RESOLVED
   summary: NetworkManager - Update to 1.16.0 and rebase/drop patches as needed.
 '20190318':
-- component: YaST2
-  create_time: 20190321T10:15:00
-  id: 1130043
-  resolution: FIXED
-  status: RESOLVED
-  summary: YaST rake tasks do not support SLE15-SP1 and SLE12-SP5 distributions
-- component: Ruby
-  create_time: 20190321T09:04:00
-  id: 1130028
-  resolution: ''
-  status: NEW
-  summary: /usr/bin/ruby.ruby2.6 is not a PIE executable
-- component: Network
-  create_time: 20190321T06:35:00
-  id: 1130002
-  resolution: ''
-  status: NEW
-  summary: It takes 20 s NetworkManager to connect network
-- component: Kernel
-  create_time: 20190320T17:36:00
-  id: 1129966
-  resolution: ''
-  status: NEW
-  summary: Consider providing a more preemptible kernel for interactive audio work
-- component: Network
-  create_time: 20190320T15:47:00
-  id: 1129951
-  resolution: ''
-  status: NEW
-  summary: 'dhclient: Don''t touch files in /var during post script'
-- component: Virtualization:Tools
-  create_time: 20190320T15:42:00
-  id: 1129950
-  resolution: ''
-  status: NEW
-  summary: JeOS-efi.armv7 fails on qemu aarch64 KVM
-- component: Other
-  create_time: 20190320T15:28:00
-  id: 1129947
-  resolution: ''
-  status: IN_PROGRESS
-  summary: kdump violates GPL on some images
-- component: Sound
-  create_time: 20190320T10:54:00
-  id: 1129905
-  resolution: FIXED
-  status: RESOLVED
-  summary: mpd has invalid default config file
-- component: Basesystem
-  create_time: 20190320T07:52:00
-  id: 1129852
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: python-networkx build fails'
 - component: Basesystem
   create_time: 20190319T21:41:00
   id: 1129830
@@ -21084,3 +21030,89 @@
   resolution: ''
   status: NEW
   summary: ignition cannot write to /sysroot/etc with transactional-updates
+'20190320':
+- component: Kernel
+  create_time: 20190321T13:54:00
+  id: 1130092
+  resolution: FIXED
+  status: RESOLVED
+  summary: kernel-default-base builds fail for armv7 and armv6
+- component: Basesystem
+  create_time: 20190321T13:51:00
+  id: 1130091
+  resolution: ''
+  status: NEW
+  summary: 'libtinfo: "munmap_chunk(): invalid pointer" when restoring TERM=linux
+    after setting it to TERM=dumb'
+- component: Bootloader
+  create_time: 20190321T11:07:00
+  id: 1130056
+  resolution: ''
+  status: NEW
+  summary: 'fwupdmgr: shimx64.efi is missing'
+- component: GNOME
+  create_time: 20190321T11:06:00
+  id: 1130055
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190320] tracker 2.2 upgrade issues'
+- component: Security
+  create_time: 20190321T10:53:00
+  id: 1130050
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Boringssl libraries have incorrect SONAME headers
+- component: YaST2
+  create_time: 20190321T10:15:00
+  id: 1130043
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST rake tasks do not support SLE15-SP1 and SLE12-SP5 distributions
+- component: Ruby
+  create_time: 20190321T09:04:00
+  id: 1130028
+  resolution: ''
+  status: NEW
+  summary: /usr/bin/ruby.ruby2.6 is not a PIE executable
+- component: Network
+  create_time: 20190321T06:35:00
+  id: 1130002
+  resolution: ''
+  status: NEW
+  summary: It takes 20 s NetworkManager to connect network
+- component: Kernel
+  create_time: 20190320T17:36:00
+  id: 1129966
+  resolution: ''
+  status: NEW
+  summary: Consider providing a more preemptible kernel for interactive audio work
+- component: Network
+  create_time: 20190320T15:47:00
+  id: 1129951
+  resolution: ''
+  status: NEW
+  summary: 'dhclient: Don''t touch files in /var during post script'
+- component: KVM
+  create_time: 20190320T15:42:00
+  id: 1129950
+  resolution: ''
+  status: NEW
+  summary: JeOS-efi.armv7 fails on qemu aarch64 KVM
+- component: Other
+  create_time: 20190320T15:28:00
+  id: 1129947
+  resolution: FIXED
+  status: RESOLVED
+  summary: kdump violates GPL on some images
+- component: Sound
+  create_time: 20190320T10:54:00
+  id: 1129905
+  resolution: FIXED
+  status: RESOLVED
+  summary: mpd has invalid default config file
+- component: Basesystem
+  create_time: 20190320T07:52:00
+  id: 1129852
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: python-networkx build fails'
