@@ -698,14 +698,14 @@
   score: 96
   stability_level: stable
 '20190314':
-  score: 77
+  score: 76
   stability_level: moderate
 '20190315':
   score: 74
   stability_level: pending
 '20190318':
-  score: 85
+  score: 75
   stability_level: pending
 '20190320':
-  score: 92
+  score: 85
   stability_level: pending
