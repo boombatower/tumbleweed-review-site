@@ -1642,11 +1642,11 @@
   threads: []
 '20190314':
   announcement: 2019-03.190
-  reference_count: 6
+  reference_count: 7
   thread_count: 1
   threads:
   - messages: [2019-03.213]
-    reference_count: 6
+    reference_count: 7
     summary: no summary given
 '20190315':
   announcement: 2019-03.223
@@ -1663,6 +1663,9 @@
     summary: -Media.iso does not boot...
 '20190320':
   announcement: 2019-03.304
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 3
+  thread_count: 1
+  threads:
+  - messages: [2019-03.307]
+    reference_count: 3
+    summary: no summary given
