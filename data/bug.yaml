@@ -21031,6 +21031,12 @@
   status: NEW
   summary: ignition cannot write to /sysroot/etc with transactional-updates
 '20190320':
+- component: X11 Applications
+  create_time: 20190322T19:50:00
+  id: 1130253
+  resolution: ''
+  status: NEW
+  summary: yamagi-quake2 does not have rogue/xatrix available
 - component: Other
   create_time: 20190322T16:37:00
   id: 1130248
