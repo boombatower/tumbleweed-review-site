@@ -19255,8 +19255,8 @@
 - component: YaST2
   create_time: 20190212T14:13:00
   id: 1125142
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-logs needs tar
 - component: Other
   create_time: 20190212T13:09:00
@@ -21040,8 +21040,8 @@
 - component: Basesystem
   create_time: 20190321T13:51:00
   id: 1130091
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'libtinfo: "munmap_chunk(): invalid pointer" when restoring TERM=linux
     after setting it to TERM=dumb'
 - component: Bootloader
