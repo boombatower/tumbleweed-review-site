@@ -1071,8 +1071,8 @@
 - component: Xfce
   create_time: 20171224T10:40:00
   id: 1074051
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Deadlock in thunar 1.6.13-124.1
 - component: Kernel
   create_time: 20171224T09:19:00
@@ -1140,8 +1140,8 @@
 - component: Xfce
   create_time: 20171229T08:27:00
   id: 1074214
-  resolution: ''
-  status: CONFIRMED
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: '[Build 20171223] Live media (rescue) does not show ''openSUSE'' menu'
 '20171230':
 - component: Other
@@ -12399,7 +12399,7 @@
   create_time: 20180913T20:18:00
   id: 1108381
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: missing recommends entry for gcr-ssh-askpass
 - component: Sound
   create_time: 20180913T18:30:00
@@ -15230,8 +15230,8 @@
 - component: Firefox
   create_time: 20181108T21:08:00
   id: 1115294
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Add patch for global menu
 - component: KDE Workspace (Plasma)
   create_time: 20181108T13:45:00
@@ -16343,7 +16343,7 @@
   create_time: 20181126T11:56:00
   id: 1117307
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: geda-gaf fails to build with guile-2.2
 - component: YaST2
   create_time: 20181126T09:15:00
@@ -20868,7 +20868,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: '[Build 20190313] Installer offers product twice'
-- component: YaST2
+- component: Other
   create_time: 20190314T13:07:00
   id: 1129246
   resolution: ''
@@ -21021,8 +21021,8 @@
 - component: Kubic
   create_time: 20190318T11:01:00
   id: 1129568
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: envoy-proxy crashes with google::protobuf::FatalException
 - component: Kubic
   create_time: 20190318T11:00:00
@@ -21031,6 +21031,42 @@
   status: NEW
   summary: ignition cannot write to /sysroot/etc with transactional-updates
 '20190320':
+- component: Other
+  create_time: 20190322T16:37:00
+  id: 1130248
+  resolution: ''
+  status: NEW
+  summary: EPSG missing within proj geo library
+- component: Network
+  create_time: 20190322T15:08:00
+  id: 1130237
+  resolution: ''
+  status: NEW
+  summary: wicked incorrectly reports that eth0 is non-existent within lxc
+- component: Other
+  create_time: 20190322T14:06:00
+  id: 1130222
+  resolution: ''
+  status: NEW
+  summary: Package GeoIP-data-1.6.12-2.2.noarch does not contain the listed files
+- component: Kernel
+  create_time: 20190322T11:50:00
+  id: 1130204
+  resolution: ''
+  status: NEW
+  summary: kernel oops in btrfs_queue_work from cleanup_mnt
+- component: Development
+  create_time: 20190322T11:28:00
+  id: 1130198
+  resolution: ''
+  status: NEW
+  summary: 'crash: cannot allocate any more memory!'
+- component: Xfce
+  create_time: 20190322T11:15:00
+  id: 1130194
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'New release: xfce4-screensaver 0.1.4'
 - component: Kernel
   create_time: 20190321T13:54:00
   id: 1130092
