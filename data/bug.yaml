@@ -21031,6 +21031,12 @@
   status: NEW
   summary: ignition cannot write to /sysroot/etc with transactional-updates
 '20190320':
+- component: Xfce
+  create_time: 20190323T17:57:00
+  id: 1130277
+  resolution: ''
+  status: NEW
+  summary: nm-applet does not show available network connections
 - component: KDE Applications
   create_time: 20190323T09:41:00
   id: 1130272
