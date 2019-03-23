@@ -21031,6 +21031,19 @@
   status: NEW
   summary: ignition cannot write to /sysroot/etc with transactional-updates
 '20190320':
+- component: KDE Applications
+  create_time: 20190323T09:41:00
+  id: 1130272
+  resolution: ''
+  status: NEW
+  summary: krdc can not connect to windows RDP hosts
+- component: Kernel
+  create_time: 20190323T09:12:00
+  id: 1130270
+  resolution: ''
+  status: NEW
+  summary: File conflicts on TW upgrade 20190315-0 -> 20190320-0 kernel-default-5.0.2-1.2.x86_64
+    and kernel-default-base-5.0.2-1.1.1.5.x86_64
 - component: X11 Applications
   create_time: 20190322T19:50:00
   id: 1130253
