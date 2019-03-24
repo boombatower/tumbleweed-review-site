@@ -6142,8 +6142,8 @@
 - component: GNOME
   create_time: 20180321T01:05:00
   id: 1086146
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: after updating tumblweed from 20180313->20180318 gdm does not start anymore
 - component: KDE Applications
   create_time: 20180320T19:59:00
@@ -19748,8 +19748,8 @@
 - component: Containers
   create_time: 20190219T22:38:00
   id: 1125999
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please refresh package go-tools so it will install
 - component: Kubic
   create_time: 20190219T13:50:00
