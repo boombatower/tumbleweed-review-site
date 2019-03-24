@@ -6572,8 +6572,8 @@
 - component: Development
   create_time: 20180403T19:24:00
   id: 1087961
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: ocaml-obuild does not build reproducibly
 - component: Basesystem
   create_time: 20180403T15:50:00
@@ -21031,6 +21031,12 @@
   status: NEW
   summary: ignition cannot write to /sysroot/etc with transactional-updates
 '20190320':
+- component: Other
+  create_time: 20190324T04:12:00
+  id: 1130280
+  resolution: ''
+  status: NEW
+  summary: blender needs to be rebuilt against boost 1.69
 - component: Xfce
   create_time: 20190323T17:57:00
   id: 1130277
