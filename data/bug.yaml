@@ -21068,6 +21068,13 @@
   status: NEW
   summary: 'GCC 9: python-networkx build fails'
 '20190321':
+- component: YaST2
+  create_time: 20190324T18:56:00
+  id: 1130293
+  resolution: ''
+  status: NEW
+  summary: YaST2 Oxygen (not Breeze) icon theme is installed, but I see Hicolor icons
+    in YaST
 - component: Other
   create_time: 20190324T04:12:00
   id: 1130280
