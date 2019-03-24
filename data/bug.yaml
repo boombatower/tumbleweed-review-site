@@ -21031,6 +21031,43 @@
   status: NEW
   summary: ignition cannot write to /sysroot/etc with transactional-updates
 '20190320':
+- component: Kernel
+  create_time: 20190320T17:36:00
+  id: 1129966
+  resolution: ''
+  status: NEW
+  summary: Consider providing a more preemptible kernel for interactive audio work
+- component: Network
+  create_time: 20190320T15:47:00
+  id: 1129951
+  resolution: ''
+  status: NEW
+  summary: 'dhclient: Don''t touch files in /var during post script'
+- component: KVM
+  create_time: 20190320T15:42:00
+  id: 1129950
+  resolution: ''
+  status: NEW
+  summary: JeOS-efi.armv7 fails on qemu aarch64 KVM
+- component: Other
+  create_time: 20190320T15:28:00
+  id: 1129947
+  resolution: FIXED
+  status: RESOLVED
+  summary: kdump violates GPL on some images
+- component: Sound
+  create_time: 20190320T10:54:00
+  id: 1129905
+  resolution: FIXED
+  status: RESOLVED
+  summary: mpd has invalid default config file
+- component: Basesystem
+  create_time: 20190320T07:52:00
+  id: 1129852
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: python-networkx build fails'
+'20190321':
 - component: Other
   create_time: 20190324T04:12:00
   id: 1130280
@@ -21147,39 +21184,3 @@
   resolution: ''
   status: NEW
   summary: It takes 20 s NetworkManager to connect network
-- component: Kernel
-  create_time: 20190320T17:36:00
-  id: 1129966
-  resolution: ''
-  status: NEW
-  summary: Consider providing a more preemptible kernel for interactive audio work
-- component: Network
-  create_time: 20190320T15:47:00
-  id: 1129951
-  resolution: ''
-  status: NEW
-  summary: 'dhclient: Don''t touch files in /var during post script'
-- component: KVM
-  create_time: 20190320T15:42:00
-  id: 1129950
-  resolution: ''
-  status: NEW
-  summary: JeOS-efi.armv7 fails on qemu aarch64 KVM
-- component: Other
-  create_time: 20190320T15:28:00
-  id: 1129947
-  resolution: FIXED
-  status: RESOLVED
-  summary: kdump violates GPL on some images
-- component: Sound
-  create_time: 20190320T10:54:00
-  id: 1129905
-  resolution: FIXED
-  status: RESOLVED
-  summary: mpd has invalid default config file
-- component: Basesystem
-  create_time: 20190320T07:52:00
-  id: 1129852
-  resolution: ''
-  status: NEW
-  summary: 'GCC 9: python-networkx build fails'
