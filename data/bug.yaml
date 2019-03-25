@@ -17663,8 +17663,8 @@
 - component: Basesystem
   create_time: 20190109T08:38:00
   id: 1121203
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9:  fwupdate build fails'
 - component: Basesystem
   create_time: 20190109T08:20:00
@@ -17984,8 +17984,8 @@
 - component: Basesystem
   create_time: 20190110T08:46:00
   id: 1121397
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: go{1.4,1.9,1.10,1.11} build fails'
 - component: Basesystem
   create_time: 20190110T08:42:00
@@ -20235,8 +20235,8 @@
 - component: Basesystem
   create_time: 20190304T09:46:00
   id: 1127700
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: bash patch bash50-001/bash50-002 seems to break env expansion
 - component: Printing
   create_time: 20190304T09:05:00
@@ -20719,8 +20719,8 @@
 - component: Basesystem
   create_time: 20190313T08:47:00
   id: 1129036
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'bash: update-alternative handling causes errors'
 - component: X.Org
   create_time: 20190313T08:44:00
@@ -21118,6 +21118,36 @@
   status: NEW
   summary: It takes 20 s NetworkManager to connect network
 '20190322':
+- component: Network
+  create_time: 20190325T10:49:00
+  id: 1130362
+  resolution: ''
+  status: NEW
+  summary: 'NetworkManager: NetworkManager-wait-online.service broken'
+- component: Development
+  create_time: 20190325T09:44:00
+  id: 1130352
+  resolution: ''
+  status: NEW
+  summary: libgit2-27 required by python3-pygit2
+- component: Network
+  create_time: 20190325T09:39:00
+  id: 1130350
+  resolution: ''
+  status: IN_PROGRESS
+  summary: psqlODBC fails to build on Tumbleweed
+- component: X.Org
+  create_time: 20190325T07:45:00
+  id: 1130321
+  resolution: ''
+  status: IN_PROGRESS
+  summary: xdm shows black text fields for login and password
+- component: Other
+  create_time: 20190325T05:22:00
+  id: 1130306
+  resolution: ''
+  status: NEW
+  summary: packagekit-background.service sends no mail
 - component: Kernel
   create_time: 20190325T02:01:00
   id: 1130295
@@ -21135,7 +21165,7 @@
   create_time: 20190324T04:12:00
   id: 1130280
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: blender needs to be rebuilt against boost 1.69
 - component: Xfce
   create_time: 20190323T17:57:00
@@ -21165,8 +21195,8 @@
 - component: Other
   create_time: 20190322T16:37:00
   id: 1130248
-  resolution: ''
-  status: NEW
+  resolution: FEATURE
+  status: RESOLVED
   summary: EPSG missing within proj geo library
 - component: Network
   create_time: 20190322T15:08:00
