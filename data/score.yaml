@@ -705,10 +705,13 @@
   stability_level: moderate
 '20190318':
   score: 75
-  stability_level: pending
+  stability_level: moderate
 '20190320':
   score: 68
   stability_level: pending
 '20190321':
-  score: 85
+  score: 76
+  stability_level: pending
+'20190322':
+  score: 89
   stability_level: pending
