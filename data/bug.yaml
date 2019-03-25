@@ -13492,8 +13492,8 @@
 - component: Other
   create_time: 20181013T04:15:00
   id: 1111744
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/xfsprogs'
 - component: Other
   create_time: 20181013T04:14:00
@@ -16168,8 +16168,8 @@
 - component: Virtualization:Tools
   create_time: 20181121T08:54:00
   id: 1116824
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Virt-manager fails to create snapshot
 - component: GNOME
   create_time: 20181121T00:31:00
@@ -18421,8 +18421,8 @@
 - component: Installation
   create_time: 20190123T10:49:00
   id: 1122867
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Do not set "acl,user_xattr" mount options for EXT filesystems
 - component: Development
   create_time: 20190123T09:30:00
@@ -20670,8 +20670,8 @@
 - component: AutoYaST
   create_time: 20190311T11:44:00
   id: 1128707
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190310] Element profile has extra content: add-on'
 - component: AppArmor
   create_time: 20190311T10:54:00
@@ -21118,6 +21118,48 @@
   status: NEW
   summary: It takes 20 s NetworkManager to connect network
 '20190322':
+- component: YaST2
+  create_time: 20190325T15:51:00
+  id: 1130415
+  resolution: ''
+  status: CONFIRMED
+  summary: 'Kubic: missing warning when changing language'
+- component: Other
+  create_time: 20190325T14:56:00
+  id: 1130407
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Remove jasper dependency from GIMP
+- component: Other
+  create_time: 20190325T14:49:00
+  id: 1130404
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Considering removal of libjasper in openSUSE
+- component: Development
+  create_time: 20190325T13:50:00
+  id: 1130395
+  resolution: ''
+  status: NEW
+  summary: Valgrind fails to build on armv6 and armv7
+- component: Security
+  create_time: 20190325T13:02:00
+  id: 1130388
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: deepin-clone: new polkit action com.deepin.pkexec.deepin-clone'
+- component: Basesystem
+  create_time: 20190325T12:18:00
+  id: 1130382
+  resolution: ''
+  status: NEW
+  summary: Repos from live-add-yast-repos are wrong for armv6/7
+- component: Network
+  create_time: 20190325T11:48:00
+  id: 1130376
+  resolution: ''
+  status: NEW
+  summary: 'claws mail: dictionary error upon composing new message'
 - component: Network
   create_time: 20190325T10:49:00
   id: 1130362
@@ -21164,8 +21206,8 @@
 - component: Other
   create_time: 20190324T04:12:00
   id: 1130280
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: blender needs to be rebuilt against boost 1.69
 - component: Xfce
   create_time: 20190323T17:57:00
