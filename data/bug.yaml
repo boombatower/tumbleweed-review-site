@@ -7864,8 +7864,8 @@
 - component: Kernel
   create_time: 20180509T05:13:00
   id: 1092466
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: hibernate did not work (only on 32bit tumbleweed)
 - component: Kernel
   create_time: 20180509T01:16:00
@@ -10669,8 +10669,8 @@
 - component: LXDE
   create_time: 20180720T00:39:00
   id: 1101980
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: after suspend mode sometimes wifi is off (tested on several laptops)
 - component: Installation
   create_time: 20180720T00:21:00
@@ -10778,14 +10778,14 @@
 - component: KDE Applications
   create_time: 20180722T04:56:00
   id: 1102136
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: After suspend mode wi-fi is not work (turned off)
 - component: LXDE
   create_time: 20180722T02:34:00
   id: 1102134
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: volume control disappears from lxpanel each time after reboot
 '20180723':
 - component: KVM
@@ -10955,8 +10955,8 @@
 - component: Network
   create_time: 20180729T06:12:00
   id: 1102989
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: nm-applet works very slow with a wi-fi on LXDE. Switch to other ssid more
     then 2 minutes
 - component: Development
@@ -12391,8 +12391,8 @@
 - component: Network
   create_time: 20180910T01:49:00
   id: 1107777
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Can't connect to wifi network after suspend (not always)
 '20180911':
 - component: Xfce
@@ -15980,8 +15980,8 @@
 - component: Kernel
   create_time: 20181117T02:31:00
   id: 1116425
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 4.19.1-1.pae did not boot
 - component: Installation
   create_time: 20181116T16:11:00
@@ -19566,8 +19566,8 @@
 - component: Network
   create_time: 20190216T02:14:00
   id: 1125649
-  resolution: ''
-  status: CONFIRMED
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: nm-applet did not respond under LXDE
 - component: KDE Workspace (Plasma)
   create_time: 20190215T22:28:00
@@ -21068,6 +21068,62 @@
   status: NEW
   summary: 'GCC 9: python-networkx build fails'
 '20190321':
+- component: Kernel
+  create_time: 20190321T13:54:00
+  id: 1130092
+  resolution: FIXED
+  status: RESOLVED
+  summary: kernel-default-base builds fail for armv7 and armv6
+- component: Basesystem
+  create_time: 20190321T13:51:00
+  id: 1130091
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'libtinfo: "munmap_chunk(): invalid pointer" when restoring TERM=linux
+    after setting it to TERM=dumb'
+- component: Bootloader
+  create_time: 20190321T11:07:00
+  id: 1130056
+  resolution: ''
+  status: NEW
+  summary: 'fwupdmgr: shimx64.efi is missing'
+- component: GNOME
+  create_time: 20190321T11:06:00
+  id: 1130055
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190320] tracker 2.2 upgrade issues'
+- component: Security
+  create_time: 20190321T10:53:00
+  id: 1130050
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Boringssl libraries have incorrect SONAME headers
+- component: YaST2
+  create_time: 20190321T10:15:00
+  id: 1130043
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST rake tasks do not support SLE15-SP1 and SLE12-SP5 distributions
+- component: Ruby
+  create_time: 20190321T09:04:00
+  id: 1130028
+  resolution: ''
+  status: NEW
+  summary: /usr/bin/ruby.ruby2.6 is not a PIE executable
+- component: Network
+  create_time: 20190321T06:35:00
+  id: 1130002
+  resolution: ''
+  status: NEW
+  summary: It takes 20 s NetworkManager to connect network
+'20190322':
+- component: Kernel
+  create_time: 20190325T02:01:00
+  id: 1130295
+  resolution: ''
+  status: NEW
+  summary: kernel 5.0.2 - export symblos required for module drbd
 - component: YaST2
   create_time: 20190324T18:56:00
   id: 1130293
@@ -21142,52 +21198,3 @@
   resolution: ''
   status: IN_PROGRESS
   summary: 'New release: xfce4-screensaver 0.1.4'
-- component: Kernel
-  create_time: 20190321T13:54:00
-  id: 1130092
-  resolution: FIXED
-  status: RESOLVED
-  summary: kernel-default-base builds fail for armv7 and armv6
-- component: Basesystem
-  create_time: 20190321T13:51:00
-  id: 1130091
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'libtinfo: "munmap_chunk(): invalid pointer" when restoring TERM=linux
-    after setting it to TERM=dumb'
-- component: Bootloader
-  create_time: 20190321T11:07:00
-  id: 1130056
-  resolution: ''
-  status: NEW
-  summary: 'fwupdmgr: shimx64.efi is missing'
-- component: GNOME
-  create_time: 20190321T11:06:00
-  id: 1130055
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190320] tracker 2.2 upgrade issues'
-- component: Security
-  create_time: 20190321T10:53:00
-  id: 1130050
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Boringssl libraries have incorrect SONAME headers
-- component: YaST2
-  create_time: 20190321T10:15:00
-  id: 1130043
-  resolution: FIXED
-  status: RESOLVED
-  summary: YaST rake tasks do not support SLE15-SP1 and SLE12-SP5 distributions
-- component: Ruby
-  create_time: 20190321T09:04:00
-  id: 1130028
-  resolution: ''
-  status: NEW
-  summary: /usr/bin/ruby.ruby2.6 is not a PIE executable
-- component: Network
-  create_time: 20190321T06:35:00
-  id: 1130002
-  resolution: ''
-  status: NEW
-  summary: It takes 20 s NetworkManager to connect network
