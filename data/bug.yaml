@@ -9831,7 +9831,7 @@
   create_time: 20180627T12:53:00
   id: 1099312
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: system turns unresponsive with very high load and many blocked tasks, e.g.
     in btrfs_buffer_uptodate
 - component: Other
@@ -14440,8 +14440,8 @@
 - component: Other
   create_time: 20181024T03:46:00
   id: 1113005
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/autofs'
 - component: Other
   create_time: 20181024T03:34:00
@@ -20779,8 +20779,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190312T12:17:00
   id: 1128891
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: sddm not working after zypper dup
 - component: KDE Workspace (Plasma)
   create_time: 20190312T10:26:00
@@ -21118,6 +21118,12 @@
   status: NEW
   summary: It takes 20 s NetworkManager to connect network
 '20190322':
+- component: Other
+  create_time: 20190325T19:21:00
+  id: 1130438
+  resolution: ''
+  status: CONFIRMED
+  summary: meep fails 1 test on old CPU
 - component: YaST2
   create_time: 20190325T15:51:00
   id: 1130415
