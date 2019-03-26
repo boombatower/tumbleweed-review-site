@@ -8739,8 +8739,8 @@
 - component: Installation
   create_time: 20180528T17:20:00
   id: 1094927
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: installer uses a second disk even if told not to do so
 - component: Installation
   create_time: 20180528T16:27:00
@@ -10824,7 +10824,7 @@
   id: 1102563
   resolution: ''
   status: NEW
-  summary: GNOME autologin broken on aarch64
+  summary: GNOME autologin broken with Wayland on aarch64
 - component: Printing
   create_time: 20180725T09:28:00
   id: 1102529
@@ -19710,8 +19710,8 @@
 - component: Basesystem
   create_time: 20190218T12:25:00
   id: 1125772
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: autogen build fails'
 - component: GNOME
   create_time: 20190218T10:50:00
@@ -20382,8 +20382,8 @@
 - component: Security
   create_time: 20190305T13:22:00
   id: 1127934
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: dvipdf fails in Tumbleweed because of /etc/apparmor.d/usr.bin.gs
 - component: Other
   create_time: 20190305T12:13:00
@@ -20554,8 +20554,8 @@
 - component: Security
   create_time: 20190308T09:45:00
   id: 1128467
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Recently introduced apparmor profile for ghostscript breaks printing over
     IJS (hpijs)
 - component: Installation
@@ -20676,8 +20676,8 @@
 - component: AppArmor
   create_time: 20190311T10:54:00
   id: 1128697
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'ghostscript: AppArmor profile additions'
 - component: Kernel
   create_time: 20190311T10:19:00
@@ -20694,14 +20694,14 @@
 - component: AppArmor
   create_time: 20190310T00:26:00
   id: 1128608
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'ghostscript: AppArmor packaging issues'
 - component: AppArmor
   create_time: 20190310T00:18:00
   id: 1128607
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: gs profile should have a profile name
 '20190312':
 - component: Kubic
@@ -21015,8 +21015,8 @@
 - component: Other
   create_time: 20190318T16:24:00
   id: 1129626
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Nothing provides libboost_system.so.1.68.0()(64bit) needed by ...
 - component: Kubic
   create_time: 20190318T11:01:00
@@ -21118,6 +21118,43 @@
   status: NEW
   summary: It takes 20 s NetworkManager to connect network
 '20190322':
+- component: KDE Applications
+  create_time: 20190326T11:04:00
+  id: 1130513
+  resolution: ''
+  status: NEW
+  summary: Qt 5.12.2 in all native Qt-applications, Cyrillic fonts are not displayed
+    correctly when smoothing with fullhint
+- component: Network
+  create_time: 20190326T10:26:00
+  id: 1130507
+  resolution: ''
+  status: NEW
+  summary: Cannot import VPN config in Network Manager
+- component: Virtualization:Other
+  create_time: 20190326T10:07:00
+  id: 1130503
+  resolution: ''
+  status: NEW
+  summary: virtualbox fails to build against Qt 5.13
+- component: YaST2
+  create_time: 20190326T10:05:00
+  id: 1130502
+  resolution: ''
+  status: NEW
+  summary: libyui-qt{,-pkg,graph} does not build with Qt 5.13
+- component: Kernel
+  create_time: 20190326T08:02:00
+  id: 1130480
+  resolution: ''
+  status: NEW
+  summary: hctosys called before rtc0 is available on Chromebook Snow
+- component: GNOME
+  create_time: 20190326T07:18:00
+  id: 1130478
+  resolution: ''
+  status: NEW
+  summary: Rebase sle-classic patches over GNOME 3.32.0.
 - component: Kernel
   create_time: 20190325T23:18:00
   id: 1130448
@@ -21163,8 +21200,8 @@
 - component: Basesystem
   create_time: 20190325T12:18:00
   id: 1130382
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Repos from live-add-yast-repos are wrong for armv6/7
 - component: Network
   create_time: 20190325T11:48:00
@@ -21218,7 +21255,7 @@
 - component: Other
   create_time: 20190324T04:12:00
   id: 1130280
-  resolution: FIXED
+  resolution: DUPLICATE
   status: RESOLVED
   summary: blender needs to be rebuilt against boost 1.69
 - component: Xfce
