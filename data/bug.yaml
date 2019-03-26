@@ -21118,6 +21118,12 @@
   status: NEW
   summary: It takes 20 s NetworkManager to connect network
 '20190322':
+- component: Kernel
+  create_time: 20190325T23:18:00
+  id: 1130448
+  resolution: ''
+  status: NEW
+  summary: cannot suspend while BT audio device is connected
 - component: Other
   create_time: 20190325T19:21:00
   id: 1130438
