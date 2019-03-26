@@ -20314,8 +20314,8 @@
 - component: Kernel
   create_time: 20190301T16:12:00
   id: 1127552
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Disable fbcon deferred takeover behavior?
 - component: Basesystem
   create_time: 20190301T15:17:00
@@ -21118,6 +21118,81 @@
   status: NEW
   summary: It takes 20 s NetworkManager to connect network
 '20190322':
+- component: Xfce
+  create_time: 20190323T17:57:00
+  id: 1130277
+  resolution: ''
+  status: NEW
+  summary: nm-applet does not show available network connections
+- component: KDE Applications
+  create_time: 20190323T09:41:00
+  id: 1130272
+  resolution: ''
+  status: NEW
+  summary: krdc can not connect to windows RDP hosts
+- component: Basesystem
+  create_time: 20190323T09:12:00
+  id: 1130270
+  resolution: ''
+  status: NEW
+  summary: File conflicts on TW upgrade 20190315-0 -> 20190320-0 kernel-default-5.0.2-1.2.x86_64
+    and kernel-default-base-5.0.2-1.1.1.5.x86_64
+- component: X11 Applications
+  create_time: 20190322T19:50:00
+  id: 1130253
+  resolution: ''
+  status: NEW
+  summary: yamagi-quake2 does not have rogue/xatrix available
+- component: Other
+  create_time: 20190322T16:37:00
+  id: 1130248
+  resolution: FEATURE
+  status: RESOLVED
+  summary: EPSG missing within proj geo library
+- component: Network
+  create_time: 20190322T15:08:00
+  id: 1130237
+  resolution: ''
+  status: NEW
+  summary: wicked incorrectly reports that eth0 is non-existent within lxc
+- component: Other
+  create_time: 20190322T14:06:00
+  id: 1130222
+  resolution: ''
+  status: NEW
+  summary: Package GeoIP-data-1.6.12-2.2.noarch does not contain the listed files
+- component: Kernel
+  create_time: 20190322T11:50:00
+  id: 1130204
+  resolution: ''
+  status: NEW
+  summary: kernel oops in btrfs_queue_work from cleanup_mnt
+- component: Development
+  create_time: 20190322T11:28:00
+  id: 1130198
+  resolution: ''
+  status: NEW
+  summary: 'crash: cannot allocate any more memory!'
+- component: Xfce
+  create_time: 20190322T11:15:00
+  id: 1130194
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'New release: xfce4-screensaver 0.1.4'
+'20190324':
+- component: Other
+  create_time: 20190326T14:52:00
+  id: 1130540
+  resolution: ''
+  status: NEW
+  summary: qmapshack stops working after proj update
+- component: Containers
+  create_time: 20190326T11:29:00
+  id: 1130517
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'missing dependency: libselinux-devel-2.8-2.5.x86_64 requires libselinux1
+    = 2.8'
 - component: KDE Applications
   create_time: 20190326T11:04:00
   id: 1130513
@@ -21170,8 +21245,8 @@
 - component: YaST2
   create_time: 20190325T15:51:00
   id: 1130415
-  resolution: ''
-  status: CONFIRMED
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'Kubic: missing warning when changing language'
 - component: Other
   create_time: 20190325T14:56:00
@@ -21258,64 +21333,3 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: blender needs to be rebuilt against boost 1.69
-- component: Xfce
-  create_time: 20190323T17:57:00
-  id: 1130277
-  resolution: ''
-  status: NEW
-  summary: nm-applet does not show available network connections
-- component: KDE Applications
-  create_time: 20190323T09:41:00
-  id: 1130272
-  resolution: ''
-  status: NEW
-  summary: krdc can not connect to windows RDP hosts
-- component: Kernel
-  create_time: 20190323T09:12:00
-  id: 1130270
-  resolution: ''
-  status: NEW
-  summary: File conflicts on TW upgrade 20190315-0 -> 20190320-0 kernel-default-5.0.2-1.2.x86_64
-    and kernel-default-base-5.0.2-1.1.1.5.x86_64
-- component: X11 Applications
-  create_time: 20190322T19:50:00
-  id: 1130253
-  resolution: ''
-  status: NEW
-  summary: yamagi-quake2 does not have rogue/xatrix available
-- component: Other
-  create_time: 20190322T16:37:00
-  id: 1130248
-  resolution: FEATURE
-  status: RESOLVED
-  summary: EPSG missing within proj geo library
-- component: Network
-  create_time: 20190322T15:08:00
-  id: 1130237
-  resolution: ''
-  status: NEW
-  summary: wicked incorrectly reports that eth0 is non-existent within lxc
-- component: Other
-  create_time: 20190322T14:06:00
-  id: 1130222
-  resolution: ''
-  status: NEW
-  summary: Package GeoIP-data-1.6.12-2.2.noarch does not contain the listed files
-- component: Kernel
-  create_time: 20190322T11:50:00
-  id: 1130204
-  resolution: ''
-  status: NEW
-  summary: kernel oops in btrfs_queue_work from cleanup_mnt
-- component: Development
-  create_time: 20190322T11:28:00
-  id: 1130198
-  resolution: ''
-  status: NEW
-  summary: 'crash: cannot allocate any more memory!'
-- component: Xfce
-  create_time: 20190322T11:15:00
-  id: 1130194
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'New release: xfce4-screensaver 0.1.4'
