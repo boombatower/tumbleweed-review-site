@@ -1676,6 +1676,9 @@
   threads: []
 '20190322':
   announcement: 2019-03.333
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 3
+  thread_count: 1
+  threads:
+  - messages: [2019-03.353]
+    reference_count: 3
+    summary: cannot use scanner
