@@ -7181,8 +7181,8 @@
 - component: Samba
   create_time: 20180416T20:13:00
   id: 1089758
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: LoadParm().load_default() fails with "Unable to load default file"
 - component: Security
   create_time: 20180416T15:30:00
@@ -21180,6 +21180,12 @@
   status: IN_PROGRESS
   summary: 'New release: xfce4-screensaver 0.1.4'
 '20190324':
+- component: Kernel
+  create_time: 20190326T20:16:00
+  id: 1130568
+  resolution: ''
+  status: NEW
+  summary: 5GHz WiFi are no longer discovered/visible
 - component: Other
   create_time: 20190326T14:52:00
   id: 1130540
