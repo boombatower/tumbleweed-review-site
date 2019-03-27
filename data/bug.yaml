@@ -5487,7 +5487,7 @@
   status: RESOLVED
   summary: cups-browsed not working properly after resume (from suspend/hibernate)
     in a different network environment
-- component: X.Org
+- component: KDE Workspace (Plasma)
   create_time: 20180311T07:13:00
   id: 1084798
   resolution: ''
@@ -14196,7 +14196,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: '[Build 20181023] FTBFS: openSUSE:Factory gnucash 3.2'
-- component: X11 Applications
+- component: X.Org
   create_time: 20181025T05:17:00
   id: 1113211
   resolution: ''
@@ -14521,7 +14521,7 @@
   create_time: 20181023T07:33:00
   id: 1112849
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Throbber animation in openSUSE plymouth theme has suboptimal amount of
     frames
 - component: Other
@@ -19174,8 +19174,8 @@
 - component: Installation
   create_time: 20190205T11:53:00
   id: 1124314
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: 'Dell Precision 5530: NVME drive is not accessibe in UEFI mode'
 - component: Containers
   create_time: 20190205T11:18:00
@@ -19722,8 +19722,8 @@
 - component: Installation
   create_time: 20190218T07:42:00
   id: 1125718
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: pop up with 'Software changed' message after grub update
 - component: Other
   create_time: 20190217T23:50:00
@@ -19911,8 +19911,8 @@
 - component: Installation
   create_time: 20190221T01:39:00
   id: 1126166
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Kernel panic during install
 - component: YaST2
   create_time: 20190220T17:21:00
@@ -20725,8 +20725,8 @@
 - component: X.Org
   create_time: 20190313T08:44:00
   id: 1129035
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Very high load caused by GTM on Dell 7290
 - component: Other
   create_time: 20190313T07:55:00
@@ -21028,7 +21028,7 @@
   create_time: 20190318T11:00:00
   id: 1129566
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: ignition cannot write to /sysroot/etc with transactional-updates
 '20190320':
 - component: Kernel
@@ -21180,6 +21180,68 @@
   status: IN_PROGRESS
   summary: 'New release: xfce4-screensaver 0.1.4'
 '20190324':
+- component: YaST2
+  create_time: 20190324T18:56:00
+  id: 1130293
+  resolution: ''
+  status: CONFIRMED
+  summary: YaST2 Oxygen (not Breeze) icon theme is installed, but I see Hicolor icons
+    in YaST
+- component: Other
+  create_time: 20190324T04:12:00
+  id: 1130280
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: blender needs to be rebuilt against boost 1.69
+'20190325':
+- component: X11 3rd Party Driver
+  create_time: 20190327T16:57:00
+  id: 1130723
+  resolution: ''
+  status: NEW
+  summary: NVidia 418 driver does not detect display DPI
+- component: GNOME
+  create_time: 20190327T13:51:00
+  id: 1130689
+  resolution: ''
+  status: NEW
+  summary: Drag and drop closes session
+- component: X11 Applications
+  create_time: 20190327T12:17:00
+  id: 1130674
+  resolution: ''
+  status: NEW
+  summary: Download bar in chromium unreadable with dark theme
+- component: Bootloader
+  create_time: 20190327T11:48:00
+  id: 1130669
+  resolution: ''
+  status: NEW
+  summary: opensuse grub os-prober deletes subvolume on btrfs disk
+- component: LibreOffice
+  create_time: 20190327T10:50:00
+  id: 1130662
+  resolution: ''
+  status: NEW
+  summary: Fonts rendering problem
+- component: KDE Workspace (Plasma)
+  create_time: 20190327T10:27:00
+  id: 1130654
+  resolution: ''
+  status: NEW
+  summary: 'dbus session is not starting: /run/user/1000/bus: No such file or directory'
+- component: libzypp
+  create_time: 20190327T07:04:00
+  id: 1130626
+  resolution: ''
+  status: NEW
+  summary: zypper forgets package dependencies
+- component: Security
+  create_time: 20190327T05:55:00
+  id: 1130608
+  resolution: ''
+  status: NEW
+  summary: qtkeychain-qt5-devel package has invalid qt_Qt5Keychain.pri
 - component: Kernel
   create_time: 20190326T20:16:00
   id: 1130568
@@ -21204,8 +21266,8 @@
   id: 1130513
   resolution: ''
   status: NEW
-  summary: Qt 5.12.2 in all native Qt-applications, Cyrillic fonts are not displayed
-    correctly when smoothing with fullhint
+  summary: Qt 5.12.2 in all native Qt applications, fonts are not displayed correctly
+    when smoothing with fullhint (the letters move along the X axis)
 - component: Network
   create_time: 20190326T10:26:00
   id: 1130507
@@ -21222,7 +21284,7 @@
   create_time: 20190326T10:05:00
   id: 1130502
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: libyui-qt{,-pkg,graph} does not build with Qt 5.13
 - component: Kernel
   create_time: 20190326T08:02:00
@@ -21234,7 +21296,7 @@
   create_time: 20190326T07:18:00
   id: 1130478
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Rebase sle-classic patches over GNOME 3.32.0.
 - component: Kernel
   create_time: 20190325T23:18:00
@@ -21305,8 +21367,8 @@
 - component: Network
   create_time: 20190325T09:39:00
   id: 1130350
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: psqlODBC fails to build on Tumbleweed
 - component: X.Org
   create_time: 20190325T07:45:00
@@ -21326,16 +21388,3 @@
   resolution: ''
   status: NEW
   summary: kernel 5.0.2 - export symblos required for module drbd
-- component: YaST2
-  create_time: 20190324T18:56:00
-  id: 1130293
-  resolution: ''
-  status: NEW
-  summary: YaST2 Oxygen (not Breeze) icon theme is installed, but I see Hicolor icons
-    in YaST
-- component: Other
-  create_time: 20190324T04:12:00
-  id: 1130280
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: blender needs to be rebuilt against boost 1.69
