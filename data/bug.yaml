@@ -12398,8 +12398,8 @@
 - component: Xfce
   create_time: 20180913T20:18:00
   id: 1108381
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: missing recommends entry for gcr-ssh-askpass
 - component: Sound
   create_time: 20180913T18:30:00
