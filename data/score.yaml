@@ -713,8 +713,11 @@
   score: 76
   stability_level: pending
 '20190322':
-  score: 86
+  score: 85
   stability_level: pending
 '20190324':
-  score: 92
+  score: 94
+  stability_level: pending
+'20190325':
+  score: 94
   stability_level: pending
