@@ -1011,8 +1011,8 @@
 - component: GNOME
   create_time: 20171225T21:02:00
   id: 1074075
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: opening Software throws error
 - component: GNOME
   create_time: 20171225T20:32:00
@@ -5490,8 +5490,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180311T07:13:00
   id: 1084798
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'no protocol specified Error: Can''t open display:'
 '20180312':
 - component: Other
@@ -7319,8 +7319,8 @@
 - component: GNOME
   create_time: 20180417T08:39:00
   id: 1089813
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: right clicking or doubleclicking on the icons in "systray" doesn't work
     in wayland session
 - component: Other
@@ -8795,8 +8795,8 @@
 - component: Network
   create_time: 20180528T06:30:00
   id: 1094808
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kernels 4.15 and 4.16 break xl2tpd <  1.3.12
 '20180529':
 - component: Basesystem
@@ -9363,8 +9363,8 @@
 - component: GNOME
   create_time: 20180616T18:32:00
   id: 1097935
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: VLC terminates gnome session
 - component: YaST2
   create_time: 20180616T12:35:00
@@ -11443,8 +11443,8 @@
 - component: GNOME
   create_time: 20180809T07:30:00
   id: 1104305
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: User login prompt error after switch user
 - component: Basesystem
   create_time: 20180809T00:37:00
@@ -12902,8 +12902,8 @@
 - component: GNOME
   create_time: 20180925T06:17:00
   id: 1109551
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GNOME Contacts 3.30: no icon shown for running app in top panel'
 - component: Other
   create_time: 20180925T05:06:00
@@ -14199,8 +14199,8 @@
 - component: X.Org
   create_time: 20181025T05:17:00
   id: 1113211
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Chromium 70 update broke video playback on AMD videocards
 - component: Network
   create_time: 20181025T00:10:00
@@ -14895,8 +14895,8 @@
 - component: KDE Applications
   create_time: 20181106T14:27:00
   id: 1114866
-  resolution: ''
-  status: REOPENED
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: ICE difficulties with KTorrent 5.1.1
 - component: Security
   create_time: 20181106T13:00:00
@@ -17095,8 +17095,8 @@
 - component: Development
   create_time: 20181220T15:57:00
   id: 1120098
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Clang 7 packaging is inconsistent
 - component: KDE Workspace (Plasma)
   create_time: 20181220T14:47:00
@@ -17885,8 +17885,8 @@
 - component: GNOME
   create_time: 20190110T23:17:00
   id: 1121516
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Polari wont start
 - component: Basesystem
   create_time: 20190110T19:44:00
@@ -21108,8 +21108,8 @@
 - component: Ruby
   create_time: 20190321T09:04:00
   id: 1130028
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: /usr/bin/ruby.ruby2.6 is not a PIE executable
 - component: Network
   create_time: 20190321T06:35:00
@@ -21194,17 +21194,23 @@
   status: RESOLVED
   summary: blender needs to be rebuilt against boost 1.69
 '20190325':
+- component: Installation
+  create_time: 20190327T23:03:00
+  id: 1130743
+  resolution: ''
+  status: NEW
+  summary: nothing provides libboost_system.so.1.68.0()(64bit) needed by rstudio-1.2.679-1.3.x86_64
 - component: X11 3rd Party Driver
   create_time: 20190327T16:57:00
   id: 1130723
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: NVidia 418 driver does not detect display DPI
 - component: GNOME
   create_time: 20190327T13:51:00
   id: 1130689
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Drag and drop closes session
 - component: X11 Applications
   create_time: 20190327T12:17:00
@@ -21224,7 +21230,7 @@
   resolution: ''
   status: NEW
   summary: Fonts rendering problem
-- component: KDE Workspace (Plasma)
+- component: Basesystem
   create_time: 20190327T10:27:00
   id: 1130654
   resolution: ''
@@ -21245,8 +21251,8 @@
 - component: Kernel
   create_time: 20190326T20:16:00
   id: 1130568
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 5GHz WiFi are no longer discovered/visible
 - component: Other
   create_time: 20190326T14:52:00
