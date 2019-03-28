@@ -15937,8 +15937,8 @@
 - component: X.Org
   create_time: 20181112T13:03:00
   id: 1115627
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: xrandr crashes X when executed in xinitrc
 - component: Kernel
   create_time: 20181112T10:22:00
@@ -21195,12 +21195,24 @@
   summary: blender needs to be rebuilt against boost 1.69
 '20190325':
 - component: Other
+  create_time: 20190328T09:31:00
+  id: 1130797
+  resolution: ''
+  status: NEW
+  summary: libfuse and fuse-devel need updating
+- component: X11 Applications
+  create_time: 20190328T08:42:00
+  id: 1130790
+  resolution: ''
+  status: NEW
+  summary: re2 version 2019-03-01 breaks chromium build
+- component: Other
   create_time: 20190328T01:11:00
   id: 1130746
   resolution: ''
   status: NEW
   summary: Cron schedules only one job of crontab
-- component: Installation
+- component: Other
   create_time: 20190327T23:03:00
   id: 1130743
   resolution: ''
@@ -21230,6 +21242,13 @@
   resolution: ''
   status: NEW
   summary: opensuse grub os-prober deletes subvolume on btrfs disk
+- component: Development
+  create_time: 20190327T11:08:00
+  id: 1130664
+  resolution: ''
+  status: NEW
+  summary: 'Base:System/ltrace: Bug Error in `ltrace'': double free or corruption
+    (fasttop): 0x0000559676bba350'
 - component: LibreOffice
   create_time: 20190327T10:50:00
   id: 1130662
@@ -21239,8 +21258,8 @@
 - component: Basesystem
   create_time: 20190327T10:27:00
   id: 1130654
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'dbus session is not starting: /run/user/1000/bus: No such file or directory'
 - component: libzypp
   create_time: 20190327T07:04:00
@@ -21251,8 +21270,8 @@
 - component: Security
   create_time: 20190327T05:55:00
   id: 1130608
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: qtkeychain-qt5-devel package has invalid qt_Qt5Keychain.pri
 - component: Kernel
   create_time: 20190326T20:16:00
@@ -21397,6 +21416,6 @@
 - component: Kernel
   create_time: 20190325T02:01:00
   id: 1130295
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kernel 5.0.2 - export symblos required for module drbd
