@@ -19059,8 +19059,8 @@
 - component: Kubic
   create_time: 20190207T09:48:00
   id: 1124590
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: openSUSE-release and openSUSE-Tumbleweed-Kubic-release marked for installation
 - component: YaST2
   create_time: 20190207T09:23:00
@@ -21194,6 +21194,18 @@
   status: RESOLVED
   summary: blender needs to be rebuilt against boost 1.69
 '20190325':
+- component: Virtualization:Tools
+  create_time: 20190328T21:50:00
+  id: 1130898
+  resolution: ''
+  status: NEW
+  summary: open-vm-tools 10.3.10 has been released
+- component: Other
+  create_time: 20190328T18:40:00
+  id: 1130889
+  resolution: ''
+  status: NEW
+  summary: nothing provides libboost_system.so.1.68.0()(64bit) needed by aegisub-3.2.2+git20180710-2.1.x86_64
 - component: Java
   create_time: 20190328T13:33:00
   id: 1130843
@@ -21223,7 +21235,7 @@
   id: 1130723
   resolution: ''
   status: IN_PROGRESS
-  summary: NVidia 418 driver does not detect display DPI
+  summary: Wrong DPI when using suse-prime in nvidia mode
 - component: GNOME
   create_time: 20190327T13:51:00
   id: 1130689
