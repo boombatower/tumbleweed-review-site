@@ -1684,11 +1684,11 @@
     summary: cannot use scanner
 '20190324':
   announcement: 2019-03.363
-  reference_count: 1
+  reference_count: 2
   thread_count: 1
   threads:
   - messages: [2019-03.367]
-    reference_count: 1
+    reference_count: 2
     summary: released! => akonadi_control and kdewallet/kgpg error
 '20190325':
   announcement: 2019-03.365
