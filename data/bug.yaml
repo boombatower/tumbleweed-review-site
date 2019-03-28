@@ -19298,8 +19298,8 @@
 - component: YaST2
   create_time: 20190211T13:29:00
   id: 1124995
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: VERIFIED
   summary: '[Build 20190208] openQA test fails in yast2_rmt - nothing provides ruby2.5-rubygem-bundler'
 - component: YaST2
   create_time: 20190211T11:39:00
@@ -20247,8 +20247,8 @@
 - component: Other
   create_time: 20190304T09:02:00
   id: 1127686
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: VERIFIED
   summary: '[Build 20190301] rmt-server package is not available for TW'
 - component: Development
   create_time: 20190304T08:54:00
@@ -21194,18 +21194,18 @@
   status: RESOLVED
   summary: blender needs to be rebuilt against boost 1.69
 '20190325':
+- component: Java
+  create_time: 20190328T13:33:00
+  id: 1130843
+  resolution: ''
+  status: NEW
+  summary: Tomcat 9.0.13 update incompatible with tomcat-native
 - component: Other
   create_time: 20190328T09:31:00
   id: 1130797
   resolution: ''
   status: NEW
   summary: libfuse and fuse-devel need updating
-- component: X11 Applications
-  create_time: 20190328T08:42:00
-  id: 1130790
-  resolution: ''
-  status: NEW
-  summary: re2 version 2019-03-01 breaks chromium build
 - component: Other
   create_time: 20190328T01:11:00
   id: 1130746
@@ -21404,8 +21404,8 @@
 - component: X.Org
   create_time: 20190325T07:45:00
   id: 1130321
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: xdm shows black text fields for login and password
 - component: Other
   create_time: 20190325T05:22:00
