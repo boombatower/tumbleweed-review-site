@@ -21194,6 +21194,12 @@
   status: RESOLVED
   summary: blender needs to be rebuilt against boost 1.69
 '20190325':
+- component: Other
+  create_time: 20190328T01:11:00
+  id: 1130746
+  resolution: ''
+  status: NEW
+  summary: Cron schedules only one job of crontab
 - component: Installation
   create_time: 20190327T23:03:00
   id: 1130743
