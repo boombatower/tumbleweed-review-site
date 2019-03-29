@@ -19317,7 +19317,7 @@
   create_time: 20190210T22:33:00
   id: 1124911
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Tumbleweed Installer Crashes When Updating Online Repositories
 - component: X.Org
   create_time: 20190210T21:11:00
@@ -20773,8 +20773,8 @@
 - component: Installation
   create_time: 20190312T13:34:00
   id: 1128907
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[201903*] Not able to remove a partition when installing on a UEFI system'
 - component: KDE Workspace (Plasma)
   create_time: 20190312T12:17:00
@@ -20809,8 +20809,8 @@
 - component: Other
   create_time: 20190312T09:46:00
   id: 1128844
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: scdoc with flawed pkgconfig file
 - component: GNOME
   create_time: 20190312T08:52:00
@@ -21194,6 +21194,24 @@
   status: RESOLVED
   summary: blender needs to be rebuilt against boost 1.69
 '20190325':
+- component: YaST2
+  create_time: 20190329T10:09:00
+  id: 1130957
+  resolution: ''
+  status: NEW
+  summary: yast2_storage_ng fails to build on ARM
+- component: YaST2
+  create_time: 20190329T09:51:00
+  id: 1130952
+  resolution: ''
+  status: NEW
+  summary: Warn about non-utf8 locale during upgrade
+- component: Development
+  create_time: 20190329T08:12:00
+  id: 1130928
+  resolution: ''
+  status: NEW
+  summary: It is actually not possible to install mysql-workbench
 - component: Virtualization:Tools
   create_time: 20190328T21:50:00
   id: 1130898
@@ -21204,7 +21222,7 @@
   create_time: 20190328T18:40:00
   id: 1130889
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: nothing provides libboost_system.so.1.68.0()(64bit) needed by aegisub-3.2.2+git20180710-2.1.x86_64
 - component: Java
   create_time: 20190328T13:33:00
