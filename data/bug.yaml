@@ -5465,8 +5465,8 @@
 - component: Basesystem
   create_time: 20180311T23:52:00
   id: 1084818
-  resolution: INVALID
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: initrd always ask for password also if password is provided in /etc/crypttab
 - component: Network
   create_time: 20180311T19:27:00
@@ -21341,6 +21341,18 @@
   status: RESOLVED
   summary: kernel 5.0.2 - export symblos required for module drbd
 '20190327':
+- component: Kernel
+  create_time: 20190329T21:36:00
+  id: 1131048
+  resolution: ''
+  status: NEW
+  summary: kernel 4.20 and 5 make x11 not starting
+- component: Upgrade Problems
+  create_time: 20190329T18:13:00
+  id: 1131032
+  resolution: ''
+  status: NEW
+  summary: vmware player can't build vm-modules after update to kernel 5.x.x
 - component: Other
   create_time: 20190329T14:34:00
   id: 1131016
