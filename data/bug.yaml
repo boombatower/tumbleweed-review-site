@@ -17166,8 +17166,8 @@
 - component: Installation
   create_time: 20190107T16:18:00
   id: 1120957
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190103] keyboard language cannot be changed in textmode on qemu'
 - component: Development
   create_time: 20190107T14:58:00
@@ -21194,115 +21194,6 @@
   status: RESOLVED
   summary: blender needs to be rebuilt against boost 1.69
 '20190325':
-- component: YaST2
-  create_time: 20190329T10:09:00
-  id: 1130957
-  resolution: ''
-  status: NEW
-  summary: yast2_storage_ng fails to build on ARM
-- component: YaST2
-  create_time: 20190329T09:51:00
-  id: 1130952
-  resolution: ''
-  status: NEW
-  summary: Warn about non-utf8 locale during upgrade
-- component: Development
-  create_time: 20190329T08:12:00
-  id: 1130928
-  resolution: ''
-  status: NEW
-  summary: It is actually not possible to install mysql-workbench
-- component: Virtualization:Tools
-  create_time: 20190328T21:50:00
-  id: 1130898
-  resolution: ''
-  status: NEW
-  summary: open-vm-tools 10.3.10 has been released
-- component: Other
-  create_time: 20190328T18:40:00
-  id: 1130889
-  resolution: ''
-  status: IN_PROGRESS
-  summary: nothing provides libboost_system.so.1.68.0()(64bit) needed by aegisub-3.2.2+git20180710-2.1.x86_64
-- component: Java
-  create_time: 20190328T13:33:00
-  id: 1130843
-  resolution: ''
-  status: NEW
-  summary: Tomcat 9.0.13 update incompatible with tomcat-native
-- component: Other
-  create_time: 20190328T09:31:00
-  id: 1130797
-  resolution: ''
-  status: NEW
-  summary: libfuse and fuse-devel need updating
-- component: Other
-  create_time: 20190328T01:11:00
-  id: 1130746
-  resolution: ''
-  status: NEW
-  summary: Cron schedules only one job of crontab
-- component: Other
-  create_time: 20190327T23:03:00
-  id: 1130743
-  resolution: ''
-  status: NEW
-  summary: nothing provides libboost_system.so.1.68.0()(64bit) needed by rstudio-1.2.679-1.3.x86_64
-- component: X11 3rd Party Driver
-  create_time: 20190327T16:57:00
-  id: 1130723
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Wrong DPI when using suse-prime in nvidia mode
-- component: GNOME
-  create_time: 20190327T13:51:00
-  id: 1130689
-  resolution: FIXED
-  status: RESOLVED
-  summary: Drag and drop closes session
-- component: X11 Applications
-  create_time: 20190327T12:17:00
-  id: 1130674
-  resolution: ''
-  status: NEW
-  summary: Download bar in chromium unreadable with dark theme
-- component: Bootloader
-  create_time: 20190327T11:48:00
-  id: 1130669
-  resolution: ''
-  status: NEW
-  summary: opensuse grub os-prober deletes subvolume on btrfs disk
-- component: Development
-  create_time: 20190327T11:08:00
-  id: 1130664
-  resolution: ''
-  status: NEW
-  summary: 'Base:System/ltrace: Bug Error in `ltrace'': double free or corruption
-    (fasttop): 0x0000559676bba350'
-- component: LibreOffice
-  create_time: 20190327T10:50:00
-  id: 1130662
-  resolution: ''
-  status: NEW
-  summary: Fonts rendering problem
-- component: Basesystem
-  create_time: 20190327T10:27:00
-  id: 1130654
-  resolution: INVALID
-  status: RESOLVED
-  summary: 'dbus session is not starting: /run/user/1000/bus: No such file or directory'
-- component: libzypp
-  create_time: 20190327T07:04:00
-  id: 1130626
-  resolution: ''
-  status: NEW
-  summary: zypper forgets package dependencies
-- component: Security
-  create_time: 20190327T05:55:00
-  id: 1130608
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: qtkeychain-qt5-devel package has invalid qt_Qt5Keychain.pri
 - component: Kernel
   create_time: 20190326T20:16:00
   id: 1130568
@@ -21449,3 +21340,119 @@
   resolution: FIXED
   status: RESOLVED
   summary: kernel 5.0.2 - export symblos required for module drbd
+'20190327':
+- component: Other
+  create_time: 20190329T14:34:00
+  id: 1131016
+  resolution: ''
+  status: NEW
+  summary: cargo 1.32 SIGILL for ppc64le when building rust
+- component: YaST2
+  create_time: 20190329T10:09:00
+  id: 1130957
+  resolution: ''
+  status: NEW
+  summary: yast2_storage_ng fails to build on ARM
+- component: YaST2
+  create_time: 20190329T09:51:00
+  id: 1130952
+  resolution: ''
+  status: NEW
+  summary: Warn about non-utf8 locale during upgrade
+- component: Development
+  create_time: 20190329T08:12:00
+  id: 1130928
+  resolution: ''
+  status: NEW
+  summary: It is actually not possible to install mysql-workbench
+- component: Virtualization:Tools
+  create_time: 20190328T21:50:00
+  id: 1130898
+  resolution: ''
+  status: NEW
+  summary: open-vm-tools 10.3.10 has been released
+- component: Other
+  create_time: 20190328T18:40:00
+  id: 1130889
+  resolution: ''
+  status: IN_PROGRESS
+  summary: nothing provides libboost_system.so.1.68.0()(64bit) needed by aegisub-3.2.2+git20180710-2.1.x86_64
+- component: Java
+  create_time: 20190328T13:33:00
+  id: 1130843
+  resolution: ''
+  status: NEW
+  summary: Tomcat 9.0.13 update incompatible with tomcat-native
+- component: Other
+  create_time: 20190328T09:31:00
+  id: 1130797
+  resolution: ''
+  status: NEW
+  summary: libfuse and fuse-devel need updating
+- component: Other
+  create_time: 20190328T01:11:00
+  id: 1130746
+  resolution: ''
+  status: NEW
+  summary: Cron schedules only one job of crontab
+- component: Other
+  create_time: 20190327T23:03:00
+  id: 1130743
+  resolution: ''
+  status: NEW
+  summary: nothing provides libboost_system.so.1.68.0()(64bit) needed by rstudio-1.2.679-1.3.x86_64
+- component: X11 3rd Party Driver
+  create_time: 20190327T16:57:00
+  id: 1130723
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Wrong DPI when using suse-prime in nvidia mode
+- component: GNOME
+  create_time: 20190327T13:51:00
+  id: 1130689
+  resolution: FIXED
+  status: RESOLVED
+  summary: Drag and drop closes session
+- component: X11 Applications
+  create_time: 20190327T12:17:00
+  id: 1130674
+  resolution: ''
+  status: NEW
+  summary: Download bar in chromium unreadable with dark theme
+- component: Bootloader
+  create_time: 20190327T11:48:00
+  id: 1130669
+  resolution: ''
+  status: NEW
+  summary: opensuse grub os-prober deletes subvolume on btrfs disk
+- component: Development
+  create_time: 20190327T11:08:00
+  id: 1130664
+  resolution: ''
+  status: NEW
+  summary: 'Base:System/ltrace: Bug Error in `ltrace'': double free or corruption
+    (fasttop): 0x0000559676bba350'
+- component: LibreOffice
+  create_time: 20190327T10:50:00
+  id: 1130662
+  resolution: ''
+  status: NEW
+  summary: Fonts rendering problem
+- component: Basesystem
+  create_time: 20190327T10:27:00
+  id: 1130654
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'dbus session is not starting: /run/user/1000/bus: No such file or directory'
+- component: libzypp
+  create_time: 20190327T07:04:00
+  id: 1130626
+  resolution: INVALID
+  status: RESOLVED
+  summary: zypper forgets package dependencies
+- component: Security
+  create_time: 20190327T05:55:00
+  id: 1130608
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: qtkeychain-qt5-devel package has invalid qt_Qt5Keychain.pri
