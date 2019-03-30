@@ -13300,12 +13300,6 @@
   resolution: ''
   status: NEW
   summary: Pidgin spellcheck underline words and lang switcher not available
-- component: Salt
-  create_time: 20181005T14:04:00
-  id: 1110932
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'TypeError: run() got an unexpected keyword argument ''async'''
 - component: Upgrade Problems
   create_time: 20181004T20:52:00
   id: 1110822
