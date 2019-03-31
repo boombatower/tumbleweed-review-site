@@ -20532,7 +20532,7 @@
   resolution: ''
   status: CONFIRMED
   summary: '''Unable to handle kernel paging request at virtual address ffffd5023df74718''
-    error on iptable on RPi3 B+'
+    error on iptable'
 - component: Other
   create_time: 20190308T14:02:00
   id: 1128524
