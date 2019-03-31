@@ -21335,6 +21335,12 @@
   status: RESOLVED
   summary: kernel 5.0.2 - export symblos required for module drbd
 '20190327':
+- component: Other
+  create_time: 20190331T07:59:00
+  id: 1131072
+  resolution: ''
+  status: NEW
+  summary: fonts-config overrides local fontconfig settings
 - component: KDE Applications
   create_time: 20190330T13:47:00
   id: 1131065
