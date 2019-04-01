@@ -18312,7 +18312,8 @@
   id: 1122165
   resolution: ''
   status: NEW
-  summary: '[Build 20190115] openQA test fails in swing'
+  summary: '[Build 20190115] swing applications don''t render when using 16bit color
+    depth (eg. 565 TrueColor Visual when using CirrusFB)'
 - component: Kubic
   create_time: 20190116T10:27:00
   id: 1122154
@@ -20056,8 +20057,8 @@
 - component: Kernel
   create_time: 20190228T11:06:00
   id: 1127339
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'kernel: efi: EFI_MEMMAP is not enabled'
 - component: Development
   create_time: 20190227T20:58:00
@@ -21335,6 +21336,36 @@
   status: RESOLVED
   summary: kernel 5.0.2 - export symblos required for module drbd
 '20190327':
+- component: Kernel
+  create_time: 20190401T17:25:00
+  id: 1131188
+  resolution: ''
+  status: NEW
+  summary: Reboot issues on Linux Kernel version 5.0.3-1-default
+- component: Virtualization:Tools
+  create_time: 20190401T16:31:00
+  id: 1131184
+  resolution: ''
+  status: NEW
+  summary: virt-sysprep fails with OOM in "find0"
+- component: Kernel
+  create_time: 20190401T16:12:00
+  id: 1131182
+  resolution: ''
+  status: NEW
+  summary: Kernel panic related to mpt3sas module
+- component: libzypp
+  create_time: 20190401T15:28:00
+  id: 1131165
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[libzypp] Breaks with CMake 3.14'
+- component: Kernel
+  create_time: 20190401T13:58:00
+  id: 1131152
+  resolution: ''
+  status: NEW
+  summary: '[Tumbleweed] kernel 5.0 does not start with raid1 disks -'
 - component: Other
   create_time: 20190401T07:06:00
   id: 1131096
@@ -21363,8 +21394,8 @@
 - component: Other
   create_time: 20190331T18:17:00
   id: 1131077
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: PostgreSQL database not supported by Minetest 5.0.0
 - component: GNOME
   create_time: 20190331T18:07:00
@@ -21415,13 +21446,13 @@
   create_time: 20190329T10:09:00
   id: 1130957
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: yast2_storage_ng fails to build on ARM
 - component: YaST2
   create_time: 20190329T09:51:00
   id: 1130952
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Warn about non-utf8 locale during upgrade
 - component: Development
   create_time: 20190329T08:12:00
@@ -21456,8 +21487,8 @@
 - component: Other
   create_time: 20190328T01:11:00
   id: 1130746
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Cron schedules only one job of crontab
 - component: Other
   create_time: 20190327T23:03:00
@@ -21468,8 +21499,8 @@
 - component: X11 3rd Party Driver
   create_time: 20190327T16:57:00
   id: 1130723
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Wrong DPI when using suse-prime in nvidia mode
 - component: GNOME
   create_time: 20190327T13:51:00
