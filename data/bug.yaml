@@ -21336,6 +21336,19 @@
   summary: kernel 5.0.2 - export symblos required for module drbd
 '20190327':
 - component: Other
+  create_time: 20190331T18:17:00
+  id: 1131077
+  resolution: ''
+  status: NEW
+  summary: PostgreSQL database not supported by Minetest 5.0.0
+- component: GNOME
+  create_time: 20190331T18:07:00
+  id: 1131076
+  resolution: ''
+  status: NEW
+  summary: Gnome applications fail to start after zypper update and gets fixed by
+    forcing gsettings-desktop-schemas
+- component: Other
   create_time: 20190331T07:59:00
   id: 1131072
   resolution: ''
