@@ -20469,7 +20469,7 @@
   create_time: 20190306T16:45:00
   id: 1128195
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: gnome-control-center -- Patches needs dropping or rebase
 - component: GNOME
   create_time: 20190306T16:44:00
@@ -21336,6 +21336,18 @@
   summary: kernel 5.0.2 - export symblos required for module drbd
 '20190327':
 - component: Other
+  create_time: 20190401T07:06:00
+  id: 1131096
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190329] GNUHealth no longer installable'
+- component: Other
+  create_time: 20190401T07:02:00
+  id: 1131094
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190329] docker-compose no longer functional'
+- component: Other
   create_time: 20190401T03:06:00
   id: 1131084
   resolution: ''
@@ -21378,7 +21390,7 @@
   create_time: 20190330T12:07:00
   id: 1131063
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Prime select is broken, which makes nvidia useless. My game runs 100 fps
     below, what it used to.
 - component: Kernel
@@ -21387,7 +21399,7 @@
   resolution: ''
   status: NEW
   summary: kernel 4.20 and 5 make x11 not starting
-- component: Upgrade Problems
+- component: Other
   create_time: 20190329T18:13:00
   id: 1131032
   resolution: ''
@@ -21445,7 +21457,7 @@
   create_time: 20190328T01:11:00
   id: 1130746
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Cron schedules only one job of crontab
 - component: Other
   create_time: 20190327T23:03:00
