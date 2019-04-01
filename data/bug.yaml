@@ -20953,8 +20953,8 @@
 - component: Xfce
   create_time: 20190315T20:37:00
   id: 1129464
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: without desktop wallpaper after last update (snapshot 20190314 )
 - component: GNOME
   create_time: 20190315T18:35:00
@@ -21335,6 +21335,19 @@
   status: RESOLVED
   summary: kernel 5.0.2 - export symblos required for module drbd
 '20190327':
+- component: Other
+  create_time: 20190401T03:06:00
+  id: 1131084
+  resolution: ''
+  status: NEW
+  summary: 'Build packages in docker fails /usr/lib/rpm/find-debuginfo.sh: line 519:
+    /dev/fd/62: No such file or directory'
+- component: Network
+  create_time: 20190401T01:07:00
+  id: 1131082
+  resolution: ''
+  status: NEW
+  summary: No wireless connection with iwlwifi driver
 - component: Other
   create_time: 20190331T18:17:00
   id: 1131077
