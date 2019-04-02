@@ -19441,8 +19441,8 @@
 - component: Security
   create_time: 20190214T11:12:00
   id: 1125434
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'PackageKit: removal of /usr/share/polkit-1/rules.d/org.freedesktop.packagekit.rules'
 - component: Security
   create_time: 20190214T10:58:00
@@ -21336,6 +21336,31 @@
   status: RESOLVED
   summary: kernel 5.0.2 - export symblos required for module drbd
 '20190327':
+- component: Network
+  create_time: 20190402T11:53:00
+  id: 1131280
+  resolution: ''
+  status: NEW
+  summary: Realtek RTL810xE stops working after closing lid
+- component: Kernel
+  create_time: 20190402T10:36:00
+  id: 1131264
+  resolution: ''
+  status: NEW
+  summary: 'Backport x86/retpolines: Disable switch jump tables when retpolines are
+    enabled (a9d57ef15cbe327fe54416dd194ee0ea66ae53a4)'
+- component: Basesystem
+  create_time: 20190402T08:50:00
+  id: 1131244
+  resolution: ''
+  status: NEW
+  summary: cronie 1.5.3 only executes one line from each crontab file
+- component: YaST2
+  create_time: 20190402T07:32:00
+  id: 1131234
+  resolution: ''
+  status: CONFIRMED
+  summary: Obsolete BuildRequires in YaST packages
 - component: Kernel
   create_time: 20190402T01:57:00
   id: 1131208
@@ -21529,8 +21554,8 @@
 - component: Development
   create_time: 20190327T11:08:00
   id: 1130664
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Base:System/ltrace: Bug Error in `ltrace'': double free or corruption
     (fasttop): 0x0000559676bba350'
 - component: LibreOffice
