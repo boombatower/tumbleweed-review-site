@@ -21122,8 +21122,8 @@
 - component: KDE Applications
   create_time: 20190323T09:41:00
   id: 1130272
-  resolution: DUPLICATE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: krdc can not connect to windows RDP hosts
 - component: Basesystem
   create_time: 20190323T09:12:00
@@ -21336,92 +21336,6 @@
   status: RESOLVED
   summary: kernel 5.0.2 - export symblos required for module drbd
 '20190327':
-- component: Network
-  create_time: 20190402T11:53:00
-  id: 1131280
-  resolution: ''
-  status: NEW
-  summary: Realtek RTL810xE stops working after closing lid
-- component: Kernel
-  create_time: 20190402T10:36:00
-  id: 1131264
-  resolution: ''
-  status: NEW
-  summary: 'Backport x86/retpolines: Disable switch jump tables when retpolines are
-    enabled (a9d57ef15cbe327fe54416dd194ee0ea66ae53a4)'
-- component: Basesystem
-  create_time: 20190402T08:50:00
-  id: 1131244
-  resolution: ''
-  status: NEW
-  summary: cronie 1.5.3 only executes one line from each crontab file
-- component: YaST2
-  create_time: 20190402T07:32:00
-  id: 1131234
-  resolution: ''
-  status: CONFIRMED
-  summary: Obsolete BuildRequires in YaST packages
-- component: Kernel
-  create_time: 20190402T01:57:00
-  id: 1131208
-  resolution: ''
-  status: NEW
-  summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
-- component: Kernel
-  create_time: 20190401T17:25:00
-  id: 1131188
-  resolution: ''
-  status: NEW
-  summary: Reboot issues on Linux Kernel version 5.0.3-1-default
-- component: Virtualization:Tools
-  create_time: 20190401T16:31:00
-  id: 1131184
-  resolution: ''
-  status: NEW
-  summary: virt-sysprep fails with OOM in "find0"
-- component: Kernel
-  create_time: 20190401T16:12:00
-  id: 1131182
-  resolution: ''
-  status: NEW
-  summary: Kernel panic related to mpt3sas module
-- component: libzypp
-  create_time: 20190401T15:28:00
-  id: 1131165
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[libzypp] Breaks with CMake 3.14'
-- component: Kernel
-  create_time: 20190401T13:58:00
-  id: 1131152
-  resolution: ''
-  status: NEW
-  summary: '[Tumbleweed] kernel 5.0 does not start with raid1 disks -'
-- component: Other
-  create_time: 20190401T07:06:00
-  id: 1131096
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190329] GNUHealth no longer installable'
-- component: Other
-  create_time: 20190401T07:02:00
-  id: 1131094
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20190329] docker-compose no longer functional'
-- component: Other
-  create_time: 20190401T03:06:00
-  id: 1131084
-  resolution: ''
-  status: NEW
-  summary: 'Build packages in docker fails /usr/lib/rpm/find-debuginfo.sh: line 519:
-    /dev/fd/62: No such file or directory'
-- component: Network
-  create_time: 20190401T01:07:00
-  id: 1131082
-  resolution: ''
-  status: NEW
-  summary: No wireless connection with iwlwifi driver
 - component: Other
   create_time: 20190331T18:17:00
   id: 1131077
@@ -21582,3 +21496,97 @@
   resolution: UPSTREAM
   status: RESOLVED
   summary: qtkeychain-qt5-devel package has invalid qt_Qt5Keychain.pri
+'20190401':
+- component: Other
+  create_time: 20190402T13:08:00
+  id: 1131299
+  resolution: ''
+  status: NEW
+  summary: fontconfig creates an enormous number of files in /var/cache/fontconfig
+    that are never cleaned up
+- component: Network
+  create_time: 20190402T11:53:00
+  id: 1131280
+  resolution: ''
+  status: NEW
+  summary: Realtek RTL810xE stops working after closing lid
+- component: Kernel
+  create_time: 20190402T10:36:00
+  id: 1131264
+  resolution: ''
+  status: NEW
+  summary: 'Backport x86/retpolines: Disable switch jump tables when retpolines are
+    enabled (a9d57ef15cbe327fe54416dd194ee0ea66ae53a4)'
+- component: Basesystem
+  create_time: 20190402T08:50:00
+  id: 1131244
+  resolution: ''
+  status: NEW
+  summary: cronie 1.5.3 only executes one line from each crontab file
+- component: YaST2
+  create_time: 20190402T07:32:00
+  id: 1131234
+  resolution: ''
+  status: CONFIRMED
+  summary: Obsolete BuildRequires in YaST packages
+- component: Kernel
+  create_time: 20190402T01:57:00
+  id: 1131208
+  resolution: ''
+  status: NEW
+  summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
+- component: Kernel
+  create_time: 20190401T17:25:00
+  id: 1131188
+  resolution: ''
+  status: NEW
+  summary: Reboot issues on Linux Kernel version 5.0.3-1-default
+- component: Virtualization:Tools
+  create_time: 20190401T16:31:00
+  id: 1131184
+  resolution: ''
+  status: NEW
+  summary: virt-sysprep fails with OOM in "find0"
+- component: Kernel
+  create_time: 20190401T16:12:00
+  id: 1131182
+  resolution: ''
+  status: NEW
+  summary: Kernel panic related to mpt3sas module
+- component: libzypp
+  create_time: 20190401T15:28:00
+  id: 1131165
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[libzypp] Breaks with CMake 3.14'
+- component: Kernel
+  create_time: 20190401T13:58:00
+  id: 1131152
+  resolution: ''
+  status: NEW
+  summary: '[Tumbleweed] kernel 5.0 does not start with raid1 disks -'
+- component: Other
+  create_time: 20190401T07:06:00
+  id: 1131096
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190329] GNUHealth no longer installable'
+- component: Other
+  create_time: 20190401T07:02:00
+  id: 1131094
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190329] docker-compose no longer functional'
+- component: Other
+  create_time: 20190401T03:06:00
+  id: 1131084
+  resolution: ''
+  status: NEW
+  summary: 'Build packages in docker fails /usr/lib/rpm/find-debuginfo.sh: line 519:
+    /dev/fd/62: No such file or directory'
+- component: Network
+  create_time: 20190401T01:07:00
+  id: 1131082
+  resolution: ''
+  status: NEW
+  summary: No wireless connection with iwlwifi driver
