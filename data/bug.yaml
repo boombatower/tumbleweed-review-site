@@ -21122,8 +21122,8 @@
 - component: KDE Applications
   create_time: 20190323T09:41:00
   id: 1130272
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: krdc can not connect to windows RDP hosts
 - component: Basesystem
   create_time: 20190323T09:12:00
@@ -21171,8 +21171,8 @@
 - component: Xfce
   create_time: 20190322T11:15:00
   id: 1130194
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'New release: xfce4-screensaver 0.1.4'
 '20190324':
 - component: YaST2
