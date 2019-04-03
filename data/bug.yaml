@@ -19881,8 +19881,8 @@
 - component: Network
   create_time: 20190221T11:45:00
   id: 1126269
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'qutebrowser: missing PyQtWebEngine'
 - component: Development
   create_time: 20190221T10:29:00
@@ -21385,7 +21385,7 @@
   create_time: 20190329T14:34:00
   id: 1131016
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: cargo 1.32 SIGILL for ppc64le when building rust
 - component: YaST2
   create_time: 20190329T10:09:00
@@ -21497,6 +21497,12 @@
   status: RESOLVED
   summary: qtkeychain-qt5-devel package has invalid qt_Qt5Keychain.pri
 '20190401':
+- component: Bootloader
+  create_time: 20190402T19:56:00
+  id: 1131337
+  resolution: ''
+  status: NEW
+  summary: X850 V1.3 hat for Raspberry Pi 3 is not working within u-boot
 - component: Other
   create_time: 20190402T13:08:00
   id: 1131299
