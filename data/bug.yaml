@@ -6499,8 +6499,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180331T00:46:00
   id: 1087693
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: poor login behavior/interaction with software updates *and* network manager
     in KDE
 - component: KDE Applications
@@ -19024,8 +19024,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190207T19:07:00
   id: 1124684
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: The Software Updates check applet always fails at boot
 - component: Installation
   create_time: 20190207T18:37:00
@@ -21122,8 +21122,8 @@
 - component: KDE Applications
   create_time: 20190323T09:41:00
   id: 1130272
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: krdc can not connect to windows RDP hosts
 - component: Basesystem
   create_time: 20190323T09:12:00
@@ -21372,8 +21372,8 @@
 - component: Kernel
   create_time: 20190329T21:36:00
   id: 1131048
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kernel 4.20 and 5 make x11 not starting
 - component: Other
   create_time: 20190329T18:13:00
@@ -21497,18 +21497,36 @@
   status: RESOLVED
   summary: qtkeychain-qt5-devel package has invalid qt_Qt5Keychain.pri
 '20190401':
+- component: Kernel
+  create_time: 20190403T14:35:00
+  id: 1131437
+  resolution: ''
+  status: NEW
+  summary: dbench4 regression with 5.0 kernel on anderson and marvin7
+- component: Other
+  create_time: 20190403T14:30:00
+  id: 1131436
+  resolution: ''
+  status: NEW
+  summary: texlive-fontawesome5 does not update updmap on install/uninstall
+- component: Basesystem
+  create_time: 20190403T13:50:00
+  id: 1131432
+  resolution: ''
+  status: NEW
+  summary: fstrim running at boot seemingly using all CPU and I/O, blocking display
+    manager appearance
 - component: Other
   create_time: 20190403T11:00:00
   id: 1131403
-  resolution: ''
-  status: NEW
-  summary: 'server:database:postgresql/postgresql11: Bug postgresql-devel use postgresql10
-    variant (Tumbleweed)'
+  resolution: FIXED
+  status: RESOLVED
+  summary: Application:Geo project config needs adjustment for PostgreSQL 11
 - component: Containers
   create_time: 20190403T10:03:00
   id: 1131393
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[Build 20190402] openQA test fails in docker: docker.service fails to
     start on JeOS'
 - component: Bootloader
