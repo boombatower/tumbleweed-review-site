@@ -11060,8 +11060,8 @@
 - component: Other
   create_time: 20180727T09:47:00
   id: 1102852
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: perl-IO-Socket-SSL fails to build in 2019-03
 - component: Other
   create_time: 20180727T09:17:00
@@ -20666,7 +20666,7 @@
   create_time: 20190311T11:44:00
   id: 1128707
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20190310] Element profile has extra content: add-on'
 - component: AppArmor
   create_time: 20190311T10:54:00
@@ -20708,8 +20708,8 @@
 - component: GNOME
   create_time: 20190313T13:25:00
   id: 1129083
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Network manager consumes 100% CPU shortly after startup
 - component: Basesystem
   create_time: 20190313T08:47:00
@@ -21390,8 +21390,8 @@
 - component: YaST2
   create_time: 20190329T10:09:00
   id: 1130957
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2_storage_ng fails to build on ARM
 - component: YaST2
   create_time: 20190329T09:51:00
@@ -21497,6 +21497,20 @@
   status: RESOLVED
   summary: qtkeychain-qt5-devel package has invalid qt_Qt5Keychain.pri
 '20190401':
+- component: Other
+  create_time: 20190403T11:00:00
+  id: 1131403
+  resolution: ''
+  status: NEW
+  summary: 'server:database:postgresql/postgresql11: Bug postgresql-devel use postgresql10
+    variant (Tumbleweed)'
+- component: Containers
+  create_time: 20190403T10:03:00
+  id: 1131393
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190402] openQA test fails in docker: docker.service fails to
+    start on JeOS'
 - component: Bootloader
   create_time: 20190402T19:56:00
   id: 1131337
