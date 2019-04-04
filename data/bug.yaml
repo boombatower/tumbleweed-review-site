@@ -13053,12 +13053,6 @@
   resolution: FIXED
   status: RESOLVED
   summary: pcscd fails to find Yubikey (LIBUSB_ERROR_TIMEOUT)
-- component: Basesystem
-  create_time: 20180930T18:03:00
-  id: 1110259
-  resolution: ''
-  status: NEW
-  summary: btrfsmaintenance update hangs waiting for job restarts
 - component: Kernel
   create_time: 20180930T13:49:00
   id: 1110253
@@ -20702,8 +20696,8 @@
 - component: Kubic
   create_time: 20190313T15:35:00
   id: 1129095
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Make yast2_caasp kubeadm ntp screen more genericly available
 - component: GNOME
   create_time: 20190313T13:25:00
@@ -21553,6 +21547,20 @@
   status: NEW
   summary: No wireless connection with iwlwifi driver
 '20190402':
+- component: libzypp
+  create_time: 20190404T11:41:00
+  id: 1131542
+  resolution: INVALID
+  status: RESOLVED
+  summary: zypper aborts after downloading but before installing packages if one package
+    from another repository was not possible to download, even if that download problem
+    was deliberately ignored by the user
+- component: libzypp
+  create_time: 20190404T09:42:00
+  id: 1131514
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: "Technical difficulty with download of \u201Cyast2-trans-de-84.87\u201D"
 - component: Mono
   create_time: 20190403T18:51:00
   id: 1131456
@@ -21563,7 +21571,7 @@
   create_time: 20190403T14:35:00
   id: 1131437
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: dbench4 regression with 5.0 kernel on anderson and marvin7
 - component: Other
   create_time: 20190403T14:30:00
