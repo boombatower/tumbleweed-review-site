@@ -21498,6 +21498,68 @@
   summary: qtkeychain-qt5-devel package has invalid qt_Qt5Keychain.pri
 '20190401':
 - component: Kernel
+  create_time: 20190401T17:25:00
+  id: 1131188
+  resolution: ''
+  status: NEW
+  summary: Reboot issues on Linux Kernel version 5.0.3-1-default
+- component: Virtualization:Tools
+  create_time: 20190401T16:31:00
+  id: 1131184
+  resolution: ''
+  status: NEW
+  summary: virt-sysprep fails with OOM in "find0"
+- component: Kernel
+  create_time: 20190401T16:12:00
+  id: 1131182
+  resolution: ''
+  status: NEW
+  summary: Kernel panic related to mpt3sas module
+- component: libzypp
+  create_time: 20190401T15:28:00
+  id: 1131165
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[libzypp] Breaks with CMake 3.14'
+- component: Kernel
+  create_time: 20190401T13:58:00
+  id: 1131152
+  resolution: ''
+  status: NEW
+  summary: '[Tumbleweed] kernel 5.0 does not start with raid1 disks -'
+- component: Other
+  create_time: 20190401T07:06:00
+  id: 1131096
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190329] GNUHealth no longer installable'
+- component: Other
+  create_time: 20190401T07:02:00
+  id: 1131094
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190329] docker-compose no longer functional'
+- component: Other
+  create_time: 20190401T03:06:00
+  id: 1131084
+  resolution: ''
+  status: NEW
+  summary: 'Build packages in docker fails /usr/lib/rpm/find-debuginfo.sh: line 519:
+    /dev/fd/62: No such file or directory'
+- component: Network
+  create_time: 20190401T01:07:00
+  id: 1131082
+  resolution: ''
+  status: NEW
+  summary: No wireless connection with iwlwifi driver
+'20190402':
+- component: Mono
+  create_time: 20190403T18:51:00
+  id: 1131456
+  resolution: ''
+  status: NEW
+  summary: 'Mono: strange compile error with csc'
+- component: Kernel
   create_time: 20190403T14:35:00
   id: 1131437
   resolution: ''
@@ -21573,58 +21635,3 @@
   resolution: ''
   status: NEW
   summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
-- component: Kernel
-  create_time: 20190401T17:25:00
-  id: 1131188
-  resolution: ''
-  status: NEW
-  summary: Reboot issues on Linux Kernel version 5.0.3-1-default
-- component: Virtualization:Tools
-  create_time: 20190401T16:31:00
-  id: 1131184
-  resolution: ''
-  status: NEW
-  summary: virt-sysprep fails with OOM in "find0"
-- component: Kernel
-  create_time: 20190401T16:12:00
-  id: 1131182
-  resolution: ''
-  status: NEW
-  summary: Kernel panic related to mpt3sas module
-- component: libzypp
-  create_time: 20190401T15:28:00
-  id: 1131165
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[libzypp] Breaks with CMake 3.14'
-- component: Kernel
-  create_time: 20190401T13:58:00
-  id: 1131152
-  resolution: ''
-  status: NEW
-  summary: '[Tumbleweed] kernel 5.0 does not start with raid1 disks -'
-- component: Other
-  create_time: 20190401T07:06:00
-  id: 1131096
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190329] GNUHealth no longer installable'
-- component: Other
-  create_time: 20190401T07:02:00
-  id: 1131094
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20190329] docker-compose no longer functional'
-- component: Other
-  create_time: 20190401T03:06:00
-  id: 1131084
-  resolution: ''
-  status: NEW
-  summary: 'Build packages in docker fails /usr/lib/rpm/find-debuginfo.sh: line 519:
-    /dev/fd/62: No such file or directory'
-- component: Network
-  create_time: 20190401T01:07:00
-  id: 1131082
-  resolution: ''
-  status: NEW
-  summary: No wireless connection with iwlwifi driver
