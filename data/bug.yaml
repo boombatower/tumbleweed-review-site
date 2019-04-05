@@ -3,7 +3,7 @@
   create_time: 20171201T23:06:00
   id: 1070872
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Raspberry Pi 3 SD Card errors
 - component: Basesystem
   create_time: 20171201T23:01:00
@@ -21594,6 +21594,18 @@
   summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
 '20190403':
 - component: Kubic
+  create_time: 20190405T13:32:00
+  id: 1131700
+  resolution: ''
+  status: NEW
+  summary: Make separate MicroOS media
+- component: Other
+  create_time: 20190405T13:28:00
+  id: 1131699
+  resolution: ''
+  status: NEW
+  summary: dovecot23 sometimes fails a test on 1-CPU VM
+- component: Kubic
   create_time: 20190405T12:29:00
   id: 1131693
   resolution: ''
@@ -21609,7 +21621,7 @@
   create_time: 20190405T09:35:00
   id: 1131666
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Add Xfce System Role to Yast2 Installer
 - component: Basesystem
   create_time: 20190405T03:55:00
