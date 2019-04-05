@@ -21547,6 +21547,59 @@
   status: NEW
   summary: No wireless connection with iwlwifi driver
 '20190402':
+- component: Bootloader
+  create_time: 20190402T19:56:00
+  id: 1131337
+  resolution: ''
+  status: NEW
+  summary: X850 V1.3 hat for Raspberry Pi 3 is not working within u-boot
+- component: Other
+  create_time: 20190402T13:08:00
+  id: 1131299
+  resolution: ''
+  status: NEW
+  summary: fontconfig creates an enormous number of files in /var/cache/fontconfig
+    that are never cleaned up
+- component: Network
+  create_time: 20190402T11:53:00
+  id: 1131280
+  resolution: ''
+  status: NEW
+  summary: Realtek RTL810xE stops working after closing lid
+- component: Kernel
+  create_time: 20190402T10:36:00
+  id: 1131264
+  resolution: ''
+  status: NEW
+  summary: 'Backport x86/retpolines: Disable switch jump tables when retpolines are
+    enabled (a9d57ef15cbe327fe54416dd194ee0ea66ae53a4)'
+- component: Basesystem
+  create_time: 20190402T08:50:00
+  id: 1131244
+  resolution: FIXED
+  status: RESOLVED
+  summary: cronie 1.5.3 only executes one line from each crontab file
+- component: YaST2
+  create_time: 20190402T07:32:00
+  id: 1131234
+  resolution: ''
+  status: CONFIRMED
+  summary: Obsolete BuildRequires in YaST packages
+- component: Kernel
+  create_time: 20190402T01:57:00
+  id: 1131208
+  resolution: ''
+  status: NEW
+  summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
+'20190403':
+- component: YaST2
+  create_time: 20190404T18:56:00
+  id: 1131607
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'yast-samba-client join fails with ''Failed to join domain: Invalid configuration
+    ("workgroup" set to '''', should be ''FROGGY'') and configuration modification
+    was not requested'''
 - component: libzypp
   create_time: 20190404T11:41:00
   id: 1131542
@@ -21599,47 +21652,3 @@
   status: RESOLVED
   summary: '[Build 20190402] openQA test fails in docker: docker.service fails to
     start on JeOS'
-- component: Bootloader
-  create_time: 20190402T19:56:00
-  id: 1131337
-  resolution: ''
-  status: NEW
-  summary: X850 V1.3 hat for Raspberry Pi 3 is not working within u-boot
-- component: Other
-  create_time: 20190402T13:08:00
-  id: 1131299
-  resolution: ''
-  status: NEW
-  summary: fontconfig creates an enormous number of files in /var/cache/fontconfig
-    that are never cleaned up
-- component: Network
-  create_time: 20190402T11:53:00
-  id: 1131280
-  resolution: ''
-  status: NEW
-  summary: Realtek RTL810xE stops working after closing lid
-- component: Kernel
-  create_time: 20190402T10:36:00
-  id: 1131264
-  resolution: ''
-  status: NEW
-  summary: 'Backport x86/retpolines: Disable switch jump tables when retpolines are
-    enabled (a9d57ef15cbe327fe54416dd194ee0ea66ae53a4)'
-- component: Basesystem
-  create_time: 20190402T08:50:00
-  id: 1131244
-  resolution: FIXED
-  status: RESOLVED
-  summary: cronie 1.5.3 only executes one line from each crontab file
-- component: YaST2
-  create_time: 20190402T07:32:00
-  id: 1131234
-  resolution: ''
-  status: CONFIRMED
-  summary: Obsolete BuildRequires in YaST packages
-- component: Kernel
-  create_time: 20190402T01:57:00
-  id: 1131208
-  resolution: ''
-  status: NEW
-  summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
