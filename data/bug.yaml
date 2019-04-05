@@ -21592,6 +21592,12 @@
   status: NEW
   summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
 '20190403':
+- component: Basesystem
+  create_time: 20190405T03:55:00
+  id: 1131629
+  resolution: ''
+  status: NEW
+  summary: '[dracut] purge-kernels.service ignores /etc/zypp/locks'
 - component: YaST2
   create_time: 20190404T18:56:00
   id: 1131607
