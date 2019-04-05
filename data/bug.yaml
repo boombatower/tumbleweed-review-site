@@ -10352,12 +10352,13 @@
   status: RESOLVED
   summary: '"rsync" or its dependencies pull in even systemd and dracut and systemd-presets-branding-CAASP
     (useless in containers at least)'
-- component: KDE Applications
+- component: X11 Applications
   create_time: 20180710T15:05:00
   id: 1100765
   resolution: ''
   status: NEW
-  summary: gimp create from screenshot  snap region is missing in french and error
+  summary: gimp create from screenshot "Select a region to grab" is missing in Plasma,
+    and taking a screenshot gives an error when compositing is off
 - component: X.Org
   create_time: 20180710T14:20:00
   id: 1100759
@@ -13687,8 +13688,8 @@
 - component: Other
   create_time: 20181017T07:28:00
   id: 1112109
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: VERIFIED
   summary: '[Build 20181015] openQA test fails trying to write to serial device /dev/ttyS0
     as root with "Input/output error" - agetty failed in background'
 - component: Kernel
@@ -15304,7 +15305,7 @@
   create_time: 20181107T15:59:00
   id: 1115066
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'FTBFS: openSUSE:Factory/emacs-vm fails to build'
 - component: Other
   create_time: 20181107T15:59:00
@@ -15339,8 +15340,8 @@
 - component: Other
   create_time: 20181107T15:55:00
   id: 1115059
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/octave-forge-fuzzy-logic-toolkit fails to build'
 - component: Other
   create_time: 20181107T15:55:00
@@ -15387,20 +15388,20 @@
 - component: Other
   create_time: 20181107T15:52:00
   id: 1115050
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/octave-forge-fl-core fails to build'
 - component: Other
   create_time: 20181107T15:52:00
   id: 1115049
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/octave-forge-linear-algebra fails to build'
 - component: Other
   create_time: 20181107T15:49:00
   id: 1115048
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/octave-forge-communications fails to build'
 - component: Cloud:Tools
   create_time: 20181107T11:11:00
@@ -15536,7 +15537,7 @@
   create_time: 20181114T17:19:00
   id: 1116061
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'FTBFS: openSUSE:Factory/pound fails to build'
 - component: Network
   create_time: 20181114T17:01:00
@@ -18677,8 +18678,8 @@
 - component: Other
   create_time: 20190128T19:50:00
   id: 1123401
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190126][FTBFS] Hugin failed to build against exiv2  0.27.0'
 - component: Containers
   create_time: 20190128T16:58:00
@@ -19305,8 +19306,8 @@
 - component: Installation
   create_time: 20190210T22:33:00
   id: 1124911
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Tumbleweed Installer Crashes When Updating Online Repositories
 - component: X.Org
   create_time: 20190210T21:11:00
@@ -19688,7 +19689,7 @@
   create_time: 20190218T13:02:00
   id: 1125779
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20190215] autoyast profile doesn''t validate when cloning the system'
 - component: Basesystem
   create_time: 20190218T12:52:00
@@ -21408,8 +21409,8 @@
 - component: Other
   create_time: 20190328T18:40:00
   id: 1130889
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: nothing provides libboost_system.so.1.68.0()(64bit) needed by aegisub-3.2.2+git20180710-2.1.x86_64
 - component: Java
   create_time: 20190328T13:33:00
@@ -21592,6 +21593,24 @@
   status: NEW
   summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
 '20190403':
+- component: Kubic
+  create_time: 20190405T12:29:00
+  id: 1131693
+  resolution: ''
+  status: NEW
+  summary: Kubic DVD calls itself "openSUSE MicroOS"
+- component: Virtualization:Other
+  create_time: 20190405T11:33:00
+  id: 1131687
+  resolution: ''
+  status: NEW
+  summary: 'vagrant: nothing provides rubygem(ruby:2.6.0:net-scp:1.2) >= 1.2'
+- component: Xfce
+  create_time: 20190405T09:35:00
+  id: 1131666
+  resolution: ''
+  status: NEW
+  summary: Add Xfce System Role to Yast2 Installer
 - component: Basesystem
   create_time: 20190405T03:55:00
   id: 1131629
