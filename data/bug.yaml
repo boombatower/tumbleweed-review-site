@@ -21593,6 +21593,24 @@
   status: NEW
   summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
 '20190403':
+- component: KDE Applications
+  create_time: 20190406T18:44:00
+  id: 1131759
+  resolution: ''
+  status: NEW
+  summary: Share action in dolphins context menu not shown anymore
+- component: Other
+  create_time: 20190406T18:06:00
+  id: 1131758
+  resolution: ''
+  status: NEW
+  summary: playback of HD YT videos broken in chromium
+- component: Kernel
+  create_time: 20190406T16:26:00
+  id: 1131757
+  resolution: ''
+  status: NEW
+  summary: No reboot or poweroff after upgrade to 5.0.x kernel
 - component: X.Org
   create_time: 20190406T08:43:00
   id: 1131752
