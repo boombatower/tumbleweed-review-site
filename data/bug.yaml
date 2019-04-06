@@ -21111,8 +21111,8 @@
 - component: Xfce
   create_time: 20190323T17:57:00
   id: 1130277
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: nm-applet does not show available network connections
 - component: KDE Applications
   create_time: 20190323T09:41:00
@@ -21593,6 +21593,19 @@
   status: NEW
   summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
 '20190403':
+- component: X.Org
+  create_time: 20190406T08:43:00
+  id: 1131752
+  resolution: ''
+  status: NEW
+  summary: X server dies after resuming from hibernation
+- component: Network
+  create_time: 20190406T08:41:00
+  id: 1131751
+  resolution: ''
+  status: NEW
+  summary: masscan (from security repo) want to libpcap installed in system, but it
+    is already in system
 - component: X11 3rd Party Driver
   create_time: 20190406T03:56:00
   id: 1131748
