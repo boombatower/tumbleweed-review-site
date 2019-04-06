@@ -21593,6 +21593,12 @@
   status: NEW
   summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
 '20190403':
+- component: X11 3rd Party Driver
+  create_time: 20190406T03:56:00
+  id: 1131748
+  resolution: ''
+  status: NEW
+  summary: suse-prime package not shipping with prime-select.service
 - component: Kubic
   create_time: 20190405T13:32:00
   id: 1131700
