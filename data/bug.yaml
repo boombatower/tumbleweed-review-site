@@ -21597,13 +21597,13 @@
   create_time: 20190406T18:44:00
   id: 1131759
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Share action in dolphins context menu not shown anymore
 - component: Other
   create_time: 20190406T18:06:00
   id: 1131758
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: playback of HD YT videos broken in chromium
 - component: Kernel
   create_time: 20190406T16:26:00
