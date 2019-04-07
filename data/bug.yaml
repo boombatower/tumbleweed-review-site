@@ -21593,6 +21593,38 @@
   status: NEW
   summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
 '20190403':
+- component: GNOME
+  create_time: 20190407T11:58:00
+  id: 1131766
+  resolution: ''
+  status: NEW
+  summary: libgio is leaking sockets
+- component: X11 Applications
+  create_time: 20190407T10:10:00
+  id: 1131765
+  resolution: ''
+  status: IN_PROGRESS
+  summary: DVDStyler crashes when changing directory while browsing for video files
+    due to missing libwxsvg symbol
+- component: Usability
+  create_time: 20190407T08:22:00
+  id: 1131764
+  resolution: ''
+  status: NEW
+  summary: 'postfix: suse configuration is confusing'
+- component: Network
+  create_time: 20190407T07:45:00
+  id: 1131763
+  resolution: ''
+  status: NEW
+  summary: 'openSUSE Tumbleweed: MAC Address Randomization in NetworkManager Prevents
+    WiFi Adapter from Connecting to a Wireless Network'
+- component: Containers
+  create_time: 20190407T07:43:00
+  id: 1131762
+  resolution: ''
+  status: NEW
+  summary: 'lxc: update to 3.x'
 - component: KDE Applications
   create_time: 20190406T18:44:00
   id: 1131759
