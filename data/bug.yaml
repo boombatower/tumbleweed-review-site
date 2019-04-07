@@ -21593,6 +21593,12 @@
   status: NEW
   summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
 '20190403':
+- component: Basesystem
+  create_time: 20190407T17:18:00
+  id: 1131772
+  resolution: ''
+  status: NEW
+  summary: cannot set BT audio profile
 - component: GNOME
   create_time: 20190407T11:58:00
   id: 1131766
