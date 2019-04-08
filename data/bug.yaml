@@ -21261,8 +21261,8 @@
 - component: Other
   create_time: 20190325T14:56:00
   id: 1130407
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Remove jasper dependency from GIMP
 - component: Other
   create_time: 20190325T14:49:00
@@ -21594,11 +21594,30 @@
   summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
 '20190403':
 - component: Basesystem
-  create_time: 20190407T17:18:00
-  id: 1131772
+  create_time: 20190408T11:38:00
+  id: 1131836
   resolution: ''
   status: NEW
+  summary: Mount process finished, but there is no mount - Failed with result 'protocol'
+- component: KDE Applications
+  create_time: 20190408T10:42:00
+  id: 1131826
+  resolution: ''
+  status: NEW
+  summary: KDE info center show incorrect info about memory for 32 bit system
+- component: Basesystem
+  create_time: 20190407T17:18:00
+  id: 1131772
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: cannot set BT audio profile
+- component: Printing
+  create_time: 20190407T16:43:00
+  id: 1131771
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'cups-filters < v1.22.5: foomatic-rip fails with gs v9.27 (function pdf_count_pages
+    calls Ghostscript internal "pdfdict" operator)'
 - component: GNOME
   create_time: 20190407T11:58:00
   id: 1131766
@@ -21653,7 +21672,7 @@
   create_time: 20190406T08:43:00
   id: 1131752
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: X server dies after resuming from hibernation
 - component: Network
   create_time: 20190406T08:41:00
@@ -21662,12 +21681,12 @@
   status: NEW
   summary: masscan (from security repo) want to libpcap installed in system, but it
     is already in system
-- component: X11 3rd Party Driver
+- component: X.Org
   create_time: 20190406T03:56:00
   id: 1131748
   resolution: ''
   status: NEW
-  summary: suse-prime package not shipping with prime-select.service
+  summary: suse-prime package needs to be downgraded in factory/TW for now
 - component: Kubic
   create_time: 20190405T13:32:00
   id: 1131700
