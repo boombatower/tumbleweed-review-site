@@ -20482,8 +20482,8 @@
 - component: GNOME
   create_time: 20190306T16:39:00
   id: 1128192
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Accountsservice patches -- Drop or rebase
 - component: GNOME
   create_time: 20190306T16:34:00
