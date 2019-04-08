@@ -726,7 +726,7 @@
   stability_level: stable
 '20190401':
   score: 93
-  stability_level: pending
+  stability_level: stable
 '20190402':
   score: 96
   stability_level: pending
