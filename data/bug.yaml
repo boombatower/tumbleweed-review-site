@@ -20464,8 +20464,8 @@
 - component: GNOME
   create_time: 20190306T16:45:00
   id: 1128195
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: gnome-control-center -- Patches needs dropping or rebase
 - component: GNOME
   create_time: 20190306T16:44:00
