@@ -21593,6 +21593,18 @@
   status: NEW
   summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
 '20190403':
+- component: KVM
+  create_time: 20190408T16:15:00
+  id: 1131894
+  resolution: ''
+  status: NEW
+  summary: smbios patch that qemu carries has multiple issues
+- component: Kernel
+  create_time: 20190408T14:28:00
+  id: 1131864
+  resolution: ''
+  status: NEW
+  summary: OOPS in nf_getsockopt on aarch64
 - component: Basesystem
   create_time: 20190408T11:38:00
   id: 1131836
@@ -21608,8 +21620,8 @@
 - component: Basesystem
   create_time: 20190407T17:18:00
   id: 1131772
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: cannot set BT audio profile
 - component: Printing
   create_time: 20190407T16:43:00
