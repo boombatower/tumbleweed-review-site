@@ -21721,7 +21721,7 @@
   create_time: 20190405T11:33:00
   id: 1131687
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'vagrant: nothing provides rubygem(ruby:2.6.0:net-scp:1.2) >= 1.2'
 - component: Xfce
   create_time: 20190405T09:35:00
