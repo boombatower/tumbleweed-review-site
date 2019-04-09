@@ -19907,8 +19907,8 @@
 - component: YaST2
   create_time: 20190220T17:21:00
   id: 1126137
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: can't change keyboard to french from english after zypper dup on vm using
     nomachin nxserver
 - component: GNOME
@@ -20745,8 +20745,8 @@
 - component: Basesystem
   create_time: 20190312T15:16:00
   id: 1128936
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: bash LINENO variable wrong
 - component: GNOME
   create_time: 20190312T15:10:00
@@ -21237,8 +21237,8 @@
 - component: GNOME
   create_time: 20190326T07:18:00
   id: 1130478
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Rebase sle-classic patches over GNOME 3.32.0.
 - component: Kernel
   create_time: 20190325T23:18:00
@@ -21593,6 +21593,36 @@
   status: NEW
   summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
 '20190403':
+- component: Kubic
+  create_time: 20190409T12:14:00
+  id: 1131975
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Description missing from MicroOS Container Host role on new MicroOS media
+- component: Basesystem
+  create_time: 20190409T10:00:00
+  id: 1131957
+  resolution: ''
+  status: NEW
+  summary: '%install_info using bash syntax'
+- component: X.Org
+  create_time: 20190409T09:19:00
+  id: 1131951
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Make Mesa non-nouveau DRI drivers independant from libdrm_nouveau2
+- component: KDE Workspace (Plasma)
+  create_time: 20190409T08:22:00
+  id: 1131946
+  resolution: ''
+  status: NEW
+  summary: Random hangs of sddm during login to the KDE desktop
+- component: High Availability
+  create_time: 20190409T06:12:00
+  id: 1131931
+  resolution: ''
+  status: NEW
+  summary: 'OCFS2:  Defragmentation error: No space left on device'
 - component: KVM
   create_time: 20190408T16:15:00
   id: 1131894
@@ -21677,8 +21707,8 @@
 - component: Kernel
   create_time: 20190406T16:26:00
   id: 1131757
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: No reboot or poweroff after upgrade to 5.0.x kernel
 - component: X.Org
   create_time: 20190406T08:43:00
@@ -21696,8 +21726,8 @@
 - component: X.Org
   create_time: 20190406T03:56:00
   id: 1131748
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: suse-prime package needs to be downgraded in factory/TW for now
 - component: Kubic
   create_time: 20190405T13:32:00
