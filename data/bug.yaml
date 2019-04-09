@@ -4559,8 +4559,8 @@
 - component: X.Org
   create_time: 20180222T14:16:00
   id: 1082300
-  resolution: ''
-  status: CONFIRMED
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'Mesa: get rid of n_VDPAU-XVMC-libs-Replace-hardlinks-with-copies.patch?'
 - component: X.Org
   create_time: 20180222T14:09:00
@@ -4577,8 +4577,8 @@
 - component: X.Org
   create_time: 20180222T13:46:00
   id: 1082292
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Mesa: Integrate feedback of Mesa''s upstream developer(s) into our package'
 - component: Other
   create_time: 20180222T08:50:00
@@ -13645,8 +13645,8 @@
 - component: Development
   create_time: 20181017T13:15:00
   id: 1112189
-  resolution: ''
-  status: CONFIRMED
+  resolution: WONTFIX
+  status: RESOLVED
   summary: interdiff leaves temporary files after quit
 - component: Other
   create_time: 20181017T13:05:00
@@ -21608,8 +21608,8 @@
 - component: X.Org
   create_time: 20190409T09:19:00
   id: 1131951
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Make Mesa non-nouveau DRI drivers independant from libdrm_nouveau2
 - component: KDE Workspace (Plasma)
   create_time: 20190409T08:22:00
