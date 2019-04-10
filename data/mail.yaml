@@ -1715,9 +1715,9 @@
   threads: []
 '20190403':
   announcement: 2019-04.96
-  reference_count: 1
+  reference_count: 2
   thread_count: 1
   threads:
   - messages: [2019-04.128]
-    reference_count: 1
+    reference_count: 2
     summary: ) update
