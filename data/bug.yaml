@@ -4,7 +4,7 @@
   id: 1070872
   resolution: ''
   status: CONFIRMED
-  summary: Raspberry Pi 3 SD Card errors
+  summary: bcm2835-sdhost Raspberry Pi 3 SD Card errors
 - component: Basesystem
   create_time: 20171201T23:01:00
   id: 1070871
@@ -21593,67 +21593,6 @@
   status: NEW
   summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
 '20190403':
-- component: Kernel
-  create_time: 20190410T01:42:00
-  id: 1132033
-  resolution: FIXED
-  status: RESOLVED
-  summary: DELL Precision 5530 laptop screen enters black screen during boot with
-    kernel 5.0.5-1-default
-- component: Kubic
-  create_time: 20190409T12:14:00
-  id: 1131975
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Description missing from MicroOS Container Host role on new MicroOS media
-- component: Basesystem
-  create_time: 20190409T10:00:00
-  id: 1131957
-  resolution: ''
-  status: NEW
-  summary: '%install_info using bash syntax'
-- component: X.Org
-  create_time: 20190409T09:19:00
-  id: 1131951
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: Make Mesa non-nouveau DRI drivers independant from libdrm_nouveau2
-- component: KDE Workspace (Plasma)
-  create_time: 20190409T08:22:00
-  id: 1131946
-  resolution: ''
-  status: NEW
-  summary: Random hangs of sddm during login to the KDE desktop
-- component: High Availability
-  create_time: 20190409T06:12:00
-  id: 1131931
-  resolution: ''
-  status: NEW
-  summary: 'OCFS2:  Defragmentation error: No space left on device'
-- component: KVM
-  create_time: 20190408T16:15:00
-  id: 1131894
-  resolution: ''
-  status: NEW
-  summary: smbios patch that qemu carries has multiple issues
-- component: Kernel
-  create_time: 20190408T14:28:00
-  id: 1131864
-  resolution: ''
-  status: NEW
-  summary: OOPS in nf_getsockopt on aarch64
-- component: Basesystem
-  create_time: 20190408T11:38:00
-  id: 1131836
-  resolution: ''
-  status: NEW
-  summary: Mount process finished, but there is no mount - Failed with result 'protocol'
-- component: KDE Applications
-  create_time: 20190408T10:42:00
-  id: 1131826
-  resolution: ''
-  status: NEW
-  summary: KDE info center show incorrect info about memory for 32 bit system
 - component: Basesystem
   create_time: 20190407T17:18:00
   id: 1131772
@@ -21832,3 +21771,96 @@
   status: RESOLVED
   summary: '[Build 20190402] openQA test fails in docker: docker.service fails to
     start on JeOS'
+'20190408':
+- component: Virtualization:Tools
+  create_time: 20190410T18:25:00
+  id: 1132127
+  resolution: ''
+  status: CONFIRMED
+  summary: libvirt-tck media change test failure with libvirt 5.2.0
+- component: Other
+  create_time: 20190410T17:57:00
+  id: 1132126
+  resolution: ''
+  status: NEW
+  summary: CEST is off one hour
+- component: Other
+  create_time: 20190410T16:41:00
+  id: 1132118
+  resolution: ''
+  status: NEW
+  summary: Xindy does not run due to incompatible CLISP runtime
+- component: Virtualization:Other
+  create_time: 20190410T13:44:00
+  id: 1132102
+  resolution: ''
+  status: NEW
+  summary: VirtualBox 6.0.4 guest addition ISO download failed
+- component: Development
+  create_time: 20190410T13:42:00
+  id: 1132101
+  resolution: ''
+  status: NEW
+  summary: RPM dependencies of all go packages using "golang-packaging"/"go_provides
+    broken
+- component: Kernel
+  create_time: 20190410T01:42:00
+  id: 1132033
+  resolution: FIXED
+  status: RESOLVED
+  summary: DELL Precision 5530 laptop screen enters black screen during boot with
+    kernel 5.0.5-1-default
+- component: Kubic
+  create_time: 20190409T12:14:00
+  id: 1131975
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Description missing from MicroOS Container Host role on new MicroOS media
+- component: Basesystem
+  create_time: 20190409T10:00:00
+  id: 1131957
+  resolution: ''
+  status: NEW
+  summary: '%install_info using bash syntax'
+- component: X.Org
+  create_time: 20190409T09:19:00
+  id: 1131951
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Make Mesa non-nouveau DRI drivers independant from libdrm_nouveau2
+- component: KDE Workspace (Plasma)
+  create_time: 20190409T08:22:00
+  id: 1131946
+  resolution: ''
+  status: NEW
+  summary: Random hangs of sddm during login to the KDE desktop
+- component: High Availability
+  create_time: 20190409T06:12:00
+  id: 1131931
+  resolution: ''
+  status: NEW
+  summary: 'OCFS2:  Defragmentation error: No space left on device'
+- component: KVM
+  create_time: 20190408T16:15:00
+  id: 1131894
+  resolution: ''
+  status: NEW
+  summary: smbios patch that qemu carries has multiple issues
+- component: Kernel
+  create_time: 20190408T14:28:00
+  id: 1131864
+  resolution: ''
+  status: NEW
+  summary: OOPS in nf_getsockopt on aarch64
+- component: Basesystem
+  create_time: 20190408T11:38:00
+  id: 1131836
+  resolution: ''
+  status: NEW
+  summary: Mount process finished, but there is no mount - Failed with result 'protocol'
+- component: KDE Applications
+  create_time: 20190408T10:42:00
+  id: 1131826
+  resolution: ''
+  status: NEW
+  summary: KDE info center show incorrect info about memory for 32 bit system
