@@ -11141,8 +11141,8 @@
 - component: Security
   create_time: 20180726T07:58:00
   id: 1102706
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: VERIFIED
   summary: openSCAP tool generate remediation instructions script with incorrect format
 - component: Security
   create_time: 20180726T07:52:00
@@ -20911,7 +20911,7 @@
   create_time: 20190317T12:52:00
   id: 1129487
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Since kernel 5.0.1-1 boot is being delayed by "a stop job is running for
     udev Kernel Device Manager"
 - component: libzypp
@@ -21525,8 +21525,8 @@
 - component: Other
   create_time: 20190401T07:06:00
   id: 1131096
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190329] GNUHealth no longer installable'
 - component: Other
   create_time: 20190401T07:02:00
@@ -21596,8 +21596,8 @@
 - component: Kernel
   create_time: 20190410T01:42:00
   id: 1132033
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: DELL Precision 5530 laptop screen enters black screen during boot with
     kernel 5.0.5-1-default
 - component: Kubic
