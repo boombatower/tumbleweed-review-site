@@ -15651,8 +15651,8 @@
 - component: Basesystem
   create_time: 20181114T15:18:00
   id: 1116023
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by mhvtl into native systemd services
 - component: Other
   create_time: 20181114T15:16:00
@@ -19801,8 +19801,8 @@
 - component: Other
   create_time: 20190223T07:10:00
   id: 1126592
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/icewm is out of date'
 - component: Kernel
   create_time: 20190222T15:08:00
@@ -20880,8 +20880,8 @@
 - component: Other
   create_time: 20190317T22:54:00
   id: 1129503
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: innoextract broken dependency libboost_iostreams.so.1.68.0
 - component: YaST2
   create_time: 20190317T22:15:00
@@ -21482,8 +21482,8 @@
 - component: libzypp
   create_time: 20190327T07:04:00
   id: 1130626
-  resolution: INVALID
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: zypper forgets package dependencies
 - component: Security
   create_time: 20190327T05:55:00
@@ -21797,6 +21797,18 @@
   status: NEW
   summary: KDE info center show incorrect info about memory for 32 bit system
 '20190409':
+- component: Xfce
+  create_time: 20190411T15:51:00
+  id: 1132255
+  resolution: ''
+  status: NEW
+  summary: "Xfce panel doesn\u2019t hide"
+- component: YaST2
+  create_time: 20190411T14:06:00
+  id: 1132247
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'libyui: merge the testing REST API framework'
 - component: Kernel
   create_time: 20190411T09:27:00
   id: 1132198
@@ -21870,7 +21882,7 @@
   create_time: 20190410T13:44:00
   id: 1132102
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: VirtualBox 6.0.4 guest addition ISO download failed
 - component: Development
   create_time: 20190410T13:42:00
