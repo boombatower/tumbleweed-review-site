@@ -20986,8 +20986,8 @@
 - component: YaST2
   create_time: 20190319T00:50:00
   id: 1129663
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'setting up encrypted partition with YaST errors: stub do_reallot_text
     called for LvmPv'
 - component: Network
@@ -21659,8 +21659,8 @@
 - component: X.Org
   create_time: 20190406T08:43:00
   id: 1131752
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: X server dies after resuming from hibernation
 - component: Network
   create_time: 20190406T08:41:00
@@ -21772,6 +21772,18 @@
   summary: '[Build 20190402] openQA test fails in docker: docker.service fails to
     start on JeOS'
 '20190408':
+- component: Development
+  create_time: 20190410T21:20:00
+  id: 1132141
+  resolution: ''
+  status: NEW
+  summary: Linker failure when building qemu package
+- component: Virtualization:Other
+  create_time: 20190410T21:02:00
+  id: 1132139
+  resolution: ''
+  status: NEW
+  summary: Virtualbox window scale factor almost unusable
 - component: Virtualization:Tools
   create_time: 20190410T18:25:00
   id: 1132127
