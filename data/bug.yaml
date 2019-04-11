@@ -4675,7 +4675,7 @@
   create_time: 20180228T17:10:00
   id: 1083349
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Remove cjk/cid scriptlet snippets from fontpackages-devel rpm macros
 - component: Basesystem
   create_time: 20180228T16:12:00
@@ -4779,8 +4779,8 @@
 - component: Basesystem
   create_time: 20180301T17:31:00
   id: 1083558
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Correct Requires(pre) in %reconfigure_fonts_prereq from fontpackages-devel
 - component: Basesystem
   create_time: 20180301T15:40:00
@@ -11681,7 +11681,7 @@
   create_time: 20180819T20:11:00
   id: 1105282
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: vc4 not working in linuxrc because of PCM
 - component: GNOME
   create_time: 20180818T01:16:00
@@ -17379,8 +17379,8 @@
 - component: GNOME
   create_time: 20190102T08:08:00
   id: 1120456
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Updating to libgtk-3-0-3.24.2-1.1 crashes gtk3 applications
 - component: Other
   create_time: 20190101T17:39:00
@@ -20910,8 +20910,8 @@
 - component: Kernel
   create_time: 20190317T12:52:00
   id: 1129487
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Since kernel 5.0.1-1 boot is being delayed by "a stop job is running for
     udev Kernel Device Manager"
 - component: libzypp
@@ -21571,7 +21571,7 @@
   create_time: 20190402T10:36:00
   id: 1131264
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Backport x86/retpolines: Disable switch jump tables when retpolines are
     enabled (a9d57ef15cbe327fe54416dd194ee0ea66ae53a4)'
 - component: Basesystem
@@ -21665,8 +21665,8 @@
 - component: Network
   create_time: 20190406T08:41:00
   id: 1131751
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: masscan (from security repo) want to libpcap installed in system, but it
     is already in system
 - component: X.Org
@@ -21772,6 +21772,70 @@
   summary: '[Build 20190402] openQA test fails in docker: docker.service fails to
     start on JeOS'
 '20190408':
+- component: KVM
+  create_time: 20190408T16:15:00
+  id: 1131894
+  resolution: ''
+  status: NEW
+  summary: smbios patch that qemu carries has multiple issues
+- component: Kernel
+  create_time: 20190408T14:28:00
+  id: 1131864
+  resolution: ''
+  status: NEW
+  summary: OOPS in nf_getsockopt on aarch64
+- component: Basesystem
+  create_time: 20190408T11:38:00
+  id: 1131836
+  resolution: ''
+  status: NEW
+  summary: Mount process finished, but there is no mount - Failed with result 'protocol'
+- component: KDE Applications
+  create_time: 20190408T10:42:00
+  id: 1131826
+  resolution: ''
+  status: NEW
+  summary: KDE info center show incorrect info about memory for 32 bit system
+'20190409':
+- component: Kernel
+  create_time: 20190411T09:27:00
+  id: 1132198
+  resolution: ''
+  status: NEW
+  summary: diskless system on 3par storeserv (failover via iSCSI) not work
+- component: LXQt
+  create_time: 20190411T08:06:00
+  id: 1132184
+  resolution: ''
+  status: NEW
+  summary: LXQt xscreensaver/Lock-Screen runs on single display, other display continues
+    normally
+- component: YaST2
+  create_time: 20190411T07:57:00
+  id: 1132182
+  resolution: ''
+  status: NEW
+  summary: install and enable firstboot wizard when skipping root password?
+- component: LXQt
+  create_time: 20190411T07:42:00
+  id: 1132180
+  resolution: ''
+  status: NEW
+  summary: LXQt windows don't maximize to use whole display (full width but minimal
+    height on lower display)
+- component: LXQt
+  create_time: 20190411T07:40:00
+  id: 1132179
+  resolution: ''
+  status: NEW
+  summary: LXQt windows don't maximize to use whole display (full width but minimal
+    height on lower display)
+- component: LXQt
+  create_time: 20190411T07:17:00
+  id: 1132176
+  resolution: ''
+  status: NEW
+  summary: pcmanfm-qt dolphin & windows move position on second/lower screen on function
 - component: Development
   create_time: 20190410T21:20:00
   id: 1132141
@@ -21793,8 +21857,8 @@
 - component: Other
   create_time: 20190410T17:57:00
   id: 1132126
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: CEST is off one hour
 - component: Other
   create_time: 20190410T16:41:00
@@ -21852,27 +21916,3 @@
   resolution: ''
   status: NEW
   summary: 'OCFS2:  Defragmentation error: No space left on device'
-- component: KVM
-  create_time: 20190408T16:15:00
-  id: 1131894
-  resolution: ''
-  status: NEW
-  summary: smbios patch that qemu carries has multiple issues
-- component: Kernel
-  create_time: 20190408T14:28:00
-  id: 1131864
-  resolution: ''
-  status: NEW
-  summary: OOPS in nf_getsockopt on aarch64
-- component: Basesystem
-  create_time: 20190408T11:38:00
-  id: 1131836
-  resolution: ''
-  status: NEW
-  summary: Mount process finished, but there is no mount - Failed with result 'protocol'
-- component: KDE Applications
-  create_time: 20190408T10:42:00
-  id: 1131826
-  resolution: ''
-  status: NEW
-  summary: KDE info center show incorrect info about memory for 32 bit system
