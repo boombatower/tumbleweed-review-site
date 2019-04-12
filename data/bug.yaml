@@ -9650,8 +9650,8 @@
 - component: Xfce
   create_time: 20180624T17:00:00
   id: 1098927
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Check responsiveness for GUI of Thunar 1.8.1
 - component: KDE Workspace (Plasma)
   create_time: 20180624T10:29:00
@@ -21797,6 +21797,18 @@
   status: NEW
   summary: KDE info center show incorrect info about memory for 32 bit system
 '20190409':
+- component: Kernel
+  create_time: 20190411T20:24:00
+  id: 1132272
+  resolution: ''
+  status: NEW
+  summary: 'iwlwifi: BIOS contains WGDS but no WRDS'
+- component: Basesystem
+  create_time: 20190411T19:07:00
+  id: 1132267
+  resolution: ''
+  status: NEW
+  summary: Missing symbol TLSv1_2_client_method in libssl.so.1.0.0 from libopenssl1_1-1.1.0h-4.6.x86_64
 - component: Xfce
   create_time: 20190411T15:51:00
   id: 1132255
