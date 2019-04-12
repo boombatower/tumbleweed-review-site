@@ -21797,6 +21797,12 @@
   status: NEW
   summary: KDE info center show incorrect info about memory for 32 bit system
 '20190409':
+- component: Containers
+  create_time: 20190412T06:38:00
+  id: 1132305
+  resolution: ''
+  status: NEW
+  summary: podman does not contain manpage containers-registries.conf
 - component: Kernel
   create_time: 20190411T20:24:00
   id: 1132272
