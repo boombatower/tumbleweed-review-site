@@ -17580,8 +17580,8 @@
 - component: Basesystem
   create_time: 20190109T14:10:00
   id: 1121267
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: openucx build fails'
 - component: Basesystem
   create_time: 20190109T13:54:00
@@ -20751,8 +20751,8 @@
 - component: GNOME
   create_time: 20190312T15:10:00
   id: 1128934
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Update  libgda to current version 5.2.8
 - component: LXQt
   create_time: 20190312T13:59:00
@@ -20982,7 +20982,8 @@
   id: 1129751
   resolution: ''
   status: NEW
-  summary: command dig does not accept IPv6 address from /etc/resolv.conf
+  summary: link-local addresses get added to /etc/resolv.conf without an interface
+    id
 - component: YaST2
   create_time: 20190319T00:50:00
   id: 1129663
@@ -21641,8 +21642,8 @@
 - component: KDE Applications
   create_time: 20190406T18:44:00
   id: 1131759
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Share action in dolphins context menu not shown anymore
 - component: Other
   create_time: 20190406T18:06:00
@@ -21797,6 +21798,114 @@
   status: NEW
   summary: KDE info center show incorrect info about memory for 32 bit system
 '20190409':
+- component: Development
+  create_time: 20190410T21:20:00
+  id: 1132141
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: Linker failure when building qemu package
+- component: Virtualization:Other
+  create_time: 20190410T21:02:00
+  id: 1132139
+  resolution: ''
+  status: NEW
+  summary: Virtualbox window scale factor almost unusable
+- component: Virtualization:Tools
+  create_time: 20190410T18:25:00
+  id: 1132127
+  resolution: ''
+  status: CONFIRMED
+  summary: libvirt-tck media change test failure with libvirt 5.2.0
+- component: Other
+  create_time: 20190410T17:57:00
+  id: 1132126
+  resolution: FIXED
+  status: RESOLVED
+  summary: CEST is off one hour
+- component: Other
+  create_time: 20190410T16:41:00
+  id: 1132118
+  resolution: ''
+  status: NEW
+  summary: Xindy does not run due to incompatible CLISP runtime
+- component: Virtualization:Other
+  create_time: 20190410T13:44:00
+  id: 1132102
+  resolution: ''
+  status: CONFIRMED
+  summary: VirtualBox 6.0.4 guest addition ISO download failed
+- component: Development
+  create_time: 20190410T13:42:00
+  id: 1132101
+  resolution: ''
+  status: NEW
+  summary: RPM dependencies of all go packages using "golang-packaging"/"go_provides
+    broken
+- component: Kernel
+  create_time: 20190410T01:42:00
+  id: 1132033
+  resolution: FIXED
+  status: VERIFIED
+  summary: DELL Precision 5530 laptop screen enters black screen during boot with
+    kernel 5.0.5-1-default
+- component: Kubic
+  create_time: 20190409T12:14:00
+  id: 1131975
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Description missing from MicroOS Container Host role on new MicroOS media
+- component: Basesystem
+  create_time: 20190409T10:00:00
+  id: 1131957
+  resolution: ''
+  status: NEW
+  summary: '%install_info using bash syntax'
+- component: X.Org
+  create_time: 20190409T09:19:00
+  id: 1131951
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Make Mesa non-nouveau DRI drivers independant from libdrm_nouveau2
+- component: KDE Workspace (Plasma)
+  create_time: 20190409T08:22:00
+  id: 1131946
+  resolution: ''
+  status: NEW
+  summary: Random hangs of sddm during login to the KDE desktop
+- component: High Availability
+  create_time: 20190409T06:12:00
+  id: 1131931
+  resolution: ''
+  status: NEW
+  summary: 'OCFS2:  Defragmentation error: No space left on device'
+'20190411':
+- component: Virtualization:Other
+  create_time: 20190412T14:52:00
+  id: 1132379
+  resolution: ''
+  status: NEW
+  summary: 'VirtualBox won''t launch VM on kernel 5.0.6: Error 0x1 NS_ERROR_FAILURE
+    MachineWrap'
+- component: Basesystem
+  create_time: 20190412T12:33:00
+  id: 1132350
+  resolution: ''
+  status: NEW
+  summary: 'trackerbug: adapt all apparmor profiles containing /bin/bash after bash
+    move'
+- component: Kernel
+  create_time: 20190412T08:29:00
+  id: 1132316
+  resolution: ''
+  status: NEW
+  summary: 'kernel: Backport TPM fix e891db1a18bf ("tpm: turn on TPM on suspend for
+    TPM 1.x") to fix broken suspend'
+- component: LXQt
+  create_time: 20190412T07:27:00
+  id: 1132312
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190411] LXQt fails to start'
 - component: Containers
   create_time: 20190412T06:38:00
   id: 1132305
@@ -21843,8 +21952,8 @@
 - component: YaST2
   create_time: 20190411T07:57:00
   id: 1132182
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: install and enable firstboot wizard when skipping root password?
 - component: LXQt
   create_time: 20190411T07:42:00
@@ -21866,83 +21975,3 @@
   resolution: ''
   status: NEW
   summary: pcmanfm-qt dolphin & windows move position on second/lower screen on function
-- component: Development
-  create_time: 20190410T21:20:00
-  id: 1132141
-  resolution: ''
-  status: NEW
-  summary: Linker failure when building qemu package
-- component: Virtualization:Other
-  create_time: 20190410T21:02:00
-  id: 1132139
-  resolution: ''
-  status: NEW
-  summary: Virtualbox window scale factor almost unusable
-- component: Virtualization:Tools
-  create_time: 20190410T18:25:00
-  id: 1132127
-  resolution: ''
-  status: CONFIRMED
-  summary: libvirt-tck media change test failure with libvirt 5.2.0
-- component: Other
-  create_time: 20190410T17:57:00
-  id: 1132126
-  resolution: FIXED
-  status: RESOLVED
-  summary: CEST is off one hour
-- component: Other
-  create_time: 20190410T16:41:00
-  id: 1132118
-  resolution: ''
-  status: NEW
-  summary: Xindy does not run due to incompatible CLISP runtime
-- component: Virtualization:Other
-  create_time: 20190410T13:44:00
-  id: 1132102
-  resolution: ''
-  status: CONFIRMED
-  summary: VirtualBox 6.0.4 guest addition ISO download failed
-- component: Development
-  create_time: 20190410T13:42:00
-  id: 1132101
-  resolution: ''
-  status: NEW
-  summary: RPM dependencies of all go packages using "golang-packaging"/"go_provides
-    broken
-- component: Kernel
-  create_time: 20190410T01:42:00
-  id: 1132033
-  resolution: FIXED
-  status: RESOLVED
-  summary: DELL Precision 5530 laptop screen enters black screen during boot with
-    kernel 5.0.5-1-default
-- component: Kubic
-  create_time: 20190409T12:14:00
-  id: 1131975
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Description missing from MicroOS Container Host role on new MicroOS media
-- component: Basesystem
-  create_time: 20190409T10:00:00
-  id: 1131957
-  resolution: ''
-  status: NEW
-  summary: '%install_info using bash syntax'
-- component: X.Org
-  create_time: 20190409T09:19:00
-  id: 1131951
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: Make Mesa non-nouveau DRI drivers independant from libdrm_nouveau2
-- component: KDE Workspace (Plasma)
-  create_time: 20190409T08:22:00
-  id: 1131946
-  resolution: ''
-  status: NEW
-  summary: Random hangs of sddm during login to the KDE desktop
-- component: High Availability
-  create_time: 20190409T06:12:00
-  id: 1131931
-  resolution: ''
-  status: NEW
-  summary: 'OCFS2:  Defragmentation error: No space left on device'
