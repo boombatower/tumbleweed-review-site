@@ -21879,6 +21879,26 @@
   status: NEW
   summary: 'OCFS2:  Defragmentation error: No space left on device'
 '20190411':
+- component: Kubic
+  create_time: 20190413T11:41:00
+  id: 1132436
+  resolution: ''
+  status: NEW
+  summary: /srv should be an own subvolume
+- component: Installation
+  create_time: 20190413T09:37:00
+  id: 1132435
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed 32bit and 64bit did not boot on samsung nc110 again after several
+    updates
+- component: Kernel
+  create_time: 20190413T07:29:00
+  id: 1132434
+  resolution: ''
+  status: NEW
+  summary: iwlwifi crashes on BAD_COMMAND while transferring files to wireless-connected
+    phone through KDEConnect
 - component: Installation
   create_time: 20190412T20:58:00
   id: 1132422
