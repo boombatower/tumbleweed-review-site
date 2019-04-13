@@ -21879,6 +21879,18 @@
   status: NEW
   summary: 'OCFS2:  Defragmentation error: No space left on device'
 '20190411':
+- component: Installation
+  create_time: 20190412T20:58:00
+  id: 1132422
+  resolution: ''
+  status: NEW
+  summary: linuxrc unable to net install with kexec=3 for TW ppc64le
+- component: Printing
+  create_time: 20190412T20:31:00
+  id: 1132421
+  resolution: ''
+  status: NEW
+  summary: ghostscript won't process "-sOutputFile=|cat 1>&3"
 - component: Virtualization:Other
   create_time: 20190412T14:52:00
   id: 1132379
