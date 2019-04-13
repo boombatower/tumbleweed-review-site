@@ -21879,6 +21879,18 @@
   status: NEW
   summary: 'OCFS2:  Defragmentation error: No space left on device'
 '20190411':
+- component: X11 Applications
+  create_time: 20190413T18:35:00
+  id: 1132442
+  resolution: ''
+  status: NEW
+  summary: 'Feature: lightdm-gtk-greeter: Add distribution logo  in the greeter'
+- component: Other
+  create_time: 20190413T16:15:00
+  id: 1132440
+  resolution: ''
+  status: NEW
+  summary: Incorporate distribution logo in display managers
 - component: Kubic
   create_time: 20190413T11:41:00
   id: 1132436
