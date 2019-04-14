@@ -21879,6 +21879,12 @@
   status: NEW
   summary: 'OCFS2:  Defragmentation error: No space left on device'
 '20190411':
+- component: Other
+  create_time: 20190414T06:30:00
+  id: 1132451
+  resolution: ''
+  status: NEW
+  summary: missing cmake file for proj-devel
 - component: X11 Applications
   create_time: 20190413T18:35:00
   id: 1132442
@@ -21907,8 +21913,8 @@
 - component: Kernel
   create_time: 20190413T07:29:00
   id: 1132434
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: iwlwifi crashes on BAD_COMMAND while transferring files to wireless-connected
     phone through KDEConnect
 - component: Installation
