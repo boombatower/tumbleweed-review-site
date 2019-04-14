@@ -21879,6 +21879,18 @@
   status: NEW
   summary: 'OCFS2:  Defragmentation error: No space left on device'
 '20190411':
+- component: Sound
+  create_time: 20190414T12:35:00
+  id: 1132458
+  resolution: ''
+  status: NEW
+  summary: jack_control crashes immediately due to Python 3 incompatibility
+- component: Kernel
+  create_time: 20190414T11:07:00
+  id: 1132456
+  resolution: ''
+  status: NEW
+  summary: Raspberry Pi 3B console video fails using DSI interface
 - component: Other
   create_time: 20190414T06:30:00
   id: 1132451
