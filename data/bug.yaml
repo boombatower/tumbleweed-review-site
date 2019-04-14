@@ -18797,8 +18797,8 @@
 - component: Compiz
   create_time: 20190204T21:28:00
   id: 1124230
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: CCSM (Compiz Config Settings Manager) won't start after upgrade to python
     3.7
 - component: Other
@@ -21944,15 +21944,15 @@
 - component: Virtualization:Other
   create_time: 20190412T14:52:00
   id: 1132379
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'VirtualBox won''t launch VM on kernel 5.0.6: Error 0x1 NS_ERROR_FAILURE
     MachineWrap'
 - component: Basesystem
   create_time: 20190412T12:33:00
   id: 1132350
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'trackerbug: adapt all apparmor profiles containing /bin/bash after bash
     move'
 - component: Kernel
