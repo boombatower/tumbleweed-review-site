@@ -21220,8 +21220,8 @@
 - component: Virtualization:Other
   create_time: 20190326T10:07:00
   id: 1130503
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: virtualbox fails to build against Qt 5.13
 - component: YaST2
   create_time: 20190326T10:05:00
@@ -21879,6 +21879,70 @@
   status: NEW
   summary: 'OCFS2:  Defragmentation error: No space left on device'
 '20190411':
+- component: Kernel
+  create_time: 20190411T20:24:00
+  id: 1132272
+  resolution: ''
+  status: NEW
+  summary: 'iwlwifi: BIOS contains WGDS but no WRDS'
+- component: Basesystem
+  create_time: 20190411T19:07:00
+  id: 1132267
+  resolution: ''
+  status: NEW
+  summary: Missing symbol TLSv1_2_client_method in libssl.so.1.0.0 from libopenssl1_1-1.1.0h-4.6.x86_64
+- component: Xfce
+  create_time: 20190411T15:51:00
+  id: 1132255
+  resolution: ''
+  status: NEW
+  summary: "Xfce panel doesn\u2019t hide"
+- component: YaST2
+  create_time: 20190411T14:06:00
+  id: 1132247
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'libyui: merge the testing REST API framework'
+- component: Kernel
+  create_time: 20190411T09:27:00
+  id: 1132198
+  resolution: ''
+  status: NEW
+  summary: diskless system on 3par storeserv (failover via iSCSI) not work
+- component: LXQt
+  create_time: 20190411T08:06:00
+  id: 1132184
+  resolution: ''
+  status: NEW
+  summary: LXQt xscreensaver/Lock-Screen runs on single display, other display continues
+    normally
+- component: YaST2
+  create_time: 20190411T07:57:00
+  id: 1132182
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: install and enable firstboot wizard when skipping root password?
+- component: LXQt
+  create_time: 20190411T07:42:00
+  id: 1132180
+  resolution: ''
+  status: NEW
+  summary: LXQt windows don't maximize to use whole display (full width but minimal
+    height on lower display)
+- component: LXQt
+  create_time: 20190411T07:40:00
+  id: 1132179
+  resolution: ''
+  status: NEW
+  summary: LXQt windows don't maximize to use whole display (full width but minimal
+    height on lower display)
+- component: LXQt
+  create_time: 20190411T07:17:00
+  id: 1132176
+  resolution: ''
+  status: NEW
+  summary: pcmanfm-qt dolphin & windows move position on second/lower screen on function
+'20190412':
 - component: Sound
   create_time: 20190414T12:35:00
   id: 1132458
@@ -21974,66 +22038,3 @@
   resolution: ''
   status: NEW
   summary: podman does not contain manpage containers-registries.conf
-- component: Kernel
-  create_time: 20190411T20:24:00
-  id: 1132272
-  resolution: ''
-  status: NEW
-  summary: 'iwlwifi: BIOS contains WGDS but no WRDS'
-- component: Basesystem
-  create_time: 20190411T19:07:00
-  id: 1132267
-  resolution: ''
-  status: NEW
-  summary: Missing symbol TLSv1_2_client_method in libssl.so.1.0.0 from libopenssl1_1-1.1.0h-4.6.x86_64
-- component: Xfce
-  create_time: 20190411T15:51:00
-  id: 1132255
-  resolution: ''
-  status: NEW
-  summary: "Xfce panel doesn\u2019t hide"
-- component: YaST2
-  create_time: 20190411T14:06:00
-  id: 1132247
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'libyui: merge the testing REST API framework'
-- component: Kernel
-  create_time: 20190411T09:27:00
-  id: 1132198
-  resolution: ''
-  status: NEW
-  summary: diskless system on 3par storeserv (failover via iSCSI) not work
-- component: LXQt
-  create_time: 20190411T08:06:00
-  id: 1132184
-  resolution: ''
-  status: NEW
-  summary: LXQt xscreensaver/Lock-Screen runs on single display, other display continues
-    normally
-- component: YaST2
-  create_time: 20190411T07:57:00
-  id: 1132182
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: install and enable firstboot wizard when skipping root password?
-- component: LXQt
-  create_time: 20190411T07:42:00
-  id: 1132180
-  resolution: ''
-  status: NEW
-  summary: LXQt windows don't maximize to use whole display (full width but minimal
-    height on lower display)
-- component: LXQt
-  create_time: 20190411T07:40:00
-  id: 1132179
-  resolution: ''
-  status: NEW
-  summary: LXQt windows don't maximize to use whole display (full width but minimal
-    height on lower display)
-- component: LXQt
-  create_time: 20190411T07:17:00
-  id: 1132176
-  resolution: ''
-  status: NEW
-  summary: pcmanfm-qt dolphin & windows move position on second/lower screen on function
