@@ -21943,6 +21943,18 @@
   status: NEW
   summary: pcmanfm-qt dolphin & windows move position on second/lower screen on function
 '20190412':
+- component: Kernel
+  create_time: 20190415T07:02:00
+  id: 1132485
+  resolution: ''
+  status: NEW
+  summary: kernel with xen  don't see all memory
+- component: Usability
+  create_time: 20190415T01:15:00
+  id: 1132466
+  resolution: ''
+  status: NEW
+  summary: SDDM very slow to show up.
 - component: Sound
   create_time: 20190414T12:35:00
   id: 1132458
@@ -22023,7 +22035,7 @@
   create_time: 20190412T08:29:00
   id: 1132316
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'kernel: Backport TPM fix e891db1a18bf ("tpm: turn on TPM on suspend for
     TPM 1.x") to fix broken suspend'
 - component: LXQt
