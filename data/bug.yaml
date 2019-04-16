@@ -17524,8 +17524,8 @@
 - component: Installation
   create_time: 20190109T16:00:00
   id: 1121286
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Errors calculating how much should Windows be resized
 - component: Basesystem
   create_time: 20190109T15:33:00
@@ -21412,7 +21412,7 @@
   id: 1130843
   resolution: ''
   status: NEW
-  summary: Tomcat 9.0.13 update incompatible with tomcat-native
+  summary: Tomcat TLS Broken - Tomcat 9.0.14 update incompatible with tomcat-native
 - component: Other
   create_time: 20190328T09:31:00
   id: 1130797
@@ -21697,8 +21697,8 @@
 - component: Xfce
   create_time: 20190405T09:35:00
   id: 1131666
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Add Xfce System Role to Yast2 Installer
 - component: Basesystem
   create_time: 20190405T03:55:00
@@ -21900,8 +21900,8 @@
 - component: Kernel
   create_time: 20190411T09:27:00
   id: 1132198
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: diskless system on 3par storeserv (failover via iSCSI) not work
 - component: LXQt
   create_time: 20190411T08:06:00
@@ -21937,6 +21937,12 @@
   status: NEW
   summary: pcmanfm-qt dolphin & windows move position on second/lower screen on function
 '20190412':
+- component: Development
+  create_time: 20190416T10:43:00
+  id: 1132642
+  resolution: ''
+  status: NEW
+  summary: qt program link with glibc-devel-static crashes calling getaddrinfo()
 - component: LXQt
   create_time: 20190416T06:20:00
   id: 1132608
