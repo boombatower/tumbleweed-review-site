@@ -21938,6 +21938,18 @@
   summary: pcmanfm-qt dolphin & windows move position on second/lower screen on function
 '20190412':
 - component: Basesystem
+  create_time: 20190417T17:14:00
+  id: 1132796
+  resolution: ''
+  status: NEW
+  summary: Avoid creating /var/lib/rpm symlink on read-only root file system
+- component: Network
+  create_time: 20190417T14:52:00
+  id: 1132774
+  resolution: ''
+  status: NEW
+  summary: Ethernet network broken after upgrading Tumbleweed to snapshot 20190415
+- component: Basesystem
   create_time: 20190417T13:01:00
   id: 1132764
   resolution: ''
