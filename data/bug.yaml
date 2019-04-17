@@ -9396,8 +9396,8 @@
 - component: Basesystem
   create_time: 20180615T15:33:00
   id: 1097869
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Shift overflow in libkmod.h
 - component: Other
   create_time: 20180615T15:24:00
