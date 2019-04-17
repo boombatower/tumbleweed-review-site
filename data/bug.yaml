@@ -21937,6 +21937,12 @@
   status: NEW
   summary: pcmanfm-qt dolphin & windows move position on second/lower screen on function
 '20190412':
+- component: YaST2
+  create_time: 20190417T02:06:00
+  id: 1132704
+  resolution: ''
+  status: NEW
+  summary: YaST2 Docker Module Does Not Delete Docker Images
 - component: Kernel
   create_time: 20190416T18:33:00
   id: 1132694
@@ -21958,8 +21964,8 @@
 - component: Development
   create_time: 20190416T10:43:00
   id: 1132642
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: qt program link with glibc-devel-static crashes calling getaddrinfo()
 - component: LXQt
   create_time: 20190416T06:20:00
