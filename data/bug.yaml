@@ -20842,8 +20842,8 @@
 - component: Kernel
   create_time: 20190314T14:37:00
   id: 1129258
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'BUG: unable to handle kernel NULL pointer dereference at 0000000000000040
     on __irq_domain_deactivate_irq+0x26/0x50 at psmouse_smbus_remove_i2c_device'
 - component: YaST2
@@ -21221,7 +21221,7 @@
   create_time: 20190326T10:05:00
   id: 1130502
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: libyui-qt{,-pkg,graph} does not build with Qt 5.13
 - component: Kernel
   create_time: 20190326T08:02:00
@@ -21937,6 +21937,25 @@
   status: NEW
   summary: pcmanfm-qt dolphin & windows move position on second/lower screen on function
 '20190412':
+- component: Basesystem
+  create_time: 20190417T13:01:00
+  id: 1132764
+  resolution: ''
+  status: NEW
+  summary: docker-compose failed to install with " 'PyYAML<4,>=3.10' distribution
+    was not found"
+- component: Samba
+  create_time: 20190417T09:10:00
+  id: 1132739
+  resolution: ''
+  status: NEW
+  summary: samba-windbind wrongly uses /etc/rc.status
+- component: Basesystem
+  create_time: 20190417T09:08:00
+  id: 1132738
+  resolution: ''
+  status: NEW
+  summary: Move /etc/rc.splash and /etc/rc.status from aaa_base to insserv-compat
 - component: YaST2
   create_time: 20190417T02:06:00
   id: 1132704
@@ -21980,7 +21999,7 @@
   status: RESOLVED
   summary: '[Build 20190414] openQA test fails in gnome_music - gnome music does not
     start'
-- component: Kernel
+- component: Development
   create_time: 20190415T13:39:00
   id: 1132538
   resolution: ''
