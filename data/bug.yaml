@@ -13652,7 +13652,7 @@
   create_time: 20181017T12:49:00
   id: 1112183
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[TRACKERBUG] Japan changing to a new calendar era'
 - component: Network
   create_time: 20181017T11:26:00
@@ -16294,8 +16294,8 @@
 - component: Network
   create_time: 20181127T11:29:00
   id: 1117448
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: ushare does not build with libupnp 1.8.x
 - component: Basesystem
   create_time: 20181126T16:26:00
@@ -16359,7 +16359,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: update-checker is broken out of the box
-- component: YaST2
+- component: Samba
   create_time: 20181128T12:22:00
   id: 1117643
   resolution: ''
@@ -20031,6 +20031,12 @@
   status: IN_PROGRESS
   summary: systemd-tmpfiles need updating from /var/run/* to /run/*
 - component: Security
+  create_time: 20190228T13:02:00
+  id: 1127368
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'AUDIT-0: snapd: add set*id permissions related to snapd (/usr/lib/snapd/snap-confine)'
+- component: Security
   create_time: 20190228T12:49:00
   id: 1127366
   resolution: ''
@@ -22033,6 +22039,13 @@
   status: NEW
   summary: podman does not contain manpage containers-registries.conf
 '20190415':
+- component: MicroOS
+  create_time: 20190418T10:29:00
+  id: 1132848
+  resolution: ''
+  status: NEW
+  summary: '[201904147] installation-images:MicroOS does not have correct libzypp
+    config'
 - component: Other
   create_time: 20190418T06:52:00
   id: 1132830
