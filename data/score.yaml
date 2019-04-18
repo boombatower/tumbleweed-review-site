@@ -743,5 +743,8 @@
   score: 89
   stability_level: pending
 '20190412':
-  score: 92
+  score: 94
+  stability_level: pending
+'20190415':
+  score: 96
   stability_level: pending
