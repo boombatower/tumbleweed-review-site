@@ -21118,8 +21118,8 @@
 - component: Basesystem
   create_time: 20190323T09:12:00
   id: 1130270
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: File conflicts on TW upgrade 20190315-0 -> 20190320-0 kernel-default-5.0.2-1.2.x86_64
     and kernel-default-base-5.0.2-1.1.1.5.x86_64
 - component: X11 Applications
@@ -22033,6 +22033,24 @@
   status: NEW
   summary: podman does not contain manpage containers-registries.conf
 '20190415':
+- component: Other
+  create_time: 20190418T06:52:00
+  id: 1132830
+  resolution: ''
+  status: NEW
+  summary: Cinnamon - Can't open cinnamon-settings after latest update (Apr 18, 2019)
+- component: X11 Applications
+  create_time: 20190418T06:44:00
+  id: 1132829
+  resolution: ''
+  status: NEW
+  summary: UPNP does not work in VLC
+- component: Kernel
+  create_time: 20190418T04:22:00
+  id: 1132825
+  resolution: ''
+  status: NEW
+  summary: systemtap can not work with v5.0 kernel
 - component: Basesystem
   create_time: 20190417T17:14:00
   id: 1132796
