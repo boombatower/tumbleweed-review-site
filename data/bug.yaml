@@ -19962,7 +19962,7 @@
   resolution: ''
   status: NEW
   summary: 'gnome-terminal-server: SIGSEGV in gdk_x11_device_manager_xi2_translate_event'
-- component: Kubic
+- component: Bootloader
   create_time: 20190225T19:45:00
   id: 1126900
   resolution: ''
@@ -22039,6 +22039,68 @@
   status: NEW
   summary: podman does not contain manpage containers-registries.conf
 '20190415':
+- component: Kernel
+  create_time: 20190416T18:33:00
+  id: 1132694
+  resolution: ''
+  status: NEW
+  summary: qemu kvm with host kernel 5.0.6-1 or 5.0.7-1 will not boot windows xp guest
+- component: Other
+  create_time: 20190416T15:57:00
+  id: 1132687
+  resolution: ''
+  status: NEW
+  summary: borg mount is broken
+- component: Firefox
+  create_time: 20190416T13:51:00
+  id: 1132665
+  resolution: ''
+  status: NEW
+  summary: With Firefox 66.0.2 there's now apparent way of minimizing a window!
+- component: Development
+  create_time: 20190416T10:43:00
+  id: 1132642
+  resolution: INVALID
+  status: RESOLVED
+  summary: qt program link with glibc-devel-static crashes calling getaddrinfo()
+- component: LXQt
+  create_time: 20190416T06:20:00
+  id: 1132608
+  resolution: ''
+  status: NEW
+  summary: Unable to change cursor theme in LXQt
+- component: GNOME
+  create_time: 20190415T14:19:00
+  id: 1132546
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20190414] openQA test fails in gnome_music - gnome music does not
+    start'
+- component: Development
+  create_time: 20190415T13:39:00
+  id: 1132538
+  resolution: ''
+  status: NEW
+  summary: systemtap-server doesn't work because it is not built with libavahi-devel
+- component: Development
+  create_time: 20190415T11:33:00
+  id: 1132523
+  resolution: ''
+  status: CONFIRMED
+  summary: osc bash completion doesn't know about "osc blame"
+- component: Kernel
+  create_time: 20190415T07:02:00
+  id: 1132485
+  resolution: INVALID
+  status: RESOLVED
+  summary: kernel with xen  don't see all memory
+- component: Usability
+  create_time: 20190415T01:15:00
+  id: 1132466
+  resolution: ''
+  status: NEW
+  summary: SDDM very slow to show up.
+'20190417':
 - component: MicroOS
   create_time: 20190418T10:29:00
   id: 1132848
@@ -22101,64 +22163,3 @@
   resolution: ''
   status: NEW
   summary: YaST2 Docker Module Does Not Delete Docker Images
-- component: Kernel
-  create_time: 20190416T18:33:00
-  id: 1132694
-  resolution: ''
-  status: NEW
-  summary: qemu kvm with host kernel 5.0.6-1 or 5.0.7-1 will not boot windows xp guest
-- component: Other
-  create_time: 20190416T15:57:00
-  id: 1132687
-  resolution: ''
-  status: NEW
-  summary: borg mount is broken
-- component: Firefox
-  create_time: 20190416T13:51:00
-  id: 1132665
-  resolution: ''
-  status: NEW
-  summary: With Firefox 66.0.2 there's now apparent way of minimizing a window!
-- component: Development
-  create_time: 20190416T10:43:00
-  id: 1132642
-  resolution: INVALID
-  status: RESOLVED
-  summary: qt program link with glibc-devel-static crashes calling getaddrinfo()
-- component: LXQt
-  create_time: 20190416T06:20:00
-  id: 1132608
-  resolution: ''
-  status: NEW
-  summary: Unable to change cursor theme in LXQt
-- component: GNOME
-  create_time: 20190415T14:19:00
-  id: 1132546
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: '[Build 20190414] openQA test fails in gnome_music - gnome music does not
-    start'
-- component: Development
-  create_time: 20190415T13:39:00
-  id: 1132538
-  resolution: ''
-  status: NEW
-  summary: systemtap-server doesn't work because it is not built with libavahi-devel
-- component: Development
-  create_time: 20190415T11:33:00
-  id: 1132523
-  resolution: ''
-  status: CONFIRMED
-  summary: osc bash completion doesn't know about "osc blame"
-- component: Kernel
-  create_time: 20190415T07:02:00
-  id: 1132485
-  resolution: INVALID
-  status: RESOLVED
-  summary: kernel with xen  don't see all memory
-- component: Usability
-  create_time: 20190415T01:15:00
-  id: 1132466
-  resolution: ''
-  status: NEW
-  summary: SDDM very slow to show up.
