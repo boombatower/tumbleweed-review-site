@@ -21937,6 +21937,102 @@
   status: NEW
   summary: pcmanfm-qt dolphin & windows move position on second/lower screen on function
 '20190412':
+- component: Sound
+  create_time: 20190414T12:35:00
+  id: 1132458
+  resolution: ''
+  status: IN_PROGRESS
+  summary: jack_control crashes immediately due to Python 3 incompatibility
+- component: Kernel
+  create_time: 20190414T11:07:00
+  id: 1132456
+  resolution: ''
+  status: NEW
+  summary: Raspberry Pi 3B console video fails using DSI interface
+- component: Other
+  create_time: 20190414T06:30:00
+  id: 1132451
+  resolution: ''
+  status: NEW
+  summary: missing cmake file for proj-devel
+- component: X11 Applications
+  create_time: 20190413T18:35:00
+  id: 1132442
+  resolution: ''
+  status: NEW
+  summary: 'Feature: lightdm-gtk-greeter: Add distribution logo  in the greeter'
+- component: Other
+  create_time: 20190413T16:15:00
+  id: 1132440
+  resolution: ''
+  status: NEW
+  summary: Incorporate distribution logo in display managers
+- component: Kubic
+  create_time: 20190413T11:41:00
+  id: 1132436
+  resolution: ''
+  status: NEW
+  summary: /srv should be an own subvolume
+- component: Installation
+  create_time: 20190413T09:37:00
+  id: 1132435
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed 32bit and 64bit did not boot on samsung nc110 again after several
+    updates
+- component: Kernel
+  create_time: 20190413T07:29:00
+  id: 1132434
+  resolution: INVALID
+  status: RESOLVED
+  summary: iwlwifi crashes on BAD_COMMAND while transferring files to wireless-connected
+    phone through KDEConnect
+- component: Installation
+  create_time: 20190412T20:58:00
+  id: 1132422
+  resolution: ''
+  status: NEW
+  summary: linuxrc unable to net install with kexec=3 for TW ppc64le
+- component: Security
+  create_time: 20190412T20:31:00
+  id: 1132421
+  resolution: ''
+  status: NEW
+  summary: AppArmor profile for Ghostscript prevents "-sOutputFile=|cat 1>&3"
+- component: Virtualization:Other
+  create_time: 20190412T14:52:00
+  id: 1132379
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'VirtualBox won''t launch VM on kernel 5.0.6: Error 0x1 NS_ERROR_FAILURE
+    MachineWrap'
+- component: Basesystem
+  create_time: 20190412T12:33:00
+  id: 1132350
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'trackerbug: adapt all apparmor profiles containing /bin/bash after bash
+    move'
+- component: Kernel
+  create_time: 20190412T08:29:00
+  id: 1132316
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'kernel: Backport TPM fix e891db1a18bf ("tpm: turn on TPM on suspend for
+    TPM 1.x") to fix broken suspend'
+- component: LXQt
+  create_time: 20190412T07:27:00
+  id: 1132312
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190411] LXQt fails to start'
+- component: Containers
+  create_time: 20190412T06:38:00
+  id: 1132305
+  resolution: ''
+  status: NEW
+  summary: podman does not contain manpage containers-registries.conf
+'20190415':
 - component: Basesystem
   create_time: 20190417T17:14:00
   id: 1132796
@@ -22035,98 +22131,3 @@
   resolution: ''
   status: NEW
   summary: SDDM very slow to show up.
-- component: Sound
-  create_time: 20190414T12:35:00
-  id: 1132458
-  resolution: ''
-  status: IN_PROGRESS
-  summary: jack_control crashes immediately due to Python 3 incompatibility
-- component: Kernel
-  create_time: 20190414T11:07:00
-  id: 1132456
-  resolution: ''
-  status: NEW
-  summary: Raspberry Pi 3B console video fails using DSI interface
-- component: Other
-  create_time: 20190414T06:30:00
-  id: 1132451
-  resolution: ''
-  status: NEW
-  summary: missing cmake file for proj-devel
-- component: X11 Applications
-  create_time: 20190413T18:35:00
-  id: 1132442
-  resolution: ''
-  status: NEW
-  summary: 'Feature: lightdm-gtk-greeter: Add distribution logo  in the greeter'
-- component: Other
-  create_time: 20190413T16:15:00
-  id: 1132440
-  resolution: ''
-  status: NEW
-  summary: Incorporate distribution logo in display managers
-- component: Kubic
-  create_time: 20190413T11:41:00
-  id: 1132436
-  resolution: ''
-  status: NEW
-  summary: /srv should be an own subvolume
-- component: Installation
-  create_time: 20190413T09:37:00
-  id: 1132435
-  resolution: ''
-  status: NEW
-  summary: Tumbleweed 32bit and 64bit did not boot on samsung nc110 again after several
-    updates
-- component: Kernel
-  create_time: 20190413T07:29:00
-  id: 1132434
-  resolution: INVALID
-  status: RESOLVED
-  summary: iwlwifi crashes on BAD_COMMAND while transferring files to wireless-connected
-    phone through KDEConnect
-- component: Installation
-  create_time: 20190412T20:58:00
-  id: 1132422
-  resolution: ''
-  status: NEW
-  summary: linuxrc unable to net install with kexec=3 for TW ppc64le
-- component: Security
-  create_time: 20190412T20:31:00
-  id: 1132421
-  resolution: ''
-  status: NEW
-  summary: AppArmor profile for Ghostscript prevents "-sOutputFile=|cat 1>&3"
-- component: Virtualization:Other
-  create_time: 20190412T14:52:00
-  id: 1132379
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'VirtualBox won''t launch VM on kernel 5.0.6: Error 0x1 NS_ERROR_FAILURE
-    MachineWrap'
-- component: Basesystem
-  create_time: 20190412T12:33:00
-  id: 1132350
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'trackerbug: adapt all apparmor profiles containing /bin/bash after bash
-    move'
-- component: Kernel
-  create_time: 20190412T08:29:00
-  id: 1132316
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'kernel: Backport TPM fix e891db1a18bf ("tpm: turn on TPM on suspend for
-    TPM 1.x") to fix broken suspend'
-- component: LXQt
-  create_time: 20190412T07:27:00
-  id: 1132312
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190411] LXQt fails to start'
-- component: Containers
-  create_time: 20190412T06:38:00
-  id: 1132305
-  resolution: ''
-  status: NEW
-  summary: podman does not contain manpage containers-registries.conf
