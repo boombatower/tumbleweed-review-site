@@ -22101,6 +22101,13 @@
   status: NEW
   summary: SDDM very slow to show up.
 '20190417':
+- component: X11 Applications
+  create_time: 20190419T05:47:00
+  id: 1132889
+  resolution: ''
+  status: NEW
+  summary: 'deepin-launcher: dde-launcher: symbol lookup error: dde-launcher: undefined
+    symbol: _ZN16__SessionManager6lockedEv'
 - component: Sound
   create_time: 20190418T20:24:00
   id: 1132880
