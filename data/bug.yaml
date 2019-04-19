@@ -16880,8 +16880,8 @@
 - component: Kernel
   create_time: 20181215T02:26:00
   id: 1119621
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: kernel 4.19 + i915 gives black screen/intermittent display
 - component: Security
   create_time: 20181215T01:54:00
@@ -21503,7 +21503,7 @@
   create_time: 20190401T16:31:00
   id: 1131184
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: virt-sysprep fails with OOM in "find0"
 - component: Kernel
   create_time: 20190401T16:12:00
@@ -21697,8 +21697,8 @@
 - component: Virtualization:Other
   create_time: 20190405T11:33:00
   id: 1131687
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'vagrant: nothing provides rubygem(ruby:2.6.0:net-scp:1.2) >= 1.2'
 - component: Xfce
   create_time: 20190405T09:35:00
@@ -22101,6 +22101,13 @@
   status: NEW
   summary: SDDM very slow to show up.
 '20190417':
+- component: Sound
+  create_time: 20190418T20:24:00
+  id: 1132880
+  resolution: ''
+  status: NEW
+  summary: 'E: [pulseaudio] ltdl-bind-now.c: Failed to open module /usr/lib64/pulse-12.2/modules/module-alsa-card.so:
+    /usr/lib64/pulse-12.2/modules/libalsa-util.so: undefined symbol: pa_alsa_ucm_device_update_available'
 - component: MicroOS
   create_time: 20190418T10:29:00
   id: 1132848
