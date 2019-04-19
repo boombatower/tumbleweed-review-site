@@ -744,10 +744,10 @@
   stability_level: moderate
 '20190412':
   score: 94
-  stability_level: pending
+  stability_level: stable
 '20190415':
   score: 96
   stability_level: pending
 '20190417':
-  score: 97
+  score: 94
   stability_level: pending
