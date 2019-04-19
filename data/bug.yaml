@@ -22101,6 +22101,25 @@
   status: NEW
   summary: SDDM very slow to show up.
 '20190417':
+- component: X11 3rd Party Driver
+  create_time: 20190419T10:45:00
+  id: 1132901
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Heavy distortions, when connecting with krdc to TigerVNC in medium quality
+- component: Other
+  create_time: 20190419T09:35:00
+  id: 1132897
+  resolution: ''
+  status: NEW
+  summary: 'TW20190417: tilix crashes with "tilix: symbol lookup error: tilix: undefined
+    symbol: _D6object__T10RTInfoImplVAmA2i40i16Z4datayG2m"'
+- component: KDE Applications
+  create_time: 20190419T08:52:00
+  id: 1132895
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: korganizer crashes on startup
 - component: X11 Applications
   create_time: 20190419T05:47:00
   id: 1132889
