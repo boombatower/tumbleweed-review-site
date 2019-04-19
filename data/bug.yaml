@@ -22101,6 +22101,57 @@
   status: NEW
   summary: SDDM very slow to show up.
 '20190417':
+- component: Basesystem
+  create_time: 20190417T17:14:00
+  id: 1132796
+  resolution: ''
+  status: NEW
+  summary: Avoid creating /var/lib/rpm symlink on read-only root file system
+- component: Network
+  create_time: 20190417T14:52:00
+  id: 1132774
+  resolution: ''
+  status: NEW
+  summary: Ethernet network broken after upgrading Tumbleweed to snapshot 20190415
+- component: Basesystem
+  create_time: 20190417T13:01:00
+  id: 1132764
+  resolution: ''
+  status: NEW
+  summary: docker-compose failed to install with " 'PyYAML<4,>=3.10' distribution
+    was not found"
+- component: Samba
+  create_time: 20190417T09:10:00
+  id: 1132739
+  resolution: ''
+  status: NEW
+  summary: samba-windbind wrongly uses /etc/rc.status
+- component: Basesystem
+  create_time: 20190417T09:08:00
+  id: 1132738
+  resolution: ''
+  status: NEW
+  summary: Move /etc/rc.splash and /etc/rc.status from aaa_base to insserv-compat
+- component: YaST2
+  create_time: 20190417T02:06:00
+  id: 1132704
+  resolution: ''
+  status: NEW
+  summary: YaST2 Docker Module Does Not Delete Docker Images
+'20190418':
+- component: Basesystem
+  create_time: 20190419T19:25:00
+  id: 1132927
+  resolution: ''
+  status: NEW
+  summary: 'systemd warnings for several services: "PIDFile= references path below
+    legacy directory /var/run/..."'
+- component: X.Org
+  create_time: 20190419T14:31:00
+  id: 1132911
+  resolution: ''
+  status: NEW
+  summary: SynPS/2 Synaptics TouchPad not working after update to 20190417
 - component: X11 3rd Party Driver
   create_time: 20190419T10:45:00
   id: 1132901
@@ -22159,40 +22210,3 @@
   resolution: ''
   status: NEW
   summary: systemtap can not work with v5.0 kernel
-- component: Basesystem
-  create_time: 20190417T17:14:00
-  id: 1132796
-  resolution: ''
-  status: NEW
-  summary: Avoid creating /var/lib/rpm symlink on read-only root file system
-- component: Network
-  create_time: 20190417T14:52:00
-  id: 1132774
-  resolution: ''
-  status: NEW
-  summary: Ethernet network broken after upgrading Tumbleweed to snapshot 20190415
-- component: Basesystem
-  create_time: 20190417T13:01:00
-  id: 1132764
-  resolution: ''
-  status: NEW
-  summary: docker-compose failed to install with " 'PyYAML<4,>=3.10' distribution
-    was not found"
-- component: Samba
-  create_time: 20190417T09:10:00
-  id: 1132739
-  resolution: ''
-  status: NEW
-  summary: samba-windbind wrongly uses /etc/rc.status
-- component: Basesystem
-  create_time: 20190417T09:08:00
-  id: 1132738
-  resolution: ''
-  status: NEW
-  summary: Move /etc/rc.splash and /etc/rc.status from aaa_base to insserv-compat
-- component: YaST2
-  create_time: 20190417T02:06:00
-  id: 1132704
-  resolution: ''
-  status: NEW
-  summary: YaST2 Docker Module Does Not Delete Docker Images
