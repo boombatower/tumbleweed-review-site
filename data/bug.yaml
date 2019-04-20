@@ -21813,8 +21813,8 @@
 - component: Virtualization:Tools
   create_time: 20190410T18:25:00
   id: 1132127
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: libvirt-tck media change test failure with libvirt 5.2.0
 - component: Other
   create_time: 20190410T17:57:00
