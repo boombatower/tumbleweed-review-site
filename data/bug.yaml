@@ -22139,6 +22139,13 @@
   status: NEW
   summary: YaST2 Docker Module Does Not Delete Docker Images
 '20190418':
+- component: LXQt
+  create_time: 20190420T04:51:00
+  id: 1132937
+  resolution: ''
+  status: NEW
+  summary: LXQt menu-button opens in wrong position (on portrait display, normal on
+    landscape..)
 - component: Basesystem
   create_time: 20190419T19:25:00
   id: 1132927
