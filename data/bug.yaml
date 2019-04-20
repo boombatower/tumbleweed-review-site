@@ -22139,6 +22139,13 @@
   status: NEW
   summary: YaST2 Docker Module Does Not Delete Docker Images
 '20190418':
+- component: Virtualization:Other
+  create_time: 20190420T12:40:00
+  id: 1132941
+  resolution: ''
+  status: NEW
+  summary: 'TW 20190418 VirtualBox: Windows 7 Guest BSOD with "The BIOS in this system
+    is not fully ACPI compliant"'
 - component: LXQt
   create_time: 20190420T04:51:00
   id: 1132937
@@ -22157,13 +22164,13 @@
   create_time: 20190419T14:31:00
   id: 1132911
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: SynPS/2 Synaptics TouchPad not working after update to 20190417
 - component: X11 3rd Party Driver
   create_time: 20190419T10:45:00
   id: 1132901
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Heavy distortions, when connecting with krdc to TigerVNC in medium quality
 - component: Other
   create_time: 20190419T09:35:00
