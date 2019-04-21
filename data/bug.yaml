@@ -22142,8 +22142,8 @@
 - component: Sound
   create_time: 20190418T20:24:00
   id: 1132880
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'E: [pulseaudio] ltdl-bind-now.c: Failed to open module /usr/lib64/pulse-12.2/modules/module-alsa-card.so:
     /usr/lib64/pulse-12.2/modules/libalsa-util.so: undefined symbol: pa_alsa_ucm_device_update_available'
 - component: MicroOS
@@ -22172,6 +22172,13 @@
   status: NEW
   summary: systemtap can not work with v5.0 kernel
 '20190419':
+- component: Virtualization:Other
+  create_time: 20190421T09:40:00
+  id: 1132951
+  resolution: ''
+  status: NEW
+  summary: VirtualBox 6.0.4-3.3 "The BIOS in this system is not fully ACPI compliant"
+    with Windows 7 VM
 - component: Other
   create_time: 20190421T04:32:00
   id: 1132949
