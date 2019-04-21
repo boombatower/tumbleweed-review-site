@@ -19624,8 +19624,8 @@
 - component: X11 Applications
   create_time: 20190218T16:42:00
   id: 1125820
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: orphaned packages needed by geeqie
 - component: YaST2
   create_time: 20190218T16:41:00
@@ -22172,6 +22172,12 @@
   status: NEW
   summary: systemtap can not work with v5.0 kernel
 '20190419':
+- component: Other
+  create_time: 20190420T20:52:00
+  id: 1132947
+  resolution: ''
+  status: NEW
+  summary: mcomix no longer executes in Tumbleweed 20190419
 - component: Kernel
   create_time: 20190420T17:13:00
   id: 1132943
