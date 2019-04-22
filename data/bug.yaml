@@ -20446,8 +20446,8 @@
 - component: GNOME
   create_time: 20190306T18:51:00
   id: 1128212
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: gsettings-desktop-schemas -- Patch needs dropping or rebase
 - component: GNOME
   create_time: 20190306T18:45:00
