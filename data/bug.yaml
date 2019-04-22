@@ -20942,8 +20942,8 @@
 - component: Other
   create_time: 20190315T22:33:00
   id: 1129466
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: fwupd cannot update BIOS with UEFI Secure Boot enabled because of missing
     fwupdx64.efi.signed
 - component: Xfce
@@ -21075,8 +21075,8 @@
 - component: Bootloader
   create_time: 20190321T11:07:00
   id: 1130056
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'fwupdmgr: shimx64.efi is missing'
 - component: GNOME
   create_time: 20190321T11:06:00
@@ -22212,6 +22212,19 @@
   summary: 'deepin-launcher: dde-launcher: symbol lookup error: dde-launcher: undefined
     symbol: _ZN16__SessionManager6lockedEv'
 '20190420':
+- component: YaST2
+  create_time: 20190422T09:49:00
+  id: 1132980
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190421] openQA test fails in select_patterns_and_packages - libyui-qt-pkg
+    2.46.2 crashes'
+- component: GNOME
+  create_time: 20190422T08:35:00
+  id: 1132974
+  resolution: ''
+  status: NEW
+  summary: libpangoft2 crashes with pango_fc_font_key_get_variations() error
 - component: Other
   create_time: 20190422T00:58:00
   id: 1132961
@@ -22233,8 +22246,8 @@
 - component: Virtualization:Other
   create_time: 20190421T09:40:00
   id: 1132951
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: VirtualBox 6.0.4-3.3 "The BIOS in this system is not fully ACPI compliant"
     with Windows 7 VM
 - component: Other
@@ -22265,7 +22278,7 @@
   create_time: 20190420T12:40:00
   id: 1132941
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'TW 20190418 VirtualBox: Windows 7 Guest BSOD with "The BIOS in this system
     is not fully ACPI compliant"'
 - component: LXQt
