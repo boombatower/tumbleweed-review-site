@@ -22212,6 +22212,12 @@
   summary: 'deepin-launcher: dde-launcher: symbol lookup error: dde-launcher: undefined
     symbol: _ZN16__SessionManager6lockedEv'
 '20190420':
+- component: Other
+  create_time: 20190422T00:58:00
+  id: 1132961
+  resolution: ''
+  status: NEW
+  summary: piper missing dependency
 - component: Basesystem
   create_time: 20190421T17:46:00
   id: 1132956
