@@ -8852,7 +8852,7 @@
   create_time: 20180604T11:05:00
   id: 1095795
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: acl package does not build reproducibly from gettext
 - component: Other
   create_time: 20180604T09:50:00
@@ -22200,8 +22200,8 @@
 - component: Other
   create_time: 20190419T09:35:00
   id: 1132897
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'TW20190417: tilix crashes with "tilix: symbol lookup error: tilix: undefined
     symbol: _D6object__T10RTInfoImplVAmA2i40i16Z4datayG2m"'
 - component: KDE Applications
@@ -22218,6 +22218,102 @@
   summary: 'deepin-launcher: dde-launcher: symbol lookup error: dde-launcher: undefined
     symbol: _ZN16__SessionManager6lockedEv'
 '20190420':
+- component: Basesystem
+  create_time: 20190423T19:48:00
+  id: 1133170
+  resolution: ''
+  status: NEW
+  summary: Browsers loading time (>60 seconds)
+- component: LibreOffice
+  create_time: 20190423T19:30:00
+  id: 1133169
+  resolution: ''
+  status: NEW
+  summary: Area bitmap lost after save as docx
+- component: Firefox
+  create_time: 20190423T18:16:00
+  id: 1133163
+  resolution: ''
+  status: NEW
+  summary: Wrong word separators in Firefox inputs
+- component: Basesystem
+  create_time: 20190423T15:09:00
+  id: 1133136
+  resolution: ''
+  status: NEW
+  summary: 'LTO: jemalloc build fails'
+- component: Basesystem
+  create_time: 20190423T15:08:00
+  id: 1133135
+  resolution: ''
+  status: NEW
+  summary: 'LTO: java-1_8_0-openjdk build fails'
+- component: Basesystem
+  create_time: 20190423T15:03:00
+  id: 1133133
+  resolution: ''
+  status: NEW
+  summary: 'LTO: infinipath-psm build fails'
+- component: Basesystem
+  create_time: 20190423T15:01:00
+  id: 1133131
+  resolution: ''
+  status: NEW
+  summary: 'LTO: gperftools build fails'
+- component: Basesystem
+  create_time: 20190423T14:50:00
+  id: 1133129
+  resolution: ''
+  status: NEW
+  summary: 'LTO: glib2 build fails'
+- component: Basesystem
+  create_time: 20190423T14:44:00
+  id: 1133128
+  resolution: ''
+  status: NEW
+  summary: 'LTO: gdb build fails'
+- component: Basesystem
+  create_time: 20190423T14:40:00
+  id: 1133124
+  resolution: ''
+  status: NEW
+  summary: 'LTO: flatpack build fails'
+- component: Basesystem
+  create_time: 20190423T14:39:00
+  id: 1133123
+  resolution: ''
+  status: NEW
+  summary: 'LTO: ffmpeg-4 build fails'
+- component: Basesystem
+  create_time: 20190423T14:35:00
+  id: 1133122
+  resolution: ''
+  status: NEW
+  summary: 'LTO: cmocka build fails'
+- component: Basesystem
+  create_time: 20190423T14:34:00
+  id: 1133121
+  resolution: ''
+  status: NEW
+  summary: 'LTO: mutter build fails'
+- component: Basesystem
+  create_time: 20190423T14:34:00
+  id: 1133120
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libostree build fails'
+- component: Basesystem
+  create_time: 20190423T14:33:00
+  id: 1133119
+  resolution: ''
+  status: NEW
+  summary: 'LTO: gtk3 build fails'
+- component: Basesystem
+  create_time: 20190423T14:32:00
+  id: 1133118
+  resolution: ''
+  status: NEW
+  summary: 'LTO: clutter build fails'
 - component: Basesystem
   create_time: 20190423T14:13:00
   id: 1133112
@@ -22311,8 +22407,8 @@
 - component: Sound
   create_time: 20190423T08:11:00
   id: 1133053
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: No sound on t100taf (dummy audio)
 - component: Other
   create_time: 20190423T06:21:00
@@ -22344,7 +22440,7 @@
   create_time: 20190422T00:58:00
   id: 1132961
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: piper missing dependency
 - component: Basesystem
   create_time: 20190421T17:46:00
