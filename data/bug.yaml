@@ -18250,8 +18250,8 @@
 - component: Xfce
   create_time: 20190116T15:07:00
   id: 1122206
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: XFCE leaves user session after login
 - component: Basesystem
   create_time: 20190116T12:46:00
@@ -19492,8 +19492,8 @@
 - component: Basesystem
   create_time: 20190214T02:20:00
   id: 1125376
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'Installation: New user is not added in `video` group -> results in permission
     issue for /dev/dri/card0'
 - component: Other
@@ -19630,8 +19630,8 @@
 - component: YaST2
   create_time: 20190218T16:41:00
   id: 1125819
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: YaST2 fonts - Internal error
 - component: Basesystem
   create_time: 20190218T16:28:00
@@ -20572,6 +20572,12 @@
   resolution: FIXED
   status: RESOLVED
   summary: Cannot disable entirely QT scaling on HiDPI Display
+- component: Installation
+  create_time: 20190307T17:26:00
+  id: 1128385
+  resolution: ''
+  status: REOPENED
+  summary: 'Server installation: Automatic User login offered'
 - component: YaST2
   create_time: 20190307T15:36:00
   id: 1128364
@@ -21912,8 +21918,8 @@
 - component: LXQt
   create_time: 20190411T08:06:00
   id: 1132184
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: LXQt xscreensaver/Lock-Screen runs on single display, other display continues
     normally
 - component: YaST2
@@ -21925,22 +21931,22 @@
 - component: LXQt
   create_time: 20190411T07:42:00
   id: 1132180
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: LXQt windows don't maximize to use whole display (full width but minimal
     height on lower display)
 - component: LXQt
   create_time: 20190411T07:40:00
   id: 1132179
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: LXQt windows don't maximize to use whole display (full width but minimal
     height on lower display)
 - component: LXQt
   create_time: 20190411T07:17:00
   id: 1132176
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: pcmanfm-qt dolphin & windows move position on second/lower screen on function
 '20190412':
 - component: Sound
@@ -22212,6 +22218,96 @@
   summary: 'deepin-launcher: dde-launcher: symbol lookup error: dde-launcher: undefined
     symbol: _ZN16__SessionManager6lockedEv'
 '20190420':
+- component: Basesystem
+  create_time: 20190423T14:13:00
+  id: 1133112
+  resolution: ''
+  status: NEW
+  summary: 'LTO: cdrdao build fails'
+- component: Other
+  create_time: 20190423T13:33:00
+  id: 1133110
+  resolution: ''
+  status: NEW
+  summary: Remove jasper dependency from ImageMagick
+- component: Basesystem
+  create_time: 20190423T12:58:00
+  id: 1133108
+  resolution: ''
+  status: NEW
+  summary: 'LTO: argyllcms build fails'
+- component: Basesystem
+  create_time: 20190423T12:22:00
+  id: 1133102
+  resolution: ''
+  status: NEW
+  summary: 'LTO: python-semanage build fails'
+- component: Basesystem
+  create_time: 20190423T12:20:00
+  id: 1133101
+  resolution: ''
+  status: NEW
+  summary: 'LTO: fuse build fails'
+- component: Basesystem
+  create_time: 20190423T12:18:00
+  id: 1133099
+  resolution: ''
+  status: NEW
+  summary: 'LTO: rdma-core build fails'
+- component: Basesystem
+  create_time: 20190423T12:16:00
+  id: 1133098
+  resolution: ''
+  status: NEW
+  summary: 'LTO: numactl build fails'
+- component: Basesystem
+  create_time: 20190423T12:15:00
+  id: 1133097
+  resolution: ''
+  status: NEW
+  summary: 'LTO: lksctp-tools build fails'
+- component: Basesystem
+  create_time: 20190423T12:12:00
+  id: 1133096
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libbsd build fails'
+- component: Basesystem
+  create_time: 20190423T11:19:00
+  id: 1133091
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libapparmor build fails'
+- component: Basesystem
+  create_time: 20190423T11:15:00
+  id: 1133088
+  resolution: ''
+  status: NEW
+  summary: 'LTO: glusterfs build fails'
+- component: Basesystem
+  create_time: 20190423T11:09:00
+  id: 1133086
+  resolution: ''
+  status: NEW
+  summary: 'LTO: alsa build fails'
+- component: Basesystem
+  create_time: 20190423T11:01:00
+  id: 1133084
+  resolution: ''
+  status: NEW
+  summary: '[META] GCC + LTO package failures'
+- component: Security
+  create_time: 20190423T10:57:00
+  id: 1133082
+  resolution: ''
+  status: NEW
+  summary: 'Base:System/fwupd:  updating build to 1.2.7 needs new polkit privileges'
+- component: Samba
+  create_time: 20190423T10:29:00
+  id: 1133072
+  resolution: INVALID
+  status: RESOLVED
+  summary: later versions of sssd wont build with most recent versions of samba
 - component: Sound
   create_time: 20190423T08:11:00
   id: 1133053
