@@ -22179,7 +22179,7 @@
   status: NEW
   summary: 'systemd warnings for several services: "PIDFile= references path below
     legacy directory /var/run/..."'
-- component: X.Org
+- component: Kernel
   create_time: 20190419T14:31:00
   id: 1132911
   resolution: ''
@@ -22212,6 +22212,12 @@
   summary: 'deepin-launcher: dde-launcher: symbol lookup error: dde-launcher: undefined
     symbol: _ZN16__SessionManager6lockedEv'
 '20190420':
+- component: X11 Applications
+  create_time: 20190422T18:00:00
+  id: 1133012
+  resolution: ''
+  status: NEW
+  summary: Add libunity (from X11:Unity) to main distribution
 - component: YaST2
   create_time: 20190422T09:49:00
   id: 1132980
