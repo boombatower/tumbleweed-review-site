@@ -17568,8 +17568,8 @@
 - component: Basesystem
   create_time: 20190109T14:14:00
   id: 1121268
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: shim build fails'
 - component: Basesystem
   create_time: 20190109T14:10:00
@@ -21226,8 +21226,8 @@
 - component: YaST2
   create_time: 20190326T10:05:00
   id: 1130502
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: libyui-qt{,-pkg,graph} does not build with Qt 5.13
 - component: Kernel
   create_time: 20190326T08:02:00
@@ -21472,7 +21472,7 @@
   create_time: 20190327T10:50:00
   id: 1130662
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Fonts rendering problem
 - component: Basesystem
   create_time: 20190327T10:27:00
@@ -22212,6 +22212,19 @@
   summary: 'deepin-launcher: dde-launcher: symbol lookup error: dde-launcher: undefined
     symbol: _ZN16__SessionManager6lockedEv'
 '20190420':
+- component: Sound
+  create_time: 20190423T08:11:00
+  id: 1133053
+  resolution: ''
+  status: NEW
+  summary: No sound on t100taf (dummy audio)
+- component: Other
+  create_time: 20190423T06:21:00
+  id: 1133036
+  resolution: ''
+  status: NEW
+  summary: Cinnamon settings do not open without editing of imtools.py; out of date
+    Cinnamon in repositories
 - component: X11 Applications
   create_time: 20190422T18:00:00
   id: 1133012
@@ -22260,7 +22273,7 @@
   create_time: 20190421T04:32:00
   id: 1132949
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Error in Module File for openmpi3
 - component: Other
   create_time: 20190420T20:52:00
