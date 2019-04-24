@@ -20575,8 +20575,8 @@
 - component: Installation
   create_time: 20190307T17:26:00
   id: 1128385
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Server installation: Automatic User login offered'
 - component: YaST2
   create_time: 20190307T15:36:00
@@ -21794,8 +21794,8 @@
 - component: Basesystem
   create_time: 20190408T11:38:00
   id: 1131836
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Mount process finished, but there is no mount - Failed with result 'protocol'
 - component: KDE Applications
   create_time: 20190408T10:42:00
@@ -22155,8 +22155,8 @@
 - component: MicroOS
   create_time: 20190418T10:29:00
   id: 1132848
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[201904147] installation-images:MicroOS does not have correct libzypp
     config'
 - component: Other
@@ -22218,6 +22218,353 @@
   summary: 'deepin-launcher: dde-launcher: symbol lookup error: dde-launcher: undefined
     symbol: _ZN16__SessionManager6lockedEv'
 '20190420':
+- component: X11 Applications
+  create_time: 20190422T18:00:00
+  id: 1133012
+  resolution: ''
+  status: NEW
+  summary: Add libunity (from X11:Unity) to main distribution
+- component: YaST2
+  create_time: 20190422T09:49:00
+  id: 1132980
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190421] openQA test fails in select_patterns_and_packages - libyui-qt-pkg
+    2.46.2 crashes'
+- component: GNOME
+  create_time: 20190422T08:35:00
+  id: 1132974
+  resolution: ''
+  status: NEW
+  summary: libpangoft2 crashes with pango_fc_font_key_get_variations() error
+- component: Other
+  create_time: 20190422T00:58:00
+  id: 1132961
+  resolution: ''
+  status: IN_PROGRESS
+  summary: piper missing dependency
+- component: Basesystem
+  create_time: 20190421T17:46:00
+  id: 1132956
+  resolution: ''
+  status: NEW
+  summary: cputype-armv6 no longer works
+- component: X11 Applications
+  create_time: 20190421T14:58:00
+  id: 1132955
+  resolution: ''
+  status: NEW
+  summary: 'anki: hashbang at top of /usr/bin/anki is broken'
+- component: Virtualization:Other
+  create_time: 20190421T09:40:00
+  id: 1132951
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: VirtualBox 6.0.4-3.3 "The BIOS in this system is not fully ACPI compliant"
+    with Windows 7 VM
+- component: Other
+  create_time: 20190421T04:32:00
+  id: 1132949
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Error in Module File for openmpi3
+- component: Other
+  create_time: 20190420T20:52:00
+  id: 1132947
+  resolution: ''
+  status: NEW
+  summary: mcomix no longer executes in Tumbleweed 20190419
+- component: Kernel
+  create_time: 20190420T17:13:00
+  id: 1132943
+  resolution: ''
+  status: NEW
+  summary: 'Kernel 5.0.8: xhci_hcd and thunderbolt modules are crashing'
+- component: Security
+  create_time: 20190420T14:00:00
+  id: 1132942
+  resolution: ''
+  status: NEW
+  summary: Executable 'keepassxc' requires Qt 5.12.2, found Qt 5.12.0.
+- component: Virtualization:Other
+  create_time: 20190420T12:40:00
+  id: 1132941
+  resolution: ''
+  status: CONFIRMED
+  summary: 'TW 20190418 VirtualBox: Windows 7 Guest BSOD with "The BIOS in this system
+    is not fully ACPI compliant"'
+- component: LXQt
+  create_time: 20190420T04:51:00
+  id: 1132937
+  resolution: ''
+  status: NEW
+  summary: LXQt menu-button opens in wrong position (on portrait display, normal on
+    landscape..)
+'20190423':
+- component: Basesystem
+  create_time: 20190424T13:53:00
+  id: 1133297
+  resolution: ''
+  status: NEW
+  summary: 'LTO: zstd build fails'
+- component: Basesystem
+  create_time: 20190424T13:52:00
+  id: 1133296
+  resolution: ''
+  status: NEW
+  summary: 'LTO: xen build fails'
+- component: Basesystem
+  create_time: 20190424T13:48:00
+  id: 1133295
+  resolution: ''
+  status: NEW
+  summary: 'LTO: xterm build fails'
+- component: Basesystem
+  create_time: 20190424T13:47:00
+  id: 1133294
+  resolution: ''
+  status: NEW
+  summary: 'LTO:  xorg-x11-server build fails'
+- component: Basesystem
+  create_time: 20190424T13:46:00
+  id: 1133292
+  resolution: ''
+  status: NEW
+  summary: 'LTO: xf86-video-intel abuild fails'
+- component: Basesystem
+  create_time: 20190424T13:44:00
+  id: 1133291
+  resolution: ''
+  status: NEW
+  summary: 'LTO: webkit2gtk3 build fails'
+- component: Basesystem
+  create_time: 20190424T13:43:00
+  id: 1133290
+  resolution: ''
+  status: NEW
+  summary: 'LTO: vlc build fails'
+- component: Basesystem
+  create_time: 20190424T13:43:00
+  id: 1133289
+  resolution: ''
+  status: NEW
+  summary: 'LTO: virtualbox build fails'
+- component: Basesystem
+  create_time: 20190424T13:42:00
+  id: 1133288
+  resolution: ''
+  status: NEW
+  summary: 'LTO: valgrind build fails'
+- component: Basesystem
+  create_time: 20190424T13:37:00
+  id: 1133287
+  resolution: ''
+  status: NEW
+  summary: 'LTO: texlive build fails'
+- component: Basesystem
+  create_time: 20190424T13:37:00
+  id: 1133285
+  resolution: ''
+  status: NEW
+  summary: 'LTO: strace build fails'
+- component: Basesystem
+  create_time: 20190424T13:34:00
+  id: 1133284
+  resolution: ''
+  status: NEW
+  summary: 'LTO: squashfs build fails'
+- component: Basesystem
+  create_time: 20190424T13:33:00
+  id: 1133283
+  resolution: ''
+  status: NEW
+  summary: 'LTO: rust build fails'
+- component: Basesystem
+  create_time: 20190424T13:32:00
+  id: 1133282
+  resolution: ''
+  status: NEW
+  summary: 'LTO: reiserfs build fails'
+- component: Basesystem
+  create_time: 20190424T13:30:00
+  id: 1133281
+  resolution: ''
+  status: NEW
+  summary: 'LTO: qemu build fails'
+- component: Basesystem
+  create_time: 20190424T13:28:00
+  id: 1133280
+  resolution: ''
+  status: NEW
+  summary: 'LTO: python-semanage build fails'
+- component: Basesystem
+  create_time: 20190424T13:26:00
+  id: 1133278
+  resolution: ''
+  status: NEW
+  summary: 'LTO: pulseaudio build fails'
+- component: Basesystem
+  create_time: 20190424T13:25:00
+  id: 1133277
+  resolution: ''
+  status: NEW
+  summary: 'LTO: protobuf abuild fails'
+- component: Basesystem
+  create_time: 20190424T13:24:00
+  id: 1133276
+  resolution: ''
+  status: NEW
+  summary: 'LTO: pmdk build fails'
+- component: Basesystem
+  create_time: 20190424T13:21:00
+  id: 1133275
+  resolution: ''
+  status: NEW
+  summary: 'LTO: php7 build fails'
+- component: Basesystem
+  create_time: 20190424T13:20:00
+  id: 1133274
+  resolution: ''
+  status: NEW
+  summary: 'LTO: pcre2 build fails'
+- component: Basesystem
+  create_time: 20190424T13:19:00
+  id: 1133273
+  resolution: ''
+  status: NEW
+  summary: 'LTO: pcp build fails'
+- component: Basesystem
+  create_time: 20190424T13:18:00
+  id: 1133272
+  resolution: ''
+  status: NEW
+  summary: 'LTO: papi build fails'
+- component: Basesystem
+  create_time: 20190424T13:12:00
+  id: 1133271
+  resolution: ''
+  status: NEW
+  summary: 'LTO: open-isns build fails'
+- component: Basesystem
+  create_time: 20190424T13:09:00
+  id: 1133269
+  resolution: ''
+  status: NEW
+  summary: 'LTO: ocaml-ocamlbuild build fails'
+- component: Basesystem
+  create_time: 20190424T13:08:00
+  id: 1133268
+  resolution: ''
+  status: NEW
+  summary: 'LTO: multipath-tools build fails'
+- component: Basesystem
+  create_time: 20190424T13:07:00
+  id: 1133267
+  resolution: ''
+  status: NEW
+  summary: 'LTO: MozillaThunderbird build fails'
+- component: Basesystem
+  create_time: 20190424T13:06:00
+  id: 1133266
+  resolution: ''
+  status: NEW
+  summary: 'LTO: mono-core build fails'
+- component: Basesystem
+  create_time: 20190424T13:05:00
+  id: 1133265
+  resolution: ''
+  status: NEW
+  summary: 'LTO: Mesa build fails'
+- component: Basesystem
+  create_time: 20190424T12:40:00
+  id: 1133259
+  resolution: ''
+  status: NEW
+  summary: 'LTO: lzo build fails'
+- component: Basesystem
+  create_time: 20190424T12:37:00
+  id: 1133258
+  resolution: ''
+  status: NEW
+  summary: 'LTO: lvm2 build fails'
+- component: Basesystem
+  create_time: 20190424T12:35:00
+  id: 1133256
+  resolution: ''
+  status: NEW
+  summary: 'LTO: ltrace build fails'
+- component: Basesystem
+  create_time: 20190424T12:34:00
+  id: 1133255
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libvpx build fails'
+- component: Basesystem
+  create_time: 20190424T12:33:00
+  id: 1133254
+  resolution: ''
+  status: NEW
+  summary: 'LTO: llvm[67] build fails'
+- component: Basesystem
+  create_time: 20190424T12:28:00
+  id: 1133253
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libvirt build fails'
+- component: Basesystem
+  create_time: 20190424T11:27:00
+  id: 1133245
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libsigsegv build fails'
+- component: Basesystem
+  create_time: 20190424T11:26:00
+  id: 1133244
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libselinux-bindings build fails'
+- component: Basesystem
+  create_time: 20190424T11:20:00
+  id: 1133242
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libqt5-qtbase build fails'
+- component: Basesystem
+  create_time: 20190424T11:19:00
+  id: 1133241
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libqt5-qtscript build fails'
+- component: Basesystem
+  create_time: 20190424T11:13:00
+  id: 1133239
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libqt4 build fails'
+- component: Basesystem
+  create_time: 20190424T11:12:00
+  id: 1133238
+  resolution: ''
+  status: NEW
+  summary: 'LTO: liboil build fails'
+- component: Basesystem
+  create_time: 20190424T11:05:00
+  id: 1133235
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libfabric build fails'
+- component: Basesystem
+  create_time: 20190424T11:03:00
+  id: 1133233
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libaio build fails'
+- component: Basesystem
+  create_time: 20190424T10:54:00
+  id: 1133232
+  resolution: ''
+  status: NEW
+  summary: 'LTO: leveldb build fails'
 - component: Basesystem
   create_time: 20190423T19:48:00
   id: 1133170
@@ -22277,7 +22624,7 @@
   id: 1133124
   resolution: ''
   status: NEW
-  summary: 'LTO: flatpack build fails'
+  summary: 'LTO: flatpak build fails'
 - component: Basesystem
   create_time: 20190423T14:39:00
   id: 1133123
@@ -22317,8 +22664,8 @@
 - component: Basesystem
   create_time: 20190423T14:13:00
   id: 1133112
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: cdrdao build fails'
 - component: Other
   create_time: 20190423T13:33:00
@@ -22417,85 +22764,3 @@
   status: NEW
   summary: Cinnamon settings do not open without editing of imtools.py; out of date
     Cinnamon in repositories
-- component: X11 Applications
-  create_time: 20190422T18:00:00
-  id: 1133012
-  resolution: ''
-  status: NEW
-  summary: Add libunity (from X11:Unity) to main distribution
-- component: YaST2
-  create_time: 20190422T09:49:00
-  id: 1132980
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190421] openQA test fails in select_patterns_and_packages - libyui-qt-pkg
-    2.46.2 crashes'
-- component: GNOME
-  create_time: 20190422T08:35:00
-  id: 1132974
-  resolution: ''
-  status: NEW
-  summary: libpangoft2 crashes with pango_fc_font_key_get_variations() error
-- component: Other
-  create_time: 20190422T00:58:00
-  id: 1132961
-  resolution: ''
-  status: IN_PROGRESS
-  summary: piper missing dependency
-- component: Basesystem
-  create_time: 20190421T17:46:00
-  id: 1132956
-  resolution: ''
-  status: NEW
-  summary: cputype-armv6 no longer works
-- component: X11 Applications
-  create_time: 20190421T14:58:00
-  id: 1132955
-  resolution: ''
-  status: NEW
-  summary: 'anki: hashbang at top of /usr/bin/anki is broken'
-- component: Virtualization:Other
-  create_time: 20190421T09:40:00
-  id: 1132951
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: VirtualBox 6.0.4-3.3 "The BIOS in this system is not fully ACPI compliant"
-    with Windows 7 VM
-- component: Other
-  create_time: 20190421T04:32:00
-  id: 1132949
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Error in Module File for openmpi3
-- component: Other
-  create_time: 20190420T20:52:00
-  id: 1132947
-  resolution: ''
-  status: NEW
-  summary: mcomix no longer executes in Tumbleweed 20190419
-- component: Kernel
-  create_time: 20190420T17:13:00
-  id: 1132943
-  resolution: ''
-  status: NEW
-  summary: 'Kernel 5.0.8: xhci_hcd and thunderbolt modules are crashing'
-- component: Security
-  create_time: 20190420T14:00:00
-  id: 1132942
-  resolution: ''
-  status: NEW
-  summary: Executable 'keepassxc' requires Qt 5.12.2, found Qt 5.12.0.
-- component: Virtualization:Other
-  create_time: 20190420T12:40:00
-  id: 1132941
-  resolution: ''
-  status: CONFIRMED
-  summary: 'TW 20190418 VirtualBox: Windows 7 Guest BSOD with "The BIOS in this system
-    is not fully ACPI compliant"'
-- component: LXQt
-  create_time: 20190420T04:51:00
-  id: 1132937
-  resolution: ''
-  status: NEW
-  summary: LXQt menu-button opens in wrong position (on portrait display, normal on
-    landscape..)
