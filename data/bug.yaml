@@ -22035,8 +22035,8 @@
 - component: LXQt
   create_time: 20190412T07:27:00
   id: 1132312
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190411] LXQt fails to start'
 - component: Containers
   create_time: 20190412T06:38:00
@@ -22258,7 +22258,7 @@
   create_time: 20190423T15:01:00
   id: 1133131
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'LTO: gperftools build fails'
 - component: Basesystem
   create_time: 20190423T14:50:00
@@ -22348,7 +22348,7 @@
   create_time: 20190423T12:18:00
   id: 1133099
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'LTO: rdma-core build fails'
 - component: Basesystem
   create_time: 20190423T12:16:00
