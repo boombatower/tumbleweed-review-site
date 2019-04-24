@@ -22240,8 +22240,8 @@
 - component: Other
   create_time: 20190422T00:58:00
   id: 1132961
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: piper missing dependency
 - component: Basesystem
   create_time: 20190421T17:46:00
@@ -22301,6 +22301,12 @@
   summary: LXQt menu-button opens in wrong position (on portrait display, normal on
     landscape..)
 '20190423':
+- component: Basesystem
+  create_time: 20190424T14:34:00
+  id: 1133305
+  resolution: ''
+  status: NEW
+  summary: 'LTO: multipath-tools build fails because of missing symbols in libaio'
 - component: Basesystem
   create_time: 20190424T13:53:00
   id: 1133297
@@ -22731,7 +22737,7 @@
   create_time: 20190423T11:09:00
   id: 1133086
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: 'LTO: alsa build fails'
 - component: Basesystem
   create_time: 20190423T11:01:00
