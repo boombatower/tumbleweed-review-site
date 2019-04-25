@@ -22301,11 +22301,23 @@
   summary: LXQt menu-button opens in wrong position (on portrait display, normal on
     landscape..)
 '20190423':
+- component: Other
+  create_time: 20190425T08:03:00
+  id: 1133369
+  resolution: ''
+  status: NEW
+  summary: aqbanking build failed with gwenhywfar update
+- component: Other
+  create_time: 20190425T02:45:00
+  id: 1133354
+  resolution: ''
+  status: NEW
+  summary: fstransform codebase should be updated
 - component: Basesystem
   create_time: 20190424T14:34:00
   id: 1133305
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'LTO: multipath-tools build fails because of missing symbols in libaio'
 - component: Basesystem
   create_time: 20190424T13:53:00
@@ -22329,7 +22341,7 @@
   create_time: 20190424T13:47:00
   id: 1133294
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'LTO:  xorg-x11-server build fails'
 - component: Basesystem
   create_time: 20190424T13:46:00
@@ -22370,8 +22382,8 @@
 - component: Basesystem
   create_time: 20190424T13:37:00
   id: 1133285
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'LTO: strace build fails'
 - component: Basesystem
   create_time: 20190424T13:34:00
@@ -22463,11 +22475,11 @@
   resolution: ''
   status: NEW
   summary: 'LTO: multipath-tools build fails'
-- component: Basesystem
+- component: Firefox
   create_time: 20190424T13:07:00
   id: 1133267
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'LTO: MozillaThunderbird build fails'
 - component: Basesystem
   create_time: 20190424T13:06:00
@@ -22479,7 +22491,7 @@
   create_time: 20190424T13:05:00
   id: 1133265
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'LTO: Mesa build fails'
 - component: Basesystem
   create_time: 20190424T12:40:00
@@ -22503,7 +22515,7 @@
   create_time: 20190424T12:34:00
   id: 1133255
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: 'LTO: libvpx build fails'
 - component: Basesystem
   create_time: 20190424T12:33:00
