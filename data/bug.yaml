@@ -18172,7 +18172,7 @@
   create_time: 20190118T10:26:00
   id: 1122483
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Boringssl fails to build for aarch64
 - component: YaST2
   create_time: 20190118T09:43:00
@@ -22301,6 +22301,48 @@
   summary: LXQt menu-button opens in wrong position (on portrait display, normal on
     landscape..)
 '20190423':
+- component: X.Org
+  create_time: 20190425T20:14:00
+  id: 1133457
+  resolution: ''
+  status: NEW
+  summary: Screen Geometry Unsaved Across Logins
+- component: YaST2
+  create_time: 20190425T16:19:00
+  id: 1133435
+  resolution: ''
+  status: NEW
+  summary: Automatically tag new releases of YaST repos on github
+- component: YaST2
+  create_time: 20190425T16:10:00
+  id: 1133434
+  resolution: ''
+  status: NEW
+  summary: yast-samba-client fails to parse new idmap settings
+- component: YaST2
+  create_time: 20190425T16:00:00
+  id: 1133433
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST devtools fail when creating yast bootstrap from the getgo
+- component: Sound
+  create_time: 20190425T15:49:00
+  id: 1133432
+  resolution: FIXED
+  status: RESOLVED
+  summary: Add config for alsaequal
+- component: Basesystem
+  create_time: 20190425T14:34:00
+  id: 1133418
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'sg3_utils: syntax error in 59-fc-wwpn-id.rules'
+- component: Other
+  create_time: 20190425T14:32:00
+  id: 1133417
+  resolution: ''
+  status: NEW
+  summary: llvm should switch back to 1-stage builds
 - component: Other
   create_time: 20190425T08:03:00
   id: 1133369
