@@ -12400,7 +12400,7 @@
   create_time: 20180913T18:30:00
   id: 1108364
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: ALSA don't set or mute default and sysdefault capture devices
 - component: KDE Workspace (Plasma)
   create_time: 20180913T14:47:00
@@ -12716,7 +12716,7 @@
   create_time: 20180919T10:05:00
   id: 1108949
   resolution: DUPLICATE
-  status: RESOLVED
+  status: VERIFIED
   summary: missing selinux-policy-minimum pkg makes system reboot failed
 - component: Other
   create_time: 20180919T10:02:00
@@ -21287,7 +21287,7 @@
   create_time: 20190325T13:02:00
   id: 1130388
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: deepin-clone: new polkit action com.deepin.pkexec.deepin-clone'
 - component: Basesystem
   create_time: 20190325T12:18:00
@@ -21464,8 +21464,8 @@
 - component: Bootloader
   create_time: 20190327T11:48:00
   id: 1130669
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: opensuse grub os-prober deletes subvolume on btrfs disk
 - component: Development
   create_time: 20190327T11:08:00
@@ -22347,7 +22347,7 @@
   create_time: 20190424T13:46:00
   id: 1133292
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'LTO: xf86-video-intel abuild fails'
 - component: Basesystem
   create_time: 20190424T13:44:00
@@ -22376,8 +22376,8 @@
 - component: Basesystem
   create_time: 20190424T13:37:00
   id: 1133287
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: texlive build fails'
 - component: Basesystem
   create_time: 20190424T13:37:00
@@ -22719,7 +22719,7 @@
   create_time: 20190423T12:16:00
   id: 1133098
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: 'LTO: numactl build fails'
 - component: Basesystem
   create_time: 20190423T12:15:00
@@ -22737,7 +22737,7 @@
   create_time: 20190423T11:19:00
   id: 1133091
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'LTO: libapparmor build fails'
 - component: Basesystem
   create_time: 20190423T11:15:00
@@ -22762,7 +22762,7 @@
   id: 1133082
   resolution: ''
   status: NEW
-  summary: 'Base:System/fwupd:  updating build to 1.2.7 needs new polkit privileges'
+  summary: 'AUDIT-0: fwupd: updating build to 1.2.7 needs new polkit privileges'
 - component: Samba
   create_time: 20190423T10:29:00
   id: 1133072
