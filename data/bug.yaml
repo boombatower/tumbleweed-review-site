@@ -22301,6 +22301,12 @@
   summary: LXQt menu-button opens in wrong position (on portrait display, normal on
     landscape..)
 '20190423':
+- component: KDE Applications
+  create_time: 20190426T00:30:00
+  id: 1133466
+  resolution: ''
+  status: NEW
+  summary: SDDM w/ nvidia eGPU doesn't load greeter
 - component: X.Org
   create_time: 20190425T20:14:00
   id: 1133457
