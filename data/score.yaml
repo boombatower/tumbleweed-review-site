@@ -749,17 +749,17 @@
   score: 96
   stability_level: stable
 '20190417':
-  score: 89
+  score: 87
   stability_level: moderate
 '20190418':
-  score: 95
+  score: 94
   stability_level: stable
 '20190419':
   score: 97
-  stability_level: pending
+  stability_level: stable
 '20190420':
   score: 97
   stability_level: pending
 '20190423':
-  score: 90
+  score: 89
   stability_level: pending
