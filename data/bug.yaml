@@ -3020,8 +3020,8 @@
 - component: Network
   create_time: 20180204T19:36:00
   id: 1079249
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Network cable is not longer recognized after sleep mode.
 - component: Development
   create_time: 20180204T09:47:00
@@ -11293,8 +11293,8 @@
 - component: Network
   create_time: 20180805T06:32:00
   id: 1103814
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: NetworkManager  - fortisslvpn and ssh
 - component: Containers
   create_time: 20180804T09:42:00
@@ -20685,8 +20685,8 @@
 - component: Kernel
   create_time: 20190311T05:38:00
   id: 1128636
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: 'TCP: New fragment overlaps old data (retransmission?) Malformed Packet??'
 - component: AppArmor
   create_time: 20190310T00:26:00
@@ -22302,6 +22302,25 @@
   summary: LXQt menu-button opens in wrong position (on portrait display, normal on
     landscape..)
 '20190423':
+- component: AutoYaST
+  create_time: 20190426T13:59:00
+  id: 1133541
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190425] openQA test fails in installation - autologin does not
+    work after autoyast installation'
+- component: Basesystem
+  create_time: 20190426T13:31:00
+  id: 1133538
+  resolution: ''
+  status: NEW
+  summary: rpm whatprovides cannot find patterns in the capabilities
+- component: Kubic
+  create_time: 20190426T10:03:00
+  id: 1133514
+  resolution: ''
+  status: NEW
+  summary: Kubic image for Openstack sometimes couldn't boot
 - component: Basesystem
   create_time: 20190426T08:08:00
   id: 1133492
@@ -22395,8 +22414,8 @@
 - component: Basesystem
   create_time: 20190424T13:53:00
   id: 1133297
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: zstd build fails'
 - component: Basesystem
   create_time: 20190424T13:52:00
@@ -22473,8 +22492,8 @@
 - component: Basesystem
   create_time: 20190424T13:32:00
   id: 1133282
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: reiserfs build fails'
 - component: Basesystem
   create_time: 20190424T13:30:00
@@ -22569,8 +22588,8 @@
 - component: Basesystem
   create_time: 20190424T12:40:00
   id: 1133259
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: lzo build fails'
 - component: Basesystem
   create_time: 20190424T12:37:00
@@ -22599,8 +22618,8 @@
 - component: Basesystem
   create_time: 20190424T12:28:00
   id: 1133253
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: libvirt build fails'
 - component: Basesystem
   create_time: 20190424T11:27:00
@@ -22761,8 +22780,8 @@
 - component: Other
   create_time: 20190423T13:33:00
   id: 1133110
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Remove jasper dependency from ImageMagick
 - component: Basesystem
   create_time: 20190423T12:58:00
