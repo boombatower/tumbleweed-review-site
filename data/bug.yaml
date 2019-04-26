@@ -22302,6 +22302,18 @@
   summary: LXQt menu-button opens in wrong position (on portrait display, normal on
     landscape..)
 '20190423':
+- component: KDE Applications
+  create_time: 20190426T18:10:00
+  id: 1133558
+  resolution: ''
+  status: NEW
+  summary: Baloo Crashes on video download
+- component: Cloud:Tools
+  create_time: 20190426T16:24:00
+  id: 1133551
+  resolution: ''
+  status: NEW
+  summary: aws-cli is not installable due to python3-PyYAML <= 4.0 restriction
 - component: AutoYaST
   create_time: 20190426T13:59:00
   id: 1133541
