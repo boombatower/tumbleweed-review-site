@@ -20035,7 +20035,8 @@
   id: 1127368
   resolution: ''
   status: IN_PROGRESS
-  summary: 'AUDIT-0: snapd: add set*id permissions related to snapd (/usr/lib/snapd/snap-confine)'
+  summary: 'AUDIT-0: CVE-2019-11502,CVE-2019-11503: snapd: add set*id permissions
+    related to snapd (/usr/lib/snapd/snap-confine)'
 - component: Security
   create_time: 20190228T12:49:00
   id: 1127366
@@ -22301,13 +22302,37 @@
   summary: LXQt menu-button opens in wrong position (on portrait display, normal on
     landscape..)
 '20190423':
-- component: KDE Applications
+- component: Basesystem
+  create_time: 20190426T08:08:00
+  id: 1133492
+  resolution: ''
+  status: NEW
+  summary: virtualbox should not limit build system by 2 threads
+- component: Basesystem
+  create_time: 20190426T08:01:00
+  id: 1133491
+  resolution: ''
+  status: NEW
+  summary: duperemove runs for hours
+- component: Kernel
+  create_time: 20190426T07:48:00
+  id: 1133486
+  resolution: ''
+  status: NEW
+  summary: Elan touchpad floods /var/log/messages and /var/log/warn
+- component: Basesystem
+  create_time: 20190426T07:14:00
+  id: 1133478
+  resolution: ''
+  status: NEW
+  summary: 'polkit: remove /etc/polkit-1/rules.d/50-default.rules'
+- component: X11 3rd Party Driver
   create_time: 20190426T00:30:00
   id: 1133466
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: SDDM w/ nvidia eGPU doesn't load greeter
-- component: X.Org
+- component: KDE Workspace (Plasma)
   create_time: 20190425T20:14:00
   id: 1133457
   resolution: ''
@@ -22586,8 +22611,8 @@
 - component: Basesystem
   create_time: 20190424T11:26:00
   id: 1133244
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: libselinux-bindings build fails'
 - component: Basesystem
   create_time: 20190424T11:20:00
