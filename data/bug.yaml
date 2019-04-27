@@ -22302,121 +22302,6 @@
   summary: LXQt menu-button opens in wrong position (on portrait display, normal on
     landscape..)
 '20190423':
-- component: KDE Applications
-  create_time: 20190426T18:10:00
-  id: 1133558
-  resolution: ''
-  status: NEW
-  summary: Baloo Crashes on video download
-- component: Cloud:Tools
-  create_time: 20190426T16:24:00
-  id: 1133551
-  resolution: ''
-  status: NEW
-  summary: aws-cli is not installable due to python3-PyYAML <= 4.0 restriction
-- component: AutoYaST
-  create_time: 20190426T13:59:00
-  id: 1133541
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190425] openQA test fails in installation - autologin does not
-    work after autoyast installation'
-- component: Basesystem
-  create_time: 20190426T13:31:00
-  id: 1133538
-  resolution: ''
-  status: NEW
-  summary: rpm whatprovides cannot find patterns in the capabilities
-- component: Kubic
-  create_time: 20190426T10:03:00
-  id: 1133514
-  resolution: ''
-  status: NEW
-  summary: Kubic image for Openstack sometimes couldn't boot
-- component: Basesystem
-  create_time: 20190426T08:08:00
-  id: 1133492
-  resolution: ''
-  status: NEW
-  summary: virtualbox should not limit build system by 2 threads
-- component: Basesystem
-  create_time: 20190426T08:01:00
-  id: 1133491
-  resolution: ''
-  status: NEW
-  summary: duperemove runs for hours
-- component: Kernel
-  create_time: 20190426T07:48:00
-  id: 1133486
-  resolution: ''
-  status: NEW
-  summary: Elan touchpad floods /var/log/messages and /var/log/warn
-- component: Basesystem
-  create_time: 20190426T07:14:00
-  id: 1133478
-  resolution: ''
-  status: NEW
-  summary: 'polkit: remove /etc/polkit-1/rules.d/50-default.rules'
-- component: X11 3rd Party Driver
-  create_time: 20190426T00:30:00
-  id: 1133466
-  resolution: ''
-  status: IN_PROGRESS
-  summary: SDDM w/ nvidia eGPU doesn't load greeter
-- component: KDE Workspace (Plasma)
-  create_time: 20190425T20:14:00
-  id: 1133457
-  resolution: ''
-  status: NEW
-  summary: Screen Geometry Unsaved Across Logins
-- component: YaST2
-  create_time: 20190425T16:19:00
-  id: 1133435
-  resolution: ''
-  status: NEW
-  summary: Automatically tag new releases of YaST repos on github
-- component: YaST2
-  create_time: 20190425T16:10:00
-  id: 1133434
-  resolution: ''
-  status: NEW
-  summary: yast-samba-client fails to parse new idmap settings
-- component: YaST2
-  create_time: 20190425T16:00:00
-  id: 1133433
-  resolution: FIXED
-  status: RESOLVED
-  summary: YaST devtools fail when creating yast bootstrap from the getgo
-- component: Sound
-  create_time: 20190425T15:49:00
-  id: 1133432
-  resolution: FIXED
-  status: RESOLVED
-  summary: Add config for alsaequal
-- component: Basesystem
-  create_time: 20190425T14:34:00
-  id: 1133418
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'sg3_utils: syntax error in 59-fc-wwpn-id.rules'
-- component: Other
-  create_time: 20190425T14:32:00
-  id: 1133417
-  resolution: ''
-  status: NEW
-  summary: llvm should switch back to 1-stage builds
-- component: Other
-  create_time: 20190425T08:03:00
-  id: 1133369
-  resolution: ''
-  status: NEW
-  summary: aqbanking build failed with gwenhywfar update
-- component: Other
-  create_time: 20190425T02:45:00
-  id: 1133354
-  resolution: ''
-  status: NEW
-  summary: fstransform codebase should be updated
 - component: Basesystem
   create_time: 20190424T14:34:00
   id: 1133305
@@ -22886,3 +22771,132 @@
   status: NEW
   summary: Cinnamon settings do not open without editing of imtools.py; out of date
     Cinnamon in repositories
+'20190425':
+- component: YaST2
+  create_time: 20190426T21:22:00
+  id: 1133568
+  resolution: ''
+  status: NEW
+  summary: yast2-adcommon-python ldap doesn't correctly parse ldap urls for ldap.initialize()
+- component: Live Medium
+  create_time: 20190426T19:47:00
+  id: 1133564
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190425] openQA test fails in await_install - incomplete packages
+    or cannot get from remote?'
+- component: KDE Applications
+  create_time: 20190426T18:10:00
+  id: 1133558
+  resolution: ''
+  status: NEW
+  summary: Baloo Crashes on video download
+- component: Cloud:Tools
+  create_time: 20190426T16:24:00
+  id: 1133551
+  resolution: ''
+  status: NEW
+  summary: aws-cli is not installable due to python3-PyYAML <= 4.0 restriction
+- component: AutoYaST
+  create_time: 20190426T13:59:00
+  id: 1133541
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190425] openQA test fails in installation - autologin does not
+    work after autoyast installation'
+- component: Basesystem
+  create_time: 20190426T13:31:00
+  id: 1133538
+  resolution: ''
+  status: NEW
+  summary: rpm whatprovides cannot find patterns in the capabilities
+- component: Kubic
+  create_time: 20190426T10:03:00
+  id: 1133514
+  resolution: ''
+  status: NEW
+  summary: Kubic image for Openstack sometimes couldn't boot
+- component: Basesystem
+  create_time: 20190426T08:08:00
+  id: 1133492
+  resolution: ''
+  status: NEW
+  summary: virtualbox should not limit build system by 2 threads
+- component: Basesystem
+  create_time: 20190426T08:01:00
+  id: 1133491
+  resolution: ''
+  status: NEW
+  summary: duperemove runs for hours
+- component: Kernel
+  create_time: 20190426T07:48:00
+  id: 1133486
+  resolution: ''
+  status: NEW
+  summary: Elan touchpad floods /var/log/messages and /var/log/warn
+- component: Basesystem
+  create_time: 20190426T07:14:00
+  id: 1133478
+  resolution: ''
+  status: NEW
+  summary: 'polkit: remove /etc/polkit-1/rules.d/50-default.rules'
+- component: X11 3rd Party Driver
+  create_time: 20190426T00:30:00
+  id: 1133466
+  resolution: ''
+  status: IN_PROGRESS
+  summary: SDDM w/ nvidia eGPU doesn't load greeter
+- component: KDE Workspace (Plasma)
+  create_time: 20190425T20:14:00
+  id: 1133457
+  resolution: ''
+  status: NEW
+  summary: Screen Geometry Unsaved Across Logins
+- component: YaST2
+  create_time: 20190425T16:19:00
+  id: 1133435
+  resolution: ''
+  status: NEW
+  summary: Automatically tag new releases of YaST repos on github
+- component: YaST2
+  create_time: 20190425T16:10:00
+  id: 1133434
+  resolution: ''
+  status: NEW
+  summary: yast-samba-client fails to parse new idmap settings
+- component: YaST2
+  create_time: 20190425T16:00:00
+  id: 1133433
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST devtools fail when creating yast bootstrap from the getgo
+- component: Sound
+  create_time: 20190425T15:49:00
+  id: 1133432
+  resolution: FIXED
+  status: RESOLVED
+  summary: Add config for alsaequal
+- component: Basesystem
+  create_time: 20190425T14:34:00
+  id: 1133418
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'sg3_utils: syntax error in 59-fc-wwpn-id.rules'
+- component: Other
+  create_time: 20190425T14:32:00
+  id: 1133417
+  resolution: ''
+  status: NEW
+  summary: llvm should switch back to 1-stage builds
+- component: Other
+  create_time: 20190425T08:03:00
+  id: 1133369
+  resolution: ''
+  status: NEW
+  summary: aqbanking build failed with gwenhywfar update
+- component: Other
+  create_time: 20190425T02:45:00
+  id: 1133354
+  resolution: ''
+  status: NEW
+  summary: fstransform codebase should be updated
