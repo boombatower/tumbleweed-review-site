@@ -22772,6 +22772,12 @@
   summary: Cinnamon settings do not open without editing of imtools.py; out of date
     Cinnamon in repositories
 '20190425':
+- component: LXDE
+  create_time: 20190427T04:55:00
+  id: 1133578
+  resolution: ''
+  status: NEW
+  summary: nm-applet --indicator does not allow to change networks.
 - component: YaST2
   create_time: 20190426T21:22:00
   id: 1133568
