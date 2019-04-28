@@ -17264,8 +17264,8 @@
 - component: Other
   create_time: 20190105T11:36:00
   id: 1120842
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: youtube-dl missing ssl
 - component: YaST2
   create_time: 20190105T10:51:00
@@ -17752,8 +17752,8 @@
 - component: Other
   create_time: 20190111T21:45:00
   id: 1121694
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: youtube-dl requires python-xml, but there is no proper dependency
 - component: Installation
   create_time: 20190111T20:03:00
@@ -22772,6 +22772,12 @@
   summary: Cinnamon settings do not open without editing of imtools.py; out of date
     Cinnamon in repositories
 '20190425':
+- component: Basesystem
+  create_time: 20190427T22:59:00
+  id: 1133592
+  resolution: ''
+  status: NEW
+  summary: lsb-release works with Bash but does not work correctly with Dash
 - component: LXDE
   create_time: 20190427T04:55:00
   id: 1133578
