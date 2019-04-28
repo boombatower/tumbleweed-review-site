@@ -22772,6 +22772,13 @@
   summary: Cinnamon settings do not open without editing of imtools.py; out of date
     Cinnamon in repositories
 '20190425':
+- component: Basesystem
+  create_time: 20190428T16:50:00
+  id: 1133607
+  resolution: ''
+  status: NEW
+  summary: If /etc/vconsole.conf does not exist, then eurlatgr must be used as console
+    font
 - component: YaST2
   create_time: 20190428T09:12:00
   id: 1133596
