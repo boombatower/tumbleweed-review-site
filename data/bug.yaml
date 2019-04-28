@@ -22772,6 +22772,18 @@
   summary: Cinnamon settings do not open without editing of imtools.py; out of date
     Cinnamon in repositories
 '20190425':
+- component: YaST2
+  create_time: 20190428T09:12:00
+  id: 1133596
+  resolution: ''
+  status: NEW
+  summary: yast2-python-bindings compilation errors when compiling with -Werror=format-security
+- component: KDE Workspace (Plasma)
+  create_time: 20190428T08:56:00
+  id: 1133595
+  resolution: ''
+  status: NEW
+  summary: krunner doesn't work properly
 - component: Basesystem
   create_time: 20190427T22:59:00
   id: 1133592
