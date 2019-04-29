@@ -22772,6 +22772,61 @@
   summary: Cinnamon settings do not open without editing of imtools.py; out of date
     Cinnamon in repositories
 '20190425':
+- component: KDE Workspace (Plasma)
+  create_time: 20190425T20:14:00
+  id: 1133457
+  resolution: ''
+  status: NEW
+  summary: Screen Geometry Unsaved Across Logins
+- component: YaST2
+  create_time: 20190425T16:19:00
+  id: 1133435
+  resolution: ''
+  status: NEW
+  summary: Automatically tag new releases of YaST repos on github
+- component: YaST2
+  create_time: 20190425T16:10:00
+  id: 1133434
+  resolution: ''
+  status: NEW
+  summary: yast-samba-client fails to parse new idmap settings
+- component: YaST2
+  create_time: 20190425T16:00:00
+  id: 1133433
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST devtools fail when creating yast bootstrap from the getgo
+- component: Sound
+  create_time: 20190425T15:49:00
+  id: 1133432
+  resolution: FIXED
+  status: RESOLVED
+  summary: Add config for alsaequal
+- component: Basesystem
+  create_time: 20190425T14:34:00
+  id: 1133418
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'sg3_utils: syntax error in 59-fc-wwpn-id.rules'
+- component: Other
+  create_time: 20190425T14:32:00
+  id: 1133417
+  resolution: ''
+  status: NEW
+  summary: llvm should switch back to 1-stage builds
+- component: Other
+  create_time: 20190425T08:03:00
+  id: 1133369
+  resolution: ''
+  status: NEW
+  summary: aqbanking build failed with gwenhywfar update
+- component: Other
+  create_time: 20190425T02:45:00
+  id: 1133354
+  resolution: ''
+  status: NEW
+  summary: fstransform codebase should be updated
+'20190426':
 - component: Basesystem
   create_time: 20190428T16:50:00
   id: 1133607
@@ -22877,57 +22932,3 @@
   resolution: ''
   status: IN_PROGRESS
   summary: SDDM w/ nvidia eGPU doesn't load greeter
-- component: KDE Workspace (Plasma)
-  create_time: 20190425T20:14:00
-  id: 1133457
-  resolution: ''
-  status: NEW
-  summary: Screen Geometry Unsaved Across Logins
-- component: YaST2
-  create_time: 20190425T16:19:00
-  id: 1133435
-  resolution: ''
-  status: NEW
-  summary: Automatically tag new releases of YaST repos on github
-- component: YaST2
-  create_time: 20190425T16:10:00
-  id: 1133434
-  resolution: ''
-  status: NEW
-  summary: yast-samba-client fails to parse new idmap settings
-- component: YaST2
-  create_time: 20190425T16:00:00
-  id: 1133433
-  resolution: FIXED
-  status: RESOLVED
-  summary: YaST devtools fail when creating yast bootstrap from the getgo
-- component: Sound
-  create_time: 20190425T15:49:00
-  id: 1133432
-  resolution: FIXED
-  status: RESOLVED
-  summary: Add config for alsaequal
-- component: Basesystem
-  create_time: 20190425T14:34:00
-  id: 1133418
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'sg3_utils: syntax error in 59-fc-wwpn-id.rules'
-- component: Other
-  create_time: 20190425T14:32:00
-  id: 1133417
-  resolution: ''
-  status: NEW
-  summary: llvm should switch back to 1-stage builds
-- component: Other
-  create_time: 20190425T08:03:00
-  id: 1133369
-  resolution: ''
-  status: NEW
-  summary: aqbanking build failed with gwenhywfar update
-- component: Other
-  create_time: 20190425T02:45:00
-  id: 1133354
-  resolution: ''
-  status: NEW
-  summary: fstransform codebase should be updated
