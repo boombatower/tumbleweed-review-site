@@ -707,16 +707,16 @@
   score: 75
   stability_level: moderate
 '20190320':
-  score: 68
+  score: 56
   stability_level: unstable
 '20190321':
-  score: 76
+  score: 71
   stability_level: moderate
 '20190322':
-  score: 85
+  score: 83
   stability_level: moderate
 '20190324':
-  score: 89
+  score: 88
   stability_level: moderate
 '20190325':
   score: 93
@@ -762,10 +762,22 @@
   stability_level: stable
 '20190423':
   score: 91
-  stability_level: pending
+  stability_level: stable
 '20190425':
   score: 95
-  stability_level: pending
+  stability_level: stable
 '20190426':
   score: 96
+  stability_level: stable
+'20190428':
+  score: 97
+  stability_level: stable
+'20190430':
+  score: 97
+  stability_level: stable
+'20190502':
+  score: 92
+  stability_level: pending
+'20190505':
+  score: 94
   stability_level: pending
