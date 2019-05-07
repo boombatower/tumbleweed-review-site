@@ -1663,12 +1663,15 @@
     summary: -Media.iso does not boot...
 '20190320':
   announcement: 2019-03.304
-  reference_count: 6
-  thread_count: 1
+  reference_count: 18
+  thread_count: 2
   threads:
   - messages: [2019-03.307]
     reference_count: 6
     summary: no summary given
+  - messages: [2019-04.428]
+    reference_count: 12
+    summary: )' is invalid
 '20190321':
   announcement: 2019-03.331
   reference_count: 0
@@ -1787,6 +1790,32 @@
   threads: []
 '20190426':
   announcement: 2019-04.412
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20190428':
+  announcement: 2019-04.435
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20190430':
+  announcement: 2019-05.25
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20190502':
+  announcement: 2019-05.37
+  reference_count: 4
+  thread_count: 2
+  threads:
+  - messages: [2019-05.38]
+    reference_count: 3
+    summary: 120+ new java packages
+  - messages: [2019-05.40]
+    reference_count: 1
+    summary: no summary given
+'20190505':
+  announcement: 2019-05.61
   reference_count: 0
   thread_count: 0
   threads: []
