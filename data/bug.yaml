@@ -9079,8 +9079,8 @@
 - component: X.Org
   create_time: 20180612T12:13:00
   id: 1097207
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Resize issues with GLX windows with i965 and sw drivers
 - component: Sound
   create_time: 20180612T10:26:00
@@ -10482,8 +10482,8 @@
 - component: Other
   create_time: 20180717T18:47:00
   id: 1101528
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: latest openshot-qt needs newer version of libopenshot
 - component: Security
   create_time: 20180717T16:45:00
@@ -12399,8 +12399,8 @@
 - component: Sound
   create_time: 20180913T18:30:00
   id: 1108364
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FEATURE
+  status: RESOLVED
   summary: ALSA don't set or mute default and sysdefault capture devices
 - component: KDE Workspace (Plasma)
   create_time: 20180913T14:47:00
@@ -12727,8 +12727,8 @@
 - component: Basesystem
   create_time: 20180919T08:47:00
   id: 1108936
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: elfutils is broken on s390x
 - component: YaST2
   create_time: 20180919T08:32:00
@@ -12840,8 +12840,8 @@
 - component: Network
   create_time: 20180920T07:40:00
   id: 1109086
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Network manager crashes with 'double linked list' error
 '20180924':
 - component: Virtualization:Tools
@@ -16843,8 +16843,8 @@
 - component: Kernel
   create_time: 20181216T10:13:00
   id: 1119649
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Realtek r8169 receive performance regression in kernel 4.19
 - component: Other
   create_time: 20181215T14:06:00
@@ -17530,8 +17530,8 @@
 - component: Basesystem
   create_time: 20190109T15:33:00
   id: 1121281
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9:  cppunit build fails'
 - component: Basesystem
   create_time: 20190109T15:25:00
@@ -17640,8 +17640,8 @@
 - component: Basesystem
   create_time: 20190109T09:06:00
   id: 1121208
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9:  grub2 build fails'
 - component: Basesystem
   create_time: 20190109T08:38:00
@@ -17652,8 +17652,8 @@
 - component: Basesystem
   create_time: 20190109T08:20:00
   id: 1121200
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: bctoolbox build fails'
 - component: Installation
   create_time: 20190109T08:13:00
@@ -18256,8 +18256,8 @@
 - component: Basesystem
   create_time: 20190116T12:46:00
   id: 1122186
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: openblas build fails'
 - component: Basesystem
   create_time: 20190116T12:19:00
@@ -19663,8 +19663,8 @@
 - component: Basesystem
   create_time: 20190218T14:19:00
   id: 1125790
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'GCC 9: python-pyside-shiboken build fails'
 - component: Other
   create_time: 20190218T14:14:00
@@ -19845,8 +19845,8 @@
 - component: Samba
   create_time: 20190221T23:14:00
   id: 1126377
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Samba AppArmor sniplet no longer updated - script needs a patch
 - component: Development
   create_time: 20190221T21:22:00
@@ -20514,8 +20514,8 @@
 - component: LXQt
   create_time: 20190308T20:16:00
   id: 1128570
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: pcmanfm-qt crashes when no application is assigned to a file type
 - component: Other
   create_time: 20190308T16:52:00
@@ -20612,8 +20612,8 @@
 - component: Basesystem
   create_time: 20190307T09:38:00
   id: 1128302
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: python-numpy build fails'
 - component: Basesystem
   create_time: 20190307T09:35:00
@@ -20668,7 +20668,7 @@
   create_time: 20190311T11:44:00
   id: 1128707
   resolution: FIXED
-  status: VERIFIED
+  status: RESOLVED
   summary: '[Build 20190310] Element profile has extra content: add-on'
 - component: AppArmor
   create_time: 20190311T10:54:00
@@ -21062,8 +21062,8 @@
 - component: Basesystem
   create_time: 20190320T07:52:00
   id: 1129852
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: python-networkx build fails'
 '20190321':
 - component: Kernel
@@ -21227,8 +21227,8 @@
 - component: Virtualization:Other
   create_time: 20190326T10:07:00
   id: 1130503
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: virtualbox fails to build against Qt 5.13
 - component: YaST2
   create_time: 20190326T10:05:00
@@ -21284,12 +21284,6 @@
   resolution: ''
   status: NEW
   summary: Valgrind fails to build on armv6 and armv7
-- component: Security
-  create_time: 20190325T13:02:00
-  id: 1130388
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'AUDIT-0: deepin-clone: new polkit action com.deepin.pkexec.deepin-clone'
 - component: Basesystem
   create_time: 20190325T12:18:00
   id: 1130382
@@ -21368,8 +21362,8 @@
 - component: X11 3rd Party Driver
   create_time: 20190330T12:07:00
   id: 1131063
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Prime select is broken, which makes nvidia useless. My game runs 100 fps
     below, what it used to.
 - component: Kernel
@@ -21516,7 +21510,7 @@
   create_time: 20190401T16:12:00
   id: 1131182
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Kernel panic related to mpt3sas module
 - component: libzypp
   create_time: 20190401T15:28:00
@@ -21578,8 +21572,8 @@
 - component: Kernel
   create_time: 20190402T10:36:00
   id: 1131264
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Backport x86/retpolines: Disable switch jump tables when retpolines are
     enabled (a9d57ef15cbe327fe54416dd194ee0ea66ae53a4)'
 - component: Basesystem
@@ -21599,7 +21593,7 @@
   id: 1131208
   resolution: ''
   status: NEW
-  summary: 'kernel:stable 5.0.5, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
+  summary: 'kernel:stable 5.0.11, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
 '20190403':
 - component: Basesystem
   create_time: 20190407T17:18:00
@@ -21686,8 +21680,8 @@
 - component: Kubic
   create_time: 20190405T13:32:00
   id: 1131700
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Make separate MicroOS media
 - component: Other
   create_time: 20190405T13:28:00
@@ -21801,8 +21795,8 @@
 - component: KDE Applications
   create_time: 20190408T10:42:00
   id: 1131826
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: KDE info center show incorrect info about memory for 32 bit system
 '20190409':
 - component: Development
@@ -21858,8 +21852,8 @@
 - component: Kubic
   create_time: 20190409T12:14:00
   id: 1131975
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Description missing from MicroOS Container Host role on new MicroOS media
 - component: Basesystem
   create_time: 20190409T10:00:00
@@ -21907,8 +21901,8 @@
 - component: YaST2
   create_time: 20190411T14:06:00
   id: 1132247
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'libyui: merge the testing REST API framework'
 - component: Kernel
   create_time: 20190411T09:27:00
@@ -22049,8 +22043,8 @@
 - component: Kernel
   create_time: 20190416T18:33:00
   id: 1132694
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: qemu kvm with host kernel 5.0.6-1 or 5.0.7-1 will not boot windows xp guest
 - component: Other
   create_time: 20190416T15:57:00
@@ -22123,8 +22117,8 @@
 - component: Basesystem
   create_time: 20190417T13:01:00
   id: 1132764
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: docker-compose failed to install with " 'PyYAML<4,>=3.10' distribution
     was not found"
 - component: Samba
@@ -22172,11 +22166,11 @@
   resolution: ''
   status: NEW
   summary: UPNP does not work in VLC
-- component: Kernel
+- component: Development
   create_time: 20190418T04:22:00
   id: 1132825
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: systemtap can not work with v5.0 kernel
 '20190419':
 - component: Basesystem
@@ -22222,14 +22216,14 @@
 - component: X11 Applications
   create_time: 20190422T18:00:00
   id: 1133012
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Add libunity (from X11:Unity) to main distribution
 - component: YaST2
   create_time: 20190422T09:49:00
   id: 1132980
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190421] openQA test fails in select_patterns_and_packages - libyui-qt-pkg
     2.46.2 crashes'
 - component: GNOME
@@ -22248,7 +22242,7 @@
   create_time: 20190421T17:46:00
   id: 1132956
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: cputype-armv6 no longer works
 - component: X11 Applications
   create_time: 20190421T14:58:00
@@ -22266,8 +22260,8 @@
 - component: Other
   create_time: 20190421T04:32:00
   id: 1132949
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Error in Module File for openmpi3
 - component: Other
   create_time: 20190420T20:52:00
@@ -22278,8 +22272,8 @@
 - component: Kernel
   create_time: 20190420T17:13:00
   id: 1132943
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Kernel 5.0.8: xhci_hcd and thunderbolt modules are crashing'
 - component: Security
   create_time: 20190420T14:00:00
@@ -22326,7 +22320,7 @@
   resolution: ''
   status: NEW
   summary: 'LTO: xterm build fails'
-- component: Basesystem
+- component: X.Org
   create_time: 20190424T13:47:00
   id: 1133294
   resolution: ''
@@ -22401,8 +22395,8 @@
 - component: Basesystem
   create_time: 20190424T13:28:00
   id: 1133280
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'LTO: python-semanage build fails'
 - component: Basesystem
   create_time: 20190424T13:26:00
@@ -22431,8 +22425,8 @@
 - component: Basesystem
   create_time: 20190424T13:20:00
   id: 1133274
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: pcre2 build fails'
 - component: Basesystem
   create_time: 20190424T13:19:00
@@ -22449,20 +22443,20 @@
 - component: Basesystem
   create_time: 20190424T13:12:00
   id: 1133271
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: open-isns build fails'
 - component: Basesystem
   create_time: 20190424T13:09:00
   id: 1133269
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: 'LTO: ocaml-ocamlbuild build fails'
 - component: Basesystem
   create_time: 20190424T13:08:00
   id: 1133268
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: multipath-tools build fails'
 - component: Firefox
   create_time: 20190424T13:07:00
@@ -22497,8 +22491,8 @@
 - component: Basesystem
   create_time: 20190424T12:35:00
   id: 1133256
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: ltrace build fails'
 - component: Basesystem
   create_time: 20190424T12:34:00
@@ -22521,8 +22515,8 @@
 - component: Basesystem
   create_time: 20190424T11:27:00
   id: 1133245
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: libsigsegv build fails'
 - component: Basesystem
   create_time: 20190424T11:26:00
@@ -22557,8 +22551,8 @@
 - component: Basesystem
   create_time: 20190424T11:05:00
   id: 1133235
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: libfabric build fails'
 - component: Basesystem
   create_time: 20190424T11:03:00
@@ -22569,8 +22563,8 @@
 - component: Basesystem
   create_time: 20190424T10:54:00
   id: 1133232
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: leveldb build fails'
 - component: Basesystem
   create_time: 20190423T19:48:00
@@ -22605,20 +22599,20 @@
 - component: Basesystem
   create_time: 20190423T15:03:00
   id: 1133133
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: infinipath-psm build fails'
 - component: Basesystem
   create_time: 20190423T15:01:00
   id: 1133131
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: gperftools build fails'
 - component: Basesystem
   create_time: 20190423T14:50:00
   id: 1133129
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: glib2 build fails'
 - component: Basesystem
   create_time: 20190423T14:44:00
@@ -22636,7 +22630,7 @@
   create_time: 20190423T14:39:00
   id: 1133123
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: 'LTO: ffmpeg-4 build fails'
 - component: Basesystem
   create_time: 20190423T14:35:00
@@ -22750,7 +22744,7 @@
   create_time: 20190423T10:57:00
   id: 1133082
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: fwupd: updating build to 1.2.7 needs new polkit privileges'
 - component: Samba
   create_time: 20190423T10:29:00
@@ -22781,8 +22775,8 @@
 - component: YaST2
   create_time: 20190425T16:19:00
   id: 1133435
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Automatically tag new releases of YaST repos on github
 - component: YaST2
   create_time: 20190425T16:10:00
@@ -22828,25 +22822,6 @@
   summary: fstransform codebase should be updated
 '20190426':
 - component: Basesystem
-  create_time: 20190428T16:50:00
-  id: 1133607
-  resolution: ''
-  status: NEW
-  summary: If /etc/vconsole.conf does not exist, then eurlatgr must be used as console
-    font
-- component: YaST2
-  create_time: 20190428T09:12:00
-  id: 1133596
-  resolution: ''
-  status: NEW
-  summary: yast2-python-bindings compilation errors when compiling with -Werror=format-security
-- component: KDE Workspace (Plasma)
-  create_time: 20190428T08:56:00
-  id: 1133595
-  resolution: ''
-  status: NEW
-  summary: krunner doesn't work properly
-- component: Basesystem
   create_time: 20190427T22:59:00
   id: 1133592
   resolution: ''
@@ -22858,7 +22833,7 @@
   resolution: ''
   status: NEW
   summary: nm-applet --indicator does not allow to change networks.
-- component: YaST2
+- component: Samba
   create_time: 20190426T21:22:00
   id: 1133568
   resolution: ''
@@ -22883,18 +22858,18 @@
   resolution: ''
   status: NEW
   summary: aws-cli is not installable due to python3-PyYAML <= 4.0 restriction
-- component: AutoYaST
+- component: YaST2
   create_time: 20190426T13:59:00
   id: 1133541
   resolution: ''
   status: NEW
   summary: '[Build 20190425] openQA test fails in installation - autologin does not
-    work after autoyast installation'
+    work after installation'
 - component: Basesystem
   create_time: 20190426T13:31:00
   id: 1133538
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: rpm whatprovides cannot find patterns in the capabilities
 - component: Kubic
   create_time: 20190426T10:03:00
@@ -22917,8 +22892,8 @@
 - component: Kernel
   create_time: 20190426T07:48:00
   id: 1133486
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Elan touchpad floods /var/log/messages and /var/log/warn
 - component: Basesystem
   create_time: 20190426T07:14:00
@@ -22932,3 +22907,324 @@
   resolution: ''
   status: IN_PROGRESS
   summary: SDDM w/ nvidia eGPU doesn't load greeter
+'20190428':
+- component: Basesystem
+  create_time: 20190429T14:36:00
+  id: 1133709
+  resolution: ''
+  status: NEW
+  summary: fstrim.service runs forever with heavy disk use
+- component: YaST2
+  create_time: 20190429T12:00:00
+  id: 1133686
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Partitioner: misbehavior of tree sections that were initially empty'
+- component: Security
+  create_time: 20190429T11:34:00
+  id: 1133680
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'AUDIT-0: backintime-qt: backintime was ported to qt5 and executable renamed'
+- component: Samba
+  create_time: 20190429T09:25:00
+  id: 1133639
+  resolution: ''
+  status: NEW
+  summary: nmb.service does not start after last update
+- component: Network
+  create_time: 20190429T08:15:00
+  id: 1133632
+  resolution: ''
+  status: CONFIRMED
+  summary: '[20190424] dhcpd failed to start - rc_status: command not found'
+- component: Kernel
+  create_time: 20190429T04:52:00
+  id: 1133616
+  resolution: ''
+  status: IN_PROGRESS
+  summary: use after free in list_lru_add
+- component: Basesystem
+  create_time: 20190428T16:50:00
+  id: 1133607
+  resolution: INVALID
+  status: RESOLVED
+  summary: If /etc/vconsole.conf does not exist, then eurlatgr must be used as console
+    font
+- component: YaST2
+  create_time: 20190428T09:12:00
+  id: 1133596
+  resolution: ''
+  status: NEW
+  summary: yast2-python-bindings compilation errors when compiling with -Werror=format-security
+- component: KDE Workspace (Plasma)
+  create_time: 20190428T08:56:00
+  id: 1133595
+  resolution: ''
+  status: NEW
+  summary: krunner doesn't work properly
+'20190430':
+- component: libzypp
+  create_time: 20190501T12:43:00
+  id: 1133871
+  resolution: ''
+  status: NEW
+  summary: Count installs without using unique identifiers (UUIDs)
+- component: KDE Workspace (Plasma)
+  create_time: 20190501T12:09:00
+  id: 1133870
+  resolution: ''
+  status: NEW
+  summary: konqueror crashing on exit due to libqt5-qtwebengine issue
+- component: Network
+  create_time: 20190501T07:06:00
+  id: 1133868
+  resolution: ''
+  status: REOPENED
+  summary: VPN icon missing
+- component: Security
+  create_time: 20190430T19:02:00
+  id: 1133843
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: systemd: Please review the new DBUS methods brought by systemd
+    v242'
+- component: Kubic
+  create_time: 20190430T15:10:00
+  id: 1133820
+  resolution: ''
+  status: NEW
+  summary: 'health-checker[1697]: crio.sh: line 6: test: 1: unary operator expected'
+- component: Basesystem
+  create_time: 20190430T13:59:00
+  id: 1133809
+  resolution: ''
+  status: NEW
+  summary: Enable bit-reproducible packages
+- component: Sound
+  create_time: 20190430T13:14:00
+  id: 1133803
+  resolution: ''
+  status: NEW
+  summary: 'Problem: nothing provides libfluidsynth.so.1()(64bit) needed by ardour-5.12.0-2.18.x86_64'
+- component: Other
+  create_time: 20190430T11:41:00
+  id: 1133793
+  resolution: ''
+  status: NEW
+  summary: subunit-filters files are broken for python3 only stack
+- component: Basesystem
+  create_time: 20190430T10:31:00
+  id: 1133783
+  resolution: ''
+  status: NEW
+  summary: 'systemd-udevd: 59-fc-wwpn-id.rules: Invalid key/value pair'
+- component: Basesystem
+  create_time: 20190430T09:35:00
+  id: 1133764
+  resolution: ''
+  status: NEW
+  summary: '[TRACKER] port packages to use file triggers'
+- component: Basesystem
+  create_time: 20190430T09:31:00
+  id: 1133762
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: drop mandb.timer
+- component: Development
+  create_time: 20190430T03:23:00
+  id: 1133730
+  resolution: ''
+  status: NEW
+  summary: Please split libqt5xcbqpa-devel for deepin desktop
+- component: Printing
+  create_time: 20190430T02:54:00
+  id: 1133729
+  resolution: ''
+  status: NEW
+  summary: Epson L3101 printer not detected after update
+'20190502':
+- component: Firefox
+  create_time: 20190504T12:39:00
+  id: 1134127
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Firefox certificate issue causing add-ons to be disabled
+- component: Apache
+  create_time: 20190504T00:19:00
+  id: 1134110
+  resolution: ''
+  status: NEW
+  summary: apache-commons-parent pulls in a load of java packages
+- component: Containers
+  create_time: 20190503T14:00:00
+  id: 1134068
+  resolution: ''
+  status: NEW
+  summary: 'docker: update to 18.09.5'
+- component: Other
+  create_time: 20190503T09:43:00
+  id: 1134035
+  resolution: FIXED
+  status: RESOLVED
+  summary: openSUSE:Tools/osc-plugin-collab broken with latest update of Tumbleweed
+- component: Kubic
+  create_time: 20190502T18:53:00
+  id: 1133991
+  resolution: ''
+  status: NEW
+  summary: Kubeadm does not pull images with cri-o and ignores Proxy settings in the
+    environment.
+- component: Network
+  create_time: 20190502T14:58:00
+  id: 1133974
+  resolution: ''
+  status: NEW
+  summary: 'openldap: startup failure due to missing rc.status'
+- component: Kernel
+  create_time: 20190502T11:31:00
+  id: 1133945
+  resolution: ''
+  status: NEW
+  summary: 'RFE: Enable PPPoE in kernel-kvmsmall'
+- component: Basesystem
+  create_time: 20190502T09:33:00
+  id: 1133929
+  resolution: ''
+  status: NEW
+  summary: '[etc cleanup] move motd to /usr'
+- component: Basesystem
+  create_time: 20190502T09:01:00
+  id: 1133924
+  resolution: ''
+  status: NEW
+  summary: osc python m2crypto ssl crash
+'20190505':
+- component: KDE Applications
+  create_time: 20190507T16:05:00
+  id: 1134349
+  resolution: ''
+  status: NEW
+  summary: 'Cantor: Add the backend for Qalculate'
+- component: Basesystem
+  create_time: 20190507T14:32:00
+  id: 1134337
+  resolution: ''
+  status: CONFIRMED
+  summary: Please update util-linux to 2.33.2
+- component: Kubic
+  create_time: 20190507T13:52:00
+  id: 1134332
+  resolution: ''
+  status: NEW
+  summary: Add kubic_worker and kubic_admin roles
+- component: Security
+  create_time: 20190507T13:01:00
+  id: 1134327
+  resolution: ''
+  status: NEW
+  summary: Enhance Ghostscript apparmor profile for ps2epsi
+- component: KDE Workspace (Plasma)
+  create_time: 20190507T12:56:00
+  id: 1134325
+  resolution: ''
+  status: NEW
+  summary: Cannot close window when in "toggle present windows" mode
+- component: KDE Workspace (Plasma)
+  create_time: 20190507T12:42:00
+  id: 1134321
+  resolution: ''
+  status: NEW
+  summary: Switching between virtual desktops causes severe stuttering
+- component: Basesystem
+  create_time: 20190507T12:38:00
+  id: 1134320
+  resolution: ''
+  status: NEW
+  summary: gpg does not work anymore
+- component: Kernel
+  create_time: 20190507T10:35:00
+  id: 1134306
+  resolution: ''
+  status: NEW
+  summary: Default CONFIG_USB_OTG should not be set
+- component: Kernel
+  create_time: 20190507T10:28:00
+  id: 1134303
+  resolution: ''
+  status: NEW
+  summary: aarch64 kernel are not signed
+- component: Other
+  create_time: 20190507T09:41:00
+  id: 1134293
+  resolution: ''
+  status: NEW
+  summary: Snapshot 20190505 breaks Cinnamon 3.8.9
+- component: AppArmor
+  create_time: 20190507T09:26:00
+  id: 1134289
+  resolution: ''
+  status: CONFIRMED
+  summary: 'ghostscript should not have a hard dependency on AppArmor via "Requires:
+    apparmor-abstractions"'
+- component: Installation
+  create_time: 20190506T18:40:00
+  id: 1134233
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190505] openQA test fails in start_install'
+- component: Kernel
+  create_time: 20190506T17:34:00
+  id: 1134228
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Ashmem and Binder patches for Tumbleweed Kernel
+- component: Other
+  create_time: 20190506T14:00:00
+  id: 1134209
+  resolution: ''
+  status: NEW
+  summary: 'nodejs8: unit test errors with OpenSSL 1.1.1'
+- component: Other
+  create_time: 20190506T13:58:00
+  id: 1134208
+  resolution: ''
+  status: NEW
+  summary: 'nodejs10: unit test errors with OpenSSL 1.1.1'
+- component: Kubic
+  create_time: 20190506T03:01:00
+  id: 1134139
+  resolution: FIXED
+  status: RESOLVED
+  summary: cryptsetup missing in kubic iso image, can't install with disk encryption
+    enabled
+- component: Other
+  create_time: 20190505T15:29:00
+  id: 1134135
+  resolution: ''
+  status: NEW
+  summary: SDL_GetWindowSurface returns NULL pointer
+- component: LibreOffice
+  create_time: 20190505T10:52:00
+  id: 1134133
+  resolution: ''
+  status: NEW
+  summary: Libreoffice Calc 6.2.3.2 VCL kde5 cell cleared after window change
+- component: Security
+  create_time: 20190505T08:22:00
+  id: 1134132
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: deepin-file-manager: new dbus of deepin-file-manager'
+- component: Security
+  create_time: 20190505T08:14:00
+  id: 1134131
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: deepin-file-manager: new polkit actions of deepin-file-manager'
+- component: Installation
+  create_time: 20190505T03:37:00
+  id: 1134130
+  resolution: ''
+  status: NEW
+  summary: '"/boot" cannot be part of a thinly provisioned logical volume'
