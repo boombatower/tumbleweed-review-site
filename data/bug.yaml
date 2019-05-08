@@ -18470,11 +18470,11 @@
   resolution: INVALID
   status: RESOLVED
   summary: 'libtirpc-devel: incorrect header location'
-- component: Other
+- component: KDE Workspace (Plasma)
   create_time: 20190121T14:38:00
   id: 1122664
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: '[Build 20190112] Password prompt is not always automatically focused causing
     a regression'
 - component: Basesystem
@@ -23219,14 +23219,14 @@
 - component: Other
   create_time: 20190506T14:00:00
   id: 1134209
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'nodejs8: unit test errors with OpenSSL 1.1.1'
 - component: Other
   create_time: 20190506T13:58:00
   id: 1134208
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'nodejs10: unit test errors with OpenSSL 1.1.1'
 - component: Kubic
   create_time: 20190506T03:01:00
