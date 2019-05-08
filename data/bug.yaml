@@ -23131,6 +23131,12 @@
   status: NEW
   summary: '"/boot" cannot be part of a thinly provisioned logical volume'
 '20190506':
+- component: GNOME
+  create_time: 20190508T03:24:00
+  id: 1134381
+  resolution: ''
+  status: NEW
+  summary: Can not configure network with gnome-control-center and NetworkManager
 - component: KDE Applications
   create_time: 20190507T16:05:00
   id: 1134349
