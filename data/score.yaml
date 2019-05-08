@@ -722,13 +722,13 @@
   score: 94
   stability_level: stable
 '20190327':
-  score: 80
-  stability_level: moderate
+  score: 95
+  stability_level: stable
 '20190401':
-  score: 88
-  stability_level: moderate
-'20190402':
   score: 94
+  stability_level: stable
+'20190402':
+  score: 96
   stability_level: stable
 '20190403':
   score: 92
