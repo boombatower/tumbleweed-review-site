@@ -23100,6 +23100,37 @@
   status: NEW
   summary: osc python m2crypto ssl crash
 '20190505':
+- component: Other
+  create_time: 20190505T15:29:00
+  id: 1134135
+  resolution: ''
+  status: NEW
+  summary: SDL_GetWindowSurface returns NULL pointer
+- component: LibreOffice
+  create_time: 20190505T10:52:00
+  id: 1134133
+  resolution: ''
+  status: NEW
+  summary: Libreoffice Calc 6.2.3.2 VCL kde5 cell cleared after window change
+- component: Security
+  create_time: 20190505T08:22:00
+  id: 1134132
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: deepin-file-manager: new dbus of deepin-file-manager'
+- component: Security
+  create_time: 20190505T08:14:00
+  id: 1134131
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: deepin-file-manager: new polkit actions of deepin-file-manager'
+- component: Installation
+  create_time: 20190505T03:37:00
+  id: 1134130
+  resolution: ''
+  status: NEW
+  summary: '"/boot" cannot be part of a thinly provisioned logical volume'
+'20190506':
 - component: KDE Applications
   create_time: 20190507T16:05:00
   id: 1134349
@@ -23198,33 +23229,3 @@
   status: RESOLVED
   summary: cryptsetup missing in kubic iso image, can't install with disk encryption
     enabled
-- component: Other
-  create_time: 20190505T15:29:00
-  id: 1134135
-  resolution: ''
-  status: NEW
-  summary: SDL_GetWindowSurface returns NULL pointer
-- component: LibreOffice
-  create_time: 20190505T10:52:00
-  id: 1134133
-  resolution: ''
-  status: NEW
-  summary: Libreoffice Calc 6.2.3.2 VCL kde5 cell cleared after window change
-- component: Security
-  create_time: 20190505T08:22:00
-  id: 1134132
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: deepin-file-manager: new dbus of deepin-file-manager'
-- component: Security
-  create_time: 20190505T08:14:00
-  id: 1134131
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: deepin-file-manager: new polkit actions of deepin-file-manager'
-- component: Installation
-  create_time: 20190505T03:37:00
-  id: 1134130
-  resolution: ''
-  status: NEW
-  summary: '"/boot" cannot be part of a thinly provisioned logical volume'
