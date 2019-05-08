@@ -1830,3 +1830,8 @@
   - messages: [2019-05.85]
     reference_count: 3
     summary: brings in lightdm on KDE?
+'20190507':
+  announcement: 2019-05.88
+  reference_count: 0
+  thread_count: 0
+  threads: []
