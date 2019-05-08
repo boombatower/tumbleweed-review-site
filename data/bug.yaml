@@ -21637,8 +21637,8 @@
 - component: Containers
   create_time: 20190407T07:43:00
   id: 1131762
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'lxc: update to 3.x'
 - component: KDE Applications
   create_time: 20190406T18:44:00
@@ -22130,8 +22130,8 @@
 - component: Basesystem
   create_time: 20190417T09:08:00
   id: 1132738
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Move /etc/rc.splash and /etc/rc.status from aaa_base to insserv-compat
 - component: YaST2
   create_time: 20190417T02:06:00
@@ -22929,8 +22929,8 @@
 - component: Samba
   create_time: 20190429T09:25:00
   id: 1133639
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: nmb.service does not start after last update
 - component: Network
   create_time: 20190429T08:15:00
@@ -23116,13 +23116,13 @@
   create_time: 20190505T08:22:00
   id: 1134132
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: deepin-file-manager: new dbus of deepin-file-manager'
 - component: Security
   create_time: 20190505T08:14:00
   id: 1134131
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: deepin-file-manager: new polkit actions of deepin-file-manager'
 - component: Installation
   create_time: 20190505T03:37:00
@@ -23131,6 +23131,30 @@
   status: NEW
   summary: '"/boot" cannot be part of a thinly provisioned logical volume'
 '20190506':
+- component: Kernel
+  create_time: 20190508T15:31:00
+  id: 1134475
+  resolution: ''
+  status: IN_PROGRESS
+  summary: X11 not starting - Tumbleweed - After Kernel update (5.0.9 +) - radeon
+- component: Basesystem
+  create_time: 20190508T15:14:00
+  id: 1134472
+  resolution: ''
+  status: NEW
+  summary: Dracut causes ordering loop with iscsid, breaking boot
+- component: GNOME
+  create_time: 20190508T14:05:00
+  id: 1134466
+  resolution: ''
+  status: NEW
+  summary: 'Tumbleweed: Starting the Gnome control center from an XFCE session fails'
+- component: YaST2
+  create_time: 20190508T10:19:00
+  id: 1134429
+  resolution: ''
+  status: NEW
+  summary: kubic installation requires wpa_supplicant, which is not in repo
 - component: GNOME
   create_time: 20190508T03:24:00
   id: 1134381
