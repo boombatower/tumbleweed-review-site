@@ -1821,9 +1821,12 @@
   threads: []
 '20190506':
   announcement: 2019-05.78
-  reference_count: 3
-  thread_count: 1
+  reference_count: 6
+  thread_count: 2
   threads:
   - messages: [2019-05.81]
     reference_count: 3
     summary: no summary given
+  - messages: [2019-05.85]
+    reference_count: 3
+    summary: brings in lightdm on KDE?
