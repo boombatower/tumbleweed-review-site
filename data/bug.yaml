@@ -22839,7 +22839,7 @@
   resolution: ''
   status: NEW
   summary: yast2-adcommon-python ldap doesn't correctly parse ldap urls for ldap.initialize()
-- component: Live Medium
+- component: Installation
   create_time: 20190426T19:47:00
   id: 1133564
   resolution: ''
@@ -23131,6 +23131,44 @@
   status: NEW
   summary: '"/boot" cannot be part of a thinly provisioned logical volume'
 '20190506':
+- component: Installation
+  create_time: 20190506T18:40:00
+  id: 1134233
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190505] openQA test fails in start_install'
+- component: Kernel
+  create_time: 20190506T17:34:00
+  id: 1134228
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Ashmem and Binder patches for Tumbleweed Kernel
+- component: Other
+  create_time: 20190506T14:00:00
+  id: 1134209
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'nodejs8: unit test errors with OpenSSL 1.1.1'
+- component: Other
+  create_time: 20190506T13:58:00
+  id: 1134208
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'nodejs10: unit test errors with OpenSSL 1.1.1'
+- component: Kubic
+  create_time: 20190506T03:01:00
+  id: 1134139
+  resolution: FIXED
+  status: RESOLVED
+  summary: cryptsetup missing in kubic iso image, can't install with disk encryption
+    enabled
+'20190507':
+- component: GNOME
+  create_time: 20190508T17:52:00
+  id: 1134490
+  resolution: ''
+  status: NEW
+  summary: Search freezes animations in gnome-shell 3.32
 - component: Kernel
   create_time: 20190508T15:31:00
   id: 1134475
@@ -23228,34 +23266,3 @@
   status: CONFIRMED
   summary: 'ghostscript should not have a hard dependency on AppArmor via "Requires:
     apparmor-abstractions"'
-- component: Installation
-  create_time: 20190506T18:40:00
-  id: 1134233
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190505] openQA test fails in start_install'
-- component: Kernel
-  create_time: 20190506T17:34:00
-  id: 1134228
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: Ashmem and Binder patches for Tumbleweed Kernel
-- component: Other
-  create_time: 20190506T14:00:00
-  id: 1134209
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'nodejs8: unit test errors with OpenSSL 1.1.1'
-- component: Other
-  create_time: 20190506T13:58:00
-  id: 1134208
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'nodejs10: unit test errors with OpenSSL 1.1.1'
-- component: Kubic
-  create_time: 20190506T03:01:00
-  id: 1134139
-  resolution: FIXED
-  status: RESOLVED
-  summary: cryptsetup missing in kubic iso image, can't install with disk encryption
-    enabled
