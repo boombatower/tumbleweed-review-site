@@ -31,7 +31,7 @@
   - xorg-x11-server
   binary_unique_count: 2575
   disk_base: 4.8GiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190401':
   binary_count: 56829
   binary_interest:
@@ -58,7 +58,7 @@
   - Mesa
   binary_unique_count: 1871
   disk_base: 3.1GiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190402':
   binary_count: 57254
   binary_interest:
@@ -82,7 +82,7 @@
   binary_interest_changed: []
   binary_unique_count: 425
   disk_base: 798.1MiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190403':
   binary_count: 58030
   binary_interest:
@@ -106,7 +106,7 @@
   binary_interest_changed: []
   binary_unique_count: 776
   disk_base: 892.6MiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190408':
   binary_count: 59622
   binary_interest:
@@ -135,7 +135,7 @@
   - plasma5-workspace
   binary_unique_count: 4480
   disk_base: 6.7GiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190409':
   binary_count: 60372
   binary_interest:
@@ -159,7 +159,7 @@
   binary_interest_changed: []
   binary_unique_count: 750
   disk_base: 1.4GiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190411':
   binary_count: 60957
   binary_interest:
@@ -184,7 +184,7 @@
   - kernel-source
   binary_unique_count: 585
   disk_base: 2.3GiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190412':
   binary_count: 57330
   binary_interest:
@@ -208,7 +208,7 @@
   binary_interest_changed: []
   binary_unique_count: 642
   disk_base: 505.9MiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190415':
   binary_count: 56086
   binary_interest:
@@ -234,7 +234,7 @@
   - plasma5-workspace
   binary_unique_count: 1010
   disk_base: 2.3GiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190417':
   binary_count: 57431
   binary_interest:
@@ -260,7 +260,7 @@
   - gtk3-devel
   binary_unique_count: 1345
   disk_base: 1.9GiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190418':
   binary_count: 58136
   binary_interest:
@@ -285,7 +285,7 @@
   - kernel-source
   binary_unique_count: 705
   disk_base: 2.5GiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190419':
   binary_count: 59026
   binary_interest:
@@ -311,7 +311,7 @@
   - plasma-framework
   binary_unique_count: 890
   disk_base: 1.0GiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190420':
   binary_count: 58219
   binary_interest:
@@ -337,7 +337,7 @@
   - Mesa
   binary_unique_count: 190
   disk_base: 227.0MiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190423':
   binary_count: 58166
   binary_interest:
@@ -363,7 +363,7 @@
   - libqt5-qtbase-devel
   binary_unique_count: 2584
   disk_base: 3.4GiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190425':
   binary_count: 58515
   binary_interest:
@@ -388,7 +388,7 @@
   - kernel-source
   binary_unique_count: 534
   disk_base: 2.5GiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190426':
   binary_count: 59365
   binary_interest:
@@ -416,7 +416,7 @@
   - libqt5-qtbase-devel
   binary_unique_count: 3430
   disk_base: 3.9GiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190428':
   binary_count: 61232
   binary_interest:
@@ -449,7 +449,7 @@
   - xorg-x11-server
   binary_unique_count: 1867
   disk_base: 3.3GiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190430':
   binary_count: 56434
   binary_interest:
@@ -473,7 +473,7 @@
   binary_interest_changed: []
   binary_unique_count: 1043
   disk_base: 969.3MiB
-  disk_shared: unkown
+  disk_shared: unknown
 '20190502':
   binary_count: 57328
   binary_interest:
@@ -498,4 +498,4 @@
   - kernel-source
   binary_unique_count: 894
   disk_base: 2.3GiB
-  disk_shared: unkown
+  disk_shared: unknown
