@@ -4835,8 +4835,8 @@
 - component: Installation
   create_time: 20180301T08:31:00
   id: 1083434
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Missing accessibility to Network Configuration screen in the Installer
 '20180302':
 - component: Kernel
@@ -18581,8 +18581,8 @@
 - component: Other
   create_time: 20190131T09:44:00
   id: 1123813
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'jumpnbump: Crashes when going off the top of the screen'
 - component: Security
   create_time: 20190131T09:09:00
@@ -22986,8 +22986,8 @@
 - component: Kubic
   create_time: 20190430T15:10:00
   id: 1133820
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'health-checker[1697]: crio.sh: line 6: test: 1: unary operator expected'
 - component: Basesystem
   create_time: 20190430T13:59:00
@@ -23158,6 +23158,12 @@
     enabled
 '20190507':
 - component: YaST2
+  create_time: 20190509T09:52:00
+  id: 1134575
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Wizard steps don't allow for full styling due to weird default spacing
+- component: YaST2
   create_time: 20190509T09:25:00
   id: 1134571
   resolution: FIXED
@@ -23208,8 +23214,8 @@
 - component: KDE Applications
   create_time: 20190507T16:05:00
   id: 1134349
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Cantor: Add the backend for Qalculate'
 - component: Basesystem
   create_time: 20190507T14:32:00
