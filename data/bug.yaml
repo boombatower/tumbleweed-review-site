@@ -17146,12 +17146,6 @@
   status: CONFIRMED
   summary: 'AutoYaST: Undefined method "key?" thrown for any unknown XML tag with
     string content in <partitions> block'
-- component: Installation
-  create_time: 20190107T16:18:00
-  id: 1120957
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20190103] keyboard language cannot be changed in textmode on qemu'
 - component: Development
   create_time: 20190107T14:58:00
   id: 1120947
@@ -23163,6 +23157,18 @@
   summary: cryptsetup missing in kubic iso image, can't install with disk encryption
     enabled
 '20190507':
+- component: YaST2
+  create_time: 20190509T09:25:00
+  id: 1134571
+  resolution: FIXED
+  status: RESOLVED
+  summary: Need a bug report to change one line of code in yast2-services
+- component: Development
+  create_time: 20190509T09:10:00
+  id: 1134568
+  resolution: ''
+  status: CONFIRMED
+  summary: packages do not build reproducibly from zip file
 - component: GNOME
   create_time: 20190508T17:52:00
   id: 1134490
@@ -23197,7 +23203,7 @@
   create_time: 20190508T03:24:00
   id: 1134381
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Can not configure network with gnome-control-center and NetworkManager
 - component: KDE Applications
   create_time: 20190507T16:05:00
@@ -23221,7 +23227,7 @@
   create_time: 20190507T13:01:00
   id: 1134327
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Enhance Ghostscript apparmor profile for ps2epsi
 - component: KDE Workspace (Plasma)
   create_time: 20190507T12:56:00
