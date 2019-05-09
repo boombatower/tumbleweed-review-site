@@ -23166,8 +23166,8 @@
 - component: Basesystem
   create_time: 20190507T14:32:00
   id: 1134337
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Please update util-linux to 2.33.2
 - component: Kubic
   create_time: 20190507T13:52:00
@@ -23266,7 +23266,7 @@
   create_time: 20190509T14:14:00
   id: 1134609
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'cpprest: fails to build with boost 1.70.0'
 - component: Other
   create_time: 20190509T14:12:00
