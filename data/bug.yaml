@@ -22570,7 +22570,7 @@
   create_time: 20190423T19:30:00
   id: 1133169
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Area bitmap lost after save as docx
 - component: Firefox
   create_time: 20190423T18:16:00
@@ -22980,7 +22980,7 @@
   create_time: 20190430T19:02:00
   id: 1133843
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: systemd: Please review the new DBUS methods brought by systemd
     v242'
 - component: Kubic
@@ -23157,6 +23157,48 @@
   summary: cryptsetup missing in kubic iso image, can't install with disk encryption
     enabled
 '20190507':
+- component: Other
+  create_time: 20190509T14:25:00
+  id: 1134616
+  resolution: ''
+  status: NEW
+  summary: 'nghttp2: fails to build with boost 1.70.0'
+- component: Other
+  create_time: 20190509T14:23:00
+  id: 1134615
+  resolution: ''
+  status: NEW
+  summary: 'libtorrent-rasterbar: fails to build with boost 1.70.0'
+- component: Other
+  create_time: 20190509T14:20:00
+  id: 1134611
+  resolution: ''
+  status: NEW
+  summary: 'libindi: fails to build with boost 1.70.0'
+- component: Other
+  create_time: 20190509T14:18:00
+  id: 1134610
+  resolution: ''
+  status: NEW
+  summary: 'gnuradio: fails to build with boost 1.70.0'
+- component: Other
+  create_time: 20190509T14:14:00
+  id: 1134609
+  resolution: ''
+  status: NEW
+  summary: 'cpprest: fails to build with boost 1.70.0'
+- component: Other
+  create_time: 20190509T14:12:00
+  id: 1134608
+  resolution: ''
+  status: NEW
+  summary: 'cadabra2: fails to build with boost 1.70.0'
+- component: Other
+  create_time: 20190509T14:03:00
+  id: 1134606
+  resolution: ''
+  status: NEW
+  summary: '[TRACKER BUG] Boost upgrade to 1.70.0 compilation issues'
 - component: YaST2
   create_time: 20190509T09:52:00
   id: 1134575
