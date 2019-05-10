@@ -9500,8 +9500,8 @@
 - component: YaST2
   create_time: 20180618T03:42:00
   id: 1097956
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'yast2-storage-ng: missing a URL in the spec file'
 '20180620':
 - component: Patterns
@@ -21744,8 +21744,8 @@
 - component: Other
   create_time: 20190403T14:30:00
   id: 1131436
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: texlive-fontawesome5 does not update updmap on install/uninstall
 - component: Basesystem
   create_time: 20190403T13:50:00
@@ -22725,8 +22725,8 @@
 - component: Basesystem
   create_time: 20190423T11:09:00
   id: 1133086
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: alsa build fails'
 - component: Basesystem
   create_time: 20190423T11:01:00
@@ -23210,7 +23210,7 @@
   id: 1134303
   resolution: ''
   status: NEW
-  summary: aarch64 kernel are not signed
+  summary: aarch64 kernels are not signed
 - component: Other
   create_time: 20190507T09:41:00
   id: 1134293
@@ -23225,6 +23225,50 @@
   summary: 'ghostscript should not have a hard dependency on AppArmor via "Requires:
     apparmor-abstractions"'
 '20190508':
+- component: GNOME
+  create_time: 20190508T17:52:00
+  id: 1134490
+  resolution: ''
+  status: NEW
+  summary: Search freezes animations in gnome-shell 3.32
+- component: Kernel
+  create_time: 20190508T15:31:00
+  id: 1134475
+  resolution: ''
+  status: IN_PROGRESS
+  summary: X11 not starting - Tumbleweed - After Kernel update (5.0.9 +) - radeon
+- component: Basesystem
+  create_time: 20190508T15:14:00
+  id: 1134472
+  resolution: ''
+  status: NEW
+  summary: Dracut causes ordering loop with iscsid, breaking boot
+- component: GNOME
+  create_time: 20190508T14:05:00
+  id: 1134466
+  resolution: ''
+  status: NEW
+  summary: 'Tumbleweed: Starting the Gnome control center from an XFCE session fails'
+- component: YaST2
+  create_time: 20190508T10:19:00
+  id: 1134429
+  resolution: FIXED
+  status: RESOLVED
+  summary: kubic installation requires wpa_supplicant, which is not in repo
+- component: GNOME
+  create_time: 20190508T03:24:00
+  id: 1134381
+  resolution: FIXED
+  status: RESOLVED
+  summary: Can not configure network with gnome-control-center and NetworkManager
+'20190509':
+- component: Development
+  create_time: 20190510T14:17:00
+  id: 1134740
+  resolution: ''
+  status: NEW
+  summary: Can not compile galera from source because wsrep_api.h is not provided
+    by any package (like mariadb)
 - component: Kubic
   create_time: 20190510T12:54:00
   id: 1134727
@@ -23240,8 +23284,8 @@
 - component: YaST2
   create_time: 20190510T08:45:00
   id: 1134685
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: partitioner aborts with key not found
 - component: YaST2
   create_time: 20190509T17:15:00
@@ -23316,39 +23360,3 @@
   resolution: ''
   status: CONFIRMED
   summary: packages do not build reproducibly from zip file
-- component: GNOME
-  create_time: 20190508T17:52:00
-  id: 1134490
-  resolution: ''
-  status: NEW
-  summary: Search freezes animations in gnome-shell 3.32
-- component: Kernel
-  create_time: 20190508T15:31:00
-  id: 1134475
-  resolution: ''
-  status: IN_PROGRESS
-  summary: X11 not starting - Tumbleweed - After Kernel update (5.0.9 +) - radeon
-- component: Basesystem
-  create_time: 20190508T15:14:00
-  id: 1134472
-  resolution: ''
-  status: NEW
-  summary: Dracut causes ordering loop with iscsid, breaking boot
-- component: GNOME
-  create_time: 20190508T14:05:00
-  id: 1134466
-  resolution: ''
-  status: NEW
-  summary: 'Tumbleweed: Starting the Gnome control center from an XFCE session fails'
-- component: YaST2
-  create_time: 20190508T10:19:00
-  id: 1134429
-  resolution: FIXED
-  status: RESOLVED
-  summary: kubic installation requires wpa_supplicant, which is not in repo
-- component: GNOME
-  create_time: 20190508T03:24:00
-  id: 1134381
-  resolution: FIXED
-  status: RESOLVED
-  summary: Can not configure network with gnome-control-center and NetworkManager
