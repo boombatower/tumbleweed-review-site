@@ -22979,8 +22979,8 @@
 - component: Security
   create_time: 20190430T19:02:00
   id: 1133843
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: systemd: Please review the new DBUS methods brought by systemd
     v242'
 - component: Kubic
