@@ -22003,8 +22003,8 @@
 - component: Virtualization:Other
   create_time: 20190412T14:52:00
   id: 1132379
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'VirtualBox won''t launch VM on kernel 5.0.6: Error 0x1 NS_ERROR_FAILURE
     MachineWrap'
 - component: Basesystem
