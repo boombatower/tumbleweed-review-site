@@ -17868,8 +17868,8 @@
 - component: Basesystem
   create_time: 20190110T19:44:00
   id: 1121502
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'broken dependency: byobu / python3-newt'
 - component: X11 3rd Party Driver
   create_time: 20190110T14:34:00
@@ -23331,6 +23331,6 @@
 - component: GNOME
   create_time: 20190508T03:24:00
   id: 1134381
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Can not configure network with gnome-control-center and NetworkManager
