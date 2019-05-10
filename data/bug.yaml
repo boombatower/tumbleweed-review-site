@@ -23225,11 +23225,23 @@
   summary: 'ghostscript should not have a hard dependency on AppArmor via "Requires:
     apparmor-abstractions"'
 '20190508':
+- component: Kubic
+  create_time: 20190510T12:54:00
+  id: 1134727
+  resolution: ''
+  status: NEW
+  summary: kernel-debug on MicroOS/Kubic medias
+- component: Printing
+  create_time: 20190510T12:20:00
+  id: 1134722
+  resolution: ''
+  status: NEW
+  summary: ps2epsi tempfile handling is insecure
 - component: YaST2
   create_time: 20190510T08:45:00
   id: 1134685
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: partitioner aborts with key not found
 - component: YaST2
   create_time: 20190509T17:15:00
