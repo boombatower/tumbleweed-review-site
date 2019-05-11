@@ -1842,6 +1842,9 @@
   threads: []
 '20190509':
   announcement: 2019-05.100
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages: [2019-05.104]
+    reference_count: 1
+    summary: exo 0.12.5 breaks exo-branding-openSUSE
