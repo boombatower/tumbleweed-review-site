@@ -21515,8 +21515,8 @@
 - component: Kernel
   create_time: 20190401T13:58:00
   id: 1131152
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: '[Tumbleweed] kernel 5.0 does not start with raid1 disks -'
 - component: Other
   create_time: 20190401T07:06:00
