@@ -23262,6 +23262,12 @@
   status: RESOLVED
   summary: Can not configure network with gnome-control-center and NetworkManager
 '20190509':
+- component: YaST2
+  create_time: 20190511T15:55:00
+  id: 1134796
+  resolution: ''
+  status: NEW
+  summary: Expert partitioner during installation does not work.
 - component: Xfce
   create_time: 20190511T02:55:00
   id: 1134790
