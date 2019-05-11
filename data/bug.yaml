@@ -23262,6 +23262,12 @@
   status: RESOLVED
   summary: Can not configure network with gnome-control-center and NetworkManager
 '20190509':
+- component: Basesystem
+  create_time: 20190510T22:49:00
+  id: 1134787
+  resolution: ''
+  status: NEW
+  summary: BT device connects and immediately disconnects on poweron
 - component: Development
   create_time: 20190510T14:17:00
   id: 1134740
