@@ -23262,6 +23262,18 @@
   status: RESOLVED
   summary: Can not configure network with gnome-control-center and NetworkManager
 '20190509':
+- component: Xfce
+  create_time: 20190511T02:55:00
+  id: 1134790
+  resolution: ''
+  status: NEW
+  summary: package  exo-branding-openSUSE-4.12.0-14.4 not compatible with exo-0.12.5
+- component: Bootloader
+  create_time: 20190511T01:41:00
+  id: 1134788
+  resolution: ''
+  status: NEW
+  summary: HiKey960 not booting into EDK2 after edk2 and arm-trusted-firmware updates
 - component: Basesystem
   create_time: 20190510T22:49:00
   id: 1134787
