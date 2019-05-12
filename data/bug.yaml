@@ -23336,6 +23336,12 @@
   status: CONFIRMED
   summary: packages do not build reproducibly from zip file
 '20190510':
+- component: Printing
+  create_time: 20190512T19:41:00
+  id: 1134808
+  resolution: ''
+  status: NEW
+  summary: dvipdf broken - missing dvips
 - component: Kernel
   create_time: 20190512T15:50:00
   id: 1134806
