@@ -23262,6 +23262,13 @@
   status: RESOLVED
   summary: Can not configure network with gnome-control-center and NetworkManager
 '20190509':
+- component: Basesystem
+  create_time: 20190512T09:29:00
+  id: 1134802
+  resolution: ''
+  status: NEW
+  summary: 'Tumbleweed 20190509: Boot breaks by dependency ordering cycle -> "Dependency
+    failed for /sysroot" when fsck is about to run'
 - component: YaST2
   create_time: 20190511T19:39:00
   id: 1134797
