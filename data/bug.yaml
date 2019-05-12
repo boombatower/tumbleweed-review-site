@@ -23263,6 +23263,92 @@
   summary: Can not configure network with gnome-control-center and NetworkManager
 '20190509':
 - component: YaST2
+  create_time: 20190509T17:15:00
+  id: 1134631
+  resolution: ''
+  status: NEW
+  summary: yast2-adsi doesn't allow switching between naming contexts, domains, or
+    servers
+- component: YaST2
+  create_time: 20190509T17:09:00
+  id: 1134630
+  resolution: ''
+  status: NEW
+  summary: yast2-adsi properties dialog opens wrong item when selected from tree view
+- component: Other
+  create_time: 20190509T14:25:00
+  id: 1134616
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'nghttp2: fails to build with boost 1.70.0'
+- component: Other
+  create_time: 20190509T14:23:00
+  id: 1134615
+  resolution: ''
+  status: NEW
+  summary: 'libtorrent-rasterbar: fails to build with boost 1.70.0'
+- component: Other
+  create_time: 20190509T14:20:00
+  id: 1134611
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'libindi: fails to build with boost 1.70.0 due to websocketpp'
+- component: Other
+  create_time: 20190509T14:18:00
+  id: 1134610
+  resolution: ''
+  status: NEW
+  summary: 'gnuradio: fails to build with boost 1.70.0'
+- component: Other
+  create_time: 20190509T14:14:00
+  id: 1134609
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'cpprest: fails to build with boost 1.70.0'
+- component: Other
+  create_time: 20190509T14:12:00
+  id: 1134608
+  resolution: ''
+  status: NEW
+  summary: 'cadabra2: fails to build with boost 1.70.0'
+- component: Other
+  create_time: 20190509T14:03:00
+  id: 1134606
+  resolution: ''
+  status: NEW
+  summary: '[TRACKER BUG] Boost upgrade to 1.70.0 compilation issues'
+- component: YaST2
+  create_time: 20190509T09:52:00
+  id: 1134575
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Wizard steps don't allow for full styling due to weird default spacing
+- component: YaST2
+  create_time: 20190509T09:25:00
+  id: 1134571
+  resolution: FIXED
+  status: RESOLVED
+  summary: Need a bug report to change one line of code in yast2-services
+- component: Development
+  create_time: 20190509T09:10:00
+  id: 1134568
+  resolution: ''
+  status: CONFIRMED
+  summary: packages do not build reproducibly from zip file
+'20190510':
+- component: Kernel
+  create_time: 20190512T15:50:00
+  id: 1134806
+  resolution: ''
+  status: NEW
+  summary: 'BUG: unable to handle kernel NULL pointer dereference at 0000000000000068'
+- component: X.Org
+  create_time: 20190512T13:35:00
+  id: 1134805
+  resolution: ''
+  status: NEW
+  summary: Graphical artifacts in KDE and SDDM, using radeon driver
+- component: YaST2
   create_time: 20190512T12:51:00
   id: 1134804
   resolution: ''
@@ -23336,76 +23422,3 @@
   resolution: FIXED
   status: RESOLVED
   summary: partitioner aborts with key not found
-- component: YaST2
-  create_time: 20190509T17:15:00
-  id: 1134631
-  resolution: ''
-  status: NEW
-  summary: yast2-adsi doesn't allow switching between naming contexts, domains, or
-    servers
-- component: YaST2
-  create_time: 20190509T17:09:00
-  id: 1134630
-  resolution: ''
-  status: NEW
-  summary: yast2-adsi properties dialog opens wrong item when selected from tree view
-- component: Other
-  create_time: 20190509T14:25:00
-  id: 1134616
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'nghttp2: fails to build with boost 1.70.0'
-- component: Other
-  create_time: 20190509T14:23:00
-  id: 1134615
-  resolution: ''
-  status: NEW
-  summary: 'libtorrent-rasterbar: fails to build with boost 1.70.0'
-- component: Other
-  create_time: 20190509T14:20:00
-  id: 1134611
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'libindi: fails to build with boost 1.70.0 due to websocketpp'
-- component: Other
-  create_time: 20190509T14:18:00
-  id: 1134610
-  resolution: ''
-  status: NEW
-  summary: 'gnuradio: fails to build with boost 1.70.0'
-- component: Other
-  create_time: 20190509T14:14:00
-  id: 1134609
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'cpprest: fails to build with boost 1.70.0'
-- component: Other
-  create_time: 20190509T14:12:00
-  id: 1134608
-  resolution: ''
-  status: NEW
-  summary: 'cadabra2: fails to build with boost 1.70.0'
-- component: Other
-  create_time: 20190509T14:03:00
-  id: 1134606
-  resolution: ''
-  status: NEW
-  summary: '[TRACKER BUG] Boost upgrade to 1.70.0 compilation issues'
-- component: YaST2
-  create_time: 20190509T09:52:00
-  id: 1134575
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Wizard steps don't allow for full styling due to weird default spacing
-- component: YaST2
-  create_time: 20190509T09:25:00
-  id: 1134571
-  resolution: FIXED
-  status: RESOLVED
-  summary: Need a bug report to change one line of code in yast2-services
-- component: Development
-  create_time: 20190509T09:10:00
-  id: 1134568
-  resolution: ''
-  status: CONFIRMED
-  summary: packages do not build reproducibly from zip file
