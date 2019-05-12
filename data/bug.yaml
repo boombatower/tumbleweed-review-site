@@ -23262,6 +23262,18 @@
   status: RESOLVED
   summary: Can not configure network with gnome-control-center and NetworkManager
 '20190509':
+- component: YaST2
+  create_time: 20190512T12:51:00
+  id: 1134804
+  resolution: ''
+  status: NEW
+  summary: YaST2 partitioner shows internal error when LANG=de_DE.UTF-8
+- component: Basesystem
+  create_time: 20190512T11:21:00
+  id: 1134803
+  resolution: ''
+  status: NEW
+  summary: 'X11:Utilities/blueberry: Bug, blueberry does not trust devices'
 - component: Basesystem
   create_time: 20190512T09:29:00
   id: 1134802
