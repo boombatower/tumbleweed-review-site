@@ -23347,7 +23347,7 @@
   id: 1134806
   resolution: ''
   status: NEW
-  summary: 'BUG: unable to handle kernel NULL pointer dereference at 0000000000000068'
+  summary: null pointer dereference in btrfs/qgroup with kernel 5.0.2
 - component: X.Org
   create_time: 20190512T13:35:00
   id: 1134805
@@ -23357,8 +23357,8 @@
 - component: YaST2
   create_time: 20190512T12:51:00
   id: 1134804
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: YaST2 partitioner shows internal error when LANG=de_DE.UTF-8
 - component: Basesystem
   create_time: 20190512T11:21:00
