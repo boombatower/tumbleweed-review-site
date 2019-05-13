@@ -23336,6 +23336,12 @@
   status: CONFIRMED
   summary: packages do not build reproducibly from zip file
 '20190510':
+- component: Basesystem
+  create_time: 20190513T12:47:00
+  id: 1134865
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed simply don't suspend.
 - component: GNOME
   create_time: 20190513T09:30:00
   id: 1134847
