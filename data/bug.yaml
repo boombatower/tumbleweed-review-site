@@ -3653,8 +3653,8 @@
 - component: Kernel
   create_time: 20180211T01:24:00
   id: 1080449
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: HiKey 960 fails to find rootfs on SD card - Hi6421 PMU missing
 - component: KDE Workspace (Plasma)
   create_time: 20180210T21:21:00
@@ -23336,11 +23336,23 @@
   status: CONFIRMED
   summary: packages do not build reproducibly from zip file
 '20190510':
+- component: GNOME
+  create_time: 20190513T09:30:00
+  id: 1134847
+  resolution: ''
+  status: NEW
+  summary: pango.pc has excessive requirements
+- component: Kernel
+  create_time: 20190513T09:11:00
+  id: 1134838
+  resolution: ''
+  status: NEW
+  summary: No Raspberry Pi official 7" touchscreen support with DRM/VC4
 - component: Printing
   create_time: 20190512T19:41:00
   id: 1134808
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: dvipdf broken - missing dvips
 - component: Kernel
   create_time: 20190512T15:50:00
@@ -23352,7 +23364,7 @@
   create_time: 20190512T13:35:00
   id: 1134805
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Graphical artifacts in KDE and SDDM, using radeon driver
 - component: YaST2
   create_time: 20190512T12:51:00
@@ -23384,7 +23396,7 @@
   id: 1134796
   resolution: ''
   status: NEW
-  summary: Expert partitioner during installation does not work.
+  summary: Expert Partitioner during installation does not work.
 - component: Xfce
   create_time: 20190511T02:55:00
   id: 1134790
@@ -23403,6 +23415,12 @@
   resolution: ''
   status: NEW
   summary: BT device connects and immediately disconnects on poweron
+- component: Basesystem
+  create_time: 20190510T16:34:00
+  id: 1134757
+  resolution: ''
+  status: NEW
+  summary: Some locale directories missing in filesystem
 - component: Development
   create_time: 20190510T14:17:00
   id: 1134740
