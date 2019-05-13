@@ -22384,7 +22384,7 @@
   create_time: 20190424T13:30:00
   id: 1133281
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'LTO: qemu build fails'
 - component: Basesystem
   create_time: 20190424T13:28:00
@@ -23336,61 +23336,6 @@
   status: CONFIRMED
   summary: packages do not build reproducibly from zip file
 '20190510':
-- component: Basesystem
-  create_time: 20190513T12:47:00
-  id: 1134865
-  resolution: ''
-  status: NEW
-  summary: Tumbleweed simply don't suspend.
-- component: GNOME
-  create_time: 20190513T09:30:00
-  id: 1134847
-  resolution: ''
-  status: NEW
-  summary: pango.pc has excessive requirements
-- component: Kernel
-  create_time: 20190513T09:11:00
-  id: 1134838
-  resolution: ''
-  status: NEW
-  summary: No Raspberry Pi official 7" touchscreen support with DRM/VC4
-- component: Printing
-  create_time: 20190512T19:41:00
-  id: 1134808
-  resolution: ''
-  status: CONFIRMED
-  summary: dvipdf broken - missing dvips
-- component: Kernel
-  create_time: 20190512T15:50:00
-  id: 1134806
-  resolution: ''
-  status: NEW
-  summary: null pointer dereference in btrfs/qgroup with kernel 5.0.2
-- component: X.Org
-  create_time: 20190512T13:35:00
-  id: 1134805
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Graphical artifacts in KDE and SDDM, using radeon driver
-- component: YaST2
-  create_time: 20190512T12:51:00
-  id: 1134804
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: YaST2 partitioner shows internal error when LANG=de_DE.UTF-8
-- component: Basesystem
-  create_time: 20190512T11:21:00
-  id: 1134803
-  resolution: ''
-  status: NEW
-  summary: 'X11:Utilities/blueberry: Bug, blueberry does not trust devices'
-- component: Basesystem
-  create_time: 20190512T09:29:00
-  id: 1134802
-  resolution: ''
-  status: NEW
-  summary: 'Tumbleweed 20190509: Boot breaks by dependency ordering cycle -> "Dependency
-    failed for /sysroot" when fsck is about to run'
 - component: YaST2
   create_time: 20190511T19:39:00
   id: 1134797
@@ -23452,3 +23397,71 @@
   resolution: FIXED
   status: RESOLVED
   summary: partitioner aborts with key not found
+'20190512':
+- component: KDE Workspace (Plasma)
+  create_time: 20190513T14:35:00
+  id: 1134875
+  resolution: ''
+  status: NEW
+  summary: Plasma Crashed During USB HDD mount
+- component: KDE Workspace (Plasma)
+  create_time: 20190513T14:32:00
+  id: 1134874
+  resolution: ''
+  status: NEW
+  summary: Night Color turns on when using Location Operation mode.
+- component: Basesystem
+  create_time: 20190513T12:47:00
+  id: 1134865
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed simply don't suspend.
+- component: GNOME
+  create_time: 20190513T09:30:00
+  id: 1134847
+  resolution: ''
+  status: NEW
+  summary: pango.pc has excessive requirements
+- component: Kernel
+  create_time: 20190513T09:11:00
+  id: 1134838
+  resolution: ''
+  status: NEW
+  summary: No Raspberry Pi official 7" touchscreen support with DRM/VC4
+- component: Printing
+  create_time: 20190512T19:41:00
+  id: 1134808
+  resolution: ''
+  status: CONFIRMED
+  summary: dvipdf broken - missing dvips
+- component: Kernel
+  create_time: 20190512T15:50:00
+  id: 1134806
+  resolution: ''
+  status: NEW
+  summary: null pointer dereference in btrfs/qgroup with kernel 5.0.2
+- component: X.Org
+  create_time: 20190512T13:35:00
+  id: 1134805
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Graphical artifacts in KDE and SDDM, using radeon driver
+- component: YaST2
+  create_time: 20190512T12:51:00
+  id: 1134804
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: YaST2 partitioner shows internal error when LANG=de_DE.UTF-8
+- component: Basesystem
+  create_time: 20190512T11:21:00
+  id: 1134803
+  resolution: ''
+  status: NEW
+  summary: 'X11:Utilities/blueberry: Bug, blueberry does not trust devices'
+- component: Basesystem
+  create_time: 20190512T09:29:00
+  id: 1134802
+  resolution: ''
+  status: NEW
+  summary: 'Tumbleweed 20190509: Boot breaks by dependency ordering cycle -> "Dependency
+    failed for /sysroot" when fsck is about to run'
