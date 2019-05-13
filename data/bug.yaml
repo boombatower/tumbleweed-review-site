@@ -17337,8 +17337,8 @@
 - component: AppArmor
   create_time: 20190103T08:15:00
   id: 1120576
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[Build 20181231] openQA test fails in yast2_apparmor'
 - component: Development
   create_time: 20190102T20:21:00
@@ -21417,8 +21417,8 @@
 - component: Other
   create_time: 20190328T09:31:00
   id: 1130797
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: libfuse and fuse-devel need updating
 - component: Other
   create_time: 20190328T01:11:00
@@ -22177,8 +22177,8 @@
 - component: Kernel
   create_time: 20190419T14:31:00
   id: 1132911
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: SynPS/2 Synaptics TouchPad not working after update to 20190417
 - component: X11 3rd Party Driver
   create_time: 20190419T10:45:00
@@ -23398,6 +23398,19 @@
   status: RESOLVED
   summary: partitioner aborts with key not found
 '20190512':
+- component: Kernel
+  create_time: 20190513T19:19:00
+  id: 1134906
+  resolution: ''
+  status: NEW
+  summary: Kernel 5.1.1 is built without AppArmor (config options changed)
+- component: Xfce
+  create_time: 20190513T17:39:00
+  id: 1134899
+  resolution: ''
+  status: NEW
+  summary: 'Thunar 1.8.4 Regression: Right Click > Create Document doesn''t show context
+    menu (fix available)'
 - component: KDE Workspace (Plasma)
   create_time: 20190513T14:35:00
   id: 1134875
