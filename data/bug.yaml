@@ -19732,8 +19732,8 @@
 - component: Kubic
   create_time: 20190219T13:50:00
   id: 1125949
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Drop docker from install media, tidy up pattern+system-role names and descriptions
 - component: KDE Workspace (Plasma)
   create_time: 20190219T10:44:00
@@ -23173,7 +23173,7 @@
   create_time: 20190507T13:52:00
   id: 1134332
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Add kubic_worker and kubic_admin roles
 - component: Security
   create_time: 20190507T13:01:00
@@ -23398,6 +23398,43 @@
   status: RESOLVED
   summary: partitioner aborts with key not found
 '20190512':
+- component: YaST2
+  create_time: 20190514T16:22:00
+  id: 1135104
+  resolution: ''
+  status: NEW
+  summary: YaST2 virtualization fails to start qt interface
+- component: YaST2
+  create_time: 20190514T15:34:00
+  id: 1135098
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Cannot run YaST advanced Partitioner with option "use existing partitions"
+- component: Basesystem
+  create_time: 20190514T15:29:00
+  id: 1135095
+  resolution: ''
+  status: NEW
+  summary: 'LTO: xtrabackup build fails'
+- component: Basesystem
+  create_time: 20190514T15:12:00
+  id: 1135090
+  resolution: ''
+  status: NEW
+  summary: 'LTO: sanlock build fails'
+- component: GNOME
+  create_time: 20190514T15:11:00
+  id: 1135089
+  resolution: ''
+  status: NEW
+  summary: Too fast double click with touchpad tap (double tap) can fail to behave
+    as double click event
+- component: libzypp
+  create_time: 20190514T14:47:00
+  id: 1135082
+  resolution: ''
+  status: NEW
+  summary: zypper man page formatting broken
 - component: Basesystem
   create_time: 20190514T11:05:00
   id: 1135030
