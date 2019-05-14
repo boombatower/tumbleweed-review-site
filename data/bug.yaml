@@ -272,8 +272,8 @@
 - component: Printing
   create_time: 20171209T09:35:00
   id: 1072021
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Fail to print to Canon iRC1028 printer
 - component: Virtualization:Tools
   create_time: 20171209T04:32:00
@@ -1236,8 +1236,8 @@
 - component: Printing
   create_time: 20180102T17:08:00
   id: 1074368
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: lp and lpr have no default destination
 - component: Sound
   create_time: 20180102T16:26:00
@@ -16428,8 +16428,8 @@
 - component: Printing
   create_time: 20181130T12:40:00
   id: 1117926
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Very slow printing via remote cups server
 - component: YaST2
   create_time: 20181130T09:32:00
@@ -17568,8 +17568,8 @@
 - component: Basesystem
   create_time: 20190109T14:10:00
   id: 1121267
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'GCC 9: openucx build fails'
 - component: Basesystem
   create_time: 20190109T13:54:00
@@ -20612,8 +20612,8 @@
 - component: Basesystem
   create_time: 20190307T09:35:00
   id: 1128299
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: open-lldp build fails'
 - component: Basesystem
   create_time: 20190307T08:53:00
@@ -22855,8 +22855,8 @@
 - component: YaST2
   create_time: 20190426T13:59:00
   id: 1133541
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190425] openQA test fails in installation - autologin does not
     work after installation'
 - component: Basesystem
@@ -23034,8 +23034,8 @@
 - component: Printing
   create_time: 20190430T02:54:00
   id: 1133729
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Epson L3101 printer not detected after update
 '20190502':
 - component: Firefox
@@ -23398,6 +23398,44 @@
   status: RESOLVED
   summary: partitioner aborts with key not found
 '20190512':
+- component: Basesystem
+  create_time: 20190514T09:34:00
+  id: 1135002
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: python-typed-ast build fails'
+- component: libzypp
+  create_time: 20190514T08:51:00
+  id: 1134982
+  resolution: ''
+  status: NEW
+  summary: Segmentation fault when installing kernel-firmware-20190502-1.1.noarch
+- component: Basesystem
+  create_time: 20190514T08:41:00
+  id: 1134979
+  resolution: ''
+  status: NEW
+  summary: 'GCC 9: libimagequant build fails'
+- component: Security
+  create_time: 20190514T08:26:00
+  id: 1134978
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2019-12083: rust: a standard method can be overridden violating
+    Rust''s safety guarantees and causing memory unsafety'
+- component: YaST2
+  create_time: 20190514T08:24:00
+  id: 1134976
+  resolution: ''
+  status: NEW
+  summary: yast2-theme bootstrap issue
+- component: Other
+  create_time: 20190514T08:16:00
+  id: 1134971
+  resolution: ''
+  status: NEW
+  summary: The patch libappindicator breaks the context menu in the tray for some
+    applications.
 - component: Kernel
   create_time: 20190513T19:19:00
   id: 1134906
