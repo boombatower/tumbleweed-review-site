@@ -23398,6 +23398,12 @@
   status: RESOLVED
   summary: partitioner aborts with key not found
 '20190512':
+- component: YaST2
+  create_time: 20190514T21:06:00
+  id: 1135130
+  resolution: ''
+  status: NEW
+  summary: yast2-adsi authentication fails with "Failed to initialize ldap connection"
 - component: Xfce
   create_time: 20190514T19:53:00
   id: 1135127
