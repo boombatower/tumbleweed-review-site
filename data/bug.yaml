@@ -17683,8 +17683,8 @@
 - component: Salt
   create_time: 20190108T15:35:00
   id: 1121091
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'salt-call prints numerous error messages: AttributeError: module ''azure.storage''
     has no attribute ''__version__'''
 - component: Xfce
@@ -22425,8 +22425,8 @@
 - component: Basesystem
   create_time: 20190424T13:19:00
   id: 1133273
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: pcp build fails'
 - component: Basesystem
   create_time: 20190424T13:18:00
@@ -23363,8 +23363,8 @@
 - component: Basesystem
   create_time: 20190510T22:49:00
   id: 1134787
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: BT device connects and immediately disconnects on poweron
 - component: Basesystem
   create_time: 20190510T16:34:00
@@ -23398,6 +23398,12 @@
   status: RESOLVED
   summary: partitioner aborts with key not found
 '20190512':
+- component: Basesystem
+  create_time: 20190514T11:05:00
+  id: 1135030
+  resolution: ''
+  status: NEW
+  summary: 'LTO: ceph build fails'
 - component: Basesystem
   create_time: 20190514T09:34:00
   id: 1135002
