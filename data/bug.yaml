@@ -23398,6 +23398,24 @@
   status: RESOLVED
   summary: partitioner aborts with key not found
 '20190512':
+- component: Xfce
+  create_time: 20190514T19:53:00
+  id: 1135127
+  resolution: ''
+  status: NEW
+  summary: Error with xfce4-display-settings
+- component: Network
+  create_time: 20190514T18:04:00
+  id: 1135118
+  resolution: ''
+  status: NEW
+  summary: ping -a (audible) bells even on failed IPv6 ping
+- component: libzypp
+  create_time: 20190514T17:13:00
+  id: 1135114
+  resolution: ''
+  status: NEW
+  summary: zypper search --file-lists does not work
 - component: YaST2
   create_time: 20190514T16:22:00
   id: 1135104
