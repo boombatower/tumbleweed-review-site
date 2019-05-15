@@ -4837,7 +4837,7 @@
   id: 1083434
   resolution: FIXED
   status: RESOLVED
-  summary: Missing accessibility to Network Configuration screen in the Installer
+  summary: Missing access to Network Configuration screen in the Installer
 '20180302':
 - component: Kernel
   create_time: 20180303T20:10:00
@@ -17886,9 +17886,9 @@
 - component: Basesystem
   create_time: 20190110T14:22:00
   id: 1121464
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'GCC 9: qemu build fails'
+  resolution: ''
+  status: REOPENED
+  summary: 'GCC 9: qemu build fails on i586'
 - component: Basesystem
   create_time: 20190110T14:21:00
   id: 1121463
@@ -23398,6 +23398,12 @@
   status: RESOLVED
   summary: partitioner aborts with key not found
 '20190512':
+- component: Network
+  create_time: 20190515T05:23:00
+  id: 1135150
+  resolution: ''
+  status: NEW
+  summary: dnsmasq fails to start on boot
 - component: Kernel
   create_time: 20190514T23:44:00
   id: 1135139
