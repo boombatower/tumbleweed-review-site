@@ -23398,6 +23398,25 @@
   status: RESOLVED
   summary: partitioner aborts with key not found
 '20190512':
+- component: X.Org
+  create_time: 20190515T15:46:00
+  id: 1135237
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'modesetting driver and xvnc: bad performance'
+- component: Other
+  create_time: 20190515T14:59:00
+  id: 1135226
+  resolution: ''
+  status: NEW
+  summary: Canon EOS 1300D won't connect using USB cable
+- component: YaST2
+  create_time: 20190515T14:48:00
+  id: 1135224
+  resolution: ''
+  status: NEW
+  summary: 'yast2-adsi crashes with "TypeError: Expected a string or unicode object"
+    during auth'
 - component: Basesystem
   create_time: 20190515T14:14:00
   id: 1135217
@@ -23432,8 +23451,8 @@
 - component: YaST2
   create_time: 20190514T21:06:00
   id: 1135130
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-adsi authentication fails with "Failed to initialize ldap connection"
 - component: Xfce
   create_time: 20190514T19:53:00
@@ -23530,8 +23549,8 @@
 - component: Other
   create_time: 20190514T08:16:00
   id: 1134971
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: The patch libappindicator breaks the context menu in the tray for some
     applications.
 - component: Kernel
