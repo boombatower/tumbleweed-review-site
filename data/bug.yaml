@@ -17886,8 +17886,8 @@
 - component: Basesystem
   create_time: 20190110T14:22:00
   id: 1121464
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: qemu build fails on i586'
 - component: Basesystem
   create_time: 20190110T14:21:00
@@ -23556,8 +23556,8 @@
 - component: Kernel
   create_time: 20190513T19:19:00
   id: 1134906
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kernel 5.1.1 is built without AppArmor (config options changed)
 - component: Xfce
   create_time: 20190513T17:39:00
@@ -23566,7 +23566,7 @@
   status: NEW
   summary: 'Thunar 1.8.4 Regression: Right Click > Create Document doesn''t show context
     menu (fix available)'
-- component: KDE Workspace (Plasma)
+- component: X.Org
   create_time: 20190513T14:35:00
   id: 1134875
   resolution: ''
