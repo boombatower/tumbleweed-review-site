@@ -23345,8 +23345,8 @@
 - component: YaST2
   create_time: 20190511T15:55:00
   id: 1134796
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Expert Partitioner during installation does not work.
 - component: Xfce
   create_time: 20190511T02:55:00
