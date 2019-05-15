@@ -22503,8 +22503,8 @@
 - component: Basesystem
   create_time: 20190424T12:28:00
   id: 1133253
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'LTO: libvirt build fails'
 - component: Basesystem
   create_time: 20190424T11:27:00
@@ -23398,6 +23398,25 @@
   status: RESOLVED
   summary: partitioner aborts with key not found
 '20190512':
+- component: Basesystem
+  create_time: 20190515T14:14:00
+  id: 1135217
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190513] openQA test fails in kdump_and_crash - no kdump initial
+    ramdisk found'
+- component: Basesystem
+  create_time: 20190515T13:38:00
+  id: 1135212
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libqt5-qtwebkit build fails'
+- component: Basesystem
+  create_time: 20190515T13:07:00
+  id: 1135211
+  resolution: ''
+  status: NEW
+  summary: 'LTO: inkscape build fails'
 - component: Network
   create_time: 20190515T05:23:00
   id: 1135150
@@ -23480,8 +23499,8 @@
 - component: Basesystem
   create_time: 20190514T09:34:00
   id: 1135002
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: python-typed-ast build fails'
 - component: libzypp
   create_time: 20190514T08:51:00
