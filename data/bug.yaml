@@ -23234,8 +23234,8 @@
 - component: Kernel
   create_time: 20190508T15:31:00
   id: 1134475
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: X11 not starting - Tumbleweed - After Kernel update (5.0.9 +) - radeon
 - component: Basesystem
   create_time: 20190508T15:14:00
@@ -23486,8 +23486,8 @@
 - component: libzypp
   create_time: 20190514T08:51:00
   id: 1134982
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Segmentation fault when installing kernel-firmware-20190502-1.1.noarch
 - component: Basesystem
   create_time: 20190514T08:41:00
