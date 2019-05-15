@@ -23398,6 +23398,12 @@
   status: RESOLVED
   summary: partitioner aborts with key not found
 '20190512':
+- component: Kernel
+  create_time: 20190514T23:44:00
+  id: 1135139
+  resolution: ''
+  status: NEW
+  summary: Intermittent Connections Drops with b43 Driver for bcm43228 chipset
 - component: YaST2
   create_time: 20190514T21:06:00
   id: 1135130
