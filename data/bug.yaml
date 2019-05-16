@@ -23479,6 +23479,12 @@
   summary: 'Tumbleweed 20190509: Boot breaks by dependency ordering cycle -> "Dependency
     failed for /sysroot" when fsck is about to run'
 '20190514':
+- component: GNOME
+  create_time: 20190516T03:07:00
+  id: 1135272
+  resolution: ''
+  status: NEW
+  summary: Error in /usr/lib/tmpfiles.d/gdm.conf
 - component: X.Org
   create_time: 20190515T15:46:00
   id: 1135237
