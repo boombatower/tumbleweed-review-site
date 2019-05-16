@@ -23479,11 +23479,24 @@
   summary: 'Tumbleweed 20190509: Boot breaks by dependency ordering cycle -> "Dependency
     failed for /sysroot" when fsck is about to run'
 '20190514':
+- component: YaST2
+  create_time: 20190516T14:10:00
+  id: 1135366
+  resolution: ''
+  status: NEW
+  summary: UX issue when applying changes with Expert Partitioner
+- component: Xfce
+  create_time: 20190516T13:02:00
+  id: 1135352
+  resolution: ''
+  status: NEW
+  summary: package xfce4-panel-plugin-smartbookmark cannot be installed after upgrade
+    to exo-0.12.5
 - component: MicroOS
   create_time: 20190516T11:14:00
   id: 1135342
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: MicroOS patterns have no daemon for time syncing
 - component: Other
   create_time: 20190516T09:56:00
@@ -23501,8 +23514,8 @@
 - component: Installation
   create_time: 20190516T07:24:00
   id: 1135295
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190515] openSUSE Default GPG keys not registered in system'
 - component: Virtualization:Other
   create_time: 20190516T07:02:00
@@ -23521,7 +23534,8 @@
   id: 1135237
   resolution: ''
   status: IN_PROGRESS
-  summary: 'modesetting driver and xvnc: bad performance'
+  summary: 'Gemini Lake: Bad performance when connecting via x11vnc if modesetting
+    instead of intel driver is being used'
 - component: Other
   create_time: 20190515T14:59:00
   id: 1135226
