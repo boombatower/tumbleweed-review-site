@@ -21883,8 +21883,8 @@
 - component: Basesystem
   create_time: 20190411T19:07:00
   id: 1132267
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Missing symbol TLSv1_2_client_method in libssl.so.1.0.0 from libopenssl1_1-1.1.0h-4.6.x86_64
 - component: Xfce
   create_time: 20190411T15:51:00
@@ -23479,6 +23479,20 @@
   summary: 'Tumbleweed 20190509: Boot breaks by dependency ordering cycle -> "Dependency
     failed for /sysroot" when fsck is about to run'
 '20190514':
+- component: GNOME
+  create_time: 20190516T17:07:00
+  id: 1135401
+  resolution: ''
+  status: NEW
+  summary: "gnome-shell: Clutter.txt has been already deallocated \u2014 impossible\
+    \ to access it."
+- component: Cloud:Tools
+  create_time: 20190516T15:31:00
+  id: 1135385
+  resolution: ''
+  status: NEW
+  summary: aws-cli-1.16.103-1.1.noarch requires python3-rsa <= 3.5.0, but this requirement
+    cannot be provided
 - component: YaST2
   create_time: 20190516T14:10:00
   id: 1135366
