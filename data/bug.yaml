@@ -10817,8 +10817,8 @@
 - component: GNOME
   create_time: 20180725T13:20:00
   id: 1102563
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: GNOME autologin broken with Wayland on aarch64
 - component: Printing
   create_time: 20180725T09:28:00
@@ -23415,7 +23415,7 @@
   create_time: 20190513T14:35:00
   id: 1134875
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Plasma Crashed During USB HDD mount
 - component: KDE Workspace (Plasma)
   create_time: 20190513T14:32:00
@@ -23479,6 +23479,25 @@
   summary: 'Tumbleweed 20190509: Boot breaks by dependency ordering cycle -> "Dependency
     failed for /sysroot" when fsck is about to run'
 '20190514':
+- component: MicroOS
+  create_time: 20190516T11:14:00
+  id: 1135342
+  resolution: ''
+  status: NEW
+  summary: MicroOS patterns have no daemon for time syncing
+- component: Other
+  create_time: 20190516T09:56:00
+  id: 1135326
+  resolution: ''
+  status: NEW
+  summary: Adding  viewers is broken in AUCTeX
+- component: Basesystem
+  create_time: 20190516T09:43:00
+  id: 1135319
+  resolution: ''
+  status: NEW
+  summary: 'Upgrading arpwatch: Failed to try-restart arpwatch@.service: Unit name
+    arpwatch@.service is missing the instance name.'
 - component: Installation
   create_time: 20190516T07:24:00
   id: 1135295
@@ -23488,8 +23507,8 @@
 - component: Virtualization:Other
   create_time: 20190516T07:02:00
   id: 1135290
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Windows 7 BSOD STOP 0x000000A5 (BIOS ACPI) after VirtualBox update
 - component: GNOME
   create_time: 20190516T03:07:00
