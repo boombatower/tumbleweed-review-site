@@ -23336,7 +23336,7 @@
   status: CONFIRMED
   summary: packages do not build reproducibly from zip file
 '20190510':
-- component: YaST2
+- component: GNOME
   create_time: 20190511T19:39:00
   id: 1134797
   resolution: ''
@@ -23479,6 +23479,18 @@
   summary: 'Tumbleweed 20190509: Boot breaks by dependency ordering cycle -> "Dependency
     failed for /sysroot" when fsck is about to run'
 '20190514':
+- component: Installation
+  create_time: 20190516T07:24:00
+  id: 1135295
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build 20190515] openSUSE Default GPG keys not registered in system'
+- component: Virtualization:Other
+  create_time: 20190516T07:02:00
+  id: 1135290
+  resolution: ''
+  status: NEW
+  summary: Windows 7 BSOD STOP 0x000000A5 (BIOS ACPI) after VirtualBox update
 - component: GNOME
   create_time: 20190516T03:07:00
   id: 1135272
