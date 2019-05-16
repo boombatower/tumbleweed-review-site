@@ -14023,8 +14023,8 @@
 - component: Other
   create_time: 20181028T01:35:00
   id: 1113627
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/gnunet is out of date'
 - component: Other
   create_time: 20181028T01:33:00
@@ -22305,8 +22305,8 @@
 - component: Basesystem
   create_time: 20190424T13:52:00
   id: 1133296
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: xen build fails'
 - component: Basesystem
   create_time: 20190424T13:48:00
