@@ -19055,8 +19055,8 @@
 - component: Other
   create_time: 20190207T06:48:00
   id: 1124568
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'missing dependency : ibus-hangul package needs python2-gobject package.'
 - component: KDE Workspace (Plasma)
   create_time: 20190206T22:08:00
@@ -19437,7 +19437,7 @@
   create_time: 20190214T10:54:00
   id: 1125432
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: gnome-initial-setup: purpose of /usr/share/polkit-1/rules.d/20-gnome-initial-setup.rules'
 - component: Security
   create_time: 20190214T10:43:00
