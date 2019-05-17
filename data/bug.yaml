@@ -23479,6 +23479,18 @@
   summary: 'Tumbleweed 20190509: Boot breaks by dependency ordering cycle -> "Dependency
     failed for /sysroot" when fsck is about to run'
 '20190514':
+- component: Java
+  create_time: 20190517T19:57:00
+  id: 1135525
+  resolution: ''
+  status: NEW
+  summary: java-12-openjdk lacks javafx
+- component: Installation
+  create_time: 20190517T19:18:00
+  id: 1135523
+  resolution: ''
+  status: NEW
+  summary: Check EFI System Partition VFAT filesystem on boot
 - component: GNOME
   create_time: 20190516T17:07:00
   id: 1135401
