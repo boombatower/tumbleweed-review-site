@@ -21435,8 +21435,8 @@
 - component: X11 3rd Party Driver
   create_time: 20190327T16:57:00
   id: 1130723
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Wrong DPI when using suse-prime in nvidia mode
 - component: GNOME
   create_time: 20190327T13:51:00
@@ -23479,6 +23479,12 @@
   summary: 'Tumbleweed 20190509: Boot breaks by dependency ordering cycle -> "Dependency
     failed for /sysroot" when fsck is about to run'
 '20190514':
+- component: KDE Applications
+  create_time: 20190518T13:26:00
+  id: 1135548
+  resolution: ''
+  status: NEW
+  summary: Akonadi fills /var/log with error messages
 - component: OpenStack
   create_time: 20190518T07:44:00
   id: 1135543
