@@ -23479,6 +23479,12 @@
   summary: 'Tumbleweed 20190509: Boot breaks by dependency ordering cycle -> "Dependency
     failed for /sysroot" when fsck is about to run'
 '20190514':
+- component: OpenStack
+  create_time: 20190518T07:44:00
+  id: 1135543
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190516] openQA test fails in sssd'
 - component: Other
   create_time: 20190517T20:59:00
   id: 1135528
