@@ -23479,100 +23479,6 @@
   summary: 'Tumbleweed 20190509: Boot breaks by dependency ordering cycle -> "Dependency
     failed for /sysroot" when fsck is about to run'
 '20190514':
-- component: KDE Applications
-  create_time: 20190518T13:26:00
-  id: 1135548
-  resolution: ''
-  status: NEW
-  summary: Akonadi fills /var/log with error messages
-- component: OpenStack
-  create_time: 20190518T07:44:00
-  id: 1135543
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190516] openQA test fails in sssd'
-- component: Other
-  create_time: 20190517T20:59:00
-  id: 1135528
-  resolution: ''
-  status: NEW
-  summary: ckb-next Package has invalid .spec file and improper library path
-- component: Java
-  create_time: 20190517T19:57:00
-  id: 1135525
-  resolution: ''
-  status: NEW
-  summary: java-12-openjdk lacks javafx
-- component: Installation
-  create_time: 20190517T19:18:00
-  id: 1135523
-  resolution: ''
-  status: NEW
-  summary: Check EFI System Partition VFAT filesystem on boot
-- component: GNOME
-  create_time: 20190516T17:07:00
-  id: 1135401
-  resolution: ''
-  status: NEW
-  summary: "gnome-shell: Clutter.txt has been already deallocated \u2014 impossible\
-    \ to access it."
-- component: Cloud:Tools
-  create_time: 20190516T15:31:00
-  id: 1135385
-  resolution: ''
-  status: NEW
-  summary: aws-cli-1.16.103-1.1.noarch requires python3-rsa <= 3.5.0, but this requirement
-    cannot be provided
-- component: YaST2
-  create_time: 20190516T14:10:00
-  id: 1135366
-  resolution: ''
-  status: NEW
-  summary: UX issue when applying changes with Expert Partitioner
-- component: Xfce
-  create_time: 20190516T13:02:00
-  id: 1135352
-  resolution: ''
-  status: IN_PROGRESS
-  summary: package xfce4-panel-plugin-smartbookmark cannot be installed after upgrade
-    to exo-0.12.5
-- component: MicroOS
-  create_time: 20190516T11:14:00
-  id: 1135342
-  resolution: INVALID
-  status: RESOLVED
-  summary: MicroOS patterns have no daemon for time syncing
-- component: Other
-  create_time: 20190516T09:56:00
-  id: 1135326
-  resolution: ''
-  status: NEW
-  summary: Adding  viewers is broken in AUCTeX
-- component: Basesystem
-  create_time: 20190516T09:43:00
-  id: 1135319
-  resolution: ''
-  status: NEW
-  summary: 'Upgrading arpwatch: Failed to try-restart arpwatch@.service: Unit name
-    arpwatch@.service is missing the instance name.'
-- component: Installation
-  create_time: 20190516T07:24:00
-  id: 1135295
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20190515] openSUSE Default GPG keys not registered in system'
-- component: Virtualization:Other
-  create_time: 20190516T07:02:00
-  id: 1135290
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Windows 7 BSOD STOP 0x000000A5 (BIOS ACPI) after VirtualBox update
-- component: GNOME
-  create_time: 20190516T03:07:00
-  id: 1135272
-  resolution: ''
-  status: NEW
-  summary: Error in /usr/lib/tmpfiles.d/gdm.conf
 - component: X.Org
   create_time: 20190515T15:46:00
   id: 1135237
@@ -23729,3 +23635,98 @@
   status: RESOLVED
   summary: The patch libappindicator breaks the context menu in the tray for some
     applications.
+'20190516':
+- component: KDE Applications
+  create_time: 20190518T13:26:00
+  id: 1135548
+  resolution: ''
+  status: NEW
+  summary: Akonadi fills /var/log with error messages
+- component: OpenStack
+  create_time: 20190518T07:44:00
+  id: 1135543
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190516] openQA test fails in sssd'
+- component: Other
+  create_time: 20190517T20:59:00
+  id: 1135528
+  resolution: ''
+  status: NEW
+  summary: ckb-next Package has invalid .spec file and improper library path
+- component: Java
+  create_time: 20190517T19:57:00
+  id: 1135525
+  resolution: ''
+  status: NEW
+  summary: java-12-openjdk lacks javafx
+- component: Installation
+  create_time: 20190517T19:18:00
+  id: 1135523
+  resolution: ''
+  status: NEW
+  summary: Check EFI System Partition VFAT filesystem on boot
+- component: GNOME
+  create_time: 20190516T17:07:00
+  id: 1135401
+  resolution: ''
+  status: NEW
+  summary: "gnome-shell: Clutter.txt has been already deallocated \u2014 impossible\
+    \ to access it."
+- component: Cloud:Tools
+  create_time: 20190516T15:31:00
+  id: 1135385
+  resolution: ''
+  status: NEW
+  summary: aws-cli-1.16.103-1.1.noarch requires python3-rsa <= 3.5.0, but this requirement
+    cannot be provided
+- component: YaST2
+  create_time: 20190516T14:10:00
+  id: 1135366
+  resolution: ''
+  status: NEW
+  summary: UX issue when applying changes with Expert Partitioner
+- component: Xfce
+  create_time: 20190516T13:02:00
+  id: 1135352
+  resolution: ''
+  status: IN_PROGRESS
+  summary: package xfce4-panel-plugin-smartbookmark cannot be installed after upgrade
+    to exo-0.12.5
+- component: MicroOS
+  create_time: 20190516T11:14:00
+  id: 1135342
+  resolution: INVALID
+  status: RESOLVED
+  summary: MicroOS patterns have no daemon for time syncing
+- component: Other
+  create_time: 20190516T09:56:00
+  id: 1135326
+  resolution: ''
+  status: NEW
+  summary: Adding  viewers is broken in AUCTeX
+- component: Basesystem
+  create_time: 20190516T09:43:00
+  id: 1135319
+  resolution: ''
+  status: NEW
+  summary: 'Upgrading arpwatch: Failed to try-restart arpwatch@.service: Unit name
+    arpwatch@.service is missing the instance name.'
+- component: Installation
+  create_time: 20190516T07:24:00
+  id: 1135295
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190515] openSUSE Default GPG keys not registered in system'
+- component: Virtualization:Other
+  create_time: 20190516T07:02:00
+  id: 1135290
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Windows 7 BSOD STOP 0x000000A5 (BIOS ACPI) after VirtualBox update
+- component: GNOME
+  create_time: 20190516T03:07:00
+  id: 1135272
+  resolution: ''
+  status: NEW
+  summary: Error in /usr/lib/tmpfiles.d/gdm.conf
