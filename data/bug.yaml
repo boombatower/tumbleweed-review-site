@@ -23636,6 +23636,13 @@
   summary: The patch libappindicator breaks the context menu in the tray for some
     applications.
 '20190516':
+- component: Kernel
+  create_time: 20190519T03:52:00
+  id: 1135550
+  resolution: ''
+  status: NEW
+  summary: After last update (kernel 5.1.2-1) several program get segmentation fault
+    error
 - component: KDE Applications
   create_time: 20190518T13:26:00
   id: 1135548
