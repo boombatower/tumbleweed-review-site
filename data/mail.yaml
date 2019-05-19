@@ -1865,6 +1865,9 @@
   threads: []
 '20190516':
   announcement: 2019-05.167
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages: [2019-05.169]
+    reference_count: 1
+    summary: no summary given
