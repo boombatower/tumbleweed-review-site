@@ -2044,9 +2044,13 @@
   threads: []
 '20190514':
   announcement: 2019-05.140
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-05.204
+    reference_count: 2
+    summary: sha256 checksum still available?
 '20190516':
   announcement: 2019-05.167
   reference_count: 20
