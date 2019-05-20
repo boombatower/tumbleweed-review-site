@@ -17169,7 +17169,7 @@
   create_time: 20190107T13:44:00
   id: 1120938
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Wrong repos added in installer
 - component: Xfce
   create_time: 20190107T10:48:00
@@ -18153,8 +18153,8 @@
 - component: Other
   create_time: 20190118T14:05:00
   id: 1122506
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: sffview fails to build on aarch64
 - component: Other
   create_time: 20190118T12:35:00
@@ -21436,7 +21436,7 @@
   create_time: 20190327T16:57:00
   id: 1130723
   resolution: ''
-  status: REOPENED
+  status: IN_PROGRESS
   summary: Wrong DPI when using suse-prime in nvidia mode
 - component: GNOME
   create_time: 20190327T13:51:00
@@ -23499,7 +23499,7 @@
   status: NEW
   summary: 'yast2-adsi crashes with "TypeError: Expected a string or unicode object"
     during auth'
-- component: Basesystem
+- component: Kernel
   create_time: 20190515T14:14:00
   id: 1135217
   resolution: ''
@@ -23636,74 +23636,6 @@
   summary: The patch libappindicator breaks the context menu in the tray for some
     applications.
 '20190516':
-- component: Basesystem
-  create_time: 20190519T21:04:00
-  id: 1135566
-  resolution: ''
-  status: NEW
-  summary: 'TUMBLEWEED: systelog-ng core dumps on startup and never recovers.'
-- component: Other
-  create_time: 20190519T13:14:00
-  id: 1135557
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Bluetooth mouse no longer connects since Tumbleweed snapshot 20190516
-- component: Other
-  create_time: 20190519T13:13:00
-  id: 1135556
-  resolution: ''
-  status: NEW
-  summary: Bluetooth mouse no longer connects since Tumbleweed snapshot 20190516
-- component: YaST2
-  create_time: 20190519T10:51:00
-  id: 1135555
-  resolution: ''
-  status: NEW
-  summary: The YaST2 Partitioner will not start and throws error since yast2-storage-ng
-    4.2.15-1.1
-- component: YaST2
-  create_time: 20190519T09:36:00
-  id: 1135554
-  resolution: ''
-  status: NEW
-  summary: YaST2 partitioner crashes
-- component: Kernel
-  create_time: 20190519T03:52:00
-  id: 1135550
-  resolution: ''
-  status: NEW
-  summary: After last update (kernel 5.1.2-1) several program get segmentation fault
-    error
-- component: KDE Applications
-  create_time: 20190518T13:26:00
-  id: 1135548
-  resolution: ''
-  status: NEW
-  summary: Akonadi fills /var/log with error messages
-- component: OpenStack
-  create_time: 20190518T07:44:00
-  id: 1135543
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190516] openQA test fails in sssd'
-- component: Other
-  create_time: 20190517T20:59:00
-  id: 1135528
-  resolution: ''
-  status: NEW
-  summary: ckb-next Package has invalid .spec file and improper library path
-- component: Java
-  create_time: 20190517T19:57:00
-  id: 1135525
-  resolution: ''
-  status: NEW
-  summary: java-12-openjdk lacks javafx
-- component: Installation
-  create_time: 20190517T19:18:00
-  id: 1135523
-  resolution: ''
-  status: NEW
-  summary: Check EFI System Partition VFAT filesystem on boot
 - component: GNOME
   create_time: 20190516T17:07:00
   id: 1135401
@@ -23734,9 +23666,9 @@
 - component: MicroOS
   create_time: 20190516T11:14:00
   id: 1135342
-  resolution: INVALID
-  status: RESOLVED
-  summary: MicroOS patterns have no daemon for time syncing
+  resolution: ''
+  status: REOPENED
+  summary: MicroOS does not enable any daemon for time syncing
 - component: Other
   create_time: 20190516T09:56:00
   id: 1135326
@@ -23768,3 +23700,114 @@
   resolution: ''
   status: NEW
   summary: Error in /usr/lib/tmpfiles.d/gdm.conf
+'20190517':
+- component: GNOME
+  create_time: 20190520T14:36:00
+  id: 1135652
+  resolution: ''
+  status: NEW
+  summary: '[20190516] nautilus dumps core due to missing org.freedesktop.Tracker.Miner.Files'
+- component: Kernel
+  create_time: 20190520T14:06:00
+  id: 1135646
+  resolution: ''
+  status: NEW
+  summary: Cannot enable cpu controller on unified hierarchy
+- component: Other
+  create_time: 20190520T12:04:00
+  id: 1135635
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: openssl 1.1.1b crashes at OPENSSL_init_ssl
+- component: Xfce
+  create_time: 20190520T12:01:00
+  id: 1135634
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Notification area not available for intaraction
+- component: YaST2
+  create_time: 20190520T11:58:00
+  id: 1135633
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: YaST - partitioner crashes
+- component: KDE Workspace (Plasma)
+  create_time: 20190520T01:32:00
+  id: 1135568
+  resolution: ''
+  status: NEW
+  summary: sddm-greeter segfaults in Tumbleweed release 20190516
+- component: Basesystem
+  create_time: 20190519T21:04:00
+  id: 1135566
+  resolution: ''
+  status: NEW
+  summary: 'TUMBLEWEED: systelog-ng core dumps on startup and never recovers.'
+- component: Basesystem
+  create_time: 20190519T13:23:00
+  id: 1135558
+  resolution: ''
+  status: NEW
+  summary: 'Base:System/glibc: Bug'
+- component: Other
+  create_time: 20190519T13:14:00
+  id: 1135557
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Bluetooth mouse no longer connects since Tumbleweed snapshot 20190516
+- component: Other
+  create_time: 20190519T13:13:00
+  id: 1135556
+  resolution: ''
+  status: NEW
+  summary: Bluetooth mouse no longer connects since Tumbleweed snapshot 20190516
+- component: YaST2
+  create_time: 20190519T10:51:00
+  id: 1135555
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: The YaST2 Partitioner will not start and throws error since yast2-storage-ng
+    4.2.15-1.1
+- component: YaST2
+  create_time: 20190519T09:36:00
+  id: 1135554
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: YaST2 partitioner crashes
+- component: Basesystem
+  create_time: 20190519T03:52:00
+  id: 1135550
+  resolution: ''
+  status: CONFIRMED
+  summary: After last update (kernel 5.1.2-1, snapshot 20190516) several program get
+    segmentation fault error (mc, yast, qmmp, deadbeef,...)
+- component: KDE Applications
+  create_time: 20190518T13:26:00
+  id: 1135548
+  resolution: ''
+  status: NEW
+  summary: Akonadi fills /var/log with error messages
+- component: OpenStack
+  create_time: 20190518T07:44:00
+  id: 1135543
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190516] openQA test fails in sssd'
+- component: Other
+  create_time: 20190517T20:59:00
+  id: 1135528
+  resolution: ''
+  status: NEW
+  summary: ckb-next Package has invalid .spec file and improper library path
+- component: Java
+  create_time: 20190517T19:57:00
+  id: 1135525
+  resolution: ''
+  status: NEW
+  summary: java-12-openjdk lacks javafx
+- component: Installation
+  create_time: 20190517T19:18:00
+  id: 1135523
+  resolution: ''
+  status: NEW
+  summary: Check EFI System Partition VFAT filesystem on boot
