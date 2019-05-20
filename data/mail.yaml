@@ -3,10 +3,12 @@
   reference_count: 5
   thread_count: 2
   threads:
-  - messages: [2017-12.75]
+  - messages:
+    - 2017-12.75
     reference_count: 1
     summary: aaa_base blindly replaces /etc/shells -
-  - messages: [2017-12.87]
+  - messages:
+    - 2017-12.87
     reference_count: 4
     summary: released! - changes users config for WM and postgresql version
 '20171202':
@@ -29,7 +31,8 @@
   reference_count: 11
   thread_count: 1
   threads:
-  - messages: [2017-12.159]
+  - messages:
+    - 2017-12.159
     reference_count: 11
     summary: Missing virtualbox-host-kmp-default for 4.14.3
 '20171206':
@@ -47,10 +50,12 @@
   reference_count: 5
   thread_count: 2
   threads:
-  - messages: [2017-12.218]
+  - messages:
+    - 2017-12.218
     reference_count: 2
     summary: Lots of time spent on controlling conflicts between files
-  - messages: [2017-12.221]
+  - messages:
+    - 2017-12.221
     reference_count: 3
     summary: ', is this normal? 2064  32bit  locked.'
 '20171212':
@@ -63,10 +68,12 @@
   reference_count: 8
   thread_count: 2
   threads:
-  - messages: [2017-12.240]
+  - messages:
+    - 2017-12.240
     reference_count: 6
     summary: released!
-  - messages: [2017-12.243]
+  - messages:
+    - 2017-12.243
     reference_count: 2
     summary: breaks nextcloud 12
 '20171214':
@@ -74,7 +81,8 @@
   reference_count: 9
   thread_count: 1
   threads:
-  - messages: [2017-12.268]
+  - messages:
+    - 2017-12.268
     reference_count: 9
     summary: failed to summarize
 '20171215':
@@ -82,7 +90,8 @@
   reference_count: 3
   thread_count: 1
   threads:
-  - messages: [2017-12.256]
+  - messages:
+    - 2017-12.256
     reference_count: 3
     summary: (kernel 4.14.6 crash hard freeze
 '20171216':
@@ -100,10 +109,12 @@
   reference_count: 3
   thread_count: 2
   threads:
-  - messages: [2017-12.305]
+  - messages:
+    - 2017-12.305
     reference_count: 2
     summary: released! - Changed /etc/alternative manual settings
-  - messages: [2017-12.353]
+  - messages:
+    - 2017-12.353
     reference_count: 1
     summary: Firefox menus don't close when focus is lost
 '20171222':
@@ -116,7 +127,8 @@
   reference_count: 1
   thread_count: 1
   threads:
-  - messages: [2017-12.441]
+  - messages:
+    - 2017-12.441
     reference_count: 1
     summary: failed to summarize
 '20171228':
@@ -129,7 +141,8 @@
   reference_count: 2
   thread_count: 1
   threads:
-  - messages: [2018-01.4]
+  - messages:
+    - 2018-01.4
     reference_count: 2
     summary: rfkill man conflict
 '20171230':
@@ -142,10 +155,12 @@
   reference_count: 16
   thread_count: 2
   threads:
-  - messages: [2018-01.18]
+  - messages:
+    - 2018-01.18
     reference_count: 14
     summary: no summary given
-  - messages: [2018-01.27]
+  - messages:
+    - 2018-01.27
     reference_count: 2
     summary: ', latex and pdflatex broken, can''t find file loadhyph-af.tex'
 '20180101':
@@ -153,7 +168,8 @@
   reference_count: 8
   thread_count: 1
   threads:
-  - messages: [2018-01.37]
+  - messages:
+    - 2018-01.37
     reference_count: 8
     summary: AppArmor changes
 '20180102':
@@ -171,7 +187,8 @@
   reference_count: 25
   thread_count: 1
   threads:
-  - messages: [2018-01.91]
+  - messages:
+    - 2018-01.91
     reference_count: 25
     summary: Kernel Panic
 '20180106':
@@ -189,10 +206,12 @@
   reference_count: 3
   thread_count: 2
   threads:
-  - messages: [2018-01.213]
+  - messages:
+    - 2018-01.213
     reference_count: 1
     summary: LibreOffice 6.0.0.1 brings libreoffice-kde4 back [
-  - messages: [2018-01.208]
+  - messages:
+    - 2018-01.208
     reference_count: 2
     summary: installs dovecot 2.3 which makes dovecot not working
 '20180110':
@@ -200,10 +219,12 @@
   reference_count: 11
   thread_count: 2
   threads:
-  - messages: [2018-01.239]
+  - messages:
+    - 2018-01.239
     reference_count: 8
     summary: no summary given
-  - messages: [2018-01.259]
+  - messages:
+    - 2018-01.259
     reference_count: 3
     summary: will not boot
 '20180114':
@@ -211,7 +232,8 @@
   reference_count: 9
   thread_count: 1
   threads:
-  - messages: [2018-01.268]
+  - messages:
+    - 2018-01.268
     reference_count: 9
     summary: stalls on kernel-devel and kernel-source
 '20180116':
@@ -219,19 +241,25 @@
   reference_count: 55
   thread_count: 5
   threads:
-  - messages: [2018-01.310]
+  - messages:
+    - 2018-01.310
     reference_count: 2
     summary: 'xtables-addons: broken'
-  - messages: [2018-01.311, 2018-01.365]
+  - messages:
+    - 2018-01.311
+    - 2018-01.365
     reference_count: 18
     summary: plasma5 splash not going away, needs Mesa-dri installer, dependency issue
-  - messages: [2018-01.315]
+  - messages:
+    - 2018-01.315
     reference_count: 26
     summary: ssh -X failing
-  - messages: [2018-01.329]
+  - messages:
+    - 2018-01.329
     reference_count: 1
     summary: no summary given
-  - messages: [2018-01.580]
+  - messages:
+    - 2018-01.580
     reference_count: 8
     summary: X locks up periodically
 '20180117':
@@ -239,7 +267,8 @@
   reference_count: 9
   thread_count: 1
   threads:
-  - messages: [2018-01.383]
+  - messages:
+    - 2018-01.383
     reference_count: 9
     summary: new requirement bundle-lang-common-ar
 '20180119':
@@ -252,7 +281,8 @@
   reference_count: 21
   thread_count: 1
   threads:
-  - messages: [2018-01.449]
+  - messages:
+    - 2018-01.449
     reference_count: 21
     summary: Cannot boot
 '20180121':
@@ -265,7 +295,8 @@
   reference_count: 2
   thread_count: 1
   threads:
-  - messages: [2018-01.567]
+  - messages:
+    - 2018-01.567
     reference_count: 2
     summary: success with nvidia blob!
 '20180124':
@@ -278,7 +309,8 @@
   reference_count: 7
   thread_count: 1
   threads:
-  - messages: [2018-01.622]
+  - messages:
+    - 2018-01.622
     reference_count: 7
     summary: ucode-intel
 '20180126':
@@ -291,7 +323,8 @@
   reference_count: 37
   thread_count: 1
   threads:
-  - messages: [2018-01.677]
+  - messages:
+    - 2018-01.677
     reference_count: 37
     summary: no summary given
 '20180128':
@@ -329,25 +362,32 @@
   reference_count: 27
   thread_count: 7
   threads:
-  - messages: [2018-02.223]
+  - messages:
+    - 2018-02.223
     reference_count: 7
     summary: mouse issues on Wayland
-  - messages: [2018-02.185]
+  - messages:
+    - 2018-02.185
     reference_count: 3
     summary: same problem as leap 15 with MBR..
-  - messages: [2018-02.188]
+  - messages:
+    - 2018-02.188
     reference_count: 1
     summary: 'ksmserver-logout-greeter, signal: Segmentation fault ..'
-  - messages: [2018-02.189]
+  - messages:
+    - 2018-02.189
     reference_count: 7
     summary: (EE) Server terminated with error
-  - messages: [2018-02.190]
+  - messages:
+    - 2018-02.190
     reference_count: 1
     summary: kills wireless
-  - messages: [2018-02.196]
+  - messages:
+    - 2018-02.196
     reference_count: 4
     summary: Plasmashell doesn't start
-  - messages: [2018-02.235]
+  - messages:
+    - 2018-02.235
     reference_count: 4
     summary: touchpad dead after suspend/resume
 '20180205':
@@ -355,7 +395,8 @@
   reference_count: 5
   thread_count: 1
   threads:
-  - messages: [2018-02.218]
+  - messages:
+    - 2018-02.218
     reference_count: 5
     summary: Boot freeze
 '20180206':
@@ -363,7 +404,8 @@
   reference_count: 32
   thread_count: 1
   threads:
-  - messages: [2018-02.247]
+  - messages:
+    - 2018-02.247
     reference_count: 32
     summary: boots to white screen
 '20180207':
@@ -371,7 +413,8 @@
   reference_count: 1
   thread_count: 1
   threads:
-  - messages: [2018-02.318]
+  - messages:
+    - 2018-02.318
     reference_count: 1
     summary: Boot freeze
 '20180208':
@@ -379,7 +422,9 @@
   reference_count: 2
   thread_count: 1
   threads:
-  - messages: [2018-02.387, 2018-02.390]
+  - messages:
+    - 2018-02.387
+    - 2018-02.390
     reference_count: 2
     summary: failed to summarize
 '20180209':
@@ -387,7 +432,9 @@
   reference_count: 5
   thread_count: 1
   threads:
-  - messages: [2018-02.402, 2018-02.404]
+  - messages:
+    - 2018-02.402
+    - 2018-02.404
     reference_count: 5
     summary: plasma crashing
 '20180210':
@@ -395,7 +442,8 @@
   reference_count: 14
   thread_count: 1
   threads:
-  - messages: [2018-02.460]
+  - messages:
+    - 2018-02.460
     reference_count: 14
     summary: NVidia black screen (and grub...)
 '20180212':
@@ -403,7 +451,8 @@
   reference_count: 8
   thread_count: 1
   threads:
-  - messages: [2018-02.473]
+  - messages:
+    - 2018-02.473
     reference_count: 8
     summary: liberation-fonts2
 '20180213':
@@ -416,10 +465,12 @@
   reference_count: 11
   thread_count: 2
   threads:
-  - messages: [2018-02.590]
+  - messages:
+    - 2018-02.590
     reference_count: 10
     summary: Boot freeze
-  - messages: [2018-02.1160]
+  - messages:
+    - 2018-02.1160
     reference_count: 1
     summary: ) NetworkManager SEGV (openvpn)
 '20180215':
@@ -442,7 +493,8 @@
   reference_count: 1
   thread_count: 1
   threads:
-  - messages: [2018-02.913]
+  - messages:
+    - 2018-02.913
     reference_count: 1
     summary: libqt5-qtbase removed from Update channel
 '20180220':
@@ -450,7 +502,8 @@
   reference_count: 3
   thread_count: 1
   threads:
-  - messages: [2018-02.926]
+  - messages:
+    - 2018-02.926
     reference_count: 3
     summary: ': ruby deps broke machinery ?'
 '20180221':
@@ -458,7 +511,8 @@
   reference_count: 2
   thread_count: 1
   threads:
-  - messages: [2018-02.992]
+  - messages:
+    - 2018-02.992
     reference_count: 2
     summary: No more Multi_key in emacs_x11
 '20180222':
@@ -471,7 +525,8 @@
   reference_count: 8
   thread_count: 1
   threads:
-  - messages: [2018-02.1130]
+  - messages:
+    - 2018-02.1130
     reference_count: 8
     summary: no summary given
 '20180225':
@@ -494,13 +549,16 @@
   reference_count: 20
   thread_count: 3
   threads:
-  - messages: [2018-03.42]
+  - messages:
+    - 2018-03.42
     reference_count: 4
     summary: 'released! - note: minor kdm issue'
-  - messages: [2018-03.46]
+  - messages:
+    - 2018-03.46
     reference_count: 13
     summary: lots of new warning messages
-  - messages: [2018-03.75]
+  - messages:
+    - 2018-03.75
     reference_count: 3
     summary: openssl 1_0 is back?
 '20180302':
@@ -528,7 +586,8 @@
   reference_count: 6
   thread_count: 1
   threads:
-  - messages: [2018-03.155]
+  - messages:
+    - 2018-03.155
     reference_count: 6
     summary: failed to summarize
 '20180308':
@@ -541,10 +600,12 @@
   reference_count: 10
   thread_count: 2
   threads:
-  - messages: [2018-03.265]
+  - messages:
+    - 2018-03.265
     reference_count: 6
     summary: 'released! - Note : changed kdm login theme'
-  - messages: [2018-03.282]
+  - messages:
+    - 2018-03.282
     reference_count: 4
     summary: systemd-presets
 '20180311':
@@ -562,7 +623,8 @@
   reference_count: 9
   thread_count: 1
   threads:
-  - messages: [2018-03.473]
+  - messages:
+    - 2018-03.473
     reference_count: 9
     summary: .bashrc ignored on remote login
 '20180314':
@@ -570,13 +632,16 @@
   reference_count: 13
   thread_count: 3
   threads:
-  - messages: [2018-03.463]
+  - messages:
+    - 2018-03.463
     reference_count: 2
     summary: release broke my Thunderbird, Firefox, and Chromium
-  - messages: [2018-03.474]
+  - messages:
+    - 2018-03.474
     reference_count: 5
     summary: 'system suspending: upower.service cannot be disabled'
-  - messages: [2018-03.475]
+  - messages:
+    - 2018-03.475
     reference_count: 6
     summary: gdm can't start plasma session on Wayland
 '20180316':
@@ -599,7 +664,10 @@
   reference_count: 27
   thread_count: 1
   threads:
-  - messages: [2018-03.589, 2018-03.673, 2018-03.680]
+  - messages:
+    - 2018-03.589
+    - 2018-03.673
+    - 2018-03.680
     reference_count: 27
     summary: no summary given
 '20180324':
@@ -607,7 +675,8 @@
   reference_count: 2
   thread_count: 1
   threads:
-  - messages: [2018-03.629]
+  - messages:
+    - 2018-03.629
     reference_count: 2
     summary: no summary given
 '20180326':
@@ -620,7 +689,8 @@
   reference_count: 10
   thread_count: 1
   threads:
-  - messages: [2018-04.4]
+  - messages:
+    - 2018-04.4
     reference_count: 10
     summary: systemd-coredump
 '20180331':
@@ -628,7 +698,8 @@
   reference_count: 5
   thread_count: 1
   threads:
-  - messages: [2018-04.257]
+  - messages:
+    - 2018-04.257
     reference_count: 5
     summary: libkdeinit5_kwrite removed?
 '20180401':
@@ -636,10 +707,12 @@
   reference_count: 7
   thread_count: 2
   threads:
-  - messages: [2018-04.74]
+  - messages:
+    - 2018-04.74
     reference_count: 3
     summary: unplanned suspends
-  - messages: [2018-04.109]
+  - messages:
+    - 2018-04.109
     reference_count: 4
     summary: extreme boot time - drm errors
 '20180402':
@@ -652,7 +725,8 @@
   reference_count: 3
   thread_count: 1
   threads:
-  - messages: [2018-04.172]
+  - messages:
+    - 2018-04.172
     reference_count: 3
     summary: conflict for pangomm-devel
 '20180404':
@@ -660,13 +734,17 @@
   reference_count: 8
   thread_count: 3
   threads:
-  - messages: [2018-04.353, 2018-05.208]
+  - messages:
+    - 2018-04.353
+    - 2018-05.208
     reference_count: 3
     summary: released!
-  - messages: [2018-04.278]
+  - messages:
+    - 2018-04.278
     reference_count: 3
     summary: Samba update (4.7.6 -> 4.8.0) kills samba
-  - messages: [2018-04.288]
+  - messages:
+    - 2018-04.288
     reference_count: 2
     summary: rpcbind not starting Tumbleweed release
 '20180406':
@@ -674,13 +752,16 @@
   reference_count: 28
   thread_count: 3
   threads:
-  - messages: [2018-04.316]
+  - messages:
+    - 2018-04.316
     reference_count: 1
     summary: Kernel 4.16 and nvidia
-  - messages: [2018-04.329]
+  - messages:
+    - 2018-04.329
     reference_count: 3
     summary: NVidia problems
-  - messages: [2018-04.331]
+  - messages:
+    - 2018-04.331
     reference_count: 24
     summary: NVIDIA proprietary driver on kernel 4.16
 '20180407':
@@ -693,7 +774,8 @@
   reference_count: 2
   thread_count: 1
   threads:
-  - messages: [2018-04.457]
+  - messages:
+    - 2018-04.457
     reference_count: 2
     summary: released!
 '20180416':
@@ -701,7 +783,8 @@
   reference_count: 11
   thread_count: 1
   threads:
-  - messages: [2018-04.670]
+  - messages:
+    - 2018-04.670
     reference_count: 11
     summary: what happened to kernel-default-4.16.2?
 '20180417':
@@ -709,7 +792,8 @@
   reference_count: 3
   thread_count: 1
   threads:
-  - messages: [2018-04.725]
+  - messages:
+    - 2018-04.725
     reference_count: 3
     summary: released!  - chown message from postfix install
 '20180419':
@@ -727,10 +811,12 @@
   reference_count: 5
   thread_count: 2
   threads:
-  - messages: [2018-04.792]
+  - messages:
+    - 2018-04.792
     reference_count: 4
     summary: 'released - var-lib-nfs-rpc_pipefs.mount: Failed'
-  - messages: [2018-04.793]
+  - messages:
+    - 2018-04.793
     reference_count: 1
     summary: 'released - failed to load module loop: libbd_loop.so.2'
 '20180425':
@@ -738,13 +824,16 @@
   reference_count: 50
   thread_count: 3
   threads:
-  - messages: [2018-04.878]
+  - messages:
+    - 2018-04.878
     reference_count: 9
     summary: ', no miniwindows preview in KDE.'
-  - messages: [2018-04.820]
+  - messages:
+    - 2018-04.820
     reference_count: 36
     summary: released!
-  - messages: [2018-04.826]
+  - messages:
+    - 2018-04.826
     reference_count: 5
     summary: got gpg-offline removed
 '20180427':
@@ -752,7 +841,8 @@
   reference_count: 3
   thread_count: 1
   threads:
-  - messages: [2018-04.924]
+  - messages:
+    - 2018-04.924
     reference_count: 3
     summary: Failed to mount /sysroot
 '20180429':
@@ -760,10 +850,12 @@
   reference_count: 13
   thread_count: 2
   threads:
-  - messages: [2018-05.10]
+  - messages:
+    - 2018-05.10
     reference_count: 2
     summary: gpg debug flag enabled
-  - messages: [2018-05.28]
+  - messages:
+    - 2018-05.28
     reference_count: 11
     summary: '] Add back mozilla-enable-csd.patch'
 '20180501':
@@ -776,7 +868,8 @@
   reference_count: 4
   thread_count: 1
   threads:
-  - messages: [2018-05.77]
+  - messages:
+    - 2018-05.77
     reference_count: 4
     summary: /sysroot not mounted after update
 '20180511':
@@ -784,13 +877,16 @@
   reference_count: 7
   thread_count: 3
   threads:
-  - messages: [2018-05.143]
+  - messages:
+    - 2018-05.143
     reference_count: 5
     summary: released! (Thank you)
-  - messages: [2018-05.146]
+  - messages:
+    - 2018-05.146
     reference_count: 1
     summary: released!
-  - messages: [2018-05.155]
+  - messages:
+    - 2018-05.155
     reference_count: 1
     summary: Conflict FreeCAD / python-pivy
 '20180513':
@@ -813,7 +909,8 @@
   reference_count: 10
   thread_count: 1
   threads:
-  - messages: [2018-05.256]
+  - messages:
+    - 2018-05.256
     reference_count: 10
     summary: no summary given
 '20180519':
@@ -846,7 +943,8 @@
   reference_count: 11
   thread_count: 1
   threads:
-  - messages: [2018-05.407]
+  - messages:
+    - 2018-05.407
     reference_count: 11
     summary: NVidia-problems with
 '20180525':
@@ -854,7 +952,8 @@
   reference_count: 3
   thread_count: 1
   threads:
-  - messages: [2018-05.405]
+  - messages:
+    - 2018-05.405
     reference_count: 3
     summary: perl version bump broke texlive-biber-bin dependency
 '20180528':
@@ -877,13 +976,16 @@
   reference_count: 13
   thread_count: 3
   threads:
-  - messages: [2018-06.261]
+  - messages:
+    - 2018-06.261
     reference_count: 1
     summary: boost headers
-  - messages: [2018-06.74]
+  - messages:
+    - 2018-06.74
     reference_count: 9
     summary: '] - zypper dup issue with libQt5Positioning5'
-  - messages: [2018-06.76]
+  - messages:
+    - 2018-06.76
     reference_count: 3
     summary: problem with running KDE programs over ssh -X
 '20180613':
@@ -891,13 +993,17 @@
   reference_count: 27
   thread_count: 3
   threads:
-  - messages: [2018-06.197, 2018-06.202]
+  - messages:
+    - 2018-06.197
+    - 2018-06.202
     reference_count: 19
     summary: no summary given
-  - messages: [2018-06.199]
+  - messages:
+    - 2018-06.199
     reference_count: 4
     summary: Wrong checksum for ghc-base
-  - messages: [2018-06.205]
+  - messages:
+    - 2018-06.205
     reference_count: 4
     summary: failed to summarize
 '20180615':
@@ -905,16 +1011,20 @@
   reference_count: 31
   thread_count: 4
   threads:
-  - messages: [2018-06.235]
+  - messages:
+    - 2018-06.235
     reference_count: 4
     summary: no summary given
-  - messages: [2018-06.239]
+  - messages:
+    - 2018-06.239
     reference_count: 5
     summary: '] missing module-gconf in pulseaudio'
-  - messages: [2018-06.240]
+  - messages:
+    - 2018-06.240
     reference_count: 15
     summary: Mouse clicks stops working
-  - messages: [2018-06.229]
+  - messages:
+    - 2018-06.229
     reference_count: 7
     summary: '] - device notifier fails to see removable drives'
 '20180618':
@@ -927,10 +1037,12 @@
   reference_count: 10
   thread_count: 2
   threads:
-  - messages: [2018-06.282]
+  - messages:
+    - 2018-06.282
     reference_count: 9
     summary: released! Brokes WI-FI and Cinnamon
-  - messages: [2018-06.270]
+  - messages:
+    - 2018-06.270
     reference_count: 1
     summary: '] - plasma desktop not correct'
 '20180622':
@@ -958,7 +1070,8 @@
   reference_count: 6
   thread_count: 1
   threads:
-  - messages: [2018-07.1]
+  - messages:
+    - 2018-07.1
     reference_count: 6
     summary: Many games stoped working
 '20180628':
@@ -1001,7 +1114,8 @@
   reference_count: 15
   thread_count: 1
   threads:
-  - messages: [2018-07.76]
+  - messages:
+    - 2018-07.76
     reference_count: 15
     summary: 'TW: outdated wxwidgets libs'
 '20180710':
@@ -1014,7 +1128,8 @@
   reference_count: 2
   thread_count: 1
   threads:
-  - messages: [2018-07.163]
+  - messages:
+    - 2018-07.163
     reference_count: 2
     summary: failed to summarize
 '20180714':
@@ -1037,7 +1152,8 @@
   reference_count: 10
   thread_count: 1
   threads:
-  - messages: [2018-07.171]
+  - messages:
+    - 2018-07.171
     reference_count: 10
     summary: xserver 1.20 breaks optimus
 '20180723':
@@ -1080,7 +1196,8 @@
   reference_count: 1
   thread_count: 1
   threads:
-  - messages: [2018-08.170]
+  - messages:
+    - 2018-08.170
     reference_count: 1
     summary: fusesmb stopped working
 '20180812':
@@ -1093,7 +1210,8 @@
   reference_count: 3
   thread_count: 1
   threads:
-  - messages: [2018-08.210]
+  - messages:
+    - 2018-08.210
     reference_count: 3
     summary: 'virt-manager: Unable to connect to libvirt qemu:///system'
 '20180818':
@@ -1101,16 +1219,21 @@
   reference_count: 30
   thread_count: 4
   threads:
-  - messages: [2018-08.216]
+  - messages:
+    - 2018-08.216
     reference_count: 7
     summary: Kernel 4.18 PAE on 64bit HW
-  - messages: [2018-08.230]
+  - messages:
+    - 2018-08.230
     reference_count: 8
     summary: released! -Screen display offset problems
-  - messages: [2018-08.280]
+  - messages:
+    - 2018-08.280
     reference_count: 10
     summary: '(and later): gimp stopped working'
-  - messages: [2018-08.220, 2018-08.226]
+  - messages:
+    - 2018-08.220
+    - 2018-08.226
     reference_count: 5
     summary: Chrome/Firefox failure "GSettings schemas"
 '20180820':
@@ -1118,7 +1241,8 @@
   reference_count: 4
   thread_count: 1
   threads:
-  - messages: [2018-08.254]
+  - messages:
+    - 2018-08.254
     reference_count: 4
     summary: no summary given
 '20180827':
@@ -1126,10 +1250,12 @@
   reference_count: 23
   thread_count: 2
   threads:
-  - messages: [2018-08.303]
+  - messages:
+    - 2018-08.303
     reference_count: 10
     summary: RMT dependencies
-  - messages: [2018-08.300]
+  - messages:
+    - 2018-08.300
     reference_count: 13
     summary: akondi / Google issue
 '20180828':
@@ -1157,7 +1283,8 @@
   reference_count: 2
   thread_count: 1
   threads:
-  - messages: [2018-09.48]
+  - messages:
+    - 2018-09.48
     reference_count: 2
     summary: KIO SFTP stops working with libssh 0.8.2 and ecdsa-sha2-nistp256
 '20180910':
@@ -1175,7 +1302,8 @@
   reference_count: 3
   thread_count: 1
   threads:
-  - messages: [2018-09.58]
+  - messages:
+    - 2018-09.58
     reference_count: 3
     summary: released! - Can't find Krita
 '20180915':
@@ -1183,7 +1311,8 @@
   reference_count: 7
   thread_count: 1
   threads:
-  - messages: [2018-09.65]
+  - messages:
+    - 2018-09.65
     reference_count: 7
     summary: broken
 '20180916':
@@ -1201,7 +1330,8 @@
   reference_count: 5
   thread_count: 1
   threads:
-  - messages: [2018-09.137]
+  - messages:
+    - 2018-09.137
     reference_count: 5
     summary: Please open bug 972463
 '20180920':
@@ -1244,7 +1374,8 @@
   reference_count: 3
   thread_count: 1
   threads:
-  - messages: [2018-11.260]
+  - messages:
+    - 2018-11.260
     reference_count: 3
     summary: Imagemagick and CVE-2017-11532
 '20181009':
@@ -1272,7 +1403,8 @@
   reference_count: 1
   thread_count: 1
   threads:
-  - messages: [2018-10.294]
+  - messages:
+    - 2018-10.294
     reference_count: 1
     summary: bbswitch kernel module was not updated
 '20181029':
@@ -1280,7 +1412,8 @@
   reference_count: 4
   thread_count: 1
   threads:
-  - messages: [2018-10.361]
+  - messages:
+    - 2018-10.361
     reference_count: 4
     summary: openssh 7.8p1
 '20181103':
@@ -1308,13 +1441,16 @@
   reference_count: 14
   thread_count: 3
   threads:
-  - messages: [2018-11.114]
+  - messages:
+    - 2018-11.114
     reference_count: 2
     summary: '[Solved]: Nvidia problems after update'
-  - messages: [2018-11.82]
+  - messages:
+    - 2018-11.82
     reference_count: 10
     summary: nvidia 390.87 build fails
-  - messages: [2018-11.151]
+  - messages:
+    - 2018-11.151
     reference_count: 2
     summary: failed to summarize
 '20181116':
@@ -1342,7 +1478,8 @@
   reference_count: 8
   thread_count: 1
   threads:
-  - messages: [2018-11.292]
+  - messages:
+    - 2018-11.292
     reference_count: 8
     summary: No sound
 '20181128':
@@ -1370,7 +1507,8 @@
   reference_count: 5
   thread_count: 1
   threads:
-  - messages: [2019-01.26]
+  - messages:
+    - 2019-01.26
     reference_count: 5
     summary: no summary given
 '20181205':
@@ -1398,7 +1536,8 @@
   reference_count: 6
   thread_count: 1
   threads:
-  - messages: [2018-12.103]
+  - messages:
+    - 2018-12.103
     reference_count: 6
     summary: no summary given
 '20181213':
@@ -1411,10 +1550,13 @@
   reference_count: 9
   thread_count: 2
   threads:
-  - messages: [2018-12.117]
+  - messages:
+    - 2018-12.117
     reference_count: 2
     summary: python3-pyotherside fails
-  - messages: [2018-12.111, 2018-12.128]
+  - messages:
+    - 2018-12.111
+    - 2018-12.128
     reference_count: 7
     summary: QT library incompatibilities
 '20181218':
@@ -1427,10 +1569,12 @@
   reference_count: 9
   thread_count: 2
   threads:
-  - messages: [2018-12.151]
+  - messages:
+    - 2018-12.151
     reference_count: 8
     summary: perl-issues
-  - messages: [2018-12.154]
+  - messages:
+    - 2018-12.154
     reference_count: 1
     summary: released! - I like this snapshot
 '20181224':
@@ -1438,13 +1582,16 @@
   reference_count: 11
   thread_count: 3
   threads:
-  - messages: [2018-12.164]
+  - messages:
+    - 2018-12.164
     reference_count: 1
     summary: ', but still no postgresql update'
-  - messages: [2018-12.173]
+  - messages:
+    - 2018-12.173
     reference_count: 6
     summary: plain hardware installation fails network
-  - messages: [2019-01.39]
+  - messages:
+    - 2019-01.39
     reference_count: 4
     summary: failed to summarize
 '20190108':
@@ -1457,10 +1604,12 @@
   reference_count: 3
   thread_count: 2
   threads:
-  - messages: [2019-01.99]
+  - messages:
+    - 2019-01.99
     reference_count: 1
     summary: no summary given
-  - messages: [2019-01.112]
+  - messages:
+    - 2019-01.112
     reference_count: 2
     summary: Discover (plasma-discover) crashes on startup due to discover-backend-fwupd
 '20190112':
@@ -1468,7 +1617,8 @@
   reference_count: 2
   thread_count: 1
   threads:
-  - messages: [2019-01.170]
+  - messages:
+    - 2019-01.170
     reference_count: 2
     summary: openssh update
 '20190115':
@@ -1476,10 +1626,12 @@
   reference_count: 20
   thread_count: 2
   threads:
-  - messages: [2019-01.204]
+  - messages:
+    - 2019-01.204
     reference_count: 17
     summary: released!
-  - messages: [2019-01.357]
+  - messages:
+    - 2019-01.357
     reference_count: 3
     summary: 'TW 2019011[05]: Suspend issue w. two monitors'
 '20190121':
@@ -1487,10 +1639,12 @@
   reference_count: 11
   thread_count: 2
   threads:
-  - messages: [2019-01.372]
+  - messages:
+    - 2019-01.372
     reference_count: 9
     summary: failed to summarize
-  - messages: [2019-01.379]
+  - messages:
+    - 2019-01.379
     reference_count: 2
     summary: rubygem-activesupport isn't installable
 '20190124':
@@ -1513,16 +1667,20 @@
   reference_count: 37
   thread_count: 4
   threads:
-  - messages: [2019-02.64]
+  - messages:
+    - 2019-02.64
     reference_count: 20
     summary: no summary given
-  - messages: [2019-02.87]
+  - messages:
+    - 2019-02.87
     reference_count: 1
     summary: 'bash: rm + stat + seq builtins ['
-  - messages: [2019-02.89]
+  - messages:
+    - 2019-02.89
     reference_count: 2
     summary: released!]
-  - messages: [2019-02.83]
+  - messages:
+    - 2019-02.83
     reference_count: 14
     summary: released!)
 '20190202':
@@ -1530,10 +1688,12 @@
   reference_count: 11
   thread_count: 2
   threads:
-  - messages: [2019-02.126]
+  - messages:
+    - 2019-02.126
     reference_count: 3
     summary: no summary given
-  - messages: [2019-02.138]
+  - messages:
+    - 2019-02.138
     reference_count: 8
     summary: failed to summarize
 '20190205':
@@ -1541,10 +1701,12 @@
   reference_count: 9
   thread_count: 2
   threads:
-  - messages: [2019-02.197]
+  - messages:
+    - 2019-02.197
     reference_count: 1
     summary: no summary given
-  - messages: [2019-02.289]
+  - messages:
+    - 2019-02.289
     reference_count: 8
     summary: released! => unoperabel KDE
 '20190209':
@@ -1557,7 +1719,8 @@
   reference_count: 10
   thread_count: 1
   threads:
-  - messages: [2019-02.448]
+  - messages:
+    - 2019-02.448
     reference_count: 10
     summary: Plasma screenlock does not unlock
 '20190215':
@@ -1570,7 +1733,8 @@
   reference_count: 6
   thread_count: 1
   threads:
-  - messages: [2019-02.485]
+  - messages:
+    - 2019-02.485
     reference_count: 6
     summary: Packagekit updates on Tumbleweed
 '20190219':
@@ -1593,7 +1757,8 @@
   reference_count: 7
   thread_count: 1
   threads:
-  - messages: [2019-02.586]
+  - messages:
+    - 2019-02.586
     reference_count: 7
     summary: no summary given
 '20190226':
@@ -1606,10 +1771,12 @@
   reference_count: 3
   thread_count: 2
   threads:
-  - messages: [2019-03.13]
+  - messages:
+    - 2019-03.13
     reference_count: 1
     summary: no summary given
-  - messages: [2019-03.14]
+  - messages:
+    - 2019-03.14
     reference_count: 2
     summary: drpm in createrepo_c
 '20190305':
@@ -1617,7 +1784,8 @@
   reference_count: 3
   thread_count: 1
   threads:
-  - messages: [2019-03.36]
+  - messages:
+    - 2019-03.36
     reference_count: 3
     summary: no summary given
 '20190306':
@@ -1645,7 +1813,8 @@
   reference_count: 7
   thread_count: 1
   threads:
-  - messages: [2019-03.213]
+  - messages:
+    - 2019-03.213
     reference_count: 7
     summary: no summary given
 '20190315':
@@ -1658,7 +1827,8 @@
   reference_count: 3
   thread_count: 1
   threads:
-  - messages: [2019-03.290]
+  - messages:
+    - 2019-03.290
     reference_count: 3
     summary: -Media.iso does not boot...
 '20190320':
@@ -1666,10 +1836,12 @@
   reference_count: 18
   thread_count: 2
   threads:
-  - messages: [2019-03.307]
+  - messages:
+    - 2019-03.307
     reference_count: 6
     summary: no summary given
-  - messages: [2019-04.428]
+  - messages:
+    - 2019-04.428
     reference_count: 12
     summary: )' is invalid
 '20190321':
@@ -1682,7 +1854,8 @@
   reference_count: 4
   thread_count: 1
   threads:
-  - messages: [2019-03.353]
+  - messages:
+    - 2019-03.353
     reference_count: 4
     summary: cannot use scanner
 '20190324':
@@ -1690,7 +1863,8 @@
   reference_count: 5
   thread_count: 1
   threads:
-  - messages: [2019-03.367]
+  - messages:
+    - 2019-03.367
     reference_count: 5
     summary: released! => akonadi_control and kdewallet/kgpg error
 '20190325':
@@ -1708,7 +1882,8 @@
   reference_count: 1
   thread_count: 1
   threads:
-  - messages: [2019-04.77]
+  - messages:
+    - 2019-04.77
     reference_count: 1
     summary: no summary given
 '20190402':
@@ -1721,7 +1896,8 @@
   reference_count: 3
   thread_count: 1
   threads:
-  - messages: [2019-04.128]
+  - messages:
+    - 2019-04.128
     reference_count: 3
     summary: ) update
 '20190408':
@@ -1734,7 +1910,8 @@
   reference_count: 14
   thread_count: 1
   threads:
-  - messages: [2019-04.199]
+  - messages:
+    - 2019-04.199
     reference_count: 14
     summary: failed to summarize
 '20190411':
@@ -1742,7 +1919,8 @@
   reference_count: 2
   thread_count: 1
   threads:
-  - messages: [2019-04.258]
+  - messages:
+    - 2019-04.258
     reference_count: 2
     summary: failed to summarize
 '20190412':
@@ -1760,7 +1938,8 @@
   reference_count: 12
   thread_count: 1
   threads:
-  - messages: [2019-04.297]
+  - messages:
+    - 2019-04.297
     reference_count: 12
     summary: failed to summarize
 '20190418':
@@ -1808,10 +1987,12 @@
   reference_count: 4
   thread_count: 2
   threads:
-  - messages: [2019-05.38]
+  - messages:
+    - 2019-05.38
     reference_count: 3
     summary: 120+ new java packages
-  - messages: [2019-05.40]
+  - messages:
+    - 2019-05.40
     reference_count: 1
     summary: no summary given
 '20190505':
@@ -1824,10 +2005,12 @@
   reference_count: 6
   thread_count: 2
   threads:
-  - messages: [2019-05.81]
+  - messages:
+    - 2019-05.81
     reference_count: 3
     summary: no summary given
-  - messages: [2019-05.85]
+  - messages:
+    - 2019-05.85
     reference_count: 3
     summary: brings in lightdm on KDE?
 '20190507':
@@ -1845,7 +2028,8 @@
   reference_count: 1
   thread_count: 1
   threads:
-  - messages: [2019-05.104]
+  - messages:
+    - 2019-05.104
     reference_count: 1
     summary: exo 0.12.5 breaks exo-branding-openSUSE
 '20190510':
@@ -1865,9 +2049,15 @@
   threads: []
 '20190516':
   announcement: 2019-05.167
-  reference_count: 12
+  reference_count: 20
   thread_count: 1
   threads:
-  - messages: [2019-05.169]
-    reference_count: 12
+  - messages:
+    - 2019-05.169
+    reference_count: 20
     summary: no summary given
+'20190517':
+  announcement: 2019-05.192
+  reference_count: 0
+  thread_count: 0
+  threads: []
