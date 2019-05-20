@@ -22177,8 +22177,8 @@
 - component: Kernel
   create_time: 20190419T14:31:00
   id: 1132911
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: SynPS/2 Synaptics TouchPad not working after update to 20190417
 - component: X11 3rd Party Driver
   create_time: 20190419T10:45:00
@@ -23636,6 +23636,37 @@
   summary: The patch libappindicator breaks the context menu in the tray for some
     applications.
 '20190516':
+- component: Basesystem
+  create_time: 20190519T21:04:00
+  id: 1135566
+  resolution: ''
+  status: NEW
+  summary: 'TUMBLEWEED: systelog-ng core dumps on startup and never recovers.'
+- component: Other
+  create_time: 20190519T13:14:00
+  id: 1135557
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Bluetooth mouse no longer connects since Tumbleweed snapshot 20190516
+- component: Other
+  create_time: 20190519T13:13:00
+  id: 1135556
+  resolution: ''
+  status: NEW
+  summary: Bluetooth mouse no longer connects since Tumbleweed snapshot 20190516
+- component: YaST2
+  create_time: 20190519T10:51:00
+  id: 1135555
+  resolution: ''
+  status: NEW
+  summary: The YaST2 Partitioner will not start and throws error since yast2-storage-ng
+    4.2.15-1.1
+- component: YaST2
+  create_time: 20190519T09:36:00
+  id: 1135554
+  resolution: ''
+  status: NEW
+  summary: YaST2 partitioner crashes
 - component: Kernel
   create_time: 20190519T03:52:00
   id: 1135550
