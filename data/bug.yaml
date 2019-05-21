@@ -23701,6 +23701,12 @@
   status: NEW
   summary: Error in /usr/lib/tmpfiles.d/gdm.conf
 '20190517':
+- component: KDE Applications
+  create_time: 20190520T23:51:00
+  id: 1135690
+  resolution: ''
+  status: NEW
+  summary: Mysterious Removal of Corebird in Release opensuse tumbleweed 20190517
 - component: GNOME
   create_time: 20190520T14:36:00
   id: 1135652
