@@ -22967,8 +22967,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190501T12:09:00
   id: 1133870
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: konqueror crashing on exit due to libqt5-qtwebengine issue
 - component: Network
   create_time: 20190501T07:06:00
@@ -23719,7 +23719,7 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: Bluetooth mouse no longer connects since Tumbleweed snapshot 20190516
-- component: Other
+- component: Kernel
   create_time: 20190519T13:13:00
   id: 1135556
   resolution: ''
@@ -23776,6 +23776,12 @@
   status: NEW
   summary: Check EFI System Partition VFAT filesystem on boot
 '20190520':
+- component: Release Notes
+  create_time: 20190521T17:33:00
+  id: 1135809
+  resolution: ''
+  status: NEW
+  summary: Udev package does not contain persistent-ifnames script any more
 - component: Translations
   create_time: 20190521T14:56:00
   id: 1135794
