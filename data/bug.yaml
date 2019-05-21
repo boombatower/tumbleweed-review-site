@@ -5854,8 +5854,8 @@
 - component: YaST2
   create_time: 20180316T11:41:00
   id: 1085637
-  resolution: ''
-  status: CONFIRMED
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: yast2-caasp package can not be installed. yast2-registration missing
 - component: Kubic
   create_time: 20180316T10:59:00
@@ -15742,8 +15742,8 @@
 - component: Installation
   create_time: 20181114T14:13:00
   id: 1116003
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build1491.5][Staging][sidebar] sidebar stores multiple width setups at
     the same time'
 - component: Other
@@ -18959,7 +18959,7 @@
   create_time: 20190208T22:03:00
   id: 1124855
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: fortune error
 - component: KDE Workspace (Plasma)
   create_time: 20190208T15:33:00
@@ -22906,7 +22906,7 @@
   create_time: 20190429T14:36:00
   id: 1133709
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: fstrim.service runs forever with heavy disk use
 - component: YaST2
   create_time: 20190429T12:00:00
@@ -22949,7 +22949,7 @@
   create_time: 20190428T09:12:00
   id: 1133596
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: yast2-python-bindings compilation errors when compiling with -Werror=format-security
 - component: KDE Workspace (Plasma)
   create_time: 20190428T08:56:00
@@ -23451,7 +23451,7 @@
   create_time: 20190512T15:50:00
   id: 1134806
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: null pointer dereference in btrfs/qgroup with kernel 5.0.2
 - component: X.Org
   create_time: 20190512T13:35:00
@@ -23701,48 +23701,6 @@
   status: NEW
   summary: Error in /usr/lib/tmpfiles.d/gdm.conf
 '20190517':
-- component: GNOME
-  create_time: 20190520T23:51:00
-  id: 1135690
-  resolution: INVALID
-  status: RESOLVED
-  summary: Mysterious Removal of Corebird in Release opensuse tumbleweed 20190517
-- component: GNOME
-  create_time: 20190520T14:36:00
-  id: 1135652
-  resolution: ''
-  status: NEW
-  summary: '[20190516] nautilus dumps core due to missing org.freedesktop.Tracker.Miner.Files'
-- component: Kernel
-  create_time: 20190520T14:06:00
-  id: 1135646
-  resolution: ''
-  status: NEW
-  summary: Cannot enable cpu controller on unified hierarchy
-- component: Other
-  create_time: 20190520T12:04:00
-  id: 1135635
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: openssl 1.1.1b crashes at OPENSSL_init_ssl
-- component: Xfce
-  create_time: 20190520T12:01:00
-  id: 1135634
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Notification area not available for intaraction
-- component: YaST2
-  create_time: 20190520T11:58:00
-  id: 1135633
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: YaST - partitioner crashes
-- component: KDE Workspace (Plasma)
-  create_time: 20190520T01:32:00
-  id: 1135568
-  resolution: ''
-  status: NEW
-  summary: sddm-greeter segfaults in Tumbleweed release 20190516
 - component: Basesystem
   create_time: 20190519T21:04:00
   id: 1135566
@@ -23785,8 +23743,8 @@
   id: 1135550
   resolution: ''
   status: CONFIRMED
-  summary: After last update (kernel 5.1.2-1, snapshot 20190516) several program get
-    segmentation fault error (mc, yast, qmmp, deadbeef,...)
+  summary: Programs using libopenssl crash under Russian/Ukrainian locales since the
+    update to OpenSSL 1.1.1b
 - component: KDE Applications
   create_time: 20190518T13:26:00
   id: 1135548
@@ -23817,3 +23775,114 @@
   resolution: ''
   status: NEW
   summary: Check EFI System Partition VFAT filesystem on boot
+'20190520':
+- component: Translations
+  create_time: 20190521T14:56:00
+  id: 1135794
+  resolution: ''
+  status: NEW
+  summary: Strange translation error
+- component: YaST2
+  create_time: 20190521T14:09:00
+  id: 1135788
+  resolution: ''
+  status: NEW
+  summary: yast-python-bindings startup, then shutdown without error when there is
+    a syntax error
+- component: Network
+  create_time: 20190521T11:08:00
+  id: 1135761
+  resolution: ''
+  status: NEW
+  summary: network:libisds fails to build due to curl forcing libopenssl to write
+    to a dead socket
+- component: Basesystem
+  create_time: 20190521T10:20:00
+  id: 1135754
+  resolution: ''
+  status: NEW
+  summary: '[bluetooth]Paired Bluetooth keyboard cannot work after disconnecting'
+- component: AppArmor
+  create_time: 20190521T09:57:00
+  id: 1135751
+  resolution: ''
+  status: NEW
+  summary: '[Staging] apparmor fails to build against swig 4.0'
+- component: Other
+  create_time: 20190521T09:56:00
+  id: 1135750
+  resolution: ''
+  status: NEW
+  summary: '[Staging] ldns fails to build against swig 4.0'
+- component: libzypp
+  create_time: 20190521T09:54:00
+  id: 1135749
+  resolution: ''
+  status: NEW
+  summary: '[Staging] libsolv fails to build against swig 4.0'
+- component: Other
+  create_time: 20190521T09:52:00
+  id: 1135747
+  resolution: ''
+  status: NEW
+  summary: '[Staging] subversion fails to build against swig 4.0'
+- component: Other
+  create_time: 20190521T09:49:00
+  id: 1135746
+  resolution: ''
+  status: NEW
+  summary: '[Staging][Tracking] Update swig to 4.0.0'
+- component: Other
+  create_time: 20190521T09:45:00
+  id: 1135744
+  resolution: ''
+  status: NEW
+  summary: '[Staging] texlive fails to build against gc 8.x'
+- component: Other
+  create_time: 20190521T09:01:00
+  id: 1135733
+  resolution: ''
+  status: NEW
+  summary: vorta package should be updated
+- component: GNOME
+  create_time: 20190520T23:51:00
+  id: 1135690
+  resolution: INVALID
+  status: RESOLVED
+  summary: Mysterious Removal of Corebird in Release opensuse tumbleweed 20190517
+- component: GNOME
+  create_time: 20190520T14:36:00
+  id: 1135652
+  resolution: ''
+  status: NEW
+  summary: '[20190516] nautilus dumps core due to missing org.freedesktop.Tracker.Miner.Files'
+- component: Kernel
+  create_time: 20190520T14:06:00
+  id: 1135646
+  resolution: ''
+  status: NEW
+  summary: Cannot enable cpu controller on unified hierarchy
+- component: Other
+  create_time: 20190520T12:04:00
+  id: 1135635
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: openssl 1.1.1b crashes at OPENSSL_init_ssl
+- component: Xfce
+  create_time: 20190520T12:01:00
+  id: 1135634
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Notification area not available for intaraction
+- component: YaST2
+  create_time: 20190520T11:58:00
+  id: 1135633
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: YaST - partitioner crashes
+- component: KDE Workspace (Plasma)
+  create_time: 20190520T01:32:00
+  id: 1135568
+  resolution: ''
+  status: NEW
+  summary: sddm-greeter segfaults in Tumbleweed release 20190516
