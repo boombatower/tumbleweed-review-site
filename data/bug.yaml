@@ -23701,6 +23701,12 @@
   status: NEW
   summary: Error in /usr/lib/tmpfiles.d/gdm.conf
 '20190517':
+- component: Security
+  create_time: 20190521T04:33:00
+  id: 1135695
+  resolution: ''
+  status: NEW
+  summary: lightdm-gtk-greeter-settings polkit needs audit for Factory submission
 - component: KDE Applications
   create_time: 20190520T23:51:00
   id: 1135690
