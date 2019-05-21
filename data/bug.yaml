@@ -23776,6 +23776,18 @@
   status: NEW
   summary: Check EFI System Partition VFAT filesystem on boot
 '20190520':
+- component: KDE Workspace (Plasma)
+  create_time: 20190521T22:10:00
+  id: 1135836
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Plasma crashes after openssl upgrade
+- component: Other
+  create_time: 20190521T22:07:00
+  id: 1135835
+  resolution: ''
+  status: NEW
+  summary: python3-boto broken after cacerts.txt was removed
 - component: Release Notes
   create_time: 20190521T17:33:00
   id: 1135809
