@@ -23451,7 +23451,7 @@
   create_time: 20190512T15:50:00
   id: 1134806
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: null pointer dereference in btrfs/qgroup with kernel 5.0.2
 - component: X.Org
   create_time: 20190512T13:35:00
@@ -23776,6 +23776,12 @@
   status: NEW
   summary: Check EFI System Partition VFAT filesystem on boot
 '20190520':
+- component: Installation
+  create_time: 20190521T23:16:00
+  id: 1135840
+  resolution: ''
+  status: NEW
+  summary: Installer fails to start
 - component: KDE Workspace (Plasma)
   create_time: 20190521T22:10:00
   id: 1135836
