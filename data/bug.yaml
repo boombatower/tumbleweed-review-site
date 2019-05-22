@@ -19434,12 +19434,6 @@
   status: NEW
   summary: 'gvfs: removal of /usr/share/polkit-1/rules.d/org.gtk.vfs.file-operations.rules'
 - component: Security
-  create_time: 20190214T10:54:00
-  id: 1125432
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'AUDIT-0: gnome-initial-setup: purpose of /usr/share/polkit-1/rules.d/20-gnome-initial-setup.rules'
-- component: Security
   create_time: 20190214T10:43:00
   id: 1125428
   resolution: ''
@@ -21435,8 +21429,8 @@
 - component: X11 3rd Party Driver
   create_time: 20190327T16:57:00
   id: 1130723
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Wrong DPI when using suse-prime in nvidia mode
 - component: GNOME
   create_time: 20190327T13:51:00
@@ -23411,7 +23405,7 @@
   status: IN_PROGRESS
   summary: 'Thunar 1.8.4 Regression: Right Click > Create Document doesn''t show context
     menu (fix available)'
-- component: X.Org
+- component: Other
   create_time: 20190513T14:35:00
   id: 1134875
   resolution: ''
@@ -23751,7 +23745,7 @@
   resolution: ''
   status: NEW
   summary: Akonadi fills /var/log with error messages
-- component: OpenStack
+- component: Other
   create_time: 20190518T07:44:00
   id: 1135543
   resolution: ''
@@ -23776,6 +23770,112 @@
   status: NEW
   summary: Check EFI System Partition VFAT filesystem on boot
 '20190520':
+- component: GNOME
+  create_time: 20190520T23:51:00
+  id: 1135690
+  resolution: INVALID
+  status: RESOLVED
+  summary: Mysterious Removal of Corebird in Release opensuse tumbleweed 20190517
+- component: GNOME
+  create_time: 20190520T14:36:00
+  id: 1135652
+  resolution: ''
+  status: NEW
+  summary: '[20190516] nautilus dumps core due to missing org.freedesktop.Tracker.Miner.Files'
+- component: Kernel
+  create_time: 20190520T14:06:00
+  id: 1135646
+  resolution: ''
+  status: NEW
+  summary: Cannot enable cpu controller on unified hierarchy
+- component: Other
+  create_time: 20190520T12:04:00
+  id: 1135635
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: openssl 1.1.1b crashes at OPENSSL_init_ssl
+- component: Xfce
+  create_time: 20190520T12:01:00
+  id: 1135634
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Notification area not available for intaraction
+- component: YaST2
+  create_time: 20190520T11:58:00
+  id: 1135633
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: YaST - partitioner crashes
+- component: KDE Workspace (Plasma)
+  create_time: 20190520T01:32:00
+  id: 1135568
+  resolution: ''
+  status: NEW
+  summary: sddm-greeter segfaults in Tumbleweed release 20190516
+'20190521':
+- component: Other
+  create_time: 20190522T19:06:00
+  id: 1135984
+  resolution: ''
+  status: NEW
+  summary: 'TW 20190520: "Unknown feature in status" message when running lvs/lvdisplay
+    against cached LVs'
+- component: Kubic
+  create_time: 20190522T18:25:00
+  id: 1135980
+  resolution: ''
+  status: NEW
+  summary: 'Can''t Complete Installation - Ruby Error Build: 20190520'
+- component: Kubic
+  create_time: 20190522T16:45:00
+  id: 1135973
+  resolution: ''
+  status: NEW
+  summary: Change Description of "Admin Node" in the installer Build 20190520
+- component: Other
+  create_time: 20190522T09:44:00
+  id: 1135886
+  resolution: ''
+  status: NEW
+  summary: 'emacs gnus davmail: Loading mails is not possible in case of html-mails
+    or if the mail has an attachment.'
+- component: Other
+  create_time: 20190522T09:31:00
+  id: 1135884
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190521] openQA test fails in openvswitch'
+- component: Kernel
+  create_time: 20190522T08:25:00
+  id: 1135868
+  resolution: FIXED
+  status: RESOLVED
+  summary: fstrim discarding too many blocks
+- component: Kernel
+  create_time: 20190522T07:51:00
+  id: 1135865
+  resolution: ''
+  status: NEW
+  summary: virtio error causes graphics to freeze in openQA test since kernel 5.1.x
+- component: Other
+  create_time: 20190522T06:59:00
+  id: 1135858
+  resolution: ''
+  status: NEW
+  summary: Certbot always segmentation fault in Tumbleweed
+- component: Kernel
+  create_time: 20190522T06:30:00
+  id: 1135854
+  resolution: ''
+  status: NEW
+  summary: Compressing kernel modules (turn on MODULE_COMPRESS_XZ)?
+- component: X11 Applications
+  create_time: 20190522T06:10:00
+  id: 1135853
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'Gimp can''t take screenshots (GDBus.Error:org.freedesktop.DBus.Error.UnknownObject:
+    No such object path ''/Screenshot'')'
 - component: Installation
   create_time: 20190521T23:16:00
   id: 1135840
@@ -23868,45 +23968,3 @@
   resolution: ''
   status: NEW
   summary: vorta package should be updated
-- component: GNOME
-  create_time: 20190520T23:51:00
-  id: 1135690
-  resolution: INVALID
-  status: RESOLVED
-  summary: Mysterious Removal of Corebird in Release opensuse tumbleweed 20190517
-- component: GNOME
-  create_time: 20190520T14:36:00
-  id: 1135652
-  resolution: ''
-  status: NEW
-  summary: '[20190516] nautilus dumps core due to missing org.freedesktop.Tracker.Miner.Files'
-- component: Kernel
-  create_time: 20190520T14:06:00
-  id: 1135646
-  resolution: ''
-  status: NEW
-  summary: Cannot enable cpu controller on unified hierarchy
-- component: Other
-  create_time: 20190520T12:04:00
-  id: 1135635
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: openssl 1.1.1b crashes at OPENSSL_init_ssl
-- component: Xfce
-  create_time: 20190520T12:01:00
-  id: 1135634
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Notification area not available for intaraction
-- component: YaST2
-  create_time: 20190520T11:58:00
-  id: 1135633
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: YaST - partitioner crashes
-- component: KDE Workspace (Plasma)
-  create_time: 20190520T01:32:00
-  id: 1135568
-  resolution: ''
-  status: NEW
-  summary: sddm-greeter segfaults in Tumbleweed release 20190516
