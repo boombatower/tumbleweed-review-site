@@ -4746,8 +4746,8 @@
 - component: GNOME
   create_time: 20180227T09:52:00
   id: 1083004
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Log spam from gnome shell: Object Clutter.Clone (0x558505babb40), has
     been already finalized. Impossible to get any property from it'
 - component: YaST2
@@ -10811,8 +10811,8 @@
 - component: Kernel
   create_time: 20180725T14:08:00
   id: 1102569
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Use the blk_mq scheduler framework
 - component: GNOME
   create_time: 20180725T13:20:00
@@ -15231,8 +15231,8 @@
 - component: GNOME
   create_time: 20181108T10:25:00
   id: 1115189
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Evolution is built without libnotify support
 - component: YaST2
   create_time: 20181108T10:10:00
@@ -15711,8 +15711,8 @@
 - component: GNOME
   create_time: 20181114T14:43:00
   id: 1116011
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[staging] autologin results in session crash with GDM 3.30.x'
 - component: KDE Applications
   create_time: 20181114T14:38:00
@@ -16139,8 +16139,8 @@
 - component: GNOME
   create_time: 20181121T11:00:00
   id: 1116867
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: udev rule for printer installation fails due to missing python module
 - component: YaST2
   create_time: 20181121T10:12:00
@@ -16157,8 +16157,8 @@
 - component: GNOME
   create_time: 20181121T00:31:00
   id: 1116806
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Buildstream is missing a python3-click dependency
 - component: Other
   create_time: 20181120T20:18:00
@@ -19494,8 +19494,8 @@
 - component: GNOME
   create_time: 20190216T22:40:00
   id: 1125672
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Gbrainy is crashing
 - component: Cloud:Tools
   create_time: 20190216T21:52:00
@@ -19764,8 +19764,8 @@
 - component: GNOME
   create_time: 20190223T20:05:00
   id: 1126607
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Fix settings dialogue for Builder 3.30.3
 - component: Printing
   create_time: 20190223T14:29:00
@@ -19870,8 +19870,8 @@
 - component: GNOME
   create_time: 20190221T09:55:00
   id: 1126249
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Broken forum post preview with Epiphany 3.30.2
 - component: YaST2
   create_time: 20190221T09:15:00
@@ -21600,7 +21600,7 @@
   create_time: 20190407T11:58:00
   id: 1131766
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: libgio is leaking sockets
 - component: X11 Applications
   create_time: 20190407T10:10:00
@@ -22217,8 +22217,8 @@
 - component: GNOME
   create_time: 20190422T08:35:00
   id: 1132974
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: libpangoft2 crashes with pango_fc_font_key_get_variations() error
 - component: Other
   create_time: 20190422T00:58:00
@@ -23613,7 +23613,7 @@
   create_time: 20190514T08:26:00
   id: 1134978
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'VUL-1: CVE-2019-12083: rust: a standard method can be overridden violating
     Rust''s safety guarantees and causing memory unsafety'
 - component: YaST2
@@ -23691,8 +23691,8 @@
 - component: GNOME
   create_time: 20190516T03:07:00
   id: 1135272
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Error in /usr/lib/tmpfiles.d/gdm.conf
 '20190517':
 - component: Basesystem
@@ -23749,7 +23749,7 @@
   create_time: 20190518T07:44:00
   id: 1135543
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20190516] openQA test fails in sssd'
 - component: Other
   create_time: 20190517T20:59:00
@@ -23779,8 +23779,8 @@
 - component: GNOME
   create_time: 20190520T14:36:00
   id: 1135652
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[20190516] nautilus dumps core due to missing org.freedesktop.Tracker.Miner.Files'
 - component: Kernel
   create_time: 20190520T14:06:00
@@ -23813,6 +23813,49 @@
   status: NEW
   summary: sddm-greeter segfaults in Tumbleweed release 20190516
 '20190521':
+- component: Development
+  create_time: 20190523T14:53:00
+  id: 1136099
+  resolution: ''
+  status: NEW
+  summary: python-nbconvert fails test on 1-core VM
+- component: Development
+  create_time: 20190523T14:53:00
+  id: 1136098
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: python-nbconvert fails test on 1-core VM
+- component: Patterns
+  create_time: 20190523T12:08:00
+  id: 1136078
+  resolution: ''
+  status: NEW
+  summary: exim installed as default MTA
+- component: Basesystem
+  create_time: 20190523T11:05:00
+  id: 1136056
+  resolution: ''
+  status: NEW
+  summary: 'LTO: spandsp build fails  on i586'
+- component: Installation
+  create_time: 20190523T10:00:00
+  id: 1136051
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Tumbleweed installer freezes in the step 'System Role' on vm with memory
+    size 1024
+- component: GNOME
+  create_time: 20190523T09:58:00
+  id: 1136050
+  resolution: ''
+  status: NEW
+  summary: 'TW 20190521: Play/Pause media key does not work'
+- component: Security
+  create_time: 20190523T07:17:00
+  id: 1136026
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: deepin-anything: new dbus  of deepin-anything'
 - component: Other
   create_time: 20190522T19:06:00
   id: 1135984
