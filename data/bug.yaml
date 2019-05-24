@@ -23813,11 +23813,47 @@
   status: NEW
   summary: sddm-greeter segfaults in Tumbleweed release 20190516
 '20190521':
+- component: Kubic
+  create_time: 20190524T14:58:00
+  id: 1136246
+  resolution: ''
+  status: NEW
+  summary: Invalid certificate with Admin node. build 20190521
+- component: Kubic
+  create_time: 20190524T14:50:00
+  id: 1136244
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: kubiccd is not enabled by default in admin node-  build 20190521
+- component: Kubic
+  create_time: 20190524T14:49:00
+  id: 1136243
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: kubiccd is not enabled by default in admin node-  build 20190521
+- component: Kernel
+  create_time: 20190524T14:17:00
+  id: 1136232
+  resolution: ''
+  status: NEW
+  summary: Repeated soft lockups in OBS
+- component: GNOME
+  create_time: 20190524T12:45:00
+  id: 1136216
+  resolution: ''
+  status: NEW
+  summary: Port gconf to python3
+- component: Other
+  create_time: 20190524T08:31:00
+  id: 1136184
+  resolution: ''
+  status: NEW
+  summary: python-botocore needs to support urllib 1.25 for CVE-2019-9947
 - component: YaST2
   create_time: 20190524T01:09:00
   id: 1136145
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Yast2 Support Center Opens An Invalid URL
 - component: Development
   create_time: 20190523T14:53:00
@@ -23925,7 +23961,7 @@
   status: RESOLVED
   summary: 'Gimp can''t take screenshots (GDBus.Error:org.freedesktop.DBus.Error.UnknownObject:
     No such object path ''/Screenshot'')'
-- component: Installation
+- component: Bootloader
   create_time: 20190521T23:16:00
   id: 1135840
   resolution: ''
@@ -23965,8 +24001,8 @@
 - component: Network
   create_time: 20190521T11:08:00
   id: 1135761
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: network:libisds fails to build due to curl forcing libopenssl to write
     to a dead socket
 - component: Basesystem
