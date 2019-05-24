@@ -23813,6 +23813,12 @@
   status: NEW
   summary: sddm-greeter segfaults in Tumbleweed release 20190516
 '20190521':
+- component: YaST2
+  create_time: 20190524T01:09:00
+  id: 1136145
+  resolution: ''
+  status: NEW
+  summary: Yast2 Support Center Opens An Invalid URL
 - component: Development
   create_time: 20190523T14:53:00
   id: 1136099
