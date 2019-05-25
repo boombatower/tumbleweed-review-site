@@ -23813,6 +23813,13 @@
   status: NEW
   summary: sddm-greeter segfaults in Tumbleweed release 20190516
 '20190521':
+- component: Other
+  create_time: 20190525T09:47:00
+  id: 1136279
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
+    about importing ABCs from ''collections'' instead of collections.abc'
 - component: Kubic
   create_time: 20190524T14:58:00
   id: 1136246
