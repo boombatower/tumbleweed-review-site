@@ -23836,7 +23836,7 @@
   id: 1136232
   resolution: ''
   status: NEW
-  summary: Repeated soft lockups in OBS
+  summary: 'BUG: Bad page state in perl when testing mariadb, flags: 0x2010(lru|private)'
 - component: GNOME
   create_time: 20190524T12:45:00
   id: 1136216
