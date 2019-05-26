@@ -23716,8 +23716,8 @@
 - component: Kernel
   create_time: 20190519T13:13:00
   id: 1135556
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Bluetooth mouse no longer connects since Tumbleweed snapshot 20190516
 - component: YaST2
   create_time: 20190519T10:51:00
@@ -24012,6 +24012,18 @@
   status: NEW
   summary: vorta package should be updated
 '20190524':
+- component: YaST2
+  create_time: 20190526T06:14:00
+  id: 1136297
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: sw_single falls back to `package` icon instead of `package-*`
+- component: YaST2
+  create_time: 20190526T06:11:00
+  id: 1136296
+  resolution: ''
+  status: NEW
+  summary: sw_single falls back to `package` icon instead of `package-*`
 - component: Development
   create_time: 20190525T23:23:00
   id: 1136294
