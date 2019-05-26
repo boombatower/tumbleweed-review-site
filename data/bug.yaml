@@ -24012,6 +24012,13 @@
   status: NEW
   summary: vorta package should be updated
 '20190524':
+- component: Installation
+  create_time: 20190526T17:47:00
+  id: 1136313
+  resolution: ''
+  status: NEW
+  summary: openSUSE-Tumbleweed-DVD-x86_64-Snapshot20190524-Media.iso fail's at loading
+    basic drivers...
 - component: YaST2
   create_time: 20190526T06:14:00
   id: 1136297
