@@ -24012,6 +24012,18 @@
   status: NEW
   summary: vorta package should be updated
 '20190524':
+- component: Development
+  create_time: 20190525T23:23:00
+  id: 1136294
+  resolution: ''
+  status: NEW
+  summary: gcc 9.1 and gcc 10 fail to build correct 32 bit TBB release builds
+- component: Other
+  create_time: 20190525T20:58:00
+  id: 1136293
+  resolution: ''
+  status: NEW
+  summary: Getting complete system lockups since last week
 - component: Other
   create_time: 20190525T09:47:00
   id: 1136279
