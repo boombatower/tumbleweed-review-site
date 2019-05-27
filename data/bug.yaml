@@ -19934,8 +19934,8 @@
 - component: Basesystem
   create_time: 20190224T00:08:00
   id: 1126609
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: tuned logging errors
 '20190225':
 - component: Development
@@ -23234,8 +23234,8 @@
 - component: Basesystem
   create_time: 20190508T15:14:00
   id: 1134472
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Dracut causes ordering loop with iscsid, breaking boot
 - component: GNOME
   create_time: 20190508T14:05:00
@@ -24055,6 +24055,24 @@
   status: CONFIRMED
   summary: Yast2 Support Center Opens An Invalid URL
 '20190525':
+- component: Other
+  create_time: 20190527T17:58:00
+  id: 1136486
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: exiv2 bug causes png crc errors in gimp output, please update to v0.27.1
+- component: Other
+  create_time: 20190527T17:57:00
+  id: 1136485
+  resolution: ''
+  status: NEW
+  summary: exiv2 bug causes png crc errors in gimp output, please update to v0.27.1
+- component: Other
+  create_time: 20190527T14:04:00
+  id: 1136450
+  resolution: ''
+  status: NEW
+  summary: python-acme test crash after update of openssl to 1.1.1
 - component: Kernel
   create_time: 20190527T12:47:00
   id: 1136436
