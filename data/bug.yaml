@@ -23963,7 +23963,7 @@
   status: RESOLVED
   summary: network:libisds fails to build due to curl forcing libopenssl to write
     to a dead socket
-- component: Basesystem
+- component: Kernel
   create_time: 20190521T10:20:00
   id: 1135754
   resolution: ''
