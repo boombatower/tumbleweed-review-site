@@ -20801,7 +20801,7 @@
   create_time: 20190312T08:52:00
   id: 1128835
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: pam_keyinit.so doesn't seem to work as expected when logging in with GDM
 - component: Basesystem
   create_time: 20190312T08:24:00
@@ -23786,7 +23786,7 @@
   create_time: 20190520T14:06:00
   id: 1135646
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Cannot enable cpu controller on unified hierarchy
 - component: Other
   create_time: 20190520T12:04:00
@@ -24012,44 +24012,6 @@
   status: NEW
   summary: vorta package should be updated
 '20190524':
-- component: Installation
-  create_time: 20190526T17:47:00
-  id: 1136313
-  resolution: ''
-  status: NEW
-  summary: openSUSE-Tumbleweed-DVD-x86_64-Snapshot20190524-Media.iso fail's at loading
-    basic drivers...
-- component: YaST2
-  create_time: 20190526T06:14:00
-  id: 1136297
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: sw_single falls back to `package` icon instead of `package-*`
-- component: YaST2
-  create_time: 20190526T06:11:00
-  id: 1136296
-  resolution: ''
-  status: NEW
-  summary: sw_single falls back to `package` icon instead of `package-*`
-- component: Development
-  create_time: 20190525T23:23:00
-  id: 1136294
-  resolution: ''
-  status: NEW
-  summary: gcc 9.1 and gcc 10 fail to build correct 32 bit TBB release builds
-- component: Other
-  create_time: 20190525T20:58:00
-  id: 1136293
-  resolution: ''
-  status: NEW
-  summary: Getting complete system lockups since last week
-- component: Other
-  create_time: 20190525T09:47:00
-  id: 1136279
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
-    about importing ABCs from ''collections'' instead of collections.abc'
 - component: Kubic
   create_time: 20190524T14:58:00
   id: 1136246
@@ -24092,3 +24054,54 @@
   resolution: ''
   status: CONFIRMED
   summary: Yast2 Support Center Opens An Invalid URL
+'20190525':
+- component: Kernel
+  create_time: 20190527T12:47:00
+  id: 1136436
+  resolution: ''
+  status: NEW
+  summary: btrfs mainainance crashed and left system unbootable
+- component: YaST2
+  create_time: 20190527T11:25:00
+  id: 1136407
+  resolution: ''
+  status: CONFIRMED
+  summary: libyui-qt-pkg legal review declined
+- component: Installation
+  create_time: 20190526T17:47:00
+  id: 1136313
+  resolution: ''
+  status: NEW
+  summary: openSUSE-Tumbleweed-DVD-x86_64-Snapshot20190524-Media.iso fail's at loading
+    basic drivers...
+- component: YaST2
+  create_time: 20190526T06:14:00
+  id: 1136297
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: sw_single falls back to `package` icon instead of `package-*`
+- component: YaST2
+  create_time: 20190526T06:11:00
+  id: 1136296
+  resolution: ''
+  status: NEW
+  summary: sw_single falls back to `package` icon instead of `package-*`
+- component: Development
+  create_time: 20190525T23:23:00
+  id: 1136294
+  resolution: ''
+  status: NEW
+  summary: gcc 9.1 and gcc 10 fail to build correct 32 bit TBB release builds
+- component: Other
+  create_time: 20190525T20:58:00
+  id: 1136293
+  resolution: ''
+  status: NEW
+  summary: Getting complete system lockups since last week
+- component: Other
+  create_time: 20190525T09:47:00
+  id: 1136279
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
+    about importing ABCs from ''collections'' instead of collections.abc'
