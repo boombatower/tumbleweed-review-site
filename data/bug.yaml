@@ -17568,8 +17568,8 @@
 - component: Basesystem
   create_time: 20190109T14:10:00
   id: 1121267
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: openucx build fails'
 - component: Basesystem
   create_time: 20190109T13:54:00
@@ -20349,8 +20349,8 @@
 - component: Basesystem
   create_time: 20190305T14:25:00
   id: 1127953
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: meson:test build fails on i586'
 - component: Kubic
   create_time: 20190305T13:41:00
@@ -23606,8 +23606,8 @@
 - component: Basesystem
   create_time: 20190514T08:41:00
   id: 1134979
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: libimagequant build fails'
 - component: Security
   create_time: 20190514T08:26:00
