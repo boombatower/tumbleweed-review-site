@@ -6166,8 +6166,8 @@
 - component: Network
   create_time: 20180320T09:28:00
   id: 1085971
-  resolution: FIXED
-  status: VERIFIED
+  resolution: ''
+  status: REOPENED
   summary: 'openvswitch: Permission denied when starting the ovsdb-server service'
 '20180324':
 - component: Basesystem
@@ -15628,7 +15628,7 @@
   create_time: 20181114T15:28:00
   id: 1116030
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Please convert SysV init scripts by pdnsd into native systemd services
 - component: OpenStack
   create_time: 20181114T15:25:00
@@ -15743,7 +15743,7 @@
   create_time: 20181114T14:13:00
   id: 1116003
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build1491.5][Staging][sidebar] sidebar stores multiple width setups at
     the same time'
 - component: Other
@@ -21239,8 +21239,8 @@
 - component: Kernel
   create_time: 20190325T23:18:00
   id: 1130448
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: cannot suspend while BT audio device is connected
 - component: Other
   create_time: 20190325T19:21:00
@@ -21387,8 +21387,8 @@
 - component: Development
   create_time: 20190329T08:12:00
   id: 1130928
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: It is actually not possible to install mysql-workbench
 - component: Virtualization:Tools
   create_time: 20190328T21:50:00
@@ -22731,8 +22731,8 @@
 - component: Security
   create_time: 20190423T10:57:00
   id: 1133082
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: fwupd: updating build to 1.2.7 needs new polkit privileges'
 - component: Samba
   create_time: 20190423T10:29:00
@@ -22830,8 +22830,8 @@
 - component: Installation
   create_time: 20190426T19:47:00
   id: 1133564
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: '[Build 20190425] openQA test fails in await_install - incomplete packages
     or cannot get from remote?'
 - component: KDE Applications
@@ -22911,8 +22911,8 @@
 - component: Security
   create_time: 20190429T11:34:00
   id: 1133680
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: backintime-qt: backintime was ported to qt5 and executable renamed'
 - component: Samba
   create_time: 20190429T09:25:00
@@ -23357,8 +23357,8 @@
 - component: Basesystem
   create_time: 20190510T22:49:00
   id: 1134787
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: BT device connects and immediately disconnects on poweron
 - component: Basesystem
   create_time: 20190510T16:34:00
@@ -23422,7 +23422,7 @@
   id: 1134865
   resolution: ''
   status: NEW
-  summary: Tumbleweed simply don't suspend.
+  summary: Unable to suspend
 - component: GNOME
   create_time: 20190513T09:30:00
   id: 1134847
@@ -24055,11 +24055,36 @@
   status: CONFIRMED
   summary: Yast2 Support Center Opens An Invalid URL
 '20190525':
+- component: Bootloader
+  create_time: 20190528T13:45:00
+  id: 1136601
+  resolution: ''
+  status: NEW
+  summary: grubaa64.efi is not signed
+- component: Basesystem
+  create_time: 20190528T13:29:00
+  id: 1136600
+  resolution: ''
+  status: NEW
+  summary: network bridge gets wrong (random) MAC address
+- component: Sound
+  create_time: 20190528T10:55:00
+  id: 1136562
+  resolution: ''
+  status: NEW
+  summary: Drop hackish modprobe and helper scripts to auto-load OSS and sequencer
+    modules
+- component: Other
+  create_time: 20190528T09:48:00
+  id: 1136549
+  resolution: ''
+  status: NEW
+  summary: ncurses (yast2_lan, dialog) looks bad in LXDE but is ok on GNOME installation
 - component: Network
   create_time: 20190528T07:55:00
   id: 1136522
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: openssl 1.1 is broken WRT BIO_NOCLOSE
 - component: Upgrade Problems
   create_time: 20190528T07:55:00
@@ -24070,8 +24095,8 @@
 - component: Basesystem
   create_time: 20190528T07:49:00
   id: 1136520
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'Transactional-update: not working with separate /boot partition'
 - component: Network
   create_time: 20190528T07:15:00
