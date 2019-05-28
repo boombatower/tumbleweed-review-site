@@ -15536,8 +15536,8 @@
 - component: Network
   create_time: 20181114T17:01:00
   id: 1116057
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by network-autoconfig into native systemd
     services
 - component: Other
@@ -15549,8 +15549,8 @@
 - component: Mono
   create_time: 20181114T16:58:00
   id: 1116055
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by xsp into native systemd services
 - component: X.Org
   create_time: 20181114T16:56:00
@@ -23840,8 +23840,8 @@
 - component: Installation
   create_time: 20190523T10:00:00
   id: 1136051
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Tumbleweed installer freezes in the step 'System Role' on vm with memory
     size 1024
 - component: GNOME
@@ -24055,6 +24055,30 @@
   status: CONFIRMED
   summary: Yast2 Support Center Opens An Invalid URL
 '20190525':
+- component: Network
+  create_time: 20190528T07:55:00
+  id: 1136522
+  resolution: ''
+  status: NEW
+  summary: openssl 1.1 is broken WRT BIO_NOCLOSE
+- component: Upgrade Problems
+  create_time: 20190528T07:55:00
+  id: 1136521
+  resolution: INVALID
+  status: RESOLVED
+  summary: git-core failure to upgrade on 20190525 snapshot
+- component: Basesystem
+  create_time: 20190528T07:49:00
+  id: 1136520
+  resolution: ''
+  status: NEW
+  summary: 'Transactional-update: not working with separate /boot partition'
+- component: Network
+  create_time: 20190528T07:15:00
+  id: 1136512
+  resolution: ''
+  status: NEW
+  summary: Yast2-nfs-*** comlpain about missing firewalld service
 - component: Other
   create_time: 20190527T17:58:00
   id: 1136486
