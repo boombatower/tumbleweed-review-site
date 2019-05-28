@@ -23966,8 +23966,8 @@
 - component: Kernel
   create_time: 20190521T10:20:00
   id: 1135754
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[bluetooth]Paired Bluetooth keyboard cannot work after disconnecting'
 - component: AppArmor
   create_time: 20190521T09:57:00
