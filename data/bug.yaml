@@ -24094,12 +24094,13 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
-- component: Bootloader
+- component: YaST2
   create_time: 20190528T13:45:00
   id: 1136601
   resolution: ''
   status: NEW
-  summary: grubaa64.efi is not signed
+  summary: Installed grub (grubaa64.efi) is not signed - Yast-bootloader does not
+    support SecureBoot on aarch64
 - component: Basesystem
   create_time: 20190528T13:29:00
   id: 1136600
