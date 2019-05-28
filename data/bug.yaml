@@ -17758,8 +17758,8 @@
 - component: Other
   create_time: 20190111T19:00:00
   id: 1121672
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Steam controller's Gamepad mode is broken for most games.
 - component: Kernel
   create_time: 20190111T17:02:00
@@ -24051,10 +24051,49 @@
 - component: YaST2
   create_time: 20190524T01:09:00
   id: 1136145
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Yast2 Support Center Opens An Invalid URL
 '20190525':
+- component: Installation
+  create_time: 20190526T17:47:00
+  id: 1136313
+  resolution: ''
+  status: NEW
+  summary: openSUSE-Tumbleweed-DVD-x86_64-Snapshot20190524-Media.iso fail's at loading
+    basic drivers...
+- component: YaST2
+  create_time: 20190526T06:14:00
+  id: 1136297
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: sw_single falls back to `package` icon instead of `package-*`
+- component: YaST2
+  create_time: 20190526T06:11:00
+  id: 1136296
+  resolution: ''
+  status: NEW
+  summary: sw_single falls back to `package` icon instead of `package-*`
+- component: Development
+  create_time: 20190525T23:23:00
+  id: 1136294
+  resolution: ''
+  status: NEW
+  summary: gcc 9.1 and gcc 10 fail to build correct 32 bit TBB release builds
+- component: Other
+  create_time: 20190525T20:58:00
+  id: 1136293
+  resolution: ''
+  status: NEW
+  summary: Getting complete system lockups since last week
+- component: Other
+  create_time: 20190525T09:47:00
+  id: 1136279
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
+    about importing ABCs from ''collections'' instead of collections.abc'
+'20190527':
 - component: Bootloader
   create_time: 20190528T13:45:00
   id: 1136601
@@ -24070,8 +24109,8 @@
 - component: Sound
   create_time: 20190528T10:55:00
   id: 1136562
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Drop hackish modprobe and helper scripts to auto-load OSS and sequencer
     modules
 - component: Other
@@ -24134,41 +24173,3 @@
   resolution: ''
   status: CONFIRMED
   summary: libyui-qt-pkg legal review declined
-- component: Installation
-  create_time: 20190526T17:47:00
-  id: 1136313
-  resolution: ''
-  status: NEW
-  summary: openSUSE-Tumbleweed-DVD-x86_64-Snapshot20190524-Media.iso fail's at loading
-    basic drivers...
-- component: YaST2
-  create_time: 20190526T06:14:00
-  id: 1136297
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: sw_single falls back to `package` icon instead of `package-*`
-- component: YaST2
-  create_time: 20190526T06:11:00
-  id: 1136296
-  resolution: ''
-  status: NEW
-  summary: sw_single falls back to `package` icon instead of `package-*`
-- component: Development
-  create_time: 20190525T23:23:00
-  id: 1136294
-  resolution: ''
-  status: NEW
-  summary: gcc 9.1 and gcc 10 fail to build correct 32 bit TBB release builds
-- component: Other
-  create_time: 20190525T20:58:00
-  id: 1136293
-  resolution: ''
-  status: NEW
-  summary: Getting complete system lockups since last week
-- component: Other
-  create_time: 20190525T09:47:00
-  id: 1136279
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
-    about importing ABCs from ''collections'' instead of collections.abc'
