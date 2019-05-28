@@ -21822,7 +21822,7 @@
   id: 1132102
   resolution: ''
   status: CONFIRMED
-  summary: VirtualBox 6.0.4 guest addition ISO download failed
+  summary: VirtualBox 6.0.8 guest addition ISO download failed
 - component: Development
   create_time: 20190410T13:42:00
   id: 1132101
@@ -24094,6 +24094,18 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: Development
+  create_time: 20190528T21:30:00
+  id: 1136650
+  resolution: ''
+  status: NEW
+  summary: spyder-3.3.4-1.1 missing dependency python-spyder-kernels >= 0.4.3
+- component: YaST2
+  create_time: 20190528T20:39:00
+  id: 1136647
+  resolution: ''
+  status: NEW
+  summary: Yast2 segfault when starting in Gnome3 Wayland Tubleweed snapshot 20190527
 - component: YaST2
   create_time: 20190528T13:45:00
   id: 1136601
