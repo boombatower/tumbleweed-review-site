@@ -24094,6 +24094,24 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: Installation
+  create_time: 20190529T18:22:00
+  id: 1136793
+  resolution: ''
+  status: NEW
+  summary: Cannot install on raspberry pi using installer
+- component: Installation
+  create_time: 20190529T18:07:00
+  id: 1136790
+  resolution: ''
+  status: NEW
+  summary: graphic installer unusable on Raspberry Pi
+- component: Other
+  create_time: 20190529T17:56:00
+  id: 1136788
+  resolution: ''
+  status: NEW
+  summary: Sqlite oserror test fails on ppc64le
 - component: Kernel
   create_time: 20190529T15:28:00
   id: 1136772
