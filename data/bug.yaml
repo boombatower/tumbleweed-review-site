@@ -23589,7 +23589,7 @@
   create_time: 20190514T11:05:00
   id: 1135030
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'LTO: ceph build fails'
 - component: Basesystem
   create_time: 20190514T09:34:00
@@ -24094,6 +24094,12 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: Kernel
+  create_time: 20190529T15:28:00
+  id: 1136772
+  resolution: ''
+  status: NEW
+  summary: Kernel bug triggered when mounting btrfs file system
 - component: Virtualization:Tools
   create_time: 20190529T14:19:00
   id: 1136761
@@ -24134,8 +24140,8 @@
 - component: Other
   create_time: 20190529T06:43:00
   id: 1136672
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Recoll 1.25.16 shows blank screen instead of results; should be fixed in
     version 1.25.18
 - component: Basesystem
@@ -24163,7 +24169,7 @@
   status: NEW
   summary: Installed grub (grubaa64.efi) is not signed - Yast-bootloader does not
     support SecureBoot on aarch64
-- component: Basesystem
+- component: Kernel
   create_time: 20190528T13:29:00
   id: 1136600
   resolution: ''
