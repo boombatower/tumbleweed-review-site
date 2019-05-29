@@ -20465,8 +20465,8 @@
 - component: GNOME
   create_time: 20190306T16:42:00
   id: 1128193
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Mutter -- Patches needs dropping or rebase
 - component: GNOME
   create_time: 20190306T16:39:00
@@ -24080,11 +24080,11 @@
   resolution: ''
   status: NEW
   summary: gcc 9.1 and gcc 10 fail to build correct 32 bit TBB release builds
-- component: Other
+- component: X.Org
   create_time: 20190525T20:58:00
   id: 1136293
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Getting complete system lockups since last week
 - component: Other
   create_time: 20190525T09:47:00
@@ -24094,6 +24094,31 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: Virtualization:Tools
+  create_time: 20190529T14:19:00
+  id: 1136761
+  resolution: ''
+  status: NEW
+  summary: VirtualBox permissions are wrong after every update; suggested workaround
+    doesn't help
+- component: GNOME
+  create_time: 20190529T13:20:00
+  id: 1136753
+  resolution: ''
+  status: NEW
+  summary: Default flatpak install is missing xdg-desktop-portal-gtk
+- component: Development
+  create_time: 20190529T12:48:00
+  id: 1136749
+  resolution: ''
+  status: NEW
+  summary: python-urllib3 upgrade fails
+- component: GNOME
+  create_time: 20190529T12:46:00
+  id: 1136747
+  resolution: ''
+  status: NEW
+  summary: Update GStreamer stack to latest stable branch  1.16.x
 - component: Basesystem
   create_time: 20190529T07:29:00
   id: 1136681
