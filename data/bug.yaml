@@ -23370,7 +23370,7 @@
   create_time: 20190510T14:17:00
   id: 1134740
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Can not compile galera from source because wsrep_api.h is not provided
     by any package (like mariadb)
 - component: Kubic
@@ -23504,7 +23504,7 @@
   create_time: 20190515T13:38:00
   id: 1135212
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: 'LTO: libqt5-qtwebkit build fails'
 - component: Basesystem
   create_time: 20190515T13:07:00
@@ -23540,7 +23540,7 @@
   create_time: 20190514T18:04:00
   id: 1135118
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: ping -a (audible) bells even on failed IPv6 ping
 - component: libzypp
   create_time: 20190514T17:13:00
@@ -23564,7 +23564,7 @@
   create_time: 20190514T15:29:00
   id: 1135095
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: 'LTO: xtrabackup build fails'
 - component: Basesystem
   create_time: 20190514T15:12:00
@@ -24094,6 +24094,31 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: Basesystem
+  create_time: 20190529T07:29:00
+  id: 1136681
+  resolution: ''
+  status: NEW
+  summary: 'LTO: kdepim-runtime build fails'
+- component: Kernel
+  create_time: 20190529T06:55:00
+  id: 1136677
+  resolution: ''
+  status: NEW
+  summary: Add support for compressed firmware files
+- component: Other
+  create_time: 20190529T06:43:00
+  id: 1136672
+  resolution: ''
+  status: NEW
+  summary: Recoll 1.25.16 shows blank screen instead of results; should be fixed in
+    version 1.25.18
+- component: Basesystem
+  create_time: 20190529T06:21:00
+  id: 1136670
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libkate build fails on i586'
 - component: Development
   create_time: 20190528T21:30:00
   id: 1136650
@@ -24183,6 +24208,6 @@
 - component: YaST2
   create_time: 20190527T11:25:00
   id: 1136407
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: libyui-qt-pkg legal review declined
