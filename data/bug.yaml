@@ -23755,7 +23755,7 @@
   create_time: 20190517T20:59:00
   id: 1135528
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: ckb-next Package has invalid .spec file and improper library path
 - component: Java
   create_time: 20190517T19:57:00
