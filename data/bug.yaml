@@ -24094,6 +24094,12 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: Kubic
+  create_time: 20190529T23:44:00
+  id: 1136815
+  resolution: ''
+  status: NEW
+  summary: Unable to install from kubic dvd due to missing bcache-tools
 - component: Development
   create_time: 20190529T21:01:00
   id: 1136803
