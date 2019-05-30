@@ -21986,7 +21986,7 @@
   create_time: 20190412T20:58:00
   id: 1132422
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: linuxrc unable to net install with kexec=3 for TW ppc64le
 - component: Security
   create_time: 20190412T20:31:00
@@ -23116,14 +23116,14 @@
   create_time: 20190505T03:37:00
   id: 1134130
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '"/boot" cannot be part of a thinly provisioned logical volume'
 '20190506':
 - component: Installation
   create_time: 20190506T18:40:00
   id: 1134233
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: '[Build 20190505] openQA test fails in start_install'
 - component: Kernel
   create_time: 20190506T17:34:00
@@ -23314,8 +23314,8 @@
 - component: YaST2
   create_time: 20190509T09:52:00
   id: 1134575
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Wizard steps don't allow for full styling due to weird default spacing
 - component: YaST2
   create_time: 20190509T09:25:00
@@ -23809,8 +23809,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190520T01:32:00
   id: 1135568
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: sddm-greeter segfaults in Tumbleweed release 20190516
 '20190521':
 - component: Development
@@ -24094,6 +24094,24 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: X11 3rd Party Driver
+  create_time: 20190530T14:18:00
+  id: 1136867
+  resolution: ''
+  status: NEW
+  summary: Screen Tearing when moving windows. Not smooth.
+- component: Basesystem
+  create_time: 20190530T13:53:00
+  id: 1136862
+  resolution: ''
+  status: NEW
+  summary: 'LTO: python-CherryPy build fails'
+- component: KDE Workspace (Plasma)
+  create_time: 20190530T12:37:00
+  id: 1136858
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: 'Plasma5: "move to trash" option enabled for Trash-bin itself'
 - component: Kernel
   create_time: 20190530T08:51:00
   id: 1136837
@@ -24201,8 +24219,8 @@
 - component: YaST2
   create_time: 20190528T20:39:00
   id: 1136647
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Yast2 segfault when starting in Gnome3 Wayland Tubleweed snapshot 20190527
 - component: YaST2
   create_time: 20190528T13:45:00
@@ -24215,7 +24233,7 @@
   create_time: 20190528T13:29:00
   id: 1136600
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: network bridge gets wrong (random) MAC address
 - component: Sound
   create_time: 20190528T10:55:00
