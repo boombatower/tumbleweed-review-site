@@ -24094,6 +24094,12 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: Kernel
+  create_time: 20190530T08:51:00
+  id: 1136837
+  resolution: ''
+  status: NEW
+  summary: Desktop Graphics Intermittently Restarts while logged into plasma5
 - component: Basesystem
   create_time: 20190530T06:49:00
   id: 1136831
@@ -24164,9 +24170,9 @@
 - component: Basesystem
   create_time: 20190529T07:29:00
   id: 1136681
-  resolution: ''
-  status: NEW
-  summary: 'LTO: kdepim-runtime build fails'
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'LTO: kdepim-runtime build fails due to kimap'
 - component: Kernel
   create_time: 20190529T06:55:00
   id: 1136677
