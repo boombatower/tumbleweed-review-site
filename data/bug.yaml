@@ -11761,8 +11761,8 @@
 - component: YaST2
   create_time: 20180824T08:43:00
   id: 1105891
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2 - virtualization test not supported for ppc64le
 - component: Network
   create_time: 20180823T18:00:00
@@ -22497,8 +22497,8 @@
 - component: Basesystem
   create_time: 20190424T12:28:00
   id: 1133253
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: libvirt build fails'
 - component: Basesystem
   create_time: 20190424T11:27:00
@@ -24094,6 +24094,12 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: Virtualization:Tools
+  create_time: 20190530T15:50:00
+  id: 1136878
+  resolution: ''
+  status: NEW
+  summary: guestfs appliance missing netconfig for dhcp configuration
 - component: X11 3rd Party Driver
   create_time: 20190530T14:18:00
   id: 1136867
