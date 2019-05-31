@@ -2087,11 +2087,11 @@
   threads: []
 '20190527':
   announcement: 2019-05.366
-  reference_count: 2
+  reference_count: 8
   thread_count: 1
   threads:
   - messages:
     - 2019-05.367
     - 2019-05.371
-    reference_count: 2
+    reference_count: 8
     summary: no summary given
