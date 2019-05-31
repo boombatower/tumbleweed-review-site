@@ -24094,6 +24094,12 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: Basesystem
+  create_time: 20190531T07:30:00
+  id: 1136927
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190528] System does not use same network names after update'
 - component: Other
   create_time: 20190531T01:35:00
   id: 1136898
