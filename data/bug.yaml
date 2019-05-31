@@ -24094,6 +24094,18 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: Kernel
+  create_time: 20190531T10:24:00
+  id: 1136950
+  resolution: ''
+  status: NEW
+  summary: Kernel 5.2-rc2 relocation overflow errors breaking boot
+- component: Other
+  create_time: 20190531T09:47:00
+  id: 1136945
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190528] openQA test fails in wine: broken dependencies'
 - component: Basesystem
   create_time: 20190531T07:30:00
   id: 1136927
