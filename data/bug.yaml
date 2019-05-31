@@ -2029,8 +2029,8 @@
 - component: Development
   create_time: 20180119T21:06:00
   id: 1076877
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'openSUSE:Tools/osc-plugin-install: Bug'
 - component: Printing
   create_time: 20180119T18:20:00
