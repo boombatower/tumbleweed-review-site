@@ -23369,8 +23369,8 @@
 - component: Development
   create_time: 20190510T14:17:00
   id: 1134740
-  resolution: ''
-  status: CONFIRMED
+  resolution: INVALID
+  status: RESOLVED
   summary: Can not compile galera from source because wsrep_api.h is not provided
     by any package (like mariadb)
 - component: Kubic
@@ -24094,6 +24094,19 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: Basesystem
+  create_time: 20190531T12:27:00
+  id: 1136977
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190528] openQA test fails in mediacheck: emergency systemd shell'
+- component: Security
+  create_time: 20190531T11:58:00
+  id: 1136974
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'VUL-1: CVE-2019-10152: podman: Improper symlink resolution allows access
+    to host files when executing `podman cp` on running containers'
 - component: Kernel
   create_time: 20190531T10:24:00
   id: 1136950
@@ -24134,7 +24147,7 @@
   create_time: 20190530T13:53:00
   id: 1136862
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'LTO: python-CherryPy build fails'
 - component: KDE Workspace (Plasma)
   create_time: 20190530T12:37:00
@@ -24259,7 +24272,7 @@
   status: NEW
   summary: Installed grub (grubaa64.efi) is not signed - Yast-bootloader does not
     support SecureBoot on aarch64
-- component: Kernel
+- component: Basesystem
   create_time: 20190528T13:29:00
   id: 1136600
   resolution: ''
