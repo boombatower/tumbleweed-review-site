@@ -21586,8 +21586,8 @@
 - component: Basesystem
   create_time: 20190407T17:18:00
   id: 1131772
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: cannot set BT audio profile
 - component: Printing
   create_time: 20190407T16:43:00
@@ -24094,6 +24094,18 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: YaST2
+  create_time: 20190531T19:25:00
+  id: 1137024
+  resolution: ''
+  status: NEW
+  summary: Yast fails to start, yast2 --qt (with root) loads ncurses version
+- component: GNOME
+  create_time: 20190531T18:34:00
+  id: 1137019
+  resolution: ''
+  status: NEW
+  summary: GNOME Software shows mismatch package details
 - component: Basesystem
   create_time: 20190531T12:27:00
   id: 1136977
@@ -24137,7 +24149,7 @@
   resolution: ''
   status: NEW
   summary: guestfs appliance missing netconfig for dhcp configuration
-- component: X11 3rd Party Driver
+- component: KDE Workspace (Plasma)
   create_time: 20190530T14:18:00
   id: 1136867
   resolution: ''
