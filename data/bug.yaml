@@ -24094,6 +24094,12 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: Other
+  create_time: 20190531T01:35:00
+  id: 1136898
+  resolution: ''
+  status: NEW
+  summary: GnuCash crashes when launching AqBanking Wizard
 - component: Virtualization:Tools
   create_time: 20190530T15:50:00
   id: 1136878
