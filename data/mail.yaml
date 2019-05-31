@@ -2086,7 +2086,12 @@
   thread_count: 0
   threads: []
 '20190527':
-  announcement: 2019-05.356
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  announcement: 2019-05.366
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-05.367
+    - 2019-05.371
+    reference_count: 2
+    summary: no summary given
