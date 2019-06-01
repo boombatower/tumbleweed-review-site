@@ -23946,7 +23946,7 @@
 - component: Translations
   create_time: 20190521T14:56:00
   id: 1135794
-  resolution: FIXED
+  resolution: DUPLICATE
   status: RESOLVED
   summary: Strange translation error
 - component: YaST2
@@ -24094,6 +24094,12 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: KDE Workspace (Plasma)
+  create_time: 20190601T14:55:00
+  id: 1137054
+  resolution: ''
+  status: NEW
+  summary: Python Appindicator segfaults on Tumbleweed - fine on Leap
 - component: Kernel
   create_time: 20190601T10:25:00
   id: 1137051
