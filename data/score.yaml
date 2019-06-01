@@ -819,7 +819,7 @@
   stability_level: moderate
 '20190525':
   score: 95
-  stability_level: pending
+  stability_level: stable
 '20190527':
   score: 85
   stability_level: pending
