@@ -24094,6 +24094,12 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: Other
+  create_time: 20190601T15:34:00
+  id: 1137055
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'Build20190529: wine-32bit uninstallable, version 4.9-1.15 was not published?'
 - component: KDE Workspace (Plasma)
   create_time: 20190601T14:55:00
   id: 1137054
