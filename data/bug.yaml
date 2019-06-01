@@ -23735,8 +23735,8 @@
 - component: Basesystem
   create_time: 20190519T03:52:00
   id: 1135550
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Programs using libopenssl crash under Russian/Ukrainian locales since the
     update to OpenSSL 1.1.1b
 - component: KDE Applications
