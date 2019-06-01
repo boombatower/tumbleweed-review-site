@@ -24094,6 +24094,12 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: Network
+  create_time: 20190601T06:35:00
+  id: 1137048
+  resolution: ''
+  status: NEW
+  summary: wireguard doesn't work
 - component: YaST2
   create_time: 20190531T19:25:00
   id: 1137024
@@ -24158,8 +24164,8 @@
 - component: Basesystem
   create_time: 20190530T13:53:00
   id: 1136862
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: python-CherryPy build fails'
 - component: KDE Workspace (Plasma)
   create_time: 20190530T12:37:00
@@ -24350,7 +24356,7 @@
   id: 1136436
   resolution: ''
   status: NEW
-  summary: btrfs mainainance crashed and left system unbootable
+  summary: btrfs maintenance crashed and left system unbootable - kernel BUG at fs/btrfs/ctree.h:3518!
 - component: YaST2
   create_time: 20190527T11:25:00
   id: 1136407
