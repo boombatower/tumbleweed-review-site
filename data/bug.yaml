@@ -23946,8 +23946,8 @@
 - component: Translations
   create_time: 20190521T14:56:00
   id: 1135794
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Strange translation error
 - component: YaST2
   create_time: 20190521T14:09:00
