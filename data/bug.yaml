@@ -24094,6 +24094,12 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: Kernel
+  create_time: 20190601T10:25:00
+  id: 1137051
+  resolution: ''
+  status: NEW
+  summary: Virtualbox guest additions fails on openSUSE Tumbleweed
 - component: Network
   create_time: 20190601T06:35:00
   id: 1137048
