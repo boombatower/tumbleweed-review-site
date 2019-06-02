@@ -21239,8 +21239,8 @@
 - component: Kernel
   create_time: 20190325T23:18:00
   id: 1130448
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: cannot suspend while BT audio device is connected
 - component: Other
   create_time: 20190325T19:21:00
