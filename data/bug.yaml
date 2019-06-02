@@ -24094,6 +24094,106 @@
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
+- component: Development
+  create_time: 20190528T21:30:00
+  id: 1136650
+  resolution: ''
+  status: NEW
+  summary: spyder-3.3.4-1.1 missing dependency python-spyder-kernels >= 0.4.3
+- component: YaST2
+  create_time: 20190528T20:39:00
+  id: 1136647
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Yast2 segfault when starting in Gnome3 Wayland Tubleweed snapshot 20190527
+- component: YaST2
+  create_time: 20190528T13:45:00
+  id: 1136601
+  resolution: ''
+  status: NEW
+  summary: Installed grub (grubaa64.efi) is not signed - Yast-bootloader does not
+    support SecureBoot on aarch64
+- component: Basesystem
+  create_time: 20190528T13:29:00
+  id: 1136600
+  resolution: ''
+  status: CONFIRMED
+  summary: network bridge gets wrong (random) MAC address
+- component: Sound
+  create_time: 20190528T10:55:00
+  id: 1136562
+  resolution: FIXED
+  status: RESOLVED
+  summary: Drop hackish modprobe and helper scripts to auto-load OSS and sequencer
+    modules
+- component: Other
+  create_time: 20190528T09:48:00
+  id: 1136549
+  resolution: ''
+  status: NEW
+  summary: ncurses (yast2_lan, dialog) looks bad in LXDE but is ok on GNOME installation
+- component: Network
+  create_time: 20190528T07:55:00
+  id: 1136522
+  resolution: FIXED
+  status: RESOLVED
+  summary: openssl 1.1 is broken WRT BIO_NOCLOSE
+- component: Upgrade Problems
+  create_time: 20190528T07:55:00
+  id: 1136521
+  resolution: INVALID
+  status: RESOLVED
+  summary: git-core failure to upgrade on 20190525 snapshot
+- component: Basesystem
+  create_time: 20190528T07:49:00
+  id: 1136520
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'Transactional-update: not working with separate /boot partition'
+- component: Network
+  create_time: 20190528T07:15:00
+  id: 1136512
+  resolution: ''
+  status: NEW
+  summary: Yast2-nfs-*** comlpain about missing firewalld service
+- component: Other
+  create_time: 20190527T17:58:00
+  id: 1136486
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: exiv2 bug causes png crc errors in gimp output, please update to v0.27.1
+- component: Other
+  create_time: 20190527T17:57:00
+  id: 1136485
+  resolution: ''
+  status: NEW
+  summary: exiv2 bug causes png crc errors in gimp output, please update to v0.27.1
+- component: Other
+  create_time: 20190527T14:04:00
+  id: 1136450
+  resolution: ''
+  status: NEW
+  summary: python-acme test crash after update of openssl to 1.1.1
+- component: Kernel
+  create_time: 20190527T12:47:00
+  id: 1136436
+  resolution: ''
+  status: NEW
+  summary: btrfs maintenance crashed and left system unbootable - kernel BUG at fs/btrfs/ctree.h:3518!
+- component: YaST2
+  create_time: 20190527T11:25:00
+  id: 1136407
+  resolution: FIXED
+  status: RESOLVED
+  summary: libyui-qt-pkg legal review declined
+'20190529':
+- component: Bootloader
+  create_time: 20190602T12:32:00
+  id: 1137061
+  resolution: ''
+  status: NEW
+  summary: shim-install generates a EFI/opensuse/grub.cfg which does NOT mount btrfs
+    subvolume /boot/grub2/x86_64-efi
 - component: Other
   create_time: 20190601T15:34:00
   id: 1137055
@@ -24289,95 +24389,3 @@
   resolution: ''
   status: NEW
   summary: 'LTO: libkate build fails on i586'
-- component: Development
-  create_time: 20190528T21:30:00
-  id: 1136650
-  resolution: ''
-  status: NEW
-  summary: spyder-3.3.4-1.1 missing dependency python-spyder-kernels >= 0.4.3
-- component: YaST2
-  create_time: 20190528T20:39:00
-  id: 1136647
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Yast2 segfault when starting in Gnome3 Wayland Tubleweed snapshot 20190527
-- component: YaST2
-  create_time: 20190528T13:45:00
-  id: 1136601
-  resolution: ''
-  status: NEW
-  summary: Installed grub (grubaa64.efi) is not signed - Yast-bootloader does not
-    support SecureBoot on aarch64
-- component: Basesystem
-  create_time: 20190528T13:29:00
-  id: 1136600
-  resolution: ''
-  status: CONFIRMED
-  summary: network bridge gets wrong (random) MAC address
-- component: Sound
-  create_time: 20190528T10:55:00
-  id: 1136562
-  resolution: FIXED
-  status: RESOLVED
-  summary: Drop hackish modprobe and helper scripts to auto-load OSS and sequencer
-    modules
-- component: Other
-  create_time: 20190528T09:48:00
-  id: 1136549
-  resolution: ''
-  status: NEW
-  summary: ncurses (yast2_lan, dialog) looks bad in LXDE but is ok on GNOME installation
-- component: Network
-  create_time: 20190528T07:55:00
-  id: 1136522
-  resolution: FIXED
-  status: RESOLVED
-  summary: openssl 1.1 is broken WRT BIO_NOCLOSE
-- component: Upgrade Problems
-  create_time: 20190528T07:55:00
-  id: 1136521
-  resolution: INVALID
-  status: RESOLVED
-  summary: git-core failure to upgrade on 20190525 snapshot
-- component: Basesystem
-  create_time: 20190528T07:49:00
-  id: 1136520
-  resolution: INVALID
-  status: RESOLVED
-  summary: 'Transactional-update: not working with separate /boot partition'
-- component: Network
-  create_time: 20190528T07:15:00
-  id: 1136512
-  resolution: ''
-  status: NEW
-  summary: Yast2-nfs-*** comlpain about missing firewalld service
-- component: Other
-  create_time: 20190527T17:58:00
-  id: 1136486
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: exiv2 bug causes png crc errors in gimp output, please update to v0.27.1
-- component: Other
-  create_time: 20190527T17:57:00
-  id: 1136485
-  resolution: ''
-  status: NEW
-  summary: exiv2 bug causes png crc errors in gimp output, please update to v0.27.1
-- component: Other
-  create_time: 20190527T14:04:00
-  id: 1136450
-  resolution: ''
-  status: NEW
-  summary: python-acme test crash after update of openssl to 1.1.1
-- component: Kernel
-  create_time: 20190527T12:47:00
-  id: 1136436
-  resolution: ''
-  status: NEW
-  summary: btrfs maintenance crashed and left system unbootable - kernel BUG at fs/btrfs/ctree.h:3518!
-- component: YaST2
-  create_time: 20190527T11:25:00
-  id: 1136407
-  resolution: FIXED
-  status: RESOLVED
-  summary: libyui-qt-pkg legal review declined
