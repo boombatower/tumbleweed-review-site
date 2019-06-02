@@ -2097,6 +2097,10 @@
     summary: no summary given
 '20190529':
   announcement: 2019-06.8
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-06.18
+    reference_count: 1
+    summary: -Media.iso hangs after loading kernel
