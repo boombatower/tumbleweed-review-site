@@ -1579,12 +1579,12 @@
     summary: released! - I like this snapshot
 '20181224':
   announcement: 2018-12.160
-  reference_count: 11
+  reference_count: 12
   thread_count: 3
   threads:
   - messages:
     - 2018-12.164
-    reference_count: 1
+    reference_count: 2
     summary: ', but still no postgresql update'
   - messages:
     - 2018-12.173
@@ -2095,3 +2095,8 @@
     - 2019-05.371
     reference_count: 8
     summary: no summary given
+'20190529':
+  announcement: 2019-06.8
+  reference_count: 0
+  thread_count: 0
+  threads: []
