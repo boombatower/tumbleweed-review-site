@@ -24098,7 +24098,7 @@
   create_time: 20190528T21:30:00
   id: 1136650
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: spyder-3.3.4-1.1 missing dependency python-spyder-kernels >= 0.4.3
 - component: YaST2
   create_time: 20190528T20:39:00
