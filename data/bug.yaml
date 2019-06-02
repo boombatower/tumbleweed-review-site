@@ -24187,6 +24187,12 @@
   status: RESOLVED
   summary: libyui-qt-pkg legal review declined
 '20190529':
+- component: Containers
+  create_time: 20190602T16:29:00
+  id: 1137066
+  resolution: ''
+  status: NEW
+  summary: 'Podman: --systemd containers freeze'
 - component: Bootloader
   create_time: 20190602T12:32:00
   id: 1137061
