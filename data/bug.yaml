@@ -22279,8 +22279,8 @@
 - component: LXQt
   create_time: 20190420T04:51:00
   id: 1132937
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: LXQt menu-button opens in wrong position (on portrait display, normal on
     landscape..)
 '20190423':
@@ -23166,8 +23166,8 @@
 - component: Kubic
   create_time: 20190507T13:52:00
   id: 1134332
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Add kubic_worker and kubic_admin roles
 - component: Security
   create_time: 20190507T13:01:00
@@ -23672,8 +23672,8 @@
 - component: Basesystem
   create_time: 20190516T09:43:00
   id: 1135319
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'Upgrading arpwatch: Failed to try-restart arpwatch@.service: Unit name
     arpwatch@.service is missing the instance name.'
 - component: Installation
@@ -23866,8 +23866,8 @@
 - component: Kubic
   create_time: 20190522T18:25:00
   id: 1135980
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Can''t Complete Installation - Ruby Error Build: 20190520'
 - component: Kubic
   create_time: 20190522T16:45:00
@@ -24359,6 +24359,18 @@
   status: NEW
   summary: 'LTO: libkate build fails on i586'
 '20190601':
+- component: YaST2
+  create_time: 20190603T13:55:00
+  id: 1137129
+  resolution: ''
+  status: NEW
+  summary: yast2 crashes with a core dump
+- component: Installation
+  create_time: 20190603T13:09:00
+  id: 1137122
+  resolution: ''
+  status: NEW
+  summary: installation freezes on btrfsmaintenance package update
 - component: Basesystem
   create_time: 20190603T09:58:00
   id: 1137104
