@@ -2097,7 +2097,7 @@
     summary: no summary given
 '20190529':
   announcement: 2019-06.8
-  reference_count: 3
+  reference_count: 4
   thread_count: 2
   threads:
   - messages:
@@ -2106,7 +2106,7 @@
     summary: partitions on sdb not mounted !
   - messages:
     - 2019-06.18
-    reference_count: 2
+    reference_count: 3
     summary: -Media.iso hangs after loading kernel
 '20190601':
   announcement: 2019-06.22
