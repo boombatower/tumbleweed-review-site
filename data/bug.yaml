@@ -22931,7 +22931,7 @@
   id: 1133616
   resolution: ''
   status: IN_PROGRESS
-  summary: use after free in list_lru_add
+  summary: Out of bounds reads in list_lru_add (memcg) leading to a crash
 - component: Basesystem
   create_time: 20190428T16:50:00
   id: 1133607
