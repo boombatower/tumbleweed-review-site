@@ -21215,8 +21215,8 @@
 - component: Virtualization:Other
   create_time: 20190326T10:07:00
   id: 1130503
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: virtualbox fails to build against Qt 5.13
 - component: YaST2
   create_time: 20190326T10:05:00
@@ -22818,8 +22818,8 @@
 - component: LXDE
   create_time: 20190427T04:55:00
   id: 1133578
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: nm-applet --indicator does not allow to change networks.
 - component: Samba
   create_time: 20190426T21:22:00
@@ -22868,8 +22868,8 @@
 - component: Basesystem
   create_time: 20190426T08:08:00
   id: 1133492
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: virtualbox should not limit build system by 2 threads
 - component: Basesystem
   create_time: 20190426T08:01:00
