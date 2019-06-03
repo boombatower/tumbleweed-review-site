@@ -22929,8 +22929,8 @@
 - component: Kernel
   create_time: 20190429T04:52:00
   id: 1133616
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Out of bounds reads in list_lru_add (memcg) leading to a crash
 - component: Basesystem
   create_time: 20190428T16:50:00
@@ -24187,56 +24187,6 @@
   status: RESOLVED
   summary: libyui-qt-pkg legal review declined
 '20190529':
-- component: Basesystem
-  create_time: 20190603T06:52:00
-  id: 1137084
-  resolution: ''
-  status: NEW
-  summary: btrfsmaintenance-refresh.service is stuck during zypper up
-- component: Other
-  create_time: 20190603T00:46:00
-  id: 1137071
-  resolution: ''
-  status: NEW
-  summary: teamviewer 12,13,14 versions get error about verification failed after
-    update to wine 4.9-1006.1
-- component: Containers
-  create_time: 20190602T16:29:00
-  id: 1137066
-  resolution: ''
-  status: NEW
-  summary: 'Podman: --systemd containers freeze'
-- component: Bootloader
-  create_time: 20190602T12:32:00
-  id: 1137061
-  resolution: ''
-  status: NEW
-  summary: shim-install generates a EFI/opensuse/grub.cfg which does NOT mount btrfs
-    subvolume /boot/grub2/x86_64-efi
-- component: Other
-  create_time: 20190601T15:34:00
-  id: 1137055
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'Build20190529: wine-32bit uninstallable, version 4.9-1.15 was not published?'
-- component: KDE Workspace (Plasma)
-  create_time: 20190601T14:55:00
-  id: 1137054
-  resolution: ''
-  status: NEW
-  summary: Python Appindicator segfaults on Tumbleweed - fine on Leap
-- component: Kernel
-  create_time: 20190601T10:25:00
-  id: 1137051
-  resolution: ''
-  status: NEW
-  summary: Virtualbox guest additions fails on openSUSE Tumbleweed
-- component: Network
-  create_time: 20190601T06:35:00
-  id: 1137048
-  resolution: ''
-  status: NEW
-  summary: wireguard doesn't work
 - component: YaST2
   create_time: 20190531T19:25:00
   id: 1137024
@@ -24271,8 +24221,8 @@
 - component: Other
   create_time: 20190531T09:47:00
   id: 1136945
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190528] openQA test fails in wine: broken dependencies'
 - component: Basesystem
   create_time: 20190531T07:30:00
@@ -24408,3 +24358,60 @@
   resolution: ''
   status: NEW
   summary: 'LTO: libkate build fails on i586'
+'20190601':
+- component: Basesystem
+  create_time: 20190603T09:58:00
+  id: 1137104
+  resolution: ''
+  status: NEW
+  summary: dracut 049 breaks nfs root
+- component: Basesystem
+  create_time: 20190603T06:52:00
+  id: 1137084
+  resolution: ''
+  status: NEW
+  summary: btrfsmaintenance-refresh.service is stuck during zypper up
+- component: Other
+  create_time: 20190603T00:46:00
+  id: 1137071
+  resolution: ''
+  status: NEW
+  summary: teamviewer 12,13,14 versions get error about verification failed after
+    update to wine 4.9-1006.1
+- component: Containers
+  create_time: 20190602T16:29:00
+  id: 1137066
+  resolution: ''
+  status: NEW
+  summary: 'Podman: --systemd containers freeze'
+- component: Bootloader
+  create_time: 20190602T12:32:00
+  id: 1137061
+  resolution: ''
+  status: NEW
+  summary: shim-install generates a EFI/opensuse/grub.cfg which does NOT mount btrfs
+    subvolume /boot/grub2/x86_64-efi
+- component: Other
+  create_time: 20190601T15:34:00
+  id: 1137055
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'Build20190529: wine-32bit uninstallable, version 4.9-1.15 was not published?'
+- component: KDE Workspace (Plasma)
+  create_time: 20190601T14:55:00
+  id: 1137054
+  resolution: ''
+  status: NEW
+  summary: Python Appindicator segfaults on Tumbleweed - fine on Leap
+- component: Kernel
+  create_time: 20190601T10:25:00
+  id: 1137051
+  resolution: ''
+  status: NEW
+  summary: Virtualbox guest additions fails on openSUSE Tumbleweed
+- component: Network
+  create_time: 20190601T06:35:00
+  id: 1137048
+  resolution: ''
+  status: NEW
+  summary: wireguard doesn't work
