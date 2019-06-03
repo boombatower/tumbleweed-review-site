@@ -24190,8 +24190,8 @@
 - component: YaST2
   create_time: 20190531T19:25:00
   id: 1137024
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Yast fails to start, yast2 --qt (with root) loads ncurses version
 - component: GNOME
   create_time: 20190531T18:34:00
@@ -24359,7 +24359,7 @@
   status: NEW
   summary: 'LTO: libkate build fails on i586'
 '20190601':
-- component: YaST2
+- component: Patterns
   create_time: 20190603T13:55:00
   id: 1137129
   resolution: ''
