@@ -15561,8 +15561,8 @@
 - component: Network
   create_time: 20181114T16:43:00
   id: 1116052
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by wondershaper into native systemd services
 - component: Virtualization:Tools
   create_time: 20181114T16:29:00
@@ -15579,14 +15579,14 @@
 - component: Network
   create_time: 20181114T15:41:00
   id: 1116039
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by Supybot into native systemd services
 - component: Samba
   create_time: 20181114T15:40:00
   id: 1116038
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by smbtad into native systemd services
 - component: Other
   create_time: 20181114T15:37:00
@@ -15597,8 +15597,8 @@
 - component: Basesystem
   create_time: 20181114T15:35:00
   id: 1116036
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by scsirastools into native systemd services
 - component: Other
   create_time: 20181114T15:34:00
@@ -15621,14 +15621,14 @@
 - component: Network
   create_time: 20181114T15:29:00
   id: 1116032
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by pen into native systemd services
 - component: Network
   create_time: 20181114T15:28:00
   id: 1116030
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by pdnsd into native systemd services
 - component: OpenStack
   create_time: 20181114T15:25:00
@@ -15639,8 +15639,8 @@
 - component: Other
   create_time: 20181114T15:19:00
   id: 1116025
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Please convert SysV init scripts by nxtvepg into native systemd services
 - component: Basesystem
   create_time: 20181114T15:18:00
@@ -15663,8 +15663,8 @@
 - component: Other
   create_time: 20181114T15:15:00
   id: 1116020
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by mailgraph into native systemd services
 - component: Basesystem
   create_time: 20181114T15:13:00
@@ -15729,8 +15729,8 @@
 - component: Network
   create_time: 20181114T14:25:00
   id: 1116007
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by dkimproxy into native systemd services
 - component: Installation
   create_time: 20181114T14:24:00
@@ -15749,8 +15749,8 @@
 - component: Other
   create_time: 20181114T14:07:00
   id: 1115999
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert SysV init scripts by cyrus-imapd into native systemd services
 - component: Kernel
   create_time: 20181114T14:03:00
@@ -15761,8 +15761,8 @@
 - component: Other
   create_time: 20181114T14:01:00
   id: 1115997
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Please convert  SysV init scripts shipped by xrootd-server into native
     systemd services.
 - component: Installation
@@ -21014,7 +21014,7 @@
   create_time: 20190318T11:00:00
   id: 1129566
   resolution: ''
-  status: REOPENED
+  status: IN_PROGRESS
   summary: ignition cannot write to /sysroot/etc with transactional-updates
 '20190320':
 - component: Kernel
@@ -24187,6 +24187,12 @@
   status: RESOLVED
   summary: libyui-qt-pkg legal review declined
 '20190529':
+- component: Basesystem
+  create_time: 20190603T06:52:00
+  id: 1137084
+  resolution: ''
+  status: NEW
+  summary: btrfsmaintenance-refresh.service is stuck during zypper up
 - component: Other
   create_time: 20190603T00:46:00
   id: 1137071
