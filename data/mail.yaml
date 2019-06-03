@@ -2097,9 +2097,13 @@
     summary: no summary given
 '20190529':
   announcement: 2019-06.8
-  reference_count: 1
-  thread_count: 1
+  reference_count: 2
+  thread_count: 2
   threads:
+  - messages:
+    - 2019-06.19
+    reference_count: 1
+    summary: partitions on sdb not mounted !
   - messages:
     - 2019-06.18
     reference_count: 1
