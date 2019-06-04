@@ -24359,6 +24359,12 @@
   status: NEW
   summary: 'LTO: libkate build fails on i586'
 '20190601':
+- component: Other
+  create_time: 20190604T16:01:00
+  id: 1137275
+  resolution: ''
+  status: NEW
+  summary: Ledger package uninstallable due to nothing providing libboost 1.68.0
 - component: Upgrade Problems
   create_time: 20190604T15:32:00
   id: 1137270
