@@ -24364,7 +24364,7 @@
   id: 1137164
   resolution: ''
   status: NEW
-  summary: GNOME updater does not request EULA confirmation
+  summary: GNOME gnome-software does not request EULA confirmation
 - component: Virtualization:Other
   create_time: 20190603T19:00:00
   id: 1137161
