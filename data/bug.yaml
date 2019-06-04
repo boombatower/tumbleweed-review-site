@@ -23799,7 +23799,7 @@
   id: 1135634
   resolution: DUPLICATE
   status: RESOLVED
-  summary: Notification area not available for intaraction
+  summary: Notification area not available for interaction
 - component: YaST2
   create_time: 20190520T11:58:00
   id: 1135633
@@ -24171,8 +24171,8 @@
 - component: Other
   create_time: 20190527T14:04:00
   id: 1136450
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: python-acme test crash after update of openssl to 1.1.1
 - component: Kernel
   create_time: 20190527T12:47:00
@@ -24359,6 +24359,24 @@
   status: NEW
   summary: 'LTO: libkate build fails on i586'
 '20190601':
+- component: X11 Applications
+  create_time: 20190604T09:43:00
+  id: 1137215
+  resolution: ''
+  status: NEW
+  summary: wine update requires wine-32bits which is not available
+- component: Other
+  create_time: 20190604T08:24:00
+  id: 1137203
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190602] openQA test fails in tk'
+- component: Kubic
+  create_time: 20190604T07:30:00
+  id: 1137196
+  resolution: ''
+  status: CONFIRMED
+  summary: chrony-wait.service not enabled
 - component: GNOME
   create_time: 20190603T19:39:00
   id: 1137164
