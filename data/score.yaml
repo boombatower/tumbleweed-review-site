@@ -827,5 +827,8 @@
   score: 76
   stability_level: pending
 '20190601':
-  score: 88
+  score: 90
+  stability_level: pending
+'20190603':
+  score: 94
   stability_level: pending
