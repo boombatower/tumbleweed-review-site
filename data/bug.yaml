@@ -24359,6 +24359,44 @@
   status: NEW
   summary: 'LTO: libkate build fails on i586'
 '20190601':
+- component: Containers
+  create_time: 20190602T16:29:00
+  id: 1137066
+  resolution: ''
+  status: NEW
+  summary: 'Podman: --systemd containers freeze'
+- component: YaST2
+  create_time: 20190602T12:32:00
+  id: 1137061
+  resolution: ''
+  status: NEW
+  summary: shim-install generates a EFI/opensuse/grub.cfg which does NOT mount btrfs
+    subvolume /boot/grub2/x86_64-efi
+- component: Other
+  create_time: 20190601T15:34:00
+  id: 1137055
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'Build20190529: wine-32bit uninstallable, version 4.9-1.15 was not published?'
+- component: KDE Workspace (Plasma)
+  create_time: 20190601T14:55:00
+  id: 1137054
+  resolution: ''
+  status: NEW
+  summary: Python Appindicator segfaults on Tumbleweed - fine on Leap
+- component: Kernel
+  create_time: 20190601T10:25:00
+  id: 1137051
+  resolution: ''
+  status: NEW
+  summary: Virtualbox guest additions fails on openSUSE Tumbleweed
+- component: Network
+  create_time: 20190601T06:35:00
+  id: 1137048
+  resolution: ''
+  status: NEW
+  summary: wireguard doesn't work
+'20190603':
 - component: Other
   create_time: 20190604T16:01:00
   id: 1137275
@@ -24451,40 +24489,3 @@
   status: NEW
   summary: teamviewer 12,13,14 versions get error about verification failed after
     update to wine 4.9-1006.1
-- component: Containers
-  create_time: 20190602T16:29:00
-  id: 1137066
-  resolution: ''
-  status: NEW
-  summary: 'Podman: --systemd containers freeze'
-- component: YaST2
-  create_time: 20190602T12:32:00
-  id: 1137061
-  resolution: ''
-  status: NEW
-  summary: shim-install generates a EFI/opensuse/grub.cfg which does NOT mount btrfs
-    subvolume /boot/grub2/x86_64-efi
-- component: Other
-  create_time: 20190601T15:34:00
-  id: 1137055
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'Build20190529: wine-32bit uninstallable, version 4.9-1.15 was not published?'
-- component: KDE Workspace (Plasma)
-  create_time: 20190601T14:55:00
-  id: 1137054
-  resolution: ''
-  status: NEW
-  summary: Python Appindicator segfaults on Tumbleweed - fine on Leap
-- component: Kernel
-  create_time: 20190601T10:25:00
-  id: 1137051
-  resolution: ''
-  status: NEW
-  summary: Virtualbox guest additions fails on openSUSE Tumbleweed
-- component: Network
-  create_time: 20190601T06:35:00
-  id: 1137048
-  resolution: ''
-  status: NEW
-  summary: wireguard doesn't work
