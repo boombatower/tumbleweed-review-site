@@ -10754,8 +10754,8 @@
 - component: Other
   create_time: 20180721T07:23:00
   id: 1102126
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Ansible zypper module fails
 '20180722':
 - component: Translations
@@ -24441,6 +24441,12 @@
   summary: teamviewer 12,13,14 versions get error about verification failed after
     update to wine 4.9-1006.1
 '20190604':
+- component: Basesystem
+  create_time: 20190605T17:07:00
+  id: 1137373
+  resolution: ''
+  status: NEW
+  summary: Systemd mount and unmount partition during boot
 - component: Kernel
   create_time: 20190605T15:20:00
   id: 1137361
