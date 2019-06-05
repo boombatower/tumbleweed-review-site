@@ -8381,8 +8381,8 @@
 - component: Basesystem
   create_time: 20180515T10:44:00
   id: 1093320
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: nscd crashes its service with SIGABRT
 - component: Basesystem
   create_time: 20180515T09:29:00
@@ -19208,8 +19208,8 @@
 - component: Patterns
   create_time: 20190213T09:20:00
   id: 1125267
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: apparmor-utils is not installed from DVD anymore
 - component: LibreOffice
   create_time: 20190212T22:53:00
@@ -20514,8 +20514,8 @@
 - component: Kernel
   create_time: 20190308T16:18:00
   id: 1128546
-  resolution: ''
-  status: CONFIRMED
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '''Unable to handle kernel paging request at virtual address ffffd5023df74718''
     error on iptable'
 - component: Other
@@ -21772,7 +21772,7 @@
   create_time: 20190408T14:28:00
   id: 1131864
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: OOPS in nf_getsockopt on aarch64
 - component: Basesystem
   create_time: 20190408T11:38:00
@@ -23202,8 +23202,8 @@
 - component: Kernel
   create_time: 20190507T10:28:00
   id: 1134303
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: aarch64 kernels are not signed
 - component: Other
   create_time: 20190507T09:41:00
@@ -23496,8 +23496,8 @@
 - component: Kernel
   create_time: 20190515T14:14:00
   id: 1135217
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190513] openQA test fails in kdump_and_crash - no kdump initial
     ramdisk found'
 - component: Basesystem
@@ -24015,8 +24015,8 @@
 - component: Kubic
   create_time: 20190524T14:58:00
   id: 1136246
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Invalid certificate with Admin node. build 20190521
 - component: Kubic
   create_time: 20190524T14:50:00
@@ -24129,8 +24129,8 @@
 - component: Other
   create_time: 20190528T09:48:00
   id: 1136549
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: ncurses (yast2_lan, dialog) looks bad in LXDE but is ok on GNOME installation
 - component: Network
   create_time: 20190528T07:55:00
@@ -24275,8 +24275,8 @@
 - component: Kubic
   create_time: 20190529T23:44:00
   id: 1136815
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Unable to install from kubic dvd due to missing bcache-tools
 - component: Development
   create_time: 20190529T21:01:00
@@ -24397,6 +24397,12 @@
   status: NEW
   summary: wireguard doesn't work
 '20190603':
+- component: Other
+  create_time: 20190605T08:53:00
+  id: 1137320
+  resolution: ''
+  status: NEW
+  summary: wine-devel .a files differ from randomness
 - component: Other
   create_time: 20190604T16:01:00
   id: 1137275
