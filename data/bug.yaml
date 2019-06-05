@@ -22272,8 +22272,8 @@
 - component: Virtualization:Other
   create_time: 20190420T12:40:00
   id: 1132941
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'TW 20190418 VirtualBox: Windows 7 Guest BSOD with "The BIOS in this system
     is not fully ACPI compliant"'
 - component: LXQt
@@ -23972,8 +23972,8 @@
 - component: AppArmor
   create_time: 20190521T09:57:00
   id: 1135751
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Staging] apparmor fails to build against swig 4.0'
 - component: Other
   create_time: 20190521T09:56:00
@@ -24418,8 +24418,8 @@
 - component: Basesystem
   create_time: 20190604T14:32:00
   id: 1137257
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'permissions-config: missing correct requires'
 - component: Kubic
   create_time: 20190604T14:14:00
