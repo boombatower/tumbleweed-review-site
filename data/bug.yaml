@@ -22684,7 +22684,7 @@
   create_time: 20190423T12:18:00
   id: 1133099
   resolution: ''
-  status: IN_PROGRESS
+  status: REOPENED
   summary: 'LTO: rdma-core build fails'
 - component: Basesystem
   create_time: 20190423T12:16:00
@@ -23358,7 +23358,7 @@
   create_time: 20190510T22:49:00
   id: 1134787
   resolution: ''
-  status: REOPENED
+  status: CONFIRMED
   summary: BT device connects and immediately disconnects on poweron
 - component: Basesystem
   create_time: 20190510T16:34:00
@@ -24397,6 +24397,62 @@
   status: NEW
   summary: wireguard doesn't work
 '20190603':
+- component: GNOME
+  create_time: 20190603T19:39:00
+  id: 1137164
+  resolution: ''
+  status: NEW
+  summary: GNOME gnome-software does not request EULA confirmation
+- component: Virtualization:Other
+  create_time: 20190603T19:00:00
+  id: 1137161
+  resolution: ''
+  status: NEW
+  summary: vboxdrv.service fails to start after kernel upgrades
+- component: Patterns
+  create_time: 20190603T13:55:00
+  id: 1137129
+  resolution: ''
+  status: NEW
+  summary: yast2 crashes with a core dump
+- component: Installation
+  create_time: 20190603T13:09:00
+  id: 1137122
+  resolution: ''
+  status: NEW
+  summary: installation freezes on btrfsmaintenance package update
+- component: Basesystem
+  create_time: 20190603T09:58:00
+  id: 1137104
+  resolution: ''
+  status: NEW
+  summary: dracut 049 breaks nfs root
+- component: Basesystem
+  create_time: 20190603T06:52:00
+  id: 1137084
+  resolution: ''
+  status: NEW
+  summary: btrfsmaintenance-refresh.service is stuck during zypper up
+- component: Other
+  create_time: 20190603T00:46:00
+  id: 1137071
+  resolution: ''
+  status: NEW
+  summary: teamviewer 12,13,14 versions get error about verification failed after
+    update to wine 4.9-1006.1
+'20190604':
+- component: Kernel
+  create_time: 20190605T15:20:00
+  id: 1137361
+  resolution: ''
+  status: NEW
+  summary: Enhance kvmsmall config with paravirtualized modules
+- component: Basesystem
+  create_time: 20190605T12:59:00
+  id: 1137341
+  resolution: ''
+  status: NEW
+  summary: systemd-timesyncd fails to start
 - component: Other
   create_time: 20190605T08:53:00
   id: 1137320
@@ -24452,46 +24508,3 @@
   resolution: ''
   status: CONFIRMED
   summary: chrony-wait.service not enabled
-- component: GNOME
-  create_time: 20190603T19:39:00
-  id: 1137164
-  resolution: ''
-  status: NEW
-  summary: GNOME gnome-software does not request EULA confirmation
-- component: Virtualization:Other
-  create_time: 20190603T19:00:00
-  id: 1137161
-  resolution: ''
-  status: NEW
-  summary: vboxdrv.service fails to start after kernel upgrades
-- component: Patterns
-  create_time: 20190603T13:55:00
-  id: 1137129
-  resolution: ''
-  status: NEW
-  summary: yast2 crashes with a core dump
-- component: Installation
-  create_time: 20190603T13:09:00
-  id: 1137122
-  resolution: ''
-  status: NEW
-  summary: installation freezes on btrfsmaintenance package update
-- component: Basesystem
-  create_time: 20190603T09:58:00
-  id: 1137104
-  resolution: ''
-  status: NEW
-  summary: dracut 049 breaks nfs root
-- component: Basesystem
-  create_time: 20190603T06:52:00
-  id: 1137084
-  resolution: ''
-  status: NEW
-  summary: btrfsmaintenance-refresh.service is stuck during zypper up
-- component: Other
-  create_time: 20190603T00:46:00
-  id: 1137071
-  resolution: ''
-  status: NEW
-  summary: teamviewer 12,13,14 versions get error about verification failed after
-    update to wine 4.9-1006.1
