@@ -19061,8 +19061,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190206T22:08:00
   id: 1124544
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Screen not locked after suspend
 - component: Installation
   create_time: 20190206T21:34:00
@@ -24441,6 +24441,18 @@
   summary: teamviewer 12,13,14 versions get error about verification failed after
     update to wine 4.9-1006.1
 '20190604':
+- component: Other
+  create_time: 20190605T19:26:00
+  id: 1137383
+  resolution: ''
+  status: NEW
+  summary: 'python-virtualenv: creating virtualenvs fails in directories with colons'
+- component: Java
+  create_time: 20190605T19:13:00
+  id: 1137382
+  resolution: ''
+  status: NEW
+  summary: java-11-openjdk obsoletes java-10-openjdk
 - component: Basesystem
   create_time: 20190605T17:07:00
   id: 1137373
