@@ -24228,7 +24228,7 @@
   create_time: 20190531T07:30:00
   id: 1136927
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20190528] System does not use same network names after update'
 - component: Other
   create_time: 20190531T01:35:00
