@@ -16935,8 +16935,8 @@
 - component: Kernel
   create_time: 20181218T22:23:00
   id: 1119895
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Factory: kmod fails to build on s390x'
 - component: libzypp
   create_time: 20181218T17:31:00
@@ -24110,7 +24110,7 @@
   create_time: 20190528T13:45:00
   id: 1136601
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Installed grub (grubaa64.efi) is not signed - Yast-bootloader does not
     support SecureBoot on aarch64
 - component: Basesystem
