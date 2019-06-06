@@ -12652,8 +12652,8 @@
 - component: Other
   create_time: 20180917T11:41:00
   id: 1108655
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: memcached x86_64 build failed on Factory
 - component: Network
   create_time: 20180917T11:06:00
@@ -13499,8 +13499,8 @@
 - component: Other
   create_time: 20181013T04:11:00
   id: 1111740
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/ruby'
 - component: Other
   create_time: 20181013T04:09:00
@@ -16243,8 +16243,8 @@
 - component: Ruby
   create_time: 20181123T09:06:00
   id: 1117113
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'ruby2.5: make: invalid option -- ''x'' in build'
 - component: Kernel
   create_time: 20181123T06:25:00
