@@ -24441,6 +24441,68 @@
   summary: teamviewer 12,13,14 versions get error about verification failed after
     update to wine 4.9-1006.1
 '20190604':
+- component: Other
+  create_time: 20190604T16:01:00
+  id: 1137275
+  resolution: ''
+  status: NEW
+  summary: Ledger package uninstallable due to nothing providing libboost 1.68.0
+- component: Upgrade Problems
+  create_time: 20190604T15:32:00
+  id: 1137270
+  resolution: ''
+  status: NEW
+  summary: TW 5.1.3 --> 5.1.5 update fails with python3-cairo file size mismatch
+- component: Basesystem
+  create_time: 20190604T14:32:00
+  id: 1137257
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'permissions-config: missing correct requires'
+- component: Kubic
+  create_time: 20190604T14:14:00
+  id: 1137253
+  resolution: FIXED
+  status: RESOLVED
+  summary: crio is using overlay instead of btrfs
+- component: Basesystem
+  create_time: 20190604T12:09:00
+  id: 1137230
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190524] openQA test fails in shutdown - QEMU CD-ROM pop-up is
+    displayed on shutdown'
+- component: X11 Applications
+  create_time: 20190604T09:43:00
+  id: 1137215
+  resolution: FIXED
+  status: RESOLVED
+  summary: wine update requires wine-32bits which is not available
+- component: Other
+  create_time: 20190604T08:24:00
+  id: 1137203
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190602] openQA test fails in tk'
+- component: Kubic
+  create_time: 20190604T07:30:00
+  id: 1137196
+  resolution: ''
+  status: CONFIRMED
+  summary: chrony-wait.service not enabled
+'20190605':
+- component: Kernel
+  create_time: 20190606T18:38:00
+  id: 1137540
+  resolution: ''
+  status: NEW
+  summary: Kernel oops in khugepaged
+- component: GNOME
+  create_time: 20190606T18:01:00
+  id: 1137537
+  resolution: ''
+  status: NEW
+  summary: Issue with flatpak
 - component: MicroOS
   create_time: 20190606T09:15:00
   id: 1137460
@@ -24495,52 +24557,3 @@
   resolution: ''
   status: NEW
   summary: wine-devel .a files differ from randomness
-- component: Other
-  create_time: 20190604T16:01:00
-  id: 1137275
-  resolution: ''
-  status: NEW
-  summary: Ledger package uninstallable due to nothing providing libboost 1.68.0
-- component: Upgrade Problems
-  create_time: 20190604T15:32:00
-  id: 1137270
-  resolution: ''
-  status: NEW
-  summary: TW 5.1.3 --> 5.1.5 update fails with python3-cairo file size mismatch
-- component: Basesystem
-  create_time: 20190604T14:32:00
-  id: 1137257
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'permissions-config: missing correct requires'
-- component: Kubic
-  create_time: 20190604T14:14:00
-  id: 1137253
-  resolution: FIXED
-  status: RESOLVED
-  summary: crio is using overlay instead of btrfs
-- component: Basesystem
-  create_time: 20190604T12:09:00
-  id: 1137230
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190524] openQA test fails in shutdown - QEMU CD-ROM pop-up is
-    displayed on shutdown'
-- component: X11 Applications
-  create_time: 20190604T09:43:00
-  id: 1137215
-  resolution: FIXED
-  status: RESOLVED
-  summary: wine update requires wine-32bits which is not available
-- component: Other
-  create_time: 20190604T08:24:00
-  id: 1137203
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190602] openQA test fails in tk'
-- component: Kubic
-  create_time: 20190604T07:30:00
-  id: 1137196
-  resolution: ''
-  status: CONFIRMED
-  summary: chrony-wait.service not enabled
