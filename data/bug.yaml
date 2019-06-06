@@ -9420,8 +9420,8 @@
 - component: Kernel
   create_time: 20180615T11:51:00
   id: 1097841
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: '[Build 2094.1] openQA test fails in first_boot - sometime got kernel panic'
 - component: YaST2
   create_time: 20180615T11:46:00
@@ -12639,8 +12639,8 @@
 - component: Kernel
   create_time: 20180917T16:04:00
   id: 1108689
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: After BIOS update of my HP Envy x360 13m-ag0xxx (AMD Ryzen 7 2700U) Linux
     startup freezes with blank screen
 - component: Kernel
@@ -24441,6 +24441,24 @@
   summary: teamviewer 12,13,14 versions get error about verification failed after
     update to wine 4.9-1006.1
 '20190604':
+- component: MicroOS
+  create_time: 20190606T09:15:00
+  id: 1137460
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed packages not visible in MicroOS installer
+- component: KDE Workspace (Plasma)
+  create_time: 20190606T08:21:00
+  id: 1137448
+  resolution: ''
+  status: NEW
+  summary: plasma5-pk-updates does not update notifications
+- component: Xfce
+  create_time: 20190606T07:24:00
+  id: 1137433
+  resolution: ''
+  status: NEW
+  summary: display-manager.service fails after recent update
 - component: Other
   create_time: 20190605T19:26:00
   id: 1137383
