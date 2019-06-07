@@ -7741,8 +7741,8 @@
 - component: YaST2
   create_time: 20180510T23:59:00
   id: 1092845
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: YaST displays wrong title for applications in Gnome
 - component: Development
   create_time: 20180510T23:42:00
@@ -15926,8 +15926,8 @@
 - component: Kernel
   create_time: 20181112T10:22:00
   id: 1115602
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kernel BUG at security/selinux/avc.c:147
 - component: Security
   create_time: 20181112T09:28:00
@@ -16053,7 +16053,7 @@
   create_time: 20181119T15:30:00
   id: 1116584
   resolution: ''
-  status: REOPENED
+  status: CONFIRMED
   summary: libyui-qt* missing after latest TW upgrade
 - component: YaST2
   create_time: 20181119T13:23:00
@@ -16681,8 +16681,8 @@
 - component: Kernel
   create_time: 20181209T12:08:00
   id: 1118868
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kernel panic on shutdown
 - component: Other
   create_time: 20181208T21:55:00
@@ -17764,8 +17764,8 @@
 - component: Kernel
   create_time: 20190111T17:02:00
   id: 1121654
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: 'Warning: modules_install: missing ''System.map'' file. Skipping depmod'
 - component: X.Org
   create_time: 20190111T15:21:00
@@ -19037,8 +19037,8 @@
 - component: Kubic
   create_time: 20190207T09:48:00
   id: 1124590
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: openSUSE-release and openSUSE-Tumbleweed-Kubic-release marked for installation
 - component: YaST2
   create_time: 20190207T09:23:00
@@ -21013,8 +21013,8 @@
 - component: Kubic
   create_time: 20190318T11:00:00
   id: 1129566
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: ignition cannot write to /sysroot/etc with transactional-updates
 '20190320':
 - component: Kernel
@@ -23190,8 +23190,8 @@
 - component: Basesystem
   create_time: 20190507T12:38:00
   id: 1134320
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: gpg does not work anymore
 - component: Kernel
   create_time: 20190507T10:35:00
@@ -24482,7 +24482,7 @@
   create_time: 20190604T08:24:00
   id: 1137203
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20190602] openQA test fails in tk'
 - component: Kubic
   create_time: 20190604T07:30:00
