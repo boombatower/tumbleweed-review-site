@@ -19430,8 +19430,8 @@
 - component: Security
   create_time: 20190214T10:58:00
   id: 1125433
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'gvfs: removal of /usr/share/polkit-1/rules.d/org.gtk.vfs.file-operations.rules'
 - component: Security
   create_time: 20190214T10:43:00
@@ -24528,6 +24528,12 @@
   status: NEW
   summary: wine-devel .a files differ from randomness
 '20190606':
+- component: Other
+  create_time: 20190607T20:14:00
+  id: 1137665
+  resolution: ''
+  status: NEW
+  summary: mpv-plugin-mpris exits with an error
 - component: Kernel
   create_time: 20190607T14:23:00
   id: 1137649
