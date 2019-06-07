@@ -21337,8 +21337,8 @@
 - component: Other
   create_time: 20190331T07:59:00
   id: 1131072
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: fonts-config overrides local fontconfig settings
 - component: KDE Applications
   create_time: 20190330T13:47:00
@@ -24491,6 +24491,12 @@
   status: CONFIRMED
   summary: chrony-wait.service not enabled
 '20190605':
+- component: GNOME
+  create_time: 20190607T06:06:00
+  id: 1137569
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
 - component: Kernel
   create_time: 20190606T18:38:00
   id: 1137540
