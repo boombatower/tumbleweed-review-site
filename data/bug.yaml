@@ -21406,7 +21406,7 @@
   create_time: 20190328T13:33:00
   id: 1130843
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Tomcat TLS Broken - Tomcat 9.0.14 update incompatible with tomcat-native
 - component: Other
   create_time: 20190328T09:31:00
@@ -23978,8 +23978,8 @@
 - component: Other
   create_time: 20190521T09:56:00
   id: 1135750
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Staging] ldns fails to build against swig 4.0'
 - component: libzypp
   create_time: 20190521T09:54:00
@@ -24491,42 +24491,6 @@
   status: CONFIRMED
   summary: chrony-wait.service not enabled
 '20190605':
-- component: GNOME
-  create_time: 20190607T06:06:00
-  id: 1137569
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
-- component: Kernel
-  create_time: 20190606T18:38:00
-  id: 1137540
-  resolution: ''
-  status: NEW
-  summary: Kernel oops in khugepaged
-- component: GNOME
-  create_time: 20190606T18:01:00
-  id: 1137537
-  resolution: ''
-  status: NEW
-  summary: Issue with flatpak
-- component: MicroOS
-  create_time: 20190606T09:15:00
-  id: 1137460
-  resolution: ''
-  status: NEW
-  summary: Tumbleweed packages not visible in MicroOS installer
-- component: KDE Workspace (Plasma)
-  create_time: 20190606T08:21:00
-  id: 1137448
-  resolution: ''
-  status: NEW
-  summary: plasma5-pk-updates does not update notifications
-- component: Xfce
-  create_time: 20190606T07:24:00
-  id: 1137433
-  resolution: ''
-  status: NEW
-  summary: display-manager.service fails after recent update
 - component: Other
   create_time: 20190605T19:26:00
   id: 1137383
@@ -24563,3 +24527,53 @@
   resolution: ''
   status: NEW
   summary: wine-devel .a files differ from randomness
+'20190606':
+- component: Kernel
+  create_time: 20190607T14:23:00
+  id: 1137649
+  resolution: ''
+  status: NEW
+  summary: No bbswitch-kmp-default package for kernel 5.1.7
+- component: Basesystem
+  create_time: 20190607T14:18:00
+  id: 1137648
+  resolution: ''
+  status: NEW
+  summary: Update lvm 2 to 2.02.185 or backport commit e268b to fix occasional slow
+    shutdowns with kernel 5.0.0 and up.
+- component: GNOME
+  create_time: 20190607T06:06:00
+  id: 1137569
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
+- component: Kernel
+  create_time: 20190606T18:38:00
+  id: 1137540
+  resolution: ''
+  status: NEW
+  summary: Kernel oops in khugepaged
+- component: GNOME
+  create_time: 20190606T18:01:00
+  id: 1137537
+  resolution: ''
+  status: NEW
+  summary: Issue with flatpak
+- component: MicroOS
+  create_time: 20190606T09:15:00
+  id: 1137460
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed packages not visible in MicroOS installer
+- component: KDE Workspace (Plasma)
+  create_time: 20190606T08:21:00
+  id: 1137448
+  resolution: ''
+  status: NEW
+  summary: plasma5-pk-updates does not update notifications
+- component: Xfce
+  create_time: 20190606T07:24:00
+  id: 1137433
+  resolution: ''
+  status: NEW
+  summary: display-manager.service fails after recent update
