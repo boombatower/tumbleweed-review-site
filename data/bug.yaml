@@ -19562,8 +19562,8 @@
 - component: Kernel
   create_time: 20190215T16:33:00
   id: 1125619
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: System does reboot instead of doing shutdown
 - component: Basesystem
   create_time: 20190215T15:40:00
@@ -20244,8 +20244,8 @@
 - component: Kernel
   create_time: 20190303T16:04:00
   id: 1127616
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Realtek RTS522A / rtsx_pci SD card reader does not work
 - component: Basesystem
   create_time: 20190303T15:31:00
