@@ -24529,6 +24529,12 @@
   summary: wine-devel .a files differ from randomness
 '20190606':
 - component: Other
+  create_time: 20190608T06:34:00
+  id: 1137680
+  resolution: ''
+  status: NEW
+  summary: bitcoin 32-bit latest version not available
+- component: Other
   create_time: 20190607T20:14:00
   id: 1137665
   resolution: ''
