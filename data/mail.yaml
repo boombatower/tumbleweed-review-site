@@ -2135,10 +2135,10 @@
   threads: []
 '20190607':
   announcement: 2019-06.115
-  reference_count: 1
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
     - 2019-06.119
-    reference_count: 1
+    reference_count: 7
     summary: signal-desktop crashing, destroyed desktop icons
