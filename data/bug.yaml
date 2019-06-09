@@ -24560,6 +24560,18 @@
   summary: display-manager.service fails after recent update
 '20190607':
 - component: Other
+  create_time: 20190609T11:09:00
+  id: 1137687
+  resolution: ''
+  status: NEW
+  summary: Error while installing liblz1-1.11-1.2.x86_64
+- component: Kernel
+  create_time: 20190609T11:06:00
+  id: 1137686
+  resolution: ''
+  status: NEW
+  summary: Compile the kernel with CONFIG_SCSI_SCAN_ASYNC=y
+- component: Other
   create_time: 20190608T06:34:00
   id: 1137680
   resolution: ''
@@ -24574,8 +24586,8 @@
 - component: Kernel
   create_time: 20190607T14:23:00
   id: 1137649
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: No bbswitch-kmp-default package for kernel 5.1.7
 - component: Basesystem
   create_time: 20190607T14:18:00
