@@ -24166,7 +24166,7 @@
   create_time: 20190527T17:57:00
   id: 1136485
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: exiv2 bug causes png crc errors in gimp output, please update to v0.27.1
 - component: Other
   create_time: 20190527T14:04:00
@@ -24559,6 +24559,12 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: YaST2
+  create_time: 20190609T16:34:00
+  id: 1137688
+  resolution: ''
+  status: NEW
+  summary: YaST Kernel Settings enable SysRq -> /proc/sys/kernel/sysrq value = 184
 - component: Other
   create_time: 20190609T11:09:00
   id: 1137687
