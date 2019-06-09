@@ -24528,6 +24528,37 @@
   status: NEW
   summary: wine-devel .a files differ from randomness
 '20190606':
+- component: Kernel
+  create_time: 20190606T18:38:00
+  id: 1137540
+  resolution: ''
+  status: NEW
+  summary: Kernel oops in khugepaged
+- component: GNOME
+  create_time: 20190606T18:01:00
+  id: 1137537
+  resolution: ''
+  status: NEW
+  summary: Issue with flatpak
+- component: MicroOS
+  create_time: 20190606T09:15:00
+  id: 1137460
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed packages not visible in MicroOS installer
+- component: KDE Workspace (Plasma)
+  create_time: 20190606T08:21:00
+  id: 1137448
+  resolution: ''
+  status: NEW
+  summary: plasma5-pk-updates does not update notifications
+- component: Xfce
+  create_time: 20190606T07:24:00
+  id: 1137433
+  resolution: ''
+  status: NEW
+  summary: display-manager.service fails after recent update
+'20190607':
 - component: Other
   create_time: 20190608T06:34:00
   id: 1137680
@@ -24559,33 +24590,3 @@
   resolution: ''
   status: NEW
   summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
-- component: Kernel
-  create_time: 20190606T18:38:00
-  id: 1137540
-  resolution: ''
-  status: NEW
-  summary: Kernel oops in khugepaged
-- component: GNOME
-  create_time: 20190606T18:01:00
-  id: 1137537
-  resolution: ''
-  status: NEW
-  summary: Issue with flatpak
-- component: MicroOS
-  create_time: 20190606T09:15:00
-  id: 1137460
-  resolution: ''
-  status: NEW
-  summary: Tumbleweed packages not visible in MicroOS installer
-- component: KDE Workspace (Plasma)
-  create_time: 20190606T08:21:00
-  id: 1137448
-  resolution: ''
-  status: NEW
-  summary: plasma5-pk-updates does not update notifications
-- component: Xfce
-  create_time: 20190606T07:24:00
-  id: 1137433
-  resolution: ''
-  status: NEW
-  summary: display-manager.service fails after recent update
