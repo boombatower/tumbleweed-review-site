@@ -24559,6 +24559,18 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: AppArmor
+  create_time: 20190609T19:23:00
+  id: 1137693
+  resolution: ''
+  status: NEW
+  summary: AppArmor 2.13.2-9.1 breaks root login from normal user session completely
+- component: Sound
+  create_time: 20190609T18:00:00
+  id: 1137689
+  resolution: ''
+  status: NEW
+  summary: general protection fault in libopenal.so.1.19.1
 - component: YaST2
   create_time: 20190609T16:34:00
   id: 1137688
