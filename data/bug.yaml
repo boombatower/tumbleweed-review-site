@@ -24215,8 +24215,8 @@
 - component: Kernel
   create_time: 20190531T10:24:00
   id: 1136950
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: VERIFIED
   summary: Kernel 5.2-rc2 relocation overflow errors breaking boot
 - component: Other
   create_time: 20190531T09:47:00
@@ -24559,17 +24559,17 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
-- component: KDE Applications
+- component: Basesystem
   create_time: 20190610T07:23:00
   id: 1137716
   resolution: ''
-  status: NEW
-  summary: pam_kwallet breaks sudo and kdesu
+  status: CONFIRMED
+  summary: libgcrypt drops setuid privs, breaking pam_kwallet with sudo
 - component: AppArmor
   create_time: 20190609T19:23:00
   id: 1137693
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: AppArmor 2.13.2-9.1 breaks root login from normal user session completely
 - component: Sound
   create_time: 20190609T18:00:00
