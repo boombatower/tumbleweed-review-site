@@ -24559,6 +24559,12 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: Other
+  create_time: 20190610T17:39:00
+  id: 1137785
+  resolution: ''
+  status: NEW
+  summary: Clementine always crashing
 - component: Basesystem
   create_time: 20190610T07:23:00
   id: 1137716
