@@ -21405,8 +21405,8 @@
 - component: Java
   create_time: 20190328T13:33:00
   id: 1130843
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Tomcat TLS Broken - Tomcat 9.0.14 update incompatible with tomcat-native
 - component: Other
   create_time: 20190328T09:31:00
