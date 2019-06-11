@@ -21245,8 +21245,8 @@
 - component: Other
   create_time: 20190325T19:21:00
   id: 1130438
-  resolution: ''
-  status: CONFIRMED
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: meep fails 1 test on old CPU
 - component: YaST2
   create_time: 20190325T15:51:00
@@ -21771,8 +21771,8 @@
 - component: Kernel
   create_time: 20190408T14:28:00
   id: 1131864
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: OOPS in nf_getsockopt on aarch64
 - component: Basesystem
   create_time: 20190408T11:38:00
@@ -24538,7 +24538,7 @@
   create_time: 20190606T18:01:00
   id: 1137537
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Issue with flatpak
 - component: MicroOS
   create_time: 20190606T09:15:00
@@ -24559,6 +24559,12 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: Printing
+  create_time: 20190611T10:12:00
+  id: 1137846
+  resolution: ''
+  status: NEW
+  summary: Bug in sane-backends genesys.c. Hardware damage is possible
 - component: Kernel
   create_time: 20190611T01:58:00
   id: 1137799
