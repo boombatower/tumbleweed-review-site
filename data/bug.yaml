@@ -24559,6 +24559,12 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: Kernel
+  create_time: 20190611T01:58:00
+  id: 1137799
+  resolution: ''
+  status: NEW
+  summary: I2C Touchpad Stops Working After Hibernation
 - component: Other
   create_time: 20190610T17:39:00
   id: 1137785
