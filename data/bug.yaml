@@ -24039,8 +24039,8 @@
 - component: GNOME
   create_time: 20190524T12:45:00
   id: 1136216
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Port gconf to python3
 - component: Other
   create_time: 20190524T08:31:00
