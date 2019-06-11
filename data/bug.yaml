@@ -24040,7 +24040,7 @@
   create_time: 20190524T12:45:00
   id: 1136216
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Port gconf to python3
 - component: Other
   create_time: 20190524T08:31:00
@@ -24559,6 +24559,12 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: Virtualization:Other
+  create_time: 20190611T15:14:00
+  id: 1137883
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: libvirt can't autostart the default network because of missing resolv.conf
 - component: Printing
   create_time: 20190611T10:12:00
   id: 1137846
