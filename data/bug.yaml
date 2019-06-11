@@ -24559,6 +24559,12 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: Sound
+  create_time: 20190611T21:42:00
+  id: 1137907
+  resolution: ''
+  status: NEW
+  summary: HP z440 cannot detect Mic or Line In jacks (always not available)
 - component: Virtualization:Other
   create_time: 20190611T15:14:00
   id: 1137883
@@ -24592,7 +24598,7 @@
 - component: AppArmor
   create_time: 20190609T19:23:00
   id: 1137693
-  resolution: FIXED
+  resolution: DUPLICATE
   status: RESOLVED
   summary: AppArmor 2.13.2-9.1 breaks root login from normal user session completely
 - component: Sound
