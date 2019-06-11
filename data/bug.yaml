@@ -24569,7 +24569,7 @@
   create_time: 20190610T17:39:00
   id: 1137785
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Clementine always crashing
 - component: Basesystem
   create_time: 20190610T07:23:00
