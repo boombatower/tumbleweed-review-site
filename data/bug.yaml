@@ -24559,6 +24559,12 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: Other
+  create_time: 20190612T22:01:00
+  id: 1138074
+  resolution: ''
+  status: NEW
+  summary: 'monitoring-plugins-procs: check_procs reports itself'
 - component: YaST2
   create_time: 20190612T13:53:00
   id: 1137997
