@@ -11749,8 +11749,8 @@
 - component: Bootloader
   create_time: 20180824T12:09:00
   id: 1105923
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Fails to usb boot on Apollo Lake laptops
 - component: Containers
   create_time: 20180824T09:43:00
@@ -23059,8 +23059,8 @@
 - component: Kubic
   create_time: 20190502T18:53:00
   id: 1133991
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Kubeadm does not pull images with cri-o and ignores Proxy settings in the
     environment.
 - component: Network
@@ -24559,6 +24559,25 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: YaST2
+  create_time: 20190612T13:53:00
+  id: 1137997
+  resolution: ''
+  status: CONFIRMED
+  summary: 'Expert Partitioner: import multi-device Btrfs mount points'
+- component: YaST2
+  create_time: 20190612T13:30:00
+  id: 1137992
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190607] Bridge wrongly created sporadically during Network installation
+    of Tumbleweed.'
+- component: Firefox
+  create_time: 20190612T11:22:00
+  id: 1137970
+  resolution: ''
+  status: NEW
+  summary: MozillaFirefox mis-builds translations
 - component: Basesystem
   create_time: 20190612T10:19:00
   id: 1137963
