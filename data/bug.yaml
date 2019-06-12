@@ -12977,8 +12977,8 @@
 - component: GNOME
   create_time: 20180926T18:25:00
   id: 1109905
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: gnome-keyring-pam does not auto-unlock in KDE
 - component: Other
   create_time: 20180926T16:47:00
@@ -24331,7 +24331,7 @@
   create_time: 20190529T12:46:00
   id: 1136747
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Update GStreamer stack to latest stable branch  1.16.x
 - component: Basesystem
   create_time: 20190529T07:29:00
