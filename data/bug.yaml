@@ -22763,8 +22763,8 @@
 - component: YaST2
   create_time: 20190425T16:19:00
   id: 1133435
-  resolution: INVALID
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Automatically tag new releases of YaST repos on github
 - component: YaST2
   create_time: 20190425T16:10:00
@@ -23984,8 +23984,8 @@
 - component: libzypp
   create_time: 20190521T09:54:00
   id: 1135749
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Staging] libsolv fails to build against swig 4.0'
 - component: Other
   create_time: 20190521T09:52:00
@@ -24090,7 +24090,7 @@
   create_time: 20190525T09:47:00
   id: 1136279
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
@@ -24117,7 +24117,7 @@
   create_time: 20190528T13:29:00
   id: 1136600
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: network bridge gets wrong (random) MAC address
 - component: Sound
   create_time: 20190528T10:55:00
