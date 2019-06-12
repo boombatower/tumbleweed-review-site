@@ -20957,8 +20957,8 @@
 - component: Basesystem
   create_time: 20190319T21:41:00
   id: 1129830
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: TW update (<20190318) broke X completely
 - component: Other
   create_time: 20190319T17:55:00
@@ -24487,8 +24487,8 @@
 - component: Kubic
   create_time: 20190604T07:30:00
   id: 1137196
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: chrony-wait.service not enabled
 '20190605':
 - component: Other
@@ -24559,6 +24559,19 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: Basesystem
+  create_time: 20190612T10:19:00
+  id: 1137963
+  resolution: ''
+  status: NEW
+  summary: '"gpg -h" Aborted (core dumped)'
+- component: YaST2
+  create_time: 20190612T08:55:00
+  id: 1137948
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'rubygem-config_files_api: replacing a new entry with a differently typed
+    entry raises NameError'
 - component: Sound
   create_time: 20190611T21:42:00
   id: 1137907
@@ -24611,8 +24624,8 @@
   create_time: 20190609T16:34:00
   id: 1137688
   resolution: ''
-  status: NEW
-  summary: YaST Kernel Settings enable SysRq -> /proc/sys/kernel/sysrq value = 184
+  status: CONFIRMED
+  summary: 'yast2 tune: store sysrq setting in /etc/sysctl.d/'
 - component: Other
   create_time: 20190609T11:09:00
   id: 1137687
