@@ -2928,7 +2928,7 @@
   create_time: 20180202T23:09:00
   id: 1079191
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Install blocked by disk space warning - assumes boot only has 16MB - yast
     is ignoring unused disc space
 - component: Virtualization:Other
@@ -11097,8 +11097,8 @@
 - component: Other
   create_time: 20180727T05:45:00
   id: 1102819
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: saltstack server_id changes with each run on python3
 - component: Network
   create_time: 20180726T14:46:00
@@ -24559,11 +24559,18 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: Kernel
+  create_time: 20190613T12:48:00
+  id: 1138166
+  resolution: ''
+  status: NEW
+  summary: 'BUG: unable to handle kernel paging request at ffffe5c202050000 with kernel-default
+    5.1.7-1.1'
 - component: YaST2
   create_time: 20190613T10:45:00
   id: 1138144
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Staging] openQA test fails in installation'
 - component: Other
   create_time: 20190613T10:27:00
