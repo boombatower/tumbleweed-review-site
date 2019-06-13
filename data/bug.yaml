@@ -24559,6 +24559,18 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: KDE Workspace (Plasma)
+  create_time: 20190613T02:02:00
+  id: 1138078
+  resolution: ''
+  status: NEW
+  summary: Neither HDMI nor nvidia-settings work in KDE Plasma but both work in XFCE
+- component: GNOME
+  create_time: 20190613T00:47:00
+  id: 1138077
+  resolution: ''
+  status: NEW
+  summary: Gnome-Builder dont show templantes because is missing a dependency
 - component: Other
   create_time: 20190612T22:01:00
   id: 1138074
