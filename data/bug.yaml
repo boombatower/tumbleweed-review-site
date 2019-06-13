@@ -17530,8 +17530,8 @@
 - component: Basesystem
   create_time: 20190109T15:25:00
   id: 1121279
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: x-systemd.requires-mounts-for does not pull in non-x-initrd.mount dependencies
 - component: Security
   create_time: 20190109T15:09:00
@@ -19037,8 +19037,8 @@
 - component: Kubic
   create_time: 20190207T09:48:00
   id: 1124590
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: openSUSE-release and openSUSE-Tumbleweed-Kubic-release marked for installation
 - component: YaST2
   create_time: 20190207T09:23:00
@@ -21965,8 +21965,8 @@
 - component: Kubic
   create_time: 20190413T11:41:00
   id: 1132436
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: /srv should be an own subvolume
 - component: Installation
   create_time: 20190413T09:37:00
@@ -23872,8 +23872,8 @@
 - component: Kubic
   create_time: 20190522T16:45:00
   id: 1135973
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Change Description of "Admin Node" in the installer Build 20190520
 - component: Other
   create_time: 20190522T09:44:00
@@ -24559,6 +24559,12 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: Kubic
+  create_time: 20190613T14:42:00
+  id: 1138180
+  resolution: FIXED
+  status: RESOLVED
+  summary: Kubic-control roles are no longer [Alpha]
 - component: Kernel
   create_time: 20190613T12:48:00
   id: 1138166
