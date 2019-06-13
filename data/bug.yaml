@@ -24559,6 +24559,12 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: GNOME
+  create_time: 20190613T22:07:00
+  id: 1138213
+  resolution: ''
+  status: NEW
+  summary: Update NetworkManager to new stable branch - 1.18.x
 - component: YaST2
   create_time: 20190613T19:31:00
   id: 1138203
