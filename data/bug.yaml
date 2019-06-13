@@ -4816,8 +4816,8 @@
 - component: Sound
   create_time: 20180301T10:23:00
   id: 1083473
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Use systemd user socket for starting / enabling PulseAudio
 - component: GNOME
   create_time: 20180301T09:45:00
@@ -9193,8 +9193,8 @@
 - component: Kernel
   create_time: 20180609T13:01:00
   id: 1096807
-  resolution: ''
-  status: REOPENED
+  resolution: WONTFIX
+  status: RESOLVED
   summary: ftw/nftw with FTW_MOUNT does not work on overlayfs
 - component: KDE Applications
   create_time: 20180609T11:37:00
@@ -9724,8 +9724,8 @@
 - component: Kernel
   create_time: 20180625T14:17:00
   id: 1099012
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'BUG: unable to handle kernel paging request at 000000100000004c in put_css_set_locked'
 - component: Kubic
   create_time: 20180625T13:11:00
@@ -10969,8 +10969,8 @@
 - component: Kernel
   create_time: 20180729T00:55:00
   id: 1102985
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Synaptics touchpad does not work without grub edit
 - component: KDE Workspace (Plasma)
   create_time: 20180728T16:41:00
@@ -11349,8 +11349,8 @@
 - component: Kernel
   create_time: 20180807T09:37:00
   id: 1104024
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: touchpad stops working randomly in thinkpad helix
 '20180808':
 - component: GNOME
@@ -11369,8 +11369,8 @@
 - component: Kernel
   create_time: 20180811T03:39:00
   id: 1104570
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Synaptics touchpad does not work without grub edit
 - component: Other
   create_time: 20180810T18:39:00
@@ -12417,8 +12417,8 @@
 - component: Kernel
   create_time: 20180913T13:49:00
   id: 1108317
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Suspend to RAM works  only for the first time
 - component: Basesystem
   create_time: 20180913T12:01:00
@@ -18729,8 +18729,8 @@
 - component: Bootloader
   create_time: 20190127T09:00:00
   id: 1123245
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: After zypper dup from Leap:15.0 to Tumbleweed boot fails intermittently
     failed to find grub_efi_allocate_fixed
 - component: Other
@@ -24559,6 +24559,18 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: YaST2
+  create_time: 20190613T10:45:00
+  id: 1138144
+  resolution: ''
+  status: NEW
+  summary: '[Staging] openQA test fails in installation'
+- component: Other
+  create_time: 20190613T10:27:00
+  id: 1138138
+  resolution: ''
+  status: NEW
+  summary: Update request for Cura software
 - component: KDE Workspace (Plasma)
   create_time: 20190613T02:02:00
   id: 1138078
@@ -24587,7 +24599,7 @@
   create_time: 20190612T13:30:00
   id: 1137992
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20190607] Bridge wrongly created sporadically during Network installation
     of Tumbleweed.'
 - component: Firefox
