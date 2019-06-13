@@ -16498,8 +16498,8 @@
 - component: Network
   create_time: 20181204T17:37:00
   id: 1118371
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please include proper dependencies in nfs.service against remote-fs-pre.target
 - component: Network
   create_time: 20181204T17:15:00
