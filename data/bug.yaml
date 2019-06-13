@@ -659,8 +659,8 @@
 - component: Live Medium
   create_time: 20171214T10:53:00
   id: 1072836
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: dracut error no or empty root= argument when booting iso from flashdisk
 - component: Development
   create_time: 20171214T07:34:00
@@ -2430,8 +2430,8 @@
 - component: Kernel
   create_time: 20180126T11:22:00
   id: 1077731
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: build-id in kernel-default-debuginfo does not match the one in kernel-default
 - component: YaST2
   create_time: 20180126T10:28:00
@@ -3058,8 +3058,8 @@
 - component: Kernel
   create_time: 20180203T12:53:00
   id: 1079216
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: No graphical login with kernel-default-4.15.0-1.4.x86_64
 '20180205':
 - component: Xen
@@ -4262,8 +4262,8 @@
 - component: Kernel
   create_time: 20180219T07:52:00
   id: 1081499
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: '''virsh start myvm'' results in 100%CPU load and "Guest has not initialized
     the display (yet)."'
 - component: Other
@@ -4625,8 +4625,8 @@
 - component: Kernel
   create_time: 20180226T20:41:00
   id: 1082909
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'HP Pavillion: accelerometer often not accessible'
 - component: Kernel
   create_time: 20180226T20:14:00
@@ -7107,8 +7107,8 @@
 - component: Kernel
   create_time: 20180411T02:37:00
   id: 1088992
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Thumbleweed did not boot on samsung nc110 (strange error at boot)
 - component: Security
   create_time: 20180410T21:26:00
@@ -9311,8 +9311,8 @@
 - component: Kernel
   create_time: 20180613T11:06:00
   id: 1097436
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'gcc: internal compiler error during python3 build'
 - component: Basesystem
   create_time: 20180613T10:38:00
@@ -23196,8 +23196,8 @@
 - component: Kernel
   create_time: 20190507T10:35:00
   id: 1134306
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Default CONFIG_USB_OTG should not be set
 - component: Kernel
   create_time: 20190507T10:28:00
@@ -24487,8 +24487,8 @@
 - component: Kubic
   create_time: 20190604T07:30:00
   id: 1137196
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: chrony-wait.service not enabled
 '20190605':
 - component: Other
