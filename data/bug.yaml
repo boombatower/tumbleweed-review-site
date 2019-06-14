@@ -13026,8 +13026,8 @@
 - component: Other
   create_time: 20180926T04:04:00
   id: 1109755
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: scons differs between architectures
 - component: Other
   create_time: 20180926T03:56:00
@@ -15298,8 +15298,8 @@
 - component: Other
   create_time: 20181107T15:59:00
   id: 1115066
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/emacs-vm fails to build'
 - component: Other
   create_time: 20181107T15:59:00
@@ -15530,8 +15530,8 @@
 - component: Other
   create_time: 20181114T17:19:00
   id: 1116061
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/pound fails to build'
 - component: Network
   create_time: 20181114T17:01:00
@@ -16986,8 +16986,8 @@
 - component: Development
   create_time: 20181223T10:34:00
   id: 1120267
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: perl debugger coredump related to libreadline.so.7 rl_prep_terminal()
 - component: Other
   create_time: 20181223T04:31:00
@@ -24559,11 +24559,35 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: Other
+  create_time: 20190614T13:26:00
+  id: 1138299
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/perf fails to build'
+- component: YaST2
+  create_time: 20190614T13:13:00
+  id: 1138297
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Yast::NetworkService test is failing in Staging
+- component: Other
+  create_time: 20190614T12:58:00
+  id: 1138295
+  resolution: ''
+  status: NEW
+  summary: vtkLocalExample.java randomly missing from vtk.jar
+- component: Development
+  create_time: 20190614T12:16:00
+  id: 1138290
+  resolution: ''
+  status: NEW
+  summary: 'ruby-common: gem_install must not mark license files as %doc'
 - component: YaST2
   create_time: 20190614T10:53:00
   id: 1138278
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: YaST crash when checking if there is a default gateway
 - component: Development
   create_time: 20190614T10:44:00
