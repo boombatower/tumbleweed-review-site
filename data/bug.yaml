@@ -24559,6 +24559,12 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: High Availability
+  create_time: 20190614T02:51:00
+  id: 1138226
+  resolution: ''
+  status: NEW
+  summary: 'OCFS2: soft lockup of process that doing I/O on an OCFS2 filesystem'
 - component: Basesystem
   create_time: 20190614T01:52:00
   id: 1138218
