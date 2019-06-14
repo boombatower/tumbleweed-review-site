@@ -12556,8 +12556,8 @@
 - component: Kernel
   create_time: 20180915T17:53:00
   id: 1108560
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: AMDGPU regression, multi-head not working on 4.18, 4.19RC3, but does on
     4.16
 - component: Kernel
@@ -12702,8 +12702,8 @@
 - component: Kernel
   create_time: 20180919T18:15:00
   id: 1109029
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Unable to suspend, shutdown/reboot taking ~3mins on some 2nd-gen Ryzen
     systems
 - component: Basesystem
@@ -15487,8 +15487,8 @@
 - component: Kernel
   create_time: 20181114T20:20:00
   id: 1116087
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: kde kworker/16:0-events-unbound  causing slowdown to 2 to 4 second screen
     updates since [build 20181112]
 - component: Other
@@ -16249,8 +16249,8 @@
 - component: Kernel
   create_time: 20181123T06:25:00
   id: 1117095
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'vc4: Failed to allocate from CMA, graphics freezes'
 - component: Basesystem
   create_time: 20181122T16:50:00
@@ -17053,8 +17053,8 @@
 - component: Kernel
   create_time: 20181221T09:29:00
   id: 1120186
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: HP Compaq nx8220 does not boot anymore (black screen only) starting with
     Linux kernel 4.19-1-pae (32bit)
 - component: X.Org
@@ -19953,8 +19953,8 @@
 - component: Bootloader
   create_time: 20190225T19:45:00
   id: 1126900
-  resolution: WONTFIX
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'health-checker: grub2-editenv: error: cannot open `/boot/grub2/grubenv'':
     Read-only file system.'
 - component: YaST2
@@ -24487,8 +24487,8 @@
 - component: Kubic
   create_time: 20190604T07:30:00
   id: 1137196
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: chrony-wait.service not enabled
 '20190605':
 - component: Other
@@ -24559,6 +24559,18 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: YaST2
+  create_time: 20190614T10:53:00
+  id: 1138278
+  resolution: ''
+  status: IN_PROGRESS
+  summary: YaST crash when checking if there is a default gateway
+- component: Development
+  create_time: 20190614T10:44:00
+  id: 1138276
+  resolution: ''
+  status: NEW
+  summary: lcov doesn't work with GCC9
 - component: High Availability
   create_time: 20190614T02:51:00
   id: 1138226
@@ -24758,6 +24770,6 @@
 - component: GNOME
   create_time: 20190607T06:06:00
   id: 1137569
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
