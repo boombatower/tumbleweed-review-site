@@ -12270,8 +12270,8 @@
 - component: Basesystem
   create_time: 20180907T07:49:00
   id: 1107617
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'udev: fix default value of udev.children-max'
 - component: Basesystem
   create_time: 20180907T07:34:00
@@ -13058,7 +13058,7 @@
   create_time: 20180930T13:47:00
   id: 1110252
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: sata_mv reported bug while dd_rescue a problematic disk
 - component: Security
   create_time: 20180930T08:06:00
@@ -19953,8 +19953,8 @@
 - component: Bootloader
   create_time: 20190225T19:45:00
   id: 1126900
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'health-checker: grub2-editenv: error: cannot open `/boot/grub2/grubenv'':
     Read-only file system.'
 - component: YaST2
@@ -24654,8 +24654,8 @@
 - component: Basesystem
   create_time: 20190612T10:19:00
   id: 1137963
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '"gpg -h" Aborted (core dumped)'
 - component: YaST2
   create_time: 20190612T08:55:00
