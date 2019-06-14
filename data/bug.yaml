@@ -24562,8 +24562,8 @@
 - component: Other
   create_time: 20190614T13:26:00
   id: 1138299
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/perf fails to build'
 - component: YaST2
   create_time: 20190614T13:13:00
