@@ -24559,6 +24559,110 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: Sound
+  create_time: 20190611T21:42:00
+  id: 1137907
+  resolution: ''
+  status: NEW
+  summary: HP z440 cannot detect Mic or Line In jacks (always not available)
+- component: Virtualization:Other
+  create_time: 20190611T15:14:00
+  id: 1137883
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: libvirt can't autostart the default network because of missing resolv.conf
+- component: Printing
+  create_time: 20190611T10:12:00
+  id: 1137846
+  resolution: ''
+  status: NEW
+  summary: Bug in sane-backends genesys.c. Hardware damage is possible
+- component: Kernel
+  create_time: 20190611T01:58:00
+  id: 1137799
+  resolution: ''
+  status: NEW
+  summary: I2C Touchpad Stops Working After Hibernation
+- component: Other
+  create_time: 20190610T17:39:00
+  id: 1137785
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Clementine always crashing
+- component: Basesystem
+  create_time: 20190610T07:23:00
+  id: 1137716
+  resolution: ''
+  status: CONFIRMED
+  summary: libgcrypt drops setuid privs, breaking pam_kwallet with sudo
+- component: AppArmor
+  create_time: 20190609T19:23:00
+  id: 1137693
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: AppArmor 2.13.2-9.1 breaks root login from normal user session completely
+- component: Sound
+  create_time: 20190609T18:00:00
+  id: 1137689
+  resolution: ''
+  status: NEW
+  summary: general protection fault in libopenal.so.1.19.1
+- component: YaST2
+  create_time: 20190609T16:34:00
+  id: 1137688
+  resolution: ''
+  status: CONFIRMED
+  summary: 'yast2 tune: store sysrq setting in /etc/sysctl.d/'
+- component: Other
+  create_time: 20190609T11:09:00
+  id: 1137687
+  resolution: ''
+  status: NEW
+  summary: Error while installing liblz1-1.11-1.2.x86_64
+- component: Kernel
+  create_time: 20190609T11:06:00
+  id: 1137686
+  resolution: ''
+  status: NEW
+  summary: Compile the kernel with CONFIG_SCSI_SCAN_ASYNC=y
+- component: Other
+  create_time: 20190608T06:34:00
+  id: 1137680
+  resolution: ''
+  status: NEW
+  summary: bitcoin 32-bit latest version not available
+- component: Other
+  create_time: 20190607T20:14:00
+  id: 1137665
+  resolution: ''
+  status: NEW
+  summary: mpv-plugin-mpris exits with an error
+- component: Kernel
+  create_time: 20190607T14:23:00
+  id: 1137649
+  resolution: FIXED
+  status: RESOLVED
+  summary: No bbswitch-kmp-default package for kernel 5.1.7
+- component: Basesystem
+  create_time: 20190607T14:18:00
+  id: 1137648
+  resolution: ''
+  status: NEW
+  summary: Update lvm 2 to 2.02.185 or backport commit e268b to fix occasional slow
+    shutdowns with kernel 5.0.0 and up.
+- component: GNOME
+  create_time: 20190607T06:06:00
+  id: 1137569
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
+'20190612':
+- component: Live Medium
+  create_time: 20190614T17:52:00
+  id: 1138327
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190613] GNOME Live: user session runs on VT2'
 - component: Other
   create_time: 20190614T13:26:00
   id: 1138299
@@ -24700,100 +24804,3 @@
   status: IN_PROGRESS
   summary: 'rubygem-config_files_api: replacing a new entry with a differently typed
     entry raises NameError'
-- component: Sound
-  create_time: 20190611T21:42:00
-  id: 1137907
-  resolution: ''
-  status: NEW
-  summary: HP z440 cannot detect Mic or Line In jacks (always not available)
-- component: Virtualization:Other
-  create_time: 20190611T15:14:00
-  id: 1137883
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: libvirt can't autostart the default network because of missing resolv.conf
-- component: Printing
-  create_time: 20190611T10:12:00
-  id: 1137846
-  resolution: ''
-  status: NEW
-  summary: Bug in sane-backends genesys.c. Hardware damage is possible
-- component: Kernel
-  create_time: 20190611T01:58:00
-  id: 1137799
-  resolution: ''
-  status: NEW
-  summary: I2C Touchpad Stops Working After Hibernation
-- component: Other
-  create_time: 20190610T17:39:00
-  id: 1137785
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Clementine always crashing
-- component: Basesystem
-  create_time: 20190610T07:23:00
-  id: 1137716
-  resolution: ''
-  status: CONFIRMED
-  summary: libgcrypt drops setuid privs, breaking pam_kwallet with sudo
-- component: AppArmor
-  create_time: 20190609T19:23:00
-  id: 1137693
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: AppArmor 2.13.2-9.1 breaks root login from normal user session completely
-- component: Sound
-  create_time: 20190609T18:00:00
-  id: 1137689
-  resolution: ''
-  status: NEW
-  summary: general protection fault in libopenal.so.1.19.1
-- component: YaST2
-  create_time: 20190609T16:34:00
-  id: 1137688
-  resolution: ''
-  status: CONFIRMED
-  summary: 'yast2 tune: store sysrq setting in /etc/sysctl.d/'
-- component: Other
-  create_time: 20190609T11:09:00
-  id: 1137687
-  resolution: ''
-  status: NEW
-  summary: Error while installing liblz1-1.11-1.2.x86_64
-- component: Kernel
-  create_time: 20190609T11:06:00
-  id: 1137686
-  resolution: ''
-  status: NEW
-  summary: Compile the kernel with CONFIG_SCSI_SCAN_ASYNC=y
-- component: Other
-  create_time: 20190608T06:34:00
-  id: 1137680
-  resolution: ''
-  status: NEW
-  summary: bitcoin 32-bit latest version not available
-- component: Other
-  create_time: 20190607T20:14:00
-  id: 1137665
-  resolution: ''
-  status: NEW
-  summary: mpv-plugin-mpris exits with an error
-- component: Kernel
-  create_time: 20190607T14:23:00
-  id: 1137649
-  resolution: FIXED
-  status: RESOLVED
-  summary: No bbswitch-kmp-default package for kernel 5.1.7
-- component: Basesystem
-  create_time: 20190607T14:18:00
-  id: 1137648
-  resolution: ''
-  status: NEW
-  summary: Update lvm 2 to 2.02.185 or backport commit e268b to fix occasional slow
-    shutdowns with kernel 5.0.0 and up.
-- component: GNOME
-  create_time: 20190607T06:06:00
-  id: 1137569
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
