@@ -24559,6 +24559,18 @@
   status: NEW
   summary: display-manager.service fails after recent update
 '20190607':
+- component: Basesystem
+  create_time: 20190614T01:52:00
+  id: 1138218
+  resolution: ''
+  status: NEW
+  summary: sudo zypper dup leaves system in unstable bootup state
+- component: Network
+  create_time: 20190614T01:36:00
+  id: 1138217
+  resolution: ''
+  status: NEW
+  summary: nm-applet did not respond under LXDE (runing nm-applet --indicator)
 - component: GNOME
   create_time: 20190613T22:07:00
   id: 1138213
