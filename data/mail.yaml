@@ -2146,3 +2146,8 @@
     - 2019-06.139
     reference_count: 4
     summary: cannot login as root any more
+'20190612':
+  announcement: 2019-06.175
+  reference_count: 0
+  thread_count: 0
+  threads: []
