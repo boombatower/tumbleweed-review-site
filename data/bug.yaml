@@ -24657,6 +24657,12 @@
   status: RESOLVED
   summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
 '20190612':
+- component: Other
+  create_time: 20190615T05:24:00
+  id: 1138352
+  resolution: ''
+  status: NEW
+  summary: Current Tumbleweed Update 20190612
 - component: libzypp
   create_time: 20190615T00:38:00
   id: 1138350
