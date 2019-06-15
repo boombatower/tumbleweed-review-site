@@ -24657,6 +24657,18 @@
   status: RESOLVED
   summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
 '20190612':
+- component: libzypp
+  create_time: 20190615T00:38:00
+  id: 1138350
+  resolution: ''
+  status: NEW
+  summary: zypper not able to download from repositories
+- component: Kernel
+  create_time: 20190614T22:41:00
+  id: 1138346
+  resolution: ''
+  status: NEW
+  summary: DVB card unusable after hibernate
 - component: Live Medium
   create_time: 20190614T17:52:00
   id: 1138327
