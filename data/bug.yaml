@@ -24658,6 +24658,12 @@
   summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
 '20190612':
 - component: Other
+  create_time: 20190615T20:53:00
+  id: 1138360
+  resolution: ''
+  status: NEW
+  summary: gns3 and gns3-server have version mismatch
+- component: Other
   create_time: 20190615T05:24:00
   id: 1138352
   resolution: ''
@@ -24777,7 +24783,7 @@
   id: 1138078
   resolution: ''
   status: NEW
-  summary: Neither HDMI nor nvidia-settings work in KDE Plasma but both work in XFCE
+  summary: Neither HDMI nor nvidia-settings work in KDE Plasma but both work in IceWM
 - component: GNOME
   create_time: 20190613T00:47:00
   id: 1138077
