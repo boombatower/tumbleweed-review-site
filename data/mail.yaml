@@ -2148,10 +2148,10 @@
     summary: cannot login as root any more
 '20190612':
   announcement: 2019-06.175
-  reference_count: 2
+  reference_count: 3
   thread_count: 1
   threads:
   - messages:
     - 2019-06.177
-    reference_count: 2
+    reference_count: 3
     summary: no summary given
