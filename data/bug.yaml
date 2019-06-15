@@ -16606,8 +16606,8 @@
   id: 1118689
   resolution: ''
   status: NEW
-  summary: 32bit x86 4.19 4.20 5.0 pae and vanilla kernels randomly lockup or trigger
-    reboot
+  summary: 32bit x86 4.19 4.20 5.0 5.1 5.2-rc pae and vanilla kernels randomly lockup
+    or trigger reboot
 - component: Other
   create_time: 20181206T18:39:00
   id: 1118671
@@ -24616,8 +24616,8 @@
 - component: Other
   create_time: 20190609T11:09:00
   id: 1137687
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Error while installing liblz1-1.11-1.2.x86_64
 - component: Kernel
   create_time: 20190609T11:06:00
