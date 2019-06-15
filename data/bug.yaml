@@ -24666,8 +24666,8 @@
 - component: libzypp
   create_time: 20190615T00:38:00
   id: 1138350
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: zypper not able to download from repositories
 - component: Kernel
   create_time: 20190614T22:41:00
