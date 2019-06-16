@@ -24657,6 +24657,12 @@
   status: RESOLVED
   summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
 '20190612':
+- component: Security
+  create_time: 20190616T11:22:00
+  id: 1138368
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: bolt: dbus service moved to /usr/share'
 - component: Other
   create_time: 20190615T20:53:00
   id: 1138360
@@ -24666,8 +24672,8 @@
 - component: Other
   create_time: 20190615T05:24:00
   id: 1138352
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Current Tumbleweed Update 20190612
 - component: libzypp
   create_time: 20190615T00:38:00
