@@ -21478,8 +21478,8 @@
 - component: Security
   create_time: 20190327T05:55:00
   id: 1130608
-  resolution: UPSTREAM
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: qtkeychain-qt5-devel package has invalid qt_Qt5Keychain.pri
 '20190401':
 - component: Kernel
