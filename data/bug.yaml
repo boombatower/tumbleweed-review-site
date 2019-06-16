@@ -24657,6 +24657,24 @@
   status: RESOLVED
   summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
 '20190612':
+- component: Maintenance
+  create_time: 20190616T14:36:00
+  id: 1138371
+  resolution: ''
+  status: NEW
+  summary: Factory Update channel missing for multiple architectures
+- component: KDE Workspace (Plasma)
+  create_time: 20190616T13:42:00
+  id: 1138370
+  resolution: ''
+  status: NEW
+  summary: 'Plasma-settings: some are awfully slow (theme change, desktop background...)'
+- component: Basesystem
+  create_time: 20190616T12:27:00
+  id: 1138369
+  resolution: ''
+  status: NEW
+  summary: libevent file conflicts
 - component: Security
   create_time: 20190616T11:22:00
   id: 1138368
