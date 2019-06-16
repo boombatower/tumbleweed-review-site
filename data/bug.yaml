@@ -24657,6 +24657,12 @@
   status: RESOLVED
   summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
 '20190612':
+- component: GNOME
+  create_time: 20190616T15:29:00
+  id: 1138372
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190614] GNOME/change_password - session closes'
 - component: Maintenance
   create_time: 20190616T14:36:00
   id: 1138371
