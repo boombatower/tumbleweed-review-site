@@ -24745,6 +24745,13 @@
   summary: 'rubygem-config_files_api: replacing a new entry with a differently typed
     entry raises NameError'
 '20190614':
+- component: Sound
+  create_time: 20190617T21:06:00
+  id: 1138500
+  resolution: ''
+  status: NEW
+  summary: Major functionalities of "Pulseeffects" is not available without other
+    packages.
 - component: Kernel
   create_time: 20190617T20:51:00
   id: 1138496
