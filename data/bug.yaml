@@ -7584,8 +7584,8 @@
 - component: Kernel
   create_time: 20180426T14:47:00
   id: 1091097
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 9p kernel module(s) needed in kernel-default-base for kubic development
     environment
 - component: Other
@@ -9669,8 +9669,8 @@
 - component: Kernel
   create_time: 20180623T17:12:00
   id: 1098915
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Intel Microcode isn't loaded during boot
 - component: Kernel
   create_time: 20180623T16:24:00
@@ -17066,8 +17066,8 @@
 - component: Kernel
   create_time: 20181221T07:07:00
   id: 1120162
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Kernel panic or freeze: drm i915 ERROR timeout waiting for DP idle patterns'
 - component: Basesystem
   create_time: 20181221T01:19:00
@@ -21479,7 +21479,7 @@
   create_time: 20190327T05:55:00
   id: 1130608
   resolution: ''
-  status: REOPENED
+  status: IN_PROGRESS
   summary: qtkeychain-qt5-devel package has invalid qt_Qt5Keychain.pri
 '20190401':
 - component: Kernel
@@ -22113,7 +22113,7 @@
   create_time: 20190417T09:10:00
   id: 1132739
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: samba-windbind wrongly uses /etc/rc.status
 - component: Basesystem
   create_time: 20190417T09:08:00
@@ -24657,6 +24657,12 @@
   status: RESOLVED
   summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
 '20190612':
+- component: X11 Applications
+  create_time: 20190617T09:52:00
+  id: 1138429
+  resolution: ''
+  status: NEW
+  summary: 'IceWM: Missing icons'
 - component: Other
   create_time: 20190617T08:41:00
   id: 1138417
@@ -24666,8 +24672,8 @@
 - component: KDE Applications
   create_time: 20190617T08:34:00
   id: 1138413
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'gwenview does not start: symbol lookup error: /usr/lib64/libgwenviewlib.so.5:
     undefined symbol: _ZNK9KDirModel20supportedDropActionsEv'
 - component: Firefox
@@ -24716,8 +24722,8 @@
 - component: Security
   create_time: 20190616T11:22:00
   id: 1138368
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: bolt: dbus service moved to /usr/share'
 - component: Other
   create_time: 20190615T20:53:00
