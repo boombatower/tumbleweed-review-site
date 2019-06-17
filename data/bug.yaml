@@ -21978,7 +21978,7 @@
 - component: Kernel
   create_time: 20190413T07:29:00
   id: 1132434
-  resolution: INVALID
+  resolution: WORKSFORME
   status: RESOLVED
   summary: iwlwifi crashes on BAD_COMMAND while transferring files to wireless-connected
     phone through KDEConnect
