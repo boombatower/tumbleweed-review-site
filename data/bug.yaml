@@ -24604,8 +24604,8 @@
 - component: Sound
   create_time: 20190609T18:00:00
   id: 1137689
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: general protection fault in libopenal.so.1.19.1
 - component: YaST2
   create_time: 20190609T16:34:00
@@ -24657,6 +24657,100 @@
   status: RESOLVED
   summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
 '20190612':
+- component: GNOME
+  create_time: 20190613T22:07:00
+  id: 1138213
+  resolution: ''
+  status: NEW
+  summary: Update NetworkManager to new stable branch - 1.18.x
+- component: YaST2
+  create_time: 20190613T19:31:00
+  id: 1138203
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Include other object creation options in yast2-aduc
+- component: Kubic
+  create_time: 20190613T14:42:00
+  id: 1138180
+  resolution: FIXED
+  status: RESOLVED
+  summary: Kubic-control roles are no longer [Alpha]
+- component: Kernel
+  create_time: 20190613T12:48:00
+  id: 1138166
+  resolution: ''
+  status: NEW
+  summary: 'BUG: unable to handle kernel paging request at ffffe5c202050000 with kernel-default
+    5.1.7-1.1'
+- component: YaST2
+  create_time: 20190613T10:45:00
+  id: 1138144
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Staging] openQA test fails in installation'
+- component: Other
+  create_time: 20190613T10:27:00
+  id: 1138138
+  resolution: ''
+  status: NEW
+  summary: Update request for Cura software
+- component: KDE Workspace (Plasma)
+  create_time: 20190613T02:02:00
+  id: 1138078
+  resolution: ''
+  status: NEW
+  summary: Neither HDMI nor nvidia-settings work in KDE Plasma but both work in IceWM
+- component: GNOME
+  create_time: 20190613T00:47:00
+  id: 1138077
+  resolution: ''
+  status: NEW
+  summary: Gnome-Builder dont show templantes because is missing a dependency
+- component: Other
+  create_time: 20190612T22:01:00
+  id: 1138074
+  resolution: ''
+  status: NEW
+  summary: 'monitoring-plugins-procs: check_procs reports itself'
+- component: YaST2
+  create_time: 20190612T13:53:00
+  id: 1137997
+  resolution: ''
+  status: CONFIRMED
+  summary: 'Expert Partitioner: import multi-device Btrfs mount points'
+- component: YaST2
+  create_time: 20190612T13:30:00
+  id: 1137992
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build 20190607] Bridge wrongly created sporadically during Network installation
+    of Tumbleweed.'
+- component: Firefox
+  create_time: 20190612T11:22:00
+  id: 1137970
+  resolution: ''
+  status: NEW
+  summary: MozillaFirefox mis-builds translations
+- component: Basesystem
+  create_time: 20190612T10:19:00
+  id: 1137963
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '"gpg -h" Aborted (core dumped)'
+- component: YaST2
+  create_time: 20190612T08:55:00
+  id: 1137948
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'rubygem-config_files_api: replacing a new entry with a differently typed
+    entry raises NameError'
+'20190614':
+- component: Basesystem
+  create_time: 20190617T17:17:00
+  id: 1138482
+  resolution: ''
+  status: NEW
+  summary: nm-applet fails to properly start
 - component: GNOME
   create_time: 20190617T13:08:00
   id: 1138455
@@ -24815,90 +24909,3 @@
   resolution: ''
   status: NEW
   summary: nm-applet did not respond under LXDE (runing nm-applet --indicator)
-- component: GNOME
-  create_time: 20190613T22:07:00
-  id: 1138213
-  resolution: ''
-  status: NEW
-  summary: Update NetworkManager to new stable branch - 1.18.x
-- component: YaST2
-  create_time: 20190613T19:31:00
-  id: 1138203
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Include other object creation options in yast2-aduc
-- component: Kubic
-  create_time: 20190613T14:42:00
-  id: 1138180
-  resolution: FIXED
-  status: RESOLVED
-  summary: Kubic-control roles are no longer [Alpha]
-- component: Kernel
-  create_time: 20190613T12:48:00
-  id: 1138166
-  resolution: ''
-  status: NEW
-  summary: 'BUG: unable to handle kernel paging request at ffffe5c202050000 with kernel-default
-    5.1.7-1.1'
-- component: YaST2
-  create_time: 20190613T10:45:00
-  id: 1138144
-  resolution: ''
-  status: CONFIRMED
-  summary: '[Staging] openQA test fails in installation'
-- component: Other
-  create_time: 20190613T10:27:00
-  id: 1138138
-  resolution: ''
-  status: NEW
-  summary: Update request for Cura software
-- component: KDE Workspace (Plasma)
-  create_time: 20190613T02:02:00
-  id: 1138078
-  resolution: ''
-  status: NEW
-  summary: Neither HDMI nor nvidia-settings work in KDE Plasma but both work in IceWM
-- component: GNOME
-  create_time: 20190613T00:47:00
-  id: 1138077
-  resolution: ''
-  status: NEW
-  summary: Gnome-Builder dont show templantes because is missing a dependency
-- component: Other
-  create_time: 20190612T22:01:00
-  id: 1138074
-  resolution: ''
-  status: NEW
-  summary: 'monitoring-plugins-procs: check_procs reports itself'
-- component: YaST2
-  create_time: 20190612T13:53:00
-  id: 1137997
-  resolution: ''
-  status: CONFIRMED
-  summary: 'Expert Partitioner: import multi-device Btrfs mount points'
-- component: YaST2
-  create_time: 20190612T13:30:00
-  id: 1137992
-  resolution: ''
-  status: CONFIRMED
-  summary: '[Build 20190607] Bridge wrongly created sporadically during Network installation
-    of Tumbleweed.'
-- component: Firefox
-  create_time: 20190612T11:22:00
-  id: 1137970
-  resolution: ''
-  status: NEW
-  summary: MozillaFirefox mis-builds translations
-- component: Basesystem
-  create_time: 20190612T10:19:00
-  id: 1137963
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: '"gpg -h" Aborted (core dumped)'
-- component: YaST2
-  create_time: 20190612T08:55:00
-  id: 1137948
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'rubygem-config_files_api: replacing a new entry with a differently typed
-    entry raises NameError'
