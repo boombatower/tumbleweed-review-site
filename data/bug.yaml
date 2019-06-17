@@ -21293,8 +21293,8 @@
 - component: Development
   create_time: 20190325T09:44:00
   id: 1130352
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: libgit2-27 required by python3-pygit2
 - component: Network
   create_time: 20190325T09:39:00
@@ -23894,11 +23894,11 @@
   resolution: FIXED
   status: RESOLVED
   summary: fstrim discarding too many blocks
-- component: Kernel
+- component: Other
   create_time: 20190522T07:51:00
   id: 1135865
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: virtio error causes graphics to freeze in openQA test since kernel 5.1.x
 - component: Other
   create_time: 20190522T06:59:00
@@ -24657,6 +24657,12 @@
   status: RESOLVED
   summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
 '20190612':
+- component: GNOME
+  create_time: 20190617T13:08:00
+  id: 1138455
+  resolution: ''
+  status: NEW
+  summary: GNOME does not start properly on aarch64
 - component: X11 Applications
   create_time: 20190617T09:52:00
   id: 1138429
@@ -24686,8 +24692,8 @@
 - component: Upgrade Problems
   create_time: 20190617T07:03:00
   id: 1138400
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: accented charakters don't work
 - component: Upgrade Problems
   create_time: 20190617T07:02:00
