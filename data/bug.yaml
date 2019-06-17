@@ -9971,8 +9971,8 @@
 - component: Kernel
   create_time: 20180701T05:03:00
   id: 1099769
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: btrfs balance generates 100% CPU usage for long periods (15min's +)
 '20180702':
 - component: KDE Workspace (Plasma)
@@ -19851,8 +19851,8 @@
 - component: Virtualization:Tools
   create_time: 20190221T13:56:00
   id: 1126292
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'libvirt  /usr/lib64/libvirt.so.0: version `LIBVIRT_PRIVATE_5.0.0'' not
     found'
 - component: Network
@@ -22055,8 +22055,8 @@
 - component: LXQt
   create_time: 20190416T06:20:00
   id: 1132608
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Unable to change cursor theme in LXQt
 - component: GNOME
   create_time: 20190415T14:19:00
@@ -24089,8 +24089,8 @@
 - component: Other
   create_time: 20190525T09:47:00
   id: 1136279
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: VERIFIED
   summary: '[Build 20190524] openQA test fails in dstat with "DeprecationWarning"
     about importing ABCs from ''collections'' instead of collections.abc'
 '20190527':
@@ -24657,6 +24657,38 @@
   status: RESOLVED
   summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
 '20190612':
+- component: Other
+  create_time: 20190617T08:41:00
+  id: 1138417
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190614] dstat fails with `name "types" is not defined`'
+- component: KDE Applications
+  create_time: 20190617T08:34:00
+  id: 1138413
+  resolution: ''
+  status: NEW
+  summary: 'gwenview does not start: symbol lookup error: /usr/lib64/libgwenviewlib.so.5:
+    undefined symbol: _ZNK9KDirModel20supportedDropActionsEv'
+- component: Firefox
+  create_time: 20190617T07:05:00
+  id: 1138401
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190614] openQA test fails in firefox - live medium possibly memory
+    constrained'
+- component: Upgrade Problems
+  create_time: 20190617T07:03:00
+  id: 1138400
+  resolution: ''
+  status: NEW
+  summary: accented charakters don't work
+- component: Upgrade Problems
+  create_time: 20190617T07:02:00
+  id: 1138399
+  resolution: ''
+  status: NEW
+  summary: accented charakters don't work
 - component: GNOME
   create_time: 20190616T15:29:00
   id: 1138372
@@ -24726,8 +24758,8 @@
 - component: YaST2
   create_time: 20190614T13:13:00
   id: 1138297
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Yast::NetworkService test is failing in Staging
 - component: Other
   create_time: 20190614T12:58:00
@@ -24751,7 +24783,7 @@
   create_time: 20190614T10:44:00
   id: 1138276
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: lcov doesn't work with GCC9
 - component: High Availability
   create_time: 20190614T02:51:00
