@@ -24745,6 +24745,24 @@
   summary: 'rubygem-config_files_api: replacing a new entry with a differently typed
     entry raises NameError'
 '20190614':
+- component: Kernel
+  create_time: 20190617T20:51:00
+  id: 1138496
+  resolution: ''
+  status: NEW
+  summary: Consider compiling kernel with FONT_TER16x32 for HiDpi font support
+- component: YaST2
+  create_time: 20190617T19:21:00
+  id: 1138487
+  resolution: ''
+  status: NEW
+  summary: yast2-adcommon-python creds doesn't pass domain to samba Credentials object
+- component: X11 Applications
+  create_time: 20190617T18:30:00
+  id: 1138486
+  resolution: ''
+  status: NEW
+  summary: deepin-wm failing to build on Tumbleweed
 - component: Basesystem
   create_time: 20190617T17:17:00
   id: 1138482
