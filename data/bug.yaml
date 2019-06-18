@@ -20158,8 +20158,8 @@
 - component: Kernel
   create_time: 20190304T22:09:00
   id: 1127808
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please consider CONFIG_HARDENED_USERCOPY and CONFIG_SLAB_FREELIST_HARDENED
 - component: YaST2
   create_time: 20190304T20:42:00
@@ -20391,8 +20391,8 @@
 - component: Kernel
   create_time: 20190305T09:11:00
   id: 1127867
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Can not use /proc/pressure/*
 - component: Development
   create_time: 20190305T08:24:00
@@ -21150,8 +21150,8 @@
 - component: Kernel
   create_time: 20190322T11:50:00
   id: 1130204
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: kernel oops in btrfs_queue_work from cleanup_mnt
 - component: Development
   create_time: 20190322T11:28:00
@@ -24745,11 +24745,17 @@
   summary: 'rubygem-config_files_api: replacing a new entry with a differently typed
     entry raises NameError'
 '20190614':
+- component: Java
+  create_time: 20190618T06:39:00
+  id: 1138529
+  resolution: ''
+  status: NEW
+  summary: Bazel 0.19.2 fails to build on some workers (ThunderX1 and OverDrive 1000)
 - component: Sound
   create_time: 20190617T21:06:00
   id: 1138500
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Major functionalities of "Pulseeffects" is not available without other
     packages.
 - component: Kernel
