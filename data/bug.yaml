@@ -24745,6 +24745,18 @@
   summary: 'rubygem-config_files_api: replacing a new entry with a differently typed
     entry raises NameError'
 '20190614':
+- component: YaST2
+  create_time: 20190619T04:28:00
+  id: 1138638
+  resolution: ''
+  status: NEW
+  summary: 1-click install should not accept metadata without distversion tag.
+- component: Network
+  create_time: 20190619T04:08:00
+  id: 1138634
+  resolution: ''
+  status: NEW
+  summary: Chromium often crashes when opening an incognito window
 - component: Java
   create_time: 20190618T06:39:00
   id: 1138529
@@ -24787,7 +24799,7 @@
   id: 1138455
   resolution: ''
   status: NEW
-  summary: GNOME does not start properly on aarch64
+  summary: GNOME does not start properly on aarch64 and ppc64/ppc64le
 - component: X11 Applications
   create_time: 20190617T09:52:00
   id: 1138429
@@ -24823,8 +24835,8 @@
 - component: Upgrade Problems
   create_time: 20190617T07:02:00
   id: 1138399
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: accented charakters don't work
 - component: GNOME
   create_time: 20190616T15:29:00
