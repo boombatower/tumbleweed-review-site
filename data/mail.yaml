@@ -2162,11 +2162,11 @@
   threads: []
 '20190617':
   announcement: 2019-06.243
-  reference_count: 5
+  reference_count: 9
   thread_count: 1
   threads:
   - messages:
     - 2019-06.244
     - 2019-06.247
-    reference_count: 5
+    reference_count: 9
     summary: no summary given
