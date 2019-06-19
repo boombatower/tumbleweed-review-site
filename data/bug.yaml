@@ -24860,6 +24860,13 @@
   status: NEW
   summary: nm-applet did not respond under LXDE (runing nm-applet --indicator)
 '20190617':
+- component: Other
+  create_time: 20190619T15:57:00
+  id: 1138746
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190618] openQA Leap upgrade test fails in await_install - python2-urllib3
+    missing Obsoletes/Provides'
 - component: Kernel
   create_time: 20190619T14:36:00
   id: 1138735
