@@ -20625,7 +20625,7 @@
   create_time: 20190307T01:01:00
   id: 1128245
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Please enable YAMA LSM
 '20190310':
 - component: Other
@@ -24574,8 +24574,8 @@
 - component: Printing
   create_time: 20190611T10:12:00
   id: 1137846
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Bug in sane-backends genesys.c. Hardware damage is possible
 - component: Kernel
   create_time: 20190611T01:58:00
@@ -24745,6 +24745,18 @@
   summary: 'rubygem-config_files_api: replacing a new entry with a differently typed
     entry raises NameError'
 '20190614':
+- component: YaST2
+  create_time: 20190619T07:44:00
+  id: 1138668
+  resolution: ''
+  status: NEW
+  summary: YaST package does not build due to a broken old testsuite
+- component: Other
+  create_time: 20190619T07:38:00
+  id: 1138666
+  resolution: ''
+  status: NEW
+  summary: 'A build cycle found: python-py and python-pytest'
 - component: YaST2
   create_time: 20190619T04:28:00
   id: 1138638
