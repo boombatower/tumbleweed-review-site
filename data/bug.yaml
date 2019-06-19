@@ -19915,8 +19915,8 @@
 - component: Kernel
   create_time: 20190220T12:39:00
   id: 1126091
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Dell 5520 network via docking station WD15 failures
 - component: Development
   create_time: 20190220T12:13:00
@@ -20318,8 +20318,8 @@
 - component: Kernel
   create_time: 20190305T21:50:00
   id: 1128045
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: please consider dropping CONFIG_DEVKMEM
 - component: KDE Applications
   create_time: 20190305T19:48:00
@@ -20624,8 +20624,8 @@
 - component: Kernel
   create_time: 20190307T01:01:00
   id: 1128245
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Please enable YAMA LSM
 '20190310':
 - component: Other
@@ -21020,8 +21020,8 @@
 - component: Kernel
   create_time: 20190320T17:36:00
   id: 1129966
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Consider providing a more preemptible kernel for interactive audio work
 - component: Network
   create_time: 20190320T15:47:00
@@ -21227,8 +21227,8 @@
 - component: Kernel
   create_time: 20190326T08:02:00
   id: 1130480
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: hctosys called before rtc0 is available on Chromebook Snow
 - component: GNOME
   create_time: 20190326T07:18:00
@@ -21485,8 +21485,8 @@
 - component: Kernel
   create_time: 20190401T17:25:00
   id: 1131188
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Reboot issues on Linux Kernel version 5.0.3-1-default
 - component: Virtualization:Tools
   create_time: 20190401T16:31:00
@@ -21871,8 +21871,8 @@
 - component: Kernel
   create_time: 20190411T20:24:00
   id: 1132272
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'iwlwifi: BIOS contains WGDS but no WRDS'
 - component: Basesystem
   create_time: 20190411T19:07:00
@@ -22171,8 +22171,8 @@
 - component: Kernel
   create_time: 20190419T14:31:00
   id: 1132911
-  resolution: ''
-  status: REOPENED
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: SynPS/2 Synaptics TouchPad not working after update to 20190417
 - component: X11 3rd Party Driver
   create_time: 20190419T10:45:00
@@ -24387,8 +24387,8 @@
 - component: Kernel
   create_time: 20190601T10:25:00
   id: 1137051
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Virtualbox guest additions fails on openSUSE Tumbleweed
 - component: Network
   create_time: 20190601T06:35:00
@@ -24745,111 +24745,6 @@
   summary: 'rubygem-config_files_api: replacing a new entry with a differently typed
     entry raises NameError'
 '20190614':
-- component: YaST2
-  create_time: 20190619T07:44:00
-  id: 1138668
-  resolution: ''
-  status: NEW
-  summary: YaST package does not build due to a broken old testsuite
-- component: Other
-  create_time: 20190619T07:38:00
-  id: 1138666
-  resolution: ''
-  status: NEW
-  summary: 'A build cycle found: python-py and python-pytest'
-- component: YaST2
-  create_time: 20190619T04:28:00
-  id: 1138638
-  resolution: ''
-  status: NEW
-  summary: 1-click install should not accept metadata without distversion tag.
-- component: Network
-  create_time: 20190619T04:08:00
-  id: 1138634
-  resolution: ''
-  status: NEW
-  summary: Chromium often crashes when opening an incognito window
-- component: Java
-  create_time: 20190618T06:39:00
-  id: 1138529
-  resolution: ''
-  status: NEW
-  summary: Bazel 0.19.2 fails to build on some workers (ThunderX1 and OverDrive 1000)
-- component: Sound
-  create_time: 20190617T21:06:00
-  id: 1138500
-  resolution: ''
-  status: CONFIRMED
-  summary: Major functionalities of "Pulseeffects" is not available without other
-    packages.
-- component: Kernel
-  create_time: 20190617T20:51:00
-  id: 1138496
-  resolution: ''
-  status: NEW
-  summary: Consider compiling kernel with FONT_TER16x32 for HiDpi font support
-- component: YaST2
-  create_time: 20190617T19:21:00
-  id: 1138487
-  resolution: ''
-  status: NEW
-  summary: yast2-adcommon-python creds doesn't pass domain to samba Credentials object
-- component: X11 Applications
-  create_time: 20190617T18:30:00
-  id: 1138486
-  resolution: ''
-  status: NEW
-  summary: deepin-wm failing to build on Tumbleweed
-- component: Basesystem
-  create_time: 20190617T17:17:00
-  id: 1138482
-  resolution: ''
-  status: NEW
-  summary: nm-applet fails to properly start
-- component: GNOME
-  create_time: 20190617T13:08:00
-  id: 1138455
-  resolution: ''
-  status: NEW
-  summary: GNOME does not start properly on aarch64 and ppc64/ppc64le
-- component: X11 Applications
-  create_time: 20190617T09:52:00
-  id: 1138429
-  resolution: ''
-  status: NEW
-  summary: 'IceWM: Missing icons'
-- component: Other
-  create_time: 20190617T08:41:00
-  id: 1138417
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190614] dstat fails with `name "types" is not defined`'
-- component: KDE Applications
-  create_time: 20190617T08:34:00
-  id: 1138413
-  resolution: INVALID
-  status: RESOLVED
-  summary: 'gwenview does not start: symbol lookup error: /usr/lib64/libgwenviewlib.so.5:
-    undefined symbol: _ZNK9KDirModel20supportedDropActionsEv'
-- component: Firefox
-  create_time: 20190617T07:05:00
-  id: 1138401
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190614] openQA test fails in firefox - live medium possibly memory
-    constrained'
-- component: Upgrade Problems
-  create_time: 20190617T07:03:00
-  id: 1138400
-  resolution: INVALID
-  status: RESOLVED
-  summary: accented charakters don't work
-- component: Upgrade Problems
-  create_time: 20190617T07:02:00
-  id: 1138399
-  resolution: INVALID
-  status: RESOLVED
-  summary: accented charakters don't work
 - component: GNOME
   create_time: 20190616T15:29:00
   id: 1138372
@@ -24964,3 +24859,109 @@
   resolution: ''
   status: NEW
   summary: nm-applet did not respond under LXDE (runing nm-applet --indicator)
+'20190617':
+- component: YaST2
+  create_time: 20190619T07:44:00
+  id: 1138668
+  resolution: ''
+  status: NEW
+  summary: YaST package does not build due to a broken old testsuite
+- component: Other
+  create_time: 20190619T07:38:00
+  id: 1138666
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'A build cycle found: python-py and python-pytest'
+- component: YaST2
+  create_time: 20190619T04:28:00
+  id: 1138638
+  resolution: ''
+  status: NEW
+  summary: 1-click install should not accept metadata without distversion tag.
+- component: Network
+  create_time: 20190619T04:08:00
+  id: 1138634
+  resolution: ''
+  status: NEW
+  summary: Chromium often crashes when opening an incognito window
+- component: Java
+  create_time: 20190618T06:39:00
+  id: 1138529
+  resolution: ''
+  status: NEW
+  summary: Bazel 0.19.2 fails to build on some workers (ThunderX1 and OverDrive 1000)
+- component: Sound
+  create_time: 20190617T21:06:00
+  id: 1138500
+  resolution: ''
+  status: CONFIRMED
+  summary: Major functionalities of "Pulseeffects" is not available without other
+    packages.
+- component: Kernel
+  create_time: 20190617T20:51:00
+  id: 1138496
+  resolution: ''
+  status: NEW
+  summary: Consider compiling kernel with FONT_TER16x32 for HiDpi font support
+- component: YaST2
+  create_time: 20190617T19:21:00
+  id: 1138487
+  resolution: ''
+  status: NEW
+  summary: yast2-adcommon-python creds doesn't pass domain to samba Credentials object
+- component: X11 Applications
+  create_time: 20190617T18:30:00
+  id: 1138486
+  resolution: ''
+  status: NEW
+  summary: deepin-wm failing to build on Tumbleweed
+- component: Basesystem
+  create_time: 20190617T17:17:00
+  id: 1138482
+  resolution: ''
+  status: NEW
+  summary: nm-applet fails to properly start
+- component: GNOME
+  create_time: 20190617T13:08:00
+  id: 1138455
+  resolution: ''
+  status: NEW
+  summary: GNOME does not start properly on aarch64 and ppc64/ppc64le
+- component: X11 Applications
+  create_time: 20190617T09:52:00
+  id: 1138429
+  resolution: ''
+  status: NEW
+  summary: 'IceWM: Missing icons'
+- component: Other
+  create_time: 20190617T08:41:00
+  id: 1138417
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190614] dstat fails with `name "types" is not defined`'
+- component: KDE Applications
+  create_time: 20190617T08:34:00
+  id: 1138413
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'gwenview does not start: symbol lookup error: /usr/lib64/libgwenviewlib.so.5:
+    undefined symbol: _ZNK9KDirModel20supportedDropActionsEv'
+- component: Firefox
+  create_time: 20190617T07:05:00
+  id: 1138401
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190614] openQA test fails in firefox - live medium possibly memory
+    constrained'
+- component: Upgrade Problems
+  create_time: 20190617T07:03:00
+  id: 1138400
+  resolution: INVALID
+  status: RESOLVED
+  summary: accented charakters don't work
+- component: Upgrade Problems
+  create_time: 20190617T07:02:00
+  id: 1138399
+  resolution: INVALID
+  status: RESOLVED
+  summary: accented charakters don't work
