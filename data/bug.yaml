@@ -20800,8 +20800,8 @@
 - component: GNOME
   create_time: 20190312T08:52:00
   id: 1128835
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WONTFIX
+  status: RESOLVED
   summary: pam_keyinit.so doesn't seem to work as expected when logging in with GDM
 - component: Basesystem
   create_time: 20190312T08:24:00
@@ -24860,6 +24860,36 @@
   status: NEW
   summary: nm-applet did not respond under LXDE (runing nm-applet --indicator)
 '20190617':
+- component: Kernel
+  create_time: 20190619T14:36:00
+  id: 1138735
+  resolution: ''
+  status: NEW
+  summary: openSUSE Tumbleweed Kernel errors
+- component: Other
+  create_time: 20190619T13:44:00
+  id: 1138730
+  resolution: ''
+  status: NEW
+  summary: USB Thumb drive not mounting
+- component: Other
+  create_time: 20190619T13:26:00
+  id: 1138728
+  resolution: ''
+  status: NEW
+  summary: The service file in package ntpsec has a typo
+- component: MicroOS
+  create_time: 20190619T13:00:00
+  id: 1138725
+  resolution: ''
+  status: NEW
+  summary: Add Ignition to Tumbleweed
+- component: Other
+  create_time: 20190619T12:27:00
+  id: 1138715
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190618] python-urllib2 upgrade issues'
 - component: YaST2
   create_time: 20190619T07:44:00
   id: 1138668
