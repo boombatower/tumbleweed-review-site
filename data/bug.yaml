@@ -9896,8 +9896,8 @@
 - component: Kernel
   create_time: 20180629T22:00:00
   id: 1099745
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[kubic][transactional server] systemd fails to boot, reports $subvolume
     already mounted'
 - component: Installation
@@ -10450,8 +10450,8 @@
 - component: Kernel
   create_time: 20180718T11:26:00
   id: 1101628
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Can't boot kernel for Tumbleweed installation
 - component: LibreOffice
   create_time: 20180718T09:46:00
@@ -13193,8 +13193,8 @@
 - component: Kernel
   create_time: 20181003T10:53:00
   id: 1110576
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: kworker running at 100%CPU (on usb interrupt?)
 - component: Other
   create_time: 20181002T21:45:00
@@ -24531,8 +24531,8 @@
 - component: Kernel
   create_time: 20190606T18:38:00
   id: 1137540
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kernel oops in khugepaged
 - component: GNOME
   create_time: 20190606T18:01:00
@@ -24860,11 +24860,17 @@
   status: NEW
   summary: nm-applet did not respond under LXDE (runing nm-applet --indicator)
 '20190617':
+- component: Basesystem
+  create_time: 20190620T09:22:00
+  id: 1138795
+  resolution: ''
+  status: NEW
+  summary: 'LTO:  btrfsprogs build fails'
 - component: Other
   create_time: 20190619T15:57:00
   id: 1138746
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[Build 20190618] openQA Leap upgrade test fails in await_install - python2-urllib3
     missing Obsoletes/Provides'
 - component: Kernel
@@ -24894,8 +24900,8 @@
 - component: Other
   create_time: 20190619T12:27:00
   id: 1138715
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '[Build 20190618] python-urllib2 upgrade issues'
 - component: YaST2
   create_time: 20190619T07:44:00
