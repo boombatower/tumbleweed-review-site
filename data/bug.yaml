@@ -11994,8 +11994,8 @@
 - component: Kernel
   create_time: 20180828T12:23:00
   id: 1106234
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Inconsistency and discrepancies of download speed - slow setting works
     faster and vice versa
 - component: Basesystem
@@ -14916,8 +14916,8 @@
 - component: Kernel
   create_time: 20181105T18:45:00
   id: 1114752
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: kernel 4.18.15-1 show very low buff/cache ... so performance is very poor
 - component: GNOME
   create_time: 20181105T12:23:00
@@ -18958,8 +18958,8 @@
 - component: Other
   create_time: 20190208T22:03:00
   id: 1124855
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: fortune error
 - component: KDE Workspace (Plasma)
   create_time: 20190208T15:33:00
@@ -23444,8 +23444,8 @@
 - component: Kernel
   create_time: 20190512T15:50:00
   id: 1134806
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: null pointer dereference in btrfs/qgroup with kernel 5.0.2
 - component: X.Org
   create_time: 20190512T13:35:00
@@ -24861,6 +24861,102 @@
   summary: nm-applet did not respond under LXDE (runing nm-applet --indicator)
 '20190617':
 - component: Basesystem
+  create_time: 20190620T12:00:00
+  id: 1138837
+  resolution: ''
+  status: NEW
+  summary: 'LTO: perl build fails'
+- component: Basesystem
+  create_time: 20190620T11:58:00
+  id: 1138836
+  resolution: ''
+  status: NEW
+  summary: 'LTO: sanlock build fails'
+- component: YaST2
+  create_time: 20190620T11:53:00
+  id: 1138835
+  resolution: ''
+  status: IN_PROGRESS
+  summary: YaST rake tasks should submit to SLE15-SP2
+- component: Basesystem
+  create_time: 20190620T11:51:00
+  id: 1138834
+  resolution: ''
+  status: NEW
+  summary: 'LTO: post-build-checks build fails'
+- component: Basesystem
+  create_time: 20190620T11:48:00
+  id: 1138833
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libxcrypt build fails'
+- component: Other
+  create_time: 20190620T11:42:00
+  id: 1138832
+  resolution: ''
+  status: NEW
+  summary: Gajim complains about type error
+- component: Basesystem
+  create_time: 20190620T11:01:00
+  id: 1138820
+  resolution: ''
+  status: NEW
+  summary: rpm cannot parse multiline conditional
+- component: Basesystem
+  create_time: 20190620T10:24:00
+  id: 1138813
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libsepol build fails'
+- component: Basesystem
+  create_time: 20190620T10:20:00
+  id: 1138812
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libsemanage build fails'
+- component: Basesystem
+  create_time: 20190620T10:09:00
+  id: 1138809
+  resolution: ''
+  status: NEW
+  summary: 'LTO: gmp build fails'
+- component: Basesystem
+  create_time: 20190620T09:55:00
+  id: 1138807
+  resolution: ''
+  status: NEW
+  summary: 'LTO: glibc build fails'
+- component: Basesystem
+  create_time: 20190620T09:54:00
+  id: 1138806
+  resolution: ''
+  status: NEW
+  summary: 'LTO: gettext-runtime-mini build fails'
+- component: Basesystem
+  create_time: 20190620T09:47:00
+  id: 1138803
+  resolution: ''
+  status: NEW
+  summary: 'LTO: fuse3 build fails'
+- component: Basesystem
+  create_time: 20190620T09:41:00
+  id: 1138800
+  resolution: ''
+  status: NEW
+  summary: 'LTO: findutils build fails'
+- component: Basesystem
+  create_time: 20190620T09:35:00
+  id: 1138797
+  resolution: ''
+  status: NEW
+  summary: 'LTO: expect build fails'
+- component: Basesystem
+  create_time: 20190620T09:32:00
+  id: 1138796
+  resolution: ''
+  status: NEW
+  summary: 'LTO: elftuils build fails'
+- component: Basesystem
   create_time: 20190620T09:22:00
   id: 1138795
   resolution: ''
@@ -24907,7 +25003,7 @@
   create_time: 20190619T07:44:00
   id: 1138668
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: YaST package does not build due to a broken old testsuite
 - component: Other
   create_time: 20190619T07:38:00
