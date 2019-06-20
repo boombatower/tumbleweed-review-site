@@ -24894,8 +24894,8 @@
 - component: Other
   create_time: 20190619T12:27:00
   id: 1138715
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190618] python-urllib2 upgrade issues'
 - component: YaST2
   create_time: 20190619T07:44:00
