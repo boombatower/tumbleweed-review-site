@@ -23897,8 +23897,8 @@
 - component: Other
   create_time: 20190522T07:51:00
   id: 1135865
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: VERIFIED
   summary: virtio error causes graphics to freeze in openQA test since kernel 5.1.x
 - component: Other
   create_time: 20190522T06:59:00
@@ -24860,6 +24860,13 @@
   status: NEW
   summary: nm-applet did not respond under LXDE (runing nm-applet --indicator)
 '20190617':
+- component: X.Org
+  create_time: 20190620T19:04:00
+  id: 1138876
+  resolution: ''
+  status: IN_PROGRESS
+  summary: switching on external monitor switches on internal notebook screen in the
+    first place
 - component: Other
   create_time: 20190620T18:24:00
   id: 1138873
@@ -25044,8 +25051,8 @@
 - component: Sound
   create_time: 20190617T21:06:00
   id: 1138500
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Major functionalities of "Pulseeffects" is not available without other
     packages.
 - component: Kernel
