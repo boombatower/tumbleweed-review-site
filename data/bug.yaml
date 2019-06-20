@@ -24860,6 +24860,18 @@
   status: NEW
   summary: nm-applet did not respond under LXDE (runing nm-applet --indicator)
 '20190617':
+- component: Other
+  create_time: 20190620T18:24:00
+  id: 1138873
+  resolution: ''
+  status: NEW
+  summary: binwalk -e fails to run sasquatch
+- component: Basesystem
+  create_time: 20190620T15:27:00
+  id: 1138858
+  resolution: ''
+  status: NEW
+  summary: grub2 dns unreliable
 - component: Basesystem
   create_time: 20190620T12:00:00
   id: 1138837
