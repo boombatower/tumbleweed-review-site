@@ -11594,8 +11594,8 @@
 - component: Kernel
   create_time: 20180816T21:20:00
   id: 1105149
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: the whole machine keeps getting completely frozen up while gaming on steam
 - component: Basesystem
   create_time: 20180816T14:13:00
@@ -11919,8 +11919,8 @@
 - component: Kernel
   create_time: 20180827T20:32:00
   id: 1106142
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'L1TF: Kernel not compiled for PAE. No mitigation for L1TF'
 - component: Other
   create_time: 20180827T13:38:00
@@ -12007,8 +12007,8 @@
 - component: Kernel
   create_time: 20180828T00:35:00
   id: 1106152
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Collabora/CODE docker container not working with kernel 4.18
 '20180829':
 - component: Other
@@ -12033,8 +12033,8 @@
 - component: Kernel
   create_time: 20180830T17:50:00
   id: 1106629
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Slow boot with encrypted root partition on NVMe and Ryzen CPU
 - component: GNOME
   create_time: 20180830T12:46:00
@@ -24678,8 +24678,8 @@
 - component: Kernel
   create_time: 20190613T12:48:00
   id: 1138166
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'BUG: unable to handle kernel paging request at ffffe5c202050000 with kernel-default
     5.1.7-1.1'
 - component: YaST2
@@ -24740,8 +24740,8 @@
 - component: YaST2
   create_time: 20190612T08:55:00
   id: 1137948
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'rubygem-config_files_api: replacing a new entry with a differently typed
     entry raises NameError'
 '20190614':
@@ -24860,6 +24860,12 @@
   status: NEW
   summary: nm-applet did not respond under LXDE (runing nm-applet --indicator)
 '20190617':
+- component: Other
+  create_time: 20190621T15:36:00
+  id: 1138954
+  resolution: ''
+  status: NEW
+  summary: xrdp service fails to start on boot, on a timeout
 - component: X.Org
   create_time: 20190620T19:04:00
   id: 1138876
@@ -25047,7 +25053,8 @@
   id: 1138529
   resolution: ''
   status: NEW
-  summary: Bazel 0.19.2 fails to build on some workers (ThunderX1 and OverDrive 1000)
+  summary: '[aarch64] Bazel 0.19.2 fails to build with JRE internal error on some
+    workers (ThunderX1 and OverDrive 1000)'
 - component: Sound
   create_time: 20190617T21:06:00
   id: 1138500
