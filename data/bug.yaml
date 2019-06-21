@@ -24863,8 +24863,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190621T15:47:00
   id: 1138956
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: kde-open5 seems to handle port numbers wrong
 - component: Other
   create_time: 20190621T15:36:00
@@ -24872,7 +24872,7 @@
   resolution: ''
   status: NEW
   summary: xrdp service fails to start on boot, on a timeout
-- component: X.Org
+- component: KDE Workspace (Plasma)
   create_time: 20190620T19:04:00
   id: 1138876
   resolution: ''
