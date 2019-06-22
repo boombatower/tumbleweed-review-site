@@ -24860,24 +24860,6 @@
   status: NEW
   summary: nm-applet did not respond under LXDE (runing nm-applet --indicator)
 '20190617':
-- component: Installation
-  create_time: 20190622T08:39:00
-  id: 1139001
-  resolution: ''
-  status: NEW
-  summary: Installing OOS:mumble - Missing dependency
-- component: KDE Workspace (Plasma)
-  create_time: 20190621T15:47:00
-  id: 1138956
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: kde-open5 seems to handle port numbers wrong
-- component: Other
-  create_time: 20190621T15:36:00
-  id: 1138954
-  resolution: ''
-  status: NEW
-  summary: xrdp service fails to start on boot, on a timeout
 - component: KDE Workspace (Plasma)
   create_time: 20190620T19:04:00
   id: 1138876
@@ -24938,7 +24920,7 @@
   id: 1138820
   resolution: ''
   status: NEW
-  summary: rpm cannot parse multiline conditional
+  summary: 'rpm cannot parse conditional: Unmatched ('
 - component: Basesystem
   create_time: 20190620T10:24:00
   id: 1138813
@@ -25142,3 +25124,28 @@
   resolution: INVALID
   status: RESOLVED
   summary: accented charakters don't work
+'20190621':
+- component: Other
+  create_time: 20190622T11:23:00
+  id: 1139004
+  resolution: ''
+  status: NEW
+  summary: 'transmission-daemon: configuration file hardcoded in daemon file'
+- component: Installation
+  create_time: 20190622T08:39:00
+  id: 1139001
+  resolution: ''
+  status: NEW
+  summary: Installing OOS:mumble - Missing dependency
+- component: KDE Workspace (Plasma)
+  create_time: 20190621T15:47:00
+  id: 1138956
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: kde-open5 seems to handle port numbers wrong
+- component: Other
+  create_time: 20190621T15:36:00
+  id: 1138954
+  resolution: ''
+  status: NEW
+  summary: xrdp service fails to start on boot, on a timeout
