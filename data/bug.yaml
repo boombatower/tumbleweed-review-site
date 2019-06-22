@@ -814,9 +814,9 @@
 - component: Kernel
   create_time: 20171218T20:23:00
   id: 1073382
-  resolution: INVALID
-  status: RESOLVED
-  summary: No sound and kernel crash with latest kernel-default-4.14.6-1.5
+  resolution: ''
+  status: REOPENED
+  summary: No sound and kernel crash with latest TW kernel-default-5.1.7-1.2
 - component: X11 Applications
   create_time: 20171218T17:17:00
   id: 1073357
