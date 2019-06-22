@@ -25126,6 +25126,13 @@
   summary: accented charakters don't work
 '20190621':
 - component: Basesystem
+  create_time: 20190622T19:04:00
+  id: 1139015
+  resolution: ''
+  status: NEW
+  summary: 'transactional-update: grub2 %posttrans script: grub2-install: error: cannot
+    find EFI directory'
+- component: Basesystem
   create_time: 20190622T18:03:00
   id: 1139014
   resolution: ''
