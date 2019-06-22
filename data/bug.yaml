@@ -24860,6 +24860,12 @@
   status: NEW
   summary: nm-applet did not respond under LXDE (runing nm-applet --indicator)
 '20190617':
+- component: Installation
+  create_time: 20190622T08:39:00
+  id: 1139001
+  resolution: ''
+  status: NEW
+  summary: Installing OOS:mumble - Missing dependency
 - component: KDE Workspace (Plasma)
   create_time: 20190621T15:47:00
   id: 1138956
