@@ -21497,8 +21497,8 @@
 - component: Kernel
   create_time: 20190401T16:12:00
   id: 1131182
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Kernel panic related to mpt3sas module
 - component: libzypp
   create_time: 20190401T15:28:00
