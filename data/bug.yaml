@@ -25160,7 +25160,7 @@
   create_time: 20190622T08:39:00
   id: 1139001
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Installing OOS:mumble - Missing dependency
 - component: KDE Workspace (Plasma)
   create_time: 20190621T15:47:00
