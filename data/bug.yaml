@@ -25125,6 +25125,12 @@
   status: RESOLVED
   summary: accented charakters don't work
 '20190621':
+- component: Other
+  create_time: 20190623T09:24:00
+  id: 1139018
+  resolution: ''
+  status: NEW
+  summary: Gparted requires btrfs-progs - should be recommends, not requires.
 - component: Basesystem
   create_time: 20190622T19:04:00
   id: 1139015
