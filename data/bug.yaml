@@ -24287,8 +24287,8 @@
 - component: Installation
   create_time: 20190529T18:22:00
   id: 1136793
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Cannot install on raspberry pi using installer
 - component: Installation
   create_time: 20190529T18:07:00
@@ -25148,7 +25148,7 @@
   create_time: 20190622T17:15:00
   id: 1139011
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Glitches with amdgpu driver and QtWebEngine
 - component: Other
   create_time: 20190622T11:23:00
