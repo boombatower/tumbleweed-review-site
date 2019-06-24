@@ -21599,8 +21599,8 @@
 - component: GNOME
   create_time: 20190407T11:58:00
   id: 1131766
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: libgio is leaking sockets
 - component: X11 Applications
   create_time: 20190407T10:10:00
