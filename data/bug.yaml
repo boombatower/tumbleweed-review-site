@@ -18343,8 +18343,8 @@
 - component: Other
   create_time: 20190115T12:56:00
   id: 1121995
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'live555: does not build shared libraries'
 - component: YaST2
   create_time: 20190115T11:38:00
@@ -18642,8 +18642,8 @@
 - component: Other
   create_time: 20190129T16:45:00
   id: 1123552
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Files with wrong written SUSE on Tumbleweed medium
 - component: Kubic
   create_time: 20190129T15:34:00
@@ -18853,8 +18853,8 @@
 - component: Patterns
   create_time: 20190204T09:25:00
   id: 1124124
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python3-raven requires python(abi) = 3.6
 - component: Other
   create_time: 20190204T08:54:00
@@ -21013,8 +21013,8 @@
 - component: Kubic
   create_time: 20190318T11:00:00
   id: 1129566
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: ignition cannot write to /sysroot/etc with transactional-updates
 '20190320':
 - component: Kernel
@@ -21599,8 +21599,8 @@
 - component: GNOME
   create_time: 20190407T11:58:00
   id: 1131766
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: libgio is leaking sockets
 - component: X11 Applications
   create_time: 20190407T10:10:00
@@ -24779,7 +24779,7 @@
   create_time: 20190615T20:53:00
   id: 1138360
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: gns3 and gns3-server have version mismatch
 - component: Other
   create_time: 20190615T05:24:00
@@ -25059,8 +25059,8 @@
 - component: Kernel
   create_time: 20190617T20:51:00
   id: 1138496
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Consider compiling kernel with FONT_TER16x32 for HiDpi font support
 - component: YaST2
   create_time: 20190617T19:21:00
