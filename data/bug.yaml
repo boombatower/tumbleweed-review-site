@@ -24960,8 +24960,8 @@
 - component: Basesystem
   create_time: 20190620T09:41:00
   id: 1138800
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: findutils build fails'
 - component: Basesystem
   create_time: 20190620T09:35:00
