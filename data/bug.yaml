@@ -25144,7 +25144,7 @@
   resolution: ''
   status: NEW
   summary: transactional-update removes snapshot when mono %post scriptlet fails
-- component: Kernel
+- component: X.Org
   create_time: 20190622T17:15:00
   id: 1139011
   resolution: ''
