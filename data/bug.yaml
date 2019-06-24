@@ -12183,8 +12183,8 @@
 - component: Live Medium
   create_time: 20180904T13:28:00
   id: 1107104
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: KDE LiveCD does not boot in UEFI mode
 - component: Patterns
   create_time: 20180904T13:27:00
@@ -16718,8 +16718,8 @@
 - component: Live Medium
   create_time: 20181208T12:41:00
   id: 1118857
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Add danish translations to live medie
 - component: Bootloader
   create_time: 20181208T12:08:00
@@ -18337,8 +18337,8 @@
 - component: X11 Applications
   create_time: 20190115T14:46:00
   id: 1122018
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190112] openQA test fails in inkscape: inkscape doesn''t start'
 - component: Other
   create_time: 20190115T12:56:00
@@ -19436,8 +19436,8 @@
 - component: Security
   create_time: 20190214T10:43:00
   id: 1125428
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'fwupd: removal of /usr/share/polkit-1/rules.d/org.freedesktop.fwupd.rules'
 - component: Security
   create_time: 20190214T10:38:00
@@ -20003,8 +20003,8 @@
 - component: Basesystem
   create_time: 20190228T17:56:00
   id: 1127411
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-vm not included when installing Server role
 - component: LXQt
   create_time: 20190228T15:03:00
@@ -20429,8 +20429,8 @@
 - component: Other
   create_time: 20190306T21:52:00
   id: 1128230
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'fwupd: broken skript in RPM package?'
 - component: GNOME
   create_time: 20190306T18:51:00
@@ -24204,7 +24204,7 @@
   id: 1136977
   resolution: ''
   status: NEW
-  summary: '[Build 20190528] openQA test fails in mediacheck: emergency systemd shell'
+  summary: '[Build 20190528] Live media (mediacheck and regular media boot) fail'
 - component: Security
   create_time: 20190531T11:58:00
   id: 1136974
@@ -24754,8 +24754,8 @@
 - component: Maintenance
   create_time: 20190616T14:36:00
   id: 1138371
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Factory Update channel missing for multiple architectures
 - component: KDE Workspace (Plasma)
   create_time: 20190616T13:42:00
