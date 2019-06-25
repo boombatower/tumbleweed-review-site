@@ -25125,6 +25125,18 @@
   status: RESOLVED
   summary: accented charakters don't work
 '20190621':
+- component: YaST2
+  create_time: 20190625T09:43:00
+  id: 1139270
+  resolution: ''
+  status: NEW
+  summary: Yast uses old rubocop that prevents to use newer ruby features.
+- component: Kernel
+  create_time: 20190625T07:55:00
+  id: 1139244
+  resolution: ''
+  status: NEW
+  summary: kernel 5.2 crash on boot tpm1_pcr_extend+0x118/0x1d0
 - component: Other
   create_time: 20190625T01:31:00
   id: 1139210
