@@ -25169,6 +25169,12 @@
   status: NEW
   summary: xrdp service fails to start on boot, on a timeout
 '20190623':
+- component: Basesystem
+  create_time: 20190625T16:23:00
+  id: 1139356
+  resolution: INVALID
+  status: RESOLVED
+  summary: ssh cannot authenticate using key
 - component: Bootloader
   create_time: 20190625T15:41:00
   id: 1139351
@@ -25178,8 +25184,8 @@
 - component: Kernel
   create_time: 20190625T15:23:00
   id: 1139346
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: rPi crash on boot
 - component: Installation
   create_time: 20190625T13:16:00
