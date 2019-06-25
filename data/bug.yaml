@@ -16727,7 +16727,7 @@
   resolution: ''
   status: NEW
   summary: Grub Menu Entries with Wrong Language
-- component: Live Medium
+- component: YaST2
   create_time: 20181208T12:04:00
   id: 1118855
   resolution: ''
@@ -18908,8 +18908,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190203T09:25:00
   id: 1124067
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: patterns-kde-kde_yast should not require yast2-theme-oxygen anymore for
     openSUSE TW
 - component: Live Medium
@@ -18989,8 +18989,8 @@
 - component: Patterns
   create_time: 20190208T11:26:00
   id: 1124789
-  resolution: ''
-  status: CONFIRMED
+  resolution: WONTFIX
+  status: RESOLVED
   summary: System roles need improvement
 - component: X11 Applications
   create_time: 20190207T23:12:00
@@ -23357,8 +23357,8 @@
 - component: Basesystem
   create_time: 20190510T22:49:00
   id: 1134787
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: BT device connects and immediately disconnects on poweron
 - component: Basesystem
   create_time: 20190510T16:34:00
@@ -25169,13 +25169,25 @@
   status: NEW
   summary: xrdp service fails to start on boot, on a timeout
 '20190623':
+- component: Bootloader
+  create_time: 20190625T15:41:00
+  id: 1139351
+  resolution: ''
+  status: NEW
+  summary: 'rPi grub: USB keyboard does not work'
+- component: Kernel
+  create_time: 20190625T15:23:00
+  id: 1139346
+  resolution: ''
+  status: NEW
+  summary: rPi crash on boot
 - component: Installation
   create_time: 20190625T13:16:00
   id: 1139325
   resolution: ''
   status: NEW
   summary: rPi installer OOM crash
-- component: Basesystem
+- component: Bootloader
   create_time: 20190625T12:20:00
   id: 1139319
   resolution: ''
