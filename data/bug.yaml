@@ -14689,8 +14689,8 @@
 - component: Patterns
   create_time: 20181031T13:49:00
   id: 1114189
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'TW: ntp is installed by default but not needed (as we use chrony)'
 - component: Other
   create_time: 20181031T13:33:00
@@ -16712,8 +16712,8 @@
 - component: Live Medium
   create_time: 20181208T12:47:00
   id: 1118858
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Can not change installer language
 - component: Live Medium
   create_time: 20181208T12:41:00
@@ -17979,8 +17979,8 @@
 - component: Upgrade Problems
   create_time: 20190110T08:34:00
   id: 1121393
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190108] openQA test fails in yast2_i'
 - component: Basesystem
   create_time: 20190110T08:32:00
@@ -18331,8 +18331,8 @@
 - component: X11 Applications
   create_time: 20190115T14:54:00
   id: 1122022
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190112] openQA test fails in vlc: VLC doesn''t play the video'
 - component: X11 Applications
   create_time: 20190115T14:46:00
@@ -18905,7 +18905,7 @@
   resolution: ''
   status: IN_PROGRESS
   summary: '[Build 20190201] openQA test fails in podman_image'
-- component: Patterns
+- component: KDE Workspace (Plasma)
   create_time: 20190203T09:25:00
   id: 1124067
   resolution: ''
@@ -25125,31 +25125,6 @@
   status: RESOLVED
   summary: accented charakters don't work
 '20190621':
-- component: YaST2
-  create_time: 20190625T09:43:00
-  id: 1139270
-  resolution: ''
-  status: NEW
-  summary: Yast uses old rubocop that prevents to use newer ruby features.
-- component: Kernel
-  create_time: 20190625T07:55:00
-  id: 1139244
-  resolution: ''
-  status: NEW
-  summary: kernel 5.2 crash on boot tpm1_pcr_extend+0x118/0x1d0
-- component: Other
-  create_time: 20190625T01:31:00
-  id: 1139210
-  resolution: ''
-  status: NEW
-  summary: go1.12 - doesn't install /usr/lib64/go/1.12/misc/wasm/wasm_exec.js and
-    others
-- component: Other
-  create_time: 20190623T09:24:00
-  id: 1139018
-  resolution: ''
-  status: NEW
-  summary: Gparted requires btrfs-progs - should be recommends, not requires.
 - component: Basesystem
   create_time: 20190622T19:04:00
   id: 1139015
@@ -25193,3 +25168,53 @@
   resolution: ''
   status: NEW
   summary: xrdp service fails to start on boot, on a timeout
+'20190623':
+- component: Installation
+  create_time: 20190625T13:16:00
+  id: 1139325
+  resolution: ''
+  status: NEW
+  summary: rPi installer OOM crash
+- component: Basesystem
+  create_time: 20190625T12:20:00
+  id: 1139319
+  resolution: ''
+  status: NEW
+  summary: 'rPi u-boot: cannot paste into serial console'
+- component: KDE Applications
+  create_time: 20190625T11:05:00
+  id: 1139295
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'Kmail: Possibly Missing requirements'
+- component: Basesystem
+  create_time: 20190625T10:30:00
+  id: 1139285
+  resolution: ''
+  status: NEW
+  summary: NetworkManager no longer saves VPN passwords
+- component: YaST2
+  create_time: 20190625T09:43:00
+  id: 1139270
+  resolution: ''
+  status: NEW
+  summary: Yast uses old rubocop that prevents to use newer ruby features.
+- component: Kernel
+  create_time: 20190625T07:55:00
+  id: 1139244
+  resolution: ''
+  status: NEW
+  summary: kernel 5.2 crash on boot tpm1_pcr_extend+0x118/0x1d0
+- component: Other
+  create_time: 20190625T01:31:00
+  id: 1139210
+  resolution: ''
+  status: NEW
+  summary: go1.12 - doesn't install /usr/lib64/go/1.12/misc/wasm/wasm_exec.js and
+    others
+- component: Other
+  create_time: 20190623T09:24:00
+  id: 1139018
+  resolution: ''
+  status: NEW
+  summary: Gparted requires btrfs-progs - should be recommends, not requires.
