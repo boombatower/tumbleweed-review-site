@@ -24914,7 +24914,7 @@
   id: 1138832
   resolution: ''
   status: NEW
-  summary: Gajim complains about type error
+  summary: Unmaintained openPGP plugin causes Gajim to block
 - component: Basesystem
   create_time: 20190620T11:01:00
   id: 1138820
