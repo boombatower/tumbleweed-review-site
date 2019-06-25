@@ -25126,6 +25126,13 @@
   summary: accented charakters don't work
 '20190621':
 - component: Other
+  create_time: 20190625T01:31:00
+  id: 1139210
+  resolution: ''
+  status: NEW
+  summary: go1.12 - doesn't install /usr/lib64/go/1.12/misc/wasm/wasm_exec.js and
+    others
+- component: Other
   create_time: 20190623T09:24:00
   id: 1139018
   resolution: ''
