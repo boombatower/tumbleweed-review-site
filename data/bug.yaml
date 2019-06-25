@@ -25169,6 +25169,18 @@
   status: NEW
   summary: xrdp service fails to start on boot, on a timeout
 '20190623':
+- component: Virtualization:Other
+  create_time: 20190625T21:30:00
+  id: 1139376
+  resolution: ''
+  status: NEW
+  summary: libvirt unable to read /dev/sev
+- component: Basesystem
+  create_time: 20190625T20:00:00
+  id: 1139369
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'multipath-tools: post-0.8.1 upstream bug fixes'
 - component: Basesystem
   create_time: 20190625T16:23:00
   id: 1139356
