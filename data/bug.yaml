@@ -25169,6 +25169,19 @@
   status: NEW
   summary: xrdp service fails to start on boot, on a timeout
 '20190623':
+- component: Installation
+  create_time: 20190626T15:28:00
+  id: 1139482
+  resolution: ''
+  status: NEW
+  summary: rPi u-boot-rpi3 not installed
+- component: Kernel
+  create_time: 20190626T13:44:00
+  id: 1139467
+  resolution: ''
+  status: NEW
+  summary: 'openSUSE Tumbleweed: data corruption? btrfs and Samsung SSD (but no LVM
+    and no encryption)'
 - component: KDE Applications
   create_time: 20190626T13:25:00
   id: 1139463
