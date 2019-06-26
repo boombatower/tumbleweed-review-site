@@ -24196,8 +24196,8 @@
 - component: GNOME
   create_time: 20190531T18:34:00
   id: 1137019
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: GNOME Software shows mismatch package details
 - component: Basesystem
   create_time: 20190531T12:27:00
@@ -25169,6 +25169,18 @@
   status: NEW
   summary: xrdp service fails to start on boot, on a timeout
 '20190623':
+- component: KDE Workspace (Plasma)
+  create_time: 20190626T10:19:00
+  id: 1139422
+  resolution: ''
+  status: NEW
+  summary: powermanagement on notebook always assumes low battery state
+- component: Other
+  create_time: 20190626T09:44:00
+  id: 1139415
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190625] gwenhywfar beta breaks gnucash (and likely others)'
 - component: Virtualization:Other
   create_time: 20190625T21:30:00
   id: 1139376
