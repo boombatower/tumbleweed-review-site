@@ -25169,6 +25169,13 @@
   status: NEW
   summary: xrdp service fails to start on boot, on a timeout
 '20190623':
+- component: YaST2
+  create_time: 20190626T17:06:00
+  id: 1139492
+  resolution: ''
+  status: NEW
+  summary: Errors encountered during installation and afterwards with LVM RAID-5 +
+    SSD Cache
 - component: Installation
   create_time: 20190626T15:28:00
   id: 1139482
