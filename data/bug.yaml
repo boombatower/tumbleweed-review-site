@@ -22987,7 +22987,7 @@
   create_time: 20190430T13:59:00
   id: 1133809
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Enable bit-reproducible packages
 - component: Sound
   create_time: 20190430T13:14:00
@@ -24918,8 +24918,8 @@
 - component: Basesystem
   create_time: 20190620T11:01:00
   id: 1138820
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'rpm cannot parse conditional: Unmatched ('
 - component: Basesystem
   create_time: 20190620T10:24:00
@@ -25169,6 +25169,12 @@
   status: NEW
   summary: xrdp service fails to start on boot, on a timeout
 '20190623':
+- component: KDE Applications
+  create_time: 20190626T13:25:00
+  id: 1139463
+  resolution: ''
+  status: NEW
+  summary: Plasma Discover crashes on launch since Tumbleweed 20190623
 - component: KDE Workspace (Plasma)
   create_time: 20190626T10:19:00
   id: 1139422
