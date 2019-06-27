@@ -21393,8 +21393,8 @@
 - component: Virtualization:Tools
   create_time: 20190328T21:50:00
   id: 1130898
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: open-vm-tools 10.3.10 has been released
 - component: Other
   create_time: 20190328T18:40:00
