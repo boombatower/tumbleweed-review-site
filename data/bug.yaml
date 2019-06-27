@@ -24436,8 +24436,8 @@
 - component: Other
   create_time: 20190603T00:46:00
   id: 1137071
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: teamviewer 12,13,14 versions get error about verification failed after
     update to wine 4.9-1006.1
 '20190604':
@@ -25169,6 +25169,19 @@
   status: NEW
   summary: xrdp service fails to start on boot, on a timeout
 '20190623':
+- component: Installation
+  create_time: 20190627T06:33:00
+  id: 1139523
+  resolution: ''
+  status: NEW
+  summary: bad column width allocations in Installation Summary
+- component: Installation
+  create_time: 20190627T06:17:00
+  id: 1139518
+  resolution: ''
+  status: NEW
+  summary: 'TW20190623: Internal Error: undefined method `gsub!'' for NilClass; ssh_config.rb:90:in
+    `block in parse_ini_file'
 - component: YaST2
   create_time: 20190626T17:06:00
   id: 1139492
