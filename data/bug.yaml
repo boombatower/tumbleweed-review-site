@@ -25169,6 +25169,12 @@
   status: NEW
   summary: xrdp service fails to start on boot, on a timeout
 '20190623':
+- component: Other
+  create_time: 20190627T12:32:00
+  id: 1139584
+  resolution: ''
+  status: NEW
+  summary: 'LLVM8: inconsistent configuration exposed between cmake and llvm-config'
 - component: Installation
   create_time: 20190627T06:33:00
   id: 1139523
