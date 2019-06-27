@@ -25169,6 +25169,12 @@
   status: NEW
   summary: xrdp service fails to start on boot, on a timeout
 '20190623':
+- component: Basesystem
+  create_time: 20190627T14:57:00
+  id: 1139621
+  resolution: ''
+  status: NEW
+  summary: Slow boot up and shutdown while connected to second monitor
 - component: Other
   create_time: 20190627T12:32:00
   id: 1139584
@@ -25205,7 +25211,7 @@
   create_time: 20190626T13:44:00
   id: 1139467
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'openSUSE Tumbleweed: data corruption? btrfs and Samsung SSD (but no LVM
     and no encryption)'
 - component: KDE Applications
