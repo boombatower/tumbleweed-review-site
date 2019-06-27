@@ -23091,8 +23091,8 @@
 - component: Other
   create_time: 20190505T15:29:00
   id: 1134135
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: SDL_GetWindowSurface returns NULL pointer
 - component: LibreOffice
   create_time: 20190505T10:52:00
