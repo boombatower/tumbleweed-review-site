@@ -25169,75 +25169,6 @@
   status: NEW
   summary: xrdp service fails to start on boot, on a timeout
 '20190623':
-- component: Containers
-  create_time: 20190628T01:20:00
-  id: 1139649
-  resolution: ''
-  status: NEW
-  summary: '[trackerbug] Docker 18.09.7 update'
-- component: Basesystem
-  create_time: 20190627T14:57:00
-  id: 1139621
-  resolution: ''
-  status: NEW
-  summary: Slow boot up and shutdown while connected to second monitor
-- component: Other
-  create_time: 20190627T12:32:00
-  id: 1139584
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'LLVM8: inconsistent configuration exposed between cmake and llvm-config'
-- component: Installation
-  create_time: 20190627T06:33:00
-  id: 1139523
-  resolution: ''
-  status: NEW
-  summary: bad column width allocations in Installation Summary
-- component: Installation
-  create_time: 20190627T06:17:00
-  id: 1139518
-  resolution: ''
-  status: NEW
-  summary: 'TW20190623: Internal Error: undefined method `gsub!'' for NilClass; ssh_config.rb:90:in
-    `block in parse_ini_file'
-- component: YaST2
-  create_time: 20190626T17:06:00
-  id: 1139492
-  resolution: ''
-  status: NEW
-  summary: Errors encountered during installation and afterwards with LVM RAID-5 +
-    SSD Cache
-- component: Installation
-  create_time: 20190626T15:28:00
-  id: 1139482
-  resolution: ''
-  status: NEW
-  summary: rPi u-boot-rpi3 not installed
-- component: Kernel
-  create_time: 20190626T13:44:00
-  id: 1139467
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'openSUSE Tumbleweed: data corruption? btrfs and Samsung SSD (but no LVM
-    and no encryption)'
-- component: KDE Applications
-  create_time: 20190626T13:25:00
-  id: 1139463
-  resolution: ''
-  status: NEW
-  summary: Plasma Discover crashes on launch since Tumbleweed 20190623
-- component: KDE Workspace (Plasma)
-  create_time: 20190626T10:19:00
-  id: 1139422
-  resolution: ''
-  status: NEW
-  summary: powermanagement on notebook always assumes low battery state
-- component: Other
-  create_time: 20190626T09:44:00
-  id: 1139415
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190625] gwenhywfar beta breaks gnucash (and likely others)'
 - component: Virtualization:Other
   create_time: 20190625T21:30:00
   id: 1139376
@@ -25317,3 +25248,73 @@
   resolution: ''
   status: NEW
   summary: Gparted requires btrfs-progs - should be recommends, not requires.
+'20190626':
+- component: Containers
+  create_time: 20190628T01:20:00
+  id: 1139649
+  resolution: ''
+  status: NEW
+  summary: '[trackerbug] Docker 18.09.7 update'
+- component: Basesystem
+  create_time: 20190627T14:57:00
+  id: 1139621
+  resolution: ''
+  status: NEW
+  summary: Slow boot up and shutdown while connected to second monitor
+- component: Other
+  create_time: 20190627T12:32:00
+  id: 1139584
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'LLVM8: inconsistent configuration exposed between cmake and llvm-config'
+- component: Installation
+  create_time: 20190627T06:33:00
+  id: 1139523
+  resolution: ''
+  status: NEW
+  summary: bad column width allocations in Installation Summary
+- component: Installation
+  create_time: 20190627T06:17:00
+  id: 1139518
+  resolution: ''
+  status: NEW
+  summary: 'TW20190623: Internal Error: undefined method `gsub!'' for NilClass; ssh_config.rb:90:in
+    `block in parse_ini_file'
+- component: YaST2
+  create_time: 20190626T17:06:00
+  id: 1139492
+  resolution: ''
+  status: NEW
+  summary: Errors encountered during installation and afterwards with LVM RAID-5 +
+    SSD Cache
+- component: Installation
+  create_time: 20190626T15:28:00
+  id: 1139482
+  resolution: ''
+  status: NEW
+  summary: rPi u-boot-rpi3 not installed
+- component: Kernel
+  create_time: 20190626T13:44:00
+  id: 1139467
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'openSUSE Tumbleweed: data corruption? btrfs and Samsung SSD (but no LVM
+    and no encryption)'
+- component: KDE Applications
+  create_time: 20190626T13:25:00
+  id: 1139463
+  resolution: ''
+  status: NEW
+  summary: Plasma Discover crashes on launch since Tumbleweed 20190623
+- component: KDE Workspace (Plasma)
+  create_time: 20190626T10:19:00
+  id: 1139422
+  resolution: ''
+  status: NEW
+  summary: powermanagement on notebook always assumes low battery state
+- component: Other
+  create_time: 20190626T09:44:00
+  id: 1139415
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190625] gwenhywfar beta breaks gnucash (and likely others)'
