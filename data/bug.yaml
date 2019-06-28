@@ -25249,6 +25249,12 @@
   status: NEW
   summary: Gparted requires btrfs-progs - should be recommends, not requires.
 '20190626':
+- component: X.Org
+  create_time: 20190628T09:39:00
+  id: 1139692
+  resolution: ''
+  status: NEW
+  summary: Let's move xorg.conf.d snippets from /etc/X11/xorg.conf.d to /usr/share/X11/xorg.conf.d
 - component: Containers
   create_time: 20190628T01:20:00
   id: 1139649
