@@ -25169,6 +25169,12 @@
   status: NEW
   summary: xrdp service fails to start on boot, on a timeout
 '20190623':
+- component: Containers
+  create_time: 20190628T01:20:00
+  id: 1139649
+  resolution: ''
+  status: NEW
+  summary: '[trackerbug] Docker 18.09.7 update'
 - component: Basesystem
   create_time: 20190627T14:57:00
   id: 1139621
@@ -25179,7 +25185,7 @@
   create_time: 20190627T12:32:00
   id: 1139584
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'LLVM8: inconsistent configuration exposed between cmake and llvm-config'
 - component: Installation
   create_time: 20190627T06:33:00
