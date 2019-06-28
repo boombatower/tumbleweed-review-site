@@ -25249,6 +25249,12 @@
   status: NEW
   summary: Gparted requires btrfs-progs - should be recommends, not requires.
 '20190626':
+- component: Other
+  create_time: 20190628T18:59:00
+  id: 1139776
+  resolution: ''
+  status: NEW
+  summary: gajim-plugin-omemo 2.6.59 requires newer version of gajim
 - component: Kernel
   create_time: 20190628T15:08:00
   id: 1139760
