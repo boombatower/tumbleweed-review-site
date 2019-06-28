@@ -25249,6 +25249,18 @@
   status: NEW
   summary: Gparted requires btrfs-progs - should be recommends, not requires.
 '20190626':
+- component: Kernel
+  create_time: 20190628T15:08:00
+  id: 1139760
+  resolution: ''
+  status: NEW
+  summary: 'rPi3: cannot wake from STR'
+- component: YaST2
+  create_time: 20190628T13:55:00
+  id: 1139747
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Improve the libyui REST API
 - component: X.Org
   create_time: 20190628T09:39:00
   id: 1139692
