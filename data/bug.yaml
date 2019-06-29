@@ -25288,6 +25288,12 @@
   status: NEW
   summary: '[Build 20190625] gwenhywfar beta breaks gnucash (and likely others)'
 '20190627':
+- component: KDE Applications
+  create_time: 20190629T14:05:00
+  id: 1139791
+  resolution: ''
+  status: NEW
+  summary: After latest snapshot, kaffeine segfaults at start of dvb-S encoding
 - component: Basesystem
   create_time: 20190628T20:21:00
   id: 1139780
