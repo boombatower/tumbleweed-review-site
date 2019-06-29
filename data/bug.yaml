@@ -25274,7 +25274,7 @@
   id: 1139463
   resolution: ''
   status: NEW
-  summary: Plasma Discover crashes on launch since Tumbleweed 20190623
+  summary: Plasma Discover crashes/unusuable on launch since Tumbleweed 20190623
 - component: KDE Workspace (Plasma)
   create_time: 20190626T10:19:00
   id: 1139422
