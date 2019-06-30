@@ -25288,6 +25288,25 @@
   status: NEW
   summary: '[Build 20190625] gwenhywfar beta breaks gnucash (and likely others)'
 '20190627':
+- component: Kubic
+  create_time: 20190630T08:34:00
+  id: 1139801
+  resolution: ''
+  status: NEW
+  summary: Salt Warnings in Kubic
+- component: Kubic
+  create_time: 20190630T08:30:00
+  id: 1139800
+  resolution: ''
+  status: NEW
+  summary: Cillium not working in Kubic
+- component: Other
+  create_time: 20190630T08:13:00
+  id: 1139799
+  resolution: ''
+  status: NEW
+  summary: zypper-log has a hard dependency on Python 2.x.x and won't work with Python
+    3.x.x
 - component: libzypp
   create_time: 20190630T00:40:00
   id: 1139795
