@@ -25288,6 +25288,32 @@
   status: NEW
   summary: '[Build 20190625] gwenhywfar beta breaks gnucash (and likely others)'
 '20190627':
+- component: Basesystem
+  create_time: 20190627T14:57:00
+  id: 1139621
+  resolution: ''
+  status: NEW
+  summary: Slow boot up and shutdown while connected to second monitor
+- component: Other
+  create_time: 20190627T12:32:00
+  id: 1139584
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'LLVM8: inconsistent configuration exposed between cmake and llvm-config'
+- component: Installation
+  create_time: 20190627T06:33:00
+  id: 1139523
+  resolution: ''
+  status: NEW
+  summary: bad column width allocations in Installation Summary
+- component: Installation
+  create_time: 20190627T06:17:00
+  id: 1139518
+  resolution: ''
+  status: NEW
+  summary: 'TW20190623: Internal Error: undefined method `gsub!'' for NilClass; ssh_config.rb:90:in
+    `block in parse_ini_file'
+'20190628':
 - component: Kubic
   create_time: 20190630T08:34:00
   id: 1139801
@@ -25355,28 +25381,3 @@
   resolution: ''
   status: NEW
   summary: '[trackerbug] Docker 18.09.7 update'
-- component: Basesystem
-  create_time: 20190627T14:57:00
-  id: 1139621
-  resolution: ''
-  status: NEW
-  summary: Slow boot up and shutdown while connected to second monitor
-- component: Other
-  create_time: 20190627T12:32:00
-  id: 1139584
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'LLVM8: inconsistent configuration exposed between cmake and llvm-config'
-- component: Installation
-  create_time: 20190627T06:33:00
-  id: 1139523
-  resolution: ''
-  status: NEW
-  summary: bad column width allocations in Installation Summary
-- component: Installation
-  create_time: 20190627T06:17:00
-  id: 1139518
-  resolution: ''
-  status: NEW
-  summary: 'TW20190623: Internal Error: undefined method `gsub!'' for NilClass; ssh_config.rb:90:in
-    `block in parse_ini_file'
