@@ -25288,6 +25288,12 @@
   status: NEW
   summary: '[Build 20190625] gwenhywfar beta breaks gnucash (and likely others)'
 '20190627':
+- component: libzypp
+  create_time: 20190630T00:40:00
+  id: 1139795
+  resolution: ''
+  status: NEW
+  summary: libzypp 17.12.0-1.2 deletes /etc/products.d/openSUSE.prod
 - component: KDE Applications
   create_time: 20190629T14:05:00
   id: 1139791
