@@ -25135,8 +25135,8 @@
 - component: Basesystem
   create_time: 20190622T18:03:00
   id: 1139014
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: transactional-update removes snapshot when mono %post scriptlet fails
 - component: X.Org
   create_time: 20190622T17:15:00
