@@ -25314,6 +25314,12 @@
   summary: 'TW20190623: Internal Error: undefined method `gsub!'' for NilClass; ssh_config.rb:90:in
     `block in parse_ini_file'
 '20190628':
+- component: Upgrade Problems
+  create_time: 20190630T20:55:00
+  id: 1139818
+  resolution: ''
+  status: NEW
+  summary: Issu when performing sudo zypper dup
 - component: Kubic
   create_time: 20190630T08:34:00
   id: 1139801
