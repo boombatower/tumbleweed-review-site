@@ -25314,6 +25314,12 @@
   summary: 'TW20190623: Internal Error: undefined method `gsub!'' for NilClass; ssh_config.rb:90:in
     `block in parse_ini_file'
 '20190628':
+- component: Kernel
+  create_time: 20190630T23:55:00
+  id: 1139820
+  resolution: ''
+  status: NEW
+  summary: '[aarch64] btrfs oops at end of Tumbleweed installation'
 - component: Upgrade Problems
   create_time: 20190630T20:55:00
   id: 1139818
