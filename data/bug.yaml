@@ -18122,8 +18122,8 @@
 - component: Kernel
   create_time: 20190119T08:58:00
   id: 1122557
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Since update to kernel 4.20.1 boot stops with error "device-mapper: table:
     table load rejected: not all devices are blk-mq request-stackable"'
 - component: YaST2
@@ -23004,8 +23004,8 @@
 - component: Basesystem
   create_time: 20190430T10:31:00
   id: 1133783
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'systemd-udevd: 59-fc-wwpn-id.rules: Invalid key/value pair'
 - component: Basesystem
   create_time: 20190430T09:35:00
