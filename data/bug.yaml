@@ -14316,7 +14316,7 @@
   create_time: 20181024T07:16:00
   id: 1113041
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Out of date package: openSUSE:Factory/proftpd is out of date'
 - component: Other
   create_time: 20181024T07:10:00
@@ -15826,8 +15826,8 @@
 - component: Kernel
   create_time: 20181114T08:46:00
   id: 1115946
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: VERIFIED
   summary: '[Build 20181112] openQA test fails in kdump_and_crash (kernel 4.19)'
 - component: Basesystem
   create_time: 20181114T08:12:00
@@ -16363,7 +16363,7 @@
   create_time: 20181128T12:22:00
   id: 1117643
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20181127] yast ldap server module does not report error about missing
     package'
 - component: OpenStack
@@ -23633,8 +23633,8 @@
 - component: GNOME
   create_time: 20190516T17:07:00
   id: 1135401
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: "gnome-shell: Clutter.txt has been already deallocated \u2014 impossible\
     \ to access it."
 - component: Cloud:Tools
@@ -25203,7 +25203,7 @@
   create_time: 20190625T13:16:00
   id: 1139325
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: rPi installer OOM crash
 - component: Bootloader
   create_time: 20190625T12:20:00
@@ -25310,10 +25310,23 @@
   create_time: 20190627T06:17:00
   id: 1139518
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'TW20190623: Internal Error: undefined method `gsub!'' for NilClass; ssh_config.rb:90:in
     `block in parse_ini_file'
 '20190628':
+- component: Other
+  create_time: 20190701T13:09:00
+  id: 1139927
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190630] openQA test fails in tk on qemu graphics adapter "std",
+    text string "Hello World: Tcl/Tk" does not show up'
+- component: Other
+  create_time: 20190701T11:28:00
+  id: 1139915
+  resolution: ''
+  status: NEW
+  summary: Inconsistent names of Tumbleweed image for Raspberry Pi 1B in repository
 - component: X.Org
   create_time: 20190701T09:39:00
   id: 1139889
@@ -25400,11 +25413,11 @@
   resolution: ''
   status: NEW
   summary: libzypp 17.12.0-1.2 deletes /etc/products.d/openSUSE.prod
-- component: KDE Applications
+- component: X.Org
   create_time: 20190629T14:05:00
   id: 1139791
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: After latest snapshot, kaffeine segfaults at start of dvb-S encoding
 - component: libzypp
   create_time: 20190628T20:21:00
