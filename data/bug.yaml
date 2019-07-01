@@ -23405,7 +23405,7 @@
   status: IN_PROGRESS
   summary: 'Thunar 1.8.4 Regression: Right Click > Create Document doesn''t show context
     menu (fix available)'
-- component: Other
+- component: KDE Workspace (Plasma)
   create_time: 20190513T14:35:00
   id: 1134875
   resolution: ''
@@ -23417,7 +23417,7 @@
   resolution: ''
   status: NEW
   summary: Night Color turns on when using Location Operation mode.
-- component: Basesystem
+- component: Kernel
   create_time: 20190513T12:47:00
   id: 1134865
   resolution: ''
@@ -24230,7 +24230,7 @@
   resolution: ''
   status: IN_PROGRESS
   summary: '[Build 20190528] System does not use same network names after update'
-- component: Other
+- component: GNOME
   create_time: 20190531T01:35:00
   id: 1136898
   resolution: ''
@@ -24390,11 +24390,11 @@
   resolution: INVALID
   status: RESOLVED
   summary: Virtualbox guest additions fails on openSUSE Tumbleweed
-- component: Network
+- component: GNOME
   create_time: 20190601T06:35:00
   id: 1137048
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: wireguard doesn't work
 '20190603':
 - component: GNOME
@@ -24853,7 +24853,7 @@
   resolution: ''
   status: NEW
   summary: sudo zypper dup leaves system in unstable bootup state
-- component: Network
+- component: GNOME
   create_time: 20190614T01:36:00
   id: 1138217
   resolution: ''
@@ -24994,7 +24994,7 @@
   resolution: ''
   status: NEW
   summary: openSUSE Tumbleweed Kernel errors
-- component: Other
+- component: Kernel
   create_time: 20190619T13:44:00
   id: 1138730
   resolution: ''
@@ -25074,7 +25074,7 @@
   resolution: ''
   status: NEW
   summary: deepin-wm failing to build on Tumbleweed
-- component: Basesystem
+- component: GNOME
   create_time: 20190617T17:17:00
   id: 1138482
   resolution: ''
@@ -25125,7 +25125,7 @@
   status: RESOLVED
   summary: accented charakters don't work
 '20190621':
-- component: Basesystem
+- component: Bootloader
   create_time: 20190622T19:04:00
   id: 1139015
   resolution: ''
@@ -25144,7 +25144,7 @@
   resolution: ''
   status: IN_PROGRESS
   summary: Glitches with amdgpu driver and QtWebEngine
-- component: Other
+- component: GNOME
   create_time: 20190622T11:23:00
   id: 1139004
   resolution: ''
@@ -25314,6 +25314,24 @@
   summary: 'TW20190623: Internal Error: undefined method `gsub!'' for NilClass; ssh_config.rb:90:in
     `block in parse_ini_file'
 '20190628':
+- component: Other
+  create_time: 20190701T07:59:00
+  id: 1139857
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190630] MATE - core packages unresolvable'
+- component: Basesystem
+  create_time: 20190701T07:45:00
+  id: 1139856
+  resolution: ''
+  status: NEW
+  summary: 'riscv64: GCC9 compiling failures'
+- component: Other
+  create_time: 20190701T07:19:00
+  id: 1139847
+  resolution: ''
+  status: NEW
+  summary: Unable to run zypper dup due to calibre missing libQt5Core.so.5(Qt_5.12.3_PRIVATE_API)(64bit)
 - component: Kernel
   create_time: 20190630T23:55:00
   id: 1139820
@@ -25357,11 +25375,11 @@
   resolution: ''
   status: NEW
   summary: After latest snapshot, kaffeine segfaults at start of dvb-S encoding
-- component: Basesystem
+- component: libzypp
   create_time: 20190628T20:21:00
   id: 1139780
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: zypper man page omits definition of "+" in search output status column
 - component: Other
   create_time: 20190628T18:59:00
