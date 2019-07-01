@@ -809,19 +809,19 @@
   score: 89
   stability_level: moderate
 '20190520':
-  score: 85
-  stability_level: moderate
+  score: 95
+  stability_level: stable
 '20190521':
-  score: 80
+  score: 84
   stability_level: moderate
 '20190524':
-  score: 91
+  score: 93
   stability_level: stable
 '20190525':
   score: 96
   stability_level: stable
 '20190527':
-  score: 88
+  score: 89
   stability_level: moderate
 '20190529':
   score: 76
@@ -866,5 +866,8 @@
   score: 93
   stability_level: pending
 '20190628':
-  score: 94
+  score: 96
+  stability_level: pending
+'20190630':
+  score: 96
   stability_level: pending
