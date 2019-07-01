@@ -24871,7 +24871,7 @@
   create_time: 20190620T18:24:00
   id: 1138873
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: binwalk -e fails to run sasquatch
 - component: Basesystem
   create_time: 20190620T15:27:00
@@ -25003,8 +25003,8 @@
 - component: Other
   create_time: 20190619T13:26:00
   id: 1138728
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: The service file in package ntpsec has a typo
 - component: MicroOS
   create_time: 20190619T13:00:00
@@ -25278,8 +25278,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190626T10:19:00
   id: 1139422
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: powermanagement on notebook always assumes low battery state
 - component: Other
   create_time: 20190626T09:44:00
@@ -25314,6 +25314,37 @@
   summary: 'TW20190623: Internal Error: undefined method `gsub!'' for NilClass; ssh_config.rb:90:in
     `block in parse_ini_file'
 '20190628':
+- component: X.Org
+  create_time: 20190701T09:39:00
+  id: 1139889
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Mouse pointer corrupt in graphics installation
+- component: Sound
+  create_time: 20190701T09:38:00
+  id: 1139888
+  resolution: ''
+  status: NEW
+  summary: Suppressed and crackling system sounds
+- component: Basesystem
+  create_time: 20190701T09:34:00
+  id: 1139881
+  resolution: ''
+  status: NEW
+  summary: chromium crash
+- component: Basesystem
+  create_time: 20190701T08:14:00
+  id: 1139859
+  resolution: ''
+  status: NEW
+  summary: dependency problems with 'zypper dup' due to ruby2.6-rubygem-kramdown
+- component: Development
+  create_time: 20190701T08:13:00
+  id: 1139858
+  resolution: ''
+  status: NEW
+  summary: gcc9 encounters internal compiler error in convert_move with libqt5-qtwebengine
+    5.13.0 for armv6/7
 - component: Other
   create_time: 20190701T07:59:00
   id: 1139857
@@ -25329,8 +25360,8 @@
 - component: Other
   create_time: 20190701T07:19:00
   id: 1139847
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Unable to run zypper dup due to calibre missing libQt5Core.so.5(Qt_5.12.3_PRIVATE_API)(64bit)
 - component: Kernel
   create_time: 20190630T23:55:00
@@ -25356,11 +25387,11 @@
   resolution: ''
   status: NEW
   summary: Cillium not working in Kubic
-- component: Other
+- component: libzypp
   create_time: 20190630T08:13:00
   id: 1139799
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: zypper-log has a hard dependency on Python 2.x.x and won't work with Python
     3.x.x
 - component: libzypp
