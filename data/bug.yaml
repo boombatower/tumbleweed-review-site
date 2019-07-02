@@ -25396,6 +25396,12 @@
   status: RESOLVED
   summary: libzypp 17.12.0-1.2 deletes /etc/products.d/openSUSE.prod
 '20190701':
+- component: Usability
+  create_time: 20190702T18:17:00
+  id: 1140132
+  resolution: ''
+  status: NEW
+  summary: '[FEATURE] [Bash] Add support for ~/.bashrc.d/*'
 - component: Network
   create_time: 20190702T16:05:00
   id: 1140121
@@ -25406,8 +25412,8 @@
 - component: Kubic
   create_time: 20190702T15:29:00
   id: 1140114
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: transactional-update fails with kernel v5.2-rc4+
 - component: X.Org
   create_time: 20190702T14:00:00
