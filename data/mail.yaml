@@ -2182,9 +2182,13 @@
   threads: []
 '20190626':
   announcement: 2019-06.444
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-07.44
+    reference_count: 1
+    summary: released! - Bug when updating FROM this version
 '20190627':
   announcement: 2019-06.457
   reference_count: 0
@@ -2197,6 +2201,10 @@
   threads: []
 '20190630':
   announcement: 2019-07.29
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 5
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-07.38
+    reference_count: 5
+    summary: released! gstreamer-plugins* question
