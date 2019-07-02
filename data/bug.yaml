@@ -24802,8 +24802,8 @@
 - component: Live Medium
   create_time: 20190614T17:52:00
   id: 1138327
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190613] GNOME Live: user session runs on VT2'
 - component: Other
   create_time: 20190614T13:26:00
@@ -24847,7 +24847,7 @@
   resolution: ''
   status: NEW
   summary: 'OCFS2: soft lockup of process that doing I/O on an OCFS2 filesystem'
-- component: Basesystem
+- component: Upgrade Problems
   create_time: 20190614T01:52:00
   id: 1138218
   resolution: ''
@@ -25358,6 +25358,13 @@
   status: NEW
   summary: '[trackerbug] Docker 18.09.7 update'
 '20190630':
+- component: GNOME
+  create_time: 20190702T05:06:00
+  id: 1139990
+  resolution: ''
+  status: NEW
+  summary: window-list extension for gnome-shell-classic references convenience.js
+    has been removed.
 - component: Kubic
   create_time: 20190702T01:29:00
   id: 1139983
