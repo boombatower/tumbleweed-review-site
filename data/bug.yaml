@@ -18698,8 +18698,8 @@
 - component: Kernel
   create_time: 20190128T10:28:00
   id: 1123328
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: obs-arm-7 hangs on umount/mount (obs worker kvm builds) with kernel >=
     4.19
 - component: Basesystem
@@ -25096,7 +25096,7 @@
   create_time: 20190617T08:41:00
   id: 1138417
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20190614] dstat fails with `name "types" is not defined`'
 - component: KDE Applications
   create_time: 20190617T08:34:00
@@ -25141,8 +25141,8 @@
 - component: X.Org
   create_time: 20190622T17:15:00
   id: 1139011
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Glitches with amdgpu driver and QtWebEngine
 - component: GNOME
   create_time: 20190622T11:23:00
@@ -25392,10 +25392,23 @@
 - component: libzypp
   create_time: 20190630T00:40:00
   id: 1139795
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: libzypp 17.12.0-1.2 deletes /etc/products.d/openSUSE.prod
 '20190701':
+- component: Network
+  create_time: 20190702T16:05:00
+  id: 1140121
+  resolution: ''
+  status: NEW
+  summary: 'Activation via systemd failed for unit ''dbus-org.freedesktop.resolve1.service'':
+    Unit dbus-org.freedesktop.resolve1.service not found'
+- component: Kubic
+  create_time: 20190702T15:29:00
+  id: 1140114
+  resolution: ''
+  status: NEW
+  summary: transactional-update fails with kernel v5.2-rc4+
 - component: X.Org
   create_time: 20190702T14:00:00
   id: 1140098
@@ -25406,7 +25419,7 @@
   create_time: 20190702T12:57:00
   id: 1140084
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: VirtualBox constantly steals focus
 - component: Basesystem
   create_time: 20190702T12:45:00
