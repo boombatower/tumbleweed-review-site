@@ -25358,6 +25358,12 @@
   status: NEW
   summary: '[trackerbug] Docker 18.09.7 update'
 '20190630':
+- component: Kubic
+  create_time: 20190702T01:29:00
+  id: 1139983
+  resolution: ''
+  status: NEW
+  summary: MOTD/Banner displays incorrect temporary ipv6 address
 - component: Installation
   create_time: 20190701T20:12:00
   id: 1139967
