@@ -24324,8 +24324,8 @@
 - component: Development
   create_time: 20190529T12:48:00
   id: 1136749
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python-urllib3 upgrade fails
 - component: GNOME
   create_time: 20190529T12:46:00
@@ -24802,8 +24802,8 @@
 - component: Live Medium
   create_time: 20190614T17:52:00
   id: 1138327
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '[Build 20190613] GNOME Live: user session runs on VT2'
 - component: Other
   create_time: 20190614T13:26:00
@@ -25358,6 +25358,68 @@
   status: NEW
   summary: '[trackerbug] Docker 18.09.7 update'
 '20190630':
+- component: Kernel
+  create_time: 20190630T23:55:00
+  id: 1139820
+  resolution: ''
+  status: NEW
+  summary: '[aarch64] btrfs oops at end of Tumbleweed installation'
+- component: Upgrade Problems
+  create_time: 20190630T20:55:00
+  id: 1139818
+  resolution: ''
+  status: NEW
+  summary: Issu when performing sudo zypper dup
+- component: Kubic
+  create_time: 20190630T08:34:00
+  id: 1139801
+  resolution: ''
+  status: NEW
+  summary: Salt Warnings in Kubic
+- component: Kubic
+  create_time: 20190630T08:30:00
+  id: 1139800
+  resolution: ''
+  status: NEW
+  summary: Cillium not working in Kubic
+- component: libzypp
+  create_time: 20190630T08:13:00
+  id: 1139799
+  resolution: ''
+  status: CONFIRMED
+  summary: zypper-log has a hard dependency on Python 2.x.x and won't work with Python
+    3.x.x
+- component: libzypp
+  create_time: 20190630T00:40:00
+  id: 1139795
+  resolution: ''
+  status: CONFIRMED
+  summary: libzypp 17.12.0-1.2 deletes /etc/products.d/openSUSE.prod
+'20190701':
+- component: X.Org
+  create_time: 20190702T14:00:00
+  id: 1140098
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: suse-prime contains a non-functional systemd service file
+- component: Virtualization:Tools
+  create_time: 20190702T12:57:00
+  id: 1140084
+  resolution: ''
+  status: NEW
+  summary: VirtualBox constantly steals focus
+- component: Basesystem
+  create_time: 20190702T12:45:00
+  id: 1140081
+  resolution: ''
+  status: NEW
+  summary: Unable to change VTs after wayland compositor crash
+- component: YaST2
+  create_time: 20190702T12:01:00
+  id: 1140077
+  resolution: ''
+  status: NEW
+  summary: 'yast2-online-update-configuration: migrate from cron to systemd timers'
 - component: Other
   create_time: 20190702T11:06:00
   id: 1140067
@@ -25509,40 +25571,3 @@
   resolution: FIXED
   status: RESOLVED
   summary: Unable to run zypper dup due to calibre missing libQt5Core.so.5(Qt_5.12.3_PRIVATE_API)(64bit)
-- component: Kernel
-  create_time: 20190630T23:55:00
-  id: 1139820
-  resolution: ''
-  status: NEW
-  summary: '[aarch64] btrfs oops at end of Tumbleweed installation'
-- component: Upgrade Problems
-  create_time: 20190630T20:55:00
-  id: 1139818
-  resolution: ''
-  status: NEW
-  summary: Issu when performing sudo zypper dup
-- component: Kubic
-  create_time: 20190630T08:34:00
-  id: 1139801
-  resolution: ''
-  status: NEW
-  summary: Salt Warnings in Kubic
-- component: Kubic
-  create_time: 20190630T08:30:00
-  id: 1139800
-  resolution: ''
-  status: NEW
-  summary: Cillium not working in Kubic
-- component: libzypp
-  create_time: 20190630T08:13:00
-  id: 1139799
-  resolution: ''
-  status: CONFIRMED
-  summary: zypper-log has a hard dependency on Python 2.x.x and won't work with Python
-    3.x.x
-- component: libzypp
-  create_time: 20190630T00:40:00
-  id: 1139795
-  resolution: ''
-  status: CONFIRMED
-  summary: libzypp 17.12.0-1.2 deletes /etc/products.d/openSUSE.prod
