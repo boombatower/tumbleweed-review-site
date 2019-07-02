@@ -14690,7 +14690,7 @@
   create_time: 20181031T13:49:00
   id: 1114189
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: 'TW: ntp is installed by default but not needed (as we use chrony)'
 - component: Other
   create_time: 20181031T13:33:00
@@ -23667,7 +23667,7 @@
   create_time: 20190516T09:56:00
   id: 1135326
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Adding  viewers is broken in AUCTeX
 - component: Basesystem
   create_time: 20190516T09:43:00
@@ -25245,8 +25245,8 @@
 - component: Other
   create_time: 20190623T09:24:00
   id: 1139018
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Gparted requires btrfs-progs - should be recommends, not requires.
 '20190626':
 - component: YaST2
@@ -25358,6 +25358,31 @@
   status: NEW
   summary: '[trackerbug] Docker 18.09.7 update'
 '20190630':
+- component: Virtualization:Other
+  create_time: 20190702T08:17:00
+  id: 1140020
+  resolution: ''
+  status: NEW
+  summary: QEMU frozen after unpausing VM
+- component: YaST2
+  create_time: 20190702T08:14:00
+  id: 1140018
+  resolution: ''
+  status: NEW
+  summary: inconsistent order of partitions
+- component: Basesystem
+  create_time: 20190702T07:41:00
+  id: 1140016
+  resolution: ''
+  status: NEW
+  summary: Update timezone to 2019b.
+- component: Basesystem
+  create_time: 20190702T05:43:00
+  id: 1139996
+  resolution: ''
+  status: NEW
+  summary: 'Upgrading udisks2: Failed to try-restart clean-mount-point@.service: Unit
+    name [...] is missing the instance name.'
 - component: GNOME
   create_time: 20190702T05:06:00
   id: 1139990
