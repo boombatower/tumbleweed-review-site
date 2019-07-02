@@ -2196,9 +2196,13 @@
   threads: []
 '20190628':
   announcement: 2019-06.462
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 3
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-07.53
+    reference_count: 3
+    summary: python3-pyside2 dependency issue
 '20190630':
   announcement: 2019-07.29
   reference_count: 5
