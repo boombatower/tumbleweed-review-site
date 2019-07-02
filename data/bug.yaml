@@ -18430,8 +18430,8 @@
 - component: Other
   create_time: 20190122T17:32:00
   id: 1122799
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: VERIFIED
   summary: Tumbleweed base container on hub.docker.com broken, contains 2 layers,
     1 expected
 - component: Commercial
@@ -18902,8 +18902,8 @@
 - component: Containers
   create_time: 20190203T10:23:00
   id: 1124071
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: VERIFIED
   summary: '[Build 20190201] openQA test fails in podman_image'
 - component: KDE Workspace (Plasma)
   create_time: 20190203T09:25:00
@@ -20899,8 +20899,8 @@
 - component: Other
   create_time: 20190317T16:01:00
   id: 1129494
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: rmt-server not available for armv7 on Tumbleweed
 - component: Kernel
   create_time: 20190317T12:52:00
@@ -24425,7 +24425,7 @@
   create_time: 20190603T09:58:00
   id: 1137104
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: dracut 049 breaks nfs root
 - component: Basesystem
   create_time: 20190603T06:52:00
@@ -25358,6 +25358,32 @@
   status: NEW
   summary: '[trackerbug] Docker 18.09.7 update'
 '20190630':
+- component: Other
+  create_time: 20190702T11:06:00
+  id: 1140067
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190701] openQA test fails in podman_image'
+- component: Other
+  create_time: 20190702T10:28:00
+  id: 1140057
+  resolution: ''
+  status: NEW
+  summary: '[openQA] transactional tests use undefined behaviour of overlayfs'
+- component: YaST2
+  create_time: 20190702T09:36:00
+  id: 1140040
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190701] openQA test fails in yast2_bootloader: Missing e2fsprogs
+    requirement'
+- component: YaST2
+  create_time: 20190702T09:26:00
+  id: 1140037
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190701] openQA test fails in yast2_i: Cannot install packages
+    with 1GiB of RAM'
 - component: Virtualization:Other
   create_time: 20190702T08:17:00
   id: 1140020
@@ -25380,7 +25406,7 @@
   create_time: 20190702T05:43:00
   id: 1139996
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'Upgrading udisks2: Failed to try-restart clean-mount-point@.service: Unit
     name [...] is missing the instance name.'
 - component: GNOME
@@ -25424,8 +25450,8 @@
 - component: Other
   create_time: 20190701T13:09:00
   id: 1139927
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: VERIFIED
   summary: '[Build 20190630] openQA test fails in tk on qemu graphics adapter "std",
     text string "Hello World: Tcl/Tk" does not show up'
 - component: Other
@@ -25446,12 +25472,12 @@
   resolution: ''
   status: NEW
   summary: Suppressed and crackling system sounds
-- component: Basesystem
+- component: X.Org
   create_time: 20190701T09:34:00
   id: 1139881
   resolution: ''
-  status: NEW
-  summary: chromium crash
+  status: IN_PROGRESS
+  summary: 'nouveau: vainfo crashes in VAAPI driver'
 - component: Basesystem
   create_time: 20190701T08:14:00
   id: 1139859
@@ -25518,5 +25544,5 @@
   create_time: 20190630T00:40:00
   id: 1139795
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: libzypp 17.12.0-1.2 deletes /etc/products.d/openSUSE.prod
