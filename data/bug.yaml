@@ -11879,8 +11879,8 @@
 - component: LibreOffice
   create_time: 20180821T11:36:00
   id: 1105486
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: find-debuginfo.sh fails in libreoffice
 - component: Kubic
   create_time: 20180821T11:21:00
@@ -14829,8 +14829,8 @@
 - component: Basesystem
   create_time: 20181104T15:01:00
   id: 1114589
-  resolution: ''
-  status: REOPENED
+  resolution: INVALID
+  status: RESOLVED
   summary: Add earlyoom package to the system
 - component: GNOME
   create_time: 20181104T06:39:00
@@ -19587,8 +19587,8 @@
 - component: Other
   create_time: 20190215T11:36:00
   id: 1125588
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190214] chromium: pressing alt tears down GNOME session'
 - component: Sound
   create_time: 20190215T11:27:00
@@ -21272,6 +21272,12 @@
   resolution: ''
   status: NEW
   summary: Valgrind fails to build on armv6 and armv7
+- component: Security
+  create_time: 20190325T13:02:00
+  id: 1130388
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'AUDIT-0: deepin-clone: new polkit action com.deepin.pkexec.deepin-clone'
 - component: Basesystem
   create_time: 20190325T12:18:00
   id: 1130382
@@ -23748,8 +23754,8 @@
 - component: Other
   create_time: 20190518T07:44:00
   id: 1135543
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: VERIFIED
   summary: '[Build 20190516] openQA test fails in sssd'
 - component: Other
   create_time: 20190517T20:59:00
@@ -24622,8 +24628,8 @@
 - component: Kernel
   create_time: 20190609T11:06:00
   id: 1137686
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Compile the kernel with CONFIG_SCSI_SCAN_ASYNC=y
 - component: Other
   create_time: 20190608T06:34:00
@@ -24685,8 +24691,8 @@
 - component: YaST2
   create_time: 20190613T10:45:00
   id: 1138144
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Staging] openQA test fails in installation'
 - component: Other
   create_time: 20190613T10:27:00
@@ -24703,8 +24709,8 @@
 - component: GNOME
   create_time: 20190613T00:47:00
   id: 1138077
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Gnome-Builder dont show templantes because is missing a dependency
 - component: Other
   create_time: 20190612T22:01:00
@@ -25153,8 +25159,8 @@
 - component: Installation
   create_time: 20190622T08:39:00
   id: 1139001
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Installing OOS:mumble - Missing dependency
 - component: KDE Workspace (Plasma)
   create_time: 20190621T15:47:00
@@ -25204,7 +25210,7 @@
   id: 1139325
   resolution: ''
   status: CONFIRMED
-  summary: rPi installer OOM crash
+  summary: installation failing with 1GB memory
 - component: Bootloader
   create_time: 20190625T12:20:00
   id: 1139319
@@ -25342,8 +25348,8 @@
 - component: YaST2
   create_time: 20190628T13:55:00
   id: 1139747
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Improve the libyui REST API
 - component: X.Org
   create_time: 20190628T09:39:00
@@ -25396,6 +25402,56 @@
   status: RESOLVED
   summary: libzypp 17.12.0-1.2 deletes /etc/products.d/openSUSE.prod
 '20190701':
+- component: Bootloader
+  create_time: 20190703T13:11:00
+  id: 1140259
+  resolution: ''
+  status: NEW
+  summary: zipl does not create valid boot record
+- component: KDE Workspace (Plasma)
+  create_time: 20190703T12:33:00
+  id: 1140249
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190702] krunner does not show up (even after repeated requests)'
+- component: Other
+  create_time: 20190703T12:01:00
+  id: 1140242
+  resolution: ''
+  status: NEW
+  summary: Citrix Workspace app (previously known as Citrix Receiver) not working
+    in Tumbleweed
+- component: YaST2
+  create_time: 20190703T11:55:00
+  id: 1140239
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: ncurses YaST Software Management breaks after update of libyui* if using
+    no-recommends
+- component: AutoYaST
+  create_time: 20190703T11:34:00
+  id: 1140233
+  resolution: ''
+  status: IN_PROGRESS
+  summary: AutoYaST is unable to locate the modules for 2nd stage
+- component: Kernel
+  create_time: 20190703T09:56:00
+  id: 1140221
+  resolution: ''
+  status: NEW
+  summary: Kernel always prints "Started bpfilter" message, even if all logging disabled
+- component: Other
+  create_time: 20190703T09:07:00
+  id: 1140203
+  resolution: ''
+  status: NEW
+  summary: luatex 2019 crashes in Sphinx tests
+- component: Other
+  create_time: 20190703T08:36:00
+  id: 1140198
+  resolution: ''
+  status: NEW
+  summary: Fcitx in Wayland
 - component: Virtualization:Tools
   create_time: 20190703T08:25:00
   id: 1140195
@@ -25405,14 +25461,14 @@
 - component: Salt
   create_time: 20190703T08:23:00
   id: 1140193
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Salt "pkg.downloaded" state is crashing because unexpected "fromrepo" argument
 - component: Security
   create_time: 20190703T00:44:00
   id: 1140151
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 - component: Usability
   create_time: 20190702T18:17:00
@@ -25480,7 +25536,7 @@
   create_time: 20190702T09:26:00
   id: 1140037
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20190701] openQA test fails in yast2_i: Cannot install packages
     with 1GiB of RAM'
 - component: Virtualization:Other
@@ -25532,7 +25588,7 @@
   id: 1139962
   resolution: ''
   status: NEW
-  summary: Certain text appears in other language (not English)
+  summary: Certain text appears in other language (not English; Indonesian (?))
 - component: Development
   create_time: 20190701T15:56:00
   id: 1139952
