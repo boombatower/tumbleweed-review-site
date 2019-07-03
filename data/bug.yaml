@@ -20158,8 +20158,8 @@
 - component: Kernel
   create_time: 20190304T22:09:00
   id: 1127808
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Please consider CONFIG_HARDENED_USERCOPY and CONFIG_SLAB_FREELIST_HARDENED
 - component: YaST2
   create_time: 20190304T20:42:00
@@ -24430,8 +24430,8 @@
 - component: Basesystem
   create_time: 20190603T06:52:00
   id: 1137084
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: btrfsmaintenance-refresh.service is stuck during zypper up
 - component: Other
   create_time: 20190603T00:46:00
@@ -25367,8 +25367,8 @@
 - component: Upgrade Problems
   create_time: 20190630T20:55:00
   id: 1139818
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Issu when performing sudo zypper dup
 - component: Kubic
   create_time: 20190630T08:34:00
@@ -25396,6 +25396,18 @@
   status: RESOLVED
   summary: libzypp 17.12.0-1.2 deletes /etc/products.d/openSUSE.prod
 '20190701':
+- component: Virtualization:Tools
+  create_time: 20190703T08:25:00
+  id: 1140195
+  resolution: ''
+  status: NEW
+  summary: Boot order changed in uefi with sign key since ovmf package update
+- component: Salt
+  create_time: 20190703T08:23:00
+  id: 1140193
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Salt "pkg.downloaded" state is crashing because unexpected "fromrepo" argument
 - component: Security
   create_time: 20190703T00:44:00
   id: 1140151
