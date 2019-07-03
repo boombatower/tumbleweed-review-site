@@ -24336,8 +24336,8 @@
 - component: GNOME
   create_time: 20190529T12:46:00
   id: 1136747
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Update GStreamer stack to latest stable branch  1.16.x
 - component: Basesystem
   create_time: 20190529T07:29:00
@@ -25490,6 +25490,12 @@
   status: RESOLVED
   summary: Unable to run zypper dup due to calibre missing libQt5Core.so.5(Qt_5.12.3_PRIVATE_API)(64bit)
 '20190702':
+- component: KDE Workspace (Plasma)
+  create_time: 20190703T21:28:00
+  id: 1140298
+  resolution: ''
+  status: NEW
+  summary: plasmashell crashes after login
 - component: Basesystem
   create_time: 20190703T19:30:00
   id: 1140295
