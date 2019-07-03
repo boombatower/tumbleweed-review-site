@@ -25402,6 +25402,100 @@
   status: RESOLVED
   summary: libzypp 17.12.0-1.2 deletes /etc/products.d/openSUSE.prod
 '20190701':
+- component: Installation
+  create_time: 20190701T20:12:00
+  id: 1139967
+  resolution: ''
+  status: NEW
+  summary: Performing Installation screen unresponsive
+- component: AutoYaST
+  create_time: 20190701T18:53:00
+  id: 1139962
+  resolution: ''
+  status: NEW
+  summary: Certain text appears in other language (not English; Indonesian (?))
+- component: Development
+  create_time: 20190701T15:56:00
+  id: 1139952
+  resolution: ''
+  status: NEW
+  summary: go mistake  in spec.files
+- component: Bootloader
+  create_time: 20190701T14:24:00
+  id: 1139939
+  resolution: ''
+  status: NEW
+  summary: kernel does not contain version information; mkinitrd should take it from
+    different file than the image file.
+- component: Other
+  create_time: 20190701T13:09:00
+  id: 1139927
+  resolution: DUPLICATE
+  status: VERIFIED
+  summary: '[Build 20190630] openQA test fails in tk on qemu graphics adapter "std",
+    text string "Hello World: Tcl/Tk" does not show up'
+- component: Other
+  create_time: 20190701T11:28:00
+  id: 1139915
+  resolution: ''
+  status: NEW
+  summary: Inconsistent names of Tumbleweed image for Raspberry Pi 1B in repository
+- component: X.Org
+  create_time: 20190701T09:39:00
+  id: 1139889
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Mouse pointer corrupt in graphics installation
+- component: Sound
+  create_time: 20190701T09:38:00
+  id: 1139888
+  resolution: ''
+  status: NEW
+  summary: Suppressed and crackling system sounds
+- component: X.Org
+  create_time: 20190701T09:34:00
+  id: 1139881
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'nouveau: vainfo crashes in VAAPI driver'
+- component: Basesystem
+  create_time: 20190701T08:14:00
+  id: 1139859
+  resolution: ''
+  status: NEW
+  summary: dependency problems with 'zypper dup' due to ruby2.6-rubygem-kramdown
+- component: Development
+  create_time: 20190701T08:13:00
+  id: 1139858
+  resolution: ''
+  status: NEW
+  summary: gcc9 encounters internal compiler error in convert_move with libqt5-qtwebengine
+    5.13.0 for armv6/7
+- component: Other
+  create_time: 20190701T07:59:00
+  id: 1139857
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190630] MATE - core packages unresolvable'
+- component: Basesystem
+  create_time: 20190701T07:45:00
+  id: 1139856
+  resolution: ''
+  status: NEW
+  summary: 'riscv64: GCC9 compiling failures'
+- component: Other
+  create_time: 20190701T07:19:00
+  id: 1139847
+  resolution: FIXED
+  status: RESOLVED
+  summary: Unable to run zypper dup due to calibre missing libQt5Core.so.5(Qt_5.12.3_PRIVATE_API)(64bit)
+'20190702':
+- component: Basesystem
+  create_time: 20190703T19:30:00
+  id: 1140295
+  resolution: ''
+  status: NEW
+  summary: 'nvim: broken layout with diff command -d'
 - component: Bootloader
   create_time: 20190703T13:11:00
   id: 1140259
@@ -25577,90 +25671,3 @@
   resolution: ''
   status: NEW
   summary: MOTD/Banner displays incorrect temporary ipv6 address
-- component: Installation
-  create_time: 20190701T20:12:00
-  id: 1139967
-  resolution: ''
-  status: NEW
-  summary: Performing Installation screen unresponsive
-- component: AutoYaST
-  create_time: 20190701T18:53:00
-  id: 1139962
-  resolution: ''
-  status: NEW
-  summary: Certain text appears in other language (not English; Indonesian (?))
-- component: Development
-  create_time: 20190701T15:56:00
-  id: 1139952
-  resolution: ''
-  status: NEW
-  summary: go mistake  in spec.files
-- component: Bootloader
-  create_time: 20190701T14:24:00
-  id: 1139939
-  resolution: ''
-  status: NEW
-  summary: kernel does not contain version information; mkinitrd should take it from
-    different file than the image file.
-- component: Other
-  create_time: 20190701T13:09:00
-  id: 1139927
-  resolution: DUPLICATE
-  status: VERIFIED
-  summary: '[Build 20190630] openQA test fails in tk on qemu graphics adapter "std",
-    text string "Hello World: Tcl/Tk" does not show up'
-- component: Other
-  create_time: 20190701T11:28:00
-  id: 1139915
-  resolution: ''
-  status: NEW
-  summary: Inconsistent names of Tumbleweed image for Raspberry Pi 1B in repository
-- component: X.Org
-  create_time: 20190701T09:39:00
-  id: 1139889
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Mouse pointer corrupt in graphics installation
-- component: Sound
-  create_time: 20190701T09:38:00
-  id: 1139888
-  resolution: ''
-  status: NEW
-  summary: Suppressed and crackling system sounds
-- component: X.Org
-  create_time: 20190701T09:34:00
-  id: 1139881
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'nouveau: vainfo crashes in VAAPI driver'
-- component: Basesystem
-  create_time: 20190701T08:14:00
-  id: 1139859
-  resolution: ''
-  status: NEW
-  summary: dependency problems with 'zypper dup' due to ruby2.6-rubygem-kramdown
-- component: Development
-  create_time: 20190701T08:13:00
-  id: 1139858
-  resolution: ''
-  status: NEW
-  summary: gcc9 encounters internal compiler error in convert_move with libqt5-qtwebengine
-    5.13.0 for armv6/7
-- component: Other
-  create_time: 20190701T07:59:00
-  id: 1139857
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190630] MATE - core packages unresolvable'
-- component: Basesystem
-  create_time: 20190701T07:45:00
-  id: 1139856
-  resolution: ''
-  status: NEW
-  summary: 'riscv64: GCC9 compiling failures'
-- component: Other
-  create_time: 20190701T07:19:00
-  id: 1139847
-  resolution: FIXED
-  status: RESOLVED
-  summary: Unable to run zypper dup due to calibre missing libQt5Core.so.5(Qt_5.12.3_PRIVATE_API)(64bit)
