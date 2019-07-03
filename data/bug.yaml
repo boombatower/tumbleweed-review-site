@@ -25396,6 +25396,12 @@
   status: RESOLVED
   summary: libzypp 17.12.0-1.2 deletes /etc/products.d/openSUSE.prod
 '20190701':
+- component: Security
+  create_time: 20190703T00:44:00
+  id: 1140151
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 - component: Usability
   create_time: 20190702T18:17:00
   id: 1140132
