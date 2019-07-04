@@ -19434,6 +19434,12 @@
   status: RESOLVED
   summary: 'gvfs: removal of /usr/share/polkit-1/rules.d/org.gtk.vfs.file-operations.rules'
 - component: Security
+  create_time: 20190214T10:54:00
+  id: 1125432
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'AUDIT-0: gnome-initial-setup: purpose of /usr/share/polkit-1/rules.d/20-gnome-initial-setup.rules'
+- component: Security
   create_time: 20190214T10:43:00
   id: 1125428
   resolution: FIXED
@@ -24906,8 +24912,8 @@
 - component: Basesystem
   create_time: 20190620T11:51:00
   id: 1138834
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: post-build-checks build fails'
 - component: Basesystem
   create_time: 20190620T11:48:00
@@ -24972,8 +24978,8 @@
 - component: Basesystem
   create_time: 20190620T09:35:00
   id: 1138797
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: expect build fails'
 - component: Basesystem
   create_time: 20190620T09:32:00
@@ -25271,8 +25277,8 @@
 - component: Kernel
   create_time: 20190626T13:44:00
   id: 1139467
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'openSUSE Tumbleweed: data corruption? btrfs and Samsung SSD (but no LVM
     and no encryption)'
 - component: KDE Applications
@@ -25617,7 +25623,7 @@
   create_time: 20190702T12:57:00
   id: 1140084
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: VirtualBox constantly steals focus
 - component: Basesystem
   create_time: 20190702T12:45:00
