@@ -25604,6 +25604,12 @@
   status: NEW
   summary: MOTD/Banner displays incorrect temporary ipv6 address
 '20190703':
+- component: KDE Applications
+  create_time: 20190704T22:37:00
+  id: 1140434
+  resolution: ''
+  status: NEW
+  summary: Reduced video quality in vlc/kaffeine since 5.1.10
 - component: Other
   create_time: 20190704T13:31:00
   id: 1140408
