@@ -21039,7 +21039,7 @@
   create_time: 20190320T15:42:00
   id: 1129950
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: JeOS-efi.armv7 fails on qemu aarch64 KVM
 - component: Other
   create_time: 20190320T15:28:00
@@ -25496,116 +25496,6 @@
   status: RESOLVED
   summary: Unable to run zypper dup due to calibre missing libQt5Core.so.5(Qt_5.12.3_PRIVATE_API)(64bit)
 '20190702':
-- component: Other
-  create_time: 20190704T13:31:00
-  id: 1140408
-  resolution: ''
-  status: NEW
-  summary: 'TW 20190702: no /usr/bin/pg_config executable in postgresql{10,11}-devel'
-- component: Basesystem
-  create_time: 20190704T13:29:00
-  id: 1140407
-  resolution: ''
-  status: REOPENED
-  summary: FreeCAD & some libraries
-- component: AutoYaST
-  create_time: 20190704T08:20:00
-  id: 1140339
-  resolution: ''
-  status: NEW
-  summary: '[Staging] autoyast_mini: failure to login post install'
-- component: Basesystem
-  create_time: 20190704T07:18:00
-  id: 1140327
-  resolution: ''
-  status: NEW
-  summary: Outdated rpmrc.diff
-- component: Kernel
-  create_time: 20190704T06:34:00
-  id: 1140320
-  resolution: ''
-  status: NEW
-  summary: Kernel 5.1.16 kernel panics on Opensuse Leap 15.0
-- component: KDE Workspace (Plasma)
-  create_time: 20190703T21:28:00
-  id: 1140298
-  resolution: ''
-  status: NEW
-  summary: plasmashell crashes after login
-- component: Basesystem
-  create_time: 20190703T19:30:00
-  id: 1140295
-  resolution: ''
-  status: NEW
-  summary: 'nvim: broken layout with diff command -d'
-- component: Bootloader
-  create_time: 20190703T13:11:00
-  id: 1140259
-  resolution: ''
-  status: NEW
-  summary: zipl does not create valid boot record
-- component: KDE Workspace (Plasma)
-  create_time: 20190703T12:33:00
-  id: 1140249
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190702] krunner does not show up (even after repeated requests)'
-- component: Other
-  create_time: 20190703T12:01:00
-  id: 1140242
-  resolution: ''
-  status: NEW
-  summary: Citrix Workspace app (previously known as Citrix Receiver) not working
-    in Tumbleweed
-- component: YaST2
-  create_time: 20190703T11:55:00
-  id: 1140239
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: ncurses YaST Software Management breaks after update of libyui* if using
-    no-recommends
-- component: AutoYaST
-  create_time: 20190703T11:34:00
-  id: 1140233
-  resolution: FIXED
-  status: RESOLVED
-  summary: AutoYaST is unable to locate the modules for 2nd stage
-- component: Kernel
-  create_time: 20190703T09:56:00
-  id: 1140221
-  resolution: ''
-  status: NEW
-  summary: Kernel always prints "Started bpfilter" message, even if all logging disabled
-- component: Other
-  create_time: 20190703T09:07:00
-  id: 1140203
-  resolution: FIXED
-  status: RESOLVED
-  summary: luatex 2019 crashes in Sphinx tests
-- component: Other
-  create_time: 20190703T08:36:00
-  id: 1140198
-  resolution: ''
-  status: NEW
-  summary: Fcitx in Wayland
-- component: Virtualization:Tools
-  create_time: 20190703T08:25:00
-  id: 1140195
-  resolution: ''
-  status: NEW
-  summary: Boot order changed in uefi with sign key since ovmf package update
-- component: Salt
-  create_time: 20190703T08:23:00
-  id: 1140193
-  resolution: FIXED
-  status: RESOLVED
-  summary: Salt "pkg.downloaded" state is crashing because unexpected "fromrepo" argument
-- component: Security
-  create_time: 20190703T00:44:00
-  id: 1140151
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 - component: Usability
   create_time: 20190702T18:17:00
   id: 1140132
@@ -25713,3 +25603,114 @@
   resolution: ''
   status: NEW
   summary: MOTD/Banner displays incorrect temporary ipv6 address
+'20190703':
+- component: Other
+  create_time: 20190704T13:31:00
+  id: 1140408
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'TW 20190702: no /usr/bin/pg_config executable in postgresql{10,11}-devel'
+- component: Basesystem
+  create_time: 20190704T13:29:00
+  id: 1140407
+  resolution: ''
+  status: REOPENED
+  summary: FreeCAD & some libraries
+- component: AutoYaST
+  create_time: 20190704T08:20:00
+  id: 1140339
+  resolution: ''
+  status: NEW
+  summary: '[Staging] autoyast_mini: failure to login post install'
+- component: Basesystem
+  create_time: 20190704T07:18:00
+  id: 1140327
+  resolution: ''
+  status: NEW
+  summary: Outdated rpmrc.diff
+- component: Kernel
+  create_time: 20190704T06:34:00
+  id: 1140320
+  resolution: ''
+  status: NEW
+  summary: Kernel 5.1.16 kernel panics on Opensuse Leap 15.0
+- component: KDE Workspace (Plasma)
+  create_time: 20190703T21:28:00
+  id: 1140298
+  resolution: ''
+  status: NEW
+  summary: plasmashell crashes after login
+- component: Basesystem
+  create_time: 20190703T19:30:00
+  id: 1140295
+  resolution: ''
+  status: NEW
+  summary: 'nvim: broken layout with diff command -d'
+- component: Bootloader
+  create_time: 20190703T13:11:00
+  id: 1140259
+  resolution: ''
+  status: NEW
+  summary: zipl does not create valid boot record
+- component: KDE Workspace (Plasma)
+  create_time: 20190703T12:33:00
+  id: 1140249
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190702] krunner does not show up (even after repeated requests)'
+- component: Other
+  create_time: 20190703T12:01:00
+  id: 1140242
+  resolution: ''
+  status: NEW
+  summary: Citrix Workspace app (previously known as Citrix Receiver) not working
+    in Tumbleweed
+- component: YaST2
+  create_time: 20190703T11:55:00
+  id: 1140239
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: ncurses YaST Software Management breaks after update of libyui* if using
+    no-recommends
+- component: AutoYaST
+  create_time: 20190703T11:34:00
+  id: 1140233
+  resolution: FIXED
+  status: RESOLVED
+  summary: AutoYaST is unable to locate the modules for 2nd stage
+- component: Kernel
+  create_time: 20190703T09:56:00
+  id: 1140221
+  resolution: ''
+  status: NEW
+  summary: Kernel always prints "Started bpfilter" message, even if all logging disabled
+- component: Other
+  create_time: 20190703T09:07:00
+  id: 1140203
+  resolution: FIXED
+  status: RESOLVED
+  summary: luatex 2019 crashes in Sphinx tests
+- component: Other
+  create_time: 20190703T08:36:00
+  id: 1140198
+  resolution: ''
+  status: NEW
+  summary: Fcitx in Wayland
+- component: Virtualization:Tools
+  create_time: 20190703T08:25:00
+  id: 1140195
+  resolution: ''
+  status: NEW
+  summary: Boot order changed in uefi with sign key since ovmf package update
+- component: Salt
+  create_time: 20190703T08:23:00
+  id: 1140193
+  resolution: FIXED
+  status: RESOLVED
+  summary: Salt "pkg.downloaded" state is crashing because unexpected "fromrepo" argument
+- component: Security
+  create_time: 20190703T00:44:00
+  id: 1140151
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
