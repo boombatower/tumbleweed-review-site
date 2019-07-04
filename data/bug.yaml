@@ -25137,11 +25137,11 @@
   status: RESOLVED
   summary: accented charakters don't work
 '20190621':
-- component: Bootloader
+- component: Kubic
   create_time: 20190622T19:04:00
   id: 1139015
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'transactional-update: grub2 %posttrans script: grub2-install: error: cannot
     find EFI directory'
 - component: Basesystem
@@ -25496,6 +25496,18 @@
   status: RESOLVED
   summary: Unable to run zypper dup due to calibre missing libQt5Core.so.5(Qt_5.12.3_PRIVATE_API)(64bit)
 '20190702':
+- component: Other
+  create_time: 20190704T13:31:00
+  id: 1140408
+  resolution: ''
+  status: NEW
+  summary: 'TW 20190702: no /usr/bin/pg_config executable in postgresql{10,11}-devel'
+- component: Basesystem
+  create_time: 20190704T13:29:00
+  id: 1140407
+  resolution: ''
+  status: REOPENED
+  summary: FreeCAD & some libraries
 - component: AutoYaST
   create_time: 20190704T08:20:00
   id: 1140339
@@ -25555,8 +25567,8 @@
 - component: AutoYaST
   create_time: 20190703T11:34:00
   id: 1140233
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: AutoYaST is unable to locate the modules for 2nd stage
 - component: Kernel
   create_time: 20190703T09:56:00
@@ -25635,7 +25647,7 @@
   create_time: 20190702T12:01:00
   id: 1140077
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'yast2-online-update-configuration: migrate from cron to systemd timers'
 - component: Other
   create_time: 20190702T11:06:00
@@ -25653,7 +25665,7 @@
   create_time: 20190702T09:36:00
   id: 1140040
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20190701] openQA test fails in yast2_bootloader: Missing e2fsprogs
     requirement'
 - component: YaST2
@@ -25673,7 +25685,7 @@
   create_time: 20190702T08:14:00
   id: 1140018
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: inconsistent order of partitions
 - component: Basesystem
   create_time: 20190702T07:41:00
