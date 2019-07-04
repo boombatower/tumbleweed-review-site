@@ -24760,8 +24760,8 @@
 - component: Maintenance
   create_time: 20190616T14:36:00
   id: 1138371
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Factory Update channel missing for multiple architectures
 - component: KDE Workspace (Plasma)
   create_time: 20190616T13:42:00
@@ -25490,6 +25490,24 @@
   status: RESOLVED
   summary: Unable to run zypper dup due to calibre missing libQt5Core.so.5(Qt_5.12.3_PRIVATE_API)(64bit)
 '20190702':
+- component: AutoYaST
+  create_time: 20190704T08:20:00
+  id: 1140339
+  resolution: ''
+  status: NEW
+  summary: '[Staging] autoyast_mini: failure to login post install'
+- component: Basesystem
+  create_time: 20190704T07:18:00
+  id: 1140327
+  resolution: ''
+  status: NEW
+  summary: Outdated rpmrc.diff
+- component: Kernel
+  create_time: 20190704T06:34:00
+  id: 1140320
+  resolution: ''
+  status: NEW
+  summary: Kernel 5.1.16 kernel panics on Opensuse Leap 15.0
 - component: KDE Workspace (Plasma)
   create_time: 20190703T21:28:00
   id: 1140298
@@ -25543,8 +25561,8 @@
 - component: Other
   create_time: 20190703T09:07:00
   id: 1140203
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: luatex 2019 crashes in Sphinx tests
 - component: Other
   create_time: 20190703T08:36:00
@@ -25617,7 +25635,7 @@
   create_time: 20190702T11:06:00
   id: 1140067
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20190701] openQA test fails in podman_image'
 - component: Other
   create_time: 20190702T10:28:00
