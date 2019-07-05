@@ -22904,8 +22904,8 @@
 - component: X11 3rd Party Driver
   create_time: 20190426T00:30:00
   id: 1133466
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: SDDM w/ nvidia eGPU doesn't load greeter
 '20190428':
 - component: Basesystem
@@ -23678,8 +23678,8 @@
 - component: Other
   create_time: 20190516T09:56:00
   id: 1135326
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Adding  viewers is broken in AUCTeX
 - component: Basesystem
   create_time: 20190516T09:43:00
@@ -25046,7 +25046,7 @@
   create_time: 20190619T04:28:00
   id: 1138638
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 1-click install should not accept metadata without distversion tag.
 - component: Network
   create_time: 20190619T04:08:00
@@ -25316,7 +25316,7 @@
   create_time: 20190627T06:33:00
   id: 1139523
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: bad column width allocations in Installation Summary
 - component: Installation
   create_time: 20190627T06:17:00
@@ -25604,55 +25604,6 @@
   status: NEW
   summary: MOTD/Banner displays incorrect temporary ipv6 address
 '20190703':
-- component: Security
-  create_time: 20190705T10:45:00
-  id: 1140494
-  resolution: ''
-  status: NEW
-  summary: 'kernel-source: disable OVERLAY_FS_REDIRECT_ALWAYS_FOLLOW to improve overlayfs
-    security'
-- component: Kubic
-  create_time: 20190705T08:43:00
-  id: 1140472
-  resolution: ''
-  status: NEW
-  summary: transactional-update causes undefined behaviour of overlayfs
-- component: KDE Applications
-  create_time: 20190704T22:37:00
-  id: 1140434
-  resolution: ''
-  status: NEW
-  summary: Reduced video quality in vlc/kaffeine since 5.1.10
-- component: Other
-  create_time: 20190704T13:31:00
-  id: 1140408
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: 'TW 20190702: no /usr/bin/pg_config executable in postgresql{10,11}-devel'
-- component: Basesystem
-  create_time: 20190704T13:29:00
-  id: 1140407
-  resolution: ''
-  status: REOPENED
-  summary: FreeCAD & some libraries
-- component: AutoYaST
-  create_time: 20190704T08:20:00
-  id: 1140339
-  resolution: ''
-  status: NEW
-  summary: '[Staging] autoyast_mini: failure to login post install'
-- component: Basesystem
-  create_time: 20190704T07:18:00
-  id: 1140327
-  resolution: ''
-  status: NEW
-  summary: Outdated rpmrc.diff
-- component: Kernel
-  create_time: 20190704T06:34:00
-  id: 1140320
-  resolution: ''
-  status: NEW
-  summary: Kernel 5.1.16 kernel panics on Opensuse Leap 15.0
 - component: KDE Workspace (Plasma)
   create_time: 20190703T21:28:00
   id: 1140298
@@ -25733,3 +25684,53 @@
   resolution: ''
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
+'20190704':
+- component: Security
+  create_time: 20190705T10:45:00
+  id: 1140494
+  resolution: ''
+  status: NEW
+  summary: 'kernel-source: disable OVERLAY_FS_REDIRECT_ALWAYS_FOLLOW to improve overlayfs
+    security'
+- component: Kubic
+  create_time: 20190705T08:43:00
+  id: 1140472
+  resolution: ''
+  status: NEW
+  summary: transactional-update causes undefined behaviour of overlayfs
+- component: KDE Applications
+  create_time: 20190704T22:37:00
+  id: 1140434
+  resolution: ''
+  status: NEW
+  summary: Reduced video quality in vlc/kaffeine since 5.1.10
+- component: Other
+  create_time: 20190704T13:31:00
+  id: 1140408
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'TW 20190702: no /usr/bin/pg_config executable in postgresql{10,11}-devel'
+- component: Basesystem
+  create_time: 20190704T13:29:00
+  id: 1140407
+  resolution: ''
+  status: REOPENED
+  summary: FreeCAD & some libraries
+- component: AutoYaST
+  create_time: 20190704T08:20:00
+  id: 1140339
+  resolution: ''
+  status: NEW
+  summary: '[Staging] autoyast_mini: failure to login post install'
+- component: Basesystem
+  create_time: 20190704T07:18:00
+  id: 1140327
+  resolution: ''
+  status: NEW
+  summary: Outdated rpmrc.diff
+- component: Kernel
+  create_time: 20190704T06:34:00
+  id: 1140320
+  resolution: ''
+  status: NEW
+  summary: Kernel 5.1.16 kernel panics on Opensuse Leap 15.0
