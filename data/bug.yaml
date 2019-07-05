@@ -25594,7 +25594,7 @@
   create_time: 20190702T05:06:00
   id: 1139990
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: window-list extension for gnome-shell-classic references convenience.js
     has been removed.
 - component: Kubic
@@ -25604,6 +25604,12 @@
   status: NEW
   summary: MOTD/Banner displays incorrect temporary ipv6 address
 '20190703':
+- component: Kubic
+  create_time: 20190705T08:43:00
+  id: 1140472
+  resolution: ''
+  status: NEW
+  summary: transactional-update causes undefined behaviour of overlayfs
 - component: KDE Applications
   create_time: 20190704T22:37:00
   id: 1140434
