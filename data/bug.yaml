@@ -24089,8 +24089,8 @@
 - component: Development
   create_time: 20190525T23:23:00
   id: 1136294
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: gcc 9.1 and gcc 10 fail to build correct 32 bit TBB release builds
 - component: Kernel
   create_time: 20190525T20:58:00
@@ -25685,6 +25685,20 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Virtualization:Other
+  create_time: 20190705T15:36:00
+  id: 1140550
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: VirtualBox guest steals keyboard input from host with "Auto Capture Keyboard"
+    default enabled
+- component: YaST2
+  create_time: 20190705T15:34:00
+  id: 1140548
+  resolution: ''
+  status: NEW
+  summary: yast2-samba-provision 1.0.3 with samba-python3 4.10.5 crashes during domain
+    provision
 - component: Security
   create_time: 20190705T10:45:00
   id: 1140494
