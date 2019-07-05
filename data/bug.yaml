@@ -4716,8 +4716,8 @@
 - component: Network
   create_time: 20180227T21:43:00
   id: 1083190
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'net-snmpd: is not creating /etc/sysconfig/snmpd'
 - component: Other
   create_time: 20180227T13:28:00
@@ -21283,7 +21283,7 @@
   id: 1130388
   resolution: ''
   status: IN_PROGRESS
-  summary: 'AUDIT-0: deepin-clone: new polkit action com.deepin.pkexec.deepin-clone'
+  summary: 'AUDIT-1: deepin-clone: new polkit action com.deepin.pkexec.deepin-clone'
 - component: Basesystem
   create_time: 20190325T12:18:00
   id: 1130382
@@ -23117,13 +23117,13 @@
   id: 1134132
   resolution: ''
   status: IN_PROGRESS
-  summary: 'AUDIT-0: deepin-file-manager: new dbus of deepin-file-manager'
+  summary: 'AUDIT-1: deepin-file-manager: new dbus of deepin-file-manager'
 - component: Security
   create_time: 20190505T08:14:00
   id: 1134131
   resolution: ''
   status: IN_PROGRESS
-  summary: 'AUDIT-0: deepin-file-manager: new polkit actions of deepin-file-manager'
+  summary: 'AUDIT-1: deepin-file-manager: new polkit actions of deepin-file-manager'
 - component: Installation
   create_time: 20190505T03:37:00
   id: 1134130
@@ -23867,7 +23867,7 @@
   id: 1136026
   resolution: ''
   status: NEW
-  summary: 'AUDIT-0: deepin-anything: new dbus  of deepin-anything'
+  summary: 'AUDIT-1: deepin-anything: new dbus  of deepin-anything'
 - component: Other
   create_time: 20190522T19:06:00
   id: 1135984
@@ -25412,7 +25412,7 @@
   create_time: 20190701T20:12:00
   id: 1139967
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Performing Installation screen unresponsive
 - component: AutoYaST
   create_time: 20190701T18:53:00
@@ -25604,6 +25604,13 @@
   status: NEW
   summary: MOTD/Banner displays incorrect temporary ipv6 address
 '20190703':
+- component: Security
+  create_time: 20190705T10:45:00
+  id: 1140494
+  resolution: ''
+  status: NEW
+  summary: 'kernel-source: disable OVERLAY_FS_REDIRECT_ALWAYS_FOLLOW to improve overlayfs
+    security'
 - component: Kubic
   create_time: 20190705T08:43:00
   id: 1140472
