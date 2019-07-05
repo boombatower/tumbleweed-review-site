@@ -25309,8 +25309,8 @@
 - component: Other
   create_time: 20190627T12:32:00
   id: 1139584
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LLVM8: inconsistent configuration exposed between cmake and llvm-config'
 - component: Installation
   create_time: 20190627T06:33:00
@@ -25685,6 +25685,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Security
+  create_time: 20190705T20:53:00
+  id: 1140566
+  resolution: ''
+  status: NEW
+  summary: 'firewalld: rich masquerading rules don''t work'
 - component: Virtualization:Other
   create_time: 20190705T15:36:00
   id: 1140550
