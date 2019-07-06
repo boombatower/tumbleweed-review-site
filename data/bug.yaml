@@ -25685,6 +25685,18 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Sound
+  create_time: 20190706T19:45:00
+  id: 1140580
+  resolution: ''
+  status: NEW
+  summary: Raspberry 3B+ no soundcard
+- component: Network
+  create_time: 20190706T19:37:00
+  id: 1140579
+  resolution: ''
+  status: NEW
+  summary: Raspberry 3B+ no wifi
 - component: Kernel
   create_time: 20190706T05:37:00
   id: 1140573
