@@ -25009,8 +25009,8 @@
 - component: Kernel
   create_time: 20190619T13:44:00
   id: 1138730
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: USB Thumb drive not mounting
 - component: Other
   create_time: 20190619T13:26:00
