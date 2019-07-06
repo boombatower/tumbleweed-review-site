@@ -25685,6 +25685,18 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: YaST2
+  create_time: 20190706T02:42:00
+  id: 1140571
+  resolution: ''
+  status: NEW
+  summary: Set different priorities for community repositories
+- component: X11 3rd Party Driver
+  create_time: 20190706T02:34:00
+  id: 1140570
+  resolution: ''
+  status: NEW
+  summary: Ship appstream metadata with the Nvidia driver
 - component: Security
   create_time: 20190705T20:53:00
   id: 1140566
