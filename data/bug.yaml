@@ -24721,8 +24721,8 @@
 - component: Other
   create_time: 20190612T22:01:00
   id: 1138074
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'monitoring-plugins-procs: check_procs reports itself'
 - component: YaST2
   create_time: 20190612T13:53:00
@@ -25685,6 +25685,13 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Kernel
+  create_time: 20190706T05:37:00
+  id: 1140573
+  resolution: ''
+  status: NEW
+  summary: External monitor stops working when coming back from screen save mode (with
+    docking station)
 - component: YaST2
   create_time: 20190706T02:42:00
   id: 1140571
