@@ -25685,6 +25685,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: X.Org
+  create_time: 20190707T03:03:00
+  id: 1140581
+  resolution: ''
+  status: NEW
+  summary: Raspberry pi touchscreen unusable
 - component: Sound
   create_time: 20190706T19:45:00
   id: 1140580
