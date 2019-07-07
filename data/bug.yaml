@@ -25685,6 +25685,18 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Other
+  create_time: 20190707T09:16:00
+  id: 1140585
+  resolution: ''
+  status: NEW
+  summary: cryfs - 0.10.0-1.3 - Illegal instruction on AMD Phenom II X4 965 Processor
+- component: LibreOffice
+  create_time: 20190707T07:35:00
+  id: 1140583
+  resolution: ''
+  status: NEW
+  summary: Bad rendering of a text field in LibreOffice Calc (libreoffice-qt5)
 - component: X.Org
   create_time: 20190707T03:03:00
   id: 1140581
