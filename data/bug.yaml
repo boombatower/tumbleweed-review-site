@@ -24549,8 +24549,8 @@
 - component: GNOME
   create_time: 20190606T18:01:00
   id: 1137537
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Issue with flatpak
 - component: MicroOS
   create_time: 20190606T09:15:00
@@ -25393,7 +25393,7 @@
   id: 1139800
   resolution: ''
   status: NEW
-  summary: Cillium not working in Kubic
+  summary: Cilium not working in Kubic
 - component: libzypp
   create_time: 20190630T08:13:00
   id: 1139799
@@ -25685,6 +25685,18 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Kubic
+  create_time: 20190707T17:16:00
+  id: 1140596
+  resolution: ''
+  status: NEW
+  summary: Kubic lacking locales
+- component: Other
+  create_time: 20190707T15:41:00
+  id: 1140595
+  resolution: ''
+  status: NEW
+  summary: linphone is broken
 - component: KDE Workspace (Plasma)
   create_time: 20190707T10:56:00
   id: 1140586
