@@ -25685,6 +25685,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: KDE Workspace (Plasma)
+  create_time: 20190707T10:56:00
+  id: 1140586
+  resolution: ''
+  status: NEW
+  summary: Qt 5.13's "QtLottie" submodule not packaged
 - component: Other
   create_time: 20190707T09:16:00
   id: 1140585
