@@ -24954,8 +24954,8 @@
 - component: Basesystem
   create_time: 20190620T09:55:00
   id: 1138807
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: glibc build fails'
 - component: Basesystem
   create_time: 20190620T09:54:00
@@ -25414,7 +25414,7 @@
   resolution: ''
   status: CONFIRMED
   summary: Performing Installation screen unresponsive
-- component: AutoYaST
+- component: Translations
   create_time: 20190701T18:53:00
   id: 1139962
   resolution: ''
@@ -25426,13 +25426,12 @@
   resolution: ''
   status: NEW
   summary: go mistake  in spec.files
-- component: Bootloader
+- component: Kernel
   create_time: 20190701T14:24:00
   id: 1139939
   resolution: ''
   status: NEW
-  summary: kernel does not contain version information; mkinitrd should take it from
-    different file than the image file.
+  summary: compressed kernel breaks get_kernel_version
 - component: Other
   create_time: 20190701T13:09:00
   id: 1139927
@@ -25685,6 +25684,25 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Other
+  create_time: 20190708T14:30:00
+  id: 1140733
+  resolution: ''
+  status: NEW
+  summary: lbzip2 - don't exceed 18002 selectors
+- component: Bootloader
+  create_time: 20190708T14:04:00
+  id: 1140730
+  resolution: ''
+  status: NEW
+  summary: 'dracut: module not installed, because ''/usr/lib/udev/collect'' could
+    not be found'
+- component: Other
+  create_time: 20190708T12:47:00
+  id: 1140722
+  resolution: ''
+  status: NEW
+  summary: squidGuard goes into emergency mode because of wrong directory permissions
 - component: Usability
   create_time: 20190708T11:53:00
   id: 1140713
