@@ -10767,8 +10767,8 @@
 - component: Sound
   create_time: 20180722T16:34:00
   id: 1102140
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: No analog sound with Realtek ALC829 (HDMI sound is fine)
 - component: KDE Applications
   create_time: 20180722T04:56:00
@@ -24549,8 +24549,8 @@
 - component: GNOME
   create_time: 20190606T18:01:00
   id: 1137537
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Issue with flatpak
 - component: MicroOS
   create_time: 20190606T09:15:00
@@ -24906,8 +24906,8 @@
 - component: YaST2
   create_time: 20190620T11:53:00
   id: 1138835
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: YaST rake tasks should submit to SLE15-SP2
 - component: Basesystem
   create_time: 20190620T11:51:00
@@ -25221,7 +25221,7 @@
   create_time: 20190625T12:20:00
   id: 1139319
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'rPi u-boot: cannot paste into serial console'
 - component: KDE Applications
   create_time: 20190625T11:05:00
@@ -25608,7 +25608,7 @@
   create_time: 20190703T21:28:00
   id: 1140298
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: plasmashell crashes after login
 - component: Basesystem
   create_time: 20190703T19:30:00
@@ -25685,6 +25685,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Kernel
+  create_time: 20190708T07:55:00
+  id: 1140630
+  resolution: ''
+  status: NEW
+  summary: pmem links for partitions missing
 - component: GNOME
   create_time: 20190708T06:09:00
   id: 1140614
@@ -25718,8 +25724,8 @@
 - component: LibreOffice
   create_time: 20190707T07:35:00
   id: 1140583
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Bad rendering of a text field in LibreOffice Calc (libreoffice-qt5)
 - component: X.Org
   create_time: 20190707T03:03:00
@@ -25736,8 +25742,8 @@
 - component: Network
   create_time: 20190706T19:37:00
   id: 1140579
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Raspberry 3B+ no wifi
 - component: Kernel
   create_time: 20190706T05:37:00
@@ -25809,6 +25815,12 @@
   resolution: ''
   status: REOPENED
   summary: FreeCAD & some libraries
+- component: Other
+  create_time: 20190704T09:17:00
+  id: 1140346
+  resolution: ''
+  status: CONFIRMED
+  summary: Unable to use `ceph-fuse` package (error while loading shared libraries)
 - component: AutoYaST
   create_time: 20190704T08:20:00
   id: 1140339
