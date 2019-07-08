@@ -23524,12 +23524,6 @@
   resolution: ''
   status: NEW
   summary: 'LTO: inkscape build fails'
-- component: Network
-  create_time: 20190515T05:23:00
-  id: 1135150
-  resolution: ''
-  status: NEW
-  summary: dnsmasq fails to start on boot
 - component: Kernel
   create_time: 20190514T23:44:00
   id: 1135139
@@ -25140,8 +25134,8 @@
 - component: Kubic
   create_time: 20190622T19:04:00
   id: 1139015
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'transactional-update: grub2 %posttrans script: grub2-install: error: cannot
     find EFI directory'
 - component: Basesystem
@@ -25684,6 +25678,13 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Kernel
+  create_time: 20190708T17:50:00
+  id: 1140765
+  resolution: ''
+  status: NEW
+  summary: ICE in drivers/gpu/drm/i915/intel_device_info.c:196:13 on Linux 5.2 with
+    GCC 10 20190705
 - component: Other
   create_time: 20190708T14:30:00
   id: 1140733
