@@ -814,8 +814,8 @@
 - component: Kernel
   create_time: 20171218T20:23:00
   id: 1073382
-  resolution: ''
-  status: REOPENED
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: No sound and kernel crash with latest TW kernel-default-5.1.7-1.2
 - component: X11 Applications
   create_time: 20171218T17:17:00
@@ -21503,8 +21503,8 @@
 - component: Virtualization:Tools
   create_time: 20190401T16:31:00
   id: 1131184
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: virt-sysprep fails with OOM in "find0"
 - component: Kernel
   create_time: 20190401T16:12:00
@@ -25678,6 +25678,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Network
+  create_time: 20190708T19:53:00
+  id: 1140772
+  resolution: ''
+  status: NEW
+  summary: 'openconnect: please update  vpnc-script'
 - component: Kernel
   create_time: 20190708T17:50:00
   id: 1140765
