@@ -24760,8 +24760,8 @@
 - component: GNOME
   create_time: 20190616T15:29:00
   id: 1138372
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190614] GNOME/change_password - session closes'
 - component: Maintenance
   create_time: 20190616T14:36:00
@@ -25685,6 +25685,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: GNOME
+  create_time: 20190708T06:09:00
+  id: 1140614
+  resolution: ''
+  status: NEW
+  summary: Error loading Applications menu extension in SLE-Classic
 - component: Kubic
   create_time: 20190707T17:16:00
   id: 1140596
