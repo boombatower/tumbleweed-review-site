@@ -19980,7 +19980,7 @@
   id: 1126842
   resolution: ''
   status: NEW
-  summary: mnemosyne crashes in all opensuse editions but 15.1
+  summary: mnemosyne crashes in Tumbleweed
 - component: Basesystem
   create_time: 20190225T14:30:00
   id: 1126817
@@ -25317,7 +25317,7 @@
   id: 1139523
   resolution: ''
   status: CONFIRMED
-  summary: bad column width allocations in Installation Summary
+  summary: 'YQPackageSelector: bad column width allocations in Installation Summary'
 - component: Installation
   create_time: 20190627T06:17:00
   id: 1139518
@@ -25418,7 +25418,7 @@
   create_time: 20190701T18:53:00
   id: 1139962
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Certain text appears in other language (not English; Indonesian (?))
 - component: Development
   create_time: 20190701T15:56:00
@@ -25506,7 +25506,7 @@
   create_time: 20190702T16:05:00
   id: 1140121
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Activation via systemd failed for unit ''dbus-org.freedesktop.resolve1.service'':
     Unit dbus-org.freedesktop.resolve1.service not found'
 - component: Kubic
@@ -25685,6 +25685,30 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Usability
+  create_time: 20190708T11:53:00
+  id: 1140713
+  resolution: ''
+  status: NEW
+  summary: opensuse thumbleweed fails to detect external monitors since last weekend
+- component: Network
+  create_time: 20190708T11:21:00
+  id: 1140700
+  resolution: ''
+  status: NEW
+  summary: Network Manager loses the VPN password, and is unwilling to save it
+- component: Translations
+  create_time: 20190708T11:04:00
+  id: 1140695
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[ignore] Test Translation'
+- component: Kernel
+  create_time: 20190708T10:36:00
+  id: 1140688
+  resolution: ''
+  status: NEW
+  summary: Raspberry 3B+ no bluetooth device
 - component: Kernel
   create_time: 20190708T07:55:00
   id: 1140630
@@ -25727,11 +25751,11 @@
   resolution: UPSTREAM
   status: RESOLVED
   summary: Bad rendering of a text field in LibreOffice Calc (libreoffice-qt5)
-- component: X.Org
+- component: Kernel
   create_time: 20190707T03:03:00
   id: 1140581
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Raspberry pi touchscreen unusable
 - component: Sound
   create_time: 20190706T19:45:00
@@ -25752,11 +25776,11 @@
   status: NEW
   summary: External monitor stops working when coming back from screen save mode (with
     docking station)
-- component: YaST2
+- component: Patterns
   create_time: 20190706T02:42:00
   id: 1140571
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Set different priorities for community repositories
 - component: X11 3rd Party Driver
   create_time: 20190706T02:34:00
@@ -25777,7 +25801,7 @@
   status: RESOLVED
   summary: VirtualBox guest steals keyboard input from host with "Auto Capture Keyboard"
     default enabled
-- component: YaST2
+- component: Samba
   create_time: 20190705T15:34:00
   id: 1140548
   resolution: ''
