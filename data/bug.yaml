@@ -25541,8 +25541,8 @@
 - component: Other
   create_time: 20190702T10:28:00
   id: 1140057
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[openQA] transactional tests use undefined behaviour of overlayfs'
 - component: YaST2
   create_time: 20190702T09:36:00
