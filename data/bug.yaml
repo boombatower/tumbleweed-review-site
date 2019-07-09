@@ -25678,6 +25678,18 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: YaST2
+  create_time: 20190709T00:21:00
+  id: 1140778
+  resolution: ''
+  status: NEW
+  summary: Yast2 Sound module does not produce sound
+- component: KDE Workspace (Plasma)
+  create_time: 20190709T00:00:00
+  id: 1140777
+  resolution: ''
+  status: NEW
+  summary: Plasma shell freezes and/or stops rendering elements
 - component: Network
   create_time: 20190708T19:53:00
   id: 1140772
