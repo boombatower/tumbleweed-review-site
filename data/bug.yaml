@@ -25678,6 +25678,19 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Development
+  create_time: 20190709T14:49:00
+  id: 1140896
+  resolution: ''
+  status: NEW
+  summary: lto causes minor variations in games/warsow binaries
+- component: Network
+  create_time: 20190709T14:21:00
+  id: 1140894
+  resolution: ''
+  status: NEW
+  summary: Ethernet interface for Raspberry Pi 3B does not start after reboot since
+    OS installation
 - component: Sound
   create_time: 20190709T00:21:00
   id: 1140778
@@ -25744,8 +25757,8 @@
   create_time: 20190708T10:36:00
   id: 1140688
   resolution: ''
-  status: NEW
-  summary: Raspberry 3B+ no bluetooth device
+  status: REOPENED
+  summary: Raspberry 3B+ bluetooth troubles
 - component: Kernel
   create_time: 20190708T07:55:00
   id: 1140630
