@@ -8504,8 +8504,8 @@
 - component: GNOME
   create_time: 20180517T11:28:00
   id: 1093691
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: GNOME Music application multiplies album covers on Albums tab
 - component: Other
   create_time: 20180517T08:37:00
@@ -25678,6 +25678,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Other
+  create_time: 20190709T19:35:00
+  id: 1140921
+  resolution: ''
+  status: NEW
+  summary: 'science/gmsh: update to 4.4.0'
 - component: Development
   create_time: 20190709T18:37:00
   id: 1140918
@@ -25728,7 +25734,7 @@
   resolution: ''
   status: NEW
   summary: Yast2 Sound module does not produce sound
-- component: KDE Workspace (Plasma)
+- component: Kernel
   create_time: 20190709T00:00:00
   id: 1140777
   resolution: ''
