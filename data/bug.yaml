@@ -25679,6 +25679,37 @@
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
 - component: Development
+  create_time: 20190709T18:37:00
+  id: 1140918
+  resolution: ''
+  status: NEW
+  summary: gcc -flto mishandles -MF
+- component: YaST2
+  create_time: 20190709T17:03:00
+  id: 1140916
+  resolution: ''
+  status: NEW
+  summary: firewall does not start correctly
+- component: GNOME
+  create_time: 20190709T16:59:00
+  id: 1140915
+  resolution: ''
+  status: NEW
+  summary: cannot start gnome-terminal
+- component: Basesystem
+  create_time: 20190709T16:05:00
+  id: 1140910
+  resolution: ''
+  status: NEW
+  summary: 'NetworkManager: DNS not working when on WiFi'
+- component: Samba
+  create_time: 20190709T15:45:00
+  id: 1140907
+  resolution: FIXED
+  status: RESOLVED
+  summary: Since recent update smb share no longer accessible to Windows10 guest running
+    on same host
+- component: Development
   create_time: 20190709T14:49:00
   id: 1140896
   resolution: ''
@@ -25712,8 +25743,8 @@
 - component: Kernel
   create_time: 20190708T17:50:00
   id: 1140765
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: ICE in drivers/gpu/drm/i915/intel_device_info.c:196:13 on Linux 5.2 with
     GCC 10 20190705
 - component: Other
