@@ -25662,8 +25662,8 @@
 - component: Virtualization:Tools
   create_time: 20190703T08:25:00
   id: 1140195
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Boot order changed in uefi with sign key since ovmf package update
 - component: Salt
   create_time: 20190703T08:23:00
@@ -25728,7 +25728,7 @@
   resolution: ''
   status: NEW
   summary: opensuse thumbleweed fails to detect external monitors since last weekend
-- component: Network
+- component: GNOME
   create_time: 20190708T11:21:00
   id: 1140700
   resolution: ''
