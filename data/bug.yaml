@@ -19436,8 +19436,8 @@
 - component: Security
   create_time: 20190214T10:54:00
   id: 1125432
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: gnome-initial-setup: purpose of /usr/share/polkit-1/rules.d/20-gnome-initial-setup.rules'
 - component: Security
   create_time: 20190214T10:43:00
@@ -25386,7 +25386,7 @@
   create_time: 20190630T08:30:00
   id: 1139800
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Cilium not working in Kubic
 - component: libzypp
   create_time: 20190630T08:13:00
@@ -25678,7 +25678,7 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
-- component: YaST2
+- component: Sound
   create_time: 20190709T00:21:00
   id: 1140778
   resolution: ''
