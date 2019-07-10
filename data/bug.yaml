@@ -25684,6 +25684,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Basesystem
+  create_time: 20190710T21:08:00
+  id: 1141059
+  resolution: ''
+  status: NEW
+  summary: Recent zlib changes cause build failure of qemu-linux-user on ppc64le
 - component: X.Org
   create_time: 20190710T16:10:00
   id: 1141041
