@@ -23545,8 +23545,8 @@
 - component: Network
   create_time: 20190514T18:04:00
   id: 1135118
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: ping -a (audible) bells even on failed IPv6 ping
 - component: libzypp
   create_time: 20190514T17:13:00
@@ -25678,6 +25678,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: X.Org
+  create_time: 20190710T09:25:00
+  id: 1140976
+  resolution: ''
+  status: NEW
+  summary: Vulkan validation layers cause segfault when calling vkCreateDevice()
 - component: Other
   create_time: 20190709T19:35:00
   id: 1140921
@@ -25892,7 +25898,7 @@
   create_time: 20190705T15:34:00
   id: 1140548
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: yast2-samba-provision 1.0.3 with samba-python3 4.10.5 crashes during domain
     provision
 - component: Security
