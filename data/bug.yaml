@@ -23314,8 +23314,8 @@
 - component: Other
   create_time: 20190509T14:12:00
   id: 1134608
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'cadabra2: fails to build with boost 1.70.0'
 - component: Other
   create_time: 20190509T14:03:00
@@ -25671,6 +25671,12 @@
   resolution: FIXED
   status: RESOLVED
   summary: Salt "pkg.downloaded" state is crashing because unexpected "fromrepo" argument
+- component: YaST2
+  create_time: 20190703T03:42:00
+  id: 1140156
+  resolution: ''
+  status: CONFIRMED
+  summary: yast proxy authentication command does not work
 - component: Security
   create_time: 20190703T00:44:00
   id: 1140151
@@ -25678,6 +25684,18 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: KDE Workspace (Plasma)
+  create_time: 20190710T14:33:00
+  id: 1141028
+  resolution: ''
+  status: NEW
+  summary: Please integrate this patch to fix Baloo index corruption
+- component: Installation
+  create_time: 20190710T13:09:00
+  id: 1141017
+  resolution: ''
+  status: NEW
+  summary: installer logs contain user password
 - component: Network
   create_time: 20190710T11:41:00
   id: 1141009
@@ -25688,7 +25706,7 @@
   create_time: 20190710T10:30:00
   id: 1140998
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: GStreamer-WARNING External plugin loader failed
 - component: Security
   create_time: 20190710T10:11:00
@@ -25699,14 +25717,14 @@
 - component: Security
   create_time: 20190710T10:08:00
   id: 1140993
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'iputils/ping: Drop effective capability'
 - component: Security
   create_time: 20190710T10:05:00
   id: 1140991
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'iputils/ping6: Remove definitions'
 - component: Other
   create_time: 20190710T09:25:00
@@ -25883,8 +25901,8 @@
 - component: Sound
   create_time: 20190706T19:45:00
   id: 1140580
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Raspberry 3B+ no soundcard
 - component: Network
   create_time: 20190706T19:37:00
@@ -25896,9 +25914,9 @@
   create_time: 20190706T05:37:00
   id: 1140573
   resolution: ''
-  status: NEW
-  summary: External monitor stops working when coming back from screen save mode (with
-    docking station)
+  status: IN_PROGRESS
+  summary: 'Intel/Kabylake: External monitor stops working when coming back from screen
+    save mode (with docking station)'
 - component: Patterns
   create_time: 20190706T02:42:00
   id: 1140571
@@ -25934,8 +25952,8 @@
 - component: Security
   create_time: 20190705T10:45:00
   id: 1140494
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'kernel-source: disable OVERLAY_FS_REDIRECT_ALWAYS_FOLLOW to improve overlayfs
     security'
 - component: Kubic
