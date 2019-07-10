@@ -24317,8 +24317,8 @@
 - component: Virtualization:Tools
   create_time: 20190529T14:19:00
   id: 1136761
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: VirtualBox permissions are wrong after every update; suggested workaround
     doesn't help
 - component: GNOME
@@ -25439,7 +25439,7 @@
   resolution: ''
   status: NEW
   summary: Inconsistent names of Tumbleweed image for Raspberry Pi 1B in repository
-- component: X.Org
+- component: Installation
   create_time: 20190701T09:39:00
   id: 1139889
   resolution: ''
@@ -25684,6 +25684,13 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: X.Org
+  create_time: 20190710T16:10:00
+  id: 1141041
+  resolution: ''
+  status: NEW
+  summary: Nvidia quadro + nouveau :after snapshot 20190708 second terminal doesn't
+    more display
 - component: KDE Workspace (Plasma)
   create_time: 20190710T14:33:00
   id: 1141028
