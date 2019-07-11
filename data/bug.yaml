@@ -16929,8 +16929,8 @@
 - component: X11 Applications
   create_time: 20181218T22:38:00
   id: 1119899
-  resolution: UPSTREAM
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: HSTS error in chromium when accessing powerhmc1
 - component: Basesystem
   create_time: 20181218T22:34:00
@@ -22485,9 +22485,9 @@
 - component: Basesystem
   create_time: 20190424T13:05:00
   id: 1133265
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'LTO: Mesa build fails'
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'LTO: Mesa build fails; now llvmpipe crashes on SMP systems ...'
 - component: Basesystem
   create_time: 20190424T12:40:00
   id: 1133259
@@ -23139,8 +23139,8 @@
 - component: Installation
   create_time: 20190505T03:37:00
   id: 1134130
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '"/boot" cannot be part of a thinly provisioned logical volume'
 '20190506':
 - component: Installation
@@ -25724,7 +25724,7 @@
 - component: X.Org
   create_time: 20190710T16:10:00
   id: 1141041
-  resolution: UPSTREAM
+  resolution: FIXED
   status: RESOLVED
   summary: Nvidia quadro + nouveau :after snapshot 20190708 second terminal doesn't
     more display
@@ -25755,8 +25755,8 @@
 - component: Security
   create_time: 20190710T10:11:00
   id: 1140994
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: iputils: cap_net_raw=p capability for clockdiff'
 - component: Security
   create_time: 20190710T10:08:00
