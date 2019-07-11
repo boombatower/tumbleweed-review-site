@@ -25439,11 +25439,11 @@
   resolution: ''
   status: NEW
   summary: Inconsistent names of Tumbleweed image for Raspberry Pi 1B in repository
-- component: Installation
+- component: X.Org
   create_time: 20190701T09:39:00
   id: 1139889
   resolution: ''
-  status: IN_PROGRESS
+  status: CONFIRMED
   summary: '915GM: Mouse pointer corrupt in graphics installation'
 - component: Sound
   create_time: 20190701T09:38:00
@@ -25684,6 +25684,25 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Other
+  create_time: 20190711T09:14:00
+  id: 1141106
+  resolution: ''
+  status: NEW
+  summary: Program "remmina" crashes with a memory access violation
+- component: Other
+  create_time: 20190711T09:05:00
+  id: 1141105
+  resolution: ''
+  status: NEW
+  summary: 'Failed to call mkisofs: Warning: no Apple/Unix files will be decoded/mapped'
+- component: Other
+  create_time: 20190711T08:23:00
+  id: 1141100
+  resolution: ''
+  status: NEW
+  summary: program xfreerdp crashes right after starting with an "undefined symbol"
+    message.
 - component: Basesystem
   create_time: 20190710T21:08:00
   id: 1141059
@@ -25706,8 +25725,8 @@
 - component: Installation
   create_time: 20190710T13:09:00
   id: 1141017
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: installer logs contain user password
 - component: GNOME
   create_time: 20190710T11:41:00
@@ -25725,8 +25744,8 @@
   create_time: 20190710T10:11:00
   id: 1140994
   resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: iputils: cap_net_raw=p capability for arping and clockdiff'
+  status: CONFIRMED
+  summary: 'AUDIT-0: iputils: cap_net_raw=p capability for clockdiff'
 - component: Security
   create_time: 20190710T10:08:00
   id: 1140993
