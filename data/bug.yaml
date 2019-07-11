@@ -25696,6 +25696,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: LXQt
+  create_time: 20190711T19:37:00
+  id: 1141204
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190709] openQA test fails launching the LXQt panel'
 - component: GNOME
   create_time: 20190711T19:01:00
   id: 1141201
