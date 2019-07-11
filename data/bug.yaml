@@ -13630,6 +13630,12 @@
   summary: '[Build 20181009] openQA test fails in kontact because of a fatal error:
     invalid parent'
 '20181015':
+- component: Development
+  create_time: 20181017T15:55:00
+  id: 1112230
+  resolution: ''
+  status: REOPENED
+  summary: git instaweb gives 500 error
 - component: Java
   create_time: 20181017T14:13:00
   id: 1112205
@@ -16920,6 +16926,12 @@
   status: RESOLVED
   summary: keyboard lags and multiple messages libinput error client bug offset negative
 '20181218':
+- component: X11 Applications
+  create_time: 20181218T22:38:00
+  id: 1119899
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: HSTS error in chromium when accessing powerhmc1
 - component: Basesystem
   create_time: 20181218T22:34:00
   id: 1119898
@@ -23482,7 +23494,7 @@
   id: 1134802
   resolution: ''
   status: IN_PROGRESS
-  summary: 'Tumbleweed 20190509: Boot breaks by dependency ordering cycle -> "Dependency
+  summary: 'Tumbleweed 20190704: Boot breaks by dependency ordering cycle -> "Dependency
     failed for /sysroot" when fsck is about to run'
 '20190514':
 - component: X.Org
@@ -25712,8 +25724,8 @@
 - component: X.Org
   create_time: 20190710T16:10:00
   id: 1141041
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Nvidia quadro + nouveau :after snapshot 20190708 second terminal doesn't
     more display
 - component: KDE Workspace (Plasma)
