@@ -25696,6 +25696,24 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: GNOME
+  create_time: 20190711T19:01:00
+  id: 1141201
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190709][LTO] Tracker crashes'
+- component: Development
+  create_time: 20190711T17:34:00
+  id: 1141190
+  resolution: ''
+  status: NEW
+  summary: 'LTO: mpfr make check failure for ppc64le'
+- component: Other
+  create_time: 20190711T17:20:00
+  id: 1141188
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190709] mkisofs failure when built with LTO'
 - component: Other
   create_time: 20190711T09:14:00
   id: 1141106
