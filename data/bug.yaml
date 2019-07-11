@@ -25709,7 +25709,7 @@
   resolution: ''
   status: NEW
   summary: installer logs contain user password
-- component: Network
+- component: GNOME
   create_time: 20190710T11:41:00
   id: 1141009
   resolution: ''
