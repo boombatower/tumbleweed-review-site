@@ -24984,8 +24984,8 @@
 - component: Basesystem
   create_time: 20190620T09:22:00
   id: 1138795
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO:  btrfsprogs build fails'
 - component: Other
   create_time: 20190619T15:57:00
