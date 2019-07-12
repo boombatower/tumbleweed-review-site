@@ -20604,6 +20604,12 @@
   resolution: ''
   status: NEW
   summary: flatpak app are unable to connect to the network
+- component: Kernel
+  create_time: 20190307T13:04:00
+  id: 1128340
+  resolution: ''
+  status: REOPENED
+  summary: KMP postinst fails when package filename contains special characters
 - component: Basesystem
   create_time: 20190307T12:47:00
   id: 1128333
@@ -22492,8 +22498,8 @@
 - component: Basesystem
   create_time: 20190424T13:05:00
   id: 1133265
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: Mesa build fails; now llvmpipe crashes on SMP systems ...'
 - component: Basesystem
   create_time: 20190424T12:40:00
@@ -25713,7 +25719,7 @@
   create_time: 20190711T19:37:00
   id: 1141204
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20190709] openQA test fails launching the LXQt panel'
 - component: GNOME
   create_time: 20190711T19:01:00
