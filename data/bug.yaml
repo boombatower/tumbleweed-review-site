@@ -25709,6 +25709,18 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: X.Org
+  create_time: 20190712T21:15:00
+  id: 1141362
+  resolution: ''
+  status: NEW
+  summary: Apple Trackpad 2 only moves when pressed
+- component: Other
+  create_time: 20190712T20:30:00
+  id: 1141357
+  resolution: ''
+  status: NEW
+  summary: tmux breaks numeric pgup/pgdn in rxvt-unicode
 - component: Development
   create_time: 20190712T13:22:00
   id: 1141323
