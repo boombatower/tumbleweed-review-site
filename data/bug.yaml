@@ -1705,8 +1705,8 @@
 - component: Virtualization:Other
   create_time: 20180111T16:03:00
   id: 1075622
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Libvirt cannot control Xen installed on the same machine
 - component: Kernel
   create_time: 20180111T15:13:00
@@ -25709,6 +25709,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Development
+  create_time: 20190712T13:22:00
+  id: 1141323
+  resolution: ''
+  status: NEW
+  summary: packages embed CFLAGS with -flto
 - component: Development
   create_time: 20190712T12:53:00
   id: 1141319
