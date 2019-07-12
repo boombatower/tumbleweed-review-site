@@ -18844,6 +18844,13 @@
   resolution: FIXED
   status: RESOLVED
   summary: /etc/resolv.conf no symlink to /run/netconfig/resolv.conf
+- component: Security
+  create_time: 20190204T12:13:00
+  id: 1124150
+  resolution: ''
+  status: REOPENED
+  summary: 'VUL-1: CVE-2019-7310: poppler: A heap-based buffer over-read allows remote
+    attackers to cause DOS via a special crafted PDF'
 - component: Development
   create_time: 20190204T11:06:00
   id: 1124140
