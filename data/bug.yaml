@@ -25449,7 +25449,7 @@
   create_time: 20190701T14:24:00
   id: 1139939
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: compressed kernel breaks get_kernel_version
 - component: Other
   create_time: 20190701T13:09:00
@@ -25709,6 +25709,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Development
+  create_time: 20190712T12:53:00
+  id: 1141319
+  resolution: ''
+  status: NEW
+  summary: -flto causes variations in debuginfo in .a
 - component: Kernel
   create_time: 20190712T02:41:00
   id: 1141222
