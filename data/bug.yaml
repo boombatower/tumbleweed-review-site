@@ -25709,6 +25709,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Installation
+  create_time: 20190713T16:31:00
+  id: 1141377
+  resolution: ''
+  status: NEW
+  summary: nothing provides libprotobuf.so.17 needed by libusbguard0-0.7.4-5.3.i586
 - component: GNOME
   create_time: 20190713T15:53:00
   id: 1141376
@@ -26079,7 +26085,7 @@
   resolution: ''
   status: NEW
   summary: transactional-update causes undefined behaviour of overlayfs
-- component: KDE Applications
+- component: X.Org
   create_time: 20190704T22:37:00
   id: 1140434
   resolution: ''
