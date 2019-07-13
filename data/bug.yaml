@@ -25709,6 +25709,42 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Mono
+  create_time: 20190713T21:01:00
+  id: 1141386
+  resolution: ''
+  status: NEW
+  summary: 'bless: Drop/port away from rarian dependency'
+- component: Other
+  create_time: 20190713T20:57:00
+  id: 1141385
+  resolution: ''
+  status: NEW
+  summary: 'buzztrax: Drop/port away from rarian dependency (edit)'
+- component: Basesystem
+  create_time: 20190713T20:57:00
+  id: 1141384
+  resolution: ''
+  status: NEW
+  summary: '[aarch64] -flto=4 breaking ar (cmake)'
+- component: Other
+  create_time: 20190713T20:54:00
+  id: 1141383
+  resolution: ''
+  status: NEW
+  summary: 'gjiten: Drop/port away from rarian dependency (edit)'
+- component: Other
+  create_time: 20190713T20:46:00
+  id: 1141382
+  resolution: ''
+  status: NEW
+  summary: 'xiphos: Drop/port away from rarian dependency'
+- component: GNOME
+  create_time: 20190713T20:41:00
+  id: 1141381
+  resolution: ''
+  status: NEW
+  summary: Drop rarian from distribution - dead package and upstream awol for years
 - component: Installation
   create_time: 20190713T16:31:00
   id: 1141377
