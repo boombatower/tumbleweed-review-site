@@ -25713,7 +25713,7 @@
   create_time: 20190712T21:15:00
   id: 1141362
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Apple Trackpad 2 only moves when pressed
 - component: Other
   create_time: 20190712T20:30:00
