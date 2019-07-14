@@ -26131,7 +26131,7 @@
   create_time: 20190704T22:37:00
   id: 1140434
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Reduced video quality in vlc/kaffeine since 5.1.10
 - component: Other
   create_time: 20190704T13:31:00
