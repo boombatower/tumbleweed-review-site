@@ -14509,8 +14509,8 @@
 - component: Basesystem
   create_time: 20181023T07:33:00
   id: 1112849
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Throbber animation in openSUSE plymouth theme has suboptimal amount of
     frames
 - component: Other
@@ -19021,7 +19021,7 @@
   create_time: 20190207T22:21:00
   id: 1124701
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'games/mouseboat: Bug no longer runs'
 - component: KDE Workspace (Plasma)
   create_time: 20190207T19:07:00
@@ -19431,8 +19431,8 @@
 - component: YaST2
   create_time: 20190214T12:57:00
   id: 1125450
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-theme-oxygen package is unusable
 - component: Security
   create_time: 20190214T11:29:00
@@ -19607,7 +19607,7 @@
   create_time: 20190215T11:58:00
   id: 1125594
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: YaST no longer have some hardcoded PNG icons (default Breeze theme)
 - component: Other
   create_time: 20190215T11:36:00
