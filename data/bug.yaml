@@ -21997,7 +21997,7 @@
   create_time: 20190413T16:15:00
   id: 1132440
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Incorporate distribution logo in display managers
 - component: Kubic
   create_time: 20190413T11:41:00
@@ -25709,6 +25709,13 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Other
+  create_time: 20190714T20:10:00
+  id: 1141391
+  resolution: ''
+  status: NEW
+  summary: '[KDE3] kdebase3-kdm times out instead of starting during initial system
+    startup'
 - component: X11 Applications
   create_time: 20190714T12:31:00
   id: 1141389
