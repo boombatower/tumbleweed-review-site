@@ -25709,6 +25709,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: X11 Applications
+  create_time: 20190714T12:31:00
+  id: 1141389
+  resolution: ''
+  status: NEW
+  summary: calibre headers no longer sorts
 - component: Mono
   create_time: 20190713T21:01:00
   id: 1141386
@@ -25757,12 +25763,12 @@
   resolution: ''
   status: NEW
   summary: Gnome-software shows No Application Data found Broken 20190708
-- component: X.Org
+- component: Kernel
   create_time: 20190712T21:15:00
   id: 1141362
   resolution: ''
   status: IN_PROGRESS
-  summary: Apple Trackpad 2 only moves when pressed
+  summary: Apple Trackpad 2 only moves when pressed and freezes sytstem
 - component: Other
   create_time: 20190712T20:30:00
   id: 1141357
