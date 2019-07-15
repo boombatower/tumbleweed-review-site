@@ -13696,7 +13696,7 @@
   create_time: 20181017T07:27:00
   id: 1112108
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20181015] openQA test fails trying to write to serial device /dev/ttyS0
     as root with "Input/output error" - agetty failed in background'
 - component: KDE Applications
@@ -25709,6 +25709,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: High Availability
+  create_time: 20190715T17:38:00
+  id: 1141536
+  resolution: ''
+  status: NEW
+  summary: corosync-qnetd fails to start with NSS error in TW 20190708
 - component: Other
   create_time: 20190715T14:32:00
   id: 1141510
