@@ -16219,8 +16219,8 @@
 - component: Other
   create_time: 20181124T19:03:00
   id: 1117216
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Snappy: cannot determine nfs usage in generateSystemKey'
 - component: KDE Workspace (Plasma)
   create_time: 20181124T18:37:00
@@ -19020,8 +19020,8 @@
 - component: Other
   create_time: 20190207T22:21:00
   id: 1124701
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'games/mouseboat: Bug no longer runs'
 - component: KDE Workspace (Plasma)
   create_time: 20190207T19:07:00
@@ -23916,8 +23916,8 @@
 - component: Other
   create_time: 20190522T09:31:00
   id: 1135884
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: VERIFIED
   summary: '[Build 20190521] openQA test fails in openvswitch'
 - component: Kernel
   create_time: 20190522T08:25:00
@@ -25114,8 +25114,8 @@
 - component: GNOME
   create_time: 20190617T13:08:00
   id: 1138455
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: GNOME does not start properly on aarch64 and ppc64/ppc64le
 - component: X11 Applications
   create_time: 20190617T09:52:00
@@ -25598,8 +25598,8 @@
 - component: Basesystem
   create_time: 20190702T07:41:00
   id: 1140016
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Update timezone to 2019b.
 - component: Basesystem
   create_time: 20190702T05:43:00
@@ -25709,6 +25709,30 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Development
+  create_time: 20190715T13:27:00
+  id: 1141502
+  resolution: ''
+  status: NEW
+  summary: unreproducible mono dll versions
+- component: Kernel
+  create_time: 20190715T13:08:00
+  id: 1141498
+  resolution: ''
+  status: NEW
+  summary: Mounting nfs at boot give fs-cache invalid cookie
+- component: X.Org
+  create_time: 20190715T12:22:00
+  id: 1141494
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: Nouveau freezes desktop
+- component: Network
+  create_time: 20190715T11:18:00
+  id: 1141480
+  resolution: ''
+  status: IN_PROGRESS
+  summary: conntrackd 1.4.5 fails to parse helper configuration
 - component: Other
   create_time: 20190715T09:12:00
   id: 1141444
@@ -25828,7 +25852,7 @@
   create_time: 20190711T17:34:00
   id: 1141190
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'LTO: mpfr make check failure for ppc64le'
 - component: Other
   create_time: 20190711T17:20:00
@@ -26174,7 +26198,7 @@
   create_time: 20190704T08:20:00
   id: 1140339
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Staging] autoyast_mini: failure to login post install'
 - component: Basesystem
   create_time: 20190704T07:18:00
