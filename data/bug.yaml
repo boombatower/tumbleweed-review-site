@@ -13635,7 +13635,7 @@
   id: 1112230
   resolution: ''
   status: REOPENED
-  summary: git instaweb gives 500 error
+  summary: git instaweb provides empty web
 - component: Java
   create_time: 20181017T14:13:00
   id: 1112205
@@ -25709,6 +25709,18 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Other
+  create_time: 20190715T14:32:00
+  id: 1141510
+  resolution: ''
+  status: NEW
+  summary: scalapack build failures ppc64 as missing openblas module
+- component: Sound
+  create_time: 20190715T13:43:00
+  id: 1141506
+  resolution: FIXED
+  status: RESOLVED
+  summary: Intel HD audio fails to start with 'unable to bind the codec' on i7-5600U
 - component: Development
   create_time: 20190715T13:27:00
   id: 1141502
