@@ -19688,8 +19688,8 @@
 - component: Other
   create_time: 20190218T14:07:00
   id: 1125785
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190217] openQA test fails in machinery, no machinery-helper available
     for the remote system architecture aarch64'
 - component: AutoYaST
@@ -25239,8 +25239,8 @@
 - component: Bootloader
   create_time: 20190625T12:20:00
   id: 1139319
-  resolution: ''
-  status: CONFIRMED
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'rPi u-boot: cannot paste into serial console'
 - component: KDE Applications
   create_time: 20190625T11:05:00
@@ -25709,11 +25709,17 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Other
+  create_time: 20190715T09:12:00
+  id: 1141444
+  resolution: ''
+  status: NEW
+  summary: 'clementine: a memory hog'
 - component: GNOME
   create_time: 20190715T05:08:00
   id: 1141399
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: gtk2 fails in a staging with -Werror=return-type
 - component: Other
   create_time: 20190714T20:10:00
@@ -25764,7 +25770,7 @@
   resolution: ''
   status: NEW
   summary: Drop rarian from distribution - dead package and upstream awol for years
-- component: Installation
+- component: Patterns
   create_time: 20190713T16:31:00
   id: 1141377
   resolution: ''
