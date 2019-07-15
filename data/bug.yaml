@@ -24544,7 +24544,7 @@
   create_time: 20190605T15:20:00
   id: 1137361
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Enhance kvmsmall config with paravirtualized modules
 - component: Basesystem
   create_time: 20190605T12:59:00
@@ -25709,7 +25709,13 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
-- component: KDE Applications
+- component: GNOME
+  create_time: 20190715T05:08:00
+  id: 1141399
+  resolution: ''
+  status: NEW
+  summary: gtk2 fails in a staging with -Werror=return-type
+- component: Other
   create_time: 20190714T20:10:00
   id: 1141391
   resolution: ''
