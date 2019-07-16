@@ -11085,8 +11085,8 @@
 - component: Other
   create_time: 20180727T06:49:00
   id: 1102826
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20180726] LXQt tests fail during shutdown'
 - component: Kubic
   create_time: 20180727T06:47:00
@@ -17427,8 +17427,8 @@
 - component: Other
   create_time: 20181229T22:54:00
   id: 1120400
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: OpenRCT2 Missing Files
 - component: Other
   create_time: 20181229T17:44:00
@@ -20783,8 +20783,8 @@
 - component: LXQt
   create_time: 20190312T13:59:00
   id: 1128915
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190311] Permission dialog on shutdown'
 - component: Installation
   create_time: 20190312T13:34:00
@@ -22510,8 +22510,8 @@
 - component: Basesystem
   create_time: 20190424T12:37:00
   id: 1133258
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: lvm2 build fails'
 - component: Basesystem
   create_time: 20190424T12:35:00
@@ -25361,8 +25361,8 @@
 - component: Other
   create_time: 20190628T18:59:00
   id: 1139776
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: gajim-plugin-omemo 2.6.59 requires newer version of gajim
 - component: Kernel
   create_time: 20190628T15:08:00
@@ -25469,7 +25469,7 @@
   id: 1139889
   resolution: ''
   status: CONFIRMED
-  summary: '915GM: Mouse pointer corrupt in graphics installation'
+  summary: '915G[M]: Mouse pointer corrupt in graphics installation'
 - component: Sound
   create_time: 20190701T09:38:00
   id: 1139888
@@ -25709,6 +25709,18 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Network
+  create_time: 20190716T08:46:00
+  id: 1141599
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'prosody: add latest 0.11 fixes'
+- component: Basesystem
+  create_time: 20190716T08:34:00
+  id: 1141597
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190713] systemd networkd_dhcp fails to bring up the network'
 - component: KDE Workspace (Plasma)
   create_time: 20190715T20:48:00
   id: 1141547
@@ -25863,8 +25875,8 @@
 - component: LXQt
   create_time: 20190711T19:37:00
   id: 1141204
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190709] openQA test fails launching the LXQt panel'
 - component: GNOME
   create_time: 20190711T19:01:00
