@@ -25710,6 +25710,26 @@
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
 - component: Development
+  create_time: 20190716T16:51:00
+  id: 1141688
+  resolution: ''
+  status: NEW
+  summary: go1.11 release tracking
+- component: GNOME
+  create_time: 20190716T16:50:00
+  id: 1141687
+  resolution: ''
+  status: NEW
+  summary: PackageKit zypp backend offline updates always fail when a license needs
+    to be accepted
+- component: AutoYaST
+  create_time: 20190716T14:05:00
+  id: 1141664
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190713] Interface disappears when editing firewall configuration
+    in Autoinstallation conf.'
+- component: Development
   create_time: 20190716T12:10:00
   id: 1141647
   resolution: ''
@@ -26115,8 +26135,8 @@
 - component: Kubic
   create_time: 20190707T17:16:00
   id: 1140596
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Kubic lacking locales
 - component: Other
   create_time: 20190707T15:41:00
