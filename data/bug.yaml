@@ -26014,7 +26014,7 @@
   status: NEW
   summary: Ethernet interface for Raspberry Pi 3B does not start after reboot since
     OS installation
-- component: Sound
+- component: YaST2
   create_time: 20190709T00:21:00
   id: 1140778
   resolution: ''
