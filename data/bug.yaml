@@ -25709,6 +25709,19 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Basesystem
+  create_time: 20190716T22:43:00
+  id: 1141726
+  resolution: ''
+  status: NEW
+  summary: When wicked is enabled NetworkManager does not update resolv.conf
+- component: Kernel
+  create_time: 20190716T21:06:00
+  id: 1141720
+  resolution: ''
+  status: NEW
+  summary: I2C error and no touchscreen  on  the Atom Windows Tablet devices Q506/ME
+    in Tumbleweed 20190708
 - component: Development
   create_time: 20190716T16:59:00
   id: 1141689
@@ -25872,7 +25885,7 @@
   create_time: 20190713T15:53:00
   id: 1141376
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Gnome-software shows No Application Data found Broken 20190708
 - component: Kernel
   create_time: 20190712T21:15:00
