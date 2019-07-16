@@ -23890,8 +23890,8 @@
 - component: Other
   create_time: 20190522T19:06:00
   id: 1135984
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'TW 20190520: "Unknown feature in status" message when running lvs/lvdisplay
     against cached LVs'
 - component: Kubic
