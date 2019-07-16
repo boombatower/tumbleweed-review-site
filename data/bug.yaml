@@ -25710,10 +25710,16 @@
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
 - component: Development
+  create_time: 20190716T16:59:00
+  id: 1141689
+  resolution: ''
+  status: IN_PROGRESS
+  summary: go1.12 release tracking
+- component: Development
   create_time: 20190716T16:51:00
   id: 1141688
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: go1.11 release tracking
 - component: GNOME
   create_time: 20190716T16:50:00
