@@ -25499,7 +25499,7 @@
   create_time: 20190701T07:59:00
   id: 1139857
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20190630] MATE - core packages unresolvable'
 - component: Basesystem
   create_time: 20190701T07:45:00
@@ -25709,6 +25709,19 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: YaST2
+  create_time: 20190717T10:44:00
+  id: 1141821
+  resolution: ''
+  status: IN_PROGRESS
+  summary: yast2-network as part of the refactoring
+- component: LibreOffice
+  create_time: 20190717T08:04:00
+  id: 1141790
+  resolution: ''
+  status: NEW
+  summary: 'Problem: nothing provides libreoffice-icon-themes = 6.2.5.2 needed by
+    libreoffice-6.2.5.2-1.1.i586'
 - component: Other
   create_time: 20190717T06:30:00
   id: 1141762
@@ -26087,7 +26100,7 @@
   create_time: 20190709T00:21:00
   id: 1140778
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Yast2 Sound module does not produce sound
 - component: Kernel
   create_time: 20190709T00:00:00
