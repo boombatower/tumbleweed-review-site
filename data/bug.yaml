@@ -25709,6 +25709,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Other
+  create_time: 20190717T06:30:00
+  id: 1141762
+  resolution: ''
+  status: NEW
+  summary: qjackctl segfaults
 - component: GNOME
   create_time: 20190716T22:43:00
   id: 1141726
@@ -25745,7 +25751,7 @@
   create_time: 20190716T14:05:00
   id: 1141664
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20190713] Interface disappears when editing firewall configuration
     in Autoinstallation conf.'
 - component: Development
@@ -25754,6 +25760,12 @@
   resolution: ''
   status: NEW
   summary: AC_CHECK_FUNC broken by -flto2
+- component: KDE Applications
+  create_time: 20190716T09:00:00
+  id: 1141604
+  resolution: ''
+  status: NEW
+  summary: 'KDE:Applications/akonadi-server: Bug'
 - component: Network
   create_time: 20190716T08:46:00
   id: 1141599
