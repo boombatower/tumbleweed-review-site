@@ -25709,7 +25709,7 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
-- component: Basesystem
+- component: GNOME
   create_time: 20190716T22:43:00
   id: 1141726
   resolution: ''
@@ -26080,8 +26080,8 @@
 - component: Kernel
   create_time: 20190709T00:00:00
   id: 1140777
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Plasma shell freezes and/or stops rendering elements
 - component: Network
   create_time: 20190708T19:53:00
