@@ -25709,6 +25709,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Basesystem
+  create_time: 20190717T21:34:00
+  id: 1141913
+  resolution: ''
+  status: NEW
+  summary: libbfd link problem
 - component: X.Org
   create_time: 20190717T16:01:00
   id: 1141892
