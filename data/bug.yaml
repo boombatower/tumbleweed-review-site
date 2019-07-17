@@ -20398,8 +20398,8 @@
 - component: LibreOffice
   create_time: 20190305T10:45:00
   id: 1127895
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'oomath: openQA doesn''t render anything when running on KDE'
 - component: Kernel
   create_time: 20190305T10:10:00
@@ -25709,6 +25709,37 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: KDE Workspace (Plasma)
+  create_time: 20190717T16:01:00
+  id: 1141892
+  resolution: ''
+  status: NEW
+  summary: crash of ksmserver after zypper dup
+- component: KDE Workspace (Plasma)
+  create_time: 20190717T15:15:00
+  id: 1141884
+  resolution: ''
+  status: NEW
+  summary: Compositor broken with 30-bit color
+- component: KDE Workspace (Plasma)
+  create_time: 20190717T15:14:00
+  id: 1141883
+  resolution: ''
+  status: NEW
+  summary: pinentry-qt crashes with QtCurve
+- component: Kernel
+  create_time: 20190717T15:05:00
+  id: 1141881
+  resolution: ''
+  status: NEW
+  summary: '"BUG: unable to handle kernel NULL pointer dereference at 0000000000000029"
+    on OBS job'
+- component: Other
+  create_time: 20190717T14:45:00
+  id: 1141879
+  resolution: ''
+  status: NEW
+  summary: usbmuxd not spawning after reconnect an iOS device on same USB port
 - component: Ruby
   create_time: 20190717T12:11:00
   id: 1141848
