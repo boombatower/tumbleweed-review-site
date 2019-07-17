@@ -25709,6 +25709,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
+- component: Ruby
+  create_time: 20190717T12:11:00
+  id: 1141848
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190716] openQA test fails in rails'
 - component: YaST2
   create_time: 20190717T10:44:00
   id: 1141821
