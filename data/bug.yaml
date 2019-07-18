@@ -25980,7 +25980,7 @@
   create_time: 20190709T17:03:00
   id: 1140916
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: firewall does not start correctly
 - component: GNOME
   create_time: 20190709T16:59:00
@@ -26222,7 +26222,7 @@
   create_time: 20190704T08:20:00
   id: 1140339
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: '[Staging] autoyast_mini: failure to login post install'
 - component: Basesystem
   create_time: 20190704T07:18:00
@@ -26237,6 +26237,18 @@
   status: NEW
   summary: Kernel 5.1.16 kernel panics on Opensuse Leap 15.0
 '20190716':
+- component: Development
+  create_time: 20190718T13:00:00
+  id: 1142037
+  resolution: ''
+  status: NEW
+  summary: 'LTO: Octave + quaternion broken'
+- component: Other
+  create_time: 20190718T11:37:00
+  id: 1142018
+  resolution: ''
+  status: NEW
+  summary: sqlite3 fails in %check assertion on armv7/armv6
 - component: Basesystem
   create_time: 20190718T10:06:00
   id: 1142000
@@ -26265,8 +26277,8 @@
 - component: X.Org
   create_time: 20190718T05:39:00
   id: 1141947
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Failed to initialize glamor: modesetting DDX works during TW installation
     but not in installed system on i945G 8086:2772 GMA 950 & iG33 8086:29c2 GMA 3100'
 - component: Basesystem
@@ -26286,7 +26298,7 @@
   id: 1141884
   resolution: ''
   status: NEW
-  summary: Compositor broken with 30-bit color
+  summary: Compositor broken with 30bpp
 - component: KDE Workspace (Plasma)
   create_time: 20190717T15:14:00
   id: 1141883
