@@ -24208,8 +24208,8 @@
 - component: Kernel
   create_time: 20190527T12:47:00
   id: 1136436
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: btrfs maintenance crashed and left system unbootable - kernel BUG at fs/btrfs/ctree.h:3518!
 - component: YaST2
   create_time: 20190527T11:25:00
@@ -24336,8 +24336,8 @@
 - component: Kernel
   create_time: 20190529T15:28:00
   id: 1136772
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Kernel bug triggered when mounting btrfs file system
 - component: Virtualization:Tools
   create_time: 20190529T14:19:00
