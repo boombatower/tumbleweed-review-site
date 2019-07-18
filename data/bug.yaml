@@ -25899,8 +25899,8 @@
 - component: Other
   create_time: 20190711T08:23:00
   id: 1141100
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: program xfreerdp crashes right after starting with an "undefined symbol"
     message.
 - component: Basesystem
@@ -26221,8 +26221,8 @@
 - component: AutoYaST
   create_time: 20190704T08:20:00
   id: 1140339
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Staging] autoyast_mini: failure to login post install'
 - component: Basesystem
   create_time: 20190704T07:18:00
@@ -26237,6 +26237,12 @@
   status: NEW
   summary: Kernel 5.1.16 kernel panics on Opensuse Leap 15.0
 '20190716':
+- component: YaST2
+  create_time: 20190718T14:29:00
+  id: 1142055
+  resolution: ''
+  status: NEW
+  summary: /tmp mount not nodev,nosuid by default
 - component: Development
   create_time: 20190718T13:00:00
   id: 1142037
