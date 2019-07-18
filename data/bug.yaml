@@ -21131,8 +21131,8 @@
 - component: Network
   create_time: 20190321T06:35:00
   id: 1130002
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: It takes 20 s NetworkManager to connect network
 '20190322':
 - component: Xfce
