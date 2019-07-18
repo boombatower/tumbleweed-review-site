@@ -25719,7 +25719,7 @@
   create_time: 20190717T16:01:00
   id: 1141892
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: crash of ksmserver after zypper dup
 - component: KDE Workspace (Plasma)
   create_time: 20190717T15:15:00
