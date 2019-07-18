@@ -24128,8 +24128,8 @@
 - component: Development
   create_time: 20190528T21:30:00
   id: 1136650
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: spyder-3.3.4-1.1 missing dependency python-spyder-kernels >= 0.4.3
 - component: YaST2
   create_time: 20190528T20:39:00
@@ -26237,6 +26237,24 @@
   status: NEW
   summary: Kernel 5.1.16 kernel panics on Opensuse Leap 15.0
 '20190716':
+- component: Basesystem
+  create_time: 20190718T10:06:00
+  id: 1142000
+  resolution: ''
+  status: NEW
+  summary: openssh-askpass-gnome bloats server installation
+- component: Kernel
+  create_time: 20190718T09:58:00
+  id: 1141998
+  resolution: ''
+  status: NEW
+  summary: nvme_timeout fix not forward ported to 5.X ?
+- component: Other
+  create_time: 20190718T09:34:00
+  id: 1141993
+  resolution: ''
+  status: NEW
+  summary: python3-pyenchant fails  on  Tumbleweed
 - component: YaST2
   create_time: 20190718T07:22:00
   id: 1141963
