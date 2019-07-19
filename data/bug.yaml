@@ -26310,20 +26310,20 @@
 - component: Other
   create_time: 20190719T08:58:00
   id: 1142164
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: petsc:gnu-openmpi3-hpc build hang'
 - component: Other
   create_time: 20190719T07:44:00
   id: 1142155
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: unreliable build of openSUSE:Factory/highlight
 - component: Kernel
   create_time: 20190719T03:44:00
   id: 1142128
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Intel Wireless-AC 9260 adapter firmware wont run
 - component: Basesystem
   create_time: 20190718T21:04:00
