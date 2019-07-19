@@ -26301,6 +26301,12 @@
   status: NEW
   summary: '[Build 20190713] systemd networkd_dhcp fails to bring up the network'
 '20190717':
+- component: LibreOffice
+  create_time: 20190719T12:04:00
+  id: 1142197
+  resolution: ''
+  status: NEW
+  summary: LibreOffice broken appearance in Plasma wayland session
 - component: Other
   create_time: 20190719T08:58:00
   id: 1142164
