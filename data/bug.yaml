@@ -26301,6 +26301,12 @@
   status: NEW
   summary: '[Build 20190713] systemd networkd_dhcp fails to bring up the network'
 '20190717':
+- component: Kernel
+  create_time: 20190719T03:44:00
+  id: 1142128
+  resolution: ''
+  status: NEW
+  summary: Intel Wireless-AC 9260 adapter firmware wont run
 - component: Basesystem
   create_time: 20190718T21:04:00
   id: 1142099
