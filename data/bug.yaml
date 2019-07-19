@@ -26317,7 +26317,7 @@
   create_time: 20190719T07:44:00
   id: 1142155
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: unreliable build of openSUSE:Factory/highlight
 - component: Kernel
   create_time: 20190719T03:44:00
