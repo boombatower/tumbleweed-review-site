@@ -26302,6 +26302,12 @@
   summary: '[Build 20190713] systemd networkd_dhcp fails to bring up the network'
 '20190717':
 - component: Other
+  create_time: 20190719T08:58:00
+  id: 1142164
+  resolution: ''
+  status: NEW
+  summary: 'LTO: petsc:gnu-openmpi3-hpc build hang'
+- component: Other
   create_time: 20190719T07:44:00
   id: 1142155
   resolution: ''
@@ -26323,7 +26329,7 @@
   create_time: 20190718T14:29:00
   id: 1142055
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: /tmp mount not nodev,nosuid by default
 - component: Development
   create_time: 20190718T13:00:00
@@ -26372,8 +26378,8 @@
 - component: Basesystem
   create_time: 20190717T21:34:00
   id: 1141913
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: libbfd link problem
 - component: X.Org
   create_time: 20190717T16:01:00
