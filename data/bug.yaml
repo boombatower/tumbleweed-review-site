@@ -26365,6 +26365,12 @@
   summary: qjackctl segfaults
 '20190718':
 - component: Basesystem
+  create_time: 20190720T08:44:00
+  id: 1142256
+  resolution: ''
+  status: NEW
+  summary: systemd-timesyncd fails to start after upgrading to v240
+- component: Basesystem
   create_time: 20190720T05:55:00
   id: 1142251
   resolution: ''
