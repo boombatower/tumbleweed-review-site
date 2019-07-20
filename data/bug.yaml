@@ -26365,6 +26365,13 @@
   summary: qjackctl segfaults
 '20190718':
 - component: Other
+  create_time: 20190720T18:23:00
+  id: 1142263
+  resolution: ''
+  status: NEW
+  summary: '[keepassxc] All passwords except latest one lost in group after closing
+    database'
+- component: Other
   create_time: 20190720T12:05:00
   id: 1142258
   resolution: ''
