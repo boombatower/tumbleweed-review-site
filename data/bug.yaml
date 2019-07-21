@@ -26364,6 +26364,12 @@
   status: NEW
   summary: qjackctl segfaults
 '20190718':
+- component: X.Org
+  create_time: 20190721T11:33:00
+  id: 1142270
+  resolution: ''
+  status: NEW
+  summary: dri config fix for gsteamer apps required
 - component: Other
   create_time: 20190721T01:07:00
   id: 1142267
