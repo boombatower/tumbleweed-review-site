@@ -26375,9 +26375,7 @@
   id: 1142266
   resolution: ''
   status: NEW
-  summary: OpenSUSE Tumbleweed 32 bits does not install upon ACER ASPIRE 5610-4648
-    by standard. Need to block manually kernel pae and select kernel default during
-    installation. KDE Desktop with a lot of colored rectangles and polygons. Login
+  summary: 32 bit KDE Desktop with a lot of colored rectangles and polygons. Login
     screen unstable.
 - component: Other
   create_time: 20190720T18:23:00
