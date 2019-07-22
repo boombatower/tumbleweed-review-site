@@ -26364,6 +26364,18 @@
   status: NEW
   summary: qjackctl segfaults
 '20190718':
+- component: Kernel
+  create_time: 20190722T13:57:00
+  id: 1142370
+  resolution: ''
+  status: NEW
+  summary: Untested laptop multimedia keys, please report success or failure to eric.piel@tremplin-utc.net
+- component: Other
+  create_time: 20190722T12:38:00
+  id: 1142357
+  resolution: ''
+  status: NEW
+  summary: Default build flag not compatible with clang 8
 - component: Development
   create_time: 20190722T11:43:00
   id: 1142348
