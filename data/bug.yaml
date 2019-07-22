@@ -14994,8 +14994,8 @@
 - component: Other
   create_time: 20181105T03:07:00
   id: 1114600
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/cinnamon'
 '20181107':
 - component: Basesystem
@@ -19132,8 +19132,8 @@
 - component: Other
   create_time: 20190206T08:34:00
   id: 1124429
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Is Cinnamon still being updated / maintained for Tumbleweed?
 - component: YaST2
   create_time: 20190205T20:03:00
@@ -26394,7 +26394,7 @@
   create_time: 20190720T12:05:00
   id: 1142258
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Zypper DUP from 20190717 -> 20190718 kills Cinnamon; boots to crash-looping
     IceWM
 - component: Basesystem
