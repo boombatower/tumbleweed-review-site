@@ -14321,8 +14321,8 @@
 - component: Other
   create_time: 20181024T07:16:00
   id: 1113041
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/proftpd is out of date'
 - component: Other
   create_time: 20181024T07:10:00
@@ -24233,8 +24233,8 @@
 - component: Basesystem
   create_time: 20190531T12:27:00
   id: 1136977
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190528] Live media (mediacheck and regular media boot) fail'
 - component: Security
   create_time: 20190531T11:58:00
@@ -24455,8 +24455,8 @@
 - component: Basesystem
   create_time: 20190603T09:58:00
   id: 1137104
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: dracut 049 breaks nfs root
 - component: Basesystem
   create_time: 20190603T06:52:00
@@ -25190,8 +25190,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190621T15:47:00
   id: 1138956
-  resolution: UPSTREAM
-  status: RESOLVED
+  resolution: ''
+  status: IN_PROGRESS
   summary: kde-open5 seems to handle port numbers wrong
 - component: Other
   create_time: 20190621T15:36:00
@@ -25821,8 +25821,8 @@
 - component: Other
   create_time: 20190713T16:31:00
   id: 1141377
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: nothing provides libprotobuf.so.17 needed by libusbguard0-0.7.4-5.3.i586
 - component: GNOME
   create_time: 20190713T15:53:00
@@ -26364,6 +26364,19 @@
   status: NEW
   summary: qjackctl segfaults
 '20190718':
+- component: Development
+  create_time: 20190722T11:43:00
+  id: 1142348
+  resolution: ''
+  status: NEW
+  summary: gdb is build without lzma support
+- component: Security
+  create_time: 20190722T09:56:00
+  id: 1142332
+  resolution: ''
+  status: REOPENED
+  summary: 'VUL-0: CVE-2019-1010238: pango: heap based buffer overflow in  pango_log2vis_get_embedding_levels
+    can lead to code execution'
 - component: Basesystem
   create_time: 20190722T08:52:00
   id: 1142317
@@ -26379,8 +26392,8 @@
 - component: X.Org
   create_time: 20190721T11:33:00
   id: 1142270
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: dri config fix for gsteamer apps required
 - component: Other
   create_time: 20190721T01:07:00
