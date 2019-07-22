@@ -13356,8 +13356,8 @@
 - component: X11 Applications
   create_time: 20181010T15:22:00
   id: 1111422
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: '[Build 20181009] openQA test fails in vlc: Ctrl-n does not open medium
     selection window'
 - component: KDE Workspace (Plasma)
@@ -16276,7 +16276,7 @@
   create_time: 20181122T07:53:00
   id: 1116995
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: packagekit leaking file descriptors (and huge log file) ?
 '20181126':
 - component: Basesystem
@@ -24785,8 +24785,8 @@
 - component: Maintenance
   create_time: 20190616T14:36:00
   id: 1138371
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Factory Update channel missing for multiple architectures
 - component: KDE Workspace (Plasma)
   create_time: 20190616T13:42:00
@@ -25818,7 +25818,7 @@
   resolution: ''
   status: NEW
   summary: Drop rarian from distribution - dead package and upstream awol for years
-- component: Patterns
+- component: Other
   create_time: 20190713T16:31:00
   id: 1141377
   resolution: ''
@@ -25937,8 +25937,8 @@
 - component: GNOME
   create_time: 20190710T10:30:00
   id: 1140998
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: GStreamer-WARNING External plugin loader failed
 - component: Security
   create_time: 20190710T10:11:00
@@ -26061,8 +26061,8 @@
 - component: Usability
   create_time: 20190708T11:53:00
   id: 1140713
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: opensuse thumbleweed fails to detect external monitors since last weekend
 - component: GNOME
   create_time: 20190708T11:21:00
@@ -26364,6 +26364,18 @@
   status: NEW
   summary: qjackctl segfaults
 '20190718':
+- component: Basesystem
+  create_time: 20190722T08:52:00
+  id: 1142317
+  resolution: ''
+  status: NEW
+  summary: opiegen segfaults on OBS
+- component: Other
+  create_time: 20190722T08:12:00
+  id: 1142308
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Drop jasper dependency from dcraw
 - component: X.Org
   create_time: 20190721T11:33:00
   id: 1142270
