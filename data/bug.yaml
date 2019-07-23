@@ -13954,8 +13954,8 @@
 - component: Other
   create_time: 20181019T00:36:00
   id: 1112505
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/dracut'
 - component: Other
   create_time: 20181019T00:28:00
@@ -25631,8 +25631,8 @@
 - component: Basesystem
   create_time: 20190703T19:30:00
   id: 1140295
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'nvim: broken layout with diff command -d'
 - component: Bootloader
   create_time: 20190703T13:11:00
@@ -25705,8 +25705,8 @@
 - component: Security
   create_time: 20190703T00:44:00
   id: 1140151
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: libvirt: new polkit permissions for networkport'
 '20190704':
 - component: KDE Workspace (Plasma)
@@ -25724,8 +25724,8 @@
 - component: Other
   create_time: 20190715T14:32:00
   id: 1141510
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: scalapack build failures ppc64 as missing openblas module
 - component: Sound
   create_time: 20190715T13:43:00
@@ -25779,8 +25779,8 @@
 - component: X11 Applications
   create_time: 20190714T12:31:00
   id: 1141389
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: calibre headers no longer sorts
 - component: Mono
   create_time: 20190713T21:01:00
@@ -26298,7 +26298,7 @@
   create_time: 20190716T08:34:00
   id: 1141597
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20190713] systemd networkd_dhcp fails to bring up the network'
 '20190717':
 - component: Basesystem
@@ -26484,11 +26484,29 @@
   summary: 'Failed to initialize glamor: modesetting DDX works during TW installation
     but not in installed system on i945G 8086:2772 GMA 950 & iG33 8086:29c2 GMA 3100'
 '20190721':
+- component: Network
+  create_time: 20190723T11:30:00
+  id: 1142498
+  resolution: ''
+  status: CONFIRMED
+  summary: Cobbler System add fails without explicit usage of redhat_management_key
+- component: Kernel
+  create_time: 20190723T11:24:00
+  id: 1142496
+  resolution: ''
+  status: NEW
+  summary: sky2 ethernet card does not work after resume from sleep
+- component: Basesystem
+  create_time: 20190723T11:08:00
+  id: 1142492
+  resolution: ''
+  status: NEW
+  summary: display-manager is restarted like mad on crash
 - component: Development
   create_time: 20190723T07:48:00
   id: 1142456
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: gcc9 gives false positive about unaligned packed member address
 - component: KDE Workspace (Plasma)
   create_time: 20190723T07:17:00
