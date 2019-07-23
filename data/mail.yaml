@@ -2249,10 +2249,10 @@
   threads: []
 '20190721':
   announcement: 2019-07.305
-  reference_count: 5
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
     - 2019-07.306
-    reference_count: 5
+    reference_count: 6
     summary: dracut updated to 049
