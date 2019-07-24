@@ -26485,6 +26485,12 @@
     but not in installed system on i945G 8086:2772 GMA 950 & iG33 8086:29c2 GMA 3100'
 '20190721':
 - component: Basesystem
+  create_time: 20190724T01:59:00
+  id: 1142553
+  resolution: ''
+  status: NEW
+  summary: 'rpmrebuild fails with -bb: unknown option'
+- component: Basesystem
   create_time: 20190723T18:35:00
   id: 1142540
   resolution: ''
