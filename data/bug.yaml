@@ -26484,6 +26484,12 @@
   summary: 'Failed to initialize glamor: modesetting DDX works during TW installation
     but not in installed system on i945G 8086:2772 GMA 950 & iG33 8086:29c2 GMA 3100'
 '20190721':
+- component: Other
+  create_time: 20190724T22:36:00
+  id: 1142712
+  resolution: ''
+  status: NEW
+  summary: scribus-unstable segmentation fault
 - component: Development
   create_time: 20190724T19:35:00
   id: 1142709
