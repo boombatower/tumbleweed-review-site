@@ -2258,10 +2258,10 @@
     summary: dracut updated to 049
 '20190723':
   announcement: 2019-07.329
-  reference_count: 1
+  reference_count: 3
   thread_count: 1
   threads:
   - messages:
     - 2019-07.346
-    reference_count: 1
+    reference_count: 3
     summary: kernel 5.2 and nvidia
