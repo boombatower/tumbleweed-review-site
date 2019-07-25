@@ -16275,8 +16275,8 @@
 - component: libzypp
   create_time: 20181122T07:53:00
   id: 1116995
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: packagekit leaking file descriptors (and huge log file) ?
 '20181126':
 - component: Basesystem
@@ -26553,11 +26553,36 @@
   status: NEW
   summary: gzdoom-4.1.3-22.5.x86_64 fails with a segmentation fault
 '20190723':
+- component: Other
+  create_time: 20190725T14:55:00
+  id: 1142877
+  resolution: ''
+  status: NEW
+  summary: Cadence ALSA MIDI bridge and PulseAudio bridge to Jack broken in Tumbleweed
+- component: YaST2
+  create_time: 20190725T13:46:00
+  id: 1142862
+  resolution: ''
+  status: NEW
+  summary: Failed to load into multi-device Btrfs system installed with Autoyast
+- component: YaST2
+  create_time: 20190725T13:34:00
+  id: 1142858
+  resolution: ''
+  status: NEW
+  summary: Two TW selections is shown in GRUB after installing system with multi-device
+    Btrfs
+- component: Kernel
+  create_time: 20190725T12:35:00
+  id: 1142841
+  resolution: ''
+  status: NEW
+  summary: kernel-default-base is missing br_netfilter module
 - component: Network
   create_time: 20190725T09:51:00
   id: 1142800
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: systemd-networkd with kernel 5.2 don't up network interfaces
 - component: Kernel
   create_time: 20190725T07:42:00
