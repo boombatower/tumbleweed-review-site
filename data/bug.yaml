@@ -26484,7 +26484,82 @@
   summary: 'Failed to initialize glamor: modesetting DDX works during TW installation
     but not in installed system on i945G 8086:2772 GMA 950 & iG33 8086:29c2 GMA 3100'
 '20190721':
+- component: Containers
+  create_time: 20190722T22:14:00
+  id: 1142413
+  resolution: ''
+  status: NEW
+  summary: '[trackerbug] Docker 19.03.0 update'
+- component: KDE Workspace (Plasma)
+  create_time: 20190722T17:44:00
+  id: 1142393
+  resolution: ''
+  status: NEW
+  summary: QtQuick applications (e.g. Plasma) render incorrectly on old Intel graphics
+    since snapshot 20190713
+- component: Development
+  create_time: 20190722T17:30:00
+  id: 1142391
+  resolution: ''
+  status: NEW
+  summary: gdb.base/attach-32.exp UNRESOLVEDs
+- component: Kernel
+  create_time: 20190722T13:57:00
+  id: 1142370
+  resolution: ''
+  status: NEW
+  summary: Untested laptop multimedia keys, please report success or failure to eric.piel@tremplin-utc.net
 - component: Other
+  create_time: 20190722T12:38:00
+  id: 1142357
+  resolution: INVALID
+  status: RESOLVED
+  summary: Default build flag not compatible with clang 8
+- component: Development
+  create_time: 20190722T11:43:00
+  id: 1142348
+  resolution: FIXED
+  status: RESOLVED
+  summary: gdb is build without lzma support
+- component: Security
+  create_time: 20190722T09:56:00
+  id: 1142332
+  resolution: ''
+  status: REOPENED
+  summary: 'VUL-0: CVE-2019-1010238: pango: heap based buffer overflow in  pango_log2vis_get_embedding_levels
+    can lead to code execution'
+- component: Basesystem
+  create_time: 20190722T08:52:00
+  id: 1142317
+  resolution: ''
+  status: NEW
+  summary: opiegen segfaults on OBS
+- component: Other
+  create_time: 20190722T08:12:00
+  id: 1142308
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Drop jasper dependency from dcraw
+- component: X.Org
+  create_time: 20190721T11:33:00
+  id: 1142270
+  resolution: FIXED
+  status: RESOLVED
+  summary: dri config fix for gsteamer apps required
+- component: Other
+  create_time: 20190721T01:07:00
+  id: 1142267
+  resolution: ''
+  status: NEW
+  summary: gzdoom-4.1.3-22.5.x86_64 fails with a segmentation fault
+'20190723':
+- component: Other
+  create_time: 20190725T02:15:00
+  id: 1142714
+  resolution: ''
+  status: NEW
+  summary: pari-gp not compiled for multithreading
+- component: KDE Applications
   create_time: 20190724T22:36:00
   id: 1142712
   resolution: ''
@@ -26518,8 +26593,8 @@
 - component: Maintenance
   create_time: 20190724T12:59:00
   id: 1142657
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: osc checkout always ends with segmentation fault
 - component: Basesystem
   create_time: 20190724T12:42:00
@@ -26631,71 +26706,3 @@
   status: NEW
   summary: Steam / steam-vr packages don't pull libvulkan_radeon-32bit (or 32-bit
     libcap-progs)
-- component: Containers
-  create_time: 20190722T22:14:00
-  id: 1142413
-  resolution: ''
-  status: NEW
-  summary: '[trackerbug] Docker 19.03.0 update'
-- component: KDE Workspace (Plasma)
-  create_time: 20190722T17:44:00
-  id: 1142393
-  resolution: ''
-  status: NEW
-  summary: QtQuick applications (e.g. Plasma) render incorrectly on old Intel graphics
-    since snapshot 20190713
-- component: Development
-  create_time: 20190722T17:30:00
-  id: 1142391
-  resolution: ''
-  status: NEW
-  summary: gdb.base/attach-32.exp UNRESOLVEDs
-- component: Kernel
-  create_time: 20190722T13:57:00
-  id: 1142370
-  resolution: ''
-  status: NEW
-  summary: Untested laptop multimedia keys, please report success or failure to eric.piel@tremplin-utc.net
-- component: Other
-  create_time: 20190722T12:38:00
-  id: 1142357
-  resolution: INVALID
-  status: RESOLVED
-  summary: Default build flag not compatible with clang 8
-- component: Development
-  create_time: 20190722T11:43:00
-  id: 1142348
-  resolution: FIXED
-  status: RESOLVED
-  summary: gdb is build without lzma support
-- component: Security
-  create_time: 20190722T09:56:00
-  id: 1142332
-  resolution: ''
-  status: REOPENED
-  summary: 'VUL-0: CVE-2019-1010238: pango: heap based buffer overflow in  pango_log2vis_get_embedding_levels
-    can lead to code execution'
-- component: Basesystem
-  create_time: 20190722T08:52:00
-  id: 1142317
-  resolution: ''
-  status: NEW
-  summary: opiegen segfaults on OBS
-- component: Other
-  create_time: 20190722T08:12:00
-  id: 1142308
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Drop jasper dependency from dcraw
-- component: X.Org
-  create_time: 20190721T11:33:00
-  id: 1142270
-  resolution: FIXED
-  status: RESOLVED
-  summary: dri config fix for gsteamer apps required
-- component: Other
-  create_time: 20190721T01:07:00
-  id: 1142267
-  resolution: ''
-  status: NEW
-  summary: gzdoom-4.1.3-22.5.x86_64 fails with a segmentation fault
