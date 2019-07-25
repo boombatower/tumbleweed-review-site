@@ -26319,7 +26319,7 @@
   resolution: ''
   status: NEW
   summary: Compositor broken with 30bpp
-- component: KDE Workspace (Plasma)
+- component: X11 Applications
   create_time: 20190717T15:14:00
   id: 1141883
   resolution: ''
@@ -26553,6 +26553,12 @@
   status: NEW
   summary: gzdoom-4.1.3-22.5.x86_64 fails with a segmentation fault
 '20190723':
+- component: Network
+  create_time: 20190725T09:51:00
+  id: 1142800
+  resolution: ''
+  status: NEW
+  summary: systemd-networkd with kernel 5.2 don't up network interfaces
 - component: Kernel
   create_time: 20190725T07:42:00
   id: 1142758
@@ -26580,8 +26586,8 @@
 - component: Development
   create_time: 20190724T19:35:00
   id: 1142709
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: -flto breaks function wrapping
 - component: KDE Applications
   create_time: 20190724T15:31:00
