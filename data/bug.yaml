@@ -26553,6 +26553,31 @@
   status: NEW
   summary: gzdoom-4.1.3-22.5.x86_64 fails with a segmentation fault
 '20190723':
+- component: Development
+  create_time: 20190725T20:30:00
+  id: 1142913
+  resolution: ''
+  status: NEW
+  summary: 'erlang: i586 build failed due to LTO'
+- component: Basesystem
+  create_time: 20190725T20:02:00
+  id: 1142911
+  resolution: ''
+  status: NEW
+  summary: 'LTO: kicad build fails due to undefined reference to toplevel assembly
+    function'
+- component: Other
+  create_time: 20190725T19:17:00
+  id: 1142909
+  resolution: ''
+  status: NEW
+  summary: mariadb depended from python2 and this depence not specify in spec-file.
+- component: Basesystem
+  create_time: 20190725T18:44:00
+  id: 1142901
+  resolution: ''
+  status: NEW
+  summary: 'systemd-networkd: Could not bring up interface: Invalid argument'
 - component: Other
   create_time: 20190725T14:55:00
   id: 1142877
