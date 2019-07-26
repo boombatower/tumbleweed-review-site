@@ -2265,3 +2265,8 @@
     - 2019-07.346
     reference_count: 4
     summary: kernel 5.2 and nvidia
+'20190724':
+  announcement: 2019-07.359
+  reference_count: 0
+  thread_count: 0
+  threads: []
