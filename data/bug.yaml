@@ -26609,12 +26609,39 @@
   summary: Steam / steam-vr packages don't pull libvulkan_radeon-32bit (or 32-bit
     libcap-progs)
 '20190724':
+- component: Development
+  create_time: 20190726T15:24:00
+  id: 1143063
+  resolution: ''
+  status: NEW
+  summary: pesign fails to build with --disable-debuginfo
+- component: X.Org
+  create_time: 20190726T14:24:00
+  id: 1143052
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'nouveau: SIGSEGV running vlc'
+- component: Other
+  create_time: 20190726T14:22:00
+  id: 1143051
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190723] openQA test fails in firstrun - system doesn''t boot
+    up anymore'
+- component: Security
+  create_time: 20190726T13:12:00
+  id: 1143038
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2018-20854: kernel-source: out-of-bounds read on array ctrl->phys,
+    once variable i reaches the maximum array size'
 - component: Basesystem
   create_time: 20190726T12:42:00
   id: 1143033
   resolution: ''
   status: NEW
-  summary: dracut fails on filesystem resize for aarch64 JeOS-efi
+  summary: dracut fails on filesystem resize for aarch64 JeOS-efi - rmdir command
+    missing in initrd
 - component: Patterns
   create_time: 20190726T08:43:00
   id: 1142975
@@ -26661,8 +26688,8 @@
 - component: Other
   create_time: 20190725T14:55:00
   id: 1142877
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Cadence ALSA MIDI bridge and PulseAudio bridge to Jack broken in Tumbleweed
 - component: YaST2
   create_time: 20190725T13:46:00
@@ -26729,7 +26756,7 @@
   create_time: 20190724T14:36:00
   id: 1142670
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: LLADDR in bridge configuration ignored.
 - component: YaST2
   create_time: 20190724T14:31:00
