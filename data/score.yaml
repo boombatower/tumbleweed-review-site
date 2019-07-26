@@ -845,16 +845,16 @@
   score: 86
   stability_level: moderate
 '20190612':
-  score: 79
-  stability_level: moderate
-'20190614':
   score: 89
   stability_level: moderate
+'20190614':
+  score: 93
+  stability_level: stable
 '20190617':
-  score: 81
+  score: 83
   stability_level: moderate
 '20190621':
-  score: 91
+  score: 92
   stability_level: stable
 '20190623':
   score: 95
