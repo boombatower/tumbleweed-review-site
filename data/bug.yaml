@@ -26609,6 +26609,18 @@
   summary: Steam / steam-vr packages don't pull libvulkan_radeon-32bit (or 32-bit
     libcap-progs)
 '20190724':
+- component: Security
+  create_time: 20190726T17:07:00
+  id: 1143069
+  resolution: ''
+  status: NEW
+  summary: certbot fails with "cannot import name ssl_match_hostname"
+- component: Other
+  create_time: 20190726T16:21:00
+  id: 1143065
+  resolution: ''
+  status: NEW
+  summary: Regression in TeXLive 2019 (font problems)
 - component: Development
   create_time: 20190726T15:24:00
   id: 1143063
