@@ -26553,6 +26553,74 @@
   status: NEW
   summary: gzdoom-4.1.3-22.5.x86_64 fails with a segmentation fault
 '20190723':
+- component: Basesystem
+  create_time: 20190723T18:35:00
+  id: 1142540
+  resolution: ''
+  status: NEW
+  summary: 'perl: json_pp mangles accented characters'
+- component: X.Org
+  create_time: 20190723T15:46:00
+  id: 1142530
+  resolution: ''
+  status: IN_PROGRESS
+  summary: libICE6 >=1.0.10 blocks KDE3 and TDE sessions from starting
+- component: YaST2
+  create_time: 20190723T14:30:00
+  id: 1142522
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST crashes at the upgrade with "No base product found" error message
+- component: Network
+  create_time: 20190723T11:30:00
+  id: 1142498
+  resolution: ''
+  status: CONFIRMED
+  summary: Cobbler System add fails without explicit usage of redhat_management_key
+- component: Kernel
+  create_time: 20190723T11:24:00
+  id: 1142496
+  resolution: ''
+  status: NEW
+  summary: sky2 ethernet card does not work after resume from sleep
+- component: Basesystem
+  create_time: 20190723T11:08:00
+  id: 1142492
+  resolution: ''
+  status: NEW
+  summary: display-manager is restarted like mad on crash
+- component: Development
+  create_time: 20190723T07:48:00
+  id: 1142456
+  resolution: INVALID
+  status: RESOLVED
+  summary: gcc9 gives false positive about unaligned packed member address
+- component: KDE Workspace (Plasma)
+  create_time: 20190723T07:17:00
+  id: 1142448
+  resolution: INVALID
+  status: RESOLVED
+  summary: libqt5-qtwebengine symbol lookup error - applications fail to start
+- component: Other
+  create_time: 20190723T00:40:00
+  id: 1142415
+  resolution: ''
+  status: NEW
+  summary: Steam / steam-vr packages don't pull libvulkan_radeon-32bit (or 32-bit
+    libcap-progs)
+'20190724':
+- component: Basesystem
+  create_time: 20190726T12:42:00
+  id: 1143033
+  resolution: ''
+  status: NEW
+  summary: dracut fails on filesystem resize for aarch64 JeOS-efi
+- component: Patterns
+  create_time: 20190726T08:43:00
+  id: 1142975
+  resolution: ''
+  status: NEW
+  summary: rubygem-public_suffix 4.0.0 breaks dependencies of rubygem-addressable
 - component: Kernel
   create_time: 20190726T03:06:00
   id: 1142926
@@ -26731,58 +26799,3 @@
   resolution: ''
   status: NEW
   summary: 'rpmrebuild fails with -bb: unknown option'
-- component: Basesystem
-  create_time: 20190723T18:35:00
-  id: 1142540
-  resolution: ''
-  status: NEW
-  summary: 'perl: json_pp mangles accented characters'
-- component: X.Org
-  create_time: 20190723T15:46:00
-  id: 1142530
-  resolution: ''
-  status: IN_PROGRESS
-  summary: libICE6 >=1.0.10 blocks KDE3 and TDE sessions from starting
-- component: YaST2
-  create_time: 20190723T14:30:00
-  id: 1142522
-  resolution: FIXED
-  status: RESOLVED
-  summary: YaST crashes at the upgrade with "No base product found" error message
-- component: Network
-  create_time: 20190723T11:30:00
-  id: 1142498
-  resolution: ''
-  status: CONFIRMED
-  summary: Cobbler System add fails without explicit usage of redhat_management_key
-- component: Kernel
-  create_time: 20190723T11:24:00
-  id: 1142496
-  resolution: ''
-  status: NEW
-  summary: sky2 ethernet card does not work after resume from sleep
-- component: Basesystem
-  create_time: 20190723T11:08:00
-  id: 1142492
-  resolution: ''
-  status: NEW
-  summary: display-manager is restarted like mad on crash
-- component: Development
-  create_time: 20190723T07:48:00
-  id: 1142456
-  resolution: INVALID
-  status: RESOLVED
-  summary: gcc9 gives false positive about unaligned packed member address
-- component: KDE Workspace (Plasma)
-  create_time: 20190723T07:17:00
-  id: 1142448
-  resolution: INVALID
-  status: RESOLVED
-  summary: libqt5-qtwebengine symbol lookup error - applications fail to start
-- component: Other
-  create_time: 20190723T00:40:00
-  id: 1142415
-  resolution: ''
-  status: NEW
-  summary: Steam / steam-vr packages don't pull libvulkan_radeon-32bit (or 32-bit
-    libcap-progs)
