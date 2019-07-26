@@ -26553,6 +26553,12 @@
   status: NEW
   summary: gzdoom-4.1.3-22.5.x86_64 fails with a segmentation fault
 '20190723':
+- component: Kernel
+  create_time: 20190725T22:00:00
+  id: 1142922
+  resolution: ''
+  status: NEW
+  summary: 'kernel: typec_displayport port1-partner.1: failed to enter mode'
 - component: Development
   create_time: 20190725T20:30:00
   id: 1142913
