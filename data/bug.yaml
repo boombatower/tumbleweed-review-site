@@ -23245,8 +23245,8 @@
 - component: Other
   create_time: 20190507T09:41:00
   id: 1134293
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Snapshot 20190505 breaks Cinnamon 3.8.9
 - component: AppArmor
   create_time: 20190507T09:26:00
@@ -26382,7 +26382,7 @@
   create_time: 20190720T12:05:00
   id: 1142258
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Zypper DUP from 20190717 -> 20190718 kills Cinnamon; boots to crash-looping
     IceWM
 - component: Basesystem
