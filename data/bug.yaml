@@ -26554,6 +26554,12 @@
   summary: gzdoom-4.1.3-22.5.x86_64 fails with a segmentation fault
 '20190723':
 - component: Kernel
+  create_time: 20190726T03:06:00
+  id: 1142926
+  resolution: ''
+  status: NEW
+  summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
+- component: Kernel
   create_time: 20190725T22:00:00
   id: 1142922
   resolution: ''
