@@ -26609,6 +26609,13 @@
   summary: Steam / steam-vr packages don't pull libvulkan_radeon-32bit (or 32-bit
     libcap-progs)
 '20190724':
+- component: Other
+  create_time: 20190727T14:46:00
+  id: 1143125
+  resolution: ''
+  status: NEW
+  summary: systemd-vconsole-setup.service succeeds and fails several times on each
+    boot
 - component: Basesystem
   create_time: 20190727T12:41:00
   id: 1143119
