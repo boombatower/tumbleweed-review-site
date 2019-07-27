@@ -26609,6 +26609,13 @@
   summary: Steam / steam-vr packages don't pull libvulkan_radeon-32bit (or 32-bit
     libcap-progs)
 '20190724':
+- component: Basesystem
+  create_time: 20190727T12:41:00
+  id: 1143119
+  resolution: ''
+  status: NEW
+  summary: 'openSUSE-Tumbleweed-ARM-JeOS-efi.aarch64-2019.07.25-Build1.4: rmdir: command
+    not found'
 - component: Security
   create_time: 20190726T17:07:00
   id: 1143069
