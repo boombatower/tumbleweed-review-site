@@ -7772,8 +7772,8 @@
 - component: Other
   create_time: 20180510T09:37:00
   id: 1092719
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'X11:xfce/xfce4-panel-plugin-netspeed: IA__gtk_widget_show: assertion ''GTK_IS_WIDGET
     (widget)'' failed'
 - component: Development
@@ -18287,8 +18287,8 @@
 - component: Other
   create_time: 20190116T11:47:00
   id: 1122176
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: '[Build 20190115] openQA test fails in steam'
 - component: Installation
   create_time: 20190116T11:45:00
@@ -25190,8 +25190,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190621T15:47:00
   id: 1138956
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: kde-open5 seems to handle port numbers wrong
 - component: Other
   create_time: 20190621T15:36:00
@@ -26609,95 +26609,6 @@
   summary: Steam / steam-vr packages don't pull libvulkan_radeon-32bit (or 32-bit
     libcap-progs)
 '20190724':
-- component: Other
-  create_time: 20190728T08:11:00
-  id: 1143132
-  resolution: ''
-  status: CONFIRMED
-  summary: projectM makes clementine's visualizations a memory hog
-- component: X11 Applications
-  create_time: 20190728T05:45:00
-  id: 1143130
-  resolution: ''
-  status: NEW
-  summary: cinnamon-settings does not open due to tinycss requirement
-- component: KDE Applications
-  create_time: 20190728T01:27:00
-  id: 1143129
-  resolution: ''
-  status: NEW
-  summary: Qt breaks libreoffice calc Alt+Drag
-- component: Other
-  create_time: 20190727T14:46:00
-  id: 1143125
-  resolution: ''
-  status: NEW
-  summary: systemd-vconsole-setup.service succeeds and fails several times on each
-    boot
-- component: Basesystem
-  create_time: 20190727T12:41:00
-  id: 1143119
-  resolution: ''
-  status: NEW
-  summary: 'openSUSE-Tumbleweed-ARM-JeOS-efi.aarch64-2019.07.25-Build1.4: rmdir: command
-    not found'
-- component: Security
-  create_time: 20190726T17:07:00
-  id: 1143069
-  resolution: ''
-  status: NEW
-  summary: certbot fails with "cannot import name ssl_match_hostname"
-- component: Other
-  create_time: 20190726T16:21:00
-  id: 1143065
-  resolution: ''
-  status: NEW
-  summary: Regression in TeXLive 2019 (font problems)
-- component: Development
-  create_time: 20190726T15:24:00
-  id: 1143063
-  resolution: ''
-  status: NEW
-  summary: pesign fails to build with --disable-debuginfo
-- component: X.Org
-  create_time: 20190726T14:24:00
-  id: 1143052
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'nouveau: SIGSEGV running vlc'
-- component: Other
-  create_time: 20190726T14:22:00
-  id: 1143051
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190723] openQA test fails in firstrun - system doesn''t boot
-    up anymore'
-- component: Security
-  create_time: 20190726T13:12:00
-  id: 1143038
-  resolution: ''
-  status: NEW
-  summary: 'VUL-1: CVE-2018-20854: kernel-source: out-of-bounds read on array ctrl->phys,
-    once variable i reaches the maximum array size'
-- component: Basesystem
-  create_time: 20190726T12:42:00
-  id: 1143033
-  resolution: ''
-  status: NEW
-  summary: dracut fails on filesystem resize for aarch64 JeOS-efi - rmdir command
-    missing in initrd
-- component: Patterns
-  create_time: 20190726T08:43:00
-  id: 1142975
-  resolution: ''
-  status: NEW
-  summary: rubygem-public_suffix 4.0.0 breaks dependencies of rubygem-addressable
-- component: Kernel
-  create_time: 20190726T03:06:00
-  id: 1142926
-  resolution: ''
-  status: NEW
-  summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 - component: Kernel
   create_time: 20190725T22:00:00
   id: 1142922
@@ -26870,3 +26781,130 @@
   resolution: ''
   status: NEW
   summary: 'rpmrebuild fails with -bb: unknown option'
+'20190726':
+- component: Security
+  create_time: 20190728T19:03:00
+  id: 1143147
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: calamares: polkit-untracked-privilege'
+- component: Basesystem
+  create_time: 20190728T18:20:00
+  id: 1143144
+  resolution: ''
+  status: NEW
+  summary: Opensuse should save journalctl log since the begin - not only the current
+    boot
+- component: Kernel
+  create_time: 20190728T13:50:00
+  id: 1143139
+  resolution: ''
+  status: NEW
+  summary: Displaying (both in X and tty) is stuttering with kernel 5.2.x
+- component: Kernel
+  create_time: 20190728T13:49:00
+  id: 1143138
+  resolution: ''
+  status: NEW
+  summary: Displaying (both in X and tty) is stuttering with kernel 5.2.1
+- component: Kernel
+  create_time: 20190728T13:46:00
+  id: 1143137
+  resolution: ''
+  status: NEW
+  summary: Displaying (both in X and tty) is stuttering with kernel 5.2.1
+- component: Kernel
+  create_time: 20190728T13:45:00
+  id: 1143136
+  resolution: ''
+  status: NEW
+  summary: Displaying (both in X and tty) is stuttering with kernel 5.2.1
+- component: Other
+  create_time: 20190728T08:11:00
+  id: 1143132
+  resolution: ''
+  status: CONFIRMED
+  summary: projectM makes clementine's visualizations a memory hog
+- component: X11 Applications
+  create_time: 20190728T05:45:00
+  id: 1143130
+  resolution: ''
+  status: NEW
+  summary: cinnamon-settings does not open due to tinycss requirement
+- component: KDE Applications
+  create_time: 20190728T01:27:00
+  id: 1143129
+  resolution: ''
+  status: NEW
+  summary: Qt breaks libreoffice calc Alt+Drag
+- component: Other
+  create_time: 20190727T14:46:00
+  id: 1143125
+  resolution: ''
+  status: NEW
+  summary: systemd-vconsole-setup.service succeeds and fails several times on each
+    boot
+- component: Basesystem
+  create_time: 20190727T12:41:00
+  id: 1143119
+  resolution: ''
+  status: NEW
+  summary: 'openSUSE-Tumbleweed-ARM-JeOS-efi.aarch64-2019.07.25-Build1.4: rmdir: command
+    not found'
+- component: Security
+  create_time: 20190726T17:07:00
+  id: 1143069
+  resolution: ''
+  status: NEW
+  summary: certbot fails with "cannot import name ssl_match_hostname"
+- component: Other
+  create_time: 20190726T16:21:00
+  id: 1143065
+  resolution: ''
+  status: NEW
+  summary: Regression in TeXLive 2019 (font problems)
+- component: Development
+  create_time: 20190726T15:24:00
+  id: 1143063
+  resolution: ''
+  status: NEW
+  summary: pesign fails to build with --disable-debuginfo
+- component: X.Org
+  create_time: 20190726T14:24:00
+  id: 1143052
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'nouveau: SIGSEGV running vlc'
+- component: Other
+  create_time: 20190726T14:22:00
+  id: 1143051
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190723] openQA test fails in firstrun - system doesn''t boot
+    up anymore'
+- component: Security
+  create_time: 20190726T13:12:00
+  id: 1143038
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2018-20854: kernel-source: out-of-bounds read on array ctrl->phys,
+    once variable i reaches the maximum array size'
+- component: Basesystem
+  create_time: 20190726T12:42:00
+  id: 1143033
+  resolution: ''
+  status: NEW
+  summary: dracut fails on filesystem resize for aarch64 JeOS-efi - rmdir command
+    missing in initrd
+- component: Patterns
+  create_time: 20190726T08:43:00
+  id: 1142975
+  resolution: ''
+  status: NEW
+  summary: rubygem-public_suffix 4.0.0 breaks dependencies of rubygem-addressable
+- component: Kernel
+  create_time: 20190726T03:06:00
+  id: 1142926
+  resolution: ''
+  status: NEW
+  summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
