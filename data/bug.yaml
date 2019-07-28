@@ -26804,20 +26804,20 @@
 - component: Kernel
   create_time: 20190728T13:49:00
   id: 1143138
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Displaying (both in X and tty) is stuttering with kernel 5.2.1
 - component: Kernel
   create_time: 20190728T13:46:00
   id: 1143137
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Displaying (both in X and tty) is stuttering with kernel 5.2.1
 - component: Kernel
   create_time: 20190728T13:45:00
   id: 1143136
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Displaying (both in X and tty) is stuttering with kernel 5.2.1
 - component: Other
   create_time: 20190728T08:11:00
