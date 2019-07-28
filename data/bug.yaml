@@ -22182,8 +22182,8 @@
 - component: Other
   create_time: 20190418T06:52:00
   id: 1132830
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Cinnamon - Can't open cinnamon-settings after latest update (Apr 18, 2019)
 - component: X11 Applications
   create_time: 20190418T06:44:00
@@ -26609,6 +26609,12 @@
   summary: Steam / steam-vr packages don't pull libvulkan_radeon-32bit (or 32-bit
     libcap-progs)
 '20190724':
+- component: X11 Applications
+  create_time: 20190728T05:45:00
+  id: 1143130
+  resolution: ''
+  status: NEW
+  summary: cinnamon-settings does not open due to tinycss requirement
 - component: KDE Applications
   create_time: 20190728T01:27:00
   id: 1143129
