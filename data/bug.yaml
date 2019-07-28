@@ -26609,6 +26609,12 @@
   summary: Steam / steam-vr packages don't pull libvulkan_radeon-32bit (or 32-bit
     libcap-progs)
 '20190724':
+- component: KDE Applications
+  create_time: 20190728T01:27:00
+  id: 1143129
+  resolution: ''
+  status: NEW
+  summary: Qt breaks libreoffice calc Alt+Drag
 - component: Other
   create_time: 20190727T14:46:00
   id: 1143125
