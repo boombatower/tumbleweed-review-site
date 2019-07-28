@@ -26609,6 +26609,12 @@
   summary: Steam / steam-vr packages don't pull libvulkan_radeon-32bit (or 32-bit
     libcap-progs)
 '20190724':
+- component: Other
+  create_time: 20190728T08:11:00
+  id: 1143132
+  resolution: ''
+  status: CONFIRMED
+  summary: projectM makes clementine's visualizations a memory hog
 - component: X11 Applications
   create_time: 20190728T05:45:00
   id: 1143130
