@@ -26776,11 +26776,17 @@
   status: NEW
   summary: 'rpmrebuild fails with -bb: unknown option'
 '20190726':
+- component: KDE Applications
+  create_time: 20190729T17:51:00
+  id: 1143308
+  resolution: ''
+  status: NEW
+  summary: Dolphin should require filenamesearch kio slave
 - component: Development
   create_time: 20190729T14:54:00
   id: 1143286
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'LTO: libcaca build failure as missdetection "HAVE_FLDLN2" & HAVE_FSIN_FCOS'
 - component: KDE Applications
   create_time: 20190729T12:22:00
