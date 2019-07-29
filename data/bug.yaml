@@ -18517,8 +18517,8 @@
 - component: Other
   create_time: 20190124T13:20:00
   id: 1123047
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: pdfcompare broken since Python 2 -> Python 3 conversion
 - component: Installation
   create_time: 20190124T08:56:00
@@ -22002,8 +22002,8 @@
 - component: Installation
   create_time: 20190413T09:37:00
   id: 1132435
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Tumbleweed 32bit and 64bit did not boot on samsung nc110 again after several
     updates
 - component: Kernel
@@ -24318,8 +24318,8 @@
 - component: Installation
   create_time: 20190529T18:07:00
   id: 1136790
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: graphic installer unusable on Raspberry Pi
 - component: Other
   create_time: 20190529T17:56:00
@@ -26776,6 +26776,12 @@
   status: NEW
   summary: 'rpmrebuild fails with -bb: unknown option'
 '20190726':
+- component: Development
+  create_time: 20190729T14:54:00
+  id: 1143286
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libcaca build failure as missdetection "HAVE_FLDLN2" & HAVE_FSIN_FCOS'
 - component: KDE Applications
   create_time: 20190729T12:22:00
   id: 1143249
