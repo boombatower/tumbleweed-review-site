@@ -26574,8 +26574,8 @@
 - component: Kernel
   create_time: 20190723T11:24:00
   id: 1142496
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: sky2 ethernet card does not work after resume from sleep
 - component: Basesystem
   create_time: 20190723T11:08:00
@@ -26776,6 +26776,24 @@
   status: NEW
   summary: 'rpmrebuild fails with -bb: unknown option'
 '20190726':
+- component: X11 3rd Party Driver
+  create_time: 20190729T19:32:00
+  id: 1143316
+  resolution: ''
+  status: NEW
+  summary: Nvidia Driver 418.74 won't build on Kernel 5.2+
+- component: Virtualization:Tools
+  create_time: 20190729T19:29:00
+  id: 1143315
+  resolution: ''
+  status: NEW
+  summary: 'virt-manager: Fix detection for SLE15'
+- component: Containers
+  create_time: 20190729T19:23:00
+  id: 1143313
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190728] openQA test fails in docker'
 - component: KDE Applications
   create_time: 20190729T17:51:00
   id: 1143308
