@@ -26776,6 +26776,12 @@
   status: NEW
   summary: 'rpmrebuild fails with -bb: unknown option'
 '20190726':
+- component: KDE Applications
+  create_time: 20190729T12:22:00
+  id: 1143249
+  resolution: ''
+  status: NEW
+  summary: 'LTO: kdelibs4 ppc64 build failure: undefined reference to `LTHUNK3.lto_priv.0'''
 - component: Security
   create_time: 20190729T10:09:00
   id: 1143216
