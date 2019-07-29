@@ -26782,6 +26782,12 @@
   status: NEW
   summary: 'rpmrebuild fails with -bb: unknown option'
 '20190726':
+- component: High Availability
+  create_time: 20190729T04:57:00
+  id: 1143155
+  resolution: ''
+  status: NEW
+  summary: 'OCFS2: o2locktop can not display the full hostname with python3'
 - component: Security
   create_time: 20190728T19:03:00
   id: 1143147
