@@ -19056,8 +19056,8 @@
 - component: YaST2
   create_time: 20190207T09:23:00
   id: 1124581
-  resolution: NORESPONSE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Missing '/' mount point
 - component: KDE Applications
   create_time: 20190207T07:55:00
@@ -26832,8 +26832,8 @@
 - component: Virtualization:Tools
   create_time: 20190729T19:29:00
   id: 1143315
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'virt-manager: Fix detection for SLE15'
 - component: Containers
   create_time: 20190729T19:23:00
