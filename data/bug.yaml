@@ -15945,8 +15945,8 @@
 - component: Network
   create_time: 20181117T17:31:00
   id: 1116439
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: privoxy segfaults with 20181116
 - component: Security
   create_time: 20181117T11:33:00
@@ -19056,8 +19056,8 @@
 - component: YaST2
   create_time: 20190207T09:23:00
   id: 1124581
-  resolution: ''
-  status: CONFIRMED
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Missing '/' mount point
 - component: KDE Applications
   create_time: 20190207T07:55:00
@@ -25297,8 +25297,8 @@
 - component: KDE Applications
   create_time: 20190626T13:25:00
   id: 1139463
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Plasma Discover crashes/unusuable on launch since Tumbleweed 20190623
 - component: KDE Workspace (Plasma)
   create_time: 20190626T10:19:00
@@ -26656,8 +26656,8 @@
 - component: Kernel
   create_time: 20190725T12:35:00
   id: 1142841
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kernel-default-base is missing br_netfilter module
 - component: Network
   create_time: 20190725T09:51:00
@@ -26710,8 +26710,8 @@
 - component: YaST2
   create_time: 20190724T14:31:00
   id: 1142669
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[multi-device Btrfs] Internal error occurred while moving used btrfs device
     from the list of selected devices'
 - component: Maintenance
@@ -26776,12 +26776,33 @@
   status: NEW
   summary: 'rpmrebuild fails with -bb: unknown option'
 '20190726':
+- component: Security
+  create_time: 20190730T09:55:00
+  id: 1143409
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2019-14271: docker: code injection can occur when the nsswitch
+    facility dynamically loads a library inside a chroot that contains the contents
+    of the container'
+- component: Salt
+  create_time: 20190730T09:42:00
+  id: 1143405
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190729] openQA test fails in salt: File conflict when running
+    "zypper in"'
+- component: Containers
+  create_time: 20190730T05:19:00
+  id: 1143349
+  resolution: ''
+  status: NEW
+  summary: docker --userns-remap=default fails on-start
 - component: X11 3rd Party Driver
   create_time: 20190729T19:32:00
   id: 1143316
   resolution: ''
   status: NEW
-  summary: Nvidia Driver 418.74 won't build on Kernel 5.2+
+  summary: 'X11:Bumblebee/nvidia-bumblebee: 418.74 doesn''t build on Kernel 5.2+'
 - component: Virtualization:Tools
   create_time: 20190729T19:29:00
   id: 1143315
