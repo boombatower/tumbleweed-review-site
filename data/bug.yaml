@@ -26813,8 +26813,8 @@
 - component: Salt
   create_time: 20190730T09:42:00
   id: 1143405
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190729] openQA test fails in salt: File conflict when running
     "zypper in"'
 - component: Containers
