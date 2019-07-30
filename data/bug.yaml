@@ -26559,6 +26559,12 @@
   resolution: ''
   status: IN_PROGRESS
   summary: libICE6 >=1.0.10 blocks KDE3 and TDE sessions from starting
+- component: Security
+  create_time: 20190723T15:46:00
+  id: 1142529
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'VUL-1: CVE-2019-14241: haproxy: cookie memory corruption'
 - component: YaST2
   create_time: 20190723T14:30:00
   id: 1142522
@@ -26783,6 +26789,19 @@
   status: NEW
   summary: 'rpmrebuild fails with -bb: unknown option'
 '20190726':
+- component: GNOME
+  create_time: 20190730T15:24:00
+  id: 1143469
+  resolution: ''
+  status: NEW
+  summary: Bad fonts rendering in GNOME Terminal
+- component: Basesystem
+  create_time: 20190730T13:52:00
+  id: 1143454
+  resolution: ''
+  status: NEW
+  summary: New system-user for tftp, so this tftp user is handled only in a single
+    place.
 - component: Security
   create_time: 20190730T09:55:00
   id: 1143409
