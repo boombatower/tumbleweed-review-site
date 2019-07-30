@@ -25373,8 +25373,8 @@
 - component: X.Org
   create_time: 20190628T09:39:00
   id: 1139692
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Let's move xorg.conf.d snippets from /etc/X11/xorg.conf.d to /usr/share/X11/xorg.conf.d
 - component: Containers
   create_time: 20190628T01:20:00
@@ -26723,8 +26723,8 @@
 - component: Basesystem
   create_time: 20190724T12:42:00
   id: 1142656
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: opencv3 build fails'
 - component: Other
   create_time: 20190724T11:50:00
@@ -26739,6 +26739,13 @@
   status: NEW
   summary: 'libseccomp ppc64le: Test 36-sim-ipc_syscalls%%001-00001 result:   ERROR
     36-sim-ipc_syscalls rc=14'
+- component: Security
+  create_time: 20190724T09:09:00
+  id: 1142604
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2019-14248: nasm: NULL pointer dereference in asm/pragma.c
+    leading to Segmentation fault'
 - component: YaST2
   create_time: 20190724T08:36:00
   id: 1142595
