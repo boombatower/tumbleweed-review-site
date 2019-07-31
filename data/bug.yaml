@@ -26587,7 +26587,7 @@
   create_time: 20190723T11:08:00
   id: 1142492
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: display-manager is restarted like mad on crash
 - component: Development
   create_time: 20190723T07:48:00
@@ -26755,8 +26755,8 @@
 - component: YaST2
   create_time: 20190724T08:36:00
   id: 1142595
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2.rpm dependency on hostname is missing
 - component: Development
   create_time: 20190724T08:00:00
@@ -26789,6 +26789,12 @@
   status: NEW
   summary: 'rpmrebuild fails with -bb: unknown option'
 '20190726':
+- component: YaST2
+  create_time: 20190731T08:01:00
+  id: 1143558
+  resolution: ''
+  status: CONFIRMED
+  summary: scrollbar resets when selecting role
 - component: GNOME
   create_time: 20190730T15:24:00
   id: 1143469
@@ -26799,7 +26805,7 @@
   create_time: 20190730T13:52:00
   id: 1143454
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: New system-user for tftp, so this tftp user is handled only in a single
     place.
 - component: Security
@@ -26958,7 +26964,7 @@
   create_time: 20190726T17:07:00
   id: 1143069
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: certbot fails with "cannot import name ssl_match_hostname"
 - component: Other
   create_time: 20190726T16:21:00
