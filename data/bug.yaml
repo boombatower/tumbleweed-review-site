@@ -26876,7 +26876,7 @@
   create_time: 20190729T08:09:00
   id: 1143192
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'open-iscsi-2.0.877-55.1.aarch64: segfault at startup'
 - component: Basesystem
   create_time: 20190729T08:05:00
