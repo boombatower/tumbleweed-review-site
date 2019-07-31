@@ -26583,7 +26583,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: sky2 ethernet card does not work after resume from sleep
-- component: Basesystem
+- component: X.Org
   create_time: 20190723T11:08:00
   id: 1142492
   resolution: ''
@@ -26823,12 +26823,6 @@
   resolution: ''
   status: NEW
   summary: docker --userns-remap=default fails on-start
-- component: X11 3rd Party Driver
-  create_time: 20190729T19:32:00
-  id: 1143316
-  resolution: ''
-  status: NEW
-  summary: 'X11:Bumblebee/nvidia-bumblebee: 418.74 doesn''t build on Kernel 5.2+'
 - component: Virtualization:Tools
   create_time: 20190729T19:29:00
   id: 1143315
