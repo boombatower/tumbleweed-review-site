@@ -15340,8 +15340,8 @@
 - component: Other
   create_time: 20181107T15:55:00
   id: 1115058
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/golang-googlecode-mango-doc fails to build'
 - component: Other
   create_time: 20181107T15:55:00
@@ -26789,6 +26789,12 @@
   status: NEW
   summary: 'rpmrebuild fails with -bb: unknown option'
 '20190726':
+- component: Basesystem
+  create_time: 20190731T11:21:00
+  id: 1143616
+  resolution: ''
+  status: NEW
+  summary: Fillup templates seem to be broken
 - component: YaST2
   create_time: 20190731T08:01:00
   id: 1143558
@@ -26963,8 +26969,8 @@
 - component: Security
   create_time: 20190726T17:07:00
   id: 1143069
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: certbot fails with "cannot import name ssl_match_hostname"
 - component: Other
   create_time: 20190726T16:21:00
