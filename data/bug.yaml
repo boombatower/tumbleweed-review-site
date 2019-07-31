@@ -24265,7 +24265,7 @@
   create_time: 20190530T15:50:00
   id: 1136878
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: guestfs appliance missing netconfig for dhcp configuration
 - component: KDE Workspace (Plasma)
   create_time: 20190530T14:18:00
