@@ -26789,52 +26789,6 @@
   status: NEW
   summary: 'rpmrebuild fails with -bb: unknown option'
 '20190726':
-- component: Basesystem
-  create_time: 20190731T11:21:00
-  id: 1143616
-  resolution: ''
-  status: NEW
-  summary: Fillup templates seem to be broken
-- component: YaST2
-  create_time: 20190731T08:01:00
-  id: 1143558
-  resolution: ''
-  status: CONFIRMED
-  summary: scrollbar resets when selecting role
-- component: GNOME
-  create_time: 20190730T15:24:00
-  id: 1143469
-  resolution: ''
-  status: NEW
-  summary: Bad fonts rendering in GNOME Terminal
-- component: Basesystem
-  create_time: 20190730T13:52:00
-  id: 1143454
-  resolution: ''
-  status: IN_PROGRESS
-  summary: New system-user for tftp, so this tftp user is handled only in a single
-    place.
-- component: Security
-  create_time: 20190730T09:55:00
-  id: 1143409
-  resolution: ''
-  status: NEW
-  summary: 'VUL-1: CVE-2019-14271: docker: code injection can occur when the nsswitch
-    facility dynamically loads a library inside a chroot that contains the contents
-    of the container'
-- component: Salt
-  create_time: 20190730T09:42:00
-  id: 1143405
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20190729] openQA test fails in salt: File conflict when running
-    "zypper in"'
-- component: Containers
-  create_time: 20190730T05:19:00
-  id: 1143349
-  resolution: ''
-  status: NEW
-  summary: docker --userns-remap=default fails on-start
 - component: Virtualization:Tools
   create_time: 20190729T19:29:00
   id: 1143315
@@ -26844,8 +26798,8 @@
 - component: Containers
   create_time: 20190729T19:23:00
   id: 1143313
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190728] openQA test fails in docker'
 - component: KDE Applications
   create_time: 20190729T17:51:00
@@ -26882,7 +26836,7 @@
   create_time: 20190729T08:09:00
   id: 1143192
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: 'open-iscsi-2.0.877-55.1.aarch64: segfault at startup'
 - component: Basesystem
   create_time: 20190729T08:05:00
@@ -26981,8 +26935,8 @@
 - component: Development
   create_time: 20190726T15:24:00
   id: 1143063
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: pesign fails to build with --disable-debuginfo
 - component: X.Org
   create_time: 20190726T14:24:00
@@ -27023,3 +26977,56 @@
   resolution: ''
   status: NEW
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
+'20190730':
+- component: Kubic
+  create_time: 20190731T16:31:00
+  id: 1143682
+  resolution: ''
+  status: NEW
+  summary: Add loadbalancer system role
+- component: Basesystem
+  create_time: 20190731T11:21:00
+  id: 1143616
+  resolution: ''
+  status: NEW
+  summary: Fillup templates seem to be broken
+- component: YaST2
+  create_time: 20190731T08:01:00
+  id: 1143558
+  resolution: ''
+  status: CONFIRMED
+  summary: scrollbar resets when selecting role
+- component: GNOME
+  create_time: 20190730T15:24:00
+  id: 1143469
+  resolution: ''
+  status: NEW
+  summary: Bad fonts rendering in GNOME Terminal
+- component: Basesystem
+  create_time: 20190730T13:52:00
+  id: 1143454
+  resolution: ''
+  status: IN_PROGRESS
+  summary: New system-user for tftp, so this tftp user is handled only in a single
+    place.
+- component: Security
+  create_time: 20190730T09:55:00
+  id: 1143409
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2019-14271: docker: code injection can occur when the nsswitch
+    facility dynamically loads a library inside a chroot that contains the contents
+    of the container'
+- component: Salt
+  create_time: 20190730T09:42:00
+  id: 1143405
+  resolution: FIXED
+  status: VERIFIED
+  summary: '[Build 20190729] openQA test fails in salt: File conflict when running
+    "zypper in"'
+- component: Containers
+  create_time: 20190730T05:19:00
+  id: 1143349
+  resolution: ''
+  status: NEW
+  summary: docker --userns-remap=default fails on-start
