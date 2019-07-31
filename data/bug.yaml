@@ -26978,6 +26978,18 @@
   status: NEW
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 '20190730':
+- component: Translations
+  create_time: 20190731T22:06:00
+  id: 1143722
+  resolution: ''
+  status: NEW
+  summary: 'desktop-file-translations: po files are not updated'
+- component: Basesystem
+  create_time: 20190731T21:16:00
+  id: 1143711
+  resolution: ''
+  status: NEW
+  summary: spec-cleaner replaces pkg-config by pkgconfig
 - component: Kubic
   create_time: 20190731T16:31:00
   id: 1143682
