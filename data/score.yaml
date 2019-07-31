@@ -902,5 +902,8 @@
   score: 72
   stability_level: moderate
 '20190726':
-  score: 75
+  score: 76
+  stability_level: pending
+'20190730':
+  score: 89
   stability_level: pending
