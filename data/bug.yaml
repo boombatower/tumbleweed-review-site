@@ -26854,7 +26854,7 @@
   create_time: 20190728T19:03:00
   id: 1143147
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: calamares: polkit-untracked-privilege'
 - component: Basesystem
   create_time: 20190728T18:20:00
@@ -26979,6 +26979,12 @@
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 '20190730':
 - component: Kubic
+  create_time: 20190801T11:15:00
+  id: 1143813
+  resolution: ''
+  status: NEW
+  summary: kubelet sometimes starting too fast
+- component: Kubic
   create_time: 20190801T09:16:00
   id: 1143785
   resolution: ''
@@ -26997,7 +27003,7 @@
   resolution: ''
   status: NEW
   summary: Few texlive modules pull in /usr/bin/python on runtime
-- component: Kernel
+- component: KDE Workspace (Plasma)
   create_time: 20190801T06:47:00
   id: 1143755
   resolution: ''
