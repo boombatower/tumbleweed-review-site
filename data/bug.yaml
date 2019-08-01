@@ -26847,8 +26847,8 @@
 - component: High Availability
   create_time: 20190729T04:57:00
   id: 1143155
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'OCFS2: o2locktop can not display the full hostname with python3'
 - component: Security
   create_time: 20190728T19:03:00
