@@ -23903,8 +23903,8 @@
 - component: Other
   create_time: 20190522T09:44:00
   id: 1135886
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: 'emacs gnus davmail: Loading mails is not possible in case of html-mails
     or if the mail has an attachment.'
 - component: Other
@@ -24875,8 +24875,8 @@
 - component: Upgrade Problems
   create_time: 20190614T01:52:00
   id: 1138218
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: sudo zypper dup leaves system in unstable bootup state
 - component: GNOME
   create_time: 20190614T01:36:00
@@ -25316,8 +25316,8 @@
 - component: Basesystem
   create_time: 20190627T14:57:00
   id: 1139621
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Slow boot up and shutdown while connected to second monitor
 - component: Other
   create_time: 20190627T12:32:00
@@ -25675,8 +25675,8 @@
 - component: Other
   create_time: 20190703T08:36:00
   id: 1140198
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Fcitx in Wayland
 - component: Virtualization:Tools
   create_time: 20190703T08:25:00
@@ -25767,7 +25767,7 @@
   create_time: 20190714T20:10:00
   id: 1141391
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: '[KDE3] kdebase3-kdm times out instead of starting during initial system
     startup'
 - component: X11 Applications
@@ -26004,8 +26004,8 @@
 - component: Network
   create_time: 20190709T14:21:00
   id: 1140894
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Ethernet interface for Raspberry Pi 3B does not start after reboot since
     OS installation
 - component: YaST2
@@ -26810,8 +26810,8 @@
 - component: Development
   create_time: 20190729T14:54:00
   id: 1143286
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: libcaca build failure as missdetection "HAVE_FLDLN2" & HAVE_FSIN_FCOS'
 - component: KDE Applications
   create_time: 20190729T12:22:00
@@ -26823,7 +26823,7 @@
   create_time: 20190729T10:09:00
   id: 1143216
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: mousepad: New PolKit rules added'
 - component: Other
   create_time: 20190729T10:01:00
@@ -26978,18 +26978,31 @@
   status: NEW
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 '20190730':
+- component: Kubic
+  create_time: 20190801T09:16:00
+  id: 1143785
+  resolution: ''
+  status: NEW
+  summary: Kubicctl can not init weave
+- component: Other
+  create_time: 20190801T08:35:00
+  id: 1143772
+  resolution: ''
+  status: NEW
+  summary: susepaste hangs instead of reporting error when file to be uploaded has
+    no read permission
 - component: Other
   create_time: 20190801T07:47:00
   id: 1143767
   resolution: ''
   status: NEW
   summary: Few texlive modules pull in /usr/bin/python on runtime
-- component: X.Org
+- component: Kernel
   create_time: 20190801T06:47:00
   id: 1143755
   resolution: ''
-  status: NEW
-  summary: DELL Latitude 7470 screen goes black during boot since kernel version 5.2.2-1.2
+  status: IN_PROGRESS
+  summary: intel[Skylake] Screen goes black during boot since kernel version 5.2.2-1.2
 - component: Basesystem
   create_time: 20190731T22:53:00
   id: 1143725
