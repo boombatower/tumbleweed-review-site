@@ -26978,6 +26978,18 @@
   status: NEW
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 '20190730':
+- component: Other
+  create_time: 20190801T07:47:00
+  id: 1143767
+  resolution: ''
+  status: NEW
+  summary: Few texlive modules pull in /usr/bin/python on runtime
+- component: X.Org
+  create_time: 20190801T06:47:00
+  id: 1143755
+  resolution: ''
+  status: NEW
+  summary: DELL Latitude 7470 screen goes black during boot since kernel version 5.2.2-1.2
 - component: Basesystem
   create_time: 20190731T22:53:00
   id: 1143725
@@ -26993,8 +27005,8 @@
 - component: Basesystem
   create_time: 20190731T21:16:00
   id: 1143711
-  resolution: ''
-  status: NEW
+  resolution: FEATURE
+  status: RESOLVED
   summary: spec-cleaner replaces pkg-config by pkgconfig
 - component: Kubic
   create_time: 20190731T16:31:00
