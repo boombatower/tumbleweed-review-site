@@ -26978,6 +26978,13 @@
   status: NEW
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 '20190730':
+- component: Firefox
+  create_time: 20190802T21:26:00
+  id: 1144105
+  resolution: ''
+  status: NEW
+  summary: Firefox fails and give up NTLM proxy authentication without asking the
+    user for password
 - component: Security
   create_time: 20190802T17:19:00
   id: 1144077
