@@ -16730,8 +16730,8 @@
 - component: YaST2
   create_time: 20181208T12:04:00
   id: 1118855
-  resolution: ''
-  status: CONFIRMED
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Disable lock screen during installation
 - component: Other
   create_time: 20181208T10:31:00
@@ -16923,8 +16923,8 @@
 - component: X11 Applications
   create_time: 20181218T22:38:00
   id: 1119899
-  resolution: ''
-  status: REOPENED
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: HSTS error in chromium when accessing powerhmc1
 - component: Basesystem
   create_time: 20181218T22:34:00
@@ -24015,8 +24015,8 @@
 - component: Other
   create_time: 20190521T09:52:00
   id: 1135747
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Staging] subversion fails to build against swig 4.0'
 - component: Other
   create_time: 20190521T09:49:00
@@ -26400,8 +26400,8 @@
 - component: LibreOffice
   create_time: 20190719T12:04:00
   id: 1142197
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: LibreOffice broken appearance in Plasma wayland session
 - component: Other
   create_time: 20190719T08:58:00
@@ -26978,11 +26978,17 @@
   status: NEW
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 '20190730':
+- component: Kernel
+  create_time: 20190802T09:15:00
+  id: 1143959
+  resolution: ''
+  status: NEW
+  summary: Reduce kernel firmware file installations
 - component: Installation
   create_time: 20190802T07:40:00
   id: 1143943
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20190801] Undefined method ''installation_package'''
 - component: Development
   create_time: 20190802T04:53:00
