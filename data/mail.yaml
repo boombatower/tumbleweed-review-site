@@ -2277,10 +2277,11 @@
   threads: []
 '20190730':
   announcement: 2019-07.441
-  reference_count: 1
+  reference_count: 3
   thread_count: 1
   threads:
   - messages:
     - 2019-08.3
-    reference_count: 1
+    - 2019-08.6
+    reference_count: 3
     summary: released!
