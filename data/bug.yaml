@@ -15413,8 +15413,8 @@
 - component: Development
   create_time: 20181111T15:45:00
   id: 1115549
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: perl-Gtk3 requested
 - component: Other
   create_time: 20181110T12:59:00
@@ -24252,8 +24252,8 @@
 - component: Basesystem
   create_time: 20190531T07:30:00
   id: 1136927
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190528] System does not use same network names after update'
 - component: GNOME
   create_time: 20190531T01:35:00
@@ -25961,8 +25961,8 @@
 - component: Other
   create_time: 20190709T19:35:00
   id: 1140921
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'science/gmsh: update to 4.4.0'
 - component: Development
   create_time: 20190709T18:37:00
@@ -26978,6 +26978,18 @@
   status: NEW
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 '20190730':
+- component: Basesystem
+  create_time: 20190802T13:07:00
+  id: 1144032
+  resolution: ''
+  status: NEW
+  summary: 'LTO: Segmentation fault when trying to link gmsh'
+- component: AutoYaST
+  create_time: 20190802T11:41:00
+  id: 1144007
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190801] yast2_clone_system fails'
 - component: Kernel
   create_time: 20190802T09:15:00
   id: 1143959
@@ -26988,7 +27000,7 @@
   create_time: 20190802T07:40:00
   id: 1143943
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: '[Build 20190801] Undefined method ''installation_package'''
 - component: Development
   create_time: 20190802T04:53:00
