@@ -20596,7 +20596,7 @@
   create_time: 20190307T15:20:00
   id: 1128358
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: flatpak app are unable to connect to the network
 - component: Kernel
   create_time: 20190307T13:04:00
@@ -26978,6 +26978,12 @@
   status: NEW
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 '20190730':
+- component: Security
+  create_time: 20190802T17:19:00
+  id: 1144077
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: libvirt: new polkit permissions for checkpoint'
 - component: Other
   create_time: 20190802T16:13:00
   id: 1144068
