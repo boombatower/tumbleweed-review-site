@@ -26631,8 +26631,8 @@
 - component: Other
   create_time: 20190725T19:17:00
   id: 1142909
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: mariadb depended from python2 and this depence not specify in spec-file.
 - component: Basesystem
   create_time: 20190725T18:44:00
@@ -26978,6 +26978,12 @@
   status: NEW
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 '20190730':
+- component: Other
+  create_time: 20190802T16:13:00
+  id: 1144068
+  resolution: ''
+  status: NEW
+  summary: 'grpc: update to 1.22.0'
 - component: Basesystem
   create_time: 20190802T13:07:00
   id: 1144032
