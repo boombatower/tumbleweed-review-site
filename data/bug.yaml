@@ -26978,6 +26978,12 @@
   status: NEW
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 '20190730':
+- component: Network
+  create_time: 20190804T23:15:00
+  id: 1144174
+  resolution: ''
+  status: NEW
+  summary: iw v 5.0.1 fails to work
 - component: Development
   create_time: 20190804T19:03:00
   id: 1144173
