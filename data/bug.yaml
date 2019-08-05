@@ -26835,8 +26835,8 @@
 - component: Basesystem
   create_time: 20190729T08:09:00
   id: 1143192
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'open-iscsi-2.0.877-55.1.aarch64: segfault at startup'
 - component: Basesystem
   create_time: 20190729T08:05:00
@@ -26979,6 +26979,18 @@
   status: NEW
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 '20190730':
+- component: LibreOffice
+  create_time: 20190805T17:11:00
+  id: 1144361
+  resolution: ''
+  status: NEW
+  summary: LibreOffice slow start due to FTP access failure
+- component: Other
+  create_time: 20190805T15:21:00
+  id: 1144344
+  resolution: ''
+  status: NEW
+  summary: Remove jasper dependency from gegl
 - component: Development
   create_time: 20190805T12:27:00
   id: 1144318
@@ -26996,7 +27008,7 @@
   create_time: 20190805T11:36:00
   id: 1144301
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20190801] no category is shown in yast2 control center when do
     search of the module'
 - component: Other
@@ -27119,14 +27131,14 @@
 - component: Basesystem
   create_time: 20190802T13:07:00
   id: 1144032
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'LTO: Segmentation fault when trying to link gmsh'
 - component: AutoYaST
   create_time: 20190802T11:41:00
   id: 1144007
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20190801] yast2_clone_system fails'
 - component: Kernel
   create_time: 20190802T09:15:00
@@ -27137,8 +27149,8 @@
 - component: Installation
   create_time: 20190802T07:40:00
   id: 1143943
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190801] Undefined method ''installation_package'''
 - component: Development
   create_time: 20190802T04:53:00
