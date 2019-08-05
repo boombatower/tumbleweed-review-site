@@ -26982,8 +26982,8 @@
 - component: Other
   create_time: 20190805T19:44:00
   id: 1144370
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Duplicate binaries: libsvrcore0'
 - component: LibreOffice
   create_time: 20190805T17:11:00
