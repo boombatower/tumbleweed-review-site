@@ -26979,6 +26979,26 @@
   status: NEW
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 '20190730':
+- component: Development
+  create_time: 20190805T12:27:00
+  id: 1144318
+  resolution: ''
+  status: NEW
+  summary: missing /usr/bin/x86_64-suse-linux-gnu-pkg-config
+- component: Other
+  create_time: 20190805T12:04:00
+  id: 1144314
+  resolution: ''
+  status: NEW
+  summary: suggestion to change default my.cnf (skip-networking, slow log, sql_mode
+    as in MySQL, rocksdb.cnf)
+- component: YaST2
+  create_time: 20190805T11:36:00
+  id: 1144301
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190801] no category is shown in yast2 control center when do
+    search of the module'
 - component: Other
   create_time: 20190805T09:41:00
   id: 1144260
@@ -27067,8 +27087,8 @@
 - component: Patterns
   create_time: 20190803T09:27:00
   id: 1144135
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Remove google-roboto-fonts from patterns-base-x11
 - component: Firefox
   create_time: 20190802T21:26:00
@@ -27099,8 +27119,8 @@
 - component: Basesystem
   create_time: 20190802T13:07:00
   id: 1144032
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'LTO: Segmentation fault when trying to link gmsh'
 - component: AutoYaST
   create_time: 20190802T11:41:00
