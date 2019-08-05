@@ -16923,8 +16923,8 @@
 - component: X11 Applications
   create_time: 20181218T22:38:00
   id: 1119899
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: HSTS error in chromium when accessing powerhmc1
 - component: Basesystem
   create_time: 20181218T22:34:00
@@ -26412,8 +26412,8 @@
 - component: Other
   create_time: 20190719T07:44:00
   id: 1142155
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: unreliable build of openSUSE:Factory/highlight
 - component: Kernel
   create_time: 20190719T03:44:00
@@ -26923,9 +26923,10 @@
 - component: Security
   create_time: 20190726T17:07:00
   id: 1143069
-  resolution: FIXED
-  status: RESOLVED
-  summary: certbot fails with "cannot import name ssl_match_hostname"
+  resolution: ''
+  status: REOPENED
+  summary: 'python-certbot: fails with "cannot import name ssl_match_hostname" after
+    update'
 - component: Other
   create_time: 20190726T16:21:00
   id: 1143065
@@ -26978,6 +26979,66 @@
   status: NEW
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 '20190730':
+- component: Other
+  create_time: 20190805T09:41:00
+  id: 1144260
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from opencv
+- component: Other
+  create_time: 20190805T09:37:00
+  id: 1144255
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from netpbm
+- component: LXDE
+  create_time: 20190805T09:34:00
+  id: 1144253
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Drop jasper dependency from mtpaint
+- component: Other
+  create_time: 20190805T09:32:00
+  id: 1144252
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from libraw
+- component: Other
+  create_time: 20190805T09:29:00
+  id: 1144249
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from libqt5-qtimageformats
+- component: Other
+  create_time: 20190805T09:25:00
+  id: 1144246
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from libicns
+- component: Other
+  create_time: 20190805T09:22:00
+  id: 1144245
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from libdevil
+- component: Other
+  create_time: 20190805T09:17:00
+  id: 1144244
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from gstreamer-plugins-bad
+- component: Other
+  create_time: 20190805T09:13:00
+  id: 1144240
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from GraphicsMagic
+- component: KDE Applications
+  create_time: 20190805T09:02:00
+  id: 1144232
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from Digikam
 - component: Network
   create_time: 20190804T23:15:00
   id: 1144174
