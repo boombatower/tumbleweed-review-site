@@ -27029,6 +27029,13 @@
   status: NEW
   summary: 'grpc: update to 1.22.0'
 - component: Basesystem
+  create_time: 20190802T14:57:00
+  id: 1144049
+  resolution: ''
+  status: NEW
+  summary: Please add "pam_keyinit.so" to the /etc/pam.d/lightdm and /etc/pam.d/lightdm-autologin
+    configuration files
+- component: Basesystem
   create_time: 20190802T13:07:00
   id: 1144032
   resolution: ''
@@ -27092,8 +27099,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190801T06:47:00
   id: 1143755
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: intel[Skylake] Screen goes black during boot since kernel version 5.2.2-1.2
 - component: KVM
   create_time: 20190731T22:53:00
