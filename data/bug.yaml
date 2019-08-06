@@ -26897,8 +26897,8 @@
 - component: X11 Applications
   create_time: 20190728T05:45:00
   id: 1143130
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: cinnamon-settings does not open due to tinycss requirement
 - component: KDE Applications
   create_time: 20190728T01:27:00
