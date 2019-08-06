@@ -23290,15 +23290,15 @@
 - component: YaST2
   create_time: 20190509T17:15:00
   id: 1134631
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-adsi doesn't allow switching between naming contexts, domains, or
     servers
 - component: YaST2
   create_time: 20190509T17:09:00
   id: 1134630
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-adsi properties dialog opens wrong item when selected from tree view
 - component: Other
   create_time: 20190509T14:25:00
@@ -23520,8 +23520,8 @@
 - component: YaST2
   create_time: 20190515T14:48:00
   id: 1135224
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'yast2-adsi crashes with "TypeError: Expected a string or unicode object"
     during auth'
 - component: Kernel
@@ -26979,6 +26979,30 @@
   status: NEW
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 '20190730':
+- component: YaST2
+  create_time: 20190806T17:04:00
+  id: 1144550
+  resolution: ''
+  status: IN_PROGRESS
+  summary: yast2-registration build fails
+- component: Kernel
+  create_time: 20190806T16:38:00
+  id: 1144546
+  resolution: ''
+  status: NEW
+  summary: btrfs - mount external drive via USB fails with superblock can't be read
+- component: Network
+  create_time: 20190806T16:25:00
+  id: 1144543
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190805] Migration from SFW2 to firewalld: disabled'
+- component: YaST2
+  create_time: 20190806T15:01:00
+  id: 1144530
+  resolution: ''
+  status: NEW
+  summary: yast2-adsi doesn't provide a descriptive name or summary
 - component: X11 Applications
   create_time: 20190806T13:19:00
   id: 1144512
