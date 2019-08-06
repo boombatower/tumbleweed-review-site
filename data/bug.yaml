@@ -21853,7 +21853,7 @@
   id: 1132102
   resolution: ''
   status: CONFIRMED
-  summary: VirtualBox 6.0.8 guest addition ISO download failed
+  summary: VirtualBox 6.0.x guest addition ISO download failed
 - component: Development
   create_time: 20190410T13:42:00
   id: 1132101
@@ -26418,8 +26418,8 @@
 - component: Kernel
   create_time: 20190719T03:44:00
   id: 1142128
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Intel Wireless-AC 9260 adapter firmware wont run
 - component: Basesystem
   create_time: 20190718T21:04:00
@@ -27038,8 +27038,8 @@
 - component: LXDE
   create_time: 20190805T09:34:00
   id: 1144253
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Drop jasper dependency from mtpaint
 - component: Other
   create_time: 20190805T09:32:00
@@ -27126,7 +27126,7 @@
   id: 1144077
   resolution: ''
   status: NEW
-  summary: 'AUDIT-0: libvirt: new polkit permissions for checkpoint'
+  summary: 'AUDIT-TRACKER: libvirt: new polkit permissions for checkpoint'
 - component: Other
   create_time: 20190802T16:13:00
   id: 1144068
