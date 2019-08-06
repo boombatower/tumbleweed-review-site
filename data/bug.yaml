@@ -26979,6 +26979,12 @@
   status: NEW
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 '20190730':
+- component: AutoYaST
+  create_time: 20190806T08:10:00
+  id: 1144439
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190805] AutoYAST based installation fails'
 - component: Other
   create_time: 20190805T19:44:00
   id: 1144370
@@ -27138,7 +27144,7 @@
   create_time: 20190802T13:07:00
   id: 1144032
   resolution: ''
-  status: REOPENED
+  status: IN_PROGRESS
   summary: 'LTO: Segmentation fault when trying to link gmsh'
 - component: AutoYaST
   create_time: 20190802T11:41:00
