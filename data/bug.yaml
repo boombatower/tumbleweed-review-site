@@ -26979,152 +26979,6 @@
   status: NEW
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 '20190730':
-- component: GNOME
-  create_time: 20190806T19:35:00
-  id: 1144560
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190805] openQA test fails in updates_packagekit_gpk'
-- component: YaST2
-  create_time: 20190806T17:04:00
-  id: 1144550
-  resolution: ''
-  status: IN_PROGRESS
-  summary: yast2-registration build fails
-- component: Kernel
-  create_time: 20190806T16:38:00
-  id: 1144546
-  resolution: ''
-  status: NEW
-  summary: btrfs - mount external drive via USB fails with superblock can't be read
-- component: Network
-  create_time: 20190806T16:25:00
-  id: 1144543
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190805] Migration from SFW2 to firewalld: disabled'
-- component: YaST2
-  create_time: 20190806T15:01:00
-  id: 1144530
-  resolution: ''
-  status: NEW
-  summary: yast2-adsi doesn't provide a descriptive name or summary
-- component: X11 Applications
-  create_time: 20190806T13:19:00
-  id: 1144512
-  resolution: ''
-  status: NEW
-  summary: iscan doesn't compile anymore for Epson Perfection V500 Photo
-- component: Other
-  create_time: 20190806T13:01:00
-  id: 1144506
-  resolution: ''
-  status: NEW
-  summary: sphinx-build requires python-attrs to run but does not require it
-- component: AutoYaST
-  create_time: 20190806T08:10:00
-  id: 1144439
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190805] AutoYAST based installation fails'
-- component: Other
-  create_time: 20190805T19:44:00
-  id: 1144370
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'Duplicate binaries: libsvrcore0'
-- component: LibreOffice
-  create_time: 20190805T17:11:00
-  id: 1144361
-  resolution: ''
-  status: NEW
-  summary: LibreOffice slow start due to FTP access failure
-- component: Other
-  create_time: 20190805T15:21:00
-  id: 1144344
-  resolution: ''
-  status: NEW
-  summary: Remove jasper dependency from gegl
-- component: Development
-  create_time: 20190805T12:27:00
-  id: 1144318
-  resolution: ''
-  status: NEW
-  summary: missing /usr/bin/x86_64-suse-linux-gnu-pkg-config
-- component: Other
-  create_time: 20190805T12:04:00
-  id: 1144314
-  resolution: ''
-  status: NEW
-  summary: suggestion to change default my.cnf (skip-networking, slow log, sql_mode
-    as in MySQL, rocksdb.cnf)
-- component: YaST2
-  create_time: 20190805T11:36:00
-  id: 1144301
-  resolution: ''
-  status: CONFIRMED
-  summary: '[Build 20190801] no category is shown in yast2 control center when do
-    search of the module'
-- component: Other
-  create_time: 20190805T09:41:00
-  id: 1144260
-  resolution: ''
-  status: NEW
-  summary: Drop jasper dependency from opencv
-- component: Other
-  create_time: 20190805T09:37:00
-  id: 1144255
-  resolution: ''
-  status: NEW
-  summary: Drop jasper dependency from netpbm
-- component: LXDE
-  create_time: 20190805T09:34:00
-  id: 1144253
-  resolution: FIXED
-  status: RESOLVED
-  summary: Drop jasper dependency from mtpaint
-- component: Other
-  create_time: 20190805T09:32:00
-  id: 1144252
-  resolution: ''
-  status: NEW
-  summary: Drop jasper dependency from libraw
-- component: Other
-  create_time: 20190805T09:29:00
-  id: 1144249
-  resolution: ''
-  status: NEW
-  summary: Drop jasper dependency from libqt5-qtimageformats
-- component: Other
-  create_time: 20190805T09:25:00
-  id: 1144246
-  resolution: ''
-  status: NEW
-  summary: Drop jasper dependency from libicns
-- component: Other
-  create_time: 20190805T09:22:00
-  id: 1144245
-  resolution: ''
-  status: NEW
-  summary: Drop jasper dependency from libdevil
-- component: Other
-  create_time: 20190805T09:17:00
-  id: 1144244
-  resolution: ''
-  status: NEW
-  summary: Drop jasper dependency from gstreamer-plugins-bad
-- component: Other
-  create_time: 20190805T09:13:00
-  id: 1144240
-  resolution: ''
-  status: NEW
-  summary: Drop jasper dependency from GraphicsMagic
-- component: KDE Applications
-  create_time: 20190805T09:02:00
-  id: 1144232
-  resolution: ''
-  status: NEW
-  summary: Drop jasper dependency from Digikam
 - component: Network
   create_time: 20190804T23:15:00
   id: 1144174
@@ -27319,3 +27173,150 @@
   resolution: ''
   status: NEW
   summary: docker --userns-remap=default fails on-start
+'20190805':
+- component: GNOME
+  create_time: 20190806T19:35:00
+  id: 1144560
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190805] openQA test fails in updates_packagekit_gpk'
+- component: YaST2
+  create_time: 20190806T17:04:00
+  id: 1144550
+  resolution: ''
+  status: IN_PROGRESS
+  summary: yast2-registration build fails
+- component: Kernel
+  create_time: 20190806T16:38:00
+  id: 1144546
+  resolution: ''
+  status: NEW
+  summary: btrfs - mount external drive via USB fails with superblock can't be read
+- component: Network
+  create_time: 20190806T16:25:00
+  id: 1144543
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190805] Migration from SFW2 to firewalld: disabled'
+- component: YaST2
+  create_time: 20190806T15:01:00
+  id: 1144530
+  resolution: ''
+  status: NEW
+  summary: yast2-adsi doesn't provide a descriptive name or summary
+- component: X11 Applications
+  create_time: 20190806T13:19:00
+  id: 1144512
+  resolution: ''
+  status: NEW
+  summary: iscan doesn't compile anymore for Epson Perfection V500 Photo
+- component: Other
+  create_time: 20190806T13:01:00
+  id: 1144506
+  resolution: ''
+  status: NEW
+  summary: sphinx-build requires python-attrs to run but does not require it
+- component: AutoYaST
+  create_time: 20190806T08:10:00
+  id: 1144439
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190805] AutoYAST based installation fails'
+- component: Other
+  create_time: 20190805T19:44:00
+  id: 1144370
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Duplicate binaries: libsvrcore0'
+- component: LibreOffice
+  create_time: 20190805T17:11:00
+  id: 1144361
+  resolution: ''
+  status: NEW
+  summary: LibreOffice slow start due to FTP access failure
+- component: Other
+  create_time: 20190805T15:21:00
+  id: 1144344
+  resolution: ''
+  status: NEW
+  summary: Remove jasper dependency from gegl
+- component: Development
+  create_time: 20190805T12:27:00
+  id: 1144318
+  resolution: ''
+  status: NEW
+  summary: missing /usr/bin/x86_64-suse-linux-gnu-pkg-config
+- component: Other
+  create_time: 20190805T12:04:00
+  id: 1144314
+  resolution: ''
+  status: NEW
+  summary: suggestion to change default my.cnf (skip-networking, slow log, sql_mode
+    as in MySQL, rocksdb.cnf)
+- component: YaST2
+  create_time: 20190805T11:36:00
+  id: 1144301
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build 20190801] no category is shown in yast2 control center when do
+    search of the module'
+- component: Other
+  create_time: 20190805T09:41:00
+  id: 1144260
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from opencv
+- component: Other
+  create_time: 20190805T09:37:00
+  id: 1144255
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from netpbm
+- component: LXDE
+  create_time: 20190805T09:34:00
+  id: 1144253
+  resolution: FIXED
+  status: RESOLVED
+  summary: Drop jasper dependency from mtpaint
+- component: Other
+  create_time: 20190805T09:32:00
+  id: 1144252
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from libraw
+- component: Other
+  create_time: 20190805T09:29:00
+  id: 1144249
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from libqt5-qtimageformats
+- component: Other
+  create_time: 20190805T09:25:00
+  id: 1144246
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from libicns
+- component: Other
+  create_time: 20190805T09:22:00
+  id: 1144245
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from libdevil
+- component: Other
+  create_time: 20190805T09:17:00
+  id: 1144244
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from gstreamer-plugins-bad
+- component: Other
+  create_time: 20190805T09:13:00
+  id: 1144240
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from GraphicsMagic
+- component: KDE Applications
+  create_time: 20190805T09:02:00
+  id: 1144232
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from Digikam
