@@ -27057,8 +27057,8 @@
 - component: AutoYaST
   create_time: 20190802T11:41:00
   id: 1144007
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190801] yast2_clone_system fails'
 - component: Kernel
   create_time: 20190802T09:15:00
@@ -27143,7 +27143,7 @@
   create_time: 20190731T11:21:00
   id: 1143616
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Fillup templates seem to be broken
 - component: YaST2
   create_time: 20190731T08:01:00
@@ -27186,6 +27186,19 @@
   status: NEW
   summary: docker --userns-remap=default fails on-start
 '20190805':
+- component: Other
+  create_time: 20190807T14:05:00
+  id: 1144698
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'openSUSE Tumbleweed: Chromium reports "privacy error" for most https URLS'
+- component: Security
+  create_time: 20190807T12:40:00
+  id: 1144681
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: 'VUL-1: CVE-2019-13105: double-free a cached block of data when listing
+    files in a crafted ext4 filesystem'
 - component: Network
   create_time: 20190807T11:51:00
   id: 1144670
