@@ -26994,8 +26994,8 @@
 - component: X11 Applications
   create_time: 20190804T00:17:00
   id: 1144164
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please add OnlyShowIn=Pantheon to com.github.spheras.desktopfolder-autostart.desktop
 - component: Kernel
   create_time: 20190803T18:45:00
@@ -27183,8 +27183,8 @@
 - component: YaST2
   create_time: 20190806T17:04:00
   id: 1144550
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-registration build fails
 - component: Kernel
   create_time: 20190806T16:38:00
