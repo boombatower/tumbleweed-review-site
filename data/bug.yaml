@@ -19461,8 +19461,8 @@
 - component: Security
   create_time: 20190214T10:38:00
   id: 1125427
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'cinnamon-control-center: removal of /usr/share/polkit-1/rules.d/cinnamon-control-center.rules'
 - component: YaST2
   create_time: 20190214T10:28:00
@@ -26171,8 +26171,8 @@
 - component: Samba
   create_time: 20190705T15:34:00
   id: 1140548
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-samba-provision 1.0.3 with samba-python3 4.10.5 crashes during domain
     provision
 - component: Security
@@ -27174,6 +27174,18 @@
   status: NEW
   summary: docker --userns-remap=default fails on-start
 '20190805':
+- component: Basesystem
+  create_time: 20190807T08:42:00
+  id: 1144625
+  resolution: ''
+  status: NEW
+  summary: 'chromium: Can''t open some HTTPS sites (NET::ERR_CERTIFICATE_TRANSPARENCY_REQUIRED)'
+- component: Basesystem
+  create_time: 20190807T08:41:00
+  id: 1144623
+  resolution: ''
+  status: NEW
+  summary: 'chromium: Can''t open some HTTPS sites (NET::ERR_CERTIFICATE_TRANSPARENCY_REQUIRED)'
 - component: GNOME
   create_time: 20190806T19:35:00
   id: 1144560
