@@ -2287,6 +2287,10 @@
     summary: released!
 '20190805':
   announcement: 2019-08.54
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-08.55
+    reference_count: 1
+    summary: 'chromium: Can''t open some HTTPS sites (NET::ERR_CERTIFICATE_TRANSPARENCY_REQUIRED)'
