@@ -18929,7 +18929,7 @@
   create_time: 20190203T09:19:00
   id: 1124066
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: KDE LiveCD provides a lot of Joe's Own Editor entries in application menu
 - component: YaST2
   create_time: 20190203T09:12:00
@@ -23959,8 +23959,8 @@
 - component: Other
   create_time: 20190521T22:07:00
   id: 1135835
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python3-boto broken after cacerts.txt was removed
 - component: Release Notes
   create_time: 20190521T17:33:00
@@ -27187,91 +27187,6 @@
   summary: docker --userns-remap=default fails on-start
 '20190805':
 - component: Other
-  create_time: 20190807T14:05:00
-  id: 1144698
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'openSUSE Tumbleweed: Chromium reports "privacy error" for most https URLS'
-- component: Security
-  create_time: 20190807T12:40:00
-  id: 1144681
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: 'VUL-1: CVE-2019-13105: double-free a cached block of data when listing
-    files in a crafted ext4 filesystem'
-- component: Network
-  create_time: 20190807T11:51:00
-  id: 1144670
-  resolution: ''
-  status: NEW
-  summary: Wireless interface doesn't start on boot
-- component: YaST2
-  create_time: 20190807T08:57:00
-  id: 1144627
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Fix shell bugs (that ShellCheck found) by removing obsolete XVersion code
-- component: Basesystem
-  create_time: 20190807T08:42:00
-  id: 1144625
-  resolution: ''
-  status: NEW
-  summary: 'chromium: Can''t open some HTTPS sites (NET::ERR_CERTIFICATE_TRANSPARENCY_REQUIRED)'
-- component: Basesystem
-  create_time: 20190807T08:41:00
-  id: 1144623
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'chromium: Can''t open some HTTPS sites (NET::ERR_CERTIFICATE_TRANSPARENCY_REQUIRED)'
-- component: GNOME
-  create_time: 20190806T19:35:00
-  id: 1144560
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190805] openQA test fails in updates_packagekit_gpk'
-- component: YaST2
-  create_time: 20190806T17:04:00
-  id: 1144550
-  resolution: FIXED
-  status: RESOLVED
-  summary: yast2-registration build fails
-- component: Kernel
-  create_time: 20190806T16:38:00
-  id: 1144546
-  resolution: ''
-  status: NEW
-  summary: btrfs - mount external drive via USB fails with superblock can't be read
-- component: Network
-  create_time: 20190806T16:25:00
-  id: 1144543
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190805] Migration from SFW2 to firewalld: disabled'
-- component: YaST2
-  create_time: 20190806T15:01:00
-  id: 1144530
-  resolution: ''
-  status: NEW
-  summary: yast2-adsi doesn't provide a descriptive name or summary
-- component: X11 Applications
-  create_time: 20190806T13:19:00
-  id: 1144512
-  resolution: ''
-  status: NEW
-  summary: iscan doesn't compile anymore for Epson Perfection V500 Photo
-- component: Other
-  create_time: 20190806T13:01:00
-  id: 1144506
-  resolution: ''
-  status: NEW
-  summary: sphinx-build requires python-attrs to run but does not require it
-- component: AutoYaST
-  create_time: 20190806T08:10:00
-  id: 1144439
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190805] AutoYAST based installation fails'
-- component: Other
   create_time: 20190805T19:44:00
   id: 1144370
   resolution: FIXED
@@ -27369,3 +27284,101 @@
   resolution: ''
   status: NEW
   summary: Drop jasper dependency from Digikam
+'20190806':
+- component: Network
+  create_time: 20190807T17:45:00
+  id: 1144741
+  resolution: ''
+  status: NEW
+  summary: 'bug: authbind does not work'
+- component: Kernel
+  create_time: 20190807T16:00:00
+  id: 1144723
+  resolution: ''
+  status: NEW
+  summary: Khadas VIM/VIM2 and Google Coral boards lacking gpio-fan support
+- component: Other
+  create_time: 20190807T14:05:00
+  id: 1144698
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'openSUSE Tumbleweed: Chromium reports "privacy error" for most https URLS'
+- component: Security
+  create_time: 20190807T12:40:00
+  id: 1144681
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: 'VUL-1: CVE-2019-13105: double-free a cached block of data when listing
+    files in a crafted ext4 filesystem'
+- component: Network
+  create_time: 20190807T11:51:00
+  id: 1144670
+  resolution: ''
+  status: NEW
+  summary: Wireless interface doesn't start on boot
+- component: YaST2
+  create_time: 20190807T08:57:00
+  id: 1144627
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Fix shell bugs (that ShellCheck found) by removing obsolete XVersion code
+- component: Basesystem
+  create_time: 20190807T08:42:00
+  id: 1144625
+  resolution: ''
+  status: NEW
+  summary: 'chromium: Can''t open some HTTPS sites (NET::ERR_CERTIFICATE_TRANSPARENCY_REQUIRED)'
+- component: Basesystem
+  create_time: 20190807T08:41:00
+  id: 1144623
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'chromium: Can''t open some HTTPS sites (NET::ERR_CERTIFICATE_TRANSPARENCY_REQUIRED)'
+- component: GNOME
+  create_time: 20190806T19:35:00
+  id: 1144560
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190805] openQA test fails in updates_packagekit_gpk'
+- component: YaST2
+  create_time: 20190806T17:04:00
+  id: 1144550
+  resolution: FIXED
+  status: RESOLVED
+  summary: yast2-registration build fails
+- component: Kernel
+  create_time: 20190806T16:38:00
+  id: 1144546
+  resolution: ''
+  status: NEW
+  summary: btrfs - mount external drive via USB fails with superblock can't be read
+- component: Network
+  create_time: 20190806T16:25:00
+  id: 1144543
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190805] Migration from SFW2 to firewalld: disabled'
+- component: YaST2
+  create_time: 20190806T15:01:00
+  id: 1144530
+  resolution: ''
+  status: NEW
+  summary: yast2-adsi doesn't provide a descriptive name or summary
+- component: X11 Applications
+  create_time: 20190806T13:19:00
+  id: 1144512
+  resolution: ''
+  status: NEW
+  summary: iscan doesn't compile anymore for Epson Perfection V500 Photo
+- component: Other
+  create_time: 20190806T13:01:00
+  id: 1144506
+  resolution: ''
+  status: NEW
+  summary: sphinx-build requires python-attrs to run but does not require it
+- component: AutoYaST
+  create_time: 20190806T08:10:00
+  id: 1144439
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190805] AutoYAST based installation fails'
