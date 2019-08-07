@@ -27037,6 +27037,18 @@
   summary: Please add "pam_keyinit.so" to the /etc/pam.d/lightdm and /etc/pam.d/lightdm-autologin
     configuration files
 - component: Basesystem
+  create_time: 20190802T14:47:00
+  id: 1144044
+  resolution: ''
+  status: NEW
+  summary: Please add "pam_keyinit.so" to the /etc/pam.d/crond configuration file
+- component: Basesystem
+  create_time: 20190802T14:42:00
+  id: 1144041
+  resolution: ''
+  status: NEW
+  summary: Please add "pam_keyinit.so" to the /etc/pam.d/atd configuration file
+- component: Basesystem
   create_time: 20190802T13:07:00
   id: 1144032
   resolution: ''
@@ -27174,6 +27186,18 @@
   status: NEW
   summary: docker --userns-remap=default fails on-start
 '20190805':
+- component: Network
+  create_time: 20190807T11:51:00
+  id: 1144670
+  resolution: ''
+  status: NEW
+  summary: Wireless interface doesn't start on boot
+- component: YaST2
+  create_time: 20190807T08:57:00
+  id: 1144627
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Fix shell bugs (that ShellCheck found) by removing obsolete XVersion code
 - component: Basesystem
   create_time: 20190807T08:42:00
   id: 1144625
@@ -27183,8 +27207,8 @@
 - component: Basesystem
   create_time: 20190807T08:41:00
   id: 1144623
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'chromium: Can''t open some HTTPS sites (NET::ERR_CERTIFICATE_TRANSPARENCY_REQUIRED)'
 - component: GNOME
   create_time: 20190806T19:35:00
