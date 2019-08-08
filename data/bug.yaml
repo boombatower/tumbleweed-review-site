@@ -27227,8 +27227,8 @@
 - component: Other
   create_time: 20190805T12:04:00
   id: 1144314
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: suggestion to change default my.cnf (skip-networking, slow log, sql_mode
     as in MySQL, rocksdb.cnf)
 - component: YaST2
@@ -27345,8 +27345,8 @@
 - component: Basesystem
   create_time: 20190807T08:42:00
   id: 1144625
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'chromium: Can''t open some HTTPS sites (NET::ERR_CERTIFICATE_TRANSPARENCY_REQUIRED)'
 - component: Basesystem
   create_time: 20190807T08:41:00
@@ -27395,7 +27395,8 @@
   id: 1144506
   resolution: ''
   status: NEW
-  summary: sphinx-build requires python-attrs to run but does not require it
+  summary: 'python-packaging 19.1 breaks sphinx-build: it appears to require python-attrs
+    although sphinx-build doesn''t need it'
 - component: AutoYaST
   create_time: 20190806T08:10:00
   id: 1144439
