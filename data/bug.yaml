@@ -24097,7 +24097,7 @@
   create_time: 20190526T06:11:00
   id: 1136296
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: sw_single falls back to `package` icon instead of `package-*`
 - component: Development
   create_time: 20190525T23:23:00
@@ -25257,8 +25257,8 @@
 - component: Kernel
   create_time: 20190625T07:55:00
   id: 1139244
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kernel 5.2 crash on boot tpm1_pcr_extend+0x118/0x1d0
 - component: Other
   create_time: 20190625T01:31:00
@@ -25439,7 +25439,7 @@
   resolution: ''
   status: NEW
   summary: go mistake  in spec.files
-- component: Kernel
+- component: Basesystem
   create_time: 20190701T14:24:00
   id: 1139939
   resolution: ''
@@ -26828,8 +26828,8 @@
 - component: Other
   create_time: 20190729T10:01:00
   id: 1143215
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: mariadb 10.3.16 after any update Plugin 'ROCKSDB' registration as a STORAGE
     ENGINE failed
 - component: Basesystem
@@ -27299,6 +27299,18 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
+- component: AutoYaST
+  create_time: 20190808T13:58:00
+  id: 1144894
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20190806] autoyast profile doesn''t validate'
+- component: Live Medium
+  create_time: 20190808T13:26:00
+  id: 1144887
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190807] Wrong branding generated'
 - component: High Availability
   create_time: 20190808T07:09:00
   id: 1144793
@@ -27339,8 +27351,8 @@
 - component: YaST2
   create_time: 20190807T08:57:00
   id: 1144627
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Fix shell bugs (that ShellCheck found) by removing obsolete XVersion code
 - component: Basesystem
   create_time: 20190807T08:42:00
@@ -27393,8 +27405,8 @@
 - component: Other
   create_time: 20190806T13:01:00
   id: 1144506
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'python-packaging 19.1 breaks sphinx-build: it appears to require python-attrs
     although sphinx-build doesn''t need it'
 - component: AutoYaST
