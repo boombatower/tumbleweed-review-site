@@ -12569,8 +12569,8 @@
 - component: GNOME
   create_time: 20180915T11:14:00
   id: 1108556
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '''zypper dup'' periodically breaks GTK due to corrupt gsettings - gschemas
     installation'
 - component: Network
@@ -24344,7 +24344,7 @@
   create_time: 20190529T13:20:00
   id: 1136753
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: Default flatpak install is missing xdg-desktop-portal-gtk
 - component: Development
   create_time: 20190529T12:48:00
@@ -24562,8 +24562,8 @@
 - component: GNOME
   create_time: 20190606T18:01:00
   id: 1137537
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Issue with flatpak
 - component: MicroOS
   create_time: 20190606T09:15:00
@@ -25821,8 +25821,8 @@
 - component: GNOME
   create_time: 20190713T15:53:00
   id: 1141376
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Gnome-software shows No Application Data found Broken 20190708
 - component: Kernel
   create_time: 20190712T21:15:00
@@ -26835,8 +26835,8 @@
 - component: Basesystem
   create_time: 20190729T08:09:00
   id: 1143192
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'open-iscsi-2.0.877-55.1.aarch64: segfault at startup'
 - component: Basesystem
   create_time: 20190729T08:05:00
@@ -27029,6 +27029,13 @@
   resolution: ''
   status: NEW
   summary: 'grpc: update to 1.22.0'
+- component: X11 Applications
+  create_time: 20190802T15:23:00
+  id: 1144064
+  resolution: FIXED
+  status: RESOLVED
+  summary: Please add "pam_keyinit.so" to the /etc/pam.d/xrdp-sesman configuration
+    file
 - component: Basesystem
   create_time: 20190802T14:57:00
   id: 1144049
@@ -27036,6 +27043,13 @@
   status: NEW
   summary: Please add "pam_keyinit.so" to the /etc/pam.d/lightdm and /etc/pam.d/lightdm-autologin
     configuration files
+- component: GNOME
+  create_time: 20190802T14:54:00
+  id: 1144048
+  resolution: FIXED
+  status: RESOLVED
+  summary: Please add "pam_keyinit.so" to the /etc/pam.d/gnomesu-pam configuration
+    file
 - component: Basesystem
   create_time: 20190802T14:47:00
   id: 1144044
@@ -27093,8 +27107,8 @@
 - component: Kubic
   create_time: 20190801T09:16:00
   id: 1143785
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kubicctl can not init weave
 - component: Other
   create_time: 20190801T08:35:00
@@ -27285,6 +27299,12 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
+- component: High Availability
+  create_time: 20190808T07:09:00
+  id: 1144793
+  resolution: ''
+  status: NEW
+  summary: 'libdlm: upgrade libdlm package to include some fixes for dlm_controld'
 - component: Network
   create_time: 20190807T17:45:00
   id: 1144741
