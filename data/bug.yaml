@@ -27299,6 +27299,12 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
+- component: GNOME
+  create_time: 20190808T21:10:00
+  id: 1144948
+  resolution: ''
+  status: NEW
+  summary: login fails with gdm
 - component: Other
   create_time: 20190808T16:25:00
   id: 1144916
