@@ -4277,7 +4277,7 @@
   create_time: 20180220T20:31:00
   id: 1081871
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: mbedtls does not build in 2020
 - component: Virtualization:Other
   create_time: 20180220T18:46:00
