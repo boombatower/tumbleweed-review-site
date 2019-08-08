@@ -21610,8 +21610,8 @@
 - component: Kernel
   create_time: 20190402T01:57:00
   id: 1131208
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: 'kernel:stable 5.0.11, non-fatal trace: "RIP: 0010:__sbitmap_queue_get_shallow+0x85/0xb0"'
 '20190403':
 - component: Basesystem
@@ -27337,8 +27337,8 @@
 - component: GNOME
   create_time: 20190806T19:35:00
   id: 1144560
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190805] openQA test fails in updates_packagekit_gpk'
 - component: YaST2
   create_time: 20190806T17:04:00
@@ -27352,7 +27352,7 @@
   resolution: ''
   status: NEW
   summary: btrfs - mount external drive via USB fails with superblock can't be read
-- component: Network
+- component: Upgrade Problems
   create_time: 20190806T16:25:00
   id: 1144543
   resolution: ''
@@ -27367,8 +27367,8 @@
 - component: X11 Applications
   create_time: 20190806T13:19:00
   id: 1144512
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: iscan doesn't compile anymore for Epson Perfection V500 Photo
 - component: Other
   create_time: 20190806T13:01:00
