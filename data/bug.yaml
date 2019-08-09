@@ -25361,8 +25361,8 @@
 - component: Kernel
   create_time: 20190628T15:08:00
   id: 1139760
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'rPi3: cannot wake from STR'
 - component: YaST2
   create_time: 20190628T13:55:00
@@ -27299,6 +27299,12 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
+- component: Kubic
+  create_time: 20190809T07:58:00
+  id: 1145002
+  resolution: ''
+  status: CONFIRMED
+  summary: '''kubeadm init'' fails to start inside openQA on aarch64'
 - component: Development
   create_time: 20190809T05:54:00
   id: 1144971
