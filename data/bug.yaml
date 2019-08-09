@@ -27095,8 +27095,8 @@
 - component: Kernel
   create_time: 20190801T15:50:00
   id: 1143870
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: futex-wait-multiple patchset for testing with Proton fsync
 - component: Kubic
   create_time: 20190801T11:15:00
@@ -27299,11 +27299,23 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
+- component: Kernel
+  create_time: 20190809T10:45:00
+  id: 1145051
+  resolution: ''
+  status: NEW
+  summary: '5.3.0-rc3: kcompactd / i915 / KVM deadlock'
+- component: Kernel
+  create_time: 20190809T10:43:00
+  id: 1145050
+  resolution: ''
+  status: NEW
+  summary: 'Nvidia Jetson TX2: Installer kernel crashes while decompressing initrd'
 - component: Kubic
   create_time: 20190809T07:58:00
   id: 1145002
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '''kubeadm init'' fails to start inside openQA on aarch64'
 - component: Development
   create_time: 20190809T05:54:00
