@@ -27300,6 +27300,18 @@
   summary: Drop jasper dependency from Digikam
 '20190806':
 - component: GNOME
+  create_time: 20190808T22:17:00
+  id: 1144952
+  resolution: ''
+  status: NEW
+  summary: YaST no longer appears in GNOME search results
+- component: Network
+  create_time: 20190808T21:47:00
+  id: 1144950
+  resolution: ''
+  status: NEW
+  summary: WIFI no longer working after update
+- component: GNOME
   create_time: 20190808T21:10:00
   id: 1144948
   resolution: ''
