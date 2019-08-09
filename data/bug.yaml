@@ -27299,6 +27299,12 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
+- component: Development
+  create_time: 20190809T05:54:00
+  id: 1144971
+  resolution: ''
+  status: NEW
+  summary: Build request - libboost_filesystem.so.1.66.0()(64bit)
 - component: GNOME
   create_time: 20190808T22:17:00
   id: 1144952
