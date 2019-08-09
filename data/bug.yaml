@@ -27299,6 +27299,12 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
+- component: Other
+  create_time: 20190809T18:33:00
+  id: 1145116
+  resolution: ''
+  status: NEW
+  summary: 'haveged.service: Main process exited, code=exited, status=1/FAILURE'
 - component: Security
   create_time: 20190809T13:42:00
   id: 1145091
