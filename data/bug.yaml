@@ -27299,6 +27299,13 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
+- component: Basesystem
+  create_time: 20190809T23:38:00
+  id: 1145133
+  resolution: ''
+  status: NEW
+  summary: 'CPU: 5 PID: 2245 at drivers/usb/core/urb.c:362 usb_submit_urb+0x4d1/0x5d0
+    [usbcore]'
 - component: Other
   create_time: 20190809T18:33:00
   id: 1145116
