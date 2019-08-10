@@ -27299,6 +27299,13 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
+- component: Installation
+  create_time: 20190810T12:02:00
+  id: 1145179
+  resolution: ''
+  status: NEW
+  summary: Couldn't boot because btrfsmaintenance job didn't finish on system with
+    no btrfs partitions
 - component: Basesystem
   create_time: 20190810T07:09:00
   id: 1145159
