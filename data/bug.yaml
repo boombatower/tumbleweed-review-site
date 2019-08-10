@@ -20211,12 +20211,6 @@
   status: NEW
   summary: Plymouth doesn't show the current keyboard layout when asking for the password
     to decrypt disks
-- component: Other
-  create_time: 20190304T12:46:00
-  id: 1127730
-  resolution: ''
-  status: NEW
-  summary: hddtemp sees an HDD as sleeping when it is not
 - component: YaST2
   create_time: 20190304T10:58:00
   id: 1127714
@@ -27299,6 +27293,12 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
+- component: Security
+  create_time: 20190810T18:10:00
+  id: 1145181
+  resolution: ''
+  status: NEW
+  summary: Fail2ban references a legacy path for PIDfile
 - component: Installation
   create_time: 20190810T12:02:00
   id: 1145179
