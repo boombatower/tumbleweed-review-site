@@ -27293,6 +27293,20 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
+- component: Kernel
+  create_time: 20190810T20:56:00
+  id: 1145183
+  resolution: ''
+  status: NEW
+  summary: 'WARNING: CPU: 5 PID: 1529 at drivers/net/wireless/intel/iwlwifi/pcie/tx.c:2343
+    iwl_trans_pcie_tx+0x62d/0x760 [iwlwifi]'
+- component: Security
+  create_time: 20190810T20:27:00
+  id: 1145182
+  resolution: ''
+  status: NEW
+  summary: 'kcm_sddm: polkit-untracked-privilege org.kde.kcontrol.kcmsddm.reset and
+    .sync'
 - component: Security
   create_time: 20190810T18:10:00
   id: 1145181
