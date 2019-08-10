@@ -27299,6 +27299,12 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
+- component: Kernel
+  create_time: 20190810T01:25:00
+  id: 1145135
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'overlayfs: Enable user namespace mounts'
 - component: Basesystem
   create_time: 20190809T23:38:00
   id: 1145133
