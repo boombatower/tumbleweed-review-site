@@ -27299,6 +27299,12 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
+- component: Other
+  create_time: 20190810T05:00:00
+  id: 1145145
+  resolution: ''
+  status: NEW
+  summary: Aegisub file associations
 - component: Kernel
   create_time: 20190810T01:25:00
   id: 1145135
