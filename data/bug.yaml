@@ -25785,8 +25785,8 @@
 - component: Other
   create_time: 20190713T20:57:00
   id: 1141385
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'buzztrax: Drop/port away from rarian dependency (edit)'
 - component: Basesystem
   create_time: 20190713T20:57:00
@@ -27299,6 +27299,12 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
+- component: Basesystem
+  create_time: 20190810T07:09:00
+  id: 1145159
+  resolution: ''
+  status: NEW
+  summary: Problems with wicked daemon
 - component: Other
   create_time: 20190810T05:00:00
   id: 1145145
@@ -27334,8 +27340,8 @@
 - component: Development
   create_time: 20190809T12:50:00
   id: 1145085
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: llvm7 does not build with gcc-4.8
 - component: Kernel
   create_time: 20190809T10:45:00
