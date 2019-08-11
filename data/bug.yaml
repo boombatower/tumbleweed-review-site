@@ -27293,6 +27293,12 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
+- component: Security
+  create_time: 20190811T07:22:00
+  id: 1145187
+  resolution: ''
+  status: NEW
+  summary: CVE-2019-14318 Elliptic Curve timing leaks in libcryptopp
 - component: Other
   create_time: 20190810T22:57:00
   id: 1145185
