@@ -27107,8 +27107,8 @@
 - component: Other
   create_time: 20190801T08:35:00
   id: 1143772
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: susepaste hangs instead of reporting error when file to be uploaded has
     no read permission
 - component: Other
@@ -27435,6 +27435,12 @@
   summary: '[Build 20190805] AutoYAST based installation fails'
 '20190809':
 - component: Basesystem
+  create_time: 20190811T14:39:00
+  id: 1145193
+  resolution: ''
+  status: NEW
+  summary: chrony prevents boot when without network by waiting for ntp server
+- component: Basesystem
   create_time: 20190811T09:56:00
   id: 1145190
   resolution: ''
@@ -27445,7 +27451,7 @@
   create_time: 20190811T07:22:00
   id: 1145187
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: CVE-2019-14318 Elliptic Curve timing leaks in libcryptopp
 - component: Other
   create_time: 20190810T22:57:00
