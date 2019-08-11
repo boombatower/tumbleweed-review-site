@@ -27293,6 +27293,12 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
+- component: Other
+  create_time: 20190810T22:57:00
+  id: 1145185
+  resolution: ''
+  status: NEW
+  summary: 'fontforge: update to 20190801'
 - component: Kernel
   create_time: 20190810T20:56:00
   id: 1145183
