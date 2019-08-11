@@ -27293,113 +27293,6 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
-- component: Security
-  create_time: 20190811T07:22:00
-  id: 1145187
-  resolution: ''
-  status: NEW
-  summary: CVE-2019-14318 Elliptic Curve timing leaks in libcryptopp
-- component: Other
-  create_time: 20190810T22:57:00
-  id: 1145185
-  resolution: ''
-  status: NEW
-  summary: 'fontforge: update to 20190801'
-- component: Kernel
-  create_time: 20190810T20:56:00
-  id: 1145183
-  resolution: ''
-  status: NEW
-  summary: 'WARNING: CPU: 5 PID: 1529 at drivers/net/wireless/intel/iwlwifi/pcie/tx.c:2343
-    iwl_trans_pcie_tx+0x62d/0x760 [iwlwifi]'
-- component: Security
-  create_time: 20190810T20:27:00
-  id: 1145182
-  resolution: ''
-  status: NEW
-  summary: 'kcm_sddm: polkit-untracked-privilege org.kde.kcontrol.kcmsddm.reset and
-    .sync'
-- component: Security
-  create_time: 20190810T18:10:00
-  id: 1145181
-  resolution: ''
-  status: NEW
-  summary: Fail2ban references a legacy path for PIDfile
-- component: Installation
-  create_time: 20190810T12:02:00
-  id: 1145179
-  resolution: ''
-  status: NEW
-  summary: Couldn't boot because btrfsmaintenance job didn't finish on system with
-    no btrfs partitions
-- component: Basesystem
-  create_time: 20190810T07:09:00
-  id: 1145159
-  resolution: ''
-  status: NEW
-  summary: Problems with wicked daemon
-- component: Other
-  create_time: 20190810T05:00:00
-  id: 1145145
-  resolution: ''
-  status: NEW
-  summary: Aegisub file associations
-- component: Kernel
-  create_time: 20190810T01:25:00
-  id: 1145135
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: 'overlayfs: Enable user namespace mounts'
-- component: Basesystem
-  create_time: 20190809T23:38:00
-  id: 1145133
-  resolution: ''
-  status: NEW
-  summary: 'CPU: 5 PID: 2245 at drivers/usb/core/urb.c:362 usb_submit_urb+0x4d1/0x5d0
-    [usbcore]'
-- component: Other
-  create_time: 20190809T18:33:00
-  id: 1145116
-  resolution: ''
-  status: NEW
-  summary: 'haveged.service: Main process exited, code=exited, status=1/FAILURE'
-- component: Security
-  create_time: 20190809T13:42:00
-  id: 1145091
-  resolution: ''
-  status: NEW
-  summary: 'VUL-1: CVE-2019-10209: postgresql11: Memory disclosure in cross-type comparison
-    for hashed subplan'
-- component: Development
-  create_time: 20190809T12:50:00
-  id: 1145085
-  resolution: FIXED
-  status: RESOLVED
-  summary: llvm7 does not build with gcc-4.8
-- component: Kernel
-  create_time: 20190809T10:45:00
-  id: 1145051
-  resolution: ''
-  status: NEW
-  summary: '5.3.0-rc3: kcompactd / i915 / KVM deadlock'
-- component: Kernel
-  create_time: 20190809T10:43:00
-  id: 1145050
-  resolution: ''
-  status: NEW
-  summary: 'Nvidia Jetson TX2: Installer kernel crashes while decompressing initrd'
-- component: Kubic
-  create_time: 20190809T07:58:00
-  id: 1145002
-  resolution: FIXED
-  status: RESOLVED
-  summary: '''kubeadm init'' fails to start inside openQA on aarch64'
-- component: Development
-  create_time: 20190809T05:54:00
-  id: 1144971
-  resolution: ''
-  status: NEW
-  summary: Build request - libboost_filesystem.so.1.66.0()(64bit)
 - component: GNOME
   create_time: 20190808T22:17:00
   id: 1144952
@@ -27540,3 +27433,118 @@
   resolution: ''
   status: NEW
   summary: '[Build 20190805] AutoYAST based installation fails'
+'20190809':
+- component: Basesystem
+  create_time: 20190811T09:56:00
+  id: 1145190
+  resolution: ''
+  status: NEW
+  summary: Attempting to mount Android phone using simple-mtpfs results in LIBMTP
+    PANIC
+- component: Security
+  create_time: 20190811T07:22:00
+  id: 1145187
+  resolution: ''
+  status: NEW
+  summary: CVE-2019-14318 Elliptic Curve timing leaks in libcryptopp
+- component: Other
+  create_time: 20190810T22:57:00
+  id: 1145185
+  resolution: ''
+  status: NEW
+  summary: 'fontforge: update to 20190801'
+- component: Kernel
+  create_time: 20190810T20:56:00
+  id: 1145183
+  resolution: ''
+  status: NEW
+  summary: 'WARNING: CPU: 5 PID: 1529 at drivers/net/wireless/intel/iwlwifi/pcie/tx.c:2343
+    iwl_trans_pcie_tx+0x62d/0x760 [iwlwifi]'
+- component: Security
+  create_time: 20190810T20:27:00
+  id: 1145182
+  resolution: ''
+  status: NEW
+  summary: 'kcm_sddm: polkit-untracked-privilege org.kde.kcontrol.kcmsddm.reset and
+    .sync'
+- component: Security
+  create_time: 20190810T18:10:00
+  id: 1145181
+  resolution: ''
+  status: NEW
+  summary: Fail2ban references a legacy path for PIDfile
+- component: Installation
+  create_time: 20190810T12:02:00
+  id: 1145179
+  resolution: ''
+  status: NEW
+  summary: Couldn't boot because btrfsmaintenance job didn't finish on system with
+    no btrfs partitions
+- component: Basesystem
+  create_time: 20190810T07:09:00
+  id: 1145159
+  resolution: ''
+  status: NEW
+  summary: Problems with wicked daemon
+- component: Other
+  create_time: 20190810T05:00:00
+  id: 1145145
+  resolution: ''
+  status: NEW
+  summary: Aegisub file associations
+- component: Kernel
+  create_time: 20190810T01:25:00
+  id: 1145135
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'overlayfs: Enable user namespace mounts'
+- component: Basesystem
+  create_time: 20190809T23:38:00
+  id: 1145133
+  resolution: ''
+  status: NEW
+  summary: 'CPU: 5 PID: 2245 at drivers/usb/core/urb.c:362 usb_submit_urb+0x4d1/0x5d0
+    [usbcore]'
+- component: Other
+  create_time: 20190809T18:33:00
+  id: 1145116
+  resolution: ''
+  status: NEW
+  summary: 'haveged.service: Main process exited, code=exited, status=1/FAILURE'
+- component: Security
+  create_time: 20190809T13:42:00
+  id: 1145091
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2019-10209: postgresql11: Memory disclosure in cross-type comparison
+    for hashed subplan'
+- component: Development
+  create_time: 20190809T12:50:00
+  id: 1145085
+  resolution: FIXED
+  status: RESOLVED
+  summary: llvm7 does not build with gcc-4.8
+- component: Kernel
+  create_time: 20190809T10:45:00
+  id: 1145051
+  resolution: ''
+  status: NEW
+  summary: '5.3.0-rc3: kcompactd / i915 / KVM deadlock'
+- component: Kernel
+  create_time: 20190809T10:43:00
+  id: 1145050
+  resolution: ''
+  status: NEW
+  summary: 'Nvidia Jetson TX2: Installer kernel crashes while decompressing initrd'
+- component: Kubic
+  create_time: 20190809T07:58:00
+  id: 1145002
+  resolution: FIXED
+  status: RESOLVED
+  summary: '''kubeadm init'' fails to start inside openQA on aarch64'
+- component: Development
+  create_time: 20190809T05:54:00
+  id: 1144971
+  resolution: ''
+  status: NEW
+  summary: Build request - libboost_filesystem.so.1.66.0()(64bit)
