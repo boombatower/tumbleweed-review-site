@@ -27456,8 +27456,8 @@
 - component: Security
   create_time: 20190811T07:22:00
   id: 1145187
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: CVE-2019-14318 Elliptic Curve timing leaks in libcryptopp
 - component: Other
   create_time: 20190810T22:57:00
