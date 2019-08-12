@@ -15109,8 +15109,8 @@
 - component: Basesystem
   create_time: 20181109T14:49:00
   id: 1115445
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'logwatch: migrate from cron to systemd timers'
 - component: Basesystem
   create_time: 20181109T14:48:00
@@ -24611,8 +24611,8 @@
 - component: Basesystem
   create_time: 20190610T07:23:00
   id: 1137716
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: libgcrypt drops setuid privs, breaking pam_kwallet with sudo
 - component: AppArmor
   create_time: 20190609T19:23:00
@@ -26860,8 +26860,8 @@
 - component: Kernel
   create_time: 20190728T13:50:00
   id: 1143139
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Intel[Skylake] Displaying (both in X and tty) is stuttering with kernel
     5.2.x
 - component: Kernel
@@ -27434,6 +27434,12 @@
   status: NEW
   summary: '[Build 20190805] AutoYAST based installation fails'
 '20190809':
+- component: KDE Workspace (Plasma)
+  create_time: 20190812T07:14:00
+  id: 1145224
+  resolution: ''
+  status: NEW
+  summary: Menus in titlebar and appmenu-gtk installed results in GTK apps crashing
 - component: YaST2
   create_time: 20190811T22:21:00
   id: 1145197
@@ -27477,14 +27483,14 @@
   id: 1145182
   resolution: ''
   status: NEW
-  summary: 'kcm_sddm: polkit-untracked-privilege org.kde.kcontrol.kcmsddm.reset and
-    .sync'
+  summary: 'AUDIT-0: kcm_sddm: polkit-untracked-privilege org.kde.kcontrol.kcmsddm.reset
+    and .sync'
 - component: Security
   create_time: 20190810T18:10:00
   id: 1145181
   resolution: ''
   status: NEW
-  summary: Fail2ban references a legacy path for PIDfile
+  summary: 'fail2ban: references a legacy path for PIDfile in systemd unit'
 - component: Installation
   create_time: 20190810T12:02:00
   id: 1145179
