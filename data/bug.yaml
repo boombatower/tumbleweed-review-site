@@ -27434,6 +27434,12 @@
   status: NEW
   summary: '[Build 20190805] AutoYAST based installation fails'
 '20190809':
+- component: YaST2
+  create_time: 20190811T22:21:00
+  id: 1145197
+  resolution: ''
+  status: NEW
+  summary: Yast2 Control Center with wrong language
 - component: Basesystem
   create_time: 20190811T14:39:00
   id: 1145193
