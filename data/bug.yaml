@@ -12243,12 +12243,6 @@
   status: RESOLVED
   summary: Auto drop for freecell no longer works with kpat 18.08, works for Leap
     42.3 and 15.0
-- component: Printing
-  create_time: 20180907T16:29:00
-  id: 1107711
-  resolution: ''
-  status: NEW
-  summary: hp-setup 3.18.6 crash after network scanning when find a printer/fax
 - component: KDE Workspace (Plasma)
   create_time: 20180907T15:22:00
   id: 1107697
@@ -19526,8 +19520,8 @@
 - component: Printing
   create_time: 20190216T17:51:00
   id: 1125667
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'hplip: hp-setup dumps core'
 - component: Virtualization:Other
   create_time: 20190216T15:38:00
@@ -20233,8 +20227,8 @@
 - component: Printing
   create_time: 20190304T09:05:00
   id: 1127687
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: hplip cannot install network printers and scanners like hp 3055
 - component: Other
   create_time: 20190304T09:02:00
@@ -20613,8 +20607,8 @@
 - component: Printing
   create_time: 20190307T09:45:00
   id: 1128306
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: hplip fails because they can't find /etc/PolicyKit
 - component: Basesystem
   create_time: 20190307T09:38:00
@@ -26816,8 +26810,8 @@
 - component: Security
   create_time: 20190729T10:09:00
   id: 1143216
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: mousepad: New PolKit rules added'
 - component: Other
   create_time: 20190729T10:01:00
@@ -26847,8 +26841,8 @@
 - component: Security
   create_time: 20190728T19:03:00
   id: 1143147
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: calamares: polkit-untracked-privilege'
 - component: Basesystem
   create_time: 20190728T18:20:00
@@ -26969,8 +26963,8 @@
 - component: Kernel
   create_time: 20190726T03:06:00
   id: 1142926
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Cannot boot Tumbleweek on HP Envy x360 15m-ds0011dx Kernel oops
 '20190730':
 - component: Network
@@ -27144,8 +27138,8 @@
 - component: Kubic
   create_time: 20190731T16:31:00
   id: 1143682
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Add loadbalancer system role
 - component: Basesystem
   create_time: 20190731T11:21:00
@@ -27434,6 +27428,12 @@
   status: NEW
   summary: '[Build 20190805] AutoYAST based installation fails'
 '20190809':
+- component: Kubic
+  create_time: 20190812T11:32:00
+  id: 1145271
+  resolution: FIXED
+  status: RESOLVED
+  summary: kubic_loadbalancer pattern missing on Medium
 - component: KDE Workspace (Plasma)
   create_time: 20190812T07:14:00
   id: 1145224
