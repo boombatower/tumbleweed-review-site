@@ -26957,8 +26957,8 @@
 - component: Patterns
   create_time: 20190726T08:43:00
   id: 1142975
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: rubygem-public_suffix 4.0.0 breaks dependencies of rubygem-addressable
 - component: Kernel
   create_time: 20190726T03:06:00
@@ -27352,8 +27352,8 @@
   id: 1144681
   resolution: UPSTREAM
   status: RESOLVED
-  summary: 'VUL-1: CVE-2019-13105: double-free a cached block of data when listing
-    files in a crafted ext4 filesystem'
+  summary: 'VUL-1: CVE-2019-13105: u-boot: double-free a cached block of data when
+    listing files in a crafted ext4 filesystem'
 - component: Network
   create_time: 20190807T11:51:00
   id: 1144670
@@ -27428,6 +27428,18 @@
   status: NEW
   summary: '[Build 20190805] AutoYAST based installation fails'
 '20190809':
+- component: Printing
+  create_time: 20190812T12:59:00
+  id: 1145295
+  resolution: ''
+  status: NEW
+  summary: Printing text using the google-opensans-fonts doesn't look as expected
+- component: X.Org
+  create_time: 20190812T12:56:00
+  id: 1145292
+  resolution: ''
+  status: NEW
+  summary: X does snot start after recent update
 - component: Kubic
   create_time: 20190812T11:32:00
   id: 1145271
