@@ -27299,7 +27299,7 @@
   resolution: ''
   status: NEW
   summary: YaST no longer appears in GNOME search results
-- component: Network
+- component: GNOME
   create_time: 20190808T21:47:00
   id: 1144950
   resolution: ''
@@ -27510,7 +27510,7 @@
   resolution: WONTFIX
   status: RESOLVED
   summary: 'overlayfs: Enable user namespace mounts'
-- component: Basesystem
+- component: Kernel
   create_time: 20190809T23:38:00
   id: 1145133
   resolution: ''
@@ -27557,6 +27557,6 @@
 - component: Development
   create_time: 20190809T05:54:00
   id: 1144971
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Build request - libboost_filesystem.so.1.66.0()(64bit)
