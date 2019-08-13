@@ -27428,6 +27428,18 @@
   status: NEW
   summary: '[Build 20190805] AutoYAST based installation fails'
 '20190809':
+- component: LibreOffice
+  create_time: 20190813T12:48:00
+  id: 1145461
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190810] LO 6.3 on upgrade from 13.1 uses wrong theme'
+- component: Development
+  create_time: 20190813T11:38:00
+  id: 1145444
+  resolution: ''
+  status: NEW
+  summary: Clang8 pulls in old clang-checker6
 - component: Other
   create_time: 20190813T09:49:00
   id: 1145414
@@ -27512,8 +27524,8 @@
 - component: Security
   create_time: 20190810T18:10:00
   id: 1145181
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'fail2ban: references a legacy path for PIDfile in systemd unit'
 - component: Installation
   create_time: 20190810T12:02:00
