@@ -27428,6 +27428,12 @@
   status: NEW
   summary: '[Build 20190805] AutoYAST based installation fails'
 '20190809':
+- component: Other
+  create_time: 20190813T17:47:00
+  id: 1145503
+  resolution: ''
+  status: NEW
+  summary: golang-github-prometheus-prometheus does not start
 - component: LibreOffice
   create_time: 20190813T12:48:00
   id: 1145461
