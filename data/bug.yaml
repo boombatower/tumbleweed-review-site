@@ -26532,7 +26532,7 @@
   create_time: 20190721T01:07:00
   id: 1142267
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: gzdoom-4.1.3-22.5.x86_64 fails with a segmentation fault
 '20190723':
 - component: Basesystem
@@ -27428,6 +27428,18 @@
   status: NEW
   summary: '[Build 20190805] AutoYAST based installation fails'
 '20190809':
+- component: Other
+  create_time: 20190813T09:49:00
+  id: 1145414
+  resolution: ''
+  status: NEW
+  summary: '[Staging] hmaccalc fails to build against mozilla-nss 3.45'
+- component: KDE Workspace (Plasma)
+  create_time: 20190813T07:22:00
+  id: 1145372
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190810] Firfox help menu does not appear on KDE Live CD testruns'
 - component: Printing
   create_time: 20190812T12:59:00
   id: 1145295
@@ -27456,7 +27468,7 @@
   create_time: 20190811T22:21:00
   id: 1145197
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Yast2 Control Center with wrong language
 - component: Basesystem
   create_time: 20190811T14:39:00
