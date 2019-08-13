@@ -27428,6 +27428,25 @@
   status: NEW
   summary: '[Build 20190805] AutoYAST based installation fails'
 '20190809':
+- component: KDE Applications
+  create_time: 20190813T21:49:00
+  id: 1145515
+  resolution: ''
+  status: NEW
+  summary: Spectacle is not launched when pressing print screen key
+- component: YaST2
+  create_time: 20190813T20:00:00
+  id: 1145508
+  resolution: ''
+  status: NEW
+  summary: yast2-adcommon-python change domains dialog incorrectly fills the current
+    domain into the label
+- component: Firefox
+  create_time: 20190813T20:00:00
+  id: 1145507
+  resolution: ''
+  status: NEW
+  summary: Firefox Home page is hijacked by MozillaFirefox-branding-opensuse package
 - component: Other
   create_time: 20190813T17:47:00
   id: 1145503
