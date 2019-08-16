@@ -27698,6 +27698,12 @@
   summary: 'overlayfs: Enable user namespace mounts'
 '20190814':
 - component: Basesystem
+  create_time: 20190816T19:56:00
+  id: 1145960
+  resolution: ''
+  status: NEW
+  summary: systemd .path file is not properly activated on upgrade
+- component: Basesystem
   create_time: 20190816T14:20:00
   id: 1145921
   resolution: ''
