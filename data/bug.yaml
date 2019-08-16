@@ -19062,8 +19062,8 @@
 - component: Other
   create_time: 20190207T06:48:00
   id: 1124568
-  resolution: ''
-  status: REOPENED
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'missing dependency : ibus-hangul package needs python2-gobject package.'
 - component: KDE Workspace (Plasma)
   create_time: 20190206T22:08:00
@@ -20201,8 +20201,8 @@
 - component: Other
   create_time: 20190304T13:02:00
   id: 1127733
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Plymouth doesn't show the current keyboard layout when asking for the password
     to decrypt disks
 - component: YaST2
@@ -22087,8 +22087,8 @@
 - component: Development
   create_time: 20190415T13:39:00
   id: 1132538
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: systemtap-server doesn't work because it is not built with libavahi-devel
 - component: Development
   create_time: 20190415T11:33:00
@@ -22176,8 +22176,8 @@
 - component: Development
   create_time: 20190418T04:22:00
   id: 1132825
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: systemtap can not work with v5.0 kernel
 '20190419':
 - component: Basesystem
@@ -23673,8 +23673,8 @@
 - component: MicroOS
   create_time: 20190516T11:14:00
   id: 1135342
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: MicroOS does not enable any daemon for time syncing
 - component: Other
   create_time: 20190516T09:56:00
@@ -25601,7 +25601,7 @@
   create_time: 20190702T01:29:00
   id: 1139983
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: MOTD/Banner displays incorrect temporary ipv6 address
 '20190703':
 - component: KDE Workspace (Plasma)
@@ -25894,8 +25894,8 @@
 - component: X.Org
   create_time: 20190710T16:10:00
   id: 1141041
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Nvidia quadro + nouveau :after snapshot 20190708 second terminal doesn't
     more display
 - component: KDE Workspace (Plasma)
@@ -25907,8 +25907,8 @@
 - component: Installation
   create_time: 20190710T13:09:00
   id: 1141017
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: installer logs contain user password
 - component: GNOME
   create_time: 20190710T11:41:00
@@ -26469,8 +26469,8 @@
 - component: Containers
   create_time: 20190722T22:14:00
   id: 1142413
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[trackerbug] Docker 19.03.0 update'
 - component: KDE Workspace (Plasma)
   create_time: 20190722T17:44:00
@@ -26847,8 +26847,8 @@
 - component: Basesystem
   create_time: 20190728T18:20:00
   id: 1143144
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Leap should save journalctl log since the begin - not only the current
     boot
 - component: Kernel
@@ -26911,8 +26911,8 @@
 - component: Security
   create_time: 20190726T17:07:00
   id: 1143069
-  resolution: ''
-  status: REOPENED
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'python-certbot: fails with "cannot import name ssl_match_hostname" after
     update'
 - component: Other
@@ -27025,6 +27025,68 @@
   summary: Please add "pam_keyinit.so" to the /etc/pam.d/xrdp-sesman configuration
     file
 - component: Basesystem
+  create_time: 20190802T15:21:00
+  id: 1144063
+  resolution: ''
+  status: NEW
+  summary: Please add "pam_keyinit.so" to the /etc/pam.d/xdm and /etc/pam.d/xdm-up
+    configuration files
+- component: Basesystem
+  create_time: 20190802T15:20:00
+  id: 1144062
+  resolution: ''
+  status: NEW
+  summary: Please add "pam_keyinit.so" to the /etc/pam.d/vsftpd configuration file
+- component: Basesystem
+  create_time: 20190802T15:15:00
+  id: 1144060
+  resolution: ''
+  status: NEW
+  summary: Please add "pam_keyinit.so" to the /etc/pam.d/... configuration file(s)
+- component: Samba
+  create_time: 20190802T15:14:00
+  id: 1144059
+  resolution: ''
+  status: NEW
+  summary: Please add "pam_keyinit.so" to the /etc/pam.d/samba configuration file
+- component: Basesystem
+  create_time: 20190802T15:12:00
+  id: 1144058
+  resolution: ''
+  status: NEW
+  summary: Please add "pam_keyinit.so" to the /etc/pam.d/pure-ftpd configuration file
+- component: Basesystem
+  create_time: 20190802T15:10:00
+  id: 1144056
+  resolution: ''
+  status: NEW
+  summary: Please add "pam_keyinit.so" to the /etc/pam.d/proftpd configuration file
+- component: Basesystem
+  create_time: 20190802T15:08:00
+  id: 1144055
+  resolution: ''
+  status: NEW
+  summary: Please add "pam_keyinit.so" to the /etc/pam.d/ppp configuration file
+- component: Basesystem
+  create_time: 20190802T15:07:00
+  id: 1144053
+  resolution: ''
+  status: NEW
+  summary: Please add "pam_keyinit.so" to the /etc/pam.d/polkit-1 configuration file
+- component: Basesystem
+  create_time: 20190802T15:05:00
+  id: 1144052
+  resolution: ''
+  status: NEW
+  summary: Please add "pam_keyinit.so" to the /etc/pam.d/... configuration file(s)
+- component: Basesystem
+  create_time: 20190802T15:00:00
+  id: 1144051
+  resolution: ''
+  status: NEW
+  summary: Please add "pam_keyinit.so" to the /etc/pam.d/mrsh and /etc/pam.d/mrlogin
+    configuration files
+- component: Basesystem
   create_time: 20190802T14:57:00
   id: 1144049
   resolution: ''
@@ -27038,6 +27100,12 @@
   status: RESOLVED
   summary: Please add "pam_keyinit.so" to the /etc/pam.d/gnomesu-pam configuration
     file
+- component: Basesystem
+  create_time: 20190802T14:49:00
+  id: 1144045
+  resolution: ''
+  status: NEW
+  summary: Please add "pam_keyinit.so" to the /etc/pam.d/racoon configuration file
 - component: Basesystem
   create_time: 20190802T14:47:00
   id: 1144044
@@ -27308,8 +27376,8 @@
 - component: Other
   create_time: 20190808T16:25:00
   id: 1144916
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Chromium 76.0.3809.87-1.1 browser crashes at start on openSUSE-20180206-0
 - component: AutoYaST
   create_time: 20190808T13:58:00
@@ -27320,8 +27388,8 @@
 - component: Live Medium
   create_time: 20190808T13:26:00
   id: 1144887
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190807] Wrong branding generated'
 - component: High Availability
   create_time: 20190808T07:09:00
@@ -27417,22 +27485,73 @@
 - component: Other
   create_time: 20190806T13:01:00
   id: 1144506
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'python-packaging 19.1 breaks sphinx-build: it appears to require python-attrs
-    although sphinx-build doesn''t need it'
+  resolution: ''
+  status: REOPENED
+  summary: python-packaging 19.1 requires python-attrs at runtime but the rpm does
+    not depend on it
 - component: AutoYaST
   create_time: 20190806T08:10:00
   id: 1144439
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190805] AutoYAST based installation fails'
 '20190809':
+- component: Kernel
+  create_time: 20190809T23:38:00
+  id: 1145133
+  resolution: ''
+  status: NEW
+  summary: 'CPU: 5 PID: 2245 at drivers/usb/core/urb.c:362 usb_submit_urb+0x4d1/0x5d0
+    [usbcore]'
+- component: Other
+  create_time: 20190809T18:33:00
+  id: 1145116
+  resolution: ''
+  status: NEW
+  summary: 'haveged.service: Main process exited, code=exited, status=1/FAILURE'
+- component: Security
+  create_time: 20190809T13:42:00
+  id: 1145091
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2019-10209: postgresql11: Memory disclosure in cross-type comparison
+    for hashed subplan'
+- component: Development
+  create_time: 20190809T12:50:00
+  id: 1145085
+  resolution: FIXED
+  status: RESOLVED
+  summary: llvm7 does not build with gcc-4.8
+- component: Kernel
+  create_time: 20190809T10:45:00
+  id: 1145051
+  resolution: ''
+  status: NEW
+  summary: '5.3.0-rc3: kcompactd / i915 / KVM deadlock'
+- component: Kernel
+  create_time: 20190809T10:43:00
+  id: 1145050
+  resolution: ''
+  status: NEW
+  summary: 'Nvidia Jetson TX2: Installer kernel crashes while decompressing initrd'
+- component: Kubic
+  create_time: 20190809T07:58:00
+  id: 1145002
+  resolution: FIXED
+  status: RESOLVED
+  summary: '''kubeadm init'' fails to start inside openQA on aarch64'
+- component: Development
+  create_time: 20190809T05:54:00
+  id: 1144971
+  resolution: INVALID
+  status: RESOLVED
+  summary: Build request - libboost_filesystem.so.1.66.0()(64bit)
+'20190810':
 - component: KDE Applications
   create_time: 20190813T21:49:00
   id: 1145515
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Spectacle is not launched when pressing print screen key
 - component: YaST2
   create_time: 20190813T20:00:00
@@ -27463,13 +27582,13 @@
   create_time: 20190813T11:38:00
   id: 1145444
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Clang8 pulls in old clang-checker6
 - component: Other
   create_time: 20190813T09:49:00
   id: 1145414
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Staging] hmaccalc fails to build against mozilla-nss 3.45'
 - component: KDE Workspace (Plasma)
   create_time: 20190813T07:22:00
@@ -27577,53 +27696,162 @@
   resolution: WONTFIX
   status: RESOLVED
   summary: 'overlayfs: Enable user namespace mounts'
-- component: Kernel
-  create_time: 20190809T23:38:00
-  id: 1145133
+'20190814':
+- component: Basesystem
+  create_time: 20190816T14:20:00
+  id: 1145921
   resolution: ''
   status: NEW
-  summary: 'CPU: 5 PID: 2245 at drivers/usb/core/urb.c:362 usb_submit_urb+0x4d1/0x5d0
-    [usbcore]'
+  summary: 'dracut: `rd.neednet=1 ip=dhcp` boot parameters end in emergency shell'
 - component: Other
-  create_time: 20190809T18:33:00
-  id: 1145116
+  create_time: 20190816T09:59:00
+  id: 1145913
   resolution: ''
   status: NEW
-  summary: 'haveged.service: Main process exited, code=exited, status=1/FAILURE'
-- component: Security
-  create_time: 20190809T13:42:00
-  id: 1145091
+  summary: 'apcupsd was compiled without: configure --enable-usb'
+- component: Bootloader
+  create_time: 20190816T04:05:00
+  id: 1145802
   resolution: ''
   status: NEW
-  summary: 'VUL-1: CVE-2019-10209: postgresql11: Memory disclosure in cross-type comparison
-    for hashed subplan'
-- component: Development
-  create_time: 20190809T12:50:00
-  id: 1145085
-  resolution: FIXED
-  status: RESOLVED
-  summary: llvm7 does not build with gcc-4.8
-- component: Kernel
-  create_time: 20190809T10:45:00
-  id: 1145051
+  summary: Typo (data_dir) in shim-install
+- component: Other
+  create_time: 20190815T18:49:00
+  id: 1145788
   resolution: ''
   status: NEW
-  summary: '5.3.0-rc3: kcompactd / i915 / KVM deadlock'
-- component: Kernel
-  create_time: 20190809T10:43:00
-  id: 1145050
+  summary: 'graphics/luminance-hdr: Update to 2.6.0'
+- component: Installation
+  create_time: 20190815T16:07:00
+  id: 1145777
   resolution: ''
   status: NEW
-  summary: 'Nvidia Jetson TX2: Installer kernel crashes while decompressing initrd'
+  summary: 'Nvidia Jetson TX2: gpio drivers are missing in installer initrd'
 - component: Kubic
-  create_time: 20190809T07:58:00
-  id: 1145002
+  create_time: 20190815T14:51:00
+  id: 1145768
   resolution: FIXED
   status: RESOLVED
-  summary: '''kubeadm init'' fails to start inside openQA on aarch64'
-- component: Development
-  create_time: 20190809T05:54:00
-  id: 1144971
+  summary: Add salt-minion configuration to worker and loadbalancer system role of
+    Kubic
+- component: YaST2
+  create_time: 20190815T13:41:00
+  id: 1145754
+  resolution: FIXED
+  status: RESOLVED
+  summary: yast2-cluster should switch to the rake base installation
+- component: Other
+  create_time: 20190815T11:42:00
+  id: 1145736
+  resolution: ''
+  status: NEW
+  summary: 'Duplitcatebinary: python3-rrdtool'
+- component: Other
+  create_time: 20190815T11:28:00
+  id: 1145735
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Duplicate binaries produced by different llvm versions
+- component: Kernel
+  create_time: 20190815T09:05:00
+  id: 1145715
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: bbswitch kernel module package matching current kernel is missing
+- component: libzypp
+  create_time: 20190815T01:21:00
+  id: 1145694
   resolution: INVALID
   status: RESOLVED
-  summary: Build request - libboost_filesystem.so.1.66.0()(64bit)
+  summary: zypper ar obs://... fails to operate correctly
+- component: Java
+  create_time: 20190815T00:11:00
+  id: 1145693
+  resolution: ''
+  status: NEW
+  summary: xmlgraphics-fop does not find hyphenation pattern
+- component: Kernel
+  create_time: 20190814T21:46:00
+  id: 1145689
+  resolution: ''
+  status: NEW
+  summary: System won't reboot or power off stops at the console
+- component: Development
+  create_time: 20190814T17:24:00
+  id: 1145667
+  resolution: ''
+  status: NEW
+  summary: pipenv does not install/update requirements
+- component: Virtualization:Other
+  create_time: 20190814T15:03:00
+  id: 1145651
+  resolution: ''
+  status: IN_PROGRESS
+  summary: libvirt 5.5.0 breaks virtual networking with openvswitch & tagged VLANs
+- component: Basesystem
+  create_time: 20190814T15:02:00
+  id: 1145650
+  resolution: ''
+  status: NEW
+  summary: 'btrfsprogs: do not recommend btrfsmaintenance'
+- component: Bootloader
+  create_time: 20190814T14:39:00
+  id: 1145646
+  resolution: ''
+  status: NEW
+  summary: grub 2.04 fails to boot on armv6 (Raspberry Pi 1)
+- component: Security
+  create_time: 20190814T14:15:00
+  id: 1145639
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: systemd: new dbus service and polkit privileges for systemd-portabled'
+- component: Basesystem
+  create_time: 20190814T14:10:00
+  id: 1145637
+  resolution: ''
+  status: NEW
+  summary: systemd brings up a broken system state
+- component: Other
+  create_time: 20190814T13:03:00
+  id: 1145623
+  resolution: ''
+  status: NEW
+  summary: OpenMPI Fortran 2008 interface is broken
+- component: YaST2
+  create_time: 20190814T11:07:00
+  id: 1145602
+  resolution: FIXED
+  status: RESOLVED
+  summary: Invalid permissions in libyui-rake
+- component: Kernel
+  create_time: 20190814T10:55:00
+  id: 1145601
+  resolution: ''
+  status: IN_PROGRESS
+  summary: KMPs are lagging behind the current kernel
+- component: Basesystem
+  create_time: 20190814T07:46:00
+  id: 1145561
+  resolution: ''
+  status: NEW
+  summary: 'systemd-tty-ask-password-agent: laptop once in a while "hangs" after entering
+    wrong password for disk encryption'
+- component: Basesystem
+  create_time: 20190814T07:46:00
+  id: 1145560
+  resolution: ''
+  status: NEW
+  summary: libtool-testsuite failures with LTO
+- component: Network
+  create_time: 20190814T04:17:00
+  id: 1145525
+  resolution: ''
+  status: NEW
+  summary: '"iw" (intel wireless tool) broken'
+- component: Kernel
+  create_time: 20190814T03:04:00
+  id: 1145519
+  resolution: ''
+  status: NEW
+  summary: Mkinitrd is calling dracut with wrong kerneldir version
