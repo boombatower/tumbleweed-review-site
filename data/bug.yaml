@@ -27277,8 +27277,8 @@
 - component: Development
   create_time: 20190805T12:27:00
   id: 1144318
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: missing /usr/bin/x86_64-suse-linux-gnu-pkg-config
 - component: Other
   create_time: 20190805T12:04:00
