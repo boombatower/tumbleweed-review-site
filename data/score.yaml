@@ -918,7 +918,10 @@
   stability_level: stable
 '20190810':
   score: 95
-  stability_level: pending
+  stability_level: stable
 '20190814':
+  score: 96
+  stability_level: pending
+'20190815':
   score: 95
   stability_level: pending
