@@ -24071,8 +24071,8 @@
 - component: Installation
   create_time: 20190526T17:47:00
   id: 1136313
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: openSUSE-Tumbleweed-DVD-x86_64-Snapshot20190524-Media.iso fail's at loading
     basic drivers...
 - component: YaST2
@@ -26363,8 +26363,8 @@
 - component: Other
   create_time: 20190720T12:05:00
   id: 1142258
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Zypper DUP from 20190717 -> 20190718 kills Cinnamon; boots to crash-looping
     IceWM
 - component: Basesystem
@@ -26958,7 +26958,7 @@
   create_time: 20190726T08:43:00
   id: 1142975
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: rubygem-public_suffix 4.0.0 breaks dependencies of rubygem-addressable
 - component: Kernel
   create_time: 20190726T03:06:00
@@ -27015,7 +27015,7 @@
   create_time: 20190802T16:13:00
   id: 1144068
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'grpc: update to 1.22.0'
 - component: X11 Applications
   create_time: 20190802T15:23:00
@@ -27027,8 +27027,8 @@
 - component: Basesystem
   create_time: 20190802T15:21:00
   id: 1144063
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please add "pam_keyinit.so" to the /etc/pam.d/xdm and /etc/pam.d/xdm-up
     configuration files
 - component: Basesystem
@@ -27370,8 +27370,8 @@
 - component: GNOME
   create_time: 20190808T21:10:00
   id: 1144948
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: login fails with gdm
 - component: Other
   create_time: 20190808T16:25:00
@@ -27394,8 +27394,8 @@
 - component: High Availability
   create_time: 20190808T07:09:00
   id: 1144793
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'libdlm: upgrade libdlm package to include some fixes for dlm_controld'
 - component: Network
   create_time: 20190807T17:45:00
@@ -27406,8 +27406,8 @@
 - component: Kernel
   create_time: 20190807T16:00:00
   id: 1144723
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Khadas VIM/VIM2 and Google Coral boards lacking gpio-fan support
 - component: Other
   create_time: 20190807T14:05:00
@@ -27499,8 +27499,8 @@
 - component: Kernel
   create_time: 20190809T23:38:00
   id: 1145133
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'CPU: 5 PID: 2245 at drivers/usb/core/urb.c:362 usb_submit_urb+0x4d1/0x5d0
     [usbcore]'
 - component: Other
@@ -27697,6 +27697,182 @@
   status: RESOLVED
   summary: 'overlayfs: Enable user namespace mounts'
 '20190814':
+- component: Kernel
+  create_time: 20190814T21:46:00
+  id: 1145689
+  resolution: ''
+  status: NEW
+  summary: System won't reboot or power off stops at the console
+- component: Development
+  create_time: 20190814T17:24:00
+  id: 1145667
+  resolution: ''
+  status: NEW
+  summary: pipenv does not install/update requirements
+- component: Virtualization:Other
+  create_time: 20190814T15:03:00
+  id: 1145651
+  resolution: ''
+  status: IN_PROGRESS
+  summary: libvirt 5.5.0 breaks virtual networking with openvswitch & tagged VLANs
+- component: Basesystem
+  create_time: 20190814T15:02:00
+  id: 1145650
+  resolution: ''
+  status: NEW
+  summary: 'btrfsprogs: do not recommend btrfsmaintenance'
+- component: Bootloader
+  create_time: 20190814T14:39:00
+  id: 1145646
+  resolution: ''
+  status: NEW
+  summary: grub 2.04 fails to boot on armv6 (Raspberry Pi 1)
+- component: Security
+  create_time: 20190814T14:15:00
+  id: 1145639
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: systemd: new dbus service and polkit privileges for systemd-portabled'
+- component: Basesystem
+  create_time: 20190814T14:10:00
+  id: 1145637
+  resolution: ''
+  status: NEW
+  summary: systemd brings up a broken system state
+- component: Other
+  create_time: 20190814T13:03:00
+  id: 1145623
+  resolution: ''
+  status: NEW
+  summary: OpenMPI Fortran 2008 interface is broken
+- component: YaST2
+  create_time: 20190814T11:07:00
+  id: 1145602
+  resolution: FIXED
+  status: RESOLVED
+  summary: Invalid permissions in libyui-rake
+- component: Kernel
+  create_time: 20190814T10:55:00
+  id: 1145601
+  resolution: ''
+  status: IN_PROGRESS
+  summary: KMPs are lagging behind the current kernel
+- component: Basesystem
+  create_time: 20190814T07:46:00
+  id: 1145561
+  resolution: ''
+  status: NEW
+  summary: 'systemd-tty-ask-password-agent: laptop once in a while "hangs" after entering
+    wrong password for disk encryption'
+- component: Basesystem
+  create_time: 20190814T07:46:00
+  id: 1145560
+  resolution: ''
+  status: IN_PROGRESS
+  summary: libtool-testsuite failures with LTO
+- component: Network
+  create_time: 20190814T04:17:00
+  id: 1145525
+  resolution: ''
+  status: NEW
+  summary: '"iw" (intel wireless tool) broken'
+- component: Kernel
+  create_time: 20190814T03:04:00
+  id: 1145519
+  resolution: ''
+  status: NEW
+  summary: Mkinitrd is calling dracut with wrong kerneldir version
+'20190815':
+- component: X11 3rd Party Driver
+  create_time: 20190819T14:51:00
+  id: 1146207
+  resolution: FIXED
+  status: RESOLVED
+  summary: Compile of proprietary NVIDIA driver failed after tumbleweed update
+- component: X.Org
+  create_time: 20190819T12:52:00
+  id: 1146181
+  resolution: ''
+  status: NEW
+  summary: Xf86-input-wacom driver project has moved
+- component: Kubic
+  create_time: 20190819T09:18:00
+  id: 1146116
+  resolution: ''
+  status: NEW
+  summary: '"transactional-update --no-selfupdate" does nothing'
+- component: Other
+  create_time: 20190819T08:30:00
+  id: 1146096
+  resolution: ''
+  status: NEW
+  summary: 'LTO: opencv build fails on ppc64le'
+- component: Installation
+  create_time: 20190819T08:23:00
+  id: 1146092
+  resolution: ''
+  status: NEW
+  summary: second stage of installation removes NETCONFIG_DNS_POLICY from sysconfig
+- component: Basesystem
+  create_time: 20190819T08:11:00
+  id: 1146085
+  resolution: ''
+  status: NEW
+  summary: tumbleweed does not understand /history URL as installation source
+- component: Java
+  create_time: 20190819T07:49:00
+  id: 1146078
+  resolution: ''
+  status: NEW
+  summary: Please move MathJax fonts into a sub directory below /usr/share/fonts
+- component: Kernel
+  create_time: 20190819T05:44:00
+  id: 1146039
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: nvidia-gfxG04 (390.129) does not work with kernel > 5.1.16
+- component: Other
+  create_time: 20190819T00:20:00
+  id: 1146028
+  resolution: ''
+  status: IN_PROGRESS
+  summary: texdoc missing package database
+- component: Kernel
+  create_time: 20190818T22:07:00
+  id: 1146026
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Coral board is lacking PMIC regulators
+- component: Printing
+  create_time: 20190818T17:33:00
+  id: 1146022
+  resolution: ''
+  status: NEW
+  summary: hplip, infinite loop setting up some printers
+- component: KDE Workspace (Plasma)
+  create_time: 20190818T09:12:00
+  id: 1146018
+  resolution: ''
+  status: NEW
+  summary: Unreliable copy and cut
+- component: Other
+  create_time: 20190818T07:16:00
+  id: 1146016
+  resolution: ''
+  status: NEW
+  summary: 'filesystems/davfs2: "program is not setuid root" mismatch with documentation'
+- component: Sound
+  create_time: 20190818T01:40:00
+  id: 1146011
+  resolution: ''
+  status: NEW
+  summary: Audio very low on Lenovo Ideapad S940
+- component: Network
+  create_time: 20190817T18:31:00
+  id: 1146010
+  resolution: ''
+  status: NEW
+  summary: twinkle call history not sorted by time descending
 - component: Basesystem
   create_time: 20190816T19:56:00
   id: 1145960
@@ -27776,88 +27952,3 @@
   resolution: ''
   status: NEW
   summary: xmlgraphics-fop does not find hyphenation pattern
-- component: Kernel
-  create_time: 20190814T21:46:00
-  id: 1145689
-  resolution: ''
-  status: NEW
-  summary: System won't reboot or power off stops at the console
-- component: Development
-  create_time: 20190814T17:24:00
-  id: 1145667
-  resolution: ''
-  status: NEW
-  summary: pipenv does not install/update requirements
-- component: Virtualization:Other
-  create_time: 20190814T15:03:00
-  id: 1145651
-  resolution: ''
-  status: IN_PROGRESS
-  summary: libvirt 5.5.0 breaks virtual networking with openvswitch & tagged VLANs
-- component: Basesystem
-  create_time: 20190814T15:02:00
-  id: 1145650
-  resolution: ''
-  status: NEW
-  summary: 'btrfsprogs: do not recommend btrfsmaintenance'
-- component: Bootloader
-  create_time: 20190814T14:39:00
-  id: 1145646
-  resolution: ''
-  status: NEW
-  summary: grub 2.04 fails to boot on armv6 (Raspberry Pi 1)
-- component: Security
-  create_time: 20190814T14:15:00
-  id: 1145639
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: systemd: new dbus service and polkit privileges for systemd-portabled'
-- component: Basesystem
-  create_time: 20190814T14:10:00
-  id: 1145637
-  resolution: ''
-  status: NEW
-  summary: systemd brings up a broken system state
-- component: Other
-  create_time: 20190814T13:03:00
-  id: 1145623
-  resolution: ''
-  status: NEW
-  summary: OpenMPI Fortran 2008 interface is broken
-- component: YaST2
-  create_time: 20190814T11:07:00
-  id: 1145602
-  resolution: FIXED
-  status: RESOLVED
-  summary: Invalid permissions in libyui-rake
-- component: Kernel
-  create_time: 20190814T10:55:00
-  id: 1145601
-  resolution: ''
-  status: IN_PROGRESS
-  summary: KMPs are lagging behind the current kernel
-- component: Basesystem
-  create_time: 20190814T07:46:00
-  id: 1145561
-  resolution: ''
-  status: NEW
-  summary: 'systemd-tty-ask-password-agent: laptop once in a while "hangs" after entering
-    wrong password for disk encryption'
-- component: Basesystem
-  create_time: 20190814T07:46:00
-  id: 1145560
-  resolution: ''
-  status: NEW
-  summary: libtool-testsuite failures with LTO
-- component: Network
-  create_time: 20190814T04:17:00
-  id: 1145525
-  resolution: ''
-  status: NEW
-  summary: '"iw" (intel wireless tool) broken'
-- component: Kernel
-  create_time: 20190814T03:04:00
-  id: 1145519
-  resolution: ''
-  status: NEW
-  summary: Mkinitrd is calling dracut with wrong kerneldir version
