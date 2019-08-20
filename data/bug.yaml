@@ -27355,7 +27355,7 @@
   status: NEW
   summary: Drop jasper dependency from Digikam
 '20190806':
-- component: GNOME
+- component: YaST2
   create_time: 20190808T22:17:00
   id: 1144952
   resolution: ''
@@ -27783,6 +27783,18 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: Security
+  create_time: 20190820T08:06:00
+  id: 1146300
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: systemd: networkd untracked privileges'
+- component: X.Org
+  create_time: 20190820T07:14:00
+  id: 1146280
+  resolution: ''
+  status: NEW
+  summary: X.org fails to auto detect GPU on ppc64le
 - component: Other
   create_time: 20190820T00:16:00
   id: 1146243
@@ -27840,8 +27852,8 @@
 - component: Other
   create_time: 20190819T00:20:00
   id: 1146028
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: texdoc missing package database
 - component: Kernel
   create_time: 20190818T22:07:00
