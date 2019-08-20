@@ -25631,8 +25631,8 @@
 - component: Other
   create_time: 20190703T12:01:00
   id: 1140242
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Citrix Workspace app (previously known as Citrix Receiver) not working
     in Tumbleweed
 - component: YaST2
