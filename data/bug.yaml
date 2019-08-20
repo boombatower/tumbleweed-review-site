@@ -27783,6 +27783,12 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: Sound
+  create_time: 20190820T15:28:00
+  id: 1146420
+  resolution: ''
+  status: NEW
+  summary: pulseaudio-dlna broken dependency
 - component: Other
   create_time: 20190820T12:57:00
   id: 1146387
