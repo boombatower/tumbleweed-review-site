@@ -27783,6 +27783,12 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: Network
+  create_time: 20190820T17:30:00
+  id: 1146440
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'iputils-s20190709: arping -D  is broken'
 - component: Sound
   create_time: 20190820T15:28:00
   id: 1146420
