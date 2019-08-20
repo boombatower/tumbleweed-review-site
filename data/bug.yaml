@@ -21961,7 +21961,7 @@
   create_time: 20190414T11:07:00
   id: 1132456
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Raspberry Pi 3B console video fails using DSI interface
 - component: Other
   create_time: 20190414T06:30:00
@@ -23452,7 +23452,7 @@
   create_time: 20190513T09:11:00
   id: 1134838
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: No Raspberry Pi official 7" touchscreen support with DRM/VC4
 - component: Printing
   create_time: 20190512T19:41:00
@@ -27358,8 +27358,8 @@
 - component: YaST2
   create_time: 20190808T22:17:00
   id: 1144952
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: YaST no longer appears in GNOME search results
 - component: GNOME
   create_time: 20190808T21:47:00
@@ -27605,9 +27605,9 @@
 - component: X.Org
   create_time: 20190812T12:56:00
   id: 1145292
-  resolution: ''
-  status: NEW
-  summary: X does snot start after recent update
+  resolution: FIXED
+  status: RESOLVED
+  summary: X does not start after recent update
 - component: Kubic
   create_time: 20190812T11:32:00
   id: 1145271
@@ -27783,6 +27783,18 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: Other
+  create_time: 20190820T10:45:00
+  id: 1146344
+  resolution: ''
+  status: NEW
+  summary: translate-shell input encoding is corrupted for non ascii chacarcters
+- component: YaST2
+  create_time: 20190820T08:43:00
+  id: 1146310
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'YaST: rake package is too verbose, burying useful warnings'
 - component: Security
   create_time: 20190820T08:06:00
   id: 1146300
@@ -27793,7 +27805,7 @@
   create_time: 20190820T07:14:00
   id: 1146280
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: X.org fails to auto detect GPU on ppc64le
 - component: Other
   create_time: 20190820T00:16:00
