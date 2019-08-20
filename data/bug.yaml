@@ -25894,8 +25894,8 @@
 - component: X.Org
   create_time: 20190710T16:10:00
   id: 1141041
-  resolution: ''
-  status: REOPENED
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Nvidia quadro + nouveau :after snapshot 20190708 second terminal doesn't
     more display
 - component: KDE Workspace (Plasma)
@@ -27784,6 +27784,25 @@
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
 - component: Other
+  create_time: 20190820T12:57:00
+  id: 1146387
+  resolution: ''
+  status: NEW
+  summary: tilix fails to start after update
+- component: Kubic
+  create_time: 20190820T11:59:00
+  id: 1146372
+  resolution: ''
+  status: NEW
+  summary: kubelet.service tries to start even without config file
+- component: Security
+  create_time: 20190820T11:54:00
+  id: 1146368
+  resolution: ''
+  status: NEW
+  summary: 'VUL-0: CVE-2019-15099: kernel-source: NULL pointer dereference in drivers/net/wireless/ath/ath10k/usb.c
+    leads to a crash'
+- component: Other
   create_time: 20190820T10:45:00
   id: 1146344
   resolution: ''
@@ -27822,8 +27841,8 @@
 - component: X.Org
   create_time: 20190819T12:52:00
   id: 1146181
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Xf86-input-wacom driver project has moved
 - component: Kubic
   create_time: 20190819T09:18:00
