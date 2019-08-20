@@ -27783,6 +27783,12 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: Other
+  create_time: 20190820T00:16:00
+  id: 1146243
+  resolution: ''
+  status: NEW
+  summary: 'ccx (calculix): update to 2.15'
 - component: X11 3rd Party Driver
   create_time: 20190819T14:51:00
   id: 1146207
