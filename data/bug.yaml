@@ -27783,6 +27783,12 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: Development
+  create_time: 20190820T20:28:00
+  id: 1146454
+  resolution: ''
+  status: NEW
+  summary: python3-dbus-python Problem
 - component: Network
   create_time: 20190820T17:30:00
   id: 1146440
