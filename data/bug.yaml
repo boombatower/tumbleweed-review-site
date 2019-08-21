@@ -27961,8 +27961,8 @@
 - component: Bootloader
   create_time: 20190816T04:05:00
   id: 1145802
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Typo (data_dir) in shim-install
 - component: Other
   create_time: 20190815T18:49:00
