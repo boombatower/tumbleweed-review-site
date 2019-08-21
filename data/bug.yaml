@@ -21027,7 +21027,7 @@
   create_time: 20190318T11:00:00
   id: 1129566
   resolution: ''
-  status: REOPENED
+  status: IN_PROGRESS
   summary: ignition cannot write to /sysroot/etc with transactional-updates
 '20190320':
 - component: Kernel
@@ -26904,8 +26904,8 @@
 - component: Basesystem
   create_time: 20190727T12:41:00
   id: 1143119
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'openSUSE-Tumbleweed-ARM-JeOS-efi.aarch64-2019.07.25-Build1.4: rmdir: command
     not found'
 - component: Security
@@ -27315,8 +27315,8 @@
 - component: Other
   create_time: 20190805T09:32:00
   id: 1144252
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Drop jasper dependency from libraw
 - component: Other
   create_time: 20190805T09:29:00
@@ -27345,8 +27345,8 @@
 - component: Other
   create_time: 20190805T09:13:00
   id: 1144240
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Drop jasper dependency from GraphicsMagic
 - component: KDE Applications
   create_time: 20190805T09:02:00
@@ -27648,8 +27648,8 @@
 - component: Other
   create_time: 20190810T22:57:00
   id: 1145185
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'fontforge: update to 20190801'
 - component: Kernel
   create_time: 20190810T20:56:00
@@ -27783,6 +27783,24 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: Other
+  create_time: 20190821T14:12:00
+  id: 1146684
+  resolution: ''
+  status: NEW
+  summary: 'TW20190815: segmentation fault in tilix'
+- component: Basesystem
+  create_time: 20190821T13:02:00
+  id: 1146661
+  resolution: ''
+  status: NEW
+  summary: (Dracut) ifup in network-legacy fails because hotname bin is not there
+- component: Development
+  create_time: 20190821T11:50:00
+  id: 1146646
+  resolution: ''
+  status: NEW
+  summary: 'LTO: crash build failure TW ppc64le'
 - component: Development
   create_time: 20190821T11:03:00
   id: 1146634
