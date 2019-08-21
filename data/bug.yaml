@@ -25895,7 +25895,7 @@
   create_time: 20190710T16:10:00
   id: 1141041
   resolution: ''
-  status: REOPENED
+  status: CONFIRMED
   summary: Nvidia quadro + nouveau :after snapshot 20190708 second terminal doesn't
     more display
 - component: KDE Workspace (Plasma)
@@ -27662,7 +27662,7 @@
   create_time: 20190810T20:27:00
   id: 1145182
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: kcm_sddm: polkit-untracked-privilege org.kde.kcontrol.kcmsddm.reset
     and .sync'
 - component: Security
@@ -27784,6 +27784,24 @@
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
 - component: Development
+  create_time: 20190821T11:03:00
+  id: 1146634
+  resolution: ''
+  status: NEW
+  summary: pcc does not build reproducibly with LTO
+- component: Other
+  create_time: 20190821T09:23:00
+  id: 1146580
+  resolution: ''
+  status: NEW
+  summary: XDG Autostart apps startup in wrong DE
+- component: Other
+  create_time: 20190821T08:36:00
+  id: 1146555
+  resolution: ''
+  status: NEW
+  summary: Drop jasper dependency from telegram-desktop
+- component: Development
   create_time: 20190821T08:27:00
   id: 1146548
   resolution: ''
@@ -27847,8 +27865,8 @@
 - component: YaST2
   create_time: 20190820T08:43:00
   id: 1146310
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'YaST: rake package is too verbose, burying useful warnings'
 - component: Security
   create_time: 20190820T08:06:00
