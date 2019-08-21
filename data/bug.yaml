@@ -27783,11 +27783,17 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: Other
+  create_time: 20190821T22:09:00
+  id: 1146724
+  resolution: ''
+  status: NEW
+  summary: Vimb is compiled with wrong prefix, different than installation prefix
 - component: Kernel
   create_time: 20190821T19:43:00
   id: 1146719
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: sign-file error in linux-next
 - component: Basesystem
   create_time: 20190821T17:33:00
@@ -27848,7 +27854,7 @@
   create_time: 20190821T07:55:00
   id: 1146533
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: llvm8 pulls in python 2
 - component: Other
   create_time: 20190821T07:23:00
