@@ -25894,8 +25894,8 @@
 - component: X.Org
   create_time: 20190710T16:10:00
   id: 1141041
-  resolution: UPSTREAM
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Nvidia quadro + nouveau :after snapshot 20190708 second terminal doesn't
     more display
 - component: KDE Workspace (Plasma)
@@ -27128,7 +27128,7 @@
   create_time: 20190802T11:41:00
   id: 1144007
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20190801] yast2_clone_system fails'
 - component: Kernel
   create_time: 20190802T09:15:00
@@ -27157,8 +27157,8 @@
 - component: Kubic
   create_time: 20190801T11:15:00
   id: 1143813
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kubelet sometimes starting too fast
 - component: Kubic
   create_time: 20190801T09:16:00
@@ -27334,7 +27334,7 @@
   create_time: 20190805T09:22:00
   id: 1144245
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Drop jasper dependency from libdevil
 - component: Other
   create_time: 20190805T09:17:00
@@ -27358,7 +27358,7 @@
 - component: YaST2
   create_time: 20190808T22:17:00
   id: 1144952
-  resolution: WORKSFORME
+  resolution: FIXED
   status: RESOLVED
   summary: YaST no longer appears in GNOME search results
 - component: GNOME
@@ -27382,8 +27382,8 @@
 - component: AutoYaST
   create_time: 20190808T13:58:00
   id: 1144894
-  resolution: DUPLICATE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '[Build 20190806] autoyast profile doesn''t validate'
 - component: Live Medium
   create_time: 20190808T13:26:00
@@ -27783,6 +27783,24 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: Development
+  create_time: 20190821T08:27:00
+  id: 1146548
+  resolution: ''
+  status: NEW
+  summary: 'gcc: cannot ignore fatal warnings with LTO'
+- component: Basesystem
+  create_time: 20190821T07:55:00
+  id: 1146533
+  resolution: ''
+  status: NEW
+  summary: llvm8 pulls in python 2
+- component: Other
+  create_time: 20190821T07:23:00
+  id: 1146515
+  resolution: ''
+  status: NEW
+  summary: '[opensuse-welcome] khelpcenter blocks the UI'
 - component: Development
   create_time: 20190820T20:28:00
   id: 1146454
