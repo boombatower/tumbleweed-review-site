@@ -27783,6 +27783,19 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: Basesystem
+  create_time: 20190821T17:33:00
+  id: 1146705
+  resolution: ''
+  status: NEW
+  summary: Installation/upgrade of filesystem inside LXD container fails due to /proc
+    not being writable by the container
+- component: Network
+  create_time: 20190821T15:55:00
+  id: 1146698
+  resolution: ''
+  status: NEW
+  summary: wicked breaks NFS root
 - component: Other
   create_time: 20190821T14:12:00
   id: 1146684
