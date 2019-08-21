@@ -27783,6 +27783,12 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: Kernel
+  create_time: 20190821T19:43:00
+  id: 1146719
+  resolution: ''
+  status: NEW
+  summary: sign-file error in linux-next
 - component: Basesystem
   create_time: 20190821T17:33:00
   id: 1146705
@@ -27842,13 +27848,13 @@
   create_time: 20190821T07:55:00
   id: 1146533
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: llvm8 pulls in python 2
 - component: Other
   create_time: 20190821T07:23:00
   id: 1146515
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[opensuse-welcome] khelpcenter blocks the UI'
 - component: Development
   create_time: 20190820T20:28:00
