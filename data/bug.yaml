@@ -19677,7 +19677,7 @@
   create_time: 20190218T14:07:00
   id: 1125785
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20190217] openQA test fails in machinery, no machinery-helper available
     for the remote system architecture aarch64'
 - component: AutoYaST
@@ -27783,6 +27783,12 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: Kernel
+  create_time: 20190822T08:08:00
+  id: 1146769
+  resolution: ''
+  status: NEW
+  summary: kernel-firmware-amdgpu breaks polaris10
 - component: Samba
   create_time: 20190822T05:24:00
   id: 1146736
@@ -27799,8 +27805,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190822T01:40:00
   id: 1146729
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: KRunner Hidden Behind Top Panel - Wayland
 - component: KDE Workspace (Plasma)
   create_time: 20190822T01:30:00
@@ -27836,8 +27842,8 @@
 - component: Other
   create_time: 20190821T14:12:00
   id: 1146684
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'TW20190815: segmentation fault in tilix'
 - component: Basesystem
   create_time: 20190821T13:02:00
