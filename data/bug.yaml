@@ -27783,6 +27783,24 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: KDE Workspace (Plasma)
+  create_time: 20190822T01:47:00
+  id: 1146730
+  resolution: ''
+  status: NEW
+  summary: Right Click Chromium Doesn't Work - Wayland
+- component: KDE Workspace (Plasma)
+  create_time: 20190822T01:40:00
+  id: 1146729
+  resolution: ''
+  status: NEW
+  summary: KRunner Hidden Behind Top Panel - Wayland
+- component: KDE Workspace (Plasma)
+  create_time: 20190822T01:30:00
+  id: 1146728
+  resolution: ''
+  status: NEW
+  summary: Screen Edges for KDE Doesn't Fully Load
 - component: Other
   create_time: 20190821T22:09:00
   id: 1146724
