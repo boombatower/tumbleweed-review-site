@@ -27617,8 +27617,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190812T07:14:00
   id: 1145224
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Menus in titlebar and appmenu-gtk installed results in GTK apps crashing
 - component: YaST2
   create_time: 20190811T22:21:00
@@ -27783,6 +27783,13 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: YaST2
+  create_time: 20190822T15:58:00
+  id: 1146898
+  resolution: ''
+  status: NEW
+  summary: 'yast2-adcommon-python: AD modules should connect to an AD-DC via the SamDB
+    interface, instead of python-ldap'
 - component: Basesystem
   create_time: 20190822T12:55:00
   id: 1146866
@@ -27792,8 +27799,8 @@
 - component: X.Org
   create_time: 20190822T12:40:00
   id: 1146862
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Wacom multitouch screens should not use the xf86-input-wacom driver for
     touch support
 - component: Security
@@ -27941,14 +27948,14 @@
 - component: Sound
   create_time: 20190820T15:28:00
   id: 1146420
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: pulseaudio-dlna broken dependency
 - component: Other
   create_time: 20190820T12:57:00
   id: 1146387
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: tilix fails to start after update
 - component: Kubic
   create_time: 20190820T11:59:00
