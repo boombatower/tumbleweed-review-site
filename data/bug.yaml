@@ -27014,8 +27014,8 @@
 - component: Other
   create_time: 20190802T16:13:00
   id: 1144068
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'grpc: update to 1.22.0'
 - component: X11 Applications
   create_time: 20190802T15:23:00
