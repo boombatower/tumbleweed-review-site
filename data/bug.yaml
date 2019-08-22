@@ -27783,6 +27783,13 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: Samba
+  create_time: 20190822T05:24:00
+  id: 1146736
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190815] openQA test fails in yast2_samba - a problem occurred
+    when connecting LDAP server'
 - component: KDE Workspace (Plasma)
   create_time: 20190822T01:47:00
   id: 1146730
