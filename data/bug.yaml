@@ -13589,8 +13589,8 @@
 - component: Other
   create_time: 20181013T03:39:00
   id: 1111724
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/busybox'
 - component: Other
   create_time: 20181013T03:37:00
@@ -27783,6 +27783,19 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: Basesystem
+  create_time: 20190822T12:55:00
+  id: 1146866
+  resolution: FIXED
+  status: RESOLVED
+  summary: stricter security settings on some netwpork sysctls
+- component: X.Org
+  create_time: 20190822T12:40:00
+  id: 1146862
+  resolution: ''
+  status: NEW
+  summary: Wacom multitouch screens should not use the xf86-input-wacom driver for
+    touch support
 - component: Security
   create_time: 20190822T10:43:00
   id: 1146831
