@@ -27663,7 +27663,7 @@
   id: 1145182
   resolution: ''
   status: IN_PROGRESS
-  summary: 'AUDIT-0: kcm_sddm: polkit-untracked-privilege org.kde.kcontrol.kcmsddm.reset
+  summary: 'AUDIT-TRACKER: kcm_sddm: polkit-untracked-privilege org.kde.kcontrol.kcmsddm.reset
     and .sync'
 - component: Security
   create_time: 20190810T18:10:00
@@ -27783,6 +27783,26 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: Security
+  create_time: 20190822T10:43:00
+  id: 1146831
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-FIND: kcm_sddm: should the auth helper created the sddm user''s
+    home directory?'
+- component: Security
+  create_time: 20190822T10:20:00
+  id: 1146817
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-FIND: kcm_sddm: if no sddm user is existing in the system, /.config
+    is created'
+- component: Kubic
+  create_time: 20190822T09:48:00
+  id: 1146802
+  resolution: ''
+  status: NEW
+  summary: kubic image does not call cloud-init
 - component: Kernel
   create_time: 20190822T08:08:00
   id: 1146769
@@ -28083,8 +28103,8 @@
 - component: Installation
   create_time: 20190815T16:07:00
   id: 1145777
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Nvidia Jetson TX2: gpio drivers are missing in installer initrd'
 - component: Kubic
   create_time: 20190815T14:51:00
