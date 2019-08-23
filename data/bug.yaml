@@ -28028,7 +28028,7 @@
   create_time: 20190821T22:09:00
   id: 1146724
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Vimb is compiled with wrong prefix, different than installation prefix
 - component: Kernel
   create_time: 20190821T19:43:00
