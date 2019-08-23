@@ -27953,6 +27953,12 @@
   status: NEW
   summary: xmlgraphics-fop does not find hyphenation pattern
 '20190820':
+- component: Kernel
+  create_time: 20190823T22:43:00
+  id: 1147412
+  resolution: ''
+  status: NEW
+  summary: bcache-register fails during boot, leaving backing store busy
 - component: Network
   create_time: 20190823T17:26:00
   id: 1147153
