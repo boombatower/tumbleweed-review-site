@@ -25817,7 +25817,7 @@
   id: 1141362
   resolution: ''
   status: IN_PROGRESS
-  summary: Apple Trackpad 2 only moves when pressed and freezes sytstem
+  summary: Apple Trackpad 2 only moves when pressed and freezes system
 - component: Other
   create_time: 20190712T20:30:00
   id: 1141357
@@ -26531,8 +26531,8 @@
 - component: Other
   create_time: 20190721T01:07:00
   id: 1142267
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: gzdoom-4.1.3-22.5.x86_64 fails with a segmentation fault
 '20190723':
 - component: Basesystem
@@ -26544,8 +26544,8 @@
 - component: X.Org
   create_time: 20190723T15:46:00
   id: 1142530
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: libICE6 >=1.0.10 blocks KDE3 and TDE sessions from starting
 - component: Security
   create_time: 20190723T15:46:00
@@ -26674,8 +26674,8 @@
 - component: Other
   create_time: 20190725T02:15:00
   id: 1142714
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: pari-gp not compiled for multithreading
 - component: KDE Applications
   create_time: 20190724T22:36:00
@@ -27953,6 +27953,19 @@
   status: NEW
   summary: xmlgraphics-fop does not find hyphenation pattern
 '20190820':
+- component: Security
+  create_time: 20190823T13:14:00
+  id: 1147116
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2019-15504: kernel-source: double Free via crafted USB device
+    traffic in rivers/net/wireless/rsi/rsi_91x_usb.c'
+- component: Basesystem
+  create_time: 20190823T13:08:00
+  id: 1147111
+  resolution: ''
+  status: NEW
+  summary: CTRL-ALT-Backspace twice powers down the system
 - component: X11 Applications
   create_time: 20190823T11:02:00
   id: 1147059
@@ -28045,8 +28058,8 @@
 - component: Other
   create_time: 20190821T22:09:00
   id: 1146724
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Vimb is compiled with wrong prefix, different than installation prefix
 - component: Kernel
   create_time: 20190821T19:43:00
