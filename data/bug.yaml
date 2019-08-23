@@ -27773,8 +27773,8 @@
 - component: Network
   create_time: 20190814T04:17:00
   id: 1145525
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '"iw" (intel wireless tool) broken'
 - component: Kernel
   create_time: 20190814T03:04:00
@@ -27783,6 +27783,176 @@
   status: NEW
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
+- component: X11 3rd Party Driver
+  create_time: 20190819T14:51:00
+  id: 1146207
+  resolution: FIXED
+  status: RESOLVED
+  summary: Compile of proprietary NVIDIA driver failed after tumbleweed update
+- component: X.Org
+  create_time: 20190819T12:52:00
+  id: 1146181
+  resolution: FIXED
+  status: RESOLVED
+  summary: Xf86-input-wacom driver project has moved
+- component: Kubic
+  create_time: 20190819T09:18:00
+  id: 1146116
+  resolution: ''
+  status: NEW
+  summary: '"transactional-update --no-selfupdate" does nothing'
+- component: Other
+  create_time: 20190819T08:30:00
+  id: 1146096
+  resolution: ''
+  status: NEW
+  summary: 'LTO: opencv build fails on ppc64le'
+- component: Installation
+  create_time: 20190819T08:23:00
+  id: 1146092
+  resolution: ''
+  status: NEW
+  summary: second stage of installation removes NETCONFIG_DNS_POLICY from sysconfig
+- component: Basesystem
+  create_time: 20190819T08:11:00
+  id: 1146085
+  resolution: ''
+  status: NEW
+  summary: tumbleweed does not understand /history URL as installation source
+- component: Java
+  create_time: 20190819T07:49:00
+  id: 1146078
+  resolution: ''
+  status: NEW
+  summary: Please move MathJax fonts into a sub directory below /usr/share/fonts
+- component: Kernel
+  create_time: 20190819T05:44:00
+  id: 1146039
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: nvidia-gfxG04 (390.129) does not work with kernel > 5.1.16
+- component: Other
+  create_time: 20190819T00:20:00
+  id: 1146028
+  resolution: FIXED
+  status: RESOLVED
+  summary: texdoc missing package database
+- component: Kernel
+  create_time: 20190818T22:07:00
+  id: 1146026
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Coral board is lacking PMIC regulators
+- component: Printing
+  create_time: 20190818T17:33:00
+  id: 1146022
+  resolution: ''
+  status: NEW
+  summary: hplip, infinite loop setting up some printers
+- component: KDE Workspace (Plasma)
+  create_time: 20190818T09:12:00
+  id: 1146018
+  resolution: ''
+  status: NEW
+  summary: Unreliable copy and cut
+- component: Other
+  create_time: 20190818T07:16:00
+  id: 1146016
+  resolution: ''
+  status: NEW
+  summary: 'filesystems/davfs2: "program is not setuid root" mismatch with documentation'
+- component: Sound
+  create_time: 20190818T01:40:00
+  id: 1146011
+  resolution: ''
+  status: NEW
+  summary: Audio very low on Lenovo Ideapad S940
+- component: Network
+  create_time: 20190817T18:31:00
+  id: 1146010
+  resolution: ''
+  status: NEW
+  summary: twinkle call history not sorted by time descending
+- component: Basesystem
+  create_time: 20190816T19:56:00
+  id: 1145960
+  resolution: ''
+  status: NEW
+  summary: systemd .path file is not properly activated on upgrade
+- component: Basesystem
+  create_time: 20190816T14:20:00
+  id: 1145921
+  resolution: ''
+  status: NEW
+  summary: 'dracut: `rd.neednet=1 ip=dhcp` boot parameters end in emergency shell'
+- component: Other
+  create_time: 20190816T09:59:00
+  id: 1145913
+  resolution: ''
+  status: NEW
+  summary: 'apcupsd was compiled without: configure --enable-usb'
+- component: Bootloader
+  create_time: 20190816T04:05:00
+  id: 1145802
+  resolution: FIXED
+  status: RESOLVED
+  summary: Typo (data_dir) in shim-install
+- component: Other
+  create_time: 20190815T18:49:00
+  id: 1145788
+  resolution: ''
+  status: NEW
+  summary: 'graphics/luminance-hdr: Update to 2.6.0'
+- component: Installation
+  create_time: 20190815T16:07:00
+  id: 1145777
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Nvidia Jetson TX2: gpio drivers are missing in installer initrd'
+- component: Kubic
+  create_time: 20190815T14:51:00
+  id: 1145768
+  resolution: FIXED
+  status: RESOLVED
+  summary: Add salt-minion configuration to worker and loadbalancer system role of
+    Kubic
+- component: YaST2
+  create_time: 20190815T13:41:00
+  id: 1145754
+  resolution: FIXED
+  status: RESOLVED
+  summary: yast2-cluster should switch to the rake base installation
+- component: Other
+  create_time: 20190815T11:42:00
+  id: 1145736
+  resolution: ''
+  status: NEW
+  summary: 'Duplitcatebinary: python3-rrdtool'
+- component: Other
+  create_time: 20190815T11:28:00
+  id: 1145735
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Duplicate binaries produced by different llvm versions
+- component: Kernel
+  create_time: 20190815T09:05:00
+  id: 1145715
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: bbswitch kernel module package matching current kernel is missing
+- component: libzypp
+  create_time: 20190815T01:21:00
+  id: 1145694
+  resolution: INVALID
+  status: RESOLVED
+  summary: zypper ar obs://... fails to operate correctly
+- component: Java
+  create_time: 20190815T00:11:00
+  id: 1145693
+  resolution: ''
+  status: NEW
+  summary: xmlgraphics-fop does not find hyphenation pattern
+'20190820':
 - component: YaST2
   create_time: 20190822T15:58:00
   id: 1146898
@@ -28000,172 +28170,3 @@
   resolution: ''
   status: NEW
   summary: 'ccx (calculix): update to 2.15'
-- component: X11 3rd Party Driver
-  create_time: 20190819T14:51:00
-  id: 1146207
-  resolution: FIXED
-  status: RESOLVED
-  summary: Compile of proprietary NVIDIA driver failed after tumbleweed update
-- component: X.Org
-  create_time: 20190819T12:52:00
-  id: 1146181
-  resolution: FIXED
-  status: RESOLVED
-  summary: Xf86-input-wacom driver project has moved
-- component: Kubic
-  create_time: 20190819T09:18:00
-  id: 1146116
-  resolution: ''
-  status: NEW
-  summary: '"transactional-update --no-selfupdate" does nothing'
-- component: Other
-  create_time: 20190819T08:30:00
-  id: 1146096
-  resolution: ''
-  status: NEW
-  summary: 'LTO: opencv build fails on ppc64le'
-- component: Installation
-  create_time: 20190819T08:23:00
-  id: 1146092
-  resolution: ''
-  status: NEW
-  summary: second stage of installation removes NETCONFIG_DNS_POLICY from sysconfig
-- component: Basesystem
-  create_time: 20190819T08:11:00
-  id: 1146085
-  resolution: ''
-  status: NEW
-  summary: tumbleweed does not understand /history URL as installation source
-- component: Java
-  create_time: 20190819T07:49:00
-  id: 1146078
-  resolution: ''
-  status: NEW
-  summary: Please move MathJax fonts into a sub directory below /usr/share/fonts
-- component: Kernel
-  create_time: 20190819T05:44:00
-  id: 1146039
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: nvidia-gfxG04 (390.129) does not work with kernel > 5.1.16
-- component: Other
-  create_time: 20190819T00:20:00
-  id: 1146028
-  resolution: FIXED
-  status: RESOLVED
-  summary: texdoc missing package database
-- component: Kernel
-  create_time: 20190818T22:07:00
-  id: 1146026
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Coral board is lacking PMIC regulators
-- component: Printing
-  create_time: 20190818T17:33:00
-  id: 1146022
-  resolution: ''
-  status: NEW
-  summary: hplip, infinite loop setting up some printers
-- component: KDE Workspace (Plasma)
-  create_time: 20190818T09:12:00
-  id: 1146018
-  resolution: ''
-  status: NEW
-  summary: Unreliable copy and cut
-- component: Other
-  create_time: 20190818T07:16:00
-  id: 1146016
-  resolution: ''
-  status: NEW
-  summary: 'filesystems/davfs2: "program is not setuid root" mismatch with documentation'
-- component: Sound
-  create_time: 20190818T01:40:00
-  id: 1146011
-  resolution: ''
-  status: NEW
-  summary: Audio very low on Lenovo Ideapad S940
-- component: Network
-  create_time: 20190817T18:31:00
-  id: 1146010
-  resolution: ''
-  status: NEW
-  summary: twinkle call history not sorted by time descending
-- component: Basesystem
-  create_time: 20190816T19:56:00
-  id: 1145960
-  resolution: ''
-  status: NEW
-  summary: systemd .path file is not properly activated on upgrade
-- component: Basesystem
-  create_time: 20190816T14:20:00
-  id: 1145921
-  resolution: ''
-  status: NEW
-  summary: 'dracut: `rd.neednet=1 ip=dhcp` boot parameters end in emergency shell'
-- component: Other
-  create_time: 20190816T09:59:00
-  id: 1145913
-  resolution: ''
-  status: NEW
-  summary: 'apcupsd was compiled without: configure --enable-usb'
-- component: Bootloader
-  create_time: 20190816T04:05:00
-  id: 1145802
-  resolution: FIXED
-  status: RESOLVED
-  summary: Typo (data_dir) in shim-install
-- component: Other
-  create_time: 20190815T18:49:00
-  id: 1145788
-  resolution: ''
-  status: NEW
-  summary: 'graphics/luminance-hdr: Update to 2.6.0'
-- component: Installation
-  create_time: 20190815T16:07:00
-  id: 1145777
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'Nvidia Jetson TX2: gpio drivers are missing in installer initrd'
-- component: Kubic
-  create_time: 20190815T14:51:00
-  id: 1145768
-  resolution: FIXED
-  status: RESOLVED
-  summary: Add salt-minion configuration to worker and loadbalancer system role of
-    Kubic
-- component: YaST2
-  create_time: 20190815T13:41:00
-  id: 1145754
-  resolution: FIXED
-  status: RESOLVED
-  summary: yast2-cluster should switch to the rake base installation
-- component: Other
-  create_time: 20190815T11:42:00
-  id: 1145736
-  resolution: ''
-  status: NEW
-  summary: 'Duplitcatebinary: python3-rrdtool'
-- component: Other
-  create_time: 20190815T11:28:00
-  id: 1145735
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Duplicate binaries produced by different llvm versions
-- component: Kernel
-  create_time: 20190815T09:05:00
-  id: 1145715
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: bbswitch kernel module package matching current kernel is missing
-- component: libzypp
-  create_time: 20190815T01:21:00
-  id: 1145694
-  resolution: INVALID
-  status: RESOLVED
-  summary: zypper ar obs://... fails to operate correctly
-- component: Java
-  create_time: 20190815T00:11:00
-  id: 1145693
-  resolution: ''
-  status: NEW
-  summary: xmlgraphics-fop does not find hyphenation pattern
