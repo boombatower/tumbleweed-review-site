@@ -25387,7 +25387,7 @@
   create_time: 20190630T08:34:00
   id: 1139801
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Salt Warnings in Kubic
 - component: Kubic
   create_time: 20190630T08:30:00
@@ -27333,8 +27333,8 @@
 - component: Other
   create_time: 20190805T09:22:00
   id: 1144245
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Drop jasper dependency from libdevil
 - component: Other
   create_time: 20190805T09:17:00
@@ -27351,8 +27351,8 @@
 - component: KDE Applications
   create_time: 20190805T09:02:00
   id: 1144232
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Drop jasper dependency from Digikam
 '20190806':
 - component: YaST2
