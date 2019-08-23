@@ -27953,6 +27953,24 @@
   status: NEW
   summary: xmlgraphics-fop does not find hyphenation pattern
 '20190820':
+- component: X11 Applications
+  create_time: 20190823T11:02:00
+  id: 1147059
+  resolution: ''
+  status: NEW
+  summary: Spontaneous freezes in X11 applications
+- component: Firefox
+  create_time: 20190823T10:55:00
+  id: 1147055
+  resolution: ''
+  status: NEW
+  summary: Firefox does not play audio after latest update
+- component: Kernel
+  create_time: 20190823T09:28:00
+  id: 1147032
+  resolution: ''
+  status: NEW
+  summary: 'kernel trace: WARNING: CPU: 7 PID: 0 at net/sched/sch_generic.c:442 dev_watchdog+0x248/0x250'
 - component: YaST2
   create_time: 20190822T15:58:00
   id: 1146898
