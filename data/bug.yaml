@@ -27953,6 +27953,19 @@
   status: NEW
   summary: xmlgraphics-fop does not find hyphenation pattern
 '20190820':
+- component: Network
+  create_time: 20190823T17:26:00
+  id: 1147153
+  resolution: ''
+  status: NEW
+  summary: firewalld specifying prefix results in firewall log with wrong layout
+- component: Other
+  create_time: 20190823T17:01:00
+  id: 1147151
+  resolution: ''
+  status: NEW
+  summary: python-cheroot two failing tests "unpack requires a string argument of
+    length 12" for ppc64le
 - component: Security
   create_time: 20190823T13:14:00
   id: 1147116
