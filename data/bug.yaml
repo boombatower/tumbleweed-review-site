@@ -27953,127 +27953,6 @@
   status: NEW
   summary: xmlgraphics-fop does not find hyphenation pattern
 '20190820':
-- component: Kernel
-  create_time: 20190823T22:43:00
-  id: 1147412
-  resolution: ''
-  status: NEW
-  summary: bcache-register fails during boot, leaving backing store busy
-- component: Network
-  create_time: 20190823T17:26:00
-  id: 1147153
-  resolution: ''
-  status: NEW
-  summary: firewalld specifying prefix results in firewall log with wrong layout
-- component: Other
-  create_time: 20190823T17:01:00
-  id: 1147151
-  resolution: ''
-  status: NEW
-  summary: python-cheroot two failing tests "unpack requires a string argument of
-    length 12" for ppc64le
-- component: Security
-  create_time: 20190823T13:14:00
-  id: 1147116
-  resolution: ''
-  status: NEW
-  summary: 'VUL-1: CVE-2019-15504: kernel-source: double Free via crafted USB device
-    traffic in rivers/net/wireless/rsi/rsi_91x_usb.c'
-- component: Basesystem
-  create_time: 20190823T13:08:00
-  id: 1147111
-  resolution: ''
-  status: NEW
-  summary: CTRL-ALT-Backspace twice powers down the system
-- component: X11 Applications
-  create_time: 20190823T11:02:00
-  id: 1147059
-  resolution: ''
-  status: NEW
-  summary: Spontaneous freezes in X11 applications
-- component: Firefox
-  create_time: 20190823T10:55:00
-  id: 1147055
-  resolution: ''
-  status: NEW
-  summary: Firefox does not play audio after latest update
-- component: Kernel
-  create_time: 20190823T09:28:00
-  id: 1147032
-  resolution: ''
-  status: NEW
-  summary: 'kernel trace: WARNING: CPU: 7 PID: 0 at net/sched/sch_generic.c:442 dev_watchdog+0x248/0x250'
-- component: YaST2
-  create_time: 20190822T15:58:00
-  id: 1146898
-  resolution: ''
-  status: NEW
-  summary: 'yast2-adcommon-python: AD modules should connect to an AD-DC via the SamDB
-    interface, instead of python-ldap'
-- component: Basesystem
-  create_time: 20190822T12:55:00
-  id: 1146866
-  resolution: FIXED
-  status: RESOLVED
-  summary: stricter security settings on some netwpork sysctls
-- component: X.Org
-  create_time: 20190822T12:40:00
-  id: 1146862
-  resolution: FIXED
-  status: RESOLVED
-  summary: Wacom multitouch screens should not use the xf86-input-wacom driver for
-    touch support
-- component: Security
-  create_time: 20190822T10:43:00
-  id: 1146831
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-FIND: kcm_sddm: should the auth helper created the sddm user''s
-    home directory?'
-- component: Security
-  create_time: 20190822T10:20:00
-  id: 1146817
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-FIND: kcm_sddm: if no sddm user is existing in the system, /.config
-    is created'
-- component: Kubic
-  create_time: 20190822T09:48:00
-  id: 1146802
-  resolution: ''
-  status: NEW
-  summary: kubic image does not call cloud-init
-- component: Kernel
-  create_time: 20190822T08:08:00
-  id: 1146769
-  resolution: ''
-  status: NEW
-  summary: kernel-firmware-amdgpu breaks polaris10
-- component: Samba
-  create_time: 20190822T05:24:00
-  id: 1146736
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190815] openQA test fails in yast2_samba - a problem occurred
-    when connecting LDAP server'
-- component: KDE Workspace (Plasma)
-  create_time: 20190822T01:47:00
-  id: 1146730
-  resolution: ''
-  status: NEW
-  summary: Right Click Chromium Doesn't Work - Wayland
-- component: KDE Workspace (Plasma)
-  create_time: 20190822T01:40:00
-  id: 1146729
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: KRunner Hidden Behind Top Panel - Wayland
-- component: KDE Workspace (Plasma)
-  create_time: 20190822T01:30:00
-  id: 1146728
-  resolution: ''
-  status: NEW
-  summary: Screen Edges for KDE Doesn't Fully Load
 - component: Other
   create_time: 20190821T22:09:00
   id: 1146724
@@ -28220,3 +28099,125 @@
   resolution: ''
   status: NEW
   summary: 'ccx (calculix): update to 2.15'
+'20190822':
+- component: Kernel
+  create_time: 20190823T22:43:00
+  id: 1147412
+  resolution: ''
+  status: NEW
+  summary: bcache-register fails during boot, leaving backing store busy
+- component: Network
+  create_time: 20190823T17:26:00
+  id: 1147153
+  resolution: ''
+  status: NEW
+  summary: firewalld specifying prefix results in firewall log with wrong layout
+- component: Other
+  create_time: 20190823T17:01:00
+  id: 1147151
+  resolution: ''
+  status: NEW
+  summary: python-cheroot two failing tests "unpack requires a string argument of
+    length 12" for ppc64le
+- component: Security
+  create_time: 20190823T13:14:00
+  id: 1147116
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2019-15504: kernel-source: double Free via crafted USB device
+    traffic in rivers/net/wireless/rsi/rsi_91x_usb.c'
+- component: Basesystem
+  create_time: 20190823T13:08:00
+  id: 1147111
+  resolution: ''
+  status: NEW
+  summary: CTRL-ALT-Backspace twice powers down the system
+- component: X11 Applications
+  create_time: 20190823T11:02:00
+  id: 1147059
+  resolution: ''
+  status: NEW
+  summary: Spontaneous freezes in X11 applications
+- component: Firefox
+  create_time: 20190823T10:55:00
+  id: 1147055
+  resolution: ''
+  status: NEW
+  summary: Firefox does not play audio after latest update
+- component: Kernel
+  create_time: 20190823T09:28:00
+  id: 1147032
+  resolution: ''
+  status: NEW
+  summary: 'kernel trace: WARNING: CPU: 7 PID: 0 at net/sched/sch_generic.c:442 dev_watchdog+0x248/0x250'
+- component: YaST2
+  create_time: 20190822T15:58:00
+  id: 1146898
+  resolution: ''
+  status: NEW
+  summary: 'yast2-adcommon-python: AD modules should connect to an AD-DC via the SamDB
+    interface, instead of python-ldap'
+- component: Basesystem
+  create_time: 20190822T12:55:00
+  id: 1146866
+  resolution: FIXED
+  status: RESOLVED
+  summary: stricter security settings on some netwpork sysctls
+- component: X.Org
+  create_time: 20190822T12:40:00
+  id: 1146862
+  resolution: FIXED
+  status: RESOLVED
+  summary: Wacom multitouch screens should not use the xf86-input-wacom driver for
+    touch support
+- component: Security
+  create_time: 20190822T10:43:00
+  id: 1146831
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-FIND: kcm_sddm: should the auth helper created the sddm user''s
+    home directory?'
+- component: Security
+  create_time: 20190822T10:20:00
+  id: 1146817
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-FIND: kcm_sddm: if no sddm user is existing in the system, /.config
+    is created'
+- component: Kubic
+  create_time: 20190822T09:48:00
+  id: 1146802
+  resolution: ''
+  status: NEW
+  summary: kubic image does not call cloud-init
+- component: Kernel
+  create_time: 20190822T08:08:00
+  id: 1146769
+  resolution: ''
+  status: NEW
+  summary: kernel-firmware-amdgpu breaks polaris10
+- component: Samba
+  create_time: 20190822T05:24:00
+  id: 1146736
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190815] openQA test fails in yast2_samba - a problem occurred
+    when connecting LDAP server'
+- component: KDE Workspace (Plasma)
+  create_time: 20190822T01:47:00
+  id: 1146730
+  resolution: ''
+  status: NEW
+  summary: Right Click Chromium Doesn't Work - Wayland
+- component: KDE Workspace (Plasma)
+  create_time: 20190822T01:40:00
+  id: 1146729
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: KRunner Hidden Behind Top Panel - Wayland
+- component: KDE Workspace (Plasma)
+  create_time: 20190822T01:30:00
+  id: 1146728
+  resolution: ''
+  status: NEW
+  summary: Screen Edges for KDE Doesn't Fully Load
