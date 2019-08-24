@@ -28100,6 +28100,12 @@
   status: NEW
   summary: 'ccx (calculix): update to 2.15'
 '20190822':
+- component: Kernel
+  create_time: 20190824T11:36:00
+  id: 1147643
+  resolution: ''
+  status: NEW
+  summary: Warning message when umounting iso9660 fs
 - component: Translations
   create_time: 20190824T06:07:00
   id: 1147613
