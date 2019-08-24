@@ -2326,10 +2326,10 @@
   threads: []
 '20190822':
   announcement: 2019-08.185
-  reference_count: 3
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
     - 2019-08.188
-    reference_count: 3
+    reference_count: 6
     summary: no summary given
