@@ -2326,10 +2326,28 @@
   threads: []
 '20190822':
   announcement: 2019-08.185
-  reference_count: 6
+  reference_count: 19
   thread_count: 1
   threads:
   - messages:
     - 2019-08.188
-    reference_count: 6
+    reference_count: 19
+    summary: no summary given
+'20190823':
+  announcement: 2019-08.212
+  reference_count: 5
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-08.237
+    reference_count: 5
+    summary: released! / Intel Wireless AC-9260 / kernel-firmware-iwlwifi
+'20190824':
+  announcement: 2019-08.230
+  reference_count: 3
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-08.233
+    reference_count: 3
     summary: no summary given
