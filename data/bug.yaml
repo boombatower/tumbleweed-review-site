@@ -16598,8 +16598,8 @@
 - component: Kernel
   create_time: 20181206T22:41:00
   id: 1118689
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 32bit x86 4.19 4.20 5.0 5.1 5.2-rc pae and vanilla kernels randomly lockup
     or trigger reboot
 - component: Other
@@ -25265,8 +25265,8 @@
 - component: YaST2
   create_time: 20190626T17:06:00
   id: 1139492
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Errors encountered during installation and afterwards with LVM RAID-5 +
     SSD Cache
 - component: Installation
@@ -25943,8 +25943,8 @@
 - component: Other
   create_time: 20190710T09:25:00
   id: 1140976
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Vulkan validation layers cause segfault when calling vkCreateDevice()
 - component: Other
   create_time: 20190709T19:35:00
@@ -27340,7 +27340,7 @@
   create_time: 20190805T09:17:00
   id: 1144244
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Drop jasper dependency from gstreamer-plugins-bad
 - component: Other
   create_time: 20190805T09:13:00
@@ -27376,8 +27376,8 @@
 - component: Other
   create_time: 20190808T16:25:00
   id: 1144916
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Chromium 76.0.3809.87-1.1 browser crashes at start on openSUSE-20180206-0
 - component: AutoYaST
   create_time: 20190808T13:58:00
@@ -27485,8 +27485,8 @@
 - component: Other
   create_time: 20190806T13:01:00
   id: 1144506
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: python-packaging 19.1 requires python-attrs at runtime but the rpm does
     not depend on it
 - component: AutoYaST
@@ -27581,8 +27581,8 @@
 - component: Development
   create_time: 20190813T11:38:00
   id: 1145444
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Clang8 pulls in old clang-checker6
 - component: Other
   create_time: 20190813T09:49:00
@@ -28011,8 +28011,8 @@
 - component: Other
   create_time: 20190821T08:36:00
   id: 1146555
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Drop jasper dependency from telegram-desktop
 - component: Development
   create_time: 20190821T08:27:00
@@ -28023,8 +28023,8 @@
 - component: Basesystem
   create_time: 20190821T07:55:00
   id: 1146533
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: llvm8 pulls in python 2
 - component: Other
   create_time: 20190821T07:23:00
@@ -28100,18 +28100,78 @@
   status: NEW
   summary: 'ccx (calculix): update to 2.15'
 '20190822':
+- component: YaST2
+  create_time: 20190822T15:58:00
+  id: 1146898
+  resolution: ''
+  status: NEW
+  summary: 'yast2-adcommon-python: AD modules should connect to an AD-DC via the SamDB
+    interface, instead of python-ldap'
+- component: Basesystem
+  create_time: 20190822T12:55:00
+  id: 1146866
+  resolution: FIXED
+  status: RESOLVED
+  summary: stricter security settings on some netwpork sysctls
+- component: X.Org
+  create_time: 20190822T12:40:00
+  id: 1146862
+  resolution: FIXED
+  status: RESOLVED
+  summary: Wacom multitouch screens should not use the xf86-input-wacom driver for
+    touch support
+- component: Security
+  create_time: 20190822T10:43:00
+  id: 1146831
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-FIND: kcm_sddm: should the auth helper created the sddm user''s
+    home directory?'
+- component: Security
+  create_time: 20190822T10:20:00
+  id: 1146817
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-FIND: kcm_sddm: if no sddm user is existing in the system, /.config
+    is created'
+- component: Kubic
+  create_time: 20190822T09:48:00
+  id: 1146802
+  resolution: ''
+  status: NEW
+  summary: kubic image does not call cloud-init
 - component: Kernel
-  create_time: 20190824T11:36:00
-  id: 1147643
+  create_time: 20190822T08:08:00
+  id: 1146769
+  resolution: FIXED
+  status: RESOLVED
+  summary: kernel-firmware-amdgpu breaks polaris10
+- component: Samba
+  create_time: 20190822T05:24:00
+  id: 1146736
   resolution: ''
   status: NEW
-  summary: Warning message when umounting iso9660 fs
-- component: Translations
-  create_time: 20190824T06:07:00
-  id: 1147613
+  summary: '[Build 20190815] openQA test fails in yast2_samba - a problem occurred
+    when connecting LDAP server'
+- component: KDE Workspace (Plasma)
+  create_time: 20190822T01:47:00
+  id: 1146730
   resolution: ''
   status: NEW
-  summary: update-desktop-files-yast.pot and scripts need to be updated
+  summary: Right Click Chromium Doesn't Work - Wayland
+- component: KDE Workspace (Plasma)
+  create_time: 20190822T01:40:00
+  id: 1146729
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: KRunner Hidden Behind Top Panel - Wayland
+- component: KDE Workspace (Plasma)
+  create_time: 20190822T01:30:00
+  id: 1146728
+  resolution: ''
+  status: NEW
+  summary: Screen Edges for KDE Doesn't Fully Load
+'20190823':
 - component: Kernel
   create_time: 20190823T22:43:00
   id: 1147412
@@ -28162,74 +28222,89 @@
   resolution: ''
   status: NEW
   summary: 'kernel trace: WARNING: CPU: 7 PID: 0 at net/sched/sch_generic.c:442 dev_watchdog+0x248/0x250'
-- component: YaST2
-  create_time: 20190822T15:58:00
-  id: 1146898
+'20190824':
+- component: Network
+  create_time: 20190826T20:11:00
+  id: 1148233
   resolution: ''
   status: NEW
-  summary: 'yast2-adcommon-python: AD modules should connect to an AD-DC via the SamDB
-    interface, instead of python-ldap'
-- component: Basesystem
-  create_time: 20190822T12:55:00
-  id: 1146866
-  resolution: FIXED
+  summary: Intel Wireless AC-9260 no longer works in Tumbleweed 2019-08-23 snapshot
+- component: KDE Applications
+  create_time: 20190826T17:14:00
+  id: 1148217
+  resolution: ''
+  status: NEW
+  summary: 'libkgapi: kio fails to load gdrive.so, if linked with LTO'
+- component: Development
+  create_time: 20190826T14:32:00
+  id: 1148184
+  resolution: ''
+  status: NEW
+  summary: 'LTO: libsodium build failure for ppc64le as bad cpuid opcode'
+- component: Other
+  create_time: 20190826T14:31:00
+  id: 1148183
+  resolution: ''
+  status: NEW
+  summary: Calibre is not installable due to missing libicu >= 4.4
+- component: Development
+  create_time: 20190826T13:44:00
+  id: 1148173
+  resolution: ''
+  status: NEW
+  summary: python-numpy has 6 failing tests for ppc64le since version 1.16.3
+- component: Other
+  create_time: 20190826T12:45:00
+  id: 1148161
+  resolution: ''
+  status: NEW
+  summary: '[New Package Request] vcvrack - Open-source virtual modular synthesizer'
+- component: libzypp
+  create_time: 20190826T11:15:00
+  id: 1148136
+  resolution: INVALID
   status: RESOLVED
-  summary: stricter security settings on some netwpork sysctls
-- component: X.Org
-  create_time: 20190822T12:40:00
-  id: 1146862
-  resolution: FIXED
-  status: RESOLVED
-  summary: Wacom multitouch screens should not use the xf86-input-wacom driver for
-    touch support
-- component: Security
-  create_time: 20190822T10:43:00
-  id: 1146831
+  summary: gpk-update-viewer uninstalls manually installed zenmap
+- component: Xfce
+  create_time: 20190826T10:48:00
+  id: 1148128
   resolution: ''
   status: NEW
-  summary: 'AUDIT-FIND: kcm_sddm: should the auth helper created the sddm user''s
-    home directory?'
-- component: Security
-  create_time: 20190822T10:20:00
-  id: 1146817
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-FIND: kcm_sddm: if no sddm user is existing in the system, /.config
-    is created'
-- component: Kubic
-  create_time: 20190822T09:48:00
-  id: 1146802
-  resolution: ''
-  status: NEW
-  summary: kubic image does not call cloud-init
+  summary: xfce4-power-manager doesn't lock screen on laptop lid close with xlock
 - component: Kernel
-  create_time: 20190822T08:08:00
-  id: 1146769
+  create_time: 20190826T08:03:00
+  id: 1148085
   resolution: ''
   status: NEW
-  summary: kernel-firmware-amdgpu breaks polaris10
-- component: Samba
-  create_time: 20190822T05:24:00
-  id: 1146736
+  summary: x.org display flickering/artifacting when scrolling (basically, when something
+    needs to be refreshed)
+- component: Basesystem
+  create_time: 20190825T09:29:00
+  id: 1147654
   resolution: ''
   status: NEW
-  summary: '[Build 20190815] openQA test fails in yast2_samba - a problem occurred
-    when connecting LDAP server'
-- component: KDE Workspace (Plasma)
-  create_time: 20190822T01:47:00
-  id: 1146730
+  summary: DRM does not work on chromium
+- component: Xfce
+  create_time: 20190825T06:13:00
+  id: 1147652
   resolution: ''
   status: NEW
-  summary: Right Click Chromium Doesn't Work - Wayland
-- component: KDE Workspace (Plasma)
-  create_time: 20190822T01:40:00
-  id: 1146729
-  resolution: UPSTREAM
+  summary: chromium crashes on startup within xfce
+- component: Other
+  create_time: 20190824T21:46:00
+  id: 1147651
+  resolution: ''
+  status: NEW
+  summary: Wayland sessions do not set/get correct dbus session bus address
+- component: Kernel
+  create_time: 20190824T11:36:00
+  id: 1147643
+  resolution: FIXED
   status: RESOLVED
-  summary: KRunner Hidden Behind Top Panel - Wayland
-- component: KDE Workspace (Plasma)
-  create_time: 20190822T01:30:00
-  id: 1146728
+  summary: Warning message when umounting iso9660 fs
+- component: Translations
+  create_time: 20190824T06:07:00
+  id: 1147613
   resolution: ''
   status: NEW
-  summary: Screen Edges for KDE Doesn't Fully Load
+  summary: update-desktop-files-yast.pot and scripts need to be updated
