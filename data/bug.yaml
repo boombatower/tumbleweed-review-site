@@ -19209,8 +19209,8 @@
 - component: Kernel
   create_time: 20190213T10:30:00
   id: 1125278
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WONTFIX
+  status: RESOLVED
   summary: bonnie++ file delete regression between SLE15 and 4.20
 - component: Patterns
   create_time: 20190213T09:20:00
@@ -27109,14 +27109,14 @@
 - component: Basesystem
   create_time: 20190802T14:47:00
   id: 1144044
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please add "pam_keyinit.so" to the /etc/pam.d/crond configuration file
 - component: Basesystem
   create_time: 20190802T14:42:00
   id: 1144041
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Please add "pam_keyinit.so" to the /etc/pam.d/atd configuration file
 - component: Basesystem
   create_time: 20190802T13:07:00
@@ -27730,8 +27730,8 @@
 - component: Security
   create_time: 20190814T14:15:00
   id: 1145639
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: systemd: new dbus service and polkit privileges for systemd-portabled'
 - component: Basesystem
   create_time: 20190814T14:10:00
@@ -28084,8 +28084,8 @@
 - component: Security
   create_time: 20190820T08:06:00
   id: 1146300
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: systemd: networkd untracked privileges'
 - component: X.Org
   create_time: 20190820T07:14:00
@@ -28216,6 +28216,13 @@
   resolution: ''
   status: NEW
   summary: Firefox does not play audio after latest update
+- component: Security
+  create_time: 20190823T09:47:00
+  id: 1147037
+  resolution: ''
+  status: NEW
+  summary: 'VUL-0: CVE-2019-2386: mongodb: improper invalidation of user sessions
+    upon deleting a user account'
 - component: Kernel
   create_time: 20190823T09:28:00
   id: 1147032
@@ -28223,6 +28230,12 @@
   status: NEW
   summary: 'kernel trace: WARNING: CPU: 7 PID: 0 at net/sched/sch_generic.c:442 dev_watchdog+0x248/0x250'
 '20190824':
+- component: Development
+  create_time: 20190827T13:44:00
+  id: 1148374
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'LTO: libqt5-qttools build fails on ppc64'
 - component: Upgrade Problems
   create_time: 20190827T12:19:00
   id: 1148353
