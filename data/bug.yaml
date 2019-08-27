@@ -25839,8 +25839,8 @@
 - component: Kernel
   create_time: 20190712T02:41:00
   id: 1141222
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Fan goes blast after wake up from sleep and sometime solo.
 - component: LXQt
   create_time: 20190711T19:37:00
@@ -27888,8 +27888,8 @@
 - component: Other
   create_time: 20190816T09:59:00
   id: 1145913
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'apcupsd was compiled without: configure --enable-usb'
 - component: Bootloader
   create_time: 20190816T04:05:00
