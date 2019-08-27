@@ -28198,7 +28198,7 @@
   status: NEW
   summary: 'VUL-1: CVE-2019-15504: kernel-source: double Free via crafted USB device
     traffic in rivers/net/wireless/rsi/rsi_91x_usb.c'
-- component: Basesystem
+- component: KDE Workspace (Plasma)
   create_time: 20190823T13:08:00
   id: 1147111
   resolution: ''
@@ -28223,7 +28223,19 @@
   status: NEW
   summary: 'kernel trace: WARNING: CPU: 7 PID: 0 at net/sched/sch_generic.c:442 dev_watchdog+0x248/0x250'
 '20190824':
-- component: Network
+- component: Xfce
+  create_time: 20190827T01:56:00
+  id: 1148242
+  resolution: ''
+  status: NEW
+  summary: Starting service lightdm..failed
+- component: KDE Workspace (Plasma)
+  create_time: 20190827T00:30:00
+  id: 1148241
+  resolution: ''
+  status: NEW
+  summary: Playing dota 2 in steam , game crash after a certain amount of time
+- component: Kernel
   create_time: 20190826T20:11:00
   id: 1148233
   resolution: ''
@@ -28253,7 +28265,7 @@
   resolution: ''
   status: NEW
   summary: python-numpy has 6 failing tests for ppc64le since version 1.16.3
-- component: Other
+- component: Basesystem
   create_time: 20190826T12:45:00
   id: 1148161
   resolution: ''
@@ -28281,8 +28293,8 @@
 - component: Basesystem
   create_time: 20190825T09:29:00
   id: 1147654
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: DRM does not work on chromium
 - component: Xfce
   create_time: 20190825T06:13:00
