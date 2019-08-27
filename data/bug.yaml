@@ -14602,8 +14602,8 @@
 - component: Network
   create_time: 20181102T14:20:00
   id: 1114502
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: wpa_supplicant start before network.target and ignored Link section in
     systemd-networkd config
 - component: Kubic
@@ -27115,8 +27115,8 @@
 - component: Basesystem
   create_time: 20190802T14:42:00
   id: 1144041
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Please add "pam_keyinit.so" to the /etc/pam.d/atd configuration file
 - component: Basesystem
   create_time: 20190802T13:07:00
@@ -27926,7 +27926,7 @@
   create_time: 20190815T11:42:00
   id: 1145736
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'Duplitcatebinary: python3-rrdtool'
 - component: Other
   create_time: 20190815T11:28:00
@@ -28230,6 +28230,42 @@
   status: NEW
   summary: 'kernel trace: WARNING: CPU: 7 PID: 0 at net/sched/sch_generic.c:442 dev_watchdog+0x248/0x250'
 '20190824':
+- component: Other
+  create_time: 20190827T16:56:00
+  id: 1148408
+  resolution: ''
+  status: NEW
+  summary: Qt4 removal - gwenhywfar
+- component: Other
+  create_time: 20190827T16:50:00
+  id: 1148406
+  resolution: ''
+  status: NEW
+  summary: Qt4 removal - mumble
+- component: Other
+  create_time: 20190827T16:30:00
+  id: 1148401
+  resolution: ''
+  status: NEW
+  summary: Qt4 removal - keepassx
+- component: Other
+  create_time: 20190827T16:30:00
+  id: 1148400
+  resolution: ''
+  status: NEW
+  summary: 'npmjs: different versions used by normal and sudo users'
+- component: Other
+  create_time: 20190827T16:20:00
+  id: 1148398
+  resolution: ''
+  status: NEW
+  summary: Qt4 removal - qgo
+- component: KDE Applications
+  create_time: 20190827T16:10:00
+  id: 1148397
+  resolution: ''
+  status: NEW
+  summary: 'Meta bug: Qt4 removal'
 - component: Development
   create_time: 20190827T13:44:00
   id: 1148374
