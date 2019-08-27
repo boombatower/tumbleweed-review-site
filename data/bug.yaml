@@ -27145,8 +27145,8 @@
 - component: Development
   create_time: 20190802T04:53:00
   id: 1143905
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: fwupd does not build reproducibly with LTO
 - component: Kernel
   create_time: 20190801T15:50:00
