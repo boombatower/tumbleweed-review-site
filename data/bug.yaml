@@ -26571,12 +26571,12 @@
   resolution: FIXED
   status: RESOLVED
   summary: sky2 ethernet card does not work after resume from sleep
-- component: X.Org
+- component: KDE Workspace (Plasma)
   create_time: 20190723T11:08:00
   id: 1142492
   resolution: ''
   status: IN_PROGRESS
-  summary: display-manager is restarted like mad on crash
+  summary: Xserver is restarted like mad on crash by sddm
 - component: Development
   create_time: 20190723T07:48:00
   id: 1142456
@@ -28223,6 +28223,54 @@
   status: NEW
   summary: 'kernel trace: WARNING: CPU: 7 PID: 0 at net/sched/sch_generic.c:442 dev_watchdog+0x248/0x250'
 '20190824':
+- component: Security
+  create_time: 20190827T08:40:00
+  id: 1148294
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2018-20996: rust-crossbeam-epoch: double free because of destructor
+    mishandling'
+- component: Security
+  create_time: 20190827T08:37:00
+  id: 1148293
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2018-20991: rust-smallvec: The Iterator implementation mishandles
+    destructors, leading to a double free.'
+- component: Security
+  create_time: 20190827T08:14:00
+  id: 1148287
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2019-15551: rust-smallvec: double free for certain grow attempts
+    with the current capacity.'
+- component: Security
+  create_time: 20190827T08:10:00
+  id: 1148286
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2018-20997: rust-openssl: A use-after-free occurs in CMS Signing'
+- component: Security
+  create_time: 20190827T07:59:00
+  id: 1148284
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2019-15552: rust-libflate: MultiDecoder:read has a use-after-free,
+    leading to arbitrary code execution'
+- component: Security
+  create_time: 20190827T07:54:00
+  id: 1148283
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2019-15554: rust-smallvec: memory corruption for certain grow
+    attempts with less than the current capacity'
+- component: Security
+  create_time: 20190827T07:52:00
+  id: 1148282
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2019-15553: rust-memoffset: offset_of and span_of can cause
+    exposure of uninitialized memory'
 - component: Xfce
   create_time: 20190827T01:56:00
   id: 1148242
@@ -28238,8 +28286,8 @@
 - component: Kernel
   create_time: 20190826T20:11:00
   id: 1148233
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Intel Wireless AC-9260 no longer works in Tumbleweed 2019-08-23 snapshot
 - component: KDE Applications
   create_time: 20190826T17:14:00
