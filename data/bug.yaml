@@ -14582,8 +14582,8 @@
 - component: Other
   create_time: 20181022T00:09:00
   id: 1112654
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/redis'
 '20181029':
 - component: X11 Applications
@@ -26950,8 +26950,8 @@
 - component: Basesystem
   create_time: 20190726T12:42:00
   id: 1143033
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: dracut fails on filesystem resize for aarch64 JeOS-efi - rmdir command
     missing in initrd
 - component: Patterns
@@ -27382,8 +27382,8 @@
 - component: AutoYaST
   create_time: 20190808T13:58:00
   id: 1144894
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190806] autoyast profile doesn''t validate'
 - component: Live Medium
   create_time: 20190808T13:26:00
@@ -28230,6 +28230,19 @@
   status: NEW
   summary: 'kernel trace: WARNING: CPU: 7 PID: 0 at net/sched/sch_generic.c:442 dev_watchdog+0x248/0x250'
 '20190824':
+- component: Basesystem
+  create_time: 20190828T10:21:00
+  id: 1148518
+  resolution: ''
+  status: NEW
+  summary: No grub showed after an nvme installation on qemu
+- component: Other
+  create_time: 20190828T09:39:00
+  id: 1148509
+  resolution: ''
+  status: NEW
+  summary: 'Problem: telegram-desktop-1.8.2-1.1.x86_64 conflicts with libqt5-qtstyleplugins-platformtheme-gtk2
+    provided by libqt5-qtstyleplugins-platformtheme-gtk2-5.0.0+git20170311-6.11.x86_64'
 - component: Installation
   create_time: 20190828T09:12:00
   id: 1148500
