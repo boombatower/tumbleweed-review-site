@@ -24593,9 +24593,9 @@
 - component: Kernel
   create_time: 20190611T01:58:00
   id: 1137799
-  resolution: FIXED
-  status: RESOLVED
-  summary: I2C Touchpad Stops Working After Hibernation
+  resolution: ''
+  status: REOPENED
+  summary: I2C Touchpad Stops Working After Hibernation and sometimes during boot
 - component: Other
   create_time: 20190610T17:39:00
   id: 1137785
@@ -27876,8 +27876,8 @@
 - component: Basesystem
   create_time: 20190816T19:56:00
   id: 1145960
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: systemd .path file is not properly activated on upgrade
 - component: Basesystem
   create_time: 20190816T14:20:00
