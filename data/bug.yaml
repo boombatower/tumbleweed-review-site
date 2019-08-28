@@ -28230,6 +28230,13 @@
   status: NEW
   summary: 'kernel trace: WARNING: CPU: 7 PID: 0 at net/sched/sch_generic.c:442 dev_watchdog+0x248/0x250'
 '20190824':
+- component: Basesystem
+  create_time: 20190828T04:57:00
+  id: 1148444
+  resolution: ''
+  status: NEW
+  summary: 'wicked&wpa_supplicant: ni_wpa_interface_bind(wlp0s20f0u9): Operation not
+    permitted'
 - component: Other
   create_time: 20190827T16:56:00
   id: 1148408
