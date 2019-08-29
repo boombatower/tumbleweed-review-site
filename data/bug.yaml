@@ -28233,8 +28233,8 @@
 - component: YaST2
   create_time: 20190829T16:42:00
   id: 1148850
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[Build 20190828] yast2_http: cannot import namespace "HTTPDData"'
 - component: Other
   create_time: 20190829T14:42:00
