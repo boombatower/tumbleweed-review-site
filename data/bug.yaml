@@ -14640,8 +14640,8 @@
 - component: Security
   create_time: 20181101T22:02:00
   id: 1114383
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'permissions: permissions.local is not honored by zypper updates (chkstat
     is not always called)'
 - component: Basesystem
@@ -17168,8 +17168,8 @@
 - component: Installation
   create_time: 20190107T13:44:00
   id: 1120938
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Wrong repos added in installer
 - component: Xfce
   create_time: 20190107T10:48:00
@@ -26406,8 +26406,8 @@
 - component: Kernel
   create_time: 20190719T03:44:00
   id: 1142128
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Intel Wireless-AC 9260 adapter firmware wont run
 - component: Basesystem
   create_time: 20190718T21:04:00
@@ -28230,6 +28230,12 @@
   status: NEW
   summary: 'kernel trace: WARNING: CPU: 7 PID: 0 at net/sched/sch_generic.c:442 dev_watchdog+0x248/0x250'
 '20190824':
+- component: Other
+  create_time: 20190829T11:49:00
+  id: 1148780
+  resolution: ''
+  status: NEW
+  summary: system ansible throws a callback exception while the pypi does not
 - component: YaST2
   create_time: 20190829T07:06:00
   id: 1148679
@@ -28258,7 +28264,7 @@
   create_time: 20190828T17:38:00
   id: 1148622
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Broken / incomplete dependencies for libyui9 -> libyui10 upgrade
 - component: Development
   create_time: 20190828T13:40:00
