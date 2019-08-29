@@ -11073,8 +11073,8 @@
 - component: LXDE
   create_time: 20180727T07:53:00
   id: 1102838
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: VERIFIED
   summary: '[Build 20180726] VLC fails to play video (on LXDE)'
 - component: KDE Workspace (Plasma)
   create_time: 20180727T07:17:00
@@ -28230,6 +28230,12 @@
   status: NEW
   summary: 'kernel trace: WARNING: CPU: 7 PID: 0 at net/sched/sch_generic.c:442 dev_watchdog+0x248/0x250'
 '20190824':
+- component: YaST2
+  create_time: 20190829T07:06:00
+  id: 1148679
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190827]  Broken yast command line tests'
 - component: Other
   create_time: 20190828T20:11:00
   id: 1148638
@@ -28334,8 +28340,8 @@
 - component: Other
   create_time: 20190827T16:30:00
   id: 1148400
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'npmjs: different versions used by normal and sudo users'
 - component: Other
   create_time: 20190827T16:20:00
