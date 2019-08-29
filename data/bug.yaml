@@ -28355,7 +28355,7 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: 'LTO: libqt5-qttools build fails on ppc64'
-- component: Upgrade Problems
+- component: Kernel
   create_time: 20190827T12:19:00
   id: 1148353
   resolution: ''
