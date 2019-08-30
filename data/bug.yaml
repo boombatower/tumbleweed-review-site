@@ -24883,8 +24883,8 @@
 - component: Other
   create_time: 20190620T18:24:00
   id: 1138873
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: binwalk -e fails to run sasquatch
 - component: Basesystem
   create_time: 20190620T15:27:00
@@ -28443,6 +28443,18 @@
   status: RESOLVED
   summary: update-desktop-files-yast.pot and scripts need to be updated
 '20190828':
+- component: Basesystem
+  create_time: 20190830T10:00:00
+  id: 1148955
+  resolution: ''
+  status: NEW
+  summary: 'regression: wicked obtains incorrect ipv4 address for bridge'
+- component: YaST2
+  create_time: 20190830T09:44:00
+  id: 1148950
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: yast2-ntp-client (/etc/cron.d not owned)'
 - component: YaST2
   create_time: 20190829T16:42:00
   id: 1148850
