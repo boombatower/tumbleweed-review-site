@@ -26600,8 +26600,8 @@
 - component: Kernel
   create_time: 20190725T22:00:00
   id: 1142922
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'kernel: typec_displayport port1-partner.1: failed to enter mode'
 - component: Development
   create_time: 20190725T20:30:00
@@ -28438,61 +28438,6 @@
   summary: update-desktop-files-yast.pot and scripts need to be updated
 '20190828':
 - component: Other
-  create_time: 20190830T14:40:00
-  id: 1149009
-  resolution: ''
-  status: NEW
-  summary: opencv is missing pkgconfig/opencv.pc
-- component: Basesystem
-  create_time: 20190830T10:00:00
-  id: 1148955
-  resolution: ''
-  status: NEW
-  summary: 'regression: wicked obtains incorrect ipv4 address for bridge'
-- component: YaST2
-  create_time: 20190830T09:44:00
-  id: 1148950
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'FTBFS: yast2-ntp-client (/etc/cron.d not owned)'
-- component: YaST2
-  create_time: 20190829T16:42:00
-  id: 1148850
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: '[Build 20190828] yast2_http: cannot import namespace "HTTPDData"'
-- component: Other
-  create_time: 20190829T14:42:00
-  id: 1148824
-  resolution: ''
-  status: NEW
-  summary: Issues with %clamp_mtime_to_source_date_epoch
-- component: YaST2
-  create_time: 20190829T13:41:00
-  id: 1148809
-  resolution: ''
-  status: NEW
-  summary: yast2 bootloader fails when lvmcache is in use
-- component: Security
-  create_time: 20190829T12:26:00
-  id: 1148788
-  resolution: ''
-  status: CONFIRMED
-  summary: 'VUL-0: CVE-2019-3687: permissions: easy profile allows everyone execute
-    dumpcap and read all network traffic'
-- component: Other
-  create_time: 20190829T11:49:00
-  id: 1148780
-  resolution: ''
-  status: NEW
-  summary: system ansible throws a callback exception while the pypi does not
-- component: YaST2
-  create_time: 20190829T07:06:00
-  id: 1148679
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190827]  Broken yast command line tests'
-- component: Other
   create_time: 20190828T20:11:00
   id: 1148638
   resolution: ''
@@ -28575,3 +28520,77 @@
   status: NEW
   summary: 'wicked&wpa_supplicant: ni_wpa_interface_bind(wlp0s20f0u9): Operation not
     permitted'
+'20190829':
+- component: Security
+  create_time: 20190830T20:11:00
+  id: 1149038
+  resolution: ''
+  status: NEW
+  summary: gpg2 freeze on verification of email
+- component: Network
+  create_time: 20190830T20:08:00
+  id: 1149037
+  resolution: ''
+  status: NEW
+  summary: Unknown group 'radvd'
+- component: KDE Workspace (Plasma)
+  create_time: 20190830T19:24:00
+  id: 1149034
+  resolution: ''
+  status: NEW
+  summary: sddm-greeter is running on 100% CPU
+- component: Other
+  create_time: 20190830T14:40:00
+  id: 1149009
+  resolution: ''
+  status: NEW
+  summary: opencv is missing pkgconfig/opencv.pc
+- component: Basesystem
+  create_time: 20190830T10:00:00
+  id: 1148955
+  resolution: ''
+  status: NEW
+  summary: 'regression: wicked obtains incorrect ipv4 address for bridge'
+- component: YaST2
+  create_time: 20190830T09:44:00
+  id: 1148950
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'FTBFS: yast2-ntp-client (/etc/cron.d not owned)'
+- component: YaST2
+  create_time: 20190829T16:42:00
+  id: 1148850
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20190828] yast2_http: cannot import namespace "HTTPDData"'
+- component: Other
+  create_time: 20190829T14:42:00
+  id: 1148824
+  resolution: ''
+  status: NEW
+  summary: Issues with %clamp_mtime_to_source_date_epoch
+- component: YaST2
+  create_time: 20190829T13:41:00
+  id: 1148809
+  resolution: ''
+  status: NEW
+  summary: yast2 bootloader fails when lvmcache is in use
+- component: Security
+  create_time: 20190829T12:26:00
+  id: 1148788
+  resolution: ''
+  status: CONFIRMED
+  summary: 'VUL-0: CVE-2019-3687: permissions: easy profile allows everyone execute
+    dumpcap and read all network traffic'
+- component: Other
+  create_time: 20190829T11:49:00
+  id: 1148780
+  resolution: ''
+  status: NEW
+  summary: system ansible throws a callback exception while the pypi does not
+- component: YaST2
+  create_time: 20190829T07:06:00
+  id: 1148679
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190827]  Broken yast command line tests'
