@@ -27626,11 +27626,11 @@
   resolution: ''
   status: CONFIRMED
   summary: Yast2 Control Center with wrong language
-- component: Basesystem
+- component: YaST2
   create_time: 20190811T14:39:00
   id: 1145193
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: chrony prevents boot when without network by waiting for ntp server
 - component: Basesystem
   create_time: 20190811T09:56:00
@@ -27807,12 +27807,6 @@
   resolution: ''
   status: NEW
   summary: 'LTO: opencv build fails on ppc64le'
-- component: Installation
-  create_time: 20190819T08:23:00
-  id: 1146092
-  resolution: ''
-  status: NEW
-  summary: second stage of installation removes NETCONFIG_DNS_POLICY from sysconfig
 - component: Basesystem
   create_time: 20190819T08:11:00
   id: 1146085
@@ -28473,6 +28467,13 @@
   resolution: ''
   status: NEW
   summary: yast2 bootloader fails when lvmcache is in use
+- component: Security
+  create_time: 20190829T12:26:00
+  id: 1148788
+  resolution: ''
+  status: CONFIRMED
+  summary: 'VUL-0: CVE-2019-3687: permissions: easy profile allows everyone execute
+    dumpcap and read all network traffic'
 - component: Other
   create_time: 20190829T11:49:00
   id: 1148780
