@@ -26086,7 +26086,7 @@
   create_time: 20190707T15:41:00
   id: 1140595
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: linphone is broken
 - component: KDE Workspace (Plasma)
   create_time: 20190707T10:56:00
