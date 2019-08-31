@@ -28521,6 +28521,12 @@
   summary: 'wicked&wpa_supplicant: ni_wpa_interface_bind(wlp0s20f0u9): Operation not
     permitted'
 '20190829':
+- component: Other
+  create_time: 20190831T04:55:00
+  id: 1149046
+  resolution: ''
+  status: NEW
+  summary: 'uhd: update to v3.14.1.0'
 - component: KDE Workspace (Plasma)
   create_time: 20190831T02:23:00
   id: 1149041
