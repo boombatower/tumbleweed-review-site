@@ -28521,6 +28521,18 @@
   summary: 'wicked&wpa_supplicant: ni_wpa_interface_bind(wlp0s20f0u9): Operation not
     permitted'
 '20190829':
+- component: KDE Workspace (Plasma)
+  create_time: 20190831T02:23:00
+  id: 1149041
+  resolution: ''
+  status: NEW
+  summary: Fontconfig  is not applied to all of KDE interface.
+- component: Sound
+  create_time: 20190831T01:32:00
+  id: 1149040
+  resolution: ''
+  status: NEW
+  summary: Realtek ALC 256 sound card can not detect headset jack
 - component: Security
   create_time: 20190830T20:11:00
   id: 1149038
