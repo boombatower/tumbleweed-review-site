@@ -28521,6 +28521,18 @@
   summary: 'wicked&wpa_supplicant: ni_wpa_interface_bind(wlp0s20f0u9): Operation not
     permitted'
 '20190829':
+- component: Development
+  create_time: 20190901T11:31:00
+  id: 1149068
+  resolution: ''
+  status: NEW
+  summary: pipenv fails to install any dependencies
+- component: Basesystem
+  create_time: 20190901T08:03:00
+  id: 1149066
+  resolution: ''
+  status: NEW
+  summary: daemon-reload does not always reload generated services
 - component: Other
   create_time: 20190831T04:55:00
   id: 1149046
