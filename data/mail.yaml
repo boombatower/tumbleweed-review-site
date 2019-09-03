@@ -2353,12 +2353,12 @@
     summary: no summary given
 '20190828':
   announcement: 2019-08.307
-  reference_count: 11
+  reference_count: 12
   thread_count: 1
   threads:
   - messages:
     - 2019-08.308
-    reference_count: 11
+    reference_count: 12
     summary: failed to summarize
 '20190829':
   announcement: 2019-08.323
