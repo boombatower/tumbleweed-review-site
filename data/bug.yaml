@@ -28522,6 +28522,12 @@
     permitted'
 '20190829':
 - component: Other
+  create_time: 20190903T19:10:00
+  id: 1149255
+  resolution: ''
+  status: NEW
+  summary: Missing ISO on download.opensuse.org
+- component: Other
   create_time: 20190903T15:25:00
   id: 1149235
   resolution: ''
