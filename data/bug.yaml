@@ -13764,8 +13764,8 @@
 - component: Kubic
   create_time: 20181015T16:12:00
   id: 1111897
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: transactional-update.service seems to run two instances of transactional-update
 - component: Network
   create_time: 20181015T14:27:00
@@ -14454,7 +14454,7 @@
   create_time: 20181024T02:58:00
   id: 1112998
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: 'ibus-libpinyin: emoji come to the candidate lists if it was switched to
     the traditional input method'
 - component: Basesystem
@@ -22831,8 +22831,8 @@
 - component: Basesystem
   create_time: 20190427T22:59:00
   id: 1133592
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: lsb-release works with Bash but does not work correctly with Dash
 - component: LXDE
   create_time: 20190427T04:55:00
@@ -24355,8 +24355,8 @@
 - component: Kernel
   create_time: 20190529T06:55:00
   id: 1136677
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Add support for compressed firmware files
 - component: Other
   create_time: 20190529T06:43:00
@@ -25412,8 +25412,8 @@
 - component: Installation
   create_time: 20190701T20:12:00
   id: 1139967
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Performing Installation screen unresponsive
 - component: Translations
   create_time: 20190701T18:53:00
@@ -25461,8 +25461,8 @@
 - component: X.Org
   create_time: 20190701T09:34:00
   id: 1139881
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'nouveau: vainfo crashes in VAAPI driver'
 - component: Basesystem
   create_time: 20190701T08:14:00
@@ -26073,8 +26073,8 @@
 - component: GNOME
   create_time: 20190708T06:09:00
   id: 1140614
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Error loading Applications menu extension in SLE-Classic
 - component: Kubic
   create_time: 20190707T17:16:00
@@ -26562,8 +26562,8 @@
 - component: Network
   create_time: 20190723T11:30:00
   id: 1142498
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Cobbler System add fails without explicit usage of redhat_management_key
 - component: Kernel
   create_time: 20190723T11:24:00
@@ -27041,7 +27041,7 @@
   create_time: 20190802T15:15:00
   id: 1144060
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Please add "pam_keyinit.so" to the /etc/pam.d/... configuration file(s)
 - component: Samba
   create_time: 20190802T15:14:00
@@ -27339,8 +27339,8 @@
 - component: Other
   create_time: 20190805T09:17:00
   id: 1144244
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Drop jasper dependency from gstreamer-plugins-bad
 - component: Other
   create_time: 20190805T09:13:00
@@ -27537,8 +27537,8 @@
 - component: Kubic
   create_time: 20190809T07:58:00
   id: 1145002
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '''kubeadm init'' fails to start inside openQA on aarch64'
 - component: Development
   create_time: 20190809T05:54:00
@@ -28220,8 +28220,8 @@
 - component: Kernel
   create_time: 20190823T09:28:00
   id: 1147032
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'kernel trace: WARNING: CPU: 7 PID: 0 at net/sched/sch_generic.c:442 dev_watchdog+0x248/0x250'
 '20190824':
 - component: Other
@@ -28415,8 +28415,8 @@
 - component: Xfce
   create_time: 20190825T06:13:00
   id: 1147652
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: chromium crashes on startup within xfce
 - component: Other
   create_time: 20190824T21:46:00
@@ -28521,6 +28521,67 @@
   summary: 'wicked&wpa_supplicant: ni_wpa_interface_bind(wlp0s20f0u9): Operation not
     permitted'
 '20190829':
+- component: Basesystem
+  create_time: 20190903T12:56:00
+  id: 1149201
+  resolution: ''
+  status: NEW
+  summary: default MANPATH does not include /usr/local/share/man
+- component: Other
+  create_time: 20190903T09:23:00
+  id: 1149164
+  resolution: ''
+  status: NEW
+  summary: Recent snapshots seem to have broken user CIFS mounts
+- component: YaST2
+  create_time: 20190903T06:27:00
+  id: 1149140
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: yast2_http fails in openQA on aarch64
+- component: Basesystem
+  create_time: 20190902T17:09:00
+  id: 1149128
+  resolution: ''
+  status: NEW
+  summary: 'clang++: fatal error: ''new'' file not found'
+- component: Containers
+  create_time: 20190902T15:05:00
+  id: 1149122
+  resolution: ''
+  status: NEW
+  summary: Flatpak/Snap is having trouble with XDG_DATA_DIRS and other XDG related
+    things
+- component: Kernel
+  create_time: 20190902T14:42:00
+  id: 1149119
+  resolution: ''
+  status: NEW
+  summary: kernel-default-base does not have a debuginfo package
+- component: Basesystem
+  create_time: 20190902T14:31:00
+  id: 1149117
+  resolution: ''
+  status: NEW
+  summary: 'awk: warning: regexp escape sequence  `\:'' is not a known regexp operator'
+- component: Other
+  create_time: 20190902T13:36:00
+  id: 1149112
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: cinnamon-session and telegram-desktop package conflicted with libqt5-qtstyleplugins-platformtheme-gtk2
+- component: Installation
+  create_time: 20190901T18:41:00
+  id: 1149070
+  resolution: ''
+  status: NEW
+  summary: Make use of plymouth features while loading the installation images
+- component: KDE Applications
+  create_time: 20190901T15:36:00
+  id: 1149069
+  resolution: ''
+  status: NEW
+  summary: KMail Doesn't Display Messages
 - component: Development
   create_time: 20190901T11:31:00
   id: 1149068
