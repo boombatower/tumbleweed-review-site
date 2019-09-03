@@ -4120,8 +4120,8 @@
 - component: Other
   create_time: 20180218T21:52:00
   id: 1081478
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Package "paperwork" has incorrect dependencies, failed to start initially
 - component: Other
   create_time: 20180218T19:11:00
@@ -5776,8 +5776,8 @@
 - component: Other
   create_time: 20180317T10:25:00
   id: 1085753
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: FeedReader 2.0.2 crashes with a segmentation fault on startup
 - component: GNOME
   create_time: 20180317T10:22:00
@@ -12916,7 +12916,7 @@
   create_time: 20180925T04:46:00
   id: 1109537
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: autoconf and autoconf213 differs between architectures
 - component: Other
   create_time: 20180925T04:31:00
@@ -19500,8 +19500,8 @@
 - component: Other
   create_time: 20190214T01:55:00
   id: 1125374
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Lutris lacks dependencies
 '20190215':
 - component: GNOME
@@ -20832,7 +20832,7 @@
   create_time: 20190312T07:17:00
   id: 1128824
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: aseprite unable to build
 - component: Other
   create_time: 20190312T07:15:00
@@ -27322,7 +27322,7 @@
   create_time: 20190805T09:29:00
   id: 1144249
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Drop jasper dependency from libqt5-qtimageformats
 - component: Other
   create_time: 20190805T09:25:00
@@ -27587,8 +27587,8 @@
 - component: Other
   create_time: 20190813T09:49:00
   id: 1145414
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Staging] hmaccalc fails to build against mozilla-nss 3.45'
 - component: KDE Workspace (Plasma)
   create_time: 20190813T07:22:00
@@ -28521,6 +28521,32 @@
   summary: 'wicked&wpa_supplicant: ni_wpa_interface_bind(wlp0s20f0u9): Operation not
     permitted'
 '20190829':
+- component: Other
+  create_time: 20190903T15:25:00
+  id: 1149235
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190830] openQA test fails in evolution_prepare_servers with postfix.service
+    failure, on aarch64 JeOS'
+- component: Other
+  create_time: 20190903T14:50:00
+  id: 1149223
+  resolution: ''
+  status: NEW
+  summary: 'FreeCAD: bump stable to 0.18.3'
+- component: Security
+  create_time: 20190903T14:34:00
+  id: 1149216
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: systemd v243: resovled untracked privileges'
+- component: Xfce
+  create_time: 20190903T13:48:00
+  id: 1149209
+  resolution: ''
+  status: NEW
+  summary: xfce-settings-manager has two options for screensaver settings  - one works
+    and one  don't
 - component: Basesystem
   create_time: 20190903T12:56:00
   id: 1149201
