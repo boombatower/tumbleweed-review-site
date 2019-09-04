@@ -28593,6 +28593,13 @@
   status: RESOLVED
   summary: 'FTBFS: yast2-ntp-client (/etc/cron.d not owned)'
 - component: Security
+  create_time: 20190830T08:16:00
+  id: 1148932
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'VUL-0: CVE-2019-15717: Irssi: use-after-free if the IRC server sends double
+    CAP'
+- component: Security
   create_time: 20190830T07:11:00
   id: 1148925
   resolution: ''
@@ -28637,6 +28644,19 @@
   status: NEW
   summary: '[Build 20190827]  Broken yast command line tests'
 '20190902':
+- component: KVM
+  create_time: 20190904T17:36:00
+  id: 1149450
+  resolution: ''
+  status: NEW
+  summary: 'WARNING: CPU: 4 PID: 5017 at arch/x86/kvm/x86.c:7963 vcpu_enter_guest+0xcfd/0xf20
+    [kvm]'
+- component: Development
+  create_time: 20190904T17:34:00
+  id: 1149449
+  resolution: ''
+  status: NEW
+  summary: start using libsource-highlight.so for gdb
 - component: Development
   create_time: 20190904T13:12:00
   id: 1149396
