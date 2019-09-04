@@ -14450,13 +14450,6 @@
   resolution: ''
   status: NEW
   summary: 'Out of date package: openSUSE:Factory/gitg'
-- component: GNOME
-  create_time: 20181024T02:58:00
-  id: 1112998
-  resolution: ''
-  status: REOPENED
-  summary: 'ibus-libpinyin: emoji come to the candidate lists if it was switched to
-    the traditional input method'
 - component: Basesystem
   create_time: 20181023T23:12:00
   id: 1112991
@@ -27041,7 +27034,7 @@
   create_time: 20190802T15:15:00
   id: 1144060
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Please add "pam_keyinit.so" to the /etc/pam.d/... configuration file(s)
 - component: Samba
   create_time: 20190802T15:14:00
@@ -28227,8 +28220,8 @@
 - component: Other
   create_time: 20190827T16:56:00
   id: 1148408
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Qt4 removal - gwenhywfar
 - component: Other
   create_time: 20190827T16:50:00
@@ -28644,6 +28637,18 @@
   status: NEW
   summary: '[Build 20190827]  Broken yast command line tests'
 '20190902':
+- component: Development
+  create_time: 20190904T09:53:00
+  id: 1149348
+  resolution: ''
+  status: NEW
+  summary: 'LTO: datamash build failed PowerPC & ARM'
+- component: Basesystem
+  create_time: 20190904T08:27:00
+  id: 1149319
+  resolution: ''
+  status: NEW
+  summary: 'multipath: shaky paths may be reinstated prematurely'
 - component: Kernel
   create_time: 20190904T06:10:00
   id: 1149280
@@ -28680,7 +28685,7 @@
   create_time: 20190903T14:34:00
   id: 1149216
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: systemd: resolved untracked privileges in v243'
 - component: Xfce
   create_time: 20190903T13:48:00
