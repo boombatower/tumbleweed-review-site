@@ -27530,8 +27530,8 @@
 - component: Kubic
   create_time: 20190809T07:58:00
   id: 1145002
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '''kubeadm init'' fails to start inside openQA on aarch64'
 - component: Development
   create_time: 20190809T05:54:00
@@ -28244,8 +28244,8 @@
 - component: Other
   create_time: 20190827T16:20:00
   id: 1148398
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Qt4 removal - qgo
 - component: KDE Applications
   create_time: 20190827T16:10:00
@@ -28637,6 +28637,24 @@
   status: NEW
   summary: '[Build 20190827]  Broken yast command line tests'
 '20190902':
+- component: Development
+  create_time: 20190904T13:12:00
+  id: 1149396
+  resolution: ''
+  status: NEW
+  summary: octave fails to exec octave-gui
+- component: Kubic
+  create_time: 20190904T12:56:00
+  id: 1149392
+  resolution: ''
+  status: NEW
+  summary: '''kubeadm init'' fails to start inside openQA on aarch64'
+- component: Maintenance
+  create_time: 20190904T10:40:00
+  id: 1149364
+  resolution: ''
+  status: NEW
+  summary: Sometimes "tumbleweed update" freezes at kernel-default update
 - component: Development
   create_time: 20190904T09:53:00
   id: 1149348
