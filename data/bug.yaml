@@ -24568,8 +24568,8 @@
 - component: Xfce
   create_time: 20190606T07:24:00
   id: 1137433
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: display-manager.service fails after recent update
 '20190607':
 - component: Sound
@@ -27237,8 +27237,8 @@
 - component: Security
   create_time: 20190730T09:55:00
   id: 1143409
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'VUL-1: CVE-2019-14271: docker: code injection can occur when the nsswitch
     facility dynamically loads a library inside a chroot that contains the contents
     of the container'
@@ -28339,12 +28339,12 @@
   status: NEW
   summary: 'VUL-1: CVE-2019-15553: rust-memoffset: offset_of and span_of can cause
     exposure of uninitialized memory'
-- component: Xfce
+- component: Basesystem
   create_time: 20190827T01:56:00
   id: 1148242
   resolution: ''
   status: NEW
-  summary: Starting service lightdm..failed
+  summary: display manager fails to load when plymouth is uninstalled
 - component: KDE Workspace (Plasma)
   create_time: 20190827T00:30:00
   id: 1148241
@@ -28599,6 +28599,13 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'FTBFS: yast2-ntp-client (/etc/cron.d not owned)'
+- component: Security
+  create_time: 20190830T07:11:00
+  id: 1148925
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'VUL-0: CVE-2019-15718: systemd: Missing access controls on systemd-resolved''s
+    D-Bus interface'
 - component: YaST2
   create_time: 20190829T16:42:00
   id: 1148850
@@ -28637,6 +28644,13 @@
   status: NEW
   summary: '[Build 20190827]  Broken yast command line tests'
 '20190902':
+- component: Kernel
+  create_time: 20190904T06:10:00
+  id: 1149280
+  resolution: ''
+  status: NEW
+  summary: 'riscv64: Experience a compiling error "sys/uio.h: No such file or directory"
+    while cross-compiling riscv64 Linux kernel on x86_64.'
 - component: Development
   create_time: 20190903T19:33:00
   id: 1149259
@@ -28667,7 +28681,7 @@
   id: 1149216
   resolution: ''
   status: NEW
-  summary: 'AUDIT-0: systemd v243: resovled untracked privileges'
+  summary: 'AUDIT-0: systemd: resolved untracked privileges in v243'
 - component: Xfce
   create_time: 20190903T13:48:00
   id: 1149209
