@@ -2367,10 +2367,14 @@
   threads: []
 '20190902':
   announcement: 2019-09.33
-  reference_count: 2
-  thread_count: 1
+  reference_count: 4
+  thread_count: 2
   threads:
   - messages:
     - 2019-09.38
     reference_count: 2
     summary: released! - possible network issue
+  - messages:
+    - 2019-09.41
+    reference_count: 2
+    summary: display manager
