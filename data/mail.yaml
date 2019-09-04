@@ -2367,6 +2367,10 @@
   threads: []
 '20190902':
   announcement: 2019-09.33
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-09.38
+    reference_count: 2
+    summary: released! - possible network issue
