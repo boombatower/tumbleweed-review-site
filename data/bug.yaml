@@ -28669,7 +28669,7 @@
   resolution: ''
   status: NEW
   summary: '''kubeadm init'' fails to start inside openQA on aarch64'
-- component: Maintenance
+- component: Kernel
   create_time: 20190904T10:40:00
   id: 1149364
   resolution: ''
@@ -28700,12 +28700,6 @@
   resolution: ''
   status: IN_PROGRESS
   summary: go1.13 release tracking
-- component: Other
-  create_time: 20190903T19:10:00
-  id: 1149255
-  resolution: ''
-  status: NEW
-  summary: Missing ISO on download.opensuse.org
 - component: Other
   create_time: 20190903T15:25:00
   id: 1149235
