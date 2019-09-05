@@ -2367,12 +2367,12 @@
   threads: []
 '20190902':
   announcement: 2019-09.33
-  reference_count: 5
+  reference_count: 6
   thread_count: 2
   threads:
   - messages:
     - 2019-09.38
-    reference_count: 3
+    reference_count: 4
     summary: released! - possible network issue
   - messages:
     - 2019-09.41
