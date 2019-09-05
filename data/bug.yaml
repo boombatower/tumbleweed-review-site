@@ -28644,11 +28644,17 @@
   status: NEW
   summary: '[Build 20190827]  Broken yast command line tests'
 '20190902':
+- component: Kubic
+  create_time: 20190905T19:49:00
+  id: 1149663
+  resolution: ''
+  status: NEW
+  summary: MicroOS/Kubic kubeadm images have swap enabled
 - component: Other
   create_time: 20190905T19:02:00
   id: 1149655
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: gdal build fails in Tumbleweed
 - component: Development
   create_time: 20190905T15:32:00
