@@ -28452,7 +28452,7 @@
   create_time: 20190828T17:38:00
   id: 1148622
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Broken / incomplete dependencies for libyui9 -> libyui10 upgrade
 - component: Development
   create_time: 20190828T13:40:00
@@ -28644,6 +28644,31 @@
   status: NEW
   summary: '[Build 20190827]  Broken yast command line tests'
 '20190902':
+- component: Development
+  create_time: 20190905T15:32:00
+  id: 1149638
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'go1.13 link: dwarf: missing type: type.uintptr results in SIGSEGV when
+    linking go code'
+- component: GNOME
+  create_time: 20190905T15:21:00
+  id: 1149634
+  resolution: ''
+  status: NEW
+  summary: pavucontrol does not require nor recommend pulseaudio
+- component: Development
+  create_time: 20190905T14:00:00
+  id: 1149619
+  resolution: ''
+  status: NEW
+  summary: gdb libipt update v2.0 -> v2.0.1
+- component: YaST2
+  create_time: 20190905T13:54:00
+  id: 1149618
+  resolution: FIXED
+  status: RESOLVED
+  summary: calling "rake version:bump" in libyui crashes with ArgumentError
 - component: Kernel
   create_time: 20190905T13:41:00
   id: 1149616
@@ -28748,8 +28773,8 @@
 - component: Security
   create_time: 20190903T14:34:00
   id: 1149216
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: systemd: resolved untracked privileges in v243'
 - component: Xfce
   create_time: 20190903T13:48:00
