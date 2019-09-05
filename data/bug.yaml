@@ -28644,6 +28644,13 @@
   status: NEW
   summary: '[Build 20190827]  Broken yast command line tests'
 '20190902':
+- component: Security
+  create_time: 20190905T08:51:00
+  id: 1149532
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'VUL-1: CVE-2019-15925: kernel-source: out of bounds access exists in the
+    function hclge_tm_schd_mode_vnet_base_cfg in the file drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_tm'
 - component: KVM
   create_time: 20190904T17:36:00
   id: 1149450
@@ -28747,8 +28754,8 @@
 - component: Basesystem
   create_time: 20190902T17:09:00
   id: 1149128
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'clang++: fatal error: ''new'' file not found'
 - component: Containers
   create_time: 20190902T15:05:00
