@@ -28729,8 +28729,8 @@
 - component: Basesystem
   create_time: 20190903T12:56:00
   id: 1149201
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: default MANPATH does not include /usr/local/share/man
 - component: Other
   create_time: 20190903T09:23:00
