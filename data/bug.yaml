@@ -25808,8 +25808,8 @@
 - component: Kernel
   create_time: 20190712T21:15:00
   id: 1141362
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Apple Trackpad 2 only moves when pressed and freezes system
 - component: Other
   create_time: 20190712T20:30:00
@@ -27772,8 +27772,8 @@
 - component: Kernel
   create_time: 20190814T03:04:00
   id: 1145519
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Mkinitrd is calling dracut with wrong kerneldir version
 '20190815':
 - component: X11 3rd Party Driver
@@ -28644,6 +28644,31 @@
   status: NEW
   summary: '[Build 20190827]  Broken yast command line tests'
 '20190902':
+- component: Kernel
+  create_time: 20190905T13:41:00
+  id: 1149616
+  resolution: ''
+  status: NEW
+  summary: System crashes frequently since Kernel 5.2
+- component: Containers
+  create_time: 20190905T13:25:00
+  id: 1149613
+  resolution: ''
+  status: NEW
+  summary: docker-19.03.1_ce-1.1.ppc64le complains about missing containerd.service
+    file
+- component: Development
+  create_time: 20190905T12:23:00
+  id: 1149599
+  resolution: ''
+  status: NEW
+  summary: icecream-monitor fails to build
+- component: Basesystem
+  create_time: 20190905T11:22:00
+  id: 1149583
+  resolution: ''
+  status: NEW
+  summary: '`systemd-run -p MemoryMax=1G $prog` won''t apply any limit'
 - component: Security
   create_time: 20190905T08:51:00
   id: 1149532
