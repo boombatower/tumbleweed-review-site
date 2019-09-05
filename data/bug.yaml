@@ -26716,8 +26716,8 @@
 - component: Other
   create_time: 20190724T11:50:00
   id: 1142645
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: opendkim fail to build with GCC 9
 - component: Development
   create_time: 20190724T09:34:00
@@ -28644,6 +28644,12 @@
   status: NEW
   summary: '[Build 20190827]  Broken yast command line tests'
 '20190902':
+- component: Other
+  create_time: 20190905T19:02:00
+  id: 1149655
+  resolution: ''
+  status: NEW
+  summary: gdal build fails in Tumbleweed
 - component: Development
   create_time: 20190905T15:32:00
   id: 1149638
