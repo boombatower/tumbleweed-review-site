@@ -28726,6 +28726,19 @@
   status: RESOLVED
   summary: cinnamon-session and telegram-desktop package conflicted with libqt5-qtstyleplugins-platformtheme-gtk2
 '20190904':
+- component: Security
+  create_time: 20190906T15:05:00
+  id: 1149839
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2019-15942: ffmpeg,ffmpeg-4: Conditional jump or move depends
+    on uninitialised value" issue in h2645_parse'
+- component: LibreOffice
+  create_time: 20190906T14:22:00
+  id: 1149832
+  resolution: ''
+  status: NEW
+  summary: Cannot edit or save remote file on WebDav
 - component: Development
   create_time: 20190906T13:00:00
   id: 1149814
