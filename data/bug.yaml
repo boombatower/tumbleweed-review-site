@@ -19438,7 +19438,7 @@
   id: 1125432
   resolution: FIXED
   status: RESOLVED
-  summary: 'AUDIT-0: gnome-initial-setup: purpose of /usr/share/polkit-1/rules.d/20-gnome-initial-setup.rules'
+  summary: 'AUDIT-TRACKER: gnome-initial-setup: purpose of /usr/share/polkit-1/rules.d/20-gnome-initial-setup.rules'
 - component: Security
   create_time: 20190214T10:43:00
   id: 1125428
@@ -20029,14 +20029,14 @@
   id: 1127368
   resolution: ''
   status: IN_PROGRESS
-  summary: 'AUDIT-0: CVE-2019-11502,CVE-2019-11503: snapd: add set*id permissions
+  summary: 'AUDIT-1: CVE-2019-11502,CVE-2019-11503: snapd: add set*id permissions
     related to snapd (/usr/lib/snapd/snap-confine)'
 - component: Security
   create_time: 20190228T12:49:00
   id: 1127366
   resolution: ''
   status: IN_PROGRESS
-  summary: 'AUDIT-0: snapd: review of new daemon running as root and polkit privileges
+  summary: 'AUDIT-1: snapd: review of new daemon running as root and polkit privileges
     related to snapd (io.snapcraft.snapd.*)'
 - component: Ruby
   create_time: 20190228T11:23:00
@@ -20874,8 +20874,8 @@
 - component: Basesystem
   create_time: 20190314T07:10:00
   id: 1129160
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: openblas ppc64 segfault invalid memory ref when ./dblat3 < ./dblat3.dat
 '20190315':
 - component: Other
@@ -27375,8 +27375,8 @@
 - component: AutoYaST
   create_time: 20190808T13:58:00
   id: 1144894
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '[Build 20190806] autoyast profile doesn''t validate'
 - component: Live Medium
   create_time: 20190808T13:26:00
@@ -28686,7 +28686,7 @@
   create_time: 20190903T09:23:00
   id: 1149164
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Recent snapshots seem to have broken user CIFS mounts
 - component: YaST2
   create_time: 20190903T06:27:00
@@ -28726,6 +28726,30 @@
   status: RESOLVED
   summary: cinnamon-session and telegram-desktop package conflicted with libqt5-qtstyleplugins-platformtheme-gtk2
 '20190904':
+- component: YaST2
+  create_time: 20190906T10:44:00
+  id: 1149771
+  resolution: ''
+  status: IN_PROGRESS
+  summary: yast-rake should submit the SLE12-SP5 packages as maintenance updates
+- component: Translations
+  create_time: 20190906T09:52:00
+  id: 1149754
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Translations are good!
+- component: Other
+  create_time: 20190906T08:02:00
+  id: 1149709
+  resolution: ''
+  status: NEW
+  summary: fakeroot randomly/frequently failing the test suite
+- component: Other
+  create_time: 20190906T07:49:00
+  id: 1149708
+  resolution: ''
+  status: NEW
+  summary: '[glibc2.30] tcpd fails to build'
 - component: Other
   create_time: 20190906T07:48:00
   id: 1149707
@@ -28871,8 +28895,8 @@
 - component: Basesystem
   create_time: 20190904T08:27:00
   id: 1149319
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'multipath: shaky paths may be reinstated prematurely'
 - component: Kernel
   create_time: 20190904T06:10:00
