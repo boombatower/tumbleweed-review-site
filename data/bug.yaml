@@ -28726,11 +28726,30 @@
   status: RESOLVED
   summary: cinnamon-session and telegram-desktop package conflicted with libqt5-qtstyleplugins-platformtheme-gtk2
 '20190904':
+- component: Development
+  create_time: 20190906T13:00:00
+  id: 1149814
+  resolution: ''
+  status: NEW
+  summary: 'python-pytest-qt  Fatal Python error: Aborted  for python3 ppc64le'
+- component: YaST2
+  create_time: 20190906T12:20:00
+  id: 1149804
+  resolution: ''
+  status: NEW
+  summary: YaST2-network shows wrong rendering in ncurses in Gnome but is fine in
+    Textmode
+- component: Other
+  create_time: 20190906T11:51:00
+  id: 1149790
+  resolution: ''
+  status: NEW
+  summary: 'undefined symbol: fz_identity (python3-PyMuPDF)'
 - component: YaST2
   create_time: 20190906T10:44:00
   id: 1149771
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: yast-rake should submit the SLE12-SP5 packages as maintenance updates
 - component: Translations
   create_time: 20190906T09:52:00
@@ -28892,6 +28911,12 @@
   resolution: ''
   status: NEW
   summary: 'LTO: datamash build failed PowerPC & ARM'
+- component: Development
+  create_time: 20190904T08:49:00
+  id: 1149330
+  resolution: ''
+  status: NEW
+  summary: 'devel:languages:ocaml/ocaml: New version available'
 - component: Basesystem
   create_time: 20190904T08:27:00
   id: 1149319
