@@ -28644,6 +28644,88 @@
   status: NEW
   summary: '[Build 20190827]  Broken yast command line tests'
 '20190902':
+- component: Development
+  create_time: 20190903T19:33:00
+  id: 1149259
+  resolution: ''
+  status: IN_PROGRESS
+  summary: go1.13 release tracking
+- component: Other
+  create_time: 20190903T15:25:00
+  id: 1149235
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190830] openQA test fails in evolution_prepare_servers with postfix.service
+    failure, on aarch64 JeOS'
+- component: Other
+  create_time: 20190903T14:50:00
+  id: 1149223
+  resolution: ''
+  status: NEW
+  summary: 'FreeCAD: bump stable to 0.18.3'
+- component: Security
+  create_time: 20190903T14:34:00
+  id: 1149216
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'AUDIT-0: systemd: resolved untracked privileges in v243'
+- component: Xfce
+  create_time: 20190903T13:48:00
+  id: 1149209
+  resolution: ''
+  status: NEW
+  summary: xfce-settings-manager has two options for screensaver settings  - one works
+    and one  don't
+- component: Basesystem
+  create_time: 20190903T12:56:00
+  id: 1149201
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: default MANPATH does not include /usr/local/share/man
+- component: Other
+  create_time: 20190903T09:23:00
+  id: 1149164
+  resolution: ''
+  status: NEW
+  summary: Recent snapshots seem to have broken user CIFS mounts
+- component: YaST2
+  create_time: 20190903T06:27:00
+  id: 1149140
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: yast2_http fails in openQA on aarch64
+- component: Basesystem
+  create_time: 20190902T17:09:00
+  id: 1149128
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'clang++: fatal error: ''new'' file not found'
+- component: Containers
+  create_time: 20190902T15:05:00
+  id: 1149122
+  resolution: ''
+  status: NEW
+  summary: Flatpak/Snap is having trouble with XDG_DATA_DIRS and other XDG related
+    things
+- component: Kernel
+  create_time: 20190902T14:42:00
+  id: 1149119
+  resolution: ''
+  status: NEW
+  summary: kernel-default-base does not have a debuginfo package
+- component: Basesystem
+  create_time: 20190902T14:31:00
+  id: 1149117
+  resolution: ''
+  status: NEW
+  summary: 'awk: warning: regexp escape sequence  `\:'' is not a known regexp operator'
+- component: Other
+  create_time: 20190902T13:36:00
+  id: 1149112
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: cinnamon-session and telegram-desktop package conflicted with libqt5-qtstyleplugins-platformtheme-gtk2
+'20190904':
 - component: Kubic
   create_time: 20190905T19:49:00
   id: 1149663
@@ -28763,84 +28845,3 @@
   status: NEW
   summary: 'riscv64: Experience a compiling error "sys/uio.h: No such file or directory"
     while cross-compiling riscv64 Linux kernel on x86_64.'
-- component: Development
-  create_time: 20190903T19:33:00
-  id: 1149259
-  resolution: ''
-  status: IN_PROGRESS
-  summary: go1.13 release tracking
-- component: Other
-  create_time: 20190903T15:25:00
-  id: 1149235
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190830] openQA test fails in evolution_prepare_servers with postfix.service
-    failure, on aarch64 JeOS'
-- component: Other
-  create_time: 20190903T14:50:00
-  id: 1149223
-  resolution: ''
-  status: NEW
-  summary: 'FreeCAD: bump stable to 0.18.3'
-- component: Security
-  create_time: 20190903T14:34:00
-  id: 1149216
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'AUDIT-0: systemd: resolved untracked privileges in v243'
-- component: Xfce
-  create_time: 20190903T13:48:00
-  id: 1149209
-  resolution: ''
-  status: NEW
-  summary: xfce-settings-manager has two options for screensaver settings  - one works
-    and one  don't
-- component: Basesystem
-  create_time: 20190903T12:56:00
-  id: 1149201
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: default MANPATH does not include /usr/local/share/man
-- component: Other
-  create_time: 20190903T09:23:00
-  id: 1149164
-  resolution: ''
-  status: NEW
-  summary: Recent snapshots seem to have broken user CIFS mounts
-- component: YaST2
-  create_time: 20190903T06:27:00
-  id: 1149140
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: yast2_http fails in openQA on aarch64
-- component: Basesystem
-  create_time: 20190902T17:09:00
-  id: 1149128
-  resolution: INVALID
-  status: RESOLVED
-  summary: 'clang++: fatal error: ''new'' file not found'
-- component: Containers
-  create_time: 20190902T15:05:00
-  id: 1149122
-  resolution: ''
-  status: NEW
-  summary: Flatpak/Snap is having trouble with XDG_DATA_DIRS and other XDG related
-    things
-- component: Kernel
-  create_time: 20190902T14:42:00
-  id: 1149119
-  resolution: ''
-  status: NEW
-  summary: kernel-default-base does not have a debuginfo package
-- component: Basesystem
-  create_time: 20190902T14:31:00
-  id: 1149117
-  resolution: ''
-  status: NEW
-  summary: 'awk: warning: regexp escape sequence  `\:'' is not a known regexp operator'
-- component: Other
-  create_time: 20190902T13:36:00
-  id: 1149112
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: cinnamon-session and telegram-desktop package conflicted with libqt5-qtstyleplugins-platformtheme-gtk2
