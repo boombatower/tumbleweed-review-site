@@ -28536,7 +28536,7 @@
   create_time: 20190901T08:03:00
   id: 1149066
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: daemon-reload does not always reload generated services
 - component: Other
   create_time: 20190831T04:55:00
@@ -28726,6 +28726,42 @@
   status: RESOLVED
   summary: cinnamon-session and telegram-desktop package conflicted with libqt5-qtstyleplugins-platformtheme-gtk2
 '20190904':
+- component: Other
+  create_time: 20190906T07:48:00
+  id: 1149707
+  resolution: ''
+  status: NEW
+  summary: '[glibc2.30] rebootmgr fails to build'
+- component: Other
+  create_time: 20190906T07:46:00
+  id: 1149705
+  resolution: ''
+  status: NEW
+  summary: '[glibc2.30] postfix fails to build'
+- component: Other
+  create_time: 20190906T07:42:00
+  id: 1149704
+  resolution: ''
+  status: NEW
+  summary: '[glibc2.30] lttng-ust fails to build'
+- component: Other
+  create_time: 20190906T07:37:00
+  id: 1149703
+  resolution: ''
+  status: NEW
+  summary: '[glibc2.30] blog fails to build'
+- component: Firefox
+  create_time: 20190906T07:35:00
+  id: 1149702
+  resolution: ''
+  status: NEW
+  summary: '[glibc2.30] Mozilla Thunderbird fails to build'
+- component: Kubic
+  create_time: 20190906T07:34:00
+  id: 1149701
+  resolution: ''
+  status: NEW
+  summary: Ignition needs to autodetect the platform
 - component: Kubic
   create_time: 20190905T19:49:00
   id: 1149663
