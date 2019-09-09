@@ -28945,6 +28945,12 @@
   summary: 'VUL-1: CVE-2019-15925: kernel-source: out of bounds access exists in the
     function hclge_tm_schd_mode_vnet_base_cfg in the file drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_tm'
 '20190907':
+- component: Development
+  create_time: 20190909T22:28:00
+  id: 1150060
+  resolution: ''
+  status: NEW
+  summary: 'codespell: update to 1.15.0'
 - component: Other
   create_time: 20190909T18:45:00
   id: 1150049
