@@ -7101,8 +7101,8 @@
 - component: Security
   create_time: 20180411T11:47:00
   id: 1089082
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '"polkit-untracked-privilege" affects non-Factory packages'
 - component: Kernel
   create_time: 20180411T02:37:00
@@ -19100,8 +19100,8 @@
 - component: Network
   create_time: 20190206T12:04:00
   id: 1124465
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'avahi-daemon: Failed to open /etc/resolv.conf: No such file or directory'
 - component: Other
   create_time: 20190206T09:58:00
@@ -20164,8 +20164,8 @@
 - component: Kernel
   create_time: 20190304T22:09:00
   id: 1127808
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Please consider CONFIG_HARDENED_USERCOPY and CONFIG_SLAB_FREELIST_HARDENED
 - component: YaST2
   create_time: 20190304T20:42:00
@@ -22582,7 +22582,7 @@
   create_time: 20190423T18:16:00
   id: 1133163
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Wrong word separators in Firefox inputs
 - component: Basesystem
   create_time: 20190423T15:09:00
@@ -26084,8 +26084,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190707T10:56:00
   id: 1140586
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Qt 5.13's "QtLottie" submodule not packaged
 - component: Other
   create_time: 20190707T09:16:00
@@ -26817,7 +26817,7 @@
   create_time: 20190729T08:09:00
   id: 1143192
   resolution: ''
-  status: REOPENED
+  status: CONFIRMED
   summary: 'open-iscsi-2.0.877-55.1.aarch64: segfault at startup'
 - component: Basesystem
   create_time: 20190729T08:05:00
@@ -27314,14 +27314,14 @@
 - component: Other
   create_time: 20190805T09:29:00
   id: 1144249
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Drop jasper dependency from libqt5-qtimageformats
 - component: Other
   create_time: 20190805T09:25:00
   id: 1144246
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Drop jasper dependency from libicns
 - component: Other
   create_time: 20190805T09:22:00
@@ -27729,8 +27729,8 @@
 - component: Basesystem
   create_time: 20190814T14:10:00
   id: 1145637
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: systemd brings up a broken system state
 - component: Other
   create_time: 20190814T13:03:00
@@ -27851,8 +27851,8 @@
 - component: Sound
   create_time: 20190818T01:40:00
   id: 1146011
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Audio very low on Lenovo Ideapad S940
 - component: Network
   create_time: 20190817T18:31:00
@@ -28726,6 +28726,63 @@
   status: RESOLVED
   summary: cinnamon-session and telegram-desktop package conflicted with libqt5-qtstyleplugins-platformtheme-gtk2
 '20190904':
+- component: KVM
+  create_time: 20190904T17:36:00
+  id: 1149450
+  resolution: ''
+  status: NEW
+  summary: 'WARNING: CPU: 4 PID: 5017 at arch/x86/kvm/x86.c:7963 vcpu_enter_guest+0xcfd/0xf20
+    [kvm]'
+- component: Development
+  create_time: 20190904T17:34:00
+  id: 1149449
+  resolution: ''
+  status: NEW
+  summary: start using libsource-highlight.so for gdb
+- component: Development
+  create_time: 20190904T13:12:00
+  id: 1149396
+  resolution: ''
+  status: IN_PROGRESS
+  summary: octave fails to exec octave-gui
+- component: Kubic
+  create_time: 20190904T12:56:00
+  id: 1149392
+  resolution: ''
+  status: NEW
+  summary: '''kubeadm init'' fails to start inside openQA on aarch64'
+- component: Kernel
+  create_time: 20190904T10:40:00
+  id: 1149364
+  resolution: ''
+  status: NEW
+  summary: Sometimes "tumbleweed update" freezes at kernel-default update
+- component: Development
+  create_time: 20190904T09:53:00
+  id: 1149348
+  resolution: ''
+  status: NEW
+  summary: 'LTO: datamash build failed PowerPC & ARM'
+- component: Development
+  create_time: 20190904T08:49:00
+  id: 1149330
+  resolution: ''
+  status: NEW
+  summary: 'devel:languages:ocaml/ocaml: New version available'
+- component: Basesystem
+  create_time: 20190904T08:27:00
+  id: 1149319
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'multipath: shaky paths may be reinstated prematurely'
+- component: Kernel
+  create_time: 20190904T06:10:00
+  id: 1149280
+  resolution: ''
+  status: NEW
+  summary: 'riscv64: Experience a compiling error "sys/uio.h: No such file or directory"
+    while cross-compiling riscv64 Linux kernel on x86_64.'
+'20190905':
 - component: Security
   create_time: 20190906T15:05:00
   id: 1149839
@@ -28748,8 +28805,8 @@
 - component: YaST2
   create_time: 20190906T12:20:00
   id: 1149804
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: YaST2-network shows wrong rendering in ncurses in Gnome but is fine in
     Textmode
 - component: Other
@@ -28803,14 +28860,14 @@
 - component: Other
   create_time: 20190906T07:37:00
   id: 1149703
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[glibc2.30] blog fails to build'
 - component: Firefox
   create_time: 20190906T07:35:00
   id: 1149702
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[glibc2.30] Mozilla Thunderbird fails to build'
 - component: Kubic
   create_time: 20190906T07:34:00
@@ -28864,8 +28921,8 @@
 - component: Containers
   create_time: 20190905T13:25:00
   id: 1149613
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: docker-19.03.1_ce-1.1.ppc64le complains about missing containerd.service
     file
 - component: Development
@@ -28887,59 +28944,89 @@
   status: RESOLVED
   summary: 'VUL-1: CVE-2019-15925: kernel-source: out of bounds access exists in the
     function hclge_tm_schd_mode_vnet_base_cfg in the file drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_tm'
-- component: KVM
-  create_time: 20190904T17:36:00
-  id: 1149450
+'20190907':
+- component: Other
+  create_time: 20190909T18:45:00
+  id: 1150049
   resolution: ''
   status: NEW
-  summary: 'WARNING: CPU: 4 PID: 5017 at arch/x86/kvm/x86.c:7963 vcpu_enter_guest+0xcfd/0xf20
-    [kvm]'
-- component: Development
-  create_time: 20190904T17:34:00
-  id: 1149449
+  summary: the package python2-h5py makes python2 crash when it is imported
+- component: Sound
+  create_time: 20190909T12:41:00
+  id: 1150013
   resolution: ''
   status: NEW
-  summary: start using libsource-highlight.so for gdb
-- component: Development
-  create_time: 20190904T13:12:00
-  id: 1149396
-  resolution: ''
-  status: NEW
-  summary: octave fails to exec octave-gui
-- component: Kubic
-  create_time: 20190904T12:56:00
-  id: 1149392
-  resolution: ''
-  status: NEW
-  summary: '''kubeadm init'' fails to start inside openQA on aarch64'
-- component: Kernel
-  create_time: 20190904T10:40:00
-  id: 1149364
-  resolution: ''
-  status: NEW
-  summary: Sometimes "tumbleweed update" freezes at kernel-default update
-- component: Development
-  create_time: 20190904T09:53:00
-  id: 1149348
-  resolution: ''
-  status: NEW
-  summary: 'LTO: datamash build failed PowerPC & ARM'
-- component: Development
-  create_time: 20190904T08:49:00
-  id: 1149330
-  resolution: ''
-  status: NEW
-  summary: 'devel:languages:ocaml/ocaml: New version available'
+  summary: vorbisgain needs to be ported to C99 compilers
 - component: Basesystem
-  create_time: 20190904T08:27:00
-  id: 1149319
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'multipath: shaky paths may be reinstated prematurely'
-- component: Kernel
-  create_time: 20190904T06:10:00
-  id: 1149280
+  create_time: 20190909T10:32:00
+  id: 1149995
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Shared libraries missing source level debug info
+- component: Other
+  create_time: 20190909T10:16:00
+  id: 1149986
   resolution: ''
   status: NEW
-  summary: 'riscv64: Experience a compiling error "sys/uio.h: No such file or directory"
-    while cross-compiling riscv64 Linux kernel on x86_64.'
+  summary: telegram-desktop cannot be started with enabled GTK integration and libqt5-qtstyleplugins-platformtheme-gtk2
+    installed
+- component: Installation
+  create_time: 20190909T09:57:00
+  id: 1149980
+  resolution: ''
+  status: CONFIRMED
+  summary: cleanup target system unmounting in umount_finish
+- component: Other
+  create_time: 20190909T07:51:00
+  id: 1149945
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'drbd: failed to build against kernel v5.2.11'
+- component: Bootloader
+  create_time: 20190909T07:05:00
+  id: 1149934
+  resolution: ''
+  status: NEW
+  summary: kernel-kvmsall becomes default kernel after installation
+- component: Network
+  create_time: 20190908T08:03:00
+  id: 1149885
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Firewalld package should be updated to 0.7.1
+- component: Basesystem
+  create_time: 20190908T02:57:00
+  id: 1149882
+  resolution: ''
+  status: NEW
+  summary: /etc/profile fails to load if the user is using Fish as their shell
+- component: Containers
+  create_time: 20190907T21:49:00
+  id: 1149881
+  resolution: ''
+  status: NEW
+  summary: unable to create macvlan nics in LXD container profile on tumbleweed
+- component: Other
+  create_time: 20190907T13:16:00
+  id: 1149873
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: mpv and smplayer did not work after last update
+- component: Other
+  create_time: 20190907T13:14:00
+  id: 1149872
+  resolution: ''
+  status: NEW
+  summary: Crash in git-cola possibly caused by a bug PyQt5 in openSUSE
+- component: Kernel
+  create_time: 20190907T12:59:00
+  id: 1149871
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'usb usb10-port1: Cannot enable. Maybe the USB cable is bad?'
+- component: Other
+  create_time: 20190907T09:14:00
+  id: 1149870
+  resolution: ''
+  status: NEW
+  summary: ocserv authentication issue using pam
