@@ -2383,3 +2383,21 @@
   reference_count: 0
   thread_count: 0
   threads: []
+'20190905':
+  announcement: 2019-09.81
+  reference_count: 7
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-09.83
+    reference_count: 7
+    summary: no summary given
+'20190907':
+  announcement: 2019-09.96
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-09.97
+    reference_count: 2
+    summary: Firefox ESR?
