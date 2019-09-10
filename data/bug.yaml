@@ -8492,8 +8492,8 @@
 - component: GNOME
   create_time: 20180517T13:08:00
   id: 1093709
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GNOME:Factory/gtksourceview4: duplicate binaries produced with gtksourceview'
 - component: Other
   create_time: 20180517T11:56:00
@@ -27918,8 +27918,8 @@
 - component: Other
   create_time: 20190815T11:28:00
   id: 1145735
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Duplicate binaries produced by different llvm versions
 - component: Kernel
   create_time: 20190815T09:05:00
@@ -28945,6 +28945,24 @@
   summary: 'VUL-1: CVE-2019-15925: kernel-source: out of bounds access exists in the
     function hclge_tm_schd_mode_vnet_base_cfg in the file drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_tm'
 '20190907':
+- component: Kernel
+  create_time: 20190910T12:51:00
+  id: 1150164
+  resolution: ''
+  status: NEW
+  summary: CLOCK_MONOTONIC and CLOCK_REALTIME appear to be broken on thunderX1
+- component: Bootloader
+  create_time: 20190910T11:55:00
+  id: 1150158
+  resolution: ''
+  status: NEW
+  summary: Grub2 fails to start from HTTPS boot
+- component: Basesystem
+  create_time: 20190910T11:49:00
+  id: 1150156
+  resolution: ''
+  status: NEW
+  summary: 'snapper create: Wrong error message for unknown parameters'
 - component: Security
   create_time: 20190910T09:28:00
   id: 1150129
