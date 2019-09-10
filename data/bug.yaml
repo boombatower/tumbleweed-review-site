@@ -25171,8 +25171,8 @@
 - component: Other
   create_time: 20190621T15:36:00
   id: 1138954
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: xrdp service fails to start on boot, on a timeout
 '20190623':
 - component: Virtualization:Other
@@ -26020,7 +26020,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: lbzip2 - don't exceed 18002 selectors
-- component: Bootloader
+- component: Basesystem
   create_time: 20190708T14:04:00
   id: 1140730
   resolution: ''
@@ -27033,8 +27033,8 @@
 - component: Basesystem
   create_time: 20190802T15:15:00
   id: 1144060
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Please add "pam_keyinit.so" to the /etc/pam.d/... configuration file(s)
 - component: Samba
   create_time: 20190802T15:14:00
@@ -28787,7 +28787,7 @@
   create_time: 20190906T15:05:00
   id: 1149839
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'VUL-1: CVE-2019-15942: ffmpeg,ffmpeg-4: Conditional jump or move depends
     on uninitialised value" issue in h2645_parse'
 - component: LibreOffice
@@ -28945,6 +28945,13 @@
   summary: 'VUL-1: CVE-2019-15925: kernel-source: out of bounds access exists in the
     function hclge_tm_schd_mode_vnet_base_cfg in the file drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_tm'
 '20190907':
+- component: Security
+  create_time: 20190910T09:28:00
+  id: 1150129
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2019-16137: rust-spin: improper memory handling violates mutual
+    exclusion'
 - component: Development
   create_time: 20190909T22:28:00
   id: 1150060
