@@ -21323,8 +21323,8 @@
 - component: Other
   create_time: 20190325T05:22:00
   id: 1130306
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: packagekit-background.service sends no mail
 - component: Kernel
   create_time: 20190325T02:01:00
