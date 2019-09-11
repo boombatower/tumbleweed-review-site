@@ -28979,8 +28979,8 @@
 - component: Development
   create_time: 20190909T22:28:00
   id: 1150060
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'codespell: update to 1.15.0'
 - component: Other
   create_time: 20190909T18:45:00
