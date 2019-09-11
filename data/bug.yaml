@@ -28945,6 +28945,19 @@
   summary: 'VUL-1: CVE-2019-15925: kernel-source: out of bounds access exists in the
     function hclge_tm_schd_mode_vnet_base_cfg in the file drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_tm'
 '20190907':
+- component: Other
+  create_time: 20190911T20:21:00
+  id: 1150413
+  resolution: ''
+  status: NEW
+  summary: 'ratbagctl and piper do not work: ratbagd API version is -1 but we require
+    1'
+- component: Basesystem
+  create_time: 20190911T18:41:00
+  id: 1150408
+  resolution: ''
+  status: NEW
+  summary: wrong location of raspberry pi 1b firmware files in rpm
 - component: YaST2
   create_time: 20190911T16:45:00
   id: 1150394
