@@ -20208,8 +20208,8 @@
 - component: Basesystem
   create_time: 20190304T09:49:00
   id: 1127701
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: fstrim -Av runs trim on each btrfs subvolume
 - component: Basesystem
   create_time: 20190304T09:46:00
@@ -22811,8 +22811,8 @@
 - component: Other
   create_time: 20190425T08:03:00
   id: 1133369
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: aqbanking build failed with gwenhywfar update
 - component: Other
   create_time: 20190425T02:45:00
@@ -24672,8 +24672,8 @@
 - component: YaST2
   create_time: 20190613T19:31:00
   id: 1138203
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Include other object creation options in yast2-aduc
 - component: Kubic
   create_time: 20190613T14:42:00
@@ -27466,8 +27466,8 @@
 - component: YaST2
   create_time: 20190806T15:01:00
   id: 1144530
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-adsi doesn't provide a descriptive name or summary
 - component: X11 Applications
   create_time: 20190806T13:19:00
@@ -28945,6 +28945,12 @@
   summary: 'VUL-1: CVE-2019-15925: kernel-source: out of bounds access exists in the
     function hclge_tm_schd_mode_vnet_base_cfg in the file drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_tm'
 '20190907':
+- component: YaST2
+  create_time: 20190911T16:45:00
+  id: 1150394
+  resolution: ''
+  status: NEW
+  summary: yast aduc/adsi/gpmc ldap timeout
 - component: Basesystem
   create_time: 20190911T14:37:00
   id: 1150373
