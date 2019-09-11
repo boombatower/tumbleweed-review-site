@@ -28967,7 +28967,7 @@
   create_time: 20190910T11:49:00
   id: 1150156
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'snapper create: Wrong error message for unknown parameters'
 - component: Security
   create_time: 20190910T09:28:00
