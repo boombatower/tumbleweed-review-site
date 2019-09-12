@@ -28544,7 +28544,7 @@
   resolution: ''
   status: NEW
   summary: 'uhd: update to v3.14.1.0'
-- component: KDE Workspace (Plasma)
+- component: KDE Applications
   create_time: 20190831T02:23:00
   id: 1149041
   resolution: ''
@@ -28994,6 +28994,24 @@
   status: IN_PROGRESS
   summary: 'glslang: symbol lookup error'
 '20190909':
+- component: YaST2
+  create_time: 20190912T20:49:00
+  id: 1150616
+  resolution: ''
+  status: NEW
+  summary: yast2-gpmc crashes when deleting GPO
+- component: YaST2
+  create_time: 20190912T20:28:00
+  id: 1150614
+  resolution: ''
+  status: NEW
+  summary: yast2-gpmc ignore a directory listing fail if the directory doesn't exist
+- component: YaST2
+  create_time: 20190912T19:40:00
+  id: 1150612
+  resolution: ''
+  status: NEW
+  summary: yast2-aduc unused xset may cause exception in appimage
 - component: Basesystem
   create_time: 20190912T15:59:00
   id: 1150592
@@ -29225,8 +29243,8 @@
 - component: YaST2
   create_time: 20190911T16:45:00
   id: 1150394
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast aduc/adsi/gpmc ldap timeout
 - component: Basesystem
   create_time: 20190911T14:37:00
