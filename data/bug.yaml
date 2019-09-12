@@ -27370,7 +27370,7 @@
   create_time: 20190808T16:25:00
   id: 1144916
   resolution: ''
-  status: REOPENED
+  status: NEW
   summary: Chromium 76.0.3809.87-1.1 browser crashes at start on openSUSE-20180206-0
 - component: AutoYaST
   create_time: 20190808T13:58:00
@@ -29077,8 +29077,8 @@
 - component: Other
   create_time: 20190909T07:51:00
   id: 1149945
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'drbd: failed to build against kernel v5.2.11'
 - component: Bootloader
   create_time: 20190909T07:05:00
