@@ -16560,8 +16560,8 @@
 - component: Samba
   create_time: 20181205T15:01:00
   id: 1118508
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: libldb1 version mismatch in Samba dsdb component 1.4.3 vs 1.4.2
 - component: Development
   create_time: 20181205T11:38:00
@@ -28945,6 +28945,87 @@
   summary: 'VUL-1: CVE-2019-15925: kernel-source: out of bounds access exists in the
     function hclge_tm_schd_mode_vnet_base_cfg in the file drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_tm'
 '20190907':
+- component: Security
+  create_time: 20190912T11:28:00
+  id: 1150534
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: cacti: review of cron job file(s): /etc/cron.d/cacti'
+- component: Security
+  create_time: 20190912T11:27:00
+  id: 1150533
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: atop-daemon: review of cron job file(s): /etc/cron.d/atop'
+- component: Security
+  create_time: 20190912T11:26:00
+  id: 1150532
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: apt-cacher-ng: review of cron job file(s): /etc/cron.daily/apt-cacher-ng'
+- component: Security
+  create_time: 20190912T11:23:00
+  id: 1150530
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: aide: review of cron job file(s): /usr/share/doc/packages/aide/examples/etc/cron.daily/aide.sh'
+- component: Security
+  create_time: 20190912T11:02:00
+  id: 1150527
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: cifs-utils: review pam_cifscreds not yet whitelisted in rpmlint'
+- component: Security
+  create_time: 20190912T11:00:00
+  id: 1150525
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: envoy: review pam_envoy not yet whitelisted in rpmlint'
+- component: Security
+  create_time: 20190912T10:57:00
+  id: 1150524
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: google-authenticator-libpam: review pam_google_authenticator
+    not yet whitelisted in rpmlint'
+- component: Security
+  create_time: 20190912T10:50:00
+  id: 1150522
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: libcap: review pam_cap not yet whitelisted in rpmlint'
+- component: Security
+  create_time: 20190912T10:48:00
+  id: 1150520
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: libpwquality: review pam_pwquality not yet whitelisted in rpmlint'
+- component: Security
+  create_time: 20190912T10:42:00
+  id: 1150519
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: lxc: review pam_cgfs not yet whitelisted in rpmlint'
+- component: Security
+  create_time: 20190912T10:28:00
+  id: 1150510
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: pam-python: review pam module that is not yet whitelisted in
+    rpmlint'
+- component: YaST2
+  create_time: 20190912T09:44:00
+  id: 1150498
+  resolution: ''
+  status: IN_PROGRESS
+  summary: scrollbar resets when toggling firewall setting
+- component: GNOME
+  create_time: 20190912T09:22:00
+  id: 1150488
+  resolution: ''
+  status: NEW
+  summary: flatpak  app can not be installed by "2-click" in web browswer when "gnome-software
+    --gapplication-service" is launched in advance.
 - component: X.Org
   create_time: 20190912T08:26:00
   id: 1150478
