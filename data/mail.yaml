@@ -2394,12 +2394,12 @@
     summary: no summary given
 '20190907':
   announcement: 2019-09.96
-  reference_count: 6
+  reference_count: 8
   thread_count: 1
   threads:
   - messages:
     - 2019-09.97
-    reference_count: 6
+    reference_count: 8
     summary: Firefox ESR?
 '20190909':
   announcement: 2019-09.126
