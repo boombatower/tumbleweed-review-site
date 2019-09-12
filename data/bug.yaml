@@ -21019,8 +21019,8 @@
 - component: Kubic
   create_time: 20190318T11:00:00
   id: 1129566
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: ignition cannot write to /sysroot/etc with transactional-updates
 '20190320':
 - component: Kernel
@@ -27754,7 +27754,7 @@
   create_time: 20190814T07:46:00
   id: 1145561
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'systemd-tty-ask-password-agent: laptop once in a while "hangs" after entering
     wrong password for disk encryption'
 - component: Basesystem
@@ -28672,8 +28672,8 @@
 - component: Xfce
   create_time: 20190903T13:48:00
   id: 1149209
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: xfce-settings-manager has two options for screensaver settings  - one works
     and one  don't
 - component: Basesystem
@@ -28994,6 +28994,12 @@
   status: IN_PROGRESS
   summary: 'glslang: symbol lookup error'
 '20190909':
+- component: Basesystem
+  create_time: 20190912T15:59:00
+  id: 1150592
+  resolution: ''
+  status: NEW
+  summary: NFS for Vagrant is broken because of removing the nfsserver service alias
 - component: Kernel
   create_time: 20190912T14:03:00
   id: 1150577
@@ -29189,7 +29195,7 @@
   create_time: 20190912T08:26:00
   id: 1150478
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Something's wrong with the i915 driver?
 - component: Compiz
   create_time: 20190912T08:05:00
