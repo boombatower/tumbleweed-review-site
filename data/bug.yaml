@@ -26184,8 +26184,8 @@
 - component: Basesystem
   create_time: 20190704T13:29:00
   id: 1140407
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: FreeCAD & some libraries
 - component: Other
   create_time: 20190704T09:17:00
@@ -27296,8 +27296,8 @@
 - component: Other
   create_time: 20190805T09:37:00
   id: 1144255
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Drop jasper dependency from netpbm
 - component: LXDE
   create_time: 20190805T09:34:00
@@ -27375,8 +27375,8 @@
 - component: AutoYaST
   create_time: 20190808T13:58:00
   id: 1144894
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190806] autoyast profile doesn''t validate'
 - component: Live Medium
   create_time: 20190808T13:26:00
@@ -28660,8 +28660,8 @@
 - component: Other
   create_time: 20190903T14:50:00
   id: 1149223
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FreeCAD: bump stable to 0.18.3'
 - component: Security
   create_time: 20190903T14:34:00
@@ -28748,8 +28748,8 @@
 - component: Kubic
   create_time: 20190904T12:56:00
   id: 1149392
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '''kubeadm init'' fails to start inside openQA on aarch64'
 - component: Kernel
   create_time: 20190904T10:40:00
@@ -28945,6 +28945,24 @@
   summary: 'VUL-1: CVE-2019-15925: kernel-source: out of bounds access exists in the
     function hclge_tm_schd_mode_vnet_base_cfg in the file drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_tm'
 '20190907':
+- component: X.Org
+  create_time: 20190912T08:26:00
+  id: 1150478
+  resolution: ''
+  status: NEW
+  summary: Something's wrong with the i915 driver?
+- component: Compiz
+  create_time: 20190912T08:05:00
+  id: 1150473
+  resolution: ''
+  status: NEW
+  summary: Compiz cannot be installed, because it depends on a nonexistent package
+- component: Basesystem
+  create_time: 20190912T06:51:00
+  id: 1150451
+  resolution: ''
+  status: NEW
+  summary: Update timezone to 2019c.
 - component: Other
   create_time: 20190911T20:21:00
   id: 1150413
@@ -28979,8 +28997,8 @@
 - component: Other
   create_time: 20190911T14:11:00
   id: 1150365
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: mpv doesnt run
 - component: Other
   create_time: 20190911T13:27:00
@@ -29095,8 +29113,8 @@
 - component: Basesystem
   create_time: 20190908T02:57:00
   id: 1149882
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: /etc/profile fails to load if the user is using Fish as their shell
 - component: Containers
   create_time: 20190907T21:49:00
@@ -29128,3 +29146,9 @@
   resolution: ''
   status: NEW
   summary: ocserv authentication issue using pam
+- component: Maintenance
+  create_time: 20190907T09:10:00
+  id: 1149869
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'glslang: symbol lookup error'
