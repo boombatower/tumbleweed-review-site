@@ -14327,8 +14327,8 @@
 - component: Other
   create_time: 20181024T07:06:00
   id: 1113036
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/usbutils is out of date'
 - component: Other
   create_time: 20181024T07:03:00
@@ -28945,6 +28945,165 @@
   summary: 'VUL-1: CVE-2019-15925: kernel-source: out of bounds access exists in the
     function hclge_tm_schd_mode_vnet_base_cfg in the file drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_tm'
 '20190907':
+- component: Network
+  create_time: 20190908T08:03:00
+  id: 1149885
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Firewalld package should be updated to 0.7.1
+- component: Basesystem
+  create_time: 20190908T02:57:00
+  id: 1149882
+  resolution: INVALID
+  status: RESOLVED
+  summary: /etc/profile fails to load if the user is using Fish as their shell
+- component: Containers
+  create_time: 20190907T21:49:00
+  id: 1149881
+  resolution: ''
+  status: NEW
+  summary: unable to create macvlan nics in LXD container profile on tumbleweed
+- component: Other
+  create_time: 20190907T13:16:00
+  id: 1149873
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: mpv and smplayer did not work after last update
+- component: Other
+  create_time: 20190907T13:14:00
+  id: 1149872
+  resolution: ''
+  status: NEW
+  summary: Crash in git-cola possibly caused by a bug PyQt5 in openSUSE
+- component: Kernel
+  create_time: 20190907T12:59:00
+  id: 1149871
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'usb usb10-port1: Cannot enable. Maybe the USB cable is bad?'
+- component: Other
+  create_time: 20190907T09:14:00
+  id: 1149870
+  resolution: ''
+  status: NEW
+  summary: ocserv authentication issue using pam
+- component: Maintenance
+  create_time: 20190907T09:10:00
+  id: 1149869
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'glslang: symbol lookup error'
+'20190909':
+- component: Kernel
+  create_time: 20190912T14:03:00
+  id: 1150577
+  resolution: ''
+  status: NEW
+  summary: Freescale Layerscape 2088A fails to boot with tumbleweed
+- component: Security
+  create_time: 20190912T12:08:00
+  id: 1150559
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: yum: review of cron job file(s): /etc/cron.daily/0yum.cron'
+- component: Security
+  create_time: 20190912T12:07:00
+  id: 1150558
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: yast2-ntp-client: review of cron job file(s): /etc/cron.d/suse-ntp_synchronize'
+- component: Security
+  create_time: 20190912T12:06:00
+  id: 1150557
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: tmpwatch: review of cron job file(s): /etc/cron.daily/tmpwatch'
+- component: Security
+  create_time: 20190912T12:05:00
+  id: 1150556
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: texlive-filesystem: review of cron job file(s): /etc/cron.daily/suse-texlive'
+- component: Security
+  create_time: 20190912T12:04:00
+  id: 1150555
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: storeBackup: review of cron job file(s): /etc/cron.daily/storebackup'
+- component: Security
+  create_time: 20190912T12:04:00
+  id: 1150554
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: sarg: review of cron job file(s): /etc/cron.daily/suse.de-sarg,
+    /etc/cron.monthly/suse.de-sarg, /etc/cron.weekly/suse.de-sarg'
+- component: Security
+  create_time: 20190912T12:03:00
+  id: 1150553
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: rkhunter: review of cron job file(s): /etc/cron.daily/suse.de-rkhunter'
+- component: Security
+  create_time: 20190912T12:02:00
+  id: 1150552
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: patch2mail: review of cron job file(s): /etc/cron.daily/patch2mail'
+- component: Security
+  create_time: 20190912T12:01:00
+  id: 1150551
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: openlmi-pcp: review of cron job file(s): /etc/cron.daily/openlmi-pcp'
+- component: Security
+  create_time: 20190912T12:00:00
+  id: 1150550
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: nagios: review of cron job file(s): /etc/cron.weekly/nagios'
+- component: Security
+  create_time: 20190912T11:59:00
+  id: 1150549
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: munin: review of cron job file(s): /etc/cron.d/munin'
+- component: Security
+  create_time: 20190912T11:58:00
+  id: 1150548
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: matomo: review of cron job file(s): /etc/cron.d/matomo-archive'
+- component: Security
+  create_time: 20190912T11:57:00
+  id: 1150547
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: logwatch: review of cron job file(s): /etc/cron.d/dmeventd, /etc/cron.daily/0logwatch'
+- component: Security
+  create_time: 20190912T11:55:00
+  id: 1150546
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: logdigest: review of cron job file(s): /etc/cron.d/logdigest-all-ignores-autogeneration,
+    /etc/cron.daily/logdigest'
+- component: Security
+  create_time: 20190912T11:55:00
+  id: 1150545
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: leafnode: review of cron job file(s): /etc/cron.daily/leafnode'
+- component: Security
+  create_time: 20190912T11:54:00
+  id: 1150543
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: froxlor: review of cron job file(s): /etc/cron.d/froxlor'
+- component: Security
+  create_time: 20190912T11:52:00
+  id: 1150541
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: cronie-anacron: review of cron job file(s): /etc/cron.hourly/0anacron'
 - component: Security
   create_time: 20190912T11:28:00
   id: 1150534
@@ -29185,51 +29344,3 @@
   resolution: ''
   status: NEW
   summary: kernel-kvmsall becomes default kernel after installation
-- component: Network
-  create_time: 20190908T08:03:00
-  id: 1149885
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Firewalld package should be updated to 0.7.1
-- component: Basesystem
-  create_time: 20190908T02:57:00
-  id: 1149882
-  resolution: INVALID
-  status: RESOLVED
-  summary: /etc/profile fails to load if the user is using Fish as their shell
-- component: Containers
-  create_time: 20190907T21:49:00
-  id: 1149881
-  resolution: ''
-  status: NEW
-  summary: unable to create macvlan nics in LXD container profile on tumbleweed
-- component: Other
-  create_time: 20190907T13:16:00
-  id: 1149873
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: mpv and smplayer did not work after last update
-- component: Other
-  create_time: 20190907T13:14:00
-  id: 1149872
-  resolution: ''
-  status: NEW
-  summary: Crash in git-cola possibly caused by a bug PyQt5 in openSUSE
-- component: Kernel
-  create_time: 20190907T12:59:00
-  id: 1149871
-  resolution: INVALID
-  status: RESOLVED
-  summary: 'usb usb10-port1: Cannot enable. Maybe the USB cable is bad?'
-- component: Other
-  create_time: 20190907T09:14:00
-  id: 1149870
-  resolution: ''
-  status: NEW
-  summary: ocserv authentication issue using pam
-- component: Maintenance
-  create_time: 20190907T09:10:00
-  id: 1149869
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'glslang: symbol lookup error'
