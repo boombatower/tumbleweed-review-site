@@ -2403,10 +2403,10 @@
     summary: Firefox ESR?
 '20190909':
   announcement: 2019-09.126
-  reference_count: 1
+  reference_count: 2
   thread_count: 1
   threads:
   - messages:
     - 2019-09.132
-    reference_count: 1
+    reference_count: 2
     summary: Changed NFS behaviour?
