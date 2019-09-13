@@ -2403,10 +2403,14 @@
     summary: Firefox ESR?
 '20190909':
   announcement: 2019-09.126
-  reference_count: 3
-  thread_count: 1
+  reference_count: 4
+  thread_count: 2
   threads:
   - messages:
     - 2019-09.132
     reference_count: 3
     summary: Changed NFS behaviour?
+  - messages:
+    - 2019-09.137
+    reference_count: 1
+    summary: Change in kmail mail list keyboard navigation behavior
