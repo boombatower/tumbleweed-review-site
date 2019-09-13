@@ -28778,8 +28778,8 @@
 - component: Kernel
   create_time: 20190904T06:10:00
   id: 1149280
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'riscv64: Experience a compiling error "sys/uio.h: No such file or directory"
     while cross-compiling riscv64 Linux kernel on x86_64.'
 '20190905':
@@ -28994,6 +28994,18 @@
   status: IN_PROGRESS
   summary: 'glslang: symbol lookup error'
 '20190909':
+- component: X.Org
+  create_time: 20190913T09:38:00
+  id: 1150675
+  resolution: ''
+  status: NEW
+  summary: Is Intel 945 GME still supported?
+- component: YaST2
+  create_time: 20190913T09:04:00
+  id: 1150669
+  resolution: ''
+  status: NEW
+  summary: grub2 not automatically selected during installation
 - component: YaST2
   create_time: 20190912T20:49:00
   id: 1150616
@@ -29212,8 +29224,8 @@
 - component: X.Org
   create_time: 20190912T08:26:00
   id: 1150478
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Something's wrong with the i915 driver?
 - component: Compiz
   create_time: 20190912T08:05:00
