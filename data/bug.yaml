@@ -17942,8 +17942,8 @@
 - component: Basesystem
   create_time: 20190110T09:16:00
   id: 1121404
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 9: bluez build fails'
 - component: Basesystem
   create_time: 20190110T09:14:00
@@ -29347,7 +29347,7 @@
   create_time: 20190909T12:41:00
   id: 1150013
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: vorbisgain needs to be ported to C99 compilers
 - component: Basesystem
   create_time: 20190909T10:32:00
