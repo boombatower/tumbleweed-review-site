@@ -28482,8 +28482,8 @@
 - component: Other
   create_time: 20190828T09:39:00
   id: 1148509
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Problem: telegram-desktop-1.8.2-1.1.x86_64 conflicts with libqt5-qtstyleplugins-platformtheme-gtk2
     provided by libqt5-qtstyleplugins-platformtheme-gtk2-5.0.0+git20170311-6.11.x86_64'
 - component: Installation
@@ -29003,8 +29003,8 @@
 - component: YaST2
   create_time: 20190913T09:04:00
   id: 1150669
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: grub2 not automatically selected during installation
 - component: YaST2
   create_time: 20190912T20:49:00
@@ -29285,8 +29285,8 @@
 - component: Security
   create_time: 20190911T12:46:00
   id: 1150345
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-1: nagios: review of setgid directory /var/spool/nagios'
 - component: Security
   create_time: 20190911T12:32:00
