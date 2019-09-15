@@ -2394,16 +2394,16 @@
     summary: no summary given
 '20190907':
   announcement: 2019-09.96
-  reference_count: 8
+  reference_count: 9
   thread_count: 1
   threads:
   - messages:
     - 2019-09.97
-    reference_count: 8
+    reference_count: 9
     summary: Firefox ESR?
 '20190909':
   announcement: 2019-09.126
-  reference_count: 4
+  reference_count: 5
   thread_count: 2
   threads:
   - messages:
@@ -2412,5 +2412,5 @@
     summary: Changed NFS behaviour?
   - messages:
     - 2019-09.137
-    reference_count: 1
+    reference_count: 2
     summary: Change in kmail mail list keyboard navigation behavior
