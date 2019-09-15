@@ -28994,6 +28994,12 @@
   status: IN_PROGRESS
   summary: 'glslang: symbol lookup error'
 '20190909':
+- component: Network
+  create_time: 20190915T18:44:00
+  id: 1150807
+  resolution: ''
+  status: NEW
+  summary: NFS-client is broken, nfs.service does not exist.
 - component: Installation
   create_time: 20190914T20:31:00
   id: 1150790
