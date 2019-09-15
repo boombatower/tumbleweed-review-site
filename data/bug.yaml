@@ -28994,11 +28994,41 @@
   status: IN_PROGRESS
   summary: 'glslang: symbol lookup error'
 '20190909':
+- component: Installation
+  create_time: 20190914T20:31:00
+  id: 1150790
+  resolution: ''
+  status: NEW
+  summary: Unexpected behavior when installing Tumbleweed without recommended packages
+- component: Cloud:Tools
+  create_time: 20190914T16:02:00
+  id: 1150788
+  resolution: ''
+  status: NEW
+  summary: Installation in opensuse Tumbleweed owncloud-client from isv:ownCloud:desktop
+- component: Development
+  create_time: 20190914T15:17:00
+  id: 1150787
+  resolution: ''
+  status: NEW
+  summary: gdb with flto debug info
+- component: Other
+  create_time: 20190914T12:37:00
+  id: 1150782
+  resolution: ''
+  status: NEW
+  summary: rpmlint runs LTO checks even when LTO is disabled in the spec file
+- component: KDE Applications
+  create_time: 20190914T00:23:00
+  id: 1150757
+  resolution: ''
+  status: NEW
+  summary: Keyboard in Falkon buggy since libqt5-qtwebengine 5.13.1
 - component: X.Org
   create_time: 20190913T09:38:00
   id: 1150675
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Is Intel 945 GME still supported?
 - component: YaST2
   create_time: 20190913T09:04:00
@@ -29243,7 +29273,7 @@
   create_time: 20190911T20:21:00
   id: 1150413
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'ratbagctl and piper do not work: ratbagd API version is -1 but we require
     1'
 - component: Basesystem
