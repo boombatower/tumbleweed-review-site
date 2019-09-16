@@ -29286,8 +29286,9 @@
   create_time: 20190911T18:41:00
   id: 1150408
   resolution: ''
-  status: NEW
-  summary: wrong location of raspberry pi 1b firmware files in rpm
+  status: CONFIRMED
+  summary: '[RPi] Raspberry Pi firmware disappearing after raspberrypi-firmware package
+    update'
 - component: YaST2
   create_time: 20190911T16:45:00
   id: 1150394
