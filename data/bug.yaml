@@ -28812,8 +28812,8 @@
 - component: Other
   create_time: 20190906T11:51:00
   id: 1149790
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'undefined symbol: fz_identity (python3-PyMuPDF)'
 - component: YaST2
   create_time: 20190906T10:44:00
