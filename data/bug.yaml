@@ -29418,11 +29418,17 @@
   status: NEW
   summary: kernel-kvmsall becomes default kernel after installation
 '20190916':
+- component: Other
+  create_time: 20190917T18:24:00
+  id: 1151094
+  resolution: ''
+  status: NEW
+  summary: chromium broken in snapshot 20190916
 - component: Kubic
   create_time: 20190917T15:32:00
   id: 1151083
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: With ignition.firstboot, boot is delayed by 1m30s if there is no fs with
     ignition label
 - component: Kubic
