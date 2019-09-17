@@ -24002,8 +24002,8 @@
 - component: Other
   create_time: 20190521T09:49:00
   id: 1135746
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Staging][Tracking] Update swig to 4.0.0'
 - component: Other
   create_time: 20190521T09:45:00
@@ -29418,6 +29418,31 @@
   status: NEW
   summary: kernel-kvmsall becomes default kernel after installation
 '20190916':
+- component: Kubic
+  create_time: 20190917T15:32:00
+  id: 1151083
+  resolution: ''
+  status: NEW
+  summary: With ignition.firstboot, boot is delayed by 1m30s if there is no fs with
+    ignition label
+- component: Kubic
+  create_time: 20190917T15:27:00
+  id: 1151081
+  resolution: ''
+  status: NEW
+  summary: transactional-update shell does not provide resolv.conf
+- component: Network
+  create_time: 20190917T15:02:00
+  id: 1151078
+  resolution: FIXED
+  status: RESOLVED
+  summary: Chromium 77.0.3865.75 fails to load any page, results in "Aw, Snap!"
+- component: Kubic
+  create_time: 20190917T14:31:00
+  id: 1151072
+  resolution: ''
+  status: NEW
+  summary: health-checker causes grub to print "Invalid file name ``"
 - component: Development
   create_time: 20190917T13:40:00
   id: 1151068
