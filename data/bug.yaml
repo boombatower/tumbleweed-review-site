@@ -28995,6 +28995,13 @@
   summary: 'glslang: symbol lookup error'
 '20190909':
 - component: Other
+  create_time: 20190917T04:52:00
+  id: 1150977
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190916] openQA test fails in chromium - chromium 77.0.3865.75
+    crashed when loading web content'
+- component: Other
   create_time: 20190916T20:47:00
   id: 1150962
   resolution: ''
