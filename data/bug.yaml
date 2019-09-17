@@ -12362,8 +12362,8 @@
 - component: Development
   create_time: 20180910T09:45:00
   id: 1107814
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python-openstacksdk build gets stuck on 1-core-VM
 - component: Other
   create_time: 20180910T08:16:00
@@ -20981,8 +20981,8 @@
 - component: Basesystem
   create_time: 20190319T12:21:00
   id: 1129751
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: link-local addresses get added to /etc/resolv.conf without an interface
     id
 - component: YaST2
@@ -28994,6 +28994,30 @@
   status: IN_PROGRESS
   summary: 'glslang: symbol lookup error'
 '20190909':
+- component: Other
+  create_time: 20190916T20:47:00
+  id: 1150962
+  resolution: ''
+  status: NEW
+  summary: MPV/MPlayer crashes when opening video file
+- component: Kernel
+  create_time: 20190916T12:37:00
+  id: 1150930
+  resolution: ''
+  status: NEW
+  summary: 'Firmware Bug: TPM interrupt not working on Lenovo Thinkpad P43s'
+- component: Development
+  create_time: 20190916T11:28:00
+  id: 1150918
+  resolution: ''
+  status: NEW
+  summary: LTO breaks debuginfo, no line info anymore
+- component: Other
+  create_time: 20190916T11:12:00
+  id: 1150909
+  resolution: ''
+  status: CONFIRMED
+  summary: MATE package need to adopt libxml2 binding packaging change
 - component: Network
   create_time: 20190915T18:44:00
   id: 1150807
@@ -29241,7 +29265,7 @@
   create_time: 20190912T10:28:00
   id: 1150510
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'AUDIT-1: pam-python: review pam module that is not yet whitelisted in
     rpmlint'
 - component: YaST2
@@ -29286,7 +29310,7 @@
   create_time: 20190911T18:41:00
   id: 1150408
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: '[RPi] Raspberry Pi firmware disappearing after raspberrypi-firmware package
     update'
 - component: YaST2
@@ -29383,8 +29407,8 @@
 - component: Sound
   create_time: 20190909T12:41:00
   id: 1150013
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: vorbisgain needs to be ported to C99 compilers
 - component: Basesystem
   create_time: 20190909T10:32:00
