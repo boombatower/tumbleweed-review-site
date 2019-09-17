@@ -27369,8 +27369,8 @@
 - component: Other
   create_time: 20190808T16:25:00
   id: 1144916
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Chromium 76.0.3809.87-1.1 browser crashes at start on openSUSE-20180206-0
 - component: AutoYaST
   create_time: 20190808T13:58:00
@@ -28995,43 +28995,6 @@
   summary: 'glslang: symbol lookup error'
 '20190909':
 - component: Network
-  create_time: 20190917T10:47:00
-  id: 1151044
-  resolution: ''
-  status: NEW
-  summary: NFS exports from lates TW cannot be mounted from older systems
-- component: Other
-  create_time: 20190917T04:52:00
-  id: 1150977
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20190916] openQA test fails in chromium - chromium 77.0.3865.75
-    crashed when loading web content'
-- component: Other
-  create_time: 20190916T20:47:00
-  id: 1150962
-  resolution: ''
-  status: NEW
-  summary: MPV/MPlayer crashes when opening video file
-- component: Kernel
-  create_time: 20190916T12:37:00
-  id: 1150930
-  resolution: ''
-  status: NEW
-  summary: 'Firmware Bug: TPM interrupt not working on Lenovo Thinkpad P43s'
-- component: Development
-  create_time: 20190916T11:28:00
-  id: 1150918
-  resolution: ''
-  status: NEW
-  summary: LTO breaks debuginfo, no line info anymore
-- component: Other
-  create_time: 20190916T11:12:00
-  id: 1150909
-  resolution: ''
-  status: CONFIRMED
-  summary: MATE package need to adopt libxml2 binding packaging change
-- component: Network
   create_time: 20190915T18:44:00
   id: 1150807
   resolution: ''
@@ -29454,3 +29417,65 @@
   resolution: ''
   status: NEW
   summary: kernel-kvmsall becomes default kernel after installation
+'20190916':
+- component: Development
+  create_time: 20190917T13:40:00
+  id: 1151068
+  resolution: ''
+  status: NEW
+  summary: 'LTO: gnustep-base lto1: error: two or more sections for ...'
+- component: Maintenance
+  create_time: 20190917T12:24:00
+  id: 1151060
+  resolution: ''
+  status: NEW
+  summary: 'openssh: no debugging of sshd possible in current Tumbleweed'
+- component: Development
+  create_time: 20190917T12:12:00
+  id: 1151058
+  resolution: ''
+  status: NEW
+  summary: 'ocaml-curses build  failed with oasis setup:  "Unknown license ''LGPL-2.1-or-later''"'
+- component: Development
+  create_time: 20190917T11:45:00
+  id: 1151053
+  resolution: ''
+  status: NEW
+  summary: Openmpi3 warnings are disfiguring output in computational chemistry software
+- component: Network
+  create_time: 20190917T10:47:00
+  id: 1151044
+  resolution: ''
+  status: NEW
+  summary: NFS exports from lates TW cannot be mounted from older systems
+- component: Other
+  create_time: 20190917T04:52:00
+  id: 1150977
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20190916] openQA test fails in chromium - chromium 77.0.3865.75
+    crashed when loading web content'
+- component: Other
+  create_time: 20190916T20:47:00
+  id: 1150962
+  resolution: ''
+  status: NEW
+  summary: MPV/MPlayer crashes when opening video file
+- component: Kernel
+  create_time: 20190916T12:37:00
+  id: 1150930
+  resolution: ''
+  status: NEW
+  summary: 'Firmware Bug: TPM interrupt not working on Lenovo Thinkpad P43s'
+- component: Development
+  create_time: 20190916T11:28:00
+  id: 1150918
+  resolution: ''
+  status: NEW
+  summary: LTO breaks debuginfo, no line info anymore
+- component: Other
+  create_time: 20190916T11:12:00
+  id: 1150909
+  resolution: ''
+  status: CONFIRMED
+  summary: MATE package need to adopt libxml2 binding packaging change
