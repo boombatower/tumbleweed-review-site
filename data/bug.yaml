@@ -26911,8 +26911,8 @@
 - component: Other
   create_time: 20190726T16:21:00
   id: 1143065
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Regression in TeXLive 2019 (font problems)
 - component: Development
   create_time: 20190726T15:24:00
@@ -28994,11 +28994,17 @@
   status: IN_PROGRESS
   summary: 'glslang: symbol lookup error'
 '20190909':
+- component: Network
+  create_time: 20190917T10:47:00
+  id: 1151044
+  resolution: ''
+  status: NEW
+  summary: NFS exports from lates TW cannot be mounted from older systems
 - component: Other
   create_time: 20190917T04:52:00
   id: 1150977
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190916] openQA test fails in chromium - chromium 77.0.3865.75
     crashed when loading web content'
 - component: Other
