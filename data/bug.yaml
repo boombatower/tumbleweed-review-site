@@ -8434,6 +8434,12 @@
   resolution: WONTFIX
   status: RESOLVED
   summary: '[openQA] /etc/salt/minion.d/master.conf missing on Kubic worker installs'
+- component: Network
+  create_time: 20180518T11:52:00
+  id: 1093877
+  resolution: ''
+  status: CONFIRMED
+  summary: 'NFSD: client 192.168.6.102 testing state ID with incorrect client ID'
 - component: Bootloader
   create_time: 20180518T10:39:00
   id: 1093853
@@ -13229,8 +13235,8 @@
 - component: Usability
   create_time: 20181002T08:15:00
   id: 1110412
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Color Emoji support is disabled by Noto Emoji (monochrome) and DejaVu fonts
 - component: Containers
   create_time: 20181002T08:10:00
@@ -28673,7 +28679,7 @@
   create_time: 20190903T13:48:00
   id: 1149209
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: xfce-settings-manager has two options for screensaver settings  - one works
     and one  don't
 - component: Basesystem
@@ -29419,10 +29425,28 @@
   summary: kernel-kvmsall becomes default kernel after installation
 '20190916':
 - component: Other
-  create_time: 20190917T18:24:00
-  id: 1151094
+  create_time: 20190918T08:48:00
+  id: 1151152
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Chromium 77 subprocess crashes on every page
+- component: Other
+  create_time: 20190918T08:41:00
+  id: 1151150
   resolution: ''
   status: NEW
+  summary: Tensorflow uses protobuf v3.6.1.2 tarball instead of protobuf from distribution
+- component: YaST2
+  create_time: 20190918T08:07:00
+  id: 1151148
+  resolution: ''
+  status: NEW
+  summary: Live installation fails because YaST does not install storage feature packages
+- component: Other
+  create_time: 20190917T18:24:00
+  id: 1151094
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: chromium broken in snapshot 20190916
 - component: Kubic
   create_time: 20190917T15:32:00
