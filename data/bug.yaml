@@ -29210,7 +29210,7 @@
   create_time: 20190912T11:02:00
   id: 1150527
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: cifs-utils: review pam_cifscreds not yet whitelisted in rpmlint'
 - component: Security
   create_time: 20190912T11:00:00
@@ -29275,11 +29275,18 @@
   resolution: ''
   status: NEW
   summary: Compiz cannot be installed, because it depends on a nonexistent package
+- component: Security
+  create_time: 20190912T07:44:00
+  id: 1150462
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2019-16249: opencv: out-of-bounds read in hal_baseline:v_load
+    in core/hal/intrin_sse.hpp when called from computeSSDMeanNorm in modules/video/src/dis_flow.cpp'
 - component: Basesystem
   create_time: 20190912T06:51:00
   id: 1150451
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Update timezone to 2019c.
 - component: Other
   create_time: 20190911T20:21:00
@@ -29425,6 +29432,62 @@
   summary: kernel-kvmsall becomes default kernel after installation
 '20190916':
 - component: Other
+  create_time: 20190916T20:47:00
+  id: 1150962
+  resolution: ''
+  status: NEW
+  summary: MPV/MPlayer crashes when opening video file
+- component: Kernel
+  create_time: 20190916T12:37:00
+  id: 1150930
+  resolution: ''
+  status: NEW
+  summary: 'Firmware Bug: TPM interrupt not working on Lenovo Thinkpad P43s'
+- component: Development
+  create_time: 20190916T11:28:00
+  id: 1150918
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: LTO breaks debuginfo, no line info anymore
+- component: Other
+  create_time: 20190916T11:12:00
+  id: 1150909
+  resolution: ''
+  status: CONFIRMED
+  summary: MATE package need to adopt libxml2 binding packaging change
+'20190917':
+- component: Kernel
+  create_time: 20190918T13:35:00
+  id: 1151205
+  resolution: ''
+  status: NEW
+  summary: purge-kernels leaves <modules-dir>/updates behind when deleting associated
+    kernel
+- component: Development
+  create_time: 20190918T13:28:00
+  id: 1151203
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'neovim coredumps with ''*** stack smashing detected ***: <unknown> terminated'''
+- component: Network
+  create_time: 20190918T12:16:00
+  id: 1151191
+  resolution: ''
+  status: NEW
+  summary: 'bind: unable to load internal defaults: failure'
+- component: Security
+  create_time: 20190918T12:11:00
+  id: 1151190
+  resolution: ''
+  status: NEW
+  summary: ksysguard5 would like cap_net_raw+ep on its network traffic helper
+- component: Firefox
+  create_time: 20190918T11:51:00
+  id: 1151186
+  resolution: ''
+  status: NEW
+  summary: Changes to preferences not saved in Thunderbird's CardBook add-on
+- component: Other
   create_time: 20190918T08:48:00
   id: 1151152
   resolution: DUPLICATE
@@ -29510,27 +29573,3 @@
   status: RESOLVED
   summary: '[Build 20190916] openQA test fails in chromium - chromium 77.0.3865.75
     crashed when loading web content'
-- component: Other
-  create_time: 20190916T20:47:00
-  id: 1150962
-  resolution: ''
-  status: NEW
-  summary: MPV/MPlayer crashes when opening video file
-- component: Kernel
-  create_time: 20190916T12:37:00
-  id: 1150930
-  resolution: ''
-  status: NEW
-  summary: 'Firmware Bug: TPM interrupt not working on Lenovo Thinkpad P43s'
-- component: Development
-  create_time: 20190916T11:28:00
-  id: 1150918
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: LTO breaks debuginfo, no line info anymore
-- component: Other
-  create_time: 20190916T11:12:00
-  id: 1150909
-  resolution: ''
-  status: CONFIRMED
-  summary: MATE package need to adopt libxml2 binding packaging change
