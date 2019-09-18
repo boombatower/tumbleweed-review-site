@@ -29253,8 +29253,8 @@
 - component: GNOME
   create_time: 20190912T09:22:00
   id: 1150488
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: flatpak  app can not be installed by "2-click" in web browswer when "gnome-software
     --gapplication-service" is launched in advance.
 - component: X.Org
@@ -29501,8 +29501,8 @@
 - component: Development
   create_time: 20190916T11:28:00
   id: 1150918
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: LTO breaks debuginfo, no line info anymore
 - component: Other
   create_time: 20190916T11:12:00
