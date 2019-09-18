@@ -29475,12 +29475,6 @@
   resolution: ''
   status: NEW
   summary: 'bind: unable to load internal defaults: failure'
-- component: Security
-  create_time: 20190918T12:11:00
-  id: 1151190
-  resolution: ''
-  status: NEW
-  summary: ksysguard5 would like cap_net_raw+ep on its network traffic helper
 - component: Firefox
   create_time: 20190918T11:51:00
   id: 1151186
