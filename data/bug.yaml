@@ -29525,6 +29525,12 @@
   summary: '[Build 20190916] openQA test fails in chromium - chromium 77.0.3865.75
     crashed when loading web content'
 '20190918':
+- component: X11 Applications
+  create_time: 20190919T19:40:00
+  id: 1151391
+  resolution: ''
+  status: NEW
+  summary: Chromium started to crash on start
 - component: Kernel
   create_time: 20190919T14:50:00
   id: 1151368
