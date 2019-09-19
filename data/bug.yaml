@@ -29216,7 +29216,7 @@
   create_time: 20190912T11:00:00
   id: 1150525
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: envoy: review pam_envoy not yet whitelisted in rpmlint'
 - component: Security
   create_time: 20190912T10:57:00
@@ -29241,7 +29241,7 @@
   create_time: 20190912T10:42:00
   id: 1150519
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: lxc: review pam_cgfs not yet whitelisted in rpmlint'
 - component: Security
   create_time: 20190912T10:28:00
