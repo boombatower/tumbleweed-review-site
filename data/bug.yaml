@@ -27076,7 +27076,7 @@
   create_time: 20190802T15:05:00
   id: 1144052
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Please add "pam_keyinit.so" to the /etc/pam.d/... configuration file(s)
 - component: Basesystem
   create_time: 20190802T15:00:00
@@ -29472,8 +29472,8 @@
 - component: Network
   create_time: 20190918T12:16:00
   id: 1151191
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'bind: unable to load internal defaults: failure'
 - component: Firefox
   create_time: 20190918T11:51:00
