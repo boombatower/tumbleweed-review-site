@@ -2436,3 +2436,12 @@
     - 2019-09.154
     reference_count: 1
     summary: no summary given
+'20190918':
+  announcement: 2019-09.178
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-09.179
+    reference_count: 2
+    summary: no summary given
