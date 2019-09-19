@@ -29456,49 +29456,6 @@
   status: CONFIRMED
   summary: MATE package need to adopt libxml2 binding packaging change
 '20190917':
-- component: Kernel
-  create_time: 20190918T13:35:00
-  id: 1151205
-  resolution: ''
-  status: NEW
-  summary: purge-kernels leaves <modules-dir>/updates behind when deleting associated
-    kernel
-- component: Development
-  create_time: 20190918T13:28:00
-  id: 1151203
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'neovim coredumps with ''*** stack smashing detected ***: <unknown> terminated'''
-- component: Network
-  create_time: 20190918T12:16:00
-  id: 1151191
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'bind: unable to load internal defaults: failure'
-- component: Firefox
-  create_time: 20190918T11:51:00
-  id: 1151186
-  resolution: ''
-  status: NEW
-  summary: Changes to preferences not saved in Thunderbird's CardBook add-on
-- component: Other
-  create_time: 20190918T08:48:00
-  id: 1151152
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Chromium 77 subprocess crashes on every page
-- component: Other
-  create_time: 20190918T08:41:00
-  id: 1151150
-  resolution: ''
-  status: NEW
-  summary: Tensorflow uses protobuf v3.6.1.2 tarball instead of protobuf from distribution
-- component: YaST2
-  create_time: 20190918T08:07:00
-  id: 1151148
-  resolution: ''
-  status: NEW
-  summary: Live installation fails because YaST does not install storage feature packages
 - component: Other
   create_time: 20190917T18:24:00
   id: 1151094
@@ -29567,3 +29524,54 @@
   status: RESOLVED
   summary: '[Build 20190916] openQA test fails in chromium - chromium 77.0.3865.75
     crashed when loading web content'
+'20190918':
+- component: Kernel
+  create_time: 20190919T14:50:00
+  id: 1151368
+  resolution: ''
+  status: NEW
+  summary: 'On a Raspberry Pi 2B cat /proc/cpuinfo shows wrongly Hardware: BCM2835'
+- component: Kernel
+  create_time: 20190918T13:35:00
+  id: 1151205
+  resolution: ''
+  status: NEW
+  summary: purge-kernels leaves <modules-dir>/updates behind when deleting associated
+    kernel
+- component: Development
+  create_time: 20190918T13:28:00
+  id: 1151203
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'neovim coredumps with ''*** stack smashing detected ***: <unknown> terminated'''
+- component: Network
+  create_time: 20190918T12:16:00
+  id: 1151191
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'bind: unable to load internal defaults: failure'
+- component: Firefox
+  create_time: 20190918T11:51:00
+  id: 1151186
+  resolution: ''
+  status: NEW
+  summary: Changes to preferences not saved in Thunderbird's CardBook add-on
+- component: Other
+  create_time: 20190918T08:48:00
+  id: 1151152
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Chromium 77 subprocess crashes on every page
+- component: Other
+  create_time: 20190918T08:41:00
+  id: 1151150
+  resolution: ''
+  status: NEW
+  summary: Tensorflow uses protobuf v3.6.1.2 tarball instead of protobuf from distribution
+    - Breaks Arm NN
+- component: YaST2
+  create_time: 20190918T08:07:00
+  id: 1151148
+  resolution: ''
+  status: NEW
+  summary: Live installation fails because YaST does not install storage feature packages
