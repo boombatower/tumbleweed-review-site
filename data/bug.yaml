@@ -29526,6 +29526,18 @@
   summary: '[Build 20190916] openQA test fails in chromium - chromium 77.0.3865.75
     crashed when loading web content'
 '20190918':
+- component: X.Org
+  create_time: 20190920T09:52:00
+  id: 1151457
+  resolution: ''
+  status: NEW
+  summary: Xvfb should be in its own separate package
+- component: Basesystem
+  create_time: 20190920T09:44:00
+  id: 1151453
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190919] openQA test fails in sysstat: Tries to use /etc/cron.d'
 - component: Security
   create_time: 20190920T06:19:00
   id: 1151418
