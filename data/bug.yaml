@@ -27630,7 +27630,8 @@
   id: 1145193
   resolution: ''
   status: CONFIRMED
-  summary: chrony prevents boot when without network by waiting for ntp server
+  summary: activating chrony-wait.service by default delays booting without network
+    for 10 minutes
 - component: Basesystem
   create_time: 20190811T09:56:00
   id: 1145190
@@ -28524,7 +28525,7 @@
   create_time: 20190901T18:41:00
   id: 1149070
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Make use of plymouth features while loading the installation images
 - component: KDE Applications
   create_time: 20190901T15:36:00
@@ -29525,6 +29526,12 @@
   summary: '[Build 20190916] openQA test fails in chromium - chromium 77.0.3865.75
     crashed when loading web content'
 '20190918':
+- component: Security
+  create_time: 20190920T06:19:00
+  id: 1151418
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: sysprof: new/migrated D-Bus service org.gnome.Sysprof3'
 - component: X11 Applications
   create_time: 20190919T19:40:00
   id: 1151391
