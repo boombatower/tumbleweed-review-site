@@ -29216,8 +29216,8 @@
 - component: Security
   create_time: 20190912T11:00:00
   id: 1150525
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-1: envoy: review pam_envoy not yet whitelisted in rpmlint'
 - component: Security
   create_time: 20190912T10:57:00
