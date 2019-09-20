@@ -28239,8 +28239,8 @@
 - component: Other
   create_time: 20190827T16:30:00
   id: 1148401
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Qt4 removal - keepassx
 - component: Other
   create_time: 20190827T16:30:00
@@ -29071,7 +29071,7 @@
   create_time: 20190912T15:59:00
   id: 1150592
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: NFS for Vagrant is broken because of removing the nfsserver service alias
 - component: Kernel
   create_time: 20190912T14:03:00
@@ -29236,7 +29236,7 @@
   create_time: 20190912T10:48:00
   id: 1150520
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: libpwquality: review pam_pwquality not yet whitelisted in rpmlint'
 - component: Security
   create_time: 20190912T10:42:00
@@ -29526,6 +29526,12 @@
   summary: '[Build 20190916] openQA test fails in chromium - chromium 77.0.3865.75
     crashed when loading web content'
 '20190918':
+- component: X11 Applications
+  create_time: 20190920T11:33:00
+  id: 1151474
+  resolution: ''
+  status: NEW
+  summary: Stop favoring the gtk2 theme plugin
 - component: X.Org
   create_time: 20190920T09:52:00
   id: 1151457
