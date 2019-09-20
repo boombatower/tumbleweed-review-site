@@ -29526,6 +29526,18 @@
   summary: '[Build 20190916] openQA test fails in chromium - chromium 77.0.3865.75
     crashed when loading web content'
 '20190918':
+- component: Maintenance
+  create_time: 20190920T20:27:00
+  id: 1151521
+  resolution: ''
+  status: NEW
+  summary: neovim and libvterm0 on uncompatible version
+- component: Security
+  create_time: 20190920T20:09:00
+  id: 1151518
+  resolution: ''
+  status: NEW
+  summary: 'suse-dbus-unauthorized-service (Badness: 10000) /etc/dbus-1/system.d/bluetooth-mesh.conf'
 - component: X11 Applications
   create_time: 20190920T11:33:00
   id: 1151474
