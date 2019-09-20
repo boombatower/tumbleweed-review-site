@@ -29526,6 +29526,12 @@
   summary: '[Build 20190916] openQA test fails in chromium - chromium 77.0.3865.75
     crashed when loading web content'
 '20190918':
+- component: Virtualization:Tools
+  create_time: 20190920T21:42:00
+  id: 1151523
+  resolution: ''
+  status: NEW
+  summary: open-vm-tools 11.0.0 released
 - component: Maintenance
   create_time: 20190920T20:27:00
   id: 1151521
