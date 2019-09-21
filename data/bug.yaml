@@ -29583,6 +29583,12 @@
   status: NEW
   summary: Live installation fails because YaST does not install storage feature packages
 '20190920':
+- component: X11 Applications
+  create_time: 20190921T22:34:00
+  id: 1151540
+  resolution: ''
+  status: NEW
+  summary: Git Cola 3.4 crashes on repo open
 - component: Other
   create_time: 20190921T19:48:00
   id: 1151539
