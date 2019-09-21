@@ -902,25 +902,25 @@
   score: 93
   stability_level: stable
 '20190726':
-  score: 84
-  stability_level: moderate
+  score: 94
+  stability_level: stable
 '20190730':
-  score: 75
+  score: 79
   stability_level: moderate
 '20190805':
-  score: 85
+  score: 87
   stability_level: moderate
 '20190806':
-  score: 91
+  score: 92
   stability_level: stable
 '20190809':
-  score: 95
+  score: 96
   stability_level: stable
 '20190810':
-  score: 95
+  score: 96
   stability_level: stable
 '20190814':
-  score: 96
+  score: 97
   stability_level: stable
 '20190815':
   score: 96
