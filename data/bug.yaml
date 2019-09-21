@@ -29554,7 +29554,7 @@
   create_time: 20190920T09:52:00
   id: 1151457
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Xvfb should be in its own separate package
 - component: Basesystem
   create_time: 20190920T09:44:00
