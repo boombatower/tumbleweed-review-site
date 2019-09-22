@@ -15084,8 +15084,8 @@
 - component: Basesystem
   create_time: 20181109T14:51:00
   id: 1115448
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'munin: migrate from cron to systemd timers'
 - component: Basesystem
   create_time: 20181109T14:50:00
@@ -22467,8 +22467,8 @@
 - component: Firefox
   create_time: 20190424T13:07:00
   id: 1133267
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: MozillaThunderbird build fails'
 - component: Basesystem
   create_time: 20190424T13:06:00
@@ -29584,18 +29584,6 @@
   status: NEW
   summary: Live installation fails because YaST does not install storage feature packages
 '20190920':
-- component: X11 Applications
-  create_time: 20190921T22:34:00
-  id: 1151540
-  resolution: ''
-  status: NEW
-  summary: Git Cola 3.4 crashes on repo open
-- component: Other
-  create_time: 20190921T19:48:00
-  id: 1151539
-  resolution: ''
-  status: NEW
-  summary: nginx defaults to ipv4 only instead of ipv6
 - component: Virtualization:Tools
   create_time: 20190920T21:42:00
   id: 1151523
@@ -29638,3 +29626,16 @@
   resolution: ''
   status: NEW
   summary: 'AUDIT-0: sysprof: new/migrated D-Bus service org.gnome.Sysprof3'
+'20190921':
+- component: X11 Applications
+  create_time: 20190921T22:34:00
+  id: 1151540
+  resolution: ''
+  status: NEW
+  summary: Git Cola 3.4 crashes on repo open
+- component: Other
+  create_time: 20190921T19:48:00
+  id: 1151539
+  resolution: ''
+  status: NEW
+  summary: nginx defaults to ipv4 only instead of ipv6
