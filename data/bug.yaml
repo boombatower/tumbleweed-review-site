@@ -24592,9 +24592,10 @@
 - component: Kernel
   create_time: 20190611T01:58:00
   id: 1137799
-  resolution: ''
-  status: REOPENED
-  summary: I2C Touchpad Stops Working After Hibernation and sometimes during boot
+  resolution: FIXED
+  status: RESOLVED
+  summary: I2C Touchpad Stops Working After Hibernation and sometimes during boot;
+    BIOS bug
 - component: Other
   create_time: 20190610T17:39:00
   id: 1137785
