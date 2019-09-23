@@ -29627,6 +29627,12 @@
   status: NEW
   summary: 'AUDIT-0: sysprof: new/migrated D-Bus service org.gnome.Sysprof3'
 '20190921':
+- component: Other
+  create_time: 20190923T05:42:00
+  id: 1151579
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'drbd: coccinelle not built against drbd-9.0.19'
 - component: X11 Applications
   create_time: 20190921T22:34:00
   id: 1151540
