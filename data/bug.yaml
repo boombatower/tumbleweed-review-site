@@ -29593,8 +29593,8 @@
 - component: Maintenance
   create_time: 20190920T20:27:00
   id: 1151521
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: neovim and libvterm0 on uncompatible version
 - component: Security
   create_time: 20190920T20:09:00
@@ -29624,9 +29624,15 @@
   create_time: 20190920T06:19:00
   id: 1151418
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: sysprof: new/migrated D-Bus service org.gnome.Sysprof3'
 '20190921':
+- component: Other
+  create_time: 20190923T14:24:00
+  id: 1151688
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190921] openQA test fails in rpcbind with mount -nfs timed out'
 - component: Xfce
   create_time: 20190923T10:40:00
   id: 1151639
@@ -29669,8 +29675,7 @@
   id: 1151586
   resolution: ''
   status: NEW
-  summary: SDDM greeter login-screen background blurred with breeze theme - where
-    do I turn it OFF !?!
+  summary: Inability to turn off blur in the SDDM greeter with the Breeze theme
 - component: Other
   create_time: 20190923T05:42:00
   id: 1151579
