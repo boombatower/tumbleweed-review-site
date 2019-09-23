@@ -26606,8 +26606,8 @@
 - component: Development
   create_time: 20190725T20:30:00
   id: 1142913
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'erlang: i586 build failed due to LTO'
 - component: Basesystem
   create_time: 20190725T20:02:00
@@ -29628,10 +29628,23 @@
   summary: 'AUDIT-0: sysprof: new/migrated D-Bus service org.gnome.Sysprof3'
 '20190921':
 - component: YaST2
-  create_time: 20190923T17:04:00
-  id: 1151713
+  create_time: 20190923T20:37:00
+  id: 1151738
   resolution: ''
   status: NEW
+  summary: yast2-gpmc crashes when highlighting the domain
+- component: YaST2
+  create_time: 20190923T19:50:00
+  id: 1151733
+  resolution: ''
+  status: NEW
+  summary: yast2-gpmc fails to authenticate with "The object name is not found." when
+    searching for the dc name
+- component: YaST2
+  create_time: 20190923T17:04:00
+  id: 1151713
+  resolution: FIXED
+  status: RESOLVED
   summary: yast aduc/adsi fail to authenticate the first try and throws a MemoryError
     on Ubuntu
 - component: Other
