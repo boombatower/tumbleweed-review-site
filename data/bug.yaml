@@ -29627,6 +29627,19 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: sysprof: new/migrated D-Bus service org.gnome.Sysprof3'
 '20190921':
+- component: YaST2
+  create_time: 20190923T17:04:00
+  id: 1151713
+  resolution: ''
+  status: NEW
+  summary: yast aduc/adsi fail to authenticate the first try and throws a MemoryError
+    on Ubuntu
+- component: Other
+  create_time: 20190923T15:45:00
+  id: 1151703
+  resolution: ''
+  status: NEW
+  summary: python3-yamllint is missing requirement on python3-setuptools
 - component: Other
   create_time: 20190923T14:24:00
   id: 1151688
