@@ -27799,8 +27799,8 @@
 - component: Kubic
   create_time: 20190819T09:18:00
   id: 1146116
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '"transactional-update --no-selfupdate" does nothing'
 - component: Other
   create_time: 20190819T08:30:00
@@ -27877,8 +27877,8 @@
 - component: Basesystem
   create_time: 20190816T14:20:00
   id: 1145921
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'dracut: `rd.neednet=1 ip=dhcp` boot parameters end in emergency shell'
 - component: Other
   create_time: 20190816T09:59:00
@@ -28585,8 +28585,8 @@
 - component: Other
   create_time: 20190830T14:40:00
   id: 1149009
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: opencv is missing pkgconfig/opencv.pc
 - component: Basesystem
   create_time: 20190830T10:00:00
@@ -28708,7 +28708,7 @@
   resolution: INVALID
   status: RESOLVED
   summary: 'clang++: fatal error: ''new'' file not found'
-- component: Containers
+- component: GNOME
   create_time: 20190902T15:05:00
   id: 1149122
   resolution: ''
@@ -29224,7 +29224,7 @@
   create_time: 20190912T10:57:00
   id: 1150524
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: google-authenticator-libpam: review pam_google_authenticator
     not yet whitelisted in rpmlint'
 - component: Security
@@ -29601,7 +29601,7 @@
   id: 1151518
   resolution: ''
   status: NEW
-  summary: 'suse-dbus-unauthorized-service (Badness: 10000) /etc/dbus-1/system.d/bluetooth-mesh.conf'
+  summary: 'AUDIT-0: bluez: new D-Bus service /etc/dbus-1/system.d/bluetooth-mesh.conf'
 - component: X11 Applications
   create_time: 20190920T11:33:00
   id: 1151474
@@ -29627,6 +29627,18 @@
   status: NEW
   summary: 'AUDIT-0: sysprof: new/migrated D-Bus service org.gnome.Sysprof3'
 '20190921':
+- component: Xfce
+  create_time: 20190923T10:40:00
+  id: 1151639
+  resolution: ''
+  status: NEW
+  summary: xfce-screensaver lock screen does not appear on suspend
+- component: YaST2
+  create_time: 20190923T10:34:00
+  id: 1151637
+  resolution: ''
+  status: NEW
+  summary: When configuring NFS server I get error with default options
 - component: Development
   create_time: 20190923T07:05:00
   id: 1151594
