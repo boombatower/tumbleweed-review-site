@@ -7691,8 +7691,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180430T13:50:00
   id: 1091401
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: empty KDE Desktop after ppc64 (BE) TW install
 - component: Firefox
   create_time: 20180430T12:05:00
@@ -12828,8 +12828,8 @@
 - component: Basesystem
   create_time: 20180921T11:58:00
   id: 1109290
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: move setctsid out of util-linux to kiwi
 - component: Basesystem
   create_time: 20180921T11:42:00
@@ -14477,8 +14477,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20181023T12:42:00
   id: 1112920
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20181022] openQA test fails in start_install as plasma5-desktop
     package not built for ppc64 (BE)'
 - component: Basesystem
@@ -18671,8 +18671,8 @@
 - component: Containers
   create_time: 20190128T16:58:00
   id: 1123387
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: podman broken without apparmor_parser
 - component: KDE Workspace (Plasma)
   create_time: 20190128T14:50:00
@@ -28768,8 +28768,8 @@
 - component: Development
   create_time: 20190904T09:53:00
   id: 1149348
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: datamash build failed PowerPC & ARM'
 - component: Development
   create_time: 20190904T08:49:00
@@ -29250,8 +29250,8 @@
   id: 1150510
   resolution: ''
   status: CONFIRMED
-  summary: 'AUDIT-1: pam-python: review pam module that is not yet whitelisted in
-    rpmlint'
+  summary: 'AUDIT-TRACKER: pam-python: review pam module that is not yet whitelisted
+    in rpmlint'
 - component: YaST2
   create_time: 20190912T09:44:00
   id: 1150498
@@ -29627,11 +29627,43 @@
   status: NEW
   summary: 'AUDIT-0: sysprof: new/migrated D-Bus service org.gnome.Sysprof3'
 '20190921':
+- component: Development
+  create_time: 20190923T07:05:00
+  id: 1151594
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'distcc: update from v3.3->v3.3.3 to fix "munmap_chunk(): invalid pointer"
+    crash'
+- component: Samba
+  create_time: 20190923T06:59:00
+  id: 1151592
+  resolution: ''
+  status: NEW
+  summary: samba still providing SuSEfirewall2 config files
+- component: Other
+  create_time: 20190923T06:56:00
+  id: 1151591
+  resolution: ''
+  status: NEW
+  summary: postgrsql contains still SuSEfirewall2 configuration file and directory
+- component: YaST2
+  create_time: 20190923T06:52:00
+  id: 1151590
+  resolution: INVALID
+  status: RESOLVED
+  summary: yast2-cluster still providing SuSEfirewall2 script
+- component: KDE Workspace (Plasma)
+  create_time: 20190923T06:33:00
+  id: 1151586
+  resolution: ''
+  status: NEW
+  summary: SDDM greeter login-screen background blurred with breeze theme - where
+    do I turn it OFF !?!
 - component: Other
   create_time: 20190923T05:42:00
   id: 1151579
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'drbd: coccinelle not built against drbd-9.0.19'
 - component: X11 Applications
   create_time: 20190921T22:34:00
