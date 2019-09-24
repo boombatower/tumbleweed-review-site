@@ -27623,8 +27623,8 @@
 - component: YaST2
   create_time: 20190811T22:21:00
   id: 1145197
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Yast2 Control Center with wrong language
 - component: YaST2
   create_time: 20190811T14:39:00
@@ -29562,7 +29562,7 @@
   create_time: 20190918T11:51:00
   id: 1151186
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Changes to preferences not saved in Thunderbird's CardBook add-on
 - component: Other
   create_time: 20190918T08:48:00
@@ -29627,6 +29627,18 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: sysprof: new/migrated D-Bus service org.gnome.Sysprof3'
 '20190921':
+- component: Kernel
+  create_time: 20190924T14:53:00
+  id: 1151885
+  resolution: ''
+  status: NEW
+  summary: 'jetson TX2:  EFI runtime services are not available'
+- component: KDE Workspace (Plasma)
+  create_time: 20190924T14:50:00
+  id: 1151884
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190921] openQA test fails in boot_to_desktop'
 - component: Other
   create_time: 20190924T10:56:00
   id: 1151839
