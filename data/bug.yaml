@@ -28630,7 +28630,7 @@
   create_time: 20190829T13:41:00
   id: 1148809
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: yast2 bootloader fails when lvmcache is in use
 - component: Security
   create_time: 20190829T12:26:00
