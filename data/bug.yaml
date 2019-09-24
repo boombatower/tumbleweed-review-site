@@ -29631,7 +29631,7 @@
   create_time: 20190924T14:53:00
   id: 1151885
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'jetson TX2:  EFI runtime services are not available'
 - component: KDE Workspace (Plasma)
   create_time: 20190924T14:50:00
