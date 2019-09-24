@@ -2416,7 +2416,7 @@
     summary: Change in kmail mail list keyboard navigation behavior
 '20190916':
   announcement: 2019-09.148
-  reference_count: 14
+  reference_count: 15
   thread_count: 2
   threads:
   - messages:
@@ -2425,7 +2425,8 @@
     summary: The malfunctioning of the Chromium
   - messages:
     - 2019-09.151
-    reference_count: 12
+    - 2019-09.215
+    reference_count: 13
     summary: failed to summarize
 '20190917':
   announcement: 2019-09.153
