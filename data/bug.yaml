@@ -12828,8 +12828,8 @@
 - component: Basesystem
   create_time: 20180921T11:58:00
   id: 1109290
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: move setctsid out of util-linux to kiwi
 - component: Basesystem
   create_time: 20180921T11:42:00
@@ -23486,8 +23486,8 @@
 - component: Basesystem
   create_time: 20190512T09:29:00
   id: 1134802
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'Tumbleweed 20190704: Boot breaks by dependency ordering cycle -> "Dependency
     failed for /sysroot" when fsck is about to run'
 '20190514':
@@ -26930,8 +26930,8 @@
 - component: X.Org
   create_time: 20190726T14:24:00
   id: 1143052
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'nouveau: SIGSEGV running vlc'
 - component: Other
   create_time: 20190726T14:22:00
@@ -28845,25 +28845,25 @@
   create_time: 20190906T07:49:00
   id: 1149708
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[glibc2.30] tcpd fails to build'
 - component: Other
   create_time: 20190906T07:48:00
   id: 1149707
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[glibc2.30] rebootmgr fails to build'
 - component: Other
   create_time: 20190906T07:46:00
   id: 1149705
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[glibc2.30] postfix fails to build'
 - component: Other
   create_time: 20190906T07:42:00
   id: 1149704
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[glibc2.30] lttng-ust fails to build'
 - component: Other
   create_time: 20190906T07:37:00
@@ -29627,6 +29627,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: sysprof: new/migrated D-Bus service org.gnome.Sysprof3'
 '20190921':
+- component: X11 Applications
+  create_time: 20190924T06:41:00
+  id: 1151765
+  resolution: ''
+  status: NEW
+  summary: clusterssh broken due to missing method (perl / TK)
 - component: YaST2
   create_time: 20190924T00:30:00
   id: 1151748
