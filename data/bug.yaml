@@ -25961,8 +25961,8 @@
 - component: YaST2
   create_time: 20190709T17:03:00
   id: 1140916
-  resolution: ''
-  status: CONFIRMED
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: firewall does not start correctly
 - component: GNOME
   create_time: 20190709T16:59:00
@@ -26448,8 +26448,8 @@
 - component: Other
   create_time: 20190718T09:34:00
   id: 1141993
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: python3-pyenchant fails  on  Tumbleweed
 - component: YaST2
   create_time: 20190718T07:22:00
@@ -28862,8 +28862,8 @@
 - component: Other
   create_time: 20190906T07:42:00
   id: 1149704
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[glibc2.30] lttng-ust fails to build'
 - component: Other
   create_time: 20190906T07:37:00
@@ -28874,8 +28874,8 @@
 - component: Firefox
   create_time: 20190906T07:35:00
   id: 1149702
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[glibc2.30] Mozilla Thunderbird fails to build'
 - component: Kubic
   create_time: 20190906T07:34:00
@@ -29600,7 +29600,7 @@
   create_time: 20190920T20:09:00
   id: 1151518
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: bluez: new D-Bus service /etc/dbus-1/system.d/bluetooth-mesh.conf'
 - component: X11 Applications
   create_time: 20190920T11:33:00
@@ -29627,6 +29627,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: sysprof: new/migrated D-Bus service org.gnome.Sysprof3'
 '20190921':
+- component: Other
+  create_time: 20190924T10:56:00
+  id: 1151839
+  resolution: ''
+  status: NEW
+  summary: Starting clamd through systemd gives time out.
 - component: X11 Applications
   create_time: 20190924T06:41:00
   id: 1151765
