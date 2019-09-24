@@ -2416,8 +2416,8 @@
     summary: Change in kmail mail list keyboard navigation behavior
 '20190916':
   announcement: 2019-09.148
-  reference_count: 15
-  thread_count: 2
+  reference_count: 16
+  thread_count: 3
   threads:
   - messages:
     - 2019-09.149
@@ -2428,6 +2428,10 @@
     - 2019-09.215
     reference_count: 13
     summary: failed to summarize
+  - messages:
+    - 2019-09.219
+    reference_count: 1
+    summary: Global Multimedia Keys not working anymore
 '20190917':
   announcement: 2019-09.153
   reference_count: 1
