@@ -18697,8 +18697,8 @@
 - component: Kernel
   create_time: 20190128T10:28:00
   id: 1123328
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: obs-arm-7 hangs on umount/mount (obs worker kvm builds) with kernel >=
     4.19
 - component: Basesystem
@@ -28171,7 +28171,7 @@
   create_time: 20190823T22:43:00
   id: 1147412
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: bcache-register fails during boot, leaving backing store busy
 - component: Network
   create_time: 20190823T17:26:00
@@ -29474,8 +29474,8 @@
 - component: Kubic
   create_time: 20190917T15:27:00
   id: 1151081
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: transactional-update shell does not provide resolv.conf
 - component: Network
   create_time: 20190917T15:02:00
@@ -29628,6 +29628,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: sysprof: new/migrated D-Bus service org.gnome.Sysprof3'
 '20190921':
+- component: Kernel
+  create_time: 20190925T17:45:00
+  id: 1152036
+  resolution: ''
+  status: NEW
+  summary: Fatal iwlwifi errors with kernel 5.3
 - component: Other
   create_time: 20190925T13:18:00
   id: 1152001
