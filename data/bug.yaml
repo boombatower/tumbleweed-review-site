@@ -29504,8 +29504,8 @@
 - component: Development
   create_time: 20190917T12:12:00
   id: 1151058
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'ocaml-curses build  failed with oasis setup:  "Unknown license ''LGPL-2.1-or-later''"'
 - component: Development
   create_time: 20190917T11:45:00
@@ -29627,6 +29627,12 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: sysprof: new/migrated D-Bus service org.gnome.Sysprof3'
 '20190921':
+- component: Other
+  create_time: 20190925T08:27:00
+  id: 1151951
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190923] MATE shows all btrfs volumes on the desktop'
 - component: Kernel
   create_time: 20190924T14:53:00
   id: 1151885
