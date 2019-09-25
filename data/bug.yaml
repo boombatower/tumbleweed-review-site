@@ -27271,8 +27271,8 @@
 - component: Other
   create_time: 20190805T15:21:00
   id: 1144344
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Remove jasper dependency from gegl
 - component: Development
   create_time: 20190805T12:27:00
