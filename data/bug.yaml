@@ -22842,8 +22842,8 @@
 - component: Samba
   create_time: 20190426T21:22:00
   id: 1133568
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-adcommon-python ldap doesn't correctly parse ldap urls for ldap.initialize()
 - component: Installation
   create_time: 20190426T19:47:00
@@ -25078,8 +25078,8 @@
 - component: YaST2
   create_time: 20190617T19:21:00
   id: 1138487
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-adcommon-python creds doesn't pass domain to samba Credentials object
 - component: X11 Applications
   create_time: 20190617T18:30:00
@@ -29053,20 +29053,20 @@
 - component: YaST2
   create_time: 20190912T20:49:00
   id: 1150616
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-gpmc crashes when deleting GPO
 - component: YaST2
   create_time: 20190912T20:28:00
   id: 1150614
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-gpmc ignore a directory listing fail if the directory doesn't exist
 - component: YaST2
   create_time: 20190912T19:40:00
   id: 1150612
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-aduc unused xset may cause exception in appimage
 - component: Basesystem
   create_time: 20190912T15:59:00
@@ -29629,6 +29629,18 @@
   summary: 'AUDIT-0: sysprof: new/migrated D-Bus service org.gnome.Sysprof3'
 '20190921':
 - component: Kernel
+  create_time: 20190925T20:37:00
+  id: 1152054
+  resolution: ''
+  status: NEW
+  summary: kernel NULL pointer dereference, system unresponsive
+- component: YaST2
+  create_time: 20190925T20:29:00
+  id: 1152052
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'yast2-aduc: Add ability to change/enable/unlock user''s passwords'
+- component: Kernel
   create_time: 20190925T17:45:00
   id: 1152036
   resolution: ''
@@ -29692,14 +29704,14 @@
 - component: YaST2
   create_time: 20190923T20:37:00
   id: 1151738
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-gpmc crashes when highlighting the domain
 - component: YaST2
   create_time: 20190923T19:50:00
   id: 1151733
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-gpmc fails to authenticate with "The object name is not found." when
     searching for the dc name
 - component: YaST2
