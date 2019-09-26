@@ -29641,6 +29641,24 @@
   status: NEW
   summary: nginx defaults to ipv4 only instead of ipv6
 '20190923':
+- component: Kernel
+  create_time: 20190926T18:15:00
+  id: 1152184
+  resolution: ''
+  status: NEW
+  summary: Yast sound card can't be configure
+- component: Basesystem
+  create_time: 20190926T17:28:00
+  id: 1152183
+  resolution: ''
+  status: NEW
+  summary: PulseAudio profiles unvailable
+- component: KDE Workspace (Plasma)
+  create_time: 20190926T15:55:00
+  id: 1152177
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190925] FTBFS: python-qt4'
 - component: Basesystem
   create_time: 20190926T14:44:00
   id: 1152169
