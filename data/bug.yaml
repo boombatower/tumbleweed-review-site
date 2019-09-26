@@ -22108,7 +22108,7 @@
   status: NEW
   summary: SDDM very slow to show up.
 '20190417':
-- component: Basesystem
+- component: libzypp
   create_time: 20190417T17:14:00
   id: 1132796
   resolution: ''
@@ -27920,8 +27920,8 @@
 - component: Other
   create_time: 20190815T11:42:00
   id: 1145736
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Duplitcatebinary: python3-rrdtool'
 - component: Other
   create_time: 20190815T11:28:00
@@ -29641,6 +29641,12 @@
   status: NEW
   summary: nginx defaults to ipv4 only instead of ipv6
 '20190923':
+- component: Basesystem
+  create_time: 20190926T14:44:00
+  id: 1152169
+  resolution: ''
+  status: NEW
+  summary: 'rpmlint: remove warning about info scriptlets'
 - component: Basesystem
   create_time: 20190926T08:40:00
   id: 1152105
