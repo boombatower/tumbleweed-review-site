@@ -29582,7 +29582,7 @@
   create_time: 20190918T08:07:00
   id: 1151148
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Live installation fails because YaST does not install storage feature packages
 '20190920':
 - component: Virtualization:Tools
@@ -29628,6 +29628,25 @@
   status: IN_PROGRESS
   summary: 'AUDIT-0: sysprof: new/migrated D-Bus service org.gnome.Sysprof3'
 '20190921':
+- component: X11 Applications
+  create_time: 20190921T22:34:00
+  id: 1151540
+  resolution: ''
+  status: NEW
+  summary: Git Cola 3.4 crashes on repo open
+- component: Other
+  create_time: 20190921T19:48:00
+  id: 1151539
+  resolution: ''
+  status: NEW
+  summary: nginx defaults to ipv4 only instead of ipv6
+'20190923':
+- component: Basesystem
+  create_time: 20190926T08:40:00
+  id: 1152105
+  resolution: ''
+  status: NEW
+  summary: info vs gzip
 - component: Kernel
   create_time: 20190925T20:37:00
   id: 1152054
@@ -29782,15 +29801,3 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'drbd: coccinelle not built against drbd-9.0.19'
-- component: X11 Applications
-  create_time: 20190921T22:34:00
-  id: 1151540
-  resolution: ''
-  status: NEW
-  summary: Git Cola 3.4 crashes on repo open
-- component: Other
-  create_time: 20190921T19:48:00
-  id: 1151539
-  resolution: ''
-  status: NEW
-  summary: nginx defaults to ipv4 only instead of ipv6
