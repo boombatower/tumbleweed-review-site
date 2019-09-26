@@ -29562,8 +29562,8 @@
 - component: Firefox
   create_time: 20190918T11:51:00
   id: 1151186
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Changes to preferences not saved in Thunderbird's CardBook add-on
 - component: Other
   create_time: 20190918T08:48:00
@@ -29641,6 +29641,12 @@
   status: NEW
   summary: nginx defaults to ipv4 only instead of ipv6
 '20190923':
+- component: Kubic
+  create_time: 20190926T18:51:00
+  id: 1152185
+  resolution: ''
+  status: NEW
+  summary: kube-flannel-ds-arm64
 - component: Kernel
   create_time: 20190926T18:15:00
   id: 1152184
