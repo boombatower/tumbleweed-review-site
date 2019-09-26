@@ -29652,7 +29652,7 @@
   id: 1152054
   resolution: ''
   status: NEW
-  summary: kernel NULL pointer dereference, system unresponsive
+  summary: kernel NULL pointer dereference, system unresponsive (drm / amdgpu)
 - component: YaST2
   create_time: 20190925T20:29:00
   id: 1152052
@@ -29674,8 +29674,8 @@
 - component: Other
   create_time: 20190925T13:13:00
   id: 1152000
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: clamav VirusEvent not fired when virus are detected with on access detection
     in clamd
 - component: YaST2
@@ -29706,7 +29706,7 @@
   create_time: 20190924T10:56:00
   id: 1151839
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Starting clamd through systemd gives time out.
 - component: X11 Applications
   create_time: 20190924T06:41:00
