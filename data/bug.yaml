@@ -25791,14 +25791,14 @@
 - component: Other
   create_time: 20190713T20:46:00
   id: 1141382
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'xiphos: Drop/port away from rarian dependency'
 - component: GNOME
   create_time: 20190713T20:41:00
   id: 1141381
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Drop rarian from distribution - dead package and upstream awol for years
 - component: Other
   create_time: 20190713T16:31:00
