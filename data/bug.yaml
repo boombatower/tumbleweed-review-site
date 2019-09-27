@@ -23394,8 +23394,8 @@
 - component: Kubic
   create_time: 20190510T12:54:00
   id: 1134727
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kernel-debug on MicroOS/Kubic medias
 - component: Printing
   create_time: 20190510T12:20:00
@@ -29641,6 +29641,18 @@
   status: NEW
   summary: nginx defaults to ipv4 only instead of ipv6
 '20190923':
+- component: Cloud:Tools
+  create_time: 20190927T09:33:00
+  id: 1152258
+  resolution: ''
+  status: NEW
+  summary: groff dependency missing for aws-cli help
+- component: Basesystem
+  create_time: 20190927T08:51:00
+  id: 1152247
+  resolution: ''
+  status: NEW
+  summary: 'macros.perl: %perl_gen_filelist cannot handle paths with plus sign'
 - component: Kubic
   create_time: 20190926T18:51:00
   id: 1152185
