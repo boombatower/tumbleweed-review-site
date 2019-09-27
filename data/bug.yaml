@@ -29753,6 +29753,12 @@
   status: RESOLVED
   summary: 'drbd: coccinelle not built against drbd-9.0.19'
 '20190925':
+- component: YaST2
+  create_time: 20190927T21:16:00
+  id: 1152357
+  resolution: ''
+  status: NEW
+  summary: yast2-gpmc create/delete gpo breaks the Windows gpmc
 - component: Samba
   create_time: 20190927T14:44:00
   id: 1152330
@@ -29775,8 +29781,8 @@
 - component: Cloud:Tools
   create_time: 20190927T09:33:00
   id: 1152258
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: groff dependency missing for aws-cli help
 - component: Basesystem
   create_time: 20190927T08:51:00
