@@ -21698,8 +21698,8 @@
 - component: Kubic
   create_time: 20190405T12:29:00
   id: 1131693
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Kubic DVD calls itself "openSUSE MicroOS"
 - component: Virtualization:Other
   create_time: 20190405T11:33:00
@@ -27982,8 +27982,8 @@
 - component: Basesystem
   create_time: 20190821T13:02:00
   id: 1146661
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: (Dracut) ifup in network-legacy fails because hotname bin is not there
 - component: Development
   create_time: 20190821T11:50:00
@@ -29641,6 +29641,12 @@
   status: NEW
   summary: nginx defaults to ipv4 only instead of ipv6
 '20190923':
+- component: Java
+  create_time: 20190927T10:59:00
+  id: 1152279
+  resolution: ''
+  status: NEW
+  summary: java-*-javadoc installation fails with excludedocs=true
 - component: Cloud:Tools
   create_time: 20190927T09:33:00
   id: 1152258
@@ -29687,7 +29693,7 @@
   create_time: 20190926T08:40:00
   id: 1152105
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: info vs gzip
 - component: Kernel
   create_time: 20190925T20:37:00
