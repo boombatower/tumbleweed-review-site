@@ -28661,8 +28661,8 @@
 - component: Other
   create_time: 20190903T15:25:00
   id: 1149235
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190830] openQA test fails in evolution_prepare_servers with postfix.service
     failure, on aarch64 JeOS'
 - component: Other
@@ -29641,103 +29641,6 @@
   status: NEW
   summary: nginx defaults to ipv4 only instead of ipv6
 '20190923':
-- component: Java
-  create_time: 20190927T10:59:00
-  id: 1152279
-  resolution: ''
-  status: NEW
-  summary: java-*-javadoc installation fails with excludedocs=true
-- component: Cloud:Tools
-  create_time: 20190927T09:33:00
-  id: 1152258
-  resolution: ''
-  status: NEW
-  summary: groff dependency missing for aws-cli help
-- component: Basesystem
-  create_time: 20190927T08:51:00
-  id: 1152247
-  resolution: ''
-  status: NEW
-  summary: 'macros.perl: %perl_gen_filelist cannot handle paths with plus sign'
-- component: Kubic
-  create_time: 20190926T18:51:00
-  id: 1152185
-  resolution: ''
-  status: NEW
-  summary: kube-flannel-ds-arm64
-- component: Kernel
-  create_time: 20190926T18:15:00
-  id: 1152184
-  resolution: ''
-  status: NEW
-  summary: Yast sound card can't be configure
-- component: Basesystem
-  create_time: 20190926T17:28:00
-  id: 1152183
-  resolution: ''
-  status: NEW
-  summary: PulseAudio profiles unvailable
-- component: KDE Workspace (Plasma)
-  create_time: 20190926T15:55:00
-  id: 1152177
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190925] FTBFS: python-qt4'
-- component: Basesystem
-  create_time: 20190926T14:44:00
-  id: 1152169
-  resolution: ''
-  status: NEW
-  summary: 'rpmlint: remove warning about info scriptlets'
-- component: Basesystem
-  create_time: 20190926T08:40:00
-  id: 1152105
-  resolution: ''
-  status: IN_PROGRESS
-  summary: info vs gzip
-- component: Kernel
-  create_time: 20190925T20:37:00
-  id: 1152054
-  resolution: ''
-  status: NEW
-  summary: kernel NULL pointer dereference, system unresponsive (drm / amdgpu)
-- component: YaST2
-  create_time: 20190925T20:29:00
-  id: 1152052
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'yast2-aduc: Add ability to change/enable/unlock user''s passwords'
-- component: Kernel
-  create_time: 20190925T17:45:00
-  id: 1152036
-  resolution: ''
-  status: NEW
-  summary: Fatal iwlwifi errors with kernel 5.3
-- component: Other
-  create_time: 20190925T13:18:00
-  id: 1152001
-  resolution: ''
-  status: NEW
-  summary: volk does compile-time CPU detection
-- component: Other
-  create_time: 20190925T13:13:00
-  id: 1152000
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: clamav VirusEvent not fired when virus are detected with on access detection
-    in clamd
-- component: YaST2
-  create_time: 20190925T09:35:00
-  id: 1151960
-  resolution: ''
-  status: NEW
-  summary: yast2 bootloader causes "File descriptor ... leaked on vgs invocation"
-- component: Other
-  create_time: 20190925T08:27:00
-  id: 1151951
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190923] MATE shows all btrfs volumes on the desktop'
 - component: Kernel
   create_time: 20190924T14:53:00
   id: 1151885
@@ -29849,3 +29752,114 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'drbd: coccinelle not built against drbd-9.0.19'
+'20190925':
+- component: Samba
+  create_time: 20190927T14:44:00
+  id: 1152330
+  resolution: ''
+  status: NEW
+  summary: yast2-samba-client provide an option for forcing kerberos authentication
+    during join
+- component: KDE Workspace (Plasma)
+  create_time: 20190927T13:33:00
+  id: 1152314
+  resolution: ''
+  status: NEW
+  summary: 'plasmashell: invalid metadata'
+- component: Java
+  create_time: 20190927T10:59:00
+  id: 1152279
+  resolution: ''
+  status: NEW
+  summary: java-*-javadoc installation fails with excludedocs=true
+- component: Cloud:Tools
+  create_time: 20190927T09:33:00
+  id: 1152258
+  resolution: ''
+  status: NEW
+  summary: groff dependency missing for aws-cli help
+- component: Basesystem
+  create_time: 20190927T08:51:00
+  id: 1152247
+  resolution: ''
+  status: NEW
+  summary: 'macros.perl: %perl_gen_filelist cannot handle paths with plus sign'
+- component: Kubic
+  create_time: 20190926T18:51:00
+  id: 1152185
+  resolution: ''
+  status: NEW
+  summary: kube-flannel-ds-arm64
+- component: Kernel
+  create_time: 20190926T18:15:00
+  id: 1152184
+  resolution: ''
+  status: NEW
+  summary: Yast sound card can't be configure
+- component: Basesystem
+  create_time: 20190926T17:28:00
+  id: 1152183
+  resolution: ''
+  status: NEW
+  summary: PulseAudio profiles unvailable
+- component: KDE Workspace (Plasma)
+  create_time: 20190926T15:55:00
+  id: 1152177
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190925] FTBFS: python-qt4'
+- component: Basesystem
+  create_time: 20190926T14:44:00
+  id: 1152169
+  resolution: ''
+  status: NEW
+  summary: 'rpmlint: remove warning about info scriptlets'
+- component: Basesystem
+  create_time: 20190926T08:40:00
+  id: 1152105
+  resolution: ''
+  status: IN_PROGRESS
+  summary: info vs gzip
+- component: Kernel
+  create_time: 20190925T20:37:00
+  id: 1152054
+  resolution: ''
+  status: NEW
+  summary: kernel NULL pointer dereference, system unresponsive (drm / amdgpu)
+- component: YaST2
+  create_time: 20190925T20:29:00
+  id: 1152052
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'yast2-aduc: Add ability to change/enable/unlock user''s passwords'
+- component: Kernel
+  create_time: 20190925T17:45:00
+  id: 1152036
+  resolution: ''
+  status: NEW
+  summary: Fatal iwlwifi errors with kernel 5.3
+- component: Other
+  create_time: 20190925T13:18:00
+  id: 1152001
+  resolution: ''
+  status: NEW
+  summary: volk does compile-time CPU detection
+- component: Other
+  create_time: 20190925T13:13:00
+  id: 1152000
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: clamav VirusEvent not fired when virus are detected with on access detection
+    in clamd
+- component: YaST2
+  create_time: 20190925T09:35:00
+  id: 1151960
+  resolution: ''
+  status: NEW
+  summary: yast2 bootloader causes "File descriptor ... leaked on vgs invocation"
+- component: Other
+  create_time: 20190925T08:27:00
+  id: 1151951
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190923] MATE shows all btrfs volumes on the desktop'
