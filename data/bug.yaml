@@ -29753,6 +29753,12 @@
   status: RESOLVED
   summary: 'drbd: coccinelle not built against drbd-9.0.19'
 '20190925':
+- component: KDE Applications
+  create_time: 20190928T16:32:00
+  id: 1152385
+  resolution: ''
+  status: NEW
+  summary: duplex printing is not available in okular
 - component: Basesystem
   create_time: 20190928T15:18:00
   id: 1152378
