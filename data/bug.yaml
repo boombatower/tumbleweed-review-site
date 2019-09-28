@@ -29753,6 +29753,13 @@
   status: RESOLVED
   summary: 'drbd: coccinelle not built against drbd-9.0.19'
 '20190925':
+- component: Kernel
+  create_time: 20190928T09:59:00
+  id: 1152371
+  resolution: ''
+  status: NEW
+  summary: 'Reboot quite often fails with ucsi_acpi USBC000:00: con2: failed to register
+    alternate modes'
 - component: YaST2
   create_time: 20190927T21:16:00
   id: 1152357
