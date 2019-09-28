@@ -2416,7 +2416,7 @@
     summary: Change in kmail mail list keyboard navigation behavior
 '20190916':
   announcement: 2019-09.148
-  reference_count: 20
+  reference_count: 21
   thread_count: 3
   threads:
   - messages:
@@ -2426,7 +2426,7 @@
   - messages:
     - 2019-09.151
     - 2019-09.215
-    reference_count: 13
+    reference_count: 14
     summary: failed to summarize
   - messages:
     - 2019-09.219
