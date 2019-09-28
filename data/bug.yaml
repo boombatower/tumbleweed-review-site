@@ -29355,8 +29355,8 @@
 - component: Other
   create_time: 20190910T16:15:00
   id: 1150208
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: latex2html problems with new perl and images
 - component: Kernel
   create_time: 20190910T12:51:00
@@ -29753,6 +29753,12 @@
   status: RESOLVED
   summary: 'drbd: coccinelle not built against drbd-9.0.19'
 '20190925':
+- component: Basesystem
+  create_time: 20190928T15:18:00
+  id: 1152378
+  resolution: ''
+  status: NEW
+  summary: lvm volume fails to activate after upgrade to lvm 2.03.05-1.1
 - component: Kernel
   create_time: 20190928T09:59:00
   id: 1152371
