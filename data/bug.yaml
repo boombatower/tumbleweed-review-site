@@ -3431,6 +3431,12 @@
   resolution: ''
   status: CONFIRMED
   summary: Drop openSUSE-release-mini
+- component: Other
+  create_time: 20180208T14:34:00
+  id: 1080086
+  resolution: ''
+  status: REOPENED
+  summary: psgml package breaks emacs js-mode
 - component: Kernel
   create_time: 20180208T13:02:00
   id: 1080065
@@ -29355,8 +29361,8 @@
 - component: Other
   create_time: 20190910T16:15:00
   id: 1150208
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: latex2html problems with new perl and images
 - component: Kernel
   create_time: 20190910T12:51:00
@@ -29753,6 +29759,12 @@
   status: RESOLVED
   summary: 'drbd: coccinelle not built against drbd-9.0.19'
 '20190925':
+- component: Development
+  create_time: 20190930T07:48:00
+  id: 1152451
+  resolution: ''
+  status: NEW
+  summary: notmuch does not build with --disable-debuginfo
 - component: X11 Applications
   create_time: 20190928T20:17:00
   id: 1152390
@@ -29794,8 +29806,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190927T13:33:00
   id: 1152314
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'plasmashell: invalid metadata'
 - component: Java
   create_time: 20190927T10:59:00
