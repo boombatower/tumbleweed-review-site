@@ -29844,8 +29844,8 @@
 - component: KDE Applications
   create_time: 20190928T16:32:00
   id: 1152385
-  resolution: ''
-  status: REOPENED
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: duplex printing is not available in okular
 - component: Basesystem
   create_time: 20190928T15:18:00
