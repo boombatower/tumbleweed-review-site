@@ -8996,8 +8996,8 @@
 - component: Basesystem
   create_time: 20180601T07:30:00
   id: 1095499
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Let's come up with python3-debug package
 - component: Firefox
   create_time: 20180601T07:11:00
@@ -27538,7 +27538,7 @@
   create_time: 20190809T10:43:00
   id: 1145050
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Nvidia Jetson TX2: Installer kernel crashes while decompressing initrd'
 - component: Kubic
   create_time: 20190809T07:58:00
@@ -29759,6 +29759,69 @@
   status: RESOLVED
   summary: 'drbd: coccinelle not built against drbd-9.0.19'
 '20190925':
+- component: Kernel
+  create_time: 20190925T20:37:00
+  id: 1152054
+  resolution: ''
+  status: NEW
+  summary: kernel NULL pointer dereference, system unresponsive (drm / amdgpu)
+- component: YaST2
+  create_time: 20190925T20:29:00
+  id: 1152052
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'yast2-aduc: Add ability to change/enable/unlock user''s passwords'
+- component: Kernel
+  create_time: 20190925T17:45:00
+  id: 1152036
+  resolution: ''
+  status: NEW
+  summary: Fatal iwlwifi errors with kernel 5.3
+- component: Other
+  create_time: 20190925T13:18:00
+  id: 1152001
+  resolution: ''
+  status: NEW
+  summary: volk does compile-time CPU detection
+- component: Other
+  create_time: 20190925T13:13:00
+  id: 1152000
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: clamav VirusEvent not fired when virus are detected with on access detection
+    in clamd
+- component: YaST2
+  create_time: 20190925T09:35:00
+  id: 1151960
+  resolution: ''
+  status: NEW
+  summary: yast2 bootloader causes "File descriptor ... leaked on vgs invocation"
+- component: Other
+  create_time: 20190925T08:27:00
+  id: 1151951
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190923] MATE shows all btrfs volumes on the desktop'
+'20190926':
+- component: Sound
+  create_time: 20190930T15:51:00
+  id: 1152544
+  resolution: ''
+  status: NEW
+  summary: 'pulseaudio: renamed steelseries files do not match paths searched for
+    by module-alsa-card'
+- component: X.Org
+  create_time: 20190930T15:47:00
+  id: 1152543
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: no working X/FB console with Nvidia RTX cards
+- component: Development
+  create_time: 20190930T12:01:00
+  id: 1152509
+  resolution: ''
+  status: NEW
+  summary: gdb.base/gdb-rhbz1156192-recursive-dlopen.exp FAILs
 - component: Development
   create_time: 20190930T07:48:00
   id: 1152451
@@ -29774,8 +29837,8 @@
 - component: KDE Applications
   create_time: 20190928T16:32:00
   id: 1152385
-  resolution: INVALID
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: duplex printing is not available in okular
 - component: Basesystem
   create_time: 20190928T15:18:00
@@ -29863,46 +29926,3 @@
   resolution: ''
   status: IN_PROGRESS
   summary: info vs gzip
-- component: Kernel
-  create_time: 20190925T20:37:00
-  id: 1152054
-  resolution: ''
-  status: NEW
-  summary: kernel NULL pointer dereference, system unresponsive (drm / amdgpu)
-- component: YaST2
-  create_time: 20190925T20:29:00
-  id: 1152052
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'yast2-aduc: Add ability to change/enable/unlock user''s passwords'
-- component: Kernel
-  create_time: 20190925T17:45:00
-  id: 1152036
-  resolution: ''
-  status: NEW
-  summary: Fatal iwlwifi errors with kernel 5.3
-- component: Other
-  create_time: 20190925T13:18:00
-  id: 1152001
-  resolution: ''
-  status: NEW
-  summary: volk does compile-time CPU detection
-- component: Other
-  create_time: 20190925T13:13:00
-  id: 1152000
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: clamav VirusEvent not fired when virus are detected with on access detection
-    in clamd
-- component: YaST2
-  create_time: 20190925T09:35:00
-  id: 1151960
-  resolution: ''
-  status: NEW
-  summary: yast2 bootloader causes "File descriptor ... leaked on vgs invocation"
-- component: Other
-  create_time: 20190925T08:27:00
-  id: 1151951
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190923] MATE shows all btrfs volumes on the desktop'
