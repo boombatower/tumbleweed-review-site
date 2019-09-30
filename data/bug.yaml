@@ -29454,8 +29454,8 @@
 - component: Other
   create_time: 20190916T11:12:00
   id: 1150909
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: MATE package need to adopt libxml2 binding packaging change
 '20190917':
 - component: Other
@@ -29762,8 +29762,8 @@
 - component: KDE Applications
   create_time: 20190928T16:32:00
   id: 1152385
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: duplex printing is not available in okular
 - component: Basesystem
   create_time: 20190928T15:18:00
