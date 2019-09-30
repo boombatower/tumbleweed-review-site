@@ -29803,6 +29803,13 @@
   status: NEW
   summary: '[Build 20190923] MATE shows all btrfs volumes on the desktop'
 '20190926':
+- component: Basesystem
+  create_time: 20190930T17:58:00
+  id: 1152558
+  resolution: ''
+  status: NEW
+  summary: polkit don't prevent sleep and hibernation, although it is configured to
+    do so
 - component: Sound
   create_time: 20190930T15:51:00
   id: 1152544
@@ -29813,8 +29820,8 @@
 - component: X.Org
   create_time: 20190930T15:47:00
   id: 1152543
-  resolution: UPSTREAM
-  status: RESOLVED
+  resolution: ''
+  status: CONFIRMED
   summary: no working X/FB console with Nvidia RTX cards
 - component: Development
   create_time: 20190930T12:01:00
