@@ -29840,6 +29840,12 @@
   status: IN_PROGRESS
   summary: info vs gzip
 '20190927':
+- component: Containers
+  create_time: 20191001T18:08:00
+  id: 1152721
+  resolution: ''
+  status: NEW
+  summary: zypper in podman does not install default cni network
 - component: Other
   create_time: 20191001T14:36:00
   id: 1152698
