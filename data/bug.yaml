@@ -27389,7 +27389,7 @@
   create_time: 20190808T13:58:00
   id: 1144894
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20190806] autoyast profile doesn''t validate'
 - component: Live Medium
   create_time: 20190808T13:26:00
@@ -29542,8 +29542,8 @@
 - component: Kernel
   create_time: 20190919T14:50:00
   id: 1151368
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: VERIFIED
   summary: 'In a kernel 4.9 or higher on a Raspberry Pi cat /proc/cpuinfo should show
     behind Revision: something other than 0000 to reflect the used hardware'
 - component: Kernel
@@ -29608,7 +29608,7 @@
   id: 1151518
   resolution: ''
   status: IN_PROGRESS
-  summary: 'AUDIT-0: bluez: new D-Bus service /etc/dbus-1/system.d/bluetooth-mesh.conf'
+  summary: 'AUDIT-TRACKER: bluez: new D-Bus service /etc/dbus-1/system.d/bluetooth-mesh.conf'
 - component: X11 Applications
   create_time: 20190920T11:33:00
   id: 1151474
@@ -29803,6 +29803,79 @@
   status: NEW
   summary: '[Build 20190923] MATE shows all btrfs volumes on the desktop'
 '20190926':
+- component: Kubic
+  create_time: 20190926T18:51:00
+  id: 1152185
+  resolution: ''
+  status: NEW
+  summary: kube-flannel-ds-arm64
+- component: Kernel
+  create_time: 20190926T18:15:00
+  id: 1152184
+  resolution: ''
+  status: NEW
+  summary: Yast sound card can't be configure
+- component: Basesystem
+  create_time: 20190926T17:28:00
+  id: 1152183
+  resolution: ''
+  status: NEW
+  summary: PulseAudio profiles unvailable
+- component: KDE Workspace (Plasma)
+  create_time: 20190926T15:55:00
+  id: 1152177
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190925] FTBFS: python-qt4'
+- component: Basesystem
+  create_time: 20190926T14:44:00
+  id: 1152169
+  resolution: ''
+  status: NEW
+  summary: 'rpmlint: remove warning about info scriptlets'
+- component: Basesystem
+  create_time: 20190926T08:40:00
+  id: 1152105
+  resolution: ''
+  status: IN_PROGRESS
+  summary: info vs gzip
+'20190927':
+- component: Security
+  create_time: 20191001T11:59:00
+  id: 1152672
+  resolution: ''
+  status: NEW
+  summary: 'VUL-0: bluez: bluetooth-mesh D-Bus service can be crashed by regular user'
+- component: Other
+  create_time: 20191001T11:57:00
+  id: 1152671
+  resolution: ''
+  status: NEW
+  summary: Tensorflow fails to build on latest aarch64 Tumbleweed
+- component: Basesystem
+  create_time: 20191001T09:35:00
+  id: 1152630
+  resolution: ''
+  status: NEW
+  summary: Logical Volumes on /dev/sdb are not activated during boot
+- component: Installation
+  create_time: 20191001T09:29:00
+  id: 1152627
+  resolution: FIXED
+  status: RESOLVED
+  summary: Installer crash due to a circular dependency between Host and DNS modules
+- component: X11 Applications
+  create_time: 20191001T07:37:00
+  id: 1152601
+  resolution: ''
+  status: NEW
+  summary: Awesome WM crashes on launch when installed with upstream branding
+- component: Development
+  create_time: 20191001T07:08:00
+  id: 1152590
+  resolution: ''
+  status: NEW
+  summary: cross-avr-gcc* are huge
 - component: Other
   create_time: 20191001T00:11:00
   id: 1152572
@@ -29903,39 +29976,3 @@
   resolution: ''
   status: NEW
   summary: 'macros.perl: %perl_gen_filelist cannot handle paths with plus sign'
-- component: Kubic
-  create_time: 20190926T18:51:00
-  id: 1152185
-  resolution: ''
-  status: NEW
-  summary: kube-flannel-ds-arm64
-- component: Kernel
-  create_time: 20190926T18:15:00
-  id: 1152184
-  resolution: ''
-  status: NEW
-  summary: Yast sound card can't be configure
-- component: Basesystem
-  create_time: 20190926T17:28:00
-  id: 1152183
-  resolution: ''
-  status: NEW
-  summary: PulseAudio profiles unvailable
-- component: KDE Workspace (Plasma)
-  create_time: 20190926T15:55:00
-  id: 1152177
-  resolution: ''
-  status: NEW
-  summary: '[Build 20190925] FTBFS: python-qt4'
-- component: Basesystem
-  create_time: 20190926T14:44:00
-  id: 1152169
-  resolution: ''
-  status: NEW
-  summary: 'rpmlint: remove warning about info scriptlets'
-- component: Basesystem
-  create_time: 20190926T08:40:00
-  id: 1152105
-  resolution: ''
-  status: IN_PROGRESS
-  summary: info vs gzip
