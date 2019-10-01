@@ -29580,8 +29580,8 @@
 - component: Other
   create_time: 20190918T08:41:00
   id: 1151150
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Tensorflow uses protobuf v3.6.1.2 tarball instead of protobuf from distribution
     - Breaks Arm NN
 - component: YaST2
@@ -29840,6 +29840,12 @@
   status: IN_PROGRESS
   summary: info vs gzip
 '20190927':
+- component: Other
+  create_time: 20191001T14:36:00
+  id: 1152698
+  resolution: ''
+  status: NEW
+  summary: 'science/occt: update to 7.4'
 - component: Security
   create_time: 20191001T11:59:00
   id: 1152672
