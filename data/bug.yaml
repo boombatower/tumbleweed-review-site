@@ -29803,6 +29803,12 @@
   status: NEW
   summary: '[Build 20190923] MATE shows all btrfs volumes on the desktop'
 '20190926':
+- component: Other
+  create_time: 20191001T00:11:00
+  id: 1152572
+  resolution: ''
+  status: NEW
+  summary: rpmlint doesn't recognize LLVM-exception
 - component: Basesystem
   create_time: 20190930T17:58:00
   id: 1152558
