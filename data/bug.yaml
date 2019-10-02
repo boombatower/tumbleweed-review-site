@@ -29774,8 +29774,8 @@
 - component: Kernel
   create_time: 20190925T17:45:00
   id: 1152036
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Fatal iwlwifi errors with kernel 5.3
 - component: Other
   create_time: 20190925T13:18:00
@@ -29840,6 +29840,18 @@
   status: IN_PROGRESS
   summary: info vs gzip
 '20190927':
+- component: KDE Applications
+  create_time: 20191002T07:08:00
+  id: 1152751
+  resolution: ''
+  status: NEW
+  summary: Amarok - Some global shortcuts don't work
+- component: Installation
+  create_time: 20191002T05:52:00
+  id: 1152748
+  resolution: ''
+  status: NEW
+  summary: Configured network not detected
 - component: Containers
   create_time: 20191001T18:08:00
   id: 1152721
