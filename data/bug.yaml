@@ -29903,6 +29903,12 @@
   status: NEW
   summary: 'macros.perl: %perl_gen_filelist cannot handle paths with plus sign'
 '20190930':
+- component: Virtualization:Other
+  create_time: 20191002T20:30:00
+  id: 1152830
+  resolution: ''
+  status: NEW
+  summary: cannot boot a bare ppc64 kernel
 - component: Basesystem
   create_time: 20191002T14:14:00
   id: 1152793
