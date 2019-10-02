@@ -27065,7 +27065,7 @@
   create_time: 20190802T15:10:00
   id: 1144056
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Please add "pam_keyinit.so" to the /etc/pam.d/proftpd configuration file
 - component: Basesystem
   create_time: 20190802T15:08:00
@@ -29903,6 +29903,20 @@
   status: NEW
   summary: 'macros.perl: %perl_gen_filelist cannot handle paths with plus sign'
 '20190930':
+- component: Basesystem
+  create_time: 20191002T14:14:00
+  id: 1152793
+  resolution: ''
+  status: NEW
+  summary: '[python3] There is no stropts.h available with glibc 2.30 but pyconfig.h
+    defines it!'
+- component: Virtualization:Tools
+  create_time: 20191002T13:43:00
+  id: 1152787
+  resolution: ''
+  status: NEW
+  summary: Mouse cursor is not captured by virt-viewer, gnome-boxes, etc. under GNOME
+    (cursor leaves VM host window when boundary is reached)
 - component: Mono
   create_time: 20191002T12:06:00
   id: 1152775
@@ -30009,8 +30023,8 @@
 - component: Sound
   create_time: 20190930T15:51:00
   id: 1152544
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'pulseaudio: renamed steelseries files do not match paths searched for
     by module-alsa-card'
 - component: X.Org
