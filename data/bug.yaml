@@ -28477,8 +28477,8 @@
 - component: Kernel
   create_time: 20190828T12:49:00
   id: 1148562
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'BTRFS - watchdog: BUG: soft lockup - CPU#0 stuck for 24s! [snapperd:16153]'
 - component: Network
   create_time: 20190828T12:48:00
@@ -28623,8 +28623,8 @@
 - component: YaST2
   create_time: 20190829T16:42:00
   id: 1148850
-  resolution: DUPLICATE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '[Build 20190828] yast2_http: cannot import namespace "HTTPDData"'
 - component: Other
   create_time: 20190829T14:42:00
@@ -29840,6 +29840,93 @@
   status: IN_PROGRESS
   summary: info vs gzip
 '20190927':
+- component: X11 Applications
+  create_time: 20190928T20:17:00
+  id: 1152390
+  resolution: ''
+  status: NEW
+  summary: 'lightdm[6334]: segfault at 0 ip b7d81e41 sp bfcdc50c error 4 in libc-2.29.so[b7cff000+152000]'
+- component: KDE Applications
+  create_time: 20190928T16:32:00
+  id: 1152385
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: duplex printing is not available in okular
+- component: Basesystem
+  create_time: 20190928T15:18:00
+  id: 1152378
+  resolution: ''
+  status: NEW
+  summary: lvm volume fails to activate after upgrade to lvm 2.03.05-1.1
+- component: Kernel
+  create_time: 20190928T09:59:00
+  id: 1152371
+  resolution: ''
+  status: NEW
+  summary: 'Reboot quite often fails with ucsi_acpi USBC000:00: con2: failed to register
+    alternate modes'
+- component: YaST2
+  create_time: 20190927T21:16:00
+  id: 1152357
+  resolution: ''
+  status: NEW
+  summary: yast2-gpmc create/delete gpo breaks the Windows gpmc
+- component: Samba
+  create_time: 20190927T14:44:00
+  id: 1152330
+  resolution: ''
+  status: NEW
+  summary: yast2-samba-client provide an option for forcing kerberos authentication
+    during join
+- component: KDE Workspace (Plasma)
+  create_time: 20190927T13:33:00
+  id: 1152314
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: 'plasmashell: invalid metadata'
+- component: Java
+  create_time: 20190927T10:59:00
+  id: 1152279
+  resolution: ''
+  status: NEW
+  summary: java-*-javadoc installation fails with excludedocs=true
+- component: Cloud:Tools
+  create_time: 20190927T09:33:00
+  id: 1152258
+  resolution: FIXED
+  status: RESOLVED
+  summary: groff dependency missing for aws-cli help
+- component: Basesystem
+  create_time: 20190927T08:51:00
+  id: 1152247
+  resolution: ''
+  status: NEW
+  summary: 'macros.perl: %perl_gen_filelist cannot handle paths with plus sign'
+'20190930':
+- component: Mono
+  create_time: 20191002T12:06:00
+  id: 1152775
+  resolution: ''
+  status: NEW
+  summary: rpm will drop support for mono dependency generators
+- component: Containers
+  create_time: 20191002T11:44:00
+  id: 1152773
+  resolution: ''
+  status: NEW
+  summary: seccomp error if running containers with podman on armv7
+- component: Installation
+  create_time: 20191002T11:40:00
+  id: 1152771
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[/usr/etc] installation-images needs to follow pam changes'
+- component: Basesystem
+  create_time: 20191002T11:39:00
+  id: 1152770
+  resolution: ''
+  status: NEW
+  summary: '[TRACKER] Move system configuration files from /etc  to /usr/etc'
 - component: Basesystem
   create_time: 20191002T09:54:00
   id: 1152762
@@ -29904,7 +29991,7 @@
   create_time: 20191001T07:08:00
   id: 1152590
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: cross-avr-gcc* are huge
 - component: Other
   create_time: 20191001T00:11:00
@@ -29944,65 +30031,3 @@
   resolution: ''
   status: IN_PROGRESS
   summary: notmuch does not build with --disable-debuginfo
-- component: X11 Applications
-  create_time: 20190928T20:17:00
-  id: 1152390
-  resolution: ''
-  status: NEW
-  summary: 'lightdm[6334]: segfault at 0 ip b7d81e41 sp bfcdc50c error 4 in libc-2.29.so[b7cff000+152000]'
-- component: KDE Applications
-  create_time: 20190928T16:32:00
-  id: 1152385
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: duplex printing is not available in okular
-- component: Basesystem
-  create_time: 20190928T15:18:00
-  id: 1152378
-  resolution: ''
-  status: NEW
-  summary: lvm volume fails to activate after upgrade to lvm 2.03.05-1.1
-- component: Kernel
-  create_time: 20190928T09:59:00
-  id: 1152371
-  resolution: ''
-  status: NEW
-  summary: 'Reboot quite often fails with ucsi_acpi USBC000:00: con2: failed to register
-    alternate modes'
-- component: YaST2
-  create_time: 20190927T21:16:00
-  id: 1152357
-  resolution: ''
-  status: NEW
-  summary: yast2-gpmc create/delete gpo breaks the Windows gpmc
-- component: Samba
-  create_time: 20190927T14:44:00
-  id: 1152330
-  resolution: ''
-  status: NEW
-  summary: yast2-samba-client provide an option for forcing kerberos authentication
-    during join
-- component: KDE Workspace (Plasma)
-  create_time: 20190927T13:33:00
-  id: 1152314
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: 'plasmashell: invalid metadata'
-- component: Java
-  create_time: 20190927T10:59:00
-  id: 1152279
-  resolution: ''
-  status: NEW
-  summary: java-*-javadoc installation fails with excludedocs=true
-- component: Cloud:Tools
-  create_time: 20190927T09:33:00
-  id: 1152258
-  resolution: FIXED
-  status: RESOLVED
-  summary: groff dependency missing for aws-cli help
-- component: Basesystem
-  create_time: 20190927T08:51:00
-  id: 1152247
-  resolution: ''
-  status: NEW
-  summary: 'macros.perl: %perl_gen_filelist cannot handle paths with plus sign'
