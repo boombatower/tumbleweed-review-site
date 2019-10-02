@@ -23196,8 +23196,8 @@
 - component: Security
   create_time: 20190507T13:01:00
   id: 1134327
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Enhance Ghostscript apparmor profile for ps2epsi
 - component: KDE Workspace (Plasma)
   create_time: 20190507T12:56:00
@@ -29349,8 +29349,8 @@
 - component: Security
   create_time: 20190911T12:32:00
   id: 1150338
-  resolution: ''
-  status: NEW
+  resolution: MOVED
+  status: RESOLVED
   summary: Drop  Ghostscript apparmor profile as it is useless
 - component: Security
   create_time: 20190911T12:17:00
@@ -29840,6 +29840,12 @@
   status: IN_PROGRESS
   summary: info vs gzip
 '20190927':
+- component: Basesystem
+  create_time: 20191002T09:54:00
+  id: 1152762
+  resolution: ''
+  status: NEW
+  summary: User stop jobs delayed/hanging due NFS shared HOME
 - component: KDE Applications
   create_time: 20191002T07:08:00
   id: 1152751
@@ -29849,8 +29855,8 @@
 - component: Installation
   create_time: 20191002T05:52:00
   id: 1152748
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Configured network not detected
 - component: Containers
   create_time: 20191001T18:08:00
@@ -29936,7 +29942,7 @@
   create_time: 20190930T07:48:00
   id: 1152451
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: notmuch does not build with --disable-debuginfo
 - component: X11 Applications
   create_time: 20190928T20:17:00
