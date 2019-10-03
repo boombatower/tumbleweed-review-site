@@ -29906,8 +29906,8 @@
 - component: Virtualization:Other
   create_time: 20191002T20:30:00
   id: 1152830
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: cannot boot a bare ppc64 kernel
 - component: Basesystem
   create_time: 20191002T14:14:00
