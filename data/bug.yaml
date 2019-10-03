@@ -19118,8 +19118,8 @@
 - component: Other
   create_time: 20190206T09:58:00
   id: 1124446
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'PHP 7.3 preg_match(): JIT compilation failed: no more memory (need pcre.jit=0
     by default in php.ini)'
 - component: Other
@@ -28917,8 +28917,8 @@
 - component: Development
   create_time: 20190905T14:00:00
   id: 1149619
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: gdb libipt update v2.0 -> v2.0.1
 - component: YaST2
   create_time: 20190905T13:54:00
@@ -29903,6 +29903,18 @@
   status: NEW
   summary: 'macros.perl: %perl_gen_filelist cannot handle paths with plus sign'
 '20190930':
+- component: Development
+  create_time: 20191003T09:30:00
+  id: 1152894
+  resolution: ''
+  status: NEW
+  summary: gdb.linespec/cpcompletion.exp timeouts on ppc64
+- component: GNOME
+  create_time: 20191003T08:54:00
+  id: 1152875
+  resolution: FIXED
+  status: RESOLVED
+  summary: typelib-1_0-Gtk-3_0 stopped working after glib update
 - component: Virtualization:Other
   create_time: 20191002T20:30:00
   id: 1152830
