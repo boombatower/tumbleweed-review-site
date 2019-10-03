@@ -29549,8 +29549,8 @@
 - component: Kernel
   create_time: 20190918T13:35:00
   id: 1151205
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: purge-kernels leaves <modules-dir>/updates behind when deleting associated
     kernel
 - component: Development
