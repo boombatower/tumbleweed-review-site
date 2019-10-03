@@ -19119,7 +19119,7 @@
   create_time: 20190206T09:58:00
   id: 1124446
   resolution: ''
-  status: REOPENED
+  status: NEW
   summary: 'PHP 7.3 preg_match(): JIT compilation failed: no more memory (need pcre.jit=0
     by default in php.ini)'
 - component: Other
@@ -29903,6 +29903,12 @@
   status: NEW
   summary: 'macros.perl: %perl_gen_filelist cannot handle paths with plus sign'
 '20190930':
+- component: Kernel
+  create_time: 20191003T13:50:00
+  id: 1152932
+  resolution: ''
+  status: NEW
+  summary: Chinese BT 5.0 USB dongles don't work
 - component: Samba
   create_time: 20191003T13:20:00
   id: 1152930
