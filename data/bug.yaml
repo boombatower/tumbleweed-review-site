@@ -29595,7 +29595,7 @@
   create_time: 20190920T21:42:00
   id: 1151523
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: open-vm-tools 11.0.0 released
 - component: Maintenance
   create_time: 20190920T20:27:00
@@ -29903,6 +29903,12 @@
   status: NEW
   summary: 'macros.perl: %perl_gen_filelist cannot handle paths with plus sign'
 '20190930':
+- component: Samba
+  create_time: 20191003T13:20:00
+  id: 1152930
+  resolution: ''
+  status: NEW
+  summary: mount.cifs crashes when attempting to mount invalid directories
 - component: Development
   create_time: 20191003T09:30:00
   id: 1152894
