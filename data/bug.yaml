@@ -29903,92 +29903,6 @@
   status: NEW
   summary: 'macros.perl: %perl_gen_filelist cannot handle paths with plus sign'
 '20190930':
-- component: Kernel
-  create_time: 20191003T13:50:00
-  id: 1152932
-  resolution: ''
-  status: NEW
-  summary: Chinese BT 5.0 USB dongles don't work
-- component: Samba
-  create_time: 20191003T13:20:00
-  id: 1152930
-  resolution: ''
-  status: NEW
-  summary: mount.cifs crashes when attempting to mount invalid directories
-- component: Development
-  create_time: 20191003T09:30:00
-  id: 1152894
-  resolution: ''
-  status: NEW
-  summary: gdb.linespec/cpcompletion.exp timeouts on ppc64
-- component: GNOME
-  create_time: 20191003T08:54:00
-  id: 1152875
-  resolution: FIXED
-  status: RESOLVED
-  summary: typelib-1_0-Gtk-3_0 stopped working after glib update
-- component: Virtualization:Other
-  create_time: 20191002T20:30:00
-  id: 1152830
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: cannot boot a bare ppc64 kernel
-- component: Basesystem
-  create_time: 20191002T14:14:00
-  id: 1152793
-  resolution: ''
-  status: NEW
-  summary: '[python3] There is no stropts.h available with glibc 2.30 but pyconfig.h
-    defines it!'
-- component: Virtualization:Tools
-  create_time: 20191002T13:43:00
-  id: 1152787
-  resolution: ''
-  status: NEW
-  summary: Mouse cursor is not captured by virt-viewer, gnome-boxes, etc. under GNOME
-    (cursor leaves VM host window when boundary is reached)
-- component: Mono
-  create_time: 20191002T12:06:00
-  id: 1152775
-  resolution: ''
-  status: NEW
-  summary: rpm will drop support for mono dependency generators
-- component: Containers
-  create_time: 20191002T11:44:00
-  id: 1152773
-  resolution: ''
-  status: NEW
-  summary: seccomp error if running containers with podman on armv7
-- component: Installation
-  create_time: 20191002T11:40:00
-  id: 1152771
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[/usr/etc] installation-images needs to follow pam changes'
-- component: Basesystem
-  create_time: 20191002T11:39:00
-  id: 1152770
-  resolution: ''
-  status: NEW
-  summary: '[TRACKER] Move system configuration files from /etc  to /usr/etc'
-- component: Basesystem
-  create_time: 20191002T09:54:00
-  id: 1152762
-  resolution: ''
-  status: NEW
-  summary: User stop jobs delayed/hanging due NFS shared HOME
-- component: KDE Applications
-  create_time: 20191002T07:08:00
-  id: 1152751
-  resolution: ''
-  status: NEW
-  summary: Amarok - Some global shortcuts don't work
-- component: Installation
-  create_time: 20191002T05:52:00
-  id: 1152748
-  resolution: FIXED
-  status: RESOLVED
-  summary: Configured network not detected
 - component: Containers
   create_time: 20191001T18:08:00
   id: 1152721
@@ -30075,3 +29989,102 @@
   resolution: ''
   status: IN_PROGRESS
   summary: notmuch does not build with --disable-debuginfo
+'20191002':
+- component: Kernel
+  create_time: 20191004T01:19:00
+  id: 1152971
+  resolution: ''
+  status: NEW
+  summary: Kernel 5.3 Multi Monitor Does not completely work
+- component: Other
+  create_time: 20191003T20:32:00
+  id: 1152964
+  resolution: ''
+  status: NEW
+  summary: Fetchmail needs an update (from 6.3 to 6.4)
+- component: Kernel
+  create_time: 20191003T13:50:00
+  id: 1152932
+  resolution: ''
+  status: NEW
+  summary: Chinese BT 5.0 USB dongles don't work
+- component: Samba
+  create_time: 20191003T13:20:00
+  id: 1152930
+  resolution: ''
+  status: NEW
+  summary: mount.cifs crashes when attempting to mount invalid directories
+- component: Development
+  create_time: 20191003T09:30:00
+  id: 1152894
+  resolution: ''
+  status: NEW
+  summary: gdb.linespec/cpcompletion.exp timeouts on ppc64
+- component: GNOME
+  create_time: 20191003T08:54:00
+  id: 1152875
+  resolution: FIXED
+  status: RESOLVED
+  summary: typelib-1_0-Gtk-3_0 stopped working after glib update
+- component: Virtualization:Other
+  create_time: 20191002T20:30:00
+  id: 1152830
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: cannot boot a bare ppc64 kernel
+- component: Basesystem
+  create_time: 20191002T14:14:00
+  id: 1152793
+  resolution: ''
+  status: NEW
+  summary: '[python3] There is no stropts.h available with glibc 2.30 but pyconfig.h
+    defines it!'
+- component: Virtualization:Tools
+  create_time: 20191002T13:43:00
+  id: 1152787
+  resolution: ''
+  status: NEW
+  summary: Mouse cursor is not captured by virt-viewer, gnome-boxes, etc. under GNOME
+    (cursor leaves VM host window when boundary is reached)
+- component: Mono
+  create_time: 20191002T12:06:00
+  id: 1152775
+  resolution: ''
+  status: NEW
+  summary: rpm will drop support for mono dependency generators
+- component: Containers
+  create_time: 20191002T11:44:00
+  id: 1152773
+  resolution: ''
+  status: NEW
+  summary: seccomp error if running containers with podman on armv7
+- component: Installation
+  create_time: 20191002T11:40:00
+  id: 1152771
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[/usr/etc] installation-images needs to follow pam changes'
+- component: Basesystem
+  create_time: 20191002T11:39:00
+  id: 1152770
+  resolution: ''
+  status: NEW
+  summary: '[TRACKER] Move system configuration files from /etc  to /usr/etc'
+- component: Basesystem
+  create_time: 20191002T09:54:00
+  id: 1152762
+  resolution: ''
+  status: NEW
+  summary: User stop jobs delayed/hanging due NFS shared HOME
+- component: KDE Applications
+  create_time: 20191002T07:08:00
+  id: 1152751
+  resolution: ''
+  status: NEW
+  summary: Amarok - Some global shortcuts don't work
+- component: Installation
+  create_time: 20191002T05:52:00
+  id: 1152748
+  resolution: FIXED
+  status: RESOLVED
+  summary: Configured network not detected
