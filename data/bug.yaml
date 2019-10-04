@@ -29606,8 +29606,8 @@
 - component: Security
   create_time: 20190920T20:09:00
   id: 1151518
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'AUDIT-TRACKER: bluez: new D-Bus service /etc/dbus-1/system.d/bluetooth-mesh.conf'
 - component: X11 Applications
   create_time: 20190920T11:33:00
@@ -29918,8 +29918,8 @@
 - component: Security
   create_time: 20191001T11:59:00
   id: 1152672
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'VUL-0: bluez: bluetooth-mesh D-Bus service can be crashed by regular user'
 - component: Other
   create_time: 20191001T11:57:00
@@ -29949,7 +29949,7 @@
   create_time: 20191001T07:08:00
   id: 1152590
   resolution: ''
-  status: REOPENED
+  status: IN_PROGRESS
   summary: cross-avr-gcc* are huge
 - component: Other
   create_time: 20191001T00:11:00
@@ -29990,6 +29990,12 @@
   status: IN_PROGRESS
   summary: notmuch does not build with --disable-debuginfo
 '20191002':
+- component: Kernel
+  create_time: 20191004T07:32:00
+  id: 1153013
+  resolution: ''
+  status: NEW
+  summary: 'WARNING: CPU: 1 PID: 28167 at kernel/cgroup/cgroup.c:3131 cgroup_apply_control_enable+0xe0/0x3f0'
 - component: Kernel
   create_time: 20191004T01:19:00
   id: 1152971
