@@ -23651,8 +23651,8 @@
 - component: GNOME
   create_time: 20190516T17:07:00
   id: 1135401
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: "gnome-shell: Clutter.txt has been already deallocated \u2014 impossible\
     \ to access it."
 - component: Cloud:Tools
@@ -26335,8 +26335,8 @@
 - component: YaST2
   create_time: 20190717T10:44:00
   id: 1141821
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-network as part of the refactoring
 - component: LibreOffice
   create_time: 20190717T08:04:00
@@ -29990,6 +29990,12 @@
   status: IN_PROGRESS
   summary: notmuch does not build with --disable-debuginfo
 '20191002':
+- component: Basesystem
+  create_time: 20191004T11:46:00
+  id: 1153057
+  resolution: ''
+  status: NEW
+  summary: Regression with latest rpm and `%{?...}' macro expansion
 - component: Kernel
   create_time: 20191004T07:32:00
   id: 1153013
