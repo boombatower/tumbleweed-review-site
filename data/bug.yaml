@@ -16503,14 +16503,14 @@
 - component: Network
   create_time: 20181204T17:15:00
   id: 1118368
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please include proper dependencies in named.service against nss-lookup.target
 - component: Network
   create_time: 20181204T17:11:00
   id: 1118367
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please add proper dependencies in lwresd.service against nss-lookup.target
 - component: Bootloader
   create_time: 20181204T16:40:00
@@ -19118,8 +19118,8 @@
 - component: Other
   create_time: 20190206T09:58:00
   id: 1124446
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'PHP 7.3 preg_match(): JIT compilation failed: no more memory (need pcre.jit=0
     by default in php.ini)'
 - component: Other
@@ -28510,8 +28510,8 @@
 - component: AutoYaST
   create_time: 20190828T07:03:00
   id: 1148477
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190824] installation fails on setting uuid of btrfs'
 - component: Security
   create_time: 20190828T07:00:00
@@ -28948,8 +28948,8 @@
 - component: Basesystem
   create_time: 20190905T11:22:00
   id: 1149583
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: '`systemd-run -p MemoryMax=1G $prog` won''t apply any limit'
 - component: Security
   create_time: 20190905T08:51:00
@@ -29990,6 +29990,30 @@
   status: IN_PROGRESS
   summary: notmuch does not build with --disable-debuginfo
 '20191002':
+- component: Containers
+  create_time: 20191004T17:38:00
+  id: 1153111
+  resolution: ''
+  status: NEW
+  summary: Podman throws segmentation fault when playing Kubernetes YAML file
+- component: YaST2
+  create_time: 20191004T16:23:00
+  id: 1153103
+  resolution: ''
+  status: NEW
+  summary: 'libpy2UI.so.2: undefined symbol: _ZTI13YItemSelector'
+- component: Development
+  create_time: 20191004T13:44:00
+  id: 1153083
+  resolution: ''
+  status: NEW
+  summary: gcc-9 pretty printers absent
+- component: Other
+  create_time: 20191004T12:00:00
+  id: 1153062
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'yomi: booting installed machines reports error about iscsi'
 - component: Basesystem
   create_time: 20191004T11:46:00
   id: 1153057
@@ -30086,7 +30110,7 @@
   create_time: 20191002T09:54:00
   id: 1152762
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: User stop jobs delayed/hanging due NFS shared HOME
 - component: KDE Applications
   create_time: 20191002T07:08:00
