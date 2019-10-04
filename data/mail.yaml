@@ -2487,6 +2487,10 @@
   threads: []
 '20191002':
   announcement: 2019-10.26
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-10.32
+    reference_count: 1
+    summary: with git
