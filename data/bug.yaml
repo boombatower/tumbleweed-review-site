@@ -16686,8 +16686,8 @@
 - component: Other
   create_time: 20181208T21:55:00
   id: 1118864
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Possible easy fix for Steam Controller issues
 - component: Other
   create_time: 20181208T20:26:00
@@ -29818,8 +29818,8 @@
 - component: Basesystem
   create_time: 20190926T17:28:00
   id: 1152183
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: PulseAudio profiles unvailable
 - component: KDE Workspace (Plasma)
   create_time: 20190926T15:55:00
@@ -29990,78 +29990,6 @@
   status: IN_PROGRESS
   summary: notmuch does not build with --disable-debuginfo
 '20191002':
-- component: Containers
-  create_time: 20191004T17:38:00
-  id: 1153111
-  resolution: ''
-  status: NEW
-  summary: Podman throws segmentation fault when playing Kubernetes YAML file
-- component: YaST2
-  create_time: 20191004T16:23:00
-  id: 1153103
-  resolution: ''
-  status: NEW
-  summary: 'libpy2UI.so.2: undefined symbol: _ZTI13YItemSelector'
-- component: Development
-  create_time: 20191004T13:44:00
-  id: 1153083
-  resolution: ''
-  status: NEW
-  summary: gcc-9 pretty printers absent
-- component: Other
-  create_time: 20191004T12:00:00
-  id: 1153062
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'yomi: booting installed machines reports error about iscsi'
-- component: Basesystem
-  create_time: 20191004T11:46:00
-  id: 1153057
-  resolution: ''
-  status: NEW
-  summary: Regression with latest rpm and `%{?...}' macro expansion
-- component: Kernel
-  create_time: 20191004T07:32:00
-  id: 1153013
-  resolution: ''
-  status: NEW
-  summary: 'WARNING: CPU: 1 PID: 28167 at kernel/cgroup/cgroup.c:3131 cgroup_apply_control_enable+0xe0/0x3f0'
-- component: Kernel
-  create_time: 20191004T01:19:00
-  id: 1152971
-  resolution: ''
-  status: NEW
-  summary: Kernel 5.3 Multi Monitor Does not completely work
-- component: Other
-  create_time: 20191003T20:32:00
-  id: 1152964
-  resolution: ''
-  status: NEW
-  summary: Fetchmail needs an update (from 6.3 to 6.4)
-- component: Kernel
-  create_time: 20191003T13:50:00
-  id: 1152932
-  resolution: ''
-  status: NEW
-  summary: Chinese BT 5.0 USB dongles don't work
-- component: Samba
-  create_time: 20191003T13:20:00
-  id: 1152930
-  resolution: ''
-  status: NEW
-  summary: mount.cifs crashes when attempting to mount invalid directories
-- component: Development
-  create_time: 20191003T09:30:00
-  id: 1152894
-  resolution: ''
-  status: NEW
-  summary: gdb.linespec/cpcompletion.exp timeouts on ppc64
-- component: GNOME
-  create_time: 20191003T08:54:00
-  id: 1152875
-  resolution: FIXED
-  status: RESOLVED
-  summary: typelib-1_0-Gtk-3_0 stopped working after glib update
 - component: Virtualization:Other
   create_time: 20191002T20:30:00
   id: 1152830
@@ -30124,3 +30052,82 @@
   resolution: FIXED
   status: RESOLVED
   summary: Configured network not detected
+'20191003':
+- component: Kernel
+  create_time: 20191005T09:06:00
+  id: 1153134
+  resolution: ''
+  status: NEW
+  summary: Lenovo Ideapad 330S 15ARR needs a boot order change to enable the touchpad.
+- component: Containers
+  create_time: 20191004T17:38:00
+  id: 1153111
+  resolution: ''
+  status: NEW
+  summary: Podman throws segmentation fault when playing Kubernetes YAML file
+- component: YaST2
+  create_time: 20191004T16:23:00
+  id: 1153103
+  resolution: ''
+  status: NEW
+  summary: 'libpy2UI.so.2: undefined symbol: _ZTI13YItemSelector'
+- component: Development
+  create_time: 20191004T13:44:00
+  id: 1153083
+  resolution: ''
+  status: NEW
+  summary: gcc-9 pretty printers absent
+- component: Other
+  create_time: 20191004T12:00:00
+  id: 1153062
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'yomi: booting installed machines reports error about iscsi'
+- component: Basesystem
+  create_time: 20191004T11:46:00
+  id: 1153057
+  resolution: ''
+  status: NEW
+  summary: Regression with latest rpm and `%{?...}' macro expansion
+- component: Kernel
+  create_time: 20191004T07:32:00
+  id: 1153013
+  resolution: ''
+  status: NEW
+  summary: 'WARNING: CPU: 1 PID: 28167 at kernel/cgroup/cgroup.c:3131 cgroup_apply_control_enable+0xe0/0x3f0'
+- component: Kernel
+  create_time: 20191004T01:19:00
+  id: 1152971
+  resolution: ''
+  status: NEW
+  summary: Kernel 5.3 Intel module does not load
+- component: Other
+  create_time: 20191003T20:32:00
+  id: 1152964
+  resolution: ''
+  status: NEW
+  summary: Fetchmail needs an update (from 6.3 to 6.4)
+- component: Kernel
+  create_time: 20191003T13:50:00
+  id: 1152932
+  resolution: ''
+  status: NEW
+  summary: Chinese BT 5.0 USB dongles don't work
+- component: Samba
+  create_time: 20191003T13:20:00
+  id: 1152930
+  resolution: ''
+  status: NEW
+  summary: mount.cifs crashes when attempting to mount invalid directories
+- component: Development
+  create_time: 20191003T09:30:00
+  id: 1152894
+  resolution: ''
+  status: NEW
+  summary: gdb.linespec/cpcompletion.exp timeouts on ppc64
+- component: GNOME
+  create_time: 20191003T08:54:00
+  id: 1152875
+  resolution: FIXED
+  status: RESOLVED
+  summary: typelib-1_0-Gtk-3_0 stopped working after glib update
