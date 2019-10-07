@@ -987,10 +987,13 @@
   stability_level: moderate
 '20190930':
   score: 76
-  stability_level: pending
+  stability_level: moderate
 '20191002':
   score: 71
   stability_level: pending
 '20191003':
-  score: 72
+  score: 73
+  stability_level: pending
+'20191004':
+  score: 76
   stability_level: pending
