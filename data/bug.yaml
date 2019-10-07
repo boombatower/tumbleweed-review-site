@@ -10760,8 +10760,8 @@
 - component: Network
   create_time: 20180721T07:37:00
   id: 1102127
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Enable autoconf for ipv6 by default
 - component: Other
   create_time: 20180721T07:23:00
@@ -18372,14 +18372,14 @@
 - component: Java
   create_time: 20190115T08:43:00
   id: 1121958
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[BuildCycle] java-cup, jflex, qdox'
 - component: Java
   create_time: 20190115T08:41:00
   id: 1121956
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[BuildCycle] hamcrest, jmock'
 - component: Other
   create_time: 20190115T00:04:00
@@ -22605,8 +22605,8 @@
 - component: Basesystem
   create_time: 20190423T15:08:00
   id: 1133135
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: java-1_8_0-openjdk build fails'
 - component: Basesystem
   create_time: 20190423T15:03:00
@@ -28403,8 +28403,8 @@
 - component: Xfce
   create_time: 20190826T10:48:00
   id: 1148128
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: xfce4-power-manager doesn't lock screen on laptop lid close with xlock
 - component: Kernel
   create_time: 20190826T08:03:00
@@ -28623,8 +28623,8 @@
 - component: YaST2
   create_time: 20190829T16:42:00
   id: 1148850
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190828] yast2_http: cannot import namespace "HTTPDData"'
 - component: Other
   create_time: 20190829T14:42:00
@@ -29637,8 +29637,8 @@
 - component: X11 Applications
   create_time: 20190921T22:34:00
   id: 1151540
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Git Cola 3.4 crashes on repo open
 - component: Other
   create_time: 20190921T19:48:00
@@ -29737,8 +29737,8 @@
 - component: Other
   create_time: 20190923T06:56:00
   id: 1151591
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: postgrsql contains still SuSEfirewall2 configuration file and directory
 - component: YaST2
   create_time: 20190923T06:52:00
@@ -30053,54 +30053,6 @@
   status: RESOLVED
   summary: Configured network not detected
 '20191003':
-- component: Kernel
-  create_time: 20191005T09:06:00
-  id: 1153134
-  resolution: ''
-  status: NEW
-  summary: Lenovo Ideapad 330S 15ARR needs a boot order change to enable the touchpad.
-- component: Containers
-  create_time: 20191004T17:38:00
-  id: 1153111
-  resolution: ''
-  status: NEW
-  summary: Podman throws segmentation fault when playing Kubernetes YAML file
-- component: YaST2
-  create_time: 20191004T16:23:00
-  id: 1153103
-  resolution: ''
-  status: NEW
-  summary: 'libpy2UI.so.2: undefined symbol: _ZTI13YItemSelector'
-- component: Development
-  create_time: 20191004T13:44:00
-  id: 1153083
-  resolution: ''
-  status: NEW
-  summary: gcc-9 pretty printers absent
-- component: Other
-  create_time: 20191004T12:00:00
-  id: 1153062
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'yomi: booting installed machines reports error about iscsi'
-- component: Basesystem
-  create_time: 20191004T11:46:00
-  id: 1153057
-  resolution: ''
-  status: NEW
-  summary: Regression with latest rpm and `%{?...}' macro expansion
-- component: Kernel
-  create_time: 20191004T07:32:00
-  id: 1153013
-  resolution: ''
-  status: NEW
-  summary: 'WARNING: CPU: 1 PID: 28167 at kernel/cgroup/cgroup.c:3131 cgroup_apply_control_enable+0xe0/0x3f0'
-- component: Kernel
-  create_time: 20191004T01:19:00
-  id: 1152971
-  resolution: ''
-  status: NEW
-  summary: Kernel 5.3 Intel module does not load
 - component: Other
   create_time: 20191003T20:32:00
   id: 1152964
@@ -30131,3 +30083,150 @@
   resolution: FIXED
   status: RESOLVED
   summary: typelib-1_0-Gtk-3_0 stopped working after glib update
+'20191004':
+- component: Other
+  create_time: 20191007T18:38:00
+  id: 1153259
+  resolution: ''
+  status: NEW
+  summary: slurm-slurmdbd postrans script fails
+- component: Kernel
+  create_time: 20191007T13:45:00
+  id: 1153228
+  resolution: ''
+  status: NEW
+  summary: CONFIG_RT_GROUP_SCHED should be disabled.
+- component: libzypp
+  create_time: 20191007T12:03:00
+  id: 1153211
+  resolution: INVALID
+  status: RESOLVED
+  summary: (clarification) Weird interaction between chroot, libzypp and chroot
+- component: YaST2
+  create_time: 20191007T10:27:00
+  id: 1153200
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191004] Hostname with dot is not displayed in qt version of yast2
+    network module'
+- component: Development
+  create_time: 20191007T10:05:00
+  id: 1153194
+  resolution: ''
+  status: NEW
+  summary: python2-urllib3 import error for "ssl_match_hostname"
+- component: YaST2
+  create_time: 20191007T09:48:00
+  id: 1153188
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191004] Network is handled by Network Manager warning is shown
+    when Overview tab is opened'
+- component: X11 Applications
+  create_time: 20191007T09:29:00
+  id: 1153184
+  resolution: ''
+  status: NEW
+  summary: torbrowser-launcher segfault on start
+- component: AppArmor
+  create_time: 20191007T06:19:00
+  id: 1153162
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20191004] Dovecot seems not able to handle /usr/etc move'
+- component: Basesystem
+  create_time: 20191007T06:13:00
+  id: 1153160
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191004] pvmove timed out: failed to connect to lvmpolid'
+- component: Basesystem
+  create_time: 20191007T06:12:00
+  id: 1153159
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191004] systemd-networkd: network degraded'
+- component: KDE Applications
+  create_time: 20191007T00:21:00
+  id: 1153156
+  resolution: ''
+  status: NEW
+  summary: Ktouch - Runtime error - file was compiled ahead of time
+- component: Kernel
+  create_time: 20191006T20:22:00
+  id: 1153155
+  resolution: ''
+  status: NEW
+  summary: 'kernel: WARNING: CPU: 1 PID: 34 at fs/ext4/inode.c:3941 ext4_set_page_dirty+0x3e/0x50'
+- component: Kernel
+  create_time: 20191006T17:44:00
+  id: 1153152
+  resolution: ''
+  status: NEW
+  summary: Dock DisplayLink DL3700-ESS works intermittently
+- component: Basesystem
+  create_time: 20191006T14:44:00
+  id: 1153149
+  resolution: ''
+  status: NEW
+  summary: ldconfig stack smash / produces garbage symlinks
+- component: KDE Applications
+  create_time: 20191006T12:55:00
+  id: 1153147
+  resolution: ''
+  status: NEW
+  summary: changing kmail local folder directory fails
+- component: GNOME
+  create_time: 20191006T08:02:00
+  id: 1153143
+  resolution: ''
+  status: NEW
+  summary: gnome-control-center crashes
+- component: Kernel
+  create_time: 20191005T09:06:00
+  id: 1153134
+  resolution: ''
+  status: NEW
+  summary: Lenovo Ideapad 330S 15ARR needs a boot order change to enable the touchpad.
+- component: Containers
+  create_time: 20191004T17:38:00
+  id: 1153111
+  resolution: ''
+  status: NEW
+  summary: Podman throws segmentation fault when playing Kubernetes YAML file
+- component: YaST2
+  create_time: 20191004T16:23:00
+  id: 1153103
+  resolution: ''
+  status: NEW
+  summary: 'libpy2UI.so.2: undefined symbol: _ZTI13YItemSelector'
+- component: Development
+  create_time: 20191004T13:44:00
+  id: 1153083
+  resolution: INVALID
+  status: RESOLVED
+  summary: gcc-9 pretty printers absent
+- component: Other
+  create_time: 20191004T12:00:00
+  id: 1153062
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'yomi: booting installed machines reports error about iscsi'
+- component: Basesystem
+  create_time: 20191004T11:46:00
+  id: 1153057
+  resolution: ''
+  status: NEW
+  summary: Regression with latest rpm and `%{?...}' macro expansion
+- component: Kernel
+  create_time: 20191004T07:32:00
+  id: 1153013
+  resolution: ''
+  status: NEW
+  summary: 'WARNING: CPU: 1 PID: 28167 at kernel/cgroup/cgroup.c:3131 cgroup_apply_control_enable+0xe0/0x3f0'
+- component: Kernel
+  create_time: 20191004T01:19:00
+  id: 1152971
+  resolution: ''
+  status: NEW
+  summary: Kernel 5.3 Intel module does not load
