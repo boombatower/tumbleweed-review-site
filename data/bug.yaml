@@ -18683,8 +18683,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20190128T14:50:00
   id: 1123368
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: KDE openGL crash at startup, but after login-logout it will work fine until
     the next reboot.
 - component: YaST2
@@ -19264,8 +19264,8 @@
 - component: YaST2
   create_time: 20190212T06:04:00
   id: 1125076
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-configuration-management fails to build in staging:D
 - component: libzypp
   create_time: 20190211T21:16:00
@@ -27076,8 +27076,8 @@
 - component: Basesystem
   create_time: 20190802T15:07:00
   id: 1144053
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please add "pam_keyinit.so" to the /etc/pam.d/polkit-1 configuration file
 - component: Basesystem
   create_time: 20190802T15:05:00
@@ -27767,8 +27767,8 @@
 - component: Basesystem
   create_time: 20190814T07:46:00
   id: 1145561
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'systemd-tty-ask-password-agent: laptop once in a while "hangs" after entering
     wrong password for disk encryption'
 - component: Basesystem
@@ -28549,8 +28549,8 @@
 - component: Basesystem
   create_time: 20190901T08:03:00
   id: 1149066
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: INVALID
+  status: RESOLVED
   summary: daemon-reload does not always reload generated services
 - component: Other
   create_time: 20190831T04:55:00
@@ -29887,8 +29887,8 @@
 - component: Java
   create_time: 20190927T10:59:00
   id: 1152279
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: java-*-javadoc installation fails with excludedocs=true
 - component: Cloud:Tools
   create_time: 20190927T09:33:00
@@ -29999,8 +29999,8 @@
 - component: Basesystem
   create_time: 20191002T14:14:00
   id: 1152793
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[python3] There is no stropts.h available with glibc 2.30 but pyconfig.h
     defines it!'
 - component: Virtualization:Tools
@@ -30084,74 +30084,6 @@
   status: RESOLVED
   summary: typelib-1_0-Gtk-3_0 stopped working after glib update
 '20191004':
-- component: Other
-  create_time: 20191007T18:38:00
-  id: 1153259
-  resolution: ''
-  status: NEW
-  summary: slurm-slurmdbd postrans script fails
-- component: Kernel
-  create_time: 20191007T13:45:00
-  id: 1153228
-  resolution: ''
-  status: NEW
-  summary: CONFIG_RT_GROUP_SCHED should be disabled.
-- component: libzypp
-  create_time: 20191007T12:03:00
-  id: 1153211
-  resolution: INVALID
-  status: RESOLVED
-  summary: (clarification) Weird interaction between chroot, libzypp and chroot
-- component: YaST2
-  create_time: 20191007T10:27:00
-  id: 1153200
-  resolution: ''
-  status: NEW
-  summary: '[Build 20191004] Hostname with dot is not displayed in qt version of yast2
-    network module'
-- component: Development
-  create_time: 20191007T10:05:00
-  id: 1153194
-  resolution: ''
-  status: NEW
-  summary: python2-urllib3 import error for "ssl_match_hostname"
-- component: YaST2
-  create_time: 20191007T09:48:00
-  id: 1153188
-  resolution: ''
-  status: NEW
-  summary: '[Build 20191004] Network is handled by Network Manager warning is shown
-    when Overview tab is opened'
-- component: X11 Applications
-  create_time: 20191007T09:29:00
-  id: 1153184
-  resolution: ''
-  status: NEW
-  summary: torbrowser-launcher segfault on start
-- component: AppArmor
-  create_time: 20191007T06:19:00
-  id: 1153162
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20191004] Dovecot seems not able to handle /usr/etc move'
-- component: Basesystem
-  create_time: 20191007T06:13:00
-  id: 1153160
-  resolution: ''
-  status: NEW
-  summary: '[Build 20191004] pvmove timed out: failed to connect to lvmpolid'
-- component: Basesystem
-  create_time: 20191007T06:12:00
-  id: 1153159
-  resolution: ''
-  status: NEW
-  summary: '[Build 20191004] systemd-networkd: network degraded'
-- component: KDE Applications
-  create_time: 20191007T00:21:00
-  id: 1153156
-  resolution: ''
-  status: NEW
-  summary: Ktouch - Runtime error - file was compiled ahead of time
 - component: Kernel
   create_time: 20191006T20:22:00
   id: 1153155
@@ -30198,7 +30130,7 @@
   create_time: 20191004T16:23:00
   id: 1153103
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'libpy2UI.so.2: undefined symbol: _ZTI13YItemSelector'
 - component: Development
   create_time: 20191004T13:44:00
@@ -30230,3 +30162,109 @@
   resolution: ''
   status: NEW
   summary: Kernel 5.3 Intel module does not load
+'20191007':
+- component: YaST2
+  create_time: 20191009T13:57:00
+  id: 1153460
+  resolution: ''
+  status: NEW
+  summary: 'Network-ng: Bridge/Bond/VLAN is not updated when its slave is deleted
+    or renamed'
+- component: X.Org
+  create_time: 20191009T13:29:00
+  id: 1153455
+  resolution: FIXED
+  status: RESOLVED
+  summary: SDL2 doesn't build on i586 with latest libglvnd/Mesa changes
+- component: Basesystem
+  create_time: 20191008T17:28:00
+  id: 1153351
+  resolution: ''
+  status: NEW
+  summary: '''zypper lu'' does not list all available package updates'
+- component: Basesystem
+  create_time: 20191008T07:44:00
+  id: 1153280
+  resolution: ''
+  status: NEW
+  summary: fillup breaks on some multiline variables
+- component: Xfce
+  create_time: 20191008T02:22:00
+  id: 1153273
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST control center is not in any menu category
+- component: X11 Applications
+  create_time: 20191008T02:11:00
+  id: 1153272
+  resolution: ''
+  status: NEW
+  summary: Replace galculator
+- component: Other
+  create_time: 20191007T18:38:00
+  id: 1153259
+  resolution: ''
+  status: NEW
+  summary: slurm-slurmdbd postrans script fails
+- component: Kernel
+  create_time: 20191007T13:45:00
+  id: 1153228
+  resolution: ''
+  status: NEW
+  summary: CONFIG_RT_GROUP_SCHED should be disabled.
+- component: libzypp
+  create_time: 20191007T12:03:00
+  id: 1153211
+  resolution: INVALID
+  status: RESOLVED
+  summary: (clarification) Weird interaction between chroot, libzypp and chroot
+- component: YaST2
+  create_time: 20191007T10:27:00
+  id: 1153200
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build 20191004] Hostname with dot is not displayed in qt version of yast2
+    network module'
+- component: Development
+  create_time: 20191007T10:05:00
+  id: 1153194
+  resolution: ''
+  status: NEW
+  summary: python2-urllib3 import error for "ssl_match_hostname"
+- component: YaST2
+  create_time: 20191007T09:48:00
+  id: 1153188
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191004] Network is handled by Network Manager warning is shown
+    when Overview tab is opened'
+- component: X11 Applications
+  create_time: 20191007T09:29:00
+  id: 1153184
+  resolution: ''
+  status: NEW
+  summary: torbrowser-launcher segfault on start
+- component: AppArmor
+  create_time: 20191007T06:19:00
+  id: 1153162
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20191004] Dovecot seems not able to handle /usr/etc move'
+- component: Basesystem
+  create_time: 20191007T06:13:00
+  id: 1153160
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191004] pvmove timed out: failed to connect to lvmpolid'
+- component: Basesystem
+  create_time: 20191007T06:12:00
+  id: 1153159
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191004] systemd-networkd: network degraded'
+- component: KDE Applications
+  create_time: 20191007T00:21:00
+  id: 1153156
+  resolution: ''
+  status: NEW
+  summary: Ktouch - Runtime error - file was compiled ahead of time
