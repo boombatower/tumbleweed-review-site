@@ -29896,12 +29896,6 @@
   resolution: FIXED
   status: RESOLVED
   summary: groff dependency missing for aws-cli help
-- component: Basesystem
-  create_time: 20190927T08:51:00
-  id: 1152247
-  resolution: ''
-  status: NEW
-  summary: 'macros.perl: %perl_gen_filelist cannot handle paths with plus sign'
 '20190930':
 - component: Containers
   create_time: 20191001T18:08:00
@@ -30176,7 +30170,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: SDL2 doesn't build on i586 with latest libglvnd/Mesa changes
-- component: Basesystem
+- component: libzypp
   create_time: 20191008T17:28:00
   id: 1153351
   resolution: ''
