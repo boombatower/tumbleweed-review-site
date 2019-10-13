@@ -16230,8 +16230,8 @@
 - component: YaST2
   create_time: 20181124T11:44:00
   id: 1117208
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Yast2-country Keyboard Settings are Erroneous
 - component: Other
   create_time: 20181123T09:33:00
@@ -23722,8 +23722,8 @@
 - component: Basesystem
   create_time: 20190519T13:23:00
   id: 1135558
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'Base:System/glibc: Bug'
 - component: Other
   create_time: 20190519T13:14:00
@@ -25209,8 +25209,8 @@
 - component: Bootloader
   create_time: 20190625T15:41:00
   id: 1139351
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'rPi grub: USB keyboard does not work'
 - component: Kernel
   create_time: 20190625T15:23:00
@@ -26439,12 +26439,6 @@
   resolution: ''
   status: NEW
   summary: sqlite3 fails in %check assertion on armv7/armv6
-- component: Basesystem
-  create_time: 20190718T10:06:00
-  id: 1142000
-  resolution: ''
-  status: NEW
-  summary: openssh-askpass-gnome bloats server installation
 - component: Kernel
   create_time: 20190718T09:58:00
   id: 1141998
@@ -26894,7 +26888,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: cinnamon-settings does not open due to tinycss requirement
-- component: KDE Applications
+- component: LibreOffice
   create_time: 20190728T01:27:00
   id: 1143129
   resolution: ''
@@ -27761,8 +27755,8 @@
 - component: Kernel
   create_time: 20190814T10:55:00
   id: 1145601
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: KMPs are lagging behind the current kernel
 - component: Basesystem
   create_time: 20190814T07:46:00
@@ -28503,8 +28497,8 @@
 - component: Installation
   create_time: 20190828T09:12:00
   id: 1148500
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'lvm2 2.02.180-327: vgs hangs with "device XXX not intialized in udev data
     base"'
 - component: AutoYaST
@@ -28616,8 +28610,8 @@
 - component: Security
   create_time: 20190830T07:11:00
   id: 1148925
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'VUL-0: CVE-2019-15718: systemd: Missing access controls on systemd-resolved''s
     D-Bus interface'
 - component: YaST2
@@ -28929,8 +28923,8 @@
 - component: Kernel
   create_time: 20190905T13:41:00
   id: 1149616
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: System crashes frequently since Kernel 5.2
 - component: Containers
   create_time: 20190905T13:25:00
@@ -29809,7 +29803,7 @@
   resolution: ''
   status: NEW
   summary: kube-flannel-ds-arm64
-- component: Kernel
+- component: YaST2
   create_time: 20190926T18:15:00
   id: 1152184
   resolution: ''
@@ -29906,8 +29900,8 @@
 - component: Other
   create_time: 20191001T14:36:00
   id: 1152698
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'science/occt: update to 7.4'
 - component: Security
   create_time: 20191001T11:59:00
@@ -29920,7 +29914,7 @@
   id: 1152671
   resolution: ''
   status: NEW
-  summary: Tensorflow fails to build on latest aarch64 Tumbleweed
+  summary: Tensorflow fails to build on latest Tumbleweed
 - component: Basesystem
   create_time: 20191001T09:35:00
   id: 1152630
@@ -29970,13 +29964,19 @@
   id: 1152543
   resolution: ''
   status: CONFIRMED
-  summary: no working X/FB console with Nvidia RTX cards
+  summary: Geforce RTX 2070 Super[10de:1e84] broken KMS
 - component: Development
   create_time: 20190930T12:01:00
   id: 1152509
   resolution: ''
   status: NEW
   summary: gdb.base/gdb-rhbz1156192-recursive-dlopen.exp FAILs
+- component: Basesystem
+  create_time: 20190930T11:53:00
+  id: 1152507
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'VUL-0: CVE-2019-16928: exim: remotely triggerable buffer overflow in string_vformat()'
 - component: Development
   create_time: 20190930T07:48:00
   id: 1152451
@@ -30157,24 +30157,11 @@
   status: NEW
   summary: Kernel 5.3 Intel module does not load
 '20191007':
-- component: YaST2
-  create_time: 20191009T13:57:00
-  id: 1153460
-  resolution: ''
-  status: NEW
-  summary: 'Network-ng: Bridge/Bond/VLAN is not updated when its slave is deleted
-    or renamed'
-- component: X.Org
-  create_time: 20191009T13:29:00
-  id: 1153455
-  resolution: FIXED
-  status: RESOLVED
-  summary: SDL2 doesn't build on i586 with latest libglvnd/Mesa changes
 - component: libzypp
   create_time: 20191008T17:28:00
   id: 1153351
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '''zypper lu'' does not list all available package updates'
 - component: Basesystem
   create_time: 20191008T07:44:00
@@ -30228,8 +30215,8 @@
 - component: YaST2
   create_time: 20191007T09:48:00
   id: 1153188
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: '[Build 20191004] Network is handled by Network Manager warning is shown
     when Overview tab is opened'
 - component: X11 Applications
@@ -30262,3 +30249,153 @@
   resolution: ''
   status: NEW
   summary: Ktouch - Runtime error - file was compiled ahead of time
+'20191009':
+- component: Other
+  create_time: 20191010T14:17:00
+  id: 1153603
+  resolution: ''
+  status: NEW
+  summary: clamav fails in openQA because 'systemct start clamd' timeout
+- component: Basesystem
+  create_time: 20191010T11:08:00
+  id: 1153573
+  resolution: ''
+  status: NEW
+  summary: libffi7 update breaks python3
+- component: YaST2
+  create_time: 20191010T10:45:00
+  id: 1153568
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191009] openQA test fails in yast2_nfs_client'
+- component: KDE Workspace (Plasma)
+  create_time: 20191010T09:29:00
+  id: 1153562
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191009] amarok on wayland: inconsistent output'
+- component: Installation
+  create_time: 20191010T09:13:00
+  id: 1153557
+  resolution: ''
+  status: NEW
+  summary: Net installation fails in openQA because no base products found to install
+- component: Other
+  create_time: 20191010T07:38:00
+  id: 1153531
+  resolution: ''
+  status: NEW
+  summary: Images build in OBS with kiwi sometimes hang
+- component: Ruby
+  create_time: 20191010T06:10:00
+  id: 1153514
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191009] openQA test fails in rails'
+- component: YaST2
+  create_time: 20191009T13:57:00
+  id: 1153460
+  resolution: ''
+  status: NEW
+  summary: 'Network-ng: Bridge/Bond/VLAN is not updated when its slave is deleted
+    or renamed'
+- component: X.Org
+  create_time: 20191009T13:29:00
+  id: 1153455
+  resolution: FIXED
+  status: RESOLVED
+  summary: SDL2 doesn't build on i586 with latest libglvnd/Mesa changes
+'20191011':
+- component: Basesystem
+  create_time: 20191013T01:37:00
+  id: 1153839
+  resolution: ''
+  status: NEW
+  summary: csh / tcsh is broken in Tumbleweed 20191011
+- component: GNOME
+  create_time: 20191012T21:07:00
+  id: 1153837
+  resolution: ''
+  status: NEW
+  summary: gobject-introspection has to require a specific Python ABI version
+- component: Kernel
+  create_time: 20191012T18:10:00
+  id: 1153835
+  resolution: ''
+  status: NEW
+  summary: '[20190925] Tumbleweed Installer hangs on Newport GW6304 (USB)'
+- component: Other
+  create_time: 20191012T15:31:00
+  id: 1153829
+  resolution: ''
+  status: NEW
+  summary: Missing gstreamer RPM?
+- component: Other
+  create_time: 20191011T17:10:00
+  id: 1153790
+  resolution: ''
+  status: NEW
+  summary: systemctl kexec fails
+- component: KDE Workspace (Plasma)
+  create_time: 20191011T17:07:00
+  id: 1153789
+  resolution: ''
+  status: NEW
+  summary: After activating mouse gestures the selected button to activate a gesture
+    does not respond
+- component: YaST2
+  create_time: 20191011T15:07:00
+  id: 1153771
+  resolution: ''
+  status: NEW
+  summary: reboot in remote installation throws segmentation fault
+- component: YaST2
+  create_time: 20191011T14:23:00
+  id: 1153758
+  resolution: ''
+  status: NEW
+  summary: yast2_rmt fails in openQA because rmt-server.service fails
+- component: Other
+  create_time: 20191011T11:08:00
+  id: 1153722
+  resolution: ''
+  status: NEW
+  summary: lighttpd build faild after update postgesql to 11
+- component: YaST2
+  create_time: 20191011T09:55:00
+  id: 1153706
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191010] openQA test fails in yast2_i'
+- component: Kubic
+  create_time: 20191011T08:09:00
+  id: 1153687
+  resolution: ''
+  status: REOPENED
+  summary: Zypper repo name detection broken
+- component: Kernel
+  create_time: 20191011T08:05:00
+  id: 1153686
+  resolution: ''
+  status: NEW
+  summary: After Upgrading openSUSE Tumbleweed  20190925-0 -> 20191003-0 VGA doesn't
+    work anymore
+- component: YaST2
+  create_time: 20191011T07:01:00
+  id: 1153673
+  resolution: ''
+  status: REOPENED
+  summary: '[Ruby] yast/wfm.rb:281 Internal error. Please report a bug report with
+    logs.'
+- component: High Availability
+  create_time: 20191011T05:48:00
+  id: 1153655
+  resolution: INVALID
+  status: RESOLVED
+  summary: Kronosnet upgrade to 1.12
+- component: Basesystem
+  create_time: 20191011T01:49:00
+  id: 1153648
+  resolution: FIXED
+  status: RESOLVED
+  summary: '61-persistent-storage-compat.rules: invalid substitution type'
