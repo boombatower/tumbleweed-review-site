@@ -13547,8 +13547,8 @@
 - component: Other
   create_time: 20181013T03:57:00
   id: 1111733
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/lighttpd'
 - component: Other
   create_time: 20181013T03:56:00
@@ -30306,6 +30306,12 @@
   status: RESOLVED
   summary: SDL2 doesn't build on i586 with latest libglvnd/Mesa changes
 '20191011':
+- component: Bootloader
+  create_time: 20191013T16:24:00
+  id: 1153847
+  resolution: ''
+  status: NEW
+  summary: Unable to boot with SecureBoot enabled in BIOS
 - component: Basesystem
   create_time: 20191013T01:37:00
   id: 1153839
@@ -30358,8 +30364,8 @@
 - component: Other
   create_time: 20191011T11:08:00
   id: 1153722
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: lighttpd build faild after update postgesql to 11
 - component: YaST2
   create_time: 20191011T09:55:00
