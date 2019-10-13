@@ -2516,6 +2516,10 @@
   threads: []
 '20191011':
   announcement: 2019-10.82
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-10.83
+    reference_count: 1
+    summary: '[Bug] tcsh startup failure'
