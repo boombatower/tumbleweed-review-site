@@ -30376,8 +30376,8 @@
 - component: Kernel
   create_time: 20191011T08:05:00
   id: 1153686
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: After Upgrading openSUSE Tumbleweed  20190925-0 -> 20191003-0 VGA doesn't
     work anymore
 - component: YaST2
