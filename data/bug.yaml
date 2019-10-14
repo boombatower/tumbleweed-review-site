@@ -30306,6 +30306,21 @@
   status: RESOLVED
   summary: SDL2 doesn't build on i586 with latest libglvnd/Mesa changes
 '20191011':
+- component: Other
+  create_time: 20191013T23:10:00
+  id: 1153854
+  resolution: ''
+  status: NEW
+  summary: '[installation,update,upgrade] routinely delayed because package management
+    reports "broken" packages that are lacking apparent lost functionality while "required"
+    fonts are unavailable'
+- component: Basesystem
+  create_time: 20191013T22:34:00
+  id: 1153853
+  resolution: ''
+  status: NEW
+  summary: 'dracut %post: sed: can''t read /etc/dracut.conf.d/05-convertfs.conf: No
+    such file or directory'
 - component: Bootloader
   create_time: 20191013T16:24:00
   id: 1153847
