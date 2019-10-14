@@ -13639,8 +13639,8 @@
 - component: Development
   create_time: 20181017T15:55:00
   id: 1112230
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: git instaweb provides empty web
 - component: Java
   create_time: 20181017T14:13:00
@@ -20874,8 +20874,8 @@
 - component: Other
   create_time: 20190314T13:07:00
   id: 1129246
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: YaST2 doesn't start tftp service properly
 - component: Printing
   create_time: 20190314T11:48:00
@@ -24063,8 +24063,8 @@
 - component: Other
   create_time: 20190524T08:31:00
   id: 1136184
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python-botocore needs to support urllib 1.25 for CVE-2019-9947
 - component: YaST2
   create_time: 20190524T01:09:00
@@ -24127,8 +24127,8 @@
 - component: YaST2
   create_time: 20190528T13:45:00
   id: 1136601
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Installed grub (grubaa64.efi) is not signed - Yast-bootloader does not
     support SecureBoot on aarch64
 - component: Basesystem
@@ -25479,8 +25479,8 @@
 - component: Development
   create_time: 20190701T08:13:00
   id: 1139858
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: gcc9 encounters internal compiler error in convert_move with libqt5-qtwebengine
     5.13.0 for armv6/7
 - component: Other
@@ -26891,8 +26891,8 @@
 - component: LibreOffice
   create_time: 20190728T01:27:00
   id: 1143129
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Qt breaks libreoffice calc Alt+Drag
 - component: Other
   create_time: 20190727T14:46:00
@@ -28234,8 +28234,8 @@
 - component: Other
   create_time: 20190827T16:50:00
   id: 1148406
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Qt4 removal - mumble
 - component: Other
   create_time: 20190827T16:30:00
@@ -28258,8 +28258,8 @@
 - component: KDE Applications
   create_time: 20190827T16:10:00
   id: 1148397
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Meta bug: Qt4 removal'
 - component: Development
   create_time: 20190827T13:44:00
@@ -29300,8 +29300,8 @@
 - component: Basesystem
   create_time: 20190911T18:41:00
   id: 1150408
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[RPi] Raspberry Pi firmware disappearing after raspberrypi-firmware package
     update'
 - component: YaST2
@@ -29644,8 +29644,8 @@
 - component: Kernel
   create_time: 20190924T14:53:00
   id: 1151885
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'jetson TX2:  EFI runtime services are not available'
 - component: KDE Workspace (Plasma)
   create_time: 20190924T14:50:00
@@ -30093,8 +30093,8 @@
 - component: Basesystem
   create_time: 20191006T14:44:00
   id: 1153149
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: ldconfig stack smash / produces garbage symlinks
 - component: KDE Applications
   create_time: 20191006T12:55:00
@@ -30274,7 +30274,7 @@
   resolution: ''
   status: NEW
   summary: '[Build 20191009] amarok on wayland: inconsistent output'
-- component: Installation
+- component: libzypp
   create_time: 20191010T09:13:00
   id: 1153557
   resolution: ''
@@ -30306,6 +30306,100 @@
   status: RESOLVED
   summary: SDL2 doesn't build on i586 with latest libglvnd/Mesa changes
 '20191011':
+- component: Other
+  create_time: 20191011T17:10:00
+  id: 1153790
+  resolution: ''
+  status: NEW
+  summary: systemctl kexec fails
+- component: KDE Workspace (Plasma)
+  create_time: 20191011T17:07:00
+  id: 1153789
+  resolution: ''
+  status: NEW
+  summary: After activating mouse gestures the selected button to activate a gesture
+    does not respond
+- component: YaST2
+  create_time: 20191011T15:07:00
+  id: 1153771
+  resolution: ''
+  status: NEW
+  summary: reboot in remote installation throws segmentation fault
+- component: Ruby
+  create_time: 20191011T14:23:00
+  id: 1153758
+  resolution: ''
+  status: NEW
+  summary: yast2_rmt fails in openQA because rmt-server.service fails
+- component: Other
+  create_time: 20191011T11:08:00
+  id: 1153722
+  resolution: FIXED
+  status: RESOLVED
+  summary: lighttpd build faild after update postgesql to 11
+- component: YaST2
+  create_time: 20191011T09:55:00
+  id: 1153706
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20191010] openQA test fails in yast2_i'
+- component: Kubic
+  create_time: 20191011T08:09:00
+  id: 1153687
+  resolution: ''
+  status: REOPENED
+  summary: Zypper repo name detection broken
+- component: Kernel
+  create_time: 20191011T08:05:00
+  id: 1153686
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: After Upgrading openSUSE Tumbleweed  20190925-0 -> 20191003-0 VGA doesn't
+    work anymore
+- component: YaST2
+  create_time: 20191011T07:01:00
+  id: 1153673
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Ruby] yast/wfm.rb:281 Internal error. Please report a bug report with
+    logs.'
+- component: High Availability
+  create_time: 20191011T05:48:00
+  id: 1153655
+  resolution: INVALID
+  status: RESOLVED
+  summary: Kronosnet upgrade to 1.12
+- component: Basesystem
+  create_time: 20191011T01:49:00
+  id: 1153648
+  resolution: FIXED
+  status: RESOLVED
+  summary: '61-persistent-storage-compat.rules: invalid substitution type'
+'20191012':
+- component: Development
+  create_time: 20191014T16:48:00
+  id: 1153950
+  resolution: ''
+  status: NEW
+  summary: Don't package glslang tools in devel package
+- component: Basesystem
+  create_time: 20191014T15:55:00
+  id: 1153946
+  resolution: ''
+  status: NEW
+  summary: 's390: set TERM to dumb on dumb terminal'
+- component: Basesystem
+  create_time: 20191014T15:41:00
+  id: 1153943
+  resolution: ''
+  status: NEW
+  summary: aaa_base add color per default to "ip" like for "grep" and others
+- component: Kernel
+  create_time: 20191014T12:34:00
+  id: 1153919
+  resolution: ''
+  status: NEW
+  summary: System lockup (in steps), maybe btrfs related
 - component: Kernel
   create_time: 20191014T09:40:00
   id: 1153891
@@ -30318,13 +30412,6 @@
   resolution: ''
   status: NEW
   summary: Upgrade to Tumbleweed:20191011 leaves grub boot screen with only Tumbleweed
-- component: Security
-  create_time: 20191014T08:57:00
-  id: 1153885
-  resolution: ''
-  status: NEW
-  summary: Build failure "polkit-unauthorized-rules" due to the split of networkd
-    in a dedicated sub package
 - component: YaST2
   create_time: 20191014T07:25:00
   id: 1153871
@@ -30382,72 +30469,3 @@
   resolution: INVALID
   status: RESOLVED
   summary: Missing gstreamer RPM?
-- component: Other
-  create_time: 20191011T17:10:00
-  id: 1153790
-  resolution: ''
-  status: NEW
-  summary: systemctl kexec fails
-- component: KDE Workspace (Plasma)
-  create_time: 20191011T17:07:00
-  id: 1153789
-  resolution: ''
-  status: NEW
-  summary: After activating mouse gestures the selected button to activate a gesture
-    does not respond
-- component: YaST2
-  create_time: 20191011T15:07:00
-  id: 1153771
-  resolution: ''
-  status: NEW
-  summary: reboot in remote installation throws segmentation fault
-- component: Ruby
-  create_time: 20191011T14:23:00
-  id: 1153758
-  resolution: ''
-  status: NEW
-  summary: yast2_rmt fails in openQA because rmt-server.service fails
-- component: Other
-  create_time: 20191011T11:08:00
-  id: 1153722
-  resolution: FIXED
-  status: RESOLVED
-  summary: lighttpd build faild after update postgesql to 11
-- component: YaST2
-  create_time: 20191011T09:55:00
-  id: 1153706
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: '[Build 20191010] openQA test fails in yast2_i'
-- component: Kubic
-  create_time: 20191011T08:09:00
-  id: 1153687
-  resolution: ''
-  status: REOPENED
-  summary: Zypper repo name detection broken
-- component: Kernel
-  create_time: 20191011T08:05:00
-  id: 1153686
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: After Upgrading openSUSE Tumbleweed  20190925-0 -> 20191003-0 VGA doesn't
-    work anymore
-- component: YaST2
-  create_time: 20191011T07:01:00
-  id: 1153673
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[Ruby] yast/wfm.rb:281 Internal error. Please report a bug report with
-    logs.'
-- component: High Availability
-  create_time: 20191011T05:48:00
-  id: 1153655
-  resolution: INVALID
-  status: RESOLVED
-  summary: Kronosnet upgrade to 1.12
-- component: Basesystem
-  create_time: 20191011T01:49:00
-  id: 1153648
-  resolution: FIXED
-  status: RESOLVED
-  summary: '61-persistent-storage-compat.rules: invalid substitution type'
