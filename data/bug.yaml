@@ -7797,8 +7797,8 @@
 - component: Basesystem
   create_time: 20180509T14:56:00
   id: 1092590
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Tumbleweed-ARM-JeOS-efi.armv7l-2018.05.17: Hangs at pre-mount hook'
 - component: Development
   create_time: 20180509T11:38:00
@@ -9830,8 +9830,8 @@
 - component: Basesystem
   create_time: 20180627T14:42:00
   id: 1099329
-  resolution: DUPLICATE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: lvm setup on softraid fails to boot without lvmetad in initrd
 - component: Kernel
   create_time: 20180627T12:53:00
@@ -30259,8 +30259,8 @@
 - component: Basesystem
   create_time: 20191010T11:08:00
   id: 1153573
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: libffi7 update breaks python3
 - component: YaST2
   create_time: 20191010T10:45:00
@@ -30306,11 +30306,42 @@
   status: RESOLVED
   summary: SDL2 doesn't build on i586 with latest libglvnd/Mesa changes
 '20191011':
-- component: Other
-  create_time: 20191013T23:10:00
-  id: 1153854
+- component: Kernel
+  create_time: 20191014T09:40:00
+  id: 1153891
   resolution: ''
   status: NEW
+  summary: md raid0 fails to mount due to default_layout (wrong message)
+- component: Basesystem
+  create_time: 20191014T09:01:00
+  id: 1153886
+  resolution: ''
+  status: NEW
+  summary: Upgrade to Tumbleweed:20191011 leaves grub boot screen with only Tumbleweed
+- component: Security
+  create_time: 20191014T08:57:00
+  id: 1153885
+  resolution: ''
+  status: NEW
+  summary: Build failure "polkit-unauthorized-rules" due to the split of networkd
+    in a dedicated sub package
+- component: YaST2
+  create_time: 20191014T07:25:00
+  id: 1153871
+  resolution: FIXED
+  status: RESOLVED
+  summary: improve resizing of LUKS2
+- component: GNOME
+  create_time: 20191014T07:15:00
+  id: 1153870
+  resolution: ''
+  status: NEW
+  summary: kayboard not wokring login but Linux see it
+- component: libzypp
+  create_time: 20191013T23:10:00
+  id: 1153854
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[installation,update,upgrade] routinely delayed because package management
     reports "broken" packages that are lacking apparent lost functionality while "required"
     fonts are unavailable'
@@ -30331,13 +30362,13 @@
   create_time: 20191013T01:37:00
   id: 1153839
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: csh / tcsh is broken in Tumbleweed 20191011
 - component: GNOME
   create_time: 20191012T21:07:00
   id: 1153837
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: gobject-introspection has to require a specific Python ABI version
 - component: Kernel
   create_time: 20191012T18:10:00
@@ -30370,7 +30401,7 @@
   resolution: ''
   status: NEW
   summary: reboot in remote installation throws segmentation fault
-- component: YaST2
+- component: Ruby
   create_time: 20191011T14:23:00
   id: 1153758
   resolution: ''
@@ -30385,8 +30416,8 @@
 - component: YaST2
   create_time: 20191011T09:55:00
   id: 1153706
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[Build 20191010] openQA test fails in yast2_i'
 - component: Kubic
   create_time: 20191011T08:09:00
@@ -30405,7 +30436,7 @@
   create_time: 20191011T07:01:00
   id: 1153673
   resolution: ''
-  status: REOPENED
+  status: IN_PROGRESS
   summary: '[Ruby] yast/wfm.rb:281 Internal error. Please report a bug report with
     logs.'
 - component: High Availability
