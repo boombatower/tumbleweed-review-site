@@ -1004,5 +1004,8 @@
   score: 90
   stability_level: pending
 '20191011':
-  score: 91
+  score: 92
+  stability_level: pending
+'20191012':
+  score: 95
   stability_level: pending
