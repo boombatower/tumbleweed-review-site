@@ -9329,8 +9329,8 @@
 - component: Basesystem
   create_time: 20180613T10:38:00
   id: 1097425
-  resolution: ''
-  status: CONFIRMED
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Fails to create LVM volume if lvm+RAID1
 - component: Other
   create_time: 20180613T09:04:00
@@ -9830,8 +9830,8 @@
 - component: Basesystem
   create_time: 20180627T14:42:00
   id: 1099329
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: lvm setup on softraid fails to boot without lvmetad in initrd
 - component: Kernel
   create_time: 20180627T12:53:00
@@ -30348,8 +30348,8 @@
 - component: Other
   create_time: 20191012T15:31:00
   id: 1153829
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Missing gstreamer RPM?
 - component: Other
   create_time: 20191011T17:10:00
