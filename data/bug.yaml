@@ -30359,8 +30359,8 @@
 - component: YaST2
   create_time: 20191011T07:01:00
   id: 1153673
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Ruby] yast/wfm.rb:281 Internal error. Please report a bug report with
     logs.'
 - component: High Availability
@@ -30376,11 +30376,29 @@
   status: RESOLVED
   summary: '61-persistent-storage-compat.rules: invalid substitution type'
 '20191012':
+- component: KDE Workspace (Plasma)
+  create_time: 20191015T18:48:00
+  id: 1154114
+  resolution: INVALID
+  status: RESOLVED
+  summary: Package plasma-sdk
+- component: KDE Workspace (Plasma)
+  create_time: 20191015T18:44:00
+  id: 1154113
+  resolution: ''
+  status: REOPENED
+  summary: Ship Discover instead of plasma-pk-updates
+- component: Other
+  create_time: 20191015T18:38:00
+  id: 1154112
+  resolution: ''
+  status: NEW
+  summary: Package Telegram with native notifications turned on
 - component: Firefox
   create_time: 20191015T18:07:00
   id: 1154111
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Firefox and Thunderbird must be launched or restarted *after* a network
     connection is established or else they will be unable to connect to the internet
 - component: Basesystem
