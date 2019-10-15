@@ -30376,6 +30376,19 @@
   status: RESOLVED
   summary: '61-persistent-storage-compat.rules: invalid substitution type'
 '20191012':
+- component: Firefox
+  create_time: 20191015T18:07:00
+  id: 1154111
+  resolution: ''
+  status: NEW
+  summary: Firefox and Thunderbird must be launched or restarted *after* a network
+    connection is established or else they will be unable to connect to the internet
+- component: Basesystem
+  create_time: 20191015T17:09:00
+  id: 1154104
+  resolution: INVALID
+  status: RESOLVED
+  summary: Exec key for sessions listed in /usr/share/xsessions is seemingly ignored
 - component: Other
   create_time: 20191015T13:05:00
   id: 1154080
