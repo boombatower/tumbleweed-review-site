@@ -18492,7 +18492,7 @@
   create_time: 20190121T10:43:00
   id: 1122614
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: armv7 efistub enablement missing in GRUB2
 '20190124':
 - component: KDE Workspace (Plasma)
@@ -25657,8 +25657,8 @@
 - component: Kernel
   create_time: 20190703T09:56:00
   id: 1140221
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kernel always prints "Started bpfilter" message, even if all logging disabled
 - component: Other
   create_time: 20190703T09:07:00
@@ -30191,7 +30191,7 @@
   create_time: 20191007T13:45:00
   id: 1153228
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: CONFIG_RT_GROUP_SCHED should be disabled.
 - component: libzypp
   create_time: 20191007T12:03:00
@@ -30376,11 +30376,47 @@
   status: RESOLVED
   summary: '61-persistent-storage-compat.rules: invalid substitution type'
 '20191012':
+- component: Other
+  create_time: 20191015T13:05:00
+  id: 1154080
+  resolution: ''
+  status: NEW
+  summary: 'libredwg: update to v0.9 (beta)'
+- component: Basesystem
+  create_time: 20191015T11:23:00
+  id: 1154050
+  resolution: ''
+  status: NEW
+  summary: tcsh stops executing after a source command
+- component: Basesystem
+  create_time: 20191015T09:00:00
+  id: 1154023
+  resolution: ''
+  status: NEW
+  summary: ProtectHome=yes in fstrim.service file makes /home inaccessible for fstrim
+- component: Kernel
+  create_time: 20191015T07:56:00
+  id: 1154010
+  resolution: ''
+  status: NEW
+  summary: AMDGPU Intermittent Screen Flashing
+- component: Kernel
+  create_time: 20191015T06:28:00
+  id: 1153992
+  resolution: ''
+  status: NEW
+  summary: kernel panic with new kernel 5.3.5
+- component: libzypp
+  create_time: 20191015T01:23:00
+  id: 1153977
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: zypper se -f do not seem to operate as advertised
 - component: Development
   create_time: 20191014T16:48:00
   id: 1153950
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Don't package glslang tools in devel package
 - component: Basesystem
   create_time: 20191014T15:55:00
