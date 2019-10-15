@@ -25191,8 +25191,8 @@
 - component: Virtualization:Other
   create_time: 20190625T21:30:00
   id: 1139376
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: libvirt unable to read /dev/sev
 - component: Basesystem
   create_time: 20190625T20:00:00
@@ -27713,8 +27713,8 @@
 - component: Virtualization:Other
   create_time: 20190814T15:03:00
   id: 1145651
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: libvirt 5.5.0 breaks virtual networking with openvswitch & tagged VLANs
 - component: Basesystem
   create_time: 20190814T15:02:00
@@ -30376,6 +30376,26 @@
   status: RESOLVED
   summary: '61-persistent-storage-compat.rules: invalid substitution type'
 '20191012':
+- component: Other
+  create_time: 20191015T21:56:00
+  id: 1154128
+  resolution: ''
+  status: NEW
+  summary: Virtualbox's packaging seems to be missing AppStream info, making it invisible
+    in Discover
+- component: KDE Workspace (Plasma)
+  create_time: 20191015T21:24:00
+  id: 1154126
+  resolution: ''
+  status: NEW
+  summary: hplip-systray does not work correctly with KDE Plasma 5.17
+- component: Samba
+  create_time: 20191015T20:29:00
+  id: 1154121
+  resolution: ''
+  status: NEW
+  summary: 'yast2-aduc: The domain label should be a text field, for manually entering
+    the domain name'
 - component: KDE Workspace (Plasma)
   create_time: 20191015T18:48:00
   id: 1154114
