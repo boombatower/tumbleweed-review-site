@@ -4374,8 +4374,8 @@
 - component: Basesystem
   create_time: 20180221T15:40:00
   id: 1082050
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: /usr/lib/modprobe.d is not owned by any package
 - component: Kubic
   create_time: 20180221T15:04:00
@@ -5509,8 +5509,8 @@
 - component: Other
   create_time: 20180312T18:47:00
   id: 1084945
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: fault in  /etc/speech-dispatcher/speechd.conf
 - component: GNOME
   create_time: 20180312T18:34:00
@@ -5830,8 +5830,8 @@
 - component: Basesystem
   create_time: 20180316T14:17:00
   id: 1085666
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python-u-msgpack-python fails to build on bigendian (ppc/ppc64/s390/s390x)
 - component: Network
   create_time: 20180316T13:55:00
@@ -6100,8 +6100,8 @@
 - component: Basesystem
   create_time: 20180322T00:18:00
   id: 1086393
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: netcdf-cxx4 fails to build on bigendian architectures
 - component: Upgrade Problems
   create_time: 20180321T18:00:00
@@ -10106,8 +10106,8 @@
 - component: Basesystem
   create_time: 20180705T15:49:00
   id: 1100254
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: tcl SUSE:SLE-15:GA changes are missing on Factory
 - component: Basesystem
   create_time: 20180705T15:47:00
@@ -11318,8 +11318,8 @@
 - component: Development
   create_time: 20180806T16:09:00
   id: 1103927
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'RPM: brp-25-symlink fails when link or link-dest contains whitespace'
 - component: GNOME
   create_time: 20180806T12:52:00
@@ -21162,8 +21162,8 @@
 - component: Other
   create_time: 20190322T14:06:00
   id: 1130222
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Package GeoIP-data-1.6.12-2.2.noarch does not contain the listed files
 - component: Kernel
   create_time: 20190322T11:50:00
@@ -26205,7 +26205,7 @@
   id: 1140346
   resolution: ''
   status: CONFIRMED
-  summary: Unable to use `ceph-fuse` package (error while loading shared libraries)
+  summary: Unable to use "ceph-fuse" package (error while loading shared libraries)
 - component: AutoYaST
   create_time: 20190704T08:20:00
   id: 1140339
@@ -28459,8 +28459,8 @@
 - component: YaST2
   create_time: 20190828T17:38:00
   id: 1148622
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Broken / incomplete dependencies for libyui9 -> libyui10 upgrade
 - component: Development
   create_time: 20190828T13:40:00
@@ -29843,8 +29843,8 @@
 - component: KDE Applications
   create_time: 20190928T16:32:00
   id: 1152385
-  resolution: UPSTREAM
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: duplex printing is not available in okular
 - component: Basesystem
   create_time: 20190928T15:18:00
@@ -29980,8 +29980,8 @@
 - component: Development
   create_time: 20190930T07:48:00
   id: 1152451
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: notmuch does not build with --disable-debuginfo
 '20191002':
 - component: Virtualization:Other
@@ -30155,7 +30155,7 @@
   id: 1152971
   resolution: ''
   status: NEW
-  summary: Kernel 5.3 Intel module does not load
+  summary: (S)VGA outputs from i915 defunct after upgrade to Kernel 5.3
 '20191007':
 - component: libzypp
   create_time: 20191008T17:28:00
@@ -30376,12 +30376,37 @@
   status: RESOLVED
   summary: '61-persistent-storage-compat.rules: invalid substitution type'
 '20191012':
+- component: KDE Workspace (Plasma)
+  create_time: 20191016T12:08:00
+  id: 1154210
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191014] openQA test fails in partitioning'
+- component: KDE Applications
+  create_time: 20191016T11:16:00
+  id: 1154201
+  resolution: ''
+  status: NEW
+  summary: auto check and install debug sysmbols for improved drkonqi bug reporting
+- component: Upgrade Problems
+  create_time: 20191016T10:16:00
+  id: 1154188
+  resolution: ''
+  status: NEW
+  summary: Version Mismatch between Perl Module Crypt::Rijndael and Dynaloader.pm
 - component: GNOME
   create_time: 20191016T02:30:00
   id: 1154141
   resolution: ''
   status: NEW
   summary: '[Build 20191011] openQA test fails in evolution_meeting_imap'
+- component: Basesystem
+  create_time: 20191016T01:59:00
+  id: 1154139
+  resolution: ''
+  status: NEW
+  summary: 'KDE:Frameworks5/polkit-kde-agent-5 (5.17.0): Bug polkit-kde-authentication-agent-1
+    fails to launch/exec'
 - component: Other
   create_time: 20191015T21:56:00
   id: 1154128
@@ -30457,7 +30482,7 @@
   resolution: ''
   status: NEW
   summary: AMDGPU Intermittent Screen Flashing
-- component: Kernel
+- component: Xen
   create_time: 20191015T06:28:00
   id: 1153992
   resolution: ''
