@@ -30422,6 +30422,12 @@
   status: RESOLVED
   summary: Missing gstreamer RPM?
 '20191014':
+- component: GNOME
+  create_time: 20191016T20:24:00
+  id: 1154261
+  resolution: ''
+  status: NEW
+  summary: pdfmod uninstallable due to missing mono(gconf-sharp)
 - component: YaST2
   create_time: 20191016T15:17:00
   id: 1154238
@@ -30543,8 +30549,8 @@
 - component: libzypp
   create_time: 20191015T01:23:00
   id: 1153977
-  resolution: WONTFIX
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: zypper se -f do not seem to operate as advertised
 - component: Development
   create_time: 20191014T16:48:00
