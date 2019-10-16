@@ -30376,6 +30376,58 @@
   status: RESOLVED
   summary: '61-persistent-storage-compat.rules: invalid substitution type'
 '20191012':
+- component: libzypp
+  create_time: 20191013T23:10:00
+  id: 1153854
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[installation,update,upgrade] routinely delayed because package management
+    reports "broken" packages that are lacking apparent lost functionality while "required"
+    fonts are unavailable'
+- component: Basesystem
+  create_time: 20191013T22:34:00
+  id: 1153853
+  resolution: ''
+  status: NEW
+  summary: 'dracut %post: sed: can''t read /etc/dracut.conf.d/05-convertfs.conf: No
+    such file or directory'
+- component: Bootloader
+  create_time: 20191013T16:24:00
+  id: 1153847
+  resolution: ''
+  status: NEW
+  summary: Unable to boot with SecureBoot enabled in BIOS
+- component: Basesystem
+  create_time: 20191013T01:37:00
+  id: 1153839
+  resolution: ''
+  status: IN_PROGRESS
+  summary: csh / tcsh is broken in Tumbleweed 20191011
+- component: GNOME
+  create_time: 20191012T21:07:00
+  id: 1153837
+  resolution: FIXED
+  status: RESOLVED
+  summary: gobject-introspection has to require a specific Python ABI version
+- component: Kernel
+  create_time: 20191012T18:10:00
+  id: 1153835
+  resolution: ''
+  status: NEW
+  summary: '[20190925] Tumbleweed Installer hangs on Newport GW6304 (USB)'
+- component: Other
+  create_time: 20191012T15:31:00
+  id: 1153829
+  resolution: INVALID
+  status: RESOLVED
+  summary: Missing gstreamer RPM?
+'20191014':
+- component: YaST2
+  create_time: 20191016T15:17:00
+  id: 1154238
+  resolution: ''
+  status: NEW
+  summary: 'WSL: yast2-users: lsblk doesn''t work in WSL'
 - component: KDE Workspace (Plasma)
   create_time: 20191016T12:08:00
   id: 1154210
@@ -30542,48 +30594,3 @@
   resolution: ''
   status: NEW
   summary: kayboard not wokring login but Linux see it
-- component: libzypp
-  create_time: 20191013T23:10:00
-  id: 1153854
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: '[installation,update,upgrade] routinely delayed because package management
-    reports "broken" packages that are lacking apparent lost functionality while "required"
-    fonts are unavailable'
-- component: Basesystem
-  create_time: 20191013T22:34:00
-  id: 1153853
-  resolution: ''
-  status: NEW
-  summary: 'dracut %post: sed: can''t read /etc/dracut.conf.d/05-convertfs.conf: No
-    such file or directory'
-- component: Bootloader
-  create_time: 20191013T16:24:00
-  id: 1153847
-  resolution: ''
-  status: NEW
-  summary: Unable to boot with SecureBoot enabled in BIOS
-- component: Basesystem
-  create_time: 20191013T01:37:00
-  id: 1153839
-  resolution: ''
-  status: IN_PROGRESS
-  summary: csh / tcsh is broken in Tumbleweed 20191011
-- component: GNOME
-  create_time: 20191012T21:07:00
-  id: 1153837
-  resolution: FIXED
-  status: RESOLVED
-  summary: gobject-introspection has to require a specific Python ABI version
-- component: Kernel
-  create_time: 20191012T18:10:00
-  id: 1153835
-  resolution: ''
-  status: NEW
-  summary: '[20190925] Tumbleweed Installer hangs on Newport GW6304 (USB)'
-- component: Other
-  create_time: 20191012T15:31:00
-  id: 1153829
-  resolution: INVALID
-  status: RESOLVED
-  summary: Missing gstreamer RPM?
