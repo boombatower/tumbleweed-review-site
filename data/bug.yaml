@@ -30376,6 +30376,12 @@
   status: RESOLVED
   summary: '61-persistent-storage-compat.rules: invalid substitution type'
 '20191012':
+- component: GNOME
+  create_time: 20191016T02:30:00
+  id: 1154141
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191011] openQA test fails in evolution_meeting_imap'
 - component: Other
   create_time: 20191015T21:56:00
   id: 1154128
