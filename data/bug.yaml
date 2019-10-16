@@ -29912,8 +29912,8 @@
 - component: Other
   create_time: 20191001T11:57:00
   id: 1152671
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Tensorflow fails to build on latest Tumbleweed
 - component: Basesystem
   create_time: 20191001T09:35:00
@@ -30141,8 +30141,8 @@
 - component: Basesystem
   create_time: 20191004T11:46:00
   id: 1153057
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Regression with latest rpm and `%{?...}' macro expansion
 - component: Kernel
   create_time: 20191004T07:32:00
@@ -30392,8 +30392,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20191015T21:24:00
   id: 1154126
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: hplip-systray does not work correctly with KDE Plasma 5.17
 - component: Samba
   create_time: 20191015T20:29:00
@@ -30442,8 +30442,8 @@
 - component: Basesystem
   create_time: 20191015T11:23:00
   id: 1154050
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: tcsh stops executing after a source command
 - component: Basesystem
   create_time: 20191015T09:00:00
@@ -30497,7 +30497,7 @@
   create_time: 20191014T09:40:00
   id: 1153891
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: md raid0 fails to mount due to default_layout (wrong message)
 - component: Basesystem
   create_time: 20191014T09:01:00
