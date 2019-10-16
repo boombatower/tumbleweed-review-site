@@ -30549,8 +30549,8 @@
 - component: libzypp
   create_time: 20191015T01:23:00
   id: 1153977
-  resolution: ''
-  status: REOPENED
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: zypper se -f do not seem to operate as advertised
 - component: Development
   create_time: 20191014T16:48:00
