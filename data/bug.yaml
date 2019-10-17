@@ -30422,6 +30422,12 @@
   status: RESOLVED
   summary: Missing gstreamer RPM?
 '20191014':
+- component: KDE Workspace (Plasma)
+  create_time: 20191017T16:57:00
+  id: 1154379
+  resolution: ''
+  status: NEW
+  summary: 'Plasma 5.17: Left mouse button doesn''t work anymore (in root window)'
 - component: Basesystem
   create_time: 20191017T13:04:00
   id: 1154345
@@ -30530,8 +30536,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20191015T18:44:00
   id: 1154113
-  resolution: ''
-  status: REOPENED
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Ship Discover instead of plasma-pk-updates
 - component: Other
   create_time: 20191015T18:38:00
