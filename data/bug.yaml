@@ -8626,8 +8626,8 @@
 - component: Development
   create_time: 20180523T09:12:00
   id: 1094323
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: packages do not build reproducibly from pip install
 '20180524':
 - component: GNOME
@@ -29787,8 +29787,8 @@
 - component: YaST2
   create_time: 20190925T09:35:00
   id: 1151960
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2 bootloader causes "File descriptor ... leaked on vgs invocation"
 - component: Other
   create_time: 20190925T08:27:00
@@ -30422,6 +30422,24 @@
   status: RESOLVED
   summary: Missing gstreamer RPM?
 '20191014':
+- component: Kernel
+  create_time: 20191017T11:28:00
+  id: 1154332
+  resolution: ''
+  status: NEW
+  summary: /proc/net/tcp header is incomplete
+- component: Security
+  create_time: 20191017T10:14:00
+  id: 1154311
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191016] sestatus: SELinux not enabled'
+- component: Network
+  create_time: 20191017T09:44:00
+  id: 1154301
+  resolution: ''
+  status: NEW
+  summary: modem-manager-gui dumps core
 - component: GNOME
   create_time: 20191016T20:24:00
   id: 1154261
@@ -30543,8 +30561,8 @@
 - component: Xen
   create_time: 20191015T06:28:00
   id: 1153992
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: kernel panic with new kernel 5.3.5
 - component: libzypp
   create_time: 20191015T01:23:00
