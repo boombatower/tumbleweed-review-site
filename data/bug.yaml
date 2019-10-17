@@ -23927,8 +23927,8 @@
 - component: Kernel
   create_time: 20190522T06:30:00
   id: 1135854
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Compressing kernel modules (turn on MODULE_COMPRESS_XZ)?
 - component: X11 Applications
   create_time: 20190522T06:10:00
@@ -30539,7 +30539,7 @@
   id: 1154010
   resolution: ''
   status: NEW
-  summary: AMDGPU Intermittent Screen Flashing
+  summary: AMDGPU Graphics Driver Causing Intermittent Screen Flashing
 - component: Xen
   create_time: 20191015T06:28:00
   id: 1153992
