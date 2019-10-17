@@ -25064,8 +25064,8 @@
 - component: Java
   create_time: 20190618T06:39:00
   id: 1138529
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[aarch64] Bazel 0.19.2 fails to build with JRE internal error on some
     workers (ThunderX1 and OverDrive 1000)'
 - component: Sound
@@ -29807,8 +29807,8 @@
   create_time: 20190926T18:15:00
   id: 1152184
   resolution: ''
-  status: NEW
-  summary: Yast sound card can't be configure
+  status: CONFIRMED
+  summary: Yast sound card can't be configured, the alternative driver is not used
 - component: Basesystem
   create_time: 20190926T17:28:00
   id: 1152183
@@ -30422,6 +30422,24 @@
   status: RESOLVED
   summary: Missing gstreamer RPM?
 '20191014':
+- component: Basesystem
+  create_time: 20191017T13:04:00
+  id: 1154345
+  resolution: ''
+  status: NEW
+  summary: '[mc]'
+- component: KDE Workspace (Plasma)
+  create_time: 20191017T12:32:00
+  id: 1154342
+  resolution: ''
+  status: NEW
+  summary: kdesu broken since TW 20191014
+- component: Other
+  create_time: 20191017T12:13:00
+  id: 1154339
+  resolution: ''
+  status: NEW
+  summary: Can't mongodb due to missing dependency on libboost_filesystem.so.1.69.0()(64bit)
 - component: Kernel
   create_time: 20191017T11:28:00
   id: 1154332
