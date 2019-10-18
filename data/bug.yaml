@@ -9830,8 +9830,8 @@
 - component: Basesystem
   create_time: 20180627T14:42:00
   id: 1099329
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: lvm setup on softraid fails to boot without lvmetad in initrd
 - component: Kernel
   create_time: 20180627T12:53:00
@@ -13541,8 +13541,8 @@
 - component: Other
   create_time: 20181013T03:59:00
   id: 1111734
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/lvm2'
 - component: Other
   create_time: 20181013T03:57:00
@@ -24665,8 +24665,8 @@
 - component: Basesystem
   create_time: 20190607T14:18:00
   id: 1137648
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Update lvm 2 to 2.02.185 or backport commit e268b to fix occasional slow
     shutdowns with kernel 5.0.0 and up.
 - component: GNOME
@@ -30295,8 +30295,8 @@
 - component: YaST2
   create_time: 20191009T13:57:00
   id: 1153460
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Network-ng: Bridge/Bond/VLAN is not updated when its slave is deleted
     or renamed'
 - component: X.Org
