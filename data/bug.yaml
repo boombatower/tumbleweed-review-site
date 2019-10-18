@@ -23016,8 +23016,8 @@
 - component: Sound
   create_time: 20190430T13:14:00
   id: 1133803
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Problem: nothing provides libfluidsynth.so.1()(64bit) needed by ardour-5.12.0-2.18.x86_64'
 - component: Other
   create_time: 20190430T11:41:00
