@@ -2530,7 +2530,7 @@
   threads: []
 '20191014':
   announcement: 2019-10.93
-  reference_count: 9
+  reference_count: 11
   thread_count: 2
   threads:
   - messages:
@@ -2540,7 +2540,7 @@
   - messages:
     - 2019-10.106
     - 2019-10.137
-    reference_count: 8
+    reference_count: 10
     summary: failed to summarize
 '20191016':
   announcement: 2019-10.176
