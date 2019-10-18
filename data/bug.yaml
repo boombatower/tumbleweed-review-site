@@ -25537,7 +25537,7 @@
   create_time: 20190702T12:45:00
   id: 1140081
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Unable to change VTs after wayland compositor crash
 - component: YaST2
   create_time: 20190702T12:01:00
@@ -30277,8 +30277,8 @@
 - component: libzypp
   create_time: 20191010T09:13:00
   id: 1153557
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Net installation fails in openQA because no base products found to install
 - component: Other
   create_time: 20191010T07:38:00
@@ -30558,6 +30558,12 @@
   status: NEW
   summary: kayboard not wokring login but Linux see it
 '20191016':
+- component: KDE Applications
+  create_time: 20191018T15:44:00
+  id: 1154510
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: kdesu doesn't accept root password
 - component: YaST2
   create_time: 20191018T03:06:00
   id: 1154405
