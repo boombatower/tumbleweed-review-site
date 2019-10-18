@@ -30564,13 +30564,6 @@
   resolution: ''
   status: NEW
   summary: libyui-ncurses10 is not satisfied by glibc-locale-base on EN-only installation
-- component: Development
-  create_time: 20191017T23:46:00
-  id: 1154402
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '(CVE-2019-17596) VUL-0: CVE-2019-17596: golang: invalid public key causes
-    panic in dsa.Verify'
 - component: KDE Applications
   create_time: 20191017T20:04:00
   id: 1154392
@@ -30583,17 +30576,17 @@
   resolution: UPSTREAM
   status: RESOLVED
   summary: 'Plasma 5.17: Left mouse button doesn''t work anymore (in root window)'
-- component: Basesystem
+- component: KDE Workspace (Plasma)
   create_time: 20191017T13:04:00
   id: 1154345
   resolution: ''
-  status: NEW
-  summary: '[mc]'
+  status: IN_PROGRESS
+  summary: plasma breaks exporting bash functions
 - component: KDE Workspace (Plasma)
   create_time: 20191017T12:32:00
   id: 1154342
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: kdesu broken since TW 20191014
 - component: Other
   create_time: 20191017T12:13:00
