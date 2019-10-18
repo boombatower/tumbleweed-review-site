@@ -30597,8 +30597,8 @@
 - component: Other
   create_time: 20191017T12:13:00
   id: 1154339
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Can't mongodb due to missing dependency on libboost_filesystem.so.1.69.0()(64bit)
 - component: Kernel
   create_time: 20191017T11:28:00
