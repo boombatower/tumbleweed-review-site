@@ -30558,6 +30558,18 @@
   status: NEW
   summary: kayboard not wokring login but Linux see it
 '20191016':
+- component: Network
+  create_time: 20191019T20:57:00
+  id: 1154539
+  resolution: ''
+  status: NEW
+  summary: rtl8812au is no longer working
+- component: Other
+  create_time: 20191019T18:48:00
+  id: 1154537
+  resolution: ''
+  status: NEW
+  summary: gschem 1.9.2 introduces UI problems
 - component: KDE Workspace (Plasma)
   create_time: 20191019T16:38:00
   id: 1154535
