@@ -30432,8 +30432,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20191015T21:24:00
   id: 1154126
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: hplip-systray does not work correctly with KDE Plasma 5.17
 - component: Samba
   create_time: 20191015T20:29:00
