@@ -30559,6 +30559,18 @@
   summary: kayboard not wokring login but Linux see it
 '20191016':
 - component: Network
+  create_time: 20191019T21:04:00
+  id: 1154541
+  resolution: ''
+  status: NEW
+  summary: tl8812au is no longer working
+- component: Network
+  create_time: 20191019T21:03:00
+  id: 1154540
+  resolution: ''
+  status: NEW
+  summary: tl8812au is no longer working
+- component: Network
   create_time: 20191019T20:57:00
   id: 1154539
   resolution: ''
