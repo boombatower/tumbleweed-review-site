@@ -30609,7 +30609,7 @@
 - component: KDE Applications
   create_time: 20191017T20:04:00
   id: 1154392
-  resolution: FIXED
+  resolution: INVALID
   status: RESOLVED
   summary: kmail  19.08.2-1.1 is not starting
 - component: KDE Workspace (Plasma)
