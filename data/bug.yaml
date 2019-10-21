@@ -24424,8 +24424,8 @@
 - component: Virtualization:Other
   create_time: 20190603T19:00:00
   id: 1137161
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: vboxdrv.service fails to start after kernel upgrades
 - component: Patterns
   create_time: 20190603T13:55:00
@@ -30580,8 +30580,8 @@
 - component: Network
   create_time: 20191019T21:03:00
   id: 1154540
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: tl8812au is no longer working
 - component: Network
   create_time: 20191019T20:57:00
