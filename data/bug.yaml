@@ -23425,8 +23425,8 @@
 - component: Xfce
   create_time: 20190513T17:39:00
   id: 1134899
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Thunar 1.8.4 Regression: Right Click > Create Document doesn''t show context
     menu (fix available)'
 - component: KDE Workspace (Plasma)
@@ -23671,8 +23671,8 @@
 - component: Xfce
   create_time: 20190516T13:02:00
   id: 1135352
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: package xfce4-panel-plugin-smartbookmark cannot be installed after upgrade
     to exo-0.12.5
 - component: MicroOS
@@ -29707,7 +29707,7 @@
   create_time: 20190923T10:40:00
   id: 1151639
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: xfce-screensaver lock screen does not appear on suspend
 - component: YaST2
   create_time: 20190923T10:34:00
@@ -30190,8 +30190,8 @@
 - component: Kernel
   create_time: 20191007T13:45:00
   id: 1153228
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: CONFIG_RT_GROUP_SCHED should be disabled.
 - component: libzypp
   create_time: 20191007T12:03:00
@@ -30328,8 +30328,8 @@
 - component: Ruby
   create_time: 20191011T14:23:00
   id: 1153758
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: yast2_rmt fails in openQA because rmt-server.service fails
 - component: Other
   create_time: 20191011T11:08:00
@@ -30558,6 +30558,50 @@
   status: NEW
   summary: kayboard not wokring login but Linux see it
 '20191016':
+- component: KDE Workspace (Plasma)
+  create_time: 20191021T17:46:00
+  id: 1154672
+  resolution: ''
+  status: NEW
+  summary: Login screen doesn't continue
+- component: KDE Applications
+  create_time: 20191021T16:35:00
+  id: 1154667
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'bash: error importing function definition for mc'
+- component: Basesystem
+  create_time: 20191021T14:04:00
+  id: 1154655
+  resolution: ''
+  status: NEW
+  summary: 'systemd-udevd errors and warnings in journalctl processing rules: 61-persistent-storage-compat,
+    80-hotplug-cpu-mem, 84-nm-drivers, 11-dm-lvm, 90-backlight'
+- component: Security
+  create_time: 20191021T12:05:00
+  id: 1154617
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2019-18198: kernel-source: memory corruption due to a reference
+    count usage error in the fib6_rule_suppress() function'
+- component: Kernel
+  create_time: 20191021T09:43:00
+  id: 1154595
+  resolution: ''
+  status: NEW
+  summary: '[aarch64] openQA test fails in kdump_and_crash (kernel 5.3.6)'
+- component: GNOME
+  create_time: 20191021T08:35:00
+  id: 1154582
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191018] openQA test fails in shutdown: at-spi2 hangs'
+- component: Kernel
+  create_time: 20191021T07:44:00
+  id: 1154578
+  resolution: FIXED
+  status: RESOLVED
+  summary: kernel-vanilla package does not build reproducibly
 - component: Security
   create_time: 20191020T21:07:00
   id: 1154552
@@ -30569,7 +30613,7 @@
   create_time: 20191020T19:19:00
   id: 1154551
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: dovecot imap not work with tls 1.3 and change Ciphersuites in openssl.cnf
 - component: Network
   create_time: 20191019T21:04:00
@@ -30598,8 +30642,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20191019T16:38:00
   id: 1154535
-  resolution: ''
-  status: NEW
+  resolution: MOVED
+  status: RESOLVED
   summary: sddm cant start wayland
 - component: Other
   create_time: 20191019T14:58:00
