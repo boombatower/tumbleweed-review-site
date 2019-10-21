@@ -30426,7 +30426,7 @@
   create_time: 20191015T21:56:00
   id: 1154128
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Virtualbox's packaging seems to be missing AppStream info, making it invisible
     in Discover
 - component: KDE Workspace (Plasma)
@@ -30605,8 +30605,8 @@
 - component: Security
   create_time: 20191020T21:07:00
   id: 1154552
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: arp-scan shows no output (other than header and footer) from Tumbleweed
     snapshot 2019-10-07
 - component: Other
