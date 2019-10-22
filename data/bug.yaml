@@ -27103,8 +27103,8 @@
 - component: Basesystem
   create_time: 20190802T14:49:00
   id: 1144045
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Please add "pam_keyinit.so" to the /etc/pam.d/racoon configuration file
 - component: Basesystem
   create_time: 20190802T14:47:00
