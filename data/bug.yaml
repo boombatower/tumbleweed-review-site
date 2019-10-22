@@ -13614,7 +13614,7 @@
   create_time: 20181013T03:32:00
   id: 1111722
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Out of date package: openSUSE:Factory/bind'
 - component: Other
   create_time: 20181013T03:31:00
@@ -30651,6 +30651,32 @@
     fails to launch/exec'
 '20191018':
 - component: Other
+  create_time: 20191022T08:52:00
+  id: 1154710
+  resolution: INVALID
+  status: RESOLVED
+  summary: '[Build 20191018] openQA test fails in kdump_and_crash - kernel-default-base-debuginfo
+    missing on JeOS'
+- component: Basesystem
+  create_time: 20191022T07:44:00
+  id: 1154700
+  resolution: ''
+  status: NEW
+  summary: Systemd - password prompt for encrypted drive times out on boot and system
+    crashes into emergency shell
+- component: YaST2
+  create_time: 20191022T06:47:00
+  id: 1154694
+  resolution: ''
+  status: NEW
+  summary: ncurses yast2 crashes when terminal shrinks
+- component: YaST2
+  create_time: 20191022T06:43:00
+  id: 1154693
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Software repository - repository priority is misleading
+- component: Other
   create_time: 20191021T21:36:00
   id: 1154680
   resolution: ''
@@ -30698,8 +30724,8 @@
 - component: Kernel
   create_time: 20191021T07:44:00
   id: 1154578
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: kernel-vanilla package does not build reproducibly
 - component: Security
   create_time: 20191020T21:07:00
