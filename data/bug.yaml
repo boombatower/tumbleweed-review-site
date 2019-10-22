@@ -30558,6 +30558,105 @@
   status: NEW
   summary: kayboard not wokring login but Linux see it
 '20191016':
+- component: KDE Applications
+  create_time: 20191017T20:04:00
+  id: 1154392
+  resolution: INVALID
+  status: RESOLVED
+  summary: kmail  19.08.2-1.1 is not starting
+- component: KDE Workspace (Plasma)
+  create_time: 20191017T16:57:00
+  id: 1154379
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: 'Plasma 5.17: Left mouse button doesn''t work anymore (in root window)'
+- component: KDE Workspace (Plasma)
+  create_time: 20191017T13:04:00
+  id: 1154345
+  resolution: ''
+  status: IN_PROGRESS
+  summary: plasma breaks exporting bash functions
+- component: KDE Workspace (Plasma)
+  create_time: 20191017T12:32:00
+  id: 1154342
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: kdesu broken since TW 20191014
+- component: Other
+  create_time: 20191017T12:13:00
+  id: 1154339
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: Can't mongodb due to missing dependency on libboost_filesystem.so.1.69.0()(64bit)
+- component: Kernel
+  create_time: 20191017T11:28:00
+  id: 1154332
+  resolution: ''
+  status: NEW
+  summary: /proc/net/tcp header is incomplete
+- component: Security
+  create_time: 20191017T10:14:00
+  id: 1154311
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191016] sestatus: SELinux not enabled'
+- component: Network
+  create_time: 20191017T09:44:00
+  id: 1154301
+  resolution: ''
+  status: NEW
+  summary: modem-manager-gui dumps core
+- component: GNOME
+  create_time: 20191016T20:24:00
+  id: 1154261
+  resolution: ''
+  status: NEW
+  summary: pdfmod uninstallable due to missing mono(gconf-sharp)
+- component: YaST2
+  create_time: 20191016T15:17:00
+  id: 1154238
+  resolution: ''
+  status: NEW
+  summary: 'WSL: yast2-users: lsblk doesn''t work in WSL'
+- component: KDE Workspace (Plasma)
+  create_time: 20191016T12:08:00
+  id: 1154210
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191014] openQA test fails in partitioning'
+- component: KDE Applications
+  create_time: 20191016T11:16:00
+  id: 1154201
+  resolution: ''
+  status: NEW
+  summary: auto check and install debug sysmbols for improved drkonqi bug reporting
+- component: Upgrade Problems
+  create_time: 20191016T10:16:00
+  id: 1154188
+  resolution: ''
+  status: NEW
+  summary: Version Mismatch between Perl Module Crypt::Rijndael and Dynaloader.pm
+- component: GNOME
+  create_time: 20191016T02:30:00
+  id: 1154141
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191011] openQA test fails in evolution_meeting_imap'
+- component: Basesystem
+  create_time: 20191016T01:59:00
+  id: 1154139
+  resolution: ''
+  status: NEW
+  summary: 'KDE:Frameworks5/polkit-kde-agent-5 (5.17.0): Bug polkit-kde-authentication-agent-1
+    fails to launch/exec'
+'20191018':
+- component: Other
+  create_time: 20191021T21:36:00
+  id: 1154680
+  resolution: ''
+  status: NEW
+  summary: The proposal in openssl to make the TLS_CHACHA20_POLY1305_SHA256 cipher
+    by default
 - component: KDE Workspace (Plasma)
   create_time: 20191021T17:46:00
   id: 1154672
@@ -30663,94 +30762,3 @@
   resolution: ''
   status: NEW
   summary: libyui-ncurses10 is not satisfied by glibc-locale-base on EN-only installation
-- component: KDE Applications
-  create_time: 20191017T20:04:00
-  id: 1154392
-  resolution: INVALID
-  status: RESOLVED
-  summary: kmail  19.08.2-1.1 is not starting
-- component: KDE Workspace (Plasma)
-  create_time: 20191017T16:57:00
-  id: 1154379
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: 'Plasma 5.17: Left mouse button doesn''t work anymore (in root window)'
-- component: KDE Workspace (Plasma)
-  create_time: 20191017T13:04:00
-  id: 1154345
-  resolution: ''
-  status: IN_PROGRESS
-  summary: plasma breaks exporting bash functions
-- component: KDE Workspace (Plasma)
-  create_time: 20191017T12:32:00
-  id: 1154342
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: kdesu broken since TW 20191014
-- component: Other
-  create_time: 20191017T12:13:00
-  id: 1154339
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: Can't mongodb due to missing dependency on libboost_filesystem.so.1.69.0()(64bit)
-- component: Kernel
-  create_time: 20191017T11:28:00
-  id: 1154332
-  resolution: ''
-  status: NEW
-  summary: /proc/net/tcp header is incomplete
-- component: Security
-  create_time: 20191017T10:14:00
-  id: 1154311
-  resolution: ''
-  status: NEW
-  summary: '[Build 20191016] sestatus: SELinux not enabled'
-- component: Network
-  create_time: 20191017T09:44:00
-  id: 1154301
-  resolution: ''
-  status: NEW
-  summary: modem-manager-gui dumps core
-- component: GNOME
-  create_time: 20191016T20:24:00
-  id: 1154261
-  resolution: ''
-  status: NEW
-  summary: pdfmod uninstallable due to missing mono(gconf-sharp)
-- component: YaST2
-  create_time: 20191016T15:17:00
-  id: 1154238
-  resolution: ''
-  status: NEW
-  summary: 'WSL: yast2-users: lsblk doesn''t work in WSL'
-- component: KDE Workspace (Plasma)
-  create_time: 20191016T12:08:00
-  id: 1154210
-  resolution: ''
-  status: NEW
-  summary: '[Build 20191014] openQA test fails in partitioning'
-- component: KDE Applications
-  create_time: 20191016T11:16:00
-  id: 1154201
-  resolution: ''
-  status: NEW
-  summary: auto check and install debug sysmbols for improved drkonqi bug reporting
-- component: Upgrade Problems
-  create_time: 20191016T10:16:00
-  id: 1154188
-  resolution: ''
-  status: NEW
-  summary: Version Mismatch between Perl Module Crypt::Rijndael and Dynaloader.pm
-- component: GNOME
-  create_time: 20191016T02:30:00
-  id: 1154141
-  resolution: ''
-  status: NEW
-  summary: '[Build 20191011] openQA test fails in evolution_meeting_imap'
-- component: Basesystem
-  create_time: 20191016T01:59:00
-  id: 1154139
-  resolution: ''
-  status: NEW
-  summary: 'KDE:Frameworks5/polkit-kde-agent-5 (5.17.0): Bug polkit-kde-authentication-agent-1
-    fails to launch/exec'
