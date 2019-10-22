@@ -30425,8 +30425,8 @@
 - component: Other
   create_time: 20191015T21:56:00
   id: 1154128
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Virtualbox's packaging seems to be missing AppStream info, making it invisible
     in Discover
 - component: KDE Workspace (Plasma)
