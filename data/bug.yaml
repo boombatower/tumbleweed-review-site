@@ -12953,8 +12953,8 @@
 - component: GNOME
   create_time: 20180927T15:24:00
   id: 1110032
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: lollypop,pithos,mozo differ between architectures
 - component: Other
   create_time: 20180927T15:01:00
@@ -30050,8 +30050,8 @@
 - component: Other
   create_time: 20191003T20:32:00
   id: 1152964
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Fetchmail needs an update (from 6.3 to 6.4)
 - component: Kernel
   create_time: 20191003T13:50:00
@@ -30160,8 +30160,8 @@
 - component: libzypp
   create_time: 20191008T17:28:00
   id: 1153351
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '''zypper lu'' does not list all available package updates'
 - component: Basesystem
   create_time: 20191008T07:44:00
@@ -30573,8 +30573,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20191017T13:04:00
   id: 1154345
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: plasma breaks exporting bash functions
 - component: KDE Workspace (Plasma)
   create_time: 20191017T12:32:00
@@ -30650,6 +30650,31 @@
   summary: 'KDE:Frameworks5/polkit-kde-agent-5 (5.17.0): Bug polkit-kde-authentication-agent-1
     fails to launch/exec'
 '20191018':
+- component: Other
+  create_time: 20191022T22:06:00
+  id: 1154793
+  resolution: ''
+  status: NEW
+  summary: 'pthread.h: error: unknown type name ''clockid_t'''
+- component: Other
+  create_time: 20191022T21:48:00
+  id: 1154792
+  resolution: ''
+  status: CONFIRMED
+  summary: All apps that use GTK are segfaulting, crashes without showing any crash
+    report/error report/report bug
+- component: Development
+  create_time: 20191022T15:39:00
+  id: 1154766
+  resolution: ''
+  status: NEW
+  summary: libboost_python update broke freeorion build
+- component: Installation
+  create_time: 20191022T15:06:00
+  id: 1154756
+  resolution: ''
+  status: NEW
+  summary: grub2-mkconfig fails using tumbleweed xfce live usb installer
 - component: Other
   create_time: 20191022T08:52:00
   id: 1154710
