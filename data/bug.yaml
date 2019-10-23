@@ -18121,8 +18121,8 @@
 - component: Other
   create_time: 20190119T16:21:00
   id: 1122561
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/mongodb is out of date'
 - component: Kernel
   create_time: 20190119T08:58:00
@@ -27076,8 +27076,8 @@
 - component: Basesystem
   create_time: 20190802T15:05:00
   id: 1144052
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Please add "pam_keyinit.so" to the /etc/pam.d/... configuration file(s)
 - component: Basesystem
   create_time: 20190802T15:00:00
@@ -28214,8 +28214,8 @@
 - component: Security
   create_time: 20190823T09:47:00
   id: 1147037
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'VUL-0: CVE-2019-2386: mongodb: improper invalidation of user sessions
     upon deleting a user account'
 - component: Kernel
@@ -28505,7 +28505,7 @@
   create_time: 20190828T07:03:00
   id: 1148477
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20190824] installation fails on setting uuid of btrfs'
 - component: Security
   create_time: 20190828T07:00:00
@@ -28574,7 +28574,7 @@
   create_time: 20190830T20:08:00
   id: 1149037
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Unknown group 'radvd'
 - component: KDE Workspace (Plasma)
   create_time: 20190830T19:24:00
@@ -28900,8 +28900,9 @@
   id: 1149638
   resolution: ''
   status: IN_PROGRESS
-  summary: 'go1.13 link: dwarf: missing type: type.uintptr results in SIGSEGV when
-    linking go code'
+  summary: 'Go rpm package spec define NO_BRP_STRIP_DEBUG=true NO_BRP_AR=true to avoid
+    sort.a(__.PKGDEF) sort.a(_go_.o): Unable to recognise the format of file: file
+    format not recognized'
 - component: GNOME
   create_time: 20190905T15:21:00
   id: 1149634
@@ -29430,7 +29431,7 @@
   create_time: 20190909T07:05:00
   id: 1149934
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: kernel-kvmsall becomes default kernel after installation
 '20190916':
 - component: Other
@@ -29444,7 +29445,7 @@
   id: 1150930
   resolution: ''
   status: NEW
-  summary: 'Firmware Bug: TPM interrupt not working on Lenovo Thinkpad P43s'
+  summary: long boot time about 10 minutes on Lenovo Thinkpad P43s
 - component: Development
   create_time: 20190916T11:28:00
   id: 1150918
@@ -29756,8 +29757,8 @@
 - component: Kernel
   create_time: 20190925T20:37:00
   id: 1152054
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kernel NULL pointer dereference, system unresponsive (drm / amdgpu)
 - component: YaST2
   create_time: 20190925T20:29:00
@@ -29824,14 +29825,14 @@
 - component: Basesystem
   create_time: 20190926T14:44:00
   id: 1152169
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'rpmlint: remove warning about info scriptlets'
 - component: Basesystem
   create_time: 20190926T08:40:00
   id: 1152105
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: info vs gzip
 '20190927':
 - component: X11 Applications
@@ -30388,7 +30389,7 @@
   create_time: 20191013T22:34:00
   id: 1153853
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'dracut %post: sed: can''t read /etc/dracut.conf.d/05-convertfs.conf: No
     such file or directory'
 - component: Bootloader
@@ -30400,8 +30401,8 @@
 - component: Basesystem
   create_time: 20191013T01:37:00
   id: 1153839
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: csh / tcsh is broken in Tumbleweed 20191011
 - component: GNOME
   create_time: 20191012T21:07:00
@@ -30650,6 +30651,67 @@
   summary: 'KDE:Frameworks5/polkit-kde-agent-5 (5.17.0): Bug polkit-kde-authentication-agent-1
     fails to launch/exec'
 '20191018':
+- component: GNOME
+  create_time: 20191023T22:18:00
+  id: 1154912
+  resolution: ''
+  status: NEW
+  summary: gnome-session starts to a black screen with mouse cursor in 20191018
+- component: Network
+  create_time: 20191023T20:22:00
+  id: 1154908
+  resolution: ''
+  status: NEW
+  summary: nfs dispatcher script references removed nfs.service
+- component: Basesystem
+  create_time: 20191023T20:17:00
+  id: 1154906
+  resolution: ''
+  status: NEW
+  summary: various udev rule errors
+- component: Security
+  create_time: 20191023T14:23:00
+  id: 1154871
+  resolution: ''
+  status: NEW
+  summary: p11-kit-nss-trust breaks Firefox addon update check
+- component: Other
+  create_time: 20191023T13:09:00
+  id: 1154859
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20191018] openQA test fails in kdump_and_crash - probing file system
+    failed on JeOS'
+- component: Samba
+  create_time: 20191023T08:43:00
+  id: 1154823
+  resolution: FIXED
+  status: RESOLVED
+  summary: samba problems in TW snapshot 20191018
+- component: Other
+  create_time: 20191023T08:01:00
+  id: 1154817
+  resolution: ''
+  status: NEW
+  summary: '"cargo build" issues with rust-1.38.0'
+- component: Bootloader
+  create_time: 20191023T06:48:00
+  id: 1154809
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191021] openQA test fails in boot_to_desktop'
+- component: Other
+  create_time: 20191023T06:45:00
+  id: 1154808
+  resolution: ''
+  status: CONFIRMED
+  summary: Flask-cors test fails in test_acl_uncaught_exception_500
+- component: Kernel
+  create_time: 20191023T06:10:00
+  id: 1154802
+  resolution: ''
+  status: NEW
+  summary: Kernel reports unknown header type 7f for pci device
 - component: Other
   create_time: 20191022T22:06:00
   id: 1154793
@@ -30667,7 +30729,7 @@
   create_time: 20191022T15:39:00
   id: 1154766
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: libboost_python update broke freeorion build
 - component: Installation
   create_time: 20191022T15:06:00
@@ -30693,7 +30755,7 @@
   create_time: 20191022T06:47:00
   id: 1154694
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: ncurses yast2 crashes when terminal shrinks
 - component: YaST2
   create_time: 20191022T06:43:00
@@ -30768,8 +30830,8 @@
 - component: Network
   create_time: 20191019T21:04:00
   id: 1154541
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: tl8812au is no longer working
 - component: Network
   create_time: 20191019T21:03:00
