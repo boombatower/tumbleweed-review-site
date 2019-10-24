@@ -23803,8 +23803,8 @@
 - component: Kernel
   create_time: 20190520T14:06:00
   id: 1135646
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Cannot enable cpu controller on unified hierarchy
 - component: Other
   create_time: 20190520T12:04:00
@@ -29919,8 +29919,8 @@
 - component: Basesystem
   create_time: 20191001T09:35:00
   id: 1152630
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Logical Volumes on /dev/sdb are not activated during boot
 - component: Installation
   create_time: 20191001T09:29:00
@@ -30617,7 +30617,7 @@
   create_time: 20191016T15:17:00
   id: 1154238
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'WSL: yast2-users: lsblk doesn''t work in WSL'
 - component: KDE Workspace (Plasma)
   create_time: 20191016T12:08:00
@@ -30651,118 +30651,6 @@
   summary: 'KDE:Frameworks5/polkit-kde-agent-5 (5.17.0): Bug polkit-kde-authentication-agent-1
     fails to launch/exec'
 '20191018':
-- component: GNOME
-  create_time: 20191023T22:18:00
-  id: 1154912
-  resolution: ''
-  status: NEW
-  summary: gnome-session starts to a black screen with mouse cursor in 20191018
-- component: Network
-  create_time: 20191023T20:22:00
-  id: 1154908
-  resolution: ''
-  status: NEW
-  summary: nfs dispatcher script references removed nfs.service
-- component: Basesystem
-  create_time: 20191023T20:17:00
-  id: 1154906
-  resolution: ''
-  status: NEW
-  summary: various udev rule errors
-- component: Security
-  create_time: 20191023T14:23:00
-  id: 1154871
-  resolution: ''
-  status: NEW
-  summary: p11-kit-nss-trust breaks Firefox addon update check
-- component: Other
-  create_time: 20191023T13:09:00
-  id: 1154859
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: '[Build 20191018] openQA test fails in kdump_and_crash - probing file system
-    failed on JeOS'
-- component: Samba
-  create_time: 20191023T08:43:00
-  id: 1154823
-  resolution: FIXED
-  status: RESOLVED
-  summary: samba problems in TW snapshot 20191018
-- component: Other
-  create_time: 20191023T08:01:00
-  id: 1154817
-  resolution: ''
-  status: NEW
-  summary: '"cargo build" issues with rust-1.38.0'
-- component: Bootloader
-  create_time: 20191023T06:48:00
-  id: 1154809
-  resolution: ''
-  status: NEW
-  summary: '[Build 20191021] openQA test fails in boot_to_desktop'
-- component: Other
-  create_time: 20191023T06:45:00
-  id: 1154808
-  resolution: ''
-  status: CONFIRMED
-  summary: Flask-cors test fails in test_acl_uncaught_exception_500
-- component: Kernel
-  create_time: 20191023T06:10:00
-  id: 1154802
-  resolution: ''
-  status: NEW
-  summary: Kernel reports unknown header type 7f for pci device
-- component: Other
-  create_time: 20191022T22:06:00
-  id: 1154793
-  resolution: ''
-  status: NEW
-  summary: 'pthread.h: error: unknown type name ''clockid_t'''
-- component: Other
-  create_time: 20191022T21:48:00
-  id: 1154792
-  resolution: ''
-  status: CONFIRMED
-  summary: All apps that use GTK are segfaulting, crashes without showing any crash
-    report/error report/report bug
-- component: Development
-  create_time: 20191022T15:39:00
-  id: 1154766
-  resolution: ''
-  status: CONFIRMED
-  summary: libboost_python update broke freeorion build
-- component: Installation
-  create_time: 20191022T15:06:00
-  id: 1154756
-  resolution: ''
-  status: NEW
-  summary: grub2-mkconfig fails using tumbleweed xfce live usb installer
-- component: Other
-  create_time: 20191022T08:52:00
-  id: 1154710
-  resolution: INVALID
-  status: RESOLVED
-  summary: '[Build 20191018] openQA test fails in kdump_and_crash - kernel-default-base-debuginfo
-    missing on JeOS'
-- component: Basesystem
-  create_time: 20191022T07:44:00
-  id: 1154700
-  resolution: ''
-  status: NEW
-  summary: Systemd - password prompt for encrypted drive times out on boot and system
-    crashes into emergency shell
-- component: YaST2
-  create_time: 20191022T06:47:00
-  id: 1154694
-  resolution: ''
-  status: CONFIRMED
-  summary: ncurses yast2 crashes when terminal shrinks
-- component: YaST2
-  create_time: 20191022T06:43:00
-  id: 1154693
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Software repository - repository priority is misleading
 - component: Other
   create_time: 20191021T21:36:00
   id: 1154680
@@ -30875,3 +30763,167 @@
   resolution: ''
   status: NEW
   summary: libyui-ncurses10 is not satisfied by glibc-locale-base on EN-only installation
+'20191022':
+- component: Development
+  create_time: 20191024T14:20:00
+  id: 1155011
+  resolution: ''
+  status: NEW
+  summary: 'LTO ICE during IPA pass: icf'
+- component: GNOME
+  create_time: 20191024T13:52:00
+  id: 1155004
+  resolution: ''
+  status: NEW
+  summary: perl-Gtk2 fails GdkPixbuf.t test since update of gdk-pixbuf to 2.38.2
+- component: Firefox
+  create_time: 20191024T13:17:00
+  id: 1154995
+  resolution: ''
+  status: NEW
+  summary: Firefox with KDE integration still uses native gtk file picker for Print
+    to File
+- component: libzypp
+  create_time: 20191024T11:13:00
+  id: 1154973
+  resolution: ''
+  status: NEW
+  summary: Performing removal or installation using pkcon when updates are available
+    insists on also installing available updates
+- component: Other
+  create_time: 20191024T11:03:00
+  id: 1154972
+  resolution: ''
+  status: NEW
+  summary: release osc 0.166.0^
+- component: KDE Workspace (Plasma)
+  create_time: 20191024T09:58:00
+  id: 1154964
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: KDE Plasma Night Mode settings cannot be modified
+- component: Other
+  create_time: 20191024T09:42:00
+  id: 1154960
+  resolution: ''
+  status: NEW
+  summary: systemd service of matrix synapse references non-existant python executable
+    path "/opt/synapse/env/bin/python"
+- component: KDE Workspace (Plasma)
+  create_time: 20191024T01:16:00
+  id: 1154915
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: ALT+F2 no longer processed as a Global Shortcut
+- component: GNOME
+  create_time: 20191023T22:18:00
+  id: 1154912
+  resolution: ''
+  status: NEW
+  summary: gnome-session starts to a black screen with mouse cursor in 20191018
+- component: GNOME
+  create_time: 20191023T20:22:00
+  id: 1154908
+  resolution: ''
+  status: NEW
+  summary: nfs dispatcher script references removed nfs.service
+- component: Basesystem
+  create_time: 20191023T20:17:00
+  id: 1154906
+  resolution: ''
+  status: NEW
+  summary: various udev rule errors
+- component: Firefox
+  create_time: 20191023T14:23:00
+  id: 1154871
+  resolution: ''
+  status: NEW
+  summary: p11-kit-nss-trust breaks Firefox addon update check
+- component: Other
+  create_time: 20191023T13:09:00
+  id: 1154859
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20191018] openQA test fails in kdump_and_crash - probing file system
+    failed on JeOS'
+- component: Samba
+  create_time: 20191023T08:43:00
+  id: 1154823
+  resolution: FIXED
+  status: RESOLVED
+  summary: samba problems in TW snapshot 20191018
+- component: Other
+  create_time: 20191023T08:01:00
+  id: 1154817
+  resolution: ''
+  status: NEW
+  summary: '"cargo build" issues with rust-1.38.0'
+- component: Bootloader
+  create_time: 20191023T06:48:00
+  id: 1154809
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191021] openQA test fails in boot_to_desktop'
+- component: Other
+  create_time: 20191023T06:45:00
+  id: 1154808
+  resolution: ''
+  status: CONFIRMED
+  summary: Flask-cors test fails in test_acl_uncaught_exception_500
+- component: Kernel
+  create_time: 20191023T06:10:00
+  id: 1154802
+  resolution: ''
+  status: NEW
+  summary: Kernel reports unknown header type 7f for pci device
+- component: Other
+  create_time: 20191022T22:06:00
+  id: 1154793
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'pthread.h: error: unknown type name ''clockid_t'''
+- component: Other
+  create_time: 20191022T21:48:00
+  id: 1154792
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: All apps that use GTK are segfaulting, crashes without showing any crash
+    report/error report/report bug
+- component: Development
+  create_time: 20191022T15:39:00
+  id: 1154766
+  resolution: ''
+  status: CONFIRMED
+  summary: libboost_python update broke freeorion build
+- component: Installation
+  create_time: 20191022T15:06:00
+  id: 1154756
+  resolution: ''
+  status: NEW
+  summary: grub2-mkconfig fails using tumbleweed xfce live usb installer
+- component: Other
+  create_time: 20191022T08:52:00
+  id: 1154710
+  resolution: INVALID
+  status: RESOLVED
+  summary: '[Build 20191018] openQA test fails in kdump_and_crash - kernel-default-base-debuginfo
+    missing on JeOS'
+- component: Basesystem
+  create_time: 20191022T07:44:00
+  id: 1154700
+  resolution: ''
+  status: NEW
+  summary: Systemd - password prompt for encrypted drive times out on boot and system
+    crashes into emergency shell
+- component: YaST2
+  create_time: 20191022T06:47:00
+  id: 1154694
+  resolution: ''
+  status: CONFIRMED
+  summary: ncurses yast2 crashes when terminal shrinks
+- component: YaST2
+  create_time: 20191022T06:43:00
+  id: 1154693
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Software repository - repository priority is misleading
