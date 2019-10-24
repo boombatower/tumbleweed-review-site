@@ -30765,6 +30765,12 @@
   summary: libyui-ncurses10 is not satisfied by glibc-locale-base on EN-only installation
 '20191022':
 - component: Kernel
+  create_time: 20191024T19:33:00
+  id: 1155032
+  resolution: ''
+  status: NEW
+  summary: ucsi_acpi error messages
+- component: Kernel
   create_time: 20191024T18:18:00
   id: 1155029
   resolution: ''
