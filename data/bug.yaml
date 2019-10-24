@@ -30764,6 +30764,12 @@
   status: NEW
   summary: libyui-ncurses10 is not satisfied by glibc-locale-base on EN-only installation
 '20191022':
+- component: Kernel
+  create_time: 20191024T18:18:00
+  id: 1155029
+  resolution: ''
+  status: NEW
+  summary: Realtek RTL8723DE Bluetooth no longer works
 - component: Development
   create_time: 20191024T14:20:00
   id: 1155011
