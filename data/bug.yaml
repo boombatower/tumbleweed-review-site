@@ -30764,6 +30764,71 @@
   status: NEW
   summary: libyui-ncurses10 is not satisfied by glibc-locale-base on EN-only installation
 '20191022':
+- component: Other
+  create_time: 20191022T22:06:00
+  id: 1154793
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'pthread.h: error: unknown type name ''clockid_t'''
+- component: Other
+  create_time: 20191022T21:48:00
+  id: 1154792
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: All apps that use GTK are segfaulting, crashes without showing any crash
+    report/error report/report bug
+- component: Development
+  create_time: 20191022T15:39:00
+  id: 1154766
+  resolution: ''
+  status: CONFIRMED
+  summary: libboost_python update broke freeorion build
+- component: Installation
+  create_time: 20191022T15:06:00
+  id: 1154756
+  resolution: ''
+  status: NEW
+  summary: grub2-mkconfig fails using tumbleweed xfce live usb installer
+- component: Other
+  create_time: 20191022T08:52:00
+  id: 1154710
+  resolution: INVALID
+  status: RESOLVED
+  summary: '[Build 20191018] openQA test fails in kdump_and_crash - kernel-default-base-debuginfo
+    missing on JeOS'
+- component: Basesystem
+  create_time: 20191022T07:44:00
+  id: 1154700
+  resolution: ''
+  status: NEW
+  summary: Systemd - password prompt for encrypted drive times out on boot and system
+    crashes into emergency shell
+- component: YaST2
+  create_time: 20191022T06:47:00
+  id: 1154694
+  resolution: ''
+  status: CONFIRMED
+  summary: ncurses yast2 crashes when terminal shrinks
+- component: YaST2
+  create_time: 20191022T06:43:00
+  id: 1154693
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Software repository - repository priority is misleading
+'20191023':
+- component: Development
+  create_time: 20191025T12:57:00
+  id: 1155108
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed OpenMP Programs Compiled With clang9 and libomp9-devel Receive
+    SEGV During Exit Processing
+- component: libzypp
+  create_time: 20191025T12:43:00
+  id: 1155105
+  resolution: ''
+  status: NEW
+  summary: solver.onlyRequires=true being ignored after update of libzypp to 17.15.0-1.2
 - component: X11 3rd Party Driver
   create_time: 20191025T06:11:00
   id: 1155058
@@ -30773,9 +30838,10 @@
 - component: X11 3rd Party Driver
   create_time: 20191025T05:47:00
   id: 1155053
-  resolution: ''
-  status: IN_PROGRESS
-  summary: nvidia-gfxG05-kmp-default-440.26_k5.3.6_1-20.4 fails to install
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'nvidia-gfxG05-kmp-default-440.26_k5.3.6_1-20.4: fails to install in non-english
+    locales due to usage of grep for english error messages in conftest.sh'
 - component: Kernel
   create_time: 20191024T19:33:00
   id: 1155032
@@ -30900,54 +30966,3 @@
   resolution: ''
   status: NEW
   summary: Kernel reports unknown header type 7f for pci device
-- component: Other
-  create_time: 20191022T22:06:00
-  id: 1154793
-  resolution: INVALID
-  status: RESOLVED
-  summary: 'pthread.h: error: unknown type name ''clockid_t'''
-- component: Other
-  create_time: 20191022T21:48:00
-  id: 1154792
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: All apps that use GTK are segfaulting, crashes without showing any crash
-    report/error report/report bug
-- component: Development
-  create_time: 20191022T15:39:00
-  id: 1154766
-  resolution: ''
-  status: CONFIRMED
-  summary: libboost_python update broke freeorion build
-- component: Installation
-  create_time: 20191022T15:06:00
-  id: 1154756
-  resolution: ''
-  status: NEW
-  summary: grub2-mkconfig fails using tumbleweed xfce live usb installer
-- component: Other
-  create_time: 20191022T08:52:00
-  id: 1154710
-  resolution: INVALID
-  status: RESOLVED
-  summary: '[Build 20191018] openQA test fails in kdump_and_crash - kernel-default-base-debuginfo
-    missing on JeOS'
-- component: Basesystem
-  create_time: 20191022T07:44:00
-  id: 1154700
-  resolution: ''
-  status: NEW
-  summary: Systemd - password prompt for encrypted drive times out on boot and system
-    crashes into emergency shell
-- component: YaST2
-  create_time: 20191022T06:47:00
-  id: 1154694
-  resolution: ''
-  status: CONFIRMED
-  summary: ncurses yast2 crashes when terminal shrinks
-- component: YaST2
-  create_time: 20191022T06:43:00
-  id: 1154693
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Software repository - repository priority is misleading
