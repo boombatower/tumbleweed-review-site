@@ -2554,10 +2554,10 @@
   threads: []
 '20191022':
   announcement: 2019-10.304
-  reference_count: 17
+  reference_count: 23
   thread_count: 1
   threads:
   - messages:
     - 2019-10.306
-    reference_count: 17
+    reference_count: 23
     summary: kdm issues?
