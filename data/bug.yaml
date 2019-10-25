@@ -3084,8 +3084,8 @@
 - component: Kernel
   create_time: 20180205T16:55:00
   id: 1079402
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Nouveau breaks with screenlog on 4.15.0
 - component: Other
   create_time: 20180205T16:50:00
@@ -6545,8 +6545,8 @@
 - component: Kernel
   create_time: 20180402T21:50:00
   id: 1087796
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Fully updated Tumbleweed image on Raspberry Pi2 halts regularly
 - component: Bootloader
   create_time: 20180402T21:26:00
@@ -28441,8 +28441,8 @@
 - component: Other
   create_time: 20190828T20:11:00
   id: 1148638
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Thumbleweed Application:geo PDAL dependency problem
 - component: Other
   create_time: 20190828T19:34:00
@@ -30767,14 +30767,14 @@
 - component: X11 3rd Party Driver
   create_time: 20191025T06:11:00
   id: 1155058
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'nvidia G05: Driver 440 does not work'
 - component: X11 3rd Party Driver
   create_time: 20191025T05:47:00
   id: 1155053
-  resolution: INVALID
-  status: RESOLVED
+  resolution: ''
+  status: IN_PROGRESS
   summary: nvidia-gfxG05-kmp-default-440.26_k5.3.6_1-20.4 fails to install
 - component: Kernel
   create_time: 20191024T19:33:00
