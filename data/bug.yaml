@@ -27895,8 +27895,8 @@
 - component: Other
   create_time: 20190815T18:49:00
   id: 1145788
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'graphics/luminance-hdr: Update to 2.6.0'
 - component: Installation
   create_time: 20190815T16:07:00
@@ -29714,7 +29714,7 @@
   create_time: 20190923T10:34:00
   id: 1151637
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: When configuring NFS server I get error with default options
 - component: Development
   create_time: 20190923T07:05:00
@@ -30705,7 +30705,7 @@
 - component: Security
   create_time: 20191020T21:07:00
   id: 1154552
-  resolution: WORKSFORME
+  resolution: FIXED
   status: RESOLVED
   summary: arp-scan shows no output (other than header and footer) from Tumbleweed
     snapshot 2019-10-07
@@ -30764,6 +30764,18 @@
   status: NEW
   summary: libyui-ncurses10 is not satisfied by glibc-locale-base on EN-only installation
 '20191022':
+- component: X11 3rd Party Driver
+  create_time: 20191025T06:11:00
+  id: 1155058
+  resolution: ''
+  status: NEW
+  summary: 'nvidia G05: Driver 440 does not work'
+- component: X11 3rd Party Driver
+  create_time: 20191025T05:47:00
+  id: 1155053
+  resolution: INVALID
+  status: RESOLVED
+  summary: nvidia-gfxG05-kmp-default-440.26_k5.3.6_1-20.4 fails to install
 - component: Kernel
   create_time: 20191024T19:33:00
   id: 1155032
