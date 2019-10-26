@@ -30816,6 +30816,24 @@
   status: IN_PROGRESS
   summary: Software repository - repository priority is misleading
 '20191023':
+- component: Kernel
+  create_time: 20191026T11:41:00
+  id: 1155155
+  resolution: ''
+  status: NEW
+  summary: RPi3 Wifi firmware files missing
+- component: Other
+  create_time: 20191026T08:52:00
+  id: 1155151
+  resolution: ''
+  status: NEW
+  summary: 'OpenVPN: Unit dbus-org.freedesktop.resolve1.service not found'
+- component: YaST2
+  create_time: 20191025T18:35:00
+  id: 1155132
+  resolution: ''
+  status: NEW
+  summary: Yast2 Software Manager with Mixed Languages
 - component: Development
   create_time: 20191025T12:57:00
   id: 1155108
@@ -30863,8 +30881,8 @@
 - component: GNOME
   create_time: 20191024T13:52:00
   id: 1155004
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: perl-Gtk2 fails GdkPixbuf.t test since update of gdk-pixbuf to 2.38.2
 - component: Firefox
   create_time: 20191024T13:17:00
