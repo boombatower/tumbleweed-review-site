@@ -1020,7 +1020,16 @@
   stability_level: moderate
 '20191022':
   score: 70
-  stability_level: pending
+  stability_level: unstable
 '20191023':
-  score: 85
+  score: 87
+  stability_level: moderate
+'20191024':
+  score: 93
+  stability_level: pending
+'20191025':
+  score: 96
+  stability_level: pending
+'20191027':
+  score: 96
   stability_level: pending
