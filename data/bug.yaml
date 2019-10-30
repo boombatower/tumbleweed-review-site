@@ -30478,7 +30478,7 @@
   create_time: 20191015T13:05:00
   id: 1154080
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'libredwg: update to v0.9 (beta)'
 - component: Basesystem
   create_time: 20191015T11:23:00
@@ -30999,6 +30999,12 @@
   summary: 'nvidia-gfxG05-kmp-default-440.26_k5.3.6_1-20.4: fails to install in non-english
     locales due to usage of grep for english error messages in conftest.sh'
 '20191027':
+- component: KDE Workspace (Plasma)
+  create_time: 20191030T15:07:00
+  id: 1155462
+  resolution: ''
+  status: IN_PROGRESS
+  summary: xdg-terminal broken because kreadconfig is not found
 - component: Development
   create_time: 20191030T13:35:00
   id: 1155449
