@@ -6744,8 +6744,8 @@
 - component: Basesystem
   create_time: 20180404T01:45:00
   id: 1087996
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Missing broadcom firmware BCM20702A1-0a5c-21e8.hcd for bluetooth adapter
 '20180406':
 - component: YaST2
@@ -19544,8 +19544,8 @@
 - component: libzypp
   create_time: 20190216T09:07:00
   id: 1125655
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: zypper enhancement - update zypper/rpm before updating further packages
 - component: Firefox
   create_time: 20190216T07:52:00
@@ -19990,8 +19990,8 @@
 - component: X11 Applications
   create_time: 20190225T15:54:00
   id: 1126842
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: mnemosyne crashes in Tumbleweed
 - component: Basesystem
   create_time: 20190225T14:30:00
@@ -23539,8 +23539,8 @@
 - component: Kernel
   create_time: 20190514T23:44:00
   id: 1135139
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Intermittent Connections Drops with b43 Driver for bcm43228 chipset
 - component: YaST2
   create_time: 20190514T21:06:00
@@ -24281,8 +24281,8 @@
 - component: Kernel
   create_time: 20190530T08:51:00
   id: 1136837
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Desktop Graphics Intermittently Restarts while logged into plasma5
 - component: Basesystem
   create_time: 20190530T06:49:00
@@ -28693,8 +28693,8 @@
 - component: Other
   create_time: 20190903T09:23:00
   id: 1149164
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Recent snapshots seem to have broken user CIFS mounts
 - component: YaST2
   create_time: 20190903T06:27:00
@@ -29802,8 +29802,8 @@
   create_time: 20190926T18:51:00
   id: 1152185
   resolution: ''
-  status: NEW
-  summary: kube-flannel-ds-arm64
+  status: IN_PROGRESS
+  summary: kube-flannel-ds-arm64 crashes
 - component: YaST2
   create_time: 20190926T18:15:00
   id: 1152184
@@ -30154,8 +30154,8 @@
 - component: Kernel
   create_time: 20191004T01:19:00
   id: 1152971
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: (S)VGA outputs from i915 defunct after upgrade to Kernel 5.3
 '20191007':
 - component: libzypp
@@ -30266,8 +30266,8 @@
 - component: YaST2
   create_time: 20191010T10:45:00
   id: 1153568
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20191009] openQA test fails in yast2_nfs_client'
 - component: KDE Workspace (Plasma)
   create_time: 20191010T09:29:00
@@ -30495,8 +30495,8 @@
 - component: Kernel
   create_time: 20191015T07:56:00
   id: 1154010
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: AMDGPU Graphics Driver Causing Intermittent Screen Flashing
 - component: Xen
   create_time: 20191015T06:28:00
@@ -30605,7 +30605,7 @@
   create_time: 20191017T09:44:00
   id: 1154301
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: modem-manager-gui dumps core
 - component: GNOME
   create_time: 20191016T20:24:00
@@ -30622,8 +30622,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20191016T12:08:00
   id: 1154210
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: '[Build 20191014] openQA test fails in partitioning'
 - component: KDE Applications
   create_time: 20191016T11:16:00
@@ -30654,8 +30654,8 @@
 - component: Other
   create_time: 20191021T21:36:00
   id: 1154680
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: The proposal in openssl to make the TLS_CHACHA20_POLY1305_SHA256 cipher
     by default
 - component: KDE Workspace (Plasma)
@@ -30800,7 +30800,7 @@
   create_time: 20191022T07:44:00
   id: 1154700
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Systemd - password prompt for encrypted drive times out on boot and system
     crashes into emergency shell
 - component: YaST2
@@ -30816,50 +30816,68 @@
   status: IN_PROGRESS
   summary: Software repository - repository priority is misleading
 '20191023':
-- component: Kernel
-  create_time: 20191026T11:41:00
-  id: 1155155
+- component: GNOME
+  create_time: 20191023T22:18:00
+  id: 1154912
   resolution: ''
   status: NEW
-  summary: RPi3 Wifi firmware files missing
-- component: Other
-  create_time: 20191026T08:52:00
-  id: 1155151
+  summary: gnome-session starts to a black screen with mouse cursor in 20191018
+- component: GNOME
+  create_time: 20191023T20:22:00
+  id: 1154908
   resolution: ''
   status: NEW
-  summary: 'OpenVPN: Unit dbus-org.freedesktop.resolve1.service not found'
-- component: YaST2
-  create_time: 20191025T18:35:00
-  id: 1155132
-  resolution: ''
-  status: NEW
-  summary: Yast2 Software Manager with Mixed Languages
-- component: Development
-  create_time: 20191025T12:57:00
-  id: 1155108
-  resolution: ''
-  status: NEW
-  summary: Tumbleweed OpenMP Programs Compiled With clang9 and libomp9-devel Receive
-    SEGV During Exit Processing
-- component: libzypp
-  create_time: 20191025T12:43:00
-  id: 1155105
-  resolution: ''
-  status: NEW
-  summary: solver.onlyRequires=true being ignored after update of libzypp to 17.15.0-1.2
-- component: X11 3rd Party Driver
-  create_time: 20191025T06:11:00
-  id: 1155058
+  summary: nfs dispatcher script references removed nfs.service
+- component: Basesystem
+  create_time: 20191023T20:17:00
+  id: 1154906
   resolution: DUPLICATE
   status: RESOLVED
-  summary: 'nvidia G05: Driver 440 does not work'
-- component: X11 3rd Party Driver
-  create_time: 20191025T05:47:00
-  id: 1155053
+  summary: various udev rule errors
+- component: Firefox
+  create_time: 20191023T14:23:00
+  id: 1154871
+  resolution: ''
+  status: NEW
+  summary: p11-kit-nss-trust breaks Firefox addon update check
+- component: Other
+  create_time: 20191023T13:09:00
+  id: 1154859
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20191018] openQA test fails in kdump_and_crash - probing file system
+    failed on JeOS'
+- component: Samba
+  create_time: 20191023T08:43:00
+  id: 1154823
   resolution: FIXED
   status: RESOLVED
-  summary: 'nvidia-gfxG05-kmp-default-440.26_k5.3.6_1-20.4: fails to install in non-english
-    locales due to usage of grep for english error messages in conftest.sh'
+  summary: samba problems in TW snapshot 20191018
+- component: Other
+  create_time: 20191023T08:01:00
+  id: 1154817
+  resolution: ''
+  status: NEW
+  summary: '"cargo build" issues with rust-1.38.0'
+- component: Bootloader
+  create_time: 20191023T06:48:00
+  id: 1154809
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20191021] openQA test fails in boot_to_desktop'
+- component: Other
+  create_time: 20191023T06:45:00
+  id: 1154808
+  resolution: ''
+  status: CONFIRMED
+  summary: Flask-cors test fails in test_acl_uncaught_exception_500
+- component: Kernel
+  create_time: 20191023T06:10:00
+  id: 1154802
+  resolution: ''
+  status: NEW
+  summary: Kernel reports unknown header type 7f for pci device
+'20191024':
 - component: Kernel
   create_time: 20191024T19:33:00
   id: 1155032
@@ -30923,64 +30941,215 @@
   resolution: WORKSFORME
   status: RESOLVED
   summary: ALT+F2 no longer processed as a Global Shortcut
+'20191025':
 - component: GNOME
-  create_time: 20191023T22:18:00
-  id: 1154912
+  create_time: 20191026T21:50:00
+  id: 1155158
   resolution: ''
   status: NEW
-  summary: gnome-session starts to a black screen with mouse cursor in 20191018
-- component: GNOME
-  create_time: 20191023T20:22:00
-  id: 1154908
-  resolution: ''
-  status: NEW
-  summary: nfs dispatcher script references removed nfs.service
-- component: Basesystem
-  create_time: 20191023T20:17:00
-  id: 1154906
-  resolution: ''
-  status: NEW
-  summary: various udev rule errors
-- component: Firefox
-  create_time: 20191023T14:23:00
-  id: 1154871
-  resolution: ''
-  status: NEW
-  summary: p11-kit-nss-trust breaks Firefox addon update check
-- component: Other
-  create_time: 20191023T13:09:00
-  id: 1154859
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: '[Build 20191018] openQA test fails in kdump_and_crash - probing file system
-    failed on JeOS'
-- component: Samba
-  create_time: 20191023T08:43:00
-  id: 1154823
+  summary: NetworkManager does not execute pre-down-script on system shutdown
+- component: Upgrade Problems
+  create_time: 20191026T20:25:00
+  id: 1155157
   resolution: FIXED
   status: RESOLVED
-  summary: samba problems in TW snapshot 20191018
-- component: Other
-  create_time: 20191023T08:01:00
-  id: 1154817
+  summary: System unable to boot after tumbleweed upgrade as of 10-23
+- component: Installation
+  create_time: 20191026T11:41:00
+  id: 1155155
   resolution: ''
   status: NEW
-  summary: '"cargo build" issues with rust-1.38.0'
-- component: Bootloader
-  create_time: 20191023T06:48:00
-  id: 1154809
+  summary: RPi3 Wifi firmware files missing
+- component: Other
+  create_time: 20191026T08:52:00
+  id: 1155151
   resolution: ''
   status: NEW
-  summary: '[Build 20191021] openQA test fails in boot_to_desktop'
-- component: Other
-  create_time: 20191023T06:45:00
-  id: 1154808
+  summary: 'OpenVPN: Unit dbus-org.freedesktop.resolve1.service not found'
+- component: YaST2
+  create_time: 20191025T18:35:00
+  id: 1155132
+  resolution: INVALID
+  status: RESOLVED
+  summary: Yast2 Software Manager with Mixed Languages
+- component: Development
+  create_time: 20191025T12:57:00
+  id: 1155108
   resolution: ''
   status: CONFIRMED
-  summary: Flask-cors test fails in test_acl_uncaught_exception_500
-- component: Kernel
-  create_time: 20191023T06:10:00
-  id: 1154802
+  summary: Tumbleweed OpenMP Programs Compiled With clang9 and libomp9-devel Receive
+    SEGV During Exit Processing
+- component: libzypp
+  create_time: 20191025T12:43:00
+  id: 1155105
+  resolution: INVALID
+  status: RESOLVED
+  summary: solver.onlyRequires=true being ignored after update of libzypp to 17.15.0-1.2
+- component: X11 3rd Party Driver
+  create_time: 20191025T06:11:00
+  id: 1155058
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'nvidia G05: Driver 440 does not work'
+- component: X11 3rd Party Driver
+  create_time: 20191025T05:47:00
+  id: 1155053
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'nvidia-gfxG05-kmp-default-440.26_k5.3.6_1-20.4: fails to install in non-english
+    locales due to usage of grep for english error messages in conftest.sh'
+'20191027':
+- component: Development
+  create_time: 20191030T13:35:00
+  id: 1155449
+  resolution: ''
+  status: IN_PROGRESS
+  summary: LTO breaks libwebp on arm
+- component: Cloud:Tools
+  create_time: 20191030T12:42:00
+  id: 1155444
   resolution: ''
   status: NEW
-  summary: Kernel reports unknown header type 7f for pci device
+  summary: outdated golang-org-x-sys causes build errors in cf-cli
+- component: Development
+  create_time: 20191030T09:48:00
+  id: 1155416
+  resolution: ''
+  status: NEW
+  summary: llvm9 package no longer provides libclangIndex.so, libclangFormat.so, etc.
+- component: Security
+  create_time: 20191030T09:11:00
+  id: 1155411
+  resolution: ''
+  status: NEW
+  summary: 'VUL-1: CVE-2019-18604: texlive: improper use of sprintf'
+- component: GNOME
+  create_time: 20191030T09:03:00
+  id: 1155408
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191027] openQA test fails in change_password; automatically switch
+    to gdm after switch user under wayland'
+- component: X.Org
+  create_time: 20191030T00:19:00
+  id: 1155382
+  resolution: FIXED
+  status: RESOLVED
+  summary: submit request for libdrm2-2.4.100
+- component: Other
+  create_time: 20191029T22:35:00
+  id: 1155381
+  resolution: ''
+  status: NEW
+  summary: 'texlive: fir_7gpamp.enc not found'
+- component: KDE Applications
+  create_time: 20191029T21:57:00
+  id: 1155377
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: 'KDE:Applications/ktouch: compiled ahead of time with an incompatible version
+    of Qt'
+- component: libzypp
+  create_time: 20191029T13:33:00
+  id: 1155298
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'zypper lp: broken --cve/bugzilla/issue options'
+- component: Kernel
+  create_time: 20191029T12:13:00
+  id: 1155287
+  resolution: ''
+  status: NEW
+  summary: openQA test fails in kdump_and_crash
+- component: X11 3rd Party Driver
+  create_time: 20191029T10:20:00
+  id: 1155265
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'Intel HD Graphics 530/Quadro M1200 Mobile: Regression with NVIDIA 440.26:
+    Random freezes while playing game on proton (steam)'
+- component: GNOME
+  create_time: 20191029T08:47:00
+  id: 1155253
+  resolution: ''
+  status: NEW
+  summary: Core dump in gnome-shell
+- component: KDE Workspace (Plasma)
+  create_time: 20191028T17:51:00
+  id: 1155220
+  resolution: ''
+  status: NEW
+  summary: zdup-Leap-15.0-kde@64bit_cirrus has blurry speaker icon
+- component: libzypp
+  create_time: 20191028T13:21:00
+  id: 1155205
+  resolution: FIXED
+  status: RESOLVED
+  summary: '''zypper addlocale'' fails to add the locale if no packages are to be
+    added'
+- component: X11 3rd Party Driver
+  create_time: 20191028T12:55:00
+  id: 1155202
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'nvidia: Screen brightness keeps max when start the system'
+- component: libzypp
+  create_time: 20191028T11:16:00
+  id: 1155198
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Provide 'zypper purge-kernels' builtin command
+- component: Kernel
+  create_time: 20191028T09:53:00
+  id: 1155189
+  resolution: ''
+  status: NEW
+  summary: Touchpad doesn't work with 5.3.x kernel series
+- component: Other
+  create_time: 20191028T08:48:00
+  id: 1155183
+  resolution: ''
+  status: NEW
+  summary: Slack dependency issue with libappindicator-gtk3
+- component: Basesystem
+  create_time: 20191028T01:33:00
+  id: 1155171
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'tcsh does not recognize special chars:  *  and ~  and doesn''t load  ~/.tcshrc'
+- component: Basesystem
+  create_time: 20191027T19:30:00
+  id: 1155170
+  resolution: ''
+  status: NEW
+  summary: /boot and /boot/efi not mounted
+- component: KDE Workspace (Plasma)
+  create_time: 20191027T15:50:00
+  id: 1155167
+  resolution: ''
+  status: NEW
+  summary: Sleep/hibernation not working on Lenovo E595
+- component: X.Org
+  create_time: 20191027T15:30:00
+  id: 1155166
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'amdpu: Glitching chromium streaming.'
+- component: Kernel
+  create_time: 20191027T09:54:00
+  id: 1155164
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: AMDGPU Flashing Issues
+- component: GNOME
+  create_time: 20191027T09:00:00
+  id: 1155162
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191024] gnucash uninstallable'
+- component: Basesystem
+  create_time: 20191027T04:14:00
+  id: 1155160
+  resolution: ''
+  status: CONFIRMED
+  summary: Raid on kernels 5.3.2 and up
