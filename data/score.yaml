@@ -1026,7 +1026,7 @@
   stability_level: moderate
 '20191024':
   score: 93
-  stability_level: pending
+  stability_level: stable
 '20191025':
   score: 96
   stability_level: pending
