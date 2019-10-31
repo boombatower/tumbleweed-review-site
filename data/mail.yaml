@@ -2587,6 +2587,10 @@
   threads: []
 '20191028':
   announcement: 2019-10.407
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-10.410
+    reference_count: 1
+    summary: released!
