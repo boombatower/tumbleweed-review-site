@@ -12057,8 +12057,8 @@
 - component: Kernel
   create_time: 20180830T11:36:00
   id: 1106577
-  resolution: ''
-  status: CONFIRMED
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'amdgpu/Carrizo: With kernel greater than 4.18.0, it causes X to consume
     100% of CPU and crashes system hard'
 - component: Other
@@ -30533,7 +30533,7 @@
   id: 1153919
   resolution: ''
   status: NEW
-  summary: System lockup (in steps), maybe btrfs related
+  summary: 'System lockup: NULL pointer dereference in netlink_dump'
 - component: Kernel
   create_time: 20191014T09:40:00
   id: 1153891
@@ -30999,6 +30999,35 @@
   summary: 'nvidia-gfxG05-kmp-default-440.26_k5.3.6_1-20.4: fails to install in non-english
     locales due to usage of grep for english error messages in conftest.sh'
 '20191027':
+- component: Installation
+  create_time: 20191031T05:41:00
+  id: 1155516
+  resolution: ''
+  status: NEW
+  summary: '[Build 20190625] openQA test fails in await_install - live installer seems
+    to have reboot timeout but code says, it should not'
+- component: Installation
+  create_time: 20191031T05:37:00
+  id: 1155515
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191027] openQA test fails in installation overview of "live upgrade"
+    from Leap 42.3 with "Execution of command "[["/usr/bin/grub2-editenv", "list"]]"
+    failed."'
+- component: GNOME
+  create_time: 20191031T03:15:00
+  id: 1155511
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191028] openQA test fails in evince_view; can''t quit presentation
+    mode in evince under wayland'
+- component: Basesystem
+  create_time: 20191031T01:21:00
+  id: 1155510
+  resolution: ''
+  status: NEW
+  summary: iscsid service failed - stack smashing detected - when trying to connect
+    client to target
 - component: Other
   create_time: 20191030T23:20:00
   id: 1155507
