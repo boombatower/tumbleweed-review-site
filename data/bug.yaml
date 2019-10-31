@@ -30999,6 +30999,12 @@
   summary: 'nvidia-gfxG05-kmp-default-440.26_k5.3.6_1-20.4: fails to install in non-english
     locales due to usage of grep for english error messages in conftest.sh'
 '20191027':
+- component: Other
+  create_time: 20191030T23:20:00
+  id: 1155507
+  resolution: ''
+  status: NEW
+  summary: SMPlayer has no timeline and video control broken with mpv 0.30.0+git.1572040975.a908101258-37.1
 - component: KDE Workspace (Plasma)
   create_time: 20191030T15:07:00
   id: 1155462
@@ -31020,8 +31026,8 @@
 - component: Development
   create_time: 20191030T09:48:00
   id: 1155416
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: llvm9 package no longer provides libclangIndex.so, libclangFormat.so, etc.
 - component: Security
   create_time: 20191030T09:11:00
