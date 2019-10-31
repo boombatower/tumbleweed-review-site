@@ -8626,8 +8626,8 @@
 - component: Development
   create_time: 20180523T09:12:00
   id: 1094323
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: packages do not build reproducibly from pip install
 '20180524':
 - component: GNOME
@@ -22062,7 +22062,7 @@
   create_time: 20190416T15:57:00
   id: 1132687
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: borg mount is broken
 - component: Firefox
   create_time: 20190416T13:51:00
@@ -25730,8 +25730,8 @@
 - component: Kernel
   create_time: 20190715T13:08:00
   id: 1141498
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Mounting nfs at boot give fs-cache invalid cookie
 - component: X.Org
   create_time: 20190715T12:22:00
@@ -26073,8 +26073,8 @@
 - component: Basesystem
   create_time: 20190708T07:55:00
   id: 1140630
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: pmem links for partitions missing
 - component: GNOME
   create_time: 20190708T06:09:00
@@ -26234,8 +26234,8 @@
 - component: Kernel
   create_time: 20190716T21:06:00
   id: 1141720
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: I2C error and no touchscreen  on  the Atom Windows Tablet devices Q506/ME
     in Tumbleweed 20190708
 - component: Development
@@ -29201,13 +29201,13 @@
   create_time: 20190912T11:26:00
   id: 1150532
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: apt-cacher-ng: review of cron job file(s): /etc/cron.daily/apt-cacher-ng'
 - component: Security
   create_time: 20190912T11:23:00
   id: 1150530
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-1: aide: review of cron job file(s): /usr/share/doc/packages/aide/examples/etc/cron.daily/aide.sh'
 - component: Security
   create_time: 20190912T11:02:00
@@ -29713,8 +29713,8 @@
 - component: YaST2
   create_time: 20190923T10:34:00
   id: 1151637
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: When configuring NFS server I get error with default options
 - component: Development
   create_time: 20190923T07:05:00
@@ -30999,6 +30999,56 @@
   summary: 'nvidia-gfxG05-kmp-default-440.26_k5.3.6_1-20.4: fails to install in non-english
     locales due to usage of grep for english error messages in conftest.sh'
 '20191027':
+- component: Basesystem
+  create_time: 20191027T19:30:00
+  id: 1155170
+  resolution: ''
+  status: NEW
+  summary: /boot and /boot/efi not mounted
+- component: KDE Workspace (Plasma)
+  create_time: 20191027T15:50:00
+  id: 1155167
+  resolution: ''
+  status: NEW
+  summary: Sleep/hibernation not working on Lenovo E595
+- component: X.Org
+  create_time: 20191027T15:30:00
+  id: 1155166
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'amdpu: Glitching chromium streaming.'
+- component: Kernel
+  create_time: 20191027T09:54:00
+  id: 1155164
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: AMDGPU Flashing Issues
+- component: GNOME
+  create_time: 20191027T09:00:00
+  id: 1155162
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191024] gnucash uninstallable'
+- component: Basesystem
+  create_time: 20191027T04:14:00
+  id: 1155160
+  resolution: ''
+  status: CONFIRMED
+  summary: Raid on kernels 5.3.2 and up
+'20191028':
+- component: YaST2
+  create_time: 20191031T16:38:00
+  id: 1155584
+  resolution: ''
+  status: NEW
+  summary: Typo in Yast
+- component: Other
+  create_time: 20191031T16:25:00
+  id: 1155583
+  resolution: ''
+  status: NEW
+  summary: 'openQA ppc64le docker test fails "systemd-journald.service: Main process
+    exited, code=dumped, status=6/ABRT"'
 - component: Kernel
   create_time: 20191031T11:32:00
   id: 1155567
@@ -31009,8 +31059,8 @@
 - component: Basesystem
   create_time: 20191031T11:18:00
   id: 1155566
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: libstorage-ng MountPoint::possible_mount_bys() does not check for swap
     flag in crypttab
 - component: YaST2
@@ -31042,7 +31092,7 @@
   create_time: 20191031T05:41:00
   id: 1155516
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20190625] openQA test fails in await_install - live installer seems
     to have reboot timeout but code says, it should not'
 - component: Installation
@@ -31064,7 +31114,7 @@
   create_time: 20191031T01:21:00
   id: 1155510
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: iscsid service failed - stack smashing detected - when trying to connect
     client to target
 - component: Other
@@ -31100,8 +31150,8 @@
 - component: Security
   create_time: 20191030T09:11:00
   id: 1155411
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'VUL-1: CVE-2019-18604: texlive: improper use of sprintf'
 - component: GNOME
   create_time: 20191030T09:03:00
@@ -31197,39 +31247,3 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: 'tcsh does not recognize special chars:  *  and ~  and doesn''t load  ~/.tcshrc'
-- component: Basesystem
-  create_time: 20191027T19:30:00
-  id: 1155170
-  resolution: ''
-  status: NEW
-  summary: /boot and /boot/efi not mounted
-- component: KDE Workspace (Plasma)
-  create_time: 20191027T15:50:00
-  id: 1155167
-  resolution: ''
-  status: NEW
-  summary: Sleep/hibernation not working on Lenovo E595
-- component: X.Org
-  create_time: 20191027T15:30:00
-  id: 1155166
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'amdpu: Glitching chromium streaming.'
-- component: Kernel
-  create_time: 20191027T09:54:00
-  id: 1155164
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: AMDGPU Flashing Issues
-- component: GNOME
-  create_time: 20191027T09:00:00
-  id: 1155162
-  resolution: ''
-  status: NEW
-  summary: '[Build 20191024] gnucash uninstallable'
-- component: Basesystem
-  create_time: 20191027T04:14:00
-  id: 1155160
-  resolution: ''
-  status: CONFIRMED
-  summary: Raid on kernels 5.3.2 and up
