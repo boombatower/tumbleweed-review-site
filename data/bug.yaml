@@ -15754,8 +15754,8 @@
 - component: Kernel
   create_time: 20181114T14:03:00
   id: 1115998
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: irq/17 high cpu usage upon resume
 - component: Other
   create_time: 20181114T14:01:00
@@ -18542,8 +18542,8 @@
   create_time: 20190125T16:40:00
   id: 1123198
   resolution: ''
-  status: NEW
-  summary: rtl8723de wifi
+  status: CONFIRMED
+  summary: rtl8723de wifi not supported
 - component: Bootloader
   create_time: 20190125T13:35:00
   id: 1123170
@@ -24027,7 +24027,7 @@
   create_time: 20190521T09:01:00
   id: 1135733
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: vorta package should be updated
 '20190524':
 - component: Kubic
@@ -24653,8 +24653,8 @@
 - component: Other
   create_time: 20190607T20:14:00
   id: 1137665
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: mpv-plugin-mpris exits with an error
 - component: Kernel
   create_time: 20190607T14:23:00
@@ -24815,8 +24815,8 @@
 - component: Kernel
   create_time: 20190614T22:41:00
   id: 1138346
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: DVB card unusable after hibernate
 - component: Live Medium
   create_time: 20190614T17:52:00
@@ -25881,8 +25881,8 @@
 - component: Other
   create_time: 20190711T09:05:00
   id: 1141105
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'Failed to call mkisofs: Warning: no Apple/Unix files will be decoded/mapped'
 - component: Other
   create_time: 20190711T08:23:00
@@ -26070,7 +26070,7 @@
   resolution: ''
   status: REOPENED
   summary: Raspberry 3B+ bluetooth troubles
-- component: Kernel
+- component: Basesystem
   create_time: 20190708T07:55:00
   id: 1140630
   resolution: ''
@@ -26316,8 +26316,8 @@
 - component: Kernel
   create_time: 20190717T15:05:00
   id: 1141881
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: '"BUG: unable to handle kernel NULL pointer dereference at 0000000000000029"
     on OBS job'
 - component: Other
@@ -27008,8 +27008,8 @@
 - component: Security
   create_time: 20190802T17:19:00
   id: 1144077
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-TRACKER: libvirt: new polkit permissions for checkpoint'
 - component: Other
   create_time: 20190802T16:13:00
@@ -30537,8 +30537,8 @@
 - component: Kernel
   create_time: 20191014T09:40:00
   id: 1153891
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: md raid0 fails to mount due to default_layout (wrong message)
 - component: Basesystem
   create_time: 20191014T09:01:00
@@ -30731,7 +30731,7 @@
   create_time: 20191019T20:57:00
   id: 1154539
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: rtl8812au is no longer working
 - component: Other
   create_time: 20191019T18:48:00
@@ -30999,6 +30999,45 @@
   summary: 'nvidia-gfxG05-kmp-default-440.26_k5.3.6_1-20.4: fails to install in non-english
     locales due to usage of grep for english error messages in conftest.sh'
 '20191027':
+- component: Kernel
+  create_time: 20191031T11:32:00
+  id: 1155567
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: '[20191028][jeos] kernel-default-base and kernel-default-debuginfo packages
+    doesn''t have the same release version'
+- component: Basesystem
+  create_time: 20191031T11:18:00
+  id: 1155566
+  resolution: ''
+  status: IN_PROGRESS
+  summary: libstorage-ng MountPoint::possible_mount_bys() does not check for swap
+    flag in crypttab
+- component: YaST2
+  create_time: 20191031T09:51:00
+  id: 1155550
+  resolution: ''
+  status: NEW
+  summary: libyui-qt{,-pkg} fails to build against Qt 5.14
+- component: Firefox
+  create_time: 20191031T09:48:00
+  id: 1155548
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191027] firefox: no icon in menus (on updates)'
+- component: YaST2
+  create_time: 20191031T09:37:00
+  id: 1155545
+  resolution: ''
+  status: NEW
+  summary: Upgrade from Leap 15.0 using the live upgrade fails
+- component: Security
+  create_time: 20191031T09:07:00
+  id: 1155539
+  resolution: ''
+  status: NEW
+  summary: 'VUL-0: CVE-2018-21029: systemd: no hostname validation results in acceptance
+    of any certificate signed by a trusted certificate authority for DNS Over TLS'
 - component: Installation
   create_time: 20191031T05:41:00
   id: 1155516
@@ -31009,8 +31048,8 @@
 - component: Installation
   create_time: 20191031T05:37:00
   id: 1155515
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[Build 20191027] openQA test fails in installation overview of "live upgrade"
     from Leap 42.3 with "Execution of command "[["/usr/bin/grub2-editenv", "list"]]"
     failed."'
@@ -31080,8 +31119,8 @@
 - component: Other
   create_time: 20191029T22:35:00
   id: 1155381
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'texlive: fir_7gpamp.enc not found'
 - component: KDE Applications
   create_time: 20191029T21:57:00
