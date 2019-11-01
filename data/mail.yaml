@@ -2558,12 +2558,12 @@
     summary: problem with menue check boxes and radio buttons
 '20191022':
   announcement: 2019-10.304
-  reference_count: 29
+  reference_count: 30
   thread_count: 1
   threads:
   - messages:
     - 2019-10.306
-    reference_count: 29
+    reference_count: 30
     summary: kdm issues?
 '20191023':
   announcement: 2019-10.342
@@ -2594,3 +2594,8 @@
     - 2019-10.410
     reference_count: 1
     summary: released!
+'20191030':
+  announcement: 2019-11.11
+  reference_count: 0
+  thread_count: 0
+  threads: []
