@@ -31036,6 +31036,12 @@
   status: CONFIRMED
   summary: Raid on kernels 5.3.2 and up
 '20191028':
+- component: Xfce
+  create_time: 20191101T06:01:00
+  id: 1155611
+  resolution: ''
+  status: NEW
+  summary: Gigolo SMB share adds port 21 to config file
 - component: YaST2
   create_time: 20191031T16:38:00
   id: 1155584
