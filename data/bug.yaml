@@ -31118,6 +31118,12 @@
   status: RESOLVED
   summary: 'tcsh does not recognize special chars:  *  and ~  and doesn''t load  ~/.tcshrc'
 '20191030':
+- component: Network
+  create_time: 20191102T00:54:00
+  id: 1155675
+  resolution: ''
+  status: NEW
+  summary: 'ovsdb: Could not connect: No such file or directory'
 - component: Installation
   create_time: 20191101T23:52:00
   id: 1155674
