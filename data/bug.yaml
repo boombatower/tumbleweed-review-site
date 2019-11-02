@@ -31118,6 +31118,13 @@
   status: RESOLVED
   summary: 'tcsh does not recognize special chars:  *  and ~  and doesn''t load  ~/.tcshrc'
 '20191030':
+- component: Installation
+  create_time: 20191101T23:52:00
+  id: 1155674
+  resolution: ''
+  status: NEW
+  summary: 'Expert Partitioner: internal error, if encrypted btrfs partition shall
+    be created'
 - component: KDE Workspace (Plasma)
   create_time: 20191101T13:58:00
   id: 1155657
