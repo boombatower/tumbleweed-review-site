@@ -29844,8 +29844,8 @@
 - component: KDE Applications
   create_time: 20190928T16:32:00
   id: 1152385
-  resolution: ''
-  status: REOPENED
+  resolution: INVALID
+  status: RESOLVED
   summary: duplex printing is not available in okular
 - component: Basesystem
   create_time: 20190928T15:18:00
@@ -31250,6 +31250,18 @@
   status: RESOLVED
   summary: submit request for libdrm2-2.4.100
 '20191101':
+- component: Kernel
+  create_time: 20191104T19:50:00
+  id: 1155836
+  resolution: ''
+  status: NEW
+  summary: sporadic workqueue lockups in sound_hda_core
+- component: Kernel
+  create_time: 20191104T17:11:00
+  id: 1155824
+  resolution: ''
+  status: NEW
+  summary: Cursor lags with mouse and touchpad during CPU spikes
 - component: Live Medium
   create_time: 20191104T15:54:00
   id: 1155815
@@ -31349,7 +31361,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'ovsdb: Could not connect: No such file or directory'
-- component: Installation
+- component: Translations
   create_time: 20191101T23:52:00
   id: 1155674
   resolution: ''
