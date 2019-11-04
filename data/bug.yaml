@@ -31203,8 +31203,8 @@
 - component: Other
   create_time: 20191030T23:20:00
   id: 1155507
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: SMPlayer has no timeline and video control broken with mpv 0.30.0+git.1572040975.a908101258-37.1
 - component: KDE Workspace (Plasma)
   create_time: 20191030T15:07:00
@@ -31250,6 +31250,12 @@
   status: RESOLVED
   summary: submit request for libdrm2-2.4.100
 '20191101':
+- component: Basesystem
+  create_time: 20191104T20:57:00
+  id: 1155839
+  resolution: ''
+  status: NEW
+  summary: 'Python 3.8 regression: endless loop in shutil.copytree'
 - component: Kernel
   create_time: 20191104T19:50:00
   id: 1155836
