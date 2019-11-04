@@ -1032,10 +1032,13 @@
   stability_level: stable
 '20191027':
   score: 98
-  stability_level: pending
+  stability_level: stable
 '20191028':
   score: 94
-  stability_level: pending
+  stability_level: stable
 '20191030':
   score: 95
+  stability_level: pending
+'20191101':
+  score: 96
   stability_level: pending
