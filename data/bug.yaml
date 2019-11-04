@@ -12859,8 +12859,8 @@
 - component: Development
   create_time: 20180924T15:04:00
   id: 1109470
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: noarch post-build-checks contains arch-dependent /etc/suse-ignored-rpaths.conf
 - component: Other
   create_time: 20180924T11:00:00
@@ -12910,7 +12910,7 @@
   create_time: 20180925T05:06:00
   id: 1109541
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: dtv-scan-tables differs between architectures
 - component: Other
   create_time: 20180925T04:57:00
@@ -13038,8 +13038,8 @@
 - component: Other
   create_time: 20180926T03:56:00
   id: 1109754
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: perl noarch packages differ between architectures
 - component: Development
   create_time: 20180926T01:27:00
@@ -13063,8 +13063,8 @@
 - component: Kernel
   create_time: 20180930T13:47:00
   id: 1110252
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: sata_mv reported bug while dd_rescue a problematic disk
 - component: Security
   create_time: 20180930T08:06:00
@@ -20685,8 +20685,8 @@
 - component: Kernel
   create_time: 20190311T10:19:00
   id: 1128691
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Raspberry Pi 3 B/B+ - Boot from USB breaks reboot
 - component: Kernel
   create_time: 20190311T05:38:00
@@ -24530,8 +24530,8 @@
 - component: Kernel
   create_time: 20190605T15:20:00
   id: 1137361
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Enhance kvmsmall config with paravirtualized modules
 - component: Basesystem
   create_time: 20190605T12:59:00
@@ -26442,8 +26442,8 @@
 - component: Kernel
   create_time: 20190718T09:58:00
   id: 1141998
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: nvme_timeout fix not forward ported to 5.X ?
 - component: Other
   create_time: 20190718T09:34:00
@@ -28403,8 +28403,8 @@
 - component: Kernel
   create_time: 20190826T08:03:00
   id: 1148085
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: x.org display flickering/artifacting when scrolling (basically, when something
     needs to be refreshed)
 - component: Basesystem
@@ -28718,8 +28718,8 @@
 - component: Kernel
   create_time: 20190902T14:42:00
   id: 1149119
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kernel-default-base does not have a debuginfo package
 - component: Basesystem
   create_time: 20190902T14:31:00
@@ -29195,7 +29195,7 @@
   create_time: 20190912T11:27:00
   id: 1150533
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: atop-daemon: review of cron job file(s): /etc/cron.d/atop'
 - component: Security
   create_time: 20190912T11:26:00
@@ -30969,14 +30969,15 @@
 - component: YaST2
   create_time: 20191025T18:35:00
   id: 1155132
-  resolution: INVALID
-  status: RESOLVED
-  summary: Yast2 Software Manager with Mixed Languages
+  resolution: ''
+  status: REOPENED
+  summary: Lost "orphaned packages" and "unneeded packages" lists in the YaST Software
+    Manager
 - component: Development
   create_time: 20191025T12:57:00
   id: 1155108
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Tumbleweed OpenMP Programs Compiled With clang9 and libomp9-devel Receive
     SEGV During Exit Processing
 - component: libzypp
@@ -31016,7 +31017,7 @@
   id: 1155166
   resolution: ''
   status: IN_PROGRESS
-  summary: 'amdpu: Glitching chromium streaming.'
+  summary: 'amdgpu: Glitching chromium streaming.'
 - component: Kernel
   create_time: 20191027T09:54:00
   id: 1155164
@@ -31118,57 +31119,6 @@
   status: RESOLVED
   summary: 'tcsh does not recognize special chars:  *  and ~  and doesn''t load  ~/.tcshrc'
 '20191030':
-- component: Network
-  create_time: 20191102T00:54:00
-  id: 1155675
-  resolution: ''
-  status: NEW
-  summary: 'ovsdb: Could not connect: No such file or directory'
-- component: Installation
-  create_time: 20191101T23:52:00
-  id: 1155674
-  resolution: ''
-  status: NEW
-  summary: 'Expert Partitioner: internal error, if encrypted btrfs partition shall
-    be created'
-- component: KDE Workspace (Plasma)
-  create_time: 20191101T13:58:00
-  id: 1155657
-  resolution: ''
-  status: NEW
-  summary: $HOME/.config/menus directory not created by default on KDE
-- component: Network
-  create_time: 20191101T10:34:00
-  id: 1155639
-  resolution: ''
-  status: NEW
-  summary: '''yast2 lan'' tool does not store WIRELESS_WPA_PSK credentials in the
-    WLAN wireless configuration file'
-- component: GNOME
-  create_time: 20191101T10:04:00
-  id: 1155638
-  resolution: ''
-  status: NEW
-  summary: error when doing upgrade with package manager
-- component: Other
-  create_time: 20191101T09:30:00
-  id: 1155634
-  resolution: ''
-  status: NEW
-  summary: Clamtk package outdated
-- component: GNOME
-  create_time: 20191101T08:47:00
-  id: 1155624
-  resolution: ''
-  status: NEW
-  summary: '[Build 20191030] PackageKit: cancels entire transaction if one package
-    already installed'
-- component: Xfce
-  create_time: 20191101T06:01:00
-  id: 1155611
-  resolution: ''
-  status: NEW
-  summary: Gigolo SMB share adds port 21 to config file
 - component: YaST2
   create_time: 20191031T16:38:00
   id: 1155584
@@ -31299,3 +31249,148 @@
   resolution: FIXED
   status: RESOLVED
   summary: submit request for libdrm2-2.4.100
+'20191101':
+- component: Live Medium
+  create_time: 20191104T15:54:00
+  id: 1155815
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191103] kiwi breaks booting live media on EFI'
+- component: Other
+  create_time: 20191104T15:19:00
+  id: 1155809
+  resolution: ''
+  status: NEW
+  summary: MuseScore-3.3 built in debug mode
+- component: Maintenance
+  create_time: 20191104T12:44:00
+  id: 1155792
+  resolution: ''
+  status: NEW
+  summary: Packaging bug updating Corosync
+- component: Basesystem
+  create_time: 20191104T11:28:00
+  id: 1155785
+  resolution: ''
+  status: NEW
+  summary: New _libexecdir location is now lacking _libconfdir
+- component: Other
+  create_time: 20191104T09:16:00
+  id: 1155752
+  resolution: ''
+  status: NEW
+  summary: Missing dependency for texlive-verbatimbox
+- component: YaST2
+  create_time: 20191104T07:17:00
+  id: 1155735
+  resolution: ''
+  status: NEW
+  summary: Security and User modules - default /etc/login.def is now in /usr/etc
+- component: Other
+  create_time: 20191104T01:15:00
+  id: 1155704
+  resolution: FIXED
+  status: RESOLVED
+  summary: Incomplete dependencies for MuseScore-3.3
+- component: X11 Applications
+  create_time: 20191103T20:22:00
+  id: 1155700
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Git Cola 3.5 crashes on repo open (edit)
+- component: YaST2
+  create_time: 20191103T11:29:00
+  id: 1155695
+  resolution: ''
+  status: CONFIRMED
+  summary: Password encryption method depends on whether Expert Options - Password
+    Encryption was called
+- component: YaST2
+  create_time: 20191103T10:03:00
+  id: 1155693
+  resolution: ''
+  status: CONFIRMED
+  summary: Yast2 fails to open the system - network settings module
+- component: Security
+  create_time: 20191102T23:17:00
+  id: 1155691
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: slack: home:giovanism/slack: setuid binary whitelisting request
+    for chrome-sandbox'
+- component: Other
+  create_time: 20191102T21:48:00
+  id: 1155690
+  resolution: ''
+  status: NEW
+  summary: nginx starts faster than the network and need Requires=network.target
+- component: Installation
+  create_time: 20191102T13:56:00
+  id: 1155687
+  resolution: ''
+  status: CONFIRMED
+  summary: Bad install when using Tumbleweed live iso (20191030)
+- component: Installation
+  create_time: 20191102T13:15:00
+  id: 1155686
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191031] openQA test fails in bootloader_s390 - sshd: no hostkeys
+    available'
+- component: libzypp
+  create_time: 20191102T08:14:00
+  id: 1155678
+  resolution: ''
+  status: NEW
+  summary: '"zypper dup" always installs -lang files'
+- component: Network
+  create_time: 20191102T00:54:00
+  id: 1155675
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'ovsdb: Could not connect: No such file or directory'
+- component: Installation
+  create_time: 20191101T23:52:00
+  id: 1155674
+  resolution: ''
+  status: NEW
+  summary: 'Expert Partitioner: internal error, if encrypted btrfs partition shall
+    be created'
+- component: KDE Workspace (Plasma)
+  create_time: 20191101T13:58:00
+  id: 1155657
+  resolution: ''
+  status: NEW
+  summary: $HOME/.config/menus directory not created by default on KDE
+- component: YaST2
+  create_time: 20191101T10:34:00
+  id: 1155639
+  resolution: ''
+  status: NEW
+  summary: '''yast2 lan'' tool does not store WIRELESS_WPA_PSK credentials in the
+    WLAN wireless configuration file'
+- component: GNOME
+  create_time: 20191101T10:04:00
+  id: 1155638
+  resolution: ''
+  status: NEW
+  summary: error when doing upgrade with package manager
+- component: Other
+  create_time: 20191101T09:30:00
+  id: 1155634
+  resolution: ''
+  status: NEW
+  summary: Clamtk package outdated
+- component: GNOME
+  create_time: 20191101T08:47:00
+  id: 1155624
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191030] PackageKit: cancels entire transaction if one package
+    already installed'
+- component: Xfce
+  create_time: 20191101T06:01:00
+  id: 1155611
+  resolution: ''
+  status: NEW
+  summary: Gigolo SMB share adds port 21 to config file
