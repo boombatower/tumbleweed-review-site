@@ -3434,8 +3434,8 @@
 - component: Other
   create_time: 20180208T14:34:00
   id: 1080086
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: psgml package breaks emacs js-mode
 - component: Kernel
   create_time: 20180208T13:02:00
@@ -29189,7 +29189,7 @@
   create_time: 20190912T11:28:00
   id: 1150534
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: cacti: review of cron job file(s): /etc/cron.d/cacti'
 - component: Security
   create_time: 20190912T11:27:00
@@ -30058,7 +30058,7 @@
   create_time: 20191003T13:50:00
   id: 1152932
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Chinese BT 5.0 USB dongles don't work
 - component: Samba
   create_time: 20191003T13:20:00
@@ -31168,7 +31168,7 @@
   create_time: 20191031T09:07:00
   id: 1155539
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'VUL-0: CVE-2018-21029: systemd: no hostname validation results in acceptance
     of any certificate signed by a trusted certificate authority for DNS Over TLS'
 - component: Installation
@@ -31250,6 +31250,24 @@
   status: RESOLVED
   summary: submit request for libdrm2-2.4.100
 '20191101':
+- component: Kernel
+  create_time: 20191105T12:42:00
+  id: 1155921
+  resolution: ''
+  status: NEW
+  summary: compressing /boot/vmlinux using xz
+- component: Other
+  create_time: 20191105T12:15:00
+  id: 1155917
+  resolution: ''
+  status: NEW
+  summary: Recent xrpd update breaks login
+- component: Basesystem
+  create_time: 20191105T10:01:00
+  id: 1155889
+  resolution: ''
+  status: NEW
+  summary: LTO makes bluez unit test segfault
 - component: Basesystem
   create_time: 20191104T20:57:00
   id: 1155839
@@ -31259,8 +31277,8 @@
 - component: Kernel
   create_time: 20191104T19:50:00
   id: 1155836
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: sporadic workqueue lockups in sound_hda_core
 - component: Kernel
   create_time: 20191104T17:11:00
@@ -31277,8 +31295,8 @@
 - component: Other
   create_time: 20191104T15:19:00
   id: 1155809
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: MuseScore-3.3 built in debug mode
 - component: Maintenance
   create_time: 20191104T12:44:00
@@ -31303,7 +31321,8 @@
   id: 1155735
   resolution: ''
   status: NEW
-  summary: Security and User modules - default /etc/login.def is now in /usr/etc
+  summary: '[FEATURE] Security and User modules - default /etc/login.def is now in
+    /usr/etc'
 - component: Other
   create_time: 20191104T01:15:00
   id: 1155704
