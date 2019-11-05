@@ -31067,7 +31067,7 @@
   id: 1155265
   resolution: ''
   status: IN_PROGRESS
-  summary: 'Intel HD Graphics 530/Quadro M1200 Mobile: Regression with NVIDIA 440.26:
+  summary: 'Intel HD Graphics 530/Quadro M1200 Mobile: Regression with NVIDIA 440.26/440.31:
     Random freezes while playing game on proton (steam)'
 - component: GNOME
   create_time: 20191029T08:47:00
@@ -31278,8 +31278,8 @@
 - component: Other
   create_time: 20191105T15:32:00
   id: 1155940
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[llvm9] Missing libraries'
 - component: Kernel
   create_time: 20191105T15:13:00
