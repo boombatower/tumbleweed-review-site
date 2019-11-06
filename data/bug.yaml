@@ -12933,8 +12933,8 @@
 - component: Other
   create_time: 20180925T04:31:00
   id: 1109536
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: /usr/bin/ads differs between architectures
 - component: Development
   create_time: 20180925T04:13:00
@@ -29164,14 +29164,14 @@
   create_time: 20190912T11:55:00
   id: 1150546
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: logdigest: review of cron job file(s): /etc/cron.d/logdigest-all-ignores-autogeneration,
     /etc/cron.daily/logdigest'
 - component: Security
   create_time: 20190912T11:55:00
   id: 1150545
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: leafnode: review of cron job file(s): /etc/cron.daily/leafnode'
 - component: Security
   create_time: 20190912T11:54:00
@@ -29801,8 +29801,8 @@
 - component: Kubic
   create_time: 20190926T18:51:00
   id: 1152185
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: kube-flannel-ds-arm64 crashes
 - component: YaST2
   create_time: 20190926T18:15:00
@@ -30063,8 +30063,8 @@
 - component: Samba
   create_time: 20191003T13:20:00
   id: 1152930
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: mount.cifs crashes when attempting to mount invalid directories
 - component: Development
   create_time: 20191003T09:30:00
@@ -30808,7 +30808,8 @@
   id: 1154694
   resolution: ''
   status: CONFIRMED
-  summary: ncurses yast2 crashes when terminal shrinks
+  summary: ncurses yast2 crashes while resizing terminal and the dialog contains a
+    table
 - component: YaST2
   create_time: 20191022T06:43:00
   id: 1154693
@@ -31250,6 +31251,13 @@
   status: RESOLVED
   summary: submit request for libdrm2-2.4.100
 '20191101':
+- component: Installation
+  create_time: 20191106T13:57:00
+  id: 1156047
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191104] openQA test fails in bootloader_s390 - /dev/hvc0: cannot
+    get controlling tty: Operation not permitted'
 - component: GNOME
   create_time: 20191106T10:33:00
   id: 1156020
@@ -31262,7 +31270,7 @@
   resolution: ''
   status: NEW
   summary: neovim split display broken
-- component: Other
+- component: Virtualization:Other
   create_time: 20191105T17:03:00
   id: 1155956
   resolution: ''
@@ -31425,8 +31433,8 @@
 - component: Installation
   create_time: 20191102T13:15:00
   id: 1155686
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: '[Build 20191031] openQA test fails in bootloader_s390 - sshd: no hostkeys
     available'
 - component: libzypp
