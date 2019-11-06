@@ -31354,6 +31354,19 @@
   status: NEW
   summary: Gigolo SMB share adds port 21 to config file
 '20191104':
+- component: Samba
+  create_time: 20191106T19:30:00
+  id: 1156077
+  resolution: ''
+  status: NEW
+  summary: smbclient or dolphin can not connect to livebox USB shared disk
+- component: Bootloader
+  create_time: 20191106T18:29:00
+  id: 1156073
+  resolution: ''
+  status: NEW
+  summary: Zypper DUP to 20191104 snapshot boots to 'grub_file_filters' not found
+    / grub rescue
 - component: Kernel
   create_time: 20191106T14:53:00
   id: 1156053
