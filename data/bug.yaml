@@ -29177,7 +29177,7 @@
   create_time: 20190912T11:54:00
   id: 1150543
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: froxlor: review of cron job file(s): /etc/cron.d/froxlor'
 - component: Security
   create_time: 20190912T11:52:00
@@ -31250,6 +31250,18 @@
   status: RESOLVED
   summary: submit request for libdrm2-2.4.100
 '20191101':
+- component: GNOME
+  create_time: 20191106T10:33:00
+  id: 1156020
+  resolution: ''
+  status: NEW
+  summary: GTK radio buttons and checkboxes rendered as solid black boxes
+- component: Development
+  create_time: 20191106T09:09:00
+  id: 1156009
+  resolution: ''
+  status: NEW
+  summary: neovim split display broken
 - component: Other
   create_time: 20191105T17:03:00
   id: 1155956
@@ -31267,7 +31279,7 @@
   create_time: 20191105T16:41:00
   id: 1155953
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: osc v0.166 broke my osc vc use case
 - component: AutoYaST
   create_time: 20191105T15:59:00
