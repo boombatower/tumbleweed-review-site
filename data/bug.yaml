@@ -31262,7 +31262,7 @@
   id: 1155955
   resolution: ''
   status: NEW
-  summary: qt segfaults in WSL
+  summary: Calling libQt5Core5.so segfaults due to unaligned stack
 - component: Other
   create_time: 20191105T16:41:00
   id: 1155953
@@ -31356,8 +31356,8 @@
 - component: Other
   create_time: 20191104T09:16:00
   id: 1155752
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Missing dependency for texlive-verbatimbox
 - component: YaST2
   create_time: 20191104T07:17:00
