@@ -31354,6 +31354,12 @@
   status: NEW
   summary: Gigolo SMB share adds port 21 to config file
 '20191104':
+- component: Other
+  create_time: 20191106T20:42:00
+  id: 1156081
+  resolution: ''
+  status: NEW
+  summary: /usr/bin/pg_config not created after postgresql10-devel installation
 - component: Samba
   create_time: 20191106T19:30:00
   id: 1156077
