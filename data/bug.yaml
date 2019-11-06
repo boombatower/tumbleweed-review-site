@@ -9265,8 +9265,8 @@
 - component: Basesystem
   create_time: 20180606T12:30:00
   id: 1096241
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[opensuse][tumbleweed][20180603][liveCD/rescue] Shutdown takes too much
     time when lvmetad doesn''t respond to SIGKILL'
 - component: YaST2
@@ -26755,8 +26755,8 @@
 - component: Basesystem
   create_time: 20190724T07:57:00
   id: 1142587
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '"use_lvmetad = 1" delays shutdown / reboot for about 2 minutes'
 - component: Basesystem
   create_time: 20190724T07:57:00
