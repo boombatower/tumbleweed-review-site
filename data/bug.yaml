@@ -10316,8 +10316,8 @@
 - component: Kernel
   create_time: 20180709T07:19:00
   id: 1100541
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: random freeze
 '20180710':
 - component: Bootloader
@@ -16032,8 +16032,8 @@
 - component: Kernel
   create_time: 20181119T16:48:00
   id: 1116598
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: RPC kernel msg in root-console make power_action('poweroff') to timeout
 - component: Security
   create_time: 20181119T16:29:00
@@ -27525,8 +27525,8 @@
 - component: Kernel
   create_time: 20190809T10:45:00
   id: 1145051
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '5.3.0-rc3: kcompactd / i915 / KVM deadlock'
 - component: Kernel
   create_time: 20190809T10:43:00
@@ -29146,13 +29146,13 @@
   create_time: 20190912T11:59:00
   id: 1150549
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: munin: review of cron job file(s): /etc/cron.d/munin'
 - component: Security
   create_time: 20190912T11:58:00
   id: 1150548
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: matomo: review of cron job file(s): /etc/cron.d/matomo-archive'
 - component: Security
   create_time: 20190912T11:57:00
@@ -29511,8 +29511,8 @@
 - component: Development
   create_time: 20190917T11:45:00
   id: 1151053
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Openmpi3 warnings are disfiguring output in computational chemistry software
 - component: Network
   create_time: 20190917T10:47:00
@@ -30531,8 +30531,8 @@
 - component: Kernel
   create_time: 20191014T12:34:00
   id: 1153919
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'System lockup: NULL pointer dereference in netlink_dump'
 - component: Kernel
   create_time: 20191014T09:40:00
@@ -30875,8 +30875,8 @@
 - component: Kernel
   create_time: 20191023T06:10:00
   id: 1154802
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Kernel reports unknown header type 7f for pci device
 '20191024':
 - component: Kernel
@@ -30888,8 +30888,8 @@
 - component: Kernel
   create_time: 20191024T18:18:00
   id: 1155029
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Realtek RTL8723DE Bluetooth no longer works
 - component: Development
   create_time: 20191024T14:20:00
@@ -31354,6 +31354,12 @@
   status: NEW
   summary: Gigolo SMB share adds port 21 to config file
 '20191104':
+- component: Virtualization:Other
+  create_time: 20191107T14:25:00
+  id: 1156161
+  resolution: ''
+  status: NEW
+  summary: Can't start libvirtd on tumbleweed
 - component: KDE Workspace (Plasma)
   create_time: 20191107T08:16:00
   id: 1156114
@@ -31363,8 +31369,8 @@
 - component: libzypp
   create_time: 20191107T08:14:00
   id: 1156113
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Segfault while updating 20191101-0 -> 20191104-0 in myspell-rpm
 - component: Containers
   create_time: 20191107T08:10:00
@@ -31376,7 +31382,7 @@
   create_time: 20191107T07:04:00
   id: 1156106
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: DHCLIENT_SET_HOSTNAME changed to no by default
 - component: Other
   create_time: 20191107T02:55:00
@@ -31476,7 +31482,7 @@
   create_time: 20191105T12:42:00
   id: 1155921
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: compressing /boot/vmlinux using xz
 - component: Other
   create_time: 20191105T12:15:00
