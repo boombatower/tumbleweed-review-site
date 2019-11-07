@@ -29137,12 +29137,6 @@
   status: NEW
   summary: 'AUDIT-1: openlmi-pcp: review of cron job file(s): /etc/cron.daily/openlmi-pcp'
 - component: Security
-  create_time: 20190912T12:00:00
-  id: 1150550
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-1: nagios: review of cron job file(s): /etc/cron.weekly/nagios'
-- component: Security
   create_time: 20190912T11:59:00
   id: 1150549
   resolution: ''
@@ -30910,7 +30904,7 @@
   status: NEW
   summary: Firefox with KDE integration still uses native gtk file picker for Print
     to File
-- component: libzypp
+- component: GNOME
   create_time: 20191024T11:13:00
   id: 1154973
   resolution: ''
@@ -31028,8 +31022,8 @@
 - component: GNOME
   create_time: 20191027T09:00:00
   id: 1155162
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20191024] gnucash uninstallable'
 - component: Basesystem
   create_time: 20191027T04:14:00
@@ -31354,6 +31348,120 @@
   status: NEW
   summary: Gigolo SMB share adds port 21 to config file
 '20191104':
+- component: Other
+  create_time: 20191107T17:19:00
+  id: 1156210
+  resolution: ''
+  status: NEW
+  summary: 'proftpd: GeoIP support is discontinued'
+- component: Other
+  create_time: 20191107T17:19:00
+  id: 1156209
+  resolution: ''
+  status: NEW
+  summary: 'netsniff-ng: GeoIP support is discontinued'
+- component: Other
+  create_time: 20191107T17:19:00
+  id: 1156208
+  resolution: ''
+  status: NEW
+  summary: 'leechcraft: GeoIP support is discontinued'
+- component: Other
+  create_time: 20191107T17:19:00
+  id: 1156207
+  resolution: ''
+  status: NEW
+  summary: 'goaccess: GeoIP support is discontinued'
+- component: Other
+  create_time: 20191107T17:19:00
+  id: 1156206
+  resolution: ''
+  status: NEW
+  summary: 'php7-geoip: GeoIP support is discontinued'
+- component: Other
+  create_time: 20191107T17:19:00
+  id: 1156205
+  resolution: ''
+  status: NEW
+  summary: 'bind: GeoIP support is discontinued'
+- component: Other
+  create_time: 20191107T17:19:00
+  id: 1156204
+  resolution: ''
+  status: NEW
+  summary: 'python-txtorcon: GeoIP support is discontinued'
+- component: Other
+  create_time: 20191107T17:19:00
+  id: 1156203
+  resolution: ''
+  status: NEW
+  summary: 'syslog-ng: GeoIP support is discontinued'
+- component: Other
+  create_time: 20191107T17:19:00
+  id: 1156202
+  resolution: ''
+  status: NEW
+  summary: 'nginx: GeoIP support is discontinued'
+- component: Other
+  create_time: 20191107T17:19:00
+  id: 1156201
+  resolution: ''
+  status: NEW
+  summary: 'subnetcalc: GeoIP support is discontinued'
+- component: Other
+  create_time: 20191107T17:19:00
+  id: 1156200
+  resolution: ''
+  status: NEW
+  summary: 'pmacct: GeoIP support is discontinued'
+- component: Other
+  create_time: 20191107T17:19:00
+  id: 1156199
+  resolution: ''
+  status: NEW
+  summary: 'uwsgi: GeoIP support is discontinued'
+- component: Other
+  create_time: 20191107T17:19:00
+  id: 1156198
+  resolution: ''
+  status: NEW
+  summary: 'lighttpd: GeoIP support is discontinued'
+- component: Other
+  create_time: 20191107T17:18:00
+  id: 1156197
+  resolution: ''
+  status: NEW
+  summary: 'webalizer: GeoIP support is discontinued'
+- component: Other
+  create_time: 20191107T17:17:00
+  id: 1156196
+  resolution: ''
+  status: NEW
+  summary: 'pdns: GeoIP support is discontinued'
+- component: Other
+  create_time: 20191107T17:16:00
+  id: 1156195
+  resolution: ''
+  status: NEW
+  summary: 'python-GeoIP: GeoIP support is discontinued"'
+- component: Other
+  create_time: 20191107T17:11:00
+  id: 1156194
+  resolution: ''
+  status: NEW
+  summary: GeoIP discontinued
+- component: KDE Applications
+  create_time: 20191107T16:09:00
+  id: 1156180
+  resolution: ''
+  status: NEW
+  summary: korganizer using huge amounts of RAM, kmail hangs when opening invitations
+- component: MicroOS
+  create_time: 20191107T15:50:00
+  id: 1156175
+  resolution: ''
+  status: NEW
+  summary: Terminal input over SSH breaks with non-en UTF-8 locale
 - component: Virtualization:Other
   create_time: 20191107T14:25:00
   id: 1156161
@@ -31399,8 +31507,8 @@
 - component: Samba
   create_time: 20191106T19:30:00
   id: 1156077
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: smbclient or dolphin can not connect to livebox USB shared disk
 - component: Bootloader
   create_time: 20191106T18:29:00
