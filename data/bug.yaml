@@ -31354,6 +31354,18 @@
   status: NEW
   summary: Gigolo SMB share adds port 21 to config file
 '20191104':
+- component: Containers
+  create_time: 20191107T08:10:00
+  id: 1156112
+  resolution: ''
+  status: NEW
+  summary: Docker does not work after boot.
+- component: Network
+  create_time: 20191107T07:04:00
+  id: 1156106
+  resolution: ''
+  status: NEW
+  summary: DHCLIENT_SET_HOSTNAME changed to no by default
 - component: Other
   create_time: 20191107T02:55:00
   id: 1156094
