@@ -31355,6 +31355,12 @@
   summary: Gigolo SMB share adds port 21 to config file
 '20191104':
 - component: Other
+  create_time: 20191107T02:55:00
+  id: 1156094
+  resolution: ''
+  status: NEW
+  summary: '[x11] xrdp doesn''t work'
+- component: Other
   create_time: 20191106T20:42:00
   id: 1156081
   resolution: ''
@@ -31396,8 +31402,8 @@
 - component: Development
   create_time: 20191106T09:09:00
   id: 1156009
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: neovim split display broken
 - component: Virtualization:Other
   create_time: 20191105T17:03:00
