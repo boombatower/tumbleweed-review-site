@@ -31348,6 +31348,12 @@
   status: NEW
   summary: Gigolo SMB share adds port 21 to config file
 '20191104':
+- component: LibreOffice
+  create_time: 20191107T19:40:00
+  id: 1156219
+  resolution: ''
+  status: NEW
+  summary: How to create backtraces for LO crashes
 - component: Other
   create_time: 20191107T17:19:00
   id: 1156210
@@ -31357,8 +31363,8 @@
 - component: Other
   create_time: 20191107T17:19:00
   id: 1156209
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'netsniff-ng: GeoIP support is discontinued'
 - component: Other
   create_time: 20191107T17:19:00
@@ -31406,13 +31412,13 @@
   create_time: 20191107T17:19:00
   id: 1156201
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'subnetcalc: GeoIP support is discontinued'
 - component: Other
   create_time: 20191107T17:19:00
   id: 1156200
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'pmacct: GeoIP support is discontinued'
 - component: Other
   create_time: 20191107T17:19:00
