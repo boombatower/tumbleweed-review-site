@@ -31354,6 +31354,18 @@
   status: NEW
   summary: Gigolo SMB share adds port 21 to config file
 '20191104':
+- component: KDE Workspace (Plasma)
+  create_time: 20191107T08:16:00
+  id: 1156114
+  resolution: ''
+  status: NEW
+  summary: wayland crashes with firefox 70
+- component: libzypp
+  create_time: 20191107T08:14:00
+  id: 1156113
+  resolution: ''
+  status: NEW
+  summary: Segfault while updating 20191101-0 -> 20191104-0 in myspell-rpm
 - component: Containers
   create_time: 20191107T08:10:00
   id: 1156112
@@ -31427,8 +31439,8 @@
 - component: Basesystem
   create_time: 20191105T16:55:00
   id: 1155955
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Calling libQt5Core5.so segfaults due to unaligned stack
 - component: Other
   create_time: 20191105T16:41:00
