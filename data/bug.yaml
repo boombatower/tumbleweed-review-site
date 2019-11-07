@@ -29405,8 +29405,8 @@
 - component: Other
   create_time: 20190909T10:16:00
   id: 1149986
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: telegram-desktop cannot be started with enabled GTK integration and libqt5-qtstyleplugins-platformtheme-gtk2
     installed
 - component: Installation
@@ -31348,6 +31348,12 @@
   status: NEW
   summary: Gigolo SMB share adds port 21 to config file
 '20191104':
+- component: KDE Workspace (Plasma)
+  create_time: 20191107T23:00:00
+  id: 1156232
+  resolution: ''
+  status: NEW
+  summary: '"lightdm" does not like Plasma Full Wayland'
 - component: LibreOffice
   create_time: 20191107T19:40:00
   id: 1156219
