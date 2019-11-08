@@ -30667,8 +30667,8 @@
 - component: Basesystem
   create_time: 20191021T14:04:00
   id: 1154655
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'systemd-udevd errors and warnings in journalctl processing rules: 61-persistent-storage-compat,
     80-hotplug-cpu-mem, 84-nm-drivers, 11-dm-lvm, 90-backlight'
 - component: Security
@@ -31348,6 +31348,18 @@
   status: NEW
   summary: Gigolo SMB share adds port 21 to config file
 '20191104':
+- component: Apache
+  create_time: 20191108T11:50:00
+  id: 1156303
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: php7 fails to stat/access/list files with high inode number
+- component: Other
+  create_time: 20191108T11:49:00
+  id: 1156301
+  resolution: ''
+  status: NEW
+  summary: Dovecot fails to build with LTO enabled in Tumbleweed
 - component: Installation
   create_time: 20191108T10:15:00
   id: 1156285
@@ -31437,7 +31449,7 @@
   create_time: 20191107T17:19:00
   id: 1156205
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'bind: GeoIP support is discontinued'
 - component: Other
   create_time: 20191107T17:19:00
