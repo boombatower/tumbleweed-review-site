@@ -26267,8 +26267,8 @@
 - component: Development
   create_time: 20190716T12:10:00
   id: 1141647
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: AC_CHECK_FUNC broken by -flto2
 - component: KDE Applications
   create_time: 20190716T09:00:00
@@ -30599,7 +30599,7 @@
   create_time: 20191017T09:44:00
   id: 1154301
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: modem-manager-gui dumps core
 - component: GNOME
   create_time: 20191016T20:24:00
@@ -30668,7 +30668,7 @@
   create_time: 20191021T14:04:00
   id: 1154655
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'systemd-udevd errors and warnings in journalctl processing rules: 61-persistent-storage-compat,
     80-hotplug-cpu-mem, 84-nm-drivers, 11-dm-lvm, 90-backlight'
 - component: Security
@@ -31348,6 +31348,49 @@
   status: NEW
   summary: Gigolo SMB share adds port 21 to config file
 '20191104':
+- component: Installation
+  create_time: 20191108T10:15:00
+  id: 1156285
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed installation fails with error in y2network/sysconfig/type_detector.rb
+- component: Basesystem
+  create_time: 20191108T10:12:00
+  id: 1156284
+  resolution: ''
+  status: NEW
+  summary: gdb requires fpc for building
+- component: Basesystem
+  create_time: 20191108T09:52:00
+  id: 1156280
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Kernel trace when trying to connect iucv console
+- component: Other
+  create_time: 20191108T09:17:00
+  id: 1156270
+  resolution: ''
+  status: NEW
+  summary: '90-libgpod.rules: warning'
+- component: Other
+  create_time: 20191108T09:09:00
+  id: 1156268
+  resolution: ''
+  status: NEW
+  summary: 'android-tools: 51-android.rules: Unknown group ''adbusers'''
+- component: Basesystem
+  create_time: 20191108T08:54:00
+  id: 1156263
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '80-hotplug-cpu-mem.rules: sh error'
+- component: Kernel
+  create_time: 20191108T07:47:00
+  id: 1156254
+  resolution: ''
+  status: NEW
+  summary: 'External monitor flicker: [drm:intel_pipe_update_end [i915]] *ERROR* Atomic
+    update failure on pipe A or B'
 - component: KDE Workspace (Plasma)
   create_time: 20191107T23:00:00
   id: 1156232
@@ -31376,7 +31419,7 @@
   create_time: 20191107T17:19:00
   id: 1156208
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'leechcraft: GeoIP support is discontinued'
 - component: Other
   create_time: 20191107T17:19:00
@@ -31388,7 +31431,7 @@
   create_time: 20191107T17:19:00
   id: 1156206
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'php7-geoip: GeoIP support is discontinued'
 - component: Other
   create_time: 20191107T17:19:00
@@ -31441,8 +31484,8 @@
 - component: Other
   create_time: 20191107T17:18:00
   id: 1156197
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'webalizer: GeoIP support is discontinued'
 - component: Other
   create_time: 20191107T17:17:00
