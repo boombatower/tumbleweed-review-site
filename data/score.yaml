@@ -1041,7 +1041,7 @@
   stability_level: stable
 '20191101':
   score: 96
-  stability_level: pending
+  stability_level: stable
 '20191104':
-  score: 89
+  score: 79
   stability_level: pending
