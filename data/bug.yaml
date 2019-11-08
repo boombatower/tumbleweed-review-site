@@ -30971,8 +30971,8 @@
 - component: Development
   create_time: 20191025T12:57:00
   id: 1155108
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Tumbleweed OpenMP Programs Compiled With clang9 and libomp9-devel Receive
     SEGV During Exit Processing
 - component: libzypp
