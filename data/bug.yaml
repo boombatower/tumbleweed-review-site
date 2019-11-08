@@ -28060,8 +28060,8 @@
 - component: Security
   create_time: 20190820T11:54:00
   id: 1146368
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'VUL-0: CVE-2019-15099: kernel-source: NULL pointer dereference in drivers/net/wireless/ath/ath10k/usb.c
     leads to a crash'
 - component: Other
@@ -31348,6 +31348,141 @@
   status: NEW
   summary: Gigolo SMB share adds port 21 to config file
 '20191104':
+- component: Virtualization:Other
+  create_time: 20191105T17:03:00
+  id: 1155956
+  resolution: ''
+  status: NEW
+  summary: qemu booting from iso, stops at graphics initialization when using cirrus
+    drivers
+- component: Basesystem
+  create_time: 20191105T16:55:00
+  id: 1155955
+  resolution: FIXED
+  status: RESOLVED
+  summary: Calling libQt5Core5.so segfaults due to unaligned stack
+- component: Other
+  create_time: 20191105T16:41:00
+  id: 1155953
+  resolution: ''
+  status: CONFIRMED
+  summary: osc v0.166 broke my osc vc use case
+- component: Other
+  create_time: 20191105T15:59:00
+  id: 1155947
+  resolution: ''
+  status: NEW
+  summary: Julia unable to use arpack
+- component: Other
+  create_time: 20191105T15:32:00
+  id: 1155940
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[llvm9] Missing libraries'
+- component: Kernel
+  create_time: 20191105T15:13:00
+  id: 1155938
+  resolution: ''
+  status: NEW
+  summary: System crash caused by i915 driver
+- component: X.Org
+  create_time: 20191105T14:26:00
+  id: 1155932
+  resolution: ''
+  status: NEW
+  summary: vulkan-validationlayers are incomplete
+- component: Kernel
+  create_time: 20191105T12:42:00
+  id: 1155921
+  resolution: ''
+  status: IN_PROGRESS
+  summary: compressing /boot/vmlinux using xz
+- component: Other
+  create_time: 20191105T12:15:00
+  id: 1155917
+  resolution: ''
+  status: NEW
+  summary: Recent xrpd update breaks login
+- component: Basesystem
+  create_time: 20191105T10:01:00
+  id: 1155889
+  resolution: ''
+  status: NEW
+  summary: LTO makes bluez unit test segfault
+- component: Basesystem
+  create_time: 20191104T20:57:00
+  id: 1155839
+  resolution: ''
+  status: NEW
+  summary: 'Python 3.8 regression: endless loop in shutil.copytree'
+- component: Kernel
+  create_time: 20191104T19:50:00
+  id: 1155836
+  resolution: FIXED
+  status: RESOLVED
+  summary: sporadic workqueue lockups in sound_hda_core
+- component: Kernel
+  create_time: 20191104T17:11:00
+  id: 1155824
+  resolution: ''
+  status: NEW
+  summary: Cursor lags with mouse and touchpad during CPU spikes
+- component: Live Medium
+  create_time: 20191104T15:54:00
+  id: 1155815
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191103] kiwi breaks booting live media on EFI'
+- component: Other
+  create_time: 20191104T15:19:00
+  id: 1155809
+  resolution: FIXED
+  status: RESOLVED
+  summary: MuseScore-3.3 built in debug mode
+- component: Maintenance
+  create_time: 20191104T12:44:00
+  id: 1155792
+  resolution: ''
+  status: NEW
+  summary: Packaging bug updating Corosync
+- component: Basesystem
+  create_time: 20191104T11:28:00
+  id: 1155785
+  resolution: ''
+  status: NEW
+  summary: New _libexecdir location is now lacking _libconfdir
+- component: Other
+  create_time: 20191104T09:16:00
+  id: 1155752
+  resolution: FIXED
+  status: RESOLVED
+  summary: Missing dependency for texlive-verbatimbox
+- component: YaST2
+  create_time: 20191104T07:17:00
+  id: 1155735
+  resolution: ''
+  status: NEW
+  summary: '[FEATURE] Security and User modules - default /etc/login.def is now in
+    /usr/etc'
+- component: Other
+  create_time: 20191104T01:15:00
+  id: 1155704
+  resolution: FIXED
+  status: RESOLVED
+  summary: Incomplete dependencies for MuseScore-3.3
+'20191106':
+- component: Network
+  create_time: 20191108T16:34:00
+  id: 1156333
+  resolution: ''
+  status: NEW
+  summary: ell 0.26 broke iwd 0.21
+- component: Kernel
+  create_time: 20191108T14:48:00
+  id: 1156316
+  resolution: ''
+  status: NEW
+  summary: systemtap fails to build simple script
 - component: Apache
   create_time: 20191108T11:50:00
   id: 1156303
@@ -31610,125 +31745,3 @@
   resolution: UPSTREAM
   status: RESOLVED
   summary: neovim split display broken
-- component: Virtualization:Other
-  create_time: 20191105T17:03:00
-  id: 1155956
-  resolution: ''
-  status: NEW
-  summary: qemu booting from iso, stops at graphics initialization when using cirrus
-    drivers
-- component: Basesystem
-  create_time: 20191105T16:55:00
-  id: 1155955
-  resolution: FIXED
-  status: RESOLVED
-  summary: Calling libQt5Core5.so segfaults due to unaligned stack
-- component: Other
-  create_time: 20191105T16:41:00
-  id: 1155953
-  resolution: ''
-  status: CONFIRMED
-  summary: osc v0.166 broke my osc vc use case
-- component: Other
-  create_time: 20191105T15:59:00
-  id: 1155947
-  resolution: ''
-  status: NEW
-  summary: Julia unable to use arpack
-- component: Other
-  create_time: 20191105T15:32:00
-  id: 1155940
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: '[llvm9] Missing libraries'
-- component: Kernel
-  create_time: 20191105T15:13:00
-  id: 1155938
-  resolution: ''
-  status: NEW
-  summary: System crash caused by i915 driver
-- component: X.Org
-  create_time: 20191105T14:26:00
-  id: 1155932
-  resolution: ''
-  status: NEW
-  summary: vulkan-validationlayers are incomplete
-- component: Kernel
-  create_time: 20191105T12:42:00
-  id: 1155921
-  resolution: ''
-  status: IN_PROGRESS
-  summary: compressing /boot/vmlinux using xz
-- component: Other
-  create_time: 20191105T12:15:00
-  id: 1155917
-  resolution: ''
-  status: NEW
-  summary: Recent xrpd update breaks login
-- component: Basesystem
-  create_time: 20191105T10:01:00
-  id: 1155889
-  resolution: ''
-  status: NEW
-  summary: LTO makes bluez unit test segfault
-- component: Basesystem
-  create_time: 20191104T20:57:00
-  id: 1155839
-  resolution: ''
-  status: NEW
-  summary: 'Python 3.8 regression: endless loop in shutil.copytree'
-- component: Kernel
-  create_time: 20191104T19:50:00
-  id: 1155836
-  resolution: FIXED
-  status: RESOLVED
-  summary: sporadic workqueue lockups in sound_hda_core
-- component: Kernel
-  create_time: 20191104T17:11:00
-  id: 1155824
-  resolution: ''
-  status: NEW
-  summary: Cursor lags with mouse and touchpad during CPU spikes
-- component: Live Medium
-  create_time: 20191104T15:54:00
-  id: 1155815
-  resolution: ''
-  status: NEW
-  summary: '[Build 20191103] kiwi breaks booting live media on EFI'
-- component: Other
-  create_time: 20191104T15:19:00
-  id: 1155809
-  resolution: FIXED
-  status: RESOLVED
-  summary: MuseScore-3.3 built in debug mode
-- component: Maintenance
-  create_time: 20191104T12:44:00
-  id: 1155792
-  resolution: ''
-  status: NEW
-  summary: Packaging bug updating Corosync
-- component: Basesystem
-  create_time: 20191104T11:28:00
-  id: 1155785
-  resolution: ''
-  status: NEW
-  summary: New _libexecdir location is now lacking _libconfdir
-- component: Other
-  create_time: 20191104T09:16:00
-  id: 1155752
-  resolution: FIXED
-  status: RESOLVED
-  summary: Missing dependency for texlive-verbatimbox
-- component: YaST2
-  create_time: 20191104T07:17:00
-  id: 1155735
-  resolution: ''
-  status: NEW
-  summary: '[FEATURE] Security and User modules - default /etc/login.def is now in
-    /usr/etc'
-- component: Other
-  create_time: 20191104T01:15:00
-  id: 1155704
-  resolution: FIXED
-  status: RESOLVED
-  summary: Incomplete dependencies for MuseScore-3.3
