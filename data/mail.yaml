@@ -2606,10 +2606,10 @@
   threads: []
 '20191104':
   announcement: 2019-11.54
-  reference_count: 13
+  reference_count: 17
   thread_count: 1
   threads:
   - messages:
     - 2019-11.55
-    reference_count: 13
+    reference_count: 17
     summary: '?'
