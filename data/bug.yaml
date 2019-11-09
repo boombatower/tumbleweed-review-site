@@ -31517,13 +31517,20 @@
   status: RESOLVED
   summary: neovim split display broken
 '20191107':
+- component: YaST2
+  create_time: 20191109T13:36:00
+  id: 1156356
+  resolution: ''
+  status: NEW
+  summary: Yast>Network Services>NFS Client brings up requirement for nfsidmap which
+    is not available mount fails
 - component: Other
   create_time: 20191109T10:33:00
   id: 1156354
   resolution: ''
   status: NEW
   summary: Request for creating OBS project devel:languages:chai
-- component: Upgrade Problems
+- component: Bootloader
   create_time: 20191109T08:51:00
   id: 1156351
   resolution: ''
