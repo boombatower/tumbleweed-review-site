@@ -31471,6 +31471,64 @@
   status: RESOLVED
   summary: Incomplete dependencies for MuseScore-3.3
 '20191106':
+- component: Other
+  create_time: 20191106T20:42:00
+  id: 1156081
+  resolution: ''
+  status: NEW
+  summary: /usr/bin/pg_config not created after postgresql10-devel installation
+- component: Samba
+  create_time: 20191106T19:30:00
+  id: 1156077
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: smbclient or dolphin can not connect to livebox USB shared disk
+- component: Bootloader
+  create_time: 20191106T18:29:00
+  id: 1156073
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Zypper DUP to 20191104 snapshot boots to 'grub_file_filters' not found
+    / grub rescue
+- component: Kernel
+  create_time: 20191106T14:53:00
+  id: 1156053
+  resolution: ''
+  status: NEW
+  summary: '[20191018] Kernel memory overwrite attempt detected to SLUB object - illegal
+    operation'
+- component: Installation
+  create_time: 20191106T13:57:00
+  id: 1156047
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191104] openQA test fails in bootloader_s390 - /dev/hvc0: cannot
+    get controlling tty: Operation not permitted'
+- component: GNOME
+  create_time: 20191106T10:33:00
+  id: 1156020
+  resolution: ''
+  status: NEW
+  summary: GTK radio buttons and checkboxes rendered as solid black boxes
+- component: Development
+  create_time: 20191106T09:09:00
+  id: 1156009
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: neovim split display broken
+'20191107':
+- component: Other
+  create_time: 20191109T10:33:00
+  id: 1156354
+  resolution: ''
+  status: NEW
+  summary: Request for creating OBS project devel:languages:chai
+- component: Upgrade Problems
+  create_time: 20191109T08:51:00
+  id: 1156351
+  resolution: ''
+  status: NEW
+  summary: 'unbootable grub: symbol ''grub_file_filters'' no found'
 - component: Network
   create_time: 20191108T16:34:00
   id: 1156333
@@ -31675,7 +31733,7 @@
   id: 1156114
   resolution: ''
   status: NEW
-  summary: wayland crashes with firefox 70
+  summary: full wayland crashes with firefox 70.0.1
 - component: libzypp
   create_time: 20191107T08:14:00
   id: 1156113
@@ -31700,48 +31758,3 @@
   resolution: ''
   status: NEW
   summary: '[x11] xrdp doesn''t work'
-- component: Other
-  create_time: 20191106T20:42:00
-  id: 1156081
-  resolution: ''
-  status: NEW
-  summary: /usr/bin/pg_config not created after postgresql10-devel installation
-- component: Samba
-  create_time: 20191106T19:30:00
-  id: 1156077
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: smbclient or dolphin can not connect to livebox USB shared disk
-- component: Bootloader
-  create_time: 20191106T18:29:00
-  id: 1156073
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: Zypper DUP to 20191104 snapshot boots to 'grub_file_filters' not found
-    / grub rescue
-- component: Kernel
-  create_time: 20191106T14:53:00
-  id: 1156053
-  resolution: ''
-  status: NEW
-  summary: '[20191018] Kernel memory overwrite attempt detected to SLUB object - illegal
-    operation'
-- component: Installation
-  create_time: 20191106T13:57:00
-  id: 1156047
-  resolution: ''
-  status: NEW
-  summary: '[Build 20191104] openQA test fails in bootloader_s390 - /dev/hvc0: cannot
-    get controlling tty: Operation not permitted'
-- component: GNOME
-  create_time: 20191106T10:33:00
-  id: 1156020
-  resolution: ''
-  status: NEW
-  summary: GTK radio buttons and checkboxes rendered as solid black boxes
-- component: Development
-  create_time: 20191106T09:09:00
-  id: 1156009
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: neovim split display broken
