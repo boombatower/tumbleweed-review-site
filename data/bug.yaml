@@ -31715,8 +31715,8 @@
 - component: Bootloader
   create_time: 20191106T18:29:00
   id: 1156073
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Zypper DUP to 20191104 snapshot boots to 'grub_file_filters' not found
     / grub rescue
 - component: Kernel
