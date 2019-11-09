@@ -31517,6 +31517,12 @@
   status: RESOLVED
   summary: neovim split display broken
 '20191107':
+- component: Basesystem
+  create_time: 20191109T19:48:00
+  id: 1156358
+  resolution: ''
+  status: NEW
+  summary: Updating sysstat warns "SysV service sysstat-collect does not exist, skipping"
 - component: YaST2
   create_time: 20191109T13:36:00
   id: 1156356
