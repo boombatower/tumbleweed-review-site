@@ -2615,10 +2615,10 @@
     summary: '?'
 '20191106':
   announcement: 2019-11.95
-  reference_count: 1
+  reference_count: 2
   thread_count: 1
   threads:
   - messages:
     - 2019-11.102
-    reference_count: 1
+    reference_count: 2
     summary: grub2 script error message
