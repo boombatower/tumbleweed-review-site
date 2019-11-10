@@ -2615,7 +2615,7 @@
     summary: '?'
 '20191106':
   announcement: 2019-11.95
-  reference_count: 6
+  reference_count: 7
   thread_count: 2
   threads:
   - messages:
@@ -2624,7 +2624,7 @@
     summary: grub2 script error message
   - messages:
     - 2019-11.110
-    reference_count: 2
+    reference_count: 3
     summary: no summary given
 '20191107':
   announcement: 2019-11.107
