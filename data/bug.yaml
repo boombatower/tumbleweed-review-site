@@ -31517,6 +31517,12 @@
   status: RESOLVED
   summary: neovim split display broken
 '20191107':
+- component: KDE Workspace (Plasma)
+  create_time: 20191110T07:43:00
+  id: 1156361
+  resolution: ''
+  status: NEW
+  summary: Feature Request - Update Mycroft Core/Plasma to 19.08
 - component: Basesystem
   create_time: 20191109T23:32:00
   id: 1156359
