@@ -2606,16 +2606,16 @@
   threads: []
 '20191104':
   announcement: 2019-11.54
-  reference_count: 25
+  reference_count: 27
   thread_count: 1
   threads:
   - messages:
     - 2019-11.55
-    reference_count: 25
+    reference_count: 27
     summary: '?'
 '20191106':
   announcement: 2019-11.95
-  reference_count: 7
+  reference_count: 8
   thread_count: 2
   threads:
   - messages:
@@ -2624,10 +2624,15 @@
     summary: grub2 script error message
   - messages:
     - 2019-11.110
-    reference_count: 3
+    reference_count: 4
     summary: no summary given
 '20191107':
   announcement: 2019-11.107
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20191109':
+  announcement: 2019-11.122
   reference_count: 0
   thread_count: 0
   threads: []
