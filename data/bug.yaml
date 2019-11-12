@@ -12921,8 +12921,8 @@
 - component: Other
   create_time: 20180925T04:53:00
   id: 1109539
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: bouncycastle differs between architectures
 - component: Other
   create_time: 20180925T04:46:00
@@ -25404,8 +25404,8 @@
 - component: libzypp
   create_time: 20190630T08:13:00
   id: 1139799
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: zypper-log has a hard dependency on Python 2.x.x and won't work with Python
     3.x.x
 - component: libzypp
@@ -26662,8 +26662,8 @@
 - component: Kernel
   create_time: 20190725T07:42:00
   id: 1142758
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'arm-smmu e0600000.smmu: Unexpected global fault, this could be serious'
 - component: Basesystem
   create_time: 20190725T06:13:00
@@ -29131,12 +29131,6 @@
   status: NEW
   summary: 'AUDIT-1: patch2mail: review of cron job file(s): /etc/cron.daily/patch2mail'
 - component: Security
-  create_time: 20190912T12:01:00
-  id: 1150551
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-1: openlmi-pcp: review of cron job file(s): /etc/cron.daily/openlmi-pcp'
-- component: Security
   create_time: 20190912T11:59:00
   id: 1150549
   resolution: ''
@@ -29844,8 +29838,8 @@
 - component: Basesystem
   create_time: 20190928T15:18:00
   id: 1152378
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: lvm volume fails to activate after upgrade to lvm 2.03.05-1.1
 - component: Kernel
   create_time: 20190928T09:59:00
@@ -30119,7 +30113,7 @@
   create_time: 20191004T16:23:00
   id: 1153103
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: 'libpy2UI.so.2: undefined symbol: _ZTI13YItemSelector'
 - component: Development
   create_time: 20191004T13:44:00
@@ -31048,8 +31042,8 @@
 - component: libzypp
   create_time: 20191029T13:33:00
   id: 1155298
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'zypper lp: broken --cve/bugzilla/issue options'
 - component: Kernel
   create_time: 20191029T12:13:00
@@ -31204,8 +31198,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20191030T15:07:00
   id: 1155462
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: xdg-terminal broken because kreadconfig is not found
 - component: Development
   create_time: 20191030T13:35:00
@@ -31318,8 +31312,8 @@
 - component: YaST2
   create_time: 20191101T10:34:00
   id: 1155639
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '''yast2 lan'' tool does not store WIRELESS_WPA_PSK credentials in the
     WLAN wireless configuration file'
 - component: GNOME
@@ -31430,8 +31424,8 @@
 - component: Live Medium
   create_time: 20191104T15:54:00
   id: 1155815
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20191103] kiwi breaks booting live media on EFI'
 - component: Other
   create_time: 20191104T15:19:00
@@ -31517,49 +31511,6 @@
   status: RESOLVED
   summary: neovim split display broken
 '20191107':
-- component: Basesystem
-  create_time: 20191110T10:56:00
-  id: 1156363
-  resolution: ''
-  status: NEW
-  summary: snapper triggers "Failed to reset fd limit" message
-- component: Other
-  create_time: 20191110T07:43:00
-  id: 1156361
-  resolution: ''
-  status: NEW
-  summary: Feature Request - Update Mycroft Core/Plasma to 19.08
-- component: Basesystem
-  create_time: 20191109T23:32:00
-  id: 1156359
-  resolution: ''
-  status: NEW
-  summary: 'Tumbleweed: Yubikey not recognized'
-- component: Basesystem
-  create_time: 20191109T19:48:00
-  id: 1156358
-  resolution: ''
-  status: NEW
-  summary: Updating sysstat warns "SysV service sysstat-collect does not exist, skipping"
-- component: YaST2
-  create_time: 20191109T13:36:00
-  id: 1156356
-  resolution: ''
-  status: NEW
-  summary: Yast>Network Services>NFS Client brings up requirement for nfsidmap which
-    is not available mount fails
-- component: Other
-  create_time: 20191109T10:33:00
-  id: 1156354
-  resolution: ''
-  status: NEW
-  summary: Request for creating OBS project devel:languages:chai
-- component: Bootloader
-  create_time: 20191109T08:51:00
-  id: 1156351
-  resolution: ''
-  status: NEW
-  summary: 'unbootable grub: symbol ''grub_file_filters'' no found'
 - component: Network
   create_time: 20191108T16:34:00
   id: 1156333
@@ -31757,7 +31708,7 @@
   create_time: 20191107T14:25:00
   id: 1156161
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Can't start libvirtd on tumbleweed
 - component: KDE Workspace (Plasma)
   create_time: 20191107T08:16:00
@@ -31789,3 +31740,102 @@
   resolution: ''
   status: NEW
   summary: '[x11] xrdp doesn''t work'
+'20191109':
+- component: KDE Workspace (Plasma)
+  create_time: 20191111T16:12:00
+  id: 1156465
+  resolution: ''
+  status: NEW
+  summary: Black screen, when I want to log out from wayland or full wayland
+- component: KDE Workspace (Plasma)
+  create_time: 20191111T15:05:00
+  id: 1156459
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191110] openQA test fails in hexchat: GTK2 theme still oxygen-gtk
+    after upgrade from 13.2'
+- component: KDE Applications
+  create_time: 20191111T14:19:00
+  id: 1156452
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: '"wrong Qt logging configuration"'
+- component: Kernel
+  create_time: 20191111T13:56:00
+  id: 1156449
+  resolution: ''
+  status: NEW
+  summary: ACPI BIOS Error occured on HP ENVY x360 13 with AMD Ryzen 3700u
+- component: Bootloader
+  create_time: 20191111T13:05:00
+  id: 1156441
+  resolution: ''
+  status: NEW
+  summary: grub2-install does not setup env_block for btrfs
+- component: YaST2
+  create_time: 20191111T12:36:00
+  id: 1156437
+  resolution: ''
+  status: NEW
+  summary: Install not mirrored when selecting Persian
+- component: Other
+  create_time: 20191111T12:03:00
+  id: 1156428
+  resolution: ''
+  status: NEW
+  summary: Use rpm boolean dependency syntax instead of packageand
+- component: MicroOS
+  create_time: 20191111T11:27:00
+  id: 1156421
+  resolution: ''
+  status: NEW
+  summary: 'devel:kubic:images: no persistent systemd journal for aarch64/armv7l'
+- component: Network
+  create_time: 20191111T08:21:00
+  id: 1156388
+  resolution: ''
+  status: NEW
+  summary: radvd installation fails in upgrade from 20191016 to 20191109
+- component: Basesystem
+  create_time: 20191110T10:56:00
+  id: 1156363
+  resolution: ''
+  status: CONFIRMED
+  summary: snapper triggers "Failed to reset fd limit" message
+- component: Other
+  create_time: 20191110T07:43:00
+  id: 1156361
+  resolution: ''
+  status: NEW
+  summary: Feature Request - Update Mycroft Core/Plasma to 19.08
+- component: Basesystem
+  create_time: 20191109T23:32:00
+  id: 1156359
+  resolution: ''
+  status: NEW
+  summary: 'Tumbleweed: Yubikey not recognized'
+- component: Basesystem
+  create_time: 20191109T19:48:00
+  id: 1156358
+  resolution: ''
+  status: NEW
+  summary: Updating sysstat warns "SysV service sysstat-collect does not exist, skipping"
+- component: YaST2
+  create_time: 20191109T13:36:00
+  id: 1156356
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Yast>Network Services>NFS Client brings up requirement for nfsidmap which
+    is not available mount fails
+- component: Other
+  create_time: 20191109T10:33:00
+  id: 1156354
+  resolution: ''
+  status: NEW
+  summary: Request for creating OBS project devel:languages:chai
+- component: Bootloader
+  create_time: 20191109T08:51:00
+  id: 1156351
+  resolution: ''
+  status: NEW
+  summary: 'unbootable grub: symbol ''grub_file_filters'' no found'
