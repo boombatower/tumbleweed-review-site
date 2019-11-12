@@ -31741,6 +31741,38 @@
   status: NEW
   summary: '[x11] xrdp doesn''t work'
 '20191109':
+- component: Basesystem
+  create_time: 20191109T23:32:00
+  id: 1156359
+  resolution: ''
+  status: NEW
+  summary: 'Tumbleweed: Yubikey not recognized'
+- component: Basesystem
+  create_time: 20191109T19:48:00
+  id: 1156358
+  resolution: ''
+  status: NEW
+  summary: Updating sysstat warns "SysV service sysstat-collect does not exist, skipping"
+- component: YaST2
+  create_time: 20191109T13:36:00
+  id: 1156356
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Yast>Network Services>NFS Client brings up requirement for nfsidmap which
+    is not available mount fails
+- component: Other
+  create_time: 20191109T10:33:00
+  id: 1156354
+  resolution: ''
+  status: NEW
+  summary: Request for creating OBS project devel:languages:chai
+- component: Bootloader
+  create_time: 20191109T08:51:00
+  id: 1156351
+  resolution: ''
+  status: NEW
+  summary: 'unbootable grub: symbol ''grub_file_filters'' no found'
+'20191110':
 - component: KDE Workspace (Plasma)
   create_time: 20191111T16:12:00
   id: 1156465
@@ -31808,34 +31840,3 @@
   resolution: ''
   status: NEW
   summary: Feature Request - Update Mycroft Core/Plasma to 19.08
-- component: Basesystem
-  create_time: 20191109T23:32:00
-  id: 1156359
-  resolution: ''
-  status: NEW
-  summary: 'Tumbleweed: Yubikey not recognized'
-- component: Basesystem
-  create_time: 20191109T19:48:00
-  id: 1156358
-  resolution: ''
-  status: NEW
-  summary: Updating sysstat warns "SysV service sysstat-collect does not exist, skipping"
-- component: YaST2
-  create_time: 20191109T13:36:00
-  id: 1156356
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Yast>Network Services>NFS Client brings up requirement for nfsidmap which
-    is not available mount fails
-- component: Other
-  create_time: 20191109T10:33:00
-  id: 1156354
-  resolution: ''
-  status: NEW
-  summary: Request for creating OBS project devel:languages:chai
-- component: Bootloader
-  create_time: 20191109T08:51:00
-  id: 1156351
-  resolution: ''
-  status: NEW
-  summary: 'unbootable grub: symbol ''grub_file_filters'' no found'
