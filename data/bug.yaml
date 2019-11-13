@@ -31320,7 +31320,7 @@
   create_time: 20191101T10:04:00
   id: 1155638
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: error when doing upgrade with package manager
 - component: Other
   create_time: 20191101T09:30:00
@@ -31884,7 +31884,7 @@
   resolution: ''
   status: NEW
   summary: Install not mirrored when selecting Persian
-- component: Other
+- component: libzypp
   create_time: 20191111T12:03:00
   id: 1156428
   resolution: ''
