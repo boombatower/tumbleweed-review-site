@@ -29122,13 +29122,13 @@
   create_time: 20190912T12:03:00
   id: 1150553
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: rkhunter: review of cron job file(s): /etc/cron.daily/suse.de-rkhunter'
 - component: Security
   create_time: 20190912T12:02:00
   id: 1150552
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: patch2mail: review of cron job file(s): /etc/cron.daily/patch2mail'
 - component: Security
   create_time: 20190912T11:59:00
@@ -30112,8 +30112,8 @@
 - component: YaST2
   create_time: 20191004T16:23:00
   id: 1153103
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'libpy2UI.so.2: undefined symbol: _ZTI13YItemSelector'
 - component: Development
   create_time: 20191004T13:44:00
@@ -30304,8 +30304,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20191011T17:07:00
   id: 1153789
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: After activating mouse gestures the selected button to activate a gesture
     does not respond
 - component: YaST2
@@ -30592,8 +30592,8 @@
 - component: Network
   create_time: 20191017T09:44:00
   id: 1154301
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: modem-manager-gui dumps core
 - component: GNOME
   create_time: 20191016T20:24:00
@@ -30774,8 +30774,8 @@
 - component: Installation
   create_time: 20191022T15:06:00
   id: 1154756
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: grub2-mkconfig fails using tumbleweed xfce live usb installer
 - component: Other
   create_time: 20191022T08:52:00
@@ -30946,8 +30946,8 @@
 - component: Installation
   create_time: 20191026T11:41:00
   id: 1155155
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: RPi3 Wifi firmware files missing
 - component: Other
   create_time: 20191026T08:52:00
@@ -31773,6 +31773,80 @@
   status: NEW
   summary: 'unbootable grub: symbol ''grub_file_filters'' no found'
 '20191110':
+- component: Basesystem
+  create_time: 20191110T10:56:00
+  id: 1156363
+  resolution: ''
+  status: CONFIRMED
+  summary: snapper triggers "Failed to reset fd limit" message
+- component: Other
+  create_time: 20191110T07:43:00
+  id: 1156361
+  resolution: ''
+  status: NEW
+  summary: Feature Request - Update Mycroft Core/Plasma to 19.08
+'20191111':
+- component: libzypp
+  create_time: 20191112T20:54:00
+  id: 1156577
+  resolution: ''
+  status: NEW
+  summary: Kile Package Has Missing Dependency on okular-devel
+- component: Installation
+  create_time: 20191112T12:41:00
+  id: 1156552
+  resolution: ''
+  status: NEW
+  summary: '"Use of uninitialized value" warnings from Users.pm'
+- component: AutoYaST
+  create_time: 20191112T11:33:00
+  id: 1156539
+  resolution: ''
+  status: IN_PROGRESS
+  summary: general/storage settings for the guided partitioning are not handled correctly
+- component: Kernel
+  create_time: 20191112T11:27:00
+  id: 1156537
+  resolution: ''
+  status: NEW
+  summary: kernel BUG at fs/ext4/inode.c:2721 and process stuck in D state
+- component: KDE Applications
+  create_time: 20191112T09:40:00
+  id: 1156518
+  resolution: ''
+  status: NEW
+  summary: The kwalldetd5 tries to open not exising device with an error instead of
+    asking the passphrase
+- component: Bootloader
+  create_time: 20191112T09:27:00
+  id: 1156515
+  resolution: ''
+  status: NEW
+  summary: grub2-mkconfig fails to build config for xen, because awk errors
+- component: MicroOS
+  create_time: 20191112T09:09:00
+  id: 1156509
+  resolution: ''
+  status: NEW
+  summary: rebootmgrctl set-strategy off does not switch off rebooting
+- component: Basesystem
+  create_time: 20191112T08:48:00
+  id: 1156501
+  resolution: ''
+  status: NEW
+  summary: 'Regression: can not use OSC without kwallet'
+- component: Kernel
+  create_time: 20191112T08:21:00
+  id: 1156497
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191111] openQA test fails in tumbleweed'
+- component: Development
+  create_time: 20191112T06:51:00
+  id: 1156491
+  resolution: ''
+  status: REOPENED
+  summary: Tumbleweed containter has broken perl package (missing threads.pm)
 - component: KDE Workspace (Plasma)
   create_time: 20191111T16:12:00
   id: 1156465
@@ -31828,15 +31902,3 @@
   resolution: ''
   status: NEW
   summary: radvd installation fails in upgrade from 20191016 to 20191109
-- component: Basesystem
-  create_time: 20191110T10:56:00
-  id: 1156363
-  resolution: ''
-  status: CONFIRMED
-  summary: snapper triggers "Failed to reset fd limit" message
-- component: Other
-  create_time: 20191110T07:43:00
-  id: 1156361
-  resolution: ''
-  status: NEW
-  summary: Feature Request - Update Mycroft Core/Plasma to 19.08
