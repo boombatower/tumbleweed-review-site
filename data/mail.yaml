@@ -2638,6 +2638,15 @@
   threads: []
 '20191110':
   announcement: 2019-11.185
+  reference_count: 12
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-11.186
+    reference_count: 12
+    summary: libcares version
+'20191111':
+  announcement: 2019-11.214
   reference_count: 0
   thread_count: 0
   threads: []
