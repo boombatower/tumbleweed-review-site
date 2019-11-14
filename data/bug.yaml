@@ -29109,7 +29109,7 @@
   create_time: 20190912T12:04:00
   id: 1150555
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: storeBackup: review of cron job file(s): /etc/cron.daily/storebackup'
 - component: Security
   create_time: 20190912T12:03:00
@@ -29340,12 +29340,6 @@
   resolution: FIXED
   status: RESOLVED
   summary: latex2html problems with new perl and images
-- component: Kernel
-  create_time: 20190910T12:51:00
-  id: 1150164
-  resolution: ''
-  status: NEW
-  summary: CLOCK_MONOTONIC and CLOCK_REALTIME appear to be broken on thunderX1
 - component: Bootloader
   create_time: 20190910T11:55:00
   id: 1150158
@@ -31132,7 +31126,7 @@
   create_time: 20191031T09:51:00
   id: 1155550
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: libyui-qt{,-pkg} fails to build against Qt 5.14
 - component: Firefox
   create_time: 20191031T09:48:00
@@ -31429,8 +31423,8 @@
 - component: Maintenance
   create_time: 20191104T12:44:00
   id: 1155792
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Packaging bug updating Corosync
 - component: Basesystem
   create_time: 20191104T11:28:00
@@ -31813,8 +31807,8 @@
 - component: YaST2
   create_time: 20191111T12:36:00
   id: 1156437
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Install not mirrored when selecting Persian
 - component: libzypp
   create_time: 20191111T12:03:00
@@ -31835,6 +31829,39 @@
   status: RESOLVED
   summary: radvd installation fails in upgrade from 20191016 to 20191109
 '20191112':
+- component: Basesystem
+  create_time: 20191114T16:35:00
+  id: 1156797
+  resolution: ''
+  status: NEW
+  summary: Mangled she-bangs in ruby2.6 are broken
+- component: YaST2
+  create_time: 20191114T14:15:00
+  id: 1156778
+  resolution: ''
+  status: NEW
+  summary: side bar arrow wrong direction in rtl locale
+- component: GNOME
+  create_time: 20191114T09:37:00
+  id: 1156745
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191112] openQA test fails in libreoffice_recent_documents; keyboard
+    shortcuts can''t open some menu in gtk3 under wayland'
+- component: Salt
+  create_time: 20191114T08:22:00
+  id: 1156725
+  resolution: ''
+  status: NEW
+  summary: 'Unable to run zypper dup: python3-salt-2019.2.0-14.1.x86_64 conflicts
+    with python3-tornado >= 5 provided by python3-tornado-6.0-12.1.noarch'
+- component: libzypp
+  create_time: 20191114T08:20:00
+  id: 1156724
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Zypper sometimes segfaults during retrieving repository 'openSUSE-Tumbleweed-Oss'
+    metadata
 - component: GNOME
   create_time: 20191113T23:53:00
   id: 1156703
@@ -31876,13 +31903,13 @@
   create_time: 20191112T20:54:00
   id: 1156577
   resolution: ''
-  status: NEW
-  summary: Kile Package Has Missing Dependency on okular-devel
+  status: IN_PROGRESS
+  summary: Kile Package Has Missing Dependency on okular
 - component: Installation
   create_time: 20191112T12:41:00
   id: 1156552
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '"Use of uninitialized value" warnings from Users.pm'
 - component: AutoYaST
   create_time: 20191112T11:33:00
