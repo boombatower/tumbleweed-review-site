@@ -22136,8 +22136,8 @@
 - component: Samba
   create_time: 20190417T09:10:00
   id: 1132739
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: samba-windbind wrongly uses /etc/rc.status
 - component: Basesystem
   create_time: 20190417T09:08:00
@@ -25053,7 +25053,7 @@
   create_time: 20190619T04:28:00
   id: 1138638
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: 1-click install should not accept metadata without distversion tag.
 - component: Network
   create_time: 20190619T04:08:00
@@ -25536,8 +25536,8 @@
 - component: Basesystem
   create_time: 20190702T12:45:00
   id: 1140081
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Unable to change VTs after wayland compositor crash
 - component: YaST2
   create_time: 20190702T12:01:00
@@ -29112,13 +29112,6 @@
   status: NEW
   summary: 'AUDIT-1: storeBackup: review of cron job file(s): /etc/cron.daily/storebackup'
 - component: Security
-  create_time: 20190912T12:04:00
-  id: 1150554
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-1: sarg: review of cron job file(s): /etc/cron.daily/suse.de-sarg,
-    /etc/cron.monthly/suse.de-sarg, /etc/cron.weekly/suse.de-sarg'
-- component: Security
   create_time: 20190912T12:03:00
   id: 1150553
   resolution: ''
@@ -29431,8 +29424,8 @@
 - component: Kernel
   create_time: 20190916T12:37:00
   id: 1150930
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: long boot time about 10 minutes on Lenovo Thinkpad P43s
 - component: Development
   create_time: 20190916T11:28:00
@@ -29607,8 +29600,8 @@
 - component: Basesystem
   create_time: 20190920T09:44:00
   id: 1151453
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20190919] openQA test fails in sysstat: Tries to use /etc/cron.d'
 - component: Security
   create_time: 20190920T06:19:00
@@ -31436,8 +31429,8 @@
 - component: Maintenance
   create_time: 20191104T12:44:00
   id: 1155792
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Packaging bug updating Corosync
 - component: Basesystem
   create_time: 20191104T11:28:00
@@ -31491,7 +31484,7 @@
   status: NEW
   summary: '[20191018] Kernel memory overwrite attempt detected to SLUB object - illegal
     operation'
-- component: Installation
+- component: Other
   create_time: 20191106T13:57:00
   id: 1156047
   resolution: ''
@@ -31539,7 +31532,7 @@
   create_time: 20191108T10:15:00
   id: 1156285
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Tumbleweed installation fails with error in y2network/sysconfig/type_detector.rb
 - component: Basesystem
   create_time: 20191108T10:12:00
@@ -31707,14 +31700,14 @@
 - component: Virtualization:Other
   create_time: 20191107T14:25:00
   id: 1156161
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Can't start libvirtd on tumbleweed
 - component: KDE Workspace (Plasma)
   create_time: 20191107T08:16:00
   id: 1156114
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: full wayland crashes with firefox 70.0.1
 - component: libzypp
   create_time: 20191107T08:14:00
@@ -31786,7 +31779,100 @@
   status: NEW
   summary: Feature Request - Update Mycroft Core/Plasma to 19.08
 '20191111':
+- component: KDE Workspace (Plasma)
+  create_time: 20191111T16:12:00
+  id: 1156465
+  resolution: ''
+  status: NEW
+  summary: Black screen, when I want to log out from wayland or full wayland
+- component: KDE Workspace (Plasma)
+  create_time: 20191111T15:05:00
+  id: 1156459
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191110] openQA test fails in hexchat: GTK2 theme still oxygen-gtk
+    after upgrade from 13.2'
+- component: KDE Applications
+  create_time: 20191111T14:19:00
+  id: 1156452
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: '"wrong Qt logging configuration"'
+- component: Kernel
+  create_time: 20191111T13:56:00
+  id: 1156449
+  resolution: ''
+  status: NEW
+  summary: ACPI BIOS Error occured on HP ENVY x360 13 with AMD Ryzen 3700u
+- component: Bootloader
+  create_time: 20191111T13:05:00
+  id: 1156441
+  resolution: ''
+  status: NEW
+  summary: grub2-install does not setup env_block for btrfs
+- component: YaST2
+  create_time: 20191111T12:36:00
+  id: 1156437
+  resolution: ''
+  status: NEW
+  summary: Install not mirrored when selecting Persian
 - component: libzypp
+  create_time: 20191111T12:03:00
+  id: 1156428
+  resolution: INVALID
+  status: RESOLVED
+  summary: Use rpm boolean dependency syntax instead of packageand
+- component: MicroOS
+  create_time: 20191111T11:27:00
+  id: 1156421
+  resolution: ''
+  status: NEW
+  summary: 'devel:kubic:images: no persistent systemd journal for aarch64/armv7l'
+- component: Network
+  create_time: 20191111T08:21:00
+  id: 1156388
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: radvd installation fails in upgrade from 20191016 to 20191109
+'20191112':
+- component: GNOME
+  create_time: 20191113T23:53:00
+  id: 1156703
+  resolution: ''
+  status: NEW
+  summary: Gnome lock screen only requires first 8 characters of password to unlock
+- component: Basesystem
+  create_time: 20191113T17:25:00
+  id: 1156681
+  resolution: ''
+  status: NEW
+  summary: HiKey960 fails on 2nd boot
+- component: MicroOS
+  create_time: 20191113T15:13:00
+  id: 1156660
+  resolution: FIXED
+  status: RESOLVED
+  summary: open-iscsi installed unconditionally
+- component: KDE Workspace (Plasma)
+  create_time: 20191113T10:16:00
+  id: 1156612
+  resolution: ''
+  status: NEW
+  summary: "full wayland with firefox 70.0.x : firefox-window can\xB4t display internet\
+    \ sites correctly"
+- component: Basesystem
+  create_time: 20191113T09:37:00
+  id: 1156606
+  resolution: ''
+  status: NEW
+  summary: openSUSE-Tumbleweed-ARM-JeOS-efi.aarch64-2019.10.25-Build1.36 not bootable
+- component: Other
+  create_time: 20191113T07:49:00
+  id: 1156601
+  resolution: ''
+  status: NEW
+  summary: will not update
+- component: KDE Applications
   create_time: 20191112T20:54:00
   id: 1156577
   resolution: ''
@@ -31847,58 +31933,3 @@
   resolution: ''
   status: REOPENED
   summary: Tumbleweed containter has broken perl package (missing threads.pm)
-- component: KDE Workspace (Plasma)
-  create_time: 20191111T16:12:00
-  id: 1156465
-  resolution: ''
-  status: NEW
-  summary: Black screen, when I want to log out from wayland or full wayland
-- component: KDE Workspace (Plasma)
-  create_time: 20191111T15:05:00
-  id: 1156459
-  resolution: ''
-  status: NEW
-  summary: '[Build 20191110] openQA test fails in hexchat: GTK2 theme still oxygen-gtk
-    after upgrade from 13.2'
-- component: KDE Applications
-  create_time: 20191111T14:19:00
-  id: 1156452
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: '"wrong Qt logging configuration"'
-- component: Kernel
-  create_time: 20191111T13:56:00
-  id: 1156449
-  resolution: ''
-  status: NEW
-  summary: ACPI BIOS Error occured on HP ENVY x360 13 with AMD Ryzen 3700u
-- component: Bootloader
-  create_time: 20191111T13:05:00
-  id: 1156441
-  resolution: ''
-  status: NEW
-  summary: grub2-install does not setup env_block for btrfs
-- component: YaST2
-  create_time: 20191111T12:36:00
-  id: 1156437
-  resolution: ''
-  status: NEW
-  summary: Install not mirrored when selecting Persian
-- component: libzypp
-  create_time: 20191111T12:03:00
-  id: 1156428
-  resolution: ''
-  status: NEW
-  summary: Use rpm boolean dependency syntax instead of packageand
-- component: MicroOS
-  create_time: 20191111T11:27:00
-  id: 1156421
-  resolution: ''
-  status: NEW
-  summary: 'devel:kubic:images: no persistent systemd journal for aarch64/armv7l'
-- component: Network
-  create_time: 20191111T08:21:00
-  id: 1156388
-  resolution: ''
-  status: NEW
-  summary: radvd installation fails in upgrade from 20191016 to 20191109
