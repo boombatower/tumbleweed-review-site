@@ -15036,8 +15036,8 @@
 - component: Basesystem
   create_time: 20181109T15:08:00
   id: 1115459
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'yum: migrate from cron to systemd timers'
 - component: Basesystem
   create_time: 20181109T15:06:00
@@ -15138,8 +15138,8 @@
 - component: Basesystem
   create_time: 20181109T14:43:00
   id: 1115438
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'cyrus-imapd: migrate from cron to systemd timers'
 - component: Basesystem
   create_time: 20181109T14:36:00
@@ -25052,8 +25052,8 @@
 - component: YaST2
   create_time: 20190619T04:28:00
   id: 1138638
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 1-click install should not accept metadata without distversion tag.
 - component: Network
   create_time: 20190619T04:08:00
@@ -27970,8 +27970,8 @@
 - component: Network
   create_time: 20190821T15:55:00
   id: 1146698
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: wicked breaks NFS root
 - component: Other
   create_time: 20190821T14:12:00
@@ -28118,15 +28118,15 @@
 - component: Security
   create_time: 20190822T10:43:00
   id: 1146831
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-FIND: kcm_sddm: should the auth helper created the sddm user''s
     home directory?'
 - component: Security
   create_time: 20190822T10:20:00
   id: 1146817
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-FIND: kcm_sddm: if no sddm user is existing in the system, /.config
     is created'
 - component: Kubic
@@ -29085,25 +29085,25 @@
   create_time: 20190912T12:08:00
   id: 1150559
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: yum: review of cron job file(s): /etc/cron.daily/0yum.cron'
 - component: Security
   create_time: 20190912T12:07:00
   id: 1150558
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-1: yast2-ntp-client: review of cron job file(s): /etc/cron.d/suse-ntp_synchronize'
 - component: Security
   create_time: 20190912T12:06:00
   id: 1150557
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: tmpwatch: review of cron job file(s): /etc/cron.daily/tmpwatch'
 - component: Security
   create_time: 20190912T12:05:00
   id: 1150556
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: texlive-filesystem: review of cron job file(s): /etc/cron.daily/suse-texlive'
 - component: Security
   create_time: 20190912T12:04:00
@@ -30814,7 +30814,7 @@
   create_time: 20191023T14:23:00
   id: 1154871
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: p11-kit-nss-trust breaks Firefox addon update check
 - component: Other
   create_time: 20191023T13:09:00
@@ -31829,6 +31829,43 @@
   status: RESOLVED
   summary: radvd installation fails in upgrade from 20191016 to 20191109
 '20191112':
+- component: Virtualization:Other
+  create_time: 20191115T10:45:00
+  id: 1156876
+  resolution: ''
+  status: NEW
+  summary: TW VIrtualbox host and openSUSE client stalls host for prolonged times
+    in pulseaudio enumeration
+- component: Virtualization:Other
+  create_time: 20191115T10:35:00
+  id: 1156872
+  resolution: ''
+  status: NEW
+  summary: 'qemu: smb share defunct on older windows'
+- component: Other
+  create_time: 20191115T08:21:00
+  id: 1156852
+  resolution: ''
+  status: NEW
+  summary: 'mpv: Broken dependency for libSPIRV-Tools-opt.so.suse13'
+- component: Virtualization:Other
+  create_time: 20191115T07:53:00
+  id: 1156849
+  resolution: ''
+  status: NEW
+  summary: '[Build 20191113] vagrant is not installable'
+- component: libzypp
+  create_time: 20191115T07:26:00
+  id: 1156845
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'Tumbleweed: zypper hangs or segfaults on zypper dup'
+- component: libzypp
+  create_time: 20191115T04:01:00
+  id: 1156826
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Occasional segfault related to libcurl when installing packages
 - component: Basesystem
   create_time: 20191114T16:35:00
   id: 1156797
@@ -31896,9 +31933,9 @@
 - component: Other
   create_time: 20191113T07:49:00
   id: 1156601
-  resolution: ''
-  status: NEW
-  summary: will not update
+  resolution: FIXED
+  status: RESOLVED
+  summary: cares won't update as it is a version downgrade
 - component: KDE Applications
   create_time: 20191112T20:54:00
   id: 1156577
