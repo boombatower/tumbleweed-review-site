@@ -29078,8 +29078,8 @@
 - component: Kernel
   create_time: 20190912T14:03:00
   id: 1150577
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Freescale Layerscape 2088A fails to boot with tumbleweed
 - component: Security
   create_time: 20190912T12:08:00
@@ -29096,8 +29096,8 @@
 - component: Security
   create_time: 20190912T12:06:00
   id: 1150557
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-1: tmpwatch: review of cron job file(s): /etc/cron.daily/tmpwatch'
 - component: Security
   create_time: 20190912T12:05:00
@@ -31829,6 +31829,25 @@
   status: RESOLVED
   summary: radvd installation fails in upgrade from 20191016 to 20191109
 '20191112':
+- component: Installation
+  create_time: 20191115T20:31:00
+  id: 1156927
+  resolution: ''
+  status: NEW
+  summary: Zypper crashes while retrieving packages after distribution upgrade to
+    20191112
+- component: Network
+  create_time: 20191115T17:47:00
+  id: 1156920
+  resolution: ''
+  status: NEW
+  summary: latest wpa_supplicant seems broken (2.9-1.1) when using iwlwifi
+- component: Kernel
+  create_time: 20191115T17:19:00
+  id: 1156918
+  resolution: ''
+  status: NEW
+  summary: '"systemctl suspend" suspends, but computer''s fans remain on'
 - component: Virtualization:Other
   create_time: 20191115T10:45:00
   id: 1156876
