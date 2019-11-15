@@ -31829,6 +31829,18 @@
   status: RESOLVED
   summary: radvd installation fails in upgrade from 20191016 to 20191109
 '20191112':
+- component: Basesystem
+  create_time: 20191115T22:11:00
+  id: 1156932
+  resolution: ''
+  status: NEW
+  summary: Typo in Yast2 - Remo*v*e adminstration (VNC)
+- component: Basesystem
+  create_time: 20191115T21:36:00
+  id: 1156929
+  resolution: ''
+  status: NEW
+  summary: Yast2 sudo destroys /etc/sudoers
 - component: Installation
   create_time: 20191115T20:31:00
   id: 1156927
