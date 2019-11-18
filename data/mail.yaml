@@ -2655,7 +2655,11 @@
   thread_count: 0
   threads: []
 '20191112':
-  announcement: 2019-11.227
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  announcement: 2019-11.260
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-11.261
+    reference_count: 1
+    summary: released!
