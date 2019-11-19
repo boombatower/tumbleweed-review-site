@@ -1053,13 +1053,16 @@
   stability_level: moderate
 '20191109':
   score: 94
-  stability_level: pending
+  stability_level: stable
 '20191110':
-  score: 84
-  stability_level: pending
+  score: 81
+  stability_level: moderate
 '20191111':
-  score: 92
-  stability_level: pending
+  score: 91
+  stability_level: stable
 '20191112':
+  score: 90
+  stability_level: moderate
+'20191116':
   score: 93
   stability_level: pending
