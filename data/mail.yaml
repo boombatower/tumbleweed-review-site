@@ -2665,12 +2665,12 @@
     summary: released!
 '20191116':
   announcement: 2019-11.264
-  reference_count: 2
+  reference_count: 3
   thread_count: 1
   threads:
   - messages:
     - 2019-11.283
-    reference_count: 2
+    reference_count: 3
     summary: released!
 '20191118':
   announcement: 2019-11.301
