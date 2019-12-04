@@ -2719,6 +2719,10 @@
   threads: []
 '20191202':
   announcement: 2019-12.33
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-12.34
+    reference_count: 1
+    summary: Perl-5.30.1
