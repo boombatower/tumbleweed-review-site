@@ -2728,10 +2728,10 @@
     summary: Perl-5.30.1
 '20191203':
   announcement: 2019-12.39
-  reference_count: 1
+  reference_count: 2
   thread_count: 1
   threads:
   - messages:
     - 2019-12.40
-    reference_count: 1
+    reference_count: 2
     summary: no summary given
