@@ -2766,6 +2766,10 @@
     summary: kernel of upcoming Leap
 '20191214':
   announcement: 2019-12.90
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages:
+    - 2019-12.92
+    reference_count: 2
+    summary: no summary given
