@@ -2757,10 +2757,10 @@
   threads: []
 '20191213':
   announcement: 2019-12.79
-  reference_count: 4
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
     - 2019-12.81
-    reference_count: 4
+    reference_count: 7
     summary: kernel of upcoming Leap
