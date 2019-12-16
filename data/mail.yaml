@@ -2764,3 +2764,8 @@
     - 2019-12.81
     reference_count: 8
     summary: kernel of upcoming Leap
+'20191214':
+  announcement: 2019-12.90
+  reference_count: 0
+  thread_count: 0
+  threads: []
