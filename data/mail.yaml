@@ -2817,3 +2817,8 @@
     - 2020-01.8
     reference_count: 12
     summary: required *-lang* packages
+'20200101':
+  announcement: 2020-01.25
+  reference_count: 0
+  thread_count: 0
+  threads: []
