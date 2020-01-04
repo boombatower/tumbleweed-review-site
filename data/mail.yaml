@@ -2810,12 +2810,12 @@
   threads: []
 '20191231':
   announcement: 2020-01.5
-  reference_count: 17
+  reference_count: 19
   thread_count: 1
   threads:
   - messages:
     - 2020-01.8
-    reference_count: 17
+    reference_count: 19
     summary: required *-lang* packages
 '20200101':
   announcement: 2020-01.25
