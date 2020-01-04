@@ -2824,6 +2824,14 @@
   threads: []
 '20200103':
   announcement: 2020-01.40
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 5
+  thread_count: 2
+  threads:
+  - messages:
+    - 2020-01.41
+    reference_count: 1
+    summary: problem with updating exim
+  - messages:
+    - 2020-01.42
+    reference_count: 4
+    summary: NetworkManager does not recognize security type [
