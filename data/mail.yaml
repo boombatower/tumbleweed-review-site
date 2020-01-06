@@ -2805,12 +2805,12 @@
   threads: []
 '20191230':
   announcement: 2020-01.2
-  reference_count: 1
+  reference_count: 2
   thread_count: 1
   threads:
   - messages:
     - 2020-01.56
-    reference_count: 1
+    reference_count: 2
     summary: Plugins in MOZ_PLUGIN_PATH are dysfunctional for latest Firefox
 '20191231':
   announcement: 2020-01.5
