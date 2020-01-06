@@ -1136,13 +1136,13 @@
   score: 99
   stability_level: stable
 '20191230':
-  score: 99
+  score: 96
   stability_level: stable
 '20191231':
-  score: 80
+  score: 79
   stability_level: pending
 '20200101':
-  score: 92
+  score: 91
   stability_level: pending
 '20200103':
   score: 88
