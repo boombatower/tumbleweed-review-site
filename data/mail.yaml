@@ -2839,3 +2839,8 @@
     - 2020-01.42
     reference_count: 5
     summary: NetworkManager does not recognize security type [
+'20200105':
+  announcement: 2020-01.58
+  reference_count: 0
+  thread_count: 0
+  threads: []
