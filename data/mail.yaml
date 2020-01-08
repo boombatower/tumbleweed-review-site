@@ -2828,8 +2828,8 @@
   threads: []
 '20200103':
   announcement: 2020-01.40
-  reference_count: 6
-  thread_count: 2
+  reference_count: 7
+  thread_count: 3
   threads:
   - messages:
     - 2020-01.41
@@ -2839,6 +2839,11 @@
     - 2020-01.42
     reference_count: 5
     summary: NetworkManager does not recognize security type [
+  - messages:
+    - 2020-01.105
+    reference_count: 1
+    summary: Updated NetworkManager internal dhcp client fails to connect to Jolla
+      hotspot
 '20200105':
   announcement: 2020-01.58
   reference_count: 0
