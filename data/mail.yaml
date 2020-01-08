@@ -2844,3 +2844,12 @@
   reference_count: 0
   thread_count: 0
   threads: []
+'20200106':
+  announcement: 2020-01.91
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-01.93
+    reference_count: 2
+    summary: no summary given
