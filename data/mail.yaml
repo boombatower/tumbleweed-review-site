@@ -2865,6 +2865,10 @@
   threads: []
 '20200108':
   announcement: 2020-01.177
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-01.180
+    reference_count: 1
+    summary: password for enrolling the new kernel key
