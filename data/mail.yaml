@@ -2872,3 +2872,8 @@
     - 2020-01.180
     reference_count: 3
     summary: password for enrolling the new kernel key
+'20200109':
+  announcement: 2020-01.186
+  reference_count: 0
+  thread_count: 0
+  threads: []
