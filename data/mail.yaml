@@ -2884,12 +2884,12 @@
   threads: []
 '20200111':
   announcement: 2020-01.197
-  reference_count: 1
+  reference_count: 2
   thread_count: 1
   threads:
   - messages:
     - 2020-01.203
-    reference_count: 1
+    reference_count: 2
     summary: Problem with Kodi 18.5 versus Mesa 19.3.1-235.1
 '20200112':
   announcement: 2020-01.202
