@@ -2923,12 +2923,12 @@
   threads: []
 '20200118':
   announcement: 2020-01.234
-  reference_count: 4
+  reference_count: 5
   thread_count: 1
   threads:
   - messages:
     - 2020-01.252
-    reference_count: 4
+    reference_count: 5
     summary: rdiff-backup removed, reinstation plan
 '20200121':
   announcement: 2020-01.256
