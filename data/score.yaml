@@ -1185,10 +1185,10 @@
   stability_level: stable
 '20200117':
   score: 99
-  stability_level: pending
+  stability_level: stable
 '20200118':
-  score: 94
+  score: 91
   stability_level: pending
 '20200121':
-  score: 97
+  score: 96
   stability_level: pending
