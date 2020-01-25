@@ -2942,9 +2942,13 @@
     summary: No more 'post' snapshots?
 '20200122':
   announcement: 2020-01.272
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-01.283
+    reference_count: 1
+    summary: mutt startup error on regexp
 '20200123':
   announcement: 2020-01.282
   reference_count: 0
