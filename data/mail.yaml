@@ -2971,6 +2971,10 @@
   threads: []
 '20200128':
   announcement: 2020-01.310
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 4
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-01.311
+    reference_count: 4
+    summary: ) - postgres changes version
