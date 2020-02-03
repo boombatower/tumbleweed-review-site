@@ -2932,13 +2932,13 @@
     summary: rdiff-backup removed, reinstation plan
 '20200121':
   announcement: 2020-01.256
-  reference_count: 5
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
     - 2020-01.265
     - 2020-01.268
-    reference_count: 5
+    reference_count: 6
     summary: No more 'post' snapshots?
 '20200122':
   announcement: 2020-01.272
