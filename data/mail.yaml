@@ -2980,14 +2980,14 @@
     summary: ) - postgres changes version
 '20200201':
   announcement: 2020-02.19
-  reference_count: 9
+  reference_count: 17
   thread_count: 2
   threads:
   - messages:
     - 2020-02.23
-    reference_count: 6
+    reference_count: 10
     summary: move of services file from /etc/services to /usr/etc/services
   - messages:
     - 2020-02.31
-    reference_count: 3
+    reference_count: 7
     summary: removed /etc/services
