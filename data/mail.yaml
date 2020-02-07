@@ -2980,12 +2980,12 @@
     summary: ) - postgres changes version
 '20200201':
   announcement: 2020-02.19
-  reference_count: 109
+  reference_count: 110
   thread_count: 3
   threads:
   - messages:
     - 2020-02.52
-    reference_count: 24
+    reference_count: 25
     summary: sddm and postfix problems
   - messages:
     - 2020-02.23
