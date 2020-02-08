@@ -1211,8 +1211,8 @@
   score: 93
   stability_level: stable
 '20200201':
-  score: 29
+  score: 26
   stability_level: unstable
 '20200205':
-  score: 71
+  score: 70
   stability_level: pending
