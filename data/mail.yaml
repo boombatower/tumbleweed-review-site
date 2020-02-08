@@ -2980,8 +2980,8 @@
     summary: ) - postgres changes version
 '20200201':
   announcement: 2020-02.19
-  reference_count: 121
-  thread_count: 3
+  reference_count: 124
+  thread_count: 4
   threads:
   - messages:
     - 2020-02.52
@@ -2995,6 +2995,10 @@
     - 2020-02.31
     reference_count: 18
     summary: removed /etc/services
+  - messages:
+    - 2020-02.220
+    reference_count: 3
+    summary: destroyed nfs/nfs-server
 '20200205':
   announcement: 2020-02.194
   reference_count: 0
