@@ -2980,7 +2980,7 @@
     summary: ) - postgres changes version
 '20200201':
   announcement: 2020-02.19
-  reference_count: 136
+  reference_count: 139
   thread_count: 4
   threads:
   - messages:
@@ -2993,7 +2993,7 @@
     summary: move of services file from /etc/services to /usr/etc/services
   - messages:
     - 2020-02.31
-    reference_count: 21
+    reference_count: 24
     summary: removed /etc/services
   - messages:
     - 2020-02.220
@@ -3006,10 +3006,15 @@
   threads: []
 '20200207':
   announcement: 2020-02.240
-  reference_count: 14
+  reference_count: 15
   thread_count: 1
   threads:
   - messages:
     - 2020-02.242
-    reference_count: 14
+    reference_count: 15
     summary: NVidia & kernel 5.5
+'20200209':
+  announcement: 2020-02.277
+  reference_count: 0
+  thread_count: 0
+  threads: []
