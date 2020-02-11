@@ -1211,11 +1211,14 @@
   score: 93
   stability_level: stable
 '20200201':
-  score: 22
+  score: 19
   stability_level: unstable
 '20200205':
-  score: 69
+  score: 67
   stability_level: pending
 '20200207':
-  score: 58
+  score: 57
+  stability_level: pending
+'20200209':
+  score: 82
   stability_level: pending
