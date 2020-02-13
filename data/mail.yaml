@@ -3020,10 +3020,10 @@
   threads: []
 '20200211':
   announcement: 2020-02.301
-  reference_count: 1
+  reference_count: 2
   thread_count: 1
   threads:
   - messages:
     - 2020-02.306
-    reference_count: 1
+    reference_count: 2
     summary: failed to summarize
