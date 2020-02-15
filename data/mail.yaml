@@ -2971,7 +2971,7 @@
   threads: []
 '20200128':
   announcement: 2020-01.310
-  reference_count: 10
+  reference_count: 12
   thread_count: 2
   threads:
   - messages:
@@ -2980,7 +2980,7 @@
     summary: ) - postgres changes version
   - messages:
     - 2020-02.343
-    reference_count: 4
+    reference_count: 6
     summary: image
 '20200201':
   announcement: 2020-02.19
