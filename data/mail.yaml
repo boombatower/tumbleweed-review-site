@@ -2984,7 +2984,7 @@
     summary: image
 '20200201':
   announcement: 2020-02.19
-  reference_count: 149
+  reference_count: 150
   thread_count: 4
   threads:
   - messages:
@@ -2997,7 +2997,7 @@
     summary: move of services file from /etc/services to /usr/etc/services
   - messages:
     - 2020-02.31
-    reference_count: 28
+    reference_count: 29
     summary: removed /etc/services
   - messages:
     - 2020-02.220
