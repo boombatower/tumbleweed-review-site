@@ -3061,10 +3061,10 @@
     summary: released! -> and again etc trouble
 '20200220':
   announcement: 2020-02.453
-  reference_count: 9
+  reference_count: 10
   thread_count: 1
   threads:
   - messages:
     - 2020-02.475
-    reference_count: 9
+    reference_count: 10
     summary: released! - hanging update of an older system!
