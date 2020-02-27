@@ -1239,7 +1239,7 @@
   stability_level: stable
 '20200220':
   score: 72
-  stability_level: pending
+  stability_level: moderate
 '20200222':
   score: 89
   stability_level: pending
