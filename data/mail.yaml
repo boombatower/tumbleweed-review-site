@@ -3102,3 +3102,8 @@
     - 2020-03.13
     reference_count: 1
     summary: libzypp-17.23.0 is broken... try to avoid using it.
+'20200301':
+  announcement: 2020-03.15
+  reference_count: 0
+  thread_count: 0
+  threads: []
