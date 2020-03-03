@@ -3095,12 +3095,12 @@
   threads: []
 '20200229':
   announcement: 2020-03.10
-  reference_count: 3
+  reference_count: 4
   thread_count: 1
   threads:
   - messages:
     - 2020-03.13
-    reference_count: 3
+    reference_count: 4
     summary: libzypp-17.23.0 is broken... try to avoid using it.
 '20200301':
   announcement: 2020-03.15
