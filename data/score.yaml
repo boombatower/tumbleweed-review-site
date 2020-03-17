@@ -1226,13 +1226,13 @@
   score: 89
   stability_level: moderate
 '20200213':
-  score: 82
-  stability_level: moderate
+  score: 92
+  stability_level: stable
 '20200214':
-  score: 83
+  score: 87
   stability_level: moderate
 '20200218':
-  score: 93
+  score: 94
   stability_level: stable
 '20200219':
   score: 94
