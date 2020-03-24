@@ -3177,10 +3177,10 @@
   threads: []
 '20200322':
   announcement: 2020-03.282
-  reference_count: 1
+  reference_count: 5
   thread_count: 1
   threads:
   - messages:
     - 2020-03.283
-    reference_count: 1
+    reference_count: 5
     summary: released!
