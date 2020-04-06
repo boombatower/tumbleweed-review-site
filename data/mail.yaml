@@ -3206,8 +3206,8 @@
   threads: []
 '20200401':
   announcement: 2020-04.62
-  reference_count: 15
-  thread_count: 2
+  reference_count: 17
+  thread_count: 3
   threads:
   - messages:
     - 2020-04.63
@@ -3217,8 +3217,12 @@
     summary: no summary given
   - messages:
     - 2020-04.78
-    reference_count: 2
+    reference_count: 3
     summary: kernel 5.6.0 / i915 framebuffer compression
+  - messages:
+    - 2020-04.90
+    reference_count: 1
+    summary: Kernel 5.6.0 update boot issues
 '20200402':
   announcement: 2020-04.75
   reference_count: 0
