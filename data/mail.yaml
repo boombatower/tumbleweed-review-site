@@ -3206,7 +3206,7 @@
   threads: []
 '20200401':
   announcement: 2020-04.62
-  reference_count: 14
+  reference_count: 15
   thread_count: 2
   threads:
   - messages:
@@ -3217,7 +3217,7 @@
     summary: no summary given
   - messages:
     - 2020-04.78
-    reference_count: 1
+    reference_count: 2
     summary: kernel 5.6.0 / i915 framebuffer compression
 '20200402':
   announcement: 2020-04.75
