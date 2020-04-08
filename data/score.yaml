@@ -1314,10 +1314,10 @@
   stability_level: stable
 '20200401':
   score: 65
-  stability_level: pending
+  stability_level: unstable
 '20200402':
   score: 71
   stability_level: pending
 '20200405':
-  score: 88
+  score: 73
   stability_level: pending
