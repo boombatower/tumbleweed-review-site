@@ -494,3 +494,33 @@
   binary_unique_count: 1335
   disk_base: 3.6GiB
   disk_shared: unknown
+'20200405':
+  binary_count: 63278
+  binary_interest:
+    Mesa: 20.0.4
+    gcc: '9'
+    gcc7: 7.5.0+r278197
+    gcc9: 9.2.1+git1192
+    gnome-builder: 3.34.1
+    gtk3-devel: 3.24.16
+    kate: 19.12.3
+    kernel-source: 5.6.0
+    libqt5-qtbase-devel: 5.14.1
+    llvm: 9.0.1
+    plasma-framework: 5.68.0
+    plasma5-workspace: 5.18.4.1
+    xf86-video-amdgpu: 19.1.0
+    xf86-video-ati: 19.1.0
+    xf86-video-intel: 2.99.917+git8674.25c9a2fcc
+    xf86-video-nouveau: 1.0.15
+    xorg-x11-server: 1.20.8+0
+  binary_interest_changed:
+  - Mesa
+  - plasma5-workspace
+  - xorg-x11-server
+  - Mesa
+  - plasma5-workspace
+  - xorg-x11-server
+  binary_unique_count: 2573
+  disk_base: 4.3GiB
+  disk_shared: unknown
