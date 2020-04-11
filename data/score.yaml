@@ -1313,16 +1313,16 @@
   score: 99
   stability_level: stable
 '20200401':
-  score: 62
+  score: 54
   stability_level: unstable
 '20200402':
-  score: 70
+  score: 66
   stability_level: unstable
 '20200405':
-  score: 70
+  score: 68
   stability_level: pending
 '20200407':
-  score: 78
+  score: 77
   stability_level: pending
 '20200408':
   score: 81
