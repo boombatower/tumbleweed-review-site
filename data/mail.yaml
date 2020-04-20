@@ -3269,9 +3269,13 @@
   threads: []
 '20200414':
   announcement: 2020-04.274
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-04.344
+    reference_count: 1
+    summary: no summary given
 '20200415':
   announcement: 2020-04.315
   reference_count: 0
