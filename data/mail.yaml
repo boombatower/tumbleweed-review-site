@@ -3283,9 +3283,13 @@
   threads: []
 '20200416':
   announcement: 2020-04.317
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 3
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-04.368
+    reference_count: 3
+    summary: 16 libreoffice packages updated, a single changed
 '20200417':
   announcement: 2020-04.347
   reference_count: 0
@@ -3293,6 +3297,10 @@
   threads: []
 '20200419':
   announcement: 2020-04.356
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-04.365
+    reference_count: 1
+    summary: and python-docutils
