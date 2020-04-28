@@ -3320,10 +3320,10 @@
   threads: []
 '20200425':
   announcement: 2020-04.408
-  reference_count: 1
+  reference_count: 3
   thread_count: 1
   threads:
   - messages:
     - 2020-04.409
-    reference_count: 1
+    reference_count: 3
     summary: no summary given
