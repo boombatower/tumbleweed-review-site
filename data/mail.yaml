@@ -3320,7 +3320,7 @@
   threads: []
 '20200425':
   announcement: 2020-04.408
-  reference_count: 6
+  reference_count: 8
   thread_count: 2
   threads:
   - messages:
@@ -3329,14 +3329,19 @@
     summary: no summary given
   - messages:
     - 2020-04.450
-    reference_count: 3
+    reference_count: 5
     summary: failed to summarize
 '20200427':
   announcement: 2020-04.418
-  reference_count: 2
+  reference_count: 3
   thread_count: 1
   threads:
   - messages:
     - 2020-04.452
-    reference_count: 2
+    reference_count: 3
     summary: '-0'
+'20200428':
+  announcement: 2020-04.462
+  reference_count: 0
+  thread_count: 0
+  threads: []
