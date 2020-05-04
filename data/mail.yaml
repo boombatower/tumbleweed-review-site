@@ -3333,12 +3333,12 @@
     summary: failed to summarize
 '20200427':
   announcement: 2020-04.418
-  reference_count: 3
+  reference_count: 4
   thread_count: 1
   threads:
   - messages:
     - 2020-04.452
-    reference_count: 3
+    reference_count: 4
     summary: '-0'
 '20200428':
   announcement: 2020-04.462
