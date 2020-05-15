@@ -1340,16 +1340,16 @@
   score: 99
   stability_level: stable
 '20200414':
-  score: 86
-  stability_level: moderate
+  score: 96
+  stability_level: stable
 '20200415':
-  score: 84
+  score: 88
   stability_level: moderate
 '20200416':
-  score: 90
-  stability_level: moderate
+  score: 92
+  stability_level: stable
 '20200417':
-  score: 93
+  score: 94
   stability_level: stable
 '20200419':
   score: 94
