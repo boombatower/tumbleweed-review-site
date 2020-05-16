@@ -1343,19 +1343,19 @@
   score: 96
   stability_level: stable
 '20200415':
-  score: 88
-  stability_level: moderate
+  score: 98
+  stability_level: stable
 '20200416':
-  score: 92
+  score: 96
   stability_level: stable
 '20200417':
-  score: 94
+  score: 95
   stability_level: stable
 '20200419':
-  score: 94
+  score: 95
   stability_level: stable
 '20200421':
-  score: 97
+  score: 98
   stability_level: stable
 '20200422':
   score: 99
@@ -1400,5 +1400,8 @@
   score: 99
   stability_level: pending
 '20200513':
+  score: 99
+  stability_level: pending
+'20200514':
   score: 99
   stability_level: pending
