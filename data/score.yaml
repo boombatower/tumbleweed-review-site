@@ -1429,3 +1429,6 @@
 '20200528':
   score: 99
   stability_level: stable
+'20200602':
+  score: 99
+  stability_level: pending
