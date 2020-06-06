@@ -3451,13 +3451,17 @@
   threads: []
 '20200602':
   announcement: 2020-06.20
-  reference_count: 7
-  thread_count: 1
+  reference_count: 9
+  thread_count: 2
   threads:
   - messages:
     - 2020-06.61
     reference_count: 7
     summary: update
+  - messages:
+    - 2020-06.79
+    reference_count: 2
+    summary: failed to summarize
 '20200603':
   announcement: 2020-06.34
   reference_count: 0
