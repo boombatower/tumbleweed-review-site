@@ -3469,12 +3469,12 @@
   threads: []
 '20200604':
   announcement: 2020-06.60
-  reference_count: 11
+  reference_count: 15
   thread_count: 1
   threads:
   - messages:
     - 2020-06.109
-    reference_count: 11
+    reference_count: 15
     summary: failed to summarize
 '20200609':
   announcement: 2020-06.119
