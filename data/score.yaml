@@ -1436,5 +1436,8 @@
   score: 91
   stability_level: stable
 '20200604':
-  score: 91
+  score: 85
+  stability_level: pending
+'20200609':
+  score: 94
   stability_level: pending
