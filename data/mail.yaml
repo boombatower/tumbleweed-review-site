@@ -3505,3 +3505,8 @@
     - 2020-06.171
     reference_count: 5
     summary: iwlwifi broken in kernel-5.7.1
+'20200614':
+  announcement: 2020-06.179
+  reference_count: 0
+  thread_count: 0
+  threads: []
