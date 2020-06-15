@@ -3494,7 +3494,7 @@
   threads: []
 '20200612':
   announcement: 2020-06.154
-  reference_count: 5
+  reference_count: 8
   thread_count: 2
   threads:
   - messages:
@@ -3503,5 +3503,5 @@
     summary: NVIDIA kernel module broken releas
   - messages:
     - 2020-06.171
-    reference_count: 2
+    reference_count: 5
     summary: iwlwifi broken in kernel-5.7.1
