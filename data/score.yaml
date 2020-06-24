@@ -1461,10 +1461,13 @@
   stability_level: moderate
 '20200617':
   score: 74
-  stability_level: pending
+  stability_level: moderate
 '20200618':
   score: 74
   stability_level: pending
 '20200621':
   score: 79
+  stability_level: pending
+'20200622':
+  score: 91
   stability_level: pending
