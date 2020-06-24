@@ -3545,6 +3545,10 @@
   threads: []
 '20200622':
   announcement: 2020-06.277
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-06.279
+    reference_count: 1
+    summary: LibreOffice Skia/Vulkan
