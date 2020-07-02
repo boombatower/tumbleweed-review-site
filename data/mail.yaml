@@ -3574,10 +3574,10 @@
   threads: []
 '20200630':
   announcement: 2020-07.10
-  reference_count: 1
+  reference_count: 2
   thread_count: 1
   threads:
   - messages:
     - 2020-07.11
-    reference_count: 1
+    reference_count: 2
     summary: no summary given
