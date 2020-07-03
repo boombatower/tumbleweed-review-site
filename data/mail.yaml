@@ -3554,9 +3554,13 @@
     summary: LibreOffice Skia/Vulkan
 '20200625':
   announcement: 2020-06.333
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-07.26
+    reference_count: 2
+    summary: mutt and ssh tunnel connects fail
 '20200626':
   announcement: 2020-06.342
   reference_count: 0
