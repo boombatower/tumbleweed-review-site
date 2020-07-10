@@ -3597,6 +3597,10 @@
   threads: []
 '20200708':
   announcement: 2020-07.134
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 4
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-07.172
+    reference_count: 4
+    summary: problems with snapper rollback
