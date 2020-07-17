@@ -3616,15 +3616,20 @@
   threads: []
 '20200714':
   announcement: 2020-07.286
-  reference_count: 2
+  reference_count: 3
   thread_count: 1
   threads:
   - messages:
     - 2020-07.299
-    reference_count: 2
+    reference_count: 3
     summary: released! - Info for Packman users
 '20200715':
   announcement: 2020-07.301
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20200716':
+  announcement: 2020-07.326
   reference_count: 0
   thread_count: 0
   threads: []
