@@ -3630,6 +3630,10 @@
   threads: []
 '20200716':
   announcement: 2020-07.326
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 3
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-07.343
+    reference_count: 3
+    summary: released! - Firefox fails to load
