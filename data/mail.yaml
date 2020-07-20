@@ -3630,12 +3630,12 @@
   threads: []
 '20200716':
   announcement: 2020-07.326
-  reference_count: 7
+  reference_count: 14
   thread_count: 1
   threads:
   - messages:
     - 2020-07.343
-    reference_count: 7
+    reference_count: 14
     summary: released! - Firefox fails to load
 '20200717':
   announcement: 2020-07.355
