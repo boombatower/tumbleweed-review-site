@@ -3653,10 +3653,10 @@
   threads: []
 '20200721':
   announcement: 2020-07.393
-  reference_count: 2
+  reference_count: 3
   thread_count: 1
   threads:
   - messages:
     - 2020-07.394
-    reference_count: 2
+    reference_count: 3
     summary: Larger than expected
