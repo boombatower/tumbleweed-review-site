@@ -3697,12 +3697,12 @@
   threads: []
 '20200801':
   announcement: 2020-08.6
-  reference_count: 9
+  reference_count: 10
   thread_count: 2
   threads:
   - messages:
     - 2020-08.7
-    reference_count: 8
+    reference_count: 9
     summary: released! - update hangs on Plasma update tool
   - messages:
     - 2020-08.10
