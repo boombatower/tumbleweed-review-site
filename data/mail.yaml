@@ -3716,6 +3716,10 @@
   threads: []
 '20200803':
   announcement: 2020-08.51
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-08.52
+    reference_count: 2
+    summary: Initialization error in /etc/profile
