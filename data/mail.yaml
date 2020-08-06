@@ -3723,3 +3723,8 @@
     - 2020-08.52
     reference_count: 3
     summary: Initialization error in /etc/profile
+'20200804':
+  announcement: 2020-08.63
+  reference_count: 0
+  thread_count: 0
+  threads: []
