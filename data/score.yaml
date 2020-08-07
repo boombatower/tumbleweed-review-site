@@ -1539,7 +1539,7 @@
   stability_level: stable
 '20200731':
   score: 99
-  stability_level: pending
+  stability_level: stable
 '20200801':
   score: 80
   stability_level: pending
@@ -1551,4 +1551,7 @@
   stability_level: pending
 '20200804':
   score: 97
+  stability_level: pending
+'20200805':
+  score: 99
   stability_level: pending
