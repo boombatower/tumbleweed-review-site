@@ -3781,3 +3781,8 @@
     - 2020-08.149
     reference_count: 6
     summary: Virtualbox crashes with kernel 5.8 on openSUSE
+'20200817':
+  announcement: 2020-08.158
+  reference_count: 0
+  thread_count: 0
+  threads: []
