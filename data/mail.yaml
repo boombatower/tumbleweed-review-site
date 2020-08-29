@@ -3829,8 +3829,8 @@
   threads: []
 '20200826':
   announcement: 2020-08.324
-  reference_count: 4
-  thread_count: 2
+  reference_count: 7
+  thread_count: 3
   threads:
   - messages:
     - 2020-08.325
@@ -3838,5 +3838,9 @@
     summary: no summary given
   - messages:
     - 2020-08.328
-    reference_count: 2
+    reference_count: 4
     summary: ypbind truble
+  - messages:
+    - 2020-08.333
+    reference_count: 1
+    summary: failed to summarize
