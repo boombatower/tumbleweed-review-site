@@ -3829,6 +3829,10 @@
   threads: []
 '20200826':
   announcement: 2020-08.324
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-08.325
+    reference_count: 2
+    summary: no summary given
