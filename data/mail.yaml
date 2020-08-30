@@ -3829,8 +3829,8 @@
   threads: []
 '20200826':
   announcement: 2020-08.324
-  reference_count: 14
-  thread_count: 3
+  reference_count: 18
+  thread_count: 4
   threads:
   - messages:
     - 2020-08.325
@@ -3838,9 +3838,13 @@
     summary: no summary given
   - messages:
     - 2020-08.328
-    reference_count: 4
+    reference_count: 6
     summary: ypbind truble
   - messages:
+    - 2020-08.348
+    reference_count: 1
+    summary: man broken (/etc/alternatives links)
+  - messages:
     - 2020-08.333
-    reference_count: 8
+    reference_count: 9
     summary: failed to summarize
