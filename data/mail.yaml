@@ -3824,12 +3824,16 @@
     summary: System boots into unusable state after this update
 '20200824':
   announcement: 2020-08.230
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-08.354
+    reference_count: 1
+    summary: Unable to boot
 '20200826':
   announcement: 2020-08.324
-  reference_count: 18
+  reference_count: 21
   thread_count: 4
   threads:
   - messages:
@@ -3842,7 +3846,7 @@
     summary: ypbind truble
   - messages:
     - 2020-08.348
-    reference_count: 1
+    reference_count: 4
     summary: man broken (/etc/alternatives links)
   - messages:
     - 2020-08.333
