@@ -3833,7 +3833,7 @@
     summary: Unable to boot
 '20200826':
   announcement: 2020-08.324
-  reference_count: 21
+  reference_count: 22
   thread_count: 4
   threads:
   - messages:
@@ -3842,7 +3842,7 @@
     summary: no summary given
   - messages:
     - 2020-08.328
-    reference_count: 6
+    reference_count: 7
     summary: ypbind truble
   - messages:
     - 2020-08.348
