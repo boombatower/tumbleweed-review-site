@@ -3833,7 +3833,7 @@
     summary: Unable to boot
 '20200826':
   announcement: 2020-08.324
-  reference_count: 24
+  reference_count: 26
   thread_count: 5
   threads:
   - messages:
@@ -3854,5 +3854,5 @@
     summary: failed to summarize
   - messages:
     - 2020-08.358
-    reference_count: 1
+    reference_count: 3
     summary: /etc/crontab broken
