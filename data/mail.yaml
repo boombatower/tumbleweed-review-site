@@ -3824,12 +3824,12 @@
     summary: System boots into unusable state after this update
 '20200824':
   announcement: 2020-08.230
-  reference_count: 5
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
     - 2020-08.354
-    reference_count: 5
+    reference_count: 6
     summary: Unable to boot
 '20200826':
   announcement: 2020-08.324
