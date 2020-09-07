@@ -1605,7 +1605,7 @@
   stability_level: unstable
 '20200831':
   score: 87
-  stability_level: pending
+  stability_level: moderate
 '20200901':
   score: 95
   stability_level: pending
