@@ -3858,14 +3858,14 @@
     summary: /etc/crontab broken
 '20200829':
   announcement: 2020-08.374
-  reference_count: 5
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
     - 2020-08.375
     - 2020-08.376
     - 2020-09.1
-    reference_count: 5
+    reference_count: 6
     summary: released!
 '20200831':
   announcement: 2020-09.35
