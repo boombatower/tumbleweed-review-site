@@ -3919,6 +3919,10 @@
   threads: []
 '20200914':
   announcement: 2020-09.135
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-09.138
+    reference_count: 1
+    summary: inkscape x86_64
