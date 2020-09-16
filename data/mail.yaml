@@ -3919,10 +3919,14 @@
   threads: []
 '20200914':
   announcement: 2020-09.135
-  reference_count: 2
-  thread_count: 1
+  reference_count: 4
+  thread_count: 2
   threads:
   - messages:
     - 2020-09.138
     reference_count: 2
     summary: inkscape x86_64
+  - messages:
+    - 2020-09.147
+    reference_count: 2
+    summary: failed to summarize
