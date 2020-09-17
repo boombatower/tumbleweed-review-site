@@ -1580,16 +1580,16 @@
   score: 80
   stability_level: moderate
 '20200817':
-  score: 77
-  stability_level: moderate
+  score: 92
+  stability_level: stable
 '20200818':
-  score: 75
+  score: 81
   stability_level: moderate
 '20200819':
-  score: 72
+  score: 74
   stability_level: moderate
 '20200821':
-  score: 73
+  score: 74
   stability_level: moderate
 '20200823':
   score: 69
