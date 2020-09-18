@@ -1583,19 +1583,19 @@
   score: 92
   stability_level: stable
 '20200818':
-  score: 81
-  stability_level: moderate
+  score: 96
+  stability_level: stable
 '20200819':
-  score: 74
+  score: 80
   stability_level: moderate
 '20200821':
-  score: 74
+  score: 77
   stability_level: moderate
 '20200823':
-  score: 69
+  score: 70
   stability_level: unstable
 '20200824':
-  score: 62
+  score: 63
   stability_level: unstable
 '20200826':
   score: 36
@@ -1638,4 +1638,7 @@
   stability_level: pending
 '20200915':
   score: 97
+  stability_level: pending
+'20200917':
+  score: 99
   stability_level: pending
