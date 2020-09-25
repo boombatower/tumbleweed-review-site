@@ -3952,6 +3952,10 @@
   threads: []
 '20200923':
   announcement: 2020-09.192
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-09.193
+    reference_count: 2
+    summary: net-snmp complains about its own configuration file when installed
