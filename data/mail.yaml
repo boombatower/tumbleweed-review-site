@@ -3947,9 +3947,13 @@
   threads: []
 '20200922':
   announcement: 2020-09.186
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-09.220
+    reference_count: 1
+    summary: no summary given
 '20200923':
   announcement: 2020-09.192
   reference_count: 2
