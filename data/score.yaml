@@ -1598,16 +1598,16 @@
   score: 87
   stability_level: moderate
 '20200826':
-  score: 46
+  score: 66
   stability_level: unstable
 '20200829':
-  score: 72
+  score: 80
   stability_level: moderate
 '20200831':
-  score: 88
-  stability_level: moderate
+  score: 92
+  stability_level: stable
 '20200901':
-  score: 95
+  score: 96
   stability_level: stable
 '20200902':
   score: 98
