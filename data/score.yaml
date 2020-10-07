@@ -1662,10 +1662,10 @@
   stability_level: stable
 '20200930':
   score: 99
-  stability_level: pending
+  stability_level: stable
 '20201002':
   score: 99
   stability_level: pending
 '20201004':
-  score: 96
+  score: 95
   stability_level: pending
