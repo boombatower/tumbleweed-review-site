@@ -3997,3 +3997,8 @@
     - 2020-10.26
     reference_count: 4
     summary: Thunderbird 78.3.1 is broken
+'20201005':
+  announcement: 2020-10.31
+  reference_count: 0
+  thread_count: 0
+  threads: []
