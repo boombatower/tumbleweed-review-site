@@ -4008,7 +4008,7 @@
   threads: []
 '20201007':
   announcement: 2020-10.55
-  reference_count: 2
+  reference_count: 4
   thread_count: 2
   threads:
   - messages:
@@ -4017,5 +4017,5 @@
     summary: glibc update
   - messages:
     - 2020-10.58
-    reference_count: 1
+    reference_count: 3
     summary: no summary given
