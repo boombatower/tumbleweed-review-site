@@ -3990,7 +3990,7 @@
   threads: []
 '20201004':
   announcement: 2020-10.23
-  reference_count: 16
+  reference_count: 20
   thread_count: 2
   threads:
   - messages:
@@ -3999,7 +3999,7 @@
     summary: Thunderbird 78.3.1 is broken
   - messages:
     - 2020-10.36
-    reference_count: 12
+    reference_count: 16
     summary: released!
 '20201005':
   announcement: 2020-10.31
