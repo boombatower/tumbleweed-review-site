@@ -4008,7 +4008,7 @@
   threads: []
 '20201007':
   announcement: 2020-10.55
-  reference_count: 7
+  reference_count: 12
   thread_count: 3
   threads:
   - messages:
@@ -4017,9 +4017,9 @@
     summary: glibc update
   - messages:
     - 2020-10.58
-    reference_count: 5
+    reference_count: 7
     summary: no summary given
   - messages:
     - 2020-10.64
-    reference_count: 1
+    reference_count: 4
     summary: and X11 keyboard setup
