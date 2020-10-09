@@ -4008,7 +4008,7 @@
   threads: []
 '20201007':
   announcement: 2020-10.55
-  reference_count: 12
+  reference_count: 13
   thread_count: 3
   threads:
   - messages:
@@ -4021,5 +4021,5 @@
     summary: no summary given
   - messages:
     - 2020-10.64
-    reference_count: 4
+    reference_count: 5
     summary: and X11 keyboard setup
