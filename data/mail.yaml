@@ -4023,3 +4023,8 @@
     - 2020-10.64
     reference_count: 6
     summary: and X11 keyboard setup
+'20201008':
+  announcement: 2020-10.79
+  reference_count: 0
+  thread_count: 0
+  threads: []
