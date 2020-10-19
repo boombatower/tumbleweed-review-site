@@ -4045,12 +4045,12 @@
   threads: []
 '20201014':
   announcement: 2020-10.127
-  reference_count: 4
+  reference_count: 5
   thread_count: 2
   threads:
   - messages:
     - 2020-10.155
-    reference_count: 3
+    reference_count: 4
     summary: released! - just a note
   - messages:
     - 2020-10.135
