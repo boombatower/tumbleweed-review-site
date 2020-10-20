@@ -4056,3 +4056,8 @@
     - 2020-10.135
     reference_count: 1
     summary: kstart5 no longer runs desktop files
+'20201019':
+  announcement: 2020-10.198
+  reference_count: 0
+  thread_count: 0
+  threads: []
