@@ -4078,6 +4078,10 @@
   threads: []
 '20201024':
   announcement: 2020-10.267
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 5
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-10.275
+    reference_count: 5
+    summary: failed to summarize
