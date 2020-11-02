@@ -4078,7 +4078,7 @@
   threads: []
 '20201024':
   announcement: 2020-10.267
-  reference_count: 9
+  reference_count: 10
   thread_count: 2
   threads:
   - messages:
@@ -4087,7 +4087,7 @@
     summary: failed to summarize
   - messages:
     - 2020-10.308
-    reference_count: 4
+    reference_count: 5
     summary: Liberation Font weirdness
 '20201025':
   announcement: 2020-10.282
@@ -4106,6 +4106,11 @@
   threads: []
 '20201029':
   announcement: 2020-10.337
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20201030':
+  announcement: 2020-11.9
   reference_count: 0
   thread_count: 0
   threads: []
