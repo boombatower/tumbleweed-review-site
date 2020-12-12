@@ -1730,16 +1730,16 @@
   score: 99
   stability_level: stable
 '20201107':
+  score: 99
+  stability_level: stable
+'20201108':
   score: 84
   stability_level: moderate
-'20201108':
-  score: 78
-  stability_level: moderate
 '20201114':
-  score: 59
+  score: 61
   stability_level: unstable
 '20201117':
-  score: 83
+  score: 84
   stability_level: moderate
 '20201119':
   score: 88
@@ -1779,4 +1779,7 @@
   stability_level: pending
 '20201209':
   score: 98
+  stability_level: pending
+'20201211':
+  score: 99
   stability_level: pending
