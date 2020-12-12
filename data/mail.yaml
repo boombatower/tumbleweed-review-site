@@ -736,7 +736,6 @@
   threads:
   - messages:
     - 2018-04.353
-    - 2018-05.208
     reference_count: 3
     summary: released!
   - messages:
@@ -2282,6 +2281,7 @@
   threads:
   - messages:
     - 2019-08.3
+    - 2019-08.5
     - 2019-08.6
     reference_count: 4
     summary: released!
@@ -4110,17 +4110,17 @@
   thread_count: 0
   threads: []
 '20201030':
-  announcement: 2020-11.9
+  announcement: 2020-11.8
   reference_count: 0
   thread_count: 0
   threads: []
 '20201104':
-  announcement: 2020-11.65
+  announcement: 2020-11.64
   reference_count: 0
   thread_count: 0
   threads: []
 '20201105':
-  announcement: 2020-11.73
+  announcement: 2020-11.72
   reference_count: 0
   thread_count: 0
   threads: []
@@ -4136,6 +4136,119 @@
   threads: []
 '20201108':
   announcement: 2020-11.113
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20201114':
+  announcement: 2020-11.179
+  reference_count: 15
+  thread_count: 2
+  threads:
+  - messages:
+    - 2020-11.180
+    reference_count: 1
+    summary: no summary given
+  - messages:
+    - 2020-11.181
+    reference_count: 14
+    summary: failed to summarize
+'20201117':
+  announcement: 2020-11.222
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20201119':
+  announcement: 2020-11.244
+  reference_count: 5
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-11.249
+    reference_count: 5
+    summary: no summary given
+'20201121':
+  announcement: 2020-11.261
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20201123':
+  announcement: 2020-11.272
+  reference_count: 7
+  thread_count: 3
+  threads:
+  - messages:
+    - 2020-11.304
+    reference_count: 2
+    summary: Tumbleweed Review
+  - messages:
+    - 2020-11.321
+    - 2020-11.331
+    reference_count: 3
+    summary: no summary given
+  - messages:
+    - 2020-11.330
+    reference_count: 2
+    summary: released!)
+'20201124':
+  announcement: 2020-11.308
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20201125':
+  announcement: 2020-11.340
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20201127':
+  announcement: 2020-11.357
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20201130':
+  announcement: 2020-12.4
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20201201':
+  announcement: 2020-12.11
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-12.12
+    reference_count: 1
+    summary: 'OT: Listinfo "[opensuse-factory]" at Subject missing'
+'20201202':
+  announcement: 2020-12.63
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20201203':
+  announcement: 2020-12.97
+  reference_count: 10
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-12.154
+    reference_count: 10
+    summary: gdb now supports debuginfod
+'20201205':
+  announcement: 2020-12.135
+  reference_count: 3
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-12.203
+    - 2020-12.209
+    reference_count: 3
+    summary: fwupd displays warning after update [
+'20201207':
+  announcement: 2020-12.210
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20201209':
+  announcement: 2020-12.244
   reference_count: 0
   thread_count: 0
   threads: []
