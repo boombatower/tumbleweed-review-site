@@ -1709,29 +1709,74 @@
   score: 95
   stability_level: stable
 '20201026':
-  score: 83
-  stability_level: moderate
+  score: 98
+  stability_level: stable
 '20201028':
-  score: 78
-  stability_level: moderate
+  score: 99
+  stability_level: stable
 '20201029':
-  score: 76
-  stability_level: moderate
+  score: 99
+  stability_level: stable
 '20201030':
-  score: 75
-  stability_level: moderate
+  score: 99
+  stability_level: stable
 '20201104':
-  score: 75
-  stability_level: moderate
+  score: 99
+  stability_level: stable
 '20201105':
-  score: 75
-  stability_level: moderate
+  score: 99
+  stability_level: stable
 '20201106':
-  score: 75
-  stability_level: moderate
+  score: 99
+  stability_level: stable
 '20201107':
-  score: 75
+  score: 84
   stability_level: moderate
 '20201108':
-  score: 75
+  score: 78
   stability_level: moderate
+'20201114':
+  score: 59
+  stability_level: unstable
+'20201117':
+  score: 83
+  stability_level: moderate
+'20201119':
+  score: 88
+  stability_level: moderate
+'20201121':
+  score: 95
+  stability_level: stable
+'20201123':
+  score: 89
+  stability_level: moderate
+'20201124':
+  score: 95
+  stability_level: stable
+'20201125':
+  score: 98
+  stability_level: stable
+'20201127':
+  score: 99
+  stability_level: stable
+'20201130':
+  score: 99
+  stability_level: stable
+'20201201':
+  score: 96
+  stability_level: stable
+'20201202':
+  score: 98
+  stability_level: stable
+'20201203':
+  score: 89
+  stability_level: moderate
+'20201205':
+  score: 92
+  stability_level: stable
+'20201207':
+  score: 97
+  stability_level: pending
+'20201209':
+  score: 98
+  stability_level: pending
