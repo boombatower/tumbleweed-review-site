@@ -4259,9 +4259,13 @@
   threads: []
 '20201212':
   announcement: 2020-12.256
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-12.275
+    reference_count: 2
+    summary: Problems during first boot after upgrade [
 '20201213':
   announcement: 2020-12.258
   reference_count: 0
