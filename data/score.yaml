@@ -1782,7 +1782,7 @@
   stability_level: stable
 '20201211':
   score: 99
-  stability_level: pending
+  stability_level: stable
 '20201212':
   score: 86
   stability_level: pending
