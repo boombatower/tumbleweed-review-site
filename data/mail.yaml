@@ -4288,6 +4288,10 @@
   threads: []
 '20201218':
   announcement: 2020-12.349
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-12.350
+    reference_count: 2
+    summary: installing sof firmware fails
