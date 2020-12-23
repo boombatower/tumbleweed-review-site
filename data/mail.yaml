@@ -4288,9 +4288,13 @@
   threads: []
 '20201218':
   announcement: 2020-12.349
-  reference_count: 6
-  thread_count: 1
+  reference_count: 7
+  thread_count: 2
   threads:
+  - messages:
+    - 2020-12.364
+    reference_count: 1
+    summary: '[BUG] konsole'
   - messages:
     - 2020-12.350
     reference_count: 6
