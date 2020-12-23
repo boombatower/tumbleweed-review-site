@@ -4295,3 +4295,8 @@
     - 2020-12.350
     reference_count: 6
     summary: installing sof firmware fails
+'20201221':
+  announcement: 2020-12.363
+  reference_count: 0
+  thread_count: 0
+  threads: []
