@@ -4311,9 +4311,13 @@
   threads: []
 '20201224':
   announcement: 2020-12.382
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 3
+  thread_count: 1
+  threads:
+  - messages:
+    - 2020-12.403
+    reference_count: 3
+    summary: released! => Bootup hangs after update
 '20201226':
   announcement: 2020-12.398
   reference_count: 0
