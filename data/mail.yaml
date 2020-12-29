@@ -4311,12 +4311,12 @@
   threads: []
 '20201224':
   announcement: 2020-12.382
-  reference_count: 4
+  reference_count: 5
   thread_count: 1
   threads:
   - messages:
     - 2020-12.403
-    reference_count: 4
+    reference_count: 5
     summary: released! => Bootup hangs after update
 '20201226':
   announcement: 2020-12.398
