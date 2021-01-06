@@ -5225,10 +5225,10 @@
     summary: No picture in Gnome/Wayland after kernel update to v5.10.4
 '20210104':
   announcement: 2021-01.4692
-  reference_count: 1
+  reference_count: 3
   thread_count: 1
   threads:
   - messages:
     - 2021-01.4728
-    reference_count: 1
+    reference_count: 3
     summary: wxWidgets dependency errors
