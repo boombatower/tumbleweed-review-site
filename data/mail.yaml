@@ -5147,7 +5147,7 @@
   threads: []
 '20201218':
   announcement: 2021-01.4550
-  reference_count: 11
+  reference_count: 12
   thread_count: 2
   threads:
   - messages:
@@ -5156,7 +5156,7 @@
     summary: '[BUG] konsole'
   - messages:
     - 2021-01.4551
-    reference_count: 10
+    reference_count: 11
     summary: installing sof firmware fails
 '20201221':
   announcement: 2021-01.4564
