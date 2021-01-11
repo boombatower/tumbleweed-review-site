@@ -5249,6 +5249,10 @@
   threads: []
 '20210108':
   announcement: 2021-01.4831
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2021-01.4835
+    reference_count: 1
+    summary: -- akonadi issues
