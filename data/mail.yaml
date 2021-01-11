@@ -5249,10 +5249,15 @@
   threads: []
 '20210108':
   announcement: 2021-01.4831
-  reference_count: 1
+  reference_count: 2
   thread_count: 1
   threads:
   - messages:
     - 2021-01.4835
-    reference_count: 1
+    reference_count: 2
     summary: -- akonadi issues
+'20210110':
+  announcement: 2021-01.4837
+  reference_count: 0
+  thread_count: 0
+  threads: []
