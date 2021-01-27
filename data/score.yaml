@@ -1817,19 +1817,19 @@
   score: 97
   stability_level: stable
 '20201228':
-  score: 79
-  stability_level: moderate
+  score: 94
+  stability_level: stable
 '20201229':
-  score: 76
+  score: 82
   stability_level: moderate
 '20201231':
-  score: 80
+  score: 83
   stability_level: moderate
 '20210101':
-  score: 82
+  score: 83
   stability_level: moderate
 '20210102':
-  score: 82
+  score: 83
   stability_level: moderate
 '20210103':
   score: 90
@@ -1874,5 +1874,8 @@
   score: 99
   stability_level: stable
 '20210121':
+  score: 99
+  stability_level: pending
+'20210126':
   score: 99
   stability_level: pending
