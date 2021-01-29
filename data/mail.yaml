@@ -5307,12 +5307,12 @@
   threads: []
 '20210126':
   announcement: 2021-01.5068
-  reference_count: 2
+  reference_count: 5
   thread_count: 1
   threads:
   - messages:
     - 2021-01.5076
-    reference_count: 2
+    reference_count: 5
     summary: Coolest Changelog entry
 '20210127':
   announcement: 2021-01.5079
