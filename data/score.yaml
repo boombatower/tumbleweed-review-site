@@ -1190,7 +1190,7 @@
   score: 78
   stability_level: moderate
 '20200121':
-  score: 78
+  score: 77
   stability_level: moderate
 '20200122':
   score: 84
@@ -1208,43 +1208,43 @@
   score: 94
   stability_level: stable
 '20200128':
-  score: 64
+  score: 57
   stability_level: unstable
 '20200201':
-  score: -23
+  score: -34
   stability_level: unstable
 '20200205':
-  score: 47
+  score: 43
   stability_level: unstable
 '20200207':
-  score: 35
+  score: 27
   stability_level: unstable
 '20200209':
-  score: 71
-  stability_level: moderate
+  score: 67
+  stability_level: unstable
 '20200211':
-  score: 77
+  score: 72
   stability_level: moderate
 '20200213':
-  score: 85
+  score: 80
   stability_level: moderate
 '20200214':
-  score: 91
-  stability_level: stable
+  score: 89
+  stability_level: moderate
 '20200218':
-  score: 93
+  score: 92
   stability_level: stable
 '20200219':
-  score: 90
+  score: 86
   stability_level: moderate
 '20200220':
-  score: 46
+  score: 44
   stability_level: unstable
 '20200222':
-  score: 75
+  score: 74
   stability_level: moderate
 '20200224':
-  score: 87
+  score: 86
   stability_level: moderate
 '20200226':
   score: 91
@@ -1256,11 +1256,11 @@
   score: 94
   stability_level: stable
 '20200229':
-  score: 86
+  score: 82
   stability_level: moderate
 '20200301':
-  score: 91
-  stability_level: stable
+  score: 90
+  stability_level: moderate
 '20200303':
   score: 93
   stability_level: stable
@@ -1280,13 +1280,13 @@
   score: 94
   stability_level: stable
 '20200311':
-  score: 90
+  score: 86
   stability_level: moderate
 '20200312':
-  score: 93
-  stability_level: stable
+  score: 89
+  stability_level: moderate
 '20200314':
-  score: 94
+  score: 92
   stability_level: stable
 '20200318':
   score: 94
@@ -1298,19 +1298,19 @@
   score: 94
   stability_level: stable
 '20200322':
-  score: 66
+  score: 52
   stability_level: unstable
 '20200324':
-  score: 83
+  score: 78
   stability_level: moderate
 '20200325':
-  score: 90
+  score: 88
   stability_level: moderate
 '20200326':
-  score: 93
+  score: 92
   stability_level: stable
 '20200331':
-  score: 94
+  score: 93
   stability_level: stable
 '20200401':
   score: 66
@@ -1319,13 +1319,13 @@
   score: 83
   stability_level: moderate
 '20200405':
-  score: 86
+  score: 82
   stability_level: moderate
 '20200407':
-  score: 91
-  stability_level: stable
+  score: 89
+  stability_level: moderate
 '20200408':
-  score: 93
+  score: 92
   stability_level: stable
 '20200409':
   score: 94
@@ -1340,40 +1340,40 @@
   score: 94
   stability_level: stable
 '20200414':
-  score: 94
+  score: 92
   stability_level: stable
 '20200415':
   score: 94
   stability_level: stable
 '20200416':
-  score: 90
+  score: 86
   stability_level: moderate
 '20200417':
-  score: 93
-  stability_level: stable
+  score: 89
+  stability_level: moderate
 '20200419':
-  score: 91
-  stability_level: stable
+  score: 88
+  stability_level: moderate
 '20200421':
-  score: 93
+  score: 92
   stability_level: stable
 '20200422':
   score: 94
   stability_level: stable
 '20200425':
-  score: 80
+  score: 71
   stability_level: moderate
 '20200427':
-  score: 81
+  score: 73
   stability_level: moderate
 '20200428':
-  score: 89
+  score: 86
   stability_level: moderate
 '20200429':
-  score: 92
+  score: 91
   stability_level: stable
 '20200501':
-  score: 94
+  score: 93
   stability_level: stable
 '20200502':
   score: 94
@@ -1403,16 +1403,16 @@
   score: 94
   stability_level: stable
 '20200514':
-  score: 80
+  score: 72
   stability_level: moderate
 '20200515':
-  score: 89
+  score: 86
   stability_level: moderate
 '20200516':
-  score: 92
+  score: 91
   stability_level: stable
 '20200517':
-  score: 94
+  score: 93
   stability_level: stable
 '20200519':
   score: 94
@@ -1430,16 +1430,16 @@
   score: 94
   stability_level: stable
 '20200602':
-  score: 66
+  score: 57
   stability_level: unstable
 '20200603':
-  score: 83
+  score: 80
   stability_level: moderate
 '20200604':
-  score: 65
+  score: 64
   stability_level: unstable
 '20200609':
-  score: 83
+  score: 82
   stability_level: moderate
 '20200610':
   score: 90
@@ -1448,17 +1448,17 @@
   score: 93
   stability_level: stable
 '20200612':
-  score: 72
-  stability_level: moderate
+  score: 60
+  stability_level: unstable
 '20200614':
-  score: 75
-  stability_level: moderate
+  score: 64
+  stability_level: unstable
 '20200615':
-  score: 87
+  score: 82
   stability_level: moderate
 '20200616':
-  score: 91
-  stability_level: stable
+  score: 90
+  stability_level: moderate
 '20200617':
   score: 93
   stability_level: stable
@@ -1469,64 +1469,64 @@
   score: 94
   stability_level: stable
 '20200622':
-  score: 91
-  stability_level: stable
-'20200625':
   score: 90
   stability_level: moderate
+'20200625':
+  score: 87
+  stability_level: moderate
 '20200626':
-  score: 93
+  score: 91
   stability_level: stable
 '20200627':
-  score: 94
+  score: 93
   stability_level: stable
 '20200628':
   score: 94
   stability_level: stable
 '20200630':
-  score: 92
-  stability_level: stable
+  score: 89
+  stability_level: moderate
 '20200701':
-  score: 94
+  score: 92
   stability_level: stable
 '20200707':
   score: 94
   stability_level: stable
 '20200708':
-  score: 88
+  score: 83
   stability_level: moderate
 '20200710':
-  score: 92
-  stability_level: stable
+  score: 90
+  stability_level: moderate
 '20200713':
-  score: 94
-  stability_level: stable
-'20200714':
-  score: 86
-  stability_level: moderate
-'20200715':
-  score: 91
-  stability_level: stable
-'20200716':
-  score: 65
-  stability_level: unstable
-'20200717':
-  score: 75
-  stability_level: moderate
-'20200720':
-  score: 87
-  stability_level: moderate
-'20200721':
-  score: 85
-  stability_level: moderate
-'20200724':
-  score: 91
-  stability_level: stable
-'20200726':
   score: 93
   stability_level: stable
+'20200714':
+  score: 82
+  stability_level: moderate
+'20200715':
+  score: 89
+  stability_level: moderate
+'20200716':
+  score: 49
+  stability_level: unstable
+'20200717':
+  score: 64
+  stability_level: unstable
+'20200720':
+  score: 82
+  stability_level: moderate
+'20200721':
+  score: 79
+  stability_level: moderate
+'20200724':
+  score: 88
+  stability_level: moderate
+'20200726':
+  score: 92
+  stability_level: stable
 '20200727':
-  score: 94
+  score: 93
   stability_level: stable
 '20200728':
   score: 94
@@ -1541,79 +1541,79 @@
   score: 94
   stability_level: stable
 '20200801':
-  score: 59
+  score: 46
   stability_level: unstable
 '20200802':
-  score: 80
+  score: 75
   stability_level: moderate
 '20200803':
-  score: 85
+  score: 79
   stability_level: moderate
 '20200804':
-  score: 91
-  stability_level: stable
+  score: 88
+  stability_level: moderate
 '20200805':
-  score: 93
+  score: 92
   stability_level: stable
 '20200806':
-  score: 94
-  stability_level: stable
-'20200807':
-  score: 88
-  stability_level: moderate
-'20200810':
-  score: 92
-  stability_level: stable
-'20200812':
-  score: 94
-  stability_level: stable
-'20200813':
-  score: 90
-  stability_level: moderate
-'20200814':
   score: 93
   stability_level: stable
-'20200815':
-  score: 94
-  stability_level: stable
-'20200816':
-  score: 58
-  stability_level: unstable
-'20200817':
-  score: 80
-  stability_level: moderate
-'20200818':
-  score: 89
-  stability_level: moderate
-'20200819':
-  score: 88
-  stability_level: moderate
-'20200821':
-  score: 92
-  stability_level: stable
-'20200823':
+'20200807':
   score: 85
   stability_level: moderate
-'20200824':
-  score: 71
+'20200810':
+  score: 91
+  stability_level: stable
+'20200812':
+  score: 93
+  stability_level: stable
+'20200813':
+  score: 86
   stability_level: moderate
+'20200814':
+  score: 91
+  stability_level: stable
+'20200815':
+  score: 93
+  stability_level: stable
+'20200816':
+  score: 53
+  stability_level: unstable
+'20200817':
+  score: 78
+  stability_level: moderate
+'20200818':
+  score: 88
+  stability_level: moderate
+'20200819':
+  score: 84
+  stability_level: moderate
+'20200821':
+  score: 90
+  stability_level: moderate
+'20200823':
+  score: 79
+  stability_level: moderate
+'20200824':
+  score: 63
+  stability_level: unstable
 '20200826':
-  score: 31
+  score: 9
   stability_level: unstable
 '20200829':
-  score: 58
+  score: 43
   stability_level: unstable
 '20200831':
-  score: 80
+  score: 74
   stability_level: moderate
 '20200901':
-  score: 89
+  score: 86
   stability_level: moderate
 '20200902':
-  score: 92
+  score: 91
   stability_level: stable
 '20200904':
-  score: 94
+  score: 93
   stability_level: stable
 '20200905':
   score: 94
@@ -1634,28 +1634,28 @@
   score: 94
   stability_level: stable
 '20200914':
-  score: 86
+  score: 81
   stability_level: moderate
 '20200915':
-  score: 91
-  stability_level: stable
+  score: 89
+  stability_level: moderate
 '20200917':
-  score: 93
+  score: 92
   stability_level: stable
 '20200919':
   score: 94
   stability_level: stable
 '20200922':
-  score: 94
+  score: 92
   stability_level: stable
 '20200923':
-  score: 90
+  score: 88
   stability_level: moderate
 '20200925':
-  score: 93
+  score: 92
   stability_level: stable
 '20200928':
-  score: 94
+  score: 93
   stability_level: stable
 '20200929':
   score: 94
@@ -1688,13 +1688,13 @@
   score: 93
   stability_level: stable
 '20201014':
-  score: 85
+  score: 80
   stability_level: moderate
 '20201019':
-  score: 91
-  stability_level: stable
+  score: 89
+  stability_level: moderate
 '20201021':
-  score: 93
+  score: 92
   stability_level: stable
 '20201022':
   score: 94
@@ -1703,22 +1703,22 @@
   score: 94
   stability_level: stable
 '20201024':
-  score: 76
-  stability_level: moderate
+  score: 65
+  stability_level: unstable
 '20201025':
-  score: 87
+  score: 83
   stability_level: moderate
 '20201026':
-  score: 81
-  stability_level: moderate
+  score: 68
+  stability_level: unstable
 '20201028':
-  score: 89
+  score: 84
   stability_level: moderate
 '20201029':
-  score: 92
-  stability_level: stable
+  score: 90
+  stability_level: moderate
 '20201030':
-  score: 94
+  score: 93
   stability_level: stable
 '20201104':
   score: 94
@@ -1736,34 +1736,34 @@
   score: 94
   stability_level: stable
 '20201114':
-  score: 66
+  score: 58
   stability_level: unstable
 '20201117':
-  score: 83
-  stability_level: moderate
-'20201119':
-  score: 82
-  stability_level: moderate
-'20201121':
-  score: 90
-  stability_level: moderate
-'20201123':
   score: 80
   stability_level: moderate
+'20201119':
+  score: 75
+  stability_level: moderate
+'20201121':
+  score: 87
+  stability_level: moderate
+'20201123':
+  score: 70
+  stability_level: unstable
 '20201124':
-  score: 89
+  score: 85
   stability_level: moderate
 '20201125':
-  score: 92
+  score: 91
   stability_level: stable
 '20201127':
-  score: 94
+  score: 93
   stability_level: stable
 '20201129':
   score: 97
   stability_level: stable
 '20201130':
-  score: 99
+  score: 98
   stability_level: stable
 '20201201':
   score: 96
