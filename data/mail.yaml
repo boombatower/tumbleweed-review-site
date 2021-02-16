@@ -5616,3 +5616,8 @@
     - 2021-02.4886
     reference_count: 1
     summary: fails to boot (dracut-initqueue timeout errors)
+'20210212':
+  announcement: 2021-02.4901
+  reference_count: 0
+  thread_count: 0
+  threads: []
