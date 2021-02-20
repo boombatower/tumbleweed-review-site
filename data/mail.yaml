@@ -5609,13 +5609,17 @@
   threads: []
 '20210210':
   announcement: 2021-02.4875
-  reference_count: 1
-  thread_count: 1
+  reference_count: 2
+  thread_count: 2
   threads:
   - messages:
     - 2021-02.4886
     reference_count: 1
     summary: fails to boot (dracut-initqueue timeout errors)
+  - messages:
+    - 2021-02.5020
+    reference_count: 1
+    summary: be cautious  to upgrade x86_32 Tumbleweed system to snapshot
 '20210212':
   announcement: 2021-02.4901
   reference_count: 2
