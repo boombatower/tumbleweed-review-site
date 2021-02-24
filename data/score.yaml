@@ -1703,7 +1703,7 @@
   score: 94
   stability_level: stable
 '20201024':
-  score: 64
+  score: 63
   stability_level: unstable
 '20201025':
   score: 82
@@ -1928,5 +1928,5 @@
   score: 99
   stability_level: pending
 '20210222':
-  score: 89
+  score: 88
   stability_level: pending
