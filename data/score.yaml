@@ -1920,7 +1920,7 @@
   stability_level: stable
 '20210218':
   score: 97
-  stability_level: pending
+  stability_level: stable
 '20210219':
   score: 99
   stability_level: pending
@@ -1928,5 +1928,5 @@
   score: 99
   stability_level: pending
 '20210222':
-  score: 80
+  score: 77
   stability_level: pending
