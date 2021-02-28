@@ -5661,9 +5661,13 @@
   threads: []
 '20210222':
   announcement: 2021-02.5086
-  reference_count: 22
-  thread_count: 2
+  reference_count: 23
+  thread_count: 3
   threads:
+  - messages:
+    - 2021-02.5187
+    reference_count: 1
+    summary: Compose key handling in GTK broken
   - messages:
     - 2021-02.5087
     - 2021-02.5088
