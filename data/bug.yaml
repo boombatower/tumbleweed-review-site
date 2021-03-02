@@ -41575,8 +41575,8 @@
 - component: Basesystem
   create_time: 20200603T07:01:00
   id: 1172430
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: gnucash can't be built with guile-3.0
 - component: Other
   create_time: 20200603T03:56:00
@@ -45037,8 +45037,8 @@
 - component: Development
   create_time: 20200817T13:12:00
   id: 1175362
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: GCC fix for out-of-line atomics fallback on non-LSE systems
 - component: Network
   create_time: 20200817T10:24:00
@@ -53540,8 +53540,8 @@
 - component: Basesystem
   create_time: 20210215T10:14:00
   id: 1182252
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[binutils2.36] nuspell build failure'
 - component: Other
   create_time: 20210215T10:09:00
