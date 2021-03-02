@@ -47427,8 +47427,8 @@
 - component: Basesystem
   create_time: 20201008T07:30:00
   id: 1177462
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20201007] openQA test fails in journal_check: Dracut is missing
     /var/lib/nfs/sm'
 - component: Basesystem
@@ -54099,6 +54099,12 @@
   status: RESOLVED
   summary: Currently build do break on su command due missing module (PAM?)
 '20210227':
+- component: Upgrade Problems
+  create_time: 20210302T16:16:00
+  id: 1182935
+  resolution: ''
+  status: NEW
+  summary: File conflicts during zypper dup
 - component: Kernel
   create_time: 20210302T14:22:00
   id: 1182929
