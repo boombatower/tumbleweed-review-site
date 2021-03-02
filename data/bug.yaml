@@ -54099,11 +54099,17 @@
   status: RESOLVED
   summary: Currently build do break on su command due missing module (PAM?)
 '20210227':
-- component: Upgrade Problems
-  create_time: 20210302T16:16:00
-  id: 1182935
+- component: Development
+  create_time: 20210302T19:26:00
+  id: 1182942
   resolution: ''
   status: NEW
+  summary: Rakudo doesn' starts after dist upgrade
+- component: Development
+  create_time: 20210302T16:16:00
+  id: 1182935
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: File conflicts during zypper dup
 - component: Kernel
   create_time: 20210302T14:22:00
