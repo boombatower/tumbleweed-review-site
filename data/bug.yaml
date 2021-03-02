@@ -7363,8 +7363,8 @@
 - component: Other
   create_time: 20180419T11:36:00
   id: 1090209
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Package libgccjit
 - component: Kernel
   create_time: 20180419T07:51:00
@@ -20379,8 +20379,8 @@
 - component: Development
   create_time: 20190305T08:24:00
   id: 1127857
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: libreoffice fails to build against devel:gcc
 - component: Containers
   create_time: 20190305T07:43:00
@@ -22312,7 +22312,7 @@
   create_time: 20190424T13:47:00
   id: 1133294
   resolution: ''
-  status: IN_PROGRESS
+  status: REOPENED
   summary: 'LTO:  xorg-x11-server build fails'
 - component: Basesystem
   create_time: 20190424T13:46:00
@@ -22397,7 +22397,7 @@
   id: 1133277
   resolution: ''
   status: REOPENED
-  summary: 'LTO: protobuf abuild fails'
+  summary: 'LTO: protobuf build fails'
 - component: Basesystem
   create_time: 20190424T13:24:00
   id: 1133276
@@ -24967,8 +24967,8 @@
 - component: Basesystem
   create_time: 20190620T09:32:00
   id: 1138796
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: elftuils build fails'
 - component: Basesystem
   create_time: 20190620T09:22:00
@@ -26255,8 +26255,8 @@
 - component: Basesystem
   create_time: 20190717T21:34:00
   id: 1141913
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: libbfd link problem
 - component: X.Org
   create_time: 20190717T16:01:00
@@ -32544,8 +32544,8 @@
 - component: Development
   create_time: 20191128T07:54:00
   id: 1157943
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'gcc: crash at  __libc_start_main ./csu/libc-start.c:308'
 '20191202':
 - component: Basesystem
@@ -42038,8 +42038,8 @@
 - component: Development
   create_time: 20200611T20:18:00
   id: 1172846
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'gcc10 regression: C++ nondeterministic debuginfo generation'
 - component: Translations
   create_time: 20200611T17:51:00
@@ -44353,8 +44353,8 @@
 - component: Development
   create_time: 20200803T08:48:00
   id: 1174817
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: gcc 10.2 fails to compile current aarch64 kernel
 - component: Other
   create_time: 20200803T07:36:00
@@ -47340,8 +47340,8 @@
 - component: Development
   create_time: 20201007T11:47:00
   id: 1177430
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: dwz fails on testsuite for aarch64
 - component: Kernel
   create_time: 20201007T11:31:00
@@ -52881,8 +52881,8 @@
 - component: Other
   create_time: 20210206T22:58:00
   id: 1181890
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Sensors: /usr/sbin/pwmconfig reaches line 456 with $OS being unset'
 - component: Other
   create_time: 20210206T18:19:00
@@ -53876,153 +53876,6 @@
   status: IN_PROGRESS
   summary: Using yast2 or cmd to change default keyboard language from US to UK
 '20210223':
-- component: GNOME
-  create_time: 20210302T10:03:00
-  id: 1182908
-  resolution: ''
-  status: NEW
-  summary: gnome online accounts does not notify of wrong password
-- component: Upgrade Problems
-  create_time: 20210302T07:59:00
-  id: 1182894
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210227][upgrade] Grub: branding not applied / timeout not set
-    to infinite'
-- component: Development
-  create_time: 20210302T06:03:00
-  id: 1182888
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'perf: Fix jump parsing for C++ code'
-- component: Virtualization:Tools
-  create_time: 20210302T00:43:00
-  id: 1182885
-  resolution: ''
-  status: IN_PROGRESS
-  summary: libvirt NodeDeviceDetach no longer works on Xen unless driver explicitly
-    specified
-- component: KDE Applications
-  create_time: 20210301T19:17:00
-  id: 1182881
-  resolution: ''
-  status: NEW
-  summary: Missing dependencies on new Konqueror installation
-- component: Other
-  create_time: 20210301T18:36:00
-  id: 1182880
-  resolution: ''
-  status: NEW
-  summary: Window decoration does not appear correctly
-- component: LibreOffice
-  create_time: 20210301T17:01:00
-  id: 1182875
-  resolution: ''
-  status: NEW
-  summary: LibreOffice Writer major autocorrect regression bug
-- component: KDE Workspace (Plasma)
-  create_time: 20210301T15:43:00
-  id: 1182869
-  resolution: ''
-  status: NEW
-  summary: ssh-agent not started in Plasma's systemd startup mode
-- component: Basesystem
-  create_time: 20210301T14:10:00
-  id: 1182864
-  resolution: ''
-  status: NEW
-  summary: 'pcre2: build with --enable-jit-sealloc may segfault consumers'
-- component: Installation
-  create_time: 20210301T11:21:00
-  id: 1182852
-  resolution: ''
-  status: NEW
-  summary: '[weblate] - Problem: nothing provides libhiredis.so.0.13 when installing
-    weblate'
-- component: YaST2
-  create_time: 20210301T10:45:00
-  id: 1182850
-  resolution: ''
-  status: NEW
-  summary: Create homedirectories with stricter permissions
-- component: Installation
-  create_time: 20210301T10:42:00
-  id: 1182849
-  resolution: ''
-  status: CONFIRMED
-  summary: '[Staging J] openQA test fails in await_install with Internal Error'
-- component: Samba
-  create_time: 20210301T10:00:00
-  id: 1182847
-  resolution: ''
-  status: NEW
-  summary: samba has too many hard dependencies
-- component: Basesystem
-  create_time: 20210301T09:20:00
-  id: 1182845
-  resolution: ''
-  status: NEW
-  summary: update-alternatives issues
-- component: Other
-  create_time: 20210301T09:11:00
-  id: 1182844
-  resolution: ''
-  status: NEW
-  summary: lftp/tnftp /etc/alternatives/ftp.1 mismatch
-- component: Kubic
-  create_time: 20210301T01:07:00
-  id: 1182835
-  resolution: ''
-  status: NEW
-  summary: systemctl --user not working
-- component: Basesystem
-  create_time: 20210301T00:48:00
-  id: 1182834
-  resolution: ''
-  status: NEW
-  summary: 'glibc: bad performance calling localtime() when TZ env var not ser'
-- component: Basesystem
-  create_time: 20210228T23:56:00
-  id: 1182833
-  resolution: ''
-  status: NEW
-  summary: /usr/share/fillup-templates/sysconfig.postfix still refers to /etc/services
-- component: Samba
-  create_time: 20210228T19:16:00
-  id: 1182830
-  resolution: ''
-  status: IN_PROGRESS
-  summary: samba.spec fixes around systemd and requires
-- component: Other
-  create_time: 20210228T16:21:00
-  id: 1182829
-  resolution: ''
-  status: NEW
-  summary: GTK applications and Compose key handling
-- component: Kernel
-  create_time: 20210228T12:37:00
-  id: 1182827
-  resolution: ''
-  status: NEW
-  summary: raspberry pi 1 has ugly kernel backtraces on boot
-- component: Other
-  create_time: 20210228T10:09:00
-  id: 1182825
-  resolution: INVALID
-  status: RESOLVED
-  summary: appimaged.service is not recognized by systemd
-- component: Sound
-  create_time: 20210227T19:03:00
-  id: 1182823
-  resolution: ''
-  status: NEW
-  summary: Lenovo G50-45 microphone
-- component: Installation
-  create_time: 20210227T09:40:00
-  id: 1182821
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[Build 20210226] openQA test fails in firewall_enabled'
 - component: Basesystem
   create_time: 20210226T13:56:00
   id: 1182804
@@ -54032,8 +53885,8 @@
 - component: YaST2
   create_time: 20210226T13:04:00
   id: 1182803
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: MicroOS roles need to be adapted for pattern change to split out package
     manager
 - component: YaST2
@@ -54245,3 +54098,157 @@
   resolution: WORKSFORME
   status: RESOLVED
   summary: Currently build do break on su command due missing module (PAM?)
+'20210227':
+- component: Kernel
+  create_time: 20210302T14:22:00
+  id: 1182929
+  resolution: ''
+  status: NEW
+  summary: kernel fuse crash in heavy use with cvmfs
+- component: GNOME
+  create_time: 20210302T10:03:00
+  id: 1182908
+  resolution: ''
+  status: NEW
+  summary: gnome online accounts does not notify of wrong password
+- component: Upgrade Problems
+  create_time: 20210302T07:59:00
+  id: 1182894
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210227][upgrade] Grub: branding not applied / timeout not set
+    to infinite'
+- component: Development
+  create_time: 20210302T06:03:00
+  id: 1182888
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'perf: Fix jump parsing for C++ code'
+- component: Virtualization:Tools
+  create_time: 20210302T00:43:00
+  id: 1182885
+  resolution: ''
+  status: IN_PROGRESS
+  summary: libvirt NodeDeviceDetach no longer works on Xen unless driver explicitly
+    specified
+- component: KDE Applications
+  create_time: 20210301T19:17:00
+  id: 1182881
+  resolution: ''
+  status: NEW
+  summary: Missing dependencies on new Konqueror installation
+- component: Other
+  create_time: 20210301T18:36:00
+  id: 1182880
+  resolution: ''
+  status: NEW
+  summary: Window decoration does not appear correctly
+- component: LibreOffice
+  create_time: 20210301T17:01:00
+  id: 1182875
+  resolution: ''
+  status: NEW
+  summary: LibreOffice Writer major autocorrect regression bug
+- component: KDE Workspace (Plasma)
+  create_time: 20210301T15:43:00
+  id: 1182869
+  resolution: ''
+  status: NEW
+  summary: ssh-agent not started in Plasma's systemd startup mode
+- component: Basesystem
+  create_time: 20210301T14:10:00
+  id: 1182864
+  resolution: ''
+  status: NEW
+  summary: 'pcre2: build with --enable-jit-sealloc may segfault consumers'
+- component: Installation
+  create_time: 20210301T11:21:00
+  id: 1182852
+  resolution: ''
+  status: NEW
+  summary: '[weblate] - Problem: nothing provides libhiredis.so.0.13 when installing
+    weblate'
+- component: YaST2
+  create_time: 20210301T10:45:00
+  id: 1182850
+  resolution: ''
+  status: NEW
+  summary: Create homedirectories with stricter permissions
+- component: Installation
+  create_time: 20210301T10:42:00
+  id: 1182849
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Staging J] openQA test fails in await_install with Internal Error'
+- component: Samba
+  create_time: 20210301T10:00:00
+  id: 1182847
+  resolution: ''
+  status: NEW
+  summary: samba has too many hard dependencies
+- component: Basesystem
+  create_time: 20210301T09:20:00
+  id: 1182845
+  resolution: ''
+  status: NEW
+  summary: update-alternatives issues
+- component: Other
+  create_time: 20210301T09:11:00
+  id: 1182844
+  resolution: ''
+  status: NEW
+  summary: lftp/tnftp /etc/alternatives/ftp.1 mismatch
+- component: Kubic
+  create_time: 20210301T01:07:00
+  id: 1182835
+  resolution: ''
+  status: NEW
+  summary: systemctl --user not working
+- component: Basesystem
+  create_time: 20210301T00:48:00
+  id: 1182834
+  resolution: ''
+  status: NEW
+  summary: 'glibc: bad performance calling localtime() when TZ env var not ser'
+- component: Basesystem
+  create_time: 20210228T23:56:00
+  id: 1182833
+  resolution: ''
+  status: NEW
+  summary: /usr/share/fillup-templates/sysconfig.postfix still refers to /etc/services
+- component: Samba
+  create_time: 20210228T19:16:00
+  id: 1182830
+  resolution: ''
+  status: IN_PROGRESS
+  summary: samba.spec fixes around systemd and requires
+- component: Other
+  create_time: 20210228T16:21:00
+  id: 1182829
+  resolution: ''
+  status: NEW
+  summary: GTK applications and Compose key handling
+- component: Kernel
+  create_time: 20210228T12:37:00
+  id: 1182827
+  resolution: ''
+  status: NEW
+  summary: raspberry pi 1 has ugly kernel backtraces on boot
+- component: Other
+  create_time: 20210228T10:09:00
+  id: 1182825
+  resolution: INVALID
+  status: RESOLVED
+  summary: appimaged.service is not recognized by systemd
+- component: Sound
+  create_time: 20210227T19:03:00
+  id: 1182823
+  resolution: ''
+  status: NEW
+  summary: Lenovo G50-45 microphone
+- component: Installation
+  create_time: 20210227T09:40:00
+  id: 1182821
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build 20210226] openQA test fails in firewall_enabled'
