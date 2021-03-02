@@ -1285,8 +1285,8 @@
 - component: Other
   create_time: 20180103T12:14:00
   id: 1074478
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: scim-bridge-*-32bit not installable
 - component: Installation
   create_time: 20180103T08:48:00
@@ -11737,8 +11737,8 @@
 - component: X11 Applications
   create_time: 20180824T14:59:00
   id: 1105951
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Update vala-panel-project packages, please.
 - component: Bootloader
   create_time: 20180824T12:09:00
@@ -13517,8 +13517,8 @@
 - component: Other
   create_time: 20181013T04:00:00
   id: 1111735
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/mypaint'
 - component: Other
   create_time: 20181013T03:59:00
@@ -46089,8 +46089,8 @@
 - component: Development
   create_time: 20200907T07:25:00
   id: 1176220
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: LLVM10 misses some 'Intrinsics' to build TVM
 - component: Basesystem
   create_time: 20200907T07:18:00
@@ -53876,12 +53876,19 @@
   status: IN_PROGRESS
   summary: Using yast2 or cmd to change default keyboard language from US to UK
 '20210223':
+- component: GNOME
+  create_time: 20210302T10:03:00
+  id: 1182908
+  resolution: ''
+  status: NEW
+  summary: gnome online accounts does not notify of wrong password
 - component: Upgrade Problems
   create_time: 20210302T07:59:00
   id: 1182894
   resolution: ''
   status: NEW
-  summary: '[Build 20210227] Grub timeout not set to infinite'
+  summary: '[Build 20210227][upgrade] Grub: branding not applied / timeout not set
+    to infinite'
 - component: Development
   create_time: 20210302T06:03:00
   id: 1182888
@@ -53924,7 +53931,7 @@
   id: 1182864
   resolution: ''
   status: NEW
-  summary: php segfaults with pcre2 build with --enable-jit-sealloc
+  summary: 'pcre2: build with --enable-jit-sealloc may segfault consumers'
 - component: Installation
   create_time: 20210301T11:21:00
   id: 1182852
