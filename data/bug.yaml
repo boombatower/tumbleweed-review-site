@@ -47468,8 +47468,8 @@
 - component: X11 Applications
   create_time: 20201010T09:35:00
   id: 1177544
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '`bless` hex editor not launching -  libglade-2_0-0 missing'
 - component: Other
   create_time: 20201010T00:13:00
@@ -49389,8 +49389,8 @@
 - component: GNOME
   create_time: 20201120T08:25:00
   id: 1179003
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20201119] seahorse: unlock keyring seems not to have a reaction'
 - component: Other
   create_time: 20201119T21:39:00
@@ -51298,8 +51298,8 @@
 - component: Development
   create_time: 20210106T12:13:00
   id: 1180610
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: perf does not load symbols from libantlr4
 - component: Kernel
   create_time: 20210106T09:57:00
@@ -53876,11 +53876,17 @@
   status: IN_PROGRESS
   summary: Using yast2 or cmd to change default keyboard language from US to UK
 '20210223':
+- component: Upgrade Problems
+  create_time: 20210302T07:59:00
+  id: 1182894
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210227] Grub timeout not set to infinite'
 - component: Development
   create_time: 20210302T06:03:00
   id: 1182888
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'perf: Fix jump parsing for C++ code'
 - component: Virtualization:Tools
   create_time: 20210302T00:43:00
