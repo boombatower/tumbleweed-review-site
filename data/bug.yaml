@@ -52626,7 +52626,7 @@
   create_time: 20210201T14:46:00
   id: 1181652
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: smlnj varies between builds
 - component: X.Org
   create_time: 20210201T14:30:00
