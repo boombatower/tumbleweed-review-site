@@ -53876,6 +53876,12 @@
   status: IN_PROGRESS
   summary: Using yast2 or cmd to change default keyboard language from US to UK
 '20210223':
+- component: Development
+  create_time: 20210302T06:03:00
+  id: 1182888
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'perf: Fix jump parsing for C++ code'
 - component: Virtualization:Tools
   create_time: 20210302T00:43:00
   id: 1182885
