@@ -54099,6 +54099,18 @@
   status: RESOLVED
   summary: Currently build do break on su command due missing module (PAM?)
 '20210227':
+- component: Development
+  create_time: 20210303T19:58:00
+  id: 1182996
+  resolution: ''
+  status: NEW
+  summary: lld developent files aren't providet
+- component: Other
+  create_time: 20210303T19:42:00
+  id: 1182994
+  resolution: ''
+  status: NEW
+  summary: Grub issue that blocking ZFSonOpenSUSE
 - component: Basesystem
   create_time: 20210303T14:57:00
   id: 1182988
