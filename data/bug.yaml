@@ -22311,8 +22311,8 @@
 - component: X.Org
   create_time: 20190424T13:47:00
   id: 1133294
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO:  xorg-x11-server build fails'
 - component: Basesystem
   create_time: 20190424T13:46:00
@@ -53141,7 +53141,7 @@
   create_time: 20210208T08:38:00
   id: 1181926
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: kanidm: root-tasks daemon review'
 - component: Basesystem
   create_time: 20210208T07:56:00
@@ -54099,6 +54099,12 @@
   status: RESOLVED
   summary: Currently build do break on su command due missing module (PAM?)
 '20210227':
+- component: KDE Workspace (Plasma)
+  create_time: 20210303T12:20:00
+  id: 1182976
+  resolution: ''
+  status: NEW
+  summary: Keyboard with multiple layouts not honoured on login
 - component: KDE Applications
   create_time: 20210303T09:28:00
   id: 1182964
@@ -54273,6 +54279,6 @@
 - component: Installation
   create_time: 20210227T09:40:00
   id: 1182821
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210226] openQA test fails in firewall_enabled'
