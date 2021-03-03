@@ -54099,6 +54099,18 @@
   status: RESOLVED
   summary: Currently build do break on su command due missing module (PAM?)
 '20210227':
+- component: Basesystem
+  create_time: 20210303T14:57:00
+  id: 1182988
+  resolution: ''
+  status: NEW
+  summary: brp-99-pesign fails for fwupd package
+- component: Containers
+  create_time: 20210303T14:53:00
+  id: 1182987
+  resolution: ''
+  status: NEW
+  summary: ERRO[0000] The storage 'driver' option must be set in /etc/containers/storage.conf
 - component: KDE Workspace (Plasma)
   create_time: 20210303T12:20:00
   id: 1182976
