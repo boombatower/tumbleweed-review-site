@@ -47428,7 +47428,7 @@
   create_time: 20201008T07:30:00
   id: 1177462
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20201007] openQA test fails in journal_check: Dracut is missing
     /var/lib/nfs/sm'
 - component: Basesystem
@@ -54099,6 +54099,18 @@
   status: RESOLVED
   summary: Currently build do break on su command due missing module (PAM?)
 '20210227':
+- component: KDE Applications
+  create_time: 20210303T09:28:00
+  id: 1182964
+  resolution: ''
+  status: NEW
+  summary: Plasma network manager fails to properly save nor connect to PAN GP vpn
+- component: Basesystem
+  create_time: 20210303T09:03:00
+  id: 1182961
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210227] openQA test fails in journal_check: systemd-udevd warning'
 - component: Development
   create_time: 20210302T19:26:00
   id: 1182942
@@ -54213,8 +54225,8 @@
 - component: Kubic
   create_time: 20210301T01:07:00
   id: 1182835
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: systemctl --user not working
 - component: Basesystem
   create_time: 20210301T00:48:00
