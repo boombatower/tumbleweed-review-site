@@ -38748,8 +38748,8 @@
 - component: Basesystem
   create_time: 20200402T05:28:00
   id: 1168389
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'transactional-update: umount of /proc failed'
 '20200405':
 - component: Development
@@ -38938,8 +38938,8 @@
 - component: Basesystem
   create_time: 20200408T16:44:00
   id: 1169006
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: util-linux is built without udev support
 - component: GNOME
   create_time: 20200408T13:43:00
