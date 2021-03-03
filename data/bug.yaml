@@ -28802,7 +28802,7 @@
   create_time: 20190906T08:02:00
   id: 1149709
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: fakeroot randomly/frequently failing the test suite
 - component: Other
   create_time: 20190906T07:49:00
@@ -53711,7 +53711,7 @@
   create_time: 20210219T06:33:00
   id: 1182476
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Docker wrong SemVer version string
 - component: Other
   create_time: 20210219T01:33:00
