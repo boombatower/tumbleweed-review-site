@@ -53201,8 +53201,8 @@
 - component: Development
   create_time: 20210209T16:14:00
   id: 1182016
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'xdelta3 ppc64 build failure "internal compiler error: in compute_fn_summary,
     at ipa-fnsummary.c:2993"'
 - component: KDE Applications
@@ -53260,8 +53260,8 @@
 - component: AutoYaST
   create_time: 20210211T16:52:00
   id: 1182144
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'osinfo-db: autoinst.xml does not work with Tumbleweed'
 - component: KDE Applications
   create_time: 20210211T15:22:00
