@@ -10280,8 +10280,8 @@
 - component: Xen
   create_time: 20180709T17:54:00
   id: 1100639
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: 'Xen: After shutting down VM, qemu is still running'
 - component: LibreOffice
   create_time: 20180709T12:21:00
@@ -31826,8 +31826,8 @@
 - component: Virtualization:Other
   create_time: 20191115T10:35:00
   id: 1156872
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'qemu: smb share defunct on older windows'
 - component: Other
   create_time: 20191115T08:21:00
@@ -51019,7 +51019,7 @@
   resolution: ''
   status: NEW
   summary: python-cfn-lint fails to build after 2020-12-31
-- component: YaST2
+- component: Kernel
   create_time: 20201230T10:38:00
   id: 1180455
   resolution: ''
@@ -54228,6 +54228,19 @@
   status: RESOLVED
   summary: '[Build 20210226] openQA test fails in firewall_enabled'
 '20210302':
+- component: Other
+  create_time: 20210304T15:22:00
+  id: 1183047
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210303] wsdd: missing pre script dependenices to create users'
+- component: Basesystem
+  create_time: 20210304T14:18:00
+  id: 1183044
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20210303] openQA test fails in await_install missing sysusers2shadow
+    at install time'
 - component: Installation
   create_time: 20210304T13:19:00
   id: 1183037
@@ -54245,7 +54258,7 @@
   create_time: 20210304T08:27:00
   id: 1183012
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: service of pipewire-pulseaudio not start and enable
 - component: Kernel
   create_time: 20210304T08:00:00
