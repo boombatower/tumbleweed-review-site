@@ -52758,8 +52758,8 @@
 - component: Security
   create_time: 20210204T15:48:00
   id: 1181806
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'VUL-0: CVE-2021-26708: kernel-source: Exploitable vulnerabilities in AF_VSOCK
     implementation'
 - component: YaST2
@@ -54221,6 +54221,13 @@
   status: RESOLVED
   summary: '[Build 20210226] openQA test fails in firewall_enabled'
 '20210302':
+- component: Kernel
+  create_time: 20210304T08:00:00
+  id: 1183009
+  resolution: ''
+  status: NEW
+  summary: Some armv6/7 builds on OBS fail due to kernel 5.11 modules not being loaded
+    properly
 - component: X.Org
   create_time: 20210304T05:39:00
   id: 1183004
