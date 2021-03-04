@@ -54228,6 +54228,24 @@
   status: RESOLVED
   summary: '[Build 20210226] openQA test fails in firewall_enabled'
 '20210302':
+- component: Development
+  create_time: 20210304T18:06:00
+  id: 1183053
+  resolution: ''
+  status: NEW
+  summary: Missing dependencies in jxrlib-devel-32bit
+- component: Development
+  create_time: 20210304T17:51:00
+  id: 1183052
+  resolution: ''
+  status: NEW
+  summary: The libjxrglue0-32bit package is missing
+- component: Basesystem
+  create_time: 20210304T17:45:00
+  id: 1183051
+  resolution: ''
+  status: NEW
+  summary: systemd rpm macros don't seem to handle user services correctly
 - component: Other
   create_time: 20210304T15:22:00
   id: 1183047
