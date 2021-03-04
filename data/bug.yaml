@@ -54228,6 +54228,13 @@
   status: RESOLVED
   summary: '[Build 20210226] openQA test fails in firewall_enabled'
 '20210302':
+- component: Installation
+  create_time: 20210304T13:19:00
+  id: 1183037
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210303] openQA test fails in await_install during loading of
+    the bootlader configuration at s390x'
 - component: Security
   create_time: 20210304T10:11:00
   id: 1183019
