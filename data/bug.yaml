@@ -54229,6 +54229,12 @@
   summary: '[Build 20210226] openQA test fails in firewall_enabled'
 '20210302':
 - component: Other
+  create_time: 20210304T21:17:00
+  id: 1183058
+  resolution: ''
+  status: NEW
+  summary: android-udev-rules not keeping /dev/android and /dev/android_adb
+- component: Other
   create_time: 20210304T19:25:00
   id: 1183055
   resolution: ''
