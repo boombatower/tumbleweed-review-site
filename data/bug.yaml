@@ -47150,8 +47150,8 @@
 - component: Sound
   create_time: 20201001T07:46:00
   id: 1177169
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: No sound on Raspi4
 - component: Other
   create_time: 20200930T16:25:00
@@ -47648,7 +47648,14 @@
   id: 1177574
   resolution: ''
   status: NEW
-  summary: klp tests fail on "Patch caller of graph traced callee" test on ppc64le
+  summary: klp tests fail on klp_tc_10.sh "Patch caller of graph traced callee" test
+- component: Other
+  create_time: 20201012T05:56:00
+  id: 1177568
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'VUL-0: CVE-2020-26945: mybatis: mishandles deserialization of object streams
+    which could result in remote code execution'
 - component: Basesystem
   create_time: 20201012T01:49:00
   id: 1177566
@@ -50849,8 +50856,8 @@
 - component: Kernel
   create_time: 20201224T13:14:00
   id: 1180336
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[RPi4] No USB in rpi4b and rpi400 since v5.10'
 '20201226':
 - component: Samba
@@ -52765,8 +52772,8 @@
 - component: YaST2
   create_time: 20210204T14:02:00
   id: 1181801
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[s390x] Remove "Write Boot Code To" from Booting section for IBM Z'
 - component: YaST2
   create_time: 20210204T12:06:00
@@ -54221,6 +54228,18 @@
   status: RESOLVED
   summary: '[Build 20210226] openQA test fails in firewall_enabled'
 '20210302':
+- component: Security
+  create_time: 20210304T10:11:00
+  id: 1183019
+  resolution: ''
+  status: NEW
+  summary: Enable fs.protected_regular and fs.protected_fifos
+- component: Sound
+  create_time: 20210304T08:27:00
+  id: 1183012
+  resolution: ''
+  status: NEW
+  summary: service of pipewire-pulseaudio not start and enable
 - component: Kernel
   create_time: 20210304T08:00:00
   id: 1183009
@@ -54249,8 +54268,8 @@
 - component: Development
   create_time: 20210303T19:58:00
   id: 1182996
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: lld developent files aren't providet
 - component: Other
   create_time: 20210303T19:42:00
