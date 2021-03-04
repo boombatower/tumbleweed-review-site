@@ -28700,8 +28700,8 @@
 - component: KVM
   create_time: 20190904T17:36:00
   id: 1149450
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'WARNING: CPU: 4 PID: 5017 at arch/x86/kvm/x86.c:7963 vcpu_enter_guest+0xcfd/0xf20
     [kvm]'
 - component: Development
@@ -31293,8 +31293,8 @@
 - component: Virtualization:Other
   create_time: 20191105T17:03:00
   id: 1155956
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: qemu booting from iso, stops at graphics initialization when using cirrus
     drivers
 - component: Basesystem
@@ -52571,7 +52571,7 @@
   create_time: 20210130T11:51:00
   id: 1181604
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Musescore still running in background after closing it.
 - component: Apache
   create_time: 20210130T11:33:00
@@ -53723,8 +53723,8 @@
 - component: Other
   create_time: 20210219T01:33:00
   id: 1182474
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: torbrowser can't load pages after last update (16.02.2021)
 '20210220':
 - component: Virtualization:Other
@@ -54228,6 +54228,18 @@
   status: RESOLVED
   summary: '[Build 20210226] openQA test fails in firewall_enabled'
 '20210302':
+- component: Other
+  create_time: 20210304T19:25:00
+  id: 1183055
+  resolution: ''
+  status: NEW
+  summary: /etc/containers/mounts.conf references non-existing files
+- component: Development
+  create_time: 20210304T18:47:00
+  id: 1183054
+  resolution: ''
+  status: NEW
+  summary: dbus-1-devel-32bit is missing the architecture-specific header files
 - component: Development
   create_time: 20210304T18:06:00
   id: 1183053
@@ -54294,8 +54306,8 @@
 - component: Containers
   create_time: 20210303T22:10:00
   id: 1182998
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: libcontainers-common seems to miss prerequires
 - component: KDE Workspace (Plasma)
   create_time: 20210303T21:18:00
