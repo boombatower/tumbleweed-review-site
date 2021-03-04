@@ -54221,6 +54221,12 @@
   status: RESOLVED
   summary: '[Build 20210226] openQA test fails in firewall_enabled'
 '20210302':
+- component: X.Org
+  create_time: 20210304T05:39:00
+  id: 1183004
+  resolution: ''
+  status: NEW
+  summary: xf86-video-intel-3.0 works on Comet Lake
 - component: Containers
   create_time: 20210303T22:10:00
   id: 1182998
