@@ -46629,6 +46629,12 @@
   resolution: ''
   status: NEW
   summary: Strange file type associations in Gtk programs on KDE
+- component: Network
+  create_time: 20200921T13:26:00
+  id: 1176775
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Problems after upgrade to openSUSE Leap 15.2
 - component: Kernel
   create_time: 20200921T10:54:00
   id: 1176770
@@ -50129,7 +50135,7 @@
   create_time: 20201208T14:36:00
   id: 1179768
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Tumbleweed xfce menu editor excluding wine help
 - component: Firefox
   create_time: 20201208T13:31:00
@@ -52583,8 +52589,8 @@
 - component: Xfce
   create_time: 20210130T11:23:00
   id: 1181602
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: System upgrade 20210118-0 -> 20210128-0 removed orage
 - component: Security
   create_time: 20210130T06:51:00
@@ -52865,7 +52871,7 @@
   create_time: 20210207T21:16:00
   id: 1181901
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Nothing provides libxfce4ui-1.so.0 needed by xfce4-mixer-4.11.0-5.3.x86_64
 - component: X11 Applications
   create_time: 20210207T18:53:00
@@ -53045,7 +53051,7 @@
   create_time: 20210206T10:57:00
   id: 1181862
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 11: kernel-default package failures'
 - component: KDE Workspace (Plasma)
   create_time: 20210206T10:54:00
@@ -53153,8 +53159,8 @@
 - component: Basesystem
   create_time: 20210208T07:56:00
   id: 1181922
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'GCC 11: qemu package fails'
 - component: Basesystem
   create_time: 20210208T07:55:00
@@ -54049,7 +54055,7 @@
   create_time: 20210224T11:06:00
   id: 1182661
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Broken macro for %systemd_user_post
 - component: GNOME
   create_time: 20210224T10:07:00
@@ -54112,7 +54118,7 @@
   resolution: ''
   status: NEW
   summary: Missing dependencies on new Konqueror installation
-- component: Other
+- component: Kernel
   create_time: 20210301T18:36:00
   id: 1182880
   resolution: ''
@@ -54152,8 +54158,8 @@
 - component: Installation
   create_time: 20210301T10:42:00
   id: 1182849
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Staging J] openQA test fails in await_install with Internal Error'
 - component: Samba
   create_time: 20210301T10:00:00
@@ -54189,7 +54195,7 @@
   create_time: 20210228T23:56:00
   id: 1182833
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: /usr/share/fillup-templates/sysconfig.postfix still refers to /etc/services
 - component: Samba
   create_time: 20210228T19:16:00
@@ -54228,6 +54234,54 @@
   status: RESOLVED
   summary: '[Build 20210226] openQA test fails in firewall_enabled'
 '20210302':
+- component: YaST2
+  create_time: 20210305T12:51:00
+  id: 1183090
+  resolution: ''
+  status: NEW
+  summary: SelectBox icon does not change when disabled
+- component: YaST2
+  create_time: 20210305T12:22:00
+  id: 1183088
+  resolution: ''
+  status: NEW
+  summary: Partitioner shoud not show an icon in popups
+- component: YaST2
+  create_time: 20210305T12:17:00
+  id: 1183087
+  resolution: ''
+  status: NEW
+  summary: Some popups contains unnecessary line breaks
+- component: YaST2
+  create_time: 20210305T12:01:00
+  id: 1183086
+  resolution: ''
+  status: NEW
+  summary: Radiobox title is smaller than the options
+- component: Other
+  create_time: 20210305T11:16:00
+  id: 1183082
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210304] vncviewer: Authentication failure: protocol error'
+- component: Other
+  create_time: 20210305T09:40:00
+  id: 1183078
+  resolution: ''
+  status: NEW
+  summary: munin-core.service not working
+- component: Bootloader
+  create_time: 20210305T09:11:00
+  id: 1183075
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20210304] openQA test fails in boot_windows (grub2 fallout)'
+- component: Bootloader
+  create_time: 20210305T08:54:00
+  id: 1183073
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210304] grub2 fails to chain load windows on dual boot machine'
 - component: Basesystem
   create_time: 20210304T23:44:00
   id: 1183061
@@ -54240,7 +54294,7 @@
   resolution: ''
   status: NEW
   summary: android-udev-rules not keeping /dev/android and /dev/android_adb
-- component: Other
+- component: Containers
   create_time: 20210304T19:25:00
   id: 1183055
   resolution: ''
@@ -54255,14 +54309,14 @@
 - component: Development
   create_time: 20210304T18:06:00
   id: 1183053
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Missing dependencies in jxrlib-devel-32bit
 - component: Development
   create_time: 20210304T17:51:00
   id: 1183052
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: The libjxrglue0-32bit package is missing
 - component: Basesystem
   create_time: 20210304T17:45:00
