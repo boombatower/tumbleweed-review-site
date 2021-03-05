@@ -54231,8 +54231,8 @@
 - component: Basesystem
   create_time: 20210304T23:44:00
   id: 1183061
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: systemctl --user not working after upgrade
 - component: Other
   create_time: 20210304T21:17:00
