@@ -54250,7 +54250,7 @@
   create_time: 20210305T12:17:00
   id: 1183087
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Some popups contains unnecessary line breaks
 - component: YaST2
   create_time: 20210305T12:01:00
@@ -54450,8 +54450,8 @@
 - component: Upgrade Problems
   create_time: 20210302T07:59:00
   id: 1182894
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210227][upgrade] Grub: branding not applied / timeout not set
     to infinite'
 - component: Development
