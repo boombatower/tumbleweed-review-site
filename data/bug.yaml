@@ -53159,8 +53159,8 @@
 - component: Basesystem
   create_time: 20210208T07:56:00
   id: 1181922
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: qemu package fails'
 - component: Basesystem
   create_time: 20210208T07:55:00
