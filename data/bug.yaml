@@ -54043,7 +54043,7 @@
   create_time: 20210224T11:28:00
   id: 1182667
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: prime-select cant switch driver from command line
 - component: X11 3rd Party Driver
   create_time: 20210224T11:25:00
@@ -54234,6 +54234,24 @@
   status: RESOLVED
   summary: '[Build 20210226] openQA test fails in firewall_enabled'
 '20210302':
+- component: Bootloader
+  create_time: 20210305T18:05:00
+  id: 1183116
+  resolution: ''
+  status: NEW
+  summary: u-boot-am335xevm-2021.01-1.1.armv7hl is broken
+- component: X11 Applications
+  create_time: 20210305T16:26:00
+  id: 1183109
+  resolution: ''
+  status: NEW
+  summary: zypper install spring-engine does not pull in libunitsync
+- component: X11 Applications
+  create_time: 20210305T16:19:00
+  id: 1183104
+  resolution: ''
+  status: NEW
+  summary: Openarena segfault on launch
 - component: YaST2
   create_time: 20210305T12:51:00
   id: 1183090
@@ -54258,11 +54276,11 @@
   resolution: ''
   status: NEW
   summary: Radiobox title is smaller than the options
-- component: Other
+- component: X.Org
   create_time: 20210305T11:16:00
   id: 1183082
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20210304] vncviewer: Authentication failure: protocol error'
 - component: Other
   create_time: 20210305T09:40:00
