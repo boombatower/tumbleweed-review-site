@@ -54234,6 +54234,12 @@
   status: RESOLVED
   summary: '[Build 20210226] openQA test fails in firewall_enabled'
 '20210302':
+- component: Security
+  create_time: 20210306T10:02:00
+  id: 1183121
+  resolution: ''
+  status: NEW
+  summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 - component: Bootloader
   create_time: 20210305T18:05:00
   id: 1183116
