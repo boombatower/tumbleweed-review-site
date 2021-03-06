@@ -54234,6 +54234,12 @@
   status: RESOLVED
   summary: '[Build 20210226] openQA test fails in firewall_enabled'
 '20210302':
+- component: Network
+  create_time: 20210306T12:16:00
+  id: 1183123
+  resolution: ''
+  status: NEW
+  summary: systemd, NetworkManager and nscd - nfs mounts are failing
 - component: Security
   create_time: 20210306T10:02:00
   id: 1183121
