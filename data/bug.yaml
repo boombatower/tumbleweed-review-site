@@ -54408,8 +54408,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20210303T21:18:00
   id: 1182997
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: KDE Systemsettings with Mixed Languages
 - component: Development
   create_time: 20210303T19:58:00
