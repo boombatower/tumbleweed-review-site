@@ -54487,6 +54487,24 @@
   status: NEW
   summary: '[Build 20210304] grub2 fails to chain load windows on dual boot machine'
 '20210306':
+- component: Basesystem
+  create_time: 20210307T19:28:00
+  id: 1183147
+  resolution: ''
+  status: NEW
+  summary: systemd-rfkill - Read event structure of invalid size.
+- component: Live Medium
+  create_time: 20210307T18:45:00
+  id: 1183146
+  resolution: ''
+  status: NEW
+  summary: Rescue CD does not contain bcache-tools
+- component: Basesystem
+  create_time: 20210307T18:23:00
+  id: 1183145
+  resolution: ''
+  status: NEW
+  summary: Hibernate no effect
 - component: Other
   create_time: 20210307T17:56:00
   id: 1183144
