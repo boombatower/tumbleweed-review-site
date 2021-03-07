@@ -54420,61 +54420,6 @@
   summary: libvirt NodeDeviceDetach no longer works on Xen unless driver explicitly
     specified
 '20210305':
-- component: Sound
-  create_time: 20210307T14:32:00
-  id: 1183142
-  resolution: ''
-  status: NEW
-  summary: Onboard Sound unusable
-- component: Kernel
-  create_time: 20210307T11:26:00
-  id: 1183138
-  resolution: ''
-  status: NEW
-  summary: Reboot and Shutdown no longer function after update to latest kernel
-- component: Installation
-  create_time: 20210307T10:24:00
-  id: 1183136
-  resolution: ''
-  status: NEW
-  summary: Wrong ownership of home directories
-- component: KDE Applications
-  create_time: 20210307T09:51:00
-  id: 1183134
-  resolution: ''
-  status: NEW
-  summary: kde taskbar menu is translucent - always
-- component: KDE Applications
-  create_time: 20210307T09:42:00
-  id: 1183133
-  resolution: ''
-  status: NEW
-  summary: gkrellm doesn't remember startup position with two instances
-- component: Kernel
-  create_time: 20210307T01:21:00
-  id: 1183132
-  resolution: ''
-  status: NEW
-  summary: Kernel wont boot after grub initialization 5.11.2
-- component: Basesystem
-  create_time: 20210306T23:15:00
-  id: 1183131
-  resolution: ''
-  status: NEW
-  summary: Hundreds of weird systemd-sysv-convert warnings during upgrade (zypper
-    dup)
-- component: Network
-  create_time: 20210306T12:16:00
-  id: 1183123
-  resolution: ''
-  status: NEW
-  summary: systemd, NetworkManager and nscd - nfs mounts are failing
-- component: Security
-  create_time: 20210306T10:02:00
-  id: 1183121
-  resolution: ''
-  status: NEW
-  summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 - component: Bootloader
   create_time: 20210305T18:05:00
   id: 1183116
@@ -54541,3 +54486,71 @@
   resolution: ''
   status: NEW
   summary: '[Build 20210304] grub2 fails to chain load windows on dual boot machine'
+'20210306':
+- component: Other
+  create_time: 20210307T17:56:00
+  id: 1183144
+  resolution: ''
+  status: NEW
+  summary: Software Retext don't start
+- component: Basesystem
+  create_time: 20210307T17:26:00
+  id: 1183143
+  resolution: ''
+  status: NEW
+  summary: 'Base:System/file: duplicate description for zip-files'
+- component: Sound
+  create_time: 20210307T14:32:00
+  id: 1183142
+  resolution: ''
+  status: NEW
+  summary: Onboard Sound unusable
+- component: Kernel
+  create_time: 20210307T11:26:00
+  id: 1183138
+  resolution: ''
+  status: NEW
+  summary: Reboot and Shutdown no longer function after update to latest kernel
+- component: Installation
+  create_time: 20210307T10:24:00
+  id: 1183136
+  resolution: ''
+  status: NEW
+  summary: Wrong ownership of home directories
+- component: KDE Applications
+  create_time: 20210307T09:51:00
+  id: 1183134
+  resolution: ''
+  status: NEW
+  summary: kde taskbar menu is translucent - always
+- component: KDE Applications
+  create_time: 20210307T09:42:00
+  id: 1183133
+  resolution: ''
+  status: NEW
+  summary: gkrellm doesn't remember startup position with two instances
+- component: Kernel
+  create_time: 20210307T01:21:00
+  id: 1183132
+  resolution: ''
+  status: NEW
+  summary: Kernel wont boot after grub initialization 5.11.2
+- component: Basesystem
+  create_time: 20210306T23:15:00
+  id: 1183131
+  resolution: ''
+  status: NEW
+  summary: Hundreds of weird systemd-sysv-convert warnings during upgrade (zypper
+    dup)
+- component: Network
+  create_time: 20210306T12:16:00
+  id: 1183123
+  resolution: ''
+  status: NEW
+  summary: systemd, NetworkManager and nscd - nfs mounts are failing
+- component: Security
+  create_time: 20210306T10:02:00
+  id: 1183121
+  resolution: ''
+  status: NEW
+  summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
