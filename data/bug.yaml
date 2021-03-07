@@ -54420,6 +54420,12 @@
   summary: libvirt NodeDeviceDetach no longer works on Xen unless driver explicitly
     specified
 '20210305':
+- component: Kernel
+  create_time: 20210307T01:21:00
+  id: 1183132
+  resolution: ''
+  status: NEW
+  summary: Kernel wont boot after grub initialization 5.11.2
 - component: Basesystem
   create_time: 20210306T23:15:00
   id: 1183131
