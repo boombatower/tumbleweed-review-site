@@ -54420,6 +54420,12 @@
   summary: libvirt NodeDeviceDetach no longer works on Xen unless driver explicitly
     specified
 '20210305':
+- component: Sound
+  create_time: 20210307T14:32:00
+  id: 1183142
+  resolution: ''
+  status: NEW
+  summary: Onboard Sound unusable
 - component: Kernel
   create_time: 20210307T11:26:00
   id: 1183138
