@@ -54234,84 +54234,6 @@
   status: RESOLVED
   summary: '[Build 20210226] openQA test fails in firewall_enabled'
 '20210302':
-- component: Network
-  create_time: 20210306T12:16:00
-  id: 1183123
-  resolution: ''
-  status: NEW
-  summary: systemd, NetworkManager and nscd - nfs mounts are failing
-- component: Security
-  create_time: 20210306T10:02:00
-  id: 1183121
-  resolution: ''
-  status: NEW
-  summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
-- component: Bootloader
-  create_time: 20210305T18:05:00
-  id: 1183116
-  resolution: ''
-  status: NEW
-  summary: u-boot-am335xevm-2021.01-1.1.armv7hl is broken
-- component: X11 Applications
-  create_time: 20210305T16:26:00
-  id: 1183109
-  resolution: ''
-  status: NEW
-  summary: zypper install spring-engine does not pull in libunitsync
-- component: X11 Applications
-  create_time: 20210305T16:19:00
-  id: 1183104
-  resolution: ''
-  status: NEW
-  summary: Openarena segfault on launch
-- component: YaST2
-  create_time: 20210305T12:51:00
-  id: 1183090
-  resolution: ''
-  status: NEW
-  summary: SelectBox icon does not change when disabled
-- component: YaST2
-  create_time: 20210305T12:22:00
-  id: 1183088
-  resolution: ''
-  status: NEW
-  summary: Partitioner shoud not show an icon in popups
-- component: YaST2
-  create_time: 20210305T12:17:00
-  id: 1183087
-  resolution: ''
-  status: CONFIRMED
-  summary: Some popups contains unnecessary line breaks
-- component: YaST2
-  create_time: 20210305T12:01:00
-  id: 1183086
-  resolution: ''
-  status: NEW
-  summary: Radiobox title is smaller than the options
-- component: X.Org
-  create_time: 20210305T11:16:00
-  id: 1183082
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[Build 20210304] vncviewer: Authentication failure: protocol error'
-- component: Other
-  create_time: 20210305T09:40:00
-  id: 1183078
-  resolution: ''
-  status: NEW
-  summary: munin-core.service not working
-- component: Bootloader
-  create_time: 20210305T09:11:00
-  id: 1183075
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: '[Build 20210304] openQA test fails in boot_windows (grub2 fallout)'
-- component: Bootloader
-  create_time: 20210305T08:54:00
-  id: 1183073
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210304] grub2 fails to chain load windows on dual boot machine'
 - component: Basesystem
   create_time: 20210304T23:44:00
   id: 1183061
@@ -54497,3 +54419,89 @@
   status: IN_PROGRESS
   summary: libvirt NodeDeviceDetach no longer works on Xen unless driver explicitly
     specified
+'20210305':
+- component: Basesystem
+  create_time: 20210306T23:15:00
+  id: 1183131
+  resolution: ''
+  status: NEW
+  summary: Hundreds of weird systemd-sysv-convert warnings during upgrade (zypper
+    dup)
+- component: Network
+  create_time: 20210306T12:16:00
+  id: 1183123
+  resolution: ''
+  status: NEW
+  summary: systemd, NetworkManager and nscd - nfs mounts are failing
+- component: Security
+  create_time: 20210306T10:02:00
+  id: 1183121
+  resolution: ''
+  status: NEW
+  summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
+- component: Bootloader
+  create_time: 20210305T18:05:00
+  id: 1183116
+  resolution: ''
+  status: NEW
+  summary: u-boot-am335xevm-2021.01-1.1.armv7hl is broken
+- component: X11 Applications
+  create_time: 20210305T16:26:00
+  id: 1183109
+  resolution: ''
+  status: NEW
+  summary: zypper install spring-engine does not pull in libunitsync
+- component: X11 Applications
+  create_time: 20210305T16:19:00
+  id: 1183104
+  resolution: ''
+  status: NEW
+  summary: Openarena segfault on launch
+- component: YaST2
+  create_time: 20210305T12:51:00
+  id: 1183090
+  resolution: ''
+  status: NEW
+  summary: SelectBox icon does not change when disabled
+- component: YaST2
+  create_time: 20210305T12:22:00
+  id: 1183088
+  resolution: ''
+  status: NEW
+  summary: Partitioner shoud not show an icon in popups
+- component: YaST2
+  create_time: 20210305T12:17:00
+  id: 1183087
+  resolution: ''
+  status: CONFIRMED
+  summary: Some popups contains unnecessary line breaks
+- component: YaST2
+  create_time: 20210305T12:01:00
+  id: 1183086
+  resolution: ''
+  status: NEW
+  summary: Radiobox title is smaller than the options
+- component: X.Org
+  create_time: 20210305T11:16:00
+  id: 1183082
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build 20210304] vncviewer: Authentication failure: protocol error'
+- component: Other
+  create_time: 20210305T09:40:00
+  id: 1183078
+  resolution: ''
+  status: NEW
+  summary: munin-core.service not working
+- component: Bootloader
+  create_time: 20210305T09:11:00
+  id: 1183075
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20210304] openQA test fails in boot_windows (grub2 fallout)'
+- component: Bootloader
+  create_time: 20210305T08:54:00
+  id: 1183073
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210304] grub2 fails to chain load windows on dual boot machine'
