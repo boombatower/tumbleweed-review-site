@@ -52324,7 +52324,7 @@
   create_time: 20210121T14:32:00
   id: 1181244
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Duplicate journal timestamp prefix for tor
 - component: Other
   create_time: 20210121T14:30:00
@@ -54487,6 +54487,12 @@
   status: NEW
   summary: '[Build 20210304] grub2 fails to chain load windows on dual boot machine'
 '20210306':
+- component: Samba
+  create_time: 20210308T00:27:00
+  id: 1183148
+  resolution: ''
+  status: NEW
+  summary: nmbd nmb.service startup delays multi-user.target by 5 seconds
 - component: Basesystem
   create_time: 20210307T19:28:00
   id: 1183147
