@@ -47522,8 +47522,8 @@
 - component: Ruby
   create_time: 20201009T10:47:00
   id: 1177517
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20201008] openQA test fails in rails could not find puma 4.1'
 '20201011':
 - component: Kernel
@@ -54054,8 +54054,8 @@
 - component: Basesystem
   create_time: 20210224T11:06:00
   id: 1182661
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Broken macro for %systemd_user_post
 - component: GNOME
   create_time: 20210224T10:07:00
@@ -54487,6 +54487,19 @@
   status: NEW
   summary: '[Build 20210304] grub2 fails to chain load windows on dual boot machine'
 '20210306':
+- component: GNOME
+  create_time: 20210308T09:41:00
+  id: 1183156
+  resolution: ''
+  status: NEW
+  summary: Zypp PackageKit plugin exits when user interactivity would be required
+    to solve an ambiguous packaging situation
+- component: Other
+  create_time: 20210308T08:51:00
+  id: 1183155
+  resolution: ''
+  status: NEW
+  summary: nodejs on i586 fails to build very often
 - component: Samba
   create_time: 20210308T00:27:00
   id: 1183148
@@ -54502,8 +54515,8 @@
 - component: Live Medium
   create_time: 20210307T18:45:00
   id: 1183146
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Rescue CD does not contain bcache-tools
 - component: Basesystem
   create_time: 20210307T18:23:00
