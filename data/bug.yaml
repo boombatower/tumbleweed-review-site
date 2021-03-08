@@ -52658,7 +52658,7 @@
   create_time: 20210201T12:19:00
   id: 1181643
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Rust 1.47 - 1.49 fails to build on armv7
 - component: Security
   create_time: 20210201T12:14:00
@@ -53355,8 +53355,8 @@
 - component: Development
   create_time: 20210210T13:04:00
   id: 1182048
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: python38-pysvn missing so module
 - component: Kernel
   create_time: 20210210T08:17:00
@@ -54488,6 +54488,26 @@
   status: NEW
   summary: '[Build 20210304] grub2 fails to chain load windows on dual boot machine'
 '20210306':
+- component: Basesystem
+  create_time: 20210306T23:15:00
+  id: 1183131
+  resolution: ''
+  status: NEW
+  summary: Hundreds of weird systemd-sysv-convert warnings during upgrade (zypper
+    dup)
+- component: Network
+  create_time: 20210306T12:16:00
+  id: 1183123
+  resolution: ''
+  status: NEW
+  summary: systemd, NetworkManager and nscd - nfs mounts are failing
+- component: Security
+  create_time: 20210306T10:02:00
+  id: 1183121
+  resolution: ''
+  status: NEW
+  summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
+'20210307':
 - component: Other
   create_time: 20210308T11:13:00
   id: 1183168
@@ -54579,22 +54599,3 @@
   resolution: ''
   status: NEW
   summary: Kernel wont boot after grub initialization 5.11.2
-- component: Basesystem
-  create_time: 20210306T23:15:00
-  id: 1183131
-  resolution: ''
-  status: NEW
-  summary: Hundreds of weird systemd-sysv-convert warnings during upgrade (zypper
-    dup)
-- component: Network
-  create_time: 20210306T12:16:00
-  id: 1183123
-  resolution: ''
-  status: NEW
-  summary: systemd, NetworkManager and nscd - nfs mounts are failing
-- component: Security
-  create_time: 20210306T10:02:00
-  id: 1183121
-  resolution: ''
-  status: NEW
-  summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
