@@ -52379,8 +52379,8 @@
 - component: Basesystem
   create_time: 20210126T08:06:00
   id: 1181402
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: dd_rescue fails on LZO test on aarch64
 - component: Other
   create_time: 20210126T06:11:00
@@ -53448,8 +53448,8 @@
 - component: Patterns
   create_time: 20210212T11:18:00
   id: 1182176
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[RPi4] pulseaudio not installed by default on GNOME JeOS images'
 '20210215':
 - component: Development
@@ -54042,8 +54042,8 @@
 - component: X.Org
   create_time: 20210224T11:28:00
   id: 1182667
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'suse-prime-bbswitch: prime-select can''t switch driver when no displaymanager
     is running'
 - component: X11 3rd Party Driver
@@ -54245,7 +54245,7 @@
   create_time: 20210304T21:17:00
   id: 1183058
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: android-udev-rules not keeping /dev/android and /dev/android_adb
 - component: Containers
   create_time: 20210304T19:25:00
@@ -54508,6 +54508,19 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Kernel
+  create_time: 20210308T17:35:00
+  id: 1183198
+  resolution: ''
+  status: NEW
+  summary: 'Kernel 5.11.2: self-compiled module fails to load with relocation error'
+- component: Security
+  create_time: 20210308T16:12:00
+  id: 1183191
+  resolution: ''
+  status: NEW
+  summary: nobody user home directory permissions flagged by lynis and enterprise
+    security scanners
 - component: Basesystem
   create_time: 20210308T15:38:00
   id: 1183185
