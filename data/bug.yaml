@@ -54508,6 +54508,12 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Other
+  create_time: 20210308T18:09:00
+  id: 1183199
+  resolution: ''
+  status: NEW
+  summary: 'Pdfarranger :'
 - component: Kernel
   create_time: 20210308T17:35:00
   id: 1183198
