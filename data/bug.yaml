@@ -54039,12 +54039,13 @@
   status: NEW
   summary: Impossible to distinguish enabled and disabled entries in the installer
     menus
-- component: X11 Applications
+- component: X.Org
   create_time: 20210224T11:28:00
   id: 1182667
   resolution: ''
   status: IN_PROGRESS
-  summary: prime-select cant switch driver from command line
+  summary: 'suse-prime-bbswitch: prime-select can''t switch driver when no displaymanager
+    is running'
 - component: X11 3rd Party Driver
   create_time: 20210224T11:25:00
   id: 1182666
@@ -54273,8 +54274,8 @@
 - component: Basesystem
   create_time: 20210304T17:45:00
   id: 1183051
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: systemd rpm macros don't seem to handle user services correctly
 - component: Other
   create_time: 20210304T15:22:00
@@ -54311,8 +54312,8 @@
 - component: Kernel
   create_time: 20210304T08:00:00
   id: 1183009
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Some armv6/7 builds on OBS fail due to kernel 5.11 modules not being loaded
     properly
 - component: X.Org
@@ -54487,6 +54488,12 @@
   status: NEW
   summary: '[Build 20210304] grub2 fails to chain load windows on dual boot machine'
 '20210306':
+- component: Other
+  create_time: 20210308T11:13:00
+  id: 1183168
+  resolution: ''
+  status: NEW
+  summary: 'postgresql13: uninstall fails due to valid script expansion'
 - component: GNOME
   create_time: 20210308T09:41:00
   id: 1183156
