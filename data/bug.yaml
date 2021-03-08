@@ -23934,8 +23934,8 @@
 - component: Release Notes
   create_time: 20190521T17:33:00
   id: 1135809
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Udev package does not contain persistent-ifnames script any more
 - component: Translations
   create_time: 20190521T14:56:00
@@ -40268,7 +40268,7 @@
   create_time: 20200505T17:15:00
   id: 1171222
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[RPi4] GRUB kernel image/initrd load slowdown after adding USB keyboard
     support'
 - component: KDE Applications
@@ -51866,8 +51866,8 @@
 - component: Virtualization:Tools
   create_time: 20210115T18:11:00
   id: 1180997
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Update open-vm-tools to version 11.2.5
 - component: Development
   create_time: 20210115T14:25:00
@@ -51915,8 +51915,8 @@
 - component: Kernel
   create_time: 20210118T15:10:00
   id: 1181064
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Segmentation fault on system call vectored (ppc64le on POWER9)
 - component: Other
   create_time: 20210118T14:16:00
@@ -54466,8 +54466,8 @@
 - component: X.Org
   create_time: 20210305T11:16:00
   id: 1183082
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210304] vncviewer: Authentication failure: protocol error'
 - component: Other
   create_time: 20210305T09:40:00
@@ -54508,11 +54508,35 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Basesystem
+  create_time: 20210308T15:38:00
+  id: 1183185
+  resolution: ''
+  status: NEW
+  summary: systemd suspend from cron generates error
+- component: MicroOS
+  create_time: 20210308T14:38:00
+  id: 1183181
+  resolution: ''
+  status: IN_PROGRESS
+  summary: mokutil and shim missing on MicroOS and Kubic DVD
+- component: Apache
+  create_time: 20210308T14:31:00
+  id: 1183180
+  resolution: ''
+  status: NEW
+  summary: mod_php8 doesn't work out of the box
+- component: Other
+  create_time: 20210308T14:28:00
+  id: 1183179
+  resolution: ''
+  status: NEW
+  summary: gcc7 needs itself
 - component: Other
   create_time: 20210308T11:13:00
   id: 1183168
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'postgresql13: uninstall fails due to valid script expansion'
 - component: GNOME
   create_time: 20210308T09:41:00
@@ -54524,8 +54548,8 @@
 - component: Other
   create_time: 20210308T08:51:00
   id: 1183155
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: nodejs on i586 fails to build very often
 - component: Samba
   create_time: 20210308T00:27:00
@@ -54575,7 +54599,7 @@
   resolution: ''
   status: NEW
   summary: Reboot and Shutdown no longer function after update to latest kernel
-- component: Installation
+- component: Basesystem
   create_time: 20210307T10:24:00
   id: 1183136
   resolution: ''
