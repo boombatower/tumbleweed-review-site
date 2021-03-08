@@ -23066,8 +23066,8 @@
 - component: Network
   create_time: 20190502T14:58:00
   id: 1133974
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'openldap: startup failure due to missing rc.status'
 - component: Kernel
   create_time: 20190502T11:31:00
