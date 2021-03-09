@@ -1938,7 +1938,7 @@
   stability_level: stable
 '20210302':
   score: 93
-  stability_level: pending
+  stability_level: stable
 '20210305':
   score: 86
   stability_level: pending
@@ -1946,5 +1946,5 @@
   score: 84
   stability_level: pending
 '20210307':
-  score: 91
+  score: 81
   stability_level: pending
