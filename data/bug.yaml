@@ -54508,6 +54508,12 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Basesystem
+  create_time: 20210309T05:50:00
+  id: 1183210
+  resolution: ''
+  status: NEW
+  summary: Rebooting instead of shutdown
 - component: Maintenance
   create_time: 20210309T01:55:00
   id: 1183205
