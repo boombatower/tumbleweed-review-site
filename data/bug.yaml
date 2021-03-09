@@ -54508,6 +54508,13 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Virtualization:Other
+  create_time: 20210309T18:27:00
+  id: 1183247
+  resolution: ''
+  status: NEW
+  summary: 'starting lxc container failes with GDBus.Error:org.freedesktop.machine1.NoMachineForPID:
+    PID 4370 does not belong to any known machine'
 - component: KVM
   create_time: 20210309T17:25:00
   id: 1183242
