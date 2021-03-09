@@ -54331,7 +54331,7 @@
 - component: KDE Workspace (Plasma)
   create_time: 20210303T21:18:00
   id: 1182997
-  resolution: FIXED
+  resolution: UPSTREAM
   status: RESOLVED
   summary: KDE Systemsettings with Mixed Languages
 - component: Development
