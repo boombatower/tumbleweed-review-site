@@ -54509,6 +54509,25 @@
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
 - component: Other
+  create_time: 20210309T12:05:00
+  id: 1183227
+  resolution: ''
+  status: NEW
+  summary: ibus-sunpinyin-2.0.99-1.1.riscv64.rpm appears to be corrupted
+- component: X.Org
+  create_time: 20210309T10:58:00
+  id: 1183222
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'Add alternative AMD Open Source Driver for Vulkan: AMDVLK'
+- component: YaST2
+  create_time: 20210309T10:43:00
+  id: 1183220
+  resolution: ''
+  status: CONFIRMED
+  summary: '[20210223] missing partition label text field on "expert partitioner"->"Edit
+    partition"->"Fstab Options"'
+- component: Other
   create_time: 20210309T08:50:00
   id: 1183216
   resolution: ''
@@ -54661,7 +54680,7 @@
   resolution: ''
   status: NEW
   summary: Reboot and Shutdown no longer function after update to latest kernel
-- component: Basesystem
+- component: YaST2
   create_time: 20210307T10:24:00
   id: 1183136
   resolution: ''
