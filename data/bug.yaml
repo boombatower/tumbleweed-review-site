@@ -9125,7 +9125,7 @@
   create_time: 20180611T09:07:00
   id: 1096900
   resolution: ''
-  status: REOPENED
+  status: CONFIRMED
   summary: Offer graphical alternative to disk log view during installation
 - component: Network
   create_time: 20180611T07:47:00
@@ -22763,8 +22763,8 @@
 - component: YaST2
   create_time: 20190425T16:19:00
   id: 1133435
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Automatically tag new releases of YaST repos on github
 - component: YaST2
   create_time: 20190425T16:10:00
@@ -32224,8 +32224,8 @@
 - component: YaST2
   create_time: 20191122T13:31:00
   id: 1157575
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[WSL] creating user in firstboot does not show progess bar'
 - component: YaST2
   create_time: 20191122T10:15:00
@@ -35086,7 +35086,7 @@
   create_time: 20200121T20:03:00
   id: 1161460
   resolution: ''
-  status: REOPENED
+  status: CONFIRMED
   summary: Inconsistent behavior of YaST modules when closing without changes
 - component: YaST2
   create_time: 20200121T15:36:00
@@ -54508,6 +54508,13 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Installation
+  create_time: 20210309T13:14:00
+  id: 1183231
+  resolution: ''
+  status: NEW
+  summary: '[Staging J] YaST is not installing microos_base_zypper pattern for container
+    host role, causing OpenQA test failures'
 - component: Other
   create_time: 20210309T12:05:00
   id: 1183227
@@ -54684,7 +54691,7 @@
   create_time: 20210307T10:24:00
   id: 1183136
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Wrong ownership of home directories
 - component: KDE Applications
   create_time: 20210307T09:51:00
