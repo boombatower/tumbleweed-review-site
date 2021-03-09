@@ -49688,7 +49688,7 @@
   id: 1179261
   resolution: ''
   status: NEW
-  summary: YaST doesn't copy /usr/etc/skel
+  summary: YaST creates incomplete user accounts
 - component: Ruby
   create_time: 20201126T12:13:00
   id: 1179258
@@ -54508,19 +54508,43 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Other
+  create_time: 20210309T08:50:00
+  id: 1183216
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210307] openQA test fails in gnuhealth_client_preconfigure'
+- component: Basesystem
+  create_time: 20210309T08:49:00
+  id: 1183215
+  resolution: ''
+  status: NEW
+  summary: wrong cpu frequency reported
+- component: Kernel
+  create_time: 20210309T08:37:00
+  id: 1183214
+  resolution: ''
+  status: NEW
+  summary: lots of artefacts with v5.11.2 kernel
+- component: Bootloader
+  create_time: 20210309T08:23:00
+  id: 1183213
+  resolution: ''
+  status: NEW
+  summary: 'System cannot boot after upgrade from Leap: Synchronous Exception at 0x00000000BF5AD6A8'
 - component: Samba
   create_time: 20210309T07:19:00
   id: 1183211
   resolution: ''
   status: NEW
   summary: mount.cifs fails if password in credentials file contains a comma
-- component: Basesystem
+- component: Kernel
   create_time: 20210309T05:50:00
   id: 1183210
   resolution: ''
   status: NEW
   summary: Rebooting instead of shutdown
-- component: Maintenance
+- component: libzypp
   create_time: 20210309T01:55:00
   id: 1183205
   resolution: ''
@@ -54542,10 +54566,10 @@
 - component: Security
   create_time: 20210308T16:12:00
   id: 1183191
-  resolution: ''
-  status: NEW
-  summary: nobody user home directory permissions flagged by lynis and enterprise
-    security scanners
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'system-user-nobody: nobody user home directory permissions flagged by
+    lynis and enterprise security scanners'
 - component: Basesystem
   create_time: 20210308T15:38:00
   id: 1183185
