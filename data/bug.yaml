@@ -51237,8 +51237,8 @@
 - component: GNOME
   create_time: 20210105T22:20:00
   id: 1180597
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Many PackageKit operations work only immediately after a refresh
 - component: Security
   create_time: 20210105T19:22:00
@@ -54508,6 +54508,13 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Maintenance
+  create_time: 20210309T01:55:00
+  id: 1183205
+  resolution: ''
+  status: NEW
+  summary: Zypper (Build Service Redirector) does not show which mirror was selected
+    for download.
 - component: Other
   create_time: 20210308T18:09:00
   id: 1183199
