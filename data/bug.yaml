@@ -54508,6 +54508,12 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Samba
+  create_time: 20210309T07:19:00
+  id: 1183211
+  resolution: ''
+  status: NEW
+  summary: mount.cifs fails if password in credentials file contains a comma
 - component: Basesystem
   create_time: 20210309T05:50:00
   id: 1183210
@@ -54549,8 +54555,8 @@
 - component: MicroOS
   create_time: 20210308T14:38:00
   id: 1183181
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: mokutil and shim missing on MicroOS and Kubic DVD
 - component: Apache
   create_time: 20210308T14:31:00
