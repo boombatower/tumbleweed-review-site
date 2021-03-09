@@ -54508,6 +54508,12 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: KVM
+  create_time: 20210309T17:25:00
+  id: 1183242
+  resolution: ''
+  status: NEW
+  summary: kubevirt test bug
 - component: Bootloader
   create_time: 20210309T14:56:00
   id: 1183236
