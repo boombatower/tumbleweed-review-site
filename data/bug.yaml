@@ -53304,8 +53304,8 @@
 - component: Other
   create_time: 20210210T20:20:00
   id: 1182083
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Can't get network scanner to scan
 - component: Xfce
   create_time: 20210210T19:37:00
@@ -54508,6 +54508,18 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Bootloader
+  create_time: 20210309T14:56:00
+  id: 1183236
+  resolution: ''
+  status: NEW
+  summary: Images being built for the Pine RockPro64 are not bootable
+- component: Other
+  create_time: 20210309T14:16:00
+  id: 1183234
+  resolution: ''
+  status: NEW
+  summary: "ncurses shows \xCC instead of lines randomly"
 - component: Installation
   create_time: 20210309T13:14:00
   id: 1183231
@@ -54592,8 +54604,8 @@
 - component: Security
   create_time: 20210308T16:12:00
   id: 1183191
-  resolution: WONTFIX
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'system-user-nobody: nobody user home directory permissions flagged by
     lynis and enterprise security scanners'
 - component: Basesystem
