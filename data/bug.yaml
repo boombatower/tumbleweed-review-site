@@ -42648,8 +42648,8 @@
 - component: MicroOS
   create_time: 20200623T15:29:00
   id: 1173282
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'transactional-update: /var/lib/zypp not in'
 - component: Other
   create_time: 20200623T15:16:00
@@ -48535,8 +48535,8 @@
 - component: Kernel
   create_time: 20201102T13:53:00
   id: 1178360
-  resolution: ''
-  status: REOPENED
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: X11 Pixel Garbage in VirtualBox
 - component: Installation
   create_time: 20201102T08:06:00
@@ -51090,8 +51090,8 @@
 - component: Other
   create_time: 20201231T08:51:00
   id: 1180473
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20201230] postfix has invalid default config'
 - component: Other
   create_time: 20201231T07:14:00
@@ -53253,8 +53253,8 @@
 - component: Basesystem
   create_time: 20210211T17:35:00
   id: 1182147
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: systemd-analyze verify is unhappy with /usr/lib/systemd/system/gpm.service
     systemd unit
 - component: Basesystem
@@ -53699,8 +53699,8 @@
 - component: Basesystem
   create_time: 20210219T17:38:00
   id: 1182509
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: sssd-2.4.1: new PAM module pam_sss_gss'
 - component: Installation
   create_time: 20210219T16:58:00
@@ -53786,8 +53786,8 @@
 - component: MicroOS
   create_time: 20210221T00:09:00
   id: 1182525
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: --drop-if-no-change not working
 - component: Containers
   create_time: 20210220T21:59:00
@@ -54509,6 +54509,18 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Basesystem
+  create_time: 20210310T13:43:00
+  id: 1183299
+  resolution: ''
+  status: NEW
+  summary: '[Build F.509.8] plymouth doies not end and allow a login on tty1'
+- component: Basesystem
+  create_time: 20210310T12:40:00
+  id: 1183296
+  resolution: ''
+  status: NEW
+  summary: blkzone report doesn't report zone capacity
 - component: Kernel
   create_time: 20210310T11:49:00
   id: 1183294
@@ -54736,7 +54748,7 @@
   create_time: 20210307T17:26:00
   id: 1183143
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'Base:System/file: duplicate description for zip-files'
 - component: Sound
   create_time: 20210307T14:32:00
