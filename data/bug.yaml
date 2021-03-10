@@ -54375,7 +54375,8 @@
   id: 1182961
   resolution: ''
   status: NEW
-  summary: '[Build 20210227] openQA test fails in journal_check: systemd-udevd warning'
+  summary: '[Build 20210227] openQA test fails in journal_check: could not read from
+    ''/sys/module/pcc_cpufreq/initstate'': No such device'
 - component: Development
   create_time: 20210302T19:26:00
   id: 1182942
@@ -54508,6 +54509,13 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Kernel
+  create_time: 20210310T11:49:00
+  id: 1183294
+  resolution: ''
+  status: NEW
+  summary: 'external displays stopped working on kernel 5.11.2-1: i915 0000:00:02.0:
+    [drm] *ERROR* Link Training Unsuccessful'
 - component: Kernel
   create_time: 20210310T08:56:00
   id: 1183266
