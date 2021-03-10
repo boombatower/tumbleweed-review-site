@@ -54508,6 +54508,24 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Kernel
+  create_time: 20210310T08:56:00
+  id: 1183266
+  resolution: ''
+  status: NEW
+  summary: 'kernel: i915 0000:00:02.0: [drm] VGA-1: EDID is invalid:'
+- component: Other
+  create_time: 20210310T08:52:00
+  id: 1183265
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210308] openQA test fails for boot_linuxrc'
+- component: Installation
+  create_time: 20210310T08:41:00
+  id: 1183264
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210308] initrd on DVD incomplete: install system fails to boot'
 - component: Network
   create_time: 20210310T04:53:00
   id: 1183258
@@ -54545,7 +54563,7 @@
   resolution: ''
   status: NEW
   summary: "ncurses shows \xCC instead of lines randomly"
-- component: Installation
+- component: Kubic
   create_time: 20210309T13:14:00
   id: 1183231
   resolution: ''
@@ -54567,8 +54585,8 @@
 - component: YaST2
   create_time: 20210309T10:43:00
   id: 1183220
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[20210223] missing partition label text field on "expert partitioner"->"Edit
     partition"->"Fstab Options"'
 - component: Other
