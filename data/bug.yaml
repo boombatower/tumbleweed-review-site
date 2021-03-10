@@ -54747,8 +54747,8 @@
 - component: Basesystem
   create_time: 20210307T17:26:00
   id: 1183143
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Base:System/file: duplicate description for zip-files'
 - component: Sound
   create_time: 20210307T14:32:00
