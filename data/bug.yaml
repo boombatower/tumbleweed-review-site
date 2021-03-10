@@ -49471,7 +49471,7 @@
   create_time: 20201121T11:03:00
   id: 1179053
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: pcp fails with rpmlint 2.0
 - component: Basesystem
   create_time: 20201121T11:02:00
