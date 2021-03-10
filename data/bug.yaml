@@ -54508,6 +54508,12 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Network
+  create_time: 20210310T04:53:00
+  id: 1183258
+  resolution: ''
+  status: NEW
+  summary: NetworkManager does not activate wired connection after each zypper dup
 - component: X11 Applications
   create_time: 20210309T21:15:00
   id: 1183253
