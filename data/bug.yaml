@@ -54462,7 +54462,7 @@
   create_time: 20210305T12:01:00
   id: 1183086
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Radiobox title is smaller than the options
 - component: X.Org
   create_time: 20210305T11:16:00
@@ -54509,6 +54509,12 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Virtualization:Other
+  create_time: 20210310T16:58:00
+  id: 1183329
+  resolution: ''
+  status: NEW
+  summary: virtualbox 6.1.18 crashes when it runs nested VM
 - component: Basesystem
   create_time: 20210310T13:43:00
   id: 1183299
@@ -54599,8 +54605,8 @@
 - component: X.Org
   create_time: 20210309T10:58:00
   id: 1183222
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Add alternative AMD Open Source Driver for Vulkan: AMDVLK'
 - component: YaST2
   create_time: 20210309T10:43:00
