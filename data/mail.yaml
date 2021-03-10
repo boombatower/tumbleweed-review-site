@@ -5833,7 +5833,7 @@
     summary: be cautious  to upgrade x86_32 Tumbleweed system to snapshot
 '20210212':
   announcement: 2021-03.4292
-  reference_count: 3
+  reference_count: 4
   thread_count: 2
   threads:
   - messages:
@@ -5842,7 +5842,8 @@
     summary: glibc 2.33 and chroot
   - messages:
     - 2021-03.4703
-    reference_count: 1
+    - 2021-03.4710
+    reference_count: 2
     summary: = full reinstall
 '20210215':
   announcement: 2021-03.4321
