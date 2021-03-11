@@ -49100,8 +49100,8 @@
 - component: AutoYaST
   create_time: 20201109T20:55:00
   id: 1178603
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: network config creates and uses a bridge device br0 for some time
 - component: Bootloader
   create_time: 20201109T19:51:00
@@ -54492,8 +54492,8 @@
 - component: Basesystem
   create_time: 20210306T23:15:00
   id: 1183131
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Hundreds of weird systemd-sysv-convert warnings during upgrade (zypper
     dup)
 - component: Network
@@ -54509,6 +54509,25 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Development
+  create_time: 20210311T10:15:00
+  id: 1183365
+  resolution: ''
+  status: NEW
+  summary: osc build in qemu should not require root
+- component: Basesystem
+  create_time: 20210311T07:10:00
+  id: 1183351
+  resolution: ''
+  status: NEW
+  summary: system-user-lp-20170617-21.1 installation fails in docker
+- component: Other
+  create_time: 20210311T06:48:00
+  id: 1183350
+  resolution: ''
+  status: NEW
+  summary: 'mpv: symbol lookup error: /usr/lib64/libshaderc_shared.so.1: undefined
+    symbol: _ZN8spvtools9Optimizer28RegisterVulkanToWebGPUPassesEv'
 - component: Basesystem
   create_time: 20210310T23:44:00
   id: 1183345
@@ -54613,7 +54632,7 @@
   create_time: 20210309T12:05:00
   id: 1183227
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: ibus-sunpinyin-2.0.99-1.1.riscv64.rpm appears to be corrupted
 - component: X.Org
   create_time: 20210309T10:58:00
@@ -54634,7 +54653,7 @@
   resolution: ''
   status: NEW
   summary: '[Build 20210307] openQA test fails in gnuhealth_client_preconfigure'
-- component: Basesystem
+- component: Kernel
   create_time: 20210309T08:49:00
   id: 1183215
   resolution: ''
@@ -54675,8 +54694,8 @@
   create_time: 20210308T18:09:00
   id: 1183199
   resolution: ''
-  status: NEW
-  summary: 'Pdfarranger :'
+  status: CONFIRMED
+  summary: Pdfarranger needs a newer pikepdf version
 - component: Kernel
   create_time: 20210308T17:35:00
   id: 1183198
@@ -54751,7 +54770,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: Rescue CD does not contain bcache-tools
-- component: Basesystem
+- component: KDE Workspace (Plasma)
   create_time: 20210307T18:23:00
   id: 1183145
   resolution: ''
