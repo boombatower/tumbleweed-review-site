@@ -48173,8 +48173,8 @@
 - component: Basesystem
   create_time: 20201022T10:10:00
   id: 1178006
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: autofs does not work with NIS
 - component: YaST2
   create_time: 20201022T07:51:00
@@ -54244,8 +54244,8 @@
 - component: Other
   create_time: 20210304T21:17:00
   id: 1183058
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: android-udev-rules not keeping /dev/android and /dev/android_adb
 - component: Containers
   create_time: 20210304T19:25:00
@@ -54564,7 +54564,7 @@
   create_time: 20210310T16:58:00
   id: 1183329
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: virtualbox 6.1.18 crashes when it runs nested VM
 - component: Basesystem
   create_time: 20210310T13:43:00
