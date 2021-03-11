@@ -52985,7 +52985,7 @@
   create_time: 20210206T11:13:00
   id: 1181873
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 11: libwpd package fails'
 - component: Basesystem
   create_time: 20210206T11:12:00
@@ -54509,6 +54509,19 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Basesystem
+  create_time: 20210310T23:44:00
+  id: 1183345
+  resolution: ''
+  status: NEW
+  summary: sudo not using /usr/etc/nsswitch.conf
+- component: Network
+  create_time: 20210310T22:37:00
+  id: 1183342
+  resolution: ''
+  status: NEW
+  summary: NetworkManager tries to reach conncheck.opensuse.org on wrong device (all
+    devices?)
 - component: Virtualization:Other
   create_time: 20210310T16:58:00
   id: 1183329
