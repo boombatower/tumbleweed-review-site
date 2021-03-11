@@ -43354,8 +43354,8 @@
 - component: Basesystem
   create_time: 20200708T08:07:00
   id: 1173877
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Enabling Bluetooth on a Raspberry Pi 3/4 should include hciattach /dev/ttyAMA1
     bcm43xx 921600
 '20200710':
@@ -53636,7 +53636,7 @@
   create_time: 20210217T11:08:00
   id: 1182360
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Enabling IPv6 Forwarding in YaST breaks IPv6 on Raspberry Pi 4
 - component: Basesystem
   create_time: 20210217T09:47:00
@@ -54524,8 +54524,8 @@
 - component: Other
   create_time: 20210311T06:48:00
   id: 1183350
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'mpv: symbol lookup error: /usr/lib64/libshaderc_shared.so.1: undefined
     symbol: _ZN8spvtools9Optimizer28RegisterVulkanToWebGPUPassesEv'
 - component: Basesystem
