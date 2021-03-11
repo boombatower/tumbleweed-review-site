@@ -50850,8 +50850,8 @@
 - component: Other
   create_time: 20201224T17:20:00
   id: 1180339
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: dnf default configuration is missing allow_vendor_change setting
 - component: Bootloader
   create_time: 20201224T13:44:00
@@ -54509,6 +54509,19 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Basesystem
+  create_time: 20210311T16:35:00
+  id: 1183408
+  resolution: ''
+  status: NEW
+  summary: systemd installs  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh, but its
+    now in /usr/etc
+- component: Network
+  create_time: 20210311T16:16:00
+  id: 1183407
+  resolution: ''
+  status: NEW
+  summary: wicked installs dbus files in /etc/dbus-1
 - component: Other
   create_time: 20210311T15:15:00
   id: 1183398
@@ -54587,8 +54600,8 @@
 - component: Installation
   create_time: 20210310T08:41:00
   id: 1183264
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210308] initrd on DVD incomplete: install system fails to boot'
 - component: Network
   create_time: 20210310T04:53:00
