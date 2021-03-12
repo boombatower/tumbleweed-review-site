@@ -54800,6 +54800,19 @@
   status: NEW
   summary: Kernel wont boot after grub initialization 5.11.2
 '20210311':
+- component: Printing
+  create_time: 20210312T21:07:00
+  id: 1183469
+  resolution: ''
+  status: NEW
+  summary: HPLIP utilities failing
+- component: Other
+  create_time: 20210312T21:02:00
+  id: 1183468
+  resolution: ''
+  status: NEW
+  summary: '[openSUSE-20210306-0|http://download.opensuse.org/tumbleweed/repo/oss/]
+    Valid metadata not found at specified URL'
 - component: Other
   create_time: 20210312T16:33:00
   id: 1183461
