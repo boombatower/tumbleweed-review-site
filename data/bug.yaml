@@ -51091,7 +51091,7 @@
   create_time: 20201231T08:51:00
   id: 1180473
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20201230] postfix has invalid default config'
 - component: Other
   create_time: 20201231T07:14:00
@@ -54429,12 +54429,6 @@
   status: NEW
   summary: u-boot-am335xevm-2021.01-1.1.armv7hl is broken
 - component: X11 Applications
-  create_time: 20210305T16:26:00
-  id: 1183109
-  resolution: ''
-  status: NEW
-  summary: zypper install spring-engine does not pull in libunitsync
-- component: X11 Applications
   create_time: 20210305T16:19:00
   id: 1183104
   resolution: ''
@@ -54509,6 +54503,12 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: YaST2
+  create_time: 20210312T09:49:00
+  id: 1183439
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Missing dependencies in yast2-pkg-bindings
 - component: Other
   create_time: 20210312T06:12:00
   id: 1183429
