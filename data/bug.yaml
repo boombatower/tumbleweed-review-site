@@ -54437,14 +54437,14 @@
 - component: YaST2
   create_time: 20210305T12:51:00
   id: 1183090
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: SelectBox icon does not change when disabled
 - component: YaST2
   create_time: 20210305T12:22:00
   id: 1183088
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Partitioner shoud not show an icon in popups
 - component: YaST2
   create_time: 20210305T12:17:00
@@ -54455,8 +54455,8 @@
 - component: YaST2
   create_time: 20210305T12:01:00
   id: 1183086
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Radiobox title is smaller than the options
 - component: X.Org
   create_time: 20210305T11:16:00
@@ -54503,6 +54503,12 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: YaST2
+  create_time: 20210312T13:56:00
+  id: 1183449
+  resolution: ''
+  status: NEW
+  summary: 'Partitioner: missing transparency in folder-temp icon'
 - component: YaST2
   create_time: 20210312T09:49:00
   id: 1183439
@@ -54688,8 +54694,8 @@
 - component: Other
   create_time: 20210309T08:50:00
   id: 1183216
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210307] openQA test fails in gnuhealth_client_preconfigure'
 - component: Kernel
   create_time: 20210309T08:49:00
