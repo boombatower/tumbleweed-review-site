@@ -54509,6 +54509,19 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: Security
+  create_time: 20210311T22:35:00
+  id: 1183425
+  resolution: ''
+  status: NEW
+  summary: Graphical "Please enter passphrase" prompt for disk encryption upon startup
+    is unreadable on HiDPI
+- component: Kernel
+  create_time: 20210311T21:52:00
+  id: 1183424
+  resolution: ''
+  status: NEW
+  summary: Screen corrupted after update to kernel 5.11.2
 - component: Basesystem
   create_time: 20210311T16:35:00
   id: 1183408
@@ -54799,7 +54812,7 @@
   create_time: 20210307T17:56:00
   id: 1183144
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Software Retext don't start
 - component: Basesystem
   create_time: 20210307T17:26:00
