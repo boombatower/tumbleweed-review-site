@@ -1941,7 +1941,7 @@
   stability_level: stable
 '20210305':
   score: 86
-  stability_level: pending
+  stability_level: moderate
 '20210306':
   score: 84
   stability_level: pending
