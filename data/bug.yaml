@@ -54503,6 +54503,13 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
+- component: X11 Applications
+  create_time: 20210312T15:20:00
+  id: 1183454
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210311] openQA test fails in first_boot: opensuse-welcome fails
+    on pentium3'
 - component: YaST2
   create_time: 20210312T13:56:00
   id: 1183449
