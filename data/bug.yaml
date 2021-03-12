@@ -54503,82 +54503,6 @@
   status: NEW
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
-- component: X11 Applications
-  create_time: 20210312T15:20:00
-  id: 1183454
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210311] openQA test fails in first_boot: opensuse-welcome fails
-    on pentium3'
-- component: YaST2
-  create_time: 20210312T13:56:00
-  id: 1183449
-  resolution: ''
-  status: NEW
-  summary: 'Partitioner: missing transparency in folder-temp icon'
-- component: YaST2
-  create_time: 20210312T09:49:00
-  id: 1183439
-  resolution: FIXED
-  status: RESOLVED
-  summary: Missing dependencies in yast2-pkg-bindings
-- component: Other
-  create_time: 20210312T06:12:00
-  id: 1183429
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'drbd: failed to build against kernel v5.11'
-- component: Security
-  create_time: 20210311T22:35:00
-  id: 1183425
-  resolution: ''
-  status: NEW
-  summary: Graphical "Please enter passphrase" prompt for disk encryption upon startup
-    is unreadable on HiDPI
-- component: Kernel
-  create_time: 20210311T21:52:00
-  id: 1183424
-  resolution: ''
-  status: NEW
-  summary: Screen corrupted after update to kernel 5.11.2
-- component: Basesystem
-  create_time: 20210311T16:35:00
-  id: 1183408
-  resolution: ''
-  status: NEW
-  summary: systemd installs  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh, but its
-    now in /usr/etc
-- component: Network
-  create_time: 20210311T16:16:00
-  id: 1183407
-  resolution: ''
-  status: NEW
-  summary: wicked installs dbus files in /etc/dbus-1
-- component: Other
-  create_time: 20210311T15:15:00
-  id: 1183398
-  resolution: ''
-  status: NEW
-  summary: snapper installs into /etc/dbus-1
-- component: Development
-  create_time: 20210311T10:15:00
-  id: 1183365
-  resolution: ''
-  status: NEW
-  summary: osc build in qemu should not require root
-- component: Basesystem
-  create_time: 20210311T07:10:00
-  id: 1183351
-  resolution: ''
-  status: NEW
-  summary: system-user-lp-20170617-21.1 installation fails in docker
-- component: Other
-  create_time: 20210311T06:48:00
-  id: 1183350
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: 'mpv: symbol lookup error: /usr/lib64/libshaderc_shared.so.1: undefined
-    symbol: _ZN8spvtools9Optimizer28RegisterVulkanToWebGPUPassesEv'
 - component: Basesystem
   create_time: 20210310T23:44:00
   id: 1183345
@@ -54875,3 +54799,87 @@
   resolution: ''
   status: NEW
   summary: Kernel wont boot after grub initialization 5.11.2
+'20210311':
+- component: Other
+  create_time: 20210312T16:33:00
+  id: 1183461
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210311] openQA test fails in nftables - /etc/nftables is not
+    created'
+- component: X11 Applications
+  create_time: 20210312T15:20:00
+  id: 1183454
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210311] openQA test fails in first_boot: opensuse-welcome fails
+    on pentium3'
+- component: YaST2
+  create_time: 20210312T13:56:00
+  id: 1183449
+  resolution: ''
+  status: NEW
+  summary: 'Partitioner: missing transparency in folder-temp icon'
+- component: YaST2
+  create_time: 20210312T09:49:00
+  id: 1183439
+  resolution: FIXED
+  status: RESOLVED
+  summary: Missing dependencies in yast2-pkg-bindings
+- component: Other
+  create_time: 20210312T06:12:00
+  id: 1183429
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'drbd: failed to build against kernel v5.11'
+- component: Security
+  create_time: 20210311T22:35:00
+  id: 1183425
+  resolution: ''
+  status: NEW
+  summary: Graphical "Please enter passphrase" prompt for disk encryption upon startup
+    is unreadable on HiDPI
+- component: Kernel
+  create_time: 20210311T21:52:00
+  id: 1183424
+  resolution: ''
+  status: NEW
+  summary: Screen corrupted after update to kernel 5.11.2
+- component: Basesystem
+  create_time: 20210311T16:35:00
+  id: 1183408
+  resolution: ''
+  status: NEW
+  summary: systemd installs  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh, but its
+    now in /usr/etc
+- component: Network
+  create_time: 20210311T16:16:00
+  id: 1183407
+  resolution: ''
+  status: NEW
+  summary: wicked installs dbus files in /etc/dbus-1
+- component: Other
+  create_time: 20210311T15:15:00
+  id: 1183398
+  resolution: ''
+  status: NEW
+  summary: snapper installs into /etc/dbus-1
+- component: Development
+  create_time: 20210311T10:15:00
+  id: 1183365
+  resolution: ''
+  status: NEW
+  summary: osc build in qemu should not require root
+- component: Basesystem
+  create_time: 20210311T07:10:00
+  id: 1183351
+  resolution: ''
+  status: NEW
+  summary: system-user-lp-20170617-21.1 installation fails in docker
+- component: Other
+  create_time: 20210311T06:48:00
+  id: 1183350
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: 'mpv: symbol lookup error: /usr/lib64/libshaderc_shared.so.1: undefined
+    symbol: _ZN8spvtools9Optimizer28RegisterVulkanToWebGPUPassesEv'
