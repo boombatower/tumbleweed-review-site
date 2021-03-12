@@ -22565,7 +22565,7 @@
   id: 1133169
   resolution: ''
   status: CONFIRMED
-  summary: Area bitmap lost after save as docx
+  summary: 'Libreoffice: Area bitmap lost after save as docx'
 - component: Firefox
   create_time: 20190423T18:16:00
   id: 1133163
@@ -53885,8 +53885,8 @@
 - component: Other
   create_time: 20210222T08:04:00
   id: 1182542
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Using yast2 or cmd to change default keyboard language from US to UK
 '20210223':
 - component: Basesystem
@@ -54506,8 +54506,8 @@
 - component: YaST2
   create_time: 20210312T09:49:00
   id: 1183439
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Missing dependencies in yast2-pkg-bindings
 - component: Other
   create_time: 20210312T06:12:00
