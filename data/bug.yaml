@@ -23109,8 +23109,8 @@
 - component: Security
   create_time: 20190505T08:14:00
   id: 1134131
-  resolution: NORESPONSE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'AUDIT-1: deepin-file-manager: new polkit actions of deepin-file-manager'
 - component: Installation
   create_time: 20190505T03:37:00
