@@ -54800,6 +54800,12 @@
   status: NEW
   summary: Kernel wont boot after grub initialization 5.11.2
 '20210311':
+- component: Development
+  create_time: 20210313T03:18:00
+  id: 1183474
+  resolution: ''
+  status: NEW
+  summary: Emacs much slower than before
 - component: Printing
   create_time: 20210312T21:07:00
   id: 1183469
