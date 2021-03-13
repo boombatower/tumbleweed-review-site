@@ -1944,10 +1944,10 @@
   stability_level: moderate
 '20210306':
   score: 84
-  stability_level: pending
+  stability_level: moderate
 '20210307':
   score: 78
   stability_level: pending
 '20210311':
-  score: 87
+  score: 84
   stability_level: pending
