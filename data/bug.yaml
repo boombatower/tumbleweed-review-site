@@ -54800,6 +54800,13 @@
   status: NEW
   summary: Kernel wont boot after grub initialization 5.11.2
 '20210311':
+- component: Other
+  create_time: 20210313T20:10:00
+  id: 1183485
+  resolution: ''
+  status: NEW
+  summary: Duplicate key "OnlyShowIn" in "/etc/xdg/autostart/user-dirs-update-mate.desktop"
+    causes error.
 - component: Kernel
   create_time: 20210313T13:44:00
   id: 1183483
