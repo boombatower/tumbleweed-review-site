@@ -54827,14 +54827,14 @@
 - component: Installation
   create_time: 20210313T08:36:00
   id: 1183478
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: File perl-doc-5.32.0-2.2.noarch.rpm on download link empty
 - component: Installation
   create_time: 20210313T08:20:00
   id: 1183477
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: File python36-3.6.13-1.1.x86_64.rpm empty on download link
 - component: Development
   create_time: 20210313T03:18:00
@@ -54851,8 +54851,8 @@
 - component: Other
   create_time: 20210312T21:02:00
   id: 1183468
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: '[openSUSE-20210306-0|http://download.opensuse.org/tumbleweed/repo/oss/]
     Valid metadata not found at specified URL'
 - component: Other
