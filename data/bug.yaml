@@ -54836,12 +54836,6 @@
   resolution: ''
   status: NEW
   summary: File python36-3.6.13-1.1.x86_64.rpm empty on download link
-- component: Installation
-  create_time: 20210313T08:03:00
-  id: 1183476
-  resolution: ''
-  status: NEW
-  summary: gnuradio rpm empty on download link
 - component: Development
   create_time: 20210313T03:18:00
   id: 1183474
