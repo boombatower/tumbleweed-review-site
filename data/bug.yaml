@@ -54800,6 +54800,18 @@
   status: NEW
   summary: Kernel wont boot after grub initialization 5.11.2
 '20210311':
+- component: Kernel
+  create_time: 20210313T13:44:00
+  id: 1183483
+  resolution: ''
+  status: NEW
+  summary: '5.10.16 to 5.11.2: external monitor stops working (Thunderbolt)'
+- component: Containers
+  create_time: 20210313T12:41:00
+  id: 1183482
+  resolution: ''
+  status: NEW
+  summary: libcontainers-common contains SLE files on TW
 - component: Basesystem
   create_time: 20210313T11:58:00
   id: 1183481
