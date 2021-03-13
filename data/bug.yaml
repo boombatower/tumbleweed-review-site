@@ -54800,6 +54800,12 @@
   status: NEW
   summary: Kernel wont boot after grub initialization 5.11.2
 '20210311':
+- component: Installation
+  create_time: 20210313T08:03:00
+  id: 1183476
+  resolution: ''
+  status: NEW
+  summary: gnuradio rpm empty on download link
 - component: Development
   create_time: 20210313T03:18:00
   id: 1183474
