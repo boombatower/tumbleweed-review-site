@@ -53937,8 +53937,8 @@
 - component: Other
   create_time: 20210225T17:51:00
   id: 1182775
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210223] chromium hangs on opening'
 - component: Kubic
   create_time: 20210225T17:02:00
@@ -54800,6 +54800,18 @@
   status: NEW
   summary: Kernel wont boot after grub initialization 5.11.2
 '20210311':
+- component: Basesystem
+  create_time: 20210313T11:58:00
+  id: 1183481
+  resolution: ''
+  status: NEW
+  summary: nscd keeps complaining about missing /etc/services
+- component: Basesystem
+  create_time: 20210313T10:39:00
+  id: 1183479
+  resolution: ''
+  status: NEW
+  summary: Graphic glitch and freeze at wake from sleep
 - component: Installation
   create_time: 20210313T08:36:00
   id: 1183478
