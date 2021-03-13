@@ -28537,8 +28537,8 @@
 - component: Security
   create_time: 20190830T20:11:00
   id: 1149038
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: gpg2 freeze on verification of email
 - component: Network
   create_time: 20190830T20:08:00
