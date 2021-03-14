@@ -54801,6 +54801,12 @@
   summary: Kernel wont boot after grub initialization 5.11.2
 '20210311':
 - component: Other
+  create_time: 20210314T16:57:00
+  id: 1183499
+  resolution: ''
+  status: NEW
+  summary: '[waybar] Crash on start under sway'
+- component: Other
   create_time: 20210314T12:24:00
   id: 1183494
   resolution: ''
