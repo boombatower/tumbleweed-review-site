@@ -54800,6 +54800,18 @@
   status: NEW
   summary: Kernel wont boot after grub initialization 5.11.2
 '20210311':
+- component: X11 Applications
+  create_time: 20210313T23:11:00
+  id: 1183490
+  resolution: ''
+  status: NEW
+  summary: world of padman does not launch
+- component: Installation
+  create_time: 20210313T22:08:00
+  id: 1183489
+  resolution: ''
+  status: NEW
+  summary: 0AD is compiled / packaged for the wrong libicu version (openSUSE Tumbleweed)
 - component: Other
   create_time: 20210313T20:10:00
   id: 1183485
