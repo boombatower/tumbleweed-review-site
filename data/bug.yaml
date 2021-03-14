@@ -52984,8 +52984,8 @@
 - component: Basesystem
   create_time: 20210206T11:13:00
   id: 1181873
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: libwpd package fails'
 - component: Basesystem
   create_time: 20210206T11:12:00
