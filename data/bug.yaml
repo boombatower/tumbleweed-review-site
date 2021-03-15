@@ -54852,6 +54852,12 @@
   summary: 'mpv: symbol lookup error: /usr/lib64/libshaderc_shared.so.1: undefined
     symbol: _ZN8spvtools9Optimizer28RegisterVulkanToWebGPUPassesEv'
 '20210312':
+- component: Basesystem
+  create_time: 20210315T14:32:00
+  id: 1183532
+  resolution: ''
+  status: NEW
+  summary: 'dwz: missing support for: Unhandled .debug_macro version 5'
 - component: Containers
   create_time: 20210315T12:14:00
   id: 1183527
