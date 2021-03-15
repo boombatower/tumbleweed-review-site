@@ -54810,8 +54810,8 @@
 - component: Kernel
   create_time: 20210311T21:52:00
   id: 1183424
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Screen corrupted after update to kernel 5.11.2
 - component: Basesystem
   create_time: 20210311T16:35:00
@@ -54852,11 +54852,17 @@
   summary: 'mpv: symbol lookup error: /usr/lib64/libshaderc_shared.so.1: undefined
     symbol: _ZN8spvtools9Optimizer28RegisterVulkanToWebGPUPassesEv'
 '20210312':
+- component: Kernel
+  create_time: 20210315T16:39:00
+  id: 1183554
+  resolution: ''
+  status: NEW
+  summary: Can't boot into desktop with AMD card
 - component: Basesystem
   create_time: 20210315T14:32:00
   id: 1183532
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'dwz: missing support for: Unhandled .debug_macro version 5'
 - component: Containers
   create_time: 20210315T12:14:00
@@ -54897,8 +54903,8 @@
 - component: X11 3rd Party Driver
   create_time: 20210315T05:03:00
   id: 1183503
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: nvidia G04 don't work with 5.11kernel
 - component: Other
   create_time: 20210314T16:57:00
