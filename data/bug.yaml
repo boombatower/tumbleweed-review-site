@@ -54800,6 +54800,12 @@
   status: NEW
   summary: Kernel wont boot after grub initialization 5.11.2
 '20210311':
+- component: Kernel
+  create_time: 20210315T05:03:00
+  id: 1183503
+  resolution: ''
+  status: NEW
+  summary: nvidia G04 don't work with 5.11kernel
 - component: Other
   create_time: 20210314T16:57:00
   id: 1183499
