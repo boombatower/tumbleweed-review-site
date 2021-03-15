@@ -52943,7 +52943,7 @@
   create_time: 20210206T11:21:00
   id: 1181880
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 11: p7zip package fails'
 - component: Basesystem
   create_time: 20210206T11:20:00
@@ -53804,8 +53804,8 @@
 - component: Basesystem
   create_time: 20210220T18:09:00
   id: 1182522
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: openSUSE-Tumbleweed-NET-i586-Snapshot20210218-Media.iso kernel-panic on
     x86_32
 - component: Security
@@ -54293,8 +54293,8 @@
 - component: Installation
   create_time: 20210304T13:19:00
   id: 1183037
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210303] openQA test fails in await_install during loading of
     the bootlader configuration at s390x'
 - component: Security
@@ -54461,8 +54461,8 @@
 - component: X.Org
   create_time: 20210305T11:16:00
   id: 1183082
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: IN_PROGRESS
   summary: '[Build 20210304] vncviewer: Authentication failure: protocol error'
 - component: Other
   create_time: 20210305T09:40:00
@@ -54800,17 +54800,41 @@
   status: NEW
   summary: Kernel wont boot after grub initialization 5.11.2
 '20210311':
+- component: MicroOS
+  create_time: 20210315T10:51:00
+  id: 1183521
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210312] openQA test fails in transactional_update'
+- component: Network
+  create_time: 20210315T09:48:00
+  id: 1183518
+  resolution: ''
+  status: NEW
+  summary: Can not connect to enterprise wifi
+- component: Kernel
+  create_time: 20210315T09:48:00
+  id: 1183517
+  resolution: ''
+  status: NEW
+  summary: 'xslab: v-raptor: network bring-up fails'
+- component: YaST2
+  create_time: 20210315T09:46:00
+  id: 1183516
+  resolution: ''
+  status: CONFIRMED
+  summary: yast-bootloader proposal code too generic and not sufficiently auto-tested
 - component: Containers
   create_time: 20210315T07:27:00
   id: 1183506
   resolution: ''
   status: NEW
   summary: podman prints warnings on every container start
-- component: Kernel
+- component: X11 3rd Party Driver
   create_time: 20210315T05:03:00
   id: 1183503
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: nvidia G04 don't work with 5.11kernel
 - component: Other
   create_time: 20210314T16:57:00
@@ -54847,8 +54871,8 @@
 - component: Kernel
   create_time: 20210313T13:44:00
   id: 1183483
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '5.10.16 to 5.11.2: external monitor stops working (Thunderbolt)'
 - component: Containers
   create_time: 20210313T12:41:00
