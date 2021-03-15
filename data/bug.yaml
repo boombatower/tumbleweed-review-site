@@ -46632,8 +46632,8 @@
 - component: Network
   create_time: 20200921T13:26:00
   id: 1176775
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Problems after upgrade to openSUSE Leap 15.2
 - component: Kernel
   create_time: 20200921T10:54:00
@@ -53467,8 +53467,8 @@
 - component: Other
   create_time: 20210216T14:00:00
   id: 1182323
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Since glibc 2.33 postfix fails
 - component: Kernel
   create_time: 20210216T11:20:00
@@ -53565,8 +53565,8 @@
 - component: Other
   create_time: 20210215T09:35:00
   id: 1182247
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210211][glibc2.33] not able to ''su'' to user in nis/yp directory'
 - component: Installation
   create_time: 20210215T08:32:00
@@ -53930,8 +53930,8 @@
 - component: Other
   create_time: 20210225T20:41:00
   id: 1182782
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: '[php-fpm] error changing logs location from php-fpm.conf and/or any on
     the pools ie: www.conf'
 - component: Other
@@ -54800,6 +54800,64 @@
   status: NEW
   summary: Kernel wont boot after grub initialization 5.11.2
 '20210311':
+- component: Security
+  create_time: 20210311T22:35:00
+  id: 1183425
+  resolution: ''
+  status: NEW
+  summary: Graphical "Please enter passphrase" prompt for disk encryption upon startup
+    is unreadable on HiDPI
+- component: Kernel
+  create_time: 20210311T21:52:00
+  id: 1183424
+  resolution: ''
+  status: NEW
+  summary: Screen corrupted after update to kernel 5.11.2
+- component: Basesystem
+  create_time: 20210311T16:35:00
+  id: 1183408
+  resolution: ''
+  status: NEW
+  summary: systemd installs  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh, but its
+    now in /usr/etc
+- component: Network
+  create_time: 20210311T16:16:00
+  id: 1183407
+  resolution: ''
+  status: NEW
+  summary: wicked installs dbus files in /etc/dbus-1
+- component: Other
+  create_time: 20210311T15:15:00
+  id: 1183398
+  resolution: ''
+  status: NEW
+  summary: snapper installs into /etc/dbus-1
+- component: Development
+  create_time: 20210311T10:15:00
+  id: 1183365
+  resolution: ''
+  status: NEW
+  summary: osc build in qemu should not require root
+- component: Basesystem
+  create_time: 20210311T07:10:00
+  id: 1183351
+  resolution: ''
+  status: NEW
+  summary: system-user-lp-20170617-21.1 installation fails in docker
+- component: Other
+  create_time: 20210311T06:48:00
+  id: 1183350
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: 'mpv: symbol lookup error: /usr/lib64/libshaderc_shared.so.1: undefined
+    symbol: _ZN8spvtools9Optimizer28RegisterVulkanToWebGPUPassesEv'
+'20210312':
+- component: Containers
+  create_time: 20210315T12:14:00
+  id: 1183527
+  resolution: ''
+  status: NEW
+  summary: Curl conflicts with libcurl4 on Tumbleweed container image
 - component: MicroOS
   create_time: 20210315T10:51:00
   id: 1183521
@@ -54955,54 +55013,3 @@
   resolution: ''
   status: IN_PROGRESS
   summary: 'drbd: failed to build against kernel v5.11'
-- component: Security
-  create_time: 20210311T22:35:00
-  id: 1183425
-  resolution: ''
-  status: NEW
-  summary: Graphical "Please enter passphrase" prompt for disk encryption upon startup
-    is unreadable on HiDPI
-- component: Kernel
-  create_time: 20210311T21:52:00
-  id: 1183424
-  resolution: ''
-  status: NEW
-  summary: Screen corrupted after update to kernel 5.11.2
-- component: Basesystem
-  create_time: 20210311T16:35:00
-  id: 1183408
-  resolution: ''
-  status: NEW
-  summary: systemd installs  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh, but its
-    now in /usr/etc
-- component: Network
-  create_time: 20210311T16:16:00
-  id: 1183407
-  resolution: ''
-  status: NEW
-  summary: wicked installs dbus files in /etc/dbus-1
-- component: Other
-  create_time: 20210311T15:15:00
-  id: 1183398
-  resolution: ''
-  status: NEW
-  summary: snapper installs into /etc/dbus-1
-- component: Development
-  create_time: 20210311T10:15:00
-  id: 1183365
-  resolution: ''
-  status: NEW
-  summary: osc build in qemu should not require root
-- component: Basesystem
-  create_time: 20210311T07:10:00
-  id: 1183351
-  resolution: ''
-  status: NEW
-  summary: system-user-lp-20170617-21.1 installation fails in docker
-- component: Other
-  create_time: 20210311T06:48:00
-  id: 1183350
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: 'mpv: symbol lookup error: /usr/lib64/libshaderc_shared.so.1: undefined
-    symbol: _ZN8spvtools9Optimizer28RegisterVulkanToWebGPUPassesEv'
