@@ -54544,8 +54544,8 @@
 - component: Kernel
   create_time: 20210310T08:56:00
   id: 1183266
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'kernel: i915 0000:00:02.0: [drm] VGA-1: EDID is invalid:'
 - component: Other
   create_time: 20210310T08:52:00
@@ -54800,6 +54800,12 @@
   status: NEW
   summary: Kernel wont boot after grub initialization 5.11.2
 '20210311':
+- component: Containers
+  create_time: 20210315T07:27:00
+  id: 1183506
+  resolution: ''
+  status: NEW
+  summary: podman prints warnings on every container start
 - component: Kernel
   create_time: 20210315T05:03:00
   id: 1183503
