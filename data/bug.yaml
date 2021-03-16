@@ -54575,7 +54575,7 @@
   create_time: 20210309T18:27:00
   id: 1183247
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'starting lxc container failes with GDBus.Error:org.freedesktop.machine1.NoMachineForPID:
     PID 4370 does not belong to any known machine'
 - component: KVM
@@ -54972,6 +54972,12 @@
   status: RESOLVED
   summary: 'drbd: failed to build against kernel v5.11'
 '20210315':
+- component: Installation
+  create_time: 20210316T17:36:00
+  id: 1183611
+  resolution: ''
+  status: NEW
+  summary: Unchecking YaST during OS installation installs YaST anyways
 - component: GNOME
   create_time: 20210316T15:10:00
   id: 1183597
