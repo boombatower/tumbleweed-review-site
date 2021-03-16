@@ -32050,8 +32050,8 @@
 - component: Network
   create_time: 20191118T11:02:00
   id: 1157013
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: postfix %verifyscript updates /etc/sysconfig/postfix
 - component: Other
   create_time: 20191118T08:50:00
@@ -50819,8 +50819,8 @@
 - component: Other
   create_time: 20201225T01:39:00
   id: 1180345
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: update_maps command needs to parse map type from the config
 - component: Kernel
   create_time: 20201225T01:19:00
@@ -50946,8 +50946,8 @@
 - component: Network
   create_time: 20201226T01:43:00
   id: 1180365
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Incomplete removal of Berkeley DB in server:mail's Postfix package
 '20201228':
 - component: Basesystem
@@ -51614,8 +51614,8 @@
 - component: Basesystem
   create_time: 20210112T13:56:00
   id: 1180822
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: dracut should include /usr/lib/modprobe.d/ into the initrd
 - component: Kernel
   create_time: 20210112T13:55:00
@@ -51720,8 +51720,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20210113T19:55:00
   id: 1180902
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: ssh-askpass no longer works (32bit version in Tumbleweed)
 - component: Kernel
   create_time: 20210113T18:54:00
@@ -54956,8 +54956,8 @@
 - component: YaST2
   create_time: 20210312T13:56:00
   id: 1183449
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Partitioner: missing transparency in folder-temp icon'
 - component: YaST2
   create_time: 20210312T09:49:00
@@ -54972,19 +54972,31 @@
   status: RESOLVED
   summary: 'drbd: failed to build against kernel v5.11'
 '20210315':
+- component: GNOME
+  create_time: 20210316T15:10:00
+  id: 1183597
+  resolution: ''
+  status: NEW
+  summary: 'gnome-calendar: GnuTLS session priority with error beginning at %COMPAT'
+- component: LibreOffice
+  create_time: 20210316T15:01:00
+  id: 1183595
+  resolution: ''
+  status: NEW
+  summary: lost ability to copy paste multiline text in Help text at LO base
 - component: Installation
   create_time: 20210316T10:36:00
   id: 1183583
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Staging] SELinux shouldn''t be enabled at all if not in the initial software
     selection'
 - component: Containers
   create_time: 20210316T09:35:00
   id: 1183580
-  resolution: ''
-  status: NEW
-  summary: Unable to install git-code in opensuse/tumbleweed container
+  resolution: FIXED
+  status: RESOLVED
+  summary: Unable to install git-core in opensuse/tumbleweed container
 - component: Basesystem
   create_time: 20210316T09:10:00
   id: 1183576
