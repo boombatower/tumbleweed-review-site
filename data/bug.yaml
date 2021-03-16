@@ -51558,7 +51558,7 @@
   create_time: 20210110T18:26:00
   id: 1180749
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: AMD Ryzen 4800H Renoir APU brightness control not working as found in some
     Lenovo Legion 5 15ARH05
 - component: Development
