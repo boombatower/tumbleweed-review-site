@@ -54976,7 +54976,7 @@
   create_time: 20210316T10:36:00
   id: 1183583
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Staging] SELinux shouldn''t be enabled at all if not in the initial software
     selection'
 - component: Containers
@@ -55038,7 +55038,7 @@
   create_time: 20210315T12:14:00
   id: 1183527
   resolution: INVALID
-  status: RESOLVED
+  status: VERIFIED
   summary: Curl conflicts with libcurl4 on Tumbleweed container image
 - component: MicroOS
   create_time: 20210315T10:51:00
