@@ -51644,8 +51644,8 @@
 - component: Other
   create_time: 20210112T02:18:00
   id: 1180797
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: timezone bug after 2021-06-28
 - component: Xen
   create_time: 20210111T23:43:00
@@ -52551,8 +52551,8 @@
 - component: Other
   create_time: 20210130T16:32:00
   id: 1181608
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: missing dependency for python-virtualenvwrapper
 - component: Kernel
   create_time: 20210130T12:17:00
@@ -54146,8 +54146,8 @@
 - component: Installation
   create_time: 20210301T11:21:00
   id: 1182852
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[weblate] - Problem: nothing provides libhiredis.so.0.13 when installing
     weblate'
 - component: YaST2
@@ -54972,6 +54972,19 @@
   status: RESOLVED
   summary: 'drbd: failed to build against kernel v5.11'
 '20210315':
+- component: Other
+  create_time: 20210316T21:25:00
+  id: 1183619
+  resolution: ''
+  status: NEW
+  summary: segfault using pinentry-tty to open a passphrase dialog on terminal
+- component: Other
+  create_time: 20210316T20:12:00
+  id: 1183616
+  resolution: ''
+  status: NEW
+  summary: Macro containing $python..  does not expand correctly when used in conjunction
+    with '?'
 - component: Installation
   create_time: 20210316T17:36:00
   id: 1183611
