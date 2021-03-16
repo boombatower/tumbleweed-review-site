@@ -54852,6 +54852,12 @@
   summary: 'mpv: symbol lookup error: /usr/lib64/libshaderc_shared.so.1: undefined
     symbol: _ZN8spvtools9Optimizer28RegisterVulkanToWebGPUPassesEv'
 '20210312':
+- component: GNOME
+  create_time: 20210316T02:14:00
+  id: 1183562
+  resolution: ''
+  status: NEW
+  summary: Cairo recording surface displays corrupted in X11
 - component: KDE Workspace (Plasma)
   create_time: 20210315T22:09:00
   id: 1183559
