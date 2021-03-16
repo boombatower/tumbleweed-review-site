@@ -53416,8 +53416,8 @@
 - component: Other
   create_time: 20210212T21:22:00
   id: 1182209
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: texlive-knuth-doc-2020 halts texlive-scheme-full installation
 - component: Security
   create_time: 20210212T17:38:00
@@ -54852,6 +54852,12 @@
   summary: 'mpv: symbol lookup error: /usr/lib64/libshaderc_shared.so.1: undefined
     symbol: _ZN8spvtools9Optimizer28RegisterVulkanToWebGPUPassesEv'
 '20210312':
+- component: Development
+  create_time: 20210316T05:44:00
+  id: 1183565
+  resolution: ''
+  status: NEW
+  summary: python38-gssapi needs krb5-devel as a dependency
 - component: GNOME
   create_time: 20210316T02:14:00
   id: 1183562
