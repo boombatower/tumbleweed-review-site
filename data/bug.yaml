@@ -54852,6 +54852,24 @@
   summary: 'mpv: symbol lookup error: /usr/lib64/libshaderc_shared.so.1: undefined
     symbol: _ZN8spvtools9Optimizer28RegisterVulkanToWebGPUPassesEv'
 '20210312':
+- component: Containers
+  create_time: 20210316T09:35:00
+  id: 1183580
+  resolution: ''
+  status: NEW
+  summary: Unable to install git-code in opensuse/tumbleweed container
+- component: Basesystem
+  create_time: 20210316T09:10:00
+  id: 1183576
+  resolution: ''
+  status: NEW
+  summary: 'postfix/postmap: fatal: unsupported map type for this operation: lmdb'
+- component: Basesystem
+  create_time: 20210316T08:44:00
+  id: 1183575
+  resolution: ''
+  status: NEW
+  summary: 'GCC 11: suitesparse package fails'
 - component: Other
   create_time: 20210316T07:53:00
   id: 1183569
@@ -54880,8 +54898,8 @@
 - component: Kernel
   create_time: 20210315T16:39:00
   id: 1183554
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Can't boot into desktop with AMD card
 - component: Basesystem
   create_time: 20210315T14:32:00
@@ -54892,8 +54910,8 @@
 - component: Containers
   create_time: 20210315T12:14:00
   id: 1183527
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Curl conflicts with libcurl4 on Tumbleweed container image
 - component: MicroOS
   create_time: 20210315T10:51:00
