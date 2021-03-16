@@ -50379,8 +50379,8 @@
 - component: Installation
   create_time: 20201212T11:07:00
   id: 1179973
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: HSQLDB installation don't start properly
 - component: Kernel
   create_time: 20201212T02:41:00
@@ -54852,103 +54852,6 @@
   summary: 'mpv: symbol lookup error: /usr/lib64/libshaderc_shared.so.1: undefined
     symbol: _ZN8spvtools9Optimizer28RegisterVulkanToWebGPUPassesEv'
 '20210312':
-- component: Containers
-  create_time: 20210316T09:35:00
-  id: 1183580
-  resolution: ''
-  status: NEW
-  summary: Unable to install git-code in opensuse/tumbleweed container
-- component: Basesystem
-  create_time: 20210316T09:10:00
-  id: 1183576
-  resolution: ''
-  status: NEW
-  summary: 'postfix/postmap: fatal: unsupported map type for this operation: lmdb'
-- component: Basesystem
-  create_time: 20210316T08:44:00
-  id: 1183575
-  resolution: ''
-  status: NEW
-  summary: 'GCC 11: suitesparse package fails'
-- component: Other
-  create_time: 20210316T07:53:00
-  id: 1183569
-  resolution: ''
-  status: NEW
-  summary: sshd not create pid file
-- component: Development
-  create_time: 20210316T05:44:00
-  id: 1183565
-  resolution: ''
-  status: NEW
-  summary: python38-gssapi needs krb5-devel as a dependency
-- component: GNOME
-  create_time: 20210316T02:14:00
-  id: 1183562
-  resolution: ''
-  status: NEW
-  summary: Cairo recording surface displays corrupted in X11
-- component: KDE Workspace (Plasma)
-  create_time: 20210315T22:09:00
-  id: 1183559
-  resolution: ''
-  status: NEW
-  summary: Mesa-dri-nouveau causing KDE to fail -- installed due to Gnome dependencies
-    for Mesa
-- component: Kernel
-  create_time: 20210315T16:39:00
-  id: 1183554
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: Can't boot into desktop with AMD card
-- component: Basesystem
-  create_time: 20210315T14:32:00
-  id: 1183532
-  resolution: INVALID
-  status: RESOLVED
-  summary: 'dwz: missing support for: Unhandled .debug_macro version 5'
-- component: Containers
-  create_time: 20210315T12:14:00
-  id: 1183527
-  resolution: INVALID
-  status: RESOLVED
-  summary: Curl conflicts with libcurl4 on Tumbleweed container image
-- component: MicroOS
-  create_time: 20210315T10:51:00
-  id: 1183521
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210312] openQA test fails in transactional_update'
-- component: Network
-  create_time: 20210315T09:48:00
-  id: 1183518
-  resolution: ''
-  status: NEW
-  summary: Can not connect to enterprise wifi
-- component: Kernel
-  create_time: 20210315T09:48:00
-  id: 1183517
-  resolution: ''
-  status: NEW
-  summary: 'xslab: v-raptor: network bring-up fails'
-- component: YaST2
-  create_time: 20210315T09:46:00
-  id: 1183516
-  resolution: ''
-  status: CONFIRMED
-  summary: yast-bootloader proposal code too generic and not sufficiently auto-tested
-- component: Containers
-  create_time: 20210315T07:27:00
-  id: 1183506
-  resolution: ''
-  status: NEW
-  summary: podman prints warnings on every container start
-- component: X11 3rd Party Driver
-  create_time: 20210315T05:03:00
-  id: 1183503
-  resolution: FIXED
-  status: RESOLVED
-  summary: nvidia G04 don't work with 5.11kernel
 - component: Other
   create_time: 20210314T16:57:00
   id: 1183499
@@ -55068,3 +54971,108 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'drbd: failed to build against kernel v5.11'
+'20210315':
+- component: Installation
+  create_time: 20210316T10:36:00
+  id: 1183583
+  resolution: ''
+  status: NEW
+  summary: '[Staging] SELinux shouldn''t be enabled at all if not in the initial software
+    selection'
+- component: Containers
+  create_time: 20210316T09:35:00
+  id: 1183580
+  resolution: ''
+  status: NEW
+  summary: Unable to install git-code in opensuse/tumbleweed container
+- component: Basesystem
+  create_time: 20210316T09:10:00
+  id: 1183576
+  resolution: ''
+  status: NEW
+  summary: 'postfix/postmap: fatal: unsupported map type for this operation: lmdb'
+- component: Basesystem
+  create_time: 20210316T08:44:00
+  id: 1183575
+  resolution: ''
+  status: NEW
+  summary: 'GCC 11: suitesparse package fails'
+- component: Other
+  create_time: 20210316T07:53:00
+  id: 1183569
+  resolution: ''
+  status: NEW
+  summary: sshd not create pid file
+- component: Development
+  create_time: 20210316T05:44:00
+  id: 1183565
+  resolution: ''
+  status: NEW
+  summary: python38-gssapi needs krb5-devel as a dependency
+- component: GNOME
+  create_time: 20210316T02:14:00
+  id: 1183562
+  resolution: ''
+  status: NEW
+  summary: Cairo recording surface displays corrupted in X11
+- component: X.Org
+  create_time: 20210315T22:09:00
+  id: 1183559
+  resolution: FIXED
+  status: RESOLVED
+  summary: Mesa-dri-nouveau causing KDE to fail -- installed due to Gnome dependencies
+    for Mesa
+- component: Kernel
+  create_time: 20210315T16:39:00
+  id: 1183554
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: Can't boot into desktop with AMD card
+- component: Basesystem
+  create_time: 20210315T14:32:00
+  id: 1183532
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'dwz: missing support for: Unhandled .debug_macro version 5'
+- component: Containers
+  create_time: 20210315T12:14:00
+  id: 1183527
+  resolution: INVALID
+  status: RESOLVED
+  summary: Curl conflicts with libcurl4 on Tumbleweed container image
+- component: MicroOS
+  create_time: 20210315T10:51:00
+  id: 1183521
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210312] openQA test fails in transactional_update'
+- component: Network
+  create_time: 20210315T09:48:00
+  id: 1183518
+  resolution: ''
+  status: NEW
+  summary: Can not connect to enterprise wifi
+- component: Kernel
+  create_time: 20210315T09:48:00
+  id: 1183517
+  resolution: ''
+  status: NEW
+  summary: 'xslab: v-raptor: network bring-up fails'
+- component: YaST2
+  create_time: 20210315T09:46:00
+  id: 1183516
+  resolution: ''
+  status: CONFIRMED
+  summary: yast-bootloader proposal code too generic and not sufficiently auto-tested
+- component: Containers
+  create_time: 20210315T07:27:00
+  id: 1183506
+  resolution: ''
+  status: NEW
+  summary: podman prints warnings on every container start
+- component: X11 3rd Party Driver
+  create_time: 20210315T05:03:00
+  id: 1183503
+  resolution: FIXED
+  status: RESOLVED
+  summary: nvidia G04 don't work with 5.11kernel
