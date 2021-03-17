@@ -54581,8 +54581,8 @@
 - component: KVM
   create_time: 20210309T17:25:00
   id: 1183242
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: kubevirt test bug
 - component: Bootloader
   create_time: 20210309T14:56:00
@@ -55034,6 +55034,12 @@
   status: RESOLVED
   summary: nvidia G04 don't work with 5.11kernel
 '20210316':
+- component: Other
+  create_time: 20210317T14:49:00
+  id: 1183655
+  resolution: ''
+  status: NEW
+  summary: Appstream metadata files are different to other distributions
 - component: Installation
   create_time: 20210317T14:04:00
   id: 1183652
