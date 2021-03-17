@@ -54537,8 +54537,8 @@
 - component: Kernel
   create_time: 20210310T11:49:00
   id: 1183294
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'external displays stopped working on kernel 5.11.2-1: i915 0000:00:02.0:
     [drm] *ERROR* Link Training Unsuccessful'
 - component: Kernel
@@ -54972,6 +54972,12 @@
   status: RESOLVED
   summary: 'drbd: failed to build against kernel v5.11'
 '20210315':
+- component: Basesystem
+  create_time: 20210317T06:59:00
+  id: 1183628
+  resolution: ''
+  status: NEW
+  summary: disable-system-resolvables makes zypper to segfault
 - component: Other
   create_time: 20210316T21:25:00
   id: 1183619
@@ -54981,8 +54987,8 @@
 - component: Other
   create_time: 20210316T20:12:00
   id: 1183616
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Macro containing $python..  does not expand correctly when used in conjunction
     with '?'
 - component: Installation
