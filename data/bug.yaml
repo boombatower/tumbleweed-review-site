@@ -54972,6 +54972,12 @@
   status: RESOLVED
   summary: 'drbd: failed to build against kernel v5.11'
 '20210315':
+- component: Other
+  create_time: 20210317T10:14:00
+  id: 1183642
+  resolution: ''
+  status: NEW
+  summary: x2go cannot connect after last update on tumbleweed
 - component: Basesystem
   create_time: 20210317T09:49:00
   id: 1183641
@@ -54987,8 +54993,8 @@
 - component: libzypp
   create_time: 20210317T06:59:00
   id: 1183628
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: disable-system-resolvables makes zypper to segfault
 - component: Other
   create_time: 20210316T21:25:00
