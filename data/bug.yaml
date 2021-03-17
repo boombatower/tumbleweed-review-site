@@ -51775,8 +51775,8 @@
 - component: Kernel
   create_time: 20210114T12:47:00
   id: 1180928
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Drop CONFIG_CRYPTO_USER_API_ENABLE_OBSOLETE from kernel 5.10+
 - component: Firefox
   create_time: 20210114T11:48:00
@@ -52391,8 +52391,8 @@
 - component: X11 Applications
   create_time: 20210126T01:48:00
   id: 1181393
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: albert package disappeared from Tumbleweed
 - component: Other
   create_time: 20210126T01:06:00
@@ -54973,10 +54973,22 @@
   summary: 'drbd: failed to build against kernel v5.11'
 '20210315':
 - component: Basesystem
+  create_time: 20210317T09:49:00
+  id: 1183641
+  resolution: ''
+  status: NEW
+  summary: systemd warnings during upgrades
+- component: Other
+  create_time: 20210317T08:38:00
+  id: 1183635
+  resolution: INVALID
+  status: RESOLVED
+  summary: AArch64 image with firmware="uefi" has empty ESP
+- component: libzypp
   create_time: 20210317T06:59:00
   id: 1183628
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: disable-system-resolvables makes zypper to segfault
 - component: Other
   create_time: 20210316T21:25:00
