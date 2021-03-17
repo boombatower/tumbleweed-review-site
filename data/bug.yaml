@@ -55034,6 +55034,12 @@
   status: RESOLVED
   summary: nvidia G04 don't work with 5.11kernel
 '20210316':
+- component: Basesystem
+  create_time: 20210317T17:16:00
+  id: 1183665
+  resolution: ''
+  status: NEW
+  summary: zsh command-not-found function does not probing /sbin
 - component: Other
   create_time: 20210317T14:49:00
   id: 1183655
