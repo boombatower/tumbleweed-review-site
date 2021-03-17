@@ -55038,7 +55038,7 @@
   create_time: 20210317T19:55:00
   id: 1183673
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Updating xorg-x11-server gives "Failed to open ''xbb.conf'': No such file
     or directory"'
 - component: Sound
