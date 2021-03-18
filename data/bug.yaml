@@ -53050,8 +53050,8 @@
 - component: Basesystem
   create_time: 20210206T10:57:00
   id: 1181862
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: kernel-default package failures'
 - component: KDE Workspace (Plasma)
   create_time: 20210206T10:54:00
@@ -54590,7 +54590,7 @@
   resolution: ''
   status: NEW
   summary: Images being built for the Pine RockPro64 are not bootable
-- component: Other
+- component: KVM
   create_time: 20210309T14:16:00
   id: 1183234
   resolution: ''
@@ -55013,7 +55013,7 @@
   create_time: 20210315T09:48:00
   id: 1183517
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'xslab: v-raptor: network bring-up fails'
 - component: YaST2
   create_time: 20210315T09:46:00
@@ -55034,6 +55034,24 @@
   status: RESOLVED
   summary: nvidia G04 don't work with 5.11kernel
 '20210316':
+- component: Basesystem
+  create_time: 20210318T14:05:00
+  id: 1183715
+  resolution: ''
+  status: NEW
+  summary: 'GCC 11: libebml package fails'
+- component: Basesystem
+  create_time: 20210318T14:03:00
+  id: 1183714
+  resolution: ''
+  status: NEW
+  summary: 'GCC 11: fish package fails'
+- component: Basesystem
+  create_time: 20210318T14:00:00
+  id: 1183713
+  resolution: ''
+  status: NEW
+  summary: 'GCC 10: ovmf build fails'
 - component: Other
   create_time: 20210318T10:47:00
   id: 1183703
@@ -55063,7 +55081,7 @@
   create_time: 20210318T02:11:00
   id: 1183676
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Problems enabling Freesync/VRR on 6800 XT
 - component: X.Org
   create_time: 20210317T19:55:00
