@@ -36617,7 +36617,7 @@
 - component: X11 3rd Party Driver
   create_time: 20200220T20:08:00
   id: 1164520
-  resolution: FIXED
+  resolution: WONTFIX
   status: RESOLVED
   summary: 'NVIDIA: Old nvidia modules are never deleted from /lib/modules'
 - component: Other
@@ -52930,8 +52930,8 @@
 - component: Basesystem
   create_time: 20210206T11:23:00
   id: 1181882
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: spirv-tools package fails'
 - component: Basesystem
   create_time: 20210206T11:22:00
@@ -54049,8 +54049,8 @@
 - component: X11 3rd Party Driver
   create_time: 20210224T11:25:00
   id: 1182666
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: TW 20210222 - Kernel update breaks NVIDIA kernel modules
 - component: Basesystem
   create_time: 20210224T11:06:00
@@ -54595,7 +54595,8 @@
   id: 1183234
   resolution: ''
   status: NEW
-  summary: "ncurses shows \xCC instead of lines randomly"
+  summary: "Console font shows \xCC instead of UTF-8 line glyph U+2500 (0xe2 0x94\
+    \ 0x80) randomly"
 - component: Kubic
   create_time: 20210309T13:14:00
   id: 1183231
@@ -54905,8 +54906,8 @@
 - component: Kernel
   create_time: 20210313T10:39:00
   id: 1183479
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Graphic glitch and freeze at wake from sleep
 - component: Installation
   create_time: 20210313T08:36:00
@@ -55034,6 +55035,24 @@
   status: RESOLVED
   summary: nvidia G04 don't work with 5.11kernel
 '20210316':
+- component: Bootloader
+  create_time: 20210318T14:56:00
+  id: 1183720
+  resolution: ''
+  status: NEW
+  summary: shim fails to build on aarch64
+- component: Bootloader
+  create_time: 20210318T14:24:00
+  id: 1183717
+  resolution: ''
+  status: NEW
+  summary: u-boot fails to read btrfs
+- component: Kernel
+  create_time: 20210318T14:15:00
+  id: 1183716
+  resolution: ''
+  status: NEW
+  summary: No kernel-debug for aarch64
 - component: Basesystem
   create_time: 20210318T14:05:00
   id: 1183715
@@ -55125,7 +55144,7 @@
   create_time: 20210317T14:04:00
   id: 1183652
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20210316] vim is not displayed correctly when run in Expert Console
     in text mode'
 - component: Other
