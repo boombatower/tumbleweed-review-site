@@ -53522,8 +53522,8 @@
 - component: Apache
   create_time: 20210215T14:08:00
   id: 1182270
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'apache2-mod_security2: issuing specific bad request leads to two responses
     of httpd (and child crash)'
 - component: Live Medium
@@ -54649,8 +54649,8 @@
 - component: Samba
   create_time: 20210309T07:19:00
   id: 1183211
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: mount.cifs fails if password in credentials file contains a comma
 - component: Kernel
   create_time: 20210309T05:50:00
@@ -54668,8 +54668,8 @@
 - component: Other
   create_time: 20210308T18:09:00
   id: 1183199
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Pdfarranger needs a newer pikepdf version
 - component: Kernel
   create_time: 20210308T17:35:00
@@ -54754,8 +54754,8 @@
 - component: Other
   create_time: 20210307T17:56:00
   id: 1183144
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Software Retext don't start
 - component: Basesystem
   create_time: 20210307T17:26:00
@@ -54772,8 +54772,8 @@
 - component: Kernel
   create_time: 20210307T11:26:00
   id: 1183138
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Reboot and Shutdown no longer function after update to latest kernel
 - component: YaST2
   create_time: 20210307T10:24:00
@@ -54902,7 +54902,7 @@
   resolution: ''
   status: NEW
   summary: nscd keeps complaining about missing /etc/services
-- component: Basesystem
+- component: Kernel
   create_time: 20210313T10:39:00
   id: 1183479
   resolution: ''
@@ -55057,8 +55057,8 @@
 - component: Sound
   create_time: 20210317T19:51:00
   id: 1183672
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Updating alsa-utils gives "cp: cannot stat ''/etc/asound.state'': No such
     file or directory"'
 - component: Kernel
