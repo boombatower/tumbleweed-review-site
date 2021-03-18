@@ -55034,11 +55034,23 @@
   status: RESOLVED
   summary: nvidia G04 don't work with 5.11kernel
 '20210316':
+- component: Other
+  create_time: 20210318T10:47:00
+  id: 1183703
+  resolution: ''
+  status: NEW
+  summary: etcd not starting via systemd
+- component: Firefox
+  create_time: 20210318T10:13:00
+  id: 1183697
+  resolution: ''
+  status: NEW
+  summary: 'Firefox: All tabs crash. glibc 2.33 NSS NIS'
 - component: YaST2
   create_time: 20210318T10:01:00
   id: 1183694
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Normal (non-error) dracut output floods y2log with errors
 - component: Maintenance
   create_time: 20210318T03:43:00
