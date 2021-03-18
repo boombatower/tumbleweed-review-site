@@ -55034,6 +55034,19 @@
   status: RESOLVED
   summary: nvidia G04 don't work with 5.11kernel
 '20210316':
+- component: Maintenance
+  create_time: 20210318T03:43:00
+  id: 1183679
+  resolution: ''
+  status: NEW
+  summary: 'python38-treq: ImportError: cannot import name ''_PY3'' from ''twisted.python.compat''
+    (unknown location)'
+- component: X.Org
+  create_time: 20210318T02:11:00
+  id: 1183676
+  resolution: ''
+  status: NEW
+  summary: Problems enabling Freesync/VRR on 6800 XT
 - component: X.Org
   create_time: 20210317T19:55:00
   id: 1183673
