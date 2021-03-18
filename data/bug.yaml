@@ -55035,6 +55035,18 @@
   status: RESOLVED
   summary: nvidia G04 don't work with 5.11kernel
 '20210316':
+- component: Kernel
+  create_time: 20210318T22:04:00
+  id: 1183739
+  resolution: ''
+  status: NEW
+  summary: Kernel update with a release minor number bump causes old kernel removal
+- component: Other
+  create_time: 20210318T20:28:00
+  id: 1183736
+  resolution: ''
+  status: NEW
+  summary: 'VLC Repo Issue : Validity Check Error'
 - component: Firefox
   create_time: 20210318T17:31:00
   id: 1183731
