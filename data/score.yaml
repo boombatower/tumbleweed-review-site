@@ -1950,7 +1950,7 @@
   stability_level: moderate
 '20210311':
   score: 69
-  stability_level: pending
+  stability_level: unstable
 '20210312':
   score: 86
   stability_level: pending
