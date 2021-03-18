@@ -53723,8 +53723,8 @@
 - component: Containers
   create_time: 20210219T06:33:00
   id: 1182476
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Docker wrong SemVer version string
 - component: Other
   create_time: 20210219T01:33:00
@@ -55034,6 +55034,12 @@
   status: RESOLVED
   summary: nvidia G04 don't work with 5.11kernel
 '20210316':
+- component: YaST2
+  create_time: 20210318T10:01:00
+  id: 1183694
+  resolution: ''
+  status: NEW
+  summary: Normal (non-error) dracut output floods y2log with errors
 - component: Maintenance
   create_time: 20210318T03:43:00
   id: 1183679
