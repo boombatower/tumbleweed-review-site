@@ -55013,8 +55013,8 @@
 - component: Kernel
   create_time: 20210315T09:48:00
   id: 1183517
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'xslab: v-raptor: network bring-up fails'
 - component: YaST2
   create_time: 20210315T09:46:00
@@ -55128,14 +55128,16 @@
   create_time: 20210318T22:21:00
   id: 1183740
   resolution: ''
-  status: NEW
-  summary: ceph octopus 15.2.9 fails to deploy rgw and nfs
+  status: CONFIRMED
+  summary: ceph octopus 15.2.9 fails to deploy nfs and also fails to deploy rgw if
+    nfs role is present
 - component: Kernel
   create_time: 20210318T22:04:00
   id: 1183739
   resolution: ''
   status: NEW
-  summary: Kernel update with a release minor number bump causes old kernel removal
+  summary: Installing new kernel build (without source change - same uname-r) can
+    cause nVidia driver removal
 - component: Other
   create_time: 20210318T20:28:00
   id: 1183736
