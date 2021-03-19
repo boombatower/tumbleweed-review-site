@@ -55059,7 +55059,7 @@
   id: 1183597
   resolution: ''
   status: NEW
-  summary: 'gnome-calendar: GnuTLS session priority with error beginning at %COMPAT'
+  summary: 'gnome-calculator: GnuTLS session priority with error beginning at %COMPAT'
 - component: LibreOffice
   create_time: 20210316T15:01:00
   id: 1183595
@@ -55110,6 +55110,19 @@
   status: NEW
   summary: Cairo recording surface displays corrupted in X11
 '20210317':
+- component: Other
+  create_time: 20210319T11:48:00
+  id: 1183786
+  resolution: ''
+  status: NEW
+  summary: Cannot load RSA certificate while starting vsftpd daemon
+- component: Development
+  create_time: 20210319T11:38:00
+  id: 1183785
+  resolution: ''
+  status: NEW
+  summary: 'libical-devel: skipping incompatible /usr/lib/libc.so when searching for
+    -lc'
 - component: Network
   create_time: 20210319T02:57:00
   id: 1183745
@@ -55141,8 +55154,8 @@
 - component: Other
   create_time: 20210318T20:28:00
   id: 1183736
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'VLC Repo Issue : Validity Check Error'
 - component: Firefox
   create_time: 20210318T17:31:00
