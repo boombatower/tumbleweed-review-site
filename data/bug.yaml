@@ -55110,6 +55110,13 @@
   status: NEW
   summary: Cairo recording surface displays corrupted in X11
 '20210317':
+- component: Network
+  create_time: 20210319T02:57:00
+  id: 1183745
+  resolution: ''
+  status: NEW
+  summary: 'google.com: resolve call failed: ''google.com'' does not have any RR of
+    the requested type'
 - component: KDE Workspace (Plasma)
   create_time: 20210318T22:34:00
   id: 1183742
