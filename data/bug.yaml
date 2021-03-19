@@ -55051,8 +55051,8 @@
 - component: Installation
   create_time: 20210316T17:36:00
   id: 1183611
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Unchecking YaST during OS installation installs YaST anyways
 - component: GNOME
   create_time: 20210316T15:10:00
@@ -55110,6 +55110,12 @@
   status: NEW
   summary: Cairo recording surface displays corrupted in X11
 '20210317':
+- component: KDE Workspace (Plasma)
+  create_time: 20210319T14:16:00
+  id: 1183806
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: 'plasma5-workspace: Systemd warning when starting plasma-baloorunner.service'
 - component: YaST2
   create_time: 20210319T13:49:00
   id: 1183804
@@ -55198,7 +55204,7 @@
   create_time: 20210318T14:05:00
   id: 1183715
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 11: libebml package fails'
 - component: Basesystem
   create_time: 20210318T14:03:00
