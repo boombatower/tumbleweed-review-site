@@ -1953,10 +1953,13 @@
   stability_level: unstable
 '20210312':
   score: 86
-  stability_level: pending
+  stability_level: moderate
 '20210315':
   score: 93
   stability_level: pending
 '20210316':
-  score: 93
+  score: 96
+  stability_level: pending
+'20210317':
+  score: 95
   stability_level: pending
