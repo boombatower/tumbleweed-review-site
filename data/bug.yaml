@@ -55110,6 +55110,19 @@
   status: NEW
   summary: Cairo recording surface displays corrupted in X11
 '20210317':
+- component: YaST2
+  create_time: 20210319T13:49:00
+  id: 1183804
+  resolution: ''
+  status: NEW
+  summary: '[Staging J] YaST is not automatically installing SELinux pattern for MicroOS
+    roles'
+- component: Basesystem
+  create_time: 20210319T13:08:00
+  id: 1183795
+  resolution: ''
+  status: NEW
+  summary: NET ISO hangs in linuxrc for armv7
 - component: Other
   create_time: 20210319T11:48:00
   id: 1183786
@@ -55262,7 +55275,7 @@
   resolution: ''
   status: NEW
   summary: zsh command-not-found function does not probing /sbin
-- component: Other
+- component: LibreOffice
   create_time: 20210317T14:49:00
   id: 1183655
   resolution: ''
