@@ -53893,7 +53893,7 @@
   create_time: 20210226T13:56:00
   id: 1182804
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 11: fcoe-utils package fails'
 - component: YaST2
   create_time: 20210226T13:04:00
@@ -55110,6 +55110,26 @@
   status: NEW
   summary: Cairo recording surface displays corrupted in X11
 '20210317':
+- component: Basesystem
+  create_time: 20210319T20:00:00
+  id: 1183821
+  resolution: ''
+  status: NEW
+  summary: Bluetooth headphones disconnect periodically
+- component: Network
+  create_time: 20210319T19:44:00
+  id: 1183820
+  resolution: ''
+  status: NEW
+  summary: FileZilla Version 3.52.2-1.4 fails to upload files to "ultra-fast" ftp
+    servers. Solved in 3.53.0, built on Tumbleweed.
+- component: GNOME
+  create_time: 20210319T18:31:00
+  id: 1183819
+  resolution: ''
+  status: NEW
+  summary: '[GNOME Next] whitelist gnome-shell-classic gnome-shell-extension-desktop-icons
+    for gnome 40'
 - component: KDE Workspace (Plasma)
   create_time: 20210319T14:16:00
   id: 1183806
