@@ -55110,6 +55110,12 @@
   status: NEW
   summary: Cairo recording surface displays corrupted in X11
 '20210317':
+- component: GNOME
+  create_time: 20210319T21:26:00
+  id: 1183823
+  resolution: ''
+  status: NEW
+  summary: gnome-shell keyboard inputs lost on restart due to broken patch
 - component: Basesystem
   create_time: 20210319T20:00:00
   id: 1183821
