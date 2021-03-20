@@ -25400,8 +25400,8 @@
 - component: Translations
   create_time: 20190701T18:53:00
   id: 1139962
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Certain text appears in other language (not English; Indonesian (?))
 - component: Development
   create_time: 20190701T15:56:00
