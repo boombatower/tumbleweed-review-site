@@ -55180,6 +55180,12 @@
   status: RESOLVED
   summary: disable-system-resolvables makes zypper to segfault
 '20210318':
+- component: GNOME
+  create_time: 20210320T16:57:00
+  id: 1183830
+  resolution: ''
+  status: IN_PROGRESS
+  summary: tracker-miner-fs-3 times out, with high CPU usage.
 - component: Kernel
   create_time: 20210320T13:51:00
   id: 1183829
