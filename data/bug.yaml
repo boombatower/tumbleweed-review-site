@@ -55180,7 +55180,14 @@
   status: RESOLVED
   summary: disable-system-resolvables makes zypper to segfault
 '20210318':
-- component: Kernel
+- component: X.Org
+  create_time: 20210320T04:38:00
+  id: 1183825
+  resolution: ''
+  status: NEW
+  summary: When in graphical environment on RPI3, system goes down at when screen
+    goes into powersave
+- component: Basesystem
   create_time: 20210320T02:48:00
   id: 1183824
   resolution: ''
