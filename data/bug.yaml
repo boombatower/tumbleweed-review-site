@@ -55180,97 +55180,6 @@
   status: RESOLVED
   summary: disable-system-resolvables makes zypper to segfault
 '20210318':
-- component: GNOME
-  create_time: 20210320T16:57:00
-  id: 1183830
-  resolution: ''
-  status: IN_PROGRESS
-  summary: tracker-miner-fs-3 times out, with high CPU usage.
-- component: Kernel
-  create_time: 20210320T13:51:00
-  id: 1183829
-  resolution: ''
-  status: NEW
-  summary: RTL8821CE 802.11ac PCIe Wireless Network Adapter - Not handled properly
-    by the rtw_8821ce dirver on Kernel 5.11.6-1
-- component: Kernel
-  create_time: 20210320T04:38:00
-  id: 1183825
-  resolution: ''
-  status: NEW
-  summary: When in graphical environment on RPI3, system goes down at when screen
-    goes into powersave
-- component: Basesystem
-  create_time: 20210320T02:48:00
-  id: 1183824
-  resolution: ''
-  status: NEW
-  summary: When booting, only one cpu comes online on RPI3
-- component: GNOME
-  create_time: 20210319T21:26:00
-  id: 1183823
-  resolution: ''
-  status: NEW
-  summary: gnome-shell keyboard inputs lost on restart due to broken patch
-- component: Basesystem
-  create_time: 20210319T20:00:00
-  id: 1183821
-  resolution: ''
-  status: NEW
-  summary: Bluetooth headphones disconnect periodically
-- component: Network
-  create_time: 20210319T19:44:00
-  id: 1183820
-  resolution: FIXED
-  status: RESOLVED
-  summary: FileZilla Version 3.52.2-1.4 fails to upload files to "ultra-fast" ftp
-    servers. Solved in 3.53.0, built on Tumbleweed.
-- component: GNOME
-  create_time: 20210319T18:31:00
-  id: 1183819
-  resolution: ''
-  status: NEW
-  summary: '[GNOME Next] whitelist gnome-shell-classic gnome-shell-extension-desktop-icons
-    for gnome 40'
-- component: KDE Workspace (Plasma)
-  create_time: 20210319T14:16:00
-  id: 1183806
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: 'plasma5-workspace: Systemd warning when starting plasma-baloorunner.service'
-- component: YaST2
-  create_time: 20210319T13:49:00
-  id: 1183804
-  resolution: ''
-  status: NEW
-  summary: '[Staging J] YaST is not automatically installing SELinux pattern for MicroOS
-    roles'
-- component: Basesystem
-  create_time: 20210319T13:08:00
-  id: 1183795
-  resolution: ''
-  status: NEW
-  summary: NET ISO hangs in linuxrc for armv7
-- component: Other
-  create_time: 20210319T11:48:00
-  id: 1183786
-  resolution: ''
-  status: NEW
-  summary: Cannot load RSA certificate while starting vsftpd daemon
-- component: Development
-  create_time: 20210319T11:38:00
-  id: 1183785
-  resolution: ''
-  status: NEW
-  summary: 'libical-devel: skipping incompatible /usr/lib/libc.so when searching for
-    -lc'
-- component: Network
-  create_time: 20210319T02:57:00
-  id: 1183745
-  resolution: ''
-  status: NEW
-  summary: 'google.com: resolve call failed: ''google.com'' does not have any RR of
-    the requested type'
 - component: KDE Workspace (Plasma)
   create_time: 20210318T22:34:00
   id: 1183742
@@ -55371,3 +55280,95 @@
   resolution: ''
   status: IN_PROGRESS
   summary: Problems enabling Freesync/VRR on 6800 XT
+'20210319':
+- component: GNOME
+  create_time: 20210320T16:57:00
+  id: 1183830
+  resolution: ''
+  status: IN_PROGRESS
+  summary: tracker-miner-fs-3 times out, with high CPU usage.
+- component: Kernel
+  create_time: 20210320T13:51:00
+  id: 1183829
+  resolution: ''
+  status: NEW
+  summary: RTL8821CE 802.11ac PCIe Wireless Network Adapter - Not handled properly
+    by the rtw_8821ce dirver on Kernel 5.11.6-1
+- component: Kernel
+  create_time: 20210320T04:38:00
+  id: 1183825
+  resolution: ''
+  status: NEW
+  summary: When in graphical environment on RPI3, system goes down at when screen
+    goes into powersave
+- component: Basesystem
+  create_time: 20210320T02:48:00
+  id: 1183824
+  resolution: ''
+  status: NEW
+  summary: When booting, only one cpu comes online on RPI3
+- component: GNOME
+  create_time: 20210319T21:26:00
+  id: 1183823
+  resolution: ''
+  status: NEW
+  summary: gnome-shell keyboard inputs lost on restart due to broken patch
+- component: Basesystem
+  create_time: 20210319T20:00:00
+  id: 1183821
+  resolution: ''
+  status: NEW
+  summary: Bluetooth headphones disconnect periodically
+- component: Network
+  create_time: 20210319T19:44:00
+  id: 1183820
+  resolution: FIXED
+  status: RESOLVED
+  summary: FileZilla Version 3.52.2-1.4 fails to upload files to "ultra-fast" ftp
+    servers. Solved in 3.53.0, built on Tumbleweed.
+- component: GNOME
+  create_time: 20210319T18:31:00
+  id: 1183819
+  resolution: ''
+  status: NEW
+  summary: '[GNOME Next] whitelist gnome-shell-classic gnome-shell-extension-desktop-icons
+    for gnome 40'
+- component: KDE Workspace (Plasma)
+  create_time: 20210319T14:16:00
+  id: 1183806
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: 'plasma5-workspace: Systemd warning when starting plasma-baloorunner.service'
+- component: YaST2
+  create_time: 20210319T13:49:00
+  id: 1183804
+  resolution: ''
+  status: NEW
+  summary: '[Staging J] YaST is not automatically installing SELinux pattern for MicroOS
+    roles'
+- component: Basesystem
+  create_time: 20210319T13:08:00
+  id: 1183795
+  resolution: ''
+  status: NEW
+  summary: NET ISO hangs in linuxrc for armv7
+- component: Other
+  create_time: 20210319T11:48:00
+  id: 1183786
+  resolution: ''
+  status: NEW
+  summary: Cannot load RSA certificate while starting vsftpd daemon
+- component: Development
+  create_time: 20210319T11:38:00
+  id: 1183785
+  resolution: ''
+  status: NEW
+  summary: 'libical-devel: skipping incompatible /usr/lib/libc.so when searching for
+    -lc'
+- component: Network
+  create_time: 20210319T02:57:00
+  id: 1183745
+  resolution: ''
+  status: NEW
+  summary: 'google.com: resolve call failed: ''google.com'' does not have any RR of
+    the requested type'
