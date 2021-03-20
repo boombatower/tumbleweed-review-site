@@ -55181,6 +55181,13 @@
   summary: disable-system-resolvables makes zypper to segfault
 '20210318':
 - component: Kernel
+  create_time: 20210320T13:51:00
+  id: 1183829
+  resolution: ''
+  status: NEW
+  summary: RTL8821CE 802.11ac PCIe Wireless Network Adapter - Not handled properly
+    by the rtw_8821ce dirver on Kernel 5.11.6-1
+- component: Kernel
   create_time: 20210320T04:38:00
   id: 1183825
   resolution: ''
