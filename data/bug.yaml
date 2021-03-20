@@ -55110,6 +55110,76 @@
   status: NEW
   summary: Cairo recording surface displays corrupted in X11
 '20210317':
+- component: X.Org
+  create_time: 20210317T19:55:00
+  id: 1183673
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'Updating xorg-x11-server gives "Failed to open ''xbb.conf'': No such file
+    or directory"'
+- component: Sound
+  create_time: 20210317T19:51:00
+  id: 1183672
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Updating alsa-utils gives "cp: cannot stat ''/etc/asound.state'': No such
+    file or directory"'
+- component: GNOME
+  create_time: 20210317T19:19:00
+  id: 1183671
+  resolution: ''
+  status: NEW
+  summary: All 5.11 kernels present mouse cursor as vertical dashed lines
+- component: Security
+  create_time: 20210317T19:06:00
+  id: 1183669
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: pleaser: security audit for permissions-file-setuid-bit'
+- component: Basesystem
+  create_time: 20210317T17:16:00
+  id: 1183665
+  resolution: ''
+  status: NEW
+  summary: zsh command-not-found function does not probing /sbin
+- component: LibreOffice
+  create_time: 20210317T14:49:00
+  id: 1183655
+  resolution: ''
+  status: NEW
+  summary: Appstream metadata files are different to other distributions
+- component: Installation
+  create_time: 20210317T14:04:00
+  id: 1183652
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build 20210316] vim is not displayed correctly when run in Expert Console
+    in text mode'
+- component: Other
+  create_time: 20210317T10:14:00
+  id: 1183642
+  resolution: ''
+  status: NEW
+  summary: x2go cannot connect after last update on tumbleweed
+- component: Basesystem
+  create_time: 20210317T09:49:00
+  id: 1183641
+  resolution: ''
+  status: NEW
+  summary: systemd warnings during upgrades
+- component: Other
+  create_time: 20210317T08:38:00
+  id: 1183635
+  resolution: INVALID
+  status: RESOLVED
+  summary: AArch64 image with firmware="uefi" has empty ESP
+- component: libzypp
+  create_time: 20210317T06:59:00
+  id: 1183628
+  resolution: FIXED
+  status: RESOLVED
+  summary: disable-system-resolvables makes zypper to segfault
+'20210318':
 - component: GNOME
   create_time: 20210319T21:26:00
   id: 1183823
@@ -55275,72 +55345,3 @@
   resolution: ''
   status: IN_PROGRESS
   summary: Problems enabling Freesync/VRR on 6800 XT
-- component: X.Org
-  create_time: 20210317T19:55:00
-  id: 1183673
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'Updating xorg-x11-server gives "Failed to open ''xbb.conf'': No such file
-    or directory"'
-- component: Sound
-  create_time: 20210317T19:51:00
-  id: 1183672
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'Updating alsa-utils gives "cp: cannot stat ''/etc/asound.state'': No such
-    file or directory"'
-- component: GNOME
-  create_time: 20210317T19:19:00
-  id: 1183671
-  resolution: ''
-  status: NEW
-  summary: All 5.11 kernels present mouse cursor as vertical dashed lines
-- component: Security
-  create_time: 20210317T19:06:00
-  id: 1183669
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: pleaser: security audit for permissions-file-setuid-bit'
-- component: Basesystem
-  create_time: 20210317T17:16:00
-  id: 1183665
-  resolution: ''
-  status: NEW
-  summary: zsh command-not-found function does not probing /sbin
-- component: LibreOffice
-  create_time: 20210317T14:49:00
-  id: 1183655
-  resolution: ''
-  status: NEW
-  summary: Appstream metadata files are different to other distributions
-- component: Installation
-  create_time: 20210317T14:04:00
-  id: 1183652
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[Build 20210316] vim is not displayed correctly when run in Expert Console
-    in text mode'
-- component: Other
-  create_time: 20210317T10:14:00
-  id: 1183642
-  resolution: ''
-  status: NEW
-  summary: x2go cannot connect after last update on tumbleweed
-- component: Basesystem
-  create_time: 20210317T09:49:00
-  id: 1183641
-  resolution: ''
-  status: NEW
-  summary: systemd warnings during upgrades
-- component: Other
-  create_time: 20210317T08:38:00
-  id: 1183635
-  resolution: INVALID
-  status: RESOLVED
-  summary: AArch64 image with firmware="uefi" has empty ESP
-- component: libzypp
-  create_time: 20210317T06:59:00
-  id: 1183628
-  resolution: FIXED
-  status: RESOLVED
-  summary: disable-system-resolvables makes zypper to segfault
