@@ -55180,7 +55180,7 @@
   status: RESOLVED
   summary: disable-system-resolvables makes zypper to segfault
 '20210318':
-- component: X.Org
+- component: Kernel
   create_time: 20210320T04:38:00
   id: 1183825
   resolution: ''
