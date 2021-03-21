@@ -55281,6 +55281,31 @@
   status: IN_PROGRESS
   summary: Problems enabling Freesync/VRR on 6800 XT
 '20210319':
+- component: Kernel
+  create_time: 20210321T17:22:00
+  id: 1183839
+  resolution: ''
+  status: NEW
+  summary: 'kernel 5.11.{4,6} RIP: 0010:kobject_put+0x19/0x1d0 on Dell Precision M7510'
+- component: Kernel
+  create_time: 20210321T16:47:00
+  id: 1183838
+  resolution: ''
+  status: NEW
+  summary: Full resolution of the monitor no longer available in 5.11 kernels with
+    i9-9900K and Intel display driver
+- component: Basesystem
+  create_time: 20210321T16:25:00
+  id: 1183837
+  resolution: ''
+  status: NEW
+  summary: Boot delay due to NetworkManager-wait-online.service
+- component: Basesystem
+  create_time: 20210321T16:24:00
+  id: 1183836
+  resolution: ''
+  status: NEW
+  summary: 'GCC 11: envoy-proxy package fails'
 - component: LXQt
   create_time: 20210321T08:29:00
   id: 1183834
