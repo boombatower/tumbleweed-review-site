@@ -53779,8 +53779,8 @@
 - component: X11 Applications
   create_time: 20210221T02:28:00
   id: 1182526
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: xpra hangs and times out when trying to "shadow" or "start" something on
     between two Tumbleweed systems on my LAN
 - component: MicroOS
@@ -55281,6 +55281,12 @@
   status: IN_PROGRESS
   summary: Problems enabling Freesync/VRR on 6800 XT
 '20210319':
+- component: Sound
+  create_time: 20210321T07:50:00
+  id: 1183832
+  resolution: ''
+  status: NEW
+  summary: pipewire-media-session,service not start and enable after update
 - component: GNOME
   create_time: 20210320T16:57:00
   id: 1183830
