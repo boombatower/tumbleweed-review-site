@@ -5966,17 +5966,22 @@
     summary: failed to summarize
 '20210318':
   announcement: 2021-03.4821
-  reference_count: 3
+  reference_count: 4
   thread_count: 1
   threads:
   - messages:
     - 2021-03.4825
     - 2021-03.4827
     - 2021-03.4828
-    reference_count: 3
+    reference_count: 4
     summary: Boot delay due to NetworkManager-wait-online.service [
 '20210319':
   announcement: 2021-03.4824
+  reference_count: 0
+  thread_count: 0
+  threads: []
+'20210320':
+  announcement: 2021-03.4830
   reference_count: 0
   thread_count: 0
   threads: []
