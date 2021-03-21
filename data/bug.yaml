@@ -54737,8 +54737,8 @@
 - component: Basesystem
   create_time: 20210307T19:28:00
   id: 1183147
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: systemd-rfkill - Read event structure of invalid size.
 - component: Live Medium
   create_time: 20210307T18:45:00
