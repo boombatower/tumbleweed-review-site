@@ -55281,6 +55281,18 @@
   status: IN_PROGRESS
   summary: Problems enabling Freesync/VRR on 6800 XT
 '20210319':
+- component: LXQt
+  create_time: 20210321T08:29:00
+  id: 1183834
+  resolution: ''
+  status: NEW
+  summary: Icons disappeared in snapshot 20210317
+- component: Other
+  create_time: 20210321T08:10:00
+  id: 1183833
+  resolution: ''
+  status: NEW
+  summary: Python3-twisted 21.2.0 (rev 102) still requires no-pygtkcompat.patch
 - component: Sound
   create_time: 20210321T07:50:00
   id: 1183832
