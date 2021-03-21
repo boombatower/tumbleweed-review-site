@@ -5957,18 +5957,22 @@
   threads: []
 '20210317':
   announcement: 2021-03.4810
-  reference_count: 1
+  reference_count: 2
   thread_count: 1
   threads:
   - messages:
     - 2021-03.4816
-    reference_count: 1
+    reference_count: 2
     summary: failed to summarize
 '20210318':
   announcement: 2021-03.4821
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2021-03.4825
+    reference_count: 1
+    summary: Boot delay due to NetworkManager-wait-online.service [
 '20210319':
   announcement: 2021-03.4824
   reference_count: 0
