@@ -55347,6 +55347,19 @@
   summary: 'google.com: resolve call failed: ''google.com'' does not have any RR of
     the requested type'
 '20210320':
+- component: GNOME
+  create_time: 20210322T22:04:00
+  id: 1183879
+  resolution: ''
+  status: NEW
+  summary: tracker2 tracker-extract crashing with "bad system call" (outdated seccomp
+    filter)
+- component: Development
+  create_time: 20210322T21:52:00
+  id: 1183878
+  resolution: ''
+  status: NEW
+  summary: mariadb_config emits garbage -L parameter
 - component: Kernel
   create_time: 20210322T19:33:00
   id: 1183872
