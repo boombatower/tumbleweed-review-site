@@ -55388,7 +55388,7 @@
   create_time: 20210321T07:50:00
   id: 1183832
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: pipewire-media-session,service not start and enable after update
 - component: GNOME
   create_time: 20210320T16:57:00
