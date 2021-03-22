@@ -55347,6 +55347,12 @@
   summary: 'google.com: resolve call failed: ''google.com'' does not have any RR of
     the requested type'
 '20210320':
+- component: Kernel
+  create_time: 20210322T19:33:00
+  id: 1183872
+  resolution: ''
+  status: NEW
+  summary: 'Regression: System hang when connecting HMDI with i915'
 - component: Network
   create_time: 20210322T17:01:00
   id: 1183870
@@ -55414,7 +55420,7 @@
   id: 1183837
   resolution: ''
   status: NEW
-  summary: Boot delay due to NetworkManager-wait-online.service
+  summary: Boot delay due to iscsi.service
 - component: Basesystem
   create_time: 20210321T16:24:00
   id: 1183836
