@@ -55347,6 +55347,25 @@
   summary: 'google.com: resolve call failed: ''google.com'' does not have any RR of
     the requested type'
 '20210320':
+- component: MicroOS
+  create_time: 20210322T11:37:00
+  id: 1183856
+  resolution: ''
+  status: NEW
+  summary: fstab gets overriden by transactional-update
+- component: Basesystem
+  create_time: 20210322T10:17:00
+  id: 1183854
+  resolution: ''
+  status: NEW
+  summary: 'snapshot 20210320: upgrade of perl (5.32.0 -> 5.32.1) creates some requirement
+    issues'
+- component: KDE Applications
+  create_time: 20210322T10:08:00
+  id: 1183853
+  resolution: ''
+  status: NEW
+  summary: Gcompris crash when started
 - component: Kernel
   create_time: 20210321T17:22:00
   id: 1183839
@@ -55387,8 +55406,8 @@
 - component: Sound
   create_time: 20210321T07:50:00
   id: 1183832
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: pipewire-media-session,service not start and enable after update
 - component: GNOME
   create_time: 20210320T16:57:00
