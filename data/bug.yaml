@@ -55347,6 +55347,18 @@
   summary: 'google.com: resolve call failed: ''google.com'' does not have any RR of
     the requested type'
 '20210320':
+- component: YaST2
+  create_time: 20210322T13:40:00
+  id: 1183862
+  resolution: ''
+  status: NEW
+  summary: Core dumped after resizing striped volume
+- component: Development
+  create_time: 20210322T12:56:00
+  id: 1183858
+  resolution: ''
+  status: NEW
+  summary: python36-core is requiring python38-core
 - component: MicroOS
   create_time: 20210322T11:37:00
   id: 1183856
