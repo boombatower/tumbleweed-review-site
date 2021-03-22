@@ -42642,8 +42642,8 @@
 - component: Other
   create_time: 20200623T21:15:00
   id: 1173291
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: kodi crash probably caused by Python 2 C wrappers
 - component: MicroOS
   create_time: 20200623T15:29:00
