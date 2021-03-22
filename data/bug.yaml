@@ -51775,8 +51775,8 @@
 - component: Kernel
   create_time: 20210114T12:47:00
   id: 1180928
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Drop CONFIG_CRYPTO_USER_API_ENABLE_OBSOLETE from kernel 5.10+
 - component: Firefox
   create_time: 20210114T11:48:00
@@ -55347,6 +55347,12 @@
   summary: 'google.com: resolve call failed: ''google.com'' does not have any RR of
     the requested type'
 '20210320':
+- component: Network
+  create_time: 20210322T17:01:00
+  id: 1183870
+  resolution: ''
+  status: NEW
+  summary: 'adcli 0.9.0: core dump in discovery'
 - component: Sound
   create_time: 20210322T14:19:00
   id: 1183866
