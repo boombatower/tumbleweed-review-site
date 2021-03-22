@@ -52942,8 +52942,8 @@
 - component: Basesystem
   create_time: 20210206T11:21:00
   id: 1181880
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: p7zip package fails'
 - component: Basesystem
   create_time: 20210206T11:20:00
