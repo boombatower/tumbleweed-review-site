@@ -55347,6 +55347,12 @@
   summary: 'google.com: resolve call failed: ''google.com'' does not have any RR of
     the requested type'
 '20210320':
+- component: KDE Workspace (Plasma)
+  create_time: 20210322T22:43:00
+  id: 1183880
+  resolution: ''
+  status: NEW
+  summary: file.so process blocks safe remove of external drive
 - component: GNOME
   create_time: 20210322T22:04:00
   id: 1183879
