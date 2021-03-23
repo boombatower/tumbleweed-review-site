@@ -55347,6 +55347,12 @@
   summary: 'google.com: resolve call failed: ''google.com'' does not have any RR of
     the requested type'
 '20210320':
+- component: Security
+  create_time: 20210323T06:05:00
+  id: 1183885
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: hfd-service: led/vibration feedback for mobile devices'
 - component: X11 Applications
   create_time: 20210323T00:09:00
   id: 1183882
