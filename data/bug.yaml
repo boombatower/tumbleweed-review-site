@@ -55347,6 +55347,12 @@
   summary: 'google.com: resolve call failed: ''google.com'' does not have any RR of
     the requested type'
 '20210320':
+- component: X11 Applications
+  create_time: 20210323T00:09:00
+  id: 1183882
+  resolution: ''
+  status: NEW
+  summary: EmulationStation fails to load - dependency issue
 - component: KDE Workspace (Plasma)
   create_time: 20210322T22:43:00
   id: 1183880
