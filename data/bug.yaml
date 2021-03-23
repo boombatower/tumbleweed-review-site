@@ -55347,6 +55347,18 @@
   summary: 'google.com: resolve call failed: ''google.com'' does not have any RR of
     the requested type'
 '20210320':
+- component: MicroOS
+  create_time: 20210323T11:23:00
+  id: 1183894
+  resolution: ''
+  status: NEW
+  summary: MicroOS needs to no longer ship AppArmor
+- component: YaST2
+  create_time: 20210323T10:32:00
+  id: 1183893
+  resolution: ''
+  status: NEW
+  summary: Drop yast2-nis-client and yast2-nis-server
 - component: Basesystem
   create_time: 20210323T08:33:00
   id: 1183890
