@@ -44522,8 +44522,8 @@
 - component: Network
   create_time: 20200809T12:32:00
   id: 1175038
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Reinstalling bcm20702a1-firmware-1201650-5.1.noarch seems to remove the
     *.hcd files
 - component: GNOME
@@ -55347,6 +55347,40 @@
   summary: 'google.com: resolve call failed: ''google.com'' does not have any RR of
     the requested type'
 '20210320':
+- component: GNOME
+  create_time: 20210320T16:57:00
+  id: 1183830
+  resolution: ''
+  status: IN_PROGRESS
+  summary: tracker-miner-fs-3 times out, with high CPU usage.
+- component: Kernel
+  create_time: 20210320T13:51:00
+  id: 1183829
+  resolution: ''
+  status: NEW
+  summary: RTL8821CE 802.11ac PCIe Wireless Network Adapter - Not handled properly
+    by the rtw_8821ce dirver on Kernel 5.11.6-1
+- component: Kernel
+  create_time: 20210320T04:38:00
+  id: 1183825
+  resolution: ''
+  status: NEW
+  summary: When in graphical environment on RPI3, system goes down at when screen
+    goes into powersave
+- component: Basesystem
+  create_time: 20210320T02:48:00
+  id: 1183824
+  resolution: ''
+  status: NEW
+  summary: When booting, only one cpu comes online on RPI3
+'20210321':
+- component: Other
+  create_time: 20210323T15:01:00
+  id: 1183908
+  resolution: ''
+  status: NEW
+  summary: Bluetooth tethering fails to get DHCP address when system uses wicked but
+    OK with Network Manager
 - component: MicroOS
   create_time: 20210323T11:23:00
   id: 1183894
@@ -55501,29 +55535,3 @@
   resolution: FIXED
   status: RESOLVED
   summary: pipewire-media-session,service not start and enable after update
-- component: GNOME
-  create_time: 20210320T16:57:00
-  id: 1183830
-  resolution: ''
-  status: IN_PROGRESS
-  summary: tracker-miner-fs-3 times out, with high CPU usage.
-- component: Kernel
-  create_time: 20210320T13:51:00
-  id: 1183829
-  resolution: ''
-  status: NEW
-  summary: RTL8821CE 802.11ac PCIe Wireless Network Adapter - Not handled properly
-    by the rtw_8821ce dirver on Kernel 5.11.6-1
-- component: Kernel
-  create_time: 20210320T04:38:00
-  id: 1183825
-  resolution: ''
-  status: NEW
-  summary: When in graphical environment on RPI3, system goes down at when screen
-    goes into powersave
-- component: Basesystem
-  create_time: 20210320T02:48:00
-  id: 1183824
-  resolution: ''
-  status: NEW
-  summary: When booting, only one cpu comes online on RPI3
