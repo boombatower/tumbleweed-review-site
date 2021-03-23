@@ -55343,10 +55343,17 @@
   create_time: 20210319T02:57:00
   id: 1183745
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'google.com: resolve call failed: ''google.com'' does not have any RR of
     the requested type'
 '20210320':
+- component: Basesystem
+  create_time: 20210323T08:33:00
+  id: 1183890
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210320] openQA test fails in welcome - NET ISO is stuck on linuxrc
+    blue screen'
 - component: Samba
   create_time: 20210323T07:38:00
   id: 1183888
