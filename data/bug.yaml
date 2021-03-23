@@ -55422,7 +55422,7 @@
   create_time: 20210322T22:43:00
   id: 1183880
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: file.so process blocks safe remove of external drive
 - component: GNOME
   create_time: 20210322T22:04:00
