@@ -55374,6 +55374,12 @@
   status: NEW
   summary: When booting, only one cpu comes online on RPI3
 '20210321':
+- component: Upgrade Problems
+  create_time: 20210323T19:18:00
+  id: 1183935
+  resolution: ''
+  status: NEW
+  summary: mirror.tspu.ru mirror unreachable
 - component: Other
   create_time: 20210323T15:01:00
   id: 1183908
@@ -55441,7 +55447,7 @@
   create_time: 20210322T19:33:00
   id: 1183872
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'Regression: System hang when connecting HMDI with i915'
 - component: Network
   create_time: 20210322T17:01:00
