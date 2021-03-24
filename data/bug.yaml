@@ -55374,6 +55374,38 @@
   status: NEW
   summary: When booting, only one cpu comes online on RPI3
 '20210321':
+- component: Kernel
+  create_time: 20210324T16:23:00
+  id: 1183965
+  resolution: ''
+  status: NEW
+  summary: 'makedumpfile, crash: are not able to read kenrel log from the lockless
+    ringbuffer added in kernel-5.10'
+- component: Basesystem
+  create_time: 20210324T15:33:00
+  id: 1183962
+  resolution: ''
+  status: NEW
+  summary: System freeze when wake up from sleep
+- component: Basesystem
+  create_time: 20210324T13:45:00
+  id: 1183960
+  resolution: ''
+  status: NEW
+  summary: ncurses built --with-pcre2 causing issues for packages that use both standard
+    C regex API and ncurses API
+- component: YaST2
+  create_time: 20210324T13:11:00
+  id: 1183957
+  resolution: ''
+  status: IN_PROGRESS
+  summary: yast-rake skip commit check, print the OBS configuration
+- component: Development
+  create_time: 20210324T13:10:00
+  id: 1183956
+  resolution: ''
+  status: NEW
+  summary: dav1d fails to compile without debuginfo
 - component: Virtualization:Other
   create_time: 20210324T10:40:00
   id: 1183951
