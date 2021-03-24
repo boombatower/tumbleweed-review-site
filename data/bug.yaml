@@ -55380,12 +55380,6 @@
   resolution: ''
   status: NEW
   summary: Discover 5.21.3 cant open appstream link
-- component: Upgrade Problems
-  create_time: 20210323T19:18:00
-  id: 1183935
-  resolution: ''
-  status: NEW
-  summary: mirror.tspu.ru mirror unreachable
 - component: Other
   create_time: 20210323T15:01:00
   id: 1183908
