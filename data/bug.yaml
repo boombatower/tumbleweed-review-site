@@ -55374,6 +55374,12 @@
   status: NEW
   summary: When booting, only one cpu comes online on RPI3
 '20210321':
+- component: Installation
+  create_time: 20210324T18:08:00
+  id: 1183966
+  resolution: ''
+  status: NEW
+  summary: sshd service not enabled with install [20210321]
 - component: Kernel
   create_time: 20210324T16:23:00
   id: 1183965
@@ -55403,8 +55409,8 @@
 - component: Development
   create_time: 20210324T13:10:00
   id: 1183956
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: dav1d fails to compile without debuginfo
 - component: Virtualization:Other
   create_time: 20210324T10:40:00
@@ -55530,7 +55536,7 @@
   status: NEW
   summary: 'snapshot 20210320: upgrade of perl (5.32.0 -> 5.32.1) creates some requirement
     issues'
-- component: KDE Applications
+- component: Other
   create_time: 20210322T10:08:00
   id: 1183853
   resolution: ''
