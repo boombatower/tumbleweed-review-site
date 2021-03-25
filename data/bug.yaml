@@ -30425,8 +30425,8 @@
 - component: Basesystem
   create_time: 20191015T09:00:00
   id: 1154023
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: ProtectHome=yes in fstrim.service file makes /home inaccessible for fstrim
 - component: Kernel
   create_time: 20191015T07:56:00
@@ -36566,8 +36566,8 @@
 - component: Other
   create_time: 20200219T09:19:00
   id: 1164274
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: pam-login_defs-check.sh does not work
 '20200220':
 - component: Other
@@ -53892,8 +53892,8 @@
 - component: Basesystem
   create_time: 20210226T13:56:00
   id: 1182804
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: fcoe-utils package fails'
 - component: YaST2
   create_time: 20210226T13:04:00
