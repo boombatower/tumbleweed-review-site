@@ -55374,6 +55374,18 @@
   status: NEW
   summary: When booting, only one cpu comes online on RPI3
 '20210321':
+- component: Basesystem
+  create_time: 20210325T10:54:00
+  id: 1183989
+  resolution: ''
+  status: NEW
+  summary: neomutt aborts with assertion failure
+- component: Development
+  create_time: 20210325T10:16:00
+  id: 1183986
+  resolution: ''
+  status: NEW
+  summary: mercurial python module broken
 - component: Other
   create_time: 20210325T08:52:00
   id: 1183981
