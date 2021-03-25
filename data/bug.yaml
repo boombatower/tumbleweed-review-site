@@ -42938,8 +42938,8 @@
 - component: Network
   create_time: 20200629T17:09:00
   id: 1173487
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: net-snmp still uses init.d in logrotate scripts
 - component: MicroOS
   create_time: 20200629T14:19:00
