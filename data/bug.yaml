@@ -40821,8 +40821,8 @@
 - component: Other
   create_time: 20200514T05:14:00
   id: 1171642
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: DisplayCAL missing dependency
 - component: KDE Workspace (Plasma)
   create_time: 20200514T05:13:00
