@@ -55403,8 +55403,8 @@
 - component: YaST2
   create_time: 20210324T13:11:00
   id: 1183957
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: yast-rake skip commit check, print the OBS configuration
 - component: Development
   create_time: 20210324T13:10:00
