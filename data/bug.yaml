@@ -52669,8 +52669,8 @@
 - component: Other
   create_time: 20210201T09:25:00
   id: 1181634
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '"nothing provides python3-numpy-gnu-hpc" prevents tensorflow2-gnu-hpc
     to be installed'
 - component: Installation
@@ -55374,11 +55374,17 @@
   status: NEW
   summary: When booting, only one cpu comes online on RPI3
 '20210321':
+- component: Bootloader
+  create_time: 20210326T08:07:00
+  id: 1184018
+  resolution: ''
+  status: NEW
+  summary: grub2 fails to boot
 - component: KDE Workspace (Plasma)
   create_time: 20210326T02:52:00
   id: 1184014
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: maliit-keyboard2 is not available in the main repos
 - component: X11 Applications
   create_time: 20210326T02:30:00
