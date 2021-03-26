@@ -45289,8 +45289,8 @@
 - component: Basesystem
   create_time: 20200821T19:59:00
   id: 1175625
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'hwclock: settimeofday() failed'
 - component: Basesystem
   create_time: 20200821T12:31:00
@@ -46107,8 +46107,8 @@
 - component: Other
   create_time: 20200907T06:03:00
   id: 1176217
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: SMART errors for USB devices
 - component: Basesystem
   create_time: 20200907T05:52:00
@@ -46843,8 +46843,8 @@
 - component: Basesystem
   create_time: 20200923T10:04:00
   id: 1176854
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20200921] Keyboard layout switching does not work'
 - component: Firefox
   create_time: 20200923T09:37:00
@@ -51824,8 +51824,8 @@
 - component: Basesystem
   create_time: 20210117T13:47:00
   id: 1181023
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Unable to access Samsung Android. No MTP devices found
 - component: GNOME
   create_time: 20210117T08:23:00
@@ -52114,8 +52114,8 @@
 - component: Basesystem
   create_time: 20210125T11:29:00
   id: 1181352
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: ProtectSystem=strict prevents fstrim.service to run on /
 - component: Virtualization:Other
   create_time: 20210125T11:26:00
