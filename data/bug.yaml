@@ -55374,6 +55374,18 @@
   status: NEW
   summary: When booting, only one cpu comes online on RPI3
 '20210321':
+- component: KDE Workspace (Plasma)
+  create_time: 20210326T02:52:00
+  id: 1184014
+  resolution: ''
+  status: NEW
+  summary: maliit-keyboard2 is not available in the main repos
+- component: X11 Applications
+  create_time: 20210326T02:30:00
+  id: 1184013
+  resolution: ''
+  status: NEW
+  summary: XPRA cannot connect (connection time out)
 - component: Samba
   create_time: 20210325T13:33:00
   id: 1183995
