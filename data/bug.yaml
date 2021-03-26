@@ -55246,9 +55246,9 @@
 - component: Basesystem
   create_time: 20210318T14:00:00
   id: 1183713
-  resolution: ''
-  status: NEW
-  summary: 'GCC 10: ovmf build fails'
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'GCC 11: ovmf build fails'
 - component: Other
   create_time: 20210318T10:47:00
   id: 1183703
