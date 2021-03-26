@@ -39656,7 +39656,7 @@
   create_time: 20200421T08:52:00
   id: 1170036
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'VUL-1: CVE-2020-11958: re2c: heap overflow in Scanner:fill (scanner.cc)'
 - component: Other
   create_time: 20200421T08:04:00
