@@ -55530,12 +55530,6 @@
   resolution: ''
   status: NEW
   summary: 'AUDIT-0: hfd-service: led/vibration feedback for mobile devices'
-- component: X11 Applications
-  create_time: 20210323T00:09:00
-  id: 1183882
-  resolution: ''
-  status: NEW
-  summary: EmulationStation fails to load - dependency issue
 - component: KDE Workspace (Plasma)
   create_time: 20210322T22:43:00
   id: 1183880
