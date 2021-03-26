@@ -55374,6 +55374,18 @@
   status: NEW
   summary: When booting, only one cpu comes online on RPI3
 '20210321':
+- component: MicroOS
+  create_time: 20210326T13:38:00
+  id: 1184037
+  resolution: ''
+  status: NEW
+  summary: MicroOS Desktop with GNOME is now in Beta
+- component: YaST2
+  create_time: 20210326T12:37:00
+  id: 1184033
+  resolution: ''
+  status: IN_PROGRESS
+  summary: yast-rake - run GitHub Actions locally
 - component: Kernel
   create_time: 20210326T08:34:00
   id: 1184019
