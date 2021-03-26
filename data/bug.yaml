@@ -53062,8 +53062,8 @@
 - component: Basesystem
   create_time: 20210206T10:48:00
   id: 1181860
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: glib2 package failures'
 - component: Basesystem
   create_time: 20210206T10:31:00
@@ -53183,8 +53183,8 @@
 - component: Basesystem
   create_time: 20210208T07:50:00
   id: 1181918
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: vlc package fails'
 - component: Basesystem
   create_time: 20210208T07:49:00
@@ -55197,8 +55197,8 @@
 - component: Kernel
   create_time: 20210318T22:04:00
   id: 1183739
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Installing new kernel build (without source change - same uname-r) can
     cause nVidia driver removal
 - component: Other
@@ -55240,8 +55240,8 @@
 - component: Basesystem
   create_time: 20210318T14:03:00
   id: 1183714
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: fish package fails'
 - component: Basesystem
   create_time: 20210318T14:00:00
@@ -55374,6 +55374,12 @@
   status: NEW
   summary: When booting, only one cpu comes online on RPI3
 '20210321':
+- component: Kernel
+  create_time: 20210326T08:34:00
+  id: 1184019
+  resolution: ''
+  status: NEW
+  summary: Disable CONFIG_SND_HDA_INTEL_HDMI_SILENT_STREAM as default
 - component: Bootloader
   create_time: 20210326T08:07:00
   id: 1184018
