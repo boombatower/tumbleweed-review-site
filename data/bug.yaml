@@ -55374,6 +55374,12 @@
   status: NEW
   summary: When booting, only one cpu comes online on RPI3
 '20210321':
+- component: KDE Workspace (Plasma)
+  create_time: 20210327T14:53:00
+  id: 1184067
+  resolution: ''
+  status: NEW
+  summary: Mouse clicks not working on Plasma desktop
 - component: Network
   create_time: 20210327T09:10:00
   id: 1184062
