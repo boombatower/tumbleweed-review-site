@@ -49346,8 +49346,8 @@
 - component: Firefox
   create_time: 20201117T22:02:00
   id: 1178915
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Tab crashes always on https://www.reddit.com/message/inbox
 - component: Kernel
   create_time: 20201117T18:02:00
