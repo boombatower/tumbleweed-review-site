@@ -55374,6 +55374,13 @@
   status: NEW
   summary: When booting, only one cpu comes online on RPI3
 '20210321':
+- component: KDE Workspace (Plasma)
+  create_time: 20210327T07:34:00
+  id: 1184058
+  resolution: ''
+  status: NEW
+  summary: plasma session spontaneously aborts ~2 minutes after start, while doing
+    nothing
 - component: Development
   create_time: 20210326T19:52:00
   id: 1184052
@@ -55565,7 +55572,7 @@
   create_time: 20210322T17:01:00
   id: 1183870
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'adcli 0.9.0: core dump in discovery'
 - component: Sound
   create_time: 20210322T14:19:00
