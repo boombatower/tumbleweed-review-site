@@ -51532,8 +51532,8 @@
 - component: Other
   create_time: 20210108T10:06:00
   id: 1180689
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: MicroOS defaults to using the SUSE NTP pool
 - component: Kernel
   create_time: 20210108T07:35:00
