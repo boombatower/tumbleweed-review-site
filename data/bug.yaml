@@ -55397,8 +55397,8 @@
 - component: Development
   create_time: 20210326T19:52:00
   id: 1184052
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Build cycle within {mingw64-gcc, mingw64-mpfr, mingw64-mpc}
 - component: MicroOS
   create_time: 20210326T13:38:00
