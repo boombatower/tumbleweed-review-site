@@ -54537,8 +54537,8 @@
 - component: Kernel
   create_time: 20210310T11:49:00
   id: 1183294
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'external displays stopped working on kernel 5.11.2-1: i915 0000:00:02.0:
     [drm] *ERROR* Link Training Unsuccessful'
 - component: Kernel
