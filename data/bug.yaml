@@ -55581,6 +55581,24 @@
   summary: pipewire-media-session,service not start and enable after update
 '20210325':
 - component: Other
+  create_time: 20210328T21:21:00
+  id: 1184079
+  resolution: ''
+  status: NEW
+  summary: systemd exiting issue
+- component: Kernel
+  create_time: 20210328T21:19:00
+  id: 1184078
+  resolution: ''
+  status: NEW
+  summary: nouveau error at boot
+- component: Kernel
+  create_time: 20210328T21:00:00
+  id: 1184077
+  resolution: ''
+  status: NEW
+  summary: on 20210320 I got a BTRFS error on boot
+- component: Other
   create_time: 20210328T15:46:00
   id: 1184075
   resolution: ''
