@@ -55580,6 +55580,20 @@
   status: RESOLVED
   summary: pipewire-media-session,service not start and enable after update
 '20210325':
+- component: Other
+  create_time: 20210328T15:46:00
+  id: 1184075
+  resolution: ''
+  status: NEW
+  summary: '[Staging]  python-hypothesis 6.81:test fails to build, python-hypothesis
+    6.81 breaks other packages'
+- component: Kernel
+  create_time: 20210328T14:49:00
+  id: 1184074
+  resolution: ''
+  status: NEW
+  summary: switching video output from nvidia to hd530, system won't reboot/shutdown
+    anymore
 - component: YaST2
   create_time: 20210328T11:57:00
   id: 1184073
