@@ -55580,6 +55580,13 @@
   status: RESOLVED
   summary: pipewire-media-session,service not start and enable after update
 '20210325':
+- component: Other
+  create_time: 20210328T10:06:00
+  id: 1184071
+  resolution: ''
+  status: NEW
+  summary: Update of dehydrated leads to inaccessibility of cert and keys for other
+    services
 - component: KDE Workspace (Plasma)
   create_time: 20210327T14:53:00
   id: 1184067
