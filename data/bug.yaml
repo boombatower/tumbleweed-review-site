@@ -51532,8 +51532,8 @@
 - component: Other
   create_time: 20210108T10:06:00
   id: 1180689
-  resolution: NORESPONSE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: MicroOS defaults to using the SUSE NTP pool
 - component: Kernel
   create_time: 20210108T07:35:00
@@ -55508,8 +55508,8 @@
 - component: YaST2
   create_time: 20210322T13:40:00
   id: 1183862
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Core dumped after resizing striped volume
 - component: Development
   create_time: 20210322T12:56:00
@@ -55737,8 +55737,8 @@
 - component: YaST2
   create_time: 20210328T11:57:00
   id: 1184073
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: partition clone partitions crashes
 - component: Other
   create_time: 20210328T10:06:00
@@ -55788,8 +55788,8 @@
 - component: YaST2
   create_time: 20210326T12:37:00
   id: 1184033
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: yast-rake - run GitHub Actions locally
 - component: Kernel
   create_time: 20210326T08:34:00
