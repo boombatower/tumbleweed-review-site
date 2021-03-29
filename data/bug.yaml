@@ -51052,8 +51052,8 @@
 - component: Security
   create_time: 20201229T13:41:00
   id: 1180438
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'pam: pam_faillock.so conflicts with STIG requirements'
 '20201231':
 - component: Kernel
@@ -55580,6 +55580,42 @@
   status: RESOLVED
   summary: pipewire-media-session,service not start and enable after update
 '20210325':
+- component: GNOME
+  create_time: 20210329T08:05:00
+  id: 1184093
+  resolution: ''
+  status: NEW
+  summary: GNOME 40 evince patches rebase.
+- component: GNOME
+  create_time: 20210329T08:01:00
+  id: 1184092
+  resolution: ''
+  status: NEW
+  summary: GNOME 40 accountservice rebase.
+- component: Kernel
+  create_time: 20210329T07:30:00
+  id: 1184088
+  resolution: ''
+  status: NEW
+  summary: frequent usb resets starting with 5.11-rc7, 5.11-rc6 was fine
+- component: GNOME
+  create_time: 20210329T07:12:00
+  id: 1184086
+  resolution: ''
+  status: NEW
+  summary: GNOME 40 SLE Classic patches rebase.
+- component: GNOME
+  create_time: 20210329T07:08:00
+  id: 1184084
+  resolution: ''
+  status: NEW
+  summary: GNOME 40 SLE patches review.
+- component: Other
+  create_time: 20210329T07:00:00
+  id: 1184083
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[ncurses] Libncurses pulls in libpcre2-posix ABI'
 - component: Other
   create_time: 20210328T21:21:00
   id: 1184079
@@ -55672,8 +55708,8 @@
 - component: Kernel
   create_time: 20210326T08:34:00
   id: 1184019
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Disable CONFIG_SND_HDA_INTEL_HDMI_SILENT_STREAM as default
 - component: Bootloader
   create_time: 20210326T08:07:00
@@ -55690,8 +55726,8 @@
 - component: X11 Applications
   create_time: 20210326T02:30:00
   id: 1184013
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: XPRA cannot connect (connection time out)
 - component: Samba
   create_time: 20210325T13:33:00
