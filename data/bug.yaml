@@ -55485,7 +55485,7 @@
   create_time: 20210322T19:33:00
   id: 1183872
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: 'Regression: System hang when connecting HMDI with i915'
 - component: Network
   create_time: 20210322T17:01:00
