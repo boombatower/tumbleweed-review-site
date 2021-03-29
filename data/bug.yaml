@@ -55462,6 +55462,12 @@
   resolution: ''
   status: NEW
   summary: 'AUDIT-0: hfd-service: led/vibration feedback for mobile devices'
+- component: X11 Applications
+  create_time: 20210323T00:09:00
+  id: 1183882
+  resolution: ''
+  status: NEW
+  summary: EmulationStation fails to load - dependency issue
 - component: KDE Workspace (Plasma)
   create_time: 20210322T22:43:00
   id: 1183880
@@ -55552,8 +55558,8 @@
 - component: Basesystem
   create_time: 20210321T16:25:00
   id: 1183837
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Boot delay due to iscsi.service
 - component: Basesystem
   create_time: 20210321T16:24:00
@@ -55580,6 +55586,13 @@
   status: RESOLVED
   summary: pipewire-media-session,service not start and enable after update
 '20210325':
+- component: Bootloader
+  create_time: 20210329T18:48:00
+  id: 1184135
+  resolution: ''
+  status: NEW
+  summary: 'Tumbleweed fails to boot after update: broken bootloader, grub install
+    error'
 - component: Basesystem
   create_time: 20210329T09:07:00
   id: 1184110
@@ -55717,8 +55730,8 @@
 - component: Kernel
   create_time: 20210328T21:00:00
   id: 1184077
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: on 20210320 I got a BTRFS error on boot
 - component: Other
   create_time: 20210328T15:46:00
