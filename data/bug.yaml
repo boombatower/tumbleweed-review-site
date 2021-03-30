@@ -55152,9 +55152,8 @@
   create_time: 20210317T14:04:00
   id: 1183652
   resolution: ''
-  status: IN_PROGRESS
-  summary: '[Build 20210316] vim is not displayed correctly when run in Expert Console
-    in text mode'
+  status: CONFIRMED
+  summary: '[Build 20210316] vim gets stuck when running in fbiterm'
 - component: Other
   create_time: 20210317T10:14:00
   id: 1183642
@@ -55558,8 +55557,8 @@
 - component: Basesystem
   create_time: 20210321T16:25:00
   id: 1183837
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Boot delay due to iscsi.service
 - component: Basesystem
   create_time: 20210321T16:24:00
