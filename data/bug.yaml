@@ -54900,8 +54900,8 @@
 - component: Basesystem
   create_time: 20210313T11:58:00
   id: 1183481
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: nscd keeps complaining about missing /etc/services
 - component: Kernel
   create_time: 20210313T10:39:00
@@ -55585,7 +55585,7 @@
   status: RESOLVED
   summary: pipewire-media-session,service not start and enable after update
 '20210325':
-- component: YaST2
+- component: Other
   create_time: 20210330T11:53:00
   id: 1184162
   resolution: ''
