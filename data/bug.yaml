@@ -55134,7 +55134,7 @@
   create_time: 20210317T19:06:00
   id: 1183669
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: pleaser: security audit for permissions-file-setuid-bit'
 - component: Basesystem
   create_time: 20210317T17:16:00
@@ -55315,8 +55315,8 @@
 - component: YaST2
   create_time: 20210319T13:49:00
   id: 1183804
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Staging J] YaST is not automatically installing SELinux pattern for MicroOS
     roles'
 - component: Basesystem
@@ -55585,6 +55585,19 @@
   status: RESOLVED
   summary: pipewire-media-session,service not start and enable after update
 '20210325':
+- component: YaST2
+  create_time: 20210330T11:53:00
+  id: 1184162
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210329] yast live installer crashes when upgrading from Leap
+    15.0 to Tumbleweed'
+- component: Bootloader
+  create_time: 20210330T10:44:00
+  id: 1184160
+  resolution: ''
+  status: CONFIRMED
+  summary: update-bootloader no longer detects U-Boot EFI
 - component: Network
   create_time: 20210329T23:11:00
   id: 1184141
