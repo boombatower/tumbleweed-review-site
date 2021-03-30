@@ -31294,7 +31294,7 @@
   create_time: 20191105T17:03:00
   id: 1155956
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: qemu booting from iso, stops at graphics initialization when using cirrus
     drivers
 - component: Basesystem
@@ -47441,7 +47441,7 @@
   create_time: 20201008T07:27:00
   id: 1177461
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20201007] openQA test fails in journal_check: dracut is missing
     /usr/etc/{services,nsswitch.conf,protocols}'
 - component: Basesystem
@@ -53812,7 +53812,7 @@
   create_time: 20210220T17:38:00
   id: 1182521
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: kdiskmark: polkit, dbus'
 - component: GNOME
   create_time: 20210220T15:05:00
@@ -54817,8 +54817,8 @@
 - component: Basesystem
   create_time: 20210311T16:35:00
   id: 1183408
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: systemd installs  /etc/X11/xinit/xinitrc.d/50-systemd-user.sh, but its
     now in /usr/etc
 - component: Network
@@ -55558,7 +55558,7 @@
   create_time: 20210321T16:25:00
   id: 1183837
   resolution: ''
-  status: REOPENED
+  status: IN_PROGRESS
   summary: Boot delay due to iscsi.service
 - component: Basesystem
   create_time: 20210321T16:24:00
@@ -55586,10 +55586,16 @@
   summary: pipewire-media-session,service not start and enable after update
 '20210325':
 - component: Other
-  create_time: 20210330T11:53:00
-  id: 1184162
+  create_time: 20210330T14:24:00
+  id: 1184165
   resolution: ''
   status: NEW
+  summary: support instantiated versions of dehydrated
+- component: Other
+  create_time: 20210330T11:53:00
+  id: 1184162
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[Build 20210329] yast live installer crashes when upgrading from Leap
     15.0 to Tumbleweed'
 - component: Bootloader
