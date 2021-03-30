@@ -55586,6 +55586,158 @@
   summary: pipewire-media-session,service not start and enable after update
 '20210325':
 - component: Other
+  create_time: 20210328T21:21:00
+  id: 1184079
+  resolution: ''
+  status: NEW
+  summary: systemd exiting issue
+- component: X.Org
+  create_time: 20210328T21:19:00
+  id: 1184078
+  resolution: ''
+  status: NEW
+  summary: nouveau error at boot
+- component: Kernel
+  create_time: 20210328T21:00:00
+  id: 1184077
+  resolution: FIXED
+  status: RESOLVED
+  summary: on 20210320 I got a BTRFS error on boot
+- component: Other
+  create_time: 20210328T15:46:00
+  id: 1184075
+  resolution: ''
+  status: NEW
+  summary: '[Staging]  python-hypothesis 6.81:test fails to build, python-hypothesis
+    6.81 breaks other packages'
+- component: Kernel
+  create_time: 20210328T14:49:00
+  id: 1184074
+  resolution: ''
+  status: NEW
+  summary: switching video output from nvidia to hd530, system won't reboot/shutdown
+    anymore
+- component: YaST2
+  create_time: 20210328T11:57:00
+  id: 1184073
+  resolution: FIXED
+  status: RESOLVED
+  summary: partition clone partitions crashes
+- component: Other
+  create_time: 20210328T10:06:00
+  id: 1184071
+  resolution: ''
+  status: NEW
+  summary: Update of dehydrated leads to inaccessibility of cert and keys for other
+    services
+- component: KDE Workspace (Plasma)
+  create_time: 20210327T14:53:00
+  id: 1184067
+  resolution: ''
+  status: NEW
+  summary: Mouse clicks not working on Plasma desktop
+- component: Network
+  create_time: 20210327T09:10:00
+  id: 1184062
+  resolution: INVALID
+  status: RESOLVED
+  summary: Can't connect to wired network
+- component: Basesystem
+  create_time: 20210327T08:15:00
+  id: 1184060
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210325] openQA test fails in audit2allow - libsepol.sepol_string_to_security_class:
+    unrecognised class (null)'
+- component: KDE Workspace (Plasma)
+  create_time: 20210327T07:34:00
+  id: 1184058
+  resolution: ''
+  status: NEW
+  summary: plasma session spontaneously aborts ~2 minutes after start, while doing
+    nothing
+- component: Development
+  create_time: 20210326T19:52:00
+  id: 1184052
+  resolution: FIXED
+  status: RESOLVED
+  summary: Build cycle within {mingw64-gcc, mingw64-mpfr, mingw64-mpc}
+- component: MicroOS
+  create_time: 20210326T13:38:00
+  id: 1184037
+  resolution: ''
+  status: NEW
+  summary: MicroOS Desktop with GNOME is now in Beta
+- component: YaST2
+  create_time: 20210326T12:37:00
+  id: 1184033
+  resolution: FIXED
+  status: RESOLVED
+  summary: yast-rake - run GitHub Actions locally
+- component: Kernel
+  create_time: 20210326T08:34:00
+  id: 1184019
+  resolution: FIXED
+  status: RESOLVED
+  summary: Disable CONFIG_SND_HDA_INTEL_HDMI_SILENT_STREAM as default
+- component: Bootloader
+  create_time: 20210326T08:07:00
+  id: 1184018
+  resolution: ''
+  status: NEW
+  summary: grub2 fails to boot
+- component: KDE Workspace (Plasma)
+  create_time: 20210326T02:52:00
+  id: 1184014
+  resolution: ''
+  status: IN_PROGRESS
+  summary: maliit-keyboard2 is not available in the main repos
+- component: X11 Applications
+  create_time: 20210326T02:30:00
+  id: 1184013
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: XPRA cannot connect (connection time out)
+- component: Samba
+  create_time: 20210325T13:33:00
+  id: 1183995
+  resolution: ''
+  status: NEW
+  summary: wsdd is not an allowed service in the default firewall configuration, so
+    Samba network discovery fails
+- component: Basesystem
+  create_time: 20210325T10:54:00
+  id: 1183989
+  resolution: ''
+  status: NEW
+  summary: neomutt aborts with assertion failure
+- component: Development
+  create_time: 20210325T10:16:00
+  id: 1183986
+  resolution: ''
+  status: NEW
+  summary: mercurial python module broken
+- component: Other
+  create_time: 20210325T08:52:00
+  id: 1183981
+  resolution: ''
+  status: NEW
+  summary: openconnect don't read private key from pkcs11 token after changing glibc
+    version.
+- component: Basesystem
+  create_time: 20210325T08:45:00
+  id: 1183980
+  resolution: ''
+  status: IN_PROGRESS
+  summary: the output of "cnf" command need to be improved
+'20210329':
+- component: KDE Workspace (Plasma)
+  create_time: 20210330T17:30:00
+  id: 1184181
+  resolution: ''
+  status: NEW
+  summary: kdeinit5 intermittent segmentation faults
+- component: Other
   create_time: 20210330T14:24:00
   id: 1184165
   resolution: ''
@@ -55739,148 +55891,3 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: '[ncurses] Libncurses pulls in libpcre2-posix ABI'
-- component: Other
-  create_time: 20210328T21:21:00
-  id: 1184079
-  resolution: ''
-  status: NEW
-  summary: systemd exiting issue
-- component: X.Org
-  create_time: 20210328T21:19:00
-  id: 1184078
-  resolution: ''
-  status: NEW
-  summary: nouveau error at boot
-- component: Kernel
-  create_time: 20210328T21:00:00
-  id: 1184077
-  resolution: FIXED
-  status: RESOLVED
-  summary: on 20210320 I got a BTRFS error on boot
-- component: Other
-  create_time: 20210328T15:46:00
-  id: 1184075
-  resolution: ''
-  status: NEW
-  summary: '[Staging]  python-hypothesis 6.81:test fails to build, python-hypothesis
-    6.81 breaks other packages'
-- component: Kernel
-  create_time: 20210328T14:49:00
-  id: 1184074
-  resolution: ''
-  status: NEW
-  summary: switching video output from nvidia to hd530, system won't reboot/shutdown
-    anymore
-- component: YaST2
-  create_time: 20210328T11:57:00
-  id: 1184073
-  resolution: FIXED
-  status: RESOLVED
-  summary: partition clone partitions crashes
-- component: Other
-  create_time: 20210328T10:06:00
-  id: 1184071
-  resolution: ''
-  status: NEW
-  summary: Update of dehydrated leads to inaccessibility of cert and keys for other
-    services
-- component: KDE Workspace (Plasma)
-  create_time: 20210327T14:53:00
-  id: 1184067
-  resolution: ''
-  status: NEW
-  summary: Mouse clicks not working on Plasma desktop
-- component: Network
-  create_time: 20210327T09:10:00
-  id: 1184062
-  resolution: INVALID
-  status: RESOLVED
-  summary: Can't connect to wired network
-- component: Basesystem
-  create_time: 20210327T08:15:00
-  id: 1184060
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210325] openQA test fails in audit2allow - libsepol.sepol_string_to_security_class:
-    unrecognised class (null)'
-- component: KDE Workspace (Plasma)
-  create_time: 20210327T07:34:00
-  id: 1184058
-  resolution: ''
-  status: NEW
-  summary: plasma session spontaneously aborts ~2 minutes after start, while doing
-    nothing
-- component: Development
-  create_time: 20210326T19:52:00
-  id: 1184052
-  resolution: FIXED
-  status: RESOLVED
-  summary: Build cycle within {mingw64-gcc, mingw64-mpfr, mingw64-mpc}
-- component: MicroOS
-  create_time: 20210326T13:38:00
-  id: 1184037
-  resolution: ''
-  status: NEW
-  summary: MicroOS Desktop with GNOME is now in Beta
-- component: YaST2
-  create_time: 20210326T12:37:00
-  id: 1184033
-  resolution: FIXED
-  status: RESOLVED
-  summary: yast-rake - run GitHub Actions locally
-- component: Kernel
-  create_time: 20210326T08:34:00
-  id: 1184019
-  resolution: FIXED
-  status: RESOLVED
-  summary: Disable CONFIG_SND_HDA_INTEL_HDMI_SILENT_STREAM as default
-- component: Bootloader
-  create_time: 20210326T08:07:00
-  id: 1184018
-  resolution: ''
-  status: NEW
-  summary: grub2 fails to boot
-- component: KDE Workspace (Plasma)
-  create_time: 20210326T02:52:00
-  id: 1184014
-  resolution: ''
-  status: IN_PROGRESS
-  summary: maliit-keyboard2 is not available in the main repos
-- component: X11 Applications
-  create_time: 20210326T02:30:00
-  id: 1184013
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: XPRA cannot connect (connection time out)
-- component: Samba
-  create_time: 20210325T13:33:00
-  id: 1183995
-  resolution: ''
-  status: NEW
-  summary: wsdd is not an allowed service in the default firewall configuration, so
-    Samba network discovery fails
-- component: Basesystem
-  create_time: 20210325T10:54:00
-  id: 1183989
-  resolution: ''
-  status: NEW
-  summary: neomutt aborts with assertion failure
-- component: Development
-  create_time: 20210325T10:16:00
-  id: 1183986
-  resolution: ''
-  status: NEW
-  summary: mercurial python module broken
-- component: Other
-  create_time: 20210325T08:52:00
-  id: 1183981
-  resolution: ''
-  status: NEW
-  summary: openconnect don't read private key from pkcs11 token after changing glibc
-    version.
-- component: Basesystem
-  create_time: 20210325T08:45:00
-  id: 1183980
-  resolution: ''
-  status: IN_PROGRESS
-  summary: the output of "cnf" command need to be improved
