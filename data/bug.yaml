@@ -54250,8 +54250,8 @@
 - component: Containers
   create_time: 20210304T19:25:00
   id: 1183055
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: /etc/containers/mounts.conf references non-existing files
 - component: Development
   create_time: 20210304T18:47:00
@@ -55130,12 +55130,6 @@
   resolution: ''
   status: NEW
   summary: All 5.11 kernels present mouse cursor as vertical dashed lines
-- component: Security
-  create_time: 20210317T19:06:00
-  id: 1183669
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'AUDIT-0: pleaser: security audit for permissions-file-setuid-bit'
 - component: Basesystem
   create_time: 20210317T17:16:00
   id: 1183665
@@ -55731,6 +55725,12 @@
   status: IN_PROGRESS
   summary: the output of "cnf" command need to be improved
 '20210329':
+- component: YaST2
+  create_time: 20210331T13:35:00
+  id: 1184225
+  resolution: ''
+  status: IN_PROGRESS
+  summary: libyui-rake does not include the SLE15-SP3 target
 - component: Development
   create_time: 20210331T11:40:00
   id: 1184214
