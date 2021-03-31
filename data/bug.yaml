@@ -55414,8 +55414,8 @@
 - component: Virtualization:Other
   create_time: 20210324T10:40:00
   id: 1183951
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: qemu crashes when using pipewire
 - component: KDE Applications
   create_time: 20210324T07:28:00
@@ -55491,7 +55491,7 @@
   id: 1183872
   resolution: ''
   status: IN_PROGRESS
-  summary: 'Regression: System hang when connecting HMDI with i915'
+  summary: System hang when connecting HMDI on i915 with CONFIG_SND_HDA_INTEL_HDMI_SILENT_STREAM=y
 - component: Network
   create_time: 20210322T17:01:00
   id: 1183870
