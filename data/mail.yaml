@@ -5982,12 +5982,12 @@
   threads: []
 '20210320':
   announcement: 2021-03.4830
-  reference_count: 3
+  reference_count: 4
   thread_count: 1
   threads:
   - messages:
     - 2021-03.4839
-    reference_count: 3
+    reference_count: 4
     summary: upgrade of perl (5.32.0 -> 5.32.1) creates some requirement issues
 '20210321':
   announcement: 2021-03.4857
