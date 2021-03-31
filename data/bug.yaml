@@ -55728,8 +55728,8 @@
 - component: YaST2
   create_time: 20210331T13:35:00
   id: 1184225
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: libyui-rake does not include the SLE15-SP3 target
 - component: Development
   create_time: 20210331T11:40:00
