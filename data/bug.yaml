@@ -55731,6 +55731,12 @@
   status: IN_PROGRESS
   summary: the output of "cnf" command need to be improved
 '20210329':
+- component: Development
+  create_time: 20210331T11:40:00
+  id: 1184214
+  resolution: ''
+  status: NEW
+  summary: gdb cannot activate thread debugging using libthread_db
 - component: KDE Workspace (Plasma)
   create_time: 20210330T17:30:00
   id: 1184181
