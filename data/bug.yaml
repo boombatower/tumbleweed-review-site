@@ -55785,7 +55785,7 @@
   create_time: 20210329T09:07:00
   id: 1184110
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: CMake 3.20 breaks wireshark package
 - component: KDE Workspace (Plasma)
   create_time: 20210329T08:51:00
