@@ -55570,7 +55570,7 @@
   create_time: 20210321T08:29:00
   id: 1183834
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Icons disappeared in snapshot 20210317
 - component: Other
   create_time: 20210321T08:10:00
@@ -55734,8 +55734,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20210330T17:30:00
   id: 1184181
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: kdeinit5 segmentation faults when taking a screenshot with Spectacle
 - component: Other
   create_time: 20210330T14:24:00
@@ -55773,7 +55773,7 @@
   create_time: 20210329T09:07:00
   id: 1184110
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: CMake 3.20 breaks wireshark package
 - component: KDE Workspace (Plasma)
   create_time: 20210329T08:51:00
