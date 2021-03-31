@@ -11168,8 +11168,8 @@
 - component: Other
   create_time: 20180802T22:35:00
   id: 1103640
-  resolution: ''
-  status: CONFIRMED
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Add NUT-Monitor package to openSUSE Tumbleweed
 - component: Other
   create_time: 20180802T11:35:00
@@ -55736,7 +55736,7 @@
   id: 1184181
   resolution: ''
   status: NEW
-  summary: kdeinit5 intermittent segmentation faults
+  summary: kdeinit5 segmentation faults when taking a screenshot with Spectacle
 - component: Other
   create_time: 20210330T14:24:00
   id: 1184165
