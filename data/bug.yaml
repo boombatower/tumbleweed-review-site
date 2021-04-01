@@ -55627,8 +55627,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20210327T14:53:00
   id: 1184067
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Mouse clicks not working on Plasma desktop
 - component: Network
   create_time: 20210327T09:10:00
@@ -55861,6 +55861,18 @@
   status: RESOLVED
   summary: '[ncurses] Libncurses pulls in libpcre2-posix ABI'
 '20210330':
+- component: Network
+  create_time: 20210401T15:08:00
+  id: 1184285
+  resolution: ''
+  status: IN_PROGRESS
+  summary: sssd missing directory /var/lib/sss/pubconf/krb5.include.d
+- component: Installation
+  create_time: 20210401T15:05:00
+  id: 1184284
+  resolution: ''
+  status: NEW
+  summary: 'installation-images: /proc/sys/vm/local-oom-kill doesn''t exist'
 - component: Basesystem
   create_time: 20210401T13:14:00
   id: 1184279
