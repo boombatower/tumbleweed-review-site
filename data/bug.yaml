@@ -55779,7 +55779,7 @@
   create_time: 20210329T08:26:00
   id: 1184102
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: GNOME 40 gnome-shell SLE patches rebase.
 - component: GNOME
   create_time: 20210329T08:23:00
