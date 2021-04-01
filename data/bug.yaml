@@ -55283,8 +55283,8 @@
 - component: Basesystem
   create_time: 20210319T20:00:00
   id: 1183821
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Bluetooth headphones disconnect periodically
 - component: Network
   create_time: 20210319T19:44:00
@@ -55861,6 +55861,13 @@
   status: RESOLVED
   summary: '[ncurses] Libncurses pulls in libpcre2-posix ABI'
 '20210330':
+- component: Basesystem
+  create_time: 20210401T06:20:00
+  id: 1184257
+  resolution: ''
+  status: NEW
+  summary: hardcode knowledge about https://debuginfod.opensuse.org/ in debuginfod
+    client
 - component: Other
   create_time: 20210331T17:15:00
   id: 1184239
