@@ -25412,8 +25412,8 @@
 - component: Basesystem
   create_time: 20190701T14:24:00
   id: 1139939
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: compressed kernel breaks get_kernel_version
 - component: Other
   create_time: 20190701T13:09:00
@@ -55861,6 +55861,18 @@
   status: RESOLVED
   summary: '[ncurses] Libncurses pulls in libpcre2-posix ABI'
 '20210330':
+- component: Containers
+  create_time: 20210401T09:38:00
+  id: 1184266
+  resolution: ''
+  status: NEW
+  summary: '[Staging] toolbox fails with cgroupsv2 enabled'
+- component: Containers
+  create_time: 20210401T09:19:00
+  id: 1184263
+  resolution: ''
+  status: NEW
+  summary: File permission detection fails for Tumbleweed running in Docker on Windows
 - component: Basesystem
   create_time: 20210401T06:20:00
   id: 1184257
