@@ -53830,8 +53830,8 @@
 - component: Basesystem
   create_time: 20210220T09:01:00
   id: 1182517
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: man-pages-pl incorrectly ships free.1 manpage
 '20210222':
 - component: KDE Workspace (Plasma)
