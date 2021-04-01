@@ -55861,6 +55861,12 @@
   status: RESOLVED
   summary: '[ncurses] Libncurses pulls in libpcre2-posix ABI'
 '20210330':
+- component: Basesystem
+  create_time: 20210401T13:14:00
+  id: 1184279
+  resolution: ''
+  status: NEW
+  summary: pcre2 exports regcomp
 - component: Containers
   create_time: 20210401T09:38:00
   id: 1184266
