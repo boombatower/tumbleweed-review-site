@@ -55861,6 +55861,13 @@
   status: RESOLVED
   summary: '[ncurses] Libncurses pulls in libpcre2-posix ABI'
 '20210330':
+- component: Basesystem
+  create_time: 20210402T12:01:00
+  id: 1184309
+  resolution: ''
+  status: NEW
+  summary: Graphical "Please enter passphrase" prompt for disk encryption upon startup
+    is unreadable on HiDPI - XPS 13 9360
 - component: Network
   create_time: 20210401T15:08:00
   id: 1184285
