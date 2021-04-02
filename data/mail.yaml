@@ -6186,7 +6186,7 @@
   threads: []
 '20210325':
   announcement: 2021-04.4521
-  reference_count: 6
+  reference_count: 8
   thread_count: 2
   threads:
   - messages:
@@ -6195,7 +6195,7 @@
     summary: ']'
   - messages:
     - 2021-04.4528
-    reference_count: 3
+    reference_count: 5
     summary: debuginfod enabled by default now
 '20210329':
   announcement: 2021-04.4541
