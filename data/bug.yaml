@@ -54417,8 +54417,8 @@
 - component: Virtualization:Tools
   create_time: 20210302T00:43:00
   id: 1182885
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: libvirt NodeDeviceDetach no longer works on Xen unless driver explicitly
     specified
 '20210305':
