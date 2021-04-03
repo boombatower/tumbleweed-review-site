@@ -55861,6 +55861,13 @@
   status: RESOLVED
   summary: '[ncurses] Libncurses pulls in libpcre2-posix ABI'
 '20210330':
+- component: Kernel
+  create_time: 20210403T04:00:00
+  id: 1184319
+  resolution: ''
+  status: NEW
+  summary: 'ath10k_pci 0000:03:00.0: failed to flush transmit queue (skip 0 ar-state
+    1): 0'
 - component: Basesystem
   create_time: 20210402T15:48:00
   id: 1184314
