@@ -55861,6 +55861,24 @@
   status: RESOLVED
   summary: '[ncurses] Libncurses pulls in libpcre2-posix ABI'
 '20210330':
+- component: Bootloader
+  create_time: 20210403T23:58:00
+  id: 1184323
+  resolution: ''
+  status: NEW
+  summary: grub2-once calls sleep with --verbose
+- component: Bootloader
+  create_time: 20210403T23:58:00
+  id: 1184322
+  resolution: ''
+  status: NEW
+  summary: grub2-once does not work without /etc/sysconfig/bootloader
+- component: Basesystem
+  create_time: 20210403T23:32:00
+  id: 1184321
+  resolution: ''
+  status: NEW
+  summary: os-prober with corrupted btrfs partition severely degrades system
 - component: Kernel
   create_time: 20210403T04:00:00
   id: 1184319
