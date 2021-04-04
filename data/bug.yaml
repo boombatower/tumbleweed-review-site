@@ -55861,6 +55861,12 @@
   status: RESOLVED
   summary: '[ncurses] Libncurses pulls in libpcre2-posix ABI'
 '20210330':
+- component: Development
+  create_time: 20210404T01:38:00
+  id: 1184324
+  resolution: ''
+  status: NEW
+  summary: '`afl` package''s `afl-clang-fast` fails producing binaries'
 - component: Bootloader
   create_time: 20210403T23:58:00
   id: 1184323
