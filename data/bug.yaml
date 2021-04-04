@@ -48800,8 +48800,8 @@
 - component: Virtualization:Other
   create_time: 20201107T18:38:00
   id: 1178537
-  resolution: ''
-  status: REOPENED
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: VirtualBox completely broken, Windows guest does nothing but BSOD
 - component: KDE Workspace (Plasma)
   create_time: 20201107T15:08:00
