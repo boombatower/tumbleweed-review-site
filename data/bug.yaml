@@ -55532,8 +55532,8 @@
 - component: Other
   create_time: 20210322T10:08:00
   id: 1183853
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Gcompris crash when started
 - component: Kernel
   create_time: 20210321T17:22:00
@@ -55905,6 +55905,18 @@
   status: CONFIRMED
   summary: update-bootloader no longer detects U-Boot EFI
 '20210401':
+- component: YaST2
+  create_time: 20210405T14:56:00
+  id: 1184339
+  resolution: ''
+  status: NEW
+  summary: Hardware Information / hwinfo hangs
+- component: Other
+  create_time: 20210405T14:15:00
+  id: 1184338
+  resolution: ''
+  status: NEW
+  summary: mysql-workbench crashes on open
 - component: Basesystem
   create_time: 20210404T03:25:00
   id: 1184325
