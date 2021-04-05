@@ -54776,7 +54776,7 @@
   resolution: WONTFIX
   status: RESOLVED
   summary: Reboot and Shutdown no longer function after update to latest kernel
-- component: YaST2
+- component: Basesystem
   create_time: 20210307T10:24:00
   id: 1183136
   resolution: ''
