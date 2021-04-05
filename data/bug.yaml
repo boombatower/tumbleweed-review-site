@@ -55861,6 +55861,50 @@
   status: RESOLVED
   summary: '[ncurses] Libncurses pulls in libpcre2-posix ABI'
 '20210330':
+- component: Other
+  create_time: 20210331T17:15:00
+  id: 1184239
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Please import the recent Klamav patchset by Mavridis Philippe from Trinity
+- component: YaST2
+  create_time: 20210331T13:35:00
+  id: 1184225
+  resolution: FIXED
+  status: RESOLVED
+  summary: libyui-rake does not include the SLE15-SP3 target
+- component: Development
+  create_time: 20210331T11:40:00
+  id: 1184214
+  resolution: ''
+  status: NEW
+  summary: gdb cannot activate thread debugging using libthread_db
+- component: KDE Workspace (Plasma)
+  create_time: 20210330T17:30:00
+  id: 1184181
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: kdeinit5 segmentation faults when taking a screenshot with Spectacle
+- component: Other
+  create_time: 20210330T14:24:00
+  id: 1184165
+  resolution: ''
+  status: NEW
+  summary: support instantiated versions of dehydrated
+- component: Other
+  create_time: 20210330T11:53:00
+  id: 1184162
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20210329] yast live installer crashes when upgrading from Leap
+    15.0 to Tumbleweed'
+- component: Bootloader
+  create_time: 20210330T10:44:00
+  id: 1184160
+  resolution: ''
+  status: CONFIRMED
+  summary: update-bootloader no longer detects U-Boot EFI
+'20210401':
 - component: Basesystem
   create_time: 20210404T03:25:00
   id: 1184325
@@ -55955,46 +55999,3 @@
   status: NEW
   summary: hardcode knowledge about https://debuginfod.opensuse.org/ in debuginfod
     client
-- component: Other
-  create_time: 20210331T17:15:00
-  id: 1184239
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Please import the recent Klamav patchset by Mavridis Philippe from Trinity
-- component: YaST2
-  create_time: 20210331T13:35:00
-  id: 1184225
-  resolution: FIXED
-  status: RESOLVED
-  summary: libyui-rake does not include the SLE15-SP3 target
-- component: Development
-  create_time: 20210331T11:40:00
-  id: 1184214
-  resolution: ''
-  status: NEW
-  summary: gdb cannot activate thread debugging using libthread_db
-- component: KDE Workspace (Plasma)
-  create_time: 20210330T17:30:00
-  id: 1184181
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: kdeinit5 segmentation faults when taking a screenshot with Spectacle
-- component: Other
-  create_time: 20210330T14:24:00
-  id: 1184165
-  resolution: ''
-  status: NEW
-  summary: support instantiated versions of dehydrated
-- component: Other
-  create_time: 20210330T11:53:00
-  id: 1184162
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: '[Build 20210329] yast live installer crashes when upgrading from Leap
-    15.0 to Tumbleweed'
-- component: Bootloader
-  create_time: 20210330T10:44:00
-  id: 1184160
-  resolution: ''
-  status: CONFIRMED
-  summary: update-bootloader no longer detects U-Boot EFI
