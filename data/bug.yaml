@@ -49686,8 +49686,8 @@
 - component: YaST2
   create_time: 20201126T12:48:00
   id: 1179261
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: YaST creates incomplete user accounts
 - component: Ruby
   create_time: 20201126T12:13:00
@@ -54380,8 +54380,8 @@
 - component: Development
   create_time: 20210302T19:26:00
   id: 1182942
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Rakudo doesn' starts after dist upgrade
 - component: Development
   create_time: 20210302T16:16:00
