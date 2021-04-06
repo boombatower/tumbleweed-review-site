@@ -20244,8 +20244,8 @@
 - component: Kernel
   create_time: 20190303T13:08:00
   id: 1127613
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: no wifi on raspberry 3B+
 - component: KDE Workspace (Plasma)
   create_time: 20190302T21:59:00
@@ -49327,8 +49327,8 @@
 - component: Bootloader
   create_time: 20201118T12:03:00
   id: 1178933
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: u-boot flavors failed to build for aarch64
 - component: Basesystem
   create_time: 20201118T10:17:00
