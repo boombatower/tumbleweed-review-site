@@ -53813,7 +53813,7 @@
   id: 1182521
   resolution: ''
   status: IN_PROGRESS
-  summary: 'AUDIT-0: kdiskmark: polkit, dbus'
+  summary: 'AUDIT-TRACKER: kdiskmark: polkit, dbus'
 - component: GNOME
   create_time: 20210220T15:05:00
   id: 1182519
@@ -55582,8 +55582,8 @@
 - component: Other
   create_time: 20210328T21:21:00
   id: 1184079
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: systemd exiting issue
 - component: X.Org
   create_time: 20210328T21:19:00
@@ -55905,6 +55905,24 @@
   status: CONFIRMED
   summary: update-bootloader no longer detects U-Boot EFI
 '20210401':
+- component: Kernel
+  create_time: 20210406T15:47:00
+  id: 1184403
+  resolution: ''
+  status: NEW
+  summary: iwlwifi driver failing to load in current MicroOS Desktop image
+- component: Basesystem
+  create_time: 20210406T15:46:00
+  id: 1184402
+  resolution: ''
+  status: IN_PROGRESS
+  summary: ypserv.tmpfiles creates symlink from /etc to ../../usr
+- component: Security
+  create_time: 20210406T14:22:00
+  id: 1184395
+  resolution: ''
+  status: NEW
+  summary: '[Package request] mullvad-vpnapp'
 - component: Other
   create_time: 20210406T13:56:00
   id: 1184392
@@ -55995,8 +56013,8 @@
 - component: Kernel
   create_time: 20210403T04:00:00
   id: 1184319
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'ath10k_pci 0000:03:00.0: failed to flush transmit queue (skip 0 ar-state
     1): 0'
 - component: Basesystem
