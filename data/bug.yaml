@@ -55905,6 +55905,31 @@
   status: CONFIRMED
   summary: update-bootloader no longer detects U-Boot EFI
 '20210401':
+- component: Installation
+  create_time: 20210406T19:44:00
+  id: 1184418
+  resolution: ''
+  status: NEW
+  summary: Add installer support / proposal for systemd-zram-service
+- component: Installation
+  create_time: 20210406T19:19:00
+  id: 1184417
+  resolution: ''
+  status: NEW
+  summary: Please add f2fs to the installer as an option for the root filesystem
+- component: YaST2
+  create_time: 20210406T19:16:00
+  id: 1184416
+  resolution: ''
+  status: NEW
+  summary: Add f2fs to YaST as a fully-supported filesystem
+- component: Kernel
+  create_time: 20210406T19:05:00
+  id: 1184415
+  resolution: ''
+  status: NEW
+  summary: Remove /etc/modprobe.d/60-blacklist_fs-f2fs.conf from suse-module-tools
+    package in support of VM on shared flash use case
 - component: MicroOS
   create_time: 20210406T16:42:00
   id: 1184411
@@ -55949,13 +55974,13 @@
   status: NEW
   summary: "setools package ppc64le build failure \"unknown type name \u2018filename_trans_key_t\u2019\
     \""
-- component: Maintenance
+- component: GNOME
   create_time: 20210406T13:45:00
   id: 1184389
   resolution: ''
   status: NEW
-  summary: Update GTG to 0.5
-- component: Usability
+  summary: Getting Things GNOME! (GTG) 0.5 requested
+- component: YaST2
   create_time: 20210406T13:30:00
   id: 1184387
   resolution: ''
@@ -55976,8 +56001,8 @@
 - component: Other
   create_time: 20210406T02:54:00
   id: 1184345
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 - component: YaST2
