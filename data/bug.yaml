@@ -34787,7 +34787,7 @@
   create_time: 20200115T10:27:00
   id: 1160986
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: gcc9 -fPIC creates unreproducible assembler code
 '20200116':
 - component: Other
@@ -55702,8 +55702,8 @@
 - component: Basesystem
   create_time: 20210325T10:54:00
   id: 1183989
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: neomutt aborts with assertion failure
 - component: Development
   create_time: 20210325T10:16:00
@@ -55905,6 +55905,13 @@
   status: CONFIRMED
   summary: update-bootloader no longer detects U-Boot EFI
 '20210401':
+- component: Other
+  create_time: 20210406T02:54:00
+  id: 1184345
+  resolution: ''
+  status: NEW
+  summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
+    this requirement cannot be provided
 - component: YaST2
   create_time: 20210405T14:56:00
   id: 1184339
