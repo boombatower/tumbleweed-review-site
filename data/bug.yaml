@@ -54425,8 +54425,8 @@
 - component: Bootloader
   create_time: 20210305T18:05:00
   id: 1183116
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: u-boot-am335xevm-2021.01-1.1.armv7hl is broken
 - component: X11 Applications
   create_time: 20210305T16:19:00
@@ -55501,8 +55501,8 @@
 - component: Cloud:Tools
   create_time: 20210322T14:16:00
   id: 1183865
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Azure CLI failure: az container fails with unexpected error'
 - component: YaST2
   create_time: 20210322T13:40:00
