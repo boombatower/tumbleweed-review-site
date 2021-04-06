@@ -55905,6 +55905,19 @@
   status: CONFIRMED
   summary: update-bootloader no longer detects U-Boot EFI
 '20210401':
+- component: MicroOS
+  create_time: 20210406T16:42:00
+  id: 1184411
+  resolution: ''
+  status: NEW
+  summary: Opening polari flatpak crashes packagekitd and makes gnome go back to login
+    screen
+- component: Basesystem
+  create_time: 20210406T16:16:00
+  id: 1184406
+  resolution: ''
+  status: NEW
+  summary: 'ypserv: Makefile references old files after /usr/etc project'
 - component: Kernel
   create_time: 20210406T15:47:00
   id: 1184403
