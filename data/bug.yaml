@@ -52975,11 +52975,11 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'GCC 11: llvm11 package fails'
-- component: Basesystem
+- component: libzypp
   create_time: 20210206T11:15:00
   id: 1181874
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: libzypp package fails'
 - component: Basesystem
   create_time: 20210206T11:13:00
@@ -55089,7 +55089,7 @@
   create_time: 20210316T08:44:00
   id: 1183575
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 11: suitesparse package fails'
 - component: Other
   create_time: 20210316T07:53:00
@@ -55778,8 +55778,8 @@
 - component: GNOME
   create_time: 20210329T08:26:00
   id: 1184102
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: GNOME 40 gnome-shell SLE patches rebase.
 - component: GNOME
   create_time: 20210329T08:23:00
@@ -55833,8 +55833,8 @@
 - component: GNOME
   create_time: 20210329T08:01:00
   id: 1184092
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: GNOME 40 accountservice SLE patches rebase.
 - component: Kernel
   create_time: 20210329T07:30:00
@@ -55905,6 +55905,18 @@
   status: CONFIRMED
   summary: update-bootloader no longer detects U-Boot EFI
 '20210401':
+- component: Installation
+  create_time: 20210407T07:50:00
+  id: 1184426
+  resolution: ''
+  status: NEW
+  summary: 'installation-images: calls depmod unconditionally'
+- component: Printing
+  create_time: 20210407T06:27:00
+  id: 1184421
+  resolution: ''
+  status: NEW
+  summary: Printed PDF partly empty - works on Leap 15.2
 - component: Installation
   create_time: 20210406T19:44:00
   id: 1184418
