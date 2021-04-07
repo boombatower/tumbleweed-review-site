@@ -55454,7 +55454,7 @@
   id: 1183885
   resolution: ''
   status: NEW
-  summary: 'AUDIT-0: hfd-service: led/vibration feedback for mobile devices'
+  summary: 'AUDIT-0: hfd-service: new package with D-Bus service com.lomiri.hfd.conf'
 - component: X11 Applications
   create_time: 20210323T00:09:00
   id: 1183882
@@ -55958,8 +55958,8 @@
 - component: Basesystem
   create_time: 20210406T16:16:00
   id: 1184406
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'ypserv: Makefile references old files after /usr/etc project'
 - component: Kernel
   create_time: 20210406T15:47:00
@@ -55988,8 +55988,8 @@
 - component: Security
   create_time: 20210406T13:46:00
   id: 1184390
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: "setools package ppc64le build failure \"unknown type name \u2018filename_trans_key_t\u2019\
     \""
 - component: GNOME
