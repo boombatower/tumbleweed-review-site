@@ -55253,7 +55253,7 @@
   id: 1183697
   resolution: ''
   status: NEW
-  summary: 'Firefox: All tabs crash. glibc 2.33 NSS NIS'
+  summary: 'Firefox: All tabs crash. glibc 2.33 NSS kde-gtk-config5'
 - component: YaST2
   create_time: 20210318T10:01:00
   id: 1183694
@@ -55489,8 +55489,8 @@
 - component: Network
   create_time: 20210322T17:01:00
   id: 1183870
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'adcli 0.9.0: core dump in discovery'
 - component: Sound
   create_time: 20210322T14:19:00
@@ -55905,6 +55905,12 @@
   status: CONFIRMED
   summary: update-bootloader no longer detects U-Boot EFI
 '20210401':
+- component: KDE Applications
+  create_time: 20210407T08:22:00
+  id: 1184430
+  resolution: ''
+  status: NEW
+  summary: Kdenlive does not provide motion tracking - OpenCV issue
 - component: Installation
   create_time: 20210407T07:50:00
   id: 1184426
@@ -55972,7 +55978,7 @@
   id: 1184395
   resolution: ''
   status: NEW
-  summary: '[Package request] mullvad-vpnapp'
+  summary: 'AUDIT-0: mullvadvpn-app: request for inclusion in Factory'
 - component: Other
   create_time: 20210406T13:56:00
   id: 1184392
