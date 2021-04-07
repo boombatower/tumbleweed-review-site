@@ -55905,6 +55905,25 @@
   status: CONFIRMED
   summary: update-bootloader no longer detects U-Boot EFI
 '20210401':
+- component: KDE Workspace (Plasma)
+  create_time: 20210407T18:00:00
+  id: 1184463
+  resolution: ''
+  status: NEW
+  summary: 'KDE Plasma: Redshift is turned off when external monitor is connected
+    or disconnected'
+- component: Bootloader
+  create_time: 20210407T16:13:00
+  id: 1184454
+  resolution: ''
+  status: NEW
+  summary: '[Build B.403.1] openQA test fails in journal_check'
+- component: Installation
+  create_time: 20210407T16:10:00
+  id: 1184453
+  resolution: ''
+  status: NEW
+  summary: 'linuxrc: start shell on all kernel consoles'
 - component: KDE Applications
   create_time: 20210407T08:22:00
   id: 1184430
