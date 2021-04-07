@@ -53635,8 +53635,8 @@
 - component: YaST2
   create_time: 20210217T11:08:00
   id: 1182360
-  resolution: ''
-  status: CONFIRMED
+  resolution: INVALID
+  status: RESOLVED
   summary: Enabling IPv6 Forwarding in YaST breaks IPv6 on Raspberry Pi 4
 - component: Basesystem
   create_time: 20210217T09:47:00
@@ -55453,7 +55453,7 @@
   create_time: 20210323T06:05:00
   id: 1183885
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: hfd-service: new package with D-Bus service com.lomiri.hfd.conf'
 - component: X11 Applications
   create_time: 20210323T00:09:00
@@ -55563,8 +55563,8 @@
 - component: LXQt
   create_time: 20210321T08:29:00
   id: 1183834
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Icons disappeared in snapshot 20210317
 - component: Other
   create_time: 20210321T08:10:00
@@ -56028,7 +56028,7 @@
   id: 1184339
   resolution: ''
   status: CONFIRMED
-  summary: Hardware Information / hwinfo hangs
+  summary: select() no longer modifies timeout value
 - component: Other
   create_time: 20210405T14:15:00
   id: 1184338
