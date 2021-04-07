@@ -54856,8 +54856,8 @@
 - component: Other
   create_time: 20210314T16:57:00
   id: 1183499
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[waybar] Crash on start under sway'
 - component: Other
   create_time: 20210314T12:24:00
@@ -55977,8 +55977,8 @@
 - component: Basesystem
   create_time: 20210406T16:16:00
   id: 1184406
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'ypserv: Makefile references old files after /usr/etc project'
 - component: Kernel
   create_time: 20210406T15:47:00
