@@ -52261,8 +52261,8 @@
 - component: Basesystem
   create_time: 20210122T08:23:00
   id: 1181269
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'certmonger testsuite: write error: No space left on device'
 - component: Xfce
   create_time: 20210122T01:21:00
@@ -55905,6 +55905,12 @@
   status: CONFIRMED
   summary: update-bootloader no longer detects U-Boot EFI
 '20210401':
+- component: Other
+  create_time: 20210408T09:11:00
+  id: 1184490
+  resolution: ''
+  status: NEW
+  summary: mame creates a cfg directory in PWD instead of ~/.mame and ignoring ~/.mame/cfg
 - component: KDE Workspace (Plasma)
   create_time: 20210407T18:00:00
   id: 1184463
