@@ -55221,8 +55221,8 @@
 - component: Kernel
   create_time: 20210318T14:15:00
   id: 1183716
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: No kernel-debug for aarch64
 - component: Basesystem
   create_time: 20210318T14:05:00
@@ -55551,8 +55551,8 @@
 - component: Basesystem
   create_time: 20210321T16:25:00
   id: 1183837
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: INVALID
+  status: RESOLVED
   summary: Boot delay due to iscsi.service
 - component: Basesystem
   create_time: 20210321T16:24:00
@@ -56012,6 +56012,18 @@
   summary: hardcode knowledge about https://debuginfod.opensuse.org/ in debuginfod
     client
 '20210406':
+- component: LibreOffice
+  create_time: 20210408T18:54:00
+  id: 1184527
+  resolution: ''
+  status: NEW
+  summary: '[Build F.523.4] openQA test fails in oomath'
+- component: Containers
+  create_time: 20210408T17:20:00
+  id: 1184525
+  resolution: ''
+  status: NEW
+  summary: 'container-registry - # reg ls localhost - connect: connection refused'
 - component: Kernel
   create_time: 20210408T14:58:00
   id: 1184514
@@ -56022,7 +56034,7 @@
   create_time: 20210408T14:09:00
   id: 1184508
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build F.523.1] Autoyast crashes with: undefined method "fetch_as_array"
     for {}:Hash in "valid_scripts_for"'
 - component: Basesystem
@@ -56116,7 +56128,7 @@
 - component: Basesystem
   create_time: 20210406T16:16:00
   id: 1184406
-  resolution: WONTFIX
+  resolution: WORKSFORME
   status: RESOLVED
   summary: 'ypserv: Makefile references old files after /usr/etc project'
 - component: Kernel
