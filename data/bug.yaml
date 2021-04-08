@@ -55977,8 +55977,8 @@
 - component: Basesystem
   create_time: 20210406T16:16:00
   id: 1184406
-  resolution: ''
-  status: REOPENED
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'ypserv: Makefile references old files after /usr/etc project'
 - component: Kernel
   create_time: 20210406T15:47:00
