@@ -54831,7 +54831,7 @@
   create_time: 20210311T15:15:00
   id: 1183398
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: snapper installs into /etc/dbus-1
 - component: Development
   create_time: 20210311T10:15:00
@@ -55905,6 +55905,12 @@
   status: CONFIRMED
   summary: update-bootloader no longer detects U-Boot EFI
 '20210401':
+- component: Development
+  create_time: 20210408T10:35:00
+  id: 1184492
+  resolution: ''
+  status: NEW
+  summary: Erlang 23 can't find new "chunk" documentation
 - component: Other
   create_time: 20210408T09:11:00
   id: 1184490
@@ -56132,8 +56138,8 @@
 - component: Basesystem
   create_time: 20210401T13:14:00
   id: 1184279
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: pcre2 exports regcomp
 - component: Containers
   create_time: 20210401T09:38:00
