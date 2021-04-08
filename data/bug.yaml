@@ -44689,7 +44689,7 @@
   create_time: 20200810T19:26:00
   id: 1175081
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Docker on btrfs disables quotas globally
 - component: Security
   create_time: 20200810T17:07:00
@@ -56012,6 +56012,19 @@
   summary: hardcode knowledge about https://debuginfod.opensuse.org/ in debuginfod
     client
 '20210406':
+- component: Kernel
+  create_time: 20210408T14:58:00
+  id: 1184514
+  resolution: ''
+  status: NEW
+  summary: kernel-default-devel-5.11.11-1.2.x86_64 does not depend on kernel-default-5.11.11-1.2.x86_64
+- component: AutoYaST
+  create_time: 20210408T14:09:00
+  id: 1184508
+  resolution: ''
+  status: NEW
+  summary: '[Build F.523.1] Autoyast crashes with: undefined method "fetch_as_array"
+    for {}:Hash in "valid_scripts_for"'
 - component: Basesystem
   create_time: 20210408T13:07:00
   id: 1184503
