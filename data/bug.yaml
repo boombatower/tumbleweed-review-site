@@ -54644,8 +54644,8 @@
 - component: Bootloader
   create_time: 20210309T08:23:00
   id: 1183213
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'System cannot boot after upgrade from Leap: Synchronous Exception at 0x00000000BF5AD6A8'
 - component: Samba
   create_time: 20210309T07:19:00
@@ -54830,8 +54830,8 @@
 - component: Other
   create_time: 20210311T15:15:00
   id: 1183398
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: snapper installs into /etc/dbus-1
 - component: Development
   create_time: 20210311T10:15:00
@@ -55905,6 +55905,120 @@
   status: CONFIRMED
   summary: update-bootloader no longer detects U-Boot EFI
 '20210401':
+- component: YaST2
+  create_time: 20210405T14:56:00
+  id: 1184339
+  resolution: ''
+  status: CONFIRMED
+  summary: select() no longer modifies timeout value
+- component: Other
+  create_time: 20210405T14:15:00
+  id: 1184338
+  resolution: FIXED
+  status: RESOLVED
+  summary: mysql-workbench crashes on open
+- component: Basesystem
+  create_time: 20210404T03:25:00
+  id: 1184325
+  resolution: ''
+  status: NEW
+  summary: nscd should not complain every few seconds about missing files because
+    of /usr/etc
+- component: Development
+  create_time: 20210404T01:38:00
+  id: 1184324
+  resolution: ''
+  status: NEW
+  summary: '`afl` package''s `afl-clang-fast` fails producing binaries'
+- component: Bootloader
+  create_time: 20210403T23:58:00
+  id: 1184323
+  resolution: ''
+  status: NEW
+  summary: grub2-once calls sleep with --verbose
+- component: Bootloader
+  create_time: 20210403T23:58:00
+  id: 1184322
+  resolution: ''
+  status: NEW
+  summary: grub2-once does not work without /etc/sysconfig/bootloader
+- component: Basesystem
+  create_time: 20210403T23:32:00
+  id: 1184321
+  resolution: ''
+  status: NEW
+  summary: os-prober with corrupted btrfs partition severely degrades system
+- component: Kernel
+  create_time: 20210403T04:00:00
+  id: 1184319
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'ath10k_pci 0000:03:00.0: failed to flush transmit queue (skip 0 ar-state
+    1): 0'
+- component: Basesystem
+  create_time: 20210402T15:48:00
+  id: 1184314
+  resolution: ''
+  status: NEW
+  summary: unable to login after system update
+- component: Development
+  create_time: 20210402T15:15:00
+  id: 1184313
+  resolution: ''
+  status: NEW
+  summary: /usr/lib/rpm/find-lang.sh broken
+- component: Basesystem
+  create_time: 20210402T12:01:00
+  id: 1184309
+  resolution: ''
+  status: NEW
+  summary: Graphical "Please enter passphrase" prompt for disk encryption upon startup
+    is unreadable on HiDPI - XPS 13 9360
+- component: Network
+  create_time: 20210401T15:08:00
+  id: 1184285
+  resolution: ''
+  status: IN_PROGRESS
+  summary: sssd missing directory /var/lib/sss/pubconf/krb5.include.d
+- component: Installation
+  create_time: 20210401T15:05:00
+  id: 1184284
+  resolution: ''
+  status: NEW
+  summary: 'installation-images: /proc/sys/vm/local-oom-kill doesn''t exist'
+- component: Basesystem
+  create_time: 20210401T13:14:00
+  id: 1184279
+  resolution: FIXED
+  status: RESOLVED
+  summary: pcre2 exports regcomp
+- component: Containers
+  create_time: 20210401T09:38:00
+  id: 1184266
+  resolution: ''
+  status: NEW
+  summary: '[Staging] toolbox fails with cgroupsv2 enabled'
+- component: Containers
+  create_time: 20210401T09:19:00
+  id: 1184263
+  resolution: ''
+  status: NEW
+  summary: File permission detection fails for Tumbleweed running in Docker on Windows
+- component: Basesystem
+  create_time: 20210401T06:20:00
+  id: 1184257
+  resolution: ''
+  status: NEW
+  summary: hardcode knowledge about https://debuginfod.opensuse.org/ in debuginfod
+    client
+'20210406':
+- component: Basesystem
+  create_time: 20210408T13:07:00
+  id: 1184503
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210406] openQA test fails in firstrun: dialog has empty space
+    below text box'
 - component: Development
   create_time: 20210408T10:35:00
   id: 1184492
@@ -56054,109 +56168,3 @@
   status: RESOLVED
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
-- component: YaST2
-  create_time: 20210405T14:56:00
-  id: 1184339
-  resolution: ''
-  status: CONFIRMED
-  summary: select() no longer modifies timeout value
-- component: Other
-  create_time: 20210405T14:15:00
-  id: 1184338
-  resolution: FIXED
-  status: RESOLVED
-  summary: mysql-workbench crashes on open
-- component: Basesystem
-  create_time: 20210404T03:25:00
-  id: 1184325
-  resolution: ''
-  status: NEW
-  summary: nscd should not complain every few seconds about missing files because
-    of /usr/etc
-- component: Development
-  create_time: 20210404T01:38:00
-  id: 1184324
-  resolution: ''
-  status: NEW
-  summary: '`afl` package''s `afl-clang-fast` fails producing binaries'
-- component: Bootloader
-  create_time: 20210403T23:58:00
-  id: 1184323
-  resolution: ''
-  status: NEW
-  summary: grub2-once calls sleep with --verbose
-- component: Bootloader
-  create_time: 20210403T23:58:00
-  id: 1184322
-  resolution: ''
-  status: NEW
-  summary: grub2-once does not work without /etc/sysconfig/bootloader
-- component: Basesystem
-  create_time: 20210403T23:32:00
-  id: 1184321
-  resolution: ''
-  status: NEW
-  summary: os-prober with corrupted btrfs partition severely degrades system
-- component: Kernel
-  create_time: 20210403T04:00:00
-  id: 1184319
-  resolution: INVALID
-  status: RESOLVED
-  summary: 'ath10k_pci 0000:03:00.0: failed to flush transmit queue (skip 0 ar-state
-    1): 0'
-- component: Basesystem
-  create_time: 20210402T15:48:00
-  id: 1184314
-  resolution: ''
-  status: NEW
-  summary: unable to login after system update
-- component: Development
-  create_time: 20210402T15:15:00
-  id: 1184313
-  resolution: ''
-  status: NEW
-  summary: /usr/lib/rpm/find-lang.sh broken
-- component: Basesystem
-  create_time: 20210402T12:01:00
-  id: 1184309
-  resolution: ''
-  status: NEW
-  summary: Graphical "Please enter passphrase" prompt for disk encryption upon startup
-    is unreadable on HiDPI - XPS 13 9360
-- component: Network
-  create_time: 20210401T15:08:00
-  id: 1184285
-  resolution: ''
-  status: IN_PROGRESS
-  summary: sssd missing directory /var/lib/sss/pubconf/krb5.include.d
-- component: Installation
-  create_time: 20210401T15:05:00
-  id: 1184284
-  resolution: ''
-  status: NEW
-  summary: 'installation-images: /proc/sys/vm/local-oom-kill doesn''t exist'
-- component: Basesystem
-  create_time: 20210401T13:14:00
-  id: 1184279
-  resolution: FIXED
-  status: RESOLVED
-  summary: pcre2 exports regcomp
-- component: Containers
-  create_time: 20210401T09:38:00
-  id: 1184266
-  resolution: ''
-  status: NEW
-  summary: '[Staging] toolbox fails with cgroupsv2 enabled'
-- component: Containers
-  create_time: 20210401T09:19:00
-  id: 1184263
-  resolution: ''
-  status: NEW
-  summary: File permission detection fails for Tumbleweed running in Docker on Windows
-- component: Basesystem
-  create_time: 20210401T06:20:00
-  id: 1184257
-  resolution: ''
-  status: NEW
-  summary: hardcode knowledge about https://debuginfod.opensuse.org/ in debuginfod
-    client
