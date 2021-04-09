@@ -56012,6 +56012,18 @@
   summary: hardcode knowledge about https://debuginfod.opensuse.org/ in debuginfod
     client
 '20210406':
+- component: Other
+  create_time: 20210409T09:29:00
+  id: 1184549
+  resolution: ''
+  status: NEW
+  summary: GIMP startup asks for root permission
+- component: Development
+  create_time: 20210409T09:28:00
+  id: 1184548
+  resolution: ''
+  status: NEW
+  summary: strip mishandles padding between notes
 - component: YaST2
   create_time: 20210408T22:39:00
   id: 1184528
