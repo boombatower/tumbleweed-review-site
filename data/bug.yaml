@@ -54797,8 +54797,8 @@
 - component: Kernel
   create_time: 20210307T01:21:00
   id: 1183132
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kernel wont boot after grub initialization 5.11.2
 '20210311':
 - component: Security
@@ -56012,6 +56012,18 @@
   summary: hardcode knowledge about https://debuginfod.opensuse.org/ in debuginfod
     client
 '20210406':
+- component: Installation
+  create_time: 20210409T14:41:00
+  id: 1184558
+  resolution: ''
+  status: NEW
+  summary: 'FL: Please add the utility imagewriter to the installation image.'
+- component: Security
+  create_time: 20210409T14:11:00
+  id: 1184555
+  resolution: ''
+  status: NEW
+  summary: libgmp doesn't provide and hmac for FIPS mode
 - component: Network
   create_time: 20210409T10:14:00
   id: 1184552
