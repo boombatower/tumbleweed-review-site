@@ -56024,7 +56024,7 @@
   resolution: ''
   status: NEW
   summary: '[Build F.523.4] openQA test fails in oomath'
-- component: Containers
+- component: Kubic
   create_time: 20210408T17:20:00
   id: 1184525
   resolution: ''
@@ -56039,15 +56039,15 @@
 - component: AutoYaST
   create_time: 20210408T14:09:00
   id: 1184508
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build F.523.1] Autoyast crashes with: undefined method "fetch_as_array"
     for {}:Hash in "valid_scripts_for"'
 - component: Basesystem
   create_time: 20210408T13:07:00
   id: 1184503
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20210406] openQA test fails in firstrun: dialog has empty space
     below text box'
 - component: Development
