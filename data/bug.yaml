@@ -56012,6 +56012,13 @@
   summary: hardcode knowledge about https://debuginfod.opensuse.org/ in debuginfod
     client
 '20210406':
+- component: Network
+  create_time: 20210409T10:14:00
+  id: 1184552
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210304] openQA test fails in mutt: dovecot-openssl.cnf has insecure
+    defaults'
 - component: Other
   create_time: 20210409T09:29:00
   id: 1184549
