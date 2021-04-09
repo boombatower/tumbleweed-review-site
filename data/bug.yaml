@@ -56012,6 +56012,12 @@
   summary: hardcode knowledge about https://debuginfod.opensuse.org/ in debuginfod
     client
 '20210406':
+- component: Other
+  create_time: 20210409T17:56:00
+  id: 1184563
+  resolution: ''
+  status: NEW
+  summary: Coccinelle fails to find its files
 - component: Installation
   create_time: 20210409T14:41:00
   id: 1184558
