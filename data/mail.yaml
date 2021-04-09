@@ -6023,7 +6023,7 @@
     summary: be cautious  to upgrade x86_32 Tumbleweed system to snapshot
 '20210212':
   announcement: 2021-04.3935
-  reference_count: 5
+  reference_count: 7
   thread_count: 3
   threads:
   - messages:
@@ -6037,7 +6037,7 @@
     summary: = full reinstall
   - messages:
     - 2021-04.4624
-    reference_count: 1
+    reference_count: 3
     summary: FUDD on having multiple library versions. (was
 '20210215':
   announcement: 2021-04.3964
