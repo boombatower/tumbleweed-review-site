@@ -56197,8 +56197,8 @@
   create_time: 20210406T13:30:00
   id: 1184387
   resolution: ''
-  status: NEW
-  summary: Enable automatic removal of installation medium repository
+  status: CONFIRMED
+  summary: Enable automatic removal of USB installation medium repository
 - component: MicroOS
   create_time: 20210406T13:20:00
   id: 1184385
