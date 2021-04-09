@@ -56012,6 +56012,12 @@
   summary: hardcode knowledge about https://debuginfod.opensuse.org/ in debuginfod
     client
 '20210406':
+- component: YaST2
+  create_time: 20210408T22:39:00
+  id: 1184528
+  resolution: ''
+  status: NEW
+  summary: 'yast2-nis-server: removes maps where files have moved to /usr/etc'
 - component: LibreOffice
   create_time: 20210408T18:54:00
   id: 1184527
