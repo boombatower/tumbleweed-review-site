@@ -56172,7 +56172,7 @@
   create_time: 20210409T14:11:00
   id: 1184555
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: libgmp doesn't provide and hmac for FIPS mode
 - component: Network
   create_time: 20210409T10:14:00
