@@ -56144,6 +56144,12 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: YaST2
+  create_time: 20210410T13:10:00
+  id: 1184573
+  resolution: ''
+  status: NEW
+  summary: can't start yast anymore, hangs
 - component: Apache
   create_time: 20210410T10:45:00
   id: 1184572
