@@ -56151,6 +56151,12 @@
     this requirement cannot be provided
 '20210408':
 - component: Other
+  create_time: 20210409T22:58:00
+  id: 1184569
+  resolution: ''
+  status: NEW
+  summary: possible imagewriter issues
+- component: Other
   create_time: 20210409T17:56:00
   id: 1184563
   resolution: ''
