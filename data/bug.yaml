@@ -54207,8 +54207,8 @@
 - component: Other
   create_time: 20210228T16:21:00
   id: 1182829
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: GTK applications and Compose key handling
 - component: Kernel
   create_time: 20210228T12:37:00
