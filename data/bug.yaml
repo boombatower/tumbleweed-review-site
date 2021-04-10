@@ -56144,6 +56144,12 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: Development
+  create_time: 20210410T18:26:00
+  id: 1184576
+  resolution: ''
+  status: NEW
+  summary: python3-opencv doesn't interact with virtual-env well.
 - component: YaST2
   create_time: 20210410T13:10:00
   id: 1184573
