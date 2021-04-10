@@ -54422,12 +54422,6 @@
   summary: libvirt NodeDeviceDetach no longer works on Xen unless driver explicitly
     specified
 '20210305':
-- component: Bootloader
-  create_time: 20210305T18:05:00
-  id: 1183116
-  resolution: FIXED
-  status: RESOLVED
-  summary: u-boot-am335xevm-2021.01-1.1.armv7hl is broken
 - component: X11 Applications
   create_time: 20210305T16:19:00
   id: 1183104
@@ -56150,6 +56144,18 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: Apache
+  create_time: 20210410T10:45:00
+  id: 1184572
+  resolution: ''
+  status: NEW
+  summary: apache2-mod-auth_openidc
+- component: Other
+  create_time: 20210410T10:33:00
+  id: 1184571
+  resolution: ''
+  status: NEW
+  summary: mpd missing shared libraries
 - component: Other
   create_time: 20210409T22:58:00
   id: 1184569
