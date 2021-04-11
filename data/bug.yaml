@@ -56160,8 +56160,8 @@
   create_time: 20210410T10:45:00
   id: 1184572
   resolution: ''
-  status: NEW
-  summary: apache2-mod-auth_openidc
+  status: CONFIRMED
+  summary: apache2-mod-auth_openidc installs into file system root
 - component: Other
   create_time: 20210410T10:33:00
   id: 1184571
