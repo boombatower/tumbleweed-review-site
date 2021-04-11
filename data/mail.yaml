@@ -6223,12 +6223,12 @@
   threads: []
 '20210408':
   announcement: 2021-04.4638
-  reference_count: 6
+  reference_count: 7
   thread_count: 2
   threads:
   - messages:
     - 2021-04.4661
-    reference_count: 1
+    reference_count: 2
     summary: proprietary nvidia kernel needs reinstall
   - messages:
     - 2021-04.4662
