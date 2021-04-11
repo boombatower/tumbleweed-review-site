@@ -6223,7 +6223,7 @@
   threads: []
 '20210408':
   announcement: 2021-04.4638
-  reference_count: 2
+  reference_count: 3
   thread_count: 2
   threads:
   - messages:
@@ -6232,5 +6232,5 @@
     summary: proprietary nvidia kernel needs reinstall
   - messages:
     - 2021-04.4662
-    reference_count: 1
+    reference_count: 2
     summary: error connecting to mirrors? from get to dl.os.org?
