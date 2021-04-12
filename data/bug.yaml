@@ -50515,8 +50515,8 @@
 - component: Maintenance
   create_time: 20201216T23:24:00
   id: 1180134
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: update stow package
 - component: Apache
   create_time: 20201216T19:47:00
