@@ -29653,8 +29653,8 @@
 - component: Samba
   create_time: 20190923T06:59:00
   id: 1151592
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: samba still providing SuSEfirewall2 config files
 - component: Other
   create_time: 20190923T06:56:00
@@ -45275,8 +45275,8 @@
 - component: Security
   create_time: 20200822T13:02:00
   id: 1175633
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-TRACKER: kdenetwork-filesharing (polkit-unauthorized-privilege,
     polkit-untracked-privilege, suse-dbus-unauthorized-service)'
 - component: Security
@@ -53811,8 +53811,8 @@
 - component: Security
   create_time: 20210220T17:38:00
   id: 1182521
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-TRACKER: kdiskmark: polkit, dbus'
 - component: GNOME
   create_time: 20210220T15:05:00
@@ -54694,8 +54694,8 @@
 - component: Apache
   create_time: 20210308T14:31:00
   id: 1183180
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: mod_php8 doesn't work out of the box
 - component: Other
   create_time: 20210308T14:28:00
@@ -56159,8 +56159,8 @@
 - component: Apache
   create_time: 20210410T10:45:00
   id: 1184572
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: apache2-mod-auth_openidc installs into file system root
 - component: Other
   create_time: 20210410T10:33:00
@@ -56180,12 +56180,12 @@
   resolution: ''
   status: NEW
   summary: Coccinelle fails to find its files
-- component: Installation
+- component: Patterns
   create_time: 20210409T14:41:00
   id: 1184558
   resolution: ''
   status: NEW
-  summary: 'FL: Please add the utility imagewriter to the installation image.'
+  summary: 'FL: Please add the "imagewriter" utility to the default installed packages'
 - component: Security
   create_time: 20210409T14:11:00
   id: 1184555
