@@ -56144,6 +56144,30 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: KDE Workspace (Plasma)
+  create_time: 20210412T11:34:00
+  id: 1184610
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210410] openQA test fails in finish_desktop'
+- component: Other
+  create_time: 20210412T11:14:00
+  id: 1184609
+  resolution: ''
+  status: NEW
+  summary: Please enable -32bit build for libasyncns
+- component: Mono
+  create_time: 20210412T11:06:00
+  id: 1184608
+  resolution: ''
+  status: NEW
+  summary: mono-core depends on mono-devel
+- component: Java
+  create_time: 20210412T10:57:00
+  id: 1184606
+  resolution: ''
+  status: NEW
+  summary: java-11-openjdk-headless package is missing mozilla-nss dependency
 - component: Development
   create_time: 20210410T18:26:00
   id: 1184576
