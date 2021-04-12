@@ -51545,7 +51545,7 @@
   create_time: 20210108T07:14:00
   id: 1180681
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: perf does not resolve plt symbols from libstdc++ right (.plt.sec problem)
 - component: Other
   create_time: 20210108T03:01:00
@@ -52532,8 +52532,8 @@
 - component: Other
   create_time: 20210128T07:56:00
   id: 1181497
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210127] openQA test fails in docker_compose'
 - component: Other
   create_time: 20210128T00:25:00
