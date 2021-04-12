@@ -19859,7 +19859,7 @@
   create_time: 20190221T09:15:00
   id: 1126236
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Can't configure workstation to authenticate via LDAP in Yast (pam_ldap
     is no longer in tumbleweed)
 - component: Installation
@@ -54725,8 +54725,8 @@
 - component: Samba
   create_time: 20210308T00:27:00
   id: 1183148
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: nmbd nmb.service startup delays multi-user.target by 5 seconds
 - component: Basesystem
   create_time: 20210307T19:28:00
