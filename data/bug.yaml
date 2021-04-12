@@ -56144,6 +56144,19 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: Other
+  create_time: 20210412T17:16:00
+  id: 1184636
+  resolution: ''
+  status: NEW
+  summary: 'CrossToolchain:avr/Arduino: error runtime.tools.ctags.path not defined
+    when compiling for a downloaded board'
+- component: Firefox
+  create_time: 20210412T16:21:00
+  id: 1184635
+  resolution: ''
+  status: NEW
+  summary: Thunderbird fails to render calendar event invitations with certain description
 - component: AutoYaST
   create_time: 20210412T14:52:00
   id: 1184630
@@ -56275,7 +56288,7 @@
   create_time: 20210408T14:58:00
   id: 1184514
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: kernel-default-devel-5.11.11-1.2.x86_64 does not depend on kernel-default-5.11.11-1.2.x86_64
 - component: AutoYaST
   create_time: 20210408T14:09:00
