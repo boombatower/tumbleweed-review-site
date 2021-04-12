@@ -55601,8 +55601,8 @@
 - component: Kernel
   create_time: 20210328T14:49:00
   id: 1184074
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: switching video output from nvidia to hd530, system won't reboot/shutdown
     anymore
 - component: YaST2
@@ -55882,8 +55882,8 @@
 - component: Other
   create_time: 20210330T14:24:00
   id: 1184165
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: support instantiated versions of dehydrated
 - component: Other
   create_time: 20210330T11:53:00
@@ -56144,6 +56144,12 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: Other
+  create_time: 20210412T12:13:00
+  id: 1184613
+  resolution: ''
+  status: NEW
+  summary: Kubic and MicroOS DVD ISO have no matching .sha256 and .sha256.asc files
 - component: KDE Workspace (Plasma)
   create_time: 20210412T11:34:00
   id: 1184610
@@ -56153,8 +56159,8 @@
 - component: Other
   create_time: 20210412T11:14:00
   id: 1184609
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Please enable -32bit build for libasyncns
 - component: Mono
   create_time: 20210412T11:06:00
