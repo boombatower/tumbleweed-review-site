@@ -56144,6 +56144,18 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: AutoYaST
+  create_time: 20210412T14:52:00
+  id: 1184630
+  resolution: ''
+  status: NEW
+  summary: 'Authconf: ldap_import error'
+- component: YaST2
+  create_time: 20210412T14:27:00
+  id: 1184623
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210410] yast2-network: undefined method ''hotplug?'''
 - component: Other
   create_time: 20210412T12:13:00
   id: 1184613
@@ -56244,8 +56256,8 @@
 - component: YaST2
   create_time: 20210408T22:39:00
   id: 1184528
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'yast2-nis-server: removes maps where files have moved to /usr/etc'
 - component: LibreOffice
   create_time: 20210408T18:54:00
