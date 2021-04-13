@@ -56144,12 +56144,18 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: X11 Applications
+  create_time: 20210413T19:45:00
+  id: 1184688
+  resolution: ''
+  status: NEW
+  summary: 'Snapshot 20210408-0: No keyboard input  for several Qt applications'
 - component: YaST2
   create_time: 20210413T16:37:00
   id: 1184681
   resolution: ''
-  status: NEW
-  summary: man pages are outdated
+  status: CONFIRMED
+  summary: YaST man pages are outdated
 - component: GNOME
   create_time: 20210413T14:46:00
   id: 1184678
