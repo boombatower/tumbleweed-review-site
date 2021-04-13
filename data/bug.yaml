@@ -53811,8 +53811,8 @@
 - component: Security
   create_time: 20210220T17:38:00
   id: 1182521
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'AUDIT-TRACKER: kdiskmark: polkit, dbus'
 - component: GNOME
   create_time: 20210220T15:05:00
@@ -56144,6 +56144,19 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: LXDE
+  create_time: 20210413T14:01:00
+  id: 1184674
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210412] opensuse-welcome does not show up'
+- component: Kernel
+  create_time: 20210413T13:41:00
+  id: 1184671
+  resolution: ''
+  status: NEW
+  summary: openrazer drivers aren't automatically rebuilt for new kernel or their
+    own updates
 - component: Kernel
   create_time: 20210413T08:58:00
   id: 1184650
@@ -56172,8 +56185,8 @@
 - component: YaST2
   create_time: 20210412T14:27:00
   id: 1184623
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210410] yast2-network: undefined method ''hotplug?'''
 - component: Other
   create_time: 20210412T12:13:00
