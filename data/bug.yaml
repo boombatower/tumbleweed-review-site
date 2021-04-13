@@ -22266,8 +22266,8 @@
 - component: Security
   create_time: 20190420T14:00:00
   id: 1132942
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Executable 'keepassxc' requires Qt 5.12.2, found Qt 5.12.0.
 - component: Virtualization:Other
   create_time: 20190420T12:40:00
@@ -38819,8 +38819,8 @@
 - component: Other
   create_time: 20200405T14:05:00
   id: 1168657
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: New maintainership and location for html2text
 - component: Kernel
   create_time: 20200405T07:38:00
@@ -55277,8 +55277,8 @@
 - component: Basesystem
   create_time: 20210319T20:00:00
   id: 1183821
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Bluetooth headphones disconnect periodically
 - component: Network
   create_time: 20210319T19:44:00
