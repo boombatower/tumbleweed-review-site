@@ -56167,7 +56167,7 @@
   create_time: 20210412T14:27:00
   id: 1184623
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20210410] yast2-network: undefined method ''hotplug?'''
 - component: Other
   create_time: 20210412T12:13:00
