@@ -55634,7 +55634,7 @@
   create_time: 20210327T08:15:00
   id: 1184060
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20210325] openQA test fails in audit2allow - libsepol.sepol_string_to_security_class:
     unrecognised class (null)'
 - component: KDE Workspace (Plasma)
@@ -56046,20 +56046,20 @@
 - component: Installation
   create_time: 20210406T19:44:00
   id: 1184418
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Add installer support / proposal for systemd-zram-service
 - component: Installation
   create_time: 20210406T19:19:00
   id: 1184417
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Please add f2fs to the installer as an option for the root filesystem
 - component: YaST2
   create_time: 20210406T19:16:00
   id: 1184416
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Add f2fs to YaST as a fully-supported filesystem
 - component: Kernel
   create_time: 20210406T19:05:00
@@ -56144,6 +56144,12 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: GNOME
+  create_time: 20210413T14:46:00
+  id: 1184678
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210412] GNOME 40 fails to launch'
 - component: LXDE
   create_time: 20210413T14:01:00
   id: 1184674
