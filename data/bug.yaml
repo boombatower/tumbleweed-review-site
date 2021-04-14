@@ -56144,6 +56144,24 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: Kernel
+  create_time: 20210414T11:32:00
+  id: 1184718
+  resolution: ''
+  status: NEW
+  summary: systemtap simple helloworld script execution fails in Tumbleweed
+- component: Kernel
+  create_time: 20210414T10:39:00
+  id: 1184715
+  resolution: INVALID
+  status: RESOLVED
+  summary: systemtap simple script execution fails in Tumbleweed
+- component: Bootloader
+  create_time: 20210414T10:20:00
+  id: 1184712
+  resolution: ''
+  status: NEW
+  summary: Grub2 fails to build on armv6/armv7
 - component: Other
   create_time: 20210414T09:06:00
   id: 1184709
@@ -56245,8 +56263,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20210412T11:34:00
   id: 1184610
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210410] openQA test fails in finish_desktop'
 - component: Other
   create_time: 20210412T11:14:00
