@@ -56144,6 +56144,12 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: MicroOS
+  create_time: 20210414T15:07:00
+  id: 1184753
+  resolution: ''
+  status: NEW
+  summary: salt-minion conflicts with busybox-hostname
 - component: Other
   create_time: 20210414T12:35:00
   id: 1184722
@@ -56178,7 +56184,7 @@
   create_time: 20210414T08:50:00
   id: 1184708
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Cannot abort from Hardware Info widget
 - component: GNOME
   create_time: 20210414T07:04:00
@@ -56195,8 +56201,8 @@
 - component: Basesystem
   create_time: 20210414T07:03:00
   id: 1184696
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: rpm-config-SUSE-0.g76.tar.xz break build in Base:System
 - component: KDE Workspace (Plasma)
   create_time: 20210413T19:45:00
@@ -56378,8 +56384,8 @@
 - component: Kernel
   create_time: 20210408T14:58:00
   id: 1184514
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: kernel-default-devel-5.11.11-1.2.x86_64 does not depend on kernel-default-5.11.11-1.2.x86_64
 - component: AutoYaST
   create_time: 20210408T14:09:00
