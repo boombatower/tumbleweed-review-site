@@ -149,24 +149,24 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - gtk3-devel
-  - gcc10
-  - plasma5-workspace
-  - gcc11
-  - xf86-video-nouveau
-  - kernel-source
-  - xf86-video-intel
   - xf86-video-amdgpu
-  - Mesa
-  - gcc9
-  - libqt5-qtbase-devel
-  - gcc
   - xf86-video-ati
-  - plasma-framework
-  - llvm
+  - plasma5-workspace
+  - Mesa
+  - kernel-source
+  - libqt5-qtbase-devel
   - gnome-builder
-  - xorg-x11-server
+  - gcc10
+  - plasma-framework
+  - gcc11
   - kate
+  - xf86-video-intel
+  - xf86-video-nouveau
+  - gcc
+  - gtk3-devel
+  - gcc9
+  - llvm
+  - xorg-x11-server
   binary_unique_count: 48757
   disk_base: 50.2GiB
   disk_shared: unknown
@@ -320,8 +320,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - plasma5-workspace
   - xf86-video-ati
+  - plasma5-workspace
   binary_unique_count: 777
   disk_base: 2.1GiB
   disk_shared: unknown
@@ -398,16 +398,16 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - gcc10
-  - gcc11
-  - xf86-video-nouveau
-  - xf86-video-intel
   - xf86-video-amdgpu
   - Mesa
-  - gcc9
-  - gnome-builder
   - kernel-source
+  - gnome-builder
+  - gcc10
+  - gcc11
   - kate
+  - xf86-video-intel
+  - xf86-video-nouveau
+  - gcc9
   binary_unique_count: 31569
   disk_base: 37.9GiB
   disk_shared: unknown
