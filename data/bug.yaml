@@ -56144,7 +56144,7 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
-- component: X11 Applications
+- component: KDE Workspace (Plasma)
   create_time: 20210413T19:45:00
   id: 1184688
   resolution: ''
