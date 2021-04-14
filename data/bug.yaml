@@ -55858,8 +55858,8 @@
 - component: Other
   create_time: 20210331T17:15:00
   id: 1184239
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Please import the recent Klamav patchset by Mavridis Philippe from Trinity
 - component: YaST2
   create_time: 20210331T13:35:00
@@ -56144,6 +56144,24 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: GNOME
+  create_time: 20210414T07:04:00
+  id: 1184698
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210412] xrdp: gnome session fails to launch'
+- component: Other
+  create_time: 20210414T07:03:00
+  id: 1184697
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210412] rstudio_server: Render error when showing web page'
+- component: Basesystem
+  create_time: 20210414T07:03:00
+  id: 1184696
+  resolution: ''
+  status: NEW
+  summary: rpm-config-SUSE-0.g76.tar.xz break build in Base:System
 - component: KDE Workspace (Plasma)
   create_time: 20210413T19:45:00
   id: 1184688
@@ -56209,8 +56227,8 @@
 - component: Other
   create_time: 20210412T12:13:00
   id: 1184613
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kubic and MicroOS DVD ISO have no matching .sha256 and .sha256.asc files
 - component: KDE Workspace (Plasma)
   create_time: 20210412T11:34:00
@@ -56318,8 +56336,8 @@
 - component: Kubic
   create_time: 20210408T17:20:00
   id: 1184525
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'container-registry - # reg ls localhost - connect: connection refused'
 - component: Kernel
   create_time: 20210408T14:58:00
