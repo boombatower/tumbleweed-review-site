@@ -55082,8 +55082,8 @@
 - component: Basesystem
   create_time: 20210316T08:44:00
   id: 1183575
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: suitesparse package fails'
 - component: Other
   create_time: 20210316T07:53:00
@@ -55735,8 +55735,8 @@
 - component: Basesystem
   create_time: 20210329T09:07:00
   id: 1184110
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: CMake 3.20 breaks wireshark package
 - component: KDE Workspace (Plasma)
   create_time: 20210329T08:51:00
@@ -56144,6 +56144,12 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: Other
+  create_time: 20210414T12:35:00
+  id: 1184722
+  resolution: ''
+  status: NEW
+  summary: numad asks for CPUSETs to be enabled
 - component: Kernel
   create_time: 20210414T11:32:00
   id: 1184718
@@ -56201,8 +56207,8 @@
 - component: YaST2
   create_time: 20210413T16:37:00
   id: 1184681
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: YaST man pages are outdated
 - component: GNOME
   create_time: 20210413T14:46:00
