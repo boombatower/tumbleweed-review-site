@@ -55839,8 +55839,8 @@
 - component: GNOME
   create_time: 20210329T07:12:00
   id: 1184086
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: GNOME 40 SLE Classic patches rebase.
 - component: GNOME
   create_time: 20210329T07:08:00
