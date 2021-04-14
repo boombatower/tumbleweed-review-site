@@ -56144,6 +56144,18 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: Other
+  create_time: 20210414T09:06:00
+  id: 1184709
+  resolution: ''
+  status: NEW
+  summary: Please examine the now-disabled patches for kdebase3 by Serghei Amelian
+- component: YaST2
+  create_time: 20210414T08:50:00
+  id: 1184708
+  resolution: ''
+  status: NEW
+  summary: Cannot abort from Hardware Info widget
 - component: GNOME
   create_time: 20210414T07:04:00
   id: 1184698
