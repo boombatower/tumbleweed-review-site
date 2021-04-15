@@ -13993,8 +13993,8 @@
 - component: GNOME
   create_time: 20181028T18:21:00
   id: 1113636
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: gnome-shell failed to start, libmozjs-60.so error
 - component: Basesystem
   create_time: 20181028T08:11:00
@@ -23634,8 +23634,8 @@
 - component: GNOME
   create_time: 20190516T16:46:00
   id: 1135395
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'GNOME:Factory/gnome-builder: Missing typelib: Jsonrpc'
 - component: Cloud:Tools
   create_time: 20190516T15:31:00
@@ -30756,8 +30756,8 @@
 - component: GNOME
   create_time: 20191023T22:18:00
   id: 1154912
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: gnome-session starts to a black screen with mouse cursor in 20191018
 - component: GNOME
   create_time: 20191023T20:22:00
@@ -31698,8 +31698,8 @@
 - component: Basesystem
   create_time: 20191109T19:48:00
   id: 1156358
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Updating sysstat warns "SysV service sysstat-collect does not exist, skipping"
 - component: YaST2
   create_time: 20191109T13:36:00
@@ -39939,8 +39939,8 @@
 - component: GNOME
   create_time: 20200427T12:49:00
   id: 1170587
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: '[Build 20200425] Tracker fails to migrate DB from 1.8 to 2.3'
 - component: GNOME
   create_time: 20200427T12:37:00
@@ -46352,8 +46352,8 @@
 - component: WSL
   create_time: 20200910T10:03:00
   id: 1176401
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[WSL] missing user and group nobody which is used by quite some tools'
 - component: Network
   create_time: 20200910T08:38:00
@@ -52966,8 +52966,8 @@
 - component: Basesystem
   create_time: 20210206T11:17:00
   id: 1181876
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: mbedtls package fails'
 - component: Basesystem
   create_time: 20210206T11:16:00
@@ -55337,8 +55337,8 @@
 - component: GNOME
   create_time: 20210320T16:57:00
   id: 1183830
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: tracker-miner-fs-3 times out, with high CPU usage.
 - component: Kernel
   create_time: 20210320T13:51:00
@@ -56354,6 +56354,30 @@
   status: NEW
   summary: mame creates a cfg directory in PWD instead of ~/.mame and ignoring ~/.mame/cfg
 '20210414':
+- component: Basesystem
+  create_time: 20210415T16:03:00
+  id: 1184824
+  resolution: ''
+  status: NEW
+  summary: graphviz no longer supports png?
+- component: Other
+  create_time: 20210415T15:58:00
+  id: 1184823
+  resolution: ''
+  status: NEW
+  summary: Kiwi overwrites CMD/subcommand with /bin/bash in derived containers
+- component: YaST2
+  create_time: 20210415T15:50:00
+  id: 1184821
+  resolution: ''
+  status: NEW
+  summary: zypper doesn't find 'tesseract-ocr-deu'
+- component: KDE Workspace (Plasma)
+  create_time: 20210415T14:30:00
+  id: 1184817
+  resolution: ''
+  status: NEW
+  summary: Whole system stopped responding and went berserk, first reboot failed
 - component: Kernel
   create_time: 20210415T12:42:00
   id: 1184804
