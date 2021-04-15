@@ -56354,6 +56354,30 @@
   status: NEW
   summary: mame creates a cfg directory in PWD instead of ~/.mame and ignoring ~/.mame/cfg
 '20210414':
+- component: Development
+  create_time: 20210415T19:15:00
+  id: 1184833
+  resolution: ''
+  status: NEW
+  summary: 'lto1: Internal compiler error'
+- component: Apache
+  create_time: 20210415T17:46:00
+  id: 1184827
+  resolution: ''
+  status: NEW
+  summary: change for system-user-wwwrun-20170617-21.2.noarch
+- component: KDE Applications
+  create_time: 20210415T17:43:00
+  id: 1184826
+  resolution: ''
+  status: NEW
+  summary: included scripts don't work in konversation
+- component: Other
+  create_time: 20210415T16:41:00
+  id: 1184825
+  resolution: ''
+  status: NEW
+  summary: Kicad crash when open simulation tool
 - component: Basesystem
   create_time: 20210415T16:03:00
   id: 1184824
@@ -56405,8 +56429,8 @@
 - component: Basesystem
   create_time: 20210415T09:06:00
   id: 1184787
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Deduplicate directory ownership with filesystem package
 - component: Basesystem
   create_time: 20210415T09:06:00
