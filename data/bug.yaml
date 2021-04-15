@@ -33668,8 +33668,8 @@
 - component: Translations
   create_time: 20200101T09:17:00
   id: 1159966
-  resolution: ''
-  status: REOPENED
+  resolution: FEATURE
+  status: RESOLVED
   summary: YaST2 Control Center displays different language on mouseover
 '20200103':
 - component: Kernel
@@ -56449,8 +56449,9 @@
   create_time: 20210415T08:27:00
   id: 1184779
   resolution: ''
-  status: NEW
-  summary: apparmor startup fails during boot with "Too many open files" (OpenQA related?)
+  status: CONFIRMED
+  summary: apparmor startup fails during boot with "Too many open files" if an include
+    file includes itsself
 - component: Other
   create_time: 20210415T08:12:00
   id: 1184776
