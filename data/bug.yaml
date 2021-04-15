@@ -963,8 +963,8 @@
 - component: YaST2
   create_time: 20171227T14:03:00
   id: 1074139
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Using YaST to configure hardware sound looses information
 - component: YaST2
   create_time: 20171227T13:52:00
@@ -12189,8 +12189,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180904T07:38:00
   id: 1106997
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Plasma startup hangs and sometimes ksmserver error
 - component: Network
   create_time: 20180904T07:27:00
@@ -16126,8 +16126,8 @@
 - component: YaST2
   create_time: 20181121T10:12:00
   id: 1116849
-  resolution: ''
-  status: CONFIRMED
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: 'yast2-sound: do not add sound modules to initrd'
 - component: Virtualization:Tools
   create_time: 20181121T08:54:00
@@ -28447,8 +28447,8 @@
 - component: Network
   create_time: 20190828T12:48:00
   id: 1148560
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: susefirewall2-to-firewalld handles iptables rule in /etc/sysconfig/scripts/SuSEfirewall2-custom
     wrongly
 - component: Basesystem
@@ -30479,8 +30479,8 @@
 - component: Basesystem
   create_time: 20191014T09:01:00
   id: 1153886
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Upgrade to Tumbleweed:20191011 leaves grub boot screen with only Tumbleweed
 - component: YaST2
   create_time: 20191014T07:25:00
@@ -48413,8 +48413,8 @@
 - component: Kernel
   create_time: 20201028T14:44:00
   id: 1178221
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Latest image for openSUSE-Tumbleweed pine64 gets no IPv4 connection
 - component: Kernel
   create_time: 20201028T10:49:00
@@ -50589,8 +50589,8 @@
 - component: Basesystem
   create_time: 20201218T22:05:00
   id: 1180231
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: With firewalld.service enabled eth0 does not get IPv4 address on RPi1
 - component: GNOME
   create_time: 20201218T19:40:00
@@ -52936,8 +52936,8 @@
 - component: Basesystem
   create_time: 20210206T11:22:00
   id: 1181881
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'GCC 11: presage package fails'
 - component: Basesystem
   create_time: 20210206T11:21:00
@@ -52978,8 +52978,8 @@
 - component: libzypp
   create_time: 20210206T11:15:00
   id: 1181874
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'GCC 11: libzypp package fails'
 - component: Basesystem
   create_time: 20210206T11:13:00
@@ -54191,7 +54191,7 @@
   id: 1182834
   resolution: ''
   status: NEW
-  summary: 'glibc: bad performance calling localtime() when TZ env var not ser'
+  summary: 'glibc: bad performance calling localtime() when TZ env var not set'
 - component: Basesystem
   create_time: 20210228T23:56:00
   id: 1182833
@@ -55896,7 +55896,7 @@
   create_time: 20210330T10:44:00
   id: 1184160
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: update-bootloader no longer detects U-Boot EFI
 '20210401':
 - component: YaST2
@@ -56144,6 +56144,12 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: Basesystem
+  create_time: 20210415T11:20:00
+  id: 1184792
+  resolution: ''
+  status: NEW
+  summary: 'GCC 11: ceph package fails'
 - component: YaST2
   create_time: 20210415T09:49:00
   id: 1184788
