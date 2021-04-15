@@ -56144,6 +56144,12 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: Kernel
+  create_time: 20210415T02:14:00
+  id: 1184767
+  resolution: ''
+  status: NEW
+  summary: Several firmwares missing when installing MicroOS
 - component: Other
   create_time: 20210414T15:07:00
   id: 1184753
