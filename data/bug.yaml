@@ -55895,8 +55895,8 @@
 - component: Bootloader
   create_time: 20210330T10:44:00
   id: 1184160
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: update-bootloader no longer detects U-Boot EFI
 '20210401':
 - component: YaST2
@@ -56144,121 +56144,6 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
-- component: Basesystem
-  create_time: 20210415T11:20:00
-  id: 1184792
-  resolution: ''
-  status: NEW
-  summary: 'GCC 11: ceph package fails'
-- component: YaST2
-  create_time: 20210415T09:49:00
-  id: 1184788
-  resolution: FIXED
-  status: RESOLVED
-  summary: armv7 misses grub2 efi subvolume
-- component: Basesystem
-  create_time: 20210415T09:06:00
-  id: 1184787
-  resolution: ''
-  status: NEW
-  summary: Deduplicate directory ownership with filesystem package
-- component: Basesystem
-  create_time: 20210415T09:06:00
-  id: 1184786
-  resolution: ''
-  status: NEW
-  summary: Deduplicate directory ownership with filesystem package
-- component: Kernel
-  create_time: 20210415T08:48:00
-  id: 1184782
-  resolution: ''
-  status: NEW
-  summary: 'Emergency mode during boot with "mount(2) system call failed: Cannot allocate
-    memory"'
-- component: AppArmor
-  create_time: 20210415T08:27:00
-  id: 1184779
-  resolution: ''
-  status: NEW
-  summary: apparmor startup fails during boot with "Too many open files" (OpenQA related?)
-- component: Other
-  create_time: 20210415T08:12:00
-  id: 1184776
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210414] rmt server fails to launch'
-- component: X11 Applications
-  create_time: 20210415T07:25:00
-  id: 1184773
-  resolution: ''
-  status: IN_PROGRESS
-  summary: workrave crashes GNOME on startup on Wayland
-- component: Kernel
-  create_time: 20210415T02:14:00
-  id: 1184767
-  resolution: ''
-  status: NEW
-  summary: Several firmwares missing when installing MicroOS
-- component: Other
-  create_time: 20210414T15:07:00
-  id: 1184753
-  resolution: ''
-  status: NEW
-  summary: salt-minion conflicts with busybox-hostname
-- component: Other
-  create_time: 20210414T12:35:00
-  id: 1184722
-  resolution: ''
-  status: NEW
-  summary: numad asks for CPUSETs to be enabled
-- component: Kernel
-  create_time: 20210414T11:32:00
-  id: 1184718
-  resolution: ''
-  status: NEW
-  summary: systemtap simple helloworld script execution fails in Tumbleweed
-- component: Kernel
-  create_time: 20210414T10:39:00
-  id: 1184715
-  resolution: INVALID
-  status: RESOLVED
-  summary: systemtap simple script execution fails in Tumbleweed
-- component: Bootloader
-  create_time: 20210414T10:20:00
-  id: 1184712
-  resolution: ''
-  status: NEW
-  summary: Grub2 fails to build on armv6/armv7
-- component: Other
-  create_time: 20210414T09:06:00
-  id: 1184709
-  resolution: ''
-  status: NEW
-  summary: Please examine the now-disabled patches for kdebase3 by Serghei Amelian
-- component: YaST2
-  create_time: 20210414T08:50:00
-  id: 1184708
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Cannot abort from Hardware Info widget
-- component: GNOME
-  create_time: 20210414T07:04:00
-  id: 1184698
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210412] xrdp: gnome session fails to launch'
-- component: Other
-  create_time: 20210414T07:03:00
-  id: 1184697
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210412] rstudio_server: Render error when showing web page'
-- component: Basesystem
-  create_time: 20210414T07:03:00
-  id: 1184696
-  resolution: FIXED
-  status: RESOLVED
-  summary: rpm-config-SUSE-0.g76.tar.xz break build in Base:System
 - component: KDE Workspace (Plasma)
   create_time: 20210413T19:45:00
   id: 1184688
@@ -56468,3 +56353,131 @@
   resolution: ''
   status: NEW
   summary: mame creates a cfg directory in PWD instead of ~/.mame and ignoring ~/.mame/cfg
+'20210414':
+- component: Kernel
+  create_time: 20210415T12:42:00
+  id: 1184804
+  resolution: ''
+  status: NEW
+  summary: move kernel out of /boot
+- component: Virtualization:Other
+  create_time: 20210415T12:07:00
+  id: 1184801
+  resolution: ''
+  status: NEW
+  summary: OVMF in Tumbleweed does crash with SEV-ES enabled
+- component: Basesystem
+  create_time: 20210415T11:20:00
+  id: 1184792
+  resolution: ''
+  status: NEW
+  summary: 'GCC 11: ceph package fails'
+- component: YaST2
+  create_time: 20210415T09:49:00
+  id: 1184788
+  resolution: FIXED
+  status: RESOLVED
+  summary: armv7 misses grub2 efi subvolume
+- component: Basesystem
+  create_time: 20210415T09:06:00
+  id: 1184787
+  resolution: ''
+  status: NEW
+  summary: Deduplicate directory ownership with filesystem package
+- component: Basesystem
+  create_time: 20210415T09:06:00
+  id: 1184786
+  resolution: ''
+  status: NEW
+  summary: Deduplicate directory ownership with filesystem package
+- component: Kernel
+  create_time: 20210415T08:48:00
+  id: 1184782
+  resolution: ''
+  status: NEW
+  summary: 'Emergency mode during boot with "mount(2) system call failed: Cannot allocate
+    memory"'
+- component: AppArmor
+  create_time: 20210415T08:27:00
+  id: 1184779
+  resolution: ''
+  status: NEW
+  summary: apparmor startup fails during boot with "Too many open files" (OpenQA related?)
+- component: Other
+  create_time: 20210415T08:12:00
+  id: 1184776
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210414] rmt server fails to launch'
+- component: X11 Applications
+  create_time: 20210415T07:25:00
+  id: 1184773
+  resolution: ''
+  status: IN_PROGRESS
+  summary: workrave crashes GNOME on startup on Wayland
+- component: Kernel
+  create_time: 20210415T02:14:00
+  id: 1184767
+  resolution: ''
+  status: NEW
+  summary: Several firmwares missing when installing MicroOS
+- component: Other
+  create_time: 20210414T15:07:00
+  id: 1184753
+  resolution: ''
+  status: NEW
+  summary: salt-minion conflicts with busybox-hostname
+- component: Other
+  create_time: 20210414T12:35:00
+  id: 1184722
+  resolution: ''
+  status: NEW
+  summary: numad asks for CPUSETs to be enabled
+- component: Kernel
+  create_time: 20210414T11:32:00
+  id: 1184718
+  resolution: ''
+  status: NEW
+  summary: systemtap simple helloworld script execution fails in Tumbleweed
+- component: Kernel
+  create_time: 20210414T10:39:00
+  id: 1184715
+  resolution: INVALID
+  status: RESOLVED
+  summary: systemtap simple script execution fails in Tumbleweed
+- component: Bootloader
+  create_time: 20210414T10:20:00
+  id: 1184712
+  resolution: ''
+  status: NEW
+  summary: Grub2 fails to build on armv6/armv7
+- component: Other
+  create_time: 20210414T09:06:00
+  id: 1184709
+  resolution: ''
+  status: NEW
+  summary: Please examine the now-disabled patches for kdebase3 by Serghei Amelian
+- component: YaST2
+  create_time: 20210414T08:50:00
+  id: 1184708
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Cannot abort from Hardware Info widget
+- component: GNOME
+  create_time: 20210414T07:04:00
+  id: 1184698
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210412] xrdp: gnome session fails to launch'
+- component: Other
+  create_time: 20210414T07:03:00
+  id: 1184697
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210412] rstudio_server: Render error when showing web page'
+- component: Basesystem
+  create_time: 20210414T07:03:00
+  id: 1184696
+  resolution: FIXED
+  status: RESOLVED
+  summary: rpm-config-SUSE-0.g76.tar.xz break build in Base:System
