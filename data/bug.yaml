@@ -55921,8 +55921,8 @@
 - component: Development
   create_time: 20210404T01:38:00
   id: 1184324
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '`afl` package''s `afl-clang-fast` fails producing binaries'
 - component: Bootloader
   create_time: 20210403T23:58:00
@@ -56144,11 +56144,48 @@
   summary: vlc-noX-3.0.12-345.1.x86_64 requires libprotobuf-lite.so.25()(64bit), but
     this requirement cannot be provided
 '20210408':
+- component: YaST2
+  create_time: 20210415T09:49:00
+  id: 1184788
+  resolution: FIXED
+  status: RESOLVED
+  summary: armv7 misses grub2 efi subvolume
+- component: Basesystem
+  create_time: 20210415T09:06:00
+  id: 1184787
+  resolution: ''
+  status: NEW
+  summary: Deduplicate directory ownership with filesystem package
+- component: Basesystem
+  create_time: 20210415T09:06:00
+  id: 1184786
+  resolution: ''
+  status: NEW
+  summary: Deduplicate directory ownership with filesystem package
+- component: Kernel
+  create_time: 20210415T08:48:00
+  id: 1184782
+  resolution: ''
+  status: NEW
+  summary: 'Emergency mode during boot with "mount(2) system call failed: Cannot allocate
+    memory"'
+- component: AppArmor
+  create_time: 20210415T08:27:00
+  id: 1184779
+  resolution: ''
+  status: NEW
+  summary: apparmor startup fails during boot with "Too many open files" (OpenQA related?)
+- component: Other
+  create_time: 20210415T08:12:00
+  id: 1184776
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210414] rmt server fails to launch'
 - component: X11 Applications
   create_time: 20210415T07:25:00
   id: 1184773
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: workrave crashes GNOME on startup on Wayland
 - component: Kernel
   create_time: 20210415T02:14:00
