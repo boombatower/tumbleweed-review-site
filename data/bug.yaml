@@ -53529,8 +53529,8 @@
 - component: Live Medium
   create_time: 20210215T13:47:00
   id: 1182264
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: KDE LiveCD 20210210 fails to boot (dracut-initqueue timeout errors)
 - component: Other
   create_time: 20210215T12:59:00
@@ -56354,6 +56354,30 @@
   status: NEW
   summary: mame creates a cfg directory in PWD instead of ~/.mame and ignoring ~/.mame/cfg
 '20210414':
+- component: Other
+  create_time: 20210416T11:52:00
+  id: 1184869
+  resolution: ''
+  status: NEW
+  summary: Sleep causes big fat click in audio output
+- component: Basesystem
+  create_time: 20210416T11:35:00
+  id: 1184867
+  resolution: ''
+  status: NEW
+  summary: NXP i.MX8MM missing kernel modules in initrd
+- component: KDE Workspace (Plasma)
+  create_time: 20210416T11:34:00
+  id: 1184866
+  resolution: ''
+  status: NEW
+  summary: Desktop gone black
+- component: X11 Applications
+  create_time: 20210416T11:11:00
+  id: 1184863
+  resolution: ''
+  status: IN_PROGRESS
+  summary: workrave not compatible with GNOME 40
 - component: Basesystem
   create_time: 20210416T08:33:00
   id: 1184852
@@ -56396,7 +56420,7 @@
   create_time: 20210415T22:42:00
   id: 1184838
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: openQA AppArmor profile has recursive include
 - component: Network
   create_time: 20210415T22:30:00
@@ -56438,9 +56462,9 @@
   create_time: 20210415T15:58:00
   id: 1184823
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Kiwi overwrites CMD/subcommand with /bin/bash in derived containers
-- component: YaST2
+- component: Other
   create_time: 20210415T15:50:00
   id: 1184821
   resolution: ''
