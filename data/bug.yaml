@@ -55761,7 +55761,7 @@
   create_time: 20210329T08:29:00
   id: 1184104
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: GNOME 40 gvfs SLE patches rebase.
 - component: GNOME
   create_time: 20210329T08:28:00
@@ -56354,6 +56354,26 @@
   status: NEW
   summary: mame creates a cfg directory in PWD instead of ~/.mame and ignoring ~/.mame/cfg
 '20210414':
+- component: Sound
+  create_time: 20210416T05:58:00
+  id: 1184843
+  resolution: ''
+  status: NEW
+  summary: noisetorch wants cap_sys_resource
+- component: GNOME
+  create_time: 20210416T05:31:00
+  id: 1184842
+  resolution: ''
+  status: CONFIRMED
+  summary: 'meld: Meld requires GtkSourceView 4.0 or higher, typelib-1_0-GtkSource-4
+    not picked'
+- component: LXDE
+  create_time: 20210416T02:57:00
+  id: 1184840
+  resolution: ''
+  status: NEW
+  summary: After last update on thumbleweed 15.04.2021 autostart did not work (from
+    /etc/xdg/autostart)
 - component: Development
   create_time: 20210415T22:42:00
   id: 1184838
