@@ -55239,8 +55239,8 @@
 - component: Other
   create_time: 20210318T10:47:00
   id: 1183703
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: etcd not starting via systemd
 - component: Firefox
   create_time: 20210318T10:13:00
