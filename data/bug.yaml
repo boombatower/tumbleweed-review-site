@@ -52520,8 +52520,8 @@
 - component: Firefox
   create_time: 20210128T15:37:00
   id: 1181525
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Update SeaMonkey packages to version 2.53.6
 - component: X11 Applications
   create_time: 20210128T11:16:00
@@ -54725,8 +54725,8 @@
 - component: Samba
   create_time: 20210308T00:27:00
   id: 1183148
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: nmbd nmb.service startup delays multi-user.target by 5 seconds
 - component: Basesystem
   create_time: 20210307T19:28:00
@@ -55448,7 +55448,7 @@
   id: 1183885
   resolution: ''
   status: IN_PROGRESS
-  summary: 'AUDIT-0: hfd-service: new package with D-Bus service com.lomiri.hfd.conf'
+  summary: 'AUDIT-TRACKER: hfd-service: new package with D-Bus service com.lomiri.hfd.conf'
 - component: X11 Applications
   create_time: 20210323T00:09:00
   id: 1183882
@@ -56355,6 +56355,18 @@
   summary: mame creates a cfg directory in PWD instead of ~/.mame and ignoring ~/.mame/cfg
 '20210414':
 - component: Basesystem
+  create_time: 20210416T08:33:00
+  id: 1184852
+  resolution: ''
+  status: NEW
+  summary: pipewire-media-session.service not enabled/started after installing pipewire-pulse
+- component: Firefox
+  create_time: 20210416T08:25:00
+  id: 1184851
+  resolution: ''
+  status: NEW
+  summary: Restore debugsource builds for SeaMonkey
+- component: Basesystem
   create_time: 20210416T07:51:00
   id: 1184850
   resolution: ''
@@ -56499,8 +56511,8 @@
 - component: X11 Applications
   create_time: 20210415T07:25:00
   id: 1184773
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: workrave crashes GNOME on startup on Wayland
 - component: Kernel
   create_time: 20210415T02:14:00
