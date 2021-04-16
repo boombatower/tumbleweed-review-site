@@ -56355,6 +56355,18 @@
   summary: mame creates a cfg directory in PWD instead of ~/.mame and ignoring ~/.mame/cfg
 '20210414':
 - component: Development
+  create_time: 20210415T22:42:00
+  id: 1184838
+  resolution: ''
+  status: NEW
+  summary: openQA AppArmor profile has recursive include
+- component: Network
+  create_time: 20210415T22:30:00
+  id: 1184836
+  resolution: ''
+  status: NEW
+  summary: Sudden utterly random behavior of multiple unrelated system functions
+- component: Development
   create_time: 20210415T19:15:00
   id: 1184833
   resolution: ''
