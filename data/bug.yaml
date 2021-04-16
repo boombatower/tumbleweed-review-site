@@ -56354,6 +56354,12 @@
   status: NEW
   summary: mame creates a cfg directory in PWD instead of ~/.mame and ignoring ~/.mame/cfg
 '20210414':
+- component: Basesystem
+  create_time: 20210416T07:51:00
+  id: 1184850
+  resolution: ''
+  status: NEW
+  summary: groff-full installation fails
 - component: Sound
   create_time: 20210416T05:58:00
   id: 1184843
