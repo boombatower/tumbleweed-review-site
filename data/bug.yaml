@@ -30283,8 +30283,8 @@
 - component: Kubic
   create_time: 20191011T08:09:00
   id: 1153687
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Zypper repo name detection broken
 - component: Kernel
   create_time: 20191011T08:05:00
@@ -31699,7 +31699,7 @@
   create_time: 20191109T19:48:00
   id: 1156358
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: Updating sysstat warns "SysV service sysstat-collect does not exist, skipping"
 - component: YaST2
   create_time: 20191109T13:36:00
@@ -56354,13 +56354,38 @@
   status: NEW
   summary: mame creates a cfg directory in PWD instead of ~/.mame and ignoring ~/.mame/cfg
 '20210414':
+- component: Basesystem
+  create_time: 20210416T13:57:00
+  id: 1184888
+  resolution: ''
+  status: NEW
+  summary: XZ test of createrepo_c does not work with file 5.40
+- component: Bootloader
+  create_time: 20210416T13:14:00
+  id: 1184884
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'RPi4: installing mokutil and shim breaks boot'
+- component: Basesystem
+  create_time: 20210416T13:00:00
+  id: 1184881
+  resolution: ''
+  status: NEW
+  summary: PDF test of python-python-magic does not work with file 5.40
+- component: Security
+  create_time: 20210416T12:37:00
+  id: 1184878
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'VUL-0: CVE-2021-29421: python-pikepdf: XML external entity issue when
+    parsing XMP metadata entries'
 - component: Other
   create_time: 20210416T11:52:00
   id: 1184869
   resolution: ''
   status: NEW
   summary: Sleep causes big fat click in audio output
-- component: Basesystem
+- component: Installation
   create_time: 20210416T11:35:00
   id: 1184867
   resolution: ''
@@ -56396,6 +56421,12 @@
   resolution: ''
   status: NEW
   summary: groff-full installation fails
+- component: X.Org
+  create_time: 20210416T07:08:00
+  id: 1184845
+  resolution: ''
+  status: IN_PROGRESS
+  summary: tegra support disabled in Mesa (enablement currently breaks gnome-shell)
 - component: Sound
   create_time: 20210416T05:58:00
   id: 1184843
@@ -56420,7 +56451,7 @@
   create_time: 20210415T22:42:00
   id: 1184838
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: openQA AppArmor profile has recursive include
 - component: Network
   create_time: 20210415T22:30:00
@@ -56462,7 +56493,7 @@
   create_time: 20210415T15:58:00
   id: 1184823
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Kiwi overwrites CMD/subcommand with /bin/bash in derived containers
 - component: Other
   create_time: 20210415T15:50:00
