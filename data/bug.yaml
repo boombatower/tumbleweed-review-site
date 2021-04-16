@@ -56147,8 +56147,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20210413T19:45:00
   id: 1184688
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'Snapshot 20210408-0: No keyboard input  for several Qt applications'
 - component: YaST2
   create_time: 20210413T16:37:00
@@ -56442,8 +56442,8 @@
 - component: Firefox
   create_time: 20210416T08:25:00
   id: 1184851
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Restore debugsource builds for SeaMonkey
 - component: Basesystem
   create_time: 20210416T07:51:00
