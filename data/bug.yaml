@@ -56178,8 +56178,8 @@
 - component: Kernel
   create_time: 20210413T08:58:00
   id: 1184650
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kernel:HEAD should use tilde instead of dot/dash for version
 - component: Other
   create_time: 20210412T17:16:00
