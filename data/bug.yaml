@@ -56354,6 +56354,36 @@
   status: NEW
   summary: mame creates a cfg directory in PWD instead of ~/.mame and ignoring ~/.mame/cfg
 '20210414':
+- component: KDE Workspace (Plasma)
+  create_time: 20210416T15:43:00
+  id: 1184902
+  resolution: ''
+  status: NEW
+  summary: In KDE main  menu does not display the Description option for all programs.
+- component: Basesystem
+  create_time: 20210416T15:03:00
+  id: 1184899
+  resolution: ''
+  status: NEW
+  summary: tests of subversion does not work with file 5.40
+- component: YaST2
+  create_time: 20210416T14:59:00
+  id: 1184897
+  resolution: FIXED
+  status: RESOLVED
+  summary: files duplicate waste in yast2* packages
+- component: Basesystem
+  create_time: 20210416T14:13:00
+  id: 1184891
+  resolution: ''
+  status: NEW
+  summary: XZ test of libmodulemd does not work with file 5.40
+- component: Basesystem
+  create_time: 20210416T14:07:00
+  id: 1184890
+  resolution: ''
+  status: NEW
+  summary: JeOS-efi image is not resized when booted on real hardware
 - component: Basesystem
   create_time: 20210416T13:57:00
   id: 1184888
@@ -56388,8 +56418,8 @@
 - component: Installation
   create_time: 20210416T11:35:00
   id: 1184867
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: NXP i.MX8MM missing kernel modules in initrd
 - component: KDE Workspace (Plasma)
   create_time: 20210416T11:34:00
