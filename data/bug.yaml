@@ -43505,8 +43505,8 @@
 - component: X11 Applications
   create_time: 20200713T00:59:00
   id: 1174055
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: 'Suse Tumbleweed: After update Chromium/ various games not working. GLX
     issue?'
 '20200714':
@@ -56589,8 +56589,8 @@
 - component: Other
   create_time: 20210415T15:50:00
   id: 1184821
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: zypper doesn't find 'tesseract-ocr-deu'
 - component: KDE Workspace (Plasma)
   create_time: 20210415T14:30:00
