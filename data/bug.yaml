@@ -56415,6 +56415,18 @@
   status: RESOLVED
   summary: rpm-config-SUSE-0.g76.tar.xz break build in Base:System
 '20210415':
+- component: Basesystem
+  create_time: 20210417T11:36:00
+  id: 1184918
+  resolution: ''
+  status: NEW
+  summary: koy keyboard layout does not work properly
+- component: Basesystem
+  create_time: 20210417T09:21:00
+  id: 1184915
+  resolution: ''
+  status: NEW
+  summary: fwupd uses RTC time instead of local time
 - component: KDE Workspace (Plasma)
   create_time: 20210416T15:43:00
   id: 1184902
