@@ -56424,8 +56424,8 @@
 - component: Basesystem
   create_time: 20210417T09:21:00
   id: 1184915
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: fwupd uses RTC time instead of local time
 - component: KDE Workspace (Plasma)
   create_time: 20210416T15:43:00
