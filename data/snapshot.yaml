@@ -96,24 +96,24 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - gcc10
-  - plasma5-workspace
-  - plasma-framework
-  - gtk3-devel
+  - gnome-builder
   - kate
-  - Mesa
-  - xf86-video-ati
   - libqt5-qtbase-devel
   - xorg-x11-server
-  - xf86-video-nouveau
-  - xf86-video-amdgpu
-  - gcc9
-  - llvm
-  - kernel-source
   - gcc11
+  - plasma-framework
+  - llvm
+  - gtk3-devel
+  - xf86-video-ati
   - gcc
+  - gcc9
+  - xf86-video-amdgpu
+  - kernel-source
+  - plasma5-workspace
+  - gcc10
+  - Mesa
   - xf86-video-intel
-  - gnome-builder
+  - xf86-video-nouveau
   binary_unique_count: 48757
   disk_base: 50.2GiB
   disk_shared: unknown
@@ -190,8 +190,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - kernel-source
   - plasma-framework
+  - kernel-source
   binary_unique_count: 1564
   disk_base: 5.1GiB
   disk_shared: unknown
@@ -267,8 +267,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - xf86-video-ati
   - plasma5-workspace
+  - xf86-video-ati
   binary_unique_count: 777
   disk_base: 2.1GiB
   disk_shared: unknown
@@ -345,16 +345,16 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
+  - gnome-builder
+  - kate
+  - gcc11
+  - gcc9
+  - xf86-video-amdgpu
+  - kernel-source
   - gcc10
   - Mesa
-  - kate
-  - xf86-video-nouveau
-  - xf86-video-amdgpu
-  - gcc9
-  - kernel-source
-  - gcc11
   - xf86-video-intel
-  - gnome-builder
+  - xf86-video-nouveau
   binary_unique_count: 31569
   disk_base: 37.9GiB
   disk_shared: unknown
@@ -509,12 +509,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - plasma5-workspace
-  - plasma-framework
-  - Mesa
-  - libqt5-qtbase-devel
-  - kernel-source
   - gnome-builder
+  - libqt5-qtbase-devel
+  - plasma-framework
+  - plasma5-workspace
+  - Mesa
+  - kernel-source
   binary_unique_count: 4700
   disk_base: 7.4GiB
   disk_shared: unknown
