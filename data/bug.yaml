@@ -56415,6 +56415,13 @@
   status: RESOLVED
   summary: rpm-config-SUSE-0.g76.tar.xz break build in Base:System
 '20210415':
+- component: Samba
+  create_time: 20210417T16:19:00
+  id: 1184919
+  resolution: ''
+  status: NEW
+  summary: 'samba4 does not start: ldb: module version mismatch ... ldb_version=2.2.1
+    module_version=2.2.0'
 - component: Basesystem
   create_time: 20210417T11:36:00
   id: 1184918
