@@ -55210,7 +55210,7 @@
   create_time: 20210318T14:24:00
   id: 1183717
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: u-boot fails to read btrfs
 - component: Kernel
   create_time: 20210318T14:15:00
