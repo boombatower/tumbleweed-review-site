@@ -54280,8 +54280,8 @@
 - component: Other
   create_time: 20210304T15:22:00
   id: 1183047
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210303] wsdd: missing pre script dependenices to create users'
 - component: Basesystem
   create_time: 20210304T14:18:00
@@ -56550,7 +56550,7 @@
   resolution: ''
   status: NEW
   summary: gnome-shell-classic-session package is empty (minus the COPYING file) and
-    could be remove
+    could be removed?
 - component: Basesystem
   create_time: 20210418T13:09:00
   id: 1184932
