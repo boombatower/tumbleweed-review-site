@@ -55760,8 +55760,8 @@
 - component: GNOME
   create_time: 20210329T08:29:00
   id: 1184104
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: GNOME 40 gvfs SLE patches rebase.
 - component: GNOME
   create_time: 20210329T08:28:00
@@ -56415,6 +56415,12 @@
   status: RESOLVED
   summary: rpm-config-SUSE-0.g76.tar.xz break build in Base:System
 '20210415':
+- component: X11 Applications
+  create_time: 20210418T07:58:00
+  id: 1184922
+  resolution: ''
+  status: NEW
+  summary: calibre crashes all the time after system upgrade
 - component: Other
   create_time: 20210418T02:19:00
   id: 1184921
