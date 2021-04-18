@@ -56415,6 +56415,154 @@
   status: RESOLVED
   summary: rpm-config-SUSE-0.g76.tar.xz break build in Base:System
 '20210415':
+- component: Development
+  create_time: 20210415T22:42:00
+  id: 1184838
+  resolution: ''
+  status: IN_PROGRESS
+  summary: openQA AppArmor profile has recursive include
+- component: Network
+  create_time: 20210415T22:30:00
+  id: 1184836
+  resolution: ''
+  status: NEW
+  summary: Sudden utterly random behavior of multiple unrelated system functions
+- component: Development
+  create_time: 20210415T19:15:00
+  id: 1184833
+  resolution: ''
+  status: NEW
+  summary: 'lto1: Internal compiler error'
+- component: Apache
+  create_time: 20210415T17:46:00
+  id: 1184827
+  resolution: ''
+  status: NEW
+  summary: change for system-user-wwwrun-20170617-21.2.noarch
+- component: KDE Applications
+  create_time: 20210415T17:43:00
+  id: 1184826
+  resolution: ''
+  status: NEW
+  summary: included scripts don't work in konversation
+- component: Other
+  create_time: 20210415T16:41:00
+  id: 1184825
+  resolution: ''
+  status: NEW
+  summary: Kicad crash when open simulation tool
+- component: Basesystem
+  create_time: 20210415T16:03:00
+  id: 1184824
+  resolution: ''
+  status: NEW
+  summary: graphviz no longer supports png?
+- component: Other
+  create_time: 20210415T15:58:00
+  id: 1184823
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Kiwi overwrites CMD/subcommand with /bin/bash in derived containers
+- component: Other
+  create_time: 20210415T15:50:00
+  id: 1184821
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: zypper doesn't find 'tesseract-ocr-deu'
+- component: KDE Workspace (Plasma)
+  create_time: 20210415T14:30:00
+  id: 1184817
+  resolution: ''
+  status: NEW
+  summary: Whole system stopped responding and went berserk, first reboot failed
+- component: Kernel
+  create_time: 20210415T12:42:00
+  id: 1184804
+  resolution: ''
+  status: NEW
+  summary: move kernel out of /boot
+- component: Virtualization:Other
+  create_time: 20210415T12:07:00
+  id: 1184801
+  resolution: ''
+  status: NEW
+  summary: OVMF in Tumbleweed does crash with SEV-ES enabled
+- component: Basesystem
+  create_time: 20210415T11:20:00
+  id: 1184792
+  resolution: ''
+  status: NEW
+  summary: 'GCC 11: ceph package fails'
+- component: YaST2
+  create_time: 20210415T09:49:00
+  id: 1184788
+  resolution: FIXED
+  status: RESOLVED
+  summary: armv7 misses grub2 efi subvolume
+- component: Basesystem
+  create_time: 20210415T09:06:00
+  id: 1184787
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Deduplicate directory ownership with filesystem package
+- component: Basesystem
+  create_time: 20210415T09:06:00
+  id: 1184786
+  resolution: ''
+  status: NEW
+  summary: Deduplicate directory ownership with filesystem package
+- component: Kernel
+  create_time: 20210415T08:48:00
+  id: 1184782
+  resolution: ''
+  status: NEW
+  summary: 'Emergency mode during boot with "mount(2) system call failed: Cannot allocate
+    memory"'
+- component: AppArmor
+  create_time: 20210415T08:27:00
+  id: 1184779
+  resolution: ''
+  status: CONFIRMED
+  summary: apparmor startup fails during boot with "Too many open files" if an include
+    file includes itsself
+- component: Other
+  create_time: 20210415T08:12:00
+  id: 1184776
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210414] rmt server fails to launch'
+- component: X11 Applications
+  create_time: 20210415T07:25:00
+  id: 1184773
+  resolution: FIXED
+  status: RESOLVED
+  summary: workrave crashes GNOME on startup on Wayland
+- component: Kernel
+  create_time: 20210415T02:14:00
+  id: 1184767
+  resolution: ''
+  status: NEW
+  summary: Several firmwares missing when installing MicroOS
+'20210416':
+- component: GNOME
+  create_time: 20210418T13:18:00
+  id: 1184933
+  resolution: ''
+  status: NEW
+  summary: gnome-shell-classic-session package is empty (minus the COPYING file) and
+    could be remove
+- component: Basesystem
+  create_time: 20210418T13:09:00
+  id: 1184932
+  resolution: ''
+  status: NEW
+  summary: Remnants of python2 stack still present (after "zypper dup")
+- component: GNOME
+  create_time: 20210418T13:03:00
+  id: 1184931
+  resolution: ''
+  status: NEW
+  summary: Remnants of gtk2 stack still present
 - component: X11 Applications
   create_time: 20210418T07:58:00
   id: 1184922
@@ -56569,131 +56717,3 @@
   status: NEW
   summary: After last update on thumbleweed 15.04.2021 autostart did not work (from
     /etc/xdg/autostart)
-- component: Development
-  create_time: 20210415T22:42:00
-  id: 1184838
-  resolution: ''
-  status: IN_PROGRESS
-  summary: openQA AppArmor profile has recursive include
-- component: Network
-  create_time: 20210415T22:30:00
-  id: 1184836
-  resolution: ''
-  status: NEW
-  summary: Sudden utterly random behavior of multiple unrelated system functions
-- component: Development
-  create_time: 20210415T19:15:00
-  id: 1184833
-  resolution: ''
-  status: NEW
-  summary: 'lto1: Internal compiler error'
-- component: Apache
-  create_time: 20210415T17:46:00
-  id: 1184827
-  resolution: ''
-  status: NEW
-  summary: change for system-user-wwwrun-20170617-21.2.noarch
-- component: KDE Applications
-  create_time: 20210415T17:43:00
-  id: 1184826
-  resolution: ''
-  status: NEW
-  summary: included scripts don't work in konversation
-- component: Other
-  create_time: 20210415T16:41:00
-  id: 1184825
-  resolution: ''
-  status: NEW
-  summary: Kicad crash when open simulation tool
-- component: Basesystem
-  create_time: 20210415T16:03:00
-  id: 1184824
-  resolution: ''
-  status: NEW
-  summary: graphviz no longer supports png?
-- component: Other
-  create_time: 20210415T15:58:00
-  id: 1184823
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Kiwi overwrites CMD/subcommand with /bin/bash in derived containers
-- component: Other
-  create_time: 20210415T15:50:00
-  id: 1184821
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: zypper doesn't find 'tesseract-ocr-deu'
-- component: KDE Workspace (Plasma)
-  create_time: 20210415T14:30:00
-  id: 1184817
-  resolution: ''
-  status: NEW
-  summary: Whole system stopped responding and went berserk, first reboot failed
-- component: Kernel
-  create_time: 20210415T12:42:00
-  id: 1184804
-  resolution: ''
-  status: NEW
-  summary: move kernel out of /boot
-- component: Virtualization:Other
-  create_time: 20210415T12:07:00
-  id: 1184801
-  resolution: ''
-  status: NEW
-  summary: OVMF in Tumbleweed does crash with SEV-ES enabled
-- component: Basesystem
-  create_time: 20210415T11:20:00
-  id: 1184792
-  resolution: ''
-  status: NEW
-  summary: 'GCC 11: ceph package fails'
-- component: YaST2
-  create_time: 20210415T09:49:00
-  id: 1184788
-  resolution: FIXED
-  status: RESOLVED
-  summary: armv7 misses grub2 efi subvolume
-- component: Basesystem
-  create_time: 20210415T09:06:00
-  id: 1184787
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Deduplicate directory ownership with filesystem package
-- component: Basesystem
-  create_time: 20210415T09:06:00
-  id: 1184786
-  resolution: ''
-  status: NEW
-  summary: Deduplicate directory ownership with filesystem package
-- component: Kernel
-  create_time: 20210415T08:48:00
-  id: 1184782
-  resolution: ''
-  status: NEW
-  summary: 'Emergency mode during boot with "mount(2) system call failed: Cannot allocate
-    memory"'
-- component: AppArmor
-  create_time: 20210415T08:27:00
-  id: 1184779
-  resolution: ''
-  status: CONFIRMED
-  summary: apparmor startup fails during boot with "Too many open files" if an include
-    file includes itsself
-- component: Other
-  create_time: 20210415T08:12:00
-  id: 1184776
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210414] rmt server fails to launch'
-- component: X11 Applications
-  create_time: 20210415T07:25:00
-  id: 1184773
-  resolution: FIXED
-  status: RESOLVED
-  summary: workrave crashes GNOME on startup on Wayland
-- component: Kernel
-  create_time: 20210415T02:14:00
-  id: 1184767
-  resolution: ''
-  status: NEW
-  summary: Several firmwares missing when installing MicroOS
