@@ -56415,6 +56415,12 @@
   status: RESOLVED
   summary: rpm-config-SUSE-0.g76.tar.xz break build in Base:System
 '20210415':
+- component: Other
+  create_time: 20210418T02:19:00
+  id: 1184921
+  resolution: ''
+  status: NEW
+  summary: Please add this TLS patch from Trinity (if applicable)
 - component: Samba
   create_time: 20210417T16:19:00
   id: 1184919
