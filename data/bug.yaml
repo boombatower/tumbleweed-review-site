@@ -56554,8 +56554,8 @@
 - component: Basesystem
   create_time: 20210418T13:09:00
   id: 1184932
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Remnants of python2 stack still present (after "zypper dup")
 - component: GNOME
   create_time: 20210418T13:03:00
