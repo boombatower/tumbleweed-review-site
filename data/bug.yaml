@@ -49056,7 +49056,7 @@
   create_time: 20201110T17:19:00
   id: 1178637
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: clazy crashes with libclang11/libLLVM11
 - component: Kernel
   create_time: 20201110T16:50:00
