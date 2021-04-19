@@ -56668,6 +56668,13 @@
   summary: After last update on thumbleweed 15.04.2021 autostart did not work (from
     /etc/xdg/autostart)
 '20210417':
+- component: LXDE
+  create_time: 20210419T01:32:00
+  id: 1184937
+  resolution: ''
+  status: NEW
+  summary: lxsession-edit  segmentation fault error after last several updates in
+    tumbleweed
 - component: GNOME
   create_time: 20210418T13:18:00
   id: 1184933
