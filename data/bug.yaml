@@ -56544,56 +56544,6 @@
   status: NEW
   summary: Several firmwares missing when installing MicroOS
 '20210416':
-- component: GNOME
-  create_time: 20210418T13:18:00
-  id: 1184933
-  resolution: ''
-  status: NEW
-  summary: gnome-shell-classic-session package is empty (minus the COPYING file) and
-    could be removed?
-- component: Basesystem
-  create_time: 20210418T13:09:00
-  id: 1184932
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: Remnants of python2 stack still present (after "zypper dup")
-- component: GNOME
-  create_time: 20210418T13:03:00
-  id: 1184931
-  resolution: ''
-  status: NEW
-  summary: Remnants of gtk2 stack still present
-- component: X11 Applications
-  create_time: 20210418T07:58:00
-  id: 1184922
-  resolution: ''
-  status: NEW
-  summary: calibre crashes all the time after system upgrade
-- component: Other
-  create_time: 20210418T02:19:00
-  id: 1184921
-  resolution: ''
-  status: NEW
-  summary: Please add this TLS patch from Trinity (if applicable)
-- component: Samba
-  create_time: 20210417T16:19:00
-  id: 1184919
-  resolution: ''
-  status: NEW
-  summary: 'samba4 does not start: ldb: module version mismatch ... ldb_version=2.2.1
-    module_version=2.2.0'
-- component: Basesystem
-  create_time: 20210417T11:36:00
-  id: 1184918
-  resolution: ''
-  status: NEW
-  summary: koy keyboard layout does not work properly
-- component: Basesystem
-  create_time: 20210417T09:21:00
-  id: 1184915
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: fwupd uses RTC time instead of local time
 - component: KDE Workspace (Plasma)
   create_time: 20210416T15:43:00
   id: 1184902
@@ -56717,3 +56667,54 @@
   status: NEW
   summary: After last update on thumbleweed 15.04.2021 autostart did not work (from
     /etc/xdg/autostart)
+'20210417':
+- component: GNOME
+  create_time: 20210418T13:18:00
+  id: 1184933
+  resolution: ''
+  status: NEW
+  summary: gnome-shell-classic-session package is empty (minus the COPYING file) and
+    could be removed?
+- component: Basesystem
+  create_time: 20210418T13:09:00
+  id: 1184932
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Remnants of python2 stack still present (after "zypper dup")
+- component: GNOME
+  create_time: 20210418T13:03:00
+  id: 1184931
+  resolution: ''
+  status: NEW
+  summary: Remnants of gtk2 stack still present
+- component: X11 Applications
+  create_time: 20210418T07:58:00
+  id: 1184922
+  resolution: ''
+  status: NEW
+  summary: calibre crashes all the time after system upgrade
+- component: Other
+  create_time: 20210418T02:19:00
+  id: 1184921
+  resolution: ''
+  status: NEW
+  summary: Please add this TLS patch from Trinity (if applicable)
+- component: Samba
+  create_time: 20210417T16:19:00
+  id: 1184919
+  resolution: ''
+  status: NEW
+  summary: 'samba4 does not start: ldb: module version mismatch ... ldb_version=2.2.1
+    module_version=2.2.0'
+- component: Basesystem
+  create_time: 20210417T11:36:00
+  id: 1184918
+  resolution: ''
+  status: NEW
+  summary: koy keyboard layout does not work properly
+- component: Basesystem
+  create_time: 20210417T09:21:00
+  id: 1184915
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: fwupd uses RTC time instead of local time
