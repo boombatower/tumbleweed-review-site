@@ -47982,8 +47982,8 @@
 - component: Other
   create_time: 20201020T09:50:00
   id: 1177923
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20201019] openQA test fails in rstudio_desktop'
 - component: Printing
   create_time: 20201020T08:52:00
@@ -49055,8 +49055,8 @@
 - component: Development
   create_time: 20201110T17:19:00
   id: 1178637
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: clazy crashes with libclang11/libLLVM11
 - component: Kernel
   create_time: 20201110T16:50:00
@@ -50728,8 +50728,8 @@
 - component: Other
   create_time: 20201223T09:18:00
   id: 1180312
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20201222] rstudio uninstallable'
 - component: KDE Applications
   create_time: 20201223T08:35:00
