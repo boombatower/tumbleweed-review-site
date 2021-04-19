@@ -52753,7 +52753,7 @@
   create_time: 20210202T08:20:00
   id: 1181681
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: after update named does not start
 - component: Network
   create_time: 20210202T06:49:00
@@ -55538,8 +55538,8 @@
 - component: Kernel
   create_time: 20210321T16:47:00
   id: 1183838
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Full resolution of the monitor no longer available in 5.11 kernels with
     i9-9900K and Intel display driver
 - component: Basesystem
@@ -56668,6 +56668,12 @@
   summary: After last update on thumbleweed 15.04.2021 autostart did not work (from
     /etc/xdg/autostart)
 '20210417':
+- component: Other
+  create_time: 20210419T12:51:00
+  id: 1184959
+  resolution: ''
+  status: NEW
+  summary: gajim has problems to log into a specific service
 - component: Other
   create_time: 20210419T10:49:00
   id: 1184951
