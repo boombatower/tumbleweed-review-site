@@ -45530,8 +45530,8 @@
 - component: Basesystem
   create_time: 20200830T19:56:00
   id: 1175932
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: tuned issue with new libexec path
 - component: Basesystem
   create_time: 20200830T15:51:00
