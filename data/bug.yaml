@@ -56275,8 +56275,8 @@
 - component: Patterns
   create_time: 20210409T14:41:00
   id: 1184558
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'FL: Please add the "imagewriter" utility to the default installed packages'
 - component: Security
   create_time: 20210409T14:11:00
@@ -56454,8 +56454,8 @@
 - component: Basesystem
   create_time: 20210415T16:03:00
   id: 1184824
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: graphviz no longer supports png?
 - component: Other
   create_time: 20210415T15:58:00
@@ -56668,6 +56668,12 @@
   summary: After last update on thumbleweed 15.04.2021 autostart did not work (from
     /etc/xdg/autostart)
 '20210417':
+- component: Other
+  create_time: 20210419T10:49:00
+  id: 1184951
+  resolution: ''
+  status: NEW
+  summary: 'winegcc regression: missing /usr/include path in 6.6'
 - component: GNOME
   create_time: 20210419T09:33:00
   id: 1184948
@@ -56710,8 +56716,8 @@
 - component: GNOME
   create_time: 20210418T13:03:00
   id: 1184931
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Remnants of gtk2 stack still present
 - component: X11 Applications
   create_time: 20210418T07:58:00
