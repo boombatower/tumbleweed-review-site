@@ -56159,8 +56159,8 @@
 - component: GNOME
   create_time: 20210413T14:46:00
   id: 1184678
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210412] GNOME 40 fails to launch'
 - component: LXDE
   create_time: 20210413T14:01:00
