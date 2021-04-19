@@ -56703,8 +56703,8 @@
 - component: Other
   create_time: 20210418T02:19:00
   id: 1184921
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Please add this TLS patch from Trinity (if applicable)
 - component: Samba
   create_time: 20210417T16:19:00
