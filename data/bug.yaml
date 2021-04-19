@@ -9254,8 +9254,8 @@
 - component: Development
   create_time: 20180606T07:13:00
   id: 1096168
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: LLVM llvm_map_components_to_libnames reports individual libraries instead
     of single "LLVM"
 '20180613':
@@ -56668,6 +56668,12 @@
   summary: After last update on thumbleweed 15.04.2021 autostart did not work (from
     /etc/xdg/autostart)
 '20210417':
+- component: Development
+  create_time: 20210419T07:04:00
+  id: 1184941
+  resolution: ''
+  status: NEW
+  summary: ninja fails in %check in ring 0 for aarch64
 - component: LXDE
   create_time: 20210419T01:32:00
   id: 1184937
@@ -56697,8 +56703,8 @@
 - component: X11 Applications
   create_time: 20210418T07:58:00
   id: 1184922
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: calibre crashes all the time after system upgrade
 - component: Other
   create_time: 20210418T02:19:00
