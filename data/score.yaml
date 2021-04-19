@@ -1910,10 +1910,10 @@
   score: 89
   stability_level: moderate
 '20210212':
-  score: 67
+  score: 66
   stability_level: unstable
 '20210215':
-  score: 84
+  score: 83
   stability_level: moderate
 '20210217':
   score: 87
@@ -2003,5 +2003,5 @@
   score: 95
   stability_level: pending
 '20210417':
-  score: 97
+  score: 96
   stability_level: pending
