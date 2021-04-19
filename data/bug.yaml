@@ -45531,7 +45531,7 @@
   create_time: 20200830T19:56:00
   id: 1175932
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: tuned issue with new libexec path
 - component: Basesystem
   create_time: 20200830T15:51:00
@@ -53614,8 +53614,8 @@
 - component: Other
   create_time: 20210215T00:50:00
   id: 1182231
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: fwupdmgr does not work with Secure Boot, supposedly cannot find shim.efi
     due to /etc/os-release ID field mismatch
 '20210217':
@@ -55708,8 +55708,8 @@
 - component: Other
   create_time: 20210325T08:52:00
   id: 1183981
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: openconnect don't read private key from pkcs11 token after changing glibc
     version.
 - component: Basesystem
@@ -56668,17 +56668,35 @@
   summary: After last update on thumbleweed 15.04.2021 autostart did not work (from
     /etc/xdg/autostart)
 '20210417':
+- component: Kernel
+  create_time: 20210419T16:03:00
+  id: 1184984
+  resolution: ''
+  status: NEW
+  summary: 'Kernel 5.11.12: unable to open usb port ACM0'
+- component: GNOME
+  create_time: 20210419T15:21:00
+  id: 1184980
+  resolution: ''
+  status: NEW
+  summary: Gpaste currently broken with Gnome 40, please apply this fix
+- component: GNOME
+  create_time: 20210419T15:16:00
+  id: 1184979
+  resolution: ''
+  status: NEW
+  summary: Gnome terminal transparency unreadable with non-Adwaita theme
 - component: Other
   create_time: 20210419T12:51:00
   id: 1184959
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: gajim has problems to log into a specific service
 - component: Other
   create_time: 20210419T10:49:00
   id: 1184951
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'winegcc regression: missing /usr/include path in 6.6'
 - component: GNOME
   create_time: 20210419T09:33:00
