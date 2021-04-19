@@ -43089,7 +43089,7 @@
   id: 1173739
   resolution: ''
   status: IN_PROGRESS
-  summary: Update gutenprint to version 5.3.3
+  summary: Update gutenprint from version 5.2 to 5.3
 - component: Development
   create_time: 20200705T23:07:00
   id: 1173737
@@ -52978,8 +52978,8 @@
 - component: libzypp
   create_time: 20210206T11:15:00
   id: 1181874
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: libzypp package fails'
 - component: Basesystem
   create_time: 20210206T11:13:00
@@ -56160,7 +56160,7 @@
   create_time: 20210413T14:46:00
   id: 1184678
   resolution: ''
-  status: IN_PROGRESS
+  status: CONFIRMED
   summary: '[Build 20210412] GNOME 40 fails to launch'
 - component: LXDE
   create_time: 20210413T14:01:00
@@ -56668,6 +56668,19 @@
   summary: After last update on thumbleweed 15.04.2021 autostart did not work (from
     /etc/xdg/autostart)
 '20210417':
+- component: GNOME
+  create_time: 20210419T09:33:00
+  id: 1184948
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210417] Upgrade from 15.x: wrong logo in g-c-c'
+- component: Network
+  create_time: 20210419T08:29:00
+  id: 1184945
+  resolution: ''
+  status: NEW
+  summary: '[Privoxy]: Fail on start "Fatal error: can''t load actions file ''/etc/default.action'':
+    line 710"'
 - component: Development
   create_time: 20210419T07:04:00
   id: 1184941
