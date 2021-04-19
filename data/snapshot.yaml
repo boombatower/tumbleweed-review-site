@@ -45,24 +45,24 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - gcc9
-  - libqt5-qtbase-devel
-  - xorg-x11-server
-  - plasma5-workspace
-  - gcc
-  - gnome-builder
-  - xf86-video-ati
-  - gcc11
-  - gcc10
-  - plasma-framework
-  - xf86-video-intel
-  - gtk3-devel
-  - llvm
-  - kernel-source
-  - Mesa
-  - kate
-  - xf86-video-amdgpu
   - xf86-video-nouveau
+  - Mesa
+  - plasma-framework
+  - gnome-builder
+  - gcc10
+  - kate
+  - gcc11
+  - gcc9
+  - kernel-source
+  - xf86-video-amdgpu
+  - gtk3-devel
+  - libqt5-qtbase-devel
+  - xf86-video-ati
+  - plasma5-workspace
+  - xorg-x11-server
+  - gcc
+  - xf86-video-intel
+  - llvm
   binary_unique_count: 48757
   disk_base: 50.2GiB
   disk_shared: unknown
@@ -139,8 +139,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - kernel-source
   - plasma-framework
+  - kernel-source
   binary_unique_count: 1564
   disk_base: 5.1GiB
   disk_shared: unknown
@@ -294,16 +294,16 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - gcc9
-  - gnome-builder
-  - xf86-video-intel
-  - gcc11
-  - gcc10
-  - kernel-source
-  - Mesa
-  - kate
-  - xf86-video-amdgpu
   - xf86-video-nouveau
+  - Mesa
+  - gnome-builder
+  - gcc10
+  - kate
+  - gcc11
+  - gcc9
+  - kernel-source
+  - xf86-video-amdgpu
+  - xf86-video-intel
   binary_unique_count: 31569
   disk_base: 37.9GiB
   disk_shared: unknown
@@ -406,8 +406,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - kernel-source
   - gcc10
+  - kernel-source
   binary_unique_count: 1611
   disk_base: 5.0GiB
   disk_shared: unknown
@@ -458,12 +458,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
+  - Mesa
+  - plasma-framework
+  - gnome-builder
+  - kernel-source
   - libqt5-qtbase-devel
   - plasma5-workspace
-  - gnome-builder
-  - plasma-framework
-  - kernel-source
-  - Mesa
   binary_unique_count: 4700
   disk_base: 7.4GiB
   disk_shared: unknown
