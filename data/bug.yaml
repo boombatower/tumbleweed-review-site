@@ -47877,7 +47877,7 @@
   create_time: 20201015T11:37:00
   id: 1177744
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Doesn't connect to ethernet network after unplugging and re-plugging cable
 - component: Other
   create_time: 20201015T11:09:00
