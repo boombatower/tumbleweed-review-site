@@ -20,23 +20,23 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - gcc
-  - Mesa
   - gnome-builder
-  - kernel-source
-  - gcc10
-  - gcc11
-  - kate
-  - libqt5-qtbase-devel
-  - xf86-video-amdgpu
-  - llvm
-  - xf86-video-intel
-  - xf86-video-ati
   - xf86-video-nouveau
-  - xorg-x11-server
-  - gcc9
-  - plasma5-workspace
+  - kernel-source
   - gtk3-devel
+  - gcc11
+  - libqt5-qtbase-devel
+  - llvm
+  - Mesa
+  - xf86-video-amdgpu
+  - gcc9
+  - xf86-video-intel
+  - gcc
+  - plasma5-workspace
+  - xf86-video-ati
+  - xorg-x11-server
+  - kate
+  - gcc10
   - plasma-framework
   binary_unique_count: 48757
   disk_base: 50.2GiB
@@ -114,8 +114,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - kernel-source
   - plasma-framework
+  - kernel-source
   binary_unique_count: 1564
   disk_base: 5.1GiB
   disk_shared: unknown
@@ -191,8 +191,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - xf86-video-ati
   - plasma5-workspace
+  - xf86-video-ati
   binary_unique_count: 777
   disk_base: 2.1GiB
   disk_shared: unknown
@@ -269,16 +269,16 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - Mesa
   - gnome-builder
+  - xf86-video-nouveau
   - kernel-source
-  - kate
-  - gcc10
   - gcc11
   - xf86-video-intel
-  - xf86-video-nouveau
-  - gcc9
   - xf86-video-amdgpu
+  - Mesa
+  - gcc9
+  - kate
+  - gcc10
   binary_unique_count: 31569
   disk_base: 37.9GiB
   disk_shared: unknown
@@ -381,8 +381,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - kernel-source
   - gcc10
+  - kernel-source
   binary_unique_count: 1611
   disk_base: 5.0GiB
   disk_shared: unknown
@@ -433,10 +433,10 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - Mesa
   - gnome-builder
   - kernel-source
   - libqt5-qtbase-devel
+  - Mesa
   - plasma5-workspace
   - plasma-framework
   binary_unique_count: 4700
@@ -539,11 +539,11 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - Mesa
   - kernel-source
-  - xf86-video-amdgpu
-  - libqt5-qtbase-devel
   - gtk3-devel
+  - libqt5-qtbase-devel
+  - xf86-video-amdgpu
+  - Mesa
   binary_unique_count: 2666
   disk_base: 4.9GiB
   disk_shared: unknown
