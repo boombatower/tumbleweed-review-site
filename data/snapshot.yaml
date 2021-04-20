@@ -20,24 +20,24 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - llvm
   - xf86-video-nouveau
   - gcc11
-  - gcc10
-  - kate
-  - libqt5-qtbase-devel
-  - Mesa
-  - xf86-video-intel
-  - xf86-video-amdgpu
-  - gtk3-devel
-  - xorg-x11-server
-  - gnome-builder
-  - gcc
-  - plasma5-workspace
-  - kernel-source
-  - gcc9
-  - xf86-video-ati
   - plasma-framework
+  - gtk3-devel
+  - gcc10
+  - xf86-video-amdgpu
+  - gnome-builder
+  - gcc9
+  - gcc
+  - kate
+  - llvm
+  - Mesa
+  - plasma5-workspace
+  - xf86-video-ati
+  - libqt5-qtbase-devel
+  - xf86-video-intel
+  - kernel-source
+  - xorg-x11-server
   binary_unique_count: 48757
   disk_base: 50.2GiB
   disk_shared: unknown
@@ -114,8 +114,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - kernel-source
   - plasma-framework
+  - kernel-source
   binary_unique_count: 1564
   disk_base: 5.1GiB
   disk_shared: unknown
@@ -272,13 +272,13 @@
   - xf86-video-nouveau
   - gcc11
   - gcc10
-  - kate
-  - Mesa
-  - xf86-video-intel
   - xf86-video-amdgpu
-  - gnome-builder
-  - kernel-source
   - gcc9
+  - gnome-builder
+  - Mesa
+  - kate
+  - xf86-video-intel
+  - kernel-source
   binary_unique_count: 31569
   disk_base: 37.9GiB
   disk_shared: unknown
@@ -381,8 +381,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - kernel-source
   - gcc10
+  - kernel-source
   binary_unique_count: 1611
   disk_base: 5.0GiB
   disk_shared: unknown
@@ -433,12 +433,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - libqt5-qtbase-devel
-  - Mesa
-  - gnome-builder
-  - plasma5-workspace
-  - kernel-source
   - plasma-framework
+  - gnome-builder
+  - Mesa
+  - plasma5-workspace
+  - libqt5-qtbase-devel
+  - kernel-source
   binary_unique_count: 4700
   disk_base: 7.4GiB
   disk_shared: unknown
@@ -539,10 +539,10 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - libqt5-qtbase-devel
-  - Mesa
-  - xf86-video-amdgpu
   - gtk3-devel
+  - xf86-video-amdgpu
+  - Mesa
+  - libqt5-qtbase-devel
   - kernel-source
   binary_unique_count: 2666
   disk_base: 4.9GiB
