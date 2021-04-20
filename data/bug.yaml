@@ -56387,8 +56387,8 @@
 - component: Other
   create_time: 20210414T09:06:00
   id: 1184709
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please examine the now-disabled patches for kdebase3 by Serghei Amelian
 - component: YaST2
   create_time: 20210414T08:50:00
