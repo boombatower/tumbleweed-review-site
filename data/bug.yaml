@@ -53648,8 +53648,8 @@
 - component: Basesystem
   create_time: 20210218T15:23:00
   id: 1182451
-  resolution: INVALID
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Since glibc 2.33 testing for execute permission does not work
 - component: Other
   create_time: 20210218T15:01:00
@@ -56608,8 +56608,8 @@
 - component: Installation
   create_time: 20210416T11:35:00
   id: 1184867
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: NXP i.MX8MM missing kernel modules in initrd
 - component: KDE Workspace (Plasma)
   create_time: 20210416T11:34:00
