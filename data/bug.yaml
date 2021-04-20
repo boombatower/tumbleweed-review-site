@@ -56608,8 +56608,8 @@
 - component: Installation
   create_time: 20210416T11:35:00
   id: 1184867
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: NXP i.MX8MM missing kernel modules in initrd
 - component: KDE Workspace (Plasma)
   create_time: 20210416T11:34:00
@@ -56688,6 +56688,19 @@
   status: RESOLVED
   summary: fwupd uses RTC time instead of local time
 '20210418':
+- component: Network
+  create_time: 20210420T16:03:00
+  id: 1185036
+  resolution: ''
+  status: NEW
+  summary: Avahi is blocked by firewall by default
+- component: Other
+  create_time: 20210420T15:55:00
+  id: 1185034
+  resolution: ''
+  status: NEW
+  summary: mpv (Official Tumbleweed reop) unable to run after FFmpeg-4 updated to
+    version 4.4 (Packman repo)
 - component: Installation
   create_time: 20210420T12:43:00
   id: 1185023
