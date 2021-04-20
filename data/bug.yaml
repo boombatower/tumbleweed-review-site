@@ -56436,8 +56436,8 @@
 - component: Apache
   create_time: 20210415T17:46:00
   id: 1184827
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: change for system-user-wwwrun-20170617-21.2.noarch
 - component: KDE Applications
   create_time: 20210415T17:43:00
@@ -56688,6 +56688,24 @@
   status: RESOLVED
   summary: fwupd uses RTC time instead of local time
 '20210418':
+- component: Kernel
+  create_time: 20210420T08:00:00
+  id: 1185008
+  resolution: ''
+  status: NEW
+  summary: CPU tainted in dmesg since 5.11
+- component: Firefox
+  create_time: 20210420T07:46:00
+  id: 1185006
+  resolution: ''
+  status: NEW
+  summary: Use ccache for SeaMonkey builds on OBS
+- component: Upgrade Problems
+  create_time: 20210420T06:06:00
+  id: 1184997
+  resolution: ''
+  status: NEW
+  summary: zypper ps -sss no longer works
 - component: Development
   create_time: 20210420T01:57:00
   id: 1184995
