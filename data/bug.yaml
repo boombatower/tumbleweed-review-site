@@ -39013,8 +39013,8 @@
 - component: Kernel
   create_time: 20200409T12:25:00
   id: 1169099
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20200405][aarch64] crash: cannot determine VA_BITS_ACTUAL: please
     use /proc/kcore'
 - component: Kernel
