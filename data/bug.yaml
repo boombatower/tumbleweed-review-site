@@ -56688,6 +56688,12 @@
   status: RESOLVED
   summary: fwupd uses RTC time instead of local time
 '20210418':
+- component: GNOME
+  create_time: 20210420T19:04:00
+  id: 1185040
+  resolution: ''
+  status: NEW
+  summary: 'Gnome 40: wobbly three finger up/down touchpad gestures'
 - component: Network
   create_time: 20210420T16:03:00
   id: 1185036
@@ -56719,7 +56725,7 @@
   resolution: ''
   status: NEW
   summary: Use ccache for SeaMonkey builds on OBS
-- component: Upgrade Problems
+- component: libzypp
   create_time: 20210420T06:06:00
   id: 1184997
   resolution: ''
