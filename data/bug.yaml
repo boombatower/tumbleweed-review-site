@@ -56689,6 +56689,18 @@
   summary: fwupd uses RTC time instead of local time
 '20210418':
 - component: Basesystem
+  create_time: 20210421T20:50:00
+  id: 1185118
+  resolution: ''
+  status: NEW
+  summary: '%attr rule with missing closing paren causes inscrutable error messages'
+- component: Other
+  create_time: 20210421T20:33:00
+  id: 1185117
+  resolution: ''
+  status: NEW
+  summary: DimStar's VLC Repo Issue
+- component: Basesystem
   create_time: 20210421T19:53:00
   id: 1185116
   resolution: ''
