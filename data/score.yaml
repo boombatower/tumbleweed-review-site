@@ -1995,7 +1995,7 @@
   stability_level: moderate
 '20210414':
   score: 91
-  stability_level: pending
+  stability_level: stable
 '20210415':
   score: 94
   stability_level: pending
@@ -2006,5 +2006,5 @@
   score: 98
   stability_level: pending
 '20210418':
-  score: 97
+  score: 96
   stability_level: pending
