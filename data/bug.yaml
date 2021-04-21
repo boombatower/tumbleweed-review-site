@@ -56689,6 +56689,13 @@
   summary: fwupd uses RTC time instead of local time
 '20210418':
 - component: Basesystem
+  create_time: 20210421T19:53:00
+  id: 1185116
+  resolution: ''
+  status: NEW
+  summary: upgrade of libopenssl1_1 and libopenssl1_1-hmac fails with FIPS selftest
+    failure error
+- component: Basesystem
   create_time: 20210421T17:24:00
   id: 1185107
   resolution: ''
