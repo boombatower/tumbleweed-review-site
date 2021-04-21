@@ -56381,8 +56381,8 @@
 - component: Bootloader
   create_time: 20210414T10:20:00
   id: 1184712
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Grub2 fails to build on armv6/armv7
 - component: Other
   create_time: 20210414T09:06:00
@@ -56688,6 +56688,12 @@
   status: RESOLVED
   summary: fwupd uses RTC time instead of local time
 '20210418':
+- component: YaST2
+  create_time: 20210421T09:01:00
+  id: 1185054
+  resolution: ''
+  status: NEW
+  summary: YaST Users ignores given BindDN
 - component: Other
   create_time: 20210421T07:40:00
   id: 1185048
@@ -56741,7 +56747,7 @@
   create_time: 20210420T06:06:00
   id: 1184997
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: zypper ps -sss no longer works
 - component: Development
   create_time: 20210420T01:57:00
