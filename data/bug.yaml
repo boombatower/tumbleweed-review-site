@@ -56689,6 +56689,12 @@
   summary: fwupd uses RTC time instead of local time
 '20210418':
 - component: Other
+  create_time: 20210421T07:40:00
+  id: 1185048
+  resolution: ''
+  status: NEW
+  summary: Install on hi res laptop impossible to read
+- component: Other
   create_time: 20210420T23:08:00
   id: 1185043
   resolution: ''
