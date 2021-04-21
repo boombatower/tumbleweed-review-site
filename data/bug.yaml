@@ -54513,8 +54513,8 @@
 - component: Virtualization:Other
   create_time: 20210310T16:58:00
   id: 1183329
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: virtualbox 6.1.18 crashes when it runs nested VM
 - component: Basesystem
   create_time: 20210310T13:43:00
@@ -56688,6 +56688,12 @@
   status: RESOLVED
   summary: fwupd uses RTC time instead of local time
 '20210418':
+- component: Other
+  create_time: 20210420T23:08:00
+  id: 1185043
+  resolution: ''
+  status: NEW
+  summary: url_handler.sh packaged with urlview does not open url in Firefox
 - component: GNOME
   create_time: 20210420T19:04:00
   id: 1185040
