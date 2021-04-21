@@ -53044,8 +53044,8 @@
 - component: Basesystem
   create_time: 20210206T10:59:00
   id: 1181863
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: bctoolbox package fails'
 - component: Basesystem
   create_time: 20210206T10:57:00
@@ -56490,8 +56490,8 @@
 - component: Basesystem
   create_time: 20210415T11:20:00
   id: 1184792
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'GCC 11: ceph package fails'
 - component: YaST2
   create_time: 20210415T09:49:00
@@ -56688,6 +56688,24 @@
   status: RESOLVED
   summary: fwupd uses RTC time instead of local time
 '20210418':
+- component: Basesystem
+  create_time: 20210421T14:51:00
+  id: 1185103
+  resolution: ''
+  status: NEW
+  summary: 'GCC 11: open-vm-tools package fails'
+- component: Basesystem
+  create_time: 20210421T14:42:00
+  id: 1185101
+  resolution: ''
+  status: NEW
+  summary: 'GCC 11: libqt5-qtwebengine package fails'
+- component: Basesystem
+  create_time: 20210421T14:41:00
+  id: 1185100
+  resolution: ''
+  status: NEW
+  summary: 'GCC 11: libqt5-qtdeclarative package fails'
 - component: GNOME
   create_time: 20210421T11:22:00
   id: 1185082
