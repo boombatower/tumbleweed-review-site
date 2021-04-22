@@ -48389,8 +48389,8 @@
 - component: Kubic
   create_time: 20201028T22:54:00
   id: 1178241
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Building cilium on x86_64 fails after LLVM 11 update
 - component: Sound
   create_time: 20201028T19:18:00
@@ -52689,8 +52689,8 @@
 - component: Development
   create_time: 20210131T22:34:00
   id: 1181621
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: All llvm packages fail to build on ppc64le
 - component: Upgrade Problems
   create_time: 20210131T18:16:00
@@ -56783,6 +56783,18 @@
   status: RESOLVED
   summary: Please add this TLS patch from Trinity (if applicable)
 '20210420':
+- component: Other
+  create_time: 20210422T20:46:00
+  id: 1185201
+  resolution: ''
+  status: NEW
+  summary: firewalld enhancement
+- component: Other
+  create_time: 20210422T20:32:00
+  id: 1185200
+  resolution: ''
+  status: NEW
+  summary: Interesting systemd problem
 - component: YaST2
   create_time: 20210422T19:49:00
   id: 1185199
