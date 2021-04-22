@@ -56783,6 +56783,12 @@
   status: RESOLVED
   summary: Please add this TLS patch from Trinity (if applicable)
 '20210420':
+- component: Other
+  create_time: 20210422T12:28:00
+  id: 1185150
+  resolution: ''
+  status: NEW
+  summary: 'python-M2Crypto: missing dependency on python-parameterized ?'
 - component: Containers
   create_time: 20210422T12:03:00
   id: 1185143
@@ -56792,8 +56798,8 @@
 - component: GNOME
   create_time: 20210422T11:45:00
   id: 1185142
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: GNOME-Boxes 40.0 does not include option to connect to VNC server
 - component: Basesystem
   create_time: 20210421T20:50:00
@@ -56842,8 +56848,8 @@
 - component: Basesystem
   create_time: 20210421T14:42:00
   id: 1185101
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: libqt5-qtwebengine package fails'
 - component: Basesystem
   create_time: 20210421T14:41:00
