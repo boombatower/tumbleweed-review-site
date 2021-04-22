@@ -1949,16 +1949,16 @@
   score: 94
   stability_level: stable
 '20210311':
-  score: 76
+  score: 86
   stability_level: moderate
 '20210312':
-  score: 88
-  stability_level: moderate
+  score: 92
+  stability_level: stable
 '20210315':
-  score: 94
+  score: 96
   stability_level: stable
 '20210316':
-  score: 96
+  score: 97
   stability_level: stable
 '20210317':
   score: 94
