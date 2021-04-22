@@ -55239,8 +55239,8 @@
 - component: YaST2
   create_time: 20210318T13:37:00
   id: 1183711
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 8.3] openQA test fails in await_install: Segfault in libzypp/libsolv
     on upgrade'
 - component: Other
@@ -56331,8 +56331,8 @@
 - component: Kernel
   create_time: 20210408T14:58:00
   id: 1184514
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: kernel-default-devel-5.11.11-1.2.x86_64 does not depend on kernel-default-5.11.11-1.2.x86_64
 - component: AutoYaST
   create_time: 20210408T14:09:00
@@ -56812,7 +56812,7 @@
   create_time: 20210421T17:20:00
   id: 1185106
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Yast2 Network edit brigde error no valid network mask or prefix lengh and
     internal error
 - component: Other
