@@ -56783,6 +56783,12 @@
   status: RESOLVED
   summary: Please add this TLS patch from Trinity (if applicable)
 '20210420':
+- component: YaST2
+  create_time: 20210422T19:49:00
+  id: 1185199
+  resolution: ''
+  status: NEW
+  summary: yast2-iscsi-lio-server unusable - broken package resolution
 - component: Basesystem
   create_time: 20210422T15:49:00
   id: 1185192
