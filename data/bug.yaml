@@ -56783,6 +56783,31 @@
   status: RESOLVED
   summary: Please add this TLS patch from Trinity (if applicable)
 '20210420':
+- component: Basesystem
+  create_time: 20210422T15:49:00
+  id: 1185192
+  resolution: ''
+  status: NEW
+  summary: Generated keymaps are incorrect and cannot be loaded with loadkeys
+- component: Printing
+  create_time: 20210422T15:47:00
+  id: 1185191
+  resolution: ''
+  status: NEW
+  summary: 'Can''t download hplip plugin: file does not match its checksum'
+- component: Kernel
+  create_time: 20210422T14:17:00
+  id: 1185174
+  resolution: ''
+  status: NEW
+  summary: '[i815] kernel 5.11: Xorg fails to run: open /dev/dri/card0: No such file
+    or directory; (EE) GARTInit: Unable to open /dev/agpgart (No such file or directory)'
+- component: Containers
+  create_time: 20210422T14:06:00
+  id: 1185167
+  resolution: ''
+  status: NEW
+  summary: Failed to find cpuset / memory cgroup
 - component: Other
   create_time: 20210422T12:28:00
   id: 1185150
@@ -56851,7 +56876,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'GCC 11: libqt5-qtwebengine package fails'
-- component: Basesystem
+- component: KDE Workspace (Plasma)
   create_time: 20210421T14:41:00
   id: 1185100
   resolution: ''
