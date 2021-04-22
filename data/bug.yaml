@@ -56688,6 +56688,94 @@
   status: RESOLVED
   summary: fwupd uses RTC time instead of local time
 '20210418':
+- component: Kernel
+  create_time: 20210419T16:03:00
+  id: 1184984
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'Kernel 5.11.12: unable to open usb port ACM0'
+- component: GNOME
+  create_time: 20210419T15:21:00
+  id: 1184980
+  resolution: ''
+  status: NEW
+  summary: Gpaste currently broken with Gnome 40, please apply this fix
+- component: GNOME
+  create_time: 20210419T15:16:00
+  id: 1184979
+  resolution: ''
+  status: NEW
+  summary: Gnome terminal transparency unreadable with non-Adwaita theme
+- component: Other
+  create_time: 20210419T12:51:00
+  id: 1184959
+  resolution: INVALID
+  status: RESOLVED
+  summary: gajim has problems to log into a specific service
+- component: Other
+  create_time: 20210419T10:49:00
+  id: 1184951
+  resolution: ''
+  status: CONFIRMED
+  summary: 'winegcc regression: missing /usr/include path in 6.6'
+- component: GNOME
+  create_time: 20210419T09:33:00
+  id: 1184948
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210417] Upgrade from 15.x: wrong logo in g-c-c'
+- component: Network
+  create_time: 20210419T08:29:00
+  id: 1184945
+  resolution: ''
+  status: NEW
+  summary: '[Privoxy]: Fail on start "Fatal error: can''t load actions file ''/etc/default.action'':
+    line 710"'
+- component: Development
+  create_time: 20210419T07:04:00
+  id: 1184941
+  resolution: ''
+  status: NEW
+  summary: ninja fails in %check in ring 0 for aarch64
+- component: LXDE
+  create_time: 20210419T01:32:00
+  id: 1184937
+  resolution: ''
+  status: NEW
+  summary: lxsession-edit  segmentation fault error after last several updates in
+    tumbleweed
+- component: GNOME
+  create_time: 20210418T13:18:00
+  id: 1184933
+  resolution: ''
+  status: NEW
+  summary: gnome-shell-classic-session package is empty (minus the COPYING file) and
+    could be removed?
+- component: Basesystem
+  create_time: 20210418T13:09:00
+  id: 1184932
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Remnants of python2 stack still present (after "zypper dup")
+- component: GNOME
+  create_time: 20210418T13:03:00
+  id: 1184931
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Remnants of gtk2 stack still present
+- component: X11 Applications
+  create_time: 20210418T07:58:00
+  id: 1184922
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: calibre crashes all the time after system upgrade
+- component: Other
+  create_time: 20210418T02:19:00
+  id: 1184921
+  resolution: INVALID
+  status: RESOLVED
+  summary: Please add this TLS patch from Trinity (if applicable)
+'20210420':
 - component: Basesystem
   create_time: 20210421T20:50:00
   id: 1185118
@@ -56823,90 +56911,3 @@
   resolution: ''
   status: NEW
   summary: gasnet build varies between hosts
-- component: Kernel
-  create_time: 20210419T16:03:00
-  id: 1184984
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'Kernel 5.11.12: unable to open usb port ACM0'
-- component: GNOME
-  create_time: 20210419T15:21:00
-  id: 1184980
-  resolution: ''
-  status: NEW
-  summary: Gpaste currently broken with Gnome 40, please apply this fix
-- component: GNOME
-  create_time: 20210419T15:16:00
-  id: 1184979
-  resolution: ''
-  status: NEW
-  summary: Gnome terminal transparency unreadable with non-Adwaita theme
-- component: Other
-  create_time: 20210419T12:51:00
-  id: 1184959
-  resolution: INVALID
-  status: RESOLVED
-  summary: gajim has problems to log into a specific service
-- component: Other
-  create_time: 20210419T10:49:00
-  id: 1184951
-  resolution: ''
-  status: CONFIRMED
-  summary: 'winegcc regression: missing /usr/include path in 6.6'
-- component: GNOME
-  create_time: 20210419T09:33:00
-  id: 1184948
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210417] Upgrade from 15.x: wrong logo in g-c-c'
-- component: Network
-  create_time: 20210419T08:29:00
-  id: 1184945
-  resolution: ''
-  status: NEW
-  summary: '[Privoxy]: Fail on start "Fatal error: can''t load actions file ''/etc/default.action'':
-    line 710"'
-- component: Development
-  create_time: 20210419T07:04:00
-  id: 1184941
-  resolution: ''
-  status: NEW
-  summary: ninja fails in %check in ring 0 for aarch64
-- component: LXDE
-  create_time: 20210419T01:32:00
-  id: 1184937
-  resolution: ''
-  status: NEW
-  summary: lxsession-edit  segmentation fault error after last several updates in
-    tumbleweed
-- component: GNOME
-  create_time: 20210418T13:18:00
-  id: 1184933
-  resolution: ''
-  status: NEW
-  summary: gnome-shell-classic-session package is empty (minus the COPYING file) and
-    could be removed?
-- component: Basesystem
-  create_time: 20210418T13:09:00
-  id: 1184932
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: Remnants of python2 stack still present (after "zypper dup")
-- component: GNOME
-  create_time: 20210418T13:03:00
-  id: 1184931
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: Remnants of gtk2 stack still present
-- component: X11 Applications
-  create_time: 20210418T07:58:00
-  id: 1184922
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: calibre crashes all the time after system upgrade
-- component: Other
-  create_time: 20210418T02:19:00
-  id: 1184921
-  resolution: INVALID
-  status: RESOLVED
-  summary: Please add this TLS patch from Trinity (if applicable)
