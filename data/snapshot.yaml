@@ -1,46 +1,3 @@
-'20210311':
-  binary_count: 111068
-  binary_interest:
-    Mesa: 20.3.4
-    gcc: '10'
-    gcc10: 10.2.1+git1331
-    gcc11: 11.0.0+git183291
-    gcc9: 9.3.1+git1684
-    gnome-builder: 3.38.2
-    gtk3-devel: 3.24.25
-    kate: 20.12.3
-    kernel-source: 5.11.4
-    libqt5-qtbase-devel: 5.15.2
-    llvm: 11.0.1
-    plasma-framework: 5.79.0
-    plasma5-workspace: 5.21.2
-    xf86-video-amdgpu: 19.1.0
-    xf86-video-ati: 19.1.0
-    xf86-video-intel: 2.99.917+git8674.25c9a2fcc
-    xf86-video-nouveau: 1.0.17
-    xorg-x11-server: 1.20.10
-  binary_interest_changed:
-  - plasma5-workspace
-  - gcc11
-  - Mesa
-  - gcc
-  - gtk3-devel
-  - gnome-builder
-  - gcc9
-  - kate
-  - xf86-video-amdgpu
-  - xf86-video-ati
-  - xf86-video-intel
-  - xf86-video-nouveau
-  - xorg-x11-server
-  - gcc10
-  - llvm
-  - plasma-framework
-  - kernel-source
-  - libqt5-qtbase-devel
-  binary_unique_count: 48757
-  disk_base: 50.2GiB
-  disk_shared: unknown
 '20210312':
   binary_count: 112213
   binary_interest:
@@ -269,15 +226,15 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - gcc11
-  - Mesa
-  - xf86-video-nouveau
-  - gnome-builder
-  - gcc9
   - kate
+  - gcc9
+  - gcc11
+  - gnome-builder
+  - xf86-video-nouveau
   - xf86-video-amdgpu
-  - xf86-video-intel
+  - Mesa
   - gcc10
+  - xf86-video-intel
   - kernel-source
   binary_unique_count: 31569
   disk_base: 37.9GiB
@@ -433,12 +390,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - plasma5-workspace
-  - Mesa
+  - libqt5-qtbase-devel
   - gnome-builder
+  - Mesa
+  - plasma5-workspace
   - plasma-framework
   - kernel-source
-  - libqt5-qtbase-devel
   binary_unique_count: 4700
   disk_base: 7.4GiB
   disk_shared: unknown
@@ -539,11 +496,11 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - Mesa
   - gtk3-devel
-  - xf86-video-amdgpu
-  - kernel-source
   - libqt5-qtbase-devel
+  - xf86-video-amdgpu
+  - Mesa
+  - kernel-source
   binary_unique_count: 2666
   disk_base: 4.9GiB
   disk_shared: unknown
