@@ -56879,8 +56879,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20210421T14:41:00
   id: 1185100
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: libqt5-qtdeclarative package fails'
 - component: GNOME
   create_time: 20210421T11:22:00
