@@ -55809,8 +55809,8 @@
 - component: GNOME
   create_time: 20210329T08:15:00
   id: 1184096
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: GNOME 40 gcr SLE patches rebase.
 - component: GNOME
   create_time: 20210329T08:12:00
@@ -56836,7 +56836,7 @@
   create_time: 20210421T11:22:00
   id: 1185082
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: gnome-terminal crash when opening URL
 - component: KDE Workspace (Plasma)
   create_time: 20210421T10:41:00
