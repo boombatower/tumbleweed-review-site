@@ -45283,7 +45283,7 @@
   create_time: 20200821T22:50:00
   id: 1175627
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: When kdeconnect-kde package is installed, automatically allow its services
     through the firewall
 - component: Basesystem
@@ -48389,8 +48389,8 @@
 - component: Kubic
   create_time: 20201028T22:54:00
   id: 1178241
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Building cilium on x86_64 fails after LLVM 11 update
 - component: Sound
   create_time: 20201028T19:18:00
@@ -56575,7 +56575,7 @@
   resolution: ''
   status: NEW
   summary: XZ test of libmodulemd does not work with file 5.40
-- component: Basesystem
+- component: Installation
   create_time: 20210416T14:07:00
   id: 1184890
   resolution: ''
@@ -56685,8 +56685,8 @@
 - component: X.Org
   create_time: 20210417T11:36:00
   id: 1184918
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: INVALID
+  status: RESOLVED
   summary: koy keyboard layout does not work properly
 - component: Basesystem
   create_time: 20210417T09:21:00
@@ -56783,6 +56783,148 @@
   status: RESOLVED
   summary: Please add this TLS patch from Trinity (if applicable)
 '20210420':
+- component: Basesystem
+  create_time: 20210421T20:50:00
+  id: 1185118
+  resolution: ''
+  status: NEW
+  summary: '%attr rule with missing closing paren causes inscrutable error messages'
+- component: Other
+  create_time: 20210421T20:33:00
+  id: 1185117
+  resolution: FIXED
+  status: RESOLVED
+  summary: DimStar's VLC Repo Issue
+- component: Security
+  create_time: 20210421T19:53:00
+  id: 1185116
+  resolution: ''
+  status: NEW
+  summary: upgrade of libopenssl1_1 and libopenssl1_1-hmac fails with FIPS selftest
+    failure error
+- component: Basesystem
+  create_time: 20210421T17:24:00
+  id: 1185107
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build 20210418] Display manager fails to start lightdm on zVM'
+- component: YaST2
+  create_time: 20210421T17:20:00
+  id: 1185106
+  resolution: FIXED
+  status: RESOLVED
+  summary: Yast2 Network edit brigde error no valid network mask or prefix lengh and
+    internal error
+- component: KDE Workspace (Plasma)
+  create_time: 20210421T17:11:00
+  id: 1185105
+  resolution: ''
+  status: NEW
+  summary: Some key sequences produce loud BEEP from internal speaker
+- component: Basesystem
+  create_time: 20210421T14:51:00
+  id: 1185103
+  resolution: ''
+  status: NEW
+  summary: 'GCC 11: open-vm-tools package fails'
+- component: Basesystem
+  create_time: 20210421T14:42:00
+  id: 1185101
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'GCC 11: libqt5-qtwebengine package fails'
+- component: KDE Workspace (Plasma)
+  create_time: 20210421T14:41:00
+  id: 1185100
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'GCC 11: libqt5-qtdeclarative package fails'
+- component: GNOME
+  create_time: 20210421T11:22:00
+  id: 1185082
+  resolution: FIXED
+  status: RESOLVED
+  summary: gnome-terminal crash when opening URL
+- component: KDE Workspace (Plasma)
+  create_time: 20210421T10:41:00
+  id: 1185077
+  resolution: ''
+  status: NEW
+  summary: Screen locker is broken and unlocking is not possible anymore
+- component: YaST2
+  create_time: 20210421T09:01:00
+  id: 1185054
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST Users ignores given BindDN
+- component: Installation
+  create_time: 20210421T07:40:00
+  id: 1185048
+  resolution: ''
+  status: NEW
+  summary: Install on hi res laptop impossible to read
+- component: Other
+  create_time: 20210420T23:08:00
+  id: 1185043
+  resolution: ''
+  status: NEW
+  summary: url_handler.sh packaged with urlview does not open url in Firefox
+- component: GNOME
+  create_time: 20210420T19:04:00
+  id: 1185040
+  resolution: ''
+  status: NEW
+  summary: 'Gnome 40: wobbly three finger up/down touchpad gestures'
+- component: Network
+  create_time: 20210420T16:03:00
+  id: 1185036
+  resolution: ''
+  status: NEW
+  summary: Avahi is blocked by firewall by default
+- component: Other
+  create_time: 20210420T15:55:00
+  id: 1185034
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: mpv (Official Tumbleweed reop) unable to run after FFmpeg-4 updated to
+    version 4.4 (Packman repo)
+- component: Installation
+  create_time: 20210420T12:43:00
+  id: 1185023
+  resolution: FIXED
+  status: RESOLVED
+  summary: GRUB2 error at 98% of openSUSE Tumbleweed installation.
+- component: Kernel
+  create_time: 20210420T08:00:00
+  id: 1185008
+  resolution: ''
+  status: NEW
+  summary: CPU tainted in dmesg since 5.11
+- component: Firefox
+  create_time: 20210420T07:46:00
+  id: 1185006
+  resolution: ''
+  status: NEW
+  summary: Use ccache for SeaMonkey builds on OBS
+- component: libzypp
+  create_time: 20210420T06:06:00
+  id: 1184997
+  resolution: ''
+  status: CONFIRMED
+  summary: zypper ps -sss no longer works
+- component: Development
+  create_time: 20210420T01:57:00
+  id: 1184995
+  resolution: ''
+  status: NEW
+  summary: gasnet build varies between hosts
+'20210422':
+- component: KDE Workspace (Plasma)
+  create_time: 20210423T14:08:00
+  id: 1185238
+  resolution: ''
+  status: NEW
+  summary: 'errors in journal: cannot read property width of null'
 - component: GNOME
   create_time: 20210423T13:45:00
   id: 1185236
@@ -56880,138 +57022,3 @@
   resolution: INVALID
   status: RESOLVED
   summary: GNOME-Boxes 40.0 does not include option to connect to VNC server
-- component: Basesystem
-  create_time: 20210421T20:50:00
-  id: 1185118
-  resolution: ''
-  status: NEW
-  summary: '%attr rule with missing closing paren causes inscrutable error messages'
-- component: Other
-  create_time: 20210421T20:33:00
-  id: 1185117
-  resolution: FIXED
-  status: RESOLVED
-  summary: DimStar's VLC Repo Issue
-- component: Security
-  create_time: 20210421T19:53:00
-  id: 1185116
-  resolution: ''
-  status: NEW
-  summary: upgrade of libopenssl1_1 and libopenssl1_1-hmac fails with FIPS selftest
-    failure error
-- component: Basesystem
-  create_time: 20210421T17:24:00
-  id: 1185107
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[Build 20210418] Display manager fails to start lightdm on zVM'
-- component: YaST2
-  create_time: 20210421T17:20:00
-  id: 1185106
-  resolution: FIXED
-  status: RESOLVED
-  summary: Yast2 Network edit brigde error no valid network mask or prefix lengh and
-    internal error
-- component: KDE Workspace (Plasma)
-  create_time: 20210421T17:11:00
-  id: 1185105
-  resolution: ''
-  status: NEW
-  summary: Some key sequences produce loud BEEP from internal speaker
-- component: Basesystem
-  create_time: 20210421T14:51:00
-  id: 1185103
-  resolution: ''
-  status: NEW
-  summary: 'GCC 11: open-vm-tools package fails'
-- component: Basesystem
-  create_time: 20210421T14:42:00
-  id: 1185101
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'GCC 11: libqt5-qtwebengine package fails'
-- component: KDE Workspace (Plasma)
-  create_time: 20210421T14:41:00
-  id: 1185100
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'GCC 11: libqt5-qtdeclarative package fails'
-- component: GNOME
-  create_time: 20210421T11:22:00
-  id: 1185082
-  resolution: FIXED
-  status: RESOLVED
-  summary: gnome-terminal crash when opening URL
-- component: KDE Workspace (Plasma)
-  create_time: 20210421T10:41:00
-  id: 1185077
-  resolution: ''
-  status: NEW
-  summary: Screen locker is broken and unlocking is not possible anymore
-- component: YaST2
-  create_time: 20210421T09:01:00
-  id: 1185054
-  resolution: FIXED
-  status: RESOLVED
-  summary: YaST Users ignores given BindDN
-- component: X.Org
-  create_time: 20210421T07:40:00
-  id: 1185048
-  resolution: ''
-  status: NEW
-  summary: Install on hi res laptop impossible to read
-- component: Other
-  create_time: 20210420T23:08:00
-  id: 1185043
-  resolution: ''
-  status: NEW
-  summary: url_handler.sh packaged with urlview does not open url in Firefox
-- component: GNOME
-  create_time: 20210420T19:04:00
-  id: 1185040
-  resolution: ''
-  status: NEW
-  summary: 'Gnome 40: wobbly three finger up/down touchpad gestures'
-- component: Network
-  create_time: 20210420T16:03:00
-  id: 1185036
-  resolution: ''
-  status: NEW
-  summary: Avahi is blocked by firewall by default
-- component: Other
-  create_time: 20210420T15:55:00
-  id: 1185034
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: mpv (Official Tumbleweed reop) unable to run after FFmpeg-4 updated to
-    version 4.4 (Packman repo)
-- component: Installation
-  create_time: 20210420T12:43:00
-  id: 1185023
-  resolution: FIXED
-  status: RESOLVED
-  summary: GRUB2 error at 98% of openSUSE Tumbleweed installation.
-- component: Kernel
-  create_time: 20210420T08:00:00
-  id: 1185008
-  resolution: ''
-  status: NEW
-  summary: CPU tainted in dmesg since 5.11
-- component: Firefox
-  create_time: 20210420T07:46:00
-  id: 1185006
-  resolution: ''
-  status: NEW
-  summary: Use ccache for SeaMonkey builds on OBS
-- component: libzypp
-  create_time: 20210420T06:06:00
-  id: 1184997
-  resolution: ''
-  status: CONFIRMED
-  summary: zypper ps -sss no longer works
-- component: Development
-  create_time: 20210420T01:57:00
-  id: 1184995
-  resolution: ''
-  status: NEW
-  summary: gasnet build varies between hosts
