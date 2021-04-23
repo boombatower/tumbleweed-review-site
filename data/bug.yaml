@@ -53021,7 +53021,7 @@
   create_time: 20210206T11:04:00
   id: 1181867
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 11: dpkg package fails'
 - component: Basesystem
   create_time: 20210206T11:03:00
@@ -56784,6 +56784,12 @@
   summary: Please add this TLS patch from Trinity (if applicable)
 '20210420':
 - component: Basesystem
+  create_time: 20210423T08:47:00
+  id: 1185220
+  resolution: ''
+  status: NEW
+  summary: 'GCC 11: farstream package fails'
+- component: Basesystem
   create_time: 20210423T07:31:00
   id: 1185218
   resolution: ''
@@ -56798,8 +56804,8 @@
 - component: Basesystem
   create_time: 20210423T00:37:00
   id: 1185207
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: fix for rpm-macros-SUSE breakage when topdir contains spaces
 - component: Other
   create_time: 20210422T20:46:00
@@ -56885,13 +56891,13 @@
   create_time: 20210421T17:24:00
   id: 1185107
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20210418] Display manager fails to start lightdm on zVM'
 - component: YaST2
   create_time: 20210421T17:20:00
   id: 1185106
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Yast2 Network edit brigde error no valid network mask or prefix lengh and
     internal error
 - component: KDE Workspace (Plasma)
