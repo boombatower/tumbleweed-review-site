@@ -53099,7 +53099,7 @@
   create_time: 20210205T13:13:00
   id: 1181837
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Support for /.autorelabel
 - component: Other
   create_time: 20210205T04:37:00
@@ -56773,8 +56773,8 @@
 - component: X11 Applications
   create_time: 20210418T07:58:00
   id: 1184922
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: calibre crashes all the time after system upgrade
 - component: Other
   create_time: 20210418T02:19:00
@@ -56783,6 +56783,18 @@
   status: RESOLVED
   summary: Please add this TLS patch from Trinity (if applicable)
 '20210420':
+- component: Basesystem
+  create_time: 20210423T07:31:00
+  id: 1185218
+  resolution: ''
+  status: NEW
+  summary: 'GCC 10: exiv2 build fails on i586'
+- component: Ruby
+  create_time: 20210423T06:41:00
+  id: 1185213
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210422] rails not installable'
 - component: Basesystem
   create_time: 20210423T00:37:00
   id: 1185207
@@ -56805,7 +56817,7 @@
   create_time: 20210422T19:49:00
   id: 1185199
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: yast2-iscsi-lio-server unusable - broken package resolution
 - component: Basesystem
   create_time: 20210422T15:49:00
@@ -56816,8 +56828,8 @@
 - component: Printing
   create_time: 20210422T15:47:00
   id: 1185191
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'Can''t download hplip plugin: file does not match its checksum'
 - component: Kernel
   create_time: 20210422T14:17:00
@@ -56859,10 +56871,10 @@
 - component: Other
   create_time: 20210421T20:33:00
   id: 1185117
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: DimStar's VLC Repo Issue
-- component: Basesystem
+- component: Security
   create_time: 20210421T19:53:00
   id: 1185116
   resolution: ''
@@ -56882,7 +56894,7 @@
   status: IN_PROGRESS
   summary: Yast2 Network edit brigde error no valid network mask or prefix lengh and
     internal error
-- component: Other
+- component: KDE Workspace (Plasma)
   create_time: 20210421T17:11:00
   id: 1185105
   resolution: ''
