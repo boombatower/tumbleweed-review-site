@@ -56264,8 +56264,8 @@
 - component: Other
   create_time: 20210410T10:33:00
   id: 1184571
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: mpd missing shared libraries
 - component: Other
   create_time: 20210409T22:58:00
@@ -56476,7 +56476,7 @@
   resolution: WORKSFORME
   status: RESOLVED
   summary: zypper doesn't find 'tesseract-ocr-deu'
-- component: KDE Workspace (Plasma)
+- component: Kernel
   create_time: 20210415T14:30:00
   id: 1184817
   resolution: ''
@@ -56686,7 +56686,7 @@
   create_time: 20210417T11:36:00
   id: 1184918
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: koy keyboard layout does not work properly
 - component: Basesystem
   create_time: 20210417T09:21:00
@@ -56783,6 +56783,12 @@
   status: RESOLVED
   summary: Please add this TLS patch from Trinity (if applicable)
 '20210420':
+- component: GNOME
+  create_time: 20210423T13:45:00
+  id: 1185236
+  resolution: ''
+  status: NEW
+  summary: evolution does not support hardware tokens with ews oauth2
 - component: X11 Applications
   create_time: 20210423T10:29:00
   id: 1185223
@@ -56948,7 +56954,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: YaST Users ignores given BindDN
-- component: Installation
+- component: X.Org
   create_time: 20210421T07:40:00
   id: 1185048
   resolution: ''
