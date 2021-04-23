@@ -71,8 +71,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - kernel-source
   - plasma-framework
+  - kernel-source
   binary_unique_count: 1564
   disk_base: 5.1GiB
   disk_shared: unknown
@@ -148,8 +148,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - xf86-video-ati
   - plasma5-workspace
+  - xf86-video-ati
   binary_unique_count: 777
   disk_base: 2.1GiB
   disk_shared: unknown
@@ -226,16 +226,16 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - Mesa
-  - xf86-video-amdgpu
   - gcc10
   - gcc9
-  - kernel-source
   - kate
-  - xf86-video-nouveau
-  - gnome-builder
-  - gcc11
   - xf86-video-intel
+  - Mesa
+  - gcc11
+  - kernel-source
+  - gnome-builder
+  - xf86-video-nouveau
+  - xf86-video-amdgpu
   binary_unique_count: 31569
   disk_base: 37.9GiB
   disk_shared: unknown
@@ -338,8 +338,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - kernel-source
   - gcc10
+  - kernel-source
   binary_unique_count: 1611
   disk_base: 5.0GiB
   disk_shared: unknown
@@ -390,12 +390,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
+  - plasma-framework
   - Mesa
-  - libqt5-qtbase-devel
   - plasma5-workspace
+  - libqt5-qtbase-devel
   - kernel-source
   - gnome-builder
-  - plasma-framework
   binary_unique_count: 4700
   disk_base: 7.4GiB
   disk_shared: unknown
@@ -496,11 +496,11 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
+  - gtk3-devel
   - Mesa
-  - xf86-video-amdgpu
   - libqt5-qtbase-devel
   - kernel-source
-  - gtk3-devel
+  - xf86-video-amdgpu
   binary_unique_count: 2666
   disk_base: 4.9GiB
   disk_shared: unknown
@@ -527,12 +527,12 @@
     xorg-x11-server: 1.20.10
   binary_interest_changed:
   - gcc10
-  - libqt5-qtbase-devel
-  - plasma5-workspace
   - gtk3-devel
   - kate
-  - gnome-builder
   - plasma-framework
+  - plasma5-workspace
+  - libqt5-qtbase-devel
+  - gnome-builder
   binary_unique_count: 19487
   disk_base: 25.5GiB
   disk_shared: unknown
