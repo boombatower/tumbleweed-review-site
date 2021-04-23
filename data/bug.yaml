@@ -55934,8 +55934,8 @@
 - component: Bootloader
   create_time: 20210403T23:58:00
   id: 1184323
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: grub2-once calls sleep with --verbose
 - component: Bootloader
   create_time: 20210403T23:58:00
@@ -56722,8 +56722,8 @@
 - component: Other
   create_time: 20210419T10:49:00
   id: 1184951
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'winegcc regression: missing /usr/include path in 6.6'
 - component: GNOME
   create_time: 20210419T09:33:00
@@ -56958,8 +56958,8 @@
 - component: Installation
   create_time: 20210420T12:43:00
   id: 1185023
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: GRUB2 error at 98% of openSUSE Tumbleweed installation.
 - component: Kernel
   create_time: 20210420T08:00:00
