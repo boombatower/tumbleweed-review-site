@@ -33276,8 +33276,8 @@
 - component: Other
   create_time: 20191217T10:12:00
   id: 1159350
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: php7-pear-Archive_Tar package does not exist on Tumbleweed
 - component: Network
   create_time: 20191217T09:05:00
@@ -39332,7 +39332,7 @@
   create_time: 20200414T09:23:00
   id: 1169394
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'calibre: Qt WebEngine Render crashes on each attempt to view an EPUB document'
 - component: X.Org
   create_time: 20200414T08:21:00
@@ -56774,8 +56774,8 @@
 - component: X11 Applications
   create_time: 20210418T07:58:00
   id: 1184922
-  resolution: ''
-  status: REOPENED
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: calibre **CRASHING**:seccomp-bpf failure in syscall 0403
 - component: Other
   create_time: 20210418T02:19:00
@@ -56941,8 +56941,8 @@
 - component: X11 Applications
   create_time: 20210423T10:29:00
   id: 1185223
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'deluge won''t start. ModuleNotFoundError: No module named ''gi.pygtkcompat'''
 - component: Basesystem
   create_time: 20210423T08:47:00
