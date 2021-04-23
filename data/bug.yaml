@@ -23103,8 +23103,8 @@
 - component: Security
   create_time: 20190505T08:22:00
   id: 1134132
-  resolution: NORESPONSE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'AUDIT-1: deepin-file-manager: new dbus of deepin-file-manager'
 - component: Security
   create_time: 20190505T08:14:00
@@ -54494,7 +54494,7 @@
   create_time: 20210306T10:02:00
   id: 1183121
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: default SELinux label for /etc/ld.so.cache unconfined_u:object_r:ld_so_cache_t:s0
 '20210307':
 - component: Basesystem
@@ -56682,7 +56682,7 @@
   status: RESOLVED
   summary: 'samba4 does not start: ldb: module version mismatch ... ldb_version=2.2.1
     module_version=2.2.0'
-- component: Basesystem
+- component: X.Org
   create_time: 20210417T11:36:00
   id: 1184918
   resolution: ''
@@ -56783,6 +56783,12 @@
   status: RESOLVED
   summary: Please add this TLS patch from Trinity (if applicable)
 '20210420':
+- component: X11 Applications
+  create_time: 20210423T10:29:00
+  id: 1185223
+  resolution: ''
+  status: NEW
+  summary: 'deluge won''t start. ModuleNotFoundError: No module named ''gi.pygtkcompat'''
 - component: Basesystem
   create_time: 20210423T08:47:00
   id: 1185220
@@ -56942,7 +56948,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: YaST Users ignores given BindDN
-- component: Other
+- component: Installation
   create_time: 20210421T07:40:00
   id: 1185048
   resolution: ''
@@ -56969,8 +56975,8 @@
 - component: Other
   create_time: 20210420T15:55:00
   id: 1185034
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: mpv (Official Tumbleweed reop) unable to run after FFmpeg-4 updated to
     version 4.4 (Packman repo)
 - component: Installation
