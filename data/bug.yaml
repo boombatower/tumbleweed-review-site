@@ -56783,6 +56783,12 @@
   status: RESOLVED
   summary: Please add this TLS patch from Trinity (if applicable)
 '20210420':
+- component: Basesystem
+  create_time: 20210423T00:37:00
+  id: 1185207
+  resolution: ''
+  status: NEW
+  summary: fix for rpm-macros-SUSE breakage when topdir contains spaces
 - component: Other
   create_time: 20210422T20:46:00
   id: 1185201
