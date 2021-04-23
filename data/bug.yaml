@@ -44274,7 +44274,8 @@
   id: 1174788
   resolution: ''
   status: NEW
-  summary: Recent update broke booting
+  summary: Bootloader configuration breaks when PackageKit update is interrupted in
+    the middle
 '20200802':
 - component: Basesystem
   create_time: 20200802T15:52:00
@@ -47163,7 +47164,7 @@
   create_time: 20200930T16:25:00
   id: 1177152
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: Installer fails to reboot on Orange Pi zero
 - component: MicroOS
   create_time: 20200930T16:01:00
@@ -56191,8 +56192,8 @@
 - component: Other
   create_time: 20210412T17:16:00
   id: 1184636
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'CrossToolchain:avr/Arduino: error runtime.tools.ctags.path not defined
     when compiling for a downloaded board'
 - component: Firefox
@@ -56606,7 +56607,7 @@
   status: RESOLVED
   summary: 'VUL-0: CVE-2021-29421: python-pikepdf: XML external entity issue when
     parsing XMP metadata entries'
-- component: Other
+- component: KDE Workspace (Plasma)
   create_time: 20210416T11:52:00
   id: 1184869
   resolution: ''
@@ -56775,7 +56776,7 @@
   id: 1184922
   resolution: ''
   status: REOPENED
-  summary: calibre crashes all the time after system upgrade
+  summary: calibre **CRASHING**:seccomp-bpf failure in syscall 0403
 - component: Other
   create_time: 20210418T02:19:00
   id: 1184921
@@ -56919,6 +56920,12 @@
   status: NEW
   summary: gasnet build varies between hosts
 '20210422':
+- component: Basesystem
+  create_time: 20210423T17:17:00
+  id: 1185245
+  resolution: ''
+  status: NEW
+  summary: openSUSE-build-key can not be built on s390x
 - component: KDE Workspace (Plasma)
   create_time: 20210423T14:08:00
   id: 1185238
