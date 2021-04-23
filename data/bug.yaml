@@ -52325,7 +52325,7 @@
   create_time: 20210121T14:32:00
   id: 1181244
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Duplicate journal timestamp prefix for tor
 - component: Other
   create_time: 20210121T14:30:00
@@ -56920,6 +56920,12 @@
   status: NEW
   summary: gasnet build varies between hosts
 '20210422':
+- component: GNOME
+  create_time: 20210423T20:18:00
+  id: 1185250
+  resolution: ''
+  status: NEW
+  summary: Long delays in GDM and desktop login with Gnome 40 under VirtualBox
 - component: Basesystem
   create_time: 20210423T17:17:00
   id: 1185245
