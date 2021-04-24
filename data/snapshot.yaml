@@ -45,8 +45,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - plasma-framework
   - kernel-source
+  - plasma-framework
   binary_unique_count: 1564
   disk_base: 5.1GiB
   disk_shared: unknown
@@ -200,16 +200,16 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - gcc11
-  - kernel-source
-  - Mesa
-  - kate
-  - gnome-builder
   - gcc9
   - gcc10
+  - gcc11
+  - kate
   - xf86-video-intel
   - xf86-video-nouveau
+  - kernel-source
+  - Mesa
   - xf86-video-amdgpu
+  - gnome-builder
   binary_unique_count: 31569
   disk_base: 37.9GiB
   disk_shared: unknown
@@ -364,12 +364,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - plasma5-workspace
+  - libqt5-qtbase-devel
+  - plasma-framework
   - kernel-source
   - Mesa
-  - libqt5-qtbase-devel
+  - plasma5-workspace
   - gnome-builder
-  - plasma-framework
   binary_unique_count: 4700
   disk_base: 7.4GiB
   disk_shared: unknown
@@ -470,10 +470,10 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
+  - gtk3-devel
+  - libqt5-qtbase-devel
   - kernel-source
   - Mesa
-  - libqt5-qtbase-devel
-  - gtk3-devel
   - xf86-video-amdgpu
   binary_unique_count: 2666
   disk_base: 4.9GiB
@@ -500,13 +500,13 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - plasma5-workspace
-  - kate
-  - libqt5-qtbase-devel
-  - gnome-builder
-  - plasma-framework
-  - gcc10
   - gtk3-devel
+  - libqt5-qtbase-devel
+  - gcc10
+  - kate
+  - plasma-framework
+  - plasma5-workspace
+  - gnome-builder
   binary_unique_count: 19487
   disk_base: 25.5GiB
   disk_shared: unknown
@@ -532,12 +532,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
+  - gcc10
+  - xorg-x11-server
   - gcc11
   - Mesa
   - llvm
   - gnome-builder
-  - gcc10
-  - xorg-x11-server
   binary_unique_count: 2477
   disk_base: 6.9GiB
   disk_shared: unknown
