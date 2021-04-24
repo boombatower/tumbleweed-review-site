@@ -45,8 +45,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - plasma-framework
   - kernel-source
+  - plasma-framework
   binary_unique_count: 1564
   disk_base: 5.1GiB
   disk_shared: unknown
@@ -200,16 +200,16 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - Mesa
-  - gcc9
-  - gcc11
-  - kate
   - kernel-source
+  - gcc9
+  - Mesa
   - xf86-video-intel
-  - gnome-builder
+  - kate
   - xf86-video-amdgpu
-  - gcc10
+  - gnome-builder
   - xf86-video-nouveau
+  - gcc10
+  - gcc11
   binary_unique_count: 31569
   disk_base: 37.9GiB
   disk_shared: unknown
@@ -312,8 +312,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - kernel-source
   - gcc10
+  - kernel-source
   binary_unique_count: 1611
   disk_base: 5.0GiB
   disk_shared: unknown
@@ -364,12 +364,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
+  - kernel-source
+  - plasma-framework
   - libqt5-qtbase-devel
+  - gnome-builder
   - Mesa
   - plasma5-workspace
-  - kernel-source
-  - gnome-builder
-  - plasma-framework
   binary_unique_count: 4700
   disk_base: 7.4GiB
   disk_shared: unknown
@@ -470,11 +470,11 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - libqt5-qtbase-devel
-  - Mesa
   - kernel-source
-  - gtk3-devel
+  - Mesa
+  - libqt5-qtbase-devel
   - xf86-video-amdgpu
+  - gtk3-devel
   binary_unique_count: 2666
   disk_base: 4.9GiB
   disk_shared: unknown
@@ -500,13 +500,13 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - libqt5-qtbase-devel
-  - plasma5-workspace
-  - kate
-  - gtk3-devel
-  - gnome-builder
   - plasma-framework
+  - kate
+  - libqt5-qtbase-devel
+  - gnome-builder
+  - gtk3-devel
   - gcc10
+  - plasma5-workspace
   binary_unique_count: 19487
   disk_base: 25.5GiB
   disk_shared: unknown
@@ -532,12 +532,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
+  - xorg-x11-server
   - Mesa
-  - gcc11
+  - llvm
   - gnome-builder
   - gcc10
-  - llvm
-  - xorg-x11-server
+  - gcc11
   binary_unique_count: 2477
   disk_base: 6.9GiB
   disk_shared: unknown
