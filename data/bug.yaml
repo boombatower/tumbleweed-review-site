@@ -56920,6 +56920,12 @@
   status: NEW
   summary: gasnet build varies between hosts
 '20210422':
+- component: Other
+  create_time: 20210424T14:29:00
+  id: 1185258
+  resolution: ''
+  status: NEW
+  summary: 'Blender: unable to use cycle rendering'
 - component: Ruby
   create_time: 20210424T10:04:00
   id: 1185257
