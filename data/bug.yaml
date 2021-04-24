@@ -56920,6 +56920,12 @@
   status: NEW
   summary: gasnet build varies between hosts
 '20210422':
+- component: Other
+  create_time: 20210424T00:40:00
+  id: 1185253
+  resolution: ''
+  status: NEW
+  summary: Dimstar's VLC Repo Validation Error
 - component: GNOME
   create_time: 20210423T20:18:00
   id: 1185250
