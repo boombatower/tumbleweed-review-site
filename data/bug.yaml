@@ -51861,8 +51861,8 @@
 - component: Installation
   create_time: 20210116T00:58:00
   id: 1181007
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Installation Program Not Booting
 - component: Virtualization:Tools
   create_time: 20210115T18:11:00
@@ -56271,8 +56271,8 @@
 - component: Other
   create_time: 20210409T22:58:00
   id: 1184569
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: possible imagewriter issues
 - component: Other
   create_time: 20210409T17:56:00
@@ -56923,8 +56923,8 @@
 - component: Other
   create_time: 20210424T00:40:00
   id: 1185253
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Dimstar's VLC Repo Validation Error
 - component: GNOME
   create_time: 20210423T20:18:00
