@@ -56920,6 +56920,18 @@
   status: NEW
   summary: gasnet build varies between hosts
 '20210422':
+- component: Ruby
+  create_time: 20210424T10:04:00
+  id: 1185257
+  resolution: ''
+  status: NEW
+  summary: rubygem-marcel update from snapshot 20210422 breaks rubygem-activestorage-6.0
+- component: Java
+  create_time: 20210424T08:54:00
+  id: 1185256
+  resolution: ''
+  status: NEW
+  summary: Ganttproject 2.8.x doesn't start / New upstream version 3.0 available
 - component: Other
   create_time: 20210424T00:40:00
   id: 1185253
@@ -56935,8 +56947,8 @@
 - component: Basesystem
   create_time: 20210423T17:17:00
   id: 1185245
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: openSUSE-build-key can not be built on s390x
 - component: KDE Workspace (Plasma)
   create_time: 20210423T14:08:00
