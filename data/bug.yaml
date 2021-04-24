@@ -39331,8 +39331,8 @@
 - component: X11 Applications
   create_time: 20200414T09:23:00
   id: 1169394
-  resolution: ''
-  status: CONFIRMED
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'calibre: Qt WebEngine Render crashes on each attempt to view an EPUB document'
 - component: X.Org
   create_time: 20200414T08:21:00
@@ -47877,8 +47877,8 @@
 - component: Network
   create_time: 20201015T11:37:00
   id: 1177744
-  resolution: ''
-  status: CONFIRMED
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Doesn't connect to ethernet network after unplugging and re-plugging cable
 - component: Other
   create_time: 20201015T11:09:00
@@ -47919,8 +47919,8 @@
 - component: LXDE
   create_time: 20201014T15:10:00
   id: 1177700
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: No keyboard shortcut for screenshot out of the box
 - component: Upgrade Problems
   create_time: 20201014T11:53:00
@@ -49020,8 +49020,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20201111T14:25:00
   id: 1178674
-  resolution: ''
-  status: NEW
+  resolution: MOVED
+  status: RESOLVED
   summary: Desktop completely black, no icons after zypper dup
 - component: Cloud:Tools
   create_time: 20201111T10:29:00
@@ -56432,8 +56432,8 @@
 - component: Network
   create_time: 20210415T22:30:00
   id: 1184836
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Sudden utterly random behavior of multiple unrelated system functions
 - component: Development
   create_time: 20210415T19:15:00
@@ -56607,7 +56607,7 @@
   status: RESOLVED
   summary: 'VUL-0: CVE-2021-29421: python-pikepdf: XML external entity issue when
     parsing XMP metadata entries'
-- component: KDE Workspace (Plasma)
+- component: Sound
   create_time: 20210416T11:52:00
   id: 1184869
   resolution: ''
@@ -56774,8 +56774,8 @@
 - component: X11 Applications
   create_time: 20210418T07:58:00
   id: 1184922
-  resolution: DUPLICATE
-  status: RESOLVED
+  resolution: ''
+  status: NEW
   summary: calibre **CRASHING**:seccomp-bpf failure in syscall 0403
 - component: Other
   create_time: 20210418T02:19:00
