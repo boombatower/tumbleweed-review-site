@@ -122,8 +122,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - xf86-video-ati
   - plasma5-workspace
+  - xf86-video-ati
   binary_unique_count: 777
   disk_base: 2.1GiB
   disk_shared: unknown
@@ -200,16 +200,16 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - gcc11
-  - kernel-source
-  - xf86-video-amdgpu
-  - gnome-builder
-  - gcc9
-  - gcc10
-  - xf86-video-nouveau
-  - xf86-video-intel
-  - Mesa
   - kate
+  - Mesa
+  - gcc10
+  - xf86-video-intel
+  - kernel-source
+  - gcc9
+  - xf86-video-nouveau
+  - gnome-builder
+  - xf86-video-amdgpu
+  - gcc11
   binary_unique_count: 31569
   disk_base: 37.9GiB
   disk_shared: unknown
@@ -364,12 +364,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - kernel-source
-  - libqt5-qtbase-devel
-  - gnome-builder
-  - plasma5-workspace
   - Mesa
+  - plasma5-workspace
+  - kernel-source
+  - gnome-builder
   - plasma-framework
+  - libqt5-qtbase-devel
   binary_unique_count: 4700
   disk_base: 7.4GiB
   disk_shared: unknown
@@ -470,11 +470,11 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
+  - gtk3-devel
+  - Mesa
   - kernel-source
   - xf86-video-amdgpu
   - libqt5-qtbase-devel
-  - gtk3-devel
-  - Mesa
   binary_unique_count: 2666
   disk_base: 4.9GiB
   disk_shared: unknown
@@ -500,13 +500,13 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - libqt5-qtbase-devel
-  - gnome-builder
-  - gcc10
   - gtk3-devel
-  - plasma5-workspace
   - kate
+  - gcc10
+  - plasma5-workspace
+  - gnome-builder
   - plasma-framework
+  - libqt5-qtbase-devel
   binary_unique_count: 19487
   disk_base: 25.5GiB
   disk_shared: unknown
@@ -532,12 +532,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - gcc11
+  - Mesa
+  - gcc10
   - xorg-x11-server
   - llvm
   - gnome-builder
-  - gcc10
-  - Mesa
+  - gcc11
   binary_unique_count: 2477
   disk_base: 6.9GiB
   disk_shared: unknown
