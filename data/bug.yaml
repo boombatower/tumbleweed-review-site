@@ -49835,8 +49835,8 @@
 - component: Network
   create_time: 20201127T14:20:00
   id: 1179331
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[warn] Tor was compiled with zstd 1.4.4, but is running with zstd 1.4.5
     (Factory i586 tests issue)'
 - component: Xfce
@@ -52324,8 +52324,8 @@
 - component: Other
   create_time: 20210121T14:32:00
   id: 1181244
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Duplicate journal timestamp prefix for tor
 - component: Other
   create_time: 20210121T14:30:00
