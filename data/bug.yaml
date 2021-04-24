@@ -41556,8 +41556,8 @@
 - component: Network
   create_time: 20200603T11:55:00
   id: 1172449
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: network connection very slow after standby
 - component: Printing
   create_time: 20200603T11:37:00
