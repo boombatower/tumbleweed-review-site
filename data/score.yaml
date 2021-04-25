@@ -2007,10 +2007,13 @@
   stability_level: stable
 '20210418':
   score: 97
-  stability_level: pending
+  stability_level: stable
 '20210420':
   score: 96
   stability_level: pending
 '20210422':
-  score: 96
+  score: 97
+  stability_level: pending
+'20210423':
+  score: 97
   stability_level: pending
