@@ -56982,6 +56982,12 @@
   status: RESOLVED
   summary: GNOME-Boxes 40.0 does not include option to connect to VNC server
 '20210423':
+- component: Basesystem
+  create_time: 20210425T06:06:00
+  id: 1185268
+  resolution: ''
+  status: NEW
+  summary: EDITOR env var not set
 - component: Firefox
   create_time: 20210425T01:19:00
   id: 1185267
