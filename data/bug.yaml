@@ -48801,8 +48801,8 @@
 - component: Virtualization:Other
   create_time: 20201107T18:38:00
   id: 1178537
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: VirtualBox completely broken, Windows guest does nothing but BSOD
 - component: KDE Workspace (Plasma)
   create_time: 20201107T15:08:00
@@ -54901,8 +54901,8 @@
 - component: Kernel
   create_time: 20210313T10:39:00
   id: 1183479
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Graphic glitch and freeze at wake from sleep
 - component: Installation
   create_time: 20210313T08:36:00
@@ -56982,6 +56982,12 @@
   status: RESOLVED
   summary: GNOME-Boxes 40.0 does not include option to connect to VNC server
 '20210423':
+- component: Firefox
+  create_time: 20210425T15:31:00
+  id: 1185275
+  resolution: ''
+  status: NEW
+  summary: Firefox UI frozen after upgrading to snapshot 20210423
 - component: Network
   create_time: 20210425T12:19:00
   id: 1185273
