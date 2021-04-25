@@ -52577,8 +52577,8 @@
 - component: Other
   create_time: 20210130T11:51:00
   id: 1181604
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Musescore still running in background after closing it.
 - component: Apache
   create_time: 20210130T11:33:00
@@ -56982,6 +56982,12 @@
   status: RESOLVED
   summary: GNOME-Boxes 40.0 does not include option to connect to VNC server
 '20210423':
+- component: Network
+  create_time: 20210425T12:19:00
+  id: 1185273
+  resolution: ''
+  status: NEW
+  summary: '"rcopenvpn" broken after insserv-compat got dropped'
 - component: Bootloader
   create_time: 20210425T10:31:00
   id: 1185272
