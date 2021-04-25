@@ -56982,11 +56982,18 @@
   status: RESOLVED
   summary: GNOME-Boxes 40.0 does not include option to connect to VNC server
 '20210423':
+- component: Other
+  create_time: 20210425T18:12:00
+  id: 1185276
+  resolution: ''
+  status: NEW
+  summary: Mesa - regression with video playback for HD channels on Hauppauge Card
+    HVR5525
 - component: Firefox
   create_time: 20210425T15:31:00
   id: 1185275
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Firefox UI frozen after upgrading to snapshot 20210423
 - component: Network
   create_time: 20210425T12:19:00
