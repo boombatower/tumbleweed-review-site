@@ -21340,11 +21340,11 @@
   resolution: UPSTREAM
   status: RESOLVED
   summary: fonts-config overrides local fontconfig settings
-- component: KDE Applications
+- component: Firefox
   create_time: 20190330T13:47:00
   id: 1131065
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'Tumbleweed: please add checkbox to allow temporary suspension of Thunderbird
     email account'
 - component: X11 3rd Party Driver
