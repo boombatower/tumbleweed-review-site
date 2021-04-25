@@ -56982,6 +56982,12 @@
   status: RESOLVED
   summary: GNOME-Boxes 40.0 does not include option to connect to VNC server
 '20210423':
+- component: Firefox
+  create_time: 20210425T01:19:00
+  id: 1185267
+  resolution: ''
+  status: NEW
+  summary: Firefox 88.0 does not work at all
 - component: Security
   create_time: 20210424T20:26:00
   id: 1185265
