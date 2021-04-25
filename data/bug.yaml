@@ -56920,6 +56920,68 @@
   status: NEW
   summary: gasnet build varies between hosts
 '20210422':
+- component: Other
+  create_time: 20210422T20:46:00
+  id: 1185201
+  resolution: ''
+  status: NEW
+  summary: firewalld enhancement
+- component: Other
+  create_time: 20210422T20:32:00
+  id: 1185200
+  resolution: ''
+  status: NEW
+  summary: Interesting systemd problem
+- component: YaST2
+  create_time: 20210422T19:49:00
+  id: 1185199
+  resolution: ''
+  status: IN_PROGRESS
+  summary: yast2-iscsi-lio-server unusable - broken package resolution
+- component: Basesystem
+  create_time: 20210422T15:49:00
+  id: 1185192
+  resolution: ''
+  status: NEW
+  summary: Generated keymaps are incorrect and cannot be loaded with loadkeys
+- component: Printing
+  create_time: 20210422T15:47:00
+  id: 1185191
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: 'Can''t download hplip plugin: file does not match its checksum'
+- component: Kernel
+  create_time: 20210422T14:17:00
+  id: 1185174
+  resolution: ''
+  status: NEW
+  summary: '[i815] kernel 5.11: Xorg fails to run: open /dev/dri/card0: No such file
+    or directory; (EE) GARTInit: Unable to open /dev/agpgart (No such file or directory)'
+- component: Containers
+  create_time: 20210422T14:06:00
+  id: 1185167
+  resolution: ''
+  status: NEW
+  summary: Failed to find cpuset / memory cgroup
+- component: Other
+  create_time: 20210422T12:28:00
+  id: 1185150
+  resolution: ''
+  status: NEW
+  summary: 'python-M2Crypto: missing dependency on python-parameterized ?'
+- component: Containers
+  create_time: 20210422T12:03:00
+  id: 1185143
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210420] openQA test fails in buildah_docker: crun not found'
+- component: GNOME
+  create_time: 20210422T11:45:00
+  id: 1185142
+  resolution: INVALID
+  status: RESOLVED
+  summary: GNOME-Boxes 40.0 does not include option to connect to VNC server
+'20210423':
 - component: Security
   create_time: 20210424T20:26:00
   id: 1185265
@@ -57004,64 +57066,3 @@
   resolution: FIXED
   status: RESOLVED
   summary: fix for rpm-macros-SUSE breakage when topdir contains spaces
-- component: Other
-  create_time: 20210422T20:46:00
-  id: 1185201
-  resolution: ''
-  status: NEW
-  summary: firewalld enhancement
-- component: Other
-  create_time: 20210422T20:32:00
-  id: 1185200
-  resolution: ''
-  status: NEW
-  summary: Interesting systemd problem
-- component: YaST2
-  create_time: 20210422T19:49:00
-  id: 1185199
-  resolution: ''
-  status: IN_PROGRESS
-  summary: yast2-iscsi-lio-server unusable - broken package resolution
-- component: Basesystem
-  create_time: 20210422T15:49:00
-  id: 1185192
-  resolution: ''
-  status: NEW
-  summary: Generated keymaps are incorrect and cannot be loaded with loadkeys
-- component: Printing
-  create_time: 20210422T15:47:00
-  id: 1185191
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: 'Can''t download hplip plugin: file does not match its checksum'
-- component: Kernel
-  create_time: 20210422T14:17:00
-  id: 1185174
-  resolution: ''
-  status: NEW
-  summary: '[i815] kernel 5.11: Xorg fails to run: open /dev/dri/card0: No such file
-    or directory; (EE) GARTInit: Unable to open /dev/agpgart (No such file or directory)'
-- component: Containers
-  create_time: 20210422T14:06:00
-  id: 1185167
-  resolution: ''
-  status: NEW
-  summary: Failed to find cpuset / memory cgroup
-- component: Other
-  create_time: 20210422T12:28:00
-  id: 1185150
-  resolution: ''
-  status: NEW
-  summary: 'python-M2Crypto: missing dependency on python-parameterized ?'
-- component: Containers
-  create_time: 20210422T12:03:00
-  id: 1185143
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210420] openQA test fails in buildah_docker: crun not found'
-- component: GNOME
-  create_time: 20210422T11:45:00
-  id: 1185142
-  resolution: INVALID
-  status: RESOLVED
-  summary: GNOME-Boxes 40.0 does not include option to connect to VNC server
