@@ -31158,8 +31158,8 @@
 - component: Cloud:Tools
   create_time: 20191030T12:42:00
   id: 1155444
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: outdated golang-org-x-sys causes build errors in cf-cli
 - component: Development
   create_time: 20191030T09:48:00
@@ -45469,8 +45469,8 @@
 - component: Other
   create_time: 20200827T12:18:00
   id: 1175826
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: suitesparse s390x build failure "Illegal instruction" on s390p21 workers
 - component: Basesystem
   create_time: 20200827T10:31:00
@@ -52417,8 +52417,8 @@
 - component: Kernel
   create_time: 20210127T16:31:00
   id: 1181479
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: LLVM 11 can not be built because of a kernel or hardware problem
 - component: Kernel
   create_time: 20210127T16:30:00
