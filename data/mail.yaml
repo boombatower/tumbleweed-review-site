@@ -6271,6 +6271,10 @@
   threads: []
 '20210423':
   announcement: 2021-04.4882
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 2
+  thread_count: 1
+  threads:
+  - messages:
+    - 2021-04.4883
+    reference_count: 2
+    summary: Firefox 88.0 unusable
