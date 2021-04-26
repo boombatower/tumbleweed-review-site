@@ -21269,8 +21269,8 @@
 - component: Security
   create_time: 20190325T13:02:00
   id: 1130388
-  resolution: NORESPONSE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'AUDIT-1: deepin-clone: new polkit action com.deepin.pkexec.deepin-clone'
 - component: Basesystem
   create_time: 20190325T12:18:00
@@ -56705,8 +56705,8 @@
 - component: GNOME
   create_time: 20210419T15:21:00
   id: 1184980
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Gpaste currently broken with Gnome 40, please apply this fix
 - component: GNOME
   create_time: 20210419T15:16:00
