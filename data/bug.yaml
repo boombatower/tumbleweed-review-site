@@ -54939,8 +54939,8 @@
 - component: Other
   create_time: 20210312T16:33:00
   id: 1183461
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: '[Build 20210311] openQA test fails in nftables - /etc/nftables is not
     created'
 - component: X11 Applications
@@ -56577,7 +56577,7 @@
   resolution: ''
   status: NEW
   summary: XZ test of libmodulemd does not work with file 5.40
-- component: Installation
+- component: Other
   create_time: 20210416T14:07:00
   id: 1184890
   resolution: ''
@@ -56983,7 +56983,19 @@
   status: RESOLVED
   summary: GNOME-Boxes 40.0 does not include option to connect to VNC server
 '20210423':
-- component: Kubic
+- component: Other
+  create_time: 20210426T15:08:00
+  id: 1185295
+  resolution: INVALID
+  status: RESOLVED
+  summary: selinux-autorelabel doesn't work
+- component: Security
+  create_time: 20210426T14:38:00
+  id: 1185293
+  resolution: ''
+  status: NEW
+  summary: 'selinux-policy: bash denied'
+- component: Containers
   create_time: 20210426T12:07:00
   id: 1185290
   resolution: ''
