@@ -44689,8 +44689,8 @@
 - component: Containers
   create_time: 20200810T19:26:00
   id: 1175081
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Docker on btrfs disables quotas globally
 - component: Security
   create_time: 20200810T17:07:00
@@ -54922,12 +54922,13 @@
   resolution: ''
   status: NEW
   summary: Emacs much slower than before
-- component: Printing
+- component: GNOME
   create_time: 20210312T21:07:00
   id: 1183469
   resolution: ''
   status: NEW
-  summary: HPLIP utilities failing
+  summary: HPLIP utilities failing with default GNOME (Wayland) but work with "GNOME
+    on Xorg"
 - component: Other
   create_time: 20210312T21:02:00
   id: 1183468
@@ -56982,6 +56983,12 @@
   status: RESOLVED
   summary: GNOME-Boxes 40.0 does not include option to connect to VNC server
 '20210423':
+- component: Basesystem
+  create_time: 20210426T11:29:00
+  id: 1185287
+  resolution: ''
+  status: NEW
+  summary: Images fail to build on armv6 and armv7
 - component: Security
   create_time: 20210426T10:02:00
   id: 1185285
