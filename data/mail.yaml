@@ -6278,3 +6278,8 @@
     - 2021-04.4883
     reference_count: 10
     summary: Firefox 88.0 unusable
+'20210425':
+  announcement: 2021-04.4905
+  reference_count: 0
+  thread_count: 0
+  threads: []
