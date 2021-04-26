@@ -57068,6 +57068,12 @@
   status: RESOLVED
   summary: fix for rpm-macros-SUSE breakage when topdir contains spaces
 '20210425':
+- component: Installation
+  create_time: 20210426T20:41:00
+  id: 1185309
+  resolution: ''
+  status: NEW
+  summary: Please add SSE2 to Tumbleweed i686 system requirements
 - component: LibreOffice
   create_time: 20210426T19:07:00
   id: 1185307
