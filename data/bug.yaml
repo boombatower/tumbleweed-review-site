@@ -53099,8 +53099,8 @@
 - component: Security
   create_time: 20210205T13:13:00
   id: 1181837
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Support for /.autorelabel
 - component: Other
   create_time: 20210205T04:37:00
@@ -56983,6 +56983,12 @@
   status: RESOLVED
   summary: GNOME-Boxes 40.0 does not include option to connect to VNC server
 '20210423':
+- component: Kubic
+  create_time: 20210426T12:07:00
+  id: 1185290
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210425] Invalid ''driver'' setting in MicroOS image'
 - component: Basesystem
   create_time: 20210426T11:29:00
   id: 1185287
@@ -57004,8 +57010,8 @@
 - component: Sound
   create_time: 20210426T07:40:00
   id: 1185280
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: alsa-info.sh trying to replaced packaged code with download from the internet
 - component: Other
   create_time: 20210425T18:12:00
@@ -57053,8 +57059,8 @@
 - component: Security
   create_time: 20210424T20:26:00
   id: 1185265
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[SELinux] no default label for /dev/mqueue and confusion about opens___.ttf'
 - component: Other
   create_time: 20210424T14:29:00
