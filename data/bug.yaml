@@ -56983,6 +56983,97 @@
   status: RESOLVED
   summary: GNOME-Boxes 40.0 does not include option to connect to VNC server
 '20210423':
+- component: Security
+  create_time: 20210424T20:26:00
+  id: 1185265
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[SELinux] no default label for /dev/mqueue and confusion about opens___.ttf'
+- component: Other
+  create_time: 20210424T14:29:00
+  id: 1185258
+  resolution: ''
+  status: NEW
+  summary: 'Blender: unable to use cycle rendering'
+- component: Ruby
+  create_time: 20210424T10:04:00
+  id: 1185257
+  resolution: ''
+  status: NEW
+  summary: rubygem-marcel update from snapshot 20210422 breaks rubygem-activestorage-6.0
+- component: Java
+  create_time: 20210424T08:54:00
+  id: 1185256
+  resolution: ''
+  status: NEW
+  summary: Ganttproject 2.8.x doesn't start / New upstream version 3.0 available
+- component: Other
+  create_time: 20210424T00:40:00
+  id: 1185253
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Dimstar's VLC Repo Validation Error
+- component: GNOME
+  create_time: 20210423T20:18:00
+  id: 1185250
+  resolution: ''
+  status: NEW
+  summary: Long delays in GDM and desktop login with Gnome 40 under VirtualBox
+- component: Basesystem
+  create_time: 20210423T17:17:00
+  id: 1185245
+  resolution: FIXED
+  status: RESOLVED
+  summary: openSUSE-build-key can not be built on s390x
+- component: KDE Workspace (Plasma)
+  create_time: 20210423T14:08:00
+  id: 1185238
+  resolution: ''
+  status: NEW
+  summary: 'errors in journal: cannot read property width of null'
+- component: GNOME
+  create_time: 20210423T13:45:00
+  id: 1185236
+  resolution: ''
+  status: NEW
+  summary: evolution does not support hardware tokens with ews oauth2
+- component: X11 Applications
+  create_time: 20210423T10:29:00
+  id: 1185223
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'deluge won''t start. ModuleNotFoundError: No module named ''gi.pygtkcompat'''
+- component: Basesystem
+  create_time: 20210423T08:47:00
+  id: 1185220
+  resolution: ''
+  status: NEW
+  summary: 'GCC 11: farstream package fails'
+- component: Basesystem
+  create_time: 20210423T07:31:00
+  id: 1185218
+  resolution: ''
+  status: NEW
+  summary: 'GCC 10: exiv2 build fails on i586'
+- component: Ruby
+  create_time: 20210423T06:41:00
+  id: 1185213
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210422] rails not installable'
+- component: Basesystem
+  create_time: 20210423T00:37:00
+  id: 1185207
+  resolution: FIXED
+  status: RESOLVED
+  summary: fix for rpm-macros-SUSE breakage when topdir contains spaces
+'20210425':
+- component: LibreOffice
+  create_time: 20210426T19:07:00
+  id: 1185307
+  resolution: ''
+  status: NEW
+  summary: 'Calc: pasting comment clears cell contents'
 - component: Development
   create_time: 20210426T16:59:00
   id: 1185301
@@ -57081,87 +57172,3 @@
   resolution: ''
   status: NEW
   summary: Firefox 88.0 does not work at all
-- component: Security
-  create_time: 20210424T20:26:00
-  id: 1185265
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[SELinux] no default label for /dev/mqueue and confusion about opens___.ttf'
-- component: Other
-  create_time: 20210424T14:29:00
-  id: 1185258
-  resolution: ''
-  status: NEW
-  summary: 'Blender: unable to use cycle rendering'
-- component: Ruby
-  create_time: 20210424T10:04:00
-  id: 1185257
-  resolution: ''
-  status: NEW
-  summary: rubygem-marcel update from snapshot 20210422 breaks rubygem-activestorage-6.0
-- component: Java
-  create_time: 20210424T08:54:00
-  id: 1185256
-  resolution: ''
-  status: NEW
-  summary: Ganttproject 2.8.x doesn't start / New upstream version 3.0 available
-- component: Other
-  create_time: 20210424T00:40:00
-  id: 1185253
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Dimstar's VLC Repo Validation Error
-- component: GNOME
-  create_time: 20210423T20:18:00
-  id: 1185250
-  resolution: ''
-  status: NEW
-  summary: Long delays in GDM and desktop login with Gnome 40 under VirtualBox
-- component: Basesystem
-  create_time: 20210423T17:17:00
-  id: 1185245
-  resolution: FIXED
-  status: RESOLVED
-  summary: openSUSE-build-key can not be built on s390x
-- component: KDE Workspace (Plasma)
-  create_time: 20210423T14:08:00
-  id: 1185238
-  resolution: ''
-  status: NEW
-  summary: 'errors in journal: cannot read property width of null'
-- component: GNOME
-  create_time: 20210423T13:45:00
-  id: 1185236
-  resolution: ''
-  status: NEW
-  summary: evolution does not support hardware tokens with ews oauth2
-- component: X11 Applications
-  create_time: 20210423T10:29:00
-  id: 1185223
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: 'deluge won''t start. ModuleNotFoundError: No module named ''gi.pygtkcompat'''
-- component: Basesystem
-  create_time: 20210423T08:47:00
-  id: 1185220
-  resolution: ''
-  status: NEW
-  summary: 'GCC 11: farstream package fails'
-- component: Basesystem
-  create_time: 20210423T07:31:00
-  id: 1185218
-  resolution: ''
-  status: NEW
-  summary: 'GCC 10: exiv2 build fails on i586'
-- component: Ruby
-  create_time: 20210423T06:41:00
-  id: 1185213
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210422] rails not installable'
-- component: Basesystem
-  create_time: 20210423T00:37:00
-  id: 1185207
-  resolution: FIXED
-  status: RESOLVED
-  summary: fix for rpm-macros-SUSE breakage when topdir contains spaces
