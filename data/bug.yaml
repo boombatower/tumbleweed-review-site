@@ -56983,6 +56983,19 @@
   status: RESOLVED
   summary: GNOME-Boxes 40.0 does not include option to connect to VNC server
 '20210423':
+- component: Development
+  create_time: 20210426T16:59:00
+  id: 1185301
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed's "racket" package lags upstream releases by 8 months and 2
+    releases
+- component: Firefox
+  create_time: 20210426T16:15:00
+  id: 1185298
+  resolution: ''
+  status: NEW
+  summary: Firefox is broken
 - component: Other
   create_time: 20210426T15:08:00
   id: 1185295
@@ -56992,8 +57005,8 @@
 - component: Security
   create_time: 20210426T14:38:00
   id: 1185293
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'selinux-policy: bash denied'
 - component: Containers
   create_time: 20210426T12:07:00
