@@ -52145,8 +52145,8 @@
 - component: Basesystem
   create_time: 20210124T17:46:00
   id: 1181331
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: systemd homed  support missing
 - component: Kernel
   create_time: 20210124T16:41:00
@@ -55378,8 +55378,8 @@
 - component: Kernel
   create_time: 20210324T16:23:00
   id: 1183965
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'makedumpfile, crash: are not able to read kenrel log from the lockless
     ringbuffer added in kernel-5.10'
 - component: Basesystem
@@ -56426,8 +56426,8 @@
 - component: Development
   create_time: 20210415T22:42:00
   id: 1184838
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: openQA AppArmor profile has recursive include
 - component: Network
   create_time: 20210415T22:30:00
@@ -56450,8 +56450,8 @@
 - component: KDE Applications
   create_time: 20210415T17:43:00
   id: 1184826
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: included scripts don't work in konversation
 - component: Other
   create_time: 20210415T16:41:00
@@ -56929,8 +56929,8 @@
 - component: Other
   create_time: 20210422T20:32:00
   id: 1185200
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Interesting systemd problem
 - component: YaST2
   create_time: 20210422T19:49:00
@@ -56982,6 +56982,18 @@
   status: RESOLVED
   summary: GNOME-Boxes 40.0 does not include option to connect to VNC server
 '20210423':
+- component: Security
+  create_time: 20210426T10:02:00
+  id: 1185285
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: systemd homed'
+- component: Kernel
+  create_time: 20210426T08:21:00
+  id: 1185282
+  resolution: ''
+  status: NEW
+  summary: AMD CCP module missing firmware in initrd
 - component: Sound
   create_time: 20210426T07:40:00
   id: 1185280
