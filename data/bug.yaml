@@ -55050,7 +55050,7 @@
   resolution: INVALID
   status: RESOLVED
   summary: Unchecking YaST during OS installation installs YaST anyways
-- component: GNOME
+- component: AppArmor
   create_time: 20210316T15:10:00
   id: 1183597
   resolution: ''
@@ -57068,6 +57068,25 @@
   status: RESOLVED
   summary: fix for rpm-macros-SUSE breakage when topdir contains spaces
 '20210425':
+- component: Development
+  create_time: 20210427T14:03:00
+  id: 1185355
+  resolution: ''
+  status: NEW
+  summary: go does not build with gcc11
+- component: Patterns
+  create_time: 20210427T12:51:00
+  id: 1185353
+  resolution: ''
+  status: NEW
+  summary: The new pattern patterns-deepin need an icon
+- component: Kernel
+  create_time: 20210427T12:46:00
+  id: 1185352
+  resolution: ''
+  status: NEW
+  summary: 'exfat: ERROR: invalid VBR checksum 0xc746d7e6 (expected 0x8122115) on
+    zram test'
 - component: Patterns
   create_time: 20210427T10:23:00
   id: 1185343
@@ -57157,7 +57176,7 @@
   create_time: 20210426T10:02:00
   id: 1185285
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: systemd homed'
 - component: Kernel
   create_time: 20210426T08:21:00
