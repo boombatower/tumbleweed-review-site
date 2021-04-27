@@ -57069,6 +57069,50 @@
   summary: fix for rpm-macros-SUSE breakage when topdir contains spaces
 '20210425':
 - component: Other
+  create_time: 20210425T18:12:00
+  id: 1185276
+  resolution: ''
+  status: NEW
+  summary: Mesa - regression with video playback for HD channels on Hauppauge Card
+    HVR5525
+- component: Firefox
+  create_time: 20210425T15:31:00
+  id: 1185275
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Firefox UI frozen after upgrading to snapshot 20210423
+- component: Network
+  create_time: 20210425T12:19:00
+  id: 1185273
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '"rcopenvpn" broken after insserv-compat got dropped'
+- component: Bootloader
+  create_time: 20210425T10:31:00
+  id: 1185272
+  resolution: ''
+  status: CONFIRMED
+  summary: GRUB Memtest section immediately restarts
+- component: YaST2
+  create_time: 20210425T10:26:00
+  id: 1185271
+  resolution: ''
+  status: NEW
+  summary: YaST KDE control module has stopped working
+- component: Basesystem
+  create_time: 20210425T06:06:00
+  id: 1185268
+  resolution: ''
+  status: NEW
+  summary: EDITOR env var not set
+- component: Firefox
+  create_time: 20210425T01:19:00
+  id: 1185267
+  resolution: ''
+  status: NEW
+  summary: Firefox 88.0 does not work at all
+'20210426':
+- component: Other
   create_time: 20210427T15:58:00
   id: 1185362
   resolution: ''
@@ -57196,46 +57240,3 @@
   resolution: FIXED
   status: RESOLVED
   summary: alsa-info.sh trying to replaced packaged code with download from the internet
-- component: Other
-  create_time: 20210425T18:12:00
-  id: 1185276
-  resolution: ''
-  status: NEW
-  summary: Mesa - regression with video playback for HD channels on Hauppauge Card
-    HVR5525
-- component: Firefox
-  create_time: 20210425T15:31:00
-  id: 1185275
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Firefox UI frozen after upgrading to snapshot 20210423
-- component: Network
-  create_time: 20210425T12:19:00
-  id: 1185273
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '"rcopenvpn" broken after insserv-compat got dropped'
-- component: Bootloader
-  create_time: 20210425T10:31:00
-  id: 1185272
-  resolution: ''
-  status: CONFIRMED
-  summary: GRUB Memtest section immediately restarts
-- component: YaST2
-  create_time: 20210425T10:26:00
-  id: 1185271
-  resolution: ''
-  status: NEW
-  summary: YaST KDE control module has stopped working
-- component: Basesystem
-  create_time: 20210425T06:06:00
-  id: 1185268
-  resolution: ''
-  status: NEW
-  summary: EDITOR env var not set
-- component: Firefox
-  create_time: 20210425T01:19:00
-  id: 1185267
-  resolution: ''
-  status: NEW
-  summary: Firefox 88.0 does not work at all
