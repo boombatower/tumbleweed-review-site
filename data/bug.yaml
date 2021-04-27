@@ -57068,6 +57068,12 @@
   status: RESOLVED
   summary: fix for rpm-macros-SUSE breakage when topdir contains spaces
 '20210425':
+- component: Other
+  create_time: 20210427T15:58:00
+  id: 1185362
+  resolution: ''
+  status: NEW
+  summary: fwupd fails to start due to missing dependencies causing a timeout
 - component: Development
   create_time: 20210427T14:03:00
   id: 1185355
@@ -57120,8 +57126,8 @@
 - component: Kernel
   create_time: 20210427T08:26:00
   id: 1185332
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: snapshot 20210425 did not include kernel-syms-5.11.16
 - component: Installation
   create_time: 20210426T20:41:00
