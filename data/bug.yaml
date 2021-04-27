@@ -29945,7 +29945,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: rpm will drop support for mono dependency generators
-- component: Containers
+- component: Kernel
   create_time: 20191002T11:44:00
   id: 1152773
   resolution: ''
@@ -37656,8 +37656,8 @@
 - component: Security
   create_time: 20200313T15:57:00
   id: 1166635
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: GnuTLS FIPS selftest fails on TW
 - component: Security
   create_time: 20200313T15:54:00
@@ -47164,7 +47164,7 @@
   create_time: 20200930T16:25:00
   id: 1177152
   resolution: ''
-  status: REOPENED
+  status: NEW
   summary: Installer fails to reboot on Orange Pi zero
 - component: MicroOS
   create_time: 20200930T16:01:00
@@ -57068,6 +57068,12 @@
   status: RESOLVED
   summary: fix for rpm-macros-SUSE breakage when topdir contains spaces
 '20210425':
+- component: Patterns
+  create_time: 20210427T10:23:00
+  id: 1185343
+  resolution: FIXED
+  status: RESOLVED
+  summary: UDF can be selected as file system but udftools is missing on DVD
 - component: GNOME
   create_time: 20210427T09:49:00
   id: 1185340
@@ -57145,7 +57151,7 @@
   create_time: 20210426T11:29:00
   id: 1185287
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Images fail to build on armv6 and armv7
 - component: Security
   create_time: 20210426T10:02:00
