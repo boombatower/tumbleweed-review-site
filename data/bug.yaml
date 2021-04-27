@@ -42673,7 +42673,7 @@
   create_time: 20200623T14:23:00
   id: 1173275
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'vsftpd: too strict seccomp filter makes LIST impossible'
 - component: Development
   create_time: 20200623T13:05:00
@@ -53424,7 +53424,7 @@
   create_time: 20210212T17:38:00
   id: 1182207
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: SELinux problems on the boot of the system (?)
 - component: MicroOS
   create_time: 20210212T15:41:00
@@ -54301,8 +54301,8 @@
 - component: Security
   create_time: 20210304T10:11:00
   id: 1183019
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Enable fs.protected_regular and fs.protected_fifos
 - component: Sound
   create_time: 20210304T08:27:00
