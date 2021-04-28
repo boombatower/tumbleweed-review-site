@@ -57112,6 +57112,12 @@
   status: NEW
   summary: Firefox 88.0 does not work at all
 '20210426':
+- component: Other
+  create_time: 20210428T10:34:00
+  id: 1185400
+  resolution: ''
+  status: NEW
+  summary: '[icu69.1] nodejs 15 fails to build against updated icu version'
 - component: Basesystem
   create_time: 20210428T07:25:00
   id: 1185381
