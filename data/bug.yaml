@@ -54135,8 +54135,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20210301T15:43:00
   id: 1182869
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: ssh-agent not started in Plasma's systemd startup mode
 - component: Basesystem
   create_time: 20210301T14:10:00
@@ -57112,6 +57112,13 @@
   status: NEW
   summary: Firefox 88.0 does not work at all
 '20210426':
+- component: Other
+  create_time: 20210428T14:31:00
+  id: 1185415
+  resolution: ''
+  status: NEW
+  summary: QGIS can not find libspatialite because it is called libspatialite7 in
+    OpenSUSE
 - component: Other
   create_time: 20210428T10:34:00
   id: 1185400
