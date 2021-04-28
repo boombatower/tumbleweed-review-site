@@ -55806,8 +55806,8 @@
 - component: GNOME
   create_time: 20210329T08:20:00
   id: 1184098
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: GNOME 40 gnome-control-center SLE patches rebase.
 - component: GNOME
   create_time: 20210329T08:17:00
