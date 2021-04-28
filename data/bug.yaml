@@ -57091,7 +57091,7 @@
   create_time: 20210425T10:31:00
   id: 1185272
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: GRUB Memtest section immediately restarts
 - component: YaST2
   create_time: 20210425T10:26:00
@@ -57112,6 +57112,24 @@
   status: NEW
   summary: Firefox 88.0 does not work at all
 '20210426':
+- component: Basesystem
+  create_time: 20210428T07:25:00
+  id: 1185381
+  resolution: ''
+  status: NEW
+  summary: Is aaa_base dropped chkconfig?
+- component: KDE Applications
+  create_time: 20210428T07:02:00
+  id: 1185379
+  resolution: ''
+  status: NEW
+  summary: Kontact 5.17.0 looses password in KDE wallet
+- component: KDE Applications
+  create_time: 20210428T06:58:00
+  id: 1185378
+  resolution: ''
+  status: NEW
+  summary: Kontact 5.17.0 is slow and reacts after minutes to commands.
 - component: Other
   create_time: 20210427T15:58:00
   id: 1185362
