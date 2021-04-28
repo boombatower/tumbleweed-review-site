@@ -56637,7 +56637,7 @@
   id: 1184852
   resolution: ''
   status: NEW
-  summary: pipewire-media-session.service not enabled/started after installing pipewire-pulse
+  summary: pipewire-media-session.service not enabled/started after updating pipewire-pulse
 - component: Firefox
   create_time: 20210416T08:25:00
   id: 1184851
@@ -57139,8 +57139,8 @@
 - component: Development
   create_time: 20210427T14:03:00
   id: 1185355
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: go does not build with gcc11
 - component: Patterns
   create_time: 20210427T12:51:00
