@@ -32230,8 +32230,8 @@
 - component: YaST2
   create_time: 20191122T10:15:00
   id: 1157550
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Power9 (PowerVM) lpar partitions always have to boot via network
 - component: Other
   create_time: 20191122T09:53:00
@@ -56911,8 +56911,8 @@
 - component: libzypp
   create_time: 20210420T06:06:00
   id: 1184997
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: zypper ps -sss no longer works
 - component: Development
   create_time: 20210420T01:57:00
@@ -57116,7 +57116,7 @@
   create_time: 20210428T10:34:00
   id: 1185400
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[icu69.1] nodejs 15 fails to build against updated icu version'
 - component: Basesystem
   create_time: 20210428T07:25:00
