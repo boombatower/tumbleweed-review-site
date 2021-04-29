@@ -52659,7 +52659,7 @@
   create_time: 20210201T12:14:00
   id: 1181642
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: dtkgui: new D-Bus service required for deepin-music-player'
 - component: Other
   create_time: 20210201T09:25:00
@@ -54536,7 +54536,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'kernel: i915 0000:00:02.0: [drm] VGA-1: EDID is invalid:'
-- component: Other
+- component: Installation
   create_time: 20210310T08:52:00
   id: 1183265
   resolution: ''
@@ -57066,7 +57066,7 @@
   create_time: 20210425T18:12:00
   id: 1185276
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Mesa - regression with video playback for HD channels on Hauppauge Card
     HVR5525
 - component: Firefox
@@ -57174,6 +57174,24 @@
   status: RESOLVED
   summary: alsa-info.sh trying to replaced packaged code with download from the internet
 '20210427':
+- component: Basesystem
+  create_time: 20210429T11:42:00
+  id: 1185459
+  resolution: FIXED
+  status: RESOLVED
+  summary: pipewire.socket unit is not enabled on new installations
+- component: Other
+  create_time: 20210429T11:34:00
+  id: 1185458
+  resolution: ''
+  status: NEW
+  summary: There are a problem with rime's package dependencies
+- component: KDE Workspace (Plasma)
+  create_time: 20210429T11:19:00
+  id: 1185455
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: Kdeinit5 crashes when i save a file
 - component: GNOME
   create_time: 20210429T08:42:00
   id: 1185446
@@ -57225,8 +57243,8 @@
 - component: Basesystem
   create_time: 20210428T16:39:00
   id: 1185418
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: tuned: [tuned.noarch: E: polkit-unauthorized-privilege (Badness:
     10000) com.redhat.tuned.post_loaded_profile (yes: yes: yes)]'
 - component: Other
