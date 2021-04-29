@@ -57112,6 +57112,24 @@
   status: NEW
   summary: Firefox 88.0 does not work at all
 '20210426':
+- component: KDE Applications
+  create_time: 20210428T23:24:00
+  id: 1185431
+  resolution: ''
+  status: NEW
+  summary: Kontact Segfault Issue
+- component: Sound
+  create_time: 20210428T22:15:00
+  id: 1185430
+  resolution: ''
+  status: NEW
+  summary: Headphones that consist of 2 audio devices can't play at the same time
+- component: Other
+  create_time: 20210428T22:15:00
+  id: 1185429
+  resolution: ''
+  status: NEW
+  summary: qbs doesn't accomodate -qt5 suffix on Qt tools
 - component: Basesystem
   create_time: 20210428T16:39:00
   id: 1185418
