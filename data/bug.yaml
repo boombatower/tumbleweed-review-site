@@ -30283,8 +30283,8 @@
 - component: Kubic
   create_time: 20191011T08:09:00
   id: 1153687
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Zypper repo name detection broken
 - component: Kernel
   create_time: 20191011T08:05:00
@@ -41651,8 +41651,8 @@
 - component: MicroOS
   create_time: 20200608T11:24:00
   id: 1172656
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'MicroOS Desktop: Wired network requires root password'
 - component: Basesystem
   create_time: 20200608T11:21:00
@@ -57174,6 +57174,24 @@
   status: RESOLVED
   summary: alsa-info.sh trying to replaced packaged code with download from the internet
 '20210427':
+- component: Other
+  create_time: 20210429T15:46:00
+  id: 1185475
+  resolution: ''
+  status: NEW
+  summary: Critical regression in FileZilla makes it unusable
+- component: Security
+  create_time: 20210429T14:19:00
+  id: 1185469
+  resolution: ''
+  status: NEW
+  summary: '[AUDIT] systemd-network.x86_64: W: polkit-changed-rules /usr/share/polkit-1/rules.d/60-systemd-networkd.rules'
+- component: Security
+  create_time: 20210429T14:10:00
+  id: 1185468
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: systemd: new D-Bus method / polkit action org.freedesktop.login1.inhibit-handle-reboot-key'
 - component: MicroOS
   create_time: 20210429T12:39:00
   id: 1185463
@@ -57231,8 +57249,8 @@
 - component: Basesystem
   create_time: 20210429T07:03:00
   id: 1185439
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'pam-config: ERROR: module /lib64/security/pam_pwquality.so is not installed.'
 - component: KDE Applications
   create_time: 20210428T23:24:00
