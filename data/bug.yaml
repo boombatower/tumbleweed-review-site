@@ -57179,7 +57179,7 @@
   id: 1185475
   resolution: ''
   status: NEW
-  summary: Critical regression in FileZilla makes it unusable
+  summary: 'FileZilla: cannot handle utf8 filenames'
 - component: Security
   create_time: 20210429T14:19:00
   id: 1185469
