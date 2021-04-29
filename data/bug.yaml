@@ -32227,12 +32227,6 @@
   resolution: FIXED
   status: RESOLVED
   summary: '[WSL] creating user in firstboot does not show progess bar'
-- component: YaST2
-  create_time: 20191122T10:15:00
-  id: 1157550
-  resolution: ''
-  status: REOPENED
-  summary: Power9 (PowerVM) lpar partitions always have to boot via network
 - component: Other
   create_time: 20191122T09:53:00
   id: 1157545
@@ -47265,8 +47259,8 @@
 - component: Other
   create_time: 20201006T09:43:00
   id: 1177356
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 'subversion: Adjust tmpfiles.d/svnserve.conf to use /run/svnserve'
 - component: Samba
   create_time: 20201006T09:42:00
@@ -54313,8 +54307,8 @@
 - component: Kernel
   create_time: 20210304T08:00:00
   id: 1183009
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Some armv6/7 builds on OBS fail due to kernel 5.11 modules not being loaded
     properly
 - component: X.Org
@@ -57112,7 +57106,7 @@
   status: NEW
   summary: Firefox 88.0 does not work at all
 '20210426':
-- component: Installation
+- component: Basesystem
   create_time: 20210426T20:41:00
   id: 1185309
   resolution: ''
@@ -57180,6 +57174,24 @@
   status: RESOLVED
   summary: alsa-info.sh trying to replaced packaged code with download from the internet
 '20210427':
+- component: GNOME
+  create_time: 20210429T08:42:00
+  id: 1185446
+  resolution: ''
+  status: NEW
+  summary: gnome-shell segfault while moving focused window between displays
+- component: Other
+  create_time: 20210429T08:14:00
+  id: 1185444
+  resolution: ''
+  status: NEW
+  summary: 'Stellarium: cannot toggle full screen mode on GNOME 40'
+- component: YaST2
+  create_time: 20210429T08:08:00
+  id: 1185443
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Wrong license header in some libyui sources
 - component: Other
   create_time: 20210429T07:26:00
   id: 1185440
@@ -57214,9 +57226,9 @@
   create_time: 20210428T16:39:00
   id: 1185418
   resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: [tuned]: [tuned.noarch: E: polkit-unauthorized-privilege (Badness:
-    10000) com.redhat.tuned.post_loaded_profile (yes:yes:yes)]'
+  status: IN_PROGRESS
+  summary: 'AUDIT-0: tuned: [tuned.noarch: E: polkit-unauthorized-privilege (Badness:
+    10000) com.redhat.tuned.post_loaded_profile (yes: yes: yes)]'
 - component: Other
   create_time: 20210428T14:31:00
   id: 1185415
