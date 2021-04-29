@@ -57174,6 +57174,12 @@
   status: RESOLVED
   summary: alsa-info.sh trying to replaced packaged code with download from the internet
 '20210427':
+- component: Basesystem
+  create_time: 20210429T20:41:00
+  id: 1185482
+  resolution: ''
+  status: NEW
+  summary: btrfs filesystem cannot be mounted
 - component: Other
   create_time: 20210429T15:46:00
   id: 1185475
