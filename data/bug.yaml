@@ -36178,8 +36178,8 @@
 - component: MicroOS
   create_time: 20200212T09:34:00
   id: 1163453
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Introduce MicroOS Desktop
 - component: GNOME
   create_time: 20200212T06:48:00
@@ -42963,8 +42963,8 @@
 - component: Kubic
   create_time: 20200629T09:53:00
   id: 1173461
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Don't create btrfs subvolume for /tmp
 - component: Installation
   create_time: 20200629T06:26:00
@@ -46476,7 +46476,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: Failed to start Apply Kernel Variables
-- component: MicroOS
+- component: Kernel
   create_time: 20200916T01:33:00
   id: 1176576
   resolution: ''
@@ -47170,8 +47170,8 @@
 - component: MicroOS
   create_time: 20200930T15:55:00
   id: 1177149
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: transactional-update-etc-cleaner.service uses obsolete output
 - component: Other
   create_time: 20200930T13:50:00
@@ -52902,7 +52902,7 @@
   create_time: 20210206T12:13:00
   id: 1181886
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-1: deepin-system-monitor: new polkit profile need review'
 - component: Basesystem
   create_time: 20210206T11:26:00
@@ -53423,8 +53423,8 @@
 - component: MicroOS
   create_time: 20210212T15:41:00
   id: 1182199
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'KDE: Flatpack Chromium not starting via x-scheme-handler/https'
 - component: Security
   create_time: 20210212T11:28:00
@@ -53874,8 +53874,8 @@
 - component: MicroOS
   create_time: 20210222T08:43:00
   id: 1182544
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: transactional-update fails when self-updating from old snapshot
 - component: Other
   create_time: 20210222T08:04:00
@@ -54589,8 +54589,8 @@
 - component: Kubic
   create_time: 20210309T13:14:00
   id: 1183231
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Staging J] YaST is not installing microos_base_zypper pattern for container
     host role, causing OpenQA test failures'
 - component: Other
@@ -54991,8 +54991,8 @@
 - component: MicroOS
   create_time: 20210315T10:51:00
   id: 1183521
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210312] openQA test fails in transactional_update'
 - component: Network
   create_time: 20210315T09:48:00
@@ -55424,8 +55424,8 @@
 - component: MicroOS
   create_time: 20210323T11:23:00
   id: 1183894
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: MicroOS needs to no longer ship AppArmor
 - component: YaST2
   create_time: 20210323T10:32:00
@@ -55656,8 +55656,8 @@
 - component: MicroOS
   create_time: 20210326T13:38:00
   id: 1184037
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: MicroOS Desktop with GNOME is now in Beta
 - component: YaST2
   create_time: 20210326T12:37:00
@@ -57174,6 +57174,18 @@
   status: RESOLVED
   summary: alsa-info.sh trying to replaced packaged code with download from the internet
 '20210427':
+- component: MicroOS
+  create_time: 20210429T12:39:00
+  id: 1185463
+  resolution: ''
+  status: NEW
+  summary: kdump fails on microos
+- component: MicroOS
+  create_time: 20210429T12:22:00
+  id: 1185461
+  resolution: ''
+  status: NEW
+  summary: ignition doesn't reset firstboot
 - component: Basesystem
   create_time: 20210429T11:42:00
   id: 1185459
@@ -57198,7 +57210,7 @@
   resolution: ''
   status: NEW
   summary: gnome-shell segfault while moving focused window between displays
-- component: Other
+- component: GNOME
   create_time: 20210429T08:14:00
   id: 1185444
   resolution: ''
@@ -57207,8 +57219,8 @@
 - component: YaST2
   create_time: 20210429T08:08:00
   id: 1185443
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Wrong license header in some libyui sources
 - component: Other
   create_time: 20210429T07:26:00
@@ -57263,8 +57275,8 @@
 - component: Basesystem
   create_time: 20210428T07:25:00
   id: 1185381
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Is aaa_base dropped chkconfig?
 - component: KDE Applications
   create_time: 20210428T07:02:00
