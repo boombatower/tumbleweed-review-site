@@ -56672,8 +56672,8 @@
 - component: LXDE
   create_time: 20210416T02:57:00
   id: 1184840
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: After last update on thumbleweed 15.04.2021 autostart did not work (from
     /etc/xdg/autostart)
 '20210417':
@@ -56749,8 +56749,8 @@
 - component: LXDE
   create_time: 20210419T01:32:00
   id: 1184937
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: lxsession-edit  segmentation fault error after last several updates in
     tumbleweed
 - component: GNOME
@@ -57112,6 +57112,74 @@
   status: NEW
   summary: Firefox 88.0 does not work at all
 '20210426':
+- component: Installation
+  create_time: 20210426T20:41:00
+  id: 1185309
+  resolution: ''
+  status: NEW
+  summary: Please add SSE2 to Tumbleweed i686 system requirements
+- component: LibreOffice
+  create_time: 20210426T19:07:00
+  id: 1185307
+  resolution: ''
+  status: NEW
+  summary: 'Calc: pasting comment clears cell contents'
+- component: Development
+  create_time: 20210426T16:59:00
+  id: 1185301
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed's "racket" package lags upstream releases by 8 months and 2
+    releases
+- component: Firefox
+  create_time: 20210426T16:15:00
+  id: 1185298
+  resolution: ''
+  status: NEW
+  summary: Firefox is broken
+- component: Other
+  create_time: 20210426T15:08:00
+  id: 1185295
+  resolution: INVALID
+  status: RESOLVED
+  summary: selinux-autorelabel doesn't work
+- component: Security
+  create_time: 20210426T14:38:00
+  id: 1185293
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'selinux-policy: bash denied'
+- component: Containers
+  create_time: 20210426T12:07:00
+  id: 1185290
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210425] Invalid ''driver'' setting in MicroOS image'
+- component: Basesystem
+  create_time: 20210426T11:29:00
+  id: 1185287
+  resolution: ''
+  status: CONFIRMED
+  summary: Images fail to build on armv6 and armv7
+- component: Security
+  create_time: 20210426T10:02:00
+  id: 1185285
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'AUDIT-0: systemd homed'
+- component: Kernel
+  create_time: 20210426T08:21:00
+  id: 1185282
+  resolution: ''
+  status: NEW
+  summary: AMD CCP module missing firmware in initrd
+- component: Sound
+  create_time: 20210426T07:40:00
+  id: 1185280
+  resolution: FIXED
+  status: RESOLVED
+  summary: alsa-info.sh trying to replaced packaged code with download from the internet
+'20210427':
 - component: KDE Applications
   create_time: 20210428T23:24:00
   id: 1185431
@@ -57229,70 +57297,3 @@
   resolution: WONTFIX
   status: RESOLVED
   summary: snapshot 20210425 did not include kernel-syms-5.11.16
-- component: Installation
-  create_time: 20210426T20:41:00
-  id: 1185309
-  resolution: ''
-  status: NEW
-  summary: Please add SSE2 to Tumbleweed i686 system requirements
-- component: LibreOffice
-  create_time: 20210426T19:07:00
-  id: 1185307
-  resolution: ''
-  status: NEW
-  summary: 'Calc: pasting comment clears cell contents'
-- component: Development
-  create_time: 20210426T16:59:00
-  id: 1185301
-  resolution: ''
-  status: NEW
-  summary: Tumbleweed's "racket" package lags upstream releases by 8 months and 2
-    releases
-- component: Firefox
-  create_time: 20210426T16:15:00
-  id: 1185298
-  resolution: ''
-  status: NEW
-  summary: Firefox is broken
-- component: Other
-  create_time: 20210426T15:08:00
-  id: 1185295
-  resolution: INVALID
-  status: RESOLVED
-  summary: selinux-autorelabel doesn't work
-- component: Security
-  create_time: 20210426T14:38:00
-  id: 1185293
-  resolution: INVALID
-  status: RESOLVED
-  summary: 'selinux-policy: bash denied'
-- component: Containers
-  create_time: 20210426T12:07:00
-  id: 1185290
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210425] Invalid ''driver'' setting in MicroOS image'
-- component: Basesystem
-  create_time: 20210426T11:29:00
-  id: 1185287
-  resolution: ''
-  status: CONFIRMED
-  summary: Images fail to build on armv6 and armv7
-- component: Security
-  create_time: 20210426T10:02:00
-  id: 1185285
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'AUDIT-0: systemd homed'
-- component: Kernel
-  create_time: 20210426T08:21:00
-  id: 1185282
-  resolution: ''
-  status: NEW
-  summary: AMD CCP module missing firmware in initrd
-- component: Sound
-  create_time: 20210426T07:40:00
-  id: 1185280
-  resolution: FIXED
-  status: RESOLVED
-  summary: alsa-info.sh trying to replaced packaged code with download from the internet
