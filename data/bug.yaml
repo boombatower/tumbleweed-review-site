@@ -53137,7 +53137,7 @@
   create_time: 20210208T12:11:00
   id: 1181942
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'RPi2: IRQ chip of the pinctrl is not set'
 - component: Kernel
   create_time: 20210208T12:05:00
@@ -56136,8 +56136,8 @@
 - component: MicroOS
   create_time: 20210406T13:20:00
   id: 1184385
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: firewalld missing in installer/installation image for MicroOS Desktop
 - component: Maintenance
   create_time: 20210406T11:43:00
@@ -57127,8 +57127,8 @@
 - component: Development
   create_time: 20210426T16:59:00
   id: 1185301
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Tumbleweed's "racket" package lags upstream releases by 8 months and 2
     releases
 - component: Firefox
@@ -57180,6 +57180,18 @@
   status: RESOLVED
   summary: alsa-info.sh trying to replaced packaged code with download from the internet
 '20210427':
+- component: Other
+  create_time: 20210429T07:26:00
+  id: 1185440
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/yast2-rmt fails to build'
+- component: Basesystem
+  create_time: 20210429T07:03:00
+  id: 1185439
+  resolution: ''
+  status: NEW
+  summary: 'pam-config: ERROR: module /lib64/security/pam_pwquality.so is not installed.'
 - component: KDE Applications
   create_time: 20210428T23:24:00
   id: 1185431
@@ -57192,11 +57204,11 @@
   resolution: ''
   status: NEW
   summary: Headphones that consist of 2 audio devices can't play at the same time
-- component: Other
+- component: KDE Applications
   create_time: 20210428T22:15:00
   id: 1185429
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: qbs doesn't accomodate -qt5 suffix on Qt tools
 - component: Basesystem
   create_time: 20210428T16:39:00
