@@ -57090,8 +57090,8 @@
 - component: YaST2
   create_time: 20210425T10:26:00
   id: 1185271
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: YaST KDE control module has stopped working
 - component: Basesystem
   create_time: 20210425T06:06:00
@@ -57174,6 +57174,18 @@
   status: RESOLVED
   summary: alsa-info.sh trying to replaced packaged code with download from the internet
 '20210427':
+- component: X11 Applications
+  create_time: 20210430T10:04:00
+  id: 1185496
+  resolution: ''
+  status: NEW
+  summary: chromium does not support ftp
+- component: Firefox
+  create_time: 20210430T09:24:00
+  id: 1185494
+  resolution: ''
+  status: NEW
+  summary: ftp protocol not supported
 - component: Basesystem
   create_time: 20210429T20:41:00
   id: 1185482
