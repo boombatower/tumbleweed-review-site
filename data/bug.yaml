@@ -56611,8 +56611,8 @@
 - component: Installation
   create_time: 20210416T11:35:00
   id: 1184867
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: NXP i.MX8MM missing kernel modules in initrd
 - component: KDE Workspace (Plasma)
   create_time: 20210416T11:34:00
