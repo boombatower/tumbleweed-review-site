@@ -99,15 +99,15 @@
     xorg-x11-server: 1.20.10
   binary_interest_changed:
   - gcc9
-  - kate
-  - xf86-video-intel
-  - gcc11
-  - xf86-video-amdgpu
   - xf86-video-nouveau
-  - gnome-builder
-  - Mesa
-  - kernel-source
   - gcc10
+  - xf86-video-amdgpu
+  - Mesa
+  - gcc11
+  - gnome-builder
+  - kate
+  - kernel-source
+  - xf86-video-intel
   binary_unique_count: 31569
   disk_base: 37.9GiB
   disk_shared: unknown
@@ -262,12 +262,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - plasma-framework
   - plasma5-workspace
-  - gnome-builder
-  - libqt5-qtbase-devel
   - Mesa
+  - gnome-builder
   - kernel-source
+  - plasma-framework
+  - libqt5-qtbase-devel
   binary_unique_count: 4700
   disk_base: 7.4GiB
   disk_shared: unknown
@@ -368,11 +368,11 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
+  - gtk3-devel
   - xf86-video-amdgpu
-  - libqt5-qtbase-devel
   - Mesa
   - kernel-source
-  - gtk3-devel
+  - libqt5-qtbase-devel
   binary_unique_count: 2666
   disk_base: 4.9GiB
   disk_shared: unknown
@@ -398,13 +398,13 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - kate
-  - plasma-framework
   - plasma5-workspace
-  - gnome-builder
-  - libqt5-qtbase-devel
   - gtk3-devel
   - gcc10
+  - gnome-builder
+  - kate
+  - plasma-framework
+  - libqt5-qtbase-devel
   binary_unique_count: 19487
   disk_base: 25.5GiB
   disk_shared: unknown
@@ -430,12 +430,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - gcc11
-  - xorg-x11-server
-  - gnome-builder
   - llvm
-  - Mesa
+  - xorg-x11-server
   - gcc10
+  - Mesa
+  - gnome-builder
+  - gcc11
   binary_unique_count: 2477
   disk_base: 6.9GiB
   disk_shared: unknown
@@ -486,10 +486,10 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - kate
-  - kernel-source
-  - gtk3-devel
   - xf86-video-intel
+  - gtk3-devel
+  - kernel-source
+  - kate
   binary_unique_count: 2371
   disk_base: 5.9GiB
   disk_shared: unknown
