@@ -57239,9 +57239,9 @@
 - component: YaST2
   create_time: 20210430T16:06:00
   id: 1185510
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Bump YaST package versions to 4.4.x
+  resolution: FIXED
+  status: RESOLVED
+  summary: Bump YaST package versions to 4.4.x / 15.4.x
 - component: KDE Applications
   create_time: 20210430T13:31:00
   id: 1185504
