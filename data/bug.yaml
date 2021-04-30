@@ -49272,8 +49272,8 @@
 - component: Upgrade Problems
   create_time: 20201114T19:36:00
   id: 1178803
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Recent Snapshots break Openshot-QT with missing dependency python3-pyxdg
 - component: Network
   create_time: 20201114T17:17:00
@@ -56422,7 +56422,7 @@
   create_time: 20210415T22:42:00
   id: 1184838
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: openQA AppArmor profile has recursive include
 - component: Network
   create_time: 20210415T22:30:00
@@ -57174,6 +57174,68 @@
   status: RESOLVED
   summary: alsa-info.sh trying to replaced packaged code with download from the internet
 '20210427':
+- component: Other
+  create_time: 20210427T15:58:00
+  id: 1185362
+  resolution: ''
+  status: NEW
+  summary: fwupd fails to start due to missing dependencies causing a timeout
+- component: Development
+  create_time: 20210427T14:03:00
+  id: 1185355
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: go does not build with gcc11
+- component: Patterns
+  create_time: 20210427T12:51:00
+  id: 1185353
+  resolution: ''
+  status: NEW
+  summary: The new pattern patterns-deepin need an icon
+- component: Kernel
+  create_time: 20210427T12:46:00
+  id: 1185352
+  resolution: ''
+  status: NEW
+  summary: 'exfat: ERROR: invalid VBR checksum 0xc746d7e6 (expected 0x8122115) on
+    zram test'
+- component: Patterns
+  create_time: 20210427T10:23:00
+  id: 1185343
+  resolution: FIXED
+  status: RESOLVED
+  summary: UDF can be selected as file system but udftools is missing on DVD
+- component: GNOME
+  create_time: 20210427T09:49:00
+  id: 1185340
+  resolution: ''
+  status: CONFIRMED
+  summary: gnome-system-monitor 40.0 has a Bug
+- component: Sound
+  create_time: 20210427T09:34:00
+  id: 1185339
+  resolution: ''
+  status: NEW
+  summary: lsusb hangs and throws error when listing Motu M4 device
+- component: YaST2
+  create_time: 20210427T09:33:00
+  id: 1185338
+  resolution: ''
+  status: CONFIRMED
+  summary: Drop all the references to Yast::LanItems
+- component: GNOME
+  create_time: 20210427T08:30:00
+  id: 1185333
+  resolution: ''
+  status: NEW
+  summary: gnome-control-center crashes when trying to add new input source [Keyboard]
+- component: Kernel
+  create_time: 20210427T08:26:00
+  id: 1185332
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: snapshot 20210425 did not include kernel-syms-5.11.16
+'20210428':
 - component: X11 Applications
   create_time: 20210430T10:04:00
   id: 1185496
@@ -57186,7 +57248,7 @@
   resolution: ''
   status: NEW
   summary: ftp protocol not supported
-- component: Basesystem
+- component: Kernel
   create_time: 20210429T20:41:00
   id: 1185482
   resolution: ''
@@ -57326,64 +57388,3 @@
   resolution: ''
   status: NEW
   summary: Kontact 5.17.0 is slow and reacts after minutes to commands.
-- component: Other
-  create_time: 20210427T15:58:00
-  id: 1185362
-  resolution: ''
-  status: NEW
-  summary: fwupd fails to start due to missing dependencies causing a timeout
-- component: Development
-  create_time: 20210427T14:03:00
-  id: 1185355
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: go does not build with gcc11
-- component: Patterns
-  create_time: 20210427T12:51:00
-  id: 1185353
-  resolution: ''
-  status: NEW
-  summary: The new pattern patterns-deepin need an icon
-- component: Kernel
-  create_time: 20210427T12:46:00
-  id: 1185352
-  resolution: ''
-  status: NEW
-  summary: 'exfat: ERROR: invalid VBR checksum 0xc746d7e6 (expected 0x8122115) on
-    zram test'
-- component: Patterns
-  create_time: 20210427T10:23:00
-  id: 1185343
-  resolution: FIXED
-  status: RESOLVED
-  summary: UDF can be selected as file system but udftools is missing on DVD
-- component: GNOME
-  create_time: 20210427T09:49:00
-  id: 1185340
-  resolution: ''
-  status: CONFIRMED
-  summary: gnome-system-monitor 40.0 has a Bug
-- component: Sound
-  create_time: 20210427T09:34:00
-  id: 1185339
-  resolution: ''
-  status: NEW
-  summary: lsusb hangs and throws error when listing Motu M4 device
-- component: YaST2
-  create_time: 20210427T09:33:00
-  id: 1185338
-  resolution: ''
-  status: CONFIRMED
-  summary: Drop all the references to Yast::LanItems
-- component: GNOME
-  create_time: 20210427T08:30:00
-  id: 1185333
-  resolution: ''
-  status: NEW
-  summary: gnome-control-center crashes when trying to add new input source [Keyboard]
-- component: Kernel
-  create_time: 20210427T08:26:00
-  id: 1185332
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: snapshot 20210425 did not include kernel-syms-5.11.16
