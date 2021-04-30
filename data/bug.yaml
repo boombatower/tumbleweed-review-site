@@ -55757,8 +55757,8 @@
 - component: GNOME
   create_time: 20210329T08:31:00
   id: 1184105
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: GNOME 40 mutter SLE patches rebase.
 - component: GNOME
   create_time: 20210329T08:29:00
