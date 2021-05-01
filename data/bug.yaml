@@ -56987,7 +56987,7 @@
   create_time: 20210424T14:29:00
   id: 1185258
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'Blender: unable to use cycle rendering'
 - component: Ruby
   create_time: 20210424T10:04:00
@@ -57293,6 +57293,12 @@
   status: NEW
   summary: Kontact 5.17.0 is slow and reacts after minutes to commands.
 '20210429':
+- component: Kernel
+  create_time: 20210501T14:52:00
+  id: 1185527
+  resolution: ''
+  status: NEW
+  summary: 'Kernel 5.12: unable to open usb serial port ACM0'
 - component: Basesystem
   create_time: 20210501T13:46:00
   id: 1185526
