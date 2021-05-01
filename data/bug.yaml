@@ -52263,7 +52263,7 @@
   create_time: 20210122T01:21:00
   id: 1181263
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: xfce4-xkb-plugin and xfce4-keyboard-settings don't switch keyboard layouts
 - component: Other
   create_time: 20210121T22:28:00
