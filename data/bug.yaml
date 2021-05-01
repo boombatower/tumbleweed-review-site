@@ -57236,6 +57236,12 @@
   status: RESOLVED
   summary: snapshot 20210425 did not include kernel-syms-5.11.16
 '20210428':
+- component: Kernel
+  create_time: 20210501T05:25:00
+  id: 1185518
+  resolution: ''
+  status: NEW
+  summary: Consider building Linux 5.12+ with PREEMPT flag on arches with STATIC_CALL
 - component: X.Org
   create_time: 20210430T21:14:00
   id: 1185516
@@ -57327,7 +57333,7 @@
   create_time: 20210429T11:34:00
   id: 1185458
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: There are a problem with rime's package dependencies
 - component: KDE Workspace (Plasma)
   create_time: 20210429T11:19:00
