@@ -56694,8 +56694,8 @@
 - component: Kernel
   create_time: 20210419T16:03:00
   id: 1184984
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'Kernel 5.11.12: unable to open usb port ACM0'
 - component: GNOME
   create_time: 20210419T15:21:00
