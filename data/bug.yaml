@@ -57293,6 +57293,24 @@
   status: NEW
   summary: Kontact 5.17.0 is slow and reacts after minutes to commands.
 '20210429':
+- component: Basesystem
+  create_time: 20210501T13:46:00
+  id: 1185526
+  resolution: FEATURE
+  status: RESOLVED
+  summary: Reduce interpreter installed by default
+- component: GNOME
+  create_time: 20210501T13:03:00
+  id: 1185525
+  resolution: ''
+  status: NEW
+  summary: Please update Gnome Drawing and add to main repo
+- component: Network
+  create_time: 20210501T12:43:00
+  id: 1185524
+  resolution: ''
+  status: NEW
+  summary: Changing to NetworkManager via Yast Network throws an internal error
 - component: Other
   create_time: 20210501T07:19:00
   id: 1185520
@@ -57305,7 +57323,7 @@
   resolution: ''
   status: NEW
   summary: Consider building Linux 5.12+ with PREEMPT flag on arches with STATIC_CALL
-- component: X.Org
+- component: Kernel
   create_time: 20210430T21:14:00
   id: 1185516
   resolution: ''
