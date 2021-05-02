@@ -55047,8 +55047,8 @@
 - component: AppArmor
   create_time: 20210316T15:10:00
   id: 1183597
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'gnome-calculator: GnuTLS session priority with error beginning at %COMPAT'
 - component: LibreOffice
   create_time: 20210316T15:01:00
