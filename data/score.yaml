@@ -2019,7 +2019,7 @@
   stability_level: moderate
 '20210425':
   score: 91
-  stability_level: pending
+  stability_level: stable
 '20210426':
   score: 95
   stability_level: pending
