@@ -57293,6 +57293,12 @@
   status: NEW
   summary: Kontact 5.17.0 is slow and reacts after minutes to commands.
 '20210429':
+- component: Other
+  create_time: 20210502T19:45:00
+  id: 1185539
+  resolution: ''
+  status: NEW
+  summary: Telegram-desktop is crashing after start of record audio message
 - component: Virtualization:Tools
   create_time: 20210502T12:40:00
   id: 1185531
