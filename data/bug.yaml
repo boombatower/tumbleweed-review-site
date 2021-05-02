@@ -57317,7 +57317,7 @@
   resolution: ''
   status: NEW
   summary: Please update Gnome Drawing and add to main repo
-- component: Network
+- component: YaST2
   create_time: 20210501T12:43:00
   id: 1185524
   resolution: ''
