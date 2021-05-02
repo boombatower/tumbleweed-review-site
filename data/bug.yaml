@@ -57293,6 +57293,12 @@
   status: NEW
   summary: Kontact 5.17.0 is slow and reacts after minutes to commands.
 '20210429':
+- component: Virtualization:Tools
+  create_time: 20210502T12:40:00
+  id: 1185531
+  resolution: ''
+  status: NEW
+  summary: virt-viewer 10.0 second display handling
 - component: Development
   create_time: 20210502T03:59:00
   id: 1185529
@@ -57317,7 +57323,7 @@
   resolution: ''
   status: NEW
   summary: Please update Gnome Drawing and add to main repo
-- component: YaST2
+- component: Network
   create_time: 20210501T12:43:00
   id: 1185524
   resolution: ''
