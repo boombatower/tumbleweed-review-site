@@ -57293,6 +57293,12 @@
   status: NEW
   summary: Kontact 5.17.0 is slow and reacts after minutes to commands.
 '20210429':
+- component: Development
+  create_time: 20210502T03:59:00
+  id: 1185529
+  resolution: ''
+  status: NEW
+  summary: libgccjit does not find libgcc/crtbegin.o
 - component: Kernel
   create_time: 20210501T14:52:00
   id: 1185527
