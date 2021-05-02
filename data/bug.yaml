@@ -57293,6 +57293,91 @@
   status: NEW
   summary: Kontact 5.17.0 is slow and reacts after minutes to commands.
 '20210429':
+- component: Kernel
+  create_time: 20210429T20:41:00
+  id: 1185482
+  resolution: ''
+  status: IN_PROGRESS
+  summary: btrfs filesystem cannot be mounted
+- component: Other
+  create_time: 20210429T15:46:00
+  id: 1185475
+  resolution: ''
+  status: NEW
+  summary: 'FileZilla: cannot handle utf8 filenames'
+- component: Security
+  create_time: 20210429T14:19:00
+  id: 1185469
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[AUDIT] systemd-network.x86_64: W: polkit-changed-rules /usr/share/polkit-1/rules.d/60-systemd-networkd.rules'
+- component: Security
+  create_time: 20210429T14:10:00
+  id: 1185468
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'AUDIT-0: systemd: new D-Bus method / polkit action org.freedesktop.login1.inhibit-handle-reboot-key'
+- component: MicroOS
+  create_time: 20210429T12:39:00
+  id: 1185463
+  resolution: ''
+  status: NEW
+  summary: kdump fails on microos
+- component: MicroOS
+  create_time: 20210429T12:22:00
+  id: 1185461
+  resolution: ''
+  status: NEW
+  summary: ignition doesn't reset firstboot
+- component: Basesystem
+  create_time: 20210429T11:42:00
+  id: 1185459
+  resolution: FIXED
+  status: RESOLVED
+  summary: pipewire.socket unit is not enabled on new installations
+- component: Other
+  create_time: 20210429T11:34:00
+  id: 1185458
+  resolution: ''
+  status: IN_PROGRESS
+  summary: There are a problem with rime's package dependencies
+- component: KDE Workspace (Plasma)
+  create_time: 20210429T11:19:00
+  id: 1185455
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: Kdeinit5 crashes when i save a file
+- component: GNOME
+  create_time: 20210429T08:42:00
+  id: 1185446
+  resolution: ''
+  status: NEW
+  summary: gnome-shell segfault while moving focused window between displays
+- component: GNOME
+  create_time: 20210429T08:14:00
+  id: 1185444
+  resolution: ''
+  status: NEW
+  summary: 'Stellarium: cannot toggle full screen mode on GNOME 40'
+- component: YaST2
+  create_time: 20210429T08:08:00
+  id: 1185443
+  resolution: FIXED
+  status: RESOLVED
+  summary: Wrong license header in some libyui sources
+- component: Other
+  create_time: 20210429T07:26:00
+  id: 1185440
+  resolution: ''
+  status: NEW
+  summary: 'FTBFS: openSUSE:Factory/yast2-rmt fails to build'
+- component: Basesystem
+  create_time: 20210429T07:03:00
+  id: 1185439
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: 'pam-config: ERROR: module /lib64/security/pam_pwquality.so is not installed.'
+'20210430':
 - component: Other
   create_time: 20210502T19:45:00
   id: 1185539
@@ -57392,87 +57477,3 @@
   resolution: ''
   status: NEW
   summary: ftp protocol not supported
-- component: Kernel
-  create_time: 20210429T20:41:00
-  id: 1185482
-  resolution: ''
-  status: IN_PROGRESS
-  summary: btrfs filesystem cannot be mounted
-- component: Other
-  create_time: 20210429T15:46:00
-  id: 1185475
-  resolution: ''
-  status: NEW
-  summary: 'FileZilla: cannot handle utf8 filenames'
-- component: Security
-  create_time: 20210429T14:19:00
-  id: 1185469
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[AUDIT] systemd-network.x86_64: W: polkit-changed-rules /usr/share/polkit-1/rules.d/60-systemd-networkd.rules'
-- component: Security
-  create_time: 20210429T14:10:00
-  id: 1185468
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'AUDIT-0: systemd: new D-Bus method / polkit action org.freedesktop.login1.inhibit-handle-reboot-key'
-- component: MicroOS
-  create_time: 20210429T12:39:00
-  id: 1185463
-  resolution: ''
-  status: NEW
-  summary: kdump fails on microos
-- component: MicroOS
-  create_time: 20210429T12:22:00
-  id: 1185461
-  resolution: ''
-  status: NEW
-  summary: ignition doesn't reset firstboot
-- component: Basesystem
-  create_time: 20210429T11:42:00
-  id: 1185459
-  resolution: FIXED
-  status: RESOLVED
-  summary: pipewire.socket unit is not enabled on new installations
-- component: Other
-  create_time: 20210429T11:34:00
-  id: 1185458
-  resolution: ''
-  status: IN_PROGRESS
-  summary: There are a problem with rime's package dependencies
-- component: KDE Workspace (Plasma)
-  create_time: 20210429T11:19:00
-  id: 1185455
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: Kdeinit5 crashes when i save a file
-- component: GNOME
-  create_time: 20210429T08:42:00
-  id: 1185446
-  resolution: ''
-  status: NEW
-  summary: gnome-shell segfault while moving focused window between displays
-- component: GNOME
-  create_time: 20210429T08:14:00
-  id: 1185444
-  resolution: ''
-  status: NEW
-  summary: 'Stellarium: cannot toggle full screen mode on GNOME 40'
-- component: YaST2
-  create_time: 20210429T08:08:00
-  id: 1185443
-  resolution: FIXED
-  status: RESOLVED
-  summary: Wrong license header in some libyui sources
-- component: Other
-  create_time: 20210429T07:26:00
-  id: 1185440
-  resolution: ''
-  status: NEW
-  summary: 'FTBFS: openSUSE:Factory/yast2-rmt fails to build'
-- component: Basesystem
-  create_time: 20210429T07:03:00
-  id: 1185439
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: 'pam-config: ERROR: module /lib64/security/pam_pwquality.so is not installed.'
