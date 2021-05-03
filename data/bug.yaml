@@ -47653,8 +47653,8 @@
 - component: Kernel
   create_time: 20201012T08:05:00
   id: 1177574
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: klp tests fail on klp_tc_10.sh "Patch caller of graph traced callee" test
 - component: Other
   create_time: 20201012T05:56:00
@@ -53516,8 +53516,8 @@
 - component: X11 3rd Party Driver
   create_time: 20210215T17:54:00
   id: 1182295
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WONTFIX
+  status: RESOLVED
   summary: GeForce GTX 1650 [Optimus] System freeze after wakeup from Suspend-To-Disk
     with "GPU has fallen off the bus"
 - component: Apache
@@ -55366,8 +55366,8 @@
 - component: Basesystem
   create_time: 20210320T02:48:00
   id: 1183824
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: When booting, only one cpu comes online on RPI3
 '20210321':
 - component: Installation
@@ -57384,6 +57384,100 @@
   status: RESOLVED
   summary: 'pam-config: ERROR: module /lib64/security/pam_pwquality.so is not installed.'
 '20210430':
+- component: Kernel
+  create_time: 20210501T14:52:00
+  id: 1185527
+  resolution: ''
+  status: NEW
+  summary: 'Kernel 5.12: unable to open usb serial port ACM0'
+- component: Basesystem
+  create_time: 20210501T13:46:00
+  id: 1185526
+  resolution: FEATURE
+  status: RESOLVED
+  summary: Reduce interpreter installed by default
+- component: GNOME
+  create_time: 20210501T13:03:00
+  id: 1185525
+  resolution: ''
+  status: NEW
+  summary: Please update Gnome Drawing and add to main repo
+- component: Network
+  create_time: 20210501T12:43:00
+  id: 1185524
+  resolution: ''
+  status: CONFIRMED
+  summary: Changing to NetworkManager via Yast Network throws an internal error
+- component: Other
+  create_time: 20210501T07:19:00
+  id: 1185520
+  resolution: ''
+  status: NEW
+  summary: coreutils testsuite fails on 1-core VM
+- component: Kernel
+  create_time: 20210501T05:25:00
+  id: 1185518
+  resolution: ''
+  status: NEW
+  summary: Consider building Linux 5.12+ with PREEMPT flag on arches with STATIC_CALL
+- component: Kernel
+  create_time: 20210430T21:14:00
+  id: 1185516
+  resolution: ''
+  status: NEW
+  summary: Radeon driver crashes since Kernel 5.12, black screen, video issues
+- component: Kernel
+  create_time: 20210430T18:20:00
+  id: 1185513
+  resolution: ''
+  status: NEW
+  summary: ACPI BIOS Error after upgrade to 5.12.0-1-default
+- component: YaST2
+  create_time: 20210430T16:06:00
+  id: 1185510
+  resolution: FIXED
+  status: RESOLVED
+  summary: Bump YaST package versions to 4.4.x / 15.4.x
+- component: KDE Applications
+  create_time: 20210430T13:31:00
+  id: 1185504
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed KMail is not able to connect to the Bluewin IMAP server
+- component: libzypp
+  create_time: 20210430T12:18:00
+  id: 1185500
+  resolution: ''
+  status: NEW
+  summary: zypper source-install silently fails if /usr/src/packages directory structure
+    not available
+- component: X11 Applications
+  create_time: 20210430T10:04:00
+  id: 1185496
+  resolution: ''
+  status: CONFIRMED
+  summary: Chromium 88 disables ftp protocol by default, Chromium 91 completely removes
+    it
+- component: Firefox
+  create_time: 20210430T09:24:00
+  id: 1185494
+  resolution: ''
+  status: NEW
+  summary: ftp protocol not supported
+'20210502':
+- component: Basesystem
+  create_time: 20210503T20:05:00
+  id: 1185592
+  resolution: ''
+  status: NEW
+  summary: Settings from /etc/rdma/mlx4.conf are ignored
+- component: Other
+  create_time: 20210503T18:13:00
+  id: 1185590
+  resolution: ''
+  status: NEW
+  summary: telegram-desktop does not send target of "Copy a link to this message"
+    to clipboard
 - component: GNOME
   create_time: 20210503T16:15:00
   id: 1185583
@@ -57483,83 +57577,3 @@
   resolution: ''
   status: NEW
   summary: libgccjit does not find libgcc/crtbegin.o
-- component: Kernel
-  create_time: 20210501T14:52:00
-  id: 1185527
-  resolution: ''
-  status: NEW
-  summary: 'Kernel 5.12: unable to open usb serial port ACM0'
-- component: Basesystem
-  create_time: 20210501T13:46:00
-  id: 1185526
-  resolution: FEATURE
-  status: RESOLVED
-  summary: Reduce interpreter installed by default
-- component: GNOME
-  create_time: 20210501T13:03:00
-  id: 1185525
-  resolution: ''
-  status: NEW
-  summary: Please update Gnome Drawing and add to main repo
-- component: Network
-  create_time: 20210501T12:43:00
-  id: 1185524
-  resolution: ''
-  status: NEW
-  summary: Changing to NetworkManager via Yast Network throws an internal error
-- component: Other
-  create_time: 20210501T07:19:00
-  id: 1185520
-  resolution: ''
-  status: NEW
-  summary: coreutils testsuite fails on 1-core VM
-- component: Kernel
-  create_time: 20210501T05:25:00
-  id: 1185518
-  resolution: ''
-  status: NEW
-  summary: Consider building Linux 5.12+ with PREEMPT flag on arches with STATIC_CALL
-- component: Kernel
-  create_time: 20210430T21:14:00
-  id: 1185516
-  resolution: ''
-  status: NEW
-  summary: Radeon driver crashes since Kernel 5.12, black screen, video issues
-- component: Kernel
-  create_time: 20210430T18:20:00
-  id: 1185513
-  resolution: ''
-  status: NEW
-  summary: ACPI BIOS Error after upgrade to 5.12.0-1-default
-- component: YaST2
-  create_time: 20210430T16:06:00
-  id: 1185510
-  resolution: FIXED
-  status: RESOLVED
-  summary: Bump YaST package versions to 4.4.x / 15.4.x
-- component: KDE Applications
-  create_time: 20210430T13:31:00
-  id: 1185504
-  resolution: ''
-  status: NEW
-  summary: Tumbleweed KMail is not able to connect to the Bluewin IMAP server
-- component: libzypp
-  create_time: 20210430T12:18:00
-  id: 1185500
-  resolution: ''
-  status: NEW
-  summary: zypper source-install silently fails if /usr/src/packages directory structure
-    not available
-- component: X11 Applications
-  create_time: 20210430T10:04:00
-  id: 1185496
-  resolution: ''
-  status: CONFIRMED
-  summary: Chromium 88 disables ftp protocol by default, Chromium 91 completely removes
-    it
-- component: Firefox
-  create_time: 20210430T09:24:00
-  id: 1185494
-  resolution: ''
-  status: NEW
-  summary: ftp protocol not supported
