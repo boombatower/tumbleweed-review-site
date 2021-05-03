@@ -55842,8 +55842,8 @@
 - component: Kernel
   create_time: 20210329T07:30:00
   id: 1184088
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: frequent usb resets starting with 5.11-rc7, 5.11-rc6 was fine
 - component: GNOME
   create_time: 20210329T07:12:00
@@ -57384,6 +57384,13 @@
   status: RESOLVED
   summary: 'pam-config: ERROR: module /lib64/security/pam_pwquality.so is not installed.'
 '20210430':
+- component: Basesystem
+  create_time: 20210503T14:43:00
+  id: 1185579
+  resolution: ''
+  status: NEW
+  summary: Crash in libcurl/libssl if curl_multi_perform handles multiple https connections
+    (libzypp)
 - component: YaST2
   create_time: 20210503T13:33:00
   id: 1185572
