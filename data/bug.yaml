@@ -57465,6 +57465,12 @@
   status: NEW
   summary: ftp protocol not supported
 '20210502':
+- component: Kernel
+  create_time: 20210503T21:19:00
+  id: 1185595
+  resolution: ''
+  status: NEW
+  summary: Kernel 5.12.0-1 Xorg on QEMU/KVM and dirver video QXL crash
 - component: Basesystem
   create_time: 20210503T20:05:00
   id: 1185592
