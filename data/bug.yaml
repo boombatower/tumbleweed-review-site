@@ -57378,6 +57378,12 @@
   status: RESOLVED
   summary: 'pam-config: ERROR: module /lib64/security/pam_pwquality.so is not installed.'
 '20210430':
+- component: Other
+  create_time: 20210503T06:13:00
+  id: 1185547
+  resolution: ''
+  status: NEW
+  summary: 'CVE-2021-22204: Arbitrary code execution in ExifTool'
 - component: Installation
   create_time: 20210503T05:53:00
   id: 1185545
