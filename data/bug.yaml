@@ -57378,6 +57378,19 @@
   status: RESOLVED
   summary: 'pam-config: ERROR: module /lib64/security/pam_pwquality.so is not installed.'
 '20210430':
+- component: Kernel
+  create_time: 20210503T01:45:00
+  id: 1185542
+  resolution: ''
+  status: NEW
+  summary: 32 bit Tumbleweed failing to boot with the 5.12.0-1-pae kernel must revert
+    to 5.11.16-1-pae kernel.
+- component: Kernel
+  create_time: 20210503T00:26:00
+  id: 1185541
+  resolution: ''
+  status: NEW
+  summary: 'Lenovo T470+ Plasma: Intel HD620 system lockup while docked'
 - component: Other
   create_time: 20210502T19:45:00
   id: 1185539
