@@ -18644,6 +18644,12 @@
   resolution: FIXED
   status: RESOLVED
   summary: '[Build 20190126] openQA test fails in libreoffice_recent_documents'
+- component: KDE Applications
+  create_time: 20190128T20:58:00
+  id: 1123411
+  resolution: ''
+  status: NEW
+  summary: falkon browser seeks libs in /usr/bin
 - component: Other
   create_time: 20190128T19:50:00
   id: 1123401
@@ -27495,7 +27501,7 @@
   create_time: 20190809T10:43:00
   id: 1145050
   resolution: ''
-  status: IN_PROGRESS
+  status: CONFIRMED
   summary: 'Nvidia Jetson TX2: Installer kernel crashes while decompressing initrd'
 - component: Kubic
   create_time: 20190809T07:58:00
@@ -52715,8 +52721,8 @@
 - component: Kernel
   create_time: 20210131T04:46:00
   id: 1181613
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Ten64] DPAA2 network interface(s) missing'
 '20210202':
 - component: Security
@@ -52901,8 +52907,8 @@
 - component: Security
   create_time: 20210206T12:13:00
   id: 1181886
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-1: deepin-system-monitor: new polkit profile need review'
 - component: Basesystem
   create_time: 20210206T11:26:00
@@ -57378,6 +57384,12 @@
   status: RESOLVED
   summary: 'pam-config: ERROR: module /lib64/security/pam_pwquality.so is not installed.'
 '20210430':
+- component: Kernel
+  create_time: 20210503T12:00:00
+  id: 1185565
+  resolution: ''
+  status: NEW
+  summary: High system load when idle since Kernel 5.12
 - component: YaST2
   create_time: 20210503T09:24:00
   id: 1185561
