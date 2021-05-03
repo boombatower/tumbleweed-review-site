@@ -21271,7 +21271,7 @@
   id: 1130388
   resolution: ''
   status: REOPENED
-  summary: 'AUDIT-1: deepin-clone: new polkit action com.deepin.pkexec.deepin-clone'
+  summary: 'AUDIT-STALE: deepin-clone: new polkit action com.deepin.pkexec.deepin-clone'
 - component: Basesystem
   create_time: 20190325T12:18:00
   id: 1130382
@@ -23105,13 +23105,13 @@
   id: 1134132
   resolution: ''
   status: REOPENED
-  summary: 'AUDIT-1: deepin-file-manager: new dbus of deepin-file-manager'
+  summary: 'AUDIT-STALE: deepin-file-manager: new dbus of deepin-file-manager'
 - component: Security
   create_time: 20190505T08:14:00
   id: 1134131
   resolution: ''
   status: REOPENED
-  summary: 'AUDIT-1: deepin-file-manager: new polkit actions of deepin-file-manager'
+  summary: 'AUDIT-STALE: deepin-file-manager: new polkit actions of deepin-file-manager'
 - component: Installation
   create_time: 20190505T03:37:00
   id: 1134130
@@ -49204,8 +49204,8 @@
   id: 1178848
   resolution: ''
   status: IN_PROGRESS
-  summary: 'AUDIT-1: kpmcore: org.kde.kpmcore.helperinterface D-Bus service and polkit
-    privileges'
+  summary: 'AUDIT-STALE: kpmcore: org.kde.kpmcore.helperinterface D-Bus service and
+    polkit privileges'
 - component: Other
   create_time: 20201116T14:50:00
   id: 1178843
@@ -50174,7 +50174,7 @@
   id: 1179740
   resolution: ''
   status: IN_PROGRESS
-  summary: 'AUDIT-1: ukui-control-center: D-Bus service with polkit actions'
+  summary: 'AUDIT-STALE: ukui-control-center: D-Bus service with polkit actions'
 - component: Basesystem
   create_time: 20201208T02:15:00
   id: 1179739
@@ -57310,7 +57310,7 @@
   id: 1185469
   resolution: ''
   status: IN_PROGRESS
-  summary: '[AUDIT] systemd-network.x86_64: W: polkit-changed-rules /usr/share/polkit-1/rules.d/60-systemd-networkd.rules'
+  summary: 'AUDIT-0: systemd-network: W: polkit-changed-rules /usr/share/polkit-1/rules.d/60-systemd-networkd.rules'
 - component: Security
   create_time: 20210429T14:10:00
   id: 1185468
@@ -57378,12 +57378,37 @@
   status: RESOLVED
   summary: 'pam-config: ERROR: module /lib64/security/pam_pwquality.so is not installed.'
 '20210430':
+- component: YaST2
+  create_time: 20210503T09:24:00
+  id: 1185561
+  resolution: ''
+  status: NEW
+  summary: Ruby error in installation after partitioning
+- component: Other
+  create_time: 20210503T09:21:00
+  id: 1185560
+  resolution: ''
+  status: NEW
+  summary: Vidcutter is broken and cannot read mp4 files anymore
+- component: Bootloader
+  create_time: 20210503T08:52:00
+  id: 1185554
+  resolution: ''
+  status: NEW
+  summary: grub2 boots to commandline on encrypted system
+- component: Containers
+  create_time: 20210503T08:16:00
+  id: 1185552
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210430] openQA test fails in add_box_libvirt'
 - component: Other
   create_time: 20210503T06:13:00
   id: 1185547
   resolution: ''
   status: NEW
-  summary: 'CVE-2021-22204: Arbitrary code execution in ExifTool'
+  summary: 'VUL-0: CVE-2021-22204: perl-Image-ExifTool: Arbitrary code execution in
+    ExifTool'
 - component: Installation
   create_time: 20210503T05:53:00
   id: 1185545
