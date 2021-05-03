@@ -29954,8 +29954,8 @@
 - component: Kernel
   create_time: 20191002T11:44:00
   id: 1152773
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: seccomp error if running containers with podman on armv7
 - component: Installation
   create_time: 20191002T11:40:00
@@ -54313,8 +54313,8 @@
 - component: Kernel
   create_time: 20210304T08:00:00
   id: 1183009
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Some armv6/7 builds on OBS fail due to kernel 5.11 modules not being loaded
     properly
 - component: X.Org
@@ -57384,6 +57384,12 @@
   status: RESOLVED
   summary: 'pam-config: ERROR: module /lib64/security/pam_pwquality.so is not installed.'
 '20210430':
+- component: GNOME
+  create_time: 20210503T16:15:00
+  id: 1185583
+  resolution: ''
+  status: NEW
+  summary: Fancy lock screen animation is not there on Tumblewwed
 - component: Basesystem
   create_time: 20210503T14:43:00
   id: 1185579
@@ -57518,8 +57524,7 @@
   id: 1185516
   resolution: ''
   status: NEW
-  summary: Radeon driver from xf86-video-ati-19.1.0-3.1.x86_64 crashes, black screen,
-    video issues
+  summary: Radeon driver crashes since Kernel 5.12, black screen, video issues
 - component: Kernel
   create_time: 20210430T18:20:00
   id: 1185513
