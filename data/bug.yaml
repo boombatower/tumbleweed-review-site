@@ -18647,8 +18647,8 @@
 - component: KDE Applications
   create_time: 20190128T20:58:00
   id: 1123411
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: falkon browser seeks libs in /usr/bin
 - component: Other
   create_time: 20190128T19:50:00
@@ -57384,6 +57384,18 @@
   status: RESOLVED
   summary: 'pam-config: ERROR: module /lib64/security/pam_pwquality.so is not installed.'
 '20210430':
+- component: YaST2
+  create_time: 20210503T13:33:00
+  id: 1185572
+  resolution: ''
+  status: NEW
+  summary: yast2-ruby-bindings fails test suite when using  tmux 3.2
+- component: Kernel
+  create_time: 20210503T13:01:00
+  id: 1185570
+  resolution: ''
+  status: NEW
+  summary: New kernel breaks bcache mounted rootfs
 - component: Kernel
   create_time: 20210503T12:00:00
   id: 1185565
@@ -57394,7 +57406,7 @@
   create_time: 20210503T09:24:00
   id: 1185561
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Ruby error in installation after partitioning
 - component: Other
   create_time: 20210503T09:21:00
