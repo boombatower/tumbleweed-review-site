@@ -57378,6 +57378,12 @@
   status: RESOLVED
   summary: 'pam-config: ERROR: module /lib64/security/pam_pwquality.so is not installed.'
 '20210430':
+- component: Installation
+  create_time: 20210503T05:53:00
+  id: 1185545
+  resolution: ''
+  status: NEW
+  summary: Installer stuck before ntp configuration
 - component: Kernel
   create_time: 20210503T01:45:00
   id: 1185542
