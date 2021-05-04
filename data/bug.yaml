@@ -57489,7 +57489,7 @@
   create_time: 20210504T14:42:00
   id: 1185620
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: qt-fsarchiver installs pre-compiled binaries
 - component: Sound
   create_time: 20210504T13:04:00
