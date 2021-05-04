@@ -57071,8 +57071,8 @@
 - component: Other
   create_time: 20210425T18:12:00
   id: 1185276
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: IN_PROGRESS
   summary: Mesa - regression with video playback for HD channels on Hauppauge Card
     HVR5525
 - component: Firefox
@@ -57201,8 +57201,8 @@
 - component: Kernel
   create_time: 20210427T12:46:00
   id: 1185352
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'exfat: ERROR: invalid VBR checksum 0xc746d7e6 (expected 0x8122115) on
     zram test'
 - component: Patterns
@@ -57465,6 +57465,12 @@
   status: NEW
   summary: ftp protocol not supported
 '20210502':
+- component: MicroOS
+  create_time: 20210504T17:04:00
+  id: 1185625
+  resolution: ''
+  status: NEW
+  summary: 'transactional-update: /etc has wrong selinux label'
 - component: Kernel
   create_time: 20210504T15:58:00
   id: 1185624
