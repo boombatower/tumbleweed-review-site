@@ -56111,8 +56111,8 @@
 - component: Other
   create_time: 20210406T13:56:00
   id: 1184392
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: VirtualBox shared folder always owned by root
 - component: Security
   create_time: 20210406T13:46:00
