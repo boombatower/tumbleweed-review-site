@@ -57465,6 +57465,12 @@
   status: NEW
   summary: ftp protocol not supported
 '20210502':
+- component: Basesystem
+  create_time: 20210504T06:05:00
+  id: 1185596
+  resolution: ''
+  status: NEW
+  summary: Snapper commands for home directory fail with IO Error (Operation not permitted)
 - component: Kernel
   create_time: 20210503T21:19:00
   id: 1185595
