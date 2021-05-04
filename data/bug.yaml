@@ -56618,7 +56618,7 @@
   create_time: 20210416T11:35:00
   id: 1184867
   resolution: ''
-  status: REOPENED
+  status: CONFIRMED
   summary: NXP i.MX8MM missing kernel modules in initrd
 - component: KDE Workspace (Plasma)
   create_time: 20210416T11:34:00
@@ -56936,8 +56936,8 @@
 - component: YaST2
   create_time: 20210422T19:49:00
   id: 1185199
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-iscsi-lio-server unusable - broken package resolution
 - component: Basesystem
   create_time: 20210422T15:49:00
@@ -57573,8 +57573,8 @@
 - component: Installation
   create_time: 20210503T05:53:00
   id: 1185545
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Installer stuck before ntp configuration
 - component: Kernel
   create_time: 20210503T01:45:00
