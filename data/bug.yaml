@@ -55439,7 +55439,7 @@
   resolution: ''
   status: NEW
   summary: Drop yast2-nis-client and yast2-nis-server
-- component: Basesystem
+- component: Kernel
   create_time: 20210323T08:33:00
   id: 1183890
   resolution: ''
@@ -55923,8 +55923,8 @@
 - component: Basesystem
   create_time: 20210404T03:25:00
   id: 1184325
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: nscd should not complain every few seconds about missing files because
     of /usr/etc
 - component: Development
@@ -56483,7 +56483,7 @@
   id: 1184817
   resolution: ''
   status: NEW
-  summary: Whole system stopped responding and went berserk, first reboot failed
+  summary: System becomes unstable and unusable when using wired network
 - component: Kernel
   create_time: 20210415T12:42:00
   id: 1184804
@@ -57465,6 +57465,26 @@
   status: NEW
   summary: ftp protocol not supported
 '20210502':
+- component: Kernel
+  create_time: 20210504T15:58:00
+  id: 1185624
+  resolution: ''
+  status: NEW
+  summary: System freezing, Several Memory Management issues, and Shutdown problem
+    after Kernel updated to 5.12.0
+- component: KDE Applications
+  create_time: 20210504T15:51:00
+  id: 1185622
+  resolution: ''
+  status: NEW
+  summary: Kaffeine 2.0.18 on openSUSE Tumbleweed doesn't play DVB-S2 or mkv Videos
+    (VLCPlayer also shows this behavior)
+- component: Other
+  create_time: 20210504T14:42:00
+  id: 1185620
+  resolution: ''
+  status: NEW
+  summary: qt-fsarchiver installs pre-compiled binaries
 - component: Sound
   create_time: 20210504T13:04:00
   id: 1185614
