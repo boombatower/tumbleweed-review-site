@@ -55911,8 +55911,8 @@
 - component: YaST2
   create_time: 20210405T14:56:00
   id: 1184339
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: select() no longer modifies timeout value
 - component: Other
   create_time: 20210405T14:15:00
@@ -57277,8 +57277,8 @@
 - component: Other
   create_time: 20210428T10:34:00
   id: 1185400
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[icu69.1] nodejs 15 fails to build against updated icu version'
 - component: Basesystem
   create_time: 20210428T07:25:00
@@ -57465,6 +57465,18 @@
   status: NEW
   summary: ftp protocol not supported
 '20210502':
+- component: Sound
+  create_time: 20210504T13:04:00
+  id: 1185614
+  resolution: ''
+  status: NEW
+  summary: Please add Studio Controls to multimedia:apps
+- component: Basesystem
+  create_time: 20210504T12:56:00
+  id: 1185613
+  resolution: ''
+  status: NEW
+  summary: 'groff: .Os macro uses BSD as default'
 - component: Kernel
   create_time: 20210504T07:41:00
   id: 1185601
@@ -57494,7 +57506,7 @@
   id: 1185595
   resolution: ''
   status: NEW
-  summary: Kernel 5.12.0-1 Xorg on QEMU/KVM and dirver video QXL crash
+  summary: Kernel 5.12.0-1 Xorg on QEMU/KVM and driver video QXL crash
 - component: Basesystem
   create_time: 20210503T20:05:00
   id: 1185592
