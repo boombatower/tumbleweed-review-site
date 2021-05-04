@@ -52666,7 +52666,7 @@
   id: 1181642
   resolution: ''
   status: IN_PROGRESS
-  summary: 'AUDIT-1: dtkgui: new D-Bus service required for deepin-music-player'
+  summary: 'AUDIT-1: dtkcommon: new D-Bus service required for deepin-music-player'
 - component: Other
   create_time: 20210201T09:25:00
   id: 1181634
@@ -57071,8 +57071,8 @@
 - component: Other
   create_time: 20210425T18:12:00
   id: 1185276
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Mesa - regression with video playback for HD channels on Hauppauge Card
     HVR5525
 - component: Firefox
@@ -57289,14 +57289,14 @@
 - component: KDE Applications
   create_time: 20210428T07:02:00
   id: 1185379
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kontact 5.17.0 looses password in KDE wallet
 - component: KDE Applications
   create_time: 20210428T06:58:00
   id: 1185378
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kontact 5.17.0 is slow and reacts after minutes to commands.
 '20210429':
 - component: Kernel
@@ -57465,11 +57465,29 @@
   status: NEW
   summary: ftp protocol not supported
 '20210502':
+- component: Kernel
+  create_time: 20210504T07:41:00
+  id: 1185601
+  resolution: ''
+  status: NEW
+  summary: Black screen / no screen output after upgrading from 5.11 to 5.12
+- component: Other
+  create_time: 20210504T07:32:00
+  id: 1185600
+  resolution: ''
+  status: NEW
+  summary: texlive 2021 fails on tests on Arm and PowerPC
+- component: Installation
+  create_time: 20210504T07:16:00
+  id: 1185598
+  resolution: ''
+  status: NEW
+  summary: '[YaST, Installer] YaST opens Error Popup about ''Invalid Value'''
 - component: Basesystem
   create_time: 20210504T06:05:00
   id: 1185596
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Snapper commands for home directory fail with IO Error (Operation not permitted)
 - component: Kernel
   create_time: 20210503T21:19:00
@@ -57530,8 +57548,8 @@
 - component: Other
   create_time: 20210503T09:21:00
   id: 1185560
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Vidcutter is broken and cannot read mp4 files anymore
 - component: Bootloader
   create_time: 20210503T08:52:00
