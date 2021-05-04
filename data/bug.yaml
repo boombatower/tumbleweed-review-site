@@ -54012,8 +54012,8 @@
 - component: X.Org
   create_time: 20210224T12:52:00
   id: 1182677
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Stand-alone Xwayland package.
 - component: Basesystem
   create_time: 20210224T12:12:00
@@ -57449,8 +57449,8 @@
   id: 1185500
   resolution: ''
   status: NEW
-  summary: zypper source-install silently fails if /usr/src/packages directory structure
-    not available
+  summary: zypper source-install should be more verbose about where it installs sources
+    (/usr/src/packages or /root/rpmbuild)
 - component: X11 Applications
   create_time: 20210430T10:04:00
   id: 1185496
@@ -57480,8 +57480,8 @@
 - component: Installation
   create_time: 20210504T07:16:00
   id: 1185598
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[YaST, Installer] YaST opens Error Popup about ''Invalid Value'''
 - component: Basesystem
   create_time: 20210504T06:05:00
@@ -57574,7 +57574,7 @@
   create_time: 20210503T05:53:00
   id: 1185545
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Installer stuck before ntp configuration
 - component: Kernel
   create_time: 20210503T01:45:00
