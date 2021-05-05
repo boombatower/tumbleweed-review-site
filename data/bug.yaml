@@ -45341,8 +45341,8 @@
 - component: Basesystem
   create_time: 20200825T13:02:00
   id: 1175726
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: The packages dpkg and zsh use macro KEY_EVENT even if not defined
 - component: Security
   create_time: 20200825T11:51:00
@@ -55211,8 +55211,8 @@
 - component: Bootloader
   create_time: 20210318T14:24:00
   id: 1183717
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: u-boot fails to read btrfs
 - component: Kernel
   create_time: 20210318T14:15:00
@@ -56207,7 +56207,7 @@
   create_time: 20210412T14:52:00
   id: 1184630
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Authconf: ldap_import error'
 - component: YaST2
   create_time: 20210412T14:27:00
@@ -56863,7 +56863,7 @@
   create_time: 20210421T07:40:00
   id: 1185048
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Install on hi res laptop impossible to read
 - component: Other
   create_time: 20210420T23:08:00
@@ -57121,8 +57121,8 @@
 - component: LibreOffice
   create_time: 20210426T19:07:00
   id: 1185307
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Calc: pasting comment clears cell contents'
 - component: Development
   create_time: 20210426T16:59:00
@@ -57465,6 +57465,55 @@
   status: NEW
   summary: ftp protocol not supported
 '20210502':
+- component: Other
+  create_time: 20210505T14:06:00
+  id: 1185659
+  resolution: ''
+  status: NEW
+  summary: 'octave-devel:  rpm macro file installed to /etc/rpm'
+- component: Firefox
+  create_time: 20210505T14:04:00
+  id: 1185658
+  resolution: ''
+  status: NEW
+  summary: 'MozillaFirefox-devel: rpm macro file installed to /etc/rpm'
+- component: Basesystem
+  create_time: 20210505T14:02:00
+  id: 1185657
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Tracker] Packages installing rpm macro files to /etc/rpm instead of /usr/lib/rpm/macros.d'
+- component: Bootloader
+  create_time: 20210505T13:37:00
+  id: 1185656
+  resolution: ''
+  status: NEW
+  summary: u-boot is unable to load DTB automatically from BTRFS partition
+- component: KDE Applications
+  create_time: 20210505T13:33:00
+  id: 1185655
+  resolution: ''
+  status: NEW
+  summary: Clicking two almost equal .desktop file in folder Desktop behave different;
+    one fails the other not
+- component: Kernel
+  create_time: 20210505T11:45:00
+  id: 1185649
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210504] openQA test fails in kdump_and_crash'
+- component: Basesystem
+  create_time: 20210505T11:43:00
+  id: 1185648
+  resolution: ''
+  status: NEW
+  summary: Disabled Bluetooth re-enabled after suspend-to-ram
+- component: MicroOS
+  create_time: 20210505T11:27:00
+  id: 1185647
+  resolution: ''
+  status: NEW
+  summary: Impossible to trigger PackageKit offline update on MicroOS
 - component: Development
   create_time: 20210505T08:53:00
   id: 1185638
