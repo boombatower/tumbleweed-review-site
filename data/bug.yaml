@@ -51411,7 +51411,7 @@
   create_time: 20210107T09:34:00
   id: 1180650
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Salt requires an update for kernel 5.10 on non-x86 systems
 - component: Network
   create_time: 20210107T08:53:00
@@ -53225,7 +53225,7 @@
   resolution: ''
   status: NEW
   summary: webdav:// "file or folder xxx doesn't exist
-- component: Salt
+- component: Basesystem
   create_time: 20210209T02:23:00
   id: 1181970
   resolution: ''
@@ -57466,6 +57466,78 @@
   summary: ftp protocol not supported
 '20210502':
 - component: Other
+  create_time: 20210505T14:22:00
+  id: 1185672
+  resolution: ''
+  status: NEW
+  summary: 'ghc-rpm-macros: rpm macro files installed to /etc/rpm'
+- component: Other
+  create_time: 20210505T14:21:00
+  id: 1185671
+  resolution: ''
+  status: NEW
+  summary: 'mingw{32,64}-filesystem: rpm macro file installed to /etc/rpm'
+- component: OpenStack
+  create_time: 20210505T14:19:00
+  id: 1185669
+  resolution: ''
+  status: NEW
+  summary: 'openstack-macros: rpm macro files installed to /etc/rpm'
+- component: Other
+  create_time: 20210505T14:16:00
+  id: 1185668
+  resolution: ''
+  status: NEW
+  summary: 'erlang-rebar: rpm macro file installed to /etc/rpm'
+- component: Other
+  create_time: 20210505T14:15:00
+  id: 1185667
+  resolution: ''
+  status: NEW
+  summary: 'erlang: rpm macro file installed to /etc/rpm'
+- component: Other
+  create_time: 20210505T14:14:00
+  id: 1185666
+  resolution: ''
+  status: NEW
+  summary: 'ffcall: rpm macro file installed to /etc/rpm'
+- component: Other
+  create_time: 20210505T14:13:00
+  id: 1185665
+  resolution: ''
+  status: NEW
+  summary: 'ooRexx: rpm macro file installed to /etc/rpm'
+- component: Other
+  create_time: 20210505T14:12:00
+  id: 1185664
+  resolution: ''
+  status: NEW
+  summary: 'optipng: rpm macro file installed to /etc/rpm'
+- component: Other
+  create_time: 20210505T14:11:00
+  id: 1185663
+  resolution: ''
+  status: NEW
+  summary: 'pesign: rpm macro file installed to /etc/rpm'
+- component: Other
+  create_time: 20210505T14:10:00
+  id: 1185662
+  resolution: ''
+  status: NEW
+  summary: 'tcl: rpm macro file installed to /etc/rpm'
+- component: Other
+  create_time: 20210505T14:09:00
+  id: 1185661
+  resolution: ''
+  status: NEW
+  summary: 'libpng16-tools: rpm macro file installed to /etc/rpm'
+- component: Other
+  create_time: 20210505T14:07:00
+  id: 1185660
+  resolution: ''
+  status: NEW
+  summary: 'lua-lmod: rpm macro file installed to /etc/rpm'
+- component: Other
   create_time: 20210505T14:06:00
   id: 1185659
   resolution: ''
@@ -57576,7 +57648,8 @@
   id: 1185600
   resolution: ''
   status: NEW
-  summary: texlive 2021 fails on tests on Arm and PowerPC
+  summary: 'Wrong version used for perl-Unicode-Collate (Was: texlive 2021 fails on
+    tests on Arm and PowerPC)'
 - component: Installation
   create_time: 20210504T07:16:00
   id: 1185598
