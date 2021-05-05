@@ -24949,8 +24949,8 @@
 - component: Basesystem
   create_time: 20190620T09:54:00
   id: 1138806
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'LTO: gettext-runtime-mini build fails'
 - component: Basesystem
   create_time: 20190620T09:47:00
@@ -46486,7 +46486,7 @@
   create_time: 20200916T01:33:00
   id: 1176576
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[RPi4] sdhci driver continuously prints warnings if no card is present'
 - component: YaST2
   create_time: 20200915T22:48:00
@@ -52664,9 +52664,9 @@
 - component: Security
   create_time: 20210201T12:14:00
   id: 1181642
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'AUDIT-1: dtkcommon: new D-Bus service required for deepin-music-player'
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: 'AUDIT-1: dtkcommon: new D-Bus service com.deepin.dtk.FileDrag.conf'
 - component: Other
   create_time: 20210201T09:25:00
   id: 1181634
@@ -57465,6 +57465,19 @@
   status: NEW
   summary: ftp protocol not supported
 '20210502':
+- component: Development
+  create_time: 20210505T08:53:00
+  id: 1185638
+  resolution: ''
+  status: NEW
+  summary: 'gdb: debugging guix (and maybe other programs?) results in 100% CPU loop
+    in gdb'
+- component: Basesystem
+  create_time: 20210505T08:47:00
+  id: 1185637
+  resolution: ''
+  status: NEW
+  summary: openssl-1_1 fails to build after 2022-06-01
 - component: MicroOS
   create_time: 20210504T17:04:00
   id: 1185625
@@ -57580,8 +57593,8 @@
 - component: YaST2
   create_time: 20210503T09:24:00
   id: 1185561
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Ruby error in installation after partitioning
 - component: Other
   create_time: 20210503T09:21:00
