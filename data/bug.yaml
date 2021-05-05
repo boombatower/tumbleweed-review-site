@@ -45927,8 +45927,8 @@
 - component: Other
   create_time: 20200904T07:29:00
   id: 1176158
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20200902] openQA test fails in yast2_nfs_client'
 '20200905':
 - component: Other
@@ -57192,7 +57192,7 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: go does not build with gcc11
-- component: Patterns
+- component: YaST2
   create_time: 20210427T12:51:00
   id: 1185353
   resolution: ''
@@ -57214,8 +57214,8 @@
 - component: GNOME
   create_time: 20210427T09:49:00
   id: 1185340
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: gnome-system-monitor 40.0 has a Bug
 - component: Sound
   create_time: 20210427T09:34:00
@@ -57549,8 +57549,8 @@
 - component: GNOME
   create_time: 20210503T16:15:00
   id: 1185583
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Fancy lock screen animation is not there on Tumblewwed
 - component: Basesystem
   create_time: 20210503T14:43:00
