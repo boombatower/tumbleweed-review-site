@@ -57517,7 +57517,7 @@
   create_time: 20210505T14:13:00
   id: 1185665
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'ooRexx: rpm macro file installed to /etc/rpm'
 - component: Other
   create_time: 20210505T14:12:00
@@ -57534,8 +57534,8 @@
 - component: Other
   create_time: 20210505T14:10:00
   id: 1185662
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'tcl: rpm macro file installed to /etc/rpm'
 - component: Other
   create_time: 20210505T14:09:00
@@ -57559,7 +57559,7 @@
   create_time: 20210505T14:04:00
   id: 1185658
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'MozillaFirefox-devel: rpm macro file installed to /etc/rpm'
 - component: Basesystem
   create_time: 20210505T14:02:00
