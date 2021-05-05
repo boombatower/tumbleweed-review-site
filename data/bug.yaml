@@ -57465,6 +57465,18 @@
   status: NEW
   summary: ftp protocol not supported
 '20210502':
+- component: Basesystem
+  create_time: 20210505T16:27:00
+  id: 1185682
+  resolution: ''
+  status: NEW
+  summary: fillup corrupts sysconfig files
+- component: YaST2
+  create_time: 20210505T16:26:00
+  id: 1185681
+  resolution: ''
+  status: NEW
+  summary: The module YaST is not a valid module
 - component: Other
   create_time: 20210505T14:22:00
   id: 1185672
