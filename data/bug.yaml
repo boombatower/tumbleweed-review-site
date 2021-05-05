@@ -57411,8 +57411,8 @@
 - component: Other
   create_time: 20210501T07:19:00
   id: 1185520
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: coreutils testsuite fails on 1-core VM
 - component: Kernel
   create_time: 20210501T05:25:00
