@@ -52666,7 +52666,7 @@
   id: 1181642
   resolution: ''
   status: REOPENED
-  summary: 'AUDIT-1: dtkcommon: new D-Bus service com.deepin.dtk.FileDrag.conf'
+  summary: 'AUDIT-STALE: dtkcommon: new D-Bus service com.deepin.dtk.FileDrag.conf'
 - component: Other
   create_time: 20210201T09:25:00
   id: 1181634
@@ -57584,6 +57584,12 @@
   status: NEW
   summary: libgccjit does not find libgcc/crtbegin.o
 '20210504':
+- component: KDE Applications
+  create_time: 20210506T07:57:00
+  id: 1185700
+  resolution: ''
+  status: NEW
+  summary: Digikam 7.2.0 failing to launch.
 - component: Kernel
   create_time: 20210505T21:14:00
   id: 1185693
@@ -57647,8 +57653,8 @@
 - component: Other
   create_time: 20210505T14:12:00
   id: 1185664
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'optipng: rpm macro file installed to /etc/rpm'
 - component: Other
   create_time: 20210505T14:11:00
@@ -57665,8 +57671,8 @@
 - component: Other
   create_time: 20210505T14:09:00
   id: 1185661
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'libpng16-tools: rpm macro file installed to /etc/rpm'
 - component: Other
   create_time: 20210505T14:07:00
