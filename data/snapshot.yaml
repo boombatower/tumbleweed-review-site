@@ -46,8 +46,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - kernel-source
   - gcc10
+  - kernel-source
   binary_unique_count: 1611
   disk_base: 5.0GiB
   disk_shared: unknown
@@ -98,12 +98,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
+  - plasma-framework
+  - plasma5-workspace
   - Mesa
   - gnome-builder
-  - plasma5-workspace
-  - kernel-source
-  - plasma-framework
   - libqt5-qtbase-devel
+  - kernel-source
   binary_unique_count: 4700
   disk_base: 7.4GiB
   disk_shared: unknown
@@ -204,11 +204,11 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - Mesa
   - xf86-video-amdgpu
   - gtk3-devel
-  - kernel-source
+  - Mesa
   - libqt5-qtbase-devel
+  - kernel-source
   binary_unique_count: 2666
   disk_base: 4.9GiB
   disk_shared: unknown
@@ -234,12 +234,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - kate
-  - gcc10
   - gtk3-devel
-  - gnome-builder
-  - plasma5-workspace
   - plasma-framework
+  - kate
+  - plasma5-workspace
+  - gcc10
+  - gnome-builder
   - libqt5-qtbase-devel
   binary_unique_count: 19487
   disk_base: 25.5GiB
@@ -266,12 +266,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - llvm
-  - Mesa
-  - gcc11
-  - gcc10
-  - gnome-builder
   - xorg-x11-server
+  - gcc10
+  - Mesa
+  - gnome-builder
+  - llvm
+  - gcc11
   binary_unique_count: 2477
   disk_base: 6.9GiB
   disk_shared: unknown
@@ -323,9 +323,9 @@
     xorg-x11-server: 1.20.11
   binary_interest_changed:
   - kate
-  - kernel-source
-  - gtk3-devel
   - xf86-video-intel
+  - gtk3-devel
+  - kernel-source
   binary_unique_count: 2371
   disk_base: 5.9GiB
   disk_shared: unknown
@@ -427,8 +427,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - kernel-source
   - gtk3-devel
+  - kernel-source
   binary_unique_count: 9122
   disk_base: 7.7GiB
   disk_shared: unknown
