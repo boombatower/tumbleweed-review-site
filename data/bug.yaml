@@ -57103,8 +57103,8 @@
 - component: YaST2
   create_time: 20210425T10:26:00
   id: 1185271
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: YaST KDE control module has stopped working
 - component: Basesystem
   create_time: 20210425T06:06:00
@@ -57591,6 +57591,12 @@
   status: NEW
   summary: libgccjit does not find libgcc/crtbegin.o
 '20210504':
+- component: Samba
+  create_time: 20210506T17:29:00
+  id: 1185735
+  resolution: ''
+  status: NEW
+  summary: 'cifs-utils: crash when non existant mountpoint'
 - component: Upgrade Problems
   create_time: 20210506T15:14:00
   id: 1185731
@@ -57746,7 +57752,7 @@
   create_time: 20210505T14:06:00
   id: 1185659
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'octave-devel:  rpm macro file installed to /etc/rpm'
 - component: Firefox
   create_time: 20210505T14:04:00
