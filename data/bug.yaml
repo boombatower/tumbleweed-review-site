@@ -52664,8 +52664,8 @@
 - component: Security
   create_time: 20210201T12:14:00
   id: 1181642
-  resolution: WONTFIX
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'AUDIT-1: dtkcommon: new D-Bus service com.deepin.dtk.FileDrag.conf'
 - component: Other
   create_time: 20210201T09:25:00
