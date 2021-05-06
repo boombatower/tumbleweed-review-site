@@ -57512,8 +57512,8 @@
 - component: Kernel
   create_time: 20210503T12:00:00
   id: 1185565
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: High system load when idle since Kernel 5.12
 - component: YaST2
   create_time: 20210503T09:24:00
@@ -57584,6 +57584,18 @@
   status: NEW
   summary: libgccjit does not find libgcc/crtbegin.o
 '20210504':
+- component: Installation
+  create_time: 20210506T10:05:00
+  id: 1185708
+  resolution: ''
+  status: NEW
+  summary: Installation crash on setting timezone - Invalid value Y2Network:Ntpserver
+- component: AutoYaST
+  create_time: 20210506T08:54:00
+  id: 1185704
+  resolution: ''
+  status: NEW
+  summary: 'AutoYaST: Improve <ask-list> support'
 - component: KDE Applications
   create_time: 20210506T07:57:00
   id: 1185700
@@ -57599,15 +57611,15 @@
 - component: Basesystem
   create_time: 20210505T16:27:00
   id: 1185682
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: fillup corrupts sysconfig files
 - component: YaST2
   create_time: 20210505T16:26:00
   id: 1185681
-  resolution: ''
-  status: NEW
-  summary: The module YaST is not a valid module
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'KDE control center: The module YaST is not a valid module'
 - component: Other
   create_time: 20210505T14:22:00
   id: 1185672
@@ -57641,8 +57653,8 @@
 - component: Other
   create_time: 20210505T14:14:00
   id: 1185666
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'ffcall: rpm macro file installed to /etc/rpm'
 - component: Other
   create_time: 20210505T14:13:00
@@ -57659,8 +57671,8 @@
 - component: Other
   create_time: 20210505T14:11:00
   id: 1185663
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'pesign: rpm macro file installed to /etc/rpm'
 - component: Other
   create_time: 20210505T14:10:00
