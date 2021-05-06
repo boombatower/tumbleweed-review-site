@@ -46703,6 +46703,13 @@
   resolution: FIXED
   status: RESOLVED
   summary: After last updates sound did not work on Fujitsu-Siemens LifeBook S7110
+- component: Other
+  create_time: 20200919T03:53:00
+  id: 1176735
+  resolution: ''
+  status: NEW
+  summary: StrongSwan suddenly changed to use swanctl.conf instead of ipsec.conf,
+    breaking all VPNs, Yast2 vpn fails to work post-change
 '20200922':
 - component: Basesystem
   create_time: 20200922T21:06:00
@@ -53040,8 +53047,8 @@
   create_time: 20210206T11:01:00
   id: 1181864
   resolution: ''
-  status: NEW
-  summary: 'GCC 11: bazel3.4 package fails'
+  status: IN_PROGRESS
+  summary: 'GCC 11: bazel3.4 and bazel3.7 packages fail'
 - component: Basesystem
   create_time: 20210206T10:59:00
   id: 1181863
@@ -57584,6 +57591,24 @@
   status: NEW
   summary: libgccjit does not find libgcc/crtbegin.o
 '20210504':
+- component: GNOME
+  create_time: 20210506T12:48:00
+  id: 1185720
+  resolution: ''
+  status: NEW
+  summary: nautilus fails to build with GCC11
+- component: YaST2
+  create_time: 20210506T12:43:00
+  id: 1185719
+  resolution: ''
+  status: NEW
+  summary: libyui fails to build with GCC 11
+- component: Other
+  create_time: 20210506T12:09:00
+  id: 1185716
+  resolution: ''
+  status: NEW
+  summary: chromium fails to build with GCC11
 - component: Development
   create_time: 20210506T10:55:00
   id: 1185712
@@ -57611,8 +57636,8 @@
 - component: KDE Applications
   create_time: 20210506T07:57:00
   id: 1185700
-  resolution: INVALID
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Digikam 7.2.0 failing to launch.
 - component: Kernel
   create_time: 20210505T21:14:00
