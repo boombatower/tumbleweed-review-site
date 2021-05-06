@@ -57591,6 +57591,19 @@
   status: NEW
   summary: libgccjit does not find libgcc/crtbegin.o
 '20210504':
+- component: Upgrade Problems
+  create_time: 20210506T15:14:00
+  id: 1185731
+  resolution: ''
+  status: NEW
+  summary: libzstd1.rpm is compressed with itself, or Bumpy Road from RPM 4.12
+- component: Development
+  create_time: 20210506T15:00:00
+  id: 1185730
+  resolution: ''
+  status: NEW
+  summary: 'VUL-0: CVE-2021-29478: redis: Integer overflow via COPY command for large
+    intsets'
 - component: GNOME
   create_time: 20210506T12:48:00
   id: 1185720
@@ -57601,13 +57614,13 @@
   create_time: 20210506T12:43:00
   id: 1185719
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: libyui fails to build with GCC 11
 - component: Other
   create_time: 20210506T12:09:00
   id: 1185716
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: chromium fails to build with GCC11
 - component: Development
   create_time: 20210506T10:55:00
@@ -57631,7 +57644,7 @@
   create_time: 20210506T08:54:00
   id: 1185704
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AutoYaST: Improve <ask-list> support'
 - component: KDE Applications
   create_time: 20210506T07:57:00
