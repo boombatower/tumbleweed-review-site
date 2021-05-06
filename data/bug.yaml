@@ -57591,6 +57591,37 @@
   status: NEW
   summary: libgccjit does not find libgcc/crtbegin.o
 '20210504':
+- component: YaST2
+  create_time: 20210506T19:57:00
+  id: 1185746
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210505] libyui segfault'
+- component: Kernel
+  create_time: 20210506T19:30:00
+  id: 1185745
+  resolution: ''
+  status: NEW
+  summary: kernel firmware bug
+- component: Basesystem
+  create_time: 20210506T18:55:00
+  id: 1185744
+  resolution: ''
+  status: NEW
+  summary: System hangs at reboot and shutdown, waiting for network
+- component: KDE Workspace (Plasma)
+  create_time: 20210506T18:25:00
+  id: 1185740
+  resolution: ''
+  status: NEW
+  summary: Forcing Plasma Wayland session to run everything through XWayland causes
+    more problems than it solves
+- component: Xfce
+  create_time: 20210506T18:19:00
+  id: 1185739
+  resolution: ''
+  status: NEW
+  summary: USB drive is not mounted automatically in the environment
 - component: Samba
   create_time: 20210506T17:29:00
   id: 1185735
