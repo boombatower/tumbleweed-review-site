@@ -51410,8 +51410,8 @@
 - component: Salt
   create_time: 20210107T09:34:00
   id: 1180650
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Salt requires an update for kernel 5.10 on non-x86 systems
 - component: Network
   create_time: 20210107T08:53:00
@@ -57584,11 +57584,23 @@
   status: NEW
   summary: libgccjit does not find libgcc/crtbegin.o
 '20210504':
+- component: Development
+  create_time: 20210506T10:55:00
+  id: 1185712
+  resolution: ''
+  status: NEW
+  summary: cross-arm-binutils missing symlinks
+- component: Installation
+  create_time: 20210506T10:08:00
+  id: 1185709
+  resolution: ''
+  status: NEW
+  summary: 'installation-images: needs to catch up with openssh'
 - component: Installation
   create_time: 20210506T10:05:00
   id: 1185708
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Installation crash on setting timezone - Invalid value Y2Network:Ntpserver
 - component: AutoYaST
   create_time: 20210506T08:54:00
@@ -57599,8 +57611,8 @@
 - component: KDE Applications
   create_time: 20210506T07:57:00
   id: 1185700
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Digikam 7.2.0 failing to launch.
 - component: Kernel
   create_time: 20210505T21:14:00
@@ -57617,7 +57629,7 @@
 - component: YaST2
   create_time: 20210505T16:26:00
   id: 1185681
-  resolution: FIXED
+  resolution: DUPLICATE
   status: RESOLVED
   summary: 'KDE control center: The module YaST is not a valid module'
 - component: Other
