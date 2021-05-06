@@ -56834,7 +56834,7 @@
   create_time: 20210421T14:51:00
   id: 1185103
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'GCC 11: open-vm-tools package fails'
 - component: Basesystem
   create_time: 20210421T14:42:00
