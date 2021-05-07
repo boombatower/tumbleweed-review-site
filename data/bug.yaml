@@ -54357,8 +54357,8 @@
 - component: Basesystem
   create_time: 20210303T14:57:00
   id: 1182988
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: brp-99-pesign fails for fwupd package
 - component: Containers
   create_time: 20210303T14:53:00
@@ -56569,8 +56569,8 @@
 - component: Basesystem
   create_time: 20210416T15:03:00
   id: 1184899
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: tests of subversion does not work with file 5.40
 - component: YaST2
   create_time: 20210416T14:59:00
@@ -56581,8 +56581,8 @@
 - component: Basesystem
   create_time: 20210416T14:13:00
   id: 1184891
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: XZ test of libmodulemd does not work with file 5.40
 - component: Other
   create_time: 20210416T14:07:00
@@ -56593,8 +56593,8 @@
 - component: Basesystem
   create_time: 20210416T13:57:00
   id: 1184888
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: XZ test of createrepo_c does not work with file 5.40
 - component: Bootloader
   create_time: 20210416T13:14:00
@@ -56605,8 +56605,8 @@
 - component: Basesystem
   create_time: 20210416T13:00:00
   id: 1184881
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: PDF test of python-python-magic does not work with file 5.40
 - component: Security
   create_time: 20210416T12:37:00
@@ -57128,8 +57128,8 @@
 - component: LibreOffice
   create_time: 20210426T19:07:00
   id: 1185307
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'Calc: pasting comment clears cell contents'
 - component: Development
   create_time: 20210426T16:59:00
