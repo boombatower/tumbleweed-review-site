@@ -41013,8 +41013,8 @@
 - component: Network
   create_time: 20200519T11:34:00
   id: 1171877
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: exim %pretrans fails - /bin/sh not found
 - component: Other
   create_time: 20200519T09:10:00
@@ -41334,8 +41334,8 @@
 - component: Other
   create_time: 20200531T07:25:00
   id: 1172313
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: certbot 1.4.0 renew --manual failed due to mod_ssl
 - component: Upgrade Problems
   create_time: 20200531T00:30:00
@@ -43159,8 +43159,8 @@
 - component: Other
   create_time: 20200703T14:22:00
   id: 1173693
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: exim de-installation reports errors
 - component: Network
   create_time: 20200703T13:35:00
