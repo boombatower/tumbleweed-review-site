@@ -57810,8 +57810,8 @@
 - component: Other
   create_time: 20210505T14:13:00
   id: 1185665
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'ooRexx: rpm macro file installed to /etc/rpm'
 - component: Other
   create_time: 20210505T14:12:00
