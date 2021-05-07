@@ -57655,6 +57655,24 @@
   status: RESOLVED
   summary: Snapper commands for home directory fail with IO Error (Operation not permitted)
 '20210505':
+- component: X.Org
+  create_time: 20210507T17:03:00
+  id: 1185789
+  resolution: ''
+  status: NEW
+  summary: Monitor wakes up when going into powersave mode
+- component: Other
+  create_time: 20210507T16:45:00
+  id: 1185788
+  resolution: ''
+  status: CONFIRMED
+  summary: 'tesseract throws Warning: Parameter not found: enable_new_segsearch'
+- component: GNOME
+  create_time: 20210507T16:08:00
+  id: 1185787
+  resolution: ''
+  status: NEW
+  summary: gscan2pdf crash at starting missing "Language.pm"
 - component: Kernel
   create_time: 20210507T11:18:00
   id: 1185769
@@ -57688,8 +57706,8 @@
 - component: Kernel
   create_time: 20210506T19:30:00
   id: 1185745
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: kernel firmware bug
 - component: Basesystem
   create_time: 20210506T18:55:00
