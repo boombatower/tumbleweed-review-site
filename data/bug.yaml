@@ -57709,7 +57709,7 @@
   id: 1185739
   resolution: ''
   status: NEW
-  summary: USB drive is not mounted automatically in the environment
+  summary: USB drive is not detected by XFCE/LXQT desktops
 - component: Samba
   create_time: 20210506T17:29:00
   id: 1185735
