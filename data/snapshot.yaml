@@ -20,8 +20,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - gcc10
   - kernel-source
+  - gcc10
   binary_unique_count: 1611
   disk_base: 5.0GiB
   disk_shared: unknown
@@ -72,12 +72,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - plasma-framework
-  - plasma5-workspace
-  - gnome-builder
   - libqt5-qtbase-devel
+  - plasma5-workspace
   - Mesa
   - kernel-source
+  - plasma-framework
+  - gnome-builder
   binary_unique_count: 4700
   disk_base: 7.4GiB
   disk_shared: unknown
@@ -178,10 +178,10 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - xf86-video-amdgpu
   - gtk3-devel
   - libqt5-qtbase-devel
   - Mesa
+  - xf86-video-amdgpu
   - kernel-source
   binary_unique_count: 2666
   disk_base: 4.9GiB
@@ -208,13 +208,13 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.10
   binary_interest_changed:
-  - plasma-framework
+  - gtk3-devel
+  - libqt5-qtbase-devel
+  - gcc10
   - plasma5-workspace
   - kate
-  - gcc10
-  - gtk3-devel
+  - plasma-framework
   - gnome-builder
-  - libqt5-qtbase-devel
   binary_unique_count: 19487
   disk_base: 25.5GiB
   disk_shared: unknown
@@ -240,12 +240,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - llvm
-  - gcc10
-  - gnome-builder
   - gcc11
-  - Mesa
   - xorg-x11-server
+  - gcc10
+  - llvm
+  - Mesa
+  - gnome-builder
   binary_unique_count: 2477
   disk_base: 6.9GiB
   disk_shared: unknown
@@ -296,9 +296,9 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - gtk3-devel
-  - kernel-source
   - xf86-video-intel
+  - kernel-source
+  - gtk3-devel
   - kate
   binary_unique_count: 2371
   disk_base: 5.9GiB
@@ -401,8 +401,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - gtk3-devel
   - kernel-source
+  - gtk3-devel
   binary_unique_count: 9122
   disk_base: 7.7GiB
   disk_shared: unknown
