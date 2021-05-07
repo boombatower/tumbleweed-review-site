@@ -57591,6 +57591,70 @@
   status: NEW
   summary: libgccjit does not find libgcc/crtbegin.o
 '20210504':
+- component: MicroOS
+  create_time: 20210504T17:04:00
+  id: 1185625
+  resolution: ''
+  status: NEW
+  summary: 'transactional-update: /etc has wrong selinux label'
+- component: Kernel
+  create_time: 20210504T15:58:00
+  id: 1185624
+  resolution: ''
+  status: NEW
+  summary: System freezing, Several Memory Management issues, and Shutdown problem
+    after Kernel updated to 5.12.0
+- component: KDE Applications
+  create_time: 20210504T15:51:00
+  id: 1185622
+  resolution: ''
+  status: NEW
+  summary: Kaffeine 2.0.18 on openSUSE Tumbleweed doesn't play DVB-S2 or mkv Videos
+    (VLCPlayer also shows this behavior)
+- component: Other
+  create_time: 20210504T14:42:00
+  id: 1185620
+  resolution: ''
+  status: CONFIRMED
+  summary: qt-fsarchiver installs pre-compiled binaries
+- component: Sound
+  create_time: 20210504T13:04:00
+  id: 1185614
+  resolution: ''
+  status: NEW
+  summary: Please add Studio Controls to multimedia:apps
+- component: Basesystem
+  create_time: 20210504T12:56:00
+  id: 1185613
+  resolution: ''
+  status: NEW
+  summary: 'groff: .Os macro uses BSD as default'
+- component: Kernel
+  create_time: 20210504T07:41:00
+  id: 1185601
+  resolution: ''
+  status: NEW
+  summary: Black screen / no screen output after upgrading from 5.11 to 5.12
+- component: Other
+  create_time: 20210504T07:32:00
+  id: 1185600
+  resolution: ''
+  status: NEW
+  summary: 'Wrong version used for perl-Unicode-Collate (Was: texlive 2021 fails on
+    tests on Arm and PowerPC)'
+- component: Installation
+  create_time: 20210504T07:16:00
+  id: 1185598
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[YaST, Installer] YaST opens Error Popup about ''Invalid Value'''
+- component: Basesystem
+  create_time: 20210504T06:05:00
+  id: 1185596
+  resolution: FIXED
+  status: RESOLVED
+  summary: Snapper commands for home directory fail with IO Error (Operation not permitted)
+'20210505':
 - component: YaST2
   create_time: 20210506T19:57:00
   id: 1185746
@@ -57841,66 +57905,3 @@
   resolution: ''
   status: NEW
   summary: openssl-1_1 fails to build after 2022-06-01
-- component: MicroOS
-  create_time: 20210504T17:04:00
-  id: 1185625
-  resolution: ''
-  status: NEW
-  summary: 'transactional-update: /etc has wrong selinux label'
-- component: Kernel
-  create_time: 20210504T15:58:00
-  id: 1185624
-  resolution: ''
-  status: NEW
-  summary: System freezing, Several Memory Management issues, and Shutdown problem
-    after Kernel updated to 5.12.0
-- component: KDE Applications
-  create_time: 20210504T15:51:00
-  id: 1185622
-  resolution: ''
-  status: NEW
-  summary: Kaffeine 2.0.18 on openSUSE Tumbleweed doesn't play DVB-S2 or mkv Videos
-    (VLCPlayer also shows this behavior)
-- component: Other
-  create_time: 20210504T14:42:00
-  id: 1185620
-  resolution: ''
-  status: CONFIRMED
-  summary: qt-fsarchiver installs pre-compiled binaries
-- component: Sound
-  create_time: 20210504T13:04:00
-  id: 1185614
-  resolution: ''
-  status: NEW
-  summary: Please add Studio Controls to multimedia:apps
-- component: Basesystem
-  create_time: 20210504T12:56:00
-  id: 1185613
-  resolution: ''
-  status: NEW
-  summary: 'groff: .Os macro uses BSD as default'
-- component: Kernel
-  create_time: 20210504T07:41:00
-  id: 1185601
-  resolution: ''
-  status: NEW
-  summary: Black screen / no screen output after upgrading from 5.11 to 5.12
-- component: Other
-  create_time: 20210504T07:32:00
-  id: 1185600
-  resolution: ''
-  status: NEW
-  summary: 'Wrong version used for perl-Unicode-Collate (Was: texlive 2021 fails on
-    tests on Arm and PowerPC)'
-- component: Installation
-  create_time: 20210504T07:16:00
-  id: 1185598
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: '[YaST, Installer] YaST opens Error Popup about ''Invalid Value'''
-- component: Basesystem
-  create_time: 20210504T06:05:00
-  id: 1185596
-  resolution: FIXED
-  status: RESOLVED
-  summary: Snapper commands for home directory fail with IO Error (Operation not permitted)
