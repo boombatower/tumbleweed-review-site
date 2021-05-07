@@ -2034,10 +2034,13 @@
   stability_level: moderate
 '20210430':
   score: 74
-  stability_level: pending
+  stability_level: moderate
 '20210502':
   score: 72
   stability_level: pending
 '20210504':
-  score: 69
+  score: 73
+  stability_level: pending
+'20210505':
+  score: 85
   stability_level: pending
