@@ -57381,8 +57381,8 @@
 - component: Other
   create_time: 20210429T07:26:00
   id: 1185440
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'FTBFS: openSUSE:Factory/yast2-rmt fails to build'
 - component: Basesystem
   create_time: 20210429T07:03:00
@@ -57621,7 +57621,7 @@
   create_time: 20210504T13:04:00
   id: 1185614
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Please add Studio Controls to multimedia:apps
 - component: Basesystem
   create_time: 20210504T12:56:00
@@ -57655,6 +57655,18 @@
   status: RESOLVED
   summary: Snapper commands for home directory fail with IO Error (Operation not permitted)
 '20210505':
+- component: Kernel
+  create_time: 20210507T11:18:00
+  id: 1185769
+  resolution: ''
+  status: NEW
+  summary: Module kheaders not available
+- component: Other
+  create_time: 20210507T10:12:00
+  id: 1185767
+  resolution: ''
+  status: NEW
+  summary: zypper fails installing packages inside docker image
 - component: MicroOS
   create_time: 20210507T09:29:00
   id: 1185766
