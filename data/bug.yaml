@@ -56906,8 +56906,8 @@
 - component: Kernel
   create_time: 20210420T08:00:00
   id: 1185008
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: CPU tainted in dmesg since 5.11
 - component: Firefox
   create_time: 20210420T07:46:00
@@ -57119,7 +57119,7 @@
   status: NEW
   summary: Firefox 88.0 does not work at all
 '20210426':
-- component: Basesystem
+- component: Kernel
   create_time: 20210426T20:41:00
   id: 1185309
   resolution: ''
