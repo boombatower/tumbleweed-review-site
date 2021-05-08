@@ -57743,7 +57743,7 @@
   create_time: 20210505T14:07:00
   id: 1185660
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'lua-lmod: rpm macro file installed to /etc/rpm'
 - component: Other
   create_time: 20210505T14:06:00
@@ -57808,6 +57808,12 @@
   status: NEW
   summary: openssl-1_1 fails to build after 2022-06-01
 '20210506':
+- component: Other
+  create_time: 20210508T08:01:00
+  id: 1185795
+  resolution: ''
+  status: NEW
+  summary: ImageMagick
 - component: Network
   create_time: 20210507T19:16:00
   id: 1185794
@@ -57830,7 +57836,7 @@
   create_time: 20210507T16:08:00
   id: 1185787
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: gscan2pdf crash at starting missing "Language.pm"
 - component: Kernel
   create_time: 20210507T11:18:00
