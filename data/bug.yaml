@@ -57808,6 +57808,12 @@
   status: NEW
   summary: openssl-1_1 fails to build after 2022-06-01
 '20210506':
+- component: LibreOffice
+  create_time: 20210508T18:54:00
+  id: 1185797
+  resolution: ''
+  status: NEW
+  summary: Searching in PPTX document makes LibreOffice crash
 - component: Other
   create_time: 20210508T08:01:00
   id: 1185795
