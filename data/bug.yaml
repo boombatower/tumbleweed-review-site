@@ -57808,67 +57808,6 @@
   status: NEW
   summary: openssl-1_1 fails to build after 2022-06-01
 '20210506':
-- component: LibreOffice
-  create_time: 20210508T18:54:00
-  id: 1185797
-  resolution: ''
-  status: NEW
-  summary: Searching in PPTX document makes LibreOffice crash
-- component: Other
-  create_time: 20210508T08:01:00
-  id: 1185795
-  resolution: ''
-  status: NEW
-  summary: 'ImageMagick: problem with changed parameter interpretation from shells
-    script'
-- component: Network
-  create_time: 20210507T19:16:00
-  id: 1185794
-  resolution: ''
-  status: NEW
-  summary: named fails to start
-- component: KDE Workspace (Plasma)
-  create_time: 20210507T17:03:00
-  id: 1185789
-  resolution: ''
-  status: NEW
-  summary: Monitor wakes up when going into powersave mode on Plasma/KDE desktop
-- component: Other
-  create_time: 20210507T16:45:00
-  id: 1185788
-  resolution: ''
-  status: CONFIRMED
-  summary: 'tesseract throws Warning: Parameter not found: enable_new_segsearch'
-- component: GNOME
-  create_time: 20210507T16:08:00
-  id: 1185787
-  resolution: ''
-  status: IN_PROGRESS
-  summary: gscan2pdf crash at starting missing "Language.pm"
-- component: Kernel
-  create_time: 20210507T11:18:00
-  id: 1185769
-  resolution: ''
-  status: NEW
-  summary: Module kheaders not available
-- component: Other
-  create_time: 20210507T10:12:00
-  id: 1185767
-  resolution: ''
-  status: NEW
-  summary: zypper fails installing packages inside docker image
-- component: MicroOS
-  create_time: 20210507T09:29:00
-  id: 1185766
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Transacrional-update fails due to selinux
-- component: Sound
-  create_time: 20210507T08:53:00
-  id: 1185763
-  resolution: ''
-  status: NEW
-  summary: Audio distortion on AMD Matisse hardware with 5.12.0
 - component: YaST2
   create_time: 20210506T19:57:00
   id: 1185746
@@ -57967,3 +57906,65 @@
   resolution: ''
   status: REOPENED
   summary: Digikam 7.2.0 failing to launch.
+'20210507':
+- component: LibreOffice
+  create_time: 20210508T18:54:00
+  id: 1185797
+  resolution: ''
+  status: NEW
+  summary: Searching in PPTX document makes LibreOffice crash
+- component: Other
+  create_time: 20210508T08:01:00
+  id: 1185795
+  resolution: ''
+  status: NEW
+  summary: 'ImageMagick: problem with changed parameter interpretation from shells
+    script'
+- component: Network
+  create_time: 20210507T19:16:00
+  id: 1185794
+  resolution: ''
+  status: NEW
+  summary: named fails to start
+- component: KDE Workspace (Plasma)
+  create_time: 20210507T17:03:00
+  id: 1185789
+  resolution: ''
+  status: NEW
+  summary: Monitor wakes up when going into powersave mode on Plasma/KDE desktop
+- component: Other
+  create_time: 20210507T16:45:00
+  id: 1185788
+  resolution: ''
+  status: CONFIRMED
+  summary: 'tesseract throws Warning: Parameter not found: enable_new_segsearch'
+- component: GNOME
+  create_time: 20210507T16:08:00
+  id: 1185787
+  resolution: ''
+  status: IN_PROGRESS
+  summary: gscan2pdf crash at starting missing "Language.pm"
+- component: Kernel
+  create_time: 20210507T11:18:00
+  id: 1185769
+  resolution: ''
+  status: NEW
+  summary: Module kheaders not available
+- component: Other
+  create_time: 20210507T10:12:00
+  id: 1185767
+  resolution: ''
+  status: NEW
+  summary: zypper fails installing packages inside docker image
+- component: MicroOS
+  create_time: 20210507T09:29:00
+  id: 1185766
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Transacrional-update fails due to selinux
+- component: Sound
+  create_time: 20210507T08:53:00
+  id: 1185763
+  resolution: ''
+  status: NEW
+  summary: Audio distortion on AMD Matisse hardware with 5.12.0
