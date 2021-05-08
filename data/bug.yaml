@@ -54926,8 +54926,8 @@
 - component: Development
   create_time: 20210313T03:18:00
   id: 1183474
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Emacs much slower than before
 - component: GNOME
   create_time: 20210312T21:07:00
