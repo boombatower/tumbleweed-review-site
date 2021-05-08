@@ -57507,8 +57507,8 @@
 - component: YaST2
   create_time: 20210503T13:33:00
   id: 1185572
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2-ruby-bindings fails test suite when using  tmux 3.2
 - component: Kernel
   create_time: 20210503T13:01:00
@@ -57813,7 +57813,8 @@
   id: 1185795
   resolution: ''
   status: NEW
-  summary: ImageMagick
+  summary: 'ImageMagick: problem with changed parameter interpretation from shells
+    script'
 - component: Network
   create_time: 20210507T19:16:00
   id: 1185794
