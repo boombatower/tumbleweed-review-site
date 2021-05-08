@@ -57576,7 +57576,7 @@
   create_time: 20210502T19:45:00
   id: 1185539
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Telegram-desktop is crashing after start of record audio message
 - component: Virtualization:Tools
   create_time: 20210502T12:40:00
@@ -57782,7 +57782,7 @@
   resolution: ''
   status: NEW
   summary: '[Build 20210504] openQA test fails in kdump_and_crash'
-- component: Basesystem
+- component: GNOME
   create_time: 20210505T11:43:00
   id: 1185648
   resolution: ''
