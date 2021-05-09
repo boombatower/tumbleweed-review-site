@@ -57754,8 +57754,8 @@
 - component: Firefox
   create_time: 20210505T14:04:00
   id: 1185658
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'MozillaFirefox-devel: rpm macro file installed to /etc/rpm'
 - component: Basesystem
   create_time: 20210505T14:02:00
