@@ -57907,6 +57907,12 @@
   status: REOPENED
   summary: Digikam 7.2.0 failing to launch.
 '20210507':
+- component: Development
+  create_time: 20210509T08:26:00
+  id: 1185800
+  resolution: ''
+  status: NEW
+  summary: gdb runs away while reading backtrace
 - component: MicroOS
   create_time: 20210509T06:24:00
   id: 1185799
