@@ -57748,8 +57748,8 @@
 - component: Other
   create_time: 20210505T14:06:00
   id: 1185659
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'octave-devel:  rpm macro file installed to /etc/rpm'
 - component: Firefox
   create_time: 20210505T14:04:00
@@ -57907,6 +57907,12 @@
   status: REOPENED
   summary: Digikam 7.2.0 failing to launch.
 '20210507':
+- component: Kubic
+  create_time: 20210509T13:14:00
+  id: 1185801
+  resolution: ''
+  status: NEW
+  summary: Kubelet/CRI-O/CA-Advisor is not reporting memory
 - component: Development
   create_time: 20210509T08:26:00
   id: 1185800
