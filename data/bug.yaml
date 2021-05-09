@@ -57907,6 +57907,12 @@
   status: REOPENED
   summary: Digikam 7.2.0 failing to launch.
 '20210507':
+- component: MicroOS
+  create_time: 20210509T06:24:00
+  id: 1185799
+  resolution: ''
+  status: NEW
+  summary: /etc/os-release shows wrong version
 - component: LibreOffice
   create_time: 20210508T18:54:00
   id: 1185797
