@@ -57406,8 +57406,8 @@
 - component: GNOME
   create_time: 20210501T13:03:00
   id: 1185525
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please update Gnome Drawing and add to main repo
 - component: Network
   create_time: 20210501T12:43:00
