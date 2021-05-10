@@ -6500,6 +6500,10 @@
   threads: []
 '20210507':
   announcement: 2021-05.4650
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2021-05.4675
+    reference_count: 1
+    summary: thank you
