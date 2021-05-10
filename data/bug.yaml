@@ -51485,8 +51485,8 @@
 - component: YaST2
   create_time: 20210108T18:16:00
   id: 1180716
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Network settings not taken over from installation
 - component: X11 Applications
   create_time: 20210108T17:43:00
@@ -53430,8 +53430,8 @@
 - component: Security
   create_time: 20210212T17:38:00
   id: 1182207
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: SELinux problems on the boot of the system (?)
 - component: MicroOS
   create_time: 20210212T15:41:00
@@ -55130,8 +55130,8 @@
 - component: GNOME
   create_time: 20210317T19:19:00
   id: 1183671
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: All 5.11 kernels present mouse cursor as vertical dashed lines
 - component: Basesystem
   create_time: 20210317T17:16:00
@@ -57934,15 +57934,15 @@
 - component: Other
   create_time: 20210508T08:01:00
   id: 1185795
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'ImageMagick: problem with changed parameter interpretation from shells
     script'
 - component: Network
   create_time: 20210507T19:16:00
   id: 1185794
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: named fails to start
 - component: KDE Workspace (Plasma)
   create_time: 20210507T17:03:00
