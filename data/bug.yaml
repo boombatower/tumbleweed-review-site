@@ -57959,8 +57959,8 @@
 - component: GNOME
   create_time: 20210507T16:08:00
   id: 1185787
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: gscan2pdf crash at starting missing "Language.pm"
 - component: Kernel
   create_time: 20210507T11:18:00
