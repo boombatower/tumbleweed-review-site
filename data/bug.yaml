@@ -41396,8 +41396,8 @@
 - component: Other
   create_time: 20200529T03:31:00
   id: 1172259
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Feature Request - monitoring-plugins-zypper to support transactional server
 - component: KDE Workspace (Plasma)
   create_time: 20200528T23:40:00
@@ -55263,7 +55263,7 @@
   id: 1183697
   resolution: ''
   status: NEW
-  summary: 'Firefox: All tabs crash. glibc 2.33 NSS kde-gtk-config5'
+  summary: 'Firefox: All tabs crash. Caused by libgio-fam.'
 - component: YaST2
   create_time: 20210318T10:01:00
   id: 1183694
@@ -57901,6 +57901,67 @@
   status: REOPENED
   summary: Digikam 7.2.0 failing to launch.
 '20210507':
+- component: Network
+  create_time: 20210507T19:16:00
+  id: 1185794
+  resolution: INVALID
+  status: RESOLVED
+  summary: named fails to start
+- component: KDE Workspace (Plasma)
+  create_time: 20210507T17:03:00
+  id: 1185789
+  resolution: ''
+  status: NEW
+  summary: Monitor wakes up when going into powersave mode on Plasma/KDE desktop
+- component: Other
+  create_time: 20210507T16:45:00
+  id: 1185788
+  resolution: ''
+  status: CONFIRMED
+  summary: 'tesseract throws Warning: Parameter not found: enable_new_segsearch'
+- component: GNOME
+  create_time: 20210507T16:08:00
+  id: 1185787
+  resolution: FIXED
+  status: RESOLVED
+  summary: gscan2pdf crash at starting missing "Language.pm"
+- component: Kernel
+  create_time: 20210507T11:18:00
+  id: 1185769
+  resolution: ''
+  status: NEW
+  summary: Module kheaders not available
+- component: Other
+  create_time: 20210507T10:12:00
+  id: 1185767
+  resolution: ''
+  status: NEW
+  summary: zypper fails installing packages inside docker image
+- component: MicroOS
+  create_time: 20210507T09:29:00
+  id: 1185766
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Transacrional-update fails due to selinux
+- component: Sound
+  create_time: 20210507T08:53:00
+  id: 1185763
+  resolution: ''
+  status: NEW
+  summary: Audio distortion on AMD Matisse hardware with 5.12.0
+'20210508':
+- component: Kernel
+  create_time: 20210510T14:56:00
+  id: 1185869
+  resolution: ''
+  status: NEW
+  summary: TPM event log is empty
+- component: Kernel
+  create_time: 20210510T14:10:00
+  id: 1185864
+  resolution: ''
+  status: NEW
+  summary: setting selinux label works on read only btrfs subvolumes
 - component: KDE Applications
   create_time: 20210510T13:10:00
   id: 1185855
@@ -57912,7 +57973,7 @@
   create_time: 20210510T13:03:00
   id: 1185854
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: az login command fails with backtrace
 - component: Kernel
   create_time: 20210510T11:54:00
@@ -57923,8 +57984,8 @@
 - component: Other
   create_time: 20210510T10:54:00
   id: 1185843
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: libaom is outdated
 - component: Usability
   create_time: 20210510T10:37:00
@@ -57987,51 +58048,3 @@
   status: RESOLVED
   summary: 'ImageMagick: problem with changed parameter interpretation from shells
     script'
-- component: Network
-  create_time: 20210507T19:16:00
-  id: 1185794
-  resolution: INVALID
-  status: RESOLVED
-  summary: named fails to start
-- component: KDE Workspace (Plasma)
-  create_time: 20210507T17:03:00
-  id: 1185789
-  resolution: ''
-  status: NEW
-  summary: Monitor wakes up when going into powersave mode on Plasma/KDE desktop
-- component: Other
-  create_time: 20210507T16:45:00
-  id: 1185788
-  resolution: ''
-  status: CONFIRMED
-  summary: 'tesseract throws Warning: Parameter not found: enable_new_segsearch'
-- component: GNOME
-  create_time: 20210507T16:08:00
-  id: 1185787
-  resolution: FIXED
-  status: RESOLVED
-  summary: gscan2pdf crash at starting missing "Language.pm"
-- component: Kernel
-  create_time: 20210507T11:18:00
-  id: 1185769
-  resolution: ''
-  status: NEW
-  summary: Module kheaders not available
-- component: Other
-  create_time: 20210507T10:12:00
-  id: 1185767
-  resolution: ''
-  status: NEW
-  summary: zypper fails installing packages inside docker image
-- component: MicroOS
-  create_time: 20210507T09:29:00
-  id: 1185766
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Transacrional-update fails due to selinux
-- component: Sound
-  create_time: 20210507T08:53:00
-  id: 1185763
-  resolution: ''
-  status: NEW
-  summary: Audio distortion on AMD Matisse hardware with 5.12.0
