@@ -56132,7 +56132,7 @@
   create_time: 20210406T13:45:00
   id: 1184389
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Getting Things GNOME! (GTG) 0.5 requested
 - component: YaST2
   create_time: 20210406T13:30:00
