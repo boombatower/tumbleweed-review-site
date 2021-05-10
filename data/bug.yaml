@@ -53028,8 +53028,8 @@
 - component: Basesystem
   create_time: 20210206T11:04:00
   id: 1181867
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: dpkg package fails'
 - component: Basesystem
   create_time: 20210206T11:03:00
@@ -53046,8 +53046,8 @@
 - component: Basesystem
   create_time: 20210206T11:01:00
   id: 1181864
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: bazel3.4 and bazel3.7 packages fail'
 - component: Basesystem
   create_time: 20210206T10:59:00
@@ -54093,8 +54093,8 @@
 - component: Basesystem
   create_time: 20210223T14:44:00
   id: 1182618
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: go1.9 and go1.10 package fails'
 - component: KVM
   create_time: 20210223T11:16:00
@@ -56827,8 +56827,8 @@
 - component: Basesystem
   create_time: 20210421T14:51:00
   id: 1185103
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: open-vm-tools package fails'
 - component: Basesystem
   create_time: 20210421T14:42:00
@@ -57055,7 +57055,7 @@
   id: 1185218
   resolution: ''
   status: NEW
-  summary: 'GCC 10: exiv2 build fails on i586'
+  summary: 'GCC 11: exiv2 build fails on i586'
 - component: Ruby
   create_time: 20210423T06:41:00
   id: 1185213
@@ -57861,14 +57861,14 @@
 - component: YaST2
   create_time: 20210506T12:43:00
   id: 1185719
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: libyui fails to build with GCC 11
 - component: Other
   create_time: 20210506T12:09:00
   id: 1185716
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: chromium fails to build with GCC11
 - component: Development
   create_time: 20210506T10:55:00
@@ -57901,6 +57901,30 @@
   status: REOPENED
   summary: Digikam 7.2.0 failing to launch.
 '20210507':
+- component: Kernel
+  create_time: 20210510T11:54:00
+  id: 1185845
+  resolution: ''
+  status: NEW
+  summary: Add dtb-apple for kernel 5.13
+- component: Other
+  create_time: 20210510T10:54:00
+  id: 1185843
+  resolution: ''
+  status: NEW
+  summary: libaom is outdated
+- component: Usability
+  create_time: 20210510T10:37:00
+  id: 1185840
+  resolution: ''
+  status: NEW
+  summary: amdgpu ring gfx timeout
+- component: Other
+  create_time: 20210510T10:25:00
+  id: 1185839
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build 20210508] openvswitch-pki: calls openssl without specifying a dependency'
 - component: Kernel
   create_time: 20210510T09:46:00
   id: 1185831
