@@ -57085,8 +57085,8 @@
 - component: Network
   create_time: 20210425T12:19:00
   id: 1185273
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '"rcopenvpn" broken after insserv-compat got dropped'
 - component: Bootloader
   create_time: 20210425T10:31:00
@@ -57197,7 +57197,7 @@
   create_time: 20210427T12:51:00
   id: 1185353
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: The new pattern patterns-deepin need an icon
 - component: Kernel
   create_time: 20210427T12:46:00
@@ -57671,7 +57671,7 @@
   create_time: 20210505T14:22:00
   id: 1185672
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'ghc-rpm-macros: rpm macro files installed to /etc/rpm'
 - component: Other
   create_time: 20210505T14:21:00
@@ -57901,11 +57901,24 @@
   status: REOPENED
   summary: Digikam 7.2.0 failing to launch.
 '20210507':
+- component: KDE Applications
+  create_time: 20210510T13:10:00
+  id: 1185855
+  resolution: ''
+  status: NEW
+  summary: dkim filter extension in Kmail fails to work correctly with spamassasin
+    (spamd daemon)
+- component: Cloud:Tools
+  create_time: 20210510T13:03:00
+  id: 1185854
+  resolution: ''
+  status: NEW
+  summary: az login command fails with backtrace
 - component: Kernel
   create_time: 20210510T11:54:00
   id: 1185845
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Add dtb-apple for kernel 5.13
 - component: Other
   create_time: 20210510T10:54:00
@@ -57958,8 +57971,8 @@
 - component: MicroOS
   create_time: 20210509T06:24:00
   id: 1185799
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: /etc/os-release shows wrong version
 - component: LibreOffice
   create_time: 20210508T18:54:00
@@ -57977,8 +57990,8 @@
 - component: Network
   create_time: 20210507T19:16:00
   id: 1185794
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: INVALID
+  status: RESOLVED
   summary: named fails to start
 - component: KDE Workspace (Plasma)
   create_time: 20210507T17:03:00
