@@ -2048,5 +2048,8 @@
   score: 72
   stability_level: pending
 '20210507':
-  score: 68
+  score: 70
+  stability_level: pending
+'20210508':
+  score: 86
   stability_level: pending
