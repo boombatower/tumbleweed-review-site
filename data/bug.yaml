@@ -9205,8 +9205,8 @@
 - component: Other
   create_time: 20180608T05:57:00
   id: 1096622
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: mjpegtools stuck at version 2.0.0
 - component: Basesystem
   create_time: 20180607T19:48:00
@@ -57950,6 +57950,13 @@
   status: NEW
   summary: Audio distortion on AMD Matisse hardware with 5.12.0
 '20210508':
+- component: AutoYaST
+  create_time: 20210511T11:15:00
+  id: 1185909
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'AutoYaST: schema does not consider ''static_text'' as a valid value for
+    ''ask/type'''
 - component: Translations
   create_time: 20210511T08:33:00
   id: 1185893
