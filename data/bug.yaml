@@ -57543,8 +57543,8 @@
 - component: Other
   create_time: 20210503T06:13:00
   id: 1185547
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'VUL-0: CVE-2021-22204: perl-Image-ExifTool: Arbitrary code execution in
     ExifTool'
 - component: Installation
@@ -57670,8 +57670,8 @@
 - component: Other
   create_time: 20210505T14:22:00
   id: 1185672
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'ghc-rpm-macros: rpm macro files installed to /etc/rpm'
 - component: Other
   create_time: 20210505T14:21:00
@@ -57950,6 +57950,12 @@
   status: NEW
   summary: Audio distortion on AMD Matisse hardware with 5.12.0
 '20210508':
+- component: Translations
+  create_time: 20210511T08:33:00
+  id: 1185893
+  resolution: ''
+  status: CONFIRMED
+  summary: 'opensuse-welcome: typo in German translation "siech"'
 - component: Other
   create_time: 20210511T01:56:00
   id: 1185884
