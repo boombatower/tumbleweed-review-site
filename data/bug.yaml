@@ -52944,8 +52944,8 @@
 - component: Basesystem
   create_time: 20210206T11:22:00
   id: 1181881
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: presage package fails'
 - component: Basesystem
   create_time: 20210206T11:21:00
@@ -57950,6 +57950,12 @@
   status: NEW
   summary: Audio distortion on AMD Matisse hardware with 5.12.0
 '20210508':
+- component: Other
+  create_time: 20210511T18:54:00
+  id: 1185933
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210510] steam uninstallable with Mesa 21.1'
 - component: Development
   create_time: 20210511T17:03:00
   id: 1185931
