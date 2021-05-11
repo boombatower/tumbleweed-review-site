@@ -15126,8 +15126,8 @@
 - component: Basesystem
   create_time: 20181109T14:36:00
   id: 1115436
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'cacti: migrate from cron to systemd timers'
 - component: Basesystem
   create_time: 20181109T14:34:00
@@ -57950,13 +57950,12 @@
   status: NEW
   summary: Audio distortion on AMD Matisse hardware with 5.12.0
 '20210508':
-- component: AutoYaST
-  create_time: 20210511T11:15:00
-  id: 1185909
+- component: Other
+  create_time: 20210511T13:48:00
+  id: 1185917
   resolution: ''
-  status: IN_PROGRESS
-  summary: 'AutoYaST: schema does not consider ''static_text'' as a valid value for
-    ''ask/type'''
+  status: NEW
+  summary: Installer page advertises wrong repo URL
 - component: Translations
   create_time: 20210511T08:33:00
   id: 1185893
