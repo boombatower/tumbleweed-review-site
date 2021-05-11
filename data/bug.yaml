@@ -57950,6 +57950,13 @@
   status: NEW
   summary: Audio distortion on AMD Matisse hardware with 5.12.0
 '20210508':
+- component: Development
+  create_time: 20210511T17:03:00
+  id: 1185931
+  resolution: ''
+  status: NEW
+  summary: libsrtp2-devel effectively depends on libopenssl-devel without Require'ing
+    it
 - component: Other
   create_time: 20210511T16:03:00
   id: 1185929
