@@ -32317,8 +32317,8 @@
 - component: YaST2
   create_time: 20191125T11:29:00
   id: 1157686
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Installation of aarch64 Tumbleweed from kde live image fails with 'previous
     snapshot not found' error
 - component: GNOME
@@ -57879,8 +57879,8 @@
 - component: Installation
   create_time: 20210506T10:08:00
   id: 1185709
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'installation-images: needs to catch up with openssh'
 - component: Installation
   create_time: 20210506T10:05:00
@@ -57891,8 +57891,8 @@
 - component: AutoYaST
   create_time: 20210506T08:54:00
   id: 1185704
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AutoYaST: Improve <ask-list> support'
 - component: KDE Applications
   create_time: 20210506T07:57:00
@@ -57950,6 +57950,18 @@
   status: NEW
   summary: Audio distortion on AMD Matisse hardware with 5.12.0
 '20210508':
+- component: Other
+  create_time: 20210511T16:03:00
+  id: 1185929
+  resolution: ''
+  status: NEW
+  summary: Recent zypper dup -l wipes grub menu??
+- component: Kernel
+  create_time: 20210511T15:39:00
+  id: 1185927
+  resolution: ''
+  status: NEW
+  summary: Support zynqmp pinctrl provided by firmware
 - component: Other
   create_time: 20210511T13:48:00
   id: 1185917
