@@ -57950,6 +57950,12 @@
   status: NEW
   summary: Audio distortion on AMD Matisse hardware with 5.12.0
 '20210508':
+- component: Other
+  create_time: 20210511T01:56:00
+  id: 1185884
+  resolution: ''
+  status: NEW
+  summary: zfs-kmp-default needs to be updated for kernel 5.12
 - component: Development
   create_time: 20210510T22:18:00
   id: 1185883
