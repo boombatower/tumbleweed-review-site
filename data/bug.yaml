@@ -57950,6 +57950,18 @@
   status: NEW
   summary: Audio distortion on AMD Matisse hardware with 5.12.0
 '20210508':
+- component: Development
+  create_time: 20210510T22:18:00
+  id: 1185883
+  resolution: ''
+  status: NEW
+  summary: android-tools package maintainanence
+- component: Network
+  create_time: 20210510T22:11:00
+  id: 1185882
+  resolution: ''
+  status: NEW
+  summary: /etc/resolv.conf not restored after NetworkManager VPN connection terminates
 - component: GNOME
   create_time: 20210510T21:28:00
   id: 1185881
