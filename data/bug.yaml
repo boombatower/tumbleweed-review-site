@@ -58101,8 +58101,8 @@
 - component: Kernel
   create_time: 20210510T09:46:00
   id: 1185831
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kernel 5.12 built with gcc11 pagefaults at boot
 - component: Other
   create_time: 20210510T09:43:00
