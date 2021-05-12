@@ -54381,8 +54381,8 @@
 - component: Basesystem
   create_time: 20210303T09:03:00
   id: 1182961
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: '[Build 20210227] openQA test fails in journal_check: could not read from
     ''/sys/module/pcc_cpufreq/initstate'': No such device'
 - component: Development
@@ -57455,8 +57455,8 @@
 - component: X11 Applications
   create_time: 20210430T10:04:00
   id: 1185496
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Chromium 88 disables ftp protocol by default, Chromium 91 completely removes
     it
 - component: Firefox
@@ -57982,6 +57982,24 @@
   summary: 'ImageMagick: problem with changed parameter interpretation from shells
     script'
 '20210510':
+- component: Basesystem
+  create_time: 20210512T09:11:00
+  id: 1185958
+  resolution: ''
+  status: NEW
+  summary: udev<>systemd dependency loop
+- component: X.Org
+  create_time: 20210512T08:47:00
+  id: 1185955
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Xvnc crashes when client connects to inst-sys
+- component: Other
+  create_time: 20210512T08:16:00
+  id: 1185952
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210510] PostgreSQL is not startable on s390x'
 - component: Other
   create_time: 20210511T23:04:00
   id: 1185941
