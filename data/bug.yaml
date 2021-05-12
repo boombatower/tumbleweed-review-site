@@ -57982,6 +57982,12 @@
   summary: 'ImageMagick: problem with changed parameter interpretation from shells
     script'
 '20210510':
+- component: GNOME
+  create_time: 20210512T19:53:00
+  id: 1185994
+  resolution: ''
+  status: NEW
+  summary: GDM password screen blanks shortly after suspend/resume
 - component: KDE Applications
   create_time: 20210512T17:01:00
   id: 1185992
