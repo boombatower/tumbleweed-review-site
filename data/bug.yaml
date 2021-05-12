@@ -57950,6 +57950,38 @@
   status: NEW
   summary: Audio distortion on AMD Matisse hardware with 5.12.0
 '20210508':
+- component: Kubic
+  create_time: 20210509T13:14:00
+  id: 1185801
+  resolution: ''
+  status: NEW
+  summary: Kubelet/CRI-O/CA-Advisor is not reporting memory
+- component: Development
+  create_time: 20210509T08:26:00
+  id: 1185800
+  resolution: ''
+  status: NEW
+  summary: gdb runs away while reading backtrace
+- component: MicroOS
+  create_time: 20210509T06:24:00
+  id: 1185799
+  resolution: INVALID
+  status: RESOLVED
+  summary: /etc/os-release shows wrong version
+- component: LibreOffice
+  create_time: 20210508T18:54:00
+  id: 1185797
+  resolution: ''
+  status: NEW
+  summary: Searching in PPTX document makes LibreOffice crash
+- component: Other
+  create_time: 20210508T08:01:00
+  id: 1185795
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'ImageMagick: problem with changed parameter interpretation from shells
+    script'
+'20210510':
 - component: Other
   create_time: 20210511T23:04:00
   id: 1185941
@@ -58084,34 +58116,3 @@
   resolution: ''
   status: NEW
   summary: Kernel 5.12.0-2 crash (video)
-- component: Kubic
-  create_time: 20210509T13:14:00
-  id: 1185801
-  resolution: ''
-  status: NEW
-  summary: Kubelet/CRI-O/CA-Advisor is not reporting memory
-- component: Development
-  create_time: 20210509T08:26:00
-  id: 1185800
-  resolution: ''
-  status: NEW
-  summary: gdb runs away while reading backtrace
-- component: MicroOS
-  create_time: 20210509T06:24:00
-  id: 1185799
-  resolution: INVALID
-  status: RESOLVED
-  summary: /etc/os-release shows wrong version
-- component: LibreOffice
-  create_time: 20210508T18:54:00
-  id: 1185797
-  resolution: ''
-  status: NEW
-  summary: Searching in PPTX document makes LibreOffice crash
-- component: Other
-  create_time: 20210508T08:01:00
-  id: 1185795
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'ImageMagick: problem with changed parameter interpretation from shells
-    script'
