@@ -57047,8 +57047,8 @@
 - component: Basesystem
   create_time: 20210423T08:47:00
   id: 1185220
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: farstream package fails'
 - component: Basesystem
   create_time: 20210423T07:31:00
@@ -57982,6 +57982,12 @@
   summary: 'ImageMagick: problem with changed parameter interpretation from shells
     script'
 '20210510':
+- component: Usability
+  create_time: 20210512T15:02:00
+  id: 1185984
+  resolution: ''
+  status: NEW
+  summary: 'password-store: Copying to clipboard fails on Wayland'
 - component: Kernel
   create_time: 20210512T11:48:00
   id: 1185970
