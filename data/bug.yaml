@@ -8,8 +8,8 @@
 - component: Basesystem
   create_time: 20171201T23:01:00
   id: 1070871
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: '"/etc/zypp/zypp.conf:rpm.install.excludedocs = yes" breaks dovecot post
     scriptlet -> no working dovecot in containers'
 - component: libzypp
@@ -7547,8 +7547,8 @@
 - component: High Availability
   create_time: 20180424T06:33:00
   id: 1090641
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: kronosnet-1.3 is available now
 - component: Basesystem
   create_time: 20180424T06:03:00
@@ -8251,8 +8251,8 @@
 - component: High Availability
   create_time: 20180514T15:46:00
   id: 1093168
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'pacemaker: using service template in preun/postun'
 - component: Basesystem
   create_time: 20180514T15:37:00
@@ -57053,8 +57053,8 @@
 - component: Basesystem
   create_time: 20210423T07:31:00
   id: 1185218
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: exiv2 build fails on i586'
 - component: Ruby
   create_time: 20210423T06:41:00
@@ -57982,6 +57982,12 @@
   summary: 'ImageMagick: problem with changed parameter interpretation from shells
     script'
 '20210510':
+- component: KDE Applications
+  create_time: 20210512T17:01:00
+  id: 1185992
+  resolution: ''
+  status: NEW
+  summary: KMail 5.17.0 Encoding broken when sending mail to recipient list
 - component: Usability
   create_time: 20210512T15:02:00
   id: 1185984
