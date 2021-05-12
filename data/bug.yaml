@@ -57951,6 +57951,12 @@
   summary: Audio distortion on AMD Matisse hardware with 5.12.0
 '20210508':
 - component: Other
+  create_time: 20210511T23:04:00
+  id: 1185941
+  resolution: ''
+  status: NEW
+  summary: texlive-prosper stopped working
+- component: Other
   create_time: 20210511T18:54:00
   id: 1185933
   resolution: ''
