@@ -52944,8 +52944,8 @@
 - component: Basesystem
   create_time: 20210206T11:22:00
   id: 1181881
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'GCC 11: presage package fails'
 - component: Basesystem
   create_time: 20210206T11:21:00
@@ -55327,8 +55327,8 @@
   create_time: 20210319T13:08:00
   id: 1183795
   resolution: ''
-  status: NEW
-  summary: NET ISO hangs in linuxrc for armv7
+  status: CONFIRMED
+  summary: 'armv7: rpm architecture (armv7hl) is not system architecture (armv7l)'
 - component: Other
   create_time: 20210319T11:48:00
   id: 1183786
