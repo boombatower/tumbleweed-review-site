@@ -35909,8 +35909,8 @@
 - component: Containers
   create_time: 20200205T19:54:00
   id: 1162887
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20200204] openQA test fails in add_box_virtualbox - winrm-fs update
     to 1.3.4 breaks vagrant'
 - component: Ruby
@@ -46485,8 +46485,8 @@
 - component: Kernel
   create_time: 20200916T01:33:00
   id: 1176576
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[RPi4] sdhci driver continuously prints warnings if no card is present'
 - component: YaST2
   create_time: 20200915T22:48:00
@@ -55323,7 +55323,7 @@
   status: RESOLVED
   summary: '[Staging J] YaST is not automatically installing SELinux pattern for MicroOS
     roles'
-- component: Basesystem
+- component: YaST2
   create_time: 20210319T13:08:00
   id: 1183795
   resolution: ''
@@ -57982,6 +57982,12 @@
   summary: 'ImageMagick: problem with changed parameter interpretation from shells
     script'
 '20210510':
+- component: Kernel
+  create_time: 20210512T11:48:00
+  id: 1185970
+  resolution: ''
+  status: NEW
+  summary: Switching Graphics Freezes Whole System
 - component: Basesystem
   create_time: 20210512T09:11:00
   id: 1185958
