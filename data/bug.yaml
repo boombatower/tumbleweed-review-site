@@ -57652,8 +57652,8 @@
 - component: Kernel
   create_time: 20210505T21:14:00
   id: 1185693
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'Kernel 5.12: sound not working on Baytrail chipset - soundcard chtmax98090'
 - component: Basesystem
   create_time: 20210505T16:27:00
