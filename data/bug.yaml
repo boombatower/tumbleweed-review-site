@@ -58069,6 +58069,18 @@
   summary: Kernel 5.12.0-2 crash (video)
 '20210511':
 - component: Basesystem
+  create_time: 20210513T19:43:00
+  id: 1186036
+  resolution: ''
+  status: NEW
+  summary: Package power-profiles-daemon
+- component: libzypp
+  create_time: 20210513T18:06:00
+  id: 1186033
+  resolution: ''
+  status: NEW
+  summary: zypper asks for 'yes' but accepts 'y' only
+- component: Basesystem
   create_time: 20210513T13:21:00
   id: 1186023
   resolution: ''
