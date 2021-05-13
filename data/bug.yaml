@@ -38971,8 +38971,8 @@
 - component: Other
   create_time: 20200409T22:24:00
   id: 1169154
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Install guix fails, libguile-ssh11 is missing
 - component: Basesystem
   create_time: 20200409T19:47:00
@@ -52944,8 +52944,8 @@
 - component: Basesystem
   create_time: 20210206T11:22:00
   id: 1181881
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: presage package fails'
 - component: Basesystem
   create_time: 20210206T11:21:00
