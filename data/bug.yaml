@@ -57531,8 +57531,8 @@
 - component: Bootloader
   create_time: 20210503T08:52:00
   id: 1185554
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: grub2 boots to commandline on encrypted system
 - component: Containers
   create_time: 20210503T08:16:00
