@@ -58068,6 +58068,13 @@
   status: NEW
   summary: Kernel 5.12.0-2 crash (video)
 '20210511':
+- component: Basesystem
+  create_time: 20210513T06:21:00
+  id: 1186005
+  resolution: ''
+  status: NEW
+  summary: '"postconf: fatal: parameter inet_interfaces: no local interface found
+    for ::1" update upgrade'
 - component: KVM
   create_time: 20210512T21:51:00
   id: 1186000
