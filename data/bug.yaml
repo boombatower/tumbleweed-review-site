@@ -56252,11 +56252,11 @@
   resolution: ''
   status: NEW
   summary: python3-opencv doesn't interact with virtual-env well.
-- component: YaST2
+- component: KDE Applications
   create_time: 20210410T13:10:00
   id: 1184573
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: can't start yast anymore, hangs
 - component: Apache
   create_time: 20210410T10:45:00
