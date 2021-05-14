@@ -57029,8 +57029,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20210423T14:08:00
   id: 1185238
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'errors in journal: cannot read property width of null'
 - component: GNOME
   create_time: 20210423T13:45:00
@@ -58118,6 +58118,12 @@
   status: NEW
   summary: zfs-kmp-default needs to be updated for kernel 5.12
 '20210512':
+- component: KDE Applications
+  create_time: 20210514T13:18:00
+  id: 1186064
+  resolution: ''
+  status: NEW
+  summary: Akonadi crashing after startup of KOrganizer
 - component: Basesystem
   create_time: 20210514T11:54:00
   id: 1186057
