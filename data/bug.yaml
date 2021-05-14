@@ -58189,8 +58189,8 @@
 - component: Other
   create_time: 20210512T20:45:00
   id: 1185996
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Possible Dependency Issue for Steam
 - component: GNOME
   create_time: 20210512T19:53:00
