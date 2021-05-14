@@ -57855,8 +57855,8 @@
 - component: GNOME
   create_time: 20210506T12:48:00
   id: 1185720
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: nautilus fails to build with GCC11
 - component: YaST2
   create_time: 20210506T12:43:00
@@ -58172,11 +58172,11 @@
   resolution: ''
   status: NEW
   summary: texlive-prosper stopped working
-- component: Other
+- component: X.Org
   create_time: 20210511T18:54:00
   id: 1185933
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210510] steam uninstallable with Mesa 21.1'
 - component: Development
   create_time: 20210511T17:03:00
