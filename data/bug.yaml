@@ -56999,8 +56999,8 @@
 - component: Ruby
   create_time: 20210424T10:04:00
   id: 1185257
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: rubygem-marcel update from snapshot 20210422 breaks rubygem-activestorage-6.0
 - component: Java
   create_time: 20210424T08:54:00
@@ -58037,7 +58037,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: libaom is outdated
-- component: Usability
+- component: Kernel
   create_time: 20210510T10:37:00
   id: 1185840
   resolution: ''
@@ -58118,6 +58118,13 @@
   status: NEW
   summary: zfs-kmp-default needs to be updated for kernel 5.12
 '20210512':
+- component: Kernel
+  create_time: 20210514T18:50:00
+  id: 1186075
+  resolution: ''
+  status: NEW
+  summary: Kernel crashes while copying many files with Dell D630 (830, E6400) and
+    Kernel 5.12-rc8/0/1/2/3
 - component: YaST2
   create_time: 20210514T14:43:00
   id: 1186066
