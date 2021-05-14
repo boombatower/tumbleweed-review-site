@@ -54733,8 +54733,8 @@
 - component: Samba
   create_time: 20210308T00:27:00
   id: 1183148
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: nmbd nmb.service startup delays multi-user.target by 5 seconds
 - component: Basesystem
   create_time: 20210307T19:28:00
@@ -57601,8 +57601,8 @@
 - component: KDE Applications
   create_time: 20210504T15:51:00
   id: 1185622
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kaffeine 2.0.18 on openSUSE Tumbleweed doesn't play DVB-S2 or mkv Videos
     (VLCPlayer also shows this behavior)
 - component: Other
@@ -58068,6 +58068,62 @@
   status: NEW
   summary: Kernel 5.12.0-2 crash (video)
 '20210511':
+- component: Other
+  create_time: 20210511T23:04:00
+  id: 1185941
+  resolution: ''
+  status: NEW
+  summary: texlive-prosper stopped working
+- component: X.Org
+  create_time: 20210511T18:54:00
+  id: 1185933
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20210510] steam uninstallable with Mesa 21.1'
+- component: Development
+  create_time: 20210511T17:03:00
+  id: 1185931
+  resolution: ''
+  status: NEW
+  summary: libsrtp2-devel effectively depends on libopenssl-devel without Require'ing
+    it
+- component: Other
+  create_time: 20210511T16:03:00
+  id: 1185929
+  resolution: ''
+  status: NEW
+  summary: Recent zypper dup -l wipes grub menu??
+- component: Kernel
+  create_time: 20210511T15:39:00
+  id: 1185927
+  resolution: ''
+  status: NEW
+  summary: Support zynqmp pinctrl provided by firmware
+- component: Other
+  create_time: 20210511T13:48:00
+  id: 1185917
+  resolution: ''
+  status: NEW
+  summary: Installer page advertises wrong repo URL
+- component: Translations
+  create_time: 20210511T08:33:00
+  id: 1185893
+  resolution: ''
+  status: CONFIRMED
+  summary: 'opensuse-welcome: typo in German translation "siech"'
+- component: Other
+  create_time: 20210511T01:56:00
+  id: 1185884
+  resolution: ''
+  status: NEW
+  summary: zfs-kmp-default needs to be updated for kernel 5.12
+'20210512':
+- component: Basesystem
+  create_time: 20210514T11:54:00
+  id: 1186057
+  resolution: ''
+  status: NEW
+  summary: new /usr/libexec/bind/named.prep has "ln -s" for rndc wrong way round
 - component: YaST2
   create_time: 20210514T06:26:00
   id: 1186046
@@ -58166,52 +58222,3 @@
   resolution: ''
   status: NEW
   summary: '[Build 20210510] PostgreSQL is not startable on s390x'
-- component: Other
-  create_time: 20210511T23:04:00
-  id: 1185941
-  resolution: ''
-  status: NEW
-  summary: texlive-prosper stopped working
-- component: X.Org
-  create_time: 20210511T18:54:00
-  id: 1185933
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20210510] steam uninstallable with Mesa 21.1'
-- component: Development
-  create_time: 20210511T17:03:00
-  id: 1185931
-  resolution: ''
-  status: NEW
-  summary: libsrtp2-devel effectively depends on libopenssl-devel without Require'ing
-    it
-- component: Other
-  create_time: 20210511T16:03:00
-  id: 1185929
-  resolution: ''
-  status: NEW
-  summary: Recent zypper dup -l wipes grub menu??
-- component: Kernel
-  create_time: 20210511T15:39:00
-  id: 1185927
-  resolution: ''
-  status: NEW
-  summary: Support zynqmp pinctrl provided by firmware
-- component: Other
-  create_time: 20210511T13:48:00
-  id: 1185917
-  resolution: ''
-  status: NEW
-  summary: Installer page advertises wrong repo URL
-- component: Translations
-  create_time: 20210511T08:33:00
-  id: 1185893
-  resolution: ''
-  status: CONFIRMED
-  summary: 'opensuse-welcome: typo in German translation "siech"'
-- component: Other
-  create_time: 20210511T01:56:00
-  id: 1185884
-  resolution: ''
-  status: NEW
-  summary: zfs-kmp-default needs to be updated for kernel 5.12
