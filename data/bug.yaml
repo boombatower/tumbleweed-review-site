@@ -56255,8 +56255,8 @@
 - component: KDE Applications
   create_time: 20210410T13:10:00
   id: 1184573
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: can't start yast anymore, hangs
 - component: Apache
   create_time: 20210410T10:45:00
@@ -58118,6 +58118,12 @@
   status: NEW
   summary: zfs-kmp-default needs to be updated for kernel 5.12
 '20210512':
+- component: YaST2
+  create_time: 20210514T14:43:00
+  id: 1186066
+  resolution: ''
+  status: IN_PROGRESS
+  summary: yast2-* packages should not own /usr/share/icons directory structure
 - component: KDE Applications
   create_time: 20210514T13:18:00
   id: 1186064
