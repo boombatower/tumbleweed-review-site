@@ -53825,8 +53825,8 @@
 - component: GNOME
   create_time: 20210220T15:05:00
   id: 1182519
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: gscan2pdf signals libtiff missing and can't save files
 - component: X11 3rd Party Driver
   create_time: 20210220T10:33:00
