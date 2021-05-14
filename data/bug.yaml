@@ -58068,6 +58068,12 @@
   status: NEW
   summary: Kernel 5.12.0-2 crash (video)
 '20210511':
+- component: Other
+  create_time: 20210514T02:13:00
+  id: 1186043
+  resolution: ''
+  status: NEW
+  summary: Budgie  screenlock cannot be unlocked
 - component: Basesystem
   create_time: 20210513T19:43:00
   id: 1186036
