@@ -58118,6 +58118,12 @@
   status: NEW
   summary: zfs-kmp-default needs to be updated for kernel 5.12
 '20210512':
+- component: Kernel
+  create_time: 20210515T14:49:00
+  id: 1186090
+  resolution: ''
+  status: NEW
+  summary: tumbleweed 5.12.2 kernel panivcs in i915_gem_shrink
 - component: GNOME
   create_time: 20210515T12:30:00
   id: 1186086
