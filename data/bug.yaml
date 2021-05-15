@@ -58118,6 +58118,80 @@
   status: NEW
   summary: zfs-kmp-default needs to be updated for kernel 5.12
 '20210512':
+- component: KVM
+  create_time: 20210512T21:51:00
+  id: 1186000
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'hw/rx/rx-gdbsim: Do not accept invalid memory size'
+- component: KVM
+  create_time: 20210512T21:49:00
+  id: 1185999
+  resolution: ''
+  status: IN_PROGRESS
+  summary: memory leak in qemu_xkeymap_mapping_table()
+- component: Other
+  create_time: 20210512T20:45:00
+  id: 1185996
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Possible Dependency Issue for Steam
+- component: GNOME
+  create_time: 20210512T19:53:00
+  id: 1185994
+  resolution: ''
+  status: NEW
+  summary: GDM password screen blanks shortly after suspend/resume
+- component: KDE Applications
+  create_time: 20210512T17:01:00
+  id: 1185992
+  resolution: ''
+  status: NEW
+  summary: KMail 5.17.0 Encoding broken when sending mail to recipient list
+- component: Usability
+  create_time: 20210512T15:02:00
+  id: 1185984
+  resolution: ''
+  status: NEW
+  summary: 'password-store: Copying to clipboard fails on Wayland'
+- component: Kernel
+  create_time: 20210512T11:48:00
+  id: 1185970
+  resolution: ''
+  status: NEW
+  summary: Switching Graphics Freezes Whole System
+- component: Basesystem
+  create_time: 20210512T09:11:00
+  id: 1185958
+  resolution: ''
+  status: NEW
+  summary: udev<>systemd dependency loop
+- component: X.Org
+  create_time: 20210512T08:47:00
+  id: 1185955
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Xvnc crashes when client connects to inst-sys
+- component: Other
+  create_time: 20210512T08:16:00
+  id: 1185952
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210510] PostgreSQL is not startable on s390x'
+'20210513':
+- component: YaST2
+  create_time: 20210515T18:50:00
+  id: 1186093
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210514] [s390x] openQA test fails in welcome because of missing
+    line of the frame around the license above (ncurses)'
+- component: GNOME
+  create_time: 20210515T18:24:00
+  id: 1186091
+  resolution: ''
+  status: NEW
+  summary: openvpn stopped to work between and 2021-04-17 2021-05-12
 - component: Kernel
   create_time: 20210515T14:49:00
   id: 1186090
@@ -58218,63 +58292,3 @@
   status: NEW
   summary: '"postconf: fatal: parameter inet_interfaces: no local interface found
     for ::1" update upgrade'
-- component: KVM
-  create_time: 20210512T21:51:00
-  id: 1186000
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'hw/rx/rx-gdbsim: Do not accept invalid memory size'
-- component: KVM
-  create_time: 20210512T21:49:00
-  id: 1185999
-  resolution: ''
-  status: IN_PROGRESS
-  summary: memory leak in qemu_xkeymap_mapping_table()
-- component: Other
-  create_time: 20210512T20:45:00
-  id: 1185996
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Possible Dependency Issue for Steam
-- component: GNOME
-  create_time: 20210512T19:53:00
-  id: 1185994
-  resolution: ''
-  status: NEW
-  summary: GDM password screen blanks shortly after suspend/resume
-- component: KDE Applications
-  create_time: 20210512T17:01:00
-  id: 1185992
-  resolution: ''
-  status: NEW
-  summary: KMail 5.17.0 Encoding broken when sending mail to recipient list
-- component: Usability
-  create_time: 20210512T15:02:00
-  id: 1185984
-  resolution: ''
-  status: NEW
-  summary: 'password-store: Copying to clipboard fails on Wayland'
-- component: Kernel
-  create_time: 20210512T11:48:00
-  id: 1185970
-  resolution: ''
-  status: NEW
-  summary: Switching Graphics Freezes Whole System
-- component: Basesystem
-  create_time: 20210512T09:11:00
-  id: 1185958
-  resolution: ''
-  status: NEW
-  summary: udev<>systemd dependency loop
-- component: X.Org
-  create_time: 20210512T08:47:00
-  id: 1185955
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Xvnc crashes when client connects to inst-sys
-- component: Other
-  create_time: 20210512T08:16:00
-  id: 1185952
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210510] PostgreSQL is not startable on s390x'
