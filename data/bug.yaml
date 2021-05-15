@@ -58084,7 +58084,7 @@
   create_time: 20210511T17:03:00
   id: 1185931
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: libsrtp2-devel effectively depends on libopenssl-devel without Require'ing
     it
 - component: Other
