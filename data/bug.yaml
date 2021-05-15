@@ -58118,6 +58118,12 @@
   status: NEW
   summary: zfs-kmp-default needs to be updated for kernel 5.12
 '20210512':
+- component: Other
+  create_time: 20210514T22:36:00
+  id: 1186080
+  resolution: ''
+  status: NEW
+  summary: '''borg mount'' fails due to missing python3-llfuse package'
 - component: Kernel
   create_time: 20210514T18:50:00
   id: 1186075
