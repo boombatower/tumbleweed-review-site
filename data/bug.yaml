@@ -58118,6 +58118,13 @@
   status: NEW
   summary: zfs-kmp-default needs to be updated for kernel 5.12
 '20210512':
+- component: GNOME
+  create_time: 20210515T12:30:00
+  id: 1186086
+  resolution: ''
+  status: NEW
+  summary: 'Feature request: Make gnome-terminal Send a notification when the command
+    is completed,and transparent background'
 - component: Development
   create_time: 20210515T11:01:00
   id: 1186085
