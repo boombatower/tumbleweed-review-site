@@ -58119,6 +58119,12 @@
   summary: zfs-kmp-default needs to be updated for kernel 5.12
 '20210512':
 - component: Other
+  create_time: 20210515T07:25:00
+  id: 1186083
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210513] remmina: unable to connect'
+- component: Other
   create_time: 20210514T22:36:00
   id: 1186080
   resolution: ''
@@ -58159,7 +58165,7 @@
   create_time: 20210514T02:13:00
   id: 1186043
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Budgie  screenlock cannot be unlocked
 - component: Basesystem
   create_time: 20210513T19:43:00
