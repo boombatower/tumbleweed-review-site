@@ -58118,6 +58118,12 @@
   status: NEW
   summary: zfs-kmp-default needs to be updated for kernel 5.12
 '20210512':
+- component: Development
+  create_time: 20210515T11:01:00
+  id: 1186085
+  resolution: ''
+  status: NEW
+  summary: gdb Segmentation fault in add_using_directive
 - component: Other
   create_time: 20210515T09:51:00
   id: 1186084
