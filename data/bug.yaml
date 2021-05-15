@@ -58119,6 +58119,12 @@
   summary: zfs-kmp-default needs to be updated for kernel 5.12
 '20210512':
 - component: Other
+  create_time: 20210515T09:51:00
+  id: 1186084
+  resolution: ''
+  status: NEW
+  summary: openshot fails to start it's GUI
+- component: Other
   create_time: 20210515T07:25:00
   id: 1186083
   resolution: ''
