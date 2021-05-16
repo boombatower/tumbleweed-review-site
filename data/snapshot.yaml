@@ -20,12 +20,12 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - xorg-x11-server
   - Mesa
   - llvm
-  - gcc10
   - gcc11
+  - gcc10
   - gnome-builder
+  - xorg-x11-server
   binary_unique_count: 2477
   disk_base: 6.9GiB
   disk_shared: unknown
@@ -76,8 +76,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - kate
   - gtk3-devel
+  - kate
   - kernel-source
   - xf86-video-intel
   binary_unique_count: 2371
@@ -412,8 +412,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - Mesa
   - plasma-framework
+  - Mesa
   binary_unique_count: 2892
   disk_base: 6.0GiB
   disk_shared: unknown
