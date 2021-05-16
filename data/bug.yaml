@@ -58206,6 +58206,12 @@
   summary: '"postconf: fatal: parameter inet_interfaces: no local interface found
     for ::1" update upgrade'
 '20210514':
+- component: GNOME
+  create_time: 20210516T18:42:00
+  id: 1186100
+  resolution: ''
+  status: NEW
+  summary: geary doesn't launch on KDE Plasma due to missing org.freedesktop.secrets
 - component: Other
   create_time: 20210516T11:33:00
   id: 1186098
