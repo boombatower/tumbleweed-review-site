@@ -58179,6 +58179,12 @@
   status: NEW
   summary: '[Build 20210510] PostgreSQL is not startable on s390x'
 '20210513':
+- component: Other
+  create_time: 20210516T09:00:00
+  id: 1186094
+  resolution: ''
+  status: NEW
+  summary: 'npm 16: Out of memory while building libreoffice online'
 - component: YaST2
   create_time: 20210515T18:50:00
   id: 1186093
@@ -58263,8 +58269,8 @@
 - component: Other
   create_time: 20210514T02:13:00
   id: 1186043
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Budgie  screenlock cannot be unlocked
 - component: Basesystem
   create_time: 20210513T19:43:00
