@@ -58179,6 +58179,51 @@
   status: NEW
   summary: '[Build 20210510] PostgreSQL is not startable on s390x'
 '20210513':
+- component: Basesystem
+  create_time: 20210513T19:43:00
+  id: 1186036
+  resolution: ''
+  status: NEW
+  summary: Package power-profiles-daemon
+- component: libzypp
+  create_time: 20210513T18:06:00
+  id: 1186033
+  resolution: ''
+  status: NEW
+  summary: zypper asks for 'yes' but accepts 'y' only
+- component: Basesystem
+  create_time: 20210513T13:21:00
+  id: 1186023
+  resolution: ''
+  status: NEW
+  summary: knot installed with transactional-update does not create knot group and
+    user
+- component: Basesystem
+  create_time: 20210513T06:21:00
+  id: 1186005
+  resolution: ''
+  status: NEW
+  summary: '"postconf: fatal: parameter inet_interfaces: no local interface found
+    for ::1" update upgrade'
+'20210514':
+- component: Other
+  create_time: 20210516T11:33:00
+  id: 1186098
+  resolution: ''
+  status: NEW
+  summary: 'Regional Settings: Default number format for Spain is wrong'
+- component: Firefox
+  create_time: 20210516T11:27:00
+  id: 1186097
+  resolution: ''
+  status: NEW
+  summary: Forced autoinstallation Firefox OpenSUSE version
+- component: YaST2
+  create_time: 20210516T10:45:00
+  id: 1186095
+  resolution: ''
+  status: NEW
+  summary: Ruby error when diffing snapshots
 - component: Other
   create_time: 20210516T09:00:00
   id: 1186094
@@ -58272,29 +58317,3 @@
   resolution: FIXED
   status: RESOLVED
   summary: Budgie  screenlock cannot be unlocked
-- component: Basesystem
-  create_time: 20210513T19:43:00
-  id: 1186036
-  resolution: ''
-  status: NEW
-  summary: Package power-profiles-daemon
-- component: libzypp
-  create_time: 20210513T18:06:00
-  id: 1186033
-  resolution: ''
-  status: NEW
-  summary: zypper asks for 'yes' but accepts 'y' only
-- component: Basesystem
-  create_time: 20210513T13:21:00
-  id: 1186023
-  resolution: ''
-  status: NEW
-  summary: knot installed with transactional-update does not create knot group and
-    user
-- component: Basesystem
-  create_time: 20210513T06:21:00
-  id: 1186005
-  resolution: ''
-  status: NEW
-  summary: '"postconf: fatal: parameter inet_interfaces: no local interface found
-    for ::1" update upgrade'
