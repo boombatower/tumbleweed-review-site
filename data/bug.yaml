@@ -7858,8 +7858,8 @@
 - component: Basesystem
   create_time: 20180508T18:15:00
   id: 1092425
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Assertion failure in libclang on i586 (when building qtdoc)
 - component: Other
   create_time: 20180508T13:02:00
@@ -52232,8 +52232,8 @@
 - component: Other
   create_time: 20210122T16:35:00
   id: 1181307
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: xsane request root password for polkit permission
 - component: YaST2
   create_time: 20210122T15:38:00
@@ -56662,7 +56662,7 @@
   id: 1184843
   resolution: ''
   status: NEW
-  summary: noisetorch wants cap_sys_resource
+  summary: 'AUDIT-0: noisetorch: want cap_sys_resource+ep'
 - component: GNOME
   create_time: 20210416T05:31:00
   id: 1184842
@@ -56900,8 +56900,8 @@
 - component: Kernel
   create_time: 20210420T08:00:00
   id: 1185008
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: CPU tainted in dmesg since 5.11
 - component: Firefox
   create_time: 20210420T07:46:00
@@ -57388,8 +57388,8 @@
 - component: Kernel
   create_time: 20210501T14:52:00
   id: 1185527
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Kernel 5.12: unable to open usb serial port ACM0'
 - component: Basesystem
   create_time: 20210501T13:46:00
@@ -58022,8 +58022,8 @@
 - component: Cloud:Tools
   create_time: 20210510T13:03:00
   id: 1185854
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: az login command fails with backtrace
 - component: Kernel
   create_time: 20210510T11:54:00
@@ -58250,6 +58250,18 @@
   status: RESOLVED
   summary: Budgie  screenlock cannot be unlocked
 '20210515':
+- component: Kernel
+  create_time: 20210517T11:26:00
+  id: 1186122
+  resolution: ''
+  status: NEW
+  summary: VM_L2_PROTECTION_FAULT_STATUS:0x00741051  and other errors related to AMDGPU
+- component: X.Org
+  create_time: 20210517T10:29:00
+  id: 1186120
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: xdpyinfo claims my notebook screen is 1016x571 millimeters
 - component: Basesystem
   create_time: 20210517T07:21:00
   id: 1186110
@@ -58260,7 +58272,7 @@
   create_time: 20210517T04:06:00
   id: 1186103
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'openSUSE Tumbleweed installation: No space left on device @ dir_s_mkdir'
 - component: GNOME
   create_time: 20210516T18:42:00
