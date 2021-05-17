@@ -58206,6 +58206,50 @@
   summary: '"postconf: fatal: parameter inet_interfaces: no local interface found
     for ::1" update upgrade'
 '20210514':
+- component: Other
+  create_time: 20210514T22:36:00
+  id: 1186080
+  resolution: ''
+  status: NEW
+  summary: '''borg mount'' fails due to missing python3-llfuse package'
+- component: Kernel
+  create_time: 20210514T18:50:00
+  id: 1186075
+  resolution: FIXED
+  status: RESOLVED
+  summary: Kernel crashes while copying many files with Dell D630 (830, E6400) and
+    Kernel 5.12-rc8/0/1/2/3
+- component: YaST2
+  create_time: 20210514T14:43:00
+  id: 1186066
+  resolution: ''
+  status: IN_PROGRESS
+  summary: yast2-* packages should not own /usr/share/icons directory structure
+- component: KDE Applications
+  create_time: 20210514T13:18:00
+  id: 1186064
+  resolution: ''
+  status: NEW
+  summary: Akonadi crashing after startup of KOrganizer
+- component: Basesystem
+  create_time: 20210514T11:54:00
+  id: 1186057
+  resolution: ''
+  status: NEW
+  summary: new /usr/libexec/bind/named.prep has "ln -s" for rndc wrong way round
+- component: YaST2
+  create_time: 20210514T06:26:00
+  id: 1186046
+  resolution: ''
+  status: NEW
+  summary: Have to stop named service before launching YAST2 to configure DNS server
+- component: Other
+  create_time: 20210514T02:13:00
+  id: 1186043
+  resolution: FIXED
+  status: RESOLVED
+  summary: Budgie  screenlock cannot be unlocked
+'20210515':
 - component: GNOME
   create_time: 20210516T18:42:00
   id: 1186100
@@ -58280,46 +58324,3 @@
   resolution: FIXED
   status: RESOLVED
   summary: '[Build 20210513] remmina: unable to connect'
-- component: Other
-  create_time: 20210514T22:36:00
-  id: 1186080
-  resolution: ''
-  status: NEW
-  summary: '''borg mount'' fails due to missing python3-llfuse package'
-- component: Kernel
-  create_time: 20210514T18:50:00
-  id: 1186075
-  resolution: FIXED
-  status: RESOLVED
-  summary: Kernel crashes while copying many files with Dell D630 (830, E6400) and
-    Kernel 5.12-rc8/0/1/2/3
-- component: YaST2
-  create_time: 20210514T14:43:00
-  id: 1186066
-  resolution: ''
-  status: IN_PROGRESS
-  summary: yast2-* packages should not own /usr/share/icons directory structure
-- component: KDE Applications
-  create_time: 20210514T13:18:00
-  id: 1186064
-  resolution: ''
-  status: NEW
-  summary: Akonadi crashing after startup of KOrganizer
-- component: Basesystem
-  create_time: 20210514T11:54:00
-  id: 1186057
-  resolution: ''
-  status: NEW
-  summary: new /usr/libexec/bind/named.prep has "ln -s" for rndc wrong way round
-- component: YaST2
-  create_time: 20210514T06:26:00
-  id: 1186046
-  resolution: ''
-  status: NEW
-  summary: Have to stop named service before launching YAST2 to configure DNS server
-- component: Other
-  create_time: 20210514T02:13:00
-  id: 1186043
-  resolution: FIXED
-  status: RESOLVED
-  summary: Budgie  screenlock cannot be unlocked
