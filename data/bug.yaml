@@ -58250,6 +58250,12 @@
   status: RESOLVED
   summary: Budgie  screenlock cannot be unlocked
 '20210515':
+- component: Installation
+  create_time: 20210517T04:06:00
+  id: 1186103
+  resolution: ''
+  status: NEW
+  summary: 'openSUSE Tumbleweed installation: No space left on device @ dir_s_mkdir'
 - component: GNOME
   create_time: 20210516T18:42:00
   id: 1186100
