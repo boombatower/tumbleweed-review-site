@@ -54081,8 +54081,8 @@
 - component: AutoYaST
   create_time: 20210224T09:12:00
   id: 1182649
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Snapshot20210221] AutoYaST install failed with OOM'
 - component: Development
   create_time: 20210224T07:59:00
@@ -58250,6 +58250,12 @@
   status: RESOLVED
   summary: Budgie  screenlock cannot be unlocked
 '20210515':
+- component: Basesystem
+  create_time: 20210517T07:21:00
+  id: 1186110
+  resolution: ''
+  status: NEW
+  summary: 'GCC 11: libreoffice package fails'
 - component: Installation
   create_time: 20210517T04:06:00
   id: 1186103
@@ -58277,8 +58283,8 @@
 - component: YaST2
   create_time: 20210516T10:45:00
   id: 1186095
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Ruby error when diffing snapshots
 - component: Other
   create_time: 20210516T09:00:00
@@ -58308,8 +58314,8 @@
 - component: GNOME
   create_time: 20210515T12:30:00
   id: 1186086
-  resolution: ''
-  status: NEW
+  resolution: FEATURE
+  status: RESOLVED
   summary: 'Feature request: Make gnome-terminal Send a notification when the command
     is completed,and transparent background'
 - component: Development
