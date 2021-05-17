@@ -58250,6 +58250,12 @@
   status: RESOLVED
   summary: Budgie  screenlock cannot be unlocked
 '20210515':
+- component: Other
+  create_time: 20210517T18:53:00
+  id: 1186147
+  resolution: ''
+  status: NEW
+  summary: gCDEmu fails to autostart its CDEmuDaemon
 - component: Installation
   create_time: 20210517T16:52:00
   id: 1186141
