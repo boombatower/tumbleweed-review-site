@@ -53167,8 +53167,8 @@
 - component: Basesystem
   create_time: 20210208T07:56:00
   id: 1181922
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'GCC 11: qemu package fails'
 - component: Basesystem
   create_time: 20210208T07:55:00
@@ -54013,8 +54013,8 @@
 - component: Installation
   create_time: 20210224T20:08:00
   id: 1182710
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 1GB RAM no longer enough to install with YaST
 - component: X.Org
   create_time: 20210224T12:52:00
