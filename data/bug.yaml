@@ -48924,8 +48924,8 @@
 - component: Basesystem
   create_time: 20201112T15:17:00
   id: 1178738
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: haveged command mode dubious
 - component: Basesystem
   create_time: 20201112T13:09:00
@@ -57831,7 +57831,7 @@
   create_time: 20210506T18:19:00
   id: 1185739
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: USB drive is not detected by XFCE/LXQT desktops
 - component: Samba
   create_time: 20210506T17:29:00
@@ -58250,6 +58250,18 @@
   status: RESOLVED
   summary: Budgie  screenlock cannot be unlocked
 '20210515':
+- component: MicroOS
+  create_time: 20210517T13:00:00
+  id: 1186127
+  resolution: ''
+  status: NEW
+  summary: selinux-ready error
+- component: Kubic
+  create_time: 20210517T12:16:00
+  id: 1186125
+  resolution: ''
+  status: NEW
+  summary: MicroOS snapshot 20210515 CoreDNS fails to resolve external addresses
 - component: Kernel
   create_time: 20210517T11:26:00
   id: 1186122
@@ -58304,13 +58316,13 @@
   resolution: ''
   status: NEW
   summary: 'npm 16: Out of memory while building libreoffice online'
-- component: YaST2
+- component: Other
   create_time: 20210515T18:50:00
   id: 1186093
   resolution: ''
   status: NEW
   summary: '[Build 20210514] [s390x] openQA test fails in welcome because of missing
-    line of the frame around the license above (ncurses)'
+    line of the frame around the license above (xterm)'
 - component: GNOME
   create_time: 20210515T18:24:00
   id: 1186091
