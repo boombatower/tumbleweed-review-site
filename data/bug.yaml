@@ -58251,6 +58251,81 @@
   status: RESOLVED
   summary: Budgie  screenlock cannot be unlocked
 '20210515':
+- component: GNOME
+  create_time: 20210516T18:42:00
+  id: 1186100
+  resolution: ''
+  status: NEW
+  summary: geary doesn't launch on KDE Plasma due to missing org.freedesktop.secrets
+- component: Other
+  create_time: 20210516T11:33:00
+  id: 1186098
+  resolution: ''
+  status: NEW
+  summary: 'Regional Settings: Default number format for Spain is wrong'
+- component: Firefox
+  create_time: 20210516T11:27:00
+  id: 1186097
+  resolution: ''
+  status: NEW
+  summary: Forced autoinstallation Firefox OpenSUSE version
+- component: YaST2
+  create_time: 20210516T10:45:00
+  id: 1186095
+  resolution: FIXED
+  status: RESOLVED
+  summary: Ruby error when diffing snapshots
+- component: Other
+  create_time: 20210516T09:00:00
+  id: 1186094
+  resolution: ''
+  status: NEW
+  summary: 'npm 16: Out of memory while building libreoffice online'
+- component: Other
+  create_time: 20210515T18:50:00
+  id: 1186093
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: '[Build 20210514] [s390x] openQA test fails in welcome because of missing
+    line of the frame around the license above (xterm)'
+- component: GNOME
+  create_time: 20210515T18:24:00
+  id: 1186091
+  resolution: ''
+  status: NEW
+  summary: openvpn stopped to work between and 2021-04-17 2021-05-12
+- component: Kernel
+  create_time: 20210515T14:49:00
+  id: 1186090
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: tumbleweed 5.12.2 kernel panivcs in i915_gem_shrink
+- component: GNOME
+  create_time: 20210515T12:30:00
+  id: 1186086
+  resolution: FEATURE
+  status: RESOLVED
+  summary: 'Feature request: Make gnome-terminal Send a notification when the command
+    is completed,and transparent background'
+- component: Development
+  create_time: 20210515T11:01:00
+  id: 1186085
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: gdb Segmentation fault in add_using_directive
+- component: Other
+  create_time: 20210515T09:51:00
+  id: 1186084
+  resolution: ''
+  status: NEW
+  summary: openshot fails to start it's GUI
+- component: Other
+  create_time: 20210515T07:25:00
+  id: 1186083
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20210513] remmina: unable to connect'
+'20210517':
 - component: MicroOS
   create_time: 20210518T15:53:00
   id: 1186213
@@ -58362,77 +58437,3 @@
   resolution: ''
   status: CONFIRMED
   summary: 'openSUSE Tumbleweed installation: No space left on device @ dir_s_mkdir'
-- component: GNOME
-  create_time: 20210516T18:42:00
-  id: 1186100
-  resolution: ''
-  status: NEW
-  summary: geary doesn't launch on KDE Plasma due to missing org.freedesktop.secrets
-- component: Other
-  create_time: 20210516T11:33:00
-  id: 1186098
-  resolution: ''
-  status: NEW
-  summary: 'Regional Settings: Default number format for Spain is wrong'
-- component: Firefox
-  create_time: 20210516T11:27:00
-  id: 1186097
-  resolution: ''
-  status: NEW
-  summary: Forced autoinstallation Firefox OpenSUSE version
-- component: YaST2
-  create_time: 20210516T10:45:00
-  id: 1186095
-  resolution: FIXED
-  status: RESOLVED
-  summary: Ruby error when diffing snapshots
-- component: Other
-  create_time: 20210516T09:00:00
-  id: 1186094
-  resolution: ''
-  status: NEW
-  summary: 'npm 16: Out of memory while building libreoffice online'
-- component: Other
-  create_time: 20210515T18:50:00
-  id: 1186093
-  resolution: UPSTREAM
-  status: RESOLVED
-  summary: '[Build 20210514] [s390x] openQA test fails in welcome because of missing
-    line of the frame around the license above (xterm)'
-- component: GNOME
-  create_time: 20210515T18:24:00
-  id: 1186091
-  resolution: ''
-  status: NEW
-  summary: openvpn stopped to work between and 2021-04-17 2021-05-12
-- component: Kernel
-  create_time: 20210515T14:49:00
-  id: 1186090
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: tumbleweed 5.12.2 kernel panivcs in i915_gem_shrink
-- component: GNOME
-  create_time: 20210515T12:30:00
-  id: 1186086
-  resolution: FEATURE
-  status: RESOLVED
-  summary: 'Feature request: Make gnome-terminal Send a notification when the command
-    is completed,and transparent background'
-- component: Development
-  create_time: 20210515T11:01:00
-  id: 1186085
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: gdb Segmentation fault in add_using_directive
-- component: Other
-  create_time: 20210515T09:51:00
-  id: 1186084
-  resolution: ''
-  status: NEW
-  summary: openshot fails to start it's GUI
-- component: Other
-  create_time: 20210515T07:25:00
-  id: 1186083
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20210513] remmina: unable to connect'
