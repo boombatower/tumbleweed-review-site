@@ -58114,8 +58114,8 @@
 - component: Other
   create_time: 20210511T01:56:00
   id: 1185884
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: zfs-kmp-default needs to be updated for kernel 5.12
 '20210512':
 - component: KVM
