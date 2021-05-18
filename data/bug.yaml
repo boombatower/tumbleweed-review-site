@@ -52498,8 +52498,8 @@
 - component: Virtualization:Other
   create_time: 20210129T08:50:00
   id: 1181548
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '[Build 20210128] openQA test fails in tumbleweed'
 - component: MicroOS
   create_time: 20210129T08:22:00
@@ -58325,7 +58325,7 @@
   id: 1186130
   resolution: ''
   status: NEW
-  summary: (REGRESSION) Filezilla unable to decode local file names
+  summary: Filezilla unable to decode local file names
 - component: MicroOS
   create_time: 20210517T13:00:00
   id: 1186127
