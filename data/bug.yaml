@@ -58251,6 +58251,12 @@
   status: RESOLVED
   summary: Budgie  screenlock cannot be unlocked
 '20210515':
+- component: MicroOS
+  create_time: 20210518T15:53:00
+  id: 1186213
+  resolution: ''
+  status: NEW
+  summary: Replace mkinitrd with dracut
 - component: Samba
   create_time: 20210518T12:16:00
   id: 1186201
@@ -58415,8 +58421,8 @@
 - component: Development
   create_time: 20210515T11:01:00
   id: 1186085
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: gdb Segmentation fault in add_using_directive
 - component: Other
   create_time: 20210515T09:51:00
