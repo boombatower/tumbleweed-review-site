@@ -58041,8 +58041,8 @@
 - component: Kernel
   create_time: 20210510T10:37:00
   id: 1185840
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: amdgpu ring gfx timeout
 - component: Other
   create_time: 20210510T10:25:00
