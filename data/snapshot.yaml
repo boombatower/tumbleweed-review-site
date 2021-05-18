@@ -45,10 +45,10 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - xf86-video-intel
   - kernel-source
   - kate
   - gtk3-devel
+  - xf86-video-intel
   binary_unique_count: 2371
   disk_base: 5.9GiB
   disk_shared: unknown
