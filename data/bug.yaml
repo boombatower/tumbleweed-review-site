@@ -54606,12 +54606,6 @@
   status: RESOLVED
   summary: '[Staging J] YaST is not installing microos_base_zypper pattern for container
     host role, causing OpenQA test failures'
-- component: Other
-  create_time: 20210309T12:05:00
-  id: 1183227
-  resolution: ''
-  status: REOPENED
-  summary: ibus-sunpinyin-2.0.99-1.1.riscv64.rpm appears to be corrupted
 - component: X.Org
   create_time: 20210309T10:58:00
   id: 1183222
