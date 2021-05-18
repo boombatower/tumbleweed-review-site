@@ -58251,6 +58251,12 @@
   status: RESOLVED
   summary: Budgie  screenlock cannot be unlocked
 '20210515':
+- component: Samba
+  create_time: 20210518T12:16:00
+  id: 1186201
+  resolution: ''
+  status: NEW
+  summary: named (DNS) fails after provision of samba-ad-dc
 - component: Kernel
   create_time: 20210518T11:29:00
   id: 1186194
@@ -58305,7 +58311,7 @@
   create_time: 20210517T15:10:00
   id: 1186132
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Most Yast modules return 16 instead of 0 code after pressing cancel, despite
     no error
 - component: Other
