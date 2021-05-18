@@ -53167,8 +53167,8 @@
 - component: Basesystem
   create_time: 20210208T07:56:00
   id: 1181922
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: qemu package fails'
 - component: Basesystem
   create_time: 20210208T07:55:00
@@ -58244,6 +58244,25 @@
   status: RESOLVED
   summary: Budgie  screenlock cannot be unlocked
 '20210515':
+- component: MicroOS
+  create_time: 20210518T06:57:00
+  id: 1186158
+  resolution: ''
+  status: NEW
+  summary: SElinux is blocking podman socket access to /var/run/podman/podman.sock
+- component: Other
+  create_time: 20210518T06:49:00
+  id: 1186157
+  resolution: ''
+  status: NEW
+  summary: handbrake does produce small outputfiles without sound when converting
+    m2t
+- component: Other
+  create_time: 20210518T06:28:00
+  id: 1186156
+  resolution: ''
+  status: NEW
+  summary: python-postorius build gets stuck forever
 - component: Other
   create_time: 20210517T18:53:00
   id: 1186147
