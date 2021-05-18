@@ -55130,8 +55130,8 @@
 - component: Security
   create_time: 20210317T19:06:00
   id: 1183669
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-TRACKER: CVE-2021-31153,CVE-2021-31154,CVE-2021-31155: please: security
     audit for permissions-file-setuid-bit'
 - component: Basesystem
@@ -58251,6 +58251,13 @@
   status: RESOLVED
   summary: Budgie  screenlock cannot be unlocked
 '20210515':
+- component: Kernel
+  create_time: 20210518T11:29:00
+  id: 1186194
+  resolution: ''
+  status: NEW
+  summary: Many processes and up in D state after system resume (5.12.3-1-default,
+    git 25d4ec7)
 - component: KDE Workspace (Plasma)
   create_time: 20210518T09:25:00
   id: 1186181
