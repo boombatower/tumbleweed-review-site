@@ -55127,6 +55127,13 @@
   resolution: NORESPONSE
   status: RESOLVED
   summary: All 5.11 kernels present mouse cursor as vertical dashed lines
+- component: Security
+  create_time: 20210317T19:06:00
+  id: 1183669
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'AUDIT-TRACKER: CVE-2021-31153,CVE-2021-31154,CVE-2021-31155: please: security
+    audit for permissions-file-setuid-bit'
 - component: Basesystem
   create_time: 20210317T17:16:00
   id: 1183665
@@ -57997,8 +58004,8 @@
 - component: Kernel
   create_time: 20210510T14:56:00
   id: 1185869
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: TPM event log is empty
 - component: Kernel
   create_time: 20210510T14:10:00
@@ -58170,7 +58177,7 @@
   create_time: 20210512T08:16:00
   id: 1185952
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20210510] PostgreSQL is not startable on s390x'
 '20210513':
 - component: Basesystem
@@ -58229,7 +58236,7 @@
   create_time: 20210514T11:54:00
   id: 1186057
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: new /usr/libexec/bind/named.prep has "ln -s" for rndc wrong way round
 - component: YaST2
   create_time: 20210514T06:26:00
@@ -58244,6 +58251,18 @@
   status: RESOLVED
   summary: Budgie  screenlock cannot be unlocked
 '20210515':
+- component: KDE Workspace (Plasma)
+  create_time: 20210518T09:25:00
+  id: 1186181
+  resolution: ''
+  status: NEW
+  summary: Could not find "Notifications" Widget
+- component: MicroOS
+  create_time: 20210518T09:11:00
+  id: 1186178
+  resolution: ''
+  status: NEW
+  summary: issue-generator runs agetty in wrong SELinux context
 - component: MicroOS
   create_time: 20210518T06:57:00
   id: 1186158
@@ -58297,8 +58316,8 @@
 - component: Kubic
   create_time: 20210517T12:16:00
   id: 1186125
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: MicroOS snapshot 20210515 CoreDNS fails to resolve external addresses
 - component: Kernel
   create_time: 20210517T11:26:00
