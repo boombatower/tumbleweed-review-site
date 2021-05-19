@@ -57310,8 +57310,8 @@
 - component: Other
   create_time: 20210429T15:46:00
   id: 1185475
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'FileZilla: cannot handle utf8 filenames'
 - component: Security
   create_time: 20210429T14:19:00
