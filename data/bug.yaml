@@ -58326,6 +58326,13 @@
   status: RESOLVED
   summary: '[Build 20210513] remmina: unable to connect'
 '20210517':
+- component: Other
+  create_time: 20210519T20:10:00
+  id: 1186267
+  resolution: ''
+  status: NEW
+  summary: 'ERROR: failed to open configuration file /etc/php8/fpm/php-fpm.conf :
+    Permission denied (13)'
 - component: Basesystem
   create_time: 20210519T16:00:00
   id: 1186259
