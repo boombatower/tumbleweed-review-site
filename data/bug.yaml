@@ -58344,7 +58344,7 @@
   resolution: ''
   status: NEW
   summary: 'qemu-linux-user: hardcoded binfmt handler doesn''t play well with containers'
-- component: Other
+- component: Firefox
   create_time: 20210519T14:05:00
   id: 1186254
   resolution: ''
@@ -58377,8 +58377,8 @@
 - component: Translations
   create_time: 20210518T22:07:00
   id: 1186221
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Typo in opensuse-welcome (german translation)
 - component: MicroOS
   create_time: 20210518T15:53:00
