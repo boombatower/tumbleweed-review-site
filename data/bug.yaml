@@ -58326,6 +58326,12 @@
   status: RESOLVED
   summary: '[Build 20210513] remmina: unable to connect'
 '20210517':
+- component: Development
+  create_time: 20210519T07:47:00
+  id: 1186233
+  resolution: ''
+  status: NEW
+  summary: lua README contains wrong information
 - component: Translations
   create_time: 20210518T22:07:00
   id: 1186221
