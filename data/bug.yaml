@@ -56298,8 +56298,8 @@
 - component: Network
   create_time: 20210409T10:14:00
   id: 1184552
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210304] openQA test fails in mutt: dovecot-openssl.cnf has insecure
     defaults'
 - component: Other
@@ -56662,8 +56662,8 @@
   create_time: 20210416T05:58:00
   id: 1184843
   resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: noisetorch: want cap_sys_resource+ep'
+  status: IN_PROGRESS
+  summary: 'AUDIT-1: noisetorch: want cap_sys_resource+ep'
 - component: GNOME
   create_time: 20210416T05:31:00
   id: 1184842
@@ -57312,7 +57312,7 @@
   id: 1185475
   resolution: DUPLICATE
   status: RESOLVED
-  summary: 'FileZilla: cannot handle utf8 filenames'
+  summary: 'FileZilla: cannot handle utf8 filenames on SERVER'
 - component: Security
   create_time: 20210429T14:19:00
   id: 1185469
@@ -58326,6 +58326,30 @@
   status: RESOLVED
   summary: '[Build 20210513] remmina: unable to connect'
 '20210517':
+- component: Other
+  create_time: 20210519T14:05:00
+  id: 1186254
+  resolution: ''
+  status: NEW
+  summary: firefox fails to start and kill -9 does not kill it
+- component: Network
+  create_time: 20210519T13:13:00
+  id: 1186249
+  resolution: ''
+  status: NEW
+  summary: sysvinit calls in dhcp-server
+- component: KDE Applications
+  create_time: 20210519T13:11:00
+  id: 1186248
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Please update kpmcore
+- component: libzypp
+  create_time: 20210519T12:18:00
+  id: 1186243
+  resolution: ''
+  status: NEW
+  summary: Can't install based on file provides
 - component: Development
   create_time: 20210519T07:47:00
   id: 1186233
@@ -58423,7 +58447,7 @@
   create_time: 20210517T12:16:00
   id: 1186125
   resolution: ''
-  status: REOPENED
+  status: IN_PROGRESS
   summary: MicroOS snapshot 20210515 CoreDNS fails to resolve external addresses
 - component: Kernel
   create_time: 20210517T11:26:00
