@@ -58326,6 +58326,24 @@
   status: RESOLVED
   summary: '[Build 20210513] remmina: unable to connect'
 '20210517':
+- component: Basesystem
+  create_time: 20210519T16:00:00
+  id: 1186259
+  resolution: ''
+  status: NEW
+  summary: snapperd lacks CAP_DAC_OVERRIDE
+- component: Other
+  create_time: 20210519T15:29:00
+  id: 1186258
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210518] psmisc: calling out to setcap not allowed'
+- component: KVM
+  create_time: 20210519T15:16:00
+  id: 1186256
+  resolution: ''
+  status: NEW
+  summary: 'qemu-linux-user: hardcoded binfmt handler doesn''t play well with containers'
 - component: Other
   create_time: 20210519T14:05:00
   id: 1186254
