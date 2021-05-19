@@ -58329,8 +58329,8 @@
 - component: Basesystem
   create_time: 20210519T16:00:00
   id: 1186259
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: snapperd lacks CAP_DAC_OVERRIDE
 - component: Other
   create_time: 20210519T15:29:00
