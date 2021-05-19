@@ -53035,7 +53035,7 @@
   create_time: 20210206T11:03:00
   id: 1181866
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: 'GCC 11: cilium-proxy package fails'
 - component: Basesystem
   create_time: 20210206T11:02:00
@@ -53076,8 +53076,8 @@
 - component: Basesystem
   create_time: 20210206T10:31:00
   id: 1181859
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[META] GCC 11 package failures'
 - component: Basesystem
   create_time: 20210206T08:57:00
@@ -55569,7 +55569,7 @@
   create_time: 20210321T16:24:00
   id: 1183836
   resolution: ''
-  status: NEW
+  status: REOPENED
   summary: 'GCC 11: envoy-proxy package fails'
 - component: LXQt
   create_time: 20210321T08:29:00
@@ -56368,8 +56368,8 @@
 - component: Other
   create_time: 20210414T15:07:00
   id: 1184753
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: salt-minion conflicts with busybox-hostname
 - component: Other
   create_time: 20210414T12:35:00
@@ -58440,8 +58440,8 @@
 - component: Basesystem
   create_time: 20210517T07:21:00
   id: 1186110
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'GCC 11: libreoffice package fails'
 - component: Installation
   create_time: 20210517T04:06:00
