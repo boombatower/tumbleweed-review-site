@@ -58326,6 +58326,12 @@
   status: RESOLVED
   summary: '[Build 20210513] remmina: unable to connect'
 '20210517':
+- component: Translations
+  create_time: 20210518T22:07:00
+  id: 1186221
+  resolution: ''
+  status: NEW
+  summary: Typo in opensuse-welcome (german translation)
 - component: MicroOS
   create_time: 20210518T15:53:00
   id: 1186213
