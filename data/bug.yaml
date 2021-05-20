@@ -53586,8 +53586,8 @@
 - component: Other
   create_time: 20210215T08:31:00
   id: 1182240
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210211] Login to awesomeWM fails'
 - component: Bootloader
   create_time: 20210215T08:29:00
@@ -58326,98 +58326,6 @@
   status: RESOLVED
   summary: '[Build 20210513] remmina: unable to connect'
 '20210517':
-- component: X.Org
-  create_time: 20210520T13:57:00
-  id: 1186300
-  resolution: ''
-  status: IN_PROGRESS
-  summary: xdm uses startproc
-- component: Development
-  create_time: 20210520T08:26:00
-  id: 1186282
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '%sysusers_create_inline needs awkward syntax'
-- component: YaST2
-  create_time: 20210520T07:58:00
-  id: 1186280
-  resolution: ''
-  status: NEW
-  summary: Allow the ipv4 / ipv6 forwarding defaults to be defined by the control
-    file
-- component: Other
-  create_time: 20210520T07:35:00
-  id: 1186278
-  resolution: ''
-  status: NEW
-  summary: bind missing /usr/share/bind/createNamedConfInclude
-- component: Virtualization:Other
-  create_time: 20210519T23:28:00
-  id: 1186271
-  resolution: ''
-  status: NEW
-  summary: libvirt needs seccomp_sandbox = 0 with newer glibc
-- component: Security
-  create_time: 20210519T22:57:00
-  id: 1186270
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'AUDIT-0: libvirt: new polkit permissions for node device delete'
-- component: Other
-  create_time: 20210519T20:10:00
-  id: 1186267
-  resolution: ''
-  status: NEW
-  summary: 'ERROR: failed to open configuration file /etc/php8/fpm/php-fpm.conf :
-    Permission denied (13)'
-- component: Basesystem
-  create_time: 20210519T16:00:00
-  id: 1186259
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: snapperd lacks CAP_DAC_OVERRIDE
-- component: Other
-  create_time: 20210519T15:29:00
-  id: 1186258
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210518] psmisc: calling out to setcap not allowed'
-- component: KVM
-  create_time: 20210519T15:16:00
-  id: 1186256
-  resolution: ''
-  status: NEW
-  summary: 'qemu-linux-user: hardcoded binfmt handler doesn''t play well with containers'
-- component: Firefox
-  create_time: 20210519T14:05:00
-  id: 1186254
-  resolution: ''
-  status: NEW
-  summary: firefox fails to start and kill -9 does not kill it
-- component: Network
-  create_time: 20210519T13:13:00
-  id: 1186249
-  resolution: ''
-  status: NEW
-  summary: sysvinit calls in dhcp-server
-- component: KDE Applications
-  create_time: 20210519T13:11:00
-  id: 1186248
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Please update kpmcore
-- component: libzypp
-  create_time: 20210519T12:18:00
-  id: 1186243
-  resolution: ''
-  status: NEW
-  summary: Can't install based on file provides
-- component: Development
-  create_time: 20210519T07:47:00
-  id: 1186233
-  resolution: ''
-  status: NEW
-  summary: lua README contains wrong information
 - component: Translations
   create_time: 20210518T22:07:00
   id: 1186221
@@ -58535,3 +58443,96 @@
   resolution: ''
   status: CONFIRMED
   summary: 'openSUSE Tumbleweed installation: No space left on device @ dir_s_mkdir'
+'20210519':
+- component: X.Org
+  create_time: 20210520T13:57:00
+  id: 1186300
+  resolution: ''
+  status: IN_PROGRESS
+  summary: xdm uses startproc
+- component: Development
+  create_time: 20210520T08:26:00
+  id: 1186282
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '%sysusers_create_inline needs awkward syntax'
+- component: YaST2
+  create_time: 20210520T07:58:00
+  id: 1186280
+  resolution: ''
+  status: NEW
+  summary: Allow the ipv4 / ipv6 forwarding defaults to be defined by the control
+    file
+- component: Other
+  create_time: 20210520T07:35:00
+  id: 1186278
+  resolution: ''
+  status: NEW
+  summary: bind missing /usr/share/bind/createNamedConfInclude
+- component: Virtualization:Other
+  create_time: 20210519T23:28:00
+  id: 1186271
+  resolution: ''
+  status: NEW
+  summary: libvirt needs seccomp_sandbox = 0 with newer glibc
+- component: Security
+  create_time: 20210519T22:57:00
+  id: 1186270
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'AUDIT-0: libvirt: new polkit permissions for node device delete'
+- component: Other
+  create_time: 20210519T20:10:00
+  id: 1186267
+  resolution: ''
+  status: NEW
+  summary: 'ERROR: failed to open configuration file /etc/php8/fpm/php-fpm.conf :
+    Permission denied (13)'
+- component: Basesystem
+  create_time: 20210519T16:00:00
+  id: 1186259
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: snapperd lacks CAP_DAC_OVERRIDE
+- component: Other
+  create_time: 20210519T15:29:00
+  id: 1186258
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210518] psmisc: calling out to setcap not allowed'
+- component: KVM
+  create_time: 20210519T15:16:00
+  id: 1186256
+  resolution: ''
+  status: NEW
+  summary: 'qemu-linux-user: hardcoded binfmt handler doesn''t play well with containers'
+- component: Firefox
+  create_time: 20210519T14:05:00
+  id: 1186254
+  resolution: ''
+  status: NEW
+  summary: firefox fails to start and kill -9 does not kill it
+- component: Network
+  create_time: 20210519T13:13:00
+  id: 1186249
+  resolution: ''
+  status: NEW
+  summary: sysvinit calls in dhcp-server
+- component: KDE Applications
+  create_time: 20210519T13:11:00
+  id: 1186248
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Please update kpmcore
+- component: libzypp
+  create_time: 20210519T12:18:00
+  id: 1186243
+  resolution: ''
+  status: NEW
+  summary: Can't install based on file provides
+- component: Development
+  create_time: 20210519T07:47:00
+  id: 1186233
+  resolution: ''
+  status: NEW
+  summary: lua README contains wrong information
