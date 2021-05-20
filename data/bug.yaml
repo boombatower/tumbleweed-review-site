@@ -22799,8 +22799,8 @@
 - component: Other
   create_time: 20190425T14:32:00
   id: 1133417
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: llvm should switch back to 1-stage builds
 - component: Other
   create_time: 20190425T08:03:00
@@ -58165,7 +58165,7 @@
   create_time: 20210512T09:11:00
   id: 1185958
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: udev<>systemd dependency loop
 - component: X.Org
   create_time: 20210512T08:47:00
