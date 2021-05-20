@@ -58178,7 +58178,7 @@
   id: 1185952
   resolution: ''
   status: CONFIRMED
-  summary: '[Build 20210510] PostgreSQL is not startable on s390x'
+  summary: '[Build 20210510] PostgreSQL 12 and 13 fail to build with LLVM12 on s390x'
 '20210513':
 - component: Basesystem
   create_time: 20210513T19:43:00
@@ -58326,6 +58326,12 @@
   status: RESOLVED
   summary: '[Build 20210513] remmina: unable to connect'
 '20210517':
+- component: Development
+  create_time: 20210520T08:26:00
+  id: 1186282
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '%sysusers_create_inline needs awkward syntax'
 - component: YaST2
   create_time: 20210520T07:58:00
   id: 1186280
