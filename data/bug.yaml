@@ -58326,6 +58326,18 @@
   status: RESOLVED
   summary: '[Build 20210513] remmina: unable to connect'
 '20210517':
+- component: Virtualization:Other
+  create_time: 20210519T23:28:00
+  id: 1186271
+  resolution: ''
+  status: NEW
+  summary: libvirt needs seccomp_sandbox = 0 with newer glibc
+- component: Security
+  create_time: 20210519T22:57:00
+  id: 1186270
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: libvirt: new polkit permissions for node device delete'
 - component: Other
   create_time: 20210519T20:10:00
   id: 1186267
