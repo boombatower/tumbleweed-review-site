@@ -58326,6 +58326,19 @@
   status: RESOLVED
   summary: '[Build 20210513] remmina: unable to connect'
 '20210517':
+- component: YaST2
+  create_time: 20210520T07:58:00
+  id: 1186280
+  resolution: ''
+  status: NEW
+  summary: Allow the ipv4 / ipv6 forwarding defaults to be defined by the control
+    file
+- component: Other
+  create_time: 20210520T07:35:00
+  id: 1186278
+  resolution: ''
+  status: NEW
+  summary: bind missing /usr/share/bind/createNamedConfInclude
 - component: Virtualization:Other
   create_time: 20210519T23:28:00
   id: 1186271
