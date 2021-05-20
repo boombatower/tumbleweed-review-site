@@ -14766,8 +14766,8 @@
 - component: Other
   create_time: 20181030T05:10:00
   id: 1113862
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Out of date package: openSUSE:Factory/bison is out of date'
 - component: Containers
   create_time: 20181029T19:47:00
@@ -53819,8 +53819,8 @@
 - component: Security
   create_time: 20210220T17:38:00
   id: 1182521
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-TRACKER: kdiskmark: polkit, dbus'
 - component: GNOME
   create_time: 20210220T15:05:00
