@@ -54708,8 +54708,8 @@
 - component: Other
   create_time: 20210308T11:13:00
   id: 1183168
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'postgresql13: uninstall fails due to valid script expansion'
 - component: GNOME
   create_time: 20210308T09:41:00
@@ -56244,8 +56244,8 @@
 - component: Java
   create_time: 20210412T10:57:00
   id: 1184606
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: java-11-openjdk-headless package is missing mozilla-nss dependency
 - component: Development
   create_time: 20210410T18:26:00
@@ -58326,6 +58326,12 @@
   status: RESOLVED
   summary: '[Build 20210513] remmina: unable to connect'
 '20210517':
+- component: X.Org
+  create_time: 20210520T13:57:00
+  id: 1186300
+  resolution: ''
+  status: NEW
+  summary: xdm uses startproc
 - component: Development
   create_time: 20210520T08:26:00
   id: 1186282
@@ -58355,7 +58361,7 @@
   create_time: 20210519T22:57:00
   id: 1186270
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: libvirt: new polkit permissions for node device delete'
 - component: Other
   create_time: 20210519T20:10:00
