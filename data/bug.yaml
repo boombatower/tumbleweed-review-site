@@ -58478,8 +58478,8 @@
 - component: Development
   create_time: 20210521T08:15:00
   id: 1186327
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: spyder-5.0.2-1.1 does not start, missing watchdog<2.0.0,>=0.10.3, found
     watchdog 2.1.1
 - component: X.Org
@@ -58571,6 +58571,6 @@
 - component: Development
   create_time: 20210519T07:47:00
   id: 1186233
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: lua README contains wrong information
