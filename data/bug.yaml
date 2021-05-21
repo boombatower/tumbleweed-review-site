@@ -58444,6 +58444,30 @@
   status: CONFIRMED
   summary: 'openSUSE Tumbleweed installation: No space left on device @ dir_s_mkdir'
 '20210519':
+- component: Security
+  create_time: 20210521T14:01:00
+  id: 1186344
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: setroubleshoot'
+- component: libzypp
+  create_time: 20210521T14:01:00
+  id: 1186343
+  resolution: ''
+  status: NEW
+  summary: zypper se -t pattern do not show all patterns
+- component: libzypp
+  create_time: 20210521T13:54:00
+  id: 1186342
+  resolution: ''
+  status: NEW
+  summary: zypper --xmllout lr do not respect --show-enabled-only
+- component: Development
+  create_time: 20210521T13:15:00
+  id: 1186341
+  resolution: ''
+  status: NEW
+  summary: emacs-gtk crashes when hitting Ctrl-<space>
 - component: Other
   create_time: 20210521T11:42:00
   id: 1186338
