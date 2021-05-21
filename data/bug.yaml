@@ -58104,8 +58104,8 @@
 - component: Other
   create_time: 20210511T13:48:00
   id: 1185917
-  resolution: INVALID
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Installer page advertises wrong repo URL
 - component: Translations
   create_time: 20210511T08:33:00
@@ -58571,6 +58571,6 @@
 - component: Development
   create_time: 20210519T07:47:00
   id: 1186233
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: lua README contains wrong information
