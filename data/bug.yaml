@@ -6931,8 +6931,8 @@
 - component: Kernel
   create_time: 20180413T09:05:00
   id: 1089480
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: '[Build 20180407] openQA btrfs_qgroups test reports bsc#1019614'
 - component: Kernel
   create_time: 20180413T06:12:00
@@ -58103,8 +58103,8 @@
 - component: Other
   create_time: 20210511T13:48:00
   id: 1185917
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Installer page advertises wrong repo URL
 - component: Translations
   create_time: 20210511T08:33:00
@@ -58257,7 +58257,7 @@
   resolution: ''
   status: NEW
   summary: geary doesn't launch on KDE Plasma due to missing org.freedesktop.secrets
-- component: Other
+- component: KDE Workspace (Plasma)
   create_time: 20210516T11:33:00
   id: 1186098
   resolution: ''
@@ -58444,6 +58444,13 @@
   status: CONFIRMED
   summary: 'openSUSE Tumbleweed installation: No space left on device @ dir_s_mkdir'
 '20210519':
+- component: Development
+  create_time: 20210521T08:15:00
+  id: 1186327
+  resolution: ''
+  status: NEW
+  summary: spyder-5.0.2-1.1 does not start, missing watchdog<2.0.0,>=0.10.3, found
+    watchdog 2.1.1
 - component: X.Org
   create_time: 20210520T13:57:00
   id: 1186300
@@ -58466,8 +58473,8 @@
 - component: Other
   create_time: 20210520T07:35:00
   id: 1186278
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: bind missing /usr/share/bind/createNamedConfInclude
 - component: Virtualization:Other
   create_time: 20210519T23:28:00
