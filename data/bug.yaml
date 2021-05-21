@@ -56539,8 +56539,8 @@
 - component: Other
   create_time: 20210415T08:12:00
   id: 1184776
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210414] rmt server fails to launch'
 - component: X11 Applications
   create_time: 20210415T07:25:00
@@ -57060,8 +57060,8 @@
 - component: Ruby
   create_time: 20210423T06:41:00
   id: 1185213
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210422] rails not installable'
 - component: Basesystem
   create_time: 20210423T00:37:00
@@ -58444,6 +58444,12 @@
   status: CONFIRMED
   summary: 'openSUSE Tumbleweed installation: No space left on device @ dir_s_mkdir'
 '20210519':
+- component: Other
+  create_time: 20210521T11:42:00
+  id: 1186338
+  resolution: ''
+  status: NEW
+  summary: 'mdbtools 0.9.3: invonsistent header being installed'
 - component: Development
   create_time: 20210521T08:15:00
   id: 1186327
