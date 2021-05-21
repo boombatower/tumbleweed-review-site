@@ -57962,7 +57962,8 @@
   id: 1185800
   resolution: ''
   status: NEW
-  summary: gdb runs away while reading stack trace
+  summary: gdb creates a compilation unit ancestor loop while reading a typedef from
+    a separate debuginfo object
 - component: MicroOS
   create_time: 20210509T06:24:00
   id: 1185799
@@ -58211,7 +58212,7 @@
   create_time: 20210514T22:36:00
   id: 1186080
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '''borg mount'' fails due to missing python3-llfuse package'
 - component: Kernel
   create_time: 20210514T18:50:00
@@ -58316,8 +58317,8 @@
 - component: Other
   create_time: 20210515T09:51:00
   id: 1186084
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: openshot fails to start it's GUI
 - component: Other
   create_time: 20210515T07:25:00
