@@ -58392,8 +58392,8 @@
 - component: Installation
   create_time: 20210517T16:52:00
   id: 1186141
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: error while installing grub for arm64-efi
 - component: YaST2
   create_time: 20210517T15:10:00
@@ -58445,68 +58445,6 @@
   status: CONFIRMED
   summary: 'openSUSE Tumbleweed installation: No space left on device @ dir_s_mkdir'
 '20210519':
-- component: Security
-  create_time: 20210521T14:01:00
-  id: 1186344
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: setroubleshoot'
-- component: libzypp
-  create_time: 20210521T14:01:00
-  id: 1186343
-  resolution: ''
-  status: NEW
-  summary: zypper se -t pattern do not show all patterns
-- component: libzypp
-  create_time: 20210521T13:54:00
-  id: 1186342
-  resolution: ''
-  status: NEW
-  summary: zypper --xmllout lr do not respect --show-enabled-only
-- component: Development
-  create_time: 20210521T13:15:00
-  id: 1186341
-  resolution: ''
-  status: NEW
-  summary: emacs-gtk crashes when hitting Ctrl-<space>
-- component: Other
-  create_time: 20210521T11:42:00
-  id: 1186338
-  resolution: ''
-  status: NEW
-  summary: 'mdbtools 0.9.3: invonsistent header being installed'
-- component: Development
-  create_time: 20210521T08:15:00
-  id: 1186327
-  resolution: FIXED
-  status: RESOLVED
-  summary: spyder-5.0.2-1.1 does not start, missing watchdog<2.0.0,>=0.10.3, found
-    watchdog 2.1.1
-- component: X.Org
-  create_time: 20210520T13:57:00
-  id: 1186300
-  resolution: ''
-  status: IN_PROGRESS
-  summary: xdm uses startproc
-- component: Development
-  create_time: 20210520T08:26:00
-  id: 1186282
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '%sysusers_create_inline needs awkward syntax'
-- component: YaST2
-  create_time: 20210520T07:58:00
-  id: 1186280
-  resolution: ''
-  status: NEW
-  summary: Allow the ipv4 / ipv6 forwarding defaults to be defined by the control
-    file
-- component: Other
-  create_time: 20210520T07:35:00
-  id: 1186278
-  resolution: FIXED
-  status: RESOLVED
-  summary: bind missing /usr/share/bind/createNamedConfInclude
 - component: Virtualization:Other
   create_time: 20210519T23:28:00
   id: 1186271
@@ -58574,3 +58512,66 @@
   resolution: ''
   status: REOPENED
   summary: lua README contains wrong information
+'20210520':
+- component: Security
+  create_time: 20210521T14:01:00
+  id: 1186344
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: setroubleshoot'
+- component: libzypp
+  create_time: 20210521T14:01:00
+  id: 1186343
+  resolution: ''
+  status: NEW
+  summary: zypper se -t pattern do not show all patterns
+- component: libzypp
+  create_time: 20210521T13:54:00
+  id: 1186342
+  resolution: ''
+  status: NEW
+  summary: zypper --xmllout lr do not respect --show-enabled-only
+- component: Development
+  create_time: 20210521T13:15:00
+  id: 1186341
+  resolution: ''
+  status: NEW
+  summary: emacs-gtk crashes when hitting Ctrl-<space>
+- component: Other
+  create_time: 20210521T11:42:00
+  id: 1186338
+  resolution: ''
+  status: NEW
+  summary: 'mdbtools 0.9.3: invonsistent header being installed'
+- component: Development
+  create_time: 20210521T08:15:00
+  id: 1186327
+  resolution: FIXED
+  status: RESOLVED
+  summary: spyder-5.0.2-1.1 does not start, missing watchdog<2.0.0,>=0.10.3, found
+    watchdog 2.1.1
+- component: X.Org
+  create_time: 20210520T13:57:00
+  id: 1186300
+  resolution: ''
+  status: IN_PROGRESS
+  summary: xdm uses startproc
+- component: Development
+  create_time: 20210520T08:26:00
+  id: 1186282
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '%sysusers_create_inline needs awkward syntax'
+- component: YaST2
+  create_time: 20210520T07:58:00
+  id: 1186280
+  resolution: ''
+  status: NEW
+  summary: Allow the ipv4 / ipv6 forwarding defaults to be defined by the control
+    file
+- component: Other
+  create_time: 20210520T07:35:00
+  id: 1186278
+  resolution: FIXED
+  status: RESOLVED
+  summary: bind missing /usr/share/bind/createNamedConfInclude
