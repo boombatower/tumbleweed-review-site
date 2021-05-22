@@ -57609,8 +57609,8 @@
 - component: Other
   create_time: 20210504T14:42:00
   id: 1185620
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: qt-fsarchiver installs pre-compiled binaries
 - component: Sound
   create_time: 20210504T13:04:00
@@ -58513,6 +58513,13 @@
   status: REOPENED
   summary: lua README contains wrong information
 '20210520':
+- component: Other
+  create_time: 20210522T06:38:00
+  id: 1186360
+  resolution: ''
+  status: NEW
+  summary: Linphone does not wake up correctly in about 40% of awake from suspend
+    to disk
 - component: Basesystem
   create_time: 20210522T04:48:00
   id: 1186359
