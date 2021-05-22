@@ -58513,6 +58513,12 @@
   status: REOPENED
   summary: lua README contains wrong information
 '20210520':
+- component: Basesystem
+  create_time: 20210522T04:48:00
+  id: 1186359
+  resolution: ''
+  status: NEW
+  summary: chkconfig missing in systemd-sysv-install
 - component: Security
   create_time: 20210521T14:01:00
   id: 1186344
