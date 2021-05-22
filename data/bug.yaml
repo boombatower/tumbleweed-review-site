@@ -58513,6 +58513,12 @@
   status: REOPENED
   summary: lua README contains wrong information
 '20210520':
+- component: Kernel
+  create_time: 20210522T20:42:00
+  id: 1186363
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210521] openQA test fails in kdump_and_crash'
 - component: Other
   create_time: 20210522T11:20:00
   id: 1186362
