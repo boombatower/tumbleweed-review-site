@@ -6549,13 +6549,13 @@
   threads: []
 '20210519':
   announcement: 2021-05.4805
-  reference_count: 3
+  reference_count: 4
   thread_count: 1
   threads:
   - messages:
     - 2021-05.4810
     - 2021-05.4818
-    reference_count: 3
+    reference_count: 4
     summary: breaks spyder python IDE
 '20210520':
   announcement: 2021-05.4820
