@@ -58513,6 +58513,32 @@
   status: REOPENED
   summary: lua README contains wrong information
 '20210520':
+- component: X.Org
+  create_time: 20210520T13:57:00
+  id: 1186300
+  resolution: ''
+  status: IN_PROGRESS
+  summary: xdm uses startproc
+- component: Development
+  create_time: 20210520T08:26:00
+  id: 1186282
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '%sysusers_create_inline needs awkward syntax'
+- component: YaST2
+  create_time: 20210520T07:58:00
+  id: 1186280
+  resolution: ''
+  status: NEW
+  summary: Allow the ipv4 / ipv6 forwarding defaults to be defined by the control
+    file
+- component: Other
+  create_time: 20210520T07:35:00
+  id: 1186278
+  resolution: FIXED
+  status: RESOLVED
+  summary: bind missing /usr/share/bind/createNamedConfInclude
+'20210521':
 - component: Kernel
   create_time: 20210522T20:42:00
   id: 1186363
@@ -58575,28 +58601,3 @@
   status: RESOLVED
   summary: spyder-5.0.2-1.1 does not start, missing watchdog<2.0.0,>=0.10.3, found
     watchdog 2.1.1
-- component: X.Org
-  create_time: 20210520T13:57:00
-  id: 1186300
-  resolution: ''
-  status: IN_PROGRESS
-  summary: xdm uses startproc
-- component: Development
-  create_time: 20210520T08:26:00
-  id: 1186282
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '%sysusers_create_inline needs awkward syntax'
-- component: YaST2
-  create_time: 20210520T07:58:00
-  id: 1186280
-  resolution: ''
-  status: NEW
-  summary: Allow the ipv4 / ipv6 forwarding defaults to be defined by the control
-    file
-- component: Other
-  create_time: 20210520T07:35:00
-  id: 1186278
-  resolution: FIXED
-  status: RESOLVED
-  summary: bind missing /usr/share/bind/createNamedConfInclude
