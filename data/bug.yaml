@@ -58539,6 +58539,12 @@
   status: RESOLVED
   summary: bind missing /usr/share/bind/createNamedConfInclude
 '20210521':
+- component: KDE Applications
+  create_time: 20210523T03:31:00
+  id: 1186364
+  resolution: ''
+  status: NEW
+  summary: konsole edit color scheme unable to change highlight coloring
 - component: Kernel
   create_time: 20210522T20:42:00
   id: 1186363
