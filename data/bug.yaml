@@ -58560,8 +58560,8 @@
 - component: Other
   create_time: 20210522T11:20:00
   id: 1186362
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: ca-certificates-cacert root certificate expired
 - component: Other
   create_time: 20210522T06:38:00
