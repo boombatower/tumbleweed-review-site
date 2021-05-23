@@ -47673,8 +47673,8 @@
 - component: Basesystem
   create_time: 20201012T01:49:00
   id: 1177566
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: powertop system service seems to be overridden by something else
 '20201014':
 - component: Basesystem
@@ -58539,6 +58539,12 @@
   status: RESOLVED
   summary: bind missing /usr/share/bind/createNamedConfInclude
 '20210521':
+- component: Kernel
+  create_time: 20210523T14:57:00
+  id: 1186368
+  resolution: ''
+  status: NEW
+  summary: 'nouveau: BUG: kernel NULL pointer dereference in nouveau_bo_sync_for_device'
 - component: KDE Applications
   create_time: 20210523T03:31:00
   id: 1186364
