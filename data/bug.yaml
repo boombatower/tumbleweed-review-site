@@ -58568,7 +58568,7 @@
   create_time: 20210522T04:48:00
   id: 1186359
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: chkconfig missing in systemd-sysv-install
 - component: Security
   create_time: 20210521T14:01:00
