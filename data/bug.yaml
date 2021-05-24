@@ -58577,7 +58577,7 @@
   summary: spyder-5.0.2-1.1 does not start, missing watchdog<2.0.0,>=0.10.3, found
     watchdog 2.1.1
 '20210522':
-- component: Other
+- component: GNOME
   create_time: 20210524T13:43:00
   id: 1186385
   resolution: ''
