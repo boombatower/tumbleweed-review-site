@@ -56208,8 +56208,8 @@
 - component: AutoYaST
   create_time: 20210412T14:52:00
   id: 1184630
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Authconf: ldap_import error'
 - component: YaST2
   create_time: 20210412T14:27:00
