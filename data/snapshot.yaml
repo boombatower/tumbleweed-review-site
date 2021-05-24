@@ -20,8 +20,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - kernel-source
   - gtk3-devel
+  - kernel-source
   binary_unique_count: 9122
   disk_base: 7.7GiB
   disk_shared: unknown
@@ -251,8 +251,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - Mesa
   - plasma-framework
+  - Mesa
   binary_unique_count: 2892
   disk_base: 6.0GiB
   disk_shared: unknown
@@ -380,8 +380,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - Mesa
   - plasma5-workspace
+  - Mesa
   binary_unique_count: 1246
   disk_base: 2.4GiB
   disk_shared: unknown
