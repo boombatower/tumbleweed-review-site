@@ -8702,8 +8702,8 @@
 - component: Virtualization:Tools
   create_time: 20180525T08:19:00
   id: 1094638
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: QEMU doesn't redirect F10 key
 - component: Basesystem
   create_time: 20180525T07:36:00
@@ -13402,8 +13402,8 @@
 - component: Virtualization:Tools
   create_time: 20181009T06:58:00
   id: 1111155
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: PowerPC LE port of TW does not run X11 under virtualisation
 - component: GNOME
   create_time: 20181009T04:31:00
@@ -48271,7 +48271,7 @@
 - component: Sound
   create_time: 20201024T12:25:00
   id: 1178097
-  resolution: FIXED
+  resolution: DUPLICATE
   status: RESOLVED
   summary: Sound issues with Comet Lake (Thinkpad X1 Extreme Gen 3)
 - component: Basesystem
@@ -58343,7 +58343,7 @@
   create_time: 20210518T12:16:00
   id: 1186201
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: named (DNS) fails after provision of samba-ad-dc
 - component: Kernel
   create_time: 20210518T11:29:00
@@ -58577,6 +58577,18 @@
   summary: spyder-5.0.2-1.1 does not start, missing watchdog<2.0.0,>=0.10.3, found
     watchdog 2.1.1
 '20210522':
+- component: Other
+  create_time: 20210524T13:43:00
+  id: 1186385
+  resolution: ''
+  status: NEW
+  summary: flatpak missing gnutls dependency
+- component: X11 3rd Party Driver
+  create_time: 20210524T11:45:00
+  id: 1186383
+  resolution: ''
+  status: NEW
+  summary: Second external monitor is not working when using Thunderbolt dock
 - component: Kernel
   create_time: 20210523T14:57:00
   id: 1186368
