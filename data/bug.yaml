@@ -7716,8 +7716,8 @@
 - component: GNOME
   create_time: 20180501T10:05:00
   id: 1091516
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: gdm login screen is scaled to 200% apparently
 '20180502':
 - component: YaST2
@@ -56410,8 +56410,8 @@
 - component: GNOME
   create_time: 20210414T07:04:00
   id: 1184698
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210412] xrdp: gnome session fails to launch'
 - component: Other
   create_time: 20210414T07:03:00
@@ -56758,8 +56758,8 @@
 - component: GNOME
   create_time: 20210418T13:18:00
   id: 1184933
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: gnome-shell-classic-session package is empty (minus the COPYING file) and
     could be removed?
 - component: Basesystem
