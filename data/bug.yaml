@@ -57470,8 +57470,8 @@
 - component: Kernel
   create_time: 20210503T21:19:00
   id: 1185595
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kernel 5.12.0-1 Xorg on QEMU/KVM and driver video QXL crash
 - component: Basesystem
   create_time: 20210503T20:05:00
@@ -58545,7 +58545,7 @@
   resolution: ''
   status: NEW
   summary: 'AUDIT-0: setroubleshoot'
-- component: libzypp
+- component: Patterns
   create_time: 20210521T14:01:00
   id: 1186343
   resolution: ''
@@ -58560,8 +58560,8 @@
 - component: Development
   create_time: 20210521T13:15:00
   id: 1186341
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: emacs-gtk crashes when hitting Ctrl-<space>
 - component: Other
   create_time: 20210521T11:42:00
@@ -58599,7 +58599,7 @@
   create_time: 20210524T11:45:00
   id: 1186383
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Second external monitor is not working when using Thunderbolt dock
 - component: Kernel
   create_time: 20210523T14:57:00
