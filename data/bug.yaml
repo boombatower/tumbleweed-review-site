@@ -47139,8 +47139,8 @@
 - component: Security
   create_time: 20201001T12:08:00
   id: 1177190
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'hashcat: Error `/usr/share/hashcat/OpenCL/inc_rp_optimized.h: No such
     file or directory`'
 - component: YaST2
@@ -56280,8 +56280,8 @@
 - component: Other
   create_time: 20210409T17:56:00
   id: 1184563
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Coccinelle fails to find its files
 - component: Patterns
   create_time: 20210409T14:41:00
@@ -57408,7 +57408,7 @@
   create_time: 20210501T12:43:00
   id: 1185524
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: Changing to NetworkManager via Yast Network throws an internal error
 - component: Other
   create_time: 20210501T07:19:00
@@ -58280,7 +58280,7 @@
   create_time: 20210516T09:00:00
   id: 1186094
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: 'npm 16: Out of memory while building libreoffice online'
 - component: Other
   create_time: 20210515T18:50:00
@@ -58577,6 +58577,12 @@
   summary: spyder-5.0.2-1.1 does not start, missing watchdog<2.0.0,>=0.10.3, found
     watchdog 2.1.1
 '20210522':
+- component: Sound
+  create_time: 20210525T13:44:00
+  id: 1186422
+  resolution: ''
+  status: NEW
+  summary: A Long buzzer sound hijacks audio playbacks after some seconds o
 - component: Network
   create_time: 20210525T07:56:00
   id: 1186404
