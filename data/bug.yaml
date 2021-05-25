@@ -58577,6 +58577,18 @@
   summary: spyder-5.0.2-1.1 does not start, missing watchdog<2.0.0,>=0.10.3, found
     watchdog 2.1.1
 '20210522':
+- component: X11 Applications
+  create_time: 20210525T21:47:00
+  id: 1186455
+  resolution: ''
+  status: NEW
+  summary: Backport fix for SEGFAULT of RawTherapee
+- component: Kernel
+  create_time: 20210525T21:05:00
+  id: 1186454
+  resolution: ''
+  status: NEW
+  summary: Kernel bug kfence.h
 - component: Development
   create_time: 20210525T15:06:00
   id: 1186432
