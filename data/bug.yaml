@@ -58577,6 +58577,24 @@
   summary: spyder-5.0.2-1.1 does not start, missing watchdog<2.0.0,>=0.10.3, found
     watchdog 2.1.1
 '20210522':
+- component: Development
+  create_time: 20210525T15:06:00
+  id: 1186432
+  resolution: ''
+  status: NEW
+  summary: Sdb Page for golang installation, Repo buggy?
+- component: YaST2
+  create_time: 20210525T14:22:00
+  id: 1186426
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Add new YaST widget demo client
+- component: Bootloader
+  create_time: 20210525T14:11:00
+  id: 1186425
+  resolution: ''
+  status: NEW
+  summary: Bogus "(no output on stdout)/" directory in boot image
 - component: Sound
   create_time: 20210525T13:44:00
   id: 1186422
