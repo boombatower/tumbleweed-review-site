@@ -54087,8 +54087,8 @@
 - component: Development
   create_time: 20210224T07:59:00
   id: 1182645
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: icu fails in test on aarch64 since update to 68.1
 - component: Basesystem
   create_time: 20210223T14:44:00
