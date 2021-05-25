@@ -25556,8 +25556,8 @@
 - component: Virtualization:Other
   create_time: 20190702T08:17:00
   id: 1140020
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: QEMU frozen after unpausing VM
 - component: YaST2
   create_time: 20190702T08:14:00
@@ -58165,8 +58165,8 @@
 - component: Basesystem
   create_time: 20210512T09:11:00
   id: 1185958
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: udev<>systemd dependency loop
 - component: X.Org
   create_time: 20210512T08:47:00
@@ -58373,8 +58373,8 @@
 - component: Other
   create_time: 20210518T06:49:00
   id: 1186157
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: handbrake does produce small outputfiles without sound when converting
     m2t
 - component: Other
@@ -58577,6 +58577,18 @@
   summary: spyder-5.0.2-1.1 does not start, missing watchdog<2.0.0,>=0.10.3, found
     watchdog 2.1.1
 '20210522':
+- component: Network
+  create_time: 20210525T07:56:00
+  id: 1186404
+  resolution: ''
+  status: NEW
+  summary: Linphone 4.2.5 undefined symbol liblinphone.so.10
+- component: Basesystem
+  create_time: 20210525T06:51:00
+  id: 1186400
+  resolution: ''
+  status: NEW
+  summary: 'beets: python-discogs-client is obsoleted'
 - component: GNOME
   create_time: 20210524T13:43:00
   id: 1186385
