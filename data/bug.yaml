@@ -58645,7 +58645,7 @@
   id: 1186454
   resolution: ''
   status: NEW
-  summary: Kernel bug kfence.h
+  summary: Oops at probing elants_i2c driver on 5.12.x kernels
 - component: Basesystem
   create_time: 20210525T19:14:00
   id: 1186448
