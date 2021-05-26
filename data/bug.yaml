@@ -58543,7 +58543,7 @@
   create_time: 20210521T14:01:00
   id: 1186344
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: setroubleshoot: new package with D-Bus services and polkit actions'
 - component: Patterns
   create_time: 20210521T14:01:00
@@ -58615,6 +58615,12 @@
   status: CONFIRMED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: Basesystem
+  create_time: 20210526T13:52:00
+  id: 1186468
+  resolution: ''
+  status: NEW
+  summary: rescuesystem does not prompt for keymap
 - component: High Availability
   create_time: 20210526T07:53:00
   id: 1186461
