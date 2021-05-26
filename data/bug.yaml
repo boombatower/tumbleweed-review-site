@@ -58577,6 +58577,44 @@
   summary: spyder-5.0.2-1.1 does not start, missing watchdog<2.0.0,>=0.10.3, found
     watchdog 2.1.1
 '20210522':
+- component: Kernel
+  create_time: 20210523T14:57:00
+  id: 1186368
+  resolution: ''
+  status: NEW
+  summary: 'nouveau: BUG: kernel NULL pointer dereference in nouveau_bo_sync_for_device'
+- component: KDE Applications
+  create_time: 20210523T03:31:00
+  id: 1186364
+  resolution: ''
+  status: NEW
+  summary: konsole edit color scheme unable to change highlight coloring
+- component: Kernel
+  create_time: 20210522T20:42:00
+  id: 1186363
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210521] openQA test fails in kdump_and_crash'
+- component: Other
+  create_time: 20210522T11:20:00
+  id: 1186362
+  resolution: ''
+  status: REOPENED
+  summary: ca-certificates-cacert root certificate expired
+- component: Other
+  create_time: 20210522T06:38:00
+  id: 1186360
+  resolution: ''
+  status: NEW
+  summary: Linphone does not wake up correctly in about 40% of awake from suspend
+    to disk
+- component: Basesystem
+  create_time: 20210522T04:48:00
+  id: 1186359
+  resolution: ''
+  status: CONFIRMED
+  summary: chkconfig missing in systemd-sysv-install
+'20210524':
 - component: X11 Applications
   create_time: 20210525T21:47:00
   id: 1186455
@@ -58589,6 +58627,12 @@
   resolution: ''
   status: NEW
   summary: Kernel bug kfence.h
+- component: Basesystem
+  create_time: 20210525T19:14:00
+  id: 1186448
+  resolution: ''
+  status: NEW
+  summary: Request update to SUSE:Factory:Head/fwts from 21.03.00 to 21.05.00
 - component: Development
   create_time: 20210525T15:06:00
   id: 1186432
@@ -58636,41 +58680,5 @@
   id: 1186383
   resolution: ''
   status: IN_PROGRESS
-  summary: Second external monitor is not working when using Thunderbolt dock
-- component: Kernel
-  create_time: 20210523T14:57:00
-  id: 1186368
-  resolution: ''
-  status: NEW
-  summary: 'nouveau: BUG: kernel NULL pointer dereference in nouveau_bo_sync_for_device'
-- component: KDE Applications
-  create_time: 20210523T03:31:00
-  id: 1186364
-  resolution: ''
-  status: NEW
-  summary: konsole edit color scheme unable to change highlight coloring
-- component: Kernel
-  create_time: 20210522T20:42:00
-  id: 1186363
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210521] openQA test fails in kdump_and_crash'
-- component: Other
-  create_time: 20210522T11:20:00
-  id: 1186362
-  resolution: ''
-  status: REOPENED
-  summary: ca-certificates-cacert root certificate expired
-- component: Other
-  create_time: 20210522T06:38:00
-  id: 1186360
-  resolution: ''
-  status: NEW
-  summary: Linphone does not wake up correctly in about 40% of awake from suspend
-    to disk
-- component: Basesystem
-  create_time: 20210522T04:48:00
-  id: 1186359
-  resolution: ''
-  status: CONFIRMED
-  summary: chkconfig missing in systemd-sysv-install
+  summary: 'nvidia: Second external monitor is not working when using Thunderbolt
+    dock'
