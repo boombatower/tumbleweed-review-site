@@ -58656,7 +58656,7 @@
   id: 1186422
   resolution: ''
   status: NEW
-  summary: A Long buzzer sound hijacks audio playbacks after some seconds o
+  summary: A Long buzzer sound hijacks audio playbacks after some seconds of playback
 - component: Network
   create_time: 20210525T07:56:00
   id: 1186404
