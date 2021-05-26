@@ -12941,8 +12941,8 @@
 - component: Other
   create_time: 20180927T15:01:00
   id: 1110028
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 4 java noarch packages vary between architectures
 - component: Other
   create_time: 20180927T14:48:00
@@ -58615,6 +58615,12 @@
   status: CONFIRMED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: Other
+  create_time: 20210526T19:11:00
+  id: 1186475
+  resolution: ''
+  status: NEW
+  summary: enable svt-av1support in ffmpeg
 - component: Basesystem
   create_time: 20210526T13:52:00
   id: 1186468
