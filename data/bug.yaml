@@ -47817,8 +47817,8 @@
 - component: Other
   create_time: 20201016T14:41:00
   id: 1177812
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'ffmpeg-4: Add user-friendly option for unrestricted build to the spec-file'
 - component: Kernel
   create_time: 20201016T12:54:00
@@ -58631,7 +58631,7 @@
   create_time: 20210525T19:14:00
   id: 1186448
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Request update to SUSE:Factory:Head/fwts from 21.03.00 to 21.05.00
 - component: Development
   create_time: 20210525T15:06:00
