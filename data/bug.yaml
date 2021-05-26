@@ -10805,8 +10805,8 @@
 - component: GNOME
   create_time: 20180725T13:20:00
   id: 1102563
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: GNOME autologin broken with Wayland on aarch64
 - component: Printing
   create_time: 20180725T09:28:00
@@ -58560,8 +58560,8 @@
 - component: Development
   create_time: 20210521T13:15:00
   id: 1186341
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: emacs-gtk crashes when hitting Ctrl-<space>
 - component: Other
   create_time: 20210521T11:42:00
@@ -58615,6 +58615,19 @@
   status: CONFIRMED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: High Availability
+  create_time: 20210526T07:53:00
+  id: 1186461
+  resolution: ''
+  status: NEW
+  summary: 'ocfs2-test: cannot install ocfs2-test package on the latest  openSUSE
+    Tumbleweed 20210522'
+- component: Basesystem
+  create_time: 20210526T06:56:00
+  id: 1186459
+  resolution: INVALID
+  status: RESOLVED
+  summary: Builds of base packages are failing because of conflicts within ip
 - component: X11 Applications
   create_time: 20210525T21:47:00
   id: 1186455
