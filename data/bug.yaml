@@ -57495,8 +57495,8 @@
 - component: Basesystem
   create_time: 20210503T14:43:00
   id: 1185579
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Crash in libcurl/libssl if curl_multi_perform handles multiple https connections
     (libzypp)
 - component: YaST2
@@ -58454,8 +58454,8 @@
 - component: Security
   create_time: 20210519T22:57:00
   id: 1186270
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: libvirt: new polkit permissions for node device delete'
 - component: Other
   create_time: 20210519T20:10:00
@@ -58544,7 +58544,7 @@
   id: 1186344
   resolution: ''
   status: NEW
-  summary: 'AUDIT-0: setroubleshoot'
+  summary: 'AUDIT-0: setroubleshoot: new package with D-Bus services and polkit actions'
 - component: Patterns
   create_time: 20210521T14:01:00
   id: 1186343
@@ -58632,7 +58632,7 @@
   create_time: 20210525T21:47:00
   id: 1186455
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Backport fix for SEGFAULT of RawTherapee
 - component: Kernel
   create_time: 20210525T21:05:00
