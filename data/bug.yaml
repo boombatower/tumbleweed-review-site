@@ -58615,6 +58615,12 @@
   status: CONFIRMED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: X.Org
+  create_time: 20210526T20:58:00
+  id: 1186477
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Mesa-21.1.1-278.1 breaks Warthunder
 - component: Other
   create_time: 20210526T19:11:00
   id: 1186475
