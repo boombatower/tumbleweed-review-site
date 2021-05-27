@@ -58619,7 +58619,7 @@
   create_time: 20210527T15:51:00
   id: 1186561
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: pipewire user services presets are not set on a new installation
 - component: Bootloader
   create_time: 20210527T07:13:00
