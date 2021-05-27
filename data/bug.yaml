@@ -53598,8 +53598,8 @@
 - component: Other
   create_time: 20210215T07:53:00
   id: 1182236
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Add delete to end of test to alpine
 - component: Basesystem
   create_time: 20210215T07:53:00
@@ -58615,6 +58615,12 @@
   status: CONFIRMED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: Bootloader
+  create_time: 20210527T07:13:00
+  id: 1186481
+  resolution: ''
+  status: NEW
+  summary: GRUB crashes (breaking boot) if fonts are missing
 - component: X.Org
   create_time: 20210526T20:58:00
   id: 1186477
