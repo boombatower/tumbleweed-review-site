@@ -53745,7 +53745,7 @@
   create_time: 20210221T23:51:00
   id: 1182538
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: User id libvirtdbus needs to be created in group libvirt for polkit action
     id org.libvirt.unix.manage
 - component: KDE Workspace (Plasma)
@@ -58615,6 +58615,12 @@
   status: CONFIRMED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: Sound
+  create_time: 20210527T15:51:00
+  id: 1186561
+  resolution: ''
+  status: NEW
+  summary: pipewire user services presets are not set on a new installation
 - component: Bootloader
   create_time: 20210527T07:13:00
   id: 1186481
