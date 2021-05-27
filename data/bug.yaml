@@ -55488,8 +55488,8 @@
 - component: Development
   create_time: 20210322T21:52:00
   id: 1183878
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: mariadb_config emits garbage -L parameter
 - component: Kernel
   create_time: 20210322T19:33:00
@@ -58492,7 +58492,7 @@
   create_time: 20210519T13:13:00
   id: 1186249
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: sysvinit calls in dhcp-server
 - component: KDE Applications
   create_time: 20210519T13:11:00
