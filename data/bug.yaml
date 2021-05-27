@@ -58636,8 +58636,8 @@
 - component: High Availability
   create_time: 20210526T07:53:00
   id: 1186461
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'ocfs2-test: cannot install ocfs2-test package on the latest  openSUSE
     Tumbleweed 20210522'
 - component: Basesystem
