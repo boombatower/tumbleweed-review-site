@@ -58623,6 +58623,12 @@
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
 - component: Other
+  create_time: 20210528T19:26:00
+  id: 1186629
+  resolution: ''
+  status: NEW
+  summary: 'gpsbabel: update to 1.7.0'
+- component: Other
   create_time: 20210528T13:44:00
   id: 1186610
   resolution: ''
@@ -58728,8 +58734,8 @@
 - component: YaST2
   create_time: 20210525T14:22:00
   id: 1186426
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Add new YaST widget demo client
 - component: Bootloader
   create_time: 20210525T14:11:00
