@@ -53143,8 +53143,8 @@
 - component: Kernel
   create_time: 20210208T12:11:00
   id: 1181942
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'RPi2: IRQ chip of the pinctrl is not set'
 - component: Kernel
   create_time: 20210208T12:05:00
@@ -58685,8 +58685,8 @@
 - component: Development
   create_time: 20210525T15:06:00
   id: 1186432
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Sdb Page for golang installation, Repo buggy?
 - component: YaST2
   create_time: 20210525T14:22:00
