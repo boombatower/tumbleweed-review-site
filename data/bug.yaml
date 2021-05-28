@@ -55495,8 +55495,8 @@
 - component: Development
   create_time: 20210322T21:52:00
   id: 1183878
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: mariadb_config emits garbage -L parameter
 - component: Kernel
   create_time: 20210322T19:33:00
@@ -58622,6 +58622,12 @@
   status: RESOLVED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: Network
+  create_time: 20210528T21:57:00
+  id: 1186631
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210525] dhcpd segfaults (nullptr deref)'
 - component: Other
   create_time: 20210528T19:26:00
   id: 1186629
