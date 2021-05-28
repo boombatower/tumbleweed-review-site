@@ -58605,8 +58605,8 @@
 - component: Other
   create_time: 20210522T11:20:00
   id: 1186362
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: ca-certificates-cacert root certificate expired
 - component: Other
   create_time: 20210522T06:38:00
@@ -58618,10 +58618,34 @@
 - component: Basesystem
   create_time: 20210522T04:48:00
   id: 1186359
-  resolution: ''
-  status: CONFIRMED
+  resolution: WONTFIX
+  status: RESOLVED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: Other
+  create_time: 20210528T13:44:00
+  id: 1186610
+  resolution: ''
+  status: NEW
+  summary: PostgreSQL 13.2 service timeout on start
+- component: Basesystem
+  create_time: 20210528T13:01:00
+  id: 1186602
+  resolution: ''
+  status: NEW
+  summary: latest pam_mount affects zypper and sudo su
+- component: Basesystem
+  create_time: 20210528T12:18:00
+  id: 1186595
+  resolution: ''
+  status: NEW
+  summary: 'systemd: /usr/lib/systemd/systemd-sysv-install calls chkconfig'
+- component: Security
+  create_time: 20210528T12:06:00
+  id: 1186592
+  resolution: ''
+  status: NEW
+  summary: 'sendmail: inconsistencies in entries in /etc/permissions.d/sendmail*'
 - component: KDE Applications
   create_time: 20210528T12:03:00
   id: 1186591
