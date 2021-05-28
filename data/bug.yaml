@@ -47423,8 +47423,8 @@
 - component: MicroOS
   create_time: 20201008T15:12:00
   id: 1177487
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: cockpit-ws image is unusable
 - component: Installation
   create_time: 20201008T13:06:00
@@ -54470,8 +54470,8 @@
 - component: X.Org
   create_time: 20210305T11:16:00
   id: 1183082
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210304] vncviewer: Authentication failure: protocol error'
 - component: Other
   create_time: 20210305T09:40:00
@@ -58622,6 +58622,12 @@
   status: CONFIRMED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: KDE Applications
+  create_time: 20210528T12:03:00
+  id: 1186591
+  resolution: ''
+  status: NEW
+  summary: KMail cannot authenticate due to missing SASL dependencies
 - component: Sound
   create_time: 20210528T00:29:00
   id: 1186572
