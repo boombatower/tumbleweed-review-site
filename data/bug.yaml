@@ -37230,8 +37230,8 @@
 - component: Bootloader
   create_time: 20200304T15:13:00
   id: 1165706
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Attempting to install tumbleweed for power inside a VM fails
 - component: Other
   create_time: 20200304T12:47:00
@@ -52739,6 +52739,13 @@
   status: RESOLVED
   summary: "\u201CSerious\u201D vulnerability found in Libgcrypt, GnuPG\u2019s cryptographic\
     \ library"
+- component: X.Org
+  create_time: 20210202T13:41:00
+  id: 1181700
+  resolution: ''
+  status: CONFIRMED
+  summary: 'Feature: Support graphical installation for s390x guests using qemu''s
+    virtio-gpu gfx emulation'
 - component: Basesystem
   create_time: 20210202T10:48:00
   id: 1181694
@@ -53970,8 +53977,8 @@
 - component: Development
   create_time: 20210225T14:14:00
   id: 1182757
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: should use limit_build macro in spec rather than more static memoryperjob
     in _constraints file
 - component: Installation
@@ -56657,7 +56664,7 @@
   id: 1184845
   resolution: ''
   status: IN_PROGRESS
-  summary: tegra support disabled in Mesa (enablement currently breaks gnome-shell)
+  summary: Re-enable tegra support in Mesa (enablement currently breaks gnome-shell)
 - component: Sound
   create_time: 20210416T05:58:00
   id: 1184843
@@ -58361,8 +58368,8 @@
 - component: MicroOS
   create_time: 20210518T09:11:00
   id: 1186178
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: issue-generator runs agetty in wrong SELinux context
 - component: MicroOS
   create_time: 20210518T06:57:00
@@ -58643,7 +58650,7 @@
   create_time: 20210526T19:11:00
   id: 1186475
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: enable svt-av1support in ffmpeg
 - component: Basesystem
   create_time: 20210526T13:52:00
