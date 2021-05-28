@@ -58616,6 +58616,12 @@
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
 - component: Sound
+  create_time: 20210528T00:29:00
+  id: 1186572
+  resolution: ''
+  status: NEW
+  summary: PipeWire on Plasma can't control the volume
+- component: Sound
   create_time: 20210527T15:51:00
   id: 1186561
   resolution: ''
