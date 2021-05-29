@@ -58622,6 +58622,13 @@
   status: RESOLVED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: Basesystem
+  create_time: 20210529T20:43:00
+  id: 1186637
+  resolution: ''
+  status: NEW
+  summary: 'error: lua script failed: [string "%pretrans(filesystem-15.5-40.2.riscv64)"]:37:
+    exit'
 - component: Other
   create_time: 20210529T19:18:00
   id: 1186636
