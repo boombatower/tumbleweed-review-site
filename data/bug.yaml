@@ -58622,6 +58622,12 @@
   status: RESOLVED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: Basesystem
+  create_time: 20210530T14:50:00
+  id: 1186640
+  resolution: ''
+  status: NEW
+  summary: glibc can not be built on s390x because of exceeded maximum object size
 - component: Xfce
   create_time: 20210530T11:02:00
   id: 1186639
