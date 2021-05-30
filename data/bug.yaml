@@ -58622,6 +58622,13 @@
   status: RESOLVED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: Xfce
+  create_time: 20210530T11:02:00
+  id: 1186639
+  resolution: ''
+  status: NEW
+  summary: 'Tumbleweed Xfce and  Leap 15.3 RC Gnome: Logitech Marble Mouse not working
+    (40-libinput.conf missing)'
 - component: Basesystem
   create_time: 20210529T20:43:00
   id: 1186637
