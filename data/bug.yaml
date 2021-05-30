@@ -58687,8 +58687,8 @@
 - component: KDE Applications
   create_time: 20210528T12:03:00
   id: 1186591
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: KMail cannot authenticate due to missing SASL dependencies
 - component: Sound
   create_time: 20210528T00:29:00
