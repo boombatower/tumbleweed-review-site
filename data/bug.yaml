@@ -58632,8 +58632,8 @@
 - component: Other
   create_time: 20210529T19:18:00
   id: 1186636
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: adding Flathub fails
 - component: Network
   create_time: 20210528T21:57:00
