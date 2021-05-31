@@ -56721,8 +56721,8 @@
 - component: GNOME
   create_time: 20210419T15:16:00
   id: 1184979
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Gnome terminal transparency unreadable with non-Adwaita theme
 - component: Other
   create_time: 20210419T12:51:00
