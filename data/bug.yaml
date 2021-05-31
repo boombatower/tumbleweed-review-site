@@ -39376,8 +39376,8 @@
 - component: Other
   create_time: 20200415T03:33:00
   id: 1169495
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: gdb does not run under emacs gud mode
 - component: Security
   create_time: 20200415T01:36:00
@@ -57813,8 +57813,8 @@
 - component: YaST2
   create_time: 20210506T19:57:00
   id: 1185746
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210505] libyui segfault'
 - component: Kernel
   create_time: 20210506T19:30:00
@@ -58160,8 +58160,8 @@
 - component: Usability
   create_time: 20210512T15:02:00
   id: 1185984
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'password-store: Copying to clipboard fails on Wayland'
 - component: Kernel
   create_time: 20210512T11:48:00
@@ -58622,11 +58622,17 @@
   status: RESOLVED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: libzypp
+  create_time: 20210531T06:42:00
+  id: 1186649
+  resolution: ''
+  status: NEW
+  summary: zypper in openssl(cli) installs libressl - we expect 'openssl-1_1'
 - component: Basesystem
   create_time: 20210531T00:00:00
   id: 1186644
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Missing Link from /bin/bash to /usr/bin/bash
 - component: Basesystem
   create_time: 20210530T14:50:00
@@ -58786,7 +58792,7 @@
   id: 1186422
   resolution: ''
   status: NEW
-  summary: A Long buzzer sound hijacks audio playbacks after some seconds of playback
+  summary: A Long beep sound hijacks audio playbacks after some seconds of playback
 - component: Network
   create_time: 20210525T07:56:00
   id: 1186404
