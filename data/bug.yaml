@@ -55488,8 +55488,8 @@
 - component: GNOME
   create_time: 20210322T22:04:00
   id: 1183879
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: tracker2 tracker-extract crashing with "bad system call" (outdated seccomp
     filter)
 - component: Development
@@ -58622,6 +58622,12 @@
   status: RESOLVED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: Basesystem
+  create_time: 20210531T00:00:00
+  id: 1186644
+  resolution: ''
+  status: NEW
+  summary: Missing Link from /bin/bash to /usr/bin/bash
 - component: Basesystem
   create_time: 20210530T14:50:00
   id: 1186640
