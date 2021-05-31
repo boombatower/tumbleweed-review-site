@@ -56502,8 +56502,8 @@
 - component: Virtualization:Other
   create_time: 20210415T12:07:00
   id: 1184801
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: OVMF in Tumbleweed does crash with SEV-ES enabled
 - component: Basesystem
   create_time: 20210415T11:20:00
@@ -57179,8 +57179,8 @@
 - component: Kernel
   create_time: 20210426T08:21:00
   id: 1185282
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: AMD CCP module missing firmware in initrd
 - component: Sound
   create_time: 20210426T07:40:00
