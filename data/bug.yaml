@@ -57977,12 +57977,6 @@
   resolution: INVALID
   status: RESOLVED
   summary: /etc/os-release shows wrong version
-- component: LibreOffice
-  create_time: 20210508T18:54:00
-  id: 1185797
-  resolution: ''
-  status: NEW
-  summary: Searching in PPTX document makes LibreOffice crash
 - component: Other
   create_time: 20210508T08:01:00
   id: 1185795
