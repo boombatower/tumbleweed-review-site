@@ -53243,7 +53243,7 @@
   create_time: 20210209T02:23:00
   id: 1181970
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Can't restart service because masked services
 - component: KDE Workspace (Plasma)
   create_time: 20210209T01:46:00
@@ -55334,8 +55334,8 @@
 - component: YaST2
   create_time: 20210319T13:08:00
   id: 1183795
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'armv7: rpm architecture (armv7hl) is not system architecture (armv7l)'
 - component: Other
   create_time: 20210319T11:48:00
@@ -58616,6 +58616,12 @@
   status: RESOLVED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: Network
+  create_time: 20210531T14:40:00
+  id: 1186669
+  resolution: ''
+  status: NEW
+  summary: postfix.service has "Requires=var-run.mount"
 - component: libzypp
   create_time: 20210531T06:42:00
   id: 1186649
@@ -58732,6 +58738,12 @@
   resolution: INVALID
   status: RESOLVED
   summary: rescuesystem does not prompt for keymap
+- component: Development
+  create_time: 20210526T08:25:00
+  id: 1186462
+  resolution: ''
+  status: REOPENED
+  summary: Base:System usrmessedup
 - component: High Availability
   create_time: 20210526T07:53:00
   id: 1186461
