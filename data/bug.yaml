@@ -58625,8 +58625,8 @@
 - component: libzypp
   create_time: 20210531T06:42:00
   id: 1186649
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: zypper in openssl(cli) installs libressl - we expect 'openssl-1_1'
 - component: Basesystem
   create_time: 20210531T00:00:00
@@ -58637,8 +58637,8 @@
 - component: Basesystem
   create_time: 20210530T14:50:00
   id: 1186640
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: glibc can not be built on s390x because of exceeded maximum object size
 - component: Xfce
   create_time: 20210530T11:02:00
@@ -58663,8 +58663,8 @@
 - component: Network
   create_time: 20210528T21:57:00
   id: 1186631
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210525] dhcpd segfaults (nullptr deref)'
 - component: Other
   create_time: 20210528T19:26:00
