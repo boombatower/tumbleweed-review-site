@@ -508,8 +508,8 @@
     xorg-x11-server: 1.20.11
   binary_interest_changed:
   - Mesa
-  - libqt5-qtbase-devel
   - gtk3-devel
+  - libqt5-qtbase-devel
   binary_unique_count: 810
   disk_base: 2.6GiB
   disk_shared: unknown
