@@ -56064,9 +56064,10 @@
 - component: Printing
   create_time: 20210407T06:27:00
   id: 1184421
-  resolution: ''
-  status: NEW
-  summary: Printed PDF partly empty - works on Leap 15.2
+  resolution: FIXED
+  status: RESOLVED
+  summary: Certain PDF partly empty with Ghostscript 9.53.3 (works with Ghostscript
+    9.52 and 9.54.0)
 - component: Installation
   create_time: 20210406T19:44:00
   id: 1184418
@@ -57167,8 +57168,8 @@
 - component: Basesystem
   create_time: 20210426T11:29:00
   id: 1185287
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Images fail to build on armv6 and armv7
 - component: Security
   create_time: 20210426T10:02:00
@@ -58616,6 +58617,12 @@
   status: RESOLVED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: Other
+  create_time: 20210601T09:20:00
+  id: 1186688
+  resolution: ''
+  status: NEW
+  summary: 'missing  Repotype: staticlinks in openSUSE:Factory:RISCV'
 - component: Network
   create_time: 20210531T14:40:00
   id: 1186669
@@ -58669,8 +58676,8 @@
 - component: Other
   create_time: 20210528T19:26:00
   id: 1186629
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'gpsbabel: update to 1.7.0'
 - component: Other
   create_time: 20210528T13:44:00
@@ -58706,7 +58713,7 @@
   create_time: 20210528T00:29:00
   id: 1186572
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: PipeWire on Plasma can't control the volume
 - component: Sound
   create_time: 20210527T15:51:00
@@ -58790,8 +58797,8 @@
 - component: Bootloader
   create_time: 20210525T14:11:00
   id: 1186425
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Bogus "(no output on stdout)/" directory in boot image
 - component: Sound
   create_time: 20210525T13:44:00
