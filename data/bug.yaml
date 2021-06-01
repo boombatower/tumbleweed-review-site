@@ -58722,6 +58722,19 @@
   summary: 'nvidia: Second external monitor is not working when using Thunderbolt
     dock'
 '20210527':
+- component: AppArmor
+  create_time: 20210601T21:38:00
+  id: 1186711
+  resolution: ''
+  status: NEW
+  summary: apparmor change breaks dnsmasq dhcp-script execution
+- component: Kernel
+  create_time: 20210601T21:34:00
+  id: 1186710
+  resolution: ''
+  status: NEW
+  summary: wrong/dead symlinks with kernel-default-devel-5.12.4-2.1.x86_64 (after
+    usrmerge?)
 - component: YaST2
   create_time: 20210601T16:07:00
   id: 1186705
