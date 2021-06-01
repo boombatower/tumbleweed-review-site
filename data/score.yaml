@@ -1430,22 +1430,22 @@
   score: 87
   stability_level: moderate
 '20200602':
-  score: 40
+  score: 38
   stability_level: unstable
 '20200603':
-  score: 69
+  score: 67
   stability_level: unstable
 '20200604':
-  score: 52
+  score: 50
   stability_level: unstable
 '20200609':
-  score: 75
+  score: 73
   stability_level: moderate
 '20200610':
-  score: 84
+  score: 82
   stability_level: moderate
 '20200611':
-  score: 87
+  score: 86
   stability_level: moderate
 '20200612':
   score: 56
@@ -1454,313 +1454,313 @@
   score: 52
   stability_level: unstable
 '20200615':
-  score: 75
+  score: 74
   stability_level: moderate
 '20200616':
-  score: 83
-  stability_level: moderate
-'20200617':
-  score: 86
-  stability_level: moderate
-'20200618':
-  score: 88
-  stability_level: moderate
-'20200621':
-  score: 90
-  stability_level: moderate
-'20200622':
-  score: 79
-  stability_level: moderate
-'20200625':
-  score: 72
-  stability_level: moderate
-'20200626':
-  score: 83
-  stability_level: moderate
-'20200627':
-  score: 88
-  stability_level: moderate
-'20200628':
-  score: 89
-  stability_level: moderate
-'20200630':
-  score: 77
-  stability_level: moderate
-'20200701':
   score: 82
   stability_level: moderate
-'20200707':
+'20200617':
+  score: 84
+  stability_level: moderate
+'20200618':
+  score: 86
+  stability_level: moderate
+'20200621':
+  score: 88
+  stability_level: moderate
+'20200622':
+  score: 76
+  stability_level: moderate
+'20200625':
+  score: 68
+  stability_level: unstable
+'20200626':
+  score: 80
+  stability_level: moderate
+'20200627':
+  score: 86
+  stability_level: moderate
+'20200628':
   score: 87
+  stability_level: moderate
+'20200630':
+  score: 74
+  stability_level: moderate
+'20200701':
+  score: 80
+  stability_level: moderate
+'20200707':
+  score: 85
   stability_level: moderate
 '20200708':
   score: 64
   stability_level: unstable
 '20200710':
-  score: 79
-  stability_level: moderate
-'20200713':
-  score: 85
-  stability_level: moderate
-'20200714':
-  score: 64
-  stability_level: unstable
-'20200715':
-  score: 79
-  stability_level: moderate
-'20200716':
-  score: 41
-  stability_level: unstable
-'20200717':
-  score: 45
-  stability_level: unstable
-'20200720':
-  score: 72
-  stability_level: moderate
-'20200721':
-  score: 58
-  stability_level: unstable
-'20200724':
-  score: 77
-  stability_level: moderate
-'20200726':
-  score: 85
-  stability_level: moderate
-'20200727':
-  score: 87
-  stability_level: moderate
-'20200728':
-  score: 89
-  stability_level: moderate
-'20200729':
-  score: 90
-  stability_level: moderate
-'20200730':
-  score: 90
-  stability_level: moderate
-'20200731':
-  score: 90
-  stability_level: moderate
-'20200801':
-  score: 40
-  stability_level: unstable
-'20200802':
-  score: 70
-  stability_level: unstable
-'20200803':
-  score: 64
-  stability_level: unstable
-'20200804':
-  score: 80
-  stability_level: moderate
-'20200805':
-  score: 86
-  stability_level: moderate
-'20200806':
-  score: 88
-  stability_level: moderate
-'20200807':
-  score: 71
-  stability_level: moderate
-'20200810':
-  score: 81
-  stability_level: moderate
-'20200812':
-  score: 86
-  stability_level: moderate
-'20200813':
-  score: 70
-  stability_level: unstable
-'20200814':
-  score: 81
-  stability_level: moderate
-'20200815':
-  score: 87
-  stability_level: moderate
-'20200816':
-  score: 50
-  stability_level: unstable
-'20200817':
-  score: 74
-  stability_level: moderate
-'20200818':
-  score: 83
-  stability_level: moderate
-'20200819':
-  score: 68
-  stability_level: unstable
-'20200821':
-  score: 81
-  stability_level: moderate
-'20200823':
-  score: 62
-  stability_level: unstable
-'20200824':
-  score: 54
-  stability_level: unstable
-'20200826':
-  score: -6
-  stability_level: unstable
-'20200829':
-  score: 20
-  stability_level: unstable
-'20200831':
-  score: 61
-  stability_level: unstable
-'20200901':
   score: 78
   stability_level: moderate
-'20200902':
+'20200713':
   score: 84
   stability_level: moderate
-'20200904':
+'20200714':
+  score: 62
+  stability_level: unstable
+'20200715':
+  score: 77
+  stability_level: moderate
+'20200716':
+  score: 40
+  stability_level: unstable
+'20200717':
+  score: 43
+  stability_level: unstable
+'20200720':
+  score: 70
+  stability_level: unstable
+'20200721':
+  score: 57
+  stability_level: unstable
+'20200724':
+  score: 76
+  stability_level: moderate
+'20200726':
+  score: 83
+  stability_level: moderate
+'20200727':
+  score: 86
+  stability_level: moderate
+'20200728':
+  score: 87
+  stability_level: moderate
+'20200729':
   score: 88
+  stability_level: moderate
+'20200730':
+  score: 88
+  stability_level: moderate
+'20200731':
+  score: 88
+  stability_level: moderate
+'20200801':
+  score: 39
+  stability_level: unstable
+'20200802':
+  score: 69
+  stability_level: unstable
+'20200803':
+  score: 59
+  stability_level: unstable
+'20200804':
+  score: 77
+  stability_level: moderate
+'20200805':
+  score: 84
+  stability_level: moderate
+'20200806':
+  score: 86
+  stability_level: moderate
+'20200807':
+  score: 66
+  stability_level: unstable
+'20200810':
+  score: 78
+  stability_level: moderate
+'20200812':
+  score: 84
+  stability_level: moderate
+'20200813':
+  score: 65
+  stability_level: unstable
+'20200814':
+  score: 78
+  stability_level: moderate
+'20200815':
+  score: 84
+  stability_level: moderate
+'20200816':
+  score: 49
+  stability_level: unstable
+'20200817':
+  score: 72
+  stability_level: moderate
+'20200818':
+  score: 82
+  stability_level: moderate
+'20200819':
+  score: 63
+  stability_level: unstable
+'20200821':
+  score: 78
+  stability_level: moderate
+'20200823':
+  score: 61
+  stability_level: unstable
+'20200824':
+  score: 52
+  stability_level: unstable
+'20200826':
+  score: -7
+  stability_level: unstable
+'20200829':
+  score: 18
+  stability_level: unstable
+'20200831':
+  score: 60
+  stability_level: unstable
+'20200901':
+  score: 77
+  stability_level: moderate
+'20200902':
+  score: 82
+  stability_level: moderate
+'20200904':
+  score: 86
   stability_level: moderate
 '20200905':
-  score: 89
+  score: 87
   stability_level: moderate
 '20200906':
-  score: 89
+  score: 88
   stability_level: moderate
 '20200907':
-  score: 89
+  score: 87
   stability_level: moderate
 '20200908':
-  score: 89
+  score: 88
   stability_level: moderate
 '20200909':
-  score: 90
+  score: 88
   stability_level: moderate
 '20200910':
-  score: 88
+  score: 87
   stability_level: moderate
 '20200914':
   score: 63
   stability_level: unstable
 '20200915':
-  score: 78
+  score: 77
   stability_level: moderate
 '20200917':
-  score: 85
+  score: 83
   stability_level: moderate
 '20200919':
-  score: 87
+  score: 86
   stability_level: moderate
 '20200922':
-  score: 83
+  score: 80
   stability_level: moderate
 '20200923':
-  score: 74
-  stability_level: moderate
+  score: 70
+  stability_level: unstable
 '20200925':
-  score: 82
+  score: 80
   stability_level: moderate
 '20200928':
-  score: 87
+  score: 85
   stability_level: moderate
 '20200929':
-  score: 88
+  score: 87
   stability_level: moderate
 '20200930':
-  score: 89
+  score: 87
   stability_level: moderate
 '20201002':
-  score: 90
-  stability_level: moderate
-'20201004':
-  score: 43
-  stability_level: unstable
-'20201005':
-  score: 71
-  stability_level: moderate
-'20201007':
-  score: 48
-  stability_level: unstable
-'20201008':
-  score: 73
-  stability_level: moderate
-'20201009':
-  score: 83
-  stability_level: moderate
-'20201011':
-  score: 87
-  stability_level: moderate
-'20201012':
   score: 88
   stability_level: moderate
-'20201014':
-  score: 55
+'20201004':
+  score: 42
   stability_level: unstable
-'20201019':
-  score: 75
-  stability_level: moderate
-'20201021':
-  score: 83
-  stability_level: moderate
-'20201022':
-  score: 87
-  stability_level: moderate
-'20201023':
-  score: 89
-  stability_level: moderate
-'20201024':
-  score: 60
+'20201005':
+  score: 70
   stability_level: unstable
-'20201025':
-  score: 78
-  stability_level: moderate
-'20201026':
-  score: 60
+'20201007':
+  score: 47
   stability_level: unstable
-'20201028':
-  score: 78
+'20201008':
+  score: 72
   stability_level: moderate
-'20201029':
+'20201009':
+  score: 81
+  stability_level: moderate
+'20201011':
   score: 85
   stability_level: moderate
-'20201030':
+'20201012':
   score: 86
   stability_level: moderate
-'20201104':
-  score: 89
-  stability_level: moderate
-'20201105':
-  score: 89
-  stability_level: moderate
-'20201106':
-  score: 89
-  stability_level: moderate
-'20201107':
-  score: 90
-  stability_level: moderate
-'20201108':
-  score: 85
-  stability_level: moderate
-'20201114':
+'20201014':
   score: 53
   stability_level: unstable
-'20201117':
-  score: 75
+'20201019':
+  score: 73
   stability_level: moderate
-'20201119':
-  score: 64
-  stability_level: unstable
-'20201121':
-  score: 78
-  stability_level: moderate
-'20201123':
-  score: 50
-  stability_level: unstable
-'20201124':
-  score: 74
-  stability_level: moderate
-'20201125':
+'20201021':
   score: 82
   stability_level: moderate
-'20201127':
+'20201022':
   score: 86
   stability_level: moderate
+'20201023':
+  score: 87
+  stability_level: moderate
+'20201024':
+  score: 59
+  stability_level: unstable
+'20201025':
+  score: 77
+  stability_level: moderate
+'20201026':
+  score: 58
+  stability_level: unstable
+'20201028':
+  score: 76
+  stability_level: moderate
+'20201029':
+  score: 83
+  stability_level: moderate
+'20201030':
+  score: 85
+  stability_level: moderate
+'20201104':
+  score: 87
+  stability_level: moderate
+'20201105':
+  score: 87
+  stability_level: moderate
+'20201106':
+  score: 88
+  stability_level: moderate
+'20201107':
+  score: 88
+  stability_level: moderate
+'20201108':
+  score: 83
+  stability_level: moderate
+'20201114':
+  score: 52
+  stability_level: unstable
+'20201117':
+  score: 73
+  stability_level: moderate
+'20201119':
+  score: 63
+  stability_level: unstable
+'20201121':
+  score: 77
+  stability_level: moderate
+'20201123':
+  score: 47
+  stability_level: unstable
+'20201124':
+  score: 72
+  stability_level: moderate
+'20201125':
+  score: 81
+  stability_level: moderate
+'20201127':
+  score: 85
+  stability_level: moderate
 '20201129':
-  score: 94
+  score: 93
   stability_level: stable
 '20201130':
   score: 96
