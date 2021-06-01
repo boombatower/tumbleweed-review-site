@@ -4071,8 +4071,8 @@
     reference_count: 5
     summary: no summary given
 '20200602':
-  announcement: 2021-05.286
-  reference_count: 89
+  announcement: 2021-06.20
+  reference_count: 104
   thread_count: 3
   threads:
   - messages:
@@ -4103,7 +4103,12 @@
     - 2021-05.331
     - 2021-05.406
     - 2021-05.407
-    reference_count: 60
+    - 2021-06.61
+    - 2021-06.62
+    - 2021-06.65
+    - 2021-06.140
+    - 2021-06.141
+    reference_count: 70
     summary: update
   - messages:
     - 2020-06.79
@@ -4112,7 +4117,8 @@
     - 2021-03.1173
     - 2021-04.816
     - 2021-05.345
-    reference_count: 24
+    - 2021-06.79
+    reference_count: 28
     summary: failed to summarize
   - messages:
     - 2021-01.2090
@@ -4120,11 +4126,12 @@
     - 2021-03.1114
     - 2021-04.757
     - 2021-05.286
-    reference_count: 5
+    - 2021-06.20
+    reference_count: 6
     summary: no summary given
 '20200603':
-  announcement: 2021-05.300
-  reference_count: 5
+  announcement: 2021-06.34
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4133,11 +4140,12 @@
     - 2021-03.1128
     - 2021-04.771
     - 2021-05.300
-    reference_count: 5
+    - 2021-06.34
+    reference_count: 6
     summary: no summary given
 '20200604':
-  announcement: 2021-05.326
-  reference_count: 107
+  announcement: 2021-06.60
+  reference_count: 125
   thread_count: 2
   threads:
   - messages:
@@ -4147,7 +4155,8 @@
     - 2021-03.1203
     - 2021-04.846
     - 2021-05.375
-    reference_count: 102
+    - 2021-06.109
+    reference_count: 119
     summary: failed to summarize
   - messages:
     - 2021-01.2130
@@ -4155,11 +4164,12 @@
     - 2021-03.1154
     - 2021-04.797
     - 2021-05.326
-    reference_count: 5
+    - 2021-06.60
+    reference_count: 6
     summary: no summary given
 '20200609':
-  announcement: 2021-05.385
-  reference_count: 5
+  announcement: 2021-06.119
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4168,11 +4178,12 @@
     - 2021-03.1213
     - 2021-04.856
     - 2021-05.385
-    reference_count: 5
+    - 2021-06.119
+    reference_count: 6
     summary: no summary given
 '20200610':
-  announcement: 2021-05.405
-  reference_count: 5
+  announcement: 2021-06.139
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4181,11 +4192,12 @@
     - 2021-03.1233
     - 2021-04.876
     - 2021-05.405
-    reference_count: 5
+    - 2021-06.139
+    reference_count: 6
     summary: no summary given
 '20200611':
-  announcement: 2021-05.413
-  reference_count: 5
+  announcement: 2021-06.147
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4194,11 +4206,12 @@
     - 2021-03.1241
     - 2021-04.884
     - 2021-05.413
-    reference_count: 5
+    - 2021-06.147
+    reference_count: 6
     summary: no summary given
 '20200612':
-  announcement: 2021-05.420
-  reference_count: 77
+  announcement: 2021-06.154
+  reference_count: 90
   thread_count: 3
   threads:
   - messages:
@@ -4215,11 +4228,12 @@
     - 2021-03.1248
     - 2021-04.891
     - 2021-05.420
-    reference_count: 65
+    - 2021-06.154
+    reference_count: 78
     summary: no summary given
 '20200614':
-  announcement: 2021-05.445
-  reference_count: 41
+  announcement: 2021-06.179
+  reference_count: 48
   thread_count: 2
   threads:
   - messages:
@@ -4233,11 +4247,12 @@
     - 2021-03.1273
     - 2021-04.916
     - 2021-05.445
-    reference_count: 37
+    - 2021-06.179
+    reference_count: 44
     summary: no summary given
 '20200615':
-  announcement: 2021-05.469
-  reference_count: 5
+  announcement: 2021-06.203
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4246,11 +4261,12 @@
     - 2021-03.1297
     - 2021-04.940
     - 2021-05.469
-    reference_count: 5
+    - 2021-06.203
+    reference_count: 6
     summary: no summary given
 '20200616':
-  announcement: 2021-05.492
-  reference_count: 5
+  announcement: 2021-06.226
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4259,11 +4275,12 @@
     - 2021-03.1320
     - 2021-04.963
     - 2021-05.492
-    reference_count: 5
+    - 2021-06.226
+    reference_count: 6
     summary: no summary given
 '20200617':
-  announcement: 2021-05.501
-  reference_count: 5
+  announcement: 2021-06.235
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4272,11 +4289,12 @@
     - 2021-03.1329
     - 2021-04.972
     - 2021-05.501
-    reference_count: 5
+    - 2021-06.235
+    reference_count: 6
     summary: no summary given
 '20200618':
-  announcement: 2021-05.510
-  reference_count: 5
+  announcement: 2021-06.244
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4285,11 +4303,12 @@
     - 2021-03.1338
     - 2021-04.981
     - 2021-05.510
-    reference_count: 5
+    - 2021-06.244
+    reference_count: 6
     summary: no summary given
 '20200621':
-  announcement: 2021-05.532
-  reference_count: 5
+  announcement: 2021-06.266
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4298,11 +4317,12 @@
     - 2021-03.1360
     - 2021-04.1003
     - 2021-05.532
-    reference_count: 5
+    - 2021-06.266
+    reference_count: 6
     summary: no summary given
 '20200622':
-  announcement: 2021-05.543
-  reference_count: 11
+  announcement: 2021-06.277
+  reference_count: 13
   thread_count: 2
   threads:
   - messages:
@@ -4315,11 +4335,12 @@
     - 2021-03.1371
     - 2021-04.1014
     - 2021-05.543
-    reference_count: 10
+    - 2021-06.277
+    reference_count: 12
     summary: no summary given
 '20200625':
-  announcement: 2021-05.599
-  reference_count: 17
+  announcement: 2021-06.333
+  reference_count: 20
   thread_count: 2
   threads:
   - messages:
@@ -4332,11 +4353,12 @@
     - 2021-03.1427
     - 2021-04.1070
     - 2021-05.599
-    reference_count: 15
+    - 2021-06.333
+    reference_count: 18
     summary: no summary given
 '20200626':
-  announcement: 2021-05.608
-  reference_count: 5
+  announcement: 2021-06.342
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4345,11 +4367,12 @@
     - 2021-03.1436
     - 2021-04.1079
     - 2021-05.608
-    reference_count: 5
+    - 2021-06.342
+    reference_count: 6
     summary: no summary given
 '20200627':
-  announcement: 2021-05.611
-  reference_count: 5
+  announcement: 2021-06.345
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4358,11 +4381,12 @@
     - 2021-03.1439
     - 2021-04.1082
     - 2021-05.611
-    reference_count: 5
+    - 2021-06.345
+    reference_count: 6
     summary: no summary given
 '20200628':
-  announcement: 2021-05.616
-  reference_count: 5
+  announcement: 2021-06.350
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4371,11 +4395,12 @@
     - 2021-03.1444
     - 2021-04.1087
     - 2021-05.616
-    reference_count: 5
+    - 2021-06.350
+    reference_count: 6
     summary: no summary given
 '20200630':
-  announcement: 2021-05.628
-  reference_count: 17
+  announcement: 2021-06.362
+  reference_count: 20
   thread_count: 1
   threads:
   - messages:
@@ -4385,11 +4410,12 @@
     - 2021-03.1456
     - 2021-04.1099
     - 2021-05.628
-    reference_count: 17
+    - 2021-06.362
+    reference_count: 20
     summary: no summary given
 '20200701':
-  announcement: 2021-05.641
-  reference_count: 5
+  announcement: 2021-06.375
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4398,11 +4424,12 @@
     - 2021-03.1469
     - 2021-04.1112
     - 2021-05.641
-    reference_count: 5
+    - 2021-06.375
+    reference_count: 6
     summary: no summary given
 '20200707':
-  announcement: 2021-05.732
-  reference_count: 5
+  announcement: 2021-06.466
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4411,11 +4438,12 @@
     - 2021-03.1560
     - 2021-04.1203
     - 2021-05.732
-    reference_count: 5
+    - 2021-06.466
+    reference_count: 6
     summary: no summary given
 '20200708':
-  announcement: 2021-05.752
-  reference_count: 29
+  announcement: 2021-06.486
+  reference_count: 34
   thread_count: 2
   threads:
   - messages:
@@ -4428,11 +4456,12 @@
     - 2021-03.1580
     - 2021-04.1223
     - 2021-05.752
-    reference_count: 25
+    - 2021-06.486
+    reference_count: 30
     summary: no summary given
 '20200710':
-  announcement: 2021-05.888
-  reference_count: 5
+  announcement: 2021-06.622
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4441,11 +4470,12 @@
     - 2021-03.1716
     - 2021-04.1359
     - 2021-05.888
-    reference_count: 5
+    - 2021-06.622
+    reference_count: 6
     summary: no summary given
 '20200713':
-  announcement: 2021-05.894
-  reference_count: 5
+  announcement: 2021-06.628
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4454,11 +4484,12 @@
     - 2021-03.1722
     - 2021-04.1365
     - 2021-05.894
-    reference_count: 5
+    - 2021-06.628
+    reference_count: 6
     summary: no summary given
 '20200714':
-  announcement: 2021-05.905
-  reference_count: 29
+  announcement: 2021-06.639
+  reference_count: 34
   thread_count: 2
   threads:
   - messages:
@@ -4478,7 +4509,10 @@
     - 2021-05.918
     - 2021-05.919
     - 2021-05.951
-    reference_count: 24
+    - 2021-06.652
+    - 2021-06.653
+    - 2021-06.685
+    reference_count: 28
     summary: released! - Info for Packman users
   - messages:
     - 2021-01.2709
@@ -4486,11 +4520,12 @@
     - 2021-03.1733
     - 2021-04.1376
     - 2021-05.905
-    reference_count: 5
+    - 2021-06.639
+    reference_count: 6
     summary: no summary given
 '20200715':
-  announcement: 2021-05.920
-  reference_count: 5
+  announcement: 2021-06.654
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4499,11 +4534,12 @@
     - 2021-03.1748
     - 2021-04.1391
     - 2021-05.920
-    reference_count: 5
+    - 2021-06.654
+    reference_count: 6
     summary: no summary given
 '20200716':
-  announcement: 2021-05.945
-  reference_count: 95
+  announcement: 2021-06.679
+  reference_count: 111
   thread_count: 2
   threads:
   - messages:
@@ -4513,7 +4549,8 @@
     - 2021-03.1814
     - 2021-04.1457
     - 2021-05.986
-    reference_count: 30
+    - 2021-06.720
+    reference_count: 33
     summary: released! - Firefox fails to load
   - messages:
     - 2021-01.2749
@@ -4521,11 +4558,12 @@
     - 2021-03.1773
     - 2021-04.1416
     - 2021-05.945
-    reference_count: 65
+    - 2021-06.679
+    reference_count: 78
     summary: no summary given
 '20200717':
-  announcement: 2021-05.974
-  reference_count: 29
+  announcement: 2021-06.708
+  reference_count: 34
   thread_count: 2
   threads:
   - messages:
@@ -4535,7 +4573,8 @@
     - 2021-03.1823
     - 2021-04.1466
     - 2021-05.995
-    reference_count: 24
+    - 2021-06.729
+    reference_count: 28
     summary: failed to summarize
   - messages:
     - 2021-01.2778
@@ -4543,11 +4582,12 @@
     - 2021-03.1802
     - 2021-04.1445
     - 2021-05.974
-    reference_count: 5
+    - 2021-06.708
+    reference_count: 6
     summary: no summary given
 '20200720':
-  announcement: 2021-05.999
-  reference_count: 5
+  announcement: 2021-06.733
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4556,11 +4596,12 @@
     - 2021-03.1827
     - 2021-04.1470
     - 2021-05.999
-    reference_count: 5
+    - 2021-06.733
+    reference_count: 6
     summary: no summary given
 '20200721':
-  announcement: 2021-05.1012
-  reference_count: 29
+  announcement: 2021-06.746
+  reference_count: 34
   thread_count: 2
   threads:
   - messages:
@@ -4573,11 +4614,12 @@
     - 2021-03.1840
     - 2021-04.1483
     - 2021-05.1012
-    reference_count: 25
+    - 2021-06.746
+    reference_count: 30
     summary: no summary given
 '20200724':
-  announcement: 2021-05.1024
-  reference_count: 5
+  announcement: 2021-06.758
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4586,11 +4628,12 @@
     - 2021-03.1852
     - 2021-04.1495
     - 2021-05.1024
-    reference_count: 5
+    - 2021-06.758
+    reference_count: 6
     summary: no summary given
 '20200726':
-  announcement: 2021-05.1028
-  reference_count: 5
+  announcement: 2021-06.762
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4599,11 +4642,12 @@
     - 2021-03.1856
     - 2021-04.1499
     - 2021-05.1028
-    reference_count: 5
+    - 2021-06.762
+    reference_count: 6
     summary: no summary given
 '20200727':
-  announcement: 2021-05.1034
-  reference_count: 5
+  announcement: 2021-06.768
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4612,11 +4656,12 @@
     - 2021-03.1862
     - 2021-04.1505
     - 2021-05.1034
-    reference_count: 5
+    - 2021-06.768
+    reference_count: 6
     summary: no summary given
 '20200728':
-  announcement: 2021-05.1035
-  reference_count: 5
+  announcement: 2021-06.769
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4625,11 +4670,12 @@
     - 2021-03.1863
     - 2021-04.1506
     - 2021-05.1035
-    reference_count: 5
+    - 2021-06.769
+    reference_count: 6
     summary: no summary given
 '20200729':
-  announcement: 2021-05.1037
-  reference_count: 5
+  announcement: 2021-06.771
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4638,11 +4684,12 @@
     - 2021-03.1865
     - 2021-04.1508
     - 2021-05.1037
-    reference_count: 5
+    - 2021-06.771
+    reference_count: 6
     summary: no summary given
 '20200730':
-  announcement: 2021-05.1042
-  reference_count: 5
+  announcement: 2021-06.776
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4651,11 +4698,12 @@
     - 2021-03.1870
     - 2021-04.1513
     - 2021-05.1042
-    reference_count: 5
+    - 2021-06.776
+    reference_count: 6
     summary: no summary given
 '20200731':
-  announcement: 2021-05.1057
-  reference_count: 5
+  announcement: 2021-06.791
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4664,11 +4712,12 @@
     - 2021-03.1885
     - 2021-04.1528
     - 2021-05.1057
-    reference_count: 5
+    - 2021-06.791
+    reference_count: 6
     summary: no summary given
 '20200801':
-  announcement: 2021-05.1060
-  reference_count: 104
+  announcement: 2021-06.794
+  reference_count: 121
   thread_count: 3
   threads:
   - messages:
@@ -4683,7 +4732,9 @@
     - 2021-04.1539
     - 2021-05.1061
     - 2021-05.1068
-    reference_count: 35
+    - 2021-06.795
+    - 2021-06.802
+    reference_count: 39
     summary: released! - update hangs on Plasma update tool
   - messages:
     - 2020-08.10
@@ -4713,7 +4764,12 @@
     - 2021-05.1078
     - 2021-05.1081
     - 2021-05.1083
-    reference_count: 64
+    - 2021-06.796
+    - 2021-06.798
+    - 2021-06.812
+    - 2021-06.815
+    - 2021-06.817
+    reference_count: 76
     summary: )
   - messages:
     - 2021-01.2864
@@ -4721,11 +4777,12 @@
     - 2021-03.1888
     - 2021-04.1531
     - 2021-05.1060
-    reference_count: 5
+    - 2021-06.794
+    reference_count: 6
     summary: no summary given
 '20200802':
-  announcement: 2021-05.1094
-  reference_count: 5
+  announcement: 2021-06.828
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4734,11 +4791,12 @@
     - 2021-03.1922
     - 2021-04.1565
     - 2021-05.1094
-    reference_count: 5
+    - 2021-06.828
+    reference_count: 6
     summary: no summary given
 '20200803':
-  announcement: 2021-05.1105
-  reference_count: 23
+  announcement: 2021-06.839
+  reference_count: 27
   thread_count: 2
   threads:
   - messages:
@@ -4751,11 +4809,12 @@
     - 2021-03.1933
     - 2021-04.1576
     - 2021-05.1105
-    reference_count: 20
+    - 2021-06.839
+    reference_count: 24
     summary: no summary given
 '20200804':
-  announcement: 2021-05.1117
-  reference_count: 5
+  announcement: 2021-06.851
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4764,11 +4823,12 @@
     - 2021-03.1945
     - 2021-04.1588
     - 2021-05.1117
-    reference_count: 5
+    - 2021-06.851
+    reference_count: 6
     summary: no summary given
 '20200805':
-  announcement: 2021-05.1118
-  reference_count: 5
+  announcement: 2021-06.852
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4777,11 +4837,12 @@
     - 2021-03.1946
     - 2021-04.1589
     - 2021-05.1118
-    reference_count: 5
+    - 2021-06.852
+    reference_count: 6
     summary: no summary given
 '20200806':
-  announcement: 2021-05.1122
-  reference_count: 5
+  announcement: 2021-06.856
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4790,11 +4851,12 @@
     - 2021-03.1950
     - 2021-04.1593
     - 2021-05.1122
-    reference_count: 5
+    - 2021-06.856
+    reference_count: 6
     summary: no summary given
 '20200807':
-  announcement: 2021-05.1128
-  reference_count: 23
+  announcement: 2021-06.862
+  reference_count: 27
   thread_count: 2
   threads:
   - messages:
@@ -4804,7 +4866,8 @@
     - 2021-03.2066
     - 2021-04.1709
     - 2021-05.1238
-    reference_count: 18
+    - 2021-06.972
+    reference_count: 21
     summary: dvd iso
   - messages:
     - 2021-01.2932
@@ -4812,11 +4875,12 @@
     - 2021-03.1956
     - 2021-04.1599
     - 2021-05.1128
-    reference_count: 5
+    - 2021-06.862
+    reference_count: 6
     summary: no summary given
 '20200810':
-  announcement: 2021-05.1135
-  reference_count: 5
+  announcement: 2021-06.869
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4825,11 +4889,12 @@
     - 2021-03.1963
     - 2021-04.1606
     - 2021-05.1135
-    reference_count: 5
+    - 2021-06.869
+    reference_count: 6
     summary: no summary given
 '20200812':
-  announcement: 2021-05.1157
-  reference_count: 5
+  announcement: 2021-06.891
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4838,11 +4903,12 @@
     - 2021-03.1985
     - 2021-04.1628
     - 2021-05.1157
-    reference_count: 5
+    - 2021-06.891
+    reference_count: 6
     summary: no summary given
 '20200813':
-  announcement: 2021-05.1172
-  reference_count: 23
+  announcement: 2021-06.906
+  reference_count: 27
   thread_count: 2
   threads:
   - messages:
@@ -4855,11 +4921,12 @@
     - 2021-03.2000
     - 2021-04.1643
     - 2021-05.1172
-    reference_count: 20
+    - 2021-06.906
+    reference_count: 24
     summary: no summary given
 '20200814':
-  announcement: 2021-05.1186
-  reference_count: 5
+  announcement: 2021-06.920
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4868,11 +4935,12 @@
     - 2021-03.2014
     - 2021-04.1657
     - 2021-05.1186
-    reference_count: 5
+    - 2021-06.920
+    reference_count: 6
     summary: no summary given
 '20200815':
-  announcement: 2021-05.1189
-  reference_count: 5
+  announcement: 2021-06.923
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4881,11 +4949,12 @@
     - 2021-03.2017
     - 2021-04.1660
     - 2021-05.1189
-    reference_count: 5
+    - 2021-06.923
+    reference_count: 6
     summary: no summary given
 '20200816':
-  announcement: 2021-05.1203
-  reference_count: 119
+  announcement: 2021-06.937
+  reference_count: 139
   thread_count: 3
   threads:
   - messages:
@@ -4902,11 +4971,12 @@
     - 2021-03.2031
     - 2021-04.1674
     - 2021-05.1203
-    reference_count: 100
+    - 2021-06.937
+    reference_count: 120
     summary: no summary given
 '20200817':
-  announcement: 2021-05.1213
-  reference_count: 5
+  announcement: 2021-06.947
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4915,11 +4985,12 @@
     - 2021-03.2041
     - 2021-04.1684
     - 2021-05.1213
-    reference_count: 5
+    - 2021-06.947
+    reference_count: 6
     summary: no summary given
 '20200818':
-  announcement: 2021-05.1229
-  reference_count: 5
+  announcement: 2021-06.963
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4928,11 +4999,12 @@
     - 2021-03.2057
     - 2021-04.1700
     - 2021-05.1229
-    reference_count: 5
+    - 2021-06.963
+    reference_count: 6
     summary: no summary given
 '20200819':
-  announcement: 2021-05.1247
-  reference_count: 23
+  announcement: 2021-06.981
+  reference_count: 27
   thread_count: 2
   threads:
   - messages:
@@ -4945,11 +5017,12 @@
     - 2021-03.2075
     - 2021-04.1718
     - 2021-05.1247
-    reference_count: 20
+    - 2021-06.981
+    reference_count: 24
     summary: no summary given
 '20200821':
-  announcement: 2021-05.1273
-  reference_count: 5
+  announcement: 2021-06.1007
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -4958,11 +5031,12 @@
     - 2021-03.2101
     - 2021-04.1744
     - 2021-05.1273
-    reference_count: 5
+    - 2021-06.1007
+    reference_count: 6
     summary: no summary given
 '20200823':
-  announcement: 2021-05.1279
-  reference_count: 35
+  announcement: 2021-06.1013
+  reference_count: 41
   thread_count: 2
   threads:
   - messages:
@@ -4975,11 +5049,12 @@
     - 2021-03.2107
     - 2021-04.1750
     - 2021-05.1279
-    reference_count: 30
+    - 2021-06.1013
+    reference_count: 36
     summary: no summary given
 '20200824':
-  announcement: 2021-05.1285
-  reference_count: 65
+  announcement: 2021-06.1019
+  reference_count: 76
   thread_count: 2
   threads:
   - messages:
@@ -5014,7 +5089,13 @@
     - 2021-05.1473
     - 2021-05.1475
     - 2021-05.1477
-    reference_count: 60
+    - 2021-06.1143
+    - 2021-06.1155
+    - 2021-06.1191
+    - 2021-06.1207
+    - 2021-06.1209
+    - 2021-06.1211
+    reference_count: 70
     summary: Unable to boot
   - messages:
     - 2021-01.3089
@@ -5022,11 +5103,12 @@
     - 2021-03.2113
     - 2021-04.1756
     - 2021-05.1285
-    reference_count: 5
+    - 2021-06.1019
+    reference_count: 6
     summary: no summary given
 '20200826':
-  announcement: 2021-05.1379
-  reference_count: 173
+  announcement: 2021-06.1113
+  reference_count: 202
   thread_count: 5
   threads:
   - messages:
@@ -5036,7 +5118,8 @@
     - 2021-03.2207
     - 2021-04.1850
     - 2021-05.1379
-    reference_count: 72
+    - 2021-06.1113
+    reference_count: 86
     summary: no summary given
   - messages:
     - 2020-08.328
@@ -5053,7 +5136,8 @@
     - 2021-03.2216
     - 2021-04.1859
     - 2021-05.1388
-    reference_count: 60
+    - 2021-06.1122
+    reference_count: 70
     summary: failed to summarize
   - messages:
     - 2020-08.358
@@ -5062,11 +5146,12 @@
     - 2021-03.2241
     - 2021-04.1884
     - 2021-05.1413
-    reference_count: 30
+    - 2021-06.1147
+    reference_count: 35
     summary: /etc/crontab broken
 '20200829':
-  announcement: 2021-05.1429
-  reference_count: 41
+  announcement: 2021-06.1163
+  reference_count: 48
   thread_count: 2
   threads:
   - messages:
@@ -5088,7 +5173,10 @@
     - 2021-05.1431
     - 2021-05.1433
     - 2021-05.1524
-    reference_count: 31
+    - 2021-06.1165
+    - 2021-06.1167
+    - 2021-06.1258
+    reference_count: 36
     summary: released!
   - messages:
     - 2021-01.3233
@@ -5096,11 +5184,12 @@
     - 2021-03.2257
     - 2021-04.1900
     - 2021-05.1429
-    reference_count: 10
+    - 2021-06.1163
+    reference_count: 12
     summary: no summary given
 '20200831':
-  announcement: 2021-05.1467
-  reference_count: 5
+  announcement: 2021-06.1201
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5109,11 +5198,12 @@
     - 2021-03.2295
     - 2021-04.1938
     - 2021-05.1467
-    reference_count: 5
+    - 2021-06.1201
+    reference_count: 6
     summary: no summary given
 '20200901':
-  announcement: 2021-05.1479
-  reference_count: 5
+  announcement: 2021-06.1213
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5122,11 +5212,12 @@
     - 2021-03.2307
     - 2021-04.1950
     - 2021-05.1479
-    reference_count: 5
+    - 2021-06.1213
+    reference_count: 6
     summary: no summary given
 '20200902':
-  announcement: 2021-05.1488
-  reference_count: 5
+  announcement: 2021-06.1222
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5135,11 +5226,12 @@
     - 2021-03.2316
     - 2021-04.1959
     - 2021-05.1488
-    reference_count: 5
+    - 2021-06.1222
+    reference_count: 6
     summary: no summary given
 '20200904':
-  announcement: 2021-05.1497
-  reference_count: 5
+  announcement: 2021-06.1231
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5148,11 +5240,12 @@
     - 2021-03.2325
     - 2021-04.1968
     - 2021-05.1497
-    reference_count: 5
+    - 2021-06.1231
+    reference_count: 6
     summary: no summary given
 '20200905':
-  announcement: 2021-05.1501
-  reference_count: 5
+  announcement: 2021-06.1235
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5161,11 +5254,12 @@
     - 2021-03.2329
     - 2021-04.1972
     - 2021-05.1501
-    reference_count: 5
+    - 2021-06.1235
+    reference_count: 6
     summary: no summary given
 '20200906':
-  announcement: 2021-05.1510
-  reference_count: 5
+  announcement: 2021-06.1244
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5174,11 +5268,12 @@
     - 2021-03.2338
     - 2021-04.1981
     - 2021-05.1510
-    reference_count: 5
+    - 2021-06.1244
+    reference_count: 6
     summary: no summary given
 '20200907':
-  announcement: 2021-05.1516
-  reference_count: 5
+  announcement: 2021-06.1250
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5187,11 +5282,12 @@
     - 2021-03.2344
     - 2021-04.1987
     - 2021-05.1516
-    reference_count: 5
+    - 2021-06.1250
+    reference_count: 6
     summary: no summary given
 '20200908':
-  announcement: 2021-05.1527
-  reference_count: 5
+  announcement: 2021-06.1261
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5200,11 +5296,12 @@
     - 2021-03.2355
     - 2021-04.1998
     - 2021-05.1527
-    reference_count: 5
+    - 2021-06.1261
+    reference_count: 6
     summary: no summary given
 '20200909':
-  announcement: 2021-05.1540
-  reference_count: 5
+  announcement: 2021-06.1274
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5213,11 +5310,12 @@
     - 2021-03.2368
     - 2021-04.2011
     - 2021-05.1540
-    reference_count: 5
+    - 2021-06.1274
+    reference_count: 6
     summary: no summary given
 '20200910':
-  announcement: 2021-05.1547
-  reference_count: 5
+  announcement: 2021-06.1281
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5226,11 +5324,12 @@
     - 2021-03.2375
     - 2021-04.2018
     - 2021-05.1547
-    reference_count: 5
+    - 2021-06.1281
+    reference_count: 6
     summary: no summary given
 '20200914':
-  announcement: 2021-05.1567
-  reference_count: 29
+  announcement: 2021-06.1301
+  reference_count: 34
   thread_count: 3
   threads:
   - messages:
@@ -5247,11 +5346,12 @@
     - 2021-03.2395
     - 2021-04.2038
     - 2021-05.1567
-    reference_count: 25
+    - 2021-06.1301
+    reference_count: 30
     summary: no summary given
 '20200915':
-  announcement: 2021-05.1581
-  reference_count: 5
+  announcement: 2021-06.1315
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5260,11 +5360,12 @@
     - 2021-03.2409
     - 2021-04.2052
     - 2021-05.1581
-    reference_count: 5
+    - 2021-06.1315
+    reference_count: 6
     summary: no summary given
 '20200917':
-  announcement: 2021-05.1592
-  reference_count: 5
+  announcement: 2021-06.1326
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5273,11 +5374,12 @@
     - 2021-03.2420
     - 2021-04.2063
     - 2021-05.1592
-    reference_count: 5
+    - 2021-06.1326
+    reference_count: 6
     summary: no summary given
 '20200919':
-  announcement: 2021-05.1609
-  reference_count: 5
+  announcement: 2021-06.1343
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5286,11 +5388,12 @@
     - 2021-03.2437
     - 2021-04.2080
     - 2021-05.1609
-    reference_count: 5
+    - 2021-06.1343
+    reference_count: 6
     summary: no summary given
 '20200922':
-  announcement: 2021-05.1618
-  reference_count: 11
+  announcement: 2021-06.1352
+  reference_count: 13
   thread_count: 1
   threads:
   - messages:
@@ -5300,11 +5403,12 @@
     - 2021-03.2446
     - 2021-04.2089
     - 2021-05.1618
-    reference_count: 11
+    - 2021-06.1352
+    reference_count: 13
     summary: no summary given
 '20200923':
-  announcement: 2021-05.1624
-  reference_count: 17
+  announcement: 2021-06.1358
+  reference_count: 20
   thread_count: 2
   threads:
   - messages:
@@ -5314,7 +5418,8 @@
     - 2021-03.2453
     - 2021-04.2096
     - 2021-05.1625
-    reference_count: 12
+    - 2021-06.1359
+    reference_count: 14
     summary: net-snmp complains about its own configuration file when installed
   - messages:
     - 2021-01.3428
@@ -5322,11 +5427,12 @@
     - 2021-03.2452
     - 2021-04.2095
     - 2021-05.1624
-    reference_count: 5
+    - 2021-06.1358
+    reference_count: 6
     summary: no summary given
 '20200925':
-  announcement: 2021-05.1633
-  reference_count: 5
+  announcement: 2021-06.1367
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5335,11 +5441,12 @@
     - 2021-03.2461
     - 2021-04.2104
     - 2021-05.1633
-    reference_count: 5
+    - 2021-06.1367
+    reference_count: 6
     summary: no summary given
 '20200928':
-  announcement: 2021-05.1687
-  reference_count: 5
+  announcement: 2021-06.1421
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5348,11 +5455,12 @@
     - 2021-03.2515
     - 2021-04.2158
     - 2021-05.1687
-    reference_count: 5
+    - 2021-06.1421
+    reference_count: 6
     summary: no summary given
 '20200929':
-  announcement: 2021-05.1696
-  reference_count: 5
+  announcement: 2021-06.1430
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5361,11 +5469,12 @@
     - 2021-03.2524
     - 2021-04.2167
     - 2021-05.1696
-    reference_count: 5
+    - 2021-06.1430
+    reference_count: 6
     summary: no summary given
 '20200930':
-  announcement: 2021-05.1699
-  reference_count: 5
+  announcement: 2021-06.1433
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5374,11 +5483,12 @@
     - 2021-03.2527
     - 2021-04.2170
     - 2021-05.1699
-    reference_count: 5
+    - 2021-06.1433
+    reference_count: 6
     summary: no summary given
 '20201002':
-  announcement: 2021-05.1707
-  reference_count: 5
+  announcement: 2021-06.1441
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5387,11 +5497,12 @@
     - 2021-03.2535
     - 2021-04.2178
     - 2021-05.1707
-    reference_count: 5
+    - 2021-06.1441
+    reference_count: 6
     summary: no summary given
 '20201004':
-  announcement: 2021-05.1717
-  reference_count: 167
+  announcement: 2021-06.1451
+  reference_count: 195
   thread_count: 3
   threads:
   - messages:
@@ -5408,11 +5519,12 @@
     - 2021-03.2545
     - 2021-04.2188
     - 2021-05.1717
-    reference_count: 140
+    - 2021-06.1451
+    reference_count: 168
     summary: no summary given
 '20201005':
-  announcement: 2021-05.1725
-  reference_count: 5
+  announcement: 2021-06.1459
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5421,11 +5533,12 @@
     - 2021-03.2553
     - 2021-04.2196
     - 2021-05.1725
-    reference_count: 5
+    - 2021-06.1459
+    reference_count: 6
     summary: no summary given
 '20201007':
-  announcement: 2021-05.1749
-  reference_count: 119
+  announcement: 2021-06.1483
+  reference_count: 139
   thread_count: 3
   threads:
   - messages:
@@ -5439,15 +5552,16 @@
     - 2021-03.2577
     - 2021-04.2220
     - 2021-05.1749
-    reference_count: 107
+    - 2021-06.1483
+    reference_count: 127
     summary: no summary given
   - messages:
     - 2020-10.64
     reference_count: 11
     summary: and X11 keyboard setup
 '20201008':
-  announcement: 2021-05.1773
-  reference_count: 5
+  announcement: 2021-06.1507
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5456,11 +5570,12 @@
     - 2021-03.2601
     - 2021-04.2244
     - 2021-05.1773
-    reference_count: 5
+    - 2021-06.1507
+    reference_count: 6
     summary: no summary given
 '20201009':
-  announcement: 2021-05.1776
-  reference_count: 5
+  announcement: 2021-06.1510
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5469,11 +5584,12 @@
     - 2021-03.2604
     - 2021-04.2247
     - 2021-05.1776
-    reference_count: 5
+    - 2021-06.1510
+    reference_count: 6
     summary: no summary given
 '20201011':
-  announcement: 2021-05.1779
-  reference_count: 5
+  announcement: 2021-06.1513
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5482,11 +5598,12 @@
     - 2021-03.2607
     - 2021-04.2250
     - 2021-05.1779
-    reference_count: 5
+    - 2021-06.1513
+    reference_count: 6
     summary: no summary given
 '20201012':
-  announcement: 2021-05.1786
-  reference_count: 5
+  announcement: 2021-06.1520
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5495,11 +5612,12 @@
     - 2021-03.2614
     - 2021-04.2257
     - 2021-05.1786
-    reference_count: 5
+    - 2021-06.1520
+    reference_count: 6
     summary: no summary given
 '20201014':
-  announcement: 2021-05.1822
-  reference_count: 35
+  announcement: 2021-06.1556
+  reference_count: 41
   thread_count: 3
   threads:
   - messages:
@@ -5513,7 +5631,8 @@
     - 2021-03.2658
     - 2021-04.2301
     - 2021-05.1830
-    reference_count: 6
+    - 2021-06.1564
+    reference_count: 7
     summary: kstart5 no longer runs desktop files
   - messages:
     - 2021-01.3626
@@ -5521,11 +5640,12 @@
     - 2021-03.2650
     - 2021-04.2293
     - 2021-05.1822
-    reference_count: 25
+    - 2021-06.1556
+    reference_count: 30
     summary: no summary given
 '20201019':
-  announcement: 2021-05.1893
-  reference_count: 5
+  announcement: 2021-06.1627
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5534,11 +5654,12 @@
     - 2021-03.2721
     - 2021-04.2364
     - 2021-05.1893
-    reference_count: 5
+    - 2021-06.1627
+    reference_count: 6
     summary: no summary given
 '20201021':
-  announcement: 2021-05.1908
-  reference_count: 5
+  announcement: 2021-06.1642
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5547,11 +5668,12 @@
     - 2021-03.2736
     - 2021-04.2379
     - 2021-05.1908
-    reference_count: 5
+    - 2021-06.1642
+    reference_count: 6
     summary: no summary given
 '20201022':
-  announcement: 2021-05.1926
-  reference_count: 5
+  announcement: 2021-06.1660
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5560,11 +5682,12 @@
     - 2021-03.2754
     - 2021-04.2397
     - 2021-05.1926
-    reference_count: 5
+    - 2021-06.1660
+    reference_count: 6
     summary: no summary given
 '20201023':
-  announcement: 2021-05.1945
-  reference_count: 5
+  announcement: 2021-06.1679
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5573,11 +5696,12 @@
     - 2021-03.2773
     - 2021-04.2416
     - 2021-05.1945
-    reference_count: 5
+    - 2021-06.1679
+    reference_count: 6
     summary: no summary given
 '20201024':
-  announcement: 2021-05.1962
-  reference_count: 73
+  announcement: 2021-06.1696
+  reference_count: 86
   thread_count: 3
   threads:
   - messages:
@@ -5594,11 +5718,12 @@
     - 2021-03.2790
     - 2021-04.2433
     - 2021-05.1962
-    reference_count: 63
+    - 2021-06.1696
+    reference_count: 76
     summary: no summary given
 '20201025':
-  announcement: 2021-05.1977
-  reference_count: 5
+  announcement: 2021-06.1711
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5607,11 +5732,12 @@
     - 2021-03.2805
     - 2021-04.2448
     - 2021-05.1977
-    reference_count: 5
+    - 2021-06.1711
+    reference_count: 6
     summary: no summary given
 '20201026':
-  announcement: 2021-05.1989
-  reference_count: 60
+  announcement: 2021-06.1723
+  reference_count: 72
   thread_count: 2
   threads:
   - messages:
@@ -5620,7 +5746,8 @@
     - 2021-03.2796
     - 2021-04.2439
     - 2021-05.1968
-    reference_count: 55
+    - 2021-06.1702
+    reference_count: 66
     summary: 'Heads-up: Kernel 5.9.1+'
   - messages:
     - 2021-01.3793
@@ -5628,11 +5755,12 @@
     - 2021-03.2817
     - 2021-04.2460
     - 2021-05.1989
-    reference_count: 5
+    - 2021-06.1723
+    reference_count: 6
     summary: no summary given
 '20201028':
-  announcement: 2021-05.2022
-  reference_count: 5
+  announcement: 2021-06.1756
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5641,11 +5769,12 @@
     - 2021-03.2850
     - 2021-04.2493
     - 2021-05.2022
-    reference_count: 5
+    - 2021-06.1756
+    reference_count: 6
     summary: no summary given
 '20201029':
-  announcement: 2021-05.2032
-  reference_count: 5
+  announcement: 2021-06.1766
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5654,11 +5783,12 @@
     - 2021-03.2860
     - 2021-04.2503
     - 2021-05.2032
-    reference_count: 5
+    - 2021-06.1766
+    reference_count: 6
     summary: no summary given
 '20201030':
-  announcement: 2021-05.2043
-  reference_count: 5
+  announcement: 2021-06.1777
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5667,11 +5797,12 @@
     - 2021-03.2871
     - 2021-04.2514
     - 2021-05.2043
-    reference_count: 5
+    - 2021-06.1777
+    reference_count: 6
     summary: no summary given
 '20201104':
-  announcement: 2021-05.2099
-  reference_count: 5
+  announcement: 2021-06.1833
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5680,11 +5811,12 @@
     - 2021-03.2927
     - 2021-04.2570
     - 2021-05.2099
-    reference_count: 5
+    - 2021-06.1833
+    reference_count: 6
     summary: no summary given
 '20201105':
-  announcement: 2021-05.2107
-  reference_count: 5
+  announcement: 2021-06.1841
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5693,11 +5825,12 @@
     - 2021-03.2935
     - 2021-04.2578
     - 2021-05.2107
-    reference_count: 5
+    - 2021-06.1841
+    reference_count: 6
     summary: no summary given
 '20201106':
-  announcement: 2021-05.2115
-  reference_count: 5
+  announcement: 2021-06.1849
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5706,11 +5839,12 @@
     - 2021-03.2943
     - 2021-04.2586
     - 2021-05.2115
-    reference_count: 5
+    - 2021-06.1849
+    reference_count: 6
     summary: no summary given
 '20201107':
-  announcement: 2021-05.2126
-  reference_count: 5
+  announcement: 2021-06.1860
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5719,11 +5853,12 @@
     - 2021-03.2954
     - 2021-04.2597
     - 2021-05.2126
-    reference_count: 5
+    - 2021-06.1860
+    reference_count: 6
     summary: no summary given
 '20201108':
-  announcement: 2021-05.2148
-  reference_count: 5
+  announcement: 2021-06.1882
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5732,11 +5867,12 @@
     - 2021-03.2976
     - 2021-04.2619
     - 2021-05.2148
-    reference_count: 5
+    - 2021-06.1882
+    reference_count: 6
     summary: no summary given
 '20201114':
-  announcement: 2021-05.2214
-  reference_count: 95
+  announcement: 2021-06.1948
+  reference_count: 111
   thread_count: 2
   threads:
   - messages:
@@ -5746,15 +5882,16 @@
     - 2021-03.3042
     - 2021-04.2685
     - 2021-05.2214
-    reference_count: 81
+    - 2021-06.1948
+    reference_count: 97
     summary: no summary given
   - messages:
     - 2020-11.181
     reference_count: 14
     summary: failed to summarize
 '20201117':
-  announcement: 2021-05.2257
-  reference_count: 5
+  announcement: 2021-06.1991
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5763,11 +5900,12 @@
     - 2021-03.3085
     - 2021-04.2728
     - 2021-05.2257
-    reference_count: 5
+    - 2021-06.1991
+    reference_count: 6
     summary: no summary given
 '20201119':
-  announcement: 2021-05.2279
-  reference_count: 35
+  announcement: 2021-06.2013
+  reference_count: 41
   thread_count: 1
   threads:
   - messages:
@@ -5777,11 +5915,12 @@
     - 2021-03.3107
     - 2021-04.2750
     - 2021-05.2279
-    reference_count: 35
+    - 2021-06.2013
+    reference_count: 41
     summary: no summary given
 '20201121':
-  announcement: 2021-05.2296
-  reference_count: 5
+  announcement: 2021-06.2030
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5790,11 +5929,12 @@
     - 2021-03.3124
     - 2021-04.2767
     - 2021-05.2296
-    reference_count: 5
+    - 2021-06.2030
+    reference_count: 6
     summary: no summary given
 '20201123':
-  announcement: 2021-05.2307
-  reference_count: 47
+  announcement: 2021-06.2041
+  reference_count: 55
   thread_count: 3
   threads:
   - messages:
@@ -5814,7 +5954,9 @@
     - 2021-04.2837
     - 2021-05.2307
     - 2021-05.2366
-    reference_count: 33
+    - 2021-06.2041
+    - 2021-06.2100
+    reference_count: 39
     summary: no summary given
   - messages:
     - 2020-11.330
@@ -5823,11 +5965,12 @@
     - 2021-03.3193
     - 2021-04.2836
     - 2021-05.2365
-    reference_count: 12
+    - 2021-06.2099
+    reference_count: 14
     summary: released!)
 '20201124':
-  announcement: 2021-05.2343
-  reference_count: 5
+  announcement: 2021-06.2077
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5836,11 +5979,12 @@
     - 2021-03.3171
     - 2021-04.2814
     - 2021-05.2343
-    reference_count: 5
+    - 2021-06.2077
+    reference_count: 6
     summary: no summary given
 '20201125':
-  announcement: 2021-05.2375
-  reference_count: 5
+  announcement: 2021-06.2109
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5849,11 +5993,12 @@
     - 2021-03.3203
     - 2021-04.2846
     - 2021-05.2375
-    reference_count: 5
+    - 2021-06.2109
+    reference_count: 6
     summary: no summary given
 '20201127':
-  announcement: 2021-05.2392
-  reference_count: 5
+  announcement: 2021-06.2126
+  reference_count: 6
   thread_count: 1
   threads:
   - messages:
@@ -5862,722 +6007,723 @@
     - 2021-03.3220
     - 2021-04.2863
     - 2021-05.2392
-    reference_count: 5
+    - 2021-06.2126
+    reference_count: 6
     summary: no summary given
 '20201129':
-  announcement: 2021-05.2396
+  announcement: 2021-06.2130
   reference_count: 0
   thread_count: 0
   threads: []
 '20201130':
-  announcement: 2021-05.2401
+  announcement: 2021-06.2135
   reference_count: 0
   thread_count: 0
   threads: []
 '20201201':
-  announcement: 2021-05.2408
+  announcement: 2021-06.2142
   reference_count: 1
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.2409
+    - 2021-06.2143
     reference_count: 1
     summary: 'OT: Listinfo "[opensuse-factory]" at Subject missing'
 '20201202':
-  announcement: 2021-05.2460
+  announcement: 2021-06.2194
   reference_count: 0
   thread_count: 0
   threads: []
 '20201203':
-  announcement: 2021-05.2494
+  announcement: 2021-06.2228
   reference_count: 10
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.2551
+    - 2021-06.2285
     reference_count: 10
     summary: gdb now supports debuginfod
 '20201205':
-  announcement: 2021-05.2532
+  announcement: 2021-06.2266
   reference_count: 3
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.2600
-    - 2021-05.2606
+    - 2021-06.2334
+    - 2021-06.2340
     reference_count: 3
     summary: fwupd displays warning after update [
 '20201207':
-  announcement: 2021-05.2607
+  announcement: 2021-06.2341
   reference_count: 0
   thread_count: 0
   threads: []
 '20201209':
-  announcement: 2021-05.2641
+  announcement: 2021-06.2375
   reference_count: 0
   thread_count: 0
   threads: []
 '20201211':
-  announcement: 2021-05.2649
+  announcement: 2021-06.2383
   reference_count: 0
   thread_count: 0
   threads: []
 '20201212':
-  announcement: 2021-05.2653
+  announcement: 2021-06.2387
   reference_count: 13
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.2672
+    - 2021-06.2406
     reference_count: 13
     summary: Problems during first boot after upgrade [
 '20201213':
-  announcement: 2021-05.2655
+  announcement: 2021-06.2389
   reference_count: 0
   thread_count: 0
   threads: []
 '20201214':
-  announcement: 2021-05.2699
+  announcement: 2021-06.2433
   reference_count: 0
   thread_count: 0
   threads: []
 '20201215':
-  announcement: 2021-05.2716
+  announcement: 2021-06.2450
   reference_count: 0
   thread_count: 0
   threads: []
 '20201216':
-  announcement: 2021-05.2728
+  announcement: 2021-06.2462
   reference_count: 0
   thread_count: 0
   threads: []
 '20201218':
-  announcement: 2021-05.2746
+  announcement: 2021-06.2480
   reference_count: 12
   thread_count: 2
   threads:
   - messages:
-    - 2021-05.2761
+    - 2021-06.2495
     reference_count: 1
     summary: '[BUG] konsole'
   - messages:
-    - 2021-05.2747
+    - 2021-06.2481
     reference_count: 11
     summary: installing sof firmware fails
 '20201221':
-  announcement: 2021-05.2760
+  announcement: 2021-06.2494
   reference_count: 0
   thread_count: 0
   threads: []
 '20201223':
-  announcement: 2021-05.2777
+  announcement: 2021-06.2511
   reference_count: 0
   thread_count: 0
   threads: []
 '20201224':
-  announcement: 2021-05.2779
+  announcement: 2021-06.2513
   reference_count: 5
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.2800
+    - 2021-06.2534
     reference_count: 5
     summary: released! => Bootup hangs after update
 '20201226':
-  announcement: 2021-05.2795
+  announcement: 2021-06.2529
   reference_count: 0
   thread_count: 0
   threads: []
 '20201228':
-  announcement: 2021-05.2807
+  announcement: 2021-06.2541
   reference_count: 5
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.2814
-    - 2021-05.2815
-    - 2021-05.2816
-    - 2021-05.2818
+    - 2021-06.2548
+    - 2021-06.2549
+    - 2021-06.2550
+    - 2021-06.2552
     reference_count: 5
     summary: no summary given
 '20201229':
-  announcement: 2021-05.2827
+  announcement: 2021-06.2561
   reference_count: 0
   thread_count: 0
   threads: []
 '20201231':
-  announcement: 2021-05.2835
+  announcement: 2021-06.2569
   reference_count: 0
   thread_count: 0
   threads: []
 '20210101':
-  announcement: 2021-05.2851
+  announcement: 2021-06.2585
   reference_count: 0
   thread_count: 0
   threads: []
 '20210102':
-  announcement: 2021-05.2855
+  announcement: 2021-06.2589
   reference_count: 0
   thread_count: 0
   threads: []
 '20210103':
-  announcement: 2021-05.2875
+  announcement: 2021-06.2609
   reference_count: 2
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.2901
+    - 2021-06.2635
     reference_count: 2
     summary: No picture in Gnome/Wayland after kernel update to v5.10.4
 '20210104':
-  announcement: 2021-05.2888
+  announcement: 2021-06.2622
   reference_count: 9
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.2924
+    - 2021-06.2658
     reference_count: 9
     summary: wxWidgets dependency errors
 '20210105':
-  announcement: 2021-05.2939
+  announcement: 2021-06.2673
   reference_count: 0
   thread_count: 0
   threads: []
 '20210106':
-  announcement: 2021-05.2979
+  announcement: 2021-06.2713
   reference_count: 0
   thread_count: 0
   threads: []
 '20210107':
-  announcement: 2021-05.3021
+  announcement: 2021-06.2755
   reference_count: 0
   thread_count: 0
   threads: []
 '20210108':
-  announcement: 2021-05.3027
+  announcement: 2021-06.2761
   reference_count: 7
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.3031
-    - 2021-05.3613
+    - 2021-06.2765
+    - 2021-06.3347
     reference_count: 7
     summary: -- akonadi issues
 '20210110':
-  announcement: 2021-05.3033
+  announcement: 2021-06.2767
   reference_count: 0
   thread_count: 0
   threads: []
 '20210111':
-  announcement: 2021-05.3080
+  announcement: 2021-06.2814
   reference_count: 0
   thread_count: 0
   threads: []
 '20210113':
-  announcement: 2021-05.3100
+  announcement: 2021-06.2834
   reference_count: 0
   thread_count: 0
   threads: []
 '20210114':
-  announcement: 2021-05.3115
+  announcement: 2021-06.2849
   reference_count: 0
   thread_count: 0
   threads: []
 '20210115':
-  announcement: 2021-05.3131
+  announcement: 2021-06.2865
   reference_count: 2
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.3132
+    - 2021-06.2866
     reference_count: 2
     summary: python can be bumpy
 '20210118':
-  announcement: 2021-05.3140
+  announcement: 2021-06.2874
   reference_count: 0
   thread_count: 0
   threads: []
 '20210119':
-  announcement: 2021-05.3148
+  announcement: 2021-06.2882
   reference_count: 0
   thread_count: 0
   threads: []
 '20210120':
-  announcement: 2021-05.3159
+  announcement: 2021-06.2893
   reference_count: 0
   thread_count: 0
   threads: []
 '20210121':
-  announcement: 2021-05.3197
+  announcement: 2021-06.2931
   reference_count: 0
   thread_count: 0
   threads: []
 '20210126':
-  announcement: 2021-05.3264
+  announcement: 2021-06.2998
   reference_count: 6
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.3272
+    - 2021-06.3006
     reference_count: 6
     summary: Coolest Changelog entry
 '20210127':
-  announcement: 2021-05.3275
+  announcement: 2021-06.3009
   reference_count: 0
   thread_count: 0
   threads: []
 '20210128':
-  announcement: 2021-05.3288
+  announcement: 2021-06.3022
   reference_count: 0
   thread_count: 0
   threads: []
 '20210130':
-  announcement: 2021-05.3315
+  announcement: 2021-06.3049
   reference_count: 0
   thread_count: 0
   threads: []
 '20210131':
-  announcement: 2021-05.3318
+  announcement: 2021-06.3052
   reference_count: 0
   thread_count: 0
   threads: []
 '20210202':
-  announcement: 2021-05.3340
+  announcement: 2021-06.3074
   reference_count: 5
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.3358
+    - 2021-06.3092
     reference_count: 5
     summary: no summary given
 '20210203':
-  announcement: 2021-05.3365
+  announcement: 2021-06.3099
   reference_count: 0
   thread_count: 0
   threads: []
 '20210205':
-  announcement: 2021-05.3393
+  announcement: 2021-06.3127
   reference_count: 0
   thread_count: 0
   threads: []
 '20210208':
-  announcement: 2021-05.3411
+  announcement: 2021-06.3145
   reference_count: 9
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.3416
+    - 2021-06.3150
     reference_count: 9
     summary: no summary given
 '20210209':
-  announcement: 2021-05.3434
+  announcement: 2021-06.3168
   reference_count: 0
   thread_count: 0
   threads: []
 '20210210':
-  announcement: 2021-05.3438
+  announcement: 2021-06.3172
   reference_count: 2
   thread_count: 2
   threads:
   - messages:
-    - 2021-05.3449
+    - 2021-06.3183
     reference_count: 1
     summary: fails to boot (dracut-initqueue timeout errors)
   - messages:
-    - 2021-05.3583
+    - 2021-06.3317
     reference_count: 1
     summary: be cautious  to upgrade x86_32 Tumbleweed system to snapshot
 '20210212':
-  announcement: 2021-05.3464
+  announcement: 2021-06.3198
   reference_count: 28
   thread_count: 3
   threads:
   - messages:
-    - 2021-05.3472
+    - 2021-06.3206
     reference_count: 2
     summary: glibc 2.33 and chroot
   - messages:
-    - 2021-05.3875
-    - 2021-05.3882
+    - 2021-06.3609
+    - 2021-06.3616
     reference_count: 2
     summary: = full reinstall
   - messages:
-    - 2021-05.4153
+    - 2021-06.3887
     reference_count: 24
     summary: FUDD on having multiple library versions. (was
 '20210215':
-  announcement: 2021-05.3493
+  announcement: 2021-06.3227
   reference_count: 0
   thread_count: 0
   threads: []
 '20210217':
-  announcement: 2021-05.3531
+  announcement: 2021-06.3265
   reference_count: 6
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.3533
+    - 2021-06.3267
     reference_count: 6
     summary: File conflicts from procps-lang
 '20210218':
-  announcement: 2021-05.3559
+  announcement: 2021-06.3293
   reference_count: 0
   thread_count: 0
   threads: []
 '20210219':
-  announcement: 2021-05.3590
+  announcement: 2021-06.3324
   reference_count: 0
   thread_count: 0
   threads: []
 '20210220':
-  announcement: 2021-05.3601
+  announcement: 2021-06.3335
   reference_count: 0
   thread_count: 0
   threads: []
 '20210222':
-  announcement: 2021-05.3649
+  announcement: 2021-06.3383
   reference_count: 26
   thread_count: 3
   threads:
   - messages:
-    - 2021-05.3750
+    - 2021-06.3484
     reference_count: 1
     summary: Compose key handling in GTK broken
   - messages:
-    - 2021-05.3650
-    - 2021-05.3651
-    - 2021-05.3668
-    - 2021-05.3691
-    - 2021-05.3693
-    - 2021-05.3961
-    - 2021-05.3964
+    - 2021-06.3384
+    - 2021-06.3385
+    - 2021-06.3402
+    - 2021-06.3425
+    - 2021-06.3427
+    - 2021-06.3695
+    - 2021-06.3698
     reference_count: 24
     summary: if on nvidia GPU
   - messages:
-    - 2021-05.3656
+    - 2021-06.3390
     reference_count: 1
     summary: ', PAM and NIS'
 '20210223':
-  announcement: 2021-05.3721
+  announcement: 2021-06.3455
   reference_count: 0
   thread_count: 0
   threads: []
 '20210227':
-  announcement: 2021-05.3768
+  announcement: 2021-06.3502
   reference_count: 0
   thread_count: 0
   threads: []
 '20210302':
-  announcement: 2021-05.3772
+  announcement: 2021-06.3506
   reference_count: 0
   thread_count: 0
   threads: []
 '20210305':
-  announcement: 2021-05.3816
+  announcement: 2021-06.3550
   reference_count: 0
   thread_count: 0
   threads: []
 '20210306':
-  announcement: 2021-05.3830
+  announcement: 2021-06.3564
   reference_count: 0
   thread_count: 0
   threads: []
 '20210307':
-  announcement: 2021-05.3835
+  announcement: 2021-06.3569
   reference_count: 0
   thread_count: 0
   threads: []
 '20210311':
-  announcement: 2021-05.3909
+  announcement: 2021-06.3643
   reference_count: 9
   thread_count: 2
   threads:
   - messages:
-    - 2021-05.3915
+    - 2021-06.3649
     reference_count: 8
     summary: Server on stress
   - messages:
-    - 2021-05.3911
+    - 2021-06.3645
     reference_count: 1
     summary: released!
 '20210312':
-  announcement: 2021-05.3954
+  announcement: 2021-06.3688
   reference_count: 0
   thread_count: 0
   threads: []
 '20210315':
-  announcement: 2021-05.3959
+  announcement: 2021-06.3693
   reference_count: 0
   thread_count: 0
   threads: []
 '20210316':
-  announcement: 2021-05.3968
+  announcement: 2021-06.3702
   reference_count: 0
   thread_count: 0
   threads: []
 '20210317':
-  announcement: 2021-05.3982
+  announcement: 2021-06.3716
   reference_count: 2
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.3988
+    - 2021-06.3722
     reference_count: 2
     summary: failed to summarize
 '20210318':
-  announcement: 2021-05.3993
+  announcement: 2021-06.3727
   reference_count: 7
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.3997
-    - 2021-05.3999
-    - 2021-05.4000
+    - 2021-06.3731
+    - 2021-06.3733
+    - 2021-06.3734
     reference_count: 7
     summary: Boot delay due to NetworkManager-wait-online.service [
 '20210319':
-  announcement: 2021-05.3996
+  announcement: 2021-06.3730
   reference_count: 0
   thread_count: 0
   threads: []
 '20210320':
-  announcement: 2021-05.4002
+  announcement: 2021-06.3736
   reference_count: 4
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.4011
+    - 2021-06.3745
     reference_count: 4
     summary: upgrade of perl (5.32.0 -> 5.32.1) creates some requirement issues
 '20210321':
-  announcement: 2021-05.4029
+  announcement: 2021-06.3763
   reference_count: 0
   thread_count: 0
   threads: []
 '20210325':
-  announcement: 2021-05.4050
+  announcement: 2021-06.3784
   reference_count: 8
   thread_count: 2
   threads:
   - messages:
-    - 2021-05.4052
+    - 2021-06.3786
     reference_count: 3
     summary: ']'
   - messages:
-    - 2021-05.4057
+    - 2021-06.3791
     reference_count: 5
     summary: debuginfod enabled by default now
 '20210329':
-  announcement: 2021-05.4070
+  announcement: 2021-06.3804
   reference_count: 0
   thread_count: 0
   threads: []
 '20210330':
-  announcement: 2021-05.4081
+  announcement: 2021-06.3815
   reference_count: 0
   thread_count: 0
   threads: []
 '20210401':
-  announcement: 2021-05.4091
+  announcement: 2021-06.3825
   reference_count: 0
   thread_count: 0
   threads: []
 '20210406':
-  announcement: 2021-05.4140
+  announcement: 2021-06.3874
   reference_count: 0
   thread_count: 0
   threads: []
 '20210408':
-  announcement: 2021-05.4167
+  announcement: 2021-06.3901
   reference_count: 12
   thread_count: 2
   threads:
   - messages:
-    - 2021-05.4190
+    - 2021-06.3924
     reference_count: 2
     summary: proprietary nvidia kernel needs reinstall
   - messages:
-    - 2021-05.4191
+    - 2021-06.3925
     reference_count: 10
     summary: error connecting to mirrors? from get to dl.os.org?
 '20210414':
-  announcement: 2021-05.4303
+  announcement: 2021-06.4037
   reference_count: 0
   thread_count: 0
   threads: []
 '20210415':
-  announcement: 2021-05.4339
+  announcement: 2021-06.4073
   reference_count: 0
   thread_count: 0
   threads: []
 '20210416':
-  announcement: 2021-05.4352
+  announcement: 2021-06.4086
   reference_count: 0
   thread_count: 0
   threads: []
 '20210417':
-  announcement: 2021-05.4356
+  announcement: 2021-06.4090
   reference_count: 0
   thread_count: 0
   threads: []
 '20210418':
-  announcement: 2021-05.4370
+  announcement: 2021-06.4104
   reference_count: 0
   thread_count: 0
   threads: []
 '20210420':
-  announcement: 2021-05.4403
+  announcement: 2021-06.4137
   reference_count: 0
   thread_count: 0
   threads: []
 '20210422':
-  announcement: 2021-05.4410
+  announcement: 2021-06.4144
   reference_count: 0
   thread_count: 0
   threads: []
 '20210423':
-  announcement: 2021-05.4411
+  announcement: 2021-06.4145
   reference_count: 10
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.4412
+    - 2021-06.4146
     reference_count: 10
     summary: Firefox 88.0 unusable
 '20210425':
-  announcement: 2021-05.4434
+  announcement: 2021-06.4168
   reference_count: 3
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.4439
+    - 2021-06.4173
     reference_count: 3
     summary: kernel versions .15 vs. .16
 '20210426':
-  announcement: 2021-05.4446
+  announcement: 2021-06.4180
   reference_count: 0
   thread_count: 0
   threads: []
 '20210427':
-  announcement: 2021-05.4485
+  announcement: 2021-06.4219
   reference_count: 0
   thread_count: 0
   threads: []
 '20210428':
-  announcement: 2021-05.4526
+  announcement: 2021-06.4260
   reference_count: 0
   thread_count: 0
   threads: []
 '20210429':
-  announcement: 2021-05.4538
+  announcement: 2021-06.4272
   reference_count: 0
   thread_count: 0
   threads: []
 '20210430':
-  announcement: 2021-05.4555
+  announcement: 2021-06.4289
   reference_count: 0
   thread_count: 0
   threads: []
 '20210502':
-  announcement: 2021-05.4560
+  announcement: 2021-06.4294
   reference_count: 0
   thread_count: 0
   threads: []
 '20210504':
-  announcement: 2021-05.4587
+  announcement: 2021-06.4321
   reference_count: 0
   thread_count: 0
   threads: []
 '20210505':
-  announcement: 2021-05.4615
+  announcement: 2021-06.4349
   reference_count: 0
   thread_count: 0
   threads: []
 '20210506':
-  announcement: 2021-05.4627
+  announcement: 2021-06.4361
   reference_count: 0
   thread_count: 0
   threads: []
 '20210507':
-  announcement: 2021-05.4650
+  announcement: 2021-06.4384
   reference_count: 1
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.4675
+    - 2021-06.4409
     reference_count: 1
     summary: thank you
 '20210508':
-  announcement: 2021-05.4686
+  announcement: 2021-06.4420
   reference_count: 0
   thread_count: 0
   threads: []
 '20210510':
-  announcement: 2021-05.4706
+  announcement: 2021-06.4440
   reference_count: 0
   thread_count: 0
   threads: []
 '20210511':
-  announcement: 2021-05.4712
+  announcement: 2021-06.4446
   reference_count: 0
   thread_count: 0
   threads: []
 '20210512':
-  announcement: 2021-05.4742
+  announcement: 2021-06.4476
   reference_count: 0
   thread_count: 0
   threads: []
 '20210513':
-  announcement: 2021-05.4761
+  announcement: 2021-06.4495
   reference_count: 0
   thread_count: 0
   threads: []
 '20210514':
-  announcement: 2021-05.4768
+  announcement: 2021-06.4502
   reference_count: 0
   thread_count: 0
   threads: []
 '20210515':
-  announcement: 2021-05.4774
+  announcement: 2021-06.4508
   reference_count: 0
   thread_count: 0
   threads: []
 '20210517':
-  announcement: 2021-05.4800
+  announcement: 2021-06.4534
   reference_count: 0
   thread_count: 0
   threads: []
 '20210519':
-  announcement: 2021-05.4805
+  announcement: 2021-06.4539
   reference_count: 4
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.4810
-    - 2021-05.4818
+    - 2021-06.4544
+    - 2021-06.4552
     reference_count: 4
     summary: breaks spyder python IDE
 '20210520':
-  announcement: 2021-05.4820
+  announcement: 2021-06.4554
   reference_count: 0
   thread_count: 0
   threads: []
 '20210521':
-  announcement: 2021-05.4828
+  announcement: 2021-06.4562
   reference_count: 0
   thread_count: 0
   threads: []
 '20210522':
-  announcement: 2021-05.4833
+  announcement: 2021-06.4567
   reference_count: 0
   thread_count: 0
   threads: []
 '20210524':
-  announcement: 2021-05.4847
+  announcement: 2021-06.4581
   reference_count: 1
   thread_count: 1
   threads:
   - messages:
-    - 2021-05.4851
+    - 2021-06.4585
     reference_count: 1
     summary: Kernel moaning
