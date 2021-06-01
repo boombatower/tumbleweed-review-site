@@ -58617,6 +58617,12 @@
   status: RESOLVED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: YaST2
+  create_time: 20210601T13:04:00
+  id: 1186697
+  resolution: ''
+  status: NEW
+  summary: yast2 iscsi-client finishes with error
 - component: Other
   create_time: 20210601T09:20:00
   id: 1186688
