@@ -58627,7 +58627,7 @@
   create_time: 20210531T14:40:00
   id: 1186669
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: postfix.service has "Requires=var-run.mount"
 - component: libzypp
   create_time: 20210531T06:42:00
