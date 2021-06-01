@@ -58617,6 +58617,117 @@
   status: RESOLVED
   summary: chkconfig missing in systemd-sysv-install
 '20210524':
+- component: X.Org
+  create_time: 20210526T20:58:00
+  id: 1186477
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Mesa-21.1.1-278.1 breaks Warthunder
+- component: Other
+  create_time: 20210526T19:11:00
+  id: 1186475
+  resolution: ''
+  status: IN_PROGRESS
+  summary: enable svt-av1support in ffmpeg
+- component: Basesystem
+  create_time: 20210526T13:52:00
+  id: 1186468
+  resolution: INVALID
+  status: RESOLVED
+  summary: rescuesystem does not prompt for keymap
+- component: Development
+  create_time: 20210526T08:25:00
+  id: 1186462
+  resolution: ''
+  status: REOPENED
+  summary: Base:System usrmessedup
+- component: High Availability
+  create_time: 20210526T07:53:00
+  id: 1186461
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'ocfs2-test: cannot install ocfs2-test package on the latest  openSUSE
+    Tumbleweed 20210522'
+- component: Basesystem
+  create_time: 20210526T06:56:00
+  id: 1186459
+  resolution: INVALID
+  status: RESOLVED
+  summary: Builds of base packages are failing because of conflicts within ip
+- component: X11 Applications
+  create_time: 20210525T21:47:00
+  id: 1186455
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Backport fix for SEGFAULT of RawTherapee
+- component: Kernel
+  create_time: 20210525T21:05:00
+  id: 1186454
+  resolution: ''
+  status: NEW
+  summary: Oops at probing elants_i2c driver on 5.12.x kernels
+- component: Basesystem
+  create_time: 20210525T19:14:00
+  id: 1186448
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Request update to SUSE:Factory:Head/fwts from 21.03.00 to 21.05.00
+- component: Development
+  create_time: 20210525T15:06:00
+  id: 1186432
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Sdb Page for golang installation, Repo buggy?
+- component: YaST2
+  create_time: 20210525T14:22:00
+  id: 1186426
+  resolution: FIXED
+  status: RESOLVED
+  summary: Add new YaST widget demo client
+- component: Bootloader
+  create_time: 20210525T14:11:00
+  id: 1186425
+  resolution: FIXED
+  status: RESOLVED
+  summary: Bogus "(no output on stdout)/" directory in boot image
+- component: Sound
+  create_time: 20210525T13:44:00
+  id: 1186422
+  resolution: ''
+  status: NEW
+  summary: A Long beep sound hijacks audio playbacks after some seconds of playback
+- component: Network
+  create_time: 20210525T07:56:00
+  id: 1186404
+  resolution: ''
+  status: NEW
+  summary: Linphone 4.2.5 undefined symbol liblinphone.so.10
+- component: Basesystem
+  create_time: 20210525T06:51:00
+  id: 1186400
+  resolution: ''
+  status: NEW
+  summary: 'beets: python-discogs-client is obsoleted'
+- component: GNOME
+  create_time: 20210524T13:43:00
+  id: 1186385
+  resolution: ''
+  status: NEW
+  summary: flatpak missing gnutls dependency
+- component: X11 3rd Party Driver
+  create_time: 20210524T11:45:00
+  id: 1186383
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'nvidia: Second external monitor is not working when using Thunderbolt
+    dock'
+'20210527':
+- component: YaST2
+  create_time: 20210601T16:07:00
+  id: 1186705
+  resolution: ''
+  status: IN_PROGRESS
+  summary: YaST2 Qt UI Tab Widgets are Ugly
 - component: YaST2
   create_time: 20210601T13:04:00
   id: 1186697
@@ -58733,107 +58844,3 @@
   resolution: ''
   status: NEW
   summary: GRUB crashes (breaking boot) if fonts are missing
-- component: X.Org
-  create_time: 20210526T20:58:00
-  id: 1186477
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Mesa-21.1.1-278.1 breaks Warthunder
-- component: Other
-  create_time: 20210526T19:11:00
-  id: 1186475
-  resolution: ''
-  status: IN_PROGRESS
-  summary: enable svt-av1support in ffmpeg
-- component: Basesystem
-  create_time: 20210526T13:52:00
-  id: 1186468
-  resolution: INVALID
-  status: RESOLVED
-  summary: rescuesystem does not prompt for keymap
-- component: Development
-  create_time: 20210526T08:25:00
-  id: 1186462
-  resolution: ''
-  status: REOPENED
-  summary: Base:System usrmessedup
-- component: High Availability
-  create_time: 20210526T07:53:00
-  id: 1186461
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'ocfs2-test: cannot install ocfs2-test package on the latest  openSUSE
-    Tumbleweed 20210522'
-- component: Basesystem
-  create_time: 20210526T06:56:00
-  id: 1186459
-  resolution: INVALID
-  status: RESOLVED
-  summary: Builds of base packages are failing because of conflicts within ip
-- component: X11 Applications
-  create_time: 20210525T21:47:00
-  id: 1186455
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Backport fix for SEGFAULT of RawTherapee
-- component: Kernel
-  create_time: 20210525T21:05:00
-  id: 1186454
-  resolution: ''
-  status: NEW
-  summary: Oops at probing elants_i2c driver on 5.12.x kernels
-- component: Basesystem
-  create_time: 20210525T19:14:00
-  id: 1186448
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Request update to SUSE:Factory:Head/fwts from 21.03.00 to 21.05.00
-- component: Development
-  create_time: 20210525T15:06:00
-  id: 1186432
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: Sdb Page for golang installation, Repo buggy?
-- component: YaST2
-  create_time: 20210525T14:22:00
-  id: 1186426
-  resolution: FIXED
-  status: RESOLVED
-  summary: Add new YaST widget demo client
-- component: Bootloader
-  create_time: 20210525T14:11:00
-  id: 1186425
-  resolution: FIXED
-  status: RESOLVED
-  summary: Bogus "(no output on stdout)/" directory in boot image
-- component: Sound
-  create_time: 20210525T13:44:00
-  id: 1186422
-  resolution: ''
-  status: NEW
-  summary: A Long beep sound hijacks audio playbacks after some seconds of playback
-- component: Network
-  create_time: 20210525T07:56:00
-  id: 1186404
-  resolution: ''
-  status: NEW
-  summary: Linphone 4.2.5 undefined symbol liblinphone.so.10
-- component: Basesystem
-  create_time: 20210525T06:51:00
-  id: 1186400
-  resolution: ''
-  status: NEW
-  summary: 'beets: python-discogs-client is obsoleted'
-- component: GNOME
-  create_time: 20210524T13:43:00
-  id: 1186385
-  resolution: ''
-  status: NEW
-  summary: flatpak missing gnutls dependency
-- component: X11 3rd Party Driver
-  create_time: 20210524T11:45:00
-  id: 1186383
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'nvidia: Second external monitor is not working when using Thunderbolt
-    dock'
