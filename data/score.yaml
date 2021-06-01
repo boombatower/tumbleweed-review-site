@@ -2033,16 +2033,16 @@
   score: 97
   stability_level: stable
 '20210430':
+  score: 97
+  stability_level: stable
+'20210502':
   score: 82
   stability_level: moderate
-'20210502':
+'20210504':
   score: 76
   stability_level: moderate
-'20210504':
-  score: 74
-  stability_level: moderate
 '20210505':
-  score: 72
+  score: 73
   stability_level: moderate
 '20210506':
   score: 72
