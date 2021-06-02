@@ -58722,6 +58722,18 @@
   summary: 'nvidia: Second external monitor is not working when using Thunderbolt
     dock'
 '20210527':
+- component: YaST2
+  create_time: 20210602T11:13:00
+  id: 1186741
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'libyui-qt build failure with latest gcc 11.1: [-Werror=mismatched-new-delete]'
+- component: Security
+  create_time: 20210602T10:19:00
+  id: 1186735
+  resolution: ''
+  status: NEW
+  summary: openscap says everything is "nonapplicable"
 - component: KDE Workspace (Plasma)
   create_time: 20210602T09:59:00
   id: 1186734
@@ -58750,7 +58762,7 @@
   create_time: 20210602T07:15:00
   id: 1186721
   resolution: ''
-  status: IN_PROGRESS
+  status: REOPENED
   summary: Mesa-dri-nouveau autoselected during "zypper dup"
 - component: Network
   create_time: 20210602T07:02:00
