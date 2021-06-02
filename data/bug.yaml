@@ -57082,7 +57082,7 @@
   create_time: 20210425T18:12:00
   id: 1185276
   resolution: ''
-  status: IN_PROGRESS
+  status: REOPENED
   summary: Mesa - regression with video playback for HD channels on Hauppauge Card
     HVR5525
 - component: Firefox
@@ -58785,8 +58785,8 @@
 - component: Network
   create_time: 20210602T07:02:00
   id: 1186720
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: DNS upgrade brakes DNS on a machine with unbound.
 - component: Basesystem
   create_time: 20210602T00:58:00
