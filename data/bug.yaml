@@ -58530,8 +58530,8 @@
 - component: YaST2
   create_time: 20210520T07:58:00
   id: 1186280
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Allow the ipv4 / ipv6 forwarding defaults to be defined by the control
     file
 - component: Other
@@ -58722,6 +58722,12 @@
   summary: 'nvidia: Second external monitor is not working when using Thunderbolt
     dock'
 '20210527':
+- component: MicroOS
+  create_time: 20210602T16:27:00
+  id: 1186775
+  resolution: ''
+  status: NEW
+  summary: Cannot install git package(s) with "transactional-update pkg install" command
 - component: YaST2
   create_time: 20210602T12:17:00
   id: 1186747
