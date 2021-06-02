@@ -58723,6 +58723,18 @@
     dock'
 '20210527':
 - component: YaST2
+  create_time: 20210602T12:17:00
+  id: 1186747
+  resolution: ''
+  status: NEW
+  summary: After accepting license and navigating back, empty license is displayed
+- component: Upgrade Problems
+  create_time: 20210602T12:15:00
+  id: 1186746
+  resolution: ''
+  status: NEW
+  summary: 'UsrMerge: weird output from filesystems package'
+- component: YaST2
   create_time: 20210602T11:13:00
   id: 1186741
   resolution: FIXED
@@ -58761,8 +58773,8 @@
 - component: Other
   create_time: 20210602T07:15:00
   id: 1186721
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Mesa-dri-nouveau autoselected during "zypper dup"
 - component: Network
   create_time: 20210602T07:02:00
@@ -58805,8 +58817,8 @@
 - component: Other
   create_time: 20210601T09:20:00
   id: 1186688
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'missing  Repotype: staticlinks in openSUSE:Factory:RISCV'
 - component: Network
   create_time: 20210531T14:40:00
@@ -58894,6 +58906,12 @@
   resolution: FIXED
   status: RESOLVED
   summary: KMail cannot authenticate due to missing SASL dependencies
+- component: High Availability
+  create_time: 20210528T07:12:00
+  id: 1186576
+  resolution: ''
+  status: IN_PROGRESS
+  summary: crm_verify core dumped
 - component: Sound
   create_time: 20210528T00:29:00
   id: 1186572
