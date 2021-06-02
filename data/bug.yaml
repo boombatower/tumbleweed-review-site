@@ -58722,6 +58722,13 @@
   summary: 'nvidia: Second external monitor is not working when using Thunderbolt
     dock'
 '20210527':
+- component: Basesystem
+  create_time: 20210602T00:58:00
+  id: 1186715
+  resolution: ''
+  status: NEW
+  summary: '[Tumbleweed][openssl][libressl] older "/usr/bin/openssl" command gave
+    wrong return code'
 - component: AppArmor
   create_time: 20210601T21:38:00
   id: 1186711
