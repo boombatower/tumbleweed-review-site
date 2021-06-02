@@ -58726,7 +58726,7 @@
   create_time: 20210602T12:17:00
   id: 1186747
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: After accepting license and navigating back, empty license is displayed
 - component: Upgrade Problems
   create_time: 20210602T12:15:00
@@ -58744,7 +58744,7 @@
   create_time: 20210602T10:19:00
   id: 1186735
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: openscap says everything is "nonapplicable"
 - component: KDE Workspace (Plasma)
   create_time: 20210602T09:59:00
@@ -58805,8 +58805,8 @@
 - component: YaST2
   create_time: 20210601T16:07:00
   id: 1186705
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: YaST2 Qt UI Tab Widgets are Ugly
 - component: YaST2
   create_time: 20210601T13:04:00
@@ -58854,8 +58854,8 @@
 - component: Basesystem
   create_time: 20210529T20:43:00
   id: 1186637
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'error: lua script failed: [string "%pretrans(filesystem-15.5-40.2.riscv64)"]:37:
     exit'
 - component: Other
