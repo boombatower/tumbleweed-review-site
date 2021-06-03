@@ -57082,7 +57082,7 @@
   create_time: 20210425T18:12:00
   id: 1185276
   resolution: ''
-  status: REOPENED
+  status: IN_PROGRESS
   summary: Mesa - regression with video playback for HD channels on Hauppauge Card
     HVR5525
 - component: Firefox
@@ -58722,110 +58722,6 @@
   summary: 'nvidia: Second external monitor is not working when using Thunderbolt
     dock'
 '20210527':
-- component: MicroOS
-  create_time: 20210602T16:27:00
-  id: 1186775
-  resolution: ''
-  status: NEW
-  summary: Cannot install git package(s) with "transactional-update pkg install" command
-- component: YaST2
-  create_time: 20210602T12:17:00
-  id: 1186747
-  resolution: ''
-  status: CONFIRMED
-  summary: After accepting license and navigating back, empty license is displayed
-- component: Upgrade Problems
-  create_time: 20210602T12:15:00
-  id: 1186746
-  resolution: ''
-  status: NEW
-  summary: 'UsrMerge: weird output from filesystems package'
-- component: YaST2
-  create_time: 20210602T11:13:00
-  id: 1186741
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'libyui-qt build failure with latest gcc 11.1: [-Werror=mismatched-new-delete]'
-- component: Security
-  create_time: 20210602T10:19:00
-  id: 1186735
-  resolution: ''
-  status: CONFIRMED
-  summary: openscap says everything is "nonapplicable"
-- component: KDE Workspace (Plasma)
-  create_time: 20210602T09:59:00
-  id: 1186734
-  resolution: ''
-  status: NEW
-  summary: The KDE applet does not display the temperature of one sensor
-- component: libzypp
-  create_time: 20210602T09:19:00
-  id: 1186732
-  resolution: ''
-  status: NEW
-  summary: Can't uninstall just the latest kernel version
-- component: Upgrade Problems
-  create_time: 20210602T09:00:00
-  id: 1186730
-  resolution: ''
-  status: NEW
-  summary: zypper dup 20210519 => 20210527 (UsrMerge) failed
-- component: Kernel
-  create_time: 20210602T08:59:00
-  id: 1186729
-  resolution: ''
-  status: NEW
-  summary: Hibernation stopped working after update 04 May 2020
-- component: Other
-  create_time: 20210602T07:15:00
-  id: 1186721
-  resolution: FIXED
-  status: RESOLVED
-  summary: Mesa-dri-nouveau autoselected during "zypper dup"
-- component: Network
-  create_time: 20210602T07:02:00
-  id: 1186720
-  resolution: INVALID
-  status: RESOLVED
-  summary: DNS upgrade brakes DNS on a machine with unbound.
-- component: Basesystem
-  create_time: 20210602T00:58:00
-  id: 1186715
-  resolution: ''
-  status: NEW
-  summary: '[Tumbleweed][openssl][libressl] older "/usr/bin/openssl" command gave
-    wrong return code'
-- component: AppArmor
-  create_time: 20210601T21:38:00
-  id: 1186711
-  resolution: ''
-  status: NEW
-  summary: apparmor change breaks dnsmasq dhcp-script execution
-- component: Kernel
-  create_time: 20210601T21:34:00
-  id: 1186710
-  resolution: ''
-  status: NEW
-  summary: wrong/dead symlinks with kernel-default-devel-5.12.4-2.1.x86_64 (after
-    usrmerge?)
-- component: YaST2
-  create_time: 20210601T16:07:00
-  id: 1186705
-  resolution: FIXED
-  status: RESOLVED
-  summary: YaST2 Qt UI Tab Widgets are Ugly
-- component: YaST2
-  create_time: 20210601T13:04:00
-  id: 1186697
-  resolution: ''
-  status: NEW
-  summary: yast2 iscsi-client finishes with error
-- component: Other
-  create_time: 20210601T09:20:00
-  id: 1186688
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'missing  Repotype: staticlinks in openSUSE:Factory:RISCV'
 - component: Network
   create_time: 20210531T14:40:00
   id: 1186669
@@ -58936,3 +58832,115 @@
   resolution: ''
   status: NEW
   summary: GRUB crashes (breaking boot) if fonts are missing
+'20210601':
+- component: Basesystem
+  create_time: 20210602T23:06:00
+  id: 1186781
+  resolution: ''
+  status: NEW
+  summary: 'filesystem: usrmerge: cp: cannot create hard link: Invalid cross-device
+    link'
+- component: MicroOS
+  create_time: 20210602T16:27:00
+  id: 1186775
+  resolution: ''
+  status: NEW
+  summary: Cannot install git package(s) with "transactional-update pkg install" command
+- component: YaST2
+  create_time: 20210602T12:17:00
+  id: 1186747
+  resolution: ''
+  status: CONFIRMED
+  summary: After accepting license and navigating back, empty license is displayed
+- component: Upgrade Problems
+  create_time: 20210602T12:15:00
+  id: 1186746
+  resolution: ''
+  status: NEW
+  summary: 'UsrMerge: weird output from filesystems package'
+- component: YaST2
+  create_time: 20210602T11:13:00
+  id: 1186741
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'libyui-qt build failure with latest gcc 11.1: [-Werror=mismatched-new-delete]'
+- component: Security
+  create_time: 20210602T10:19:00
+  id: 1186735
+  resolution: ''
+  status: CONFIRMED
+  summary: openscap says everything is "nonapplicable"
+- component: KDE Workspace (Plasma)
+  create_time: 20210602T09:59:00
+  id: 1186734
+  resolution: ''
+  status: NEW
+  summary: The KDE applet does not display the temperature of one sensor
+- component: libzypp
+  create_time: 20210602T09:19:00
+  id: 1186732
+  resolution: ''
+  status: NEW
+  summary: Can't uninstall just the latest kernel version
+- component: Upgrade Problems
+  create_time: 20210602T09:00:00
+  id: 1186730
+  resolution: ''
+  status: NEW
+  summary: zypper dup 20210519 => 20210527 (UsrMerge) failed
+- component: Kernel
+  create_time: 20210602T08:59:00
+  id: 1186729
+  resolution: ''
+  status: NEW
+  summary: Hibernation stopped working after update 04 May 2020
+- component: Other
+  create_time: 20210602T07:15:00
+  id: 1186721
+  resolution: FIXED
+  status: RESOLVED
+  summary: Mesa-dri-nouveau autoselected during "zypper dup"
+- component: Network
+  create_time: 20210602T07:02:00
+  id: 1186720
+  resolution: INVALID
+  status: RESOLVED
+  summary: DNS upgrade brakes DNS on a machine with unbound.
+- component: Basesystem
+  create_time: 20210602T00:58:00
+  id: 1186715
+  resolution: ''
+  status: NEW
+  summary: '[Tumbleweed][openssl][libressl] older "/usr/bin/openssl" command gave
+    wrong return code'
+- component: AppArmor
+  create_time: 20210601T21:38:00
+  id: 1186711
+  resolution: ''
+  status: NEW
+  summary: apparmor change breaks dnsmasq dhcp-script execution
+- component: Kernel
+  create_time: 20210601T21:34:00
+  id: 1186710
+  resolution: ''
+  status: NEW
+  summary: wrong/dead symlinks with kernel-default-devel-5.12.4-2.1.x86_64 (after
+    usrmerge?)
+- component: YaST2
+  create_time: 20210601T16:07:00
+  id: 1186705
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST2 Qt UI Tab Widgets are Ugly
+- component: YaST2
+  create_time: 20210601T13:04:00
+  id: 1186697
+  resolution: ''
+  status: NEW
+  summary: yast2 iscsi-client finishes with error
+- component: Other
+  create_time: 20210601T09:20:00
+  id: 1186688
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'missing  Repotype: staticlinks in openSUSE:Factory:RISCV'
