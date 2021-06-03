@@ -58213,8 +58213,8 @@
 - component: Other
   create_time: 20210514T22:36:00
   id: 1186080
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '''borg mount'' fails due to missing python3-llfuse package'
 - component: Kernel
   create_time: 20210514T18:50:00
