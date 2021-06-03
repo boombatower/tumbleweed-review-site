@@ -55618,8 +55618,8 @@
 - component: Other
   create_time: 20210328T15:46:00
   id: 1184075
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: '[Staging]  python-hypothesis 6.81:test fails to build, python-hypothesis
     6.81 breaks other packages'
 - component: Kernel
@@ -58820,6 +58820,12 @@
   resolution: ''
   status: IN_PROGRESS
   summary: PipeWire on Plasma can't control the volume
+- component: Containers
+  create_time: 20210527T20:27:00
+  id: 1186566
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'devel:kubic/k3s: Bug host-local couldn''t be found in path'
 - component: Sound
   create_time: 20210527T15:51:00
   id: 1186561
@@ -58833,6 +58839,18 @@
   status: NEW
   summary: GRUB crashes (breaking boot) if fonts are missing
 '20210601':
+- component: Network
+  create_time: 20210603T12:33:00
+  id: 1186800
+  resolution: ''
+  status: NEW
+  summary: Chromium UI scales 200% on HIDPI screen
+- component: YaST2
+  create_time: 20210603T12:17:00
+  id: 1186798
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210601] openQA test fails in yast2_rmt'
 - component: GNOME
   create_time: 20210603T07:22:00
   id: 1186789
