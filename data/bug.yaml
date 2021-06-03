@@ -58839,6 +58839,13 @@
   status: NEW
   summary: GRUB crashes (breaking boot) if fonts are missing
 '20210601':
+- component: Kernel
+  create_time: 20210603T18:33:00
+  id: 1186828
+  resolution: ''
+  status: NEW
+  summary: nvidia-install (460.80) is broken in recent distribution update (openSUSE
+    Tumbleweed 20210601)
 - component: Mono
   create_time: 20210603T14:52:00
   id: 1186818
