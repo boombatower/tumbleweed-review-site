@@ -58839,6 +58839,13 @@
   status: NEW
   summary: GRUB crashes (breaking boot) if fonts are missing
 '20210601':
+- component: Mono
+  create_time: 20210603T14:52:00
+  id: 1186818
+  resolution: ''
+  status: NEW
+  summary: 'Wine: MarshalDirectiveException: string/stringbuilder marshalling conversion
+    29 not implemented'
 - component: Network
   create_time: 20210603T12:33:00
   id: 1186800
@@ -58941,8 +58948,8 @@
 - component: AppArmor
   create_time: 20210601T21:38:00
   id: 1186711
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: apparmor change breaks dnsmasq dhcp-script execution
 - component: Kernel
   create_time: 20210601T21:34:00
