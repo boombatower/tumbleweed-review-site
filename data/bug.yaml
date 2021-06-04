@@ -58871,6 +58871,25 @@
   status: RESOLVED
   summary: 'missing  Repotype: staticlinks in openSUSE:Factory:RISCV'
 '20210602':
+- component: Virtualization:Other
+  create_time: 20210604T19:56:00
+  id: 1186888
+  resolution: ''
+  status: NEW
+  summary: libvirt requests new capabilities / AppArmor denials
+- component: Kernel
+  create_time: 20210604T18:35:00
+  id: 1186884
+  resolution: ''
+  status: NEW
+  summary: Launching Tumbleweed under SEV-ES currently fails when kernel parses MOKVar
+    EFI table
+- component: Development
+  create_time: 20210604T18:10:00
+  id: 1186883
+  resolution: ''
+  status: NEW
+  summary: Development package for openssl 3.0 is missing
 - component: Installation
   create_time: 20210604T17:03:00
   id: 1186881
