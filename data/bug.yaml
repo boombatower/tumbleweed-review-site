@@ -58839,6 +58839,44 @@
   status: NEW
   summary: GRUB crashes (breaking boot) if fonts are missing
 '20210601':
+- component: AppArmor
+  create_time: 20210601T21:38:00
+  id: 1186711
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: apparmor change breaks dnsmasq dhcp-script execution
+- component: Kernel
+  create_time: 20210601T21:34:00
+  id: 1186710
+  resolution: ''
+  status: NEW
+  summary: wrong/dead symlinks with kernel-default-devel-5.12.4-2.1.x86_64 (after
+    usrmerge?)
+- component: YaST2
+  create_time: 20210601T16:07:00
+  id: 1186705
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST2 Qt UI Tab Widgets are Ugly
+- component: YaST2
+  create_time: 20210601T13:04:00
+  id: 1186697
+  resolution: ''
+  status: NEW
+  summary: yast2 iscsi-client finishes with error
+- component: Other
+  create_time: 20210601T09:20:00
+  id: 1186688
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'missing  Repotype: staticlinks in openSUSE:Factory:RISCV'
+'20210602':
+- component: Kernel
+  create_time: 20210604T11:32:00
+  id: 1186857
+  resolution: ''
+  status: IN_PROGRESS
+  summary: RPi4 Installer - Wlan firmware files not part of the installer
 - component: Basesystem
   create_time: 20210604T09:42:00
   id: 1186850
@@ -58895,7 +58933,7 @@
   create_time: 20210603T12:17:00
   id: 1186798
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[Build 20210601] openQA test fails in yast2_rmt'
 - component: GNOME
   create_time: 20210603T07:22:00
@@ -58984,34 +59022,3 @@
   status: NEW
   summary: '[Tumbleweed][openssl][libressl] older "/usr/bin/openssl" command gave
     wrong return code'
-- component: AppArmor
-  create_time: 20210601T21:38:00
-  id: 1186711
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: apparmor change breaks dnsmasq dhcp-script execution
-- component: Kernel
-  create_time: 20210601T21:34:00
-  id: 1186710
-  resolution: ''
-  status: NEW
-  summary: wrong/dead symlinks with kernel-default-devel-5.12.4-2.1.x86_64 (after
-    usrmerge?)
-- component: YaST2
-  create_time: 20210601T16:07:00
-  id: 1186705
-  resolution: FIXED
-  status: RESOLVED
-  summary: YaST2 Qt UI Tab Widgets are Ugly
-- component: YaST2
-  create_time: 20210601T13:04:00
-  id: 1186697
-  resolution: ''
-  status: NEW
-  summary: yast2 iscsi-client finishes with error
-- component: Other
-  create_time: 20210601T09:20:00
-  id: 1186688
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'missing  Repotype: staticlinks in openSUSE:Factory:RISCV'
