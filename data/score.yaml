@@ -2093,5 +2093,8 @@
   score: 85
   stability_level: moderate
 '20210601':
-  score: 91
+  score: 93
+  stability_level: pending
+'20210602':
+  score: 95
   stability_level: pending
