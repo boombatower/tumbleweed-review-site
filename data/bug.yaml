@@ -58871,6 +58871,18 @@
   status: RESOLVED
   summary: 'missing  Repotype: staticlinks in openSUSE:Factory:RISCV'
 '20210602':
+- component: Other
+  create_time: 20210604T13:39:00
+  id: 1186870
+  resolution: ''
+  status: NEW
+  summary: python-rpm-macros different dependency generated python-six
+- component: Other
+  create_time: 20210604T12:07:00
+  id: 1186860
+  resolution: ''
+  status: NEW
+  summary: Tensorflow2 fails to build with GCC11
 - component: Kernel
   create_time: 20210604T11:32:00
   id: 1186857
