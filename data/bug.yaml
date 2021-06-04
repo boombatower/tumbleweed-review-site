@@ -58839,6 +58839,12 @@
   status: NEW
   summary: GRUB crashes (breaking boot) if fonts are missing
 '20210601':
+- component: Network
+  create_time: 20210604T05:46:00
+  id: 1186834
+  resolution: ''
+  status: NEW
+  summary: when restarting named an error occurs about missing /sbin/kill
 - component: Kernel
   create_time: 20210603T18:33:00
   id: 1186828
