@@ -56710,8 +56710,8 @@
 - component: Kernel
   create_time: 20210419T16:03:00
   id: 1184984
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Kernel 5.11.12: unable to open usb port ACM0'
 - component: GNOME
   create_time: 20210419T15:21:00
@@ -58952,6 +58952,12 @@
   summary: '[Tumbleweed][openssl][libressl] older "/usr/bin/openssl" command gave
     wrong return code'
 '20210603':
+- component: GNOME
+  create_time: 20210605T15:48:00
+  id: 1186898
+  resolution: ''
+  status: NEW
+  summary: Gnome Remote desktop broken
 - component: YaST2
   create_time: 20210605T12:28:00
   id: 1186895
