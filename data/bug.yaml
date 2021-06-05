@@ -29344,8 +29344,8 @@
 - component: Other
   create_time: 20190909T10:16:00
   id: 1149986
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: telegram-desktop cannot be started with enabled GTK integration and libqt5-qtstyleplugins-platformtheme-gtk2
     installed
 - component: Installation
@@ -56468,7 +56468,7 @@
   create_time: 20210415T16:41:00
   id: 1184825
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Kicad crash when open simulation tool
 - component: Basesystem
   create_time: 20210415T16:03:00
@@ -58952,6 +58952,24 @@
   summary: '[Tumbleweed][openssl][libressl] older "/usr/bin/openssl" command gave
     wrong return code'
 '20210603':
+- component: Containers
+  create_time: 20210605T18:03:00
+  id: 1186901
+  resolution: ''
+  status: NEW
+  summary: 'unprivileged lxc: lxc-attach not working / lxc-start segfaults'
+- component: Kernel
+  create_time: 20210605T16:11:00
+  id: 1186900
+  resolution: ''
+  status: NEW
+  summary: Certain KMP builds fail due to wrong symlinks in kernel-$flavor-devel
+- component: Kernel
+  create_time: 20210605T16:07:00
+  id: 1186899
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Kernel installation generates incorrect links for /lib/modules/.../build
 - component: GNOME
   create_time: 20210605T15:48:00
   id: 1186898
