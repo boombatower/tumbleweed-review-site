@@ -58871,6 +58871,12 @@
   status: RESOLVED
   summary: 'missing  Repotype: staticlinks in openSUSE:Factory:RISCV'
 '20210602':
+- component: YaST2
+  create_time: 20210605T01:27:00
+  id: 1186890
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210603] yast2_rmt - rmt-server fails to start'
 - component: Virtualization:Other
   create_time: 20210604T19:56:00
   id: 1186888
