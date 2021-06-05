@@ -58871,6 +58871,12 @@
   status: RESOLVED
   summary: 'missing  Repotype: staticlinks in openSUSE:Factory:RISCV'
 '20210602':
+- component: KDE Workspace (Plasma)
+  create_time: 20210605T07:46:00
+  id: 1186893
+  resolution: ''
+  status: NEW
+  summary: Wayland session scaling is messed up after logging into X11 session
 - component: YaST2
   create_time: 20210605T01:27:00
   id: 1186890
