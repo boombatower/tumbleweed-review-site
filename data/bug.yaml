@@ -53083,8 +53083,8 @@
 - component: Basesystem
   create_time: 20210206T10:31:00
   id: 1181859
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '[META] GCC 11 package failures'
 - component: Basesystem
   create_time: 20210206T08:57:00
