@@ -58953,6 +58953,40 @@
     wrong return code'
 '20210603':
 - component: Kernel
+  create_time: 20210603T18:33:00
+  id: 1186828
+  resolution: ''
+  status: NEW
+  summary: nvidia-install (460.80) is broken in recent distribution update (openSUSE
+    Tumbleweed 20210601)
+- component: Mono
+  create_time: 20210603T14:52:00
+  id: 1186818
+  resolution: ''
+  status: NEW
+  summary: 'Wine: MarshalDirectiveException: string/stringbuilder marshalling conversion
+    29 not implemented'
+- component: Network
+  create_time: 20210603T12:33:00
+  id: 1186800
+  resolution: ''
+  status: NEW
+  summary: Chromium UI scales 200% on HIDPI screen
+- component: YaST2
+  create_time: 20210603T12:17:00
+  id: 1186798
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[Build 20210601] openQA test fails in yast2_rmt'
+- component: GNOME
+  create_time: 20210603T07:22:00
+  id: 1186789
+  resolution: ''
+  status: NEW
+  summary: '[GNOME] The right arrow button doesn''t work by default when selecting
+    folders.'
+'20210604':
+- component: Kernel
   create_time: 20210605T22:16:00
   id: 1186904
   resolution: ''
@@ -59087,36 +59121,3 @@
   resolution: ''
   status: NEW
   summary: when restarting named an error occurs about missing /sbin/kill
-- component: Kernel
-  create_time: 20210603T18:33:00
-  id: 1186828
-  resolution: ''
-  status: NEW
-  summary: nvidia-install (460.80) is broken in recent distribution update (openSUSE
-    Tumbleweed 20210601)
-- component: Mono
-  create_time: 20210603T14:52:00
-  id: 1186818
-  resolution: ''
-  status: NEW
-  summary: 'Wine: MarshalDirectiveException: string/stringbuilder marshalling conversion
-    29 not implemented'
-- component: Network
-  create_time: 20210603T12:33:00
-  id: 1186800
-  resolution: ''
-  status: NEW
-  summary: Chromium UI scales 200% on HIDPI screen
-- component: YaST2
-  create_time: 20210603T12:17:00
-  id: 1186798
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[Build 20210601] openQA test fails in yast2_rmt'
-- component: GNOME
-  create_time: 20210603T07:22:00
-  id: 1186789
-  resolution: ''
-  status: NEW
-  summary: '[GNOME] The right arrow button doesn''t work by default when selecting
-    folders.'
