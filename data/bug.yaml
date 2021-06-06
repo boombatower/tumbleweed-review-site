@@ -58952,6 +58952,12 @@
   summary: '[Tumbleweed][openssl][libressl] older "/usr/bin/openssl" command gave
     wrong return code'
 '20210603':
+- component: Kernel
+  create_time: 20210605T22:16:00
+  id: 1186904
+  resolution: ''
+  status: NEW
+  summary: kernel 5.12.9 fails to load nvidia module
 - component: Bootloader
   create_time: 20210605T20:18:00
   id: 1186903
