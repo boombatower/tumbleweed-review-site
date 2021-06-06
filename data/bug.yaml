@@ -59007,8 +59007,8 @@
 - component: Kernel
   create_time: 20210605T16:11:00
   id: 1186900
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Certain KMP builds fail due to wrong symlinks in kernel-$flavor-devel
 - component: Kernel
   create_time: 20210605T16:07:00
