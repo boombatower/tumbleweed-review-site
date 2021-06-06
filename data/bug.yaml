@@ -58462,8 +58462,8 @@
 - component: Other
   create_time: 20210519T20:10:00
   id: 1186267
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'ERROR: failed to open configuration file /etc/php8/fpm/php-fpm.conf :
     Permission denied (13)'
 - component: Basesystem
