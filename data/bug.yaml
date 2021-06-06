@@ -58986,11 +58986,18 @@
   summary: '[GNOME] The right arrow button doesn''t work by default when selecting
     folders.'
 '20210604':
+- component: KDE Applications
+  create_time: 20210606T10:48:00
+  id: 1186908
+  resolution: ''
+  status: NEW
+  summary: 'Software Updates applet: All available packages were updated even if I
+    select only 1 of them'
 - component: Kernel
   create_time: 20210605T22:16:00
   id: 1186904
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: kernel 5.12.9 fails to load nvidia module
 - component: Bootloader
   create_time: 20210605T20:18:00
