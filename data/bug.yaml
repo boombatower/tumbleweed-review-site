@@ -58986,6 +58986,18 @@
   summary: '[GNOME] The right arrow button doesn''t work by default when selecting
     folders.'
 '20210604':
+- component: Security
+  create_time: 20210606T17:39:00
+  id: 1186912
+  resolution: ''
+  status: NEW
+  summary: Unauthorized privileges in tuned on s390x
+- component: Security
+  create_time: 20210606T16:08:00
+  id: 1186911
+  resolution: FIXED
+  status: RESOLVED
+  summary: gnutls is failing because of invalid decryption during handshake
 - component: KDE Applications
   create_time: 20210606T10:48:00
   id: 1186908
@@ -59099,8 +59111,8 @@
 - component: Basesystem
   create_time: 20210604T09:42:00
   id: 1186850
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Perl build fails because of missing memory access (Segmentation fault)
     on s390x
 - component: Kernel
