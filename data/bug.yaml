@@ -58817,8 +58817,8 @@
 - component: Sound
   create_time: 20210528T00:29:00
   id: 1186572
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: PipeWire on Plasma can't control the volume
 - component: Containers
   create_time: 20210527T20:27:00
