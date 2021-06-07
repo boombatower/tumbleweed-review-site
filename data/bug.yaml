@@ -53751,8 +53751,8 @@
 - component: Virtualization:Other
   create_time: 20210221T23:51:00
   id: 1182538
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: User id libvirtdbus needs to be created in group libvirt for polkit action
     id org.libvirt.unix.manage
 - component: KDE Workspace (Plasma)
