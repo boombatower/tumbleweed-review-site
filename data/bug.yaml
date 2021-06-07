@@ -57415,8 +57415,8 @@
 - component: Network
   create_time: 20210501T12:43:00
   id: 1185524
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Changing to NetworkManager via Yast Network throws an internal error
 - component: Other
   create_time: 20210501T07:19:00
