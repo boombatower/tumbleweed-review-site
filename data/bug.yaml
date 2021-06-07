@@ -58875,7 +58875,7 @@
   create_time: 20210602T23:06:00
   id: 1186781
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'filesystem: usrmerge: cp: cannot create hard link: Invalid cross-device
     link'
 - component: MicroOS
@@ -58917,9 +58917,9 @@
 - component: libzypp
   create_time: 20210602T09:19:00
   id: 1186732
-  resolution: ''
-  status: NEW
-  summary: Can't uninstall just the latest kernel version
+  resolution: UPSTREAM
+  status: RESOLVED
+  summary: rpm doesn't check boolean deps on uninstallation
 - component: Upgrade Problems
   create_time: 20210602T09:00:00
   id: 1186730
@@ -59137,6 +59137,6 @@
 - component: Network
   create_time: 20210604T05:46:00
   id: 1186834
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
