@@ -59062,6 +59062,13 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: Kernel
+  create_time: 20210607T16:46:00
+  id: 1186944
+  resolution: ''
+  status: NEW
+  summary: Recent kernel builds interfere with amdgpu power management on certain
+    hardware
 - component: MicroOS
   create_time: 20210607T16:04:00
   id: 1186943
