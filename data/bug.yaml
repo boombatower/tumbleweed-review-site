@@ -45496,6 +45496,12 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: kernel from kernel:stable can not installed
+- component: Development
+  create_time: 20200826T19:34:00
+  id: 1175803
+  resolution: ''
+  status: NEW
+  summary: ncurses  missing file 'get_version_number.sh' in src.rpm
 - component: Basesystem
   create_time: 20200826T10:35:00
   id: 1175779
@@ -58955,8 +58961,8 @@
 - component: Kernel
   create_time: 20210603T18:33:00
   id: 1186828
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: nvidia-install (460.80) is broken in recent distribution update (openSUSE
     Tumbleweed 20210601)
 - component: Mono
@@ -59049,11 +59055,11 @@
   status: NEW
   summary: 'AUDIT-0: cinnamon-settings-daemon: Request review for polkit-unauthorized-privilege
     and polkit-cant-acquire-privilege'
-- component: Upgrade Problems
+- component: Kernel
   create_time: 20210604T06:50:00
   id: 1186838
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Kernel header missing after upgrade, vmware re-compile fails
 - component: Network
   create_time: 20210604T05:46:00
@@ -59062,6 +59068,12 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: Kernel
+  create_time: 20210607T21:06:00
+  id: 1187007
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Broken kernel source symblic links on new installation
 - component: Kernel
   create_time: 20210607T16:46:00
   id: 1186944
@@ -59171,7 +59183,7 @@
   id: 1186894
   resolution: ''
   status: NEW
-  summary: tumbleweed update with usermerged faild
+  summary: tumbleweed update with UsrMerge failed
 - component: KDE Workspace (Plasma)
   create_time: 20210605T07:46:00
   id: 1186893
