@@ -59062,6 +59062,12 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: MicroOS
+  create_time: 20210607T16:04:00
+  id: 1186943
+  resolution: ''
+  status: NEW
+  summary: 'snapper cleanup: Deleting snapshot failed.'
 - component: Kernel
   create_time: 20210607T11:37:00
   id: 1186932
