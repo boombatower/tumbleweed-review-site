@@ -58849,7 +58849,7 @@
   create_time: 20210601T21:34:00
   id: 1186710
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: wrong/dead symlinks with kernel-default-devel-5.12.4-2.1.x86_64 (after
     usrmerge?)
 - component: YaST2
@@ -58986,6 +58986,36 @@
   summary: '[GNOME] The right arrow button doesn''t work by default when selecting
     folders.'
 '20210604':
+- component: Kernel
+  create_time: 20210607T11:37:00
+  id: 1186932
+  resolution: ''
+  status: NEW
+  summary: /usr/lib/modules/5.12.9-1-default/build does not point to the correct location.
+- component: KDE Applications
+  create_time: 20210607T11:36:00
+  id: 1186931
+  resolution: ''
+  status: NEW
+  summary: Kaffeine is not able to open mp4 files
+- component: Other
+  create_time: 20210607T11:31:00
+  id: 1186930
+  resolution: ''
+  status: NEW
+  summary: Vidcutter cannot edit or reproduce m4v files
+- component: Other
+  create_time: 20210607T11:07:00
+  id: 1186929
+  resolution: ''
+  status: NEW
+  summary: ckb-next incorrect dependency on //bin/bash
+- component: Kernel
+  create_time: 20210607T10:47:00
+  id: 1186927
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Broken Kernel symlinks due to usrmerge ...
 - component: Security
   create_time: 20210606T17:39:00
   id: 1186912
@@ -59105,8 +59135,8 @@
 - component: Kernel
   create_time: 20210604T11:32:00
   id: 1186857
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: RPi4 Installer - Wlan firmware files not part of the installer
 - component: Basesystem
   create_time: 20210604T09:42:00
