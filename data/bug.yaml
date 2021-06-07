@@ -58788,7 +58788,7 @@
   create_time: 20210528T13:01:00
   id: 1186602
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: latest pam_mount affects zypper and sudo su
 - component: Basesystem
   create_time: 20210528T12:18:00
@@ -58848,8 +58848,8 @@
 - component: Kernel
   create_time: 20210601T21:34:00
   id: 1186710
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: wrong/dead symlinks with kernel-default-devel-5.12.4-2.1.x86_64 (after
     usrmerge?)
 - component: YaST2
@@ -58882,7 +58882,7 @@
   create_time: 20210602T16:27:00
   id: 1186775
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Cannot install git package(s) with "transactional-update pkg install" command
 - component: YaST2
   create_time: 20210602T12:17:00
@@ -58986,11 +58986,87 @@
   summary: '[GNOME] The right arrow button doesn''t work by default when selecting
     folders.'
 '20210604':
+- component: Virtualization:Other
+  create_time: 20210604T19:56:00
+  id: 1186888
+  resolution: ''
+  status: NEW
+  summary: libvirt requests new capabilities / AppArmor denials
+- component: Kernel
+  create_time: 20210604T18:35:00
+  id: 1186884
+  resolution: ''
+  status: NEW
+  summary: Launching Tumbleweed under SEV-ES currently fails when kernel parses MOKVar
+    EFI table
+- component: Development
+  create_time: 20210604T18:10:00
+  id: 1186883
+  resolution: ''
+  status: NEW
+  summary: Development package for openssl 3.0 is missing
+- component: Installation
+  create_time: 20210604T17:03:00
+  id: 1186881
+  resolution: ''
+  status: NEW
+  summary: relurl:// does not work for autoyast <self_update_url>
+- component: Other
+  create_time: 20210604T13:39:00
+  id: 1186870
+  resolution: ''
+  status: NEW
+  summary: python-rpm-macros different dependency generated python-six
+- component: Other
+  create_time: 20210604T12:07:00
+  id: 1186860
+  resolution: ''
+  status: NEW
+  summary: Tensorflow2 fails to build with GCC11
+- component: Kernel
+  create_time: 20210604T11:32:00
+  id: 1186857
+  resolution: FIXED
+  status: RESOLVED
+  summary: RPi4 Installer - Wlan firmware files not part of the installer
+- component: Basesystem
+  create_time: 20210604T09:42:00
+  id: 1186850
+  resolution: FIXED
+  status: RESOLVED
+  summary: Perl build fails because of missing memory access (Segmentation fault)
+    on s390x
+- component: Kernel
+  create_time: 20210604T08:48:00
+  id: 1186846
+  resolution: ''
+  status: NEW
+  summary: negative used size reported for ext4 file system without journal
+- component: Security
+  create_time: 20210604T08:36:00
+  id: 1186845
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-0: cinnamon-settings-daemon: Request review for polkit-unauthorized-privilege
+    and polkit-cant-acquire-privilege'
+- component: Upgrade Problems
+  create_time: 20210604T06:50:00
+  id: 1186838
+  resolution: ''
+  status: NEW
+  summary: Kernel header missing after upgrade, vmware re-compile fails
+- component: Network
+  create_time: 20210604T05:46:00
+  id: 1186834
+  resolution: FIXED
+  status: RESOLVED
+  summary: when restarting named an error occurs about missing /sbin/kill
+'20210605':
 - component: Kernel
   create_time: 20210607T11:37:00
   id: 1186932
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: /usr/lib/modules/5.12.9-1-default/build does not point to the correct location.
 - component: KDE Applications
   create_time: 20210607T11:36:00
@@ -59095,78 +59171,3 @@
   resolution: ''
   status: NEW
   summary: '[Build 20210603] yast2_rmt - rmt-server fails to start'
-- component: Virtualization:Other
-  create_time: 20210604T19:56:00
-  id: 1186888
-  resolution: ''
-  status: NEW
-  summary: libvirt requests new capabilities / AppArmor denials
-- component: Kernel
-  create_time: 20210604T18:35:00
-  id: 1186884
-  resolution: ''
-  status: NEW
-  summary: Launching Tumbleweed under SEV-ES currently fails when kernel parses MOKVar
-    EFI table
-- component: Development
-  create_time: 20210604T18:10:00
-  id: 1186883
-  resolution: ''
-  status: NEW
-  summary: Development package for openssl 3.0 is missing
-- component: Installation
-  create_time: 20210604T17:03:00
-  id: 1186881
-  resolution: ''
-  status: NEW
-  summary: relurl:// does not work for autoyast <self_update_url>
-- component: Other
-  create_time: 20210604T13:39:00
-  id: 1186870
-  resolution: ''
-  status: NEW
-  summary: python-rpm-macros different dependency generated python-six
-- component: Other
-  create_time: 20210604T12:07:00
-  id: 1186860
-  resolution: ''
-  status: NEW
-  summary: Tensorflow2 fails to build with GCC11
-- component: Kernel
-  create_time: 20210604T11:32:00
-  id: 1186857
-  resolution: FIXED
-  status: RESOLVED
-  summary: RPi4 Installer - Wlan firmware files not part of the installer
-- component: Basesystem
-  create_time: 20210604T09:42:00
-  id: 1186850
-  resolution: FIXED
-  status: RESOLVED
-  summary: Perl build fails because of missing memory access (Segmentation fault)
-    on s390x
-- component: Kernel
-  create_time: 20210604T08:48:00
-  id: 1186846
-  resolution: ''
-  status: NEW
-  summary: negative used size reported for ext4 file system without journal
-- component: Security
-  create_time: 20210604T08:36:00
-  id: 1186845
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-0: cinnamon-settings-daemon: Request review for polkit-unauthorized-privilege
-    and polkit-cant-acquire-privilege'
-- component: Upgrade Problems
-  create_time: 20210604T06:50:00
-  id: 1186838
-  resolution: ''
-  status: NEW
-  summary: Kernel header missing after upgrade, vmware re-compile fails
-- component: Network
-  create_time: 20210604T05:46:00
-  id: 1186834
-  resolution: FIXED
-  status: RESOLVED
-  summary: when restarting named an error occurs about missing /sbin/kill
