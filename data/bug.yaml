@@ -59068,6 +59068,31 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: Other
+  create_time: 20210608T13:52:00
+  id: 1187058
+  resolution: ''
+  status: NEW
+  summary: 'libindi and ioptron: wrong time set when DST is in use'
+- component: Development
+  create_time: 20210608T13:45:00
+  id: 1187056
+  resolution: ''
+  status: NEW
+  summary: hidapi build failed with autoconf-2.71
+- component: Development
+  create_time: 20210608T12:29:00
+  id: 1187044
+  resolution: ''
+  status: NEW
+  summary: 'error reading variable: dwarf2_find_location_expression: Corrupted DWARF
+    expression.'
+- component: Development
+  create_time: 20210608T12:24:00
+  id: 1187042
+  resolution: ''
+  status: NEW
+  summary: 'gdb: apparent infinite loop during symbol lookup'
 - component: Basesystem
   create_time: 20210608T11:06:00
   id: 1187036
