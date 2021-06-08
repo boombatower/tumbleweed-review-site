@@ -48795,8 +48795,8 @@
 - component: Xfce
   create_time: 20201106T13:13:00
   id: 1178511
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: QT applications don't use the correct mouse cursor
 - component: Sound
   create_time: 20201106T10:42:00
@@ -57949,8 +57949,8 @@
 - component: Other
   create_time: 20210507T10:12:00
   id: 1185767
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: zypper fails installing packages inside docker image
 - component: MicroOS
   create_time: 20210507T09:29:00
@@ -59068,11 +59068,48 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: Basesystem
+  create_time: 20210608T09:42:00
+  id: 1187027
+  resolution: ''
+  status: NEW
+  summary: zypper dup from older container image fails in convertfs
+- component: Xfce
+  create_time: 20210608T09:10:00
+  id: 1187025
+  resolution: ''
+  status: NEW
+  summary: test
+- component: Security
+  create_time: 20210608T08:53:00
+  id: 1187024
+  resolution: ''
+  status: NEW
+  summary: OpenSSL 3.0 conflicts + obsoletes in packaging breaks creating Tumbleweed
+    chroots
+- component: Basesystem
+  create_time: 20210608T08:38:00
+  id: 1187022
+  resolution: ''
+  status: NEW
+  summary: system-users should depend on /usr/sbin/nologin
+- component: Other
+  create_time: 20210608T08:18:00
+  id: 1187020
+  resolution: ''
+  status: NEW
+  summary: 'multipath-tools: unconditionally loads modules'
+- component: Other
+  create_time: 20210608T08:10:00
+  id: 1187019
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210606] steamcmd: test fails launch'
 - component: YaST2
   create_time: 20210608T07:59:00
   id: 1187018
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[systemd248] various yast modules failing test suite'
 - component: Basesystem
   create_time: 20210608T02:47:00
