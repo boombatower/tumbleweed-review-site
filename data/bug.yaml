@@ -55343,7 +55343,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: 'armv7: rpm architecture (armv7hl) is not system architecture (armv7l)'
-- component: Other
+- component: YaST2
   create_time: 20210319T11:48:00
   id: 1183786
   resolution: ''
@@ -59068,11 +59068,78 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: Kernel
+  create_time: 20210605T22:16:00
+  id: 1186904
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: kernel 5.12.9 fails to load nvidia module
+- component: Bootloader
+  create_time: 20210605T20:18:00
+  id: 1186903
+  resolution: ''
+  status: NEW
+  summary: Reboot after zypper dup does not boot to desktop environment
+- component: Containers
+  create_time: 20210605T18:03:00
+  id: 1186901
+  resolution: ''
+  status: NEW
+  summary: 'unprivileged lxc: lxc-attach not working / lxc-start segfaults'
+- component: Kernel
+  create_time: 20210605T16:11:00
+  id: 1186900
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Certain KMP builds fail due to wrong symlinks in kernel-$flavor-devel
+- component: Kernel
+  create_time: 20210605T16:07:00
+  id: 1186899
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Kernel installation generates incorrect links for /lib/modules/.../build
+- component: GNOME
+  create_time: 20210605T15:48:00
+  id: 1186898
+  resolution: ''
+  status: NEW
+  summary: Gnome Remote desktop broken
+- component: YaST2
+  create_time: 20210605T12:28:00
+  id: 1186895
+  resolution: ''
+  status: NEW
+  summary: Fix Ruby components for further package installations
+- component: Basesystem
+  create_time: 20210605T10:22:00
+  id: 1186894
+  resolution: ''
+  status: NEW
+  summary: tumbleweed update with UsrMerge failed
+- component: KDE Workspace (Plasma)
+  create_time: 20210605T07:46:00
+  id: 1186893
+  resolution: ''
+  status: NEW
+  summary: Wayland session scaling is messed up after logging into X11 session
+- component: YaST2
+  create_time: 20210605T01:27:00
+  id: 1186890
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: '[Build 20210603] yast2_rmt - rmt-server fails to start'
+'20210606':
+- component: Kernel
+  create_time: 20210608T14:49:00
+  id: 1187062
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: kernel header not available
 - component: Other
   create_time: 20210608T13:52:00
   id: 1187058
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'libindi and ioptron: wrong time set when DST is in use'
 - component: Development
   create_time: 20210608T13:45:00
@@ -59114,8 +59181,8 @@
 - component: Basesystem
   create_time: 20210608T09:42:00
   id: 1187027
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: zypper dup from older container image fails in convertfs
 - component: Xfce
   create_time: 20210608T09:10:00
@@ -59216,12 +59283,6 @@
   status: RESOLVED
   summary: Broken Kernel symlinks due to usrmerge ...
 - component: Security
-  create_time: 20210606T17:39:00
-  id: 1186912
-  resolution: ''
-  status: NEW
-  summary: Unauthorized privileges in tuned on s390x
-- component: Security
   create_time: 20210606T16:08:00
   id: 1186911
   resolution: FIXED
@@ -59234,63 +59295,3 @@
   status: NEW
   summary: 'Software Updates applet: All available packages were updated even if I
     select only 1 of them'
-- component: Kernel
-  create_time: 20210605T22:16:00
-  id: 1186904
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: kernel 5.12.9 fails to load nvidia module
-- component: Bootloader
-  create_time: 20210605T20:18:00
-  id: 1186903
-  resolution: ''
-  status: NEW
-  summary: Reboot after zypper dup does not boot to desktop environment
-- component: Containers
-  create_time: 20210605T18:03:00
-  id: 1186901
-  resolution: ''
-  status: NEW
-  summary: 'unprivileged lxc: lxc-attach not working / lxc-start segfaults'
-- component: Kernel
-  create_time: 20210605T16:11:00
-  id: 1186900
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Certain KMP builds fail due to wrong symlinks in kernel-$flavor-devel
-- component: Kernel
-  create_time: 20210605T16:07:00
-  id: 1186899
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Kernel installation generates incorrect links for /lib/modules/.../build
-- component: GNOME
-  create_time: 20210605T15:48:00
-  id: 1186898
-  resolution: ''
-  status: NEW
-  summary: Gnome Remote desktop broken
-- component: YaST2
-  create_time: 20210605T12:28:00
-  id: 1186895
-  resolution: ''
-  status: NEW
-  summary: Fix Ruby components for further package installations
-- component: Basesystem
-  create_time: 20210605T10:22:00
-  id: 1186894
-  resolution: ''
-  status: NEW
-  summary: tumbleweed update with UsrMerge failed
-- component: KDE Workspace (Plasma)
-  create_time: 20210605T07:46:00
-  id: 1186893
-  resolution: ''
-  status: NEW
-  summary: Wayland session scaling is messed up after logging into X11 session
-- component: YaST2
-  create_time: 20210605T01:27:00
-  id: 1186890
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210603] yast2_rmt - rmt-server fails to start'
