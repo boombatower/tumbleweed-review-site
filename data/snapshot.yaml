@@ -1,28 +1,3 @@
-'20210507':
-  binary_count: 70019
-  binary_interest:
-    Mesa: 21.0.2
-    gcc: '10'
-    gcc10: 10.3.0+git1587
-    gcc11: 11.0.0+git183291
-    gcc9: 9.3.1+git1684
-    gnome-builder: 3.40.1
-    gtk3-devel: 3.24.29
-    kate: 21.04.0
-    kernel-source: 5.12.0
-    libqt5-qtbase-devel: 5.15.2
-    llvm: 12.0.0
-    plasma-framework: 5.81.0
-    plasma5-workspace: 5.21.5
-    xf86-video-amdgpu: 19.1.0
-    xf86-video-ati: 19.1.0
-    xf86-video-intel: 2.99.917.916_g31486f40
-    xf86-video-nouveau: 1.0.17
-    xorg-x11-server: 1.20.11
-  binary_interest_changed: []
-  binary_unique_count: 1415
-  disk_base: 2.5GiB
-  disk_shared: unknown
 '20210508':
   binary_count: 71292
   binary_interest:
@@ -71,8 +46,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - Mesa
   - plasma-framework
+  - Mesa
   binary_unique_count: 2892
   disk_base: 6.0GiB
   disk_shared: unknown
@@ -200,8 +175,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - Mesa
   - plasma5-workspace
+  - Mesa
   binary_unique_count: 1246
   disk_base: 2.4GiB
   disk_shared: unknown
@@ -354,9 +329,9 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - Mesa
   - libqt5-qtbase-devel
   - gtk3-devel
+  - Mesa
   binary_unique_count: 810
   disk_base: 2.6GiB
   disk_shared: unknown
@@ -381,22 +356,22 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - xorg-x11-server
-  - plasma5-workspace
-  - xf86-video-nouveau
-  - gcc11
-  - gtk3-devel
-  - xf86-video-ati
-  - kate
-  - libqt5-qtbase-devel
-  - xf86-video-amdgpu
   - plasma-framework
-  - xf86-video-intel
+  - kate
   - Mesa
-  - kernel-source
-  - gcc10
-  - gcc
+  - xf86-video-ati
   - gnome-builder
+  - xf86-video-amdgpu
+  - plasma5-workspace
+  - libqt5-qtbase-devel
+  - gtk3-devel
+  - gcc11
+  - xf86-video-nouveau
+  - xorg-x11-server
+  - xf86-video-intel
+  - gcc10
+  - kernel-source
+  - gcc
   binary_unique_count: 61075
   disk_base: 63.6GiB
   disk_shared: unknown
@@ -497,8 +472,8 @@
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
   binary_interest_changed:
-  - Mesa
   - xf86-video-nouveau
+  - Mesa
   binary_unique_count: 1305
   disk_base: 2.2GiB
   disk_shared: unknown
