@@ -59068,6 +59068,12 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: Basesystem
+  create_time: 20210608T02:47:00
+  id: 1187010
+  resolution: ''
+  status: NEW
+  summary: update lvm2 from 2.03.10 to 2.03.12
 - component: Sound
   create_time: 20210607T22:08:00
   id: 1187009
