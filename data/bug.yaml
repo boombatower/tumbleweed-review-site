@@ -59129,6 +59129,19 @@
   status: RESOLVED
   summary: '[Build 20210603] yast2_rmt - rmt-server fails to start'
 '20210606':
+- component: Sound
+  create_time: 20210608T19:16:00
+  id: 1187079
+  resolution: ''
+  status: NEW
+  summary: pipewire audio stopped working after update to TW 20210605
+- component: Kernel
+  create_time: 20210608T18:42:00
+  id: 1187077
+  resolution: ''
+  status: NEW
+  summary: tpm2-abrmd fails with Tss2_TctiLdr_Initialize_Ex() Failed to instantiate
+    TCTI
 - component: Kernel
   create_time: 20210608T14:49:00
   id: 1187062
