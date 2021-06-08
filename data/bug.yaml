@@ -8058,8 +8058,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20180503T09:07:00
   id: 1091784
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: SDDM screen is black after boot
 - component: KDE Applications
   create_time: 20180503T08:52:00
@@ -18927,8 +18927,8 @@
 - component: Usability
   create_time: 20190202T19:17:00
   id: 1124063
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: Wrong USB flash mount options
 - component: X11 Applications
   create_time: 20190202T18:45:00
@@ -58996,7 +58996,7 @@
   create_time: 20210604T19:56:00
   id: 1186888
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: libvirt requests new capabilities / AppArmor denials
 - component: Kernel
   create_time: 20210604T18:35:00
@@ -59068,6 +59068,12 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: Sound
+  create_time: 20210607T22:08:00
+  id: 1187009
+  resolution: ''
+  status: NEW
+  summary: HDMI sound accidentally disappeared after recent kernel upgrade
 - component: Kernel
   create_time: 20210607T21:06:00
   id: 1187007
