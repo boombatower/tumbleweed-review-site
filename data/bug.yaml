@@ -33207,8 +33207,8 @@
 - component: Other
   create_time: 20191219T15:39:00
   id: 1159563
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[HPC, environment modules]  MODULEPATH in lua-lmod'
 - component: YaST2
   create_time: 20191219T15:09:00
@@ -51546,8 +51546,8 @@
 - component: Other
   create_time: 20210108T10:06:00
   id: 1180689
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: MicroOS defaults to using the SUSE NTP pool
 - component: Kernel
   create_time: 20210108T07:35:00
@@ -59068,6 +59068,24 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: Basesystem
+  create_time: 20210608T11:06:00
+  id: 1187036
+  resolution: ''
+  status: NEW
+  summary: RPM find_lang does not support ast (Asturian)
+- component: Sound
+  create_time: 20210608T10:47:00
+  id: 1187033
+  resolution: ''
+  status: NEW
+  summary: Update to MicroOS 20210605-1004.1 breaks HDMI audio (AMD Radeon HD 6450)
+- component: Basesystem
+  create_time: 20210608T10:36:00
+  id: 1187032
+  resolution: ''
+  status: NEW
+  summary: 'rpm/zypper: bootstrapping TW from SLE15SP1 fails'
 - component: Basesystem
   create_time: 20210608T09:42:00
   id: 1187027
