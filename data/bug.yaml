@@ -39233,8 +39233,8 @@
 - component: Basesystem
   create_time: 20200414T16:54:00
   id: 1169460
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Hibernation -> Resume -> Restart sequence causes grub2-once to prevent
     start of auditd.service
 - component: X11 Applications
@@ -59073,7 +59073,7 @@
   id: 1187010
   resolution: ''
   status: NEW
-  summary: update lvm2 from 2.03.10 to 2.03.12
+  summary: update lvm2 from LVM2.03.10 to LVM2.2.03.12
 - component: Sound
   create_time: 20210607T22:08:00
   id: 1187009
