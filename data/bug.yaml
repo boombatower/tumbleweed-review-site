@@ -45499,8 +45499,8 @@
 - component: Development
   create_time: 20200826T19:34:00
   id: 1175803
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: ncurses  missing file 'get_version_number.sh' in src.rpm
 - component: Basesystem
   create_time: 20200826T10:35:00
@@ -58841,8 +58841,8 @@
 - component: Bootloader
   create_time: 20210527T07:13:00
   id: 1186481
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: GRUB crashes (breaking boot) if fonts are missing
 '20210601':
 - component: AppArmor
@@ -59068,6 +59068,12 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: YaST2
+  create_time: 20210608T07:59:00
+  id: 1187018
+  resolution: ''
+  status: NEW
+  summary: '[systemd248] various yast modules failing test suite'
 - component: Basesystem
   create_time: 20210608T02:47:00
   id: 1187010
