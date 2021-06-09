@@ -59068,12 +59068,18 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
-- component: Other
+- component: Development
+  create_time: 20210609T12:12:00
+  id: 1187111
+  resolution: ''
+  status: NEW
+  summary: Subversion does not fall back to IPv4 when missing IPv6 default route
+- component: Sound
   create_time: 20210609T11:25:00
   id: 1187109
   resolution: ''
   status: NEW
-  summary: sound not working after 20210606 update
+  summary: sound not working after 20210605 update
 - component: Sound
   create_time: 20210609T11:10:00
   id: 1187108
@@ -59083,8 +59089,8 @@
 - component: X11 3rd Party Driver
   create_time: 20210609T10:14:00
   id: 1187103
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Nvidia Kernel modules not found
 - component: Samba
   create_time: 20210609T09:46:00
@@ -59095,8 +59101,8 @@
 - component: Other
   create_time: 20210609T09:09:00
   id: 1187098
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Systemd's script requires 'chckonfig' command yet the package containing
     it is not available
 - component: Development
