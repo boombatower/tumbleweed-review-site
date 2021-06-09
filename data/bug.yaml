@@ -58705,8 +58705,8 @@
 - component: Network
   create_time: 20210525T07:56:00
   id: 1186404
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Linphone 4.2.5 undefined symbol liblinphone.so.10
 - component: Basesystem
   create_time: 20210525T06:51:00
@@ -59068,6 +59068,13 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: Kernel
+  create_time: 20210609T16:31:00
+  id: 1187132
+  resolution: ''
+  status: NEW
+  summary: Bad page map in process cc1 during build process of Midnight Commander
+    (problem with mapping files into memory)
 - component: Development
   create_time: 20210609T12:12:00
   id: 1187111
@@ -59132,8 +59139,8 @@
 - component: Sound
   create_time: 20210608T19:16:00
   id: 1187079
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: pipewire audio stopped working after update to TW 20210605
 - component: Basesystem
   create_time: 20210608T18:42:00
@@ -59182,8 +59189,8 @@
 - component: Sound
   create_time: 20210608T10:47:00
   id: 1187033
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Update to MicroOS 20210605-1004.1 breaks HDMI audio (AMD Radeon HD 6450)
 - component: Basesystem
   create_time: 20210608T10:36:00
@@ -59336,8 +59343,8 @@
 - component: GNOME
   create_time: 20210605T15:48:00
   id: 1186898
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Gnome Remote desktop broken
 - component: YaST2
   create_time: 20210605T12:28:00
