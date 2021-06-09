@@ -55346,8 +55346,8 @@
 - component: YaST2
   create_time: 20210319T11:48:00
   id: 1183786
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Cannot load RSA certificate while starting vsftpd daemon
 - component: Development
   create_time: 20210319T11:38:00
@@ -55982,8 +55982,8 @@
 - component: Basesystem
   create_time: 20210402T15:48:00
   id: 1184314
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: unable to login after system update
 - component: Development
   create_time: 20210402T15:15:00
@@ -57596,8 +57596,8 @@
 - component: Development
   create_time: 20210502T03:59:00
   id: 1185529
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: libgccjit does not find libgcc/crtbegin.o
 '20210504':
 - component: MicroOS
@@ -58556,8 +58556,8 @@
 - component: Patterns
   create_time: 20210521T14:01:00
   id: 1186343
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: zypper se -t pattern do not show all patterns
 - component: libzypp
   create_time: 20210521T13:54:00
@@ -59015,7 +59015,7 @@
   create_time: 20210604T17:03:00
   id: 1186881
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: relurl:// does not work for autoyast <self_update_url>
 - component: Other
   create_time: 20210604T13:39:00
@@ -59068,6 +59068,235 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: Other
+  create_time: 20210609T11:25:00
+  id: 1187109
+  resolution: ''
+  status: NEW
+  summary: sound not working after 20210606 update
+- component: Sound
+  create_time: 20210609T11:10:00
+  id: 1187108
+  resolution: ''
+  status: NEW
+  summary: pipewire udev rules should be in the main package
+- component: X11 3rd Party Driver
+  create_time: 20210609T10:14:00
+  id: 1187103
+  resolution: ''
+  status: NEW
+  summary: Nvidia Kernel modules not found
+- component: Samba
+  create_time: 20210609T09:46:00
+  id: 1187101
+  resolution: ''
+  status: NEW
+  summary: samba-ad-dc requires python3x-dnspython
+- component: Other
+  create_time: 20210609T09:09:00
+  id: 1187098
+  resolution: ''
+  status: NEW
+  summary: Systemd's script requires 'chckonfig' command yet the package containing
+    it is not available
+- component: Development
+  create_time: 20210609T08:38:00
+  id: 1187095
+  resolution: ''
+  status: IN_PROGRESS
+  summary: uboot 20.10 broke Odroid C2 networking
+- component: Basesystem
+  create_time: 20210609T08:31:00
+  id: 1187094
+  resolution: FIXED
+  status: RESOLVED
+  summary: nfsidmap is missing
+- component: Basesystem
+  create_time: 20210609T07:27:00
+  id: 1187091
+  resolution: ''
+  status: IN_PROGRESS
+  summary: pam-config fails to create a new service config file
+- component: Other
+  create_time: 20210609T06:57:00
+  id: 1187089
+  resolution: ''
+  status: REOPENED
+  summary: gpsd fails on aarch64 with LTO
+- component: Sound
+  create_time: 20210608T19:16:00
+  id: 1187079
+  resolution: ''
+  status: NEW
+  summary: pipewire audio stopped working after update to TW 20210605
+- component: Basesystem
+  create_time: 20210608T18:42:00
+  id: 1187077
+  resolution: ''
+  status: NEW
+  summary: tpm2-abrmd fails with Tss2_TctiLdr_Initialize_Ex() Failed to instantiate
+    TCTI
+- component: Kernel
+  create_time: 20210608T14:49:00
+  id: 1187062
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: kernel header not available
+- component: Other
+  create_time: 20210608T13:52:00
+  id: 1187058
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'libindi and ioptron: wrong time set when DST is in use'
+- component: Development
+  create_time: 20210608T13:45:00
+  id: 1187056
+  resolution: ''
+  status: NEW
+  summary: hidapi build failed with autoconf-2.71
+- component: Development
+  create_time: 20210608T12:29:00
+  id: 1187044
+  resolution: ''
+  status: NEW
+  summary: 'error reading variable: dwarf2_find_location_expression: Corrupted DWARF
+    expression.'
+- component: Development
+  create_time: 20210608T12:24:00
+  id: 1187042
+  resolution: ''
+  status: NEW
+  summary: 'gdb: apparent infinite loop during symbol lookup'
+- component: Basesystem
+  create_time: 20210608T11:06:00
+  id: 1187036
+  resolution: ''
+  status: NEW
+  summary: RPM find_lang does not support ast (Asturian)
+- component: Sound
+  create_time: 20210608T10:47:00
+  id: 1187033
+  resolution: ''
+  status: NEW
+  summary: Update to MicroOS 20210605-1004.1 breaks HDMI audio (AMD Radeon HD 6450)
+- component: Basesystem
+  create_time: 20210608T10:36:00
+  id: 1187032
+  resolution: INVALID
+  status: RESOLVED
+  summary: 'rpm/zypper: bootstrapping TW from SLE15SP1 fails'
+- component: Basesystem
+  create_time: 20210608T09:42:00
+  id: 1187027
+  resolution: FIXED
+  status: RESOLVED
+  summary: zypper dup from older container image fails in convertfs
+- component: Xfce
+  create_time: 20210608T09:10:00
+  id: 1187025
+  resolution: ''
+  status: NEW
+  summary: test
+- component: Security
+  create_time: 20210608T08:53:00
+  id: 1187024
+  resolution: ''
+  status: NEW
+  summary: OpenSSL 3.0 conflicts + obsoletes in packaging breaks creating Tumbleweed
+    chroots
+- component: Basesystem
+  create_time: 20210608T08:38:00
+  id: 1187022
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: system-users should depend on /usr/sbin/nologin
+- component: Other
+  create_time: 20210608T08:18:00
+  id: 1187020
+  resolution: ''
+  status: NEW
+  summary: 'multipath-tools: unconditionally loads modules'
+- component: Other
+  create_time: 20210608T08:10:00
+  id: 1187019
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210606] steamcmd: test fails launch'
+- component: YaST2
+  create_time: 20210608T07:59:00
+  id: 1187018
+  resolution: ''
+  status: IN_PROGRESS
+  summary: '[systemd248] various yast modules failing test suite'
+- component: Basesystem
+  create_time: 20210608T02:47:00
+  id: 1187010
+  resolution: ''
+  status: NEW
+  summary: update lvm2 from LVM2.03.10 to LVM2.2.03.12
+- component: Sound
+  create_time: 20210607T22:08:00
+  id: 1187009
+  resolution: ''
+  status: NEW
+  summary: HDMI sound accidentally disappeared after recent kernel / pipewire 20210605
+    release upgrade
+- component: Kernel
+  create_time: 20210607T21:06:00
+  id: 1187007
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Broken kernel source symblic links on new installation
+- component: Kernel
+  create_time: 20210607T16:46:00
+  id: 1186944
+  resolution: ''
+  status: NEW
+  summary: Recent kernel builds interfere with amdgpu power management on certain
+    hardware
+- component: MicroOS
+  create_time: 20210607T16:04:00
+  id: 1186943
+  resolution: ''
+  status: NEW
+  summary: 'snapper cleanup: Deleting snapshot failed.'
+- component: Kernel
+  create_time: 20210607T11:37:00
+  id: 1186932
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: /usr/lib/modules/5.12.9-1-default/build does not point to the correct location.
+- component: KDE Applications
+  create_time: 20210607T11:36:00
+  id: 1186931
+  resolution: ''
+  status: NEW
+  summary: Kaffeine is not able to open mp4 files
+- component: Other
+  create_time: 20210607T11:31:00
+  id: 1186930
+  resolution: ''
+  status: NEW
+  summary: Vidcutter cannot edit or reproduce m4v files
+- component: Kernel
+  create_time: 20210607T10:47:00
+  id: 1186927
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Broken Kernel symlinks due to usrmerge ...
+- component: Security
+  create_time: 20210606T16:08:00
+  id: 1186911
+  resolution: FIXED
+  status: RESOLVED
+  summary: gnutls is failing because of invalid decryption during handshake
+- component: KDE Applications
+  create_time: 20210606T10:48:00
+  id: 1186908
+  resolution: ''
+  status: NEW
+  summary: 'Software Updates applet: All available packages were updated even if I
+    select only 1 of them'
 - component: Kernel
   create_time: 20210605T22:16:00
   id: 1186904
@@ -59128,183 +59357,3 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: '[Build 20210603] yast2_rmt - rmt-server fails to start'
-'20210606':
-- component: Sound
-  create_time: 20210608T19:16:00
-  id: 1187079
-  resolution: ''
-  status: NEW
-  summary: pipewire audio stopped working after update to TW 20210605
-- component: Kernel
-  create_time: 20210608T18:42:00
-  id: 1187077
-  resolution: ''
-  status: NEW
-  summary: tpm2-abrmd fails with Tss2_TctiLdr_Initialize_Ex() Failed to instantiate
-    TCTI
-- component: Kernel
-  create_time: 20210608T14:49:00
-  id: 1187062
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: kernel header not available
-- component: Other
-  create_time: 20210608T13:52:00
-  id: 1187058
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'libindi and ioptron: wrong time set when DST is in use'
-- component: Development
-  create_time: 20210608T13:45:00
-  id: 1187056
-  resolution: ''
-  status: NEW
-  summary: hidapi build failed with autoconf-2.71
-- component: Development
-  create_time: 20210608T12:29:00
-  id: 1187044
-  resolution: ''
-  status: NEW
-  summary: 'error reading variable: dwarf2_find_location_expression: Corrupted DWARF
-    expression.'
-- component: Development
-  create_time: 20210608T12:24:00
-  id: 1187042
-  resolution: ''
-  status: NEW
-  summary: 'gdb: apparent infinite loop during symbol lookup'
-- component: Basesystem
-  create_time: 20210608T11:06:00
-  id: 1187036
-  resolution: ''
-  status: NEW
-  summary: RPM find_lang does not support ast (Asturian)
-- component: Sound
-  create_time: 20210608T10:47:00
-  id: 1187033
-  resolution: ''
-  status: NEW
-  summary: Update to MicroOS 20210605-1004.1 breaks HDMI audio (AMD Radeon HD 6450)
-- component: Basesystem
-  create_time: 20210608T10:36:00
-  id: 1187032
-  resolution: ''
-  status: NEW
-  summary: 'rpm/zypper: bootstrapping TW from SLE15SP1 fails'
-- component: Basesystem
-  create_time: 20210608T09:42:00
-  id: 1187027
-  resolution: FIXED
-  status: RESOLVED
-  summary: zypper dup from older container image fails in convertfs
-- component: Xfce
-  create_time: 20210608T09:10:00
-  id: 1187025
-  resolution: ''
-  status: NEW
-  summary: test
-- component: Security
-  create_time: 20210608T08:53:00
-  id: 1187024
-  resolution: ''
-  status: NEW
-  summary: OpenSSL 3.0 conflicts + obsoletes in packaging breaks creating Tumbleweed
-    chroots
-- component: Basesystem
-  create_time: 20210608T08:38:00
-  id: 1187022
-  resolution: ''
-  status: NEW
-  summary: system-users should depend on /usr/sbin/nologin
-- component: Other
-  create_time: 20210608T08:18:00
-  id: 1187020
-  resolution: ''
-  status: NEW
-  summary: 'multipath-tools: unconditionally loads modules'
-- component: Other
-  create_time: 20210608T08:10:00
-  id: 1187019
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210606] steamcmd: test fails launch'
-- component: YaST2
-  create_time: 20210608T07:59:00
-  id: 1187018
-  resolution: ''
-  status: IN_PROGRESS
-  summary: '[systemd248] various yast modules failing test suite'
-- component: Basesystem
-  create_time: 20210608T02:47:00
-  id: 1187010
-  resolution: ''
-  status: NEW
-  summary: update lvm2 from LVM2.03.10 to LVM2.2.03.12
-- component: Sound
-  create_time: 20210607T22:08:00
-  id: 1187009
-  resolution: ''
-  status: NEW
-  summary: HDMI sound accidentally disappeared after recent kernel upgrade
-- component: Kernel
-  create_time: 20210607T21:06:00
-  id: 1187007
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Broken kernel source symblic links on new installation
-- component: Kernel
-  create_time: 20210607T16:46:00
-  id: 1186944
-  resolution: ''
-  status: NEW
-  summary: Recent kernel builds interfere with amdgpu power management on certain
-    hardware
-- component: MicroOS
-  create_time: 20210607T16:04:00
-  id: 1186943
-  resolution: ''
-  status: NEW
-  summary: 'snapper cleanup: Deleting snapshot failed.'
-- component: Kernel
-  create_time: 20210607T11:37:00
-  id: 1186932
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: /usr/lib/modules/5.12.9-1-default/build does not point to the correct location.
-- component: KDE Applications
-  create_time: 20210607T11:36:00
-  id: 1186931
-  resolution: ''
-  status: NEW
-  summary: Kaffeine is not able to open mp4 files
-- component: Other
-  create_time: 20210607T11:31:00
-  id: 1186930
-  resolution: ''
-  status: NEW
-  summary: Vidcutter cannot edit or reproduce m4v files
-- component: Other
-  create_time: 20210607T11:07:00
-  id: 1186929
-  resolution: ''
-  status: NEW
-  summary: ckb-next incorrect dependency on //bin/bash
-- component: Kernel
-  create_time: 20210607T10:47:00
-  id: 1186927
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Broken Kernel symlinks due to usrmerge ...
-- component: Security
-  create_time: 20210606T16:08:00
-  id: 1186911
-  resolution: FIXED
-  status: RESOLVED
-  summary: gnutls is failing because of invalid decryption during handshake
-- component: KDE Applications
-  create_time: 20210606T10:48:00
-  id: 1186908
-  resolution: ''
-  status: NEW
-  summary: 'Software Updates applet: All available packages were updated even if I
-    select only 1 of them'
