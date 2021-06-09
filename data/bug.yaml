@@ -59068,6 +59068,12 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: Other
+  create_time: 20210609T18:39:00
+  id: 1187137
+  resolution: ''
+  status: NEW
+  summary: Syntax error in qtconcurrent header
 - component: Kernel
   create_time: 20210609T16:31:00
   id: 1187132
