@@ -58550,8 +58550,8 @@
 - component: Security
   create_time: 20210521T14:01:00
   id: 1186344
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-0: setroubleshoot: new package with D-Bus services and polkit actions'
 - component: Patterns
   create_time: 20210521T14:01:00
@@ -58669,8 +58669,8 @@
 - component: Kernel
   create_time: 20210525T21:05:00
   id: 1186454
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Oops at probing elants_i2c driver on 5.12.x kernels
 - component: Basesystem
   create_time: 20210525T19:14:00
@@ -59281,8 +59281,8 @@
 - component: Sound
   create_time: 20210607T22:08:00
   id: 1187009
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: HDMI sound accidentally disappeared after recent kernel / pipewire 20210605
     release upgrade
 - component: Kernel
