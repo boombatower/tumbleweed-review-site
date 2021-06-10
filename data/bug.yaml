@@ -59069,6 +59069,13 @@
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
 - component: Other
+  create_time: 20210610T12:21:00
+  id: 1187175
+  resolution: ''
+  status: NEW
+  summary: 'cacti: extend the cacti.spec file and change the own/group membership
+    of the directories'
+- component: Other
   create_time: 20210610T08:19:00
   id: 1187164
   resolution: ''
@@ -59380,9 +59387,10 @@
 - component: YaST2
   create_time: 20210605T12:28:00
   id: 1186895
-  resolution: ''
-  status: NEW
-  summary: Fix Ruby components for further package installations
+  resolution: FIXED
+  status: RESOLVED
+  summary: YaST2 crashes when analyzing fstab files of systems to upgrade with no
+    entries
 - component: Basesystem
   create_time: 20210605T10:22:00
   id: 1186894
