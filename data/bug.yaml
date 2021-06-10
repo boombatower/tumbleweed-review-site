@@ -33101,8 +33101,8 @@
 - component: Other
   create_time: 20191213T11:20:00
   id: 1159192
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'moonjit/lua51-luajit replacement: neovim isn''t able to build with moonjit'
 - component: YaST2
   create_time: 20191213T09:32:00
