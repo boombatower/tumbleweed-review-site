@@ -2051,58 +2051,58 @@
   score: 95
   stability_level: stable
 '20210508':
-  score: 97
-  stability_level: stable
+  score: 82
+  stability_level: moderate
 '20210510':
-  score: 97
-  stability_level: stable
+  score: 71
+  stability_level: moderate
 '20210511':
-  score: 98
-  stability_level: stable
+  score: 77
+  stability_level: moderate
 '20210512':
-  score: 98
-  stability_level: stable
+  score: 80
+  stability_level: moderate
 '20210513':
-  score: 98
-  stability_level: stable
+  score: 81
+  stability_level: moderate
 '20210514':
-  score: 98
-  stability_level: stable
+  score: 81
+  stability_level: moderate
 '20210515':
-  score: 98
-  stability_level: stable
+  score: 76
+  stability_level: moderate
 '20210517':
-  score: 97
-  stability_level: stable
+  score: 78
+  stability_level: moderate
 '20210519':
-  score: 93
-  stability_level: stable
+  score: 76
+  stability_level: moderate
 '20210520':
-  score: 97
-  stability_level: stable
+  score: 90
+  stability_level: moderate
 '20210521':
-  score: 98
+  score: 95
   stability_level: stable
 '20210522':
-  score: 98
+  score: 97
   stability_level: stable
 '20210524':
   score: 94
   stability_level: stable
 '20210527':
-  score: 96
-  stability_level: stable
+  score: 85
+  stability_level: moderate
 '20210601':
-  score: 97
+  score: 93
   stability_level: stable
 '20210602':
-  score: 97
+  score: 96
   stability_level: stable
 '20210603':
-  score: 98
+  score: 97
   stability_level: stable
 '20210604':
-  score: 98
+  score: 97
   stability_level: pending
 '20210605':
   score: 94
