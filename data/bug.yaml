@@ -58717,8 +58717,8 @@
 - component: GNOME
   create_time: 20210524T13:43:00
   id: 1186385
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: flatpak missing gnutls dependency
 - component: X11 3rd Party Driver
   create_time: 20210524T11:45:00
@@ -59008,8 +59008,8 @@
 - component: Development
   create_time: 20210604T18:10:00
   id: 1186883
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Development package for openssl 3.0 is missing
 - component: Installation
   create_time: 20210604T17:03:00
@@ -59069,6 +59069,12 @@
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
 - component: Other
+  create_time: 20210610T08:19:00
+  id: 1187164
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210609] tensorflow2 fails to build'
+- component: libzypp
   create_time: 20210610T08:00:00
   id: 1187161
   resolution: ''
@@ -59109,8 +59115,8 @@
 - component: Sound
   create_time: 20210609T11:25:00
   id: 1187109
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: sound not working after 20210605 update
 - component: Sound
   create_time: 20210609T11:10:00
