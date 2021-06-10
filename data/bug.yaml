@@ -58563,7 +58563,7 @@
   create_time: 20210521T13:54:00
   id: 1186342
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: zypper --xmllout lr do not respect --show-enabled-only
 - component: Development
   create_time: 20210521T13:15:00
