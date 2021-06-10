@@ -59052,7 +59052,7 @@
   create_time: 20210604T08:36:00
   id: 1186845
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'AUDIT-0: cinnamon-settings-daemon: Request review for polkit-unauthorized-privilege
     and polkit-cant-acquire-privilege'
 - component: Kernel
