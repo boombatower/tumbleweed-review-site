@@ -47567,8 +47567,8 @@
 - component: GNOME
   create_time: 20201011T16:57:00
   id: 1177556
-  resolution: ''
-  status: NEW
+  resolution: NORESPONSE
+  status: RESOLVED
   summary: PackageKit zypp backend  crashes with SEGFAULT installing updates
 - component: Kernel
   create_time: 20201011T13:54:00
