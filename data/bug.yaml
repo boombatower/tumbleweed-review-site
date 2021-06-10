@@ -57596,8 +57596,8 @@
 - component: Development
   create_time: 20210502T03:59:00
   id: 1185529
-  resolution: NORESPONSE
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: libgccjit does not find libgcc/crtbegin.o
 '20210504':
 - component: MicroOS
