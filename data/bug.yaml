@@ -59068,6 +59068,19 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: Other
+  create_time: 20210610T08:00:00
+  id: 1187161
+  resolution: ''
+  status: NEW
+  summary: zypper/rpm automatic shlib resolver confuses openmpi flavors for vtk
+- component: YaST2
+  create_time: 20210610T06:37:00
+  id: 1187157
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'yast2-cluster: missing option "none" in select box for "crypto_hash" and
+    "crypto_cipher"'
 - component: libzypp
   create_time: 20210609T22:18:00
   id: 1187146
