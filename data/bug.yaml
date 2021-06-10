@@ -59068,6 +59068,12 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: libzypp
+  create_time: 20210609T22:18:00
+  id: 1187146
+  resolution: ''
+  status: NEW
+  summary: downloading with zypper dup hangs forever on first error
 - component: Other
   create_time: 20210609T18:39:00
   id: 1187137
@@ -59361,8 +59367,8 @@
 - component: Basesystem
   create_time: 20210605T10:22:00
   id: 1186894
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: tumbleweed update with UsrMerge failed
 - component: KDE Workspace (Plasma)
   create_time: 20210605T07:46:00
