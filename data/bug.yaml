@@ -59068,6 +59068,18 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: Sound
+  create_time: 20210610T21:44:00
+  id: 1187197
+  resolution: ''
+  status: NEW
+  summary: No digital sound output after upgrade to 5.12.9
+- component: Basesystem
+  create_time: 20210610T20:17:00
+  id: 1187195
+  resolution: ''
+  status: NEW
+  summary: pulseaudio battery drain
 - component: Other
   create_time: 20210610T12:21:00
   id: 1187175
