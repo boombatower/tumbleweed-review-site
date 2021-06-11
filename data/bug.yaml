@@ -59069,6 +59069,12 @@
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
 - component: Development
+  create_time: 20210611T00:23:00
+  id: 1187200
+  resolution: ''
+  status: NEW
+  summary: KDevelop hard requires zsh
+- component: Development
   create_time: 20210610T23:43:00
   id: 1187199
   resolution: ''
