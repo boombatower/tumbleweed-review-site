@@ -59068,6 +59068,13 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: KDE Workspace (Plasma)
+  create_time: 20210611T04:35:00
+  id: 1187204
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210609] upgraders from 43.x to plasma 5.22: desktop_runner fails
+    to show'
 - component: Development
   create_time: 20210611T00:23:00
   id: 1187200
