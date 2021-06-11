@@ -59068,6 +59068,12 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: Development
+  create_time: 20210610T23:43:00
+  id: 1187199
+  resolution: ''
+  status: NEW
+  summary: PowerLIne Plugin for iPython doesn't work
 - component: Sound
   create_time: 20210610T21:44:00
   id: 1187197
