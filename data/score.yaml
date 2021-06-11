@@ -2051,22 +2051,22 @@
   score: 95
   stability_level: stable
 '20210508':
-  score: 82
-  stability_level: moderate
+  score: 97
+  stability_level: stable
 '20210510':
-  score: 71
-  stability_level: moderate
-'20210511':
   score: 77
   stability_level: moderate
-'20210512':
+'20210511':
   score: 80
   stability_level: moderate
-'20210513':
+'20210512':
   score: 81
   stability_level: moderate
+'20210513':
+  score: 82
+  stability_level: moderate
 '20210514':
-  score: 81
+  score: 82
   stability_level: moderate
 '20210515':
   score: 76
