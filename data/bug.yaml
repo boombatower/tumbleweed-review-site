@@ -47379,7 +47379,7 @@
   create_time: 20201007T09:50:00
   id: 1177419
   resolution: UPSTREAM
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20201003] udisks2ctl randomly fails to set up loop device for /root/udisk_test.iso:
     GDBus.Error:org.freedesktop.UDisks2.Error.Failed: Error waiting for loop object
     after creating ''/dev/loop0'': Timed out waiting for object'
@@ -57751,8 +57751,8 @@
 - component: Other
   create_time: 20210505T14:07:00
   id: 1185660
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'lua-lmod: rpm macro file installed to /etc/rpm'
 - component: Other
   create_time: 20210505T14:06:00
@@ -58953,8 +58953,8 @@
 - component: Basesystem
   create_time: 20210602T00:58:00
   id: 1186715
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Tumbleweed][openssl][libressl] older "/usr/bin/openssl" command gave
     wrong return code'
 '20210603':
@@ -59068,12 +59068,30 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: AutoYaST
+  create_time: 20210611T10:08:00
+  id: 1187221
+  resolution: ''
+  status: CONFIRMED
+  summary: AutoYaST's installedSystem.xml is not available after installation
+- component: MicroOS
+  create_time: 20210611T09:52:00
+  id: 1187219
+  resolution: ''
+  status: NEW
+  summary: virtlogd cannot read token due to SElinux
+- component: Xfce
+  create_time: 20210611T09:42:00
+  id: 1187218
+  resolution: ''
+  status: NEW
+  summary: xfce4-notifyd segfault after waking up from suspend.
 - component: Basesystem
   create_time: 20210611T07:58:00
   id: 1187213
   resolution: ''
   status: NEW
-  summary: 'aaa_base: bash completion is fucked up despite not installed'
+  summary: 'aaa_base: bash completion is broken despite extras not installed'
 - component: Containers
   create_time: 20210611T07:18:00
   id: 1187209
@@ -59294,8 +59312,8 @@
 - component: Security
   create_time: 20210608T08:53:00
   id: 1187024
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: OpenSSL 3.0 conflicts + obsoletes in packaging breaks creating Tumbleweed
     chroots
 - component: Basesystem
