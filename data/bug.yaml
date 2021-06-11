@@ -46553,7 +46553,7 @@
   create_time: 20200915T07:47:00
   id: 1176530
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20200914] Pattern Header description: text overlaps icon'
 - component: Basesystem
   create_time: 20200915T07:00:00
@@ -59068,6 +59068,18 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: Basesystem
+  create_time: 20210611T07:58:00
+  id: 1187213
+  resolution: ''
+  status: NEW
+  summary: 'aaa_base: bash completion is fucked up despite not installed'
+- component: Containers
+  create_time: 20210611T07:18:00
+  id: 1187209
+  resolution: ''
+  status: NEW
+  summary: podman uses wrong uid when changing user with su
 - component: KDE Workspace (Plasma)
   create_time: 20210611T04:35:00
   id: 1187204
