@@ -59068,6 +59068,18 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: YaST2
+  create_time: 20210611T15:39:00
+  id: 1187233
+  resolution: ''
+  status: NEW
+  summary: yast2 auto client crash when non ycp type is returned in void method
+- component: YaST2
+  create_time: 20210611T14:18:00
+  id: 1187230
+  resolution: ''
+  status: NEW
+  summary: yast2-ruby-bindings crash if non ycp type is passed to component system
 - component: AutoYaST
   create_time: 20210611T10:08:00
   id: 1187221
