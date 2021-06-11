@@ -59068,6 +59068,12 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
+- component: Other
+  create_time: 20210611T18:05:00
+  id: 1187238
+  resolution: ''
+  status: NEW
+  summary: melt symlink is dead
 - component: YaST2
   create_time: 20210611T15:39:00
   id: 1187233
