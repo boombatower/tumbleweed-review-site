@@ -56115,8 +56115,8 @@
 - component: Kernel
   create_time: 20210406T15:47:00
   id: 1184403
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: iwlwifi driver failing to load in current MicroOS Desktop image
 - component: Basesystem
   create_time: 20210406T15:46:00
@@ -59046,14 +59046,14 @@
   create_time: 20210604T08:48:00
   id: 1186846
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: negative used size reported for ext4 file system without journal
 - component: Security
   create_time: 20210604T08:36:00
   id: 1186845
   resolution: ''
   status: IN_PROGRESS
-  summary: 'AUDIT-0: cinnamon-settings-daemon: Request review for polkit-unauthorized-privilege
+  summary: 'AUDIT-TRACKER: cinnamon-settings-daemon: Request review for polkit-unauthorized-privilege
     and polkit-cant-acquire-privilege'
 - component: Kernel
   create_time: 20210604T06:50:00
@@ -59304,140 +59304,6 @@
   status: RESOLVED
   summary: '[Build 20210603] yast2_rmt - rmt-server fails to start'
 '20210609':
-- component: Other
-  create_time: 20210614T11:23:00
-  id: 1187291
-  resolution: ''
-  status: NEW
-  summary: Touchpad not found
-- component: Network
-  create_time: 20210614T10:55:00
-  id: 1187290
-  resolution: ''
-  status: NEW
-  summary: Can't connect to any wifi network. Now my laptop is a brick.
-- component: Basesystem
-  create_time: 20210614T10:13:00
-  id: 1187289
-  resolution: ''
-  status: NEW
-  summary: Boot in emergency mode after boot without usb stick
-- component: Other
-  create_time: 20210614T09:53:00
-  id: 1187288
-  resolution: ''
-  status: NEW
-  summary: Racket 8.1 breaks installation of rash
-- component: Containers
-  create_time: 20210614T08:35:00
-  id: 1187285
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210612] openQA test fails in sshfs'
-- component: Other
-  create_time: 20210614T08:22:00
-  id: 1187284
-  resolution: ''
-  status: NEW
-  summary: Firefox shows wrong colors for videos
-- component: Kernel
-  create_time: 20210614T03:32:00
-  id: 1187275
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: nvidia driver not loaded with kernel 5.12.9-1
-- component: Development
-  create_time: 20210613T21:28:00
-  id: 1187273
-  resolution: ''
-  status: NEW
-  summary: Internal  compiler error  max0 function in old code
-- component: KDE Workspace (Plasma)
-  create_time: 20210613T17:09:00
-  id: 1187272
-  resolution: ''
-  status: NEW
-  summary: KDE workspace Plasma network speed widget stops working after update
-- component: KDE Applications
-  create_time: 20210613T16:40:00
-  id: 1187271
-  resolution: ''
-  status: NEW
-  summary: The URL for package discover is obsolete
-- component: YaST2
-  create_time: 20210613T14:55:00
-  id: 1187270
-  resolution: ''
-  status: NEW
-  summary: Grammatical Error In YaST Control Center
-- component: KDE Workspace (Plasma)
-  create_time: 20210613T11:21:00
-  id: 1187267
-  resolution: ''
-  status: NEW
-  summary: another Typo in Bluetooth tooltip (german translation)
-- component: KDE Workspace (Plasma)
-  create_time: 20210613T11:14:00
-  id: 1187266
-  resolution: ''
-  status: NEW
-  summary: Typo in Bluetooth tooltip (german translation)
-- component: Other
-  create_time: 20210613T11:09:00
-  id: 1187265
-  resolution: ''
-  status: NEW
-  summary: /usr/bin/ksh points to wrong file
-- component: Kernel
-  create_time: 20210613T10:34:00
-  id: 1187264
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210611] [s390x] "Bad page state in process cc1plus  pfn:fe401"
-    during build of nodejs16'
-- component: Basesystem
-  create_time: 20210613T10:25:00
-  id: 1187262
-  resolution: ''
-  status: NEW
-  summary: 'pythonN-base not in Prefer: list'
-- component: Basesystem
-  create_time: 20210613T09:46:00
-  id: 1187261
-  resolution: ''
-  status: NEW
-  summary: broken lsb-fake dependency due to python
-- component: Bootloader
-  create_time: 20210612T22:01:00
-  id: 1187257
-  resolution: ''
-  status: NEW
-  summary: '[riscv64][Unmatched] GRUB out of memory while loading initrd'
-- component: Development
-  create_time: 20210612T16:08:00
-  id: 1187254
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Clang 9 ignoring [[__no_unique_address__]] causes miscompilations with
-    libstdc++ 11
-- component: Other
-  create_time: 20210612T15:38:00
-  id: 1187253
-  resolution: ''
-  status: NEW
-  summary: System setting - windows management - windows rules not working
-- component: Kernel
-  create_time: 20210612T15:36:00
-  id: 1187252
-  resolution: ''
-  status: NEW
-  summary: Pluggable SATA disk not detected in newer kernels
-- component: KDE Workspace (Plasma)
-  create_time: 20210612T04:34:00
-  id: 1187248
-  resolution: ''
-  status: NEW
-  summary: Snapshot 20210609 kills panel icon to switch keyboard layouts
 - component: KDE Workspace (Plasma)
   create_time: 20210611T19:23:00
   id: 1187242
@@ -59641,3 +59507,151 @@
   resolution: ''
   status: REOPENED
   summary: gpsd fails on aarch64 with LTO
+'20210612':
+- component: Basesystem
+  create_time: 20210614T15:29:00
+  id: 1187316
+  resolution: ''
+  status: NEW
+  summary: 'tpm2_checkquote / ERROR: Malformed PCR file, pcr count cannot be greater
+    than 32, got: <BIG NUMBER>'
+- component: Security
+  create_time: 20210614T14:45:00
+  id: 1187313
+  resolution: ''
+  status: NEW
+  summary: selinux-policy-targeted breaks StandardOutput=tty
+- component: Other
+  create_time: 20210614T11:23:00
+  id: 1187291
+  resolution: ''
+  status: NEW
+  summary: Touchpad not found
+- component: Network
+  create_time: 20210614T10:55:00
+  id: 1187290
+  resolution: ''
+  status: NEW
+  summary: Can't connect to any wifi network. Now my laptop is a brick.
+- component: Basesystem
+  create_time: 20210614T10:13:00
+  id: 1187289
+  resolution: ''
+  status: NEW
+  summary: Boot in emergency mode after boot without usb stick
+- component: Other
+  create_time: 20210614T09:53:00
+  id: 1187288
+  resolution: ''
+  status: NEW
+  summary: Racket 8.1 breaks installation of rash
+- component: Containers
+  create_time: 20210614T08:35:00
+  id: 1187285
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210612] openQA test fails in sshfs'
+- component: Other
+  create_time: 20210614T08:22:00
+  id: 1187284
+  resolution: ''
+  status: NEW
+  summary: Firefox shows wrong colors for videos
+- component: Kernel
+  create_time: 20210614T03:32:00
+  id: 1187275
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: nvidia driver not loaded with kernel 5.12.9-1
+- component: Development
+  create_time: 20210613T21:28:00
+  id: 1187273
+  resolution: ''
+  status: NEW
+  summary: Internal  compiler error  max0 function in old code
+- component: KDE Workspace (Plasma)
+  create_time: 20210613T17:09:00
+  id: 1187272
+  resolution: ''
+  status: NEW
+  summary: KDE workspace Plasma network speed widget stops working after update
+- component: KDE Applications
+  create_time: 20210613T16:40:00
+  id: 1187271
+  resolution: ''
+  status: NEW
+  summary: The URL for package discover is obsolete
+- component: YaST2
+  create_time: 20210613T14:55:00
+  id: 1187270
+  resolution: ''
+  status: NEW
+  summary: Grammatical Error In YaST Control Center
+- component: KDE Workspace (Plasma)
+  create_time: 20210613T11:21:00
+  id: 1187267
+  resolution: ''
+  status: NEW
+  summary: another Typo in Bluetooth tooltip (german translation)
+- component: KDE Workspace (Plasma)
+  create_time: 20210613T11:14:00
+  id: 1187266
+  resolution: ''
+  status: NEW
+  summary: Typo in Bluetooth tooltip (german translation)
+- component: Other
+  create_time: 20210613T11:09:00
+  id: 1187265
+  resolution: ''
+  status: NEW
+  summary: /usr/bin/ksh points to wrong file
+- component: Kernel
+  create_time: 20210613T10:34:00
+  id: 1187264
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210611] [s390x] "Bad page state in process cc1plus  pfn:fe401"
+    during build of nodejs16'
+- component: Basesystem
+  create_time: 20210613T10:25:00
+  id: 1187262
+  resolution: ''
+  status: NEW
+  summary: 'pythonN-base not in Prefer: list'
+- component: Basesystem
+  create_time: 20210613T09:46:00
+  id: 1187261
+  resolution: ''
+  status: NEW
+  summary: broken lsb-fake dependency due to python
+- component: Bootloader
+  create_time: 20210612T22:01:00
+  id: 1187257
+  resolution: ''
+  status: NEW
+  summary: '[riscv64][Unmatched] GRUB out of memory while loading initrd'
+- component: Development
+  create_time: 20210612T16:08:00
+  id: 1187254
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Clang 9 ignoring [[__no_unique_address__]] causes miscompilations with
+    libstdc++ 11
+- component: Other
+  create_time: 20210612T15:38:00
+  id: 1187253
+  resolution: ''
+  status: NEW
+  summary: System setting - windows management - windows rules not working
+- component: Kernel
+  create_time: 20210612T15:36:00
+  id: 1187252
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Pluggable SATA disk not detected in newer kernels
+- component: KDE Workspace (Plasma)
+  create_time: 20210612T04:34:00
+  id: 1187248
+  resolution: ''
+  status: NEW
+  summary: Snapshot 20210609 kills panel icon to switch keyboard layouts
