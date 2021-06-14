@@ -6757,3 +6757,12 @@
   reference_count: 0
   thread_count: 0
   threads: []
+'20210609':
+  announcement: 2021-06.5003
+  reference_count: 7
+  thread_count: 1
+  threads:
+  - messages:
+    - 2021-06.5007
+    reference_count: 7
+    summary: sshd_config.rpmsave
