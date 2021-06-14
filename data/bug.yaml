@@ -59508,6 +59508,18 @@
   status: REOPENED
   summary: gpsd fails on aarch64 with LTO
 '20210612':
+- component: KDE Workspace (Plasma)
+  create_time: 20210614T17:11:00
+  id: 1187319
+  resolution: ''
+  status: NEW
+  summary: Kinfocenter, no USB section since version 5.22
+- component: Development
+  create_time: 20210614T16:33:00
+  id: 1187317
+  resolution: ''
+  status: NEW
+  summary: libssh2_org build failed with autoconf 2.71
 - component: Basesystem
   create_time: 20210614T15:29:00
   id: 1187316
