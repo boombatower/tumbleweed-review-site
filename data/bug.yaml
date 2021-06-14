@@ -59394,7 +59394,7 @@
   id: 1187195
   resolution: ''
   status: NEW
-  summary: pulseaudio battery drain
+  summary: tumbleweed battery drain
 - component: Other
   create_time: 20210610T12:21:00
   id: 1187175
@@ -59508,6 +59508,12 @@
   status: REOPENED
   summary: gpsd fails on aarch64 with LTO
 '20210612':
+- component: Kernel
+  create_time: 20210614T19:52:00
+  id: 1187321
+  resolution: ''
+  status: NEW
+  summary: '[riscv64][Unmatched] poweroff/reboot not exiting ssh connection'
 - component: KDE Workspace (Plasma)
   create_time: 20210614T17:11:00
   id: 1187319
