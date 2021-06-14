@@ -59508,7 +59508,19 @@
   status: REOPENED
   summary: gpsd fails on aarch64 with LTO
 '20210612':
-- component: Kernel
+- component: GNOME
+  create_time: 20210614T21:52:00
+  id: 1187328
+  resolution: ''
+  status: NEW
+  summary: Foliate E-book reader fails to start, missing dependency
+- component: Basesystem
+  create_time: 20210614T20:39:00
+  id: 1187327
+  resolution: ''
+  status: NEW
+  summary: '[riscv64][Unmatched] Tumbleweed update repository does not exist'
+- component: Basesystem
   create_time: 20210614T19:52:00
   id: 1187321
   resolution: ''
@@ -59517,8 +59529,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20210614T17:11:00
   id: 1187319
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kinfocenter, no USB section since version 5.22
 - component: Development
   create_time: 20210614T16:33:00
@@ -59542,14 +59554,14 @@
 - component: Other
   create_time: 20210614T11:23:00
   id: 1187291
-  resolution: ''
-  status: NEW
+  resolution: MOVED
+  status: RESOLVED
   summary: Touchpad not found
 - component: Network
   create_time: 20210614T10:55:00
   id: 1187290
-  resolution: ''
-  status: NEW
+  resolution: MOVED
+  status: RESOLVED
   summary: Can't connect to any wifi network. Now my laptop is a brick.
 - component: Basesystem
   create_time: 20210614T10:13:00
@@ -59569,7 +59581,7 @@
   resolution: ''
   status: NEW
   summary: '[Build 20210612] openQA test fails in sshfs'
-- component: Other
+- component: Firefox
   create_time: 20210614T08:22:00
   id: 1187284
   resolution: ''
@@ -59651,8 +59663,8 @@
 - component: Development
   create_time: 20210612T16:08:00
   id: 1187254
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Clang 9 ignoring [[__no_unique_address__]] causes miscompilations with
     libstdc++ 11
 - component: Other
