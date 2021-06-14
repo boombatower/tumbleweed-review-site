@@ -44342,8 +44342,8 @@
 - component: Bootloader
   create_time: 20200803T11:05:00
   id: 1174823
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: GRUB is extremely slow to decrypt
 - component: Development
   create_time: 20200803T08:50:00
@@ -59068,191 +59068,6 @@
   status: RESOLVED
   summary: when restarting named an error occurs about missing /sbin/kill
 '20210605':
-- component: Other
-  create_time: 20210611T18:05:00
-  id: 1187238
-  resolution: ''
-  status: NEW
-  summary: melt symlink is dead
-- component: YaST2
-  create_time: 20210611T15:39:00
-  id: 1187233
-  resolution: ''
-  status: NEW
-  summary: yast2 auto client crash when non ycp type is returned in void method
-- component: YaST2
-  create_time: 20210611T14:18:00
-  id: 1187230
-  resolution: ''
-  status: NEW
-  summary: yast2-ruby-bindings crash if non ycp type is passed to component system
-- component: AutoYaST
-  create_time: 20210611T10:08:00
-  id: 1187221
-  resolution: ''
-  status: CONFIRMED
-  summary: AutoYaST's installedSystem.xml is not available after installation
-- component: MicroOS
-  create_time: 20210611T09:52:00
-  id: 1187219
-  resolution: ''
-  status: NEW
-  summary: virtlogd cannot read token due to SElinux
-- component: Xfce
-  create_time: 20210611T09:42:00
-  id: 1187218
-  resolution: ''
-  status: NEW
-  summary: xfce4-notifyd segfault after waking up from suspend.
-- component: Basesystem
-  create_time: 20210611T07:58:00
-  id: 1187213
-  resolution: ''
-  status: NEW
-  summary: 'aaa_base: bash completion is broken despite extras not installed'
-- component: Containers
-  create_time: 20210611T07:18:00
-  id: 1187209
-  resolution: ''
-  status: NEW
-  summary: podman uses wrong uid when changing user with su
-- component: KDE Workspace (Plasma)
-  create_time: 20210611T04:35:00
-  id: 1187204
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210609] upgraders from 43.x to plasma 5.22: desktop_runner fails
-    to show'
-- component: Development
-  create_time: 20210611T00:23:00
-  id: 1187200
-  resolution: ''
-  status: NEW
-  summary: KDevelop hard requires zsh
-- component: Development
-  create_time: 20210610T23:43:00
-  id: 1187199
-  resolution: ''
-  status: NEW
-  summary: PowerLIne Plugin for iPython doesn't work
-- component: Sound
-  create_time: 20210610T21:44:00
-  id: 1187197
-  resolution: ''
-  status: NEW
-  summary: No digital sound output after upgrade to 5.12.9
-- component: Basesystem
-  create_time: 20210610T20:17:00
-  id: 1187195
-  resolution: ''
-  status: NEW
-  summary: pulseaudio battery drain
-- component: Other
-  create_time: 20210610T12:21:00
-  id: 1187175
-  resolution: ''
-  status: NEW
-  summary: 'cacti: extend the cacti.spec file and change the own/group membership
-    of the directories'
-- component: Other
-  create_time: 20210610T08:19:00
-  id: 1187164
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210609] tensorflow2 fails to build'
-- component: libzypp
-  create_time: 20210610T08:00:00
-  id: 1187161
-  resolution: ''
-  status: NEW
-  summary: zypper/rpm automatic shlib resolver confuses openmpi flavors for vtk
-- component: YaST2
-  create_time: 20210610T06:37:00
-  id: 1187157
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'yast2-cluster: missing option "none" in select box for "crypto_hash" and
-    "crypto_cipher"'
-- component: libzypp
-  create_time: 20210609T22:18:00
-  id: 1187146
-  resolution: ''
-  status: NEW
-  summary: downloading with zypper dup hangs forever on first error
-- component: Other
-  create_time: 20210609T18:39:00
-  id: 1187137
-  resolution: ''
-  status: NEW
-  summary: Syntax error in qtconcurrent header
-- component: Kernel
-  create_time: 20210609T16:31:00
-  id: 1187132
-  resolution: ''
-  status: NEW
-  summary: Bad page map in process cc1 during build process of Midnight Commander
-    (problem with mapping files into memory)
-- component: Development
-  create_time: 20210609T12:12:00
-  id: 1187111
-  resolution: ''
-  status: NEW
-  summary: Subversion does not fall back to IPv4 when missing IPv6 default route
-- component: Sound
-  create_time: 20210609T11:25:00
-  id: 1187109
-  resolution: FIXED
-  status: RESOLVED
-  summary: sound not working after 20210605 update
-- component: Sound
-  create_time: 20210609T11:10:00
-  id: 1187108
-  resolution: ''
-  status: NEW
-  summary: pipewire udev rules should be in the main package
-- component: X11 3rd Party Driver
-  create_time: 20210609T10:14:00
-  id: 1187103
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Nvidia Kernel modules not found
-- component: Samba
-  create_time: 20210609T09:46:00
-  id: 1187101
-  resolution: ''
-  status: NEW
-  summary: samba-ad-dc requires python3x-dnspython
-- component: Other
-  create_time: 20210609T09:09:00
-  id: 1187098
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: Systemd's script requires 'chckonfig' command yet the package containing
-    it is not available
-- component: Development
-  create_time: 20210609T08:38:00
-  id: 1187095
-  resolution: ''
-  status: IN_PROGRESS
-  summary: uboot 20.10 broke Odroid C2 networking
-- component: Basesystem
-  create_time: 20210609T08:31:00
-  id: 1187094
-  resolution: FIXED
-  status: RESOLVED
-  summary: nfsidmap is missing
-- component: Basesystem
-  create_time: 20210609T07:27:00
-  id: 1187091
-  resolution: ''
-  status: IN_PROGRESS
-  summary: pam-config fails to create a new service config file
-- component: Other
-  create_time: 20210609T06:57:00
-  id: 1187089
-  resolution: ''
-  status: REOPENED
-  summary: gpsd fails on aarch64 with LTO
 - component: Sound
   create_time: 20210608T19:16:00
   id: 1187079
@@ -59306,8 +59121,8 @@
 - component: Sound
   create_time: 20210608T10:47:00
   id: 1187033
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Update to MicroOS 20210605-1004.1 breaks HDMI audio (AMD Radeon HD 6450)
 - component: Basesystem
   create_time: 20210608T10:36:00
@@ -59324,8 +59139,8 @@
 - component: Xfce
   create_time: 20210608T09:10:00
   id: 1187025
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: test
 - component: Security
   create_time: 20210608T08:53:00
@@ -59367,8 +59182,8 @@
 - component: Sound
   create_time: 20210607T22:08:00
   id: 1187009
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: HDMI sound accidentally disappeared after recent kernel / pipewire 20210605
     release upgrade
 - component: Kernel
@@ -59436,8 +59251,8 @@
 - component: Bootloader
   create_time: 20210605T20:18:00
   id: 1186903
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Reboot after zypper dup does not boot to desktop environment
 - component: Containers
   create_time: 20210605T18:03:00
@@ -59488,3 +59303,341 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: '[Build 20210603] yast2_rmt - rmt-server fails to start'
+'20210609':
+- component: Other
+  create_time: 20210614T11:23:00
+  id: 1187291
+  resolution: ''
+  status: NEW
+  summary: Touchpad not found
+- component: Network
+  create_time: 20210614T10:55:00
+  id: 1187290
+  resolution: ''
+  status: NEW
+  summary: Can't connect to any wifi network. Now my laptop is a brick.
+- component: Basesystem
+  create_time: 20210614T10:13:00
+  id: 1187289
+  resolution: ''
+  status: NEW
+  summary: Boot in emergency mode after boot without usb stick
+- component: Other
+  create_time: 20210614T09:53:00
+  id: 1187288
+  resolution: ''
+  status: NEW
+  summary: Racket 8.1 breaks installation of rash
+- component: Containers
+  create_time: 20210614T08:35:00
+  id: 1187285
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210612] openQA test fails in sshfs'
+- component: Other
+  create_time: 20210614T08:22:00
+  id: 1187284
+  resolution: ''
+  status: NEW
+  summary: Firefox shows wrong colors for videos
+- component: Kernel
+  create_time: 20210614T03:32:00
+  id: 1187275
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: nvidia driver not loaded with kernel 5.12.9-1
+- component: Development
+  create_time: 20210613T21:28:00
+  id: 1187273
+  resolution: ''
+  status: NEW
+  summary: Internal  compiler error  max0 function in old code
+- component: KDE Workspace (Plasma)
+  create_time: 20210613T17:09:00
+  id: 1187272
+  resolution: ''
+  status: NEW
+  summary: KDE workspace Plasma network speed widget stops working after update
+- component: KDE Applications
+  create_time: 20210613T16:40:00
+  id: 1187271
+  resolution: ''
+  status: NEW
+  summary: The URL for package discover is obsolete
+- component: YaST2
+  create_time: 20210613T14:55:00
+  id: 1187270
+  resolution: ''
+  status: NEW
+  summary: Grammatical Error In YaST Control Center
+- component: KDE Workspace (Plasma)
+  create_time: 20210613T11:21:00
+  id: 1187267
+  resolution: ''
+  status: NEW
+  summary: another Typo in Bluetooth tooltip (german translation)
+- component: KDE Workspace (Plasma)
+  create_time: 20210613T11:14:00
+  id: 1187266
+  resolution: ''
+  status: NEW
+  summary: Typo in Bluetooth tooltip (german translation)
+- component: Other
+  create_time: 20210613T11:09:00
+  id: 1187265
+  resolution: ''
+  status: NEW
+  summary: /usr/bin/ksh points to wrong file
+- component: Kernel
+  create_time: 20210613T10:34:00
+  id: 1187264
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210611] [s390x] "Bad page state in process cc1plus  pfn:fe401"
+    during build of nodejs16'
+- component: Basesystem
+  create_time: 20210613T10:25:00
+  id: 1187262
+  resolution: ''
+  status: NEW
+  summary: 'pythonN-base not in Prefer: list'
+- component: Basesystem
+  create_time: 20210613T09:46:00
+  id: 1187261
+  resolution: ''
+  status: NEW
+  summary: broken lsb-fake dependency due to python
+- component: Bootloader
+  create_time: 20210612T22:01:00
+  id: 1187257
+  resolution: ''
+  status: NEW
+  summary: '[riscv64][Unmatched] GRUB out of memory while loading initrd'
+- component: Development
+  create_time: 20210612T16:08:00
+  id: 1187254
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Clang 9 ignoring [[__no_unique_address__]] causes miscompilations with
+    libstdc++ 11
+- component: Other
+  create_time: 20210612T15:38:00
+  id: 1187253
+  resolution: ''
+  status: NEW
+  summary: System setting - windows management - windows rules not working
+- component: Kernel
+  create_time: 20210612T15:36:00
+  id: 1187252
+  resolution: ''
+  status: NEW
+  summary: Pluggable SATA disk not detected in newer kernels
+- component: KDE Workspace (Plasma)
+  create_time: 20210612T04:34:00
+  id: 1187248
+  resolution: ''
+  status: NEW
+  summary: Snapshot 20210609 kills panel icon to switch keyboard layouts
+- component: KDE Workspace (Plasma)
+  create_time: 20210611T19:23:00
+  id: 1187242
+  resolution: WORKSFORME
+  status: RESOLVED
+  summary: after snapshot 20210609 sddm does not allow graphical login
+- component: Sound
+  create_time: 20210611T18:19:00
+  id: 1187239
+  resolution: FIXED
+  status: RESOLVED
+  summary: ASeqView fails with a Segmentation fault (core dumped)
+- component: KDE Workspace (Plasma)
+  create_time: 20210611T18:05:00
+  id: 1187238
+  resolution: FIXED
+  status: RESOLVED
+  summary: melt symlink is dead
+- component: YaST2
+  create_time: 20210611T15:39:00
+  id: 1187233
+  resolution: ''
+  status: NEW
+  summary: yast2 auto client crash when non ycp type is returned in void method
+- component: YaST2
+  create_time: 20210611T14:18:00
+  id: 1187230
+  resolution: ''
+  status: NEW
+  summary: yast2-ruby-bindings crash if non ycp type is passed to component system
+- component: AutoYaST
+  create_time: 20210611T10:08:00
+  id: 1187221
+  resolution: FIXED
+  status: RESOLVED
+  summary: AutoYaST's installedSystem.xml is not available after installation
+- component: MicroOS
+  create_time: 20210611T09:52:00
+  id: 1187219
+  resolution: ''
+  status: NEW
+  summary: virtlogd cannot read token due to SElinux
+- component: Xfce
+  create_time: 20210611T09:42:00
+  id: 1187218
+  resolution: ''
+  status: NEW
+  summary: xfce4-notifyd segfault after waking up from suspend.
+- component: Basesystem
+  create_time: 20210611T07:58:00
+  id: 1187213
+  resolution: ''
+  status: NEW
+  summary: 'aaa_base: bash completion is broken despite extras not installed'
+- component: Containers
+  create_time: 20210611T07:18:00
+  id: 1187209
+  resolution: ''
+  status: NEW
+  summary: podman uses wrong uid when changing user with su
+- component: KDE Workspace (Plasma)
+  create_time: 20210611T04:35:00
+  id: 1187204
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20210609] upgraders from 43.x to plasma 5.22: desktop_runner fails
+    to show'
+- component: KDE Applications
+  create_time: 20210611T00:23:00
+  id: 1187200
+  resolution: ''
+  status: NEW
+  summary: KDevelop hard requires zsh
+- component: Development
+  create_time: 20210610T23:43:00
+  id: 1187199
+  resolution: ''
+  status: NEW
+  summary: PowerLIne Plugin for iPython doesn't work
+- component: Sound
+  create_time: 20210610T21:44:00
+  id: 1187197
+  resolution: ''
+  status: NEW
+  summary: No digital sound output after upgrade to 5.12.9
+- component: Sound
+  create_time: 20210610T20:17:00
+  id: 1187195
+  resolution: ''
+  status: NEW
+  summary: pulseaudio battery drain
+- component: Other
+  create_time: 20210610T12:21:00
+  id: 1187175
+  resolution: ''
+  status: NEW
+  summary: 'cacti: extend the cacti.spec file and change the own/group membership
+    of the directories'
+- component: Kernel
+  create_time: 20210610T10:10:00
+  id: 1187167
+  resolution: ''
+  status: IN_PROGRESS
+  summary: kernel-default varies across builds
+- component: Other
+  create_time: 20210610T08:19:00
+  id: 1187164
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210609] tensorflow2 fails to build'
+- component: libzypp
+  create_time: 20210610T08:00:00
+  id: 1187161
+  resolution: ''
+  status: NEW
+  summary: zypper/rpm automatic shlib resolver confuses openmpi flavors for vtk
+- component: YaST2
+  create_time: 20210610T06:37:00
+  id: 1187157
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'yast2-cluster: missing option "none" in select box for "crypto_hash" and
+    "crypto_cipher"'
+- component: libzypp
+  create_time: 20210609T22:18:00
+  id: 1187146
+  resolution: ''
+  status: NEW
+  summary: downloading with zypper dup hangs forever on first error
+- component: Other
+  create_time: 20210609T18:39:00
+  id: 1187137
+  resolution: ''
+  status: NEW
+  summary: Syntax error in qtconcurrent header
+- component: Kernel
+  create_time: 20210609T16:31:00
+  id: 1187132
+  resolution: INVALID
+  status: RESOLVED
+  summary: Bad page map in process cc1 during build process of Midnight Commander
+    (problem with mapping files into memory)
+- component: Development
+  create_time: 20210609T12:12:00
+  id: 1187111
+  resolution: ''
+  status: NEW
+  summary: Subversion does not fall back to IPv4 when missing IPv6 default route
+- component: Sound
+  create_time: 20210609T11:25:00
+  id: 1187109
+  resolution: FIXED
+  status: RESOLVED
+  summary: sound not working after 20210605 update
+- component: Sound
+  create_time: 20210609T11:10:00
+  id: 1187108
+  resolution: ''
+  status: NEW
+  summary: pipewire udev rules should be in the main package
+- component: X11 3rd Party Driver
+  create_time: 20210609T10:14:00
+  id: 1187103
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Nvidia Kernel modules not found
+- component: Samba
+  create_time: 20210609T09:46:00
+  id: 1187101
+  resolution: ''
+  status: NEW
+  summary: samba-ad-dc requires python3x-dnspython
+- component: Other
+  create_time: 20210609T09:09:00
+  id: 1187098
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: Systemd's script requires 'chckonfig' command yet the package containing
+    it is not available
+- component: Development
+  create_time: 20210609T08:38:00
+  id: 1187095
+  resolution: ''
+  status: IN_PROGRESS
+  summary: uboot 20.10 broke Odroid C2 networking
+- component: Basesystem
+  create_time: 20210609T08:31:00
+  id: 1187094
+  resolution: FIXED
+  status: RESOLVED
+  summary: nfsidmap is missing
+- component: Basesystem
+  create_time: 20210609T07:27:00
+  id: 1187091
+  resolution: ''
+  status: IN_PROGRESS
+  summary: pam-config fails to create a new service config file
+- component: Other
+  create_time: 20210609T06:57:00
+  id: 1187089
+  resolution: ''
+  status: REOPENED
+  summary: gpsd fails on aarch64 with LTO
