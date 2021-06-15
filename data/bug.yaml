@@ -31318,8 +31318,8 @@
 - component: Other
   create_time: 20191105T15:59:00
   id: 1155947
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Julia unable to use arpack
 - component: Other
   create_time: 20191105T15:32:00
@@ -49033,9 +49033,9 @@
 - component: KDE Workspace (Plasma)
   create_time: 20201111T14:25:00
   id: 1178674
-  resolution: MOVED
-  status: RESOLVED
-  summary: Desktop completely black, no icons after zypper dup
+  resolution: ''
+  status: REOPENED
+  summary: Desktop randomly black, no icons (fails to load or maybe crashes)
 - component: Cloud:Tools
   create_time: 20201111T10:29:00
   id: 1178656
@@ -58493,8 +58493,8 @@
 - component: Firefox
   create_time: 20210519T14:05:00
   id: 1186254
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: firefox fails to start and kill -9 does not kill it
 - component: Network
   create_time: 20210519T13:13:00
@@ -59389,11 +59389,11 @@
   resolution: ''
   status: NEW
   summary: No digital sound output after upgrade to 5.12.9
-- component: Sound
+- component: Kernel
   create_time: 20210610T20:17:00
   id: 1187195
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: tumbleweed battery drain
 - component: Other
   create_time: 20210610T12:21:00
@@ -59540,6 +59540,24 @@
   status: NEW
   summary: Snapshot 20210609 kills panel icon to switch keyboard layouts
 '20210613':
+- component: Basesystem
+  create_time: 20210615T19:59:00
+  id: 1187381
+  resolution: ''
+  status: NEW
+  summary: initrd doesn't contain resume module
+- component: Other
+  create_time: 20210615T16:53:00
+  id: 1187371
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210614] qgis uninstallable due to grass build fail'
+- component: Kernel
+  create_time: 20210615T15:18:00
+  id: 1187360
+  resolution: ''
+  status: NEW
+  summary: tpm2_eventlog cannot read /sys/kernel/security/tpm0/binary_bios_measurements
 - component: Other
   create_time: 20210615T13:23:00
   id: 1187355
@@ -59620,12 +59638,13 @@
   resolution: MOVED
   status: RESOLVED
   summary: Touchpad not found
-- component: Network
+- component: KDE Workspace (Plasma)
   create_time: 20210614T10:55:00
   id: 1187290
-  resolution: MOVED
-  status: RESOLVED
-  summary: Can't connect to any wifi network. Now my laptop is a brick.
+  resolution: ''
+  status: REOPENED
+  summary: KDE wallet passphrase dialog to opened in the background, leading user
+    to not connect to wireless network
 - component: Basesystem
   create_time: 20210614T10:13:00
   id: 1187289
