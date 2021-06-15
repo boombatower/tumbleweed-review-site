@@ -59540,6 +59540,12 @@
   status: NEW
   summary: Snapshot 20210609 kills panel icon to switch keyboard layouts
 '20210613':
+- component: X11 3rd Party Driver
+  create_time: 20210615T20:24:00
+  id: 1187382
+  resolution: ''
+  status: NEW
+  summary: kernel update broke nvidia
 - component: Basesystem
   create_time: 20210615T19:59:00
   id: 1187381
