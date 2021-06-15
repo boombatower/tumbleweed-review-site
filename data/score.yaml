@@ -2063,13 +2063,13 @@
   score: 98
   stability_level: stable
 '20210513':
+  score: 98
+  stability_level: stable
+'20210514':
   score: 88
   stability_level: moderate
-'20210514':
-  score: 84
-  stability_level: moderate
 '20210515':
-  score: 77
+  score: 79
   stability_level: moderate
 '20210517':
   score: 79
@@ -2111,5 +2111,8 @@
   score: 87
   stability_level: pending
 '20210612':
-  score: 92
+  score: 94
+  stability_level: pending
+'20210613':
+  score: 95
   stability_level: pending
