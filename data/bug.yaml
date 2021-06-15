@@ -58288,7 +58288,7 @@
   create_time: 20210516T09:00:00
   id: 1186094
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: 'npm 16: Out of memory while building libreoffice online'
 - component: Other
   create_time: 20210515T18:50:00
@@ -58300,8 +58300,8 @@
 - component: GNOME
   create_time: 20210515T18:24:00
   id: 1186091
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: openvpn stopped to work between and 2021-04-17 2021-05-12
 - component: Kernel
   create_time: 20210515T14:49:00
@@ -58663,8 +58663,8 @@
 - component: X11 Applications
   create_time: 20210525T21:47:00
   id: 1186455
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Backport fix for SEGFAULT of RawTherapee
 - component: Kernel
   create_time: 20210525T21:05:00
@@ -58975,8 +58975,8 @@
 - component: Network
   create_time: 20210603T12:33:00
   id: 1186800
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Chromium UI scales 200% on HIDPI screen
 - component: YaST2
   create_time: 20210603T12:17:00
@@ -59325,8 +59325,8 @@
 - component: YaST2
   create_time: 20210611T15:39:00
   id: 1187233
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: yast2 auto client crash when non ycp type is returned in void method
 - component: YaST2
   create_time: 20210611T14:18:00
@@ -59540,6 +59540,37 @@
   status: NEW
   summary: Snapshot 20210609 kills panel icon to switch keyboard layouts
 '20210613':
+- component: Other
+  create_time: 20210615T13:23:00
+  id: 1187355
+  resolution: ''
+  status: NEW
+  summary: Applications crashing with segmentation fault
+- component: Basesystem
+  create_time: 20210615T12:57:00
+  id: 1187353
+  resolution: ''
+  status: NEW
+  summary: CUPS-PDF printer always prints out only a single blank page
+- component: Other
+  create_time: 20210615T12:49:00
+  id: 1187352
+  resolution: ''
+  status: NEW
+  summary: GCC11 with LTO miscompile aespipe
+- component: Other
+  create_time: 20210615T10:08:00
+  id: 1187336
+  resolution: ''
+  status: NEW
+  summary: java-11-openj9 and java-1_8_0-openj9 do not build correctly with current
+    libdwarf and gcc11
+- component: libzypp
+  create_time: 20210615T08:17:00
+  id: 1187332
+  resolution: ''
+  status: NEW
+  summary: zypper ignores the ordering constraints specified by %systemd_ordering
 - component: GNOME
   create_time: 20210614T21:52:00
   id: 1187328
@@ -59647,8 +59678,8 @@
   create_time: 20210613T14:55:00
   id: 1187270
   resolution: ''
-  status: NEW
-  summary: Missing blank in YaST control center tooltip of users module
+  status: IN_PROGRESS
+  summary: Broken translations in YaST control center
 - component: KDE Workspace (Plasma)
   create_time: 20210613T11:21:00
   id: 1187267
