@@ -59648,7 +59648,7 @@
   id: 1187270
   resolution: ''
   status: NEW
-  summary: Grammatical Error In YaST Control Center
+  summary: Missing blank in YaST control center tooltip of users module
 - component: KDE Workspace (Plasma)
   create_time: 20210613T11:21:00
   id: 1187267
