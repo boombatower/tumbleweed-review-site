@@ -58954,7 +58954,7 @@
   create_time: 20210602T00:58:00
   id: 1186715
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Tumbleweed][openssl][libressl] older "/usr/bin/openssl" command gave
     wrong return code'
 '20210603':
