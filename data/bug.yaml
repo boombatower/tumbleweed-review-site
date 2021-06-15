@@ -59508,6 +59508,38 @@
   status: REOPENED
   summary: gpsd fails on aarch64 with LTO
 '20210612':
+- component: Bootloader
+  create_time: 20210612T22:01:00
+  id: 1187257
+  resolution: ''
+  status: NEW
+  summary: '[riscv64][Unmatched] GRUB out of memory while loading initrd'
+- component: Development
+  create_time: 20210612T16:08:00
+  id: 1187254
+  resolution: FIXED
+  status: RESOLVED
+  summary: Clang 9 ignoring [[__no_unique_address__]] causes miscompilations with
+    libstdc++ 11
+- component: Other
+  create_time: 20210612T15:38:00
+  id: 1187253
+  resolution: ''
+  status: NEW
+  summary: System setting - windows management - windows rules not working
+- component: Kernel
+  create_time: 20210612T15:36:00
+  id: 1187252
+  resolution: WONTFIX
+  status: RESOLVED
+  summary: Pluggable SATA disk not detected in newer kernels
+- component: KDE Workspace (Plasma)
+  create_time: 20210612T04:34:00
+  id: 1187248
+  resolution: ''
+  status: NEW
+  summary: Snapshot 20210609 kills panel icon to switch keyboard layouts
+'20210613':
 - component: GNOME
   create_time: 20210614T21:52:00
   id: 1187328
@@ -59654,34 +59686,3 @@
   resolution: ''
   status: NEW
   summary: broken lsb-fake dependency due to python
-- component: Bootloader
-  create_time: 20210612T22:01:00
-  id: 1187257
-  resolution: ''
-  status: NEW
-  summary: '[riscv64][Unmatched] GRUB out of memory while loading initrd'
-- component: Development
-  create_time: 20210612T16:08:00
-  id: 1187254
-  resolution: FIXED
-  status: RESOLVED
-  summary: Clang 9 ignoring [[__no_unique_address__]] causes miscompilations with
-    libstdc++ 11
-- component: Other
-  create_time: 20210612T15:38:00
-  id: 1187253
-  resolution: ''
-  status: NEW
-  summary: System setting - windows management - windows rules not working
-- component: Kernel
-  create_time: 20210612T15:36:00
-  id: 1187252
-  resolution: WONTFIX
-  status: RESOLVED
-  summary: Pluggable SATA disk not detected in newer kernels
-- component: KDE Workspace (Plasma)
-  create_time: 20210612T04:34:00
-  id: 1187248
-  resolution: ''
-  status: NEW
-  summary: Snapshot 20210609 kills panel icon to switch keyboard layouts
