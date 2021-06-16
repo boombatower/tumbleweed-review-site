@@ -53795,7 +53795,7 @@
   create_time: 20210221T10:25:00
   id: 1182531
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: kdesu doesn't accept root PW
 - component: X11 Applications
   create_time: 20210221T02:28:00
@@ -59604,6 +59604,99 @@
   status: NEW
   summary: broken lsb-fake dependency due to python
 '20210614':
+- component: GNOME
+  create_time: 20210614T21:52:00
+  id: 1187328
+  resolution: ''
+  status: NEW
+  summary: Foliate E-book reader fails to start, missing dependency
+- component: Basesystem
+  create_time: 20210614T20:39:00
+  id: 1187327
+  resolution: ''
+  status: NEW
+  summary: '[riscv64][Unmatched] Tumbleweed update repository does not exist'
+- component: Basesystem
+  create_time: 20210614T19:52:00
+  id: 1187321
+  resolution: ''
+  status: NEW
+  summary: '[riscv64][Unmatched] poweroff/reboot not exiting ssh connection'
+- component: KDE Workspace (Plasma)
+  create_time: 20210614T17:11:00
+  id: 1187319
+  resolution: FIXED
+  status: RESOLVED
+  summary: Kinfocenter, no USB section since version 5.22
+- component: Development
+  create_time: 20210614T16:33:00
+  id: 1187317
+  resolution: ''
+  status: NEW
+  summary: libssh2_org build failed with autoconf 2.71
+- component: Basesystem
+  create_time: 20210614T15:29:00
+  id: 1187316
+  resolution: ''
+  status: NEW
+  summary: 'tpm2_checkquote / ERROR: Malformed PCR file, pcr count cannot be greater
+    than 32, got: <BIG NUMBER>'
+- component: Security
+  create_time: 20210614T14:45:00
+  id: 1187313
+  resolution: ''
+  status: NEW
+  summary: selinux-policy-targeted breaks StandardOutput=tty
+- component: Other
+  create_time: 20210614T11:23:00
+  id: 1187291
+  resolution: MOVED
+  status: RESOLVED
+  summary: Touchpad not found
+- component: KDE Workspace (Plasma)
+  create_time: 20210614T10:55:00
+  id: 1187290
+  resolution: ''
+  status: REOPENED
+  summary: KDE wallet passphrase dialog to opened in the background, leading user
+    to not connect to wireless network
+- component: Basesystem
+  create_time: 20210614T10:13:00
+  id: 1187289
+  resolution: ''
+  status: NEW
+  summary: Boot in emergency mode after boot without usb stick
+- component: Other
+  create_time: 20210614T09:53:00
+  id: 1187288
+  resolution: ''
+  status: NEW
+  summary: Racket 8.1 breaks installation of rash
+- component: Containers
+  create_time: 20210614T08:35:00
+  id: 1187285
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210612] openQA test fails in sshfs'
+- component: Firefox
+  create_time: 20210614T08:22:00
+  id: 1187284
+  resolution: ''
+  status: NEW
+  summary: Firefox shows wrong colors for videos
+- component: Kernel
+  create_time: 20210614T03:32:00
+  id: 1187275
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: nvidia driver not loaded with kernel 5.12.9-1
+'20210615':
+- component: KDE Applications
+  create_time: 20210616T21:33:00
+  id: 1187432
+  resolution: ''
+  status: NEW
+  summary: Akonadi severe memory leak in akonadiserver
 - component: AutoYaST
   create_time: 20210616T15:50:00
   id: 1187424
@@ -59726,89 +59819,3 @@
   resolution: ''
   status: NEW
   summary: zypper ignores the ordering constraints specified by %systemd_ordering
-- component: GNOME
-  create_time: 20210614T21:52:00
-  id: 1187328
-  resolution: ''
-  status: NEW
-  summary: Foliate E-book reader fails to start, missing dependency
-- component: Basesystem
-  create_time: 20210614T20:39:00
-  id: 1187327
-  resolution: ''
-  status: NEW
-  summary: '[riscv64][Unmatched] Tumbleweed update repository does not exist'
-- component: Basesystem
-  create_time: 20210614T19:52:00
-  id: 1187321
-  resolution: ''
-  status: NEW
-  summary: '[riscv64][Unmatched] poweroff/reboot not exiting ssh connection'
-- component: KDE Workspace (Plasma)
-  create_time: 20210614T17:11:00
-  id: 1187319
-  resolution: FIXED
-  status: RESOLVED
-  summary: Kinfocenter, no USB section since version 5.22
-- component: Development
-  create_time: 20210614T16:33:00
-  id: 1187317
-  resolution: ''
-  status: NEW
-  summary: libssh2_org build failed with autoconf 2.71
-- component: Basesystem
-  create_time: 20210614T15:29:00
-  id: 1187316
-  resolution: ''
-  status: NEW
-  summary: 'tpm2_checkquote / ERROR: Malformed PCR file, pcr count cannot be greater
-    than 32, got: <BIG NUMBER>'
-- component: Security
-  create_time: 20210614T14:45:00
-  id: 1187313
-  resolution: ''
-  status: NEW
-  summary: selinux-policy-targeted breaks StandardOutput=tty
-- component: Other
-  create_time: 20210614T11:23:00
-  id: 1187291
-  resolution: MOVED
-  status: RESOLVED
-  summary: Touchpad not found
-- component: KDE Workspace (Plasma)
-  create_time: 20210614T10:55:00
-  id: 1187290
-  resolution: ''
-  status: REOPENED
-  summary: KDE wallet passphrase dialog to opened in the background, leading user
-    to not connect to wireless network
-- component: Basesystem
-  create_time: 20210614T10:13:00
-  id: 1187289
-  resolution: ''
-  status: NEW
-  summary: Boot in emergency mode after boot without usb stick
-- component: Other
-  create_time: 20210614T09:53:00
-  id: 1187288
-  resolution: ''
-  status: NEW
-  summary: Racket 8.1 breaks installation of rash
-- component: Containers
-  create_time: 20210614T08:35:00
-  id: 1187285
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210612] openQA test fails in sshfs'
-- component: Firefox
-  create_time: 20210614T08:22:00
-  id: 1187284
-  resolution: ''
-  status: NEW
-  summary: Firefox shows wrong colors for videos
-- component: Kernel
-  create_time: 20210614T03:32:00
-  id: 1187275
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: nvidia driver not loaded with kernel 5.12.9-1
