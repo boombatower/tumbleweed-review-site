@@ -58628,7 +58628,9 @@
   id: 1186477
   resolution: ''
   status: IN_PROGRESS
-  summary: Mesa-21.1.1-278.1 breaks Warthunder
+  summary: Crashes in Vulkan games since Mesa 21.1.1 due to errornously prefering
+    software driver (lavapipe) over dedicated GPU Vulkan driver (radeon); Workaround
+    available
 - component: Other
   create_time: 20210526T19:11:00
   id: 1186475
@@ -59619,8 +59621,8 @@
   create_time: 20210615T20:24:00
   id: 1187382
   resolution: ''
-  status: NEW
-  summary: kernel update broke nvidia
+  status: IN_PROGRESS
+  summary: 'kernel/nvidia: disagrees about version of symbol module_layout'
 - component: Basesystem
   create_time: 20210615T19:59:00
   id: 1187381
