@@ -58517,8 +58517,8 @@
 - component: Development
   create_time: 20210519T07:47:00
   id: 1186233
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: lua README contains wrong information
 '20210520':
 - component: X.Org
