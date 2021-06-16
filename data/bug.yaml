@@ -42843,8 +42843,8 @@
 - component: Salt
   create_time: 20200625T09:37:00
   id: 1173348
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Salt doesn't set $HOME when issuing commands
 - component: KDE Workspace (Plasma)
   create_time: 20200625T09:05:00
@@ -59604,6 +59604,24 @@
   status: NEW
   summary: broken lsb-fake dependency due to python
 '20210614':
+- component: AutoYaST
+  create_time: 20210616T15:50:00
+  id: 1187424
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210615] firstboot wizard not being launched'
+- component: AutoYaST
+  create_time: 20210616T15:12:00
+  id: 1187423
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210615] autoyast does not mark wicked for installation'
+- component: Security
+  create_time: 20210616T14:32:00
+  id: 1187421
+  resolution: ''
+  status: NEW
+  summary: sshd PasswordAuthentication no not work
 - component: GNOME
   create_time: 20210616T13:33:00
   id: 1187417
