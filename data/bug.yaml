@@ -59604,7 +59604,19 @@
   status: NEW
   summary: broken lsb-fake dependency due to python
 '20210614':
-- component: Installation
+- component: Virtualization:Other
+  create_time: 20210616T09:24:00
+  id: 1187399
+  resolution: ''
+  status: NEW
+  summary: /run/libvirt does not exist => libvirtd.service fails to start
+- component: Other
+  create_time: 20210616T09:08:00
+  id: 1187398
+  resolution: FIXED
+  status: RESOLVED
+  summary: '%rust_arches is out of sync with rust-srpm-macros'
+- component: Kernel
   create_time: 20210616T07:22:00
   id: 1187394
   resolution: ''
