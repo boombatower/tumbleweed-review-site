@@ -59686,8 +59686,8 @@
 - component: Other
   create_time: 20210615T16:53:00
   id: 1187371
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210614] qgis uninstallable due to grass build fail'
 - component: Kernel
   create_time: 20210615T15:18:00
