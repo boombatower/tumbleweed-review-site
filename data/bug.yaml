@@ -52090,8 +52090,8 @@
 - component: Security
   create_time: 20210120T12:09:00
   id: 1181167
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: dbus.socket fails with selinux enabled
 - component: AppArmor
   create_time: 20210120T09:04:00
@@ -58150,7 +58150,7 @@
   create_time: 20210512T19:53:00
   id: 1185994
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: GDM password screen blanks shortly after suspend/resume
 - component: KDE Applications
   create_time: 20210512T17:01:00
@@ -59604,7 +59604,13 @@
   status: NEW
   summary: broken lsb-fake dependency due to python
 '20210614':
-- component: Basesystem
+- component: Installation
+  create_time: 20210616T07:22:00
+  id: 1187394
+  resolution: ''
+  status: NEW
+  summary: Mac Mini 7.1 not booting latest iso
+- component: Apache
   create_time: 20210615T23:47:00
   id: 1187387
   resolution: ''
