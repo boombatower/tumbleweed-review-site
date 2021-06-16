@@ -59047,8 +59047,8 @@
 - component: Kernel
   create_time: 20210604T08:48:00
   id: 1186846
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: negative used size reported for ext4 file system without journal
 - component: Security
   create_time: 20210604T08:36:00
@@ -59604,6 +59604,12 @@
   status: NEW
   summary: broken lsb-fake dependency due to python
 '20210614':
+- component: X11 Applications
+  create_time: 20210616T10:36:00
+  id: 1187405
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'chromium: crash on exit'
 - component: Virtualization:Other
   create_time: 20210616T09:24:00
   id: 1187399
@@ -59622,11 +59628,11 @@
   resolution: ''
   status: NEW
   summary: Mac Mini 7.1 not booting latest iso
-- component: Apache
+- component: Basesystem
   create_time: 20210615T23:47:00
   id: 1187387
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Add media type application/wasm
 - component: YaST2
   create_time: 20210615T22:09:00
