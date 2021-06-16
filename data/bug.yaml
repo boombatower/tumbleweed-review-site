@@ -59540,6 +59540,81 @@
   status: NEW
   summary: Snapshot 20210609 kills panel icon to switch keyboard layouts
 '20210613':
+- component: Development
+  create_time: 20210613T21:28:00
+  id: 1187273
+  resolution: ''
+  status: NEW
+  summary: Internal  compiler error  max0 function in old code
+- component: KDE Workspace (Plasma)
+  create_time: 20210613T17:09:00
+  id: 1187272
+  resolution: ''
+  status: NEW
+  summary: KDE workspace Plasma network speed widget stops working after update
+- component: KDE Applications
+  create_time: 20210613T16:40:00
+  id: 1187271
+  resolution: ''
+  status: NEW
+  summary: The URL for package discover is obsolete
+- component: YaST2
+  create_time: 20210613T14:55:00
+  id: 1187270
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Broken translations in YaST control center
+- component: KDE Workspace (Plasma)
+  create_time: 20210613T11:21:00
+  id: 1187267
+  resolution: ''
+  status: NEW
+  summary: another Typo in Bluetooth tooltip (german translation)
+- component: KDE Workspace (Plasma)
+  create_time: 20210613T11:14:00
+  id: 1187266
+  resolution: ''
+  status: NEW
+  summary: Typo in Bluetooth tooltip (german translation)
+- component: Other
+  create_time: 20210613T11:09:00
+  id: 1187265
+  resolution: ''
+  status: NEW
+  summary: /usr/bin/ksh points to wrong file
+- component: Kernel
+  create_time: 20210613T10:34:00
+  id: 1187264
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210611] [s390x] "Bad page state in process cc1plus  pfn:fe401"
+    during build of nodejs16'
+- component: Basesystem
+  create_time: 20210613T10:25:00
+  id: 1187262
+  resolution: ''
+  status: NEW
+  summary: 'pythonN-base not in Prefer: list'
+- component: Basesystem
+  create_time: 20210613T09:46:00
+  id: 1187261
+  resolution: ''
+  status: NEW
+  summary: broken lsb-fake dependency due to python
+'20210614':
+- component: Basesystem
+  create_time: 20210615T23:47:00
+  id: 1187387
+  resolution: ''
+  status: NEW
+  summary: Add media type application/wasm
+- component: YaST2
+  create_time: 20210615T22:09:00
+  id: 1187384
+  resolution: ''
+  status: NEW
+  summary: distribution-logos-openSUSE-icons found in unneeded packages....is this
+    correct
 - component: X11 3rd Party Driver
   create_time: 20210615T20:24:00
   id: 1187382
@@ -59681,64 +59756,3 @@
   resolution: DUPLICATE
   status: RESOLVED
   summary: nvidia driver not loaded with kernel 5.12.9-1
-- component: Development
-  create_time: 20210613T21:28:00
-  id: 1187273
-  resolution: ''
-  status: NEW
-  summary: Internal  compiler error  max0 function in old code
-- component: KDE Workspace (Plasma)
-  create_time: 20210613T17:09:00
-  id: 1187272
-  resolution: ''
-  status: NEW
-  summary: KDE workspace Plasma network speed widget stops working after update
-- component: KDE Applications
-  create_time: 20210613T16:40:00
-  id: 1187271
-  resolution: ''
-  status: NEW
-  summary: The URL for package discover is obsolete
-- component: YaST2
-  create_time: 20210613T14:55:00
-  id: 1187270
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Broken translations in YaST control center
-- component: KDE Workspace (Plasma)
-  create_time: 20210613T11:21:00
-  id: 1187267
-  resolution: ''
-  status: NEW
-  summary: another Typo in Bluetooth tooltip (german translation)
-- component: KDE Workspace (Plasma)
-  create_time: 20210613T11:14:00
-  id: 1187266
-  resolution: ''
-  status: NEW
-  summary: Typo in Bluetooth tooltip (german translation)
-- component: Other
-  create_time: 20210613T11:09:00
-  id: 1187265
-  resolution: ''
-  status: NEW
-  summary: /usr/bin/ksh points to wrong file
-- component: Kernel
-  create_time: 20210613T10:34:00
-  id: 1187264
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210611] [s390x] "Bad page state in process cc1plus  pfn:fe401"
-    during build of nodejs16'
-- component: Basesystem
-  create_time: 20210613T10:25:00
-  id: 1187262
-  resolution: ''
-  status: NEW
-  summary: 'pythonN-base not in Prefer: list'
-- component: Basesystem
-  create_time: 20210613T09:46:00
-  id: 1187261
-  resolution: ''
-  status: NEW
-  summary: broken lsb-fake dependency due to python
