@@ -2066,16 +2066,16 @@
   score: 98
   stability_level: stable
 '20210514':
-  score: 88
-  stability_level: moderate
+  score: 98
+  stability_level: stable
 '20210515':
-  score: 79
+  score: 83
   stability_level: moderate
 '20210517':
-  score: 79
+  score: 81
   stability_level: moderate
 '20210519':
-  score: 76
+  score: 77
   stability_level: moderate
 '20210520':
   score: 90
