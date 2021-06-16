@@ -59604,6 +59604,18 @@
   status: NEW
   summary: broken lsb-fake dependency due to python
 '20210614':
+- component: GNOME
+  create_time: 20210616T13:33:00
+  id: 1187417
+  resolution: ''
+  status: NEW
+  summary: libgda fails to build on Arm since update to 6.0.0
+- component: Other
+  create_time: 20210616T13:06:00
+  id: 1187416
+  resolution: ''
+  status: NEW
+  summary: php-composer needs php8-mbstring
 - component: X11 Applications
   create_time: 20210616T10:36:00
   id: 1187405
