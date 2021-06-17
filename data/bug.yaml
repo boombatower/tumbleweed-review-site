@@ -211,7 +211,7 @@
   create_time: 20171205T09:00:00
   id: 1071224
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: 'systemd: removes /usr/lib/systemd/system/tmp.mount in %post'
 - component: YaST2
   create_time: 20171205T08:34:00
@@ -20029,7 +20029,7 @@
   create_time: 20190228T11:06:00
   id: 1127339
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: 'kernel: efi: EFI_MEMMAP is not enabled'
 - component: Development
   create_time: 20190227T20:58:00
@@ -57211,8 +57211,8 @@
 - component: YaST2
   create_time: 20210427T12:51:00
   id: 1185353
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: The new pattern patterns-deepin needs an icon
 - component: Kernel
   create_time: 20210427T12:46:00
@@ -59637,8 +59637,8 @@
 - component: Basesystem
   create_time: 20210614T15:29:00
   id: 1187316
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'tpm2_checkquote / ERROR: Malformed PCR file, pcr count cannot be greater
     than 32, got: <BIG NUMBER>'
 - component: Security
@@ -59697,7 +59697,7 @@
   resolution: ''
   status: NEW
   summary: libqca-qt5-2 prevents psi-plus from starting
-- component: Basesystem
+- component: KDE Workspace (Plasma)
   create_time: 20210617T02:35:00
   id: 1187440
   resolution: ''
@@ -59720,7 +59720,7 @@
   create_time: 20210616T15:12:00
   id: 1187423
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20210615] autoyast does not mark wicked for installation'
 - component: Security
   create_time: 20210616T14:32:00
@@ -59773,8 +59773,8 @@
 - component: libzypp
   create_time: 20210615T22:09:00
   id: 1187384
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: distribution-logos-openSUSE-icons found in unneeded packages....is this
     correct
 - component: X11 3rd Party Driver
