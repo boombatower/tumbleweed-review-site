@@ -59691,6 +59691,18 @@
   status: RESOLVED
   summary: nvidia driver not loaded with kernel 5.12.9-1
 '20210615':
+- component: Kernel
+  create_time: 20210617T15:51:00
+  id: 1187472
+  resolution: ''
+  status: NEW
+  summary: Failure to suspend on XPS 13 9310
+- component: YaST2
+  create_time: 20210617T15:22:00
+  id: 1187471
+  resolution: ''
+  status: NEW
+  summary: "Execution failure for \u201Cgrub2-editenv\u201D (from snapshot 20210615?)"
 - component: Usability
   create_time: 20210617T13:54:00
   id: 1187465
@@ -59828,8 +59840,8 @@
 - component: Other
   create_time: 20210615T13:23:00
   id: 1187355
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Applications crashing with segmentation fault
 - component: Basesystem
   create_time: 20210615T12:57:00
