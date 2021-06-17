@@ -59394,8 +59394,8 @@
 - component: Kernel
   create_time: 20210610T20:17:00
   id: 1187195
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: tumbleweed battery drain
 - component: Other
   create_time: 20210610T12:21:00
@@ -59767,8 +59767,8 @@
 - component: X11 3rd Party Driver
   create_time: 20210615T20:24:00
   id: 1187382
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'kernel/nvidia: disagrees about version of symbol module_layout'
 - component: Basesystem
   create_time: 20210615T19:59:00
