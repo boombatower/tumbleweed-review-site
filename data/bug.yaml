@@ -57445,8 +57445,8 @@
 - component: Kernel
   create_time: 20210430T18:20:00
   id: 1185513
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: ACPI BIOS Error after upgrade to 5.12.0-1-default
 - component: YaST2
   create_time: 20210430T16:06:00
@@ -59764,7 +59764,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: Add media type application/wasm
-- component: YaST2
+- component: libzypp
   create_time: 20210615T22:09:00
   id: 1187384
   resolution: ''
