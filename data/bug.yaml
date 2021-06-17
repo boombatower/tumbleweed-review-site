@@ -59691,6 +59691,24 @@
   status: RESOLVED
   summary: nvidia driver not loaded with kernel 5.12.9-1
 '20210615':
+- component: Installation
+  create_time: 20210617T12:04:00
+  id: 1187463
+  resolution: ''
+  status: NEW
+  summary: installer fails to calculate size for nfsroot
+- component: MicroOS
+  create_time: 20210617T11:50:00
+  id: 1187462
+  resolution: ''
+  status: NEW
+  summary: Snapshoot unusable (and "reverted") after updates, when SELinux enabled
+- component: KDE Applications
+  create_time: 20210617T10:09:00
+  id: 1187457
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'kdeconnect: Could not find support for RSA in your QCA installation.'
 - component: Other
   create_time: 20210617T07:14:00
   id: 1187447
