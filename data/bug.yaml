@@ -54851,8 +54851,8 @@
 - component: Basesystem
   create_time: 20210311T07:10:00
   id: 1183351
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: system-user-lp-20170617-21.1 installation fails in docker
 - component: Other
   create_time: 20210311T06:48:00
@@ -59563,8 +59563,8 @@
 - component: YaST2
   create_time: 20210613T14:55:00
   id: 1187270
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Broken translations in YaST control center
 - component: KDE Workspace (Plasma)
   create_time: 20210613T11:21:00
@@ -59691,6 +59691,12 @@
   status: RESOLVED
   summary: nvidia driver not loaded with kernel 5.12.9-1
 '20210615':
+- component: Other
+  create_time: 20210617T07:14:00
+  id: 1187447
+  resolution: ''
+  status: NEW
+  summary: libqca-qt5-2 prevents psi-plus from starting
 - component: Basesystem
   create_time: 20210617T02:35:00
   id: 1187440
