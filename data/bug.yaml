@@ -57781,8 +57781,8 @@
 - component: KDE Applications
   create_time: 20210505T13:33:00
   id: 1185655
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Clicking two almost equal .desktop file in folder Desktop behave different;
     one fails the other not
 - component: Kernel
@@ -59123,8 +59123,8 @@
 - component: Sound
   create_time: 20210608T10:47:00
   id: 1187033
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Update to MicroOS 20210605-1004.1 breaks HDMI audio (AMD Radeon HD 6450)
 - component: Basesystem
   create_time: 20210608T10:36:00
@@ -59184,8 +59184,8 @@
 - component: Sound
   create_time: 20210607T22:08:00
   id: 1187009
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: HDMI sound accidentally disappeared after recent kernel / pipewire 20210605
     release upgrade
 - component: Kernel
@@ -59388,8 +59388,8 @@
 - component: Sound
   create_time: 20210610T21:44:00
   id: 1187197
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: No digital sound output after upgrade to 5.12.9
 - component: Kernel
   create_time: 20210610T20:17:00
@@ -59691,6 +59691,12 @@
   status: RESOLVED
   summary: nvidia driver not loaded with kernel 5.12.9-1
 '20210615':
+- component: Usability
+  create_time: 20210617T13:54:00
+  id: 1187465
+  resolution: ''
+  status: NEW
+  summary: Using Wayland full does not honor keyboard layout US int with dead keys
 - component: Installation
   create_time: 20210617T12:04:00
   id: 1187463
@@ -59719,7 +59725,7 @@
   create_time: 20210617T02:35:00
   id: 1187440
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'After last update error occur: cannot run kde connect. On system installed
     QCA package without support RSA'
 - component: KDE Applications
