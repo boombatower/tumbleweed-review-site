@@ -59691,6 +59691,13 @@
   status: RESOLVED
   summary: nvidia driver not loaded with kernel 5.12.9-1
 '20210615':
+- component: Basesystem
+  create_time: 20210617T02:35:00
+  id: 1187440
+  resolution: ''
+  status: NEW
+  summary: 'After last update error occur: cannot run kde connect. On system installed
+    QCA package without support RSA'
 - component: KDE Applications
   create_time: 20210616T21:33:00
   id: 1187432
