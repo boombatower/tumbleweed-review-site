@@ -59587,8 +59587,8 @@
 - component: Kernel
   create_time: 20210613T10:34:00
   id: 1187264
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210611] [s390x] "Bad page state in process cc1plus  pfn:fe401"
     during build of nodejs16'
 - component: Basesystem
@@ -59691,6 +59691,12 @@
   status: RESOLVED
   summary: nvidia driver not loaded with kernel 5.12.9-1
 '20210615':
+- component: Firefox
+  create_time: 20210617T18:15:00
+  id: 1187475
+  resolution: ''
+  status: NEW
+  summary: Firefox 89.0.1 (new version) is available
 - component: Kernel
   create_time: 20210617T15:51:00
   id: 1187472
