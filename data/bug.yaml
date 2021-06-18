@@ -59760,6 +59760,12 @@
   status: NEW
   summary: zypper ignores the ordering constraints specified by %systemd_ordering
 '20210616':
+- component: X.Org
+  create_time: 20210618T20:22:00
+  id: 1187510
+  resolution: ''
+  status: NEW
+  summary: Display crashes on RPI 4B with Gnome/Wayland
 - component: Basesystem
   create_time: 20210618T19:38:00
   id: 1187507
