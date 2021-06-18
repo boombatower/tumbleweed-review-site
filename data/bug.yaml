@@ -51813,8 +51813,8 @@
 - component: Kernel
   create_time: 20210114T09:28:00
   id: 1180917
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: kernel BUG at mm/huge_memory.c:2144!
 - component: Maintenance
   create_time: 20210114T04:34:00
@@ -59742,8 +59742,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20210617T02:35:00
   id: 1187440
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'After last update error occur: cannot run kde connect. On system installed
     QCA package without support RSA'
 - component: KDE Applications
