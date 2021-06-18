@@ -58870,7 +58870,7 @@
   create_time: 20210601T13:04:00
   id: 1186697
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: yast2 iscsi-client finishes with error
 - component: Other
   create_time: 20210601T09:20:00
@@ -59546,7 +59546,7 @@
   create_time: 20210613T21:28:00
   id: 1187273
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Internal  compiler error  max0 function in old code
 - component: KDE Workspace (Plasma)
   create_time: 20210613T17:09:00
@@ -59691,6 +59691,75 @@
   status: RESOLVED
   summary: nvidia driver not loaded with kernel 5.12.9-1
 '20210615':
+- component: Basesystem
+  create_time: 20210615T23:47:00
+  id: 1187387
+  resolution: FIXED
+  status: RESOLVED
+  summary: Add media type application/wasm
+- component: libzypp
+  create_time: 20210615T22:09:00
+  id: 1187384
+  resolution: INVALID
+  status: RESOLVED
+  summary: distribution-logos-openSUSE-icons found in unneeded packages....is this
+    correct
+- component: X11 3rd Party Driver
+  create_time: 20210615T20:24:00
+  id: 1187382
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'kernel/nvidia: disagrees about version of symbol module_layout'
+- component: Basesystem
+  create_time: 20210615T19:59:00
+  id: 1187381
+  resolution: ''
+  status: NEW
+  summary: initrd doesn't contain resume module
+- component: Other
+  create_time: 20210615T16:53:00
+  id: 1187371
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[Build 20210614] qgis uninstallable due to grass build fail'
+- component: Basesystem
+  create_time: 20210615T15:18:00
+  id: 1187360
+  resolution: ''
+  status: NEW
+  summary: tpm2_eventlog cannot read /sys/kernel/security/tpm0/binary_bios_measurements
+- component: Other
+  create_time: 20210615T13:23:00
+  id: 1187355
+  resolution: INVALID
+  status: RESOLVED
+  summary: Applications crashing with segmentation fault
+- component: Basesystem
+  create_time: 20210615T12:57:00
+  id: 1187353
+  resolution: ''
+  status: NEW
+  summary: CUPS-PDF printer always prints out only a single blank page
+- component: Other
+  create_time: 20210615T12:49:00
+  id: 1187352
+  resolution: ''
+  status: NEW
+  summary: GCC11 with LTO miscompile aespipe
+- component: Other
+  create_time: 20210615T10:08:00
+  id: 1187336
+  resolution: ''
+  status: NEW
+  summary: java-11-openj9 and java-1_8_0-openj9 do not build correctly with current
+    libdwarf and gcc11
+- component: libzypp
+  create_time: 20210615T08:17:00
+  id: 1187332
+  resolution: ''
+  status: NEW
+  summary: zypper ignores the ordering constraints specified by %systemd_ordering
+'20210616':
 - component: Security
   create_time: 20210618T11:36:00
   id: 1187492
@@ -59812,71 +59881,3 @@
   resolution: ''
   status: NEW
   summary: Mac Mini 7.1 not booting latest iso
-- component: Basesystem
-  create_time: 20210615T23:47:00
-  id: 1187387
-  resolution: FIXED
-  status: RESOLVED
-  summary: Add media type application/wasm
-- component: libzypp
-  create_time: 20210615T22:09:00
-  id: 1187384
-  resolution: INVALID
-  status: RESOLVED
-  summary: distribution-logos-openSUSE-icons found in unneeded packages....is this
-    correct
-- component: X11 3rd Party Driver
-  create_time: 20210615T20:24:00
-  id: 1187382
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'kernel/nvidia: disagrees about version of symbol module_layout'
-- component: Basesystem
-  create_time: 20210615T19:59:00
-  id: 1187381
-  resolution: ''
-  status: NEW
-  summary: initrd doesn't contain resume module
-- component: Other
-  create_time: 20210615T16:53:00
-  id: 1187371
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20210614] qgis uninstallable due to grass build fail'
-- component: Basesystem
-  create_time: 20210615T15:18:00
-  id: 1187360
-  resolution: ''
-  status: NEW
-  summary: tpm2_eventlog cannot read /sys/kernel/security/tpm0/binary_bios_measurements
-- component: Other
-  create_time: 20210615T13:23:00
-  id: 1187355
-  resolution: INVALID
-  status: RESOLVED
-  summary: Applications crashing with segmentation fault
-- component: Basesystem
-  create_time: 20210615T12:57:00
-  id: 1187353
-  resolution: ''
-  status: NEW
-  summary: CUPS-PDF printer always prints out only a single blank page
-- component: Other
-  create_time: 20210615T12:49:00
-  id: 1187352
-  resolution: ''
-  status: NEW
-  summary: GCC11 with LTO miscompile aespipe
-- component: Other
-  create_time: 20210615T10:08:00
-  id: 1187336
-  resolution: ''
-  status: NEW
-  summary: java-11-openj9 and java-1_8_0-openj9 do not build correctly with current
-    libdwarf and gcc11
-- component: libzypp
-  create_time: 20210615T08:17:00
-  id: 1187332
-  resolution: ''
-  status: NEW
-  summary: zypper ignores the ordering constraints specified by %systemd_ordering
