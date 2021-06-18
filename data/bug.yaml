@@ -59760,6 +59760,12 @@
   status: NEW
   summary: zypper ignores the ordering constraints specified by %systemd_ordering
 '20210616':
+- component: Kernel
+  create_time: 20210618T16:42:00
+  id: 1187504
+  resolution: ''
+  status: NEW
+  summary: '''bcm2835-sdhost'' breaks on kernel updates'
 - component: Basesystem
   create_time: 20210618T14:21:00
   id: 1187498
