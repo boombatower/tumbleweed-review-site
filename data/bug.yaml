@@ -59760,6 +59760,25 @@
   status: NEW
   summary: zypper ignores the ordering constraints specified by %systemd_ordering
 '20210616':
+- component: Basesystem
+  create_time: 20210618T19:38:00
+  id: 1187507
+  resolution: ''
+  status: NEW
+  summary: Duplicity exits with "Could not unlock the acquired lock"
+- component: Other
+  create_time: 20210618T19:20:00
+  id: 1187506
+  resolution: ''
+  status: NEW
+  summary: nodejs-common update to 5.0 breaks execjs
+- component: Other
+  create_time: 20210618T18:16:00
+  id: 1187505
+  resolution: ''
+  status: NEW
+  summary: 'shells.com: openSUSE Shell images are failing at I18N Error: exit code
+    2'
 - component: Kernel
   create_time: 20210618T16:42:00
   id: 1187504
