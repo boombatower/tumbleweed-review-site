@@ -59669,8 +59669,8 @@
 - component: Other
   create_time: 20210614T09:53:00
   id: 1187288
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Racket 8.1 breaks installation of rash
 - component: Containers
   create_time: 20210614T08:35:00
