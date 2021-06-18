@@ -59725,8 +59725,8 @@
 - component: Basesystem
   create_time: 20210615T15:18:00
   id: 1187360
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: tpm2_eventlog cannot read /sys/kernel/security/tpm0/binary_bios_measurements
 - component: Other
   create_time: 20210615T13:23:00
@@ -59760,6 +59760,12 @@
   status: NEW
   summary: zypper ignores the ordering constraints specified by %systemd_ordering
 '20210616':
+- component: Basesystem
+  create_time: 20210618T14:21:00
+  id: 1187498
+  resolution: ''
+  status: NEW
+  summary: Dracut fails with fips=1 due to broken call to fipscheck
 - component: Security
   create_time: 20210618T11:36:00
   id: 1187492
