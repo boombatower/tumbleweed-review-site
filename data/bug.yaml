@@ -59435,7 +59435,7 @@
   resolution: ''
   status: NEW
   summary: downloading with zypper dup hangs forever on first error
-- component: Other
+- component: KDE Applications
   create_time: 20210609T18:39:00
   id: 1187137
   resolution: ''
@@ -59691,6 +59691,12 @@
   status: RESOLVED
   summary: nvidia driver not loaded with kernel 5.12.9-1
 '20210615':
+- component: Security
+  create_time: 20210618T11:36:00
+  id: 1187492
+  resolution: ''
+  status: NEW
+  summary: sshd_config replaced with default settings
 - component: Firefox
   create_time: 20210617T18:15:00
   id: 1187475
@@ -59719,7 +59725,7 @@
   create_time: 20210617T12:04:00
   id: 1187463
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: installer fails to calculate size for nfsroot
 - component: MicroOS
   create_time: 20210617T11:50:00
@@ -59837,7 +59843,7 @@
   resolution: FIXED
   status: RESOLVED
   summary: '[Build 20210614] qgis uninstallable due to grass build fail'
-- component: Kernel
+- component: Basesystem
   create_time: 20210615T15:18:00
   id: 1187360
   resolution: ''
