@@ -59756,7 +59756,7 @@
   create_time: 20210616T15:50:00
   id: 1187424
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20210615] firstboot wizard not being launched'
 - component: AutoYaST
   create_time: 20210616T15:12:00
