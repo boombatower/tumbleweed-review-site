@@ -2112,7 +2112,7 @@
   stability_level: moderate
 '20210612':
   score: 94
-  stability_level: pending
+  stability_level: stable
 '20210613':
   score: 96
   stability_level: pending
