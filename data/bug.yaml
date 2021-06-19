@@ -59760,7 +59760,7 @@
   status: NEW
   summary: zypper ignores the ordering constraints specified by %systemd_ordering
 '20210616':
-- component: X.Org
+- component: Kernel
   create_time: 20210618T20:22:00
   id: 1187510
   resolution: ''
