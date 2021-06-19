@@ -19,6 +19,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed: []
   binary_unique_count: 1257
   disk_base: 3.4GiB
@@ -44,6 +45,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed:
   - gnome-builder
   binary_unique_count: 123
@@ -70,6 +72,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed: []
   binary_unique_count: 624
   disk_base: 1.5GiB
@@ -95,6 +98,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed: []
   binary_unique_count: 158
   disk_base: 1.1GiB
@@ -120,6 +124,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed:
   - Mesa
   - gtk3-devel
@@ -147,23 +152,25 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed:
   - Mesa
-  - gtk3-devel
-  - plasma5-workspace
-  - xf86-video-amdgpu
-  - libqt5-qtbase-devel
-  - plasma-framework
-  - xf86-video-nouveau
+  - gcc
   - gcc10
   - gcc11
   - gnome-builder
+  - gtk3-devel
   - kate
-  - xf86-video-intel
-  - gcc
-  - xorg-x11-server
   - kernel-source
+  - libqt5-qtbase-devel
+  - plasma-framework
+  - plasma5-workspace
+  - xf86-video-amdgpu
   - xf86-video-ati
+  - xf86-video-intel
+  - xf86-video-nouveau
+  - xorg-x11-server
+  - xwayland
   binary_unique_count: 61075
   disk_base: 63.6GiB
   disk_shared: unknown
@@ -187,6 +194,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed:
   - libqt5-qtbase-devel
   binary_unique_count: 2614
@@ -212,6 +220,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed:
   - gcc10
   - gcc11
@@ -238,6 +247,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed:
   - kernel-source
   binary_unique_count: 558
@@ -263,9 +273,10 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed:
-  - xf86-video-nouveau
   - Mesa
+  - xf86-video-nouveau
   binary_unique_count: 1305
   disk_base: 2.2GiB
   disk_shared: unknown
@@ -289,6 +300,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed: []
   binary_unique_count: 958
   disk_base: 2.1GiB
@@ -313,6 +325,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed: []
   binary_unique_count: 333
   disk_base: 2.2GiB
@@ -337,6 +350,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed:
   - plasma5-workspace
   binary_unique_count: 1528
@@ -362,6 +376,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed: []
   binary_unique_count: 792
   disk_base: 2.3GiB
@@ -386,6 +401,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed: []
   binary_unique_count: 1161
   disk_base: 1.9GiB
@@ -410,6 +426,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed:
   - kate
   - plasma5-workspace
@@ -436,6 +453,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed: []
   binary_unique_count: 761
   disk_base: 2.1GiB
@@ -460,6 +478,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed:
   - xorg-x11-server
   binary_unique_count: 439
@@ -485,6 +504,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed:
   - kernel-source
   binary_unique_count: 1393
@@ -510,6 +530,7 @@
     xf86-video-intel: 2.99.917.916_g31486f40
     xf86-video-nouveau: 1.0.17
     xorg-x11-server: 1.20.11
+    xwayland: 21.1.1
   binary_interest_changed:
   - plasma-framework
   binary_unique_count: 1434
