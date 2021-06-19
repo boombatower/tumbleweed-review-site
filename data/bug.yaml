@@ -57261,8 +57261,8 @@
 - component: KDE Applications
   create_time: 20210428T23:24:00
   id: 1185431
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Kontact Segfault Issue
 - component: Sound
   create_time: 20210428T22:15:00
