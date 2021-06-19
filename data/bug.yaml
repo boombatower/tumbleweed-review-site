@@ -59861,8 +59861,8 @@
 - component: KDE Applications
   create_time: 20210616T21:33:00
   id: 1187432
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Akonadi severe memory leak in akonadiserver
 - component: AutoYaST
   create_time: 20210616T15:50:00
