@@ -59761,6 +59761,18 @@
   summary: zypper ignores the ordering constraints specified by %systemd_ordering
 '20210616':
 - component: Kernel
+  create_time: 20210619T19:39:00
+  id: 1187514
+  resolution: ''
+  status: NEW
+  summary: File conflict with kernel-pae-devel-5.12.10-1.1.i686
+- component: Other
+  create_time: 20210619T19:28:00
+  id: 1187513
+  resolution: ''
+  status: NEW
+  summary: Spanish keyboard randomly stops working in some applications
+- component: Kernel
   create_time: 20210618T20:22:00
   id: 1187510
   resolution: ''
