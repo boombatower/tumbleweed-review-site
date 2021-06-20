@@ -6824,6 +6824,10 @@
   threads: []
 '20210618':
   announcement: 2021-06.5104::<162415442418.24343.16941343285250506337@go-agent-stagingbot-7>
-  reference_count: 0
-  thread_count: 0
-  threads: []
+  reference_count: 1
+  thread_count: 1
+  threads:
+  - messages:
+    - 2021-06.5105::<509db92b-3247-585e-8987-8c3bd268d36c@earthlink.net>
+    reference_count: 1
+    summary: fubar SDDM
