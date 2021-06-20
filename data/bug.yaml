@@ -56369,8 +56369,8 @@
 - component: Development
   create_time: 20210408T10:35:00
   id: 1184492
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Erlang 23 can't find new "chunk" documentation
 - component: Other
   create_time: 20210408T09:11:00
@@ -57709,8 +57709,8 @@
 - component: Other
   create_time: 20210505T14:15:00
   id: 1185667
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'erlang: rpm macro file installed to /etc/rpm'
 - component: Other
   create_time: 20210505T14:14:00
@@ -59098,8 +59098,8 @@
 - component: Development
   create_time: 20210608T13:45:00
   id: 1187056
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: hidapi build failed with autoconf-2.71
 - component: Development
   create_time: 20210608T12:29:00
