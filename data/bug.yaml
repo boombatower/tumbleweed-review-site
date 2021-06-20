@@ -59876,6 +59876,13 @@
   status: NEW
   summary: Mac Mini 7.1 not booting latest iso
 '20210618':
+- component: Other
+  create_time: 20210620T04:16:00
+  id: 1187516
+  resolution: ''
+  status: NEW
+  summary: 'python-gcsfs: gcsfs/tests/test_core.py::test_validate_response gets stuck
+    in 1-core VM'
 - component: Kernel
   create_time: 20210619T19:39:00
   id: 1187514
