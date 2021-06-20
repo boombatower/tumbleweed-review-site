@@ -59876,6 +59876,12 @@
   status: NEW
   summary: Mac Mini 7.1 not booting latest iso
 '20210618':
+- component: Kernel
+  create_time: 20210620T15:18:00
+  id: 1187521
+  resolution: ''
+  status: NEW
+  summary: System freezes randomly Lenovo Thinkpad E495
 - component: KDE Workspace (Plasma)
   create_time: 20210620T09:24:00
   id: 1187519
