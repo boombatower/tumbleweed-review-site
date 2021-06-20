@@ -59764,7 +59764,7 @@
   create_time: 20210617T18:15:00
   id: 1187475
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Firefox 89.0.1 (new version) is available
 - component: Kernel
   create_time: 20210617T15:51:00
@@ -59876,6 +59876,18 @@
   status: NEW
   summary: Mac Mini 7.1 not booting latest iso
 '20210618':
+- component: KDE Workspace (Plasma)
+  create_time: 20210620T09:24:00
+  id: 1187519
+  resolution: ''
+  status: NEW
+  summary: taskbar goes away on laptop
+- component: Kernel
+  create_time: 20210620T09:18:00
+  id: 1187518
+  resolution: ''
+  status: NEW
+  summary: boot messages are too tiny on hi res laptop screen
 - component: Other
   create_time: 20210620T04:16:00
   id: 1187516
