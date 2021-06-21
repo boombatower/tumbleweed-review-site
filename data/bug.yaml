@@ -58344,8 +58344,8 @@
 - component: MicroOS
   create_time: 20210518T15:53:00
   id: 1186213
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Replace mkinitrd with dracut
 - component: Samba
   create_time: 20210518T12:16:00
@@ -59876,6 +59876,12 @@
   status: NEW
   summary: Mac Mini 7.1 not booting latest iso
 '20210618':
+- component: KDE Applications
+  create_time: 20210621T14:30:00
+  id: 1187552
+  resolution: ''
+  status: REOPENED
+  summary: kdeconnect stopped working
 - component: Development
   create_time: 20210621T12:38:00
   id: 1187546
@@ -59923,8 +59929,8 @@
 - component: Kernel
   create_time: 20210620T09:18:00
   id: 1187518
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: boot messages are too tiny on hi res laptop screen
 - component: Other
   create_time: 20210620T04:16:00
