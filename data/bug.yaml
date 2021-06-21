@@ -59876,6 +59876,19 @@
   status: NEW
   summary: Mac Mini 7.1 not booting latest iso
 '20210618':
+- component: Virtualization:Tools
+  create_time: 20210621T19:27:00
+  id: 1187567
+  resolution: ''
+  status: NEW
+  summary: Open-vm-tools release 11.3.0 has been released
+- component: Sound
+  create_time: 20210621T18:48:00
+  id: 1187562
+  resolution: ''
+  status: NEW
+  summary: Volume increasing automatically with wireless headset - Plantronics voyager
+    B8200
 - component: Virtualization:Other
   create_time: 20210621T16:14:00
   id: 1187555
