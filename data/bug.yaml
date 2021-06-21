@@ -52897,8 +52897,8 @@
 - component: X11 Applications
   create_time: 20210207T18:53:00
   id: 1181898
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: 'KeePassXC: KeeShare supports only unsigned sharing'
 - component: Kernel
   create_time: 20210207T17:09:00
@@ -59545,8 +59545,8 @@
 - component: Development
   create_time: 20210613T21:28:00
   id: 1187273
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Internal  compiler error  max0 function in old code
 - component: KDE Workspace (Plasma)
   create_time: 20210613T17:09:00
@@ -59876,6 +59876,62 @@
   status: NEW
   summary: Mac Mini 7.1 not booting latest iso
 '20210618':
+- component: Kernel
+  create_time: 20210619T19:39:00
+  id: 1187514
+  resolution: ''
+  status: NEW
+  summary: File conflict with kernel-pae-devel-5.12.10-1.1.i686
+- component: Other
+  create_time: 20210619T19:28:00
+  id: 1187513
+  resolution: ''
+  status: NEW
+  summary: Spanish keyboard randomly stops working in some applications
+- component: Kernel
+  create_time: 20210618T20:22:00
+  id: 1187510
+  resolution: ''
+  status: NEW
+  summary: Display crashes on RPI 4B with Gnome/Wayland
+- component: Basesystem
+  create_time: 20210618T19:38:00
+  id: 1187507
+  resolution: ''
+  status: NEW
+  summary: Duplicity exits with "Could not unlock the acquired lock"
+- component: Other
+  create_time: 20210618T19:20:00
+  id: 1187506
+  resolution: ''
+  status: NEW
+  summary: nodejs-common update to 5.0 breaks execjs
+- component: Other
+  create_time: 20210618T18:16:00
+  id: 1187505
+  resolution: ''
+  status: NEW
+  summary: 'shells.com: openSUSE Shell images are failing at I18N Error: exit code
+    2'
+- component: Kernel
+  create_time: 20210618T16:42:00
+  id: 1187504
+  resolution: ''
+  status: NEW
+  summary: '''bcm2835-sdhost'' breaks on kernel updates'
+- component: Basesystem
+  create_time: 20210618T14:21:00
+  id: 1187498
+  resolution: ''
+  status: NEW
+  summary: Dracut fails with fips=1 due to broken call to fipscheck
+- component: Security
+  create_time: 20210618T11:36:00
+  id: 1187492
+  resolution: INVALID
+  status: RESOLVED
+  summary: sshd_config replaced with default settings
+'20210620':
 - component: Virtualization:Tools
   create_time: 20210621T19:27:00
   id: 1187567
@@ -59959,58 +60015,3 @@
   status: NEW
   summary: 'python-gcsfs: gcsfs/tests/test_core.py::test_validate_response gets stuck
     in 1-core VM'
-- component: Kernel
-  create_time: 20210619T19:39:00
-  id: 1187514
-  resolution: ''
-  status: NEW
-  summary: File conflict with kernel-pae-devel-5.12.10-1.1.i686
-- component: Other
-  create_time: 20210619T19:28:00
-  id: 1187513
-  resolution: ''
-  status: NEW
-  summary: Spanish keyboard randomly stops working in some applications
-- component: Kernel
-  create_time: 20210618T20:22:00
-  id: 1187510
-  resolution: ''
-  status: NEW
-  summary: Display crashes on RPI 4B with Gnome/Wayland
-- component: Basesystem
-  create_time: 20210618T19:38:00
-  id: 1187507
-  resolution: ''
-  status: NEW
-  summary: Duplicity exits with "Could not unlock the acquired lock"
-- component: Other
-  create_time: 20210618T19:20:00
-  id: 1187506
-  resolution: ''
-  status: NEW
-  summary: nodejs-common update to 5.0 breaks execjs
-- component: Other
-  create_time: 20210618T18:16:00
-  id: 1187505
-  resolution: ''
-  status: NEW
-  summary: 'shells.com: openSUSE Shell images are failing at I18N Error: exit code
-    2'
-- component: Kernel
-  create_time: 20210618T16:42:00
-  id: 1187504
-  resolution: ''
-  status: NEW
-  summary: '''bcm2835-sdhost'' breaks on kernel updates'
-- component: Basesystem
-  create_time: 20210618T14:21:00
-  id: 1187498
-  resolution: ''
-  status: NEW
-  summary: Dracut fails with fips=1 due to broken call to fipscheck
-- component: Security
-  create_time: 20210618T11:36:00
-  id: 1187492
-  resolution: INVALID
-  status: RESOLVED
-  summary: sshd_config replaced with default settings
