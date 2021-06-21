@@ -57603,8 +57603,8 @@
 - component: MicroOS
   create_time: 20210504T17:04:00
   id: 1185625
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'transactional-update: /etc has wrong selinux label'
 - component: Kernel
   create_time: 20210504T15:58:00
@@ -58889,8 +58889,8 @@
 - component: MicroOS
   create_time: 20210602T16:27:00
   id: 1186775
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: Cannot install git package(s) with "transactional-update pkg install" command
 - component: YaST2
   create_time: 20210602T12:17:00
@@ -59545,8 +59545,8 @@
 - component: Development
   create_time: 20210613T21:28:00
   id: 1187273
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Internal  compiler error  max0 function in old code
 - component: KDE Workspace (Plasma)
   create_time: 20210613T17:09:00
@@ -59876,6 +59876,12 @@
   status: NEW
   summary: Mac Mini 7.1 not booting latest iso
 '20210618':
+- component: Other
+  create_time: 20210621T07:39:00
+  id: 1187531
+  resolution: ''
+  status: NEW
+  summary: 'Ansible: missing python3-selinux requirement'
 - component: Kernel
   create_time: 20210620T15:18:00
   id: 1187521
@@ -59953,6 +59959,6 @@
 - component: Security
   create_time: 20210618T11:36:00
   id: 1187492
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: sshd_config replaced with default settings
