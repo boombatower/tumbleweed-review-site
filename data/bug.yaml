@@ -56388,8 +56388,8 @@
 - component: Other
   create_time: 20210414T12:35:00
   id: 1184722
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: numad asks for CPUSETs to be enabled
 - component: Kernel
   create_time: 20210414T11:32:00
@@ -59876,6 +59876,13 @@
   status: NEW
   summary: Mac Mini 7.1 not booting latest iso
 '20210618':
+- component: Virtualization:Other
+  create_time: 20210621T16:14:00
+  id: 1187555
+  resolution: ''
+  status: NEW
+  summary: libvirtd fails with multiple journal messages "Missing udev property 'ID_VENDOR_ID'
+    on ..."
 - component: KDE Applications
   create_time: 20210621T14:30:00
   id: 1187552
