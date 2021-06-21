@@ -46102,8 +46102,8 @@
 - component: Basesystem
   create_time: 20200907T07:18:00
   id: 1176219
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: dd_rescue fails on UnitTests when LTO is enabled
 - component: Commercial
   create_time: 20200907T06:17:00
@@ -48833,8 +48833,8 @@
 - component: Other
   create_time: 20201107T12:55:00
   id: 1178533
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: Stunnel cannot create pid file /var/run/stunnel.pid
 - component: Virtualization:Tools
   create_time: 20201107T05:49:00
@@ -51161,8 +51161,8 @@
 - component: Network
   create_time: 20210103T18:20:00
   id: 1180501
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: frequent sshd coredumps
 - component: Development
   create_time: 20210103T17:58:00
