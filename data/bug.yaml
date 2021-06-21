@@ -58807,8 +58807,8 @@
 - component: Security
   create_time: 20210528T12:06:00
   id: 1186592
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'sendmail: inconsistencies in entries in /etc/permissions.d/sendmail*'
 - component: KDE Applications
   create_time: 20210528T12:03:00
@@ -59407,8 +59407,8 @@
 - component: Kernel
   create_time: 20210610T10:10:00
   id: 1187167
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: kernel-default varies across builds
 - component: Other
   create_time: 20210610T08:19:00
@@ -59869,13 +59869,20 @@
   resolution: FIXED
   status: RESOLVED
   summary: '%rust_arches is out of sync with rust-srpm-macros'
-- component: Kernel
+- component: Bootloader
   create_time: 20210616T07:22:00
   id: 1187394
   resolution: ''
   status: NEW
   summary: Mac Mini 7.1 not booting latest iso
 '20210618':
+- component: Development
+  create_time: 20210621T12:38:00
+  id: 1187546
+  resolution: ''
+  status: NEW
+  summary: Updating erlang leaves empty files under /usr/lib64/erlang/lib which cause
+    problems for mix release
 - component: Development
   create_time: 20210621T10:41:00
   id: 1187542
@@ -59893,7 +59900,7 @@
   create_time: 20210621T08:56:00
   id: 1187536
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build O.91.1] yast can''t handle "MOTD_FILE <blank>" in login.defs'
 - component: Other
   create_time: 20210621T07:39:00
