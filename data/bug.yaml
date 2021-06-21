@@ -59763,8 +59763,8 @@
 - component: Firefox
   create_time: 20210617T18:15:00
   id: 1187475
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Firefox 89.0.1 (new version) is available
 - component: Kernel
   create_time: 20210617T15:51:00
@@ -59876,6 +59876,19 @@
   status: NEW
   summary: Mac Mini 7.1 not booting latest iso
 '20210618':
+- component: Installation
+  create_time: 20210621T09:26:00
+  id: 1187537
+  resolution: ''
+  status: NEW
+  summary: '[openssh] installation via ssh - but no permission to passwordlogin as
+    root'
+- component: YaST2
+  create_time: 20210621T08:56:00
+  id: 1187536
+  resolution: ''
+  status: NEW
+  summary: '[Build O.91.1] yast can''t handle "MOTD_FILE <blank>" in login.defs'
 - component: Other
   create_time: 20210621T07:39:00
   id: 1187531
