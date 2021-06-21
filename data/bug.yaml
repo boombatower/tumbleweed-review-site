@@ -59053,8 +59053,8 @@
 - component: Security
   create_time: 20210604T08:36:00
   id: 1186845
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'AUDIT-TRACKER: cinnamon-settings-daemon: Request review for polkit-unauthorized-privilege
     and polkit-cant-acquire-privilege'
 - component: Kernel
@@ -59876,6 +59876,12 @@
   status: NEW
   summary: Mac Mini 7.1 not booting latest iso
 '20210618':
+- component: Development
+  create_time: 20210621T10:41:00
+  id: 1187542
+  resolution: ''
+  status: NEW
+  summary: LTO breaks attribute((symver))
 - component: Installation
   create_time: 20210621T09:26:00
   id: 1187537
