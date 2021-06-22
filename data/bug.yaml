@@ -59938,6 +59938,38 @@
   status: RESOLVED
   summary: sshd_config replaced with default settings
 '20210620':
+- component: Kernel
+  create_time: 20210620T15:18:00
+  id: 1187521
+  resolution: ''
+  status: NEW
+  summary: System freezes randomly Lenovo Thinkpad E495
+- component: KDE Workspace (Plasma)
+  create_time: 20210620T09:24:00
+  id: 1187519
+  resolution: ''
+  status: NEW
+  summary: taskbar goes away on laptop
+- component: Kernel
+  create_time: 20210620T09:18:00
+  id: 1187518
+  resolution: FIXED
+  status: RESOLVED
+  summary: boot messages are too tiny on hi res laptop screen
+- component: Other
+  create_time: 20210620T04:16:00
+  id: 1187516
+  resolution: ''
+  status: NEW
+  summary: 'python-gcsfs: gcsfs/tests/test_core.py::test_validate_response gets stuck
+    in 1-core VM'
+'20210621':
+- component: KDE Applications
+  create_time: 20210622T22:06:00
+  id: 1187627
+  resolution: ''
+  status: NEW
+  summary: After update, Kdenlive crashes on starting
 - component: KDE Applications
   create_time: 20210622T16:09:00
   id: 1187614
@@ -60045,28 +60077,3 @@
   resolution: ''
   status: NEW
   summary: 'Ansible: missing python3-selinux requirement'
-- component: Kernel
-  create_time: 20210620T15:18:00
-  id: 1187521
-  resolution: ''
-  status: NEW
-  summary: System freezes randomly Lenovo Thinkpad E495
-- component: KDE Workspace (Plasma)
-  create_time: 20210620T09:24:00
-  id: 1187519
-  resolution: ''
-  status: NEW
-  summary: taskbar goes away on laptop
-- component: Kernel
-  create_time: 20210620T09:18:00
-  id: 1187518
-  resolution: FIXED
-  status: RESOLVED
-  summary: boot messages are too tiny on hi res laptop screen
-- component: Other
-  create_time: 20210620T04:16:00
-  id: 1187516
-  resolution: ''
-  status: NEW
-  summary: 'python-gcsfs: gcsfs/tests/test_core.py::test_validate_response gets stuck
-    in 1-core VM'
