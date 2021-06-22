@@ -59932,6 +59932,12 @@
   status: RESOLVED
   summary: sshd_config replaced with default settings
 '20210620':
+- component: Installation
+  create_time: 20210622T05:19:00
+  id: 1187580
+  resolution: ''
+  status: NEW
+  summary: raspberry pi 4 KDE image does not install Network Manager widget
 - component: Other
   create_time: 20210622T03:58:00
   id: 1187578
