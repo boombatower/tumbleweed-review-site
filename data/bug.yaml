@@ -59932,6 +59932,12 @@
   status: RESOLVED
   summary: sshd_config replaced with default settings
 '20210620':
+- component: Other
+  create_time: 20210622T03:58:00
+  id: 1187578
+  resolution: ''
+  status: NEW
+  summary: Some Steam Source games need glibc-locale-base-32bit
 - component: Virtualization:Tools
   create_time: 20210621T19:27:00
   id: 1187567
