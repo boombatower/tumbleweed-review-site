@@ -58250,14 +58250,14 @@
 - component: Basesystem
   create_time: 20210514T11:54:00
   id: 1186057
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: new /usr/libexec/bind/named.prep has "ln -s" for rndc wrong way round
 - component: YaST2
   create_time: 20210514T06:26:00
   id: 1186046
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Have to stop named service before launching YAST2 to configure DNS server
 - component: Other
   create_time: 20210514T02:13:00
@@ -59938,6 +59938,19 @@
   status: RESOLVED
   summary: sshd_config replaced with default settings
 '20210620':
+- component: Kernel
+  create_time: 20210622T09:20:00
+  id: 1187589
+  resolution: ''
+  status: NEW
+  summary: No sound device detected on Pinebook Pro, stock TW install
+- component: Containers
+  create_time: 20210622T09:14:00
+  id: 1187588
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: 'Cannot install apache2 on tumbleweed container: ERROR: neither groupadd
+    nor busybox found!'
 - component: Other
   create_time: 20210622T06:40:00
   id: 1187583
