@@ -6833,12 +6833,13 @@
     summary: fubar SDDM
 '20210620':
   announcement: 2021-06.5122::<162430924601.10104.3169420215834867095@go-agent-stagingbot-6>
-  reference_count: 4
+  reference_count: 5
   thread_count: 1
   threads:
   - messages:
     - "2021-06.5124::\n <162431981836.23225.5593070655125856679@mailman3.infra.opensuse.org>"
     - "2021-06.5125::\n <162431981844.23225.14444623527500933855@mailman3.infra.opensuse.org>"
     - 2021-06.5132::<22ee35f9-32c5-db7f-cb2b-3519a8913526@baywinds.org>
-    reference_count: 4
+    - 2021-06.5134::<77d3fd46-fd39-8fb9-eadd-600dcad35ba0@gmail.com>
+    reference_count: 5
     summary: failed to summarize
