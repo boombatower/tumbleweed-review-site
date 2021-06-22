@@ -49688,8 +49688,8 @@
 - component: Other
   create_time: 20201126T17:27:00
   id: 1179289
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: wrong linker path provided by mysql_config --libs
 - component: Development
   create_time: 20201126T15:42:00
@@ -59938,11 +59938,17 @@
   status: RESOLVED
   summary: sshd_config replaced with default settings
 '20210620':
+- component: KDE Workspace (Plasma)
+  create_time: 20210622T16:03:00
+  id: 1187612
+  resolution: ''
+  status: NEW
+  summary: spectacle copy image to clipboard
 - component: Development
   create_time: 20210622T13:58:00
   id: 1187599
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: rpmbuild failed with macros.kernel-source and rpmbuild-4.16.1.3-3.1
 - component: Kernel
   create_time: 20210622T09:20:00
@@ -59953,8 +59959,8 @@
 - component: Containers
   create_time: 20210622T09:14:00
   id: 1187588
-  resolution: ''
-  status: REOPENED
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'Cannot install apache2 on tumbleweed container: ERROR: neither groupadd
     nor busybox found!'
 - component: Other
