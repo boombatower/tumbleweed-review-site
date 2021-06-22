@@ -24654,8 +24654,8 @@
 - component: GNOME
   create_time: 20190607T06:06:00
   id: 1137569
-  resolution: UPSTREAM
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '[Build 20190605] openQA test fails in vino_screensharing_available'
 '20190612':
 - component: GNOME
@@ -45551,7 +45551,7 @@
   id: 1175930
   resolution: ''
   status: NEW
-  summary: Midnight Commander start slow
+  summary: 'mc: Midnight Commander start slow'
 - component: libzypp
   create_time: 20200830T15:01:00
   id: 1175929
@@ -46210,8 +46210,8 @@
 - component: Kernel
   create_time: 20200909T15:42:00
   id: 1176351
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Audio device: Intel Corporation Device 02c8: not detected (snd_hda_intel.dmic_detect=0
     works around)'
 - component: GNOME
@@ -50459,8 +50459,8 @@
 - component: Kernel
   create_time: 20201215T13:44:00
   id: 1180058
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Please don't create /boot/do_purge_kernels on initial install
 - component: Virtualization:Tools
   create_time: 20201215T10:21:00
@@ -56355,8 +56355,8 @@
 - component: Kernel
   create_time: 20210408T14:58:00
   id: 1184514
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: kernel-default-devel-5.11.11-1.2.x86_64 does not depend on kernel-default-5.11.11-1.2.x86_64
 - component: AutoYaST
   create_time: 20210408T14:09:00
@@ -58080,8 +58080,8 @@
 - component: Kernel
   create_time: 20210510T08:42:00
   id: 1185824
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Kernel 5.12.0-2 crash (video)
 '20210511':
 - component: Other
@@ -59938,6 +59938,12 @@
   status: RESOLVED
   summary: sshd_config replaced with default settings
 '20210620':
+- component: KDE Applications
+  create_time: 20210622T16:09:00
+  id: 1187614
+  resolution: ''
+  status: NEW
+  summary: '[wayland] yakuake is not hiding'
 - component: KDE Workspace (Plasma)
   create_time: 20210622T16:03:00
   id: 1187612
@@ -59968,7 +59974,7 @@
   id: 1187583
   resolution: ''
   status: CONFIRMED
-  summary: '[MC][regression] does not properly open .zip file containing .pdf file'
+  summary: 'mc: [regression] does not properly open .zip file containing .pdf file'
 - component: KDE Workspace (Plasma)
   create_time: 20210622T05:19:00
   id: 1187580
