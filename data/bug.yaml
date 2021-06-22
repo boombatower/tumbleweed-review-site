@@ -55941,6 +55941,12 @@
   resolution: FIXED
   status: RESOLVED
   summary: mysql-workbench crashes on open
+- component: KDE Workspace (Plasma)
+  create_time: 20210405T12:53:00
+  id: 1184335
+  resolution: ''
+  status: NEW
+  summary: Discover reports connection error even connection works
 - component: Basesystem
   create_time: 20210404T03:25:00
   id: 1184325
@@ -58204,8 +58210,8 @@
 - component: Basesystem
   create_time: 20210513T13:21:00
   id: 1186023
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: knot installed with transactional-update does not create knot group and
     user
 - component: Basesystem
@@ -58646,8 +58652,8 @@
 - component: Development
   create_time: 20210526T08:25:00
   id: 1186462
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Base:System usrmessedup
 - component: High Availability
   create_time: 20210526T07:53:00
@@ -58882,8 +58888,8 @@
 - component: Basesystem
   create_time: 20210602T23:06:00
   id: 1186781
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'filesystem: usrmerge: cp: cannot create hard link: Invalid cross-device
     link'
 - component: MicroOS
@@ -59079,8 +59085,8 @@
 - component: Basesystem
   create_time: 20210608T18:42:00
   id: 1187077
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: tpm2-abrmd fails with Tss2_TctiLdr_Initialize_Ex() Failed to instantiate
     TCTI
 - component: Kernel
@@ -59932,6 +59938,12 @@
   status: RESOLVED
   summary: sshd_config replaced with default settings
 '20210620':
+- component: Other
+  create_time: 20210622T06:40:00
+  id: 1187583
+  resolution: ''
+  status: NEW
+  summary: '[MC][regression] does not properly open .zip file containing .pdf file'
 - component: Installation
   create_time: 20210622T05:19:00
   id: 1187580
@@ -59967,8 +59979,8 @@
 - component: KDE Applications
   create_time: 20210621T14:30:00
   id: 1187552
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: kdeconnect stopped working
 - component: Development
   create_time: 20210621T12:38:00
