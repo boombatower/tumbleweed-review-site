@@ -59955,9 +59955,9 @@
   create_time: 20210622T06:40:00
   id: 1187583
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[MC][regression] does not properly open .zip file containing .pdf file'
-- component: Installation
+- component: KDE Workspace (Plasma)
   create_time: 20210622T05:19:00
   id: 1187580
   resolution: ''
