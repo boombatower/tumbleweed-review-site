@@ -59178,8 +59178,8 @@
 - component: Basesystem
   create_time: 20210608T02:47:00
   id: 1187010
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: update lvm2 from LVM2.03.10 to LVM2.2.03.12
 - component: Sound
   create_time: 20210607T22:08:00
@@ -59551,8 +59551,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20210613T17:09:00
   id: 1187272
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: KDE workspace Plasma network speed widget stops working after update
 - component: KDE Applications
   create_time: 20210613T16:40:00
