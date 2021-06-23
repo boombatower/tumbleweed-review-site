@@ -59964,6 +59964,12 @@
   summary: 'python-gcsfs: gcsfs/tests/test_core.py::test_validate_response gets stuck
     in 1-core VM'
 '20210621':
+- component: Security
+  create_time: 20210623T00:10:00
+  id: 1187632
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: webauthn-rs cryptographic operations (component of kanidm)'
 - component: Other
   create_time: 20210622T23:28:00
   id: 1187629
