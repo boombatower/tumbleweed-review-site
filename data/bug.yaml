@@ -59964,6 +59964,65 @@
   summary: 'python-gcsfs: gcsfs/tests/test_core.py::test_validate_response gets stuck
     in 1-core VM'
 '20210621':
+- component: Virtualization:Tools
+  create_time: 20210621T19:27:00
+  id: 1187567
+  resolution: ''
+  status: NEW
+  summary: Open-vm-tools release 11.3.0 has been released
+- component: Sound
+  create_time: 20210621T18:48:00
+  id: 1187562
+  resolution: ''
+  status: NEW
+  summary: Volume increasing automatically with wireless headset - Plantronics voyager
+    B8200
+- component: Virtualization:Other
+  create_time: 20210621T16:14:00
+  id: 1187555
+  resolution: ''
+  status: NEW
+  summary: libvirtd fails with multiple journal messages "Missing udev property 'ID_VENDOR_ID'
+    on ..."
+- component: KDE Applications
+  create_time: 20210621T14:30:00
+  id: 1187552
+  resolution: FIXED
+  status: RESOLVED
+  summary: kdeconnect stopped working
+- component: Development
+  create_time: 20210621T12:38:00
+  id: 1187546
+  resolution: ''
+  status: NEW
+  summary: Updating erlang leaves empty files under /usr/lib64/erlang/lib which cause
+    problems for mix release
+- component: Development
+  create_time: 20210621T10:41:00
+  id: 1187542
+  resolution: ''
+  status: NEW
+  summary: LTO breaks attribute((symver))
+- component: Installation
+  create_time: 20210621T09:26:00
+  id: 1187537
+  resolution: FEATURE
+  status: RESOLVED
+  summary: '[openssh] installation via ssh - but no permission to passwordlogin as
+    root'
+- component: YaST2
+  create_time: 20210621T08:56:00
+  id: 1187536
+  resolution: ''
+  status: CONFIRMED
+  summary: '[Build O.91.1] yast can''t handle "MOTD_FILE <blank>" in login.defs'
+- component: Other
+  create_time: 20210621T07:39:00
+  id: 1187531
+  resolution: ''
+  status: NEW
+  summary: 'Ansible: missing python3-selinux requirement'
+'20210622':
 - component: Basesystem
   create_time: 20210623T12:45:00
   id: 1187654
@@ -60061,61 +60120,3 @@
   resolution: ''
   status: NEW
   summary: Some Steam Source games need glibc-locale-base-32bit
-- component: Virtualization:Tools
-  create_time: 20210621T19:27:00
-  id: 1187567
-  resolution: ''
-  status: NEW
-  summary: Open-vm-tools release 11.3.0 has been released
-- component: Sound
-  create_time: 20210621T18:48:00
-  id: 1187562
-  resolution: ''
-  status: NEW
-  summary: Volume increasing automatically with wireless headset - Plantronics voyager
-    B8200
-- component: Virtualization:Other
-  create_time: 20210621T16:14:00
-  id: 1187555
-  resolution: ''
-  status: NEW
-  summary: libvirtd fails with multiple journal messages "Missing udev property 'ID_VENDOR_ID'
-    on ..."
-- component: KDE Applications
-  create_time: 20210621T14:30:00
-  id: 1187552
-  resolution: FIXED
-  status: RESOLVED
-  summary: kdeconnect stopped working
-- component: Development
-  create_time: 20210621T12:38:00
-  id: 1187546
-  resolution: ''
-  status: NEW
-  summary: Updating erlang leaves empty files under /usr/lib64/erlang/lib which cause
-    problems for mix release
-- component: Development
-  create_time: 20210621T10:41:00
-  id: 1187542
-  resolution: ''
-  status: NEW
-  summary: LTO breaks attribute((symver))
-- component: Installation
-  create_time: 20210621T09:26:00
-  id: 1187537
-  resolution: FEATURE
-  status: RESOLVED
-  summary: '[openssh] installation via ssh - but no permission to passwordlogin as
-    root'
-- component: YaST2
-  create_time: 20210621T08:56:00
-  id: 1187536
-  resolution: ''
-  status: CONFIRMED
-  summary: '[Build O.91.1] yast can''t handle "MOTD_FILE <blank>" in login.defs'
-- component: Other
-  create_time: 20210621T07:39:00
-  id: 1187531
-  resolution: ''
-  status: NEW
-  summary: 'Ansible: missing python3-selinux requirement'
