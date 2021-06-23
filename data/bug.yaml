@@ -26868,8 +26868,8 @@
   id: 1143125
   resolution: ''
   status: IN_PROGRESS
-  summary: systemd-vconsole-setup.service succeeds and fails several times on each
-    boot
+  summary: On i386, systemd-vconsole-setup fails due to MemoryDenyWriteExecute=yes
+    used in systemd-udevd.service
 - component: Basesystem
   create_time: 20190727T12:41:00
   id: 1143119
@@ -55478,7 +55478,7 @@
   id: 1183885
   resolution: ''
   status: IN_PROGRESS
-  summary: 'AUDIT-TRACKER: hfd-service: new package with D-Bus service com.lomiri.hfd.conf'
+  summary: 'AUDIT-STALE: hfd-service: new package with D-Bus service com.lomiri.hfd.conf'
 - component: X11 Applications
   create_time: 20210323T00:09:00
   id: 1183882
@@ -56681,8 +56681,8 @@
 - component: Sound
   create_time: 20210416T05:58:00
   id: 1184843
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'AUDIT-1: noisetorch: want cap_sys_resource+ep'
 - component: GNOME
   create_time: 20210416T05:31:00
@@ -58363,7 +58363,7 @@
   create_time: 20210518T11:29:00
   id: 1186194
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Many processes and up in D state after system resume (5.12.3-1-default,
     git 25d4ec7)
 - component: KDE Workspace (Plasma)
@@ -58919,8 +58919,8 @@
 - component: Security
   create_time: 20210602T10:19:00
   id: 1186735
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: openscap says everything is "nonapplicable"
 - component: KDE Workspace (Plasma)
   create_time: 20210602T09:59:00
@@ -59621,7 +59621,7 @@
   id: 1187327
   resolution: ''
   status: NEW
-  summary: '[riscv64][Unmatched] Tumbleweed update repository does not exist'
+  summary: '[riscv64] Tumbleweed update repository does not exist'
 - component: Basesystem
   create_time: 20210614T19:52:00
   id: 1187321
@@ -59964,6 +59964,30 @@
   summary: 'python-gcsfs: gcsfs/tests/test_core.py::test_validate_response gets stuck
     in 1-core VM'
 '20210621':
+- component: Basesystem
+  create_time: 20210623T12:45:00
+  id: 1187654
+  resolution: ''
+  status: NEW
+  summary: MicroOS IMA enabled system, dracut-pre-privot error
+- component: Other
+  create_time: 20210623T11:58:00
+  id: 1187652
+  resolution: ''
+  status: NEW
+  summary: json-lib binaries vary from build time
+- component: Bootloader
+  create_time: 20210623T11:34:00
+  id: 1187651
+  resolution: ''
+  status: NEW
+  summary: BTRFS setup leads to unbootable system
+- component: Firefox
+  create_time: 20210623T10:11:00
+  id: 1187648
+  resolution: ''
+  status: NEW
+  summary: Firefox 89.0.2 (new version) available
 - component: Containers
   create_time: 20210623T04:58:00
   id: 1187635
@@ -60079,8 +60103,8 @@
 - component: Installation
   create_time: 20210621T09:26:00
   id: 1187537
-  resolution: ''
-  status: NEW
+  resolution: FEATURE
+  status: RESOLVED
   summary: '[openssh] installation via ssh - but no permission to passwordlogin as
     root'
 - component: YaST2
