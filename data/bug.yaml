@@ -59964,6 +59964,12 @@
   summary: 'python-gcsfs: gcsfs/tests/test_core.py::test_validate_response gets stuck
     in 1-core VM'
 '20210621':
+- component: Other
+  create_time: 20210622T23:28:00
+  id: 1187629
+  resolution: ''
+  status: NEW
+  summary: bibletime crash on application close
 - component: KDE Applications
   create_time: 20210622T22:06:00
   id: 1187627
