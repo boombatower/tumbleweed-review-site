@@ -59985,8 +59985,8 @@
 - component: Firefox
   create_time: 20210623T10:11:00
   id: 1187648
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Firefox 89.0.2 (new version) available
 - component: Containers
   create_time: 20210623T04:58:00
