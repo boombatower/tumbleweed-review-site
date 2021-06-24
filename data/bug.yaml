@@ -60020,7 +60020,7 @@
   create_time: 20210621T07:39:00
   id: 1187531
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'Ansible: missing python3-selinux requirement'
 '20210622':
 - component: YaST2
