@@ -59422,7 +59422,7 @@
   resolution: ''
   status: NEW
   summary: '[Build 20210609] tensorflow2 fails to build'
-- component: libzypp
+- component: Other
   create_time: 20210610T08:00:00
   id: 1187161
   resolution: ''
@@ -60032,8 +60032,8 @@
 - component: Kernel
   create_time: 20210624T04:46:00
   id: 1187672
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Enable CONFIG_Z3FOLD for zswap
 - component: Basesystem
   create_time: 20210623T12:45:00
