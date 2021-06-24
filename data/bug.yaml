@@ -59973,8 +59973,8 @@
 - component: Sound
   create_time: 20210621T18:48:00
   id: 1187562
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Volume increasing automatically with wireless headset - Plantronics voyager
     B8200
 - component: Virtualization:Other
@@ -60023,6 +60023,12 @@
   status: NEW
   summary: 'Ansible: missing python3-selinux requirement'
 '20210622':
+- component: YaST2
+  create_time: 20210624T09:38:00
+  id: 1187677
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'yast-rake: set the "sle_latest" target to SLE15-SP4'
 - component: Kernel
   create_time: 20210624T04:46:00
   id: 1187672
