@@ -60023,6 +60023,12 @@
   status: NEW
   summary: 'Ansible: missing python3-selinux requirement'
 '20210622':
+- component: Kernel
+  create_time: 20210624T04:46:00
+  id: 1187672
+  resolution: ''
+  status: NEW
+  summary: Enable CONFIG_Z3FOLD for zswap
 - component: Basesystem
   create_time: 20210623T12:45:00
   id: 1187654
