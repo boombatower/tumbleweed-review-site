@@ -59968,7 +59968,7 @@
   create_time: 20210621T19:27:00
   id: 1187567
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Open-vm-tools release 11.3.0 has been released
 - component: Sound
   create_time: 20210621T18:48:00
