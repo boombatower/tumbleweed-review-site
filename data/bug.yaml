@@ -49021,8 +49021,8 @@
 - component: KVM
   create_time: 20201111T14:59:00
   id: 1178678
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: qemu-skiboot package has issues doing update-alternatives
 - component: Basesystem
   create_time: 20201111T14:27:00
@@ -59413,8 +59413,8 @@
 - component: Kernel
   create_time: 20210610T10:10:00
   id: 1187167
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: kernel-default varies across builds
 - component: Other
   create_time: 20210610T08:19:00
