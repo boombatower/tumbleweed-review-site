@@ -59529,7 +59529,7 @@
   status: RESOLVED
   summary: Clang 9 ignoring [[__no_unique_address__]] causes miscompilations with
     libstdc++ 11
-- component: Other
+- component: KDE Workspace (Plasma)
   create_time: 20210612T15:38:00
   id: 1187253
   resolution: ''
@@ -60085,6 +60085,18 @@
   status: NEW
   summary: Some Steam Source games need glibc-locale-base-32bit
 '20210623':
+- component: Containers
+  create_time: 20210625T07:26:00
+  id: 1187704
+  resolution: ''
+  status: NEW
+  summary: '[Staging] runc1.0.0 breaks podman'
+- component: Containers
+  create_time: 20210625T07:24:00
+  id: 1187703
+  resolution: INVALID
+  status: RESOLVED
+  summary: Staging]
 - component: YaST2
   create_time: 20210624T09:38:00
   id: 1187677
