@@ -59445,7 +59445,7 @@
   create_time: 20210609T18:39:00
   id: 1187137
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Syntax error in qtconcurrent header
 - component: Kernel
   create_time: 20210609T16:31:00
@@ -60106,8 +60106,8 @@
 - component: YaST2
   create_time: 20210624T09:38:00
   id: 1187677
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'yast-rake: set the "sle_latest" target to SLE15-SP4'
 - component: Kernel
   create_time: 20210624T04:46:00
