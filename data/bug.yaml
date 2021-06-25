@@ -60023,54 +60023,6 @@
   status: IN_PROGRESS
   summary: 'Ansible: missing python3-selinux requirement'
 '20210622':
-- component: YaST2
-  create_time: 20210624T09:38:00
-  id: 1187677
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'yast-rake: set the "sle_latest" target to SLE15-SP4'
-- component: Kernel
-  create_time: 20210624T04:46:00
-  id: 1187672
-  resolution: INVALID
-  status: RESOLVED
-  summary: Enable CONFIG_Z3FOLD for zswap
-- component: Basesystem
-  create_time: 20210623T12:45:00
-  id: 1187654
-  resolution: ''
-  status: NEW
-  summary: MicroOS IMA enabled system, dracut-pre-privot error
-- component: Other
-  create_time: 20210623T11:58:00
-  id: 1187652
-  resolution: ''
-  status: NEW
-  summary: json-lib binaries vary from build time
-- component: Bootloader
-  create_time: 20210623T11:34:00
-  id: 1187651
-  resolution: ''
-  status: NEW
-  summary: BTRFS setup leads to unbootable system
-- component: Firefox
-  create_time: 20210623T10:11:00
-  id: 1187648
-  resolution: FIXED
-  status: RESOLVED
-  summary: Firefox 89.0.2 (new version) available
-- component: Containers
-  create_time: 20210623T04:58:00
-  id: 1187635
-  resolution: ''
-  status: NEW
-  summary: Cockpit-ws container runlabels are reversed
-- component: Security
-  create_time: 20210623T00:10:00
-  id: 1187632
-  resolution: ''
-  status: NEW
-  summary: 'AUDIT-1: webauthn-rs cryptographic operations (component of kanidm)'
 - component: Other
   create_time: 20210622T23:28:00
   id: 1187629
@@ -60132,3 +60084,52 @@
   resolution: ''
   status: NEW
   summary: Some Steam Source games need glibc-locale-base-32bit
+'20210623':
+- component: YaST2
+  create_time: 20210624T09:38:00
+  id: 1187677
+  resolution: ''
+  status: IN_PROGRESS
+  summary: 'yast-rake: set the "sle_latest" target to SLE15-SP4'
+- component: Kernel
+  create_time: 20210624T04:46:00
+  id: 1187672
+  resolution: INVALID
+  status: RESOLVED
+  summary: Enable CONFIG_Z3FOLD for zswap
+- component: Basesystem
+  create_time: 20210623T12:45:00
+  id: 1187654
+  resolution: ''
+  status: NEW
+  summary: MicroOS IMA enabled system, dracut-pre-privot error
+- component: Other
+  create_time: 20210623T11:58:00
+  id: 1187652
+  resolution: ''
+  status: NEW
+  summary: json-lib binaries vary from build time
+- component: Bootloader
+  create_time: 20210623T11:34:00
+  id: 1187651
+  resolution: ''
+  status: NEW
+  summary: BTRFS setup leads to unbootable system
+- component: Firefox
+  create_time: 20210623T10:11:00
+  id: 1187648
+  resolution: FIXED
+  status: RESOLVED
+  summary: Firefox 89.0.2 (new version) available
+- component: Containers
+  create_time: 20210623T04:58:00
+  id: 1187635
+  resolution: ''
+  status: NEW
+  summary: Cockpit-ws container runlabels are reversed
+- component: Security
+  create_time: 20210623T00:10:00
+  id: 1187632
+  resolution: ''
+  status: NEW
+  summary: 'AUDIT-1: webauthn-rs cryptographic operations (component of kanidm)'
