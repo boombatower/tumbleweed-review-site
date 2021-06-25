@@ -2127,7 +2127,7 @@
   stability_level: stable
 '20210618':
   score: 94
-  stability_level: pending
+  stability_level: stable
 '20210620':
   score: 92
   stability_level: pending
@@ -2135,5 +2135,8 @@
   score: 96
   stability_level: pending
 '20210622':
-  score: 96
+  score: 97
+  stability_level: pending
+'20210623':
+  score: 98
   stability_level: pending
