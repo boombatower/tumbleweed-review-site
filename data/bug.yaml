@@ -59830,14 +59830,14 @@
 - component: AutoYaST
   create_time: 20210616T15:50:00
   id: 1187424
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210615] firstboot wizard not being launched'
 - component: AutoYaST
   create_time: 20210616T15:12:00
   id: 1187423
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210615] autoyast does not mark wicked for installation'
 - component: Security
   create_time: 20210616T14:32:00
@@ -60085,6 +60085,12 @@
   status: NEW
   summary: Some Steam Source games need glibc-locale-base-32bit
 '20210623':
+- component: Other
+  create_time: 20210625T09:17:00
+  id: 1187712
+  resolution: ''
+  status: NEW
+  summary: poedit crashes when opening files
 - component: Containers
   create_time: 20210625T07:26:00
   id: 1187704
