@@ -57844,8 +57844,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20210506T18:25:00
   id: 1185740
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Forcing Plasma Wayland session to run everything through XWayland causes
     more problems than it solves
 - component: Xfce
@@ -60085,24 +60085,6 @@
   status: NEW
   summary: Some Steam Source games need glibc-locale-base-32bit
 '20210623':
-- component: Other
-  create_time: 20210625T09:17:00
-  id: 1187712
-  resolution: ''
-  status: NEW
-  summary: poedit crashes when opening files
-- component: Containers
-  create_time: 20210625T07:26:00
-  id: 1187704
-  resolution: ''
-  status: NEW
-  summary: '[Staging] runc1.0.0 breaks podman'
-- component: Containers
-  create_time: 20210625T07:24:00
-  id: 1187703
-  resolution: INVALID
-  status: RESOLVED
-  summary: Staging]
 - component: YaST2
   create_time: 20210624T09:38:00
   id: 1187677
@@ -60151,3 +60133,28 @@
   resolution: ''
   status: NEW
   summary: 'AUDIT-1: webauthn-rs cryptographic operations (component of kanidm)'
+'20210625':
+- component: GNOME
+  create_time: 20210626T20:12:00
+  id: 1187733
+  resolution: ''
+  status: NEW
+  summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
+- component: Other
+  create_time: 20210625T09:17:00
+  id: 1187712
+  resolution: ''
+  status: NEW
+  summary: poedit crashes when opening files
+- component: Containers
+  create_time: 20210625T07:26:00
+  id: 1187704
+  resolution: ''
+  status: NEW
+  summary: '[Staging] runc1.0.0 breaks podman'
+- component: Containers
+  create_time: 20210625T07:24:00
+  id: 1187703
+  resolution: INVALID
+  status: RESOLVED
+  summary: Staging]
