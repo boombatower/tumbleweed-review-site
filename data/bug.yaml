@@ -60143,8 +60143,8 @@
 - component: Other
   create_time: 20210625T09:17:00
   id: 1187712
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: poedit crashes when opening files
 - component: Containers
   create_time: 20210625T07:26:00
