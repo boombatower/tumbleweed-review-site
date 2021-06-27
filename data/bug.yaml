@@ -60134,6 +60134,12 @@
   status: NEW
   summary: 'AUDIT-1: webauthn-rs cryptographic operations (component of kanidm)'
 '20210625':
+- component: libzypp
+  create_time: 20210627T12:23:00
+  id: 1187738
+  resolution: ''
+  status: NEW
+  summary: purge-kernels fails with  kernels from Kernel:HEAD
 - component: GNOME
   create_time: 20210626T20:12:00
   id: 1187733
