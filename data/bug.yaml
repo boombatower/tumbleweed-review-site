@@ -57844,8 +57844,8 @@
 - component: KDE Workspace (Plasma)
   create_time: 20210506T18:25:00
   id: 1185740
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Forcing Plasma Wayland session to run everything through XWayland causes
     more problems than it solves
 - component: Xfce
