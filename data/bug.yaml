@@ -57088,7 +57088,7 @@
   create_time: 20210425T18:12:00
   id: 1185276
   resolution: ''
-  status: REOPENED
+  status: IN_PROGRESS
   summary: Mesa - regression with video playback for HD channels on Hauppauge Card
     HVR5525
 - component: Firefox
