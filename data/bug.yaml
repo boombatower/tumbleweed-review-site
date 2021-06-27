@@ -55941,12 +55941,6 @@
   resolution: FIXED
   status: RESOLVED
   summary: mysql-workbench crashes on open
-- component: KDE Workspace (Plasma)
-  create_time: 20210405T12:53:00
-  id: 1184335
-  resolution: ''
-  status: NEW
-  summary: Discover reports connection error even connection works
 - component: Basesystem
   create_time: 20210404T03:25:00
   id: 1184325
@@ -57093,8 +57087,8 @@
 - component: Other
   create_time: 20210425T18:12:00
   id: 1185276
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: Mesa - regression with video playback for HD channels on Hauppauge Card
     HVR5525
 - component: Firefox
