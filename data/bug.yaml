@@ -60020,8 +60020,8 @@
 - component: Other
   create_time: 20210622T23:28:00
   id: 1187629
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: bibletime crash on application close
 - component: KDE Applications
   create_time: 20210622T22:06:00
@@ -60128,18 +60128,6 @@
   status: NEW
   summary: 'AUDIT-1: webauthn-rs cryptographic operations (component of kanidm)'
 '20210625':
-- component: libzypp
-  create_time: 20210627T12:23:00
-  id: 1187738
-  resolution: ''
-  status: NEW
-  summary: purge-kernels fails with  kernels from Kernel:HEAD
-- component: GNOME
-  create_time: 20210626T20:12:00
-  id: 1187733
-  resolution: ''
-  status: NEW
-  summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
 - component: Other
   create_time: 20210625T09:17:00
   id: 1187712
@@ -60158,3 +60146,16 @@
   resolution: INVALID
   status: RESOLVED
   summary: Staging]
+'20210626':
+- component: libzypp
+  create_time: 20210627T12:23:00
+  id: 1187738
+  resolution: ''
+  status: NEW
+  summary: purge-kernels fails with  kernels from Kernel:HEAD
+- component: GNOME
+  create_time: 20210626T20:12:00
+  id: 1187733
+  resolution: ''
+  status: NEW
+  summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
