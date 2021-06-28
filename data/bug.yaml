@@ -60147,6 +60147,12 @@
   status: RESOLVED
   summary: Staging]
 '20210626':
+- component: Basesystem
+  create_time: 20210628T12:56:00
+  id: 1187769
+  resolution: ''
+  status: NEW
+  summary: darktable crashes when built with gcc11
 - component: Kernel
   create_time: 20210628T10:38:00
   id: 1187761
