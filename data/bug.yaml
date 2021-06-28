@@ -59778,7 +59778,7 @@
   resolution: ''
   status: NEW
   summary: "Execution failure for \u201Cgrub2-editenv\u201D (from snapshot 20210615?)"
-- component: Usability
+- component: KDE Workspace (Plasma)
   create_time: 20210617T13:54:00
   id: 1187465
   resolution: ''
@@ -59882,7 +59882,7 @@
   resolution: ''
   status: NEW
   summary: File conflict with kernel-pae-devel-5.12.10-1.1.i686
-- component: Other
+- component: KDE Workspace (Plasma)
   create_time: 20210619T19:28:00
   id: 1187513
   resolution: ''
@@ -60013,8 +60013,8 @@
 - component: Other
   create_time: 20210621T07:39:00
   id: 1187531
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Ansible: missing python3-selinux requirement'
 '20210622':
 - component: Other
@@ -60147,12 +60147,49 @@
   status: RESOLVED
   summary: Staging]
 '20210626':
+- component: Security
+  create_time: 20210628T09:31:00
+  id: 1187759
+  resolution: ''
+  status: NEW
+  summary: 'VUL-0: CVE-2021-33589: rnp: cleartext key data after the rnp_key_unprotect()/rnp_key_protect()
+    calls'
+- component: Security
+  create_time: 20210628T09:28:00
+  id: 1187758
+  resolution: ''
+  status: NEW
+  summary: Lynis does not support /usr/etc/ssh/
+- component: Basesystem
+  create_time: 20210628T09:17:00
+  id: 1187757
+  resolution: ''
+  status: NEW
+  summary: '[rpmlint2] rpmlint-mini not self-contained enough: excessive deps'
+- component: Basesystem
+  create_time: 20210628T09:10:00
+  id: 1187756
+  resolution: ''
+  status: NEW
+  summary: '[rpmlint2] rpmlint2 fails rpmlint test'
+- component: Basesystem
+  create_time: 20210628T09:07:00
+  id: 1187755
+  resolution: ''
+  status: NEW
+  summary: '[rpmlint2] appstream test tries to connect to the internet'
+- component: Basesystem
+  create_time: 20210628T08:09:00
+  id: 1187749
+  resolution: ''
+  status: NEW
+  summary: rpmlint 2.0 fails
 - component: Basesystem
   create_time: 20210628T08:05:00
   id: 1187746
   resolution: ''
   status: NEW
-  summary: ntfslabel (of exfatprogs) cannot set labels starting with '-'
+  summary: ntfslabel cannot set labels starting with '-'
 - component: Basesystem
   create_time: 20210628T08:01:00
   id: 1187744
