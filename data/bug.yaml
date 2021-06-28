@@ -60147,6 +60147,12 @@
   status: RESOLVED
   summary: Staging]
 '20210626':
+- component: Sound
+  create_time: 20210628T16:04:00
+  id: 1187788
+  resolution: ''
+  status: NEW
+  summary: audacity is searching for jack via cmake files
 - component: Basesystem
   create_time: 20210628T12:56:00
   id: 1187769
