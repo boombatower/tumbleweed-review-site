@@ -56046,8 +56046,8 @@
 - component: Bootloader
   create_time: 20210407T16:13:00
   id: 1184454
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build B.403.1] openQA test fails in journal_check'
 - component: Installation
   create_time: 20210407T16:10:00
