@@ -28906,8 +28906,8 @@
 - component: Development
   create_time: 20190905T12:23:00
   id: 1149599
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: icecream-monitor fails to build
 - component: Security
   create_time: 20190905T08:51:00
