@@ -60147,6 +60147,12 @@
   status: RESOLVED
   summary: Staging]
 '20210626':
+- component: Kernel
+  create_time: 20210628T10:38:00
+  id: 1187761
+  resolution: ''
+  status: NEW
+  summary: brcmfmac problem
 - component: Security
   create_time: 20210628T09:31:00
   id: 1187759
@@ -60200,7 +60206,7 @@
   create_time: 20210627T12:23:00
   id: 1187738
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: purge-kernels fails with  kernels from Kernel:HEAD
 - component: GNOME
   create_time: 20210626T20:12:00
