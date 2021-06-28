@@ -58913,8 +58913,8 @@
 - component: Security
   create_time: 20210602T10:19:00
   id: 1186735
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: openscap says everything is "nonapplicable"
 - component: KDE Workspace (Plasma)
   create_time: 20210602T09:59:00
@@ -59600,15 +59600,15 @@
 - component: Basesystem
   create_time: 20210613T09:46:00
   id: 1187261
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: broken lsb-fake dependency due to python
 '20210614':
 - component: GNOME
   create_time: 20210614T21:52:00
   id: 1187328
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Foliate E-book reader fails to start, missing dependency
 - component: Basesystem
   create_time: 20210614T20:39:00
@@ -60147,6 +60147,18 @@
   status: RESOLVED
   summary: Staging]
 '20210626':
+- component: Basesystem
+  create_time: 20210628T08:05:00
+  id: 1187746
+  resolution: ''
+  status: NEW
+  summary: ntfslabel (of exfatprogs) cannot set labels starting with '-'
+- component: Basesystem
+  create_time: 20210628T08:01:00
+  id: 1187744
+  resolution: ''
+  status: NEW
+  summary: exfatlabel (of exfatprogs) cannot set labels starting with '-'
 - component: libzypp
   create_time: 20210627T12:23:00
   id: 1187738
