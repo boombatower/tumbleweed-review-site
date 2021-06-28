@@ -60147,6 +60147,24 @@
   status: RESOLVED
   summary: Staging]
 '20210626':
+- component: Kernel
+  create_time: 20210628T22:01:00
+  id: 1187798
+  resolution: ''
+  status: NEW
+  summary: BTRFS Enhancement - Option for Swapfile instead of swap partition.
+- component: Sound
+  create_time: 20210628T20:28:00
+  id: 1187797
+  resolution: ''
+  status: NEW
+  summary: No sound through headphones after tumbleweed update
+- component: MicroOS
+  create_time: 20210628T20:13:00
+  id: 1187796
+  resolution: ''
+  status: NEW
+  summary: Missing remote attestation system roles in the control.xml
 - component: Sound
   create_time: 20210628T16:04:00
   id: 1187788
@@ -60168,8 +60186,8 @@
 - component: Security
   create_time: 20210628T09:31:00
   id: 1187759
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'VUL-0: CVE-2021-33589: rnp: cleartext key data after the rnp_key_unprotect()/rnp_key_protect()
     calls'
 - component: Security
