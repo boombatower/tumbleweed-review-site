@@ -59744,7 +59744,7 @@
   create_time: 20210615T12:49:00
   id: 1187352
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: GCC11 with LTO miscompile aespipe
 - component: Other
   create_time: 20210615T10:08:00
@@ -60147,6 +60147,24 @@
   status: RESOLVED
   summary: Staging]
 '20210626':
+- component: Containers
+  create_time: 20210629T12:00:00
+  id: 1187826
+  resolution: ''
+  status: NEW
+  summary: 'lxd: vms have no network connection'
+- component: Sound
+  create_time: 20210629T12:00:00
+  id: 1187825
+  resolution: ''
+  status: NEW
+  summary: Wrong/"Missing"  firmware for Creative ZxR audio card with compressed kernel-firmware
+- component: Kernel
+  create_time: 20210629T11:50:00
+  id: 1187824
+  resolution: ''
+  status: NEW
+  summary: Tumbleweed kernel does not support FIPS
 - component: Bootloader
   create_time: 20210629T09:29:00
   id: 1187816
