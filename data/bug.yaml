@@ -24481,8 +24481,8 @@
 - component: Other
   create_time: 20190604T08:24:00
   id: 1137203
-  resolution: FIXED
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: '[Build 20190602] openQA test fails in tk'
 - component: Kubic
   create_time: 20190604T07:30:00
