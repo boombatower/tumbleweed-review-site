@@ -60147,6 +60147,12 @@
   status: RESOLVED
   summary: Staging]
 '20210626':
+- component: Other
+  create_time: 20210629T01:06:00
+  id: 1187799
+  resolution: ''
+  status: NEW
+  summary: ksh is not usable because wrong link to /etc/alternatives version
 - component: Kernel
   create_time: 20210628T22:01:00
   id: 1187798
