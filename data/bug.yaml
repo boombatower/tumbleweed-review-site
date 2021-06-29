@@ -60118,8 +60118,8 @@
 - component: Containers
   create_time: 20210623T04:58:00
   id: 1187635
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Cockpit-ws container runlabels are reversed
 - component: Security
   create_time: 20210623T00:10:00
@@ -60248,14 +60248,14 @@
 - component: Basesystem
   create_time: 20210628T09:10:00
   id: 1187756
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[rpmlint2] rpmlint2 fails rpmlint test'
 - component: Basesystem
   create_time: 20210628T09:07:00
   id: 1187755
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: '[rpmlint2] appstream test tries to connect to the internet'
 - component: Basesystem
   create_time: 20210628T08:09:00
