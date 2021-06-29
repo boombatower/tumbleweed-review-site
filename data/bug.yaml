@@ -60160,6 +60160,13 @@
   status: NEW
   summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
 '20210628':
+- component: Other
+  create_time: 20210629T21:19:00
+  id: 1187839
+  resolution: ''
+  status: NEW
+  summary: the installed vlc-noX-3.0.16-350.2.x86_64 requires 'libprotobuf-lite.so.26()(64bit)',
+    but this requirement cannot be provided
 - component: Containers
   create_time: 20210629T12:00:00
   id: 1187826
