@@ -60147,6 +60147,25 @@
   status: RESOLVED
   summary: Staging]
 '20210626':
+- component: Bootloader
+  create_time: 20210629T09:29:00
+  id: 1187816
+  resolution: ''
+  status: NEW
+  summary: Selection of GRUB menu items is slowed down by disk access due to --class
+    option and missing icons
+- component: Basesystem
+  create_time: 20210629T09:08:00
+  id: 1187814
+  resolution: ''
+  status: NEW
+  summary: IMA/EVM is not enabled in the RPM package
+- component: Security
+  create_time: 20210629T08:30:00
+  id: 1187809
+  resolution: ''
+  status: NEW
+  summary: 'sendmail: /var/spool/clientmqueue without %set_permissions'
 - component: Other
   create_time: 20210629T01:06:00
   id: 1187799
