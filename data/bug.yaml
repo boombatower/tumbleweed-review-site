@@ -60147,6 +60147,19 @@
   status: RESOLVED
   summary: Staging]
 '20210626':
+- component: libzypp
+  create_time: 20210627T12:23:00
+  id: 1187738
+  resolution: ''
+  status: IN_PROGRESS
+  summary: purge-kernels fails with  kernels from Kernel:HEAD
+- component: GNOME
+  create_time: 20210626T20:12:00
+  id: 1187733
+  resolution: ''
+  status: NEW
+  summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
+'20210628':
 - component: Containers
   create_time: 20210629T12:00:00
   id: 1187826
@@ -60275,15 +60288,3 @@
   resolution: ''
   status: NEW
   summary: exfatlabel (of exfatprogs) cannot set labels starting with '-'
-- component: libzypp
-  create_time: 20210627T12:23:00
-  id: 1187738
-  resolution: ''
-  status: IN_PROGRESS
-  summary: purge-kernels fails with  kernels from Kernel:HEAD
-- component: GNOME
-  create_time: 20210626T20:12:00
-  id: 1187733
-  resolution: ''
-  status: NEW
-  summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
