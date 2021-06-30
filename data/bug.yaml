@@ -58997,8 +58997,8 @@
 - component: Virtualization:Other
   create_time: 20210604T19:56:00
   id: 1186888
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: libvirt requests new capabilities / AppArmor denials
 - component: Kernel
   create_time: 20210604T18:35:00
@@ -59713,8 +59713,8 @@
 - component: Basesystem
   create_time: 20210615T19:59:00
   id: 1187381
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: initrd doesn't contain resume module
 - component: Other
   create_time: 20210615T16:53:00
@@ -60160,6 +60160,18 @@
   status: NEW
   summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
 '20210628':
+- component: Cloud:Tools
+  create_time: 20210630T16:59:00
+  id: 1187881
+  resolution: ''
+  status: NEW
+  summary: regression in az network vnet create
+- component: Basesystem
+  create_time: 20210630T16:26:00
+  id: 1187879
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'openssh, pam: twice Last Login, twice MOTD'
 - component: Basesystem
   create_time: 20210630T10:00:00
   id: 1187864
