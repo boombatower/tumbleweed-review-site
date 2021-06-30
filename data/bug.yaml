@@ -60160,6 +60160,12 @@
   status: NEW
   summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
 '20210628':
+- component: GNOME
+  create_time: 20210630T04:11:00
+  id: 1187842
+  resolution: ''
+  status: NEW
+  summary: gtksourceview4 fails to build in 1-core VM
 - component: Basesystem
   create_time: 20210630T01:48:00
   id: 1187841
