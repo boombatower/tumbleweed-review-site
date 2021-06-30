@@ -59757,7 +59757,7 @@
   create_time: 20210615T08:17:00
   id: 1187332
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: zypper ignores the ordering constraints specified by OrderWithRequires
 '20210616':
 - component: Firefox
@@ -60160,6 +60160,18 @@
   status: NEW
   summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
 '20210628':
+- component: Basesystem
+  create_time: 20210630T10:00:00
+  id: 1187864
+  resolution: ''
+  status: NEW
+  summary: Semantic interposition inhibits optimization of shared libraries
+- component: Virtualization:Other
+  create_time: 20210630T09:35:00
+  id: 1187862
+  resolution: ''
+  status: NEW
+  summary: VirtualBox modules installed by default even when upstream modules available
 - component: Basesystem
   create_time: 20210630T07:38:00
   id: 1187853
