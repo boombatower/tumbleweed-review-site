@@ -60160,6 +60160,25 @@
   status: NEW
   summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
 '20210628':
+- component: Basesystem
+  create_time: 20210630T07:38:00
+  id: 1187853
+  resolution: ''
+  status: NEW
+  summary: zypper fails with "double free or corruption" with proxy set in /etc/sysconfig/proxy
+- component: KDE Workspace (Plasma)
+  create_time: 20210630T07:20:00
+  id: 1187850
+  resolution: ''
+  status: NEW
+  summary: plasma5 & wayland artifacts after the recent "full" wayland switch
+- component: KDE Workspace (Plasma)
+  create_time: 20210630T06:35:00
+  id: 1187845
+  resolution: ''
+  status: NEW
+  summary: Multiple regressions in KDEs wayland session since switch to QT5.15 maintenance
+    branch with last snapshot
 - component: GNOME
   create_time: 20210630T04:11:00
   id: 1187842
@@ -60175,8 +60194,8 @@
 - component: Other
   create_time: 20210629T21:19:00
   id: 1187839
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: the installed vlc-noX-3.0.16-350.2.x86_64 requires 'libprotobuf-lite.so.26()(64bit)',
     but this requirement cannot be provided
 - component: Containers
@@ -60213,8 +60232,8 @@
 - component: Security
   create_time: 20210629T08:30:00
   id: 1187809
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'sendmail: /var/spool/clientmqueue without %set_permissions'
 - component: Other
   create_time: 20210629T01:06:00
