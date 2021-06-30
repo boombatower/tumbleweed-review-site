@@ -60160,6 +60160,12 @@
   status: NEW
   summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
 '20210628':
+- component: Basesystem
+  create_time: 20210630T01:48:00
+  id: 1187841
+  resolution: ''
+  status: NEW
+  summary: btrfs receive is broken
 - component: Other
   create_time: 20210629T21:19:00
   id: 1187839
