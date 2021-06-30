@@ -60076,7 +60076,7 @@
   create_time: 20210622T03:58:00
   id: 1187578
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Some Steam Source games need glibc-locale-base-32bit
 '20210623':
 - component: YaST2
@@ -60169,8 +60169,8 @@
 - component: Virtualization:Other
   create_time: 20210630T09:35:00
   id: 1187862
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: VirtualBox modules installed by default even when upstream modules available
 - component: libzypp
   create_time: 20210630T07:38:00
