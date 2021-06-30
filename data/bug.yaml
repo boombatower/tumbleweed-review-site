@@ -57691,8 +57691,8 @@
 - component: Other
   create_time: 20210505T14:21:00
   id: 1185671
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'mingw{32,64}-filesystem: rpm macro file installed to /etc/rpm'
 - component: OpenStack
   create_time: 20210505T14:19:00
@@ -60172,7 +60172,7 @@
   resolution: ''
   status: NEW
   summary: VirtualBox modules installed by default even when upstream modules available
-- component: Basesystem
+- component: libzypp
   create_time: 20210630T07:38:00
   id: 1187853
   resolution: ''
