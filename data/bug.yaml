@@ -60160,6 +60160,12 @@
   status: NEW
   summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
 '20210628':
+- component: Other
+  create_time: 20210630T20:56:00
+  id: 1187888
+  resolution: ''
+  status: NEW
+  summary: vi "error detected" opening nginx files
 - component: Containers
   create_time: 20210630T19:50:00
   id: 1187885
