@@ -51351,8 +51351,8 @@
 - component: KDE Applications
   create_time: 20210107T19:48:00
   id: 1180672
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: kmail - individual aggregation or view per folder no longer possible
 - component: X11 Applications
   create_time: 20210107T19:41:00
@@ -60160,6 +60160,12 @@
   status: NEW
   summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
 '20210628':
+- component: Containers
+  create_time: 20210630T19:50:00
+  id: 1187885
+  resolution: ''
+  status: NEW
+  summary: 'podman: "image not known" for local image'
 - component: Cloud:Tools
   create_time: 20210630T16:59:00
   id: 1187881
