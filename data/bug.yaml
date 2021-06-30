@@ -60305,8 +60305,8 @@
 - component: Basesystem
   create_time: 20210628T09:17:00
   id: 1187757
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[rpmlint2] rpmlint-mini not self-contained enough: excessive deps'
 - component: Basesystem
   create_time: 20210628T09:10:00
