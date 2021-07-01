@@ -59836,8 +59836,8 @@
 - component: Security
   create_time: 20210616T14:32:00
   id: 1187421
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: sshd PasswordAuthentication no not work
 - component: GNOME
   create_time: 20210616T13:33:00
@@ -60160,6 +60160,104 @@
   status: NEW
   summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
 '20210628':
+- component: Kernel
+  create_time: 20210628T22:01:00
+  id: 1187798
+  resolution: ''
+  status: NEW
+  summary: BTRFS Enhancement - Option for Swapfile instead of swap partition.
+- component: Sound
+  create_time: 20210628T20:28:00
+  id: 1187797
+  resolution: ''
+  status: NEW
+  summary: No sound through headphones after tumbleweed update
+- component: MicroOS
+  create_time: 20210628T20:13:00
+  id: 1187796
+  resolution: ''
+  status: NEW
+  summary: Missing remote attestation system roles in the control.xml
+- component: Sound
+  create_time: 20210628T16:04:00
+  id: 1187788
+  resolution: ''
+  status: NEW
+  summary: audacity is searching for jack via cmake files
+- component: Basesystem
+  create_time: 20210628T12:56:00
+  id: 1187769
+  resolution: ''
+  status: NEW
+  summary: darktable crashes when built with gcc11
+- component: Kernel
+  create_time: 20210628T10:38:00
+  id: 1187761
+  resolution: ''
+  status: NEW
+  summary: brcmfmac problem
+- component: Security
+  create_time: 20210628T09:31:00
+  id: 1187759
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'VUL-0: CVE-2021-33589: rnp: cleartext key data after the rnp_key_unprotect()/rnp_key_protect()
+    calls'
+- component: Security
+  create_time: 20210628T09:28:00
+  id: 1187758
+  resolution: ''
+  status: NEW
+  summary: Lynis does not support /usr/etc/ssh/
+- component: Basesystem
+  create_time: 20210628T09:17:00
+  id: 1187757
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[rpmlint2] rpmlint-mini not self-contained enough: excessive deps'
+- component: Basesystem
+  create_time: 20210628T09:10:00
+  id: 1187756
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[rpmlint2] rpmlint2 fails rpmlint test'
+- component: Basesystem
+  create_time: 20210628T09:07:00
+  id: 1187755
+  resolution: INVALID
+  status: RESOLVED
+  summary: '[rpmlint2] appstream test tries to connect to the internet'
+- component: Basesystem
+  create_time: 20210628T08:09:00
+  id: 1187749
+  resolution: ''
+  status: NEW
+  summary: rpmlint 2.0 fails
+- component: Basesystem
+  create_time: 20210628T08:05:00
+  id: 1187746
+  resolution: ''
+  status: NEW
+  summary: ntfslabel cannot set labels starting with '-'
+- component: Basesystem
+  create_time: 20210628T08:01:00
+  id: 1187744
+  resolution: ''
+  status: NEW
+  summary: exfatlabel (of exfatprogs) cannot set labels starting with '-'
+'20210629':
+- component: Other
+  create_time: 20210701T10:34:00
+  id: 1187910
+  resolution: ''
+  status: NEW
+  summary: '[netcdf-fortran] Nothing provides nf-config'
+- component: Other
+  create_time: 20210701T10:22:00
+  id: 1187909
+  resolution: ''
+  status: NEW
+  summary: '[HPC,gcc11] Add build support for gcc11 to HPC libraries'
 - component: Network
   create_time: 20210701T09:41:00
   id: 1187906
@@ -60308,88 +60406,3 @@
   resolution: ''
   status: NEW
   summary: ksh is not usable because wrong link to /etc/alternatives version
-- component: Kernel
-  create_time: 20210628T22:01:00
-  id: 1187798
-  resolution: ''
-  status: NEW
-  summary: BTRFS Enhancement - Option for Swapfile instead of swap partition.
-- component: Sound
-  create_time: 20210628T20:28:00
-  id: 1187797
-  resolution: ''
-  status: NEW
-  summary: No sound through headphones after tumbleweed update
-- component: MicroOS
-  create_time: 20210628T20:13:00
-  id: 1187796
-  resolution: ''
-  status: NEW
-  summary: Missing remote attestation system roles in the control.xml
-- component: Sound
-  create_time: 20210628T16:04:00
-  id: 1187788
-  resolution: ''
-  status: NEW
-  summary: audacity is searching for jack via cmake files
-- component: Basesystem
-  create_time: 20210628T12:56:00
-  id: 1187769
-  resolution: ''
-  status: NEW
-  summary: darktable crashes when built with gcc11
-- component: Kernel
-  create_time: 20210628T10:38:00
-  id: 1187761
-  resolution: ''
-  status: NEW
-  summary: brcmfmac problem
-- component: Security
-  create_time: 20210628T09:31:00
-  id: 1187759
-  resolution: FIXED
-  status: RESOLVED
-  summary: 'VUL-0: CVE-2021-33589: rnp: cleartext key data after the rnp_key_unprotect()/rnp_key_protect()
-    calls'
-- component: Security
-  create_time: 20210628T09:28:00
-  id: 1187758
-  resolution: ''
-  status: NEW
-  summary: Lynis does not support /usr/etc/ssh/
-- component: Basesystem
-  create_time: 20210628T09:17:00
-  id: 1187757
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[rpmlint2] rpmlint-mini not self-contained enough: excessive deps'
-- component: Basesystem
-  create_time: 20210628T09:10:00
-  id: 1187756
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[rpmlint2] rpmlint2 fails rpmlint test'
-- component: Basesystem
-  create_time: 20210628T09:07:00
-  id: 1187755
-  resolution: INVALID
-  status: RESOLVED
-  summary: '[rpmlint2] appstream test tries to connect to the internet'
-- component: Basesystem
-  create_time: 20210628T08:09:00
-  id: 1187749
-  resolution: ''
-  status: NEW
-  summary: rpmlint 2.0 fails
-- component: Basesystem
-  create_time: 20210628T08:05:00
-  id: 1187746
-  resolution: ''
-  status: NEW
-  summary: ntfslabel cannot set labels starting with '-'
-- component: Basesystem
-  create_time: 20210628T08:01:00
-  id: 1187744
-  resolution: ''
-  status: NEW
-  summary: exfatlabel (of exfatprogs) cannot set labels starting with '-'
