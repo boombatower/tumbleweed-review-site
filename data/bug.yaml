@@ -60160,6 +60160,18 @@
   status: NEW
   summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
 '20210628':
+- component: Network
+  create_time: 20210701T09:41:00
+  id: 1187906
+  resolution: ''
+  status: NEW
+  summary: /etc/dhcp/dhclient.d/chrony.sh references non-existent /usr/share/chrony-helper
+- component: Bootloader
+  create_time: 20210701T08:24:00
+  id: 1187904
+  resolution: ''
+  status: NEW
+  summary: '[RPi3] serial console not working correctly in U-Boot'
 - component: Kernel
   create_time: 20210701T07:59:00
   id: 1187901
@@ -60195,7 +60207,7 @@
   create_time: 20210630T16:59:00
   id: 1187881
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: regression in az network vnet create
 - component: Basesystem
   create_time: 20210630T16:26:00
