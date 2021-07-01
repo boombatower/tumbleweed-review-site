@@ -60252,6 +60252,12 @@
   status: NEW
   summary: exfatlabel (of exfatprogs) cannot set labels starting with '-'
 '20210629':
+- component: Upgrade Problems
+  create_time: 20210701T22:06:00
+  id: 1187940
+  resolution: ''
+  status: NEW
+  summary: ssh login as root fails after tumbleweed update to VERSION="20210628" openssh-server-8.4p1-6.1.x86_64
 - component: Kernel
   create_time: 20210701T15:17:00
   id: 1187926
