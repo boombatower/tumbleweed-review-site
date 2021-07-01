@@ -55808,8 +55808,8 @@
 - component: GNOME
   create_time: 20210329T08:23:00
   id: 1184101
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: GNOME 40 gnome-packagekit SLE patches rebase.
 - component: Other
   create_time: 20210329T08:22:00
@@ -60160,6 +60160,19 @@
   status: NEW
   summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
 '20210628':
+- component: Kernel
+  create_time: 20210701T07:59:00
+  id: 1187901
+  resolution: FIXED
+  status: RESOLVED
+  summary: nfsd broken on 5.13
+- component: AutoYaST
+  create_time: 20210701T07:00:00
+  id: 1187898
+  resolution: ''
+  status: IN_PROGRESS
+  summary: AutoYaST check-profile command crashes with the profile contains a <scripts>
+    section
 - component: Kubic
   create_time: 20210701T04:17:00
   id: 1187897
