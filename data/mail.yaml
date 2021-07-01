@@ -4365,7 +4365,7 @@
     summary: no summary given
 '20200625':
   announcement: 2021-06.333::<159321968651.11797.4748467749617799881@go-agent-stagingbot-2>
-  reference_count: 20
+  reference_count: 22
   thread_count: 2
   threads:
   - messages:
@@ -4379,7 +4379,7 @@
     - 2021-04.1070::<159321968651.11797.4748467749617799881@go-agent-stagingbot-2>
     - 2021-05.599::<159321968651.11797.4748467749617799881@go-agent-stagingbot-2>
     - 2021-06.333::<159321968651.11797.4748467749617799881@go-agent-stagingbot-2>
-    reference_count: 18
+    reference_count: 20
     summary: no summary given
 '20200626':
   announcement: 2021-06.342::<159334562842.7675.2987998243427904909@go-agent-stagingbot-2>
@@ -4424,8 +4424,8 @@
     reference_count: 6
     summary: no summary given
 '20200630':
-  announcement: 2021-06.362::<159364081773.14246.14802288575193938236@go-agent-stagingbot-2>
-  reference_count: 20
+  announcement: 2021-07.10::<159364081773.14246.14802288575193938236@go-agent-stagingbot-2>
+  reference_count: 23
   thread_count: 1
   threads:
   - messages:
@@ -4436,11 +4436,12 @@
     - 2021-04.1099::<159364081773.14246.14802288575193938236@go-agent-stagingbot-2>
     - 2021-05.628::<159364081773.14246.14802288575193938236@go-agent-stagingbot-2>
     - 2021-06.362::<159364081773.14246.14802288575193938236@go-agent-stagingbot-2>
-    reference_count: 20
+    - 2021-07.10::<159364081773.14246.14802288575193938236@go-agent-stagingbot-2>
+    reference_count: 23
     summary: no summary given
 '20200701':
-  announcement: 2021-06.375::<159374522353.17482.8313884932967582147@go-agent-stagingbot-2>
-  reference_count: 6
+  announcement: 2021-07.23::<159374522353.17482.8313884932967582147@go-agent-stagingbot-2>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4450,11 +4451,12 @@
     - 2021-04.1112::<159374522353.17482.8313884932967582147@go-agent-stagingbot-2>
     - 2021-05.641::<159374522353.17482.8313884932967582147@go-agent-stagingbot-2>
     - 2021-06.375::<159374522353.17482.8313884932967582147@go-agent-stagingbot-2>
-    reference_count: 6
+    - 2021-07.23::<159374522353.17482.8313884932967582147@go-agent-stagingbot-2>
+    reference_count: 7
     summary: no summary given
 '20200707':
-  announcement: 2021-06.466::<159428526890.8421.13678828270509175900@go-agent-stagingbot-6>
-  reference_count: 6
+  announcement: 2021-07.114::<159428526890.8421.13678828270509175900@go-agent-stagingbot-6>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4464,11 +4466,12 @@
     - 2021-04.1203::<159428526890.8421.13678828270509175900@go-agent-stagingbot-6>
     - 2021-05.732::<159428526890.8421.13678828270509175900@go-agent-stagingbot-6>
     - 2021-06.466::<159428526890.8421.13678828270509175900@go-agent-stagingbot-6>
-    reference_count: 6
+    - 2021-07.114::<159428526890.8421.13678828270509175900@go-agent-stagingbot-6>
+    reference_count: 7
     summary: no summary given
 '20200708':
-  announcement: 2021-06.486::<159437525895.2164.14797931203439129342@go-agent-stagingbot-2>
-  reference_count: 34
+  announcement: 2021-07.134::<159437525895.2164.14797931203439129342@go-agent-stagingbot-2>
+  reference_count: 39
   thread_count: 2
   threads:
   - messages:
@@ -4482,11 +4485,12 @@
     - 2021-04.1223::<159437525895.2164.14797931203439129342@go-agent-stagingbot-2>
     - 2021-05.752::<159437525895.2164.14797931203439129342@go-agent-stagingbot-2>
     - 2021-06.486::<159437525895.2164.14797931203439129342@go-agent-stagingbot-2>
-    reference_count: 30
+    - 2021-07.134::<159437525895.2164.14797931203439129342@go-agent-stagingbot-2>
+    reference_count: 35
     summary: no summary given
 '20200710':
-  announcement: 2021-06.622::<159464524466.26341.13622365879437151850@go-agent-stagingbot-5>
-  reference_count: 6
+  announcement: 2021-07.270::<159464524466.26341.13622365879437151850@go-agent-stagingbot-5>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4496,11 +4500,12 @@
     - 2021-04.1359::<159464524466.26341.13622365879437151850@go-agent-stagingbot-5>
     - 2021-05.888::<159464524466.26341.13622365879437151850@go-agent-stagingbot-5>
     - 2021-06.622::<159464524466.26341.13622365879437151850@go-agent-stagingbot-5>
-    reference_count: 6
+    - 2021-07.270::<159464524466.26341.13622365879437151850@go-agent-stagingbot-5>
+    reference_count: 7
     summary: no summary given
 '20200713':
-  announcement: 2021-06.628::<159473522456.14586.9728727825545020071@go-agent-stagingbot-5>
-  reference_count: 6
+  announcement: 2021-07.276::<159473522456.14586.9728727825545020071@go-agent-stagingbot-5>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4510,11 +4515,12 @@
     - 2021-04.1365::<159473522456.14586.9728727825545020071@go-agent-stagingbot-5>
     - 2021-05.894::<159473522456.14586.9728727825545020071@go-agent-stagingbot-5>
     - 2021-06.628::<159473522456.14586.9728727825545020071@go-agent-stagingbot-5>
-    reference_count: 6
+    - 2021-07.276::<159473522456.14586.9728727825545020071@go-agent-stagingbot-5>
+    reference_count: 7
     summary: no summary given
 '20200714':
-  announcement: 2021-06.639::<159482167429.5953.5591065405130647875@go-agent-stagingbot-5>
-  reference_count: 34
+  announcement: 2021-07.287::<159482167429.5953.5591065405130647875@go-agent-stagingbot-5>
+  reference_count: 39
   thread_count: 2
   threads:
   - messages:
@@ -4537,7 +4543,10 @@
     - "2021-06.652::\n <trinity-00ab9e17-84e5-4fec-9c86-28606e7999a5-1594918207355@3c-app-gmx-bs06>"
     - 2021-06.653::<nycvar.YFH.7.77.849.2007162333140.16380@n3.vanv.qr>
     - 2021-06.685::<b282ac84-6320-b855-fa6b-92eb0d83cc4c@telefonica.net>
-    reference_count: 28
+    - "2021-07.300::\n <trinity-00ab9e17-84e5-4fec-9c86-28606e7999a5-1594918207355@3c-app-gmx-bs06>"
+    - 2021-07.301::<nycvar.YFH.7.77.849.2007162333140.16380@n3.vanv.qr>
+    - 2021-07.333::<b282ac84-6320-b855-fa6b-92eb0d83cc4c@telefonica.net>
+    reference_count: 32
     summary: released! - Info for Packman users
   - messages:
     - 2021-01.2709::<159482167429.5953.5591065405130647875@go-agent-stagingbot-5>
@@ -4546,11 +4555,12 @@
     - 2021-04.1376::<159482167429.5953.5591065405130647875@go-agent-stagingbot-5>
     - 2021-05.905::<159482167429.5953.5591065405130647875@go-agent-stagingbot-5>
     - 2021-06.639::<159482167429.5953.5591065405130647875@go-agent-stagingbot-5>
-    reference_count: 6
+    - 2021-07.287::<159482167429.5953.5591065405130647875@go-agent-stagingbot-5>
+    reference_count: 7
     summary: no summary given
 '20200715':
-  announcement: 2021-06.654::<159494407042.14560.8271331494098513416@go-agent-stagingbot-4>
-  reference_count: 6
+  announcement: 2021-07.302::<159494407042.14560.8271331494098513416@go-agent-stagingbot-4>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4560,11 +4570,12 @@
     - 2021-04.1391::<159494407042.14560.8271331494098513416@go-agent-stagingbot-4>
     - 2021-05.920::<159494407042.14560.8271331494098513416@go-agent-stagingbot-4>
     - 2021-06.654::<159494407042.14560.8271331494098513416@go-agent-stagingbot-4>
-    reference_count: 6
+    - 2021-07.302::<159494407042.14560.8271331494098513416@go-agent-stagingbot-4>
+    reference_count: 7
     summary: no summary given
 '20200716':
-  announcement: 2021-06.679::<159500166522.19348.8791892276610739208@go-agent-stagingbot-7>
-  reference_count: 111
+  announcement: 2021-07.327::<159500166522.19348.8791892276610739208@go-agent-stagingbot-7>
+  reference_count: 127
   thread_count: 2
   threads:
   - messages:
@@ -4575,7 +4586,8 @@
     - 2021-04.1457::<122711852.1L4bI0vXzs@lianli>
     - 2021-05.986::<122711852.1L4bI0vXzs@lianli>
     - 2021-06.720::<122711852.1L4bI0vXzs@lianli>
-    reference_count: 33
+    - 2021-07.368::<122711852.1L4bI0vXzs@lianli>
+    reference_count: 36
     summary: released! - Firefox fails to load
   - messages:
     - 2021-01.2749::<159500166522.19348.8791892276610739208@go-agent-stagingbot-7>
@@ -4584,11 +4596,12 @@
     - 2021-04.1416::<159500166522.19348.8791892276610739208@go-agent-stagingbot-7>
     - 2021-05.945::<159500166522.19348.8791892276610739208@go-agent-stagingbot-7>
     - 2021-06.679::<159500166522.19348.8791892276610739208@go-agent-stagingbot-7>
-    reference_count: 78
+    - 2021-07.327::<159500166522.19348.8791892276610739208@go-agent-stagingbot-7>
+    reference_count: 91
     summary: no summary given
 '20200717':
-  announcement: 2021-06.708::<159512046537.32577.4773776556416658588@go-agent-stagingbot-7>
-  reference_count: 34
+  announcement: 2021-07.356::<159512046537.32577.4773776556416658588@go-agent-stagingbot-7>
+  reference_count: 39
   thread_count: 2
   threads:
   - messages:
@@ -4599,7 +4612,8 @@
     - 2021-04.1466::<11646261.jMyuolRkb9@jolap.fritz.box>
     - 2021-05.995::<11646261.jMyuolRkb9@jolap.fritz.box>
     - 2021-06.729::<11646261.jMyuolRkb9@jolap.fritz.box>
-    reference_count: 28
+    - 2021-07.377::<11646261.jMyuolRkb9@jolap.fritz.box>
+    reference_count: 32
     summary: failed to summarize
   - messages:
     - 2021-01.2778::<159512046537.32577.4773776556416658588@go-agent-stagingbot-7>
@@ -4608,11 +4622,12 @@
     - 2021-04.1445::<159512046537.32577.4773776556416658588@go-agent-stagingbot-7>
     - 2021-05.974::<159512046537.32577.4773776556416658588@go-agent-stagingbot-7>
     - 2021-06.708::<159512046537.32577.4773776556416658588@go-agent-stagingbot-7>
-    reference_count: 6
+    - 2021-07.356::<159512046537.32577.4773776556416658588@go-agent-stagingbot-7>
+    reference_count: 7
     summary: no summary given
 '20200720':
-  announcement: 2021-06.733::<159545886502.6539.8858163924188391088@go-agent-stagingbot-4>
-  reference_count: 6
+  announcement: 2021-07.381::<159545886502.6539.8858163924188391088@go-agent-stagingbot-4>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4622,11 +4637,12 @@
     - 2021-04.1470::<159545886502.6539.8858163924188391088@go-agent-stagingbot-4>
     - 2021-05.999::<159545886502.6539.8858163924188391088@go-agent-stagingbot-4>
     - 2021-06.733::<159545886502.6539.8858163924188391088@go-agent-stagingbot-4>
-    reference_count: 6
+    - 2021-07.381::<159545886502.6539.8858163924188391088@go-agent-stagingbot-4>
+    reference_count: 7
     summary: no summary given
 '20200721':
-  announcement: 2021-06.746::<159562808334.10123.14913429683086884775@go-agent-stagingbot-5>
-  reference_count: 34
+  announcement: 2021-07.394::<159562808334.10123.14913429683086884775@go-agent-stagingbot-5>
+  reference_count: 39
   thread_count: 2
   threads:
   - messages:
@@ -4640,11 +4656,12 @@
     - 2021-04.1483::<159562808334.10123.14913429683086884775@go-agent-stagingbot-5>
     - 2021-05.1012::<159562808334.10123.14913429683086884775@go-agent-stagingbot-5>
     - 2021-06.746::<159562808334.10123.14913429683086884775@go-agent-stagingbot-5>
-    reference_count: 30
+    - 2021-07.394::<159562808334.10123.14913429683086884775@go-agent-stagingbot-5>
+    reference_count: 35
     summary: no summary given
 '20200724':
-  announcement: 2021-06.758::<159579726673.13233.14597503829880516906@go-agent-stagingbot-4>
-  reference_count: 6
+  announcement: 2021-07.406::<159579726673.13233.14597503829880516906@go-agent-stagingbot-4>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4654,11 +4671,12 @@
     - 2021-04.1495::<159579726673.13233.14597503829880516906@go-agent-stagingbot-4>
     - 2021-05.1024::<159579726673.13233.14597503829880516906@go-agent-stagingbot-4>
     - 2021-06.758::<159579726673.13233.14597503829880516906@go-agent-stagingbot-4>
-    reference_count: 6
+    - 2021-07.406::<159579726673.13233.14597503829880516906@go-agent-stagingbot-4>
+    reference_count: 7
     summary: no summary given
 '20200726':
-  announcement: 2021-06.762::<159593048805.2867.7795484422884388841@go-agent-stagingbot-6>
-  reference_count: 6
+  announcement: 2021-07.410::<159593048805.2867.7795484422884388841@go-agent-stagingbot-6>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4668,11 +4686,12 @@
     - 2021-04.1499::<159593048805.2867.7795484422884388841@go-agent-stagingbot-6>
     - 2021-05.1028::<159593048805.2867.7795484422884388841@go-agent-stagingbot-6>
     - 2021-06.762::<159593048805.2867.7795484422884388841@go-agent-stagingbot-6>
-    reference_count: 6
+    - 2021-07.410::<159593048805.2867.7795484422884388841@go-agent-stagingbot-6>
+    reference_count: 7
     summary: no summary given
 '20200727':
-  announcement: 2021-06.768::<159596646907.4030.11434338654074952872@go-agent-stagingbot-3>
-  reference_count: 6
+  announcement: 2021-07.416::<159596646907.4030.11434338654074952872@go-agent-stagingbot-3>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4682,11 +4701,12 @@
     - 2021-04.1505::<159596646907.4030.11434338654074952872@go-agent-stagingbot-3>
     - 2021-05.1034::<159596646907.4030.11434338654074952872@go-agent-stagingbot-3>
     - 2021-06.768::<159596646907.4030.11434338654074952872@go-agent-stagingbot-3>
-    reference_count: 6
+    - 2021-07.416::<159596646907.4030.11434338654074952872@go-agent-stagingbot-3>
+    reference_count: 7
     summary: no summary given
 '20200728':
-  announcement: 2021-06.769::<159606002313.24282.11044150123605294139@go-agent-stagingbot-7>
-  reference_count: 6
+  announcement: 2021-07.417::<159606002313.24282.11044150123605294139@go-agent-stagingbot-7>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4696,11 +4716,12 @@
     - 2021-04.1506::<159606002313.24282.11044150123605294139@go-agent-stagingbot-7>
     - 2021-05.1035::<159606002313.24282.11044150123605294139@go-agent-stagingbot-7>
     - 2021-06.769::<159606002313.24282.11044150123605294139@go-agent-stagingbot-7>
-    reference_count: 6
+    - 2021-07.417::<159606002313.24282.11044150123605294139@go-agent-stagingbot-7>
+    reference_count: 7
     summary: no summary given
 '20200729':
-  announcement: 2021-06.771::<159613929213.5788.9183302829348270677@go-agent-stagingbot-6>
-  reference_count: 6
+  announcement: 2021-07.419::<159613929213.5788.9183302829348270677@go-agent-stagingbot-6>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4710,11 +4731,12 @@
     - 2021-04.1508::<159613929213.5788.9183302829348270677@go-agent-stagingbot-6>
     - 2021-05.1037::<159613929213.5788.9183302829348270677@go-agent-stagingbot-6>
     - 2021-06.771::<159613929213.5788.9183302829348270677@go-agent-stagingbot-6>
-    reference_count: 6
+    - 2021-07.419::<159613929213.5788.9183302829348270677@go-agent-stagingbot-6>
+    reference_count: 7
     summary: no summary given
 '20200730':
-  announcement: 2021-06.776::<159620049043.4687.17413931540721375814@go-agent-stagingbot-5>
-  reference_count: 6
+  announcement: 2021-07.424::<159620049043.4687.17413931540721375814@go-agent-stagingbot-5>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4724,11 +4746,12 @@
     - 2021-04.1513::<159620049043.4687.17413931540721375814@go-agent-stagingbot-5>
     - 2021-05.1042::<159620049043.4687.17413931540721375814@go-agent-stagingbot-5>
     - 2021-06.776::<159620049043.4687.17413931540721375814@go-agent-stagingbot-5>
-    reference_count: 6
+    - 2021-07.424::<159620049043.4687.17413931540721375814@go-agent-stagingbot-5>
+    reference_count: 7
     summary: no summary given
 '20200731':
-  announcement: 2021-06.791::<159629042069.17535.7452563895418063361@go-agent-stagingbot-1>
-  reference_count: 6
+  announcement: 2021-07.439::<159629042069.17535.7452563895418063361@go-agent-stagingbot-1>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4738,11 +4761,12 @@
     - 2021-04.1528::<159629042069.17535.7452563895418063361@go-agent-stagingbot-1>
     - 2021-05.1057::<159629042069.17535.7452563895418063361@go-agent-stagingbot-1>
     - 2021-06.791::<159629042069.17535.7452563895418063361@go-agent-stagingbot-1>
-    reference_count: 6
+    - 2021-07.439::<159629042069.17535.7452563895418063361@go-agent-stagingbot-1>
+    reference_count: 7
     summary: no summary given
 '20200801':
-  announcement: 2021-06.794::<159638401770.13854.8318146998298337712@go-agent-stagingbot-6>
-  reference_count: 121
+  announcement: 2021-07.442::<159638401770.13854.8318146998298337712@go-agent-stagingbot-6>
+  reference_count: 138
   thread_count: 3
   threads:
   - messages:
@@ -4759,7 +4783,9 @@
     - 2021-05.1068::<20200803095219.3BDB3159D421@mta-5-out.mta.xion.oxcs.net>
     - "2021-06.795::\n <trinity-5317f446-6c6d-4d6e-8ddc-ae2bd32072f8-1596443488597@3c-app-gmx-bap18>"
     - 2021-06.802::<20200803095219.3BDB3159D421@mta-5-out.mta.xion.oxcs.net>
-    reference_count: 39
+    - "2021-07.443::\n <trinity-5317f446-6c6d-4d6e-8ddc-ae2bd32072f8-1596443488597@3c-app-gmx-bap18>"
+    - 2021-07.450::<20200803095219.3BDB3159D421@mta-5-out.mta.xion.oxcs.net>
+    reference_count: 43
     summary: released! - update hangs on Plasma update tool
   - messages:
     - 2020-08.10::<trinity-a550f570-df70-4cdc-8f46-015f8fbc33d6-1596445782925@3c-app-gmx-bap18>
@@ -4794,7 +4820,12 @@
     - 2021-06.812::<20200803174642.GA6814@saturn.hollstein.homelinux.org>
     - "2021-06.815::\n <trinity-49583721-2698-489d-8bf6-dbc39e3c8725-1596480263952@3c-app-gmx-bs78>"
     - 2021-06.817::<20200803193059.GB6814@saturn.hollstein.homelinux.org>
-    reference_count: 76
+    - 2021-07.444::<nycvar.YFH.7.77.849.2008031045490.14142@n3.vanv.qr>
+    - "2021-07.446::\n <trinity-a550f570-df70-4cdc-8f46-015f8fbc33d6-1596445782925@3c-app-gmx-bap18>"
+    - 2021-07.460::<20200803174642.GA6814@saturn.hollstein.homelinux.org>
+    - "2021-07.463::\n <trinity-49583721-2698-489d-8bf6-dbc39e3c8725-1596480263952@3c-app-gmx-bs78>"
+    - 2021-07.465::<20200803193059.GB6814@saturn.hollstein.homelinux.org>
+    reference_count: 88
     summary: )
   - messages:
     - 2021-01.2864::<159638401770.13854.8318146998298337712@go-agent-stagingbot-6>
@@ -4803,11 +4834,12 @@
     - 2021-04.1531::<159638401770.13854.8318146998298337712@go-agent-stagingbot-6>
     - 2021-05.1060::<159638401770.13854.8318146998298337712@go-agent-stagingbot-6>
     - 2021-06.794::<159638401770.13854.8318146998298337712@go-agent-stagingbot-6>
-    reference_count: 6
+    - 2021-07.442::<159638401770.13854.8318146998298337712@go-agent-stagingbot-6>
+    reference_count: 7
     summary: no summary given
 '20200802':
-  announcement: 2021-06.828::<159654962208.7029.14472384114169510930@go-agent-stagingbot-2>
-  reference_count: 6
+  announcement: 2021-07.476::<159654962208.7029.14472384114169510930@go-agent-stagingbot-2>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4817,11 +4849,12 @@
     - 2021-04.1565::<159654962208.7029.14472384114169510930@go-agent-stagingbot-2>
     - 2021-05.1094::<159654962208.7029.14472384114169510930@go-agent-stagingbot-2>
     - 2021-06.828::<159654962208.7029.14472384114169510930@go-agent-stagingbot-2>
-    reference_count: 6
+    - 2021-07.476::<159654962208.7029.14472384114169510930@go-agent-stagingbot-2>
+    reference_count: 7
     summary: no summary given
 '20200803':
-  announcement: 2021-06.839::<159658922127.20495.6183142456028848635@go-agent-stagingbot-1>
-  reference_count: 27
+  announcement: 2021-07.487::<159658922127.20495.6183142456028848635@go-agent-stagingbot-1>
+  reference_count: 31
   thread_count: 2
   threads:
   - messages:
@@ -4835,11 +4868,12 @@
     - 2021-04.1576::<159658922127.20495.6183142456028848635@go-agent-stagingbot-1>
     - 2021-05.1105::<159658922127.20495.6183142456028848635@go-agent-stagingbot-1>
     - 2021-06.839::<159658922127.20495.6183142456028848635@go-agent-stagingbot-1>
-    reference_count: 24
+    - 2021-07.487::<159658922127.20495.6183142456028848635@go-agent-stagingbot-1>
+    reference_count: 28
     summary: no summary given
 '20200804':
-  announcement: 2021-06.851::<159671162425.20695.9706721335112317859@go-agent-stagingbot-7>
-  reference_count: 6
+  announcement: 2021-07.499::<159671162425.20695.9706721335112317859@go-agent-stagingbot-7>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4849,11 +4883,12 @@
     - 2021-04.1588::<159671162425.20695.9706721335112317859@go-agent-stagingbot-7>
     - 2021-05.1117::<159671162425.20695.9706721335112317859@go-agent-stagingbot-7>
     - 2021-06.851::<159671162425.20695.9706721335112317859@go-agent-stagingbot-7>
-    reference_count: 6
+    - 2021-07.499::<159671162425.20695.9706721335112317859@go-agent-stagingbot-7>
+    reference_count: 7
     summary: no summary given
 '20200805':
-  announcement: 2021-06.852::<159675849964.6047.2384784687776566261@go-agent-stagingbot-4>
-  reference_count: 6
+  announcement: 2021-07.500::<159675849964.6047.2384784687776566261@go-agent-stagingbot-4>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4863,11 +4898,12 @@
     - 2021-04.1589::<159675849964.6047.2384784687776566261@go-agent-stagingbot-4>
     - 2021-05.1118::<159675849964.6047.2384784687776566261@go-agent-stagingbot-4>
     - 2021-06.852::<159675849964.6047.2384784687776566261@go-agent-stagingbot-4>
-    reference_count: 6
+    - 2021-07.500::<159675849964.6047.2384784687776566261@go-agent-stagingbot-4>
+    reference_count: 7
     summary: no summary given
 '20200806':
-  announcement: 2021-06.856::<159680886858.21977.18116119467223833028@go-agent-stagingbot-1>
-  reference_count: 6
+  announcement: 2021-07.504::<159680886858.21977.18116119467223833028@go-agent-stagingbot-1>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4877,11 +4913,12 @@
     - 2021-04.1593::<159680886858.21977.18116119467223833028@go-agent-stagingbot-1>
     - 2021-05.1122::<159680886858.21977.18116119467223833028@go-agent-stagingbot-1>
     - 2021-06.856::<159680886858.21977.18116119467223833028@go-agent-stagingbot-1>
-    reference_count: 6
+    - 2021-07.504::<159680886858.21977.18116119467223833028@go-agent-stagingbot-1>
+    reference_count: 7
     summary: no summary given
 '20200807':
-  announcement: 2021-06.862::<159688804492.16432.15467463040883440284@go-agent-stagingbot-2>
-  reference_count: 27
+  announcement: 2021-07.510::<159688804492.16432.15467463040883440284@go-agent-stagingbot-2>
+  reference_count: 31
   thread_count: 2
   threads:
   - messages:
@@ -4892,7 +4929,8 @@
     - 2021-04.1709::<1831309.nVGKmeHnSu@xrated>
     - 2021-05.1238::<1831309.nVGKmeHnSu@xrated>
     - 2021-06.972::<1831309.nVGKmeHnSu@xrated>
-    reference_count: 21
+    - 2021-07.620::<1831309.nVGKmeHnSu@xrated>
+    reference_count: 24
     summary: dvd iso
   - messages:
     - 2021-01.2932::<159688804492.16432.15467463040883440284@go-agent-stagingbot-2>
@@ -4901,11 +4939,12 @@
     - 2021-04.1599::<159688804492.16432.15467463040883440284@go-agent-stagingbot-2>
     - 2021-05.1128::<159688804492.16432.15467463040883440284@go-agent-stagingbot-2>
     - 2021-06.862::<159688804492.16432.15467463040883440284@go-agent-stagingbot-2>
-    reference_count: 6
+    - 2021-07.510::<159688804492.16432.15467463040883440284@go-agent-stagingbot-2>
+    reference_count: 7
     summary: no summary given
 '20200810':
-  announcement: 2021-06.869::<159715442485.5628.17100029824312830777@go-agent-stagingbot-2>
-  reference_count: 6
+  announcement: 2021-07.517::<159715442485.5628.17100029824312830777@go-agent-stagingbot-2>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4915,11 +4954,12 @@
     - 2021-04.1606::<159715442485.5628.17100029824312830777@go-agent-stagingbot-2>
     - 2021-05.1135::<159715442485.5628.17100029824312830777@go-agent-stagingbot-2>
     - 2021-06.869::<159715442485.5628.17100029824312830777@go-agent-stagingbot-2>
-    reference_count: 6
+    - 2021-07.517::<159715442485.5628.17100029824312830777@go-agent-stagingbot-2>
+    reference_count: 7
     summary: no summary given
 '20200812':
-  announcement: 2021-06.891::<159733802405.32139.6597815197004656689@go-agent-stagingbot-5>
-  reference_count: 6
+  announcement: 2021-07.539::<159733802405.32139.6597815197004656689@go-agent-stagingbot-5>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4929,11 +4969,12 @@
     - 2021-04.1628::<159733802405.32139.6597815197004656689@go-agent-stagingbot-5>
     - 2021-05.1157::<159733802405.32139.6597815197004656689@go-agent-stagingbot-5>
     - 2021-06.891::<159733802405.32139.6597815197004656689@go-agent-stagingbot-5>
-    reference_count: 6
+    - 2021-07.539::<159733802405.32139.6597815197004656689@go-agent-stagingbot-5>
+    reference_count: 7
     summary: no summary given
 '20200813':
-  announcement: 2021-06.906::<159741722018.29714.14429709024054490762@go-agent-stagingbot-2>
-  reference_count: 27
+  announcement: 2021-07.554::<159741722018.29714.14429709024054490762@go-agent-stagingbot-2>
+  reference_count: 31
   thread_count: 2
   threads:
   - messages:
@@ -4947,11 +4988,12 @@
     - 2021-04.1643::<159741722018.29714.14429709024054490762@go-agent-stagingbot-2>
     - 2021-05.1172::<159741722018.29714.14429709024054490762@go-agent-stagingbot-2>
     - 2021-06.906::<159741722018.29714.14429709024054490762@go-agent-stagingbot-2>
-    reference_count: 24
+    - 2021-07.554::<159741722018.29714.14429709024054490762@go-agent-stagingbot-2>
+    reference_count: 28
     summary: no summary given
 '20200814':
-  announcement: 2021-06.920::<159757204891.29482.13282046060131301159@go-agent-stagingbot-1>
-  reference_count: 6
+  announcement: 2021-07.568::<159757204891.29482.13282046060131301159@go-agent-stagingbot-1>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4961,11 +5003,12 @@
     - 2021-04.1657::<159757204891.29482.13282046060131301159@go-agent-stagingbot-1>
     - 2021-05.1186::<159757204891.29482.13282046060131301159@go-agent-stagingbot-1>
     - 2021-06.920::<159757204891.29482.13282046060131301159@go-agent-stagingbot-1>
-    reference_count: 6
+    - 2021-07.568::<159757204891.29482.13282046060131301159@go-agent-stagingbot-1>
+    reference_count: 7
     summary: no summary given
 '20200815':
-  announcement: 2021-06.923::<159761884494.12667.5513975013099993513@go-agent-stagingbot-7>
-  reference_count: 6
+  announcement: 2021-07.571::<159761884494.12667.5513975013099993513@go-agent-stagingbot-7>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -4975,11 +5018,12 @@
     - 2021-04.1660::<159761884494.12667.5513975013099993513@go-agent-stagingbot-7>
     - 2021-05.1189::<159761884494.12667.5513975013099993513@go-agent-stagingbot-7>
     - 2021-06.923::<159761884494.12667.5513975013099993513@go-agent-stagingbot-7>
-    reference_count: 6
+    - 2021-07.571::<159761884494.12667.5513975013099993513@go-agent-stagingbot-7>
+    reference_count: 7
     summary: no summary given
 '20200816':
-  announcement: 2021-06.937::<159770169652.10703.2796709574433353954@go-agent-stagingbot-6>
-  reference_count: 139
+  announcement: 2021-07.585::<159770169652.10703.2796709574433353954@go-agent-stagingbot-6>
+  reference_count: 159
   thread_count: 3
   threads:
   - messages:
@@ -4997,11 +5041,12 @@
     - 2021-04.1674::<159770169652.10703.2796709574433353954@go-agent-stagingbot-6>
     - 2021-05.1203::<159770169652.10703.2796709574433353954@go-agent-stagingbot-6>
     - 2021-06.937::<159770169652.10703.2796709574433353954@go-agent-stagingbot-6>
-    reference_count: 120
+    - 2021-07.585::<159770169652.10703.2796709574433353954@go-agent-stagingbot-6>
+    reference_count: 140
     summary: no summary given
 '20200817':
-  announcement: 2021-06.947::<159776282576.12416.3434158220769380515@go-agent-stagingbot-1>
-  reference_count: 6
+  announcement: 2021-07.595::<159776282576.12416.3434158220769380515@go-agent-stagingbot-1>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5011,11 +5056,12 @@
     - 2021-04.1684::<159776282576.12416.3434158220769380515@go-agent-stagingbot-1>
     - 2021-05.1213::<159776282576.12416.3434158220769380515@go-agent-stagingbot-1>
     - 2021-06.947::<159776282576.12416.3434158220769380515@go-agent-stagingbot-1>
-    reference_count: 6
+    - 2021-07.595::<159776282576.12416.3434158220769380515@go-agent-stagingbot-1>
+    reference_count: 7
     summary: no summary given
 '20200818':
-  announcement: 2021-06.963::<159787087179.9506.11491852746909764883@go-agent-stagingbot-2>
-  reference_count: 6
+  announcement: 2021-07.611::<159787087179.9506.11491852746909764883@go-agent-stagingbot-2>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5025,11 +5071,12 @@
     - 2021-04.1700::<159787087179.9506.11491852746909764883@go-agent-stagingbot-2>
     - 2021-05.1229::<159787087179.9506.11491852746909764883@go-agent-stagingbot-2>
     - 2021-06.963::<159787087179.9506.11491852746909764883@go-agent-stagingbot-2>
-    reference_count: 6
+    - 2021-07.611::<159787087179.9506.11491852746909764883@go-agent-stagingbot-2>
+    reference_count: 7
     summary: no summary given
 '20200819':
-  announcement: 2021-06.981::<159796802556.685.1801643052073772619@go-agent-stagingbot-3>
-  reference_count: 27
+  announcement: 2021-07.629::<159796802556.685.1801643052073772619@go-agent-stagingbot-3>
+  reference_count: 31
   thread_count: 2
   threads:
   - messages:
@@ -5043,11 +5090,12 @@
     - 2021-04.1718::<159796802556.685.1801643052073772619@go-agent-stagingbot-3>
     - 2021-05.1247::<159796802556.685.1801643052073772619@go-agent-stagingbot-3>
     - 2021-06.981::<159796802556.685.1801643052073772619@go-agent-stagingbot-3>
-    reference_count: 24
+    - 2021-07.629::<159796802556.685.1801643052073772619@go-agent-stagingbot-3>
+    reference_count: 28
     summary: no summary given
 '20200821':
-  announcement: 2021-06.1007::<159814444950.31726.12602446579812994481@go-agent-stagingbot-7>
-  reference_count: 6
+  announcement: 2021-07.655::<159814444950.31726.12602446579812994481@go-agent-stagingbot-7>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5057,11 +5105,12 @@
     - 2021-04.1744::<159814444950.31726.12602446579812994481@go-agent-stagingbot-7>
     - 2021-05.1273::<159814444950.31726.12602446579812994481@go-agent-stagingbot-7>
     - 2021-06.1007::<159814444950.31726.12602446579812994481@go-agent-stagingbot-7>
-    reference_count: 6
+    - 2021-07.655::<159814444950.31726.12602446579812994481@go-agent-stagingbot-7>
+    reference_count: 7
     summary: no summary given
 '20200823':
-  announcement: 2021-06.1013::<159829202320.29310.14395759216178926548@go-agent-stagingbot-1>
-  reference_count: 41
+  announcement: 2021-07.661::<159829202320.29310.14395759216178926548@go-agent-stagingbot-1>
+  reference_count: 47
   thread_count: 2
   threads:
   - messages:
@@ -5075,11 +5124,12 @@
     - 2021-04.1750::<159829202320.29310.14395759216178926548@go-agent-stagingbot-1>
     - 2021-05.1279::<159829202320.29310.14395759216178926548@go-agent-stagingbot-1>
     - 2021-06.1013::<159829202320.29310.14395759216178926548@go-agent-stagingbot-1>
-    reference_count: 36
+    - 2021-07.661::<159829202320.29310.14395759216178926548@go-agent-stagingbot-1>
+    reference_count: 42
     summary: no summary given
 '20200824':
-  announcement: 2021-06.1019::<159836762147.6134.8020444280085093102@go-agent-stagingbot-3>
-  reference_count: 76
+  announcement: 2021-07.667::<159836762147.6134.8020444280085093102@go-agent-stagingbot-3>
+  reference_count: 87
   thread_count: 2
   threads:
   - messages:
@@ -5120,7 +5170,13 @@
     - "2021-06.1207::\n <CA+1hjgUhn6gPV375_5WorQxdeEyfNhRoqHfNwzDeXb_HeAuZog@mail.gmail.com>"
     - 2021-06.1209::<6d707182-0f98-e422-724c-9ab066fe5f7b@suse.de>
     - 2021-06.1211::<20200903130649.GA13215@suse.de>
-    reference_count: 70
+    - "2021-07.791::\n <CA+1hjgWxMQpo77mh1QY4cn9BZ44Fn0Uc58_oa_9nHXZ9mgTOHg@mail.gmail.com>"
+    - 2021-07.803::<8ec7603d-be48-da0e-0c82-3cda487bd1ec@suse.de>
+    - 2021-07.839::<051a92e8-15e8-414c-d31a-4c3ab0713da2@suse.de>
+    - "2021-07.855::\n <CA+1hjgUhn6gPV375_5WorQxdeEyfNhRoqHfNwzDeXb_HeAuZog@mail.gmail.com>"
+    - 2021-07.857::<6d707182-0f98-e422-724c-9ab066fe5f7b@suse.de>
+    - 2021-07.859::<20200903130649.GA13215@suse.de>
+    reference_count: 80
     summary: Unable to boot
   - messages:
     - 2021-01.3089::<159836762147.6134.8020444280085093102@go-agent-stagingbot-3>
@@ -5129,11 +5185,12 @@
     - 2021-04.1756::<159836762147.6134.8020444280085093102@go-agent-stagingbot-3>
     - 2021-05.1285::<159836762147.6134.8020444280085093102@go-agent-stagingbot-3>
     - 2021-06.1019::<159836762147.6134.8020444280085093102@go-agent-stagingbot-3>
-    reference_count: 6
+    - 2021-07.667::<159836762147.6134.8020444280085093102@go-agent-stagingbot-3>
+    reference_count: 7
     summary: no summary given
 '20200826':
-  announcement: 2021-06.1113::<159866644496.32669.11674417224240835781@go-agent-stagingbot-5>
-  reference_count: 202
+  announcement: 2021-07.761::<159866644496.32669.11674417224240835781@go-agent-stagingbot-5>
+  reference_count: 231
   thread_count: 5
   threads:
   - messages:
@@ -5144,7 +5201,8 @@
     - 2021-04.1850::<159866644496.32669.11674417224240835781@go-agent-stagingbot-5>
     - 2021-05.1379::<159866644496.32669.11674417224240835781@go-agent-stagingbot-5>
     - 2021-06.1113::<159866644496.32669.11674417224240835781@go-agent-stagingbot-5>
-    reference_count: 86
+    - 2021-07.761::<159866644496.32669.11674417224240835781@go-agent-stagingbot-5>
+    reference_count: 100
     summary: no summary given
   - messages:
     - 2020-08.328::<2783858.ePWUesVq3Y@baldo>
@@ -5162,7 +5220,8 @@
     - 2021-04.1859::<87o8mtxvcj.fsf@xn--hllmanns-n4a.de>
     - 2021-05.1388::<87o8mtxvcj.fsf@xn--hllmanns-n4a.de>
     - 2021-06.1122::<87o8mtxvcj.fsf@xn--hllmanns-n4a.de>
-    reference_count: 70
+    - 2021-07.770::<87o8mtxvcj.fsf@xn--hllmanns-n4a.de>
+    reference_count: 80
     summary: failed to summarize
   - messages:
     - 2020-08.358::<874kojg8iu.fsf@Rainer.invalid>
@@ -5172,11 +5231,12 @@
     - 2021-04.1884::<874kojg8iu.fsf@Rainer.invalid>
     - 2021-05.1413::<874kojg8iu.fsf@Rainer.invalid>
     - 2021-06.1147::<874kojg8iu.fsf@Rainer.invalid>
-    reference_count: 35
+    - 2021-07.795::<874kojg8iu.fsf@Rainer.invalid>
+    reference_count: 40
     summary: /etc/crontab broken
 '20200829':
-  announcement: 2021-06.1163::<159889685095.23472.4461492350625381483@go-agent-stagingbot-3>
-  reference_count: 48
+  announcement: 2021-07.811::<159889685095.23472.4461492350625381483@go-agent-stagingbot-3>
+  reference_count: 55
   thread_count: 2
   threads:
   - messages:
@@ -5207,7 +5267,11 @@
     - 2021-06.1167::<0ca659ca-c847-9ed3-72a8-b1b8860917b0@opensuse.org>
     - "2021-06.1258::=?utf-8?q?=3CDM6PR04MB47960E93C0DD0F32FF1B715286260=40DM6PR04MB4?=\n\
       \ =?utf-8?q?796=2Enamprd04=2Eprod=2Eoutlook=2Ecom=3E?="
-    reference_count: 36
+    - 2021-07.813::<73051db8-7b10-dffc-17f8-bae928d364cd@bernhard-voelker.de>
+    - 2021-07.815::<0ca659ca-c847-9ed3-72a8-b1b8860917b0@opensuse.org>
+    - "2021-07.906::=?utf-8?q?=3CDM6PR04MB47960E93C0DD0F32FF1B715286260=40DM6PR04MB4?=\n\
+      \ =?utf-8?q?796=2Enamprd04=2Eprod=2Eoutlook=2Ecom=3E?="
+    reference_count: 41
     summary: released!
   - messages:
     - 2021-01.3233::<159889685095.23472.4461492350625381483@go-agent-stagingbot-3>
@@ -5216,11 +5280,12 @@
     - 2021-04.1900::<159889685095.23472.4461492350625381483@go-agent-stagingbot-3>
     - 2021-05.1429::<159889685095.23472.4461492350625381483@go-agent-stagingbot-3>
     - 2021-06.1163::<159889685095.23472.4461492350625381483@go-agent-stagingbot-3>
-    reference_count: 12
+    - 2021-07.811::<159889685095.23472.4461492350625381483@go-agent-stagingbot-3>
+    reference_count: 14
     summary: no summary given
 '20200831':
-  announcement: 2021-06.1201::<159905887249.27759.11269269280477737071@go-agent-stagingbot-2>
-  reference_count: 6
+  announcement: 2021-07.849::<159905887249.27759.11269269280477737071@go-agent-stagingbot-2>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5230,11 +5295,12 @@
     - 2021-04.1938::<159905887249.27759.11269269280477737071@go-agent-stagingbot-2>
     - 2021-05.1467::<159905887249.27759.11269269280477737071@go-agent-stagingbot-2>
     - 2021-06.1201::<159905887249.27759.11269269280477737071@go-agent-stagingbot-2>
-    reference_count: 6
+    - 2021-07.849::<159905887249.27759.11269269280477737071@go-agent-stagingbot-2>
+    reference_count: 7
     summary: no summary given
 '20200901':
-  announcement: 2021-06.1213::<159914885756.29173.15810779330942430928@go-agent-stagingbot-5>
-  reference_count: 6
+  announcement: 2021-07.861::<159914885756.29173.15810779330942430928@go-agent-stagingbot-5>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5244,11 +5310,12 @@
     - 2021-04.1950::<159914885756.29173.15810779330942430928@go-agent-stagingbot-5>
     - 2021-05.1479::<159914885756.29173.15810779330942430928@go-agent-stagingbot-5>
     - 2021-06.1213::<159914885756.29173.15810779330942430928@go-agent-stagingbot-5>
-    reference_count: 6
+    - 2021-07.861::<159914885756.29173.15810779330942430928@go-agent-stagingbot-5>
+    reference_count: 7
     summary: no summary given
 '20200902':
-  announcement: 2021-06.1222::<159922817189.13696.999950619327376193@go-agent-stagingbot-3>
-  reference_count: 6
+  announcement: 2021-07.870::<159922817189.13696.999950619327376193@go-agent-stagingbot-3>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5258,11 +5325,12 @@
     - 2021-04.1959::<159922817189.13696.999950619327376193@go-agent-stagingbot-3>
     - 2021-05.1488::<159922817189.13696.999950619327376193@go-agent-stagingbot-3>
     - 2021-06.1222::<159922817189.13696.999950619327376193@go-agent-stagingbot-3>
-    reference_count: 6
+    - 2021-07.870::<159922817189.13696.999950619327376193@go-agent-stagingbot-3>
+    reference_count: 7
     summary: no summary given
 '20200904':
-  announcement: 2021-06.1231::<159936488182.22597.12737664898861742606@go-agent-stagingbot-4>
-  reference_count: 6
+  announcement: 2021-07.879::<159936488182.22597.12737664898861742606@go-agent-stagingbot-4>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5272,11 +5340,12 @@
     - 2021-04.1968::<159936488182.22597.12737664898861742606@go-agent-stagingbot-4>
     - 2021-05.1497::<159936488182.22597.12737664898861742606@go-agent-stagingbot-4>
     - 2021-06.1231::<159936488182.22597.12737664898861742606@go-agent-stagingbot-4>
-    reference_count: 6
+    - 2021-07.879::<159936488182.22597.12737664898861742606@go-agent-stagingbot-4>
+    reference_count: 7
     summary: no summary given
 '20200905':
-  announcement: 2021-06.1235::<159942968571.20355.1745389472468820505@go-agent-stagingbot-1>
-  reference_count: 6
+  announcement: 2021-07.883::<159942968571.20355.1745389472468820505@go-agent-stagingbot-1>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5286,11 +5355,12 @@
     - 2021-04.1972::<159942968571.20355.1745389472468820505@go-agent-stagingbot-1>
     - 2021-05.1501::<159942968571.20355.1745389472468820505@go-agent-stagingbot-1>
     - 2021-06.1235::<159942968571.20355.1745389472468820505@go-agent-stagingbot-1>
-    reference_count: 6
+    - 2021-07.883::<159942968571.20355.1745389472468820505@go-agent-stagingbot-1>
+    reference_count: 7
     summary: no summary given
 '20200906':
-  announcement: 2021-06.1244::<159951965032.25128.11139064897292619547@go-agent-stagingbot-7>
-  reference_count: 6
+  announcement: 2021-07.892::<159951965032.25128.11139064897292619547@go-agent-stagingbot-7>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5300,11 +5370,12 @@
     - 2021-04.1981::<159951965032.25128.11139064897292619547@go-agent-stagingbot-7>
     - 2021-05.1510::<159951965032.25128.11139064897292619547@go-agent-stagingbot-7>
     - 2021-06.1244::<159951965032.25128.11139064897292619547@go-agent-stagingbot-7>
-    reference_count: 6
+    - 2021-07.892::<159951965032.25128.11139064897292619547@go-agent-stagingbot-7>
+    reference_count: 7
     summary: no summary given
 '20200907':
-  announcement: 2021-06.1250::<159960964871.13789.11526625110354011008@go-agent-stagingbot-1>
-  reference_count: 6
+  announcement: 2021-07.898::<159960964871.13789.11526625110354011008@go-agent-stagingbot-1>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5314,11 +5385,12 @@
     - 2021-04.1987::<159960964871.13789.11526625110354011008@go-agent-stagingbot-1>
     - 2021-05.1516::<159960964871.13789.11526625110354011008@go-agent-stagingbot-1>
     - 2021-06.1250::<159960964871.13789.11526625110354011008@go-agent-stagingbot-1>
-    reference_count: 6
+    - 2021-07.898::<159960964871.13789.11526625110354011008@go-agent-stagingbot-1>
+    reference_count: 7
     summary: no summary given
 '20200908':
-  announcement: 2021-06.1261::<159969248170.3632.11471256346529873648@go-agent-stagingbot-7>
-  reference_count: 6
+  announcement: 2021-07.909::<159969248170.3632.11471256346529873648@go-agent-stagingbot-7>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5328,11 +5400,12 @@
     - 2021-04.1998::<159969248170.3632.11471256346529873648@go-agent-stagingbot-7>
     - 2021-05.1527::<159969248170.3632.11471256346529873648@go-agent-stagingbot-7>
     - 2021-06.1261::<159969248170.3632.11471256346529873648@go-agent-stagingbot-7>
-    reference_count: 6
+    - 2021-07.909::<159969248170.3632.11471256346529873648@go-agent-stagingbot-7>
+    reference_count: 7
     summary: no summary given
 '20200909':
-  announcement: 2021-06.1274::<159976082294.25001.5942638469436446368@go-agent-stagingbot-7>
-  reference_count: 6
+  announcement: 2021-07.922::<159976082294.25001.5942638469436446368@go-agent-stagingbot-7>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5342,11 +5415,12 @@
     - 2021-04.2011::<159976082294.25001.5942638469436446368@go-agent-stagingbot-7>
     - 2021-05.1540::<159976082294.25001.5942638469436446368@go-agent-stagingbot-7>
     - 2021-06.1274::<159976082294.25001.5942638469436446368@go-agent-stagingbot-7>
-    reference_count: 6
+    - 2021-07.922::<159976082294.25001.5942638469436446368@go-agent-stagingbot-7>
+    reference_count: 7
     summary: no summary given
 '20200910':
-  announcement: 2021-06.1281::<159985804261.20135.12106845743606713004@go-agent-stagingbot-4>
-  reference_count: 6
+  announcement: 2021-07.929::<159985804261.20135.12106845743606713004@go-agent-stagingbot-4>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5356,11 +5430,12 @@
     - 2021-04.2018::<159985804261.20135.12106845743606713004@go-agent-stagingbot-4>
     - 2021-05.1547::<159985804261.20135.12106845743606713004@go-agent-stagingbot-4>
     - 2021-06.1281::<159985804261.20135.12106845743606713004@go-agent-stagingbot-4>
-    reference_count: 6
+    - 2021-07.929::<159985804261.20135.12106845743606713004@go-agent-stagingbot-4>
+    reference_count: 7
     summary: no summary given
 '20200914':
-  announcement: 2021-06.1301::<160018934036.5635.3076623096690101124@go-agent-stagingbot-6>
-  reference_count: 34
+  announcement: 2021-07.949::<160018934036.5635.3076623096690101124@go-agent-stagingbot-6>
+  reference_count: 39
   thread_count: 3
   threads:
   - messages:
@@ -5378,11 +5453,12 @@
     - 2021-04.2038::<160018934036.5635.3076623096690101124@go-agent-stagingbot-6>
     - 2021-05.1567::<160018934036.5635.3076623096690101124@go-agent-stagingbot-6>
     - 2021-06.1301::<160018934036.5635.3076623096690101124@go-agent-stagingbot-6>
-    reference_count: 30
+    - 2021-07.949::<160018934036.5635.3076623096690101124@go-agent-stagingbot-6>
+    reference_count: 35
     summary: no summary given
 '20200915':
-  announcement: 2021-06.1315::<160028646666.7709.13373438087458706166@go-agent-stagingbot-7>
-  reference_count: 6
+  announcement: 2021-07.963::<160028646666.7709.13373438087458706166@go-agent-stagingbot-7>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5392,11 +5468,12 @@
     - 2021-04.2052::<160028646666.7709.13373438087458706166@go-agent-stagingbot-7>
     - 2021-05.1581::<160028646666.7709.13373438087458706166@go-agent-stagingbot-7>
     - 2021-06.1315::<160028646666.7709.13373438087458706166@go-agent-stagingbot-7>
-    reference_count: 6
+    - 2021-07.963::<160028646666.7709.13373438087458706166@go-agent-stagingbot-7>
+    reference_count: 7
     summary: no summary given
 '20200917':
-  announcement: 2021-06.1326::<160044486553.2926.8875125371396217741@go-agent-stagingbot-7>
-  reference_count: 6
+  announcement: 2021-07.974::<160044486553.2926.8875125371396217741@go-agent-stagingbot-7>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5406,11 +5483,12 @@
     - 2021-04.2063::<160044486553.2926.8875125371396217741@go-agent-stagingbot-7>
     - 2021-05.1592::<160044486553.2926.8875125371396217741@go-agent-stagingbot-7>
     - 2021-06.1326::<160044486553.2926.8875125371396217741@go-agent-stagingbot-7>
-    reference_count: 6
+    - 2021-07.974::<160044486553.2926.8875125371396217741@go-agent-stagingbot-7>
+    reference_count: 7
     summary: no summary given
 '20200919':
-  announcement: 2021-06.1343::<160077246748.28875.5345548440304292776@go-agent-stagingbot-4>
-  reference_count: 6
+  announcement: 2021-07.991::<160077246748.28875.5345548440304292776@go-agent-stagingbot-4>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5420,11 +5498,12 @@
     - 2021-04.2080::<160077246748.28875.5345548440304292776@go-agent-stagingbot-4>
     - 2021-05.1609::<160077246748.28875.5345548440304292776@go-agent-stagingbot-4>
     - 2021-06.1343::<160077246748.28875.5345548440304292776@go-agent-stagingbot-4>
-    reference_count: 6
+    - 2021-07.991::<160077246748.28875.5345548440304292776@go-agent-stagingbot-4>
+    reference_count: 7
     summary: no summary given
 '20200922':
-  announcement: 2021-06.1352::<160094524658.31403.1804967783611080203@go-agent-stagingbot-2>
-  reference_count: 13
+  announcement: 2021-07.1000::<160094524658.31403.1804967783611080203@go-agent-stagingbot-2>
+  reference_count: 15
   thread_count: 1
   threads:
   - messages:
@@ -5435,11 +5514,12 @@
     - 2021-04.2089::<160094524658.31403.1804967783611080203@go-agent-stagingbot-2>
     - 2021-05.1618::<160094524658.31403.1804967783611080203@go-agent-stagingbot-2>
     - 2021-06.1352::<160094524658.31403.1804967783611080203@go-agent-stagingbot-2>
-    reference_count: 13
+    - 2021-07.1000::<160094524658.31403.1804967783611080203@go-agent-stagingbot-2>
+    reference_count: 15
     summary: no summary given
 '20200923':
-  announcement: 2021-06.1358::<160098844525.24202.12896810390199518381@go-agent-stagingbot-1>
-  reference_count: 20
+  announcement: 2021-07.1006::<160098844525.24202.12896810390199518381@go-agent-stagingbot-1>
+  reference_count: 23
   thread_count: 2
   threads:
   - messages:
@@ -5450,7 +5530,8 @@
     - 2021-04.2096::<6067648.A12OxWptCi@linux-2kgy>
     - 2021-05.1625::<6067648.A12OxWptCi@linux-2kgy>
     - 2021-06.1359::<6067648.A12OxWptCi@linux-2kgy>
-    reference_count: 14
+    - 2021-07.1007::<6067648.A12OxWptCi@linux-2kgy>
+    reference_count: 16
     summary: net-snmp complains about its own configuration file when installed
   - messages:
     - 2021-01.3428::<160098844525.24202.12896810390199518381@go-agent-stagingbot-1>
@@ -5459,11 +5540,12 @@
     - 2021-04.2095::<160098844525.24202.12896810390199518381@go-agent-stagingbot-1>
     - 2021-05.1624::<160098844525.24202.12896810390199518381@go-agent-stagingbot-1>
     - 2021-06.1358::<160098844525.24202.12896810390199518381@go-agent-stagingbot-1>
-    reference_count: 6
+    - 2021-07.1006::<160098844525.24202.12896810390199518381@go-agent-stagingbot-1>
+    reference_count: 7
     summary: no summary given
 '20200925':
-  announcement: 2021-06.1367::<160119007434.4373.12233387273296366994@go-agent-stagingbot-4>
-  reference_count: 6
+  announcement: 2021-07.1015::<160119007434.4373.12233387273296366994@go-agent-stagingbot-4>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5473,11 +5555,12 @@
     - 2021-04.2104::<160119007434.4373.12233387273296366994@go-agent-stagingbot-4>
     - 2021-05.1633::<160119007434.4373.12233387273296366994@go-agent-stagingbot-4>
     - 2021-06.1367::<160119007434.4373.12233387273296366994@go-agent-stagingbot-4>
-    reference_count: 6
+    - 2021-07.1015::<160119007434.4373.12233387273296366994@go-agent-stagingbot-4>
+    reference_count: 7
     summary: no summary given
 '20200928':
-  announcement: 2021-06.1421::<160147082572.22843.3325207211721200735@go-agent-stagingbot-1>
-  reference_count: 6
+  announcement: 2021-07.1069::<160147082572.22843.3325207211721200735@go-agent-stagingbot-1>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5487,11 +5570,12 @@
     - 2021-04.2158::<160147082572.22843.3325207211721200735@go-agent-stagingbot-1>
     - 2021-05.1687::<160147082572.22843.3325207211721200735@go-agent-stagingbot-1>
     - 2021-06.1421::<160147082572.22843.3325207211721200735@go-agent-stagingbot-1>
-    reference_count: 6
+    - 2021-07.1069::<160147082572.22843.3325207211721200735@go-agent-stagingbot-1>
+    reference_count: 7
     summary: no summary given
 '20200929':
-  announcement: 2021-06.1430::<160154645781.29575.1178922824478570942@go-agent-stagingbot-1>
-  reference_count: 6
+  announcement: 2021-07.1078::<160154645781.29575.1178922824478570942@go-agent-stagingbot-1>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5501,11 +5585,12 @@
     - 2021-04.2167::<160154645781.29575.1178922824478570942@go-agent-stagingbot-1>
     - 2021-05.1696::<160154645781.29575.1178922824478570942@go-agent-stagingbot-1>
     - 2021-06.1430::<160154645781.29575.1178922824478570942@go-agent-stagingbot-1>
-    reference_count: 6
+    - 2021-07.1078::<160154645781.29575.1178922824478570942@go-agent-stagingbot-1>
+    reference_count: 7
     summary: no summary given
 '20200930':
-  announcement: 2021-06.1433::<160164007228.14271.5277406959168840576@go-agent-stagingbot-2>
-  reference_count: 6
+  announcement: 2021-07.1081::<160164007228.14271.5277406959168840576@go-agent-stagingbot-2>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5515,11 +5600,12 @@
     - 2021-04.2170::<160164007228.14271.5277406959168840576@go-agent-stagingbot-2>
     - 2021-05.1699::<160164007228.14271.5277406959168840576@go-agent-stagingbot-2>
     - 2021-06.1433::<160164007228.14271.5277406959168840576@go-agent-stagingbot-2>
-    reference_count: 6
+    - 2021-07.1081::<160164007228.14271.5277406959168840576@go-agent-stagingbot-2>
+    reference_count: 7
     summary: no summary given
 '20201002':
-  announcement: 2021-06.1441::<160176245643.8811.7682732339483206383@go-agent-stagingbot-6>
-  reference_count: 6
+  announcement: 2021-07.1089::<160176245643.8811.7682732339483206383@go-agent-stagingbot-6>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5529,11 +5615,12 @@
     - 2021-04.2178::<160176245643.8811.7682732339483206383@go-agent-stagingbot-6>
     - 2021-05.1707::<160176245643.8811.7682732339483206383@go-agent-stagingbot-6>
     - 2021-06.1441::<160176245643.8811.7682732339483206383@go-agent-stagingbot-6>
-    reference_count: 6
+    - 2021-07.1089::<160176245643.8811.7682732339483206383@go-agent-stagingbot-6>
+    reference_count: 7
     summary: no summary given
 '20201004':
-  announcement: 2021-06.1451::<160193164806.27472.8433347129485200175@go-agent-stagingbot-5>
-  reference_count: 195
+  announcement: 2021-07.1099::<160193164806.27472.8433347129485200175@go-agent-stagingbot-5>
+  reference_count: 223
   thread_count: 3
   threads:
   - messages:
@@ -5551,11 +5638,12 @@
     - 2021-04.2188::<160193164806.27472.8433347129485200175@go-agent-stagingbot-5>
     - 2021-05.1717::<160193164806.27472.8433347129485200175@go-agent-stagingbot-5>
     - 2021-06.1451::<160193164806.27472.8433347129485200175@go-agent-stagingbot-5>
-    reference_count: 168
+    - 2021-07.1099::<160193164806.27472.8433347129485200175@go-agent-stagingbot-5>
+    reference_count: 196
     summary: no summary given
 '20201005':
-  announcement: 2021-06.1459::<160206127168.24554.16057545465592628707@go-agent-stagingbot-1>
-  reference_count: 6
+  announcement: 2021-07.1107::<160206127168.24554.16057545465592628707@go-agent-stagingbot-1>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5565,11 +5653,12 @@
     - 2021-04.2196::<160206127168.24554.16057545465592628707@go-agent-stagingbot-1>
     - 2021-05.1725::<160206127168.24554.16057545465592628707@go-agent-stagingbot-1>
     - 2021-06.1459::<160206127168.24554.16057545465592628707@go-agent-stagingbot-1>
-    reference_count: 6
+    - 2021-07.1107::<160206127168.24554.16057545465592628707@go-agent-stagingbot-1>
+    reference_count: 7
     summary: no summary given
 '20201007':
-  announcement: 2021-06.1483::<160216207354.29710.5635844180497665009@go-agent-stagingbot-3>
-  reference_count: 139
+  announcement: 2021-07.1131::<160216207354.29710.5635844180497665009@go-agent-stagingbot-3>
+  reference_count: 159
   thread_count: 3
   threads:
   - messages:
@@ -5584,15 +5673,16 @@
     - 2021-04.2220::<160216207354.29710.5635844180497665009@go-agent-stagingbot-3>
     - 2021-05.1749::<160216207354.29710.5635844180497665009@go-agent-stagingbot-3>
     - 2021-06.1483::<160216207354.29710.5635844180497665009@go-agent-stagingbot-3>
-    reference_count: 127
+    - 2021-07.1131::<160216207354.29710.5635844180497665009@go-agent-stagingbot-3>
+    reference_count: 147
     summary: no summary given
   - messages:
     - 2020-10.64::<2684087.Miv9RoZEfR@linux-2kgy>
     reference_count: 11
     summary: and X11 keyboard setup
 '20201008':
-  announcement: 2021-06.1507::<160229166940.20089.4449336055985438809@go-agent-stagingbot-7>
-  reference_count: 6
+  announcement: 2021-07.1155::<160229166940.20089.4449336055985438809@go-agent-stagingbot-7>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5602,11 +5692,12 @@
     - 2021-04.2244::<160229166940.20089.4449336055985438809@go-agent-stagingbot-7>
     - 2021-05.1773::<160229166940.20089.4449336055985438809@go-agent-stagingbot-7>
     - 2021-06.1507::<160229166940.20089.4449336055985438809@go-agent-stagingbot-7>
-    reference_count: 6
+    - 2021-07.1155::<160229166940.20089.4449336055985438809@go-agent-stagingbot-7>
+    reference_count: 7
     summary: no summary given
 '20201009':
-  announcement: 2021-06.1510::<160235644507.20728.17620354519556798064@go-agent-stagingbot-1>
-  reference_count: 6
+  announcement: 2021-07.1158::<160235644507.20728.17620354519556798064@go-agent-stagingbot-1>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5616,11 +5707,12 @@
     - 2021-04.2247::<160235644507.20728.17620354519556798064@go-agent-stagingbot-1>
     - 2021-05.1776::<160235644507.20728.17620354519556798064@go-agent-stagingbot-1>
     - 2021-06.1510::<160235644507.20728.17620354519556798064@go-agent-stagingbot-1>
-    reference_count: 6
+    - 2021-07.1158::<160235644507.20728.17620354519556798064@go-agent-stagingbot-1>
+    reference_count: 7
     summary: no summary given
 '20201011':
-  announcement: 2021-06.1513::<160251844007.2891.16053307317724400187@go-agent-stagingbot-2>
-  reference_count: 6
+  announcement: 2021-07.1161::<160251844007.2891.16053307317724400187@go-agent-stagingbot-2>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5630,11 +5722,12 @@
     - 2021-04.2250::<160251844007.2891.16053307317724400187@go-agent-stagingbot-2>
     - 2021-05.1779::<160251844007.2891.16053307317724400187@go-agent-stagingbot-2>
     - 2021-06.1513::<160251844007.2891.16053307317724400187@go-agent-stagingbot-2>
-    reference_count: 6
+    - 2021-07.1161::<160251844007.2891.16053307317724400187@go-agent-stagingbot-2>
+    reference_count: 7
     summary: no summary given
 '20201012':
-  announcement: 2021-06.1520::<160263004575.7481.4681541795264028590@go-agent-stagingbot-6>
-  reference_count: 6
+  announcement: 2021-07.1168::<160263004575.7481.4681541795264028590@go-agent-stagingbot-6>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5644,11 +5737,12 @@
     - 2021-04.2257::<160263004575.7481.4681541795264028590@go-agent-stagingbot-6>
     - 2021-05.1786::<160263004575.7481.4681541795264028590@go-agent-stagingbot-6>
     - 2021-06.1520::<160263004575.7481.4681541795264028590@go-agent-stagingbot-6>
-    reference_count: 6
+    - 2021-07.1168::<160263004575.7481.4681541795264028590@go-agent-stagingbot-6>
+    reference_count: 7
     summary: no summary given
 '20201014':
-  announcement: 2021-06.1556::<160285333299.29552.13955462742383781152@go-agent-stagingbot-4>
-  reference_count: 41
+  announcement: 2021-07.1204::<160285333299.29552.13955462742383781152@go-agent-stagingbot-4>
+  reference_count: 47
   thread_count: 3
   threads:
   - messages:
@@ -5663,7 +5757,8 @@
     - 2021-04.2301::<25047806.oU5iYELIsE@thunder>
     - 2021-05.1830::<25047806.oU5iYELIsE@thunder>
     - 2021-06.1564::<25047806.oU5iYELIsE@thunder>
-    reference_count: 7
+    - 2021-07.1212::<25047806.oU5iYELIsE@thunder>
+    reference_count: 8
     summary: kstart5 no longer runs desktop files
   - messages:
     - 2021-01.3626::<160285333299.29552.13955462742383781152@go-agent-stagingbot-4>
@@ -5672,11 +5767,12 @@
     - 2021-04.2293::<160285333299.29552.13955462742383781152@go-agent-stagingbot-4>
     - 2021-05.1822::<160285333299.29552.13955462742383781152@go-agent-stagingbot-4>
     - 2021-06.1556::<160285333299.29552.13955462742383781152@go-agent-stagingbot-4>
-    reference_count: 30
+    - 2021-07.1204::<160285333299.29552.13955462742383781152@go-agent-stagingbot-4>
+    reference_count: 35
     summary: no summary given
 '20201019':
-  announcement: 2021-06.1627::<160320252341.24065.4679133564459064869@go-agent-stagingbot-5>
-  reference_count: 6
+  announcement: 2021-07.1275::<160320252341.24065.4679133564459064869@go-agent-stagingbot-5>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5686,11 +5782,12 @@
     - 2021-04.2364::<160320252341.24065.4679133564459064869@go-agent-stagingbot-5>
     - 2021-05.1893::<160320252341.24065.4679133564459064869@go-agent-stagingbot-5>
     - 2021-06.1627::<160320252341.24065.4679133564459064869@go-agent-stagingbot-5>
-    reference_count: 6
+    - 2021-07.1275::<160320252341.24065.4679133564459064869@go-agent-stagingbot-5>
+    reference_count: 7
     summary: no summary given
 '20201021':
-  announcement: 2021-06.1642::<160336803251.22191.3544523777867042046@go-agent-stagingbot-1>
-  reference_count: 6
+  announcement: 2021-07.1290::<160336803251.22191.3544523777867042046@go-agent-stagingbot-1>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5700,11 +5797,12 @@
     - 2021-04.2379::<160336803251.22191.3544523777867042046@go-agent-stagingbot-1>
     - 2021-05.1908::<160336803251.22191.3544523777867042046@go-agent-stagingbot-1>
     - 2021-06.1642::<160336803251.22191.3544523777867042046@go-agent-stagingbot-1>
-    reference_count: 6
+    - 2021-07.1290::<160336803251.22191.3544523777867042046@go-agent-stagingbot-1>
+    reference_count: 7
     summary: no summary given
 '20201022':
-  announcement: 2021-06.1660::<160346169872.10302.17026408928661214073@go-agent-stagingbot-3>
-  reference_count: 6
+  announcement: 2021-07.1308::<160346169872.10302.17026408928661214073@go-agent-stagingbot-3>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5714,11 +5812,12 @@
     - 2021-04.2397::<160346169872.10302.17026408928661214073@go-agent-stagingbot-3>
     - 2021-05.1926::<160346169872.10302.17026408928661214073@go-agent-stagingbot-3>
     - 2021-06.1660::<160346169872.10302.17026408928661214073@go-agent-stagingbot-3>
-    reference_count: 6
+    - 2021-07.1308::<160346169872.10302.17026408928661214073@go-agent-stagingbot-3>
+    reference_count: 7
     summary: no summary given
 '20201023':
-  announcement: 2021-06.1679::<160355522009.29215.5857895286172163231@go-agent-stagingbot-3>
-  reference_count: 6
+  announcement: 2021-07.1327::<160355522009.29215.5857895286172163231@go-agent-stagingbot-3>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5728,11 +5827,12 @@
     - 2021-04.2416::<160355522009.29215.5857895286172163231@go-agent-stagingbot-3>
     - 2021-05.1945::<160355522009.29215.5857895286172163231@go-agent-stagingbot-3>
     - 2021-06.1679::<160355522009.29215.5857895286172163231@go-agent-stagingbot-3>
-    reference_count: 6
+    - 2021-07.1327::<160355522009.29215.5857895286172163231@go-agent-stagingbot-3>
+    reference_count: 7
     summary: no summary given
 '20201024':
-  announcement: 2021-06.1696::<160365606619.12259.15219421635138266391@go-agent-stagingbot-2>
-  reference_count: 86
+  announcement: 2021-07.1344::<160365606619.12259.15219421635138266391@go-agent-stagingbot-2>
+  reference_count: 99
   thread_count: 3
   threads:
   - messages:
@@ -5750,11 +5850,12 @@
     - 2021-04.2433::<160365606619.12259.15219421635138266391@go-agent-stagingbot-2>
     - 2021-05.1962::<160365606619.12259.15219421635138266391@go-agent-stagingbot-2>
     - 2021-06.1696::<160365606619.12259.15219421635138266391@go-agent-stagingbot-2>
-    reference_count: 76
+    - 2021-07.1344::<160365606619.12259.15219421635138266391@go-agent-stagingbot-2>
+    reference_count: 89
     summary: no summary given
 '20201025':
-  announcement: 2021-06.1711::<160373891675.23871.8316620165500192134@go-agent-stagingbot-3>
-  reference_count: 6
+  announcement: 2021-07.1359::<160373891675.23871.8316620165500192134@go-agent-stagingbot-3>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5764,11 +5865,12 @@
     - 2021-04.2448::<160373891675.23871.8316620165500192134@go-agent-stagingbot-3>
     - 2021-05.1977::<160373891675.23871.8316620165500192134@go-agent-stagingbot-3>
     - 2021-06.1711::<160373891675.23871.8316620165500192134@go-agent-stagingbot-3>
-    reference_count: 6
+    - 2021-07.1359::<160373891675.23871.8316620165500192134@go-agent-stagingbot-3>
+    reference_count: 7
     summary: no summary given
 '20201026':
-  announcement: 2021-06.1723::<160383964991.30364.390849151812378322@go-agent-stagingbot-6>
-  reference_count: 72
+  announcement: 2021-07.1371::<160383964991.30364.390849151812378322@go-agent-stagingbot-6>
+  reference_count: 84
   thread_count: 2
   threads:
   - messages:
@@ -5778,7 +5880,8 @@
     - 2021-04.2439::<81d76979d2c4a11360a92c1c66cd7d9858fd260d.camel@opensuse.org>
     - 2021-05.1968::<81d76979d2c4a11360a92c1c66cd7d9858fd260d.camel@opensuse.org>
     - 2021-06.1702::<81d76979d2c4a11360a92c1c66cd7d9858fd260d.camel@opensuse.org>
-    reference_count: 66
+    - 2021-07.1350::<81d76979d2c4a11360a92c1c66cd7d9858fd260d.camel@opensuse.org>
+    reference_count: 77
     summary: 'Heads-up: Kernel 5.9.1+'
   - messages:
     - 2021-01.3793::<160383964991.30364.390849151812378322@go-agent-stagingbot-6>
@@ -5787,11 +5890,12 @@
     - 2021-04.2460::<160383964991.30364.390849151812378322@go-agent-stagingbot-6>
     - 2021-05.1989::<160383964991.30364.390849151812378322@go-agent-stagingbot-6>
     - 2021-06.1723::<160383964991.30364.390849151812378322@go-agent-stagingbot-6>
-    reference_count: 6
+    - 2021-07.1371::<160383964991.30364.390849151812378322@go-agent-stagingbot-6>
+    reference_count: 7
     summary: no summary given
 '20201028':
-  announcement: 2021-06.1756::<160402326762.16322.3691672328987827705@go-agent-stagingbot-3>
-  reference_count: 6
+  announcement: 2021-07.1404::<160402326762.16322.3691672328987827705@go-agent-stagingbot-3>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5801,11 +5905,12 @@
     - 2021-04.2493::<160402326762.16322.3691672328987827705@go-agent-stagingbot-3>
     - 2021-05.2022::<160402326762.16322.3691672328987827705@go-agent-stagingbot-3>
     - 2021-06.1756::<160402326762.16322.3691672328987827705@go-agent-stagingbot-3>
-    reference_count: 6
+    - 2021-07.1404::<160402326762.16322.3691672328987827705@go-agent-stagingbot-3>
+    reference_count: 7
     summary: no summary given
 '20201029':
-  announcement: 2021-06.1766::<160415644770.8118.388627243320293766@go-agent-stagingbot-6>
-  reference_count: 6
+  announcement: 2021-07.1414::<160415644770.8118.388627243320293766@go-agent-stagingbot-6>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5815,11 +5920,12 @@
     - 2021-04.2503::<160415644770.8118.388627243320293766@go-agent-stagingbot-6>
     - 2021-05.2032::<160415644770.8118.388627243320293766@go-agent-stagingbot-6>
     - 2021-06.1766::<160415644770.8118.388627243320293766@go-agent-stagingbot-6>
-    reference_count: 6
+    - 2021-07.1414::<160415644770.8118.388627243320293766@go-agent-stagingbot-6>
+    reference_count: 7
     summary: no summary given
 '20201030':
-  announcement: 2021-06.1777::<160427527600.22106.14634744412679879249@go-agent-stagingbot-4>
-  reference_count: 6
+  announcement: 2021-07.1425::<160427527600.22106.14634744412679879249@go-agent-stagingbot-4>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5829,11 +5935,12 @@
     - 2021-04.2514::<160427527600.22106.14634744412679879249@go-agent-stagingbot-4>
     - 2021-05.2043::<160427527600.22106.14634744412679879249@go-agent-stagingbot-4>
     - 2021-06.1777::<160427527600.22106.14634744412679879249@go-agent-stagingbot-4>
-    reference_count: 6
+    - 2021-07.1425::<160427527600.22106.14634744412679879249@go-agent-stagingbot-4>
+    reference_count: 7
     summary: no summary given
 '20201104':
-  announcement: 2021-06.1833::<160465684309.24031.15427200552053080244@go-agent-stagingbot-6>
-  reference_count: 6
+  announcement: 2021-07.1481::<160465684309.24031.15427200552053080244@go-agent-stagingbot-6>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5843,11 +5950,12 @@
     - 2021-04.2570::<160465684309.24031.15427200552053080244@go-agent-stagingbot-6>
     - 2021-05.2099::<160465684309.24031.15427200552053080244@go-agent-stagingbot-6>
     - 2021-06.1833::<160465684309.24031.15427200552053080244@go-agent-stagingbot-6>
-    reference_count: 6
+    - 2021-07.1481::<160465684309.24031.15427200552053080244@go-agent-stagingbot-6>
+    reference_count: 7
     summary: no summary given
 '20201105':
-  announcement: 2021-06.1841::<160471804671.14587.4111216463868442295@go-agent-stagingbot-6>
-  reference_count: 6
+  announcement: 2021-07.1489::<160471804671.14587.4111216463868442295@go-agent-stagingbot-6>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5857,11 +5965,12 @@
     - 2021-04.2578::<160471804671.14587.4111216463868442295@go-agent-stagingbot-6>
     - 2021-05.2107::<160471804671.14587.4111216463868442295@go-agent-stagingbot-6>
     - 2021-06.1841::<160471804671.14587.4111216463868442295@go-agent-stagingbot-6>
-    reference_count: 6
+    - 2021-07.1489::<160471804671.14587.4111216463868442295@go-agent-stagingbot-6>
+    reference_count: 7
     summary: no summary given
 '20201106':
-  announcement: 2021-06.1849::<160478645239.7662.632106592528785226@go-agent-stagingbot-3>
-  reference_count: 6
+  announcement: 2021-07.1497::<160478645239.7662.632106592528785226@go-agent-stagingbot-3>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5871,11 +5980,12 @@
     - 2021-04.2586::<160478645239.7662.632106592528785226@go-agent-stagingbot-3>
     - 2021-05.2115::<160478645239.7662.632106592528785226@go-agent-stagingbot-3>
     - 2021-06.1849::<160478645239.7662.632106592528785226@go-agent-stagingbot-3>
-    reference_count: 6
+    - 2021-07.1497::<160478645239.7662.632106592528785226@go-agent-stagingbot-3>
+    reference_count: 7
     summary: no summary given
 '20201107':
-  announcement: 2021-06.1860::<160487652756.10776.5157005922917466402@go-agent-stagingbot-6>
-  reference_count: 6
+  announcement: 2021-07.1508::<160487652756.10776.5157005922917466402@go-agent-stagingbot-6>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5885,11 +5995,12 @@
     - 2021-04.2597::<160487652756.10776.5157005922917466402@go-agent-stagingbot-6>
     - 2021-05.2126::<160487652756.10776.5157005922917466402@go-agent-stagingbot-6>
     - 2021-06.1860::<160487652756.10776.5157005922917466402@go-agent-stagingbot-6>
-    reference_count: 6
+    - 2021-07.1508::<160487652756.10776.5157005922917466402@go-agent-stagingbot-6>
+    reference_count: 7
     summary: no summary given
 '20201108':
-  announcement: 2021-06.1882::<160495593564.21726.400997378648906437@go-agent-stagingbot-2>
-  reference_count: 6
+  announcement: 2021-07.1530::<160495593564.21726.400997378648906437@go-agent-stagingbot-2>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5899,11 +6010,12 @@
     - 2021-04.2619::<160495593564.21726.400997378648906437@go-agent-stagingbot-2>
     - 2021-05.2148::<160495593564.21726.400997378648906437@go-agent-stagingbot-2>
     - 2021-06.1882::<160495593564.21726.400997378648906437@go-agent-stagingbot-2>
-    reference_count: 6
+    - 2021-07.1530::<160495593564.21726.400997378648906437@go-agent-stagingbot-2>
+    reference_count: 7
     summary: no summary given
 '20201114':
-  announcement: 2021-06.1948::<160546686715.6153.934848211725600934@go-agent-stagingbot-2>
-  reference_count: 111
+  announcement: 2021-07.1596::<160546686715.6153.934848211725600934@go-agent-stagingbot-2>
+  reference_count: 127
   thread_count: 2
   threads:
   - messages:
@@ -5914,15 +6026,16 @@
     - 2021-04.2685::<160546686715.6153.934848211725600934@go-agent-stagingbot-2>
     - 2021-05.2214::<160546686715.6153.934848211725600934@go-agent-stagingbot-2>
     - 2021-06.1948::<160546686715.6153.934848211725600934@go-agent-stagingbot-2>
-    reference_count: 97
+    - 2021-07.1596::<160546686715.6153.934848211725600934@go-agent-stagingbot-2>
+    reference_count: 113
     summary: no summary given
   - messages:
     - 2020-11.181::<20201115192231.GP5333@wahoo.no-ip.org>
     reference_count: 14
     summary: failed to summarize
 '20201117':
-  announcement: 2021-06.1991::<160575124647.1824.2191534320544899285@go-agent-stagingbot-6>
-  reference_count: 6
+  announcement: 2021-07.1639::<160575124647.1824.2191534320544899285@go-agent-stagingbot-6>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5932,11 +6045,12 @@
     - 2021-04.2728::<160575124647.1824.2191534320544899285@go-agent-stagingbot-6>
     - 2021-05.2257::<160575124647.1824.2191534320544899285@go-agent-stagingbot-6>
     - 2021-06.1991::<160575124647.1824.2191534320544899285@go-agent-stagingbot-6>
-    reference_count: 6
+    - 2021-07.1639::<160575124647.1824.2191534320544899285@go-agent-stagingbot-6>
+    reference_count: 7
     summary: no summary given
 '20201119':
-  announcement: 2021-06.2013::<160597444467.4216.14177830603507980696@go-agent-stagingbot-2>
-  reference_count: 41
+  announcement: 2021-07.1661::<160597444467.4216.14177830603507980696@go-agent-stagingbot-2>
+  reference_count: 47
   thread_count: 1
   threads:
   - messages:
@@ -5947,11 +6061,12 @@
     - 2021-04.2750::<160597444467.4216.14177830603507980696@go-agent-stagingbot-2>
     - 2021-05.2279::<160597444467.4216.14177830603507980696@go-agent-stagingbot-2>
     - 2021-06.2013::<160597444467.4216.14177830603507980696@go-agent-stagingbot-2>
-    reference_count: 41
+    - 2021-07.1661::<160597444467.4216.14177830603507980696@go-agent-stagingbot-2>
+    reference_count: 47
     summary: no summary given
 '20201121':
-  announcement: 2021-06.2030::<160616522228.17251.6659585816844228361@go-agent-stagingbot-4>
-  reference_count: 6
+  announcement: 2021-07.1678::<160616522228.17251.6659585816844228361@go-agent-stagingbot-4>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -5961,11 +6076,12 @@
     - 2021-04.2767::<160616522228.17251.6659585816844228361@go-agent-stagingbot-4>
     - 2021-05.2296::<160616522228.17251.6659585816844228361@go-agent-stagingbot-4>
     - 2021-06.2030::<160616522228.17251.6659585816844228361@go-agent-stagingbot-4>
-    reference_count: 6
+    - 2021-07.1678::<160616522228.17251.6659585816844228361@go-agent-stagingbot-4>
+    reference_count: 7
     summary: no summary given
 '20201123':
-  announcement: 2021-06.2041::<160626247007.28001.50492380046920450@go-agent-stagingbot-3>
-  reference_count: 55
+  announcement: 2021-07.1689::<160626247007.28001.50492380046920450@go-agent-stagingbot-3>
+  reference_count: 63
   thread_count: 3
   threads:
   - messages:
@@ -5987,7 +6103,9 @@
     - 2021-05.2366::<7084p362-8n5-qon-3o72-7884n7s4q6r1@vanv.qr>
     - 2021-06.2041::<160626247007.28001.50492380046920450@go-agent-stagingbot-3>
     - 2021-06.2100::<7084p362-8n5-qon-3o72-7884n7s4q6r1@vanv.qr>
-    reference_count: 39
+    - 2021-07.1689::<160626247007.28001.50492380046920450@go-agent-stagingbot-3>
+    - 2021-07.1748::<7084p362-8n5-qon-3o72-7884n7s4q6r1@vanv.qr>
+    reference_count: 45
     summary: no summary given
   - messages:
     - 2020-11.330::<26EF9109-19AB-4575-B0A0-F6C6DB739683@hotmail.com>
@@ -5997,11 +6115,12 @@
     - 2021-04.2836::<26EF9109-19AB-4575-B0A0-F6C6DB739683@hotmail.com>
     - 2021-05.2365::<26EF9109-19AB-4575-B0A0-F6C6DB739683@hotmail.com>
     - 2021-06.2099::<26EF9109-19AB-4575-B0A0-F6C6DB739683@hotmail.com>
-    reference_count: 14
+    - 2021-07.1747::<26EF9109-19AB-4575-B0A0-F6C6DB739683@hotmail.com>
+    reference_count: 16
     summary: released!)
 '20201124':
-  announcement: 2021-06.2077::<160634884805.30012.7916765007680643198@go-agent-stagingbot-7>
-  reference_count: 6
+  announcement: 2021-07.1725::<160634884805.30012.7916765007680643198@go-agent-stagingbot-7>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -6011,11 +6130,12 @@
     - 2021-04.2814::<160634884805.30012.7916765007680643198@go-agent-stagingbot-7>
     - 2021-05.2343::<160634884805.30012.7916765007680643198@go-agent-stagingbot-7>
     - 2021-06.2077::<160634884805.30012.7916765007680643198@go-agent-stagingbot-7>
-    reference_count: 6
+    - 2021-07.1725::<160634884805.30012.7916765007680643198@go-agent-stagingbot-7>
+    reference_count: 7
     summary: no summary given
 '20201125':
-  announcement: 2021-06.2109::<160647486715.14002.2655313818484045161@go-agent-stagingbot-2>
-  reference_count: 6
+  announcement: 2021-07.1757::<160647486715.14002.2655313818484045161@go-agent-stagingbot-2>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -6025,11 +6145,12 @@
     - 2021-04.2846::<160647486715.14002.2655313818484045161@go-agent-stagingbot-2>
     - 2021-05.2375::<160647486715.14002.2655313818484045161@go-agent-stagingbot-2>
     - 2021-06.2109::<160647486715.14002.2655313818484045161@go-agent-stagingbot-2>
-    reference_count: 6
+    - 2021-07.1757::<160647486715.14002.2655313818484045161@go-agent-stagingbot-2>
+    reference_count: 7
     summary: no summary given
 '20201127':
-  announcement: 2021-06.2126::<160668722412.25939.7381802947330285333@go-agent-stagingbot-7>
-  reference_count: 6
+  announcement: 2021-07.1774::<160668722412.25939.7381802947330285333@go-agent-stagingbot-7>
+  reference_count: 7
   thread_count: 1
   threads:
   - messages:
@@ -6039,837 +6160,838 @@
     - 2021-04.2863::<160668722412.25939.7381802947330285333@go-agent-stagingbot-7>
     - 2021-05.2392::<160668722412.25939.7381802947330285333@go-agent-stagingbot-7>
     - 2021-06.2126::<160668722412.25939.7381802947330285333@go-agent-stagingbot-7>
-    reference_count: 6
+    - 2021-07.1774::<160668722412.25939.7381802947330285333@go-agent-stagingbot-7>
+    reference_count: 7
     summary: no summary given
 '20201129':
-  announcement: 2021-06.2130::<160675569234.3534.3314080824147967055@go-agent-stagingbot-5>
+  announcement: 2021-07.1778::<160675569234.3534.3314080824147967055@go-agent-stagingbot-5>
   reference_count: 0
   thread_count: 0
   threads: []
 '20201130':
-  announcement: 2021-06.2135::<160685284551.370.1191899874132762827@go-agent-stagingbot-7>
+  announcement: 2021-07.1783::<160685284551.370.1191899874132762827@go-agent-stagingbot-7>
   reference_count: 0
   thread_count: 0
   threads: []
 '20201201':
-  announcement: 2021-06.2142::<160692485605.12953.15655107871112503575@go-agent-stagingbot-6>
+  announcement: 2021-07.1790::<160692485605.12953.15655107871112503575@go-agent-stagingbot-6>
   reference_count: 1
   thread_count: 1
   threads:
   - messages:
-    - "2021-06.2143::\n <trinity-dbe47074-f560-440a-8f23-4819a4b5db36-1606932106626@3c-app-gmx-bs52>"
+    - "2021-07.1791::\n <trinity-dbe47074-f560-440a-8f23-4819a4b5db36-1606932106626@3c-app-gmx-bs52>"
     reference_count: 1
     summary: 'OT: Listinfo "[opensuse-factory]" at Subject missing'
 '20201202':
-  announcement: 2021-06.2194::<160704364272.8728.11482852751446248882@go-agent-stagingbot-3>
+  announcement: 2021-07.1842::<160704364272.8728.11482852751446248882@go-agent-stagingbot-3>
   reference_count: 0
   thread_count: 0
   threads: []
 '20201203':
-  announcement: 2021-06.2228::<160712284467.20470.17158047464658157382@go-agent-stagingbot-3>
+  announcement: 2021-07.1876::<160712284467.20470.17158047464658157382@go-agent-stagingbot-3>
   reference_count: 10
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.2285::<c1b51d0e-24c1-f735-d3b9-48ee69d09024@suse.cz>
+    - 2021-07.1933::<c1b51d0e-24c1-f735-d3b9-48ee69d09024@suse.cz>
     reference_count: 10
     summary: gdb now supports debuginfod
 '20201205':
-  announcement: 2021-06.2266::<160730646758.19874.5203923148951986851@go-agent-stagingbot-4>
+  announcement: 2021-07.1914::<160730646758.19874.5203923148951986851@go-agent-stagingbot-4>
   reference_count: 3
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.2334::<0cea93ad-11e5-6da7-39bb-38c472907605@mailbox.org>
-    - 2021-06.2340::<612a4203-064c-343b-3532-ee56cb9c6f43@mailbox.org>
+    - 2021-07.1982::<0cea93ad-11e5-6da7-39bb-38c472907605@mailbox.org>
+    - 2021-07.1988::<612a4203-064c-343b-3532-ee56cb9c6f43@mailbox.org>
     reference_count: 3
     summary: fwupd displays warning after update [
 '20201207':
-  announcement: 2021-06.2341::<160747568347.5253.6068467008874707249@go-agent-stagingbot-3>
+  announcement: 2021-07.1989::<160747568347.5253.6068467008874707249@go-agent-stagingbot-3>
   reference_count: 0
   thread_count: 0
   threads: []
 '20201209':
-  announcement: 2021-06.2375::<160763042336.14210.18177714529294829790@go-agent-stagingbot-7>
+  announcement: 2021-07.2023::<160763042336.14210.18177714529294829790@go-agent-stagingbot-7>
   reference_count: 0
   thread_count: 0
   threads: []
 '20201211':
-  announcement: 2021-06.2383::<160779249269.26444.14636849081199656326@go-agent-stagingbot-4>
+  announcement: 2021-07.2031::<160779249269.26444.14636849081199656326@go-agent-stagingbot-4>
   reference_count: 0
   thread_count: 0
   threads: []
 '20201212':
-  announcement: 2021-06.2387::<160789682024.28732.527161044227056756@go-agent-stagingbot-1>
+  announcement: 2021-07.2035::<160789682024.28732.527161044227056756@go-agent-stagingbot-1>
   reference_count: 13
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.2406::<da2299eb-013e-9cef-2dbe-b42b9bf70381@localhost>
+    - 2021-07.2054::<da2299eb-013e-9cef-2dbe-b42b9bf70381@localhost>
     reference_count: 13
     summary: Problems during first boot after upgrade [
 '20201213':
-  announcement: 2021-06.2389::<160796162411.7371.12348633577808955927@go-agent-stagingbot-2>
+  announcement: 2021-07.2037::<160796162411.7371.12348633577808955927@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20201214':
-  announcement: 2021-06.2433::<160806609043.26361.8378638786895193969@go-agent-stagingbot-5>
+  announcement: 2021-07.2081::<160806609043.26361.8378638786895193969@go-agent-stagingbot-5>
   reference_count: 0
   thread_count: 0
   threads: []
 '20201215':
-  announcement: 2021-06.2450::<160816333132.4876.11705227862850504511@go-agent-stagingbot-7>
+  announcement: 2021-07.2098::<160816333132.4876.11705227862850504511@go-agent-stagingbot-7>
   reference_count: 0
   thread_count: 0
   threads: []
 '20201216':
-  announcement: 2021-06.2462::<160824246907.32312.2028867863906074563@go-agent-stagingbot-2>
+  announcement: 2021-07.2110::<160824246907.32312.2028867863906074563@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20201218':
-  announcement: 2021-06.2480::<160857362691.8405.5928220870958266111@go-agent-stagingbot-6>
+  announcement: 2021-07.2128::<160857362691.8405.5928220870958266111@go-agent-stagingbot-6>
   reference_count: 12
   thread_count: 2
   threads:
   - messages:
-    - 2021-06.2495::<87a6u4vs0w.fsf@Rainer.invalid>
+    - 2021-07.2143::<87a6u4vs0w.fsf@Rainer.invalid>
     reference_count: 1
     summary: '[BUG] konsole'
   - messages:
-    - 2021-06.2481::<7503292.JZEebKoqqp@x1e>
+    - 2021-07.2129::<7503292.JZEebKoqqp@x1e>
     reference_count: 11
     summary: installing sof firmware fails
 '20201221':
-  announcement: 2021-06.2494::<160867809247.31030.8541130423966113434@go-agent-stagingbot-2>
+  announcement: 2021-07.2142::<160867809247.31030.8541130423966113434@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20201223':
-  announcement: 2021-06.2511::<160884724196.21953.18048375809681816518@go-agent-stagingbot-2>
+  announcement: 2021-07.2159::<160884724196.21953.18048375809681816518@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20201224':
-  announcement: 2021-06.2513::<160892644682.26771.1744697340703223168@go-agent-stagingbot-7>
+  announcement: 2021-07.2161::<160892644682.26771.1744697340703223168@go-agent-stagingbot-7>
   reference_count: 5
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.2534::<1845037.UqSOrTCNmq@baldo>
+    - 2021-07.2182::<1845037.UqSOrTCNmq@baldo>
     reference_count: 5
     summary: released! => Bootup hangs after update
 '20201226':
-  announcement: 2021-06.2529::<160912441742.7742.16261046773410206475@go-agent-stagingbot-6>
+  announcement: 2021-07.2177::<160912441742.7742.16261046773410206475@go-agent-stagingbot-6>
   reference_count: 0
   thread_count: 0
   threads: []
 '20201228':
-  announcement: 2021-06.2541::<160926122017.17992.16256486273128712894@go-agent-stagingbot-7>
+  announcement: 2021-07.2189::<160926122017.17992.16256486273128712894@go-agent-stagingbot-7>
   reference_count: 5
   thread_count: 1
   threads:
   - messages:
-    - "2021-06.2548::\n <160931580695.12683.2700830390637409388@mailman3.infra.opensuse.org>"
-    - 2021-06.2549::<1771359633.41498158.1609321129978.JavaMail.zimbra@telenet.be>
-    - 2021-06.2550::<3761832.tXL17bZzSp@lianli>
-    - 2021-06.2552::<rshj7m$p28$2@saturn.local.net>
+    - "2021-07.2196::\n <160931580695.12683.2700830390637409388@mailman3.infra.opensuse.org>"
+    - 2021-07.2197::<1771359633.41498158.1609321129978.JavaMail.zimbra@telenet.be>
+    - 2021-07.2198::<3761832.tXL17bZzSp@lianli>
+    - 2021-07.2200::<rshj7m$p28$2@saturn.local.net>
     reference_count: 5
     summary: no summary given
 '20201229':
-  announcement: 2021-06.2561::<160935125285.20464.4257552034638908266@go-agent-stagingbot-1>
+  announcement: 2021-07.2209::<160935125285.20464.4257552034638908266@go-agent-stagingbot-1>
   reference_count: 0
   thread_count: 0
   threads: []
 '20201231':
-  announcement: 2021-06.2569::<160952404810.20374.6048029576050144418@go-agent-stagingbot-6>
+  announcement: 2021-07.2217::<160952404810.20374.6048029576050144418@go-agent-stagingbot-6>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210101':
-  announcement: 2021-06.2585::<160963205361.22607.7585964658354163142@go-agent-stagingbot-7>
+  announcement: 2021-07.2233::<160963205361.22607.7585964658354163142@go-agent-stagingbot-7>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210102':
-  announcement: 2021-06.2589::<160972202314.2053.13497986446898949186@go-agent-stagingbot-2>
+  announcement: 2021-07.2237::<160972202314.2053.13497986446898949186@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210103':
-  announcement: 2021-06.2609::<160980845801.13261.6847201783447858041@go-agent-stagingbot-1>
+  announcement: 2021-07.2257::<160980845801.13261.6847201783447858041@go-agent-stagingbot-1>
   reference_count: 2
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.2635::<X/WLjAg25g9s82gB@fmn>
+    - 2021-07.2283::<X/WLjAg25g9s82gB@fmn>
     reference_count: 2
     summary: No picture in Gnome/Wayland after kernel update to v5.10.4
 '20210104':
-  announcement: 2021-06.2622::<160986244853.20174.6966559999819853747@go-agent-stagingbot-1>
+  announcement: 2021-07.2270::<160986244853.20174.6966559999819853747@go-agent-stagingbot-1>
   reference_count: 9
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.2658::<X/Xd+O5BcoMkr3W7@speedy>
+    - 2021-07.2306::<X/Xd+O5BcoMkr3W7@speedy>
     reference_count: 9
     summary: wxWidgets dependency errors
 '20210105':
-  announcement: 2021-06.2673::<160997413490.30548.7627529432086939817@go-agent-stagingbot-3>
+  announcement: 2021-07.2321::<160997413490.30548.7627529432086939817@go-agent-stagingbot-3>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210106':
-  announcement: 2021-06.2713::<161006407211.14154.10437748685820168927@go-agent-stagingbot-3>
+  announcement: 2021-07.2361::<161006407211.14154.10437748685820168927@go-agent-stagingbot-3>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210107':
-  announcement: 2021-06.2755::<161020442248.5016.3182473526914976577@go-agent-stagingbot-4>
+  announcement: 2021-07.2403::<161020442248.5016.3182473526914976577@go-agent-stagingbot-4>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210108':
-  announcement: 2021-06.2761::<161033406641.32499.14153995545391824382@go-agent-stagingbot-4>
+  announcement: 2021-07.2409::<161033406641.32499.14153995545391824382@go-agent-stagingbot-4>
   reference_count: 7
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.2765::<1833255.XZsJJoEzbK@linux-izun>
-    - 2021-06.3347::<5214570.KPmNF7ZEpY@lair>
+    - 2021-07.2413::<1833255.XZsJJoEzbK@linux-izun>
+    - 2021-07.2995::<5214570.KPmNF7ZEpY@lair>
     reference_count: 7
     summary: -- akonadi issues
 '20210110':
-  announcement: 2021-06.2767::<161039165956.3317.16318449519256391788@go-agent-stagingbot-5>
+  announcement: 2021-07.2415::<161039165956.3317.16318449519256391788@go-agent-stagingbot-5>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210111':
-  announcement: 2021-06.2814::<161055726094.10644.17894269076333402821@go-agent-stagingbot-6>
+  announcement: 2021-07.2462::<161055726094.10644.17894269076333402821@go-agent-stagingbot-6>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210113':
-  announcement: 2021-06.2834::<161063647991.7180.3845932196206517690@go-agent-stagingbot-7>
+  announcement: 2021-07.2482::<161063647991.7180.3845932196206517690@go-agent-stagingbot-7>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210114':
-  announcement: 2021-06.2849::<161075166500.11051.16175256489727587889@go-agent-stagingbot-3>
+  announcement: 2021-07.2497::<161075166500.11051.16175256489727587889@go-agent-stagingbot-3>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210115':
-  announcement: 2021-06.2865::<161097124780.28157.13075657375026747395@go-agent-stagingbot-1>
+  announcement: 2021-07.2513::<161097124780.28157.13075657375026747395@go-agent-stagingbot-1>
   reference_count: 2
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.2866::<ada0710b11ddd7910e89b4ae1921a44e33ccc9c3.camel@opensuse.org>
+    - 2021-07.2514::<ada0710b11ddd7910e89b4ae1921a44e33ccc9c3.camel@opensuse.org>
     reference_count: 2
     summary: python can be bumpy
 '20210118':
-  announcement: 2021-06.2874::<161105764690.13387.4273780803096215666@go-agent-stagingbot-5>
+  announcement: 2021-07.2522::<161105764690.13387.4273780803096215666@go-agent-stagingbot-5>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210119':
-  announcement: 2021-06.2882::<161117285009.27699.2560955838406948232@go-agent-stagingbot-4>
+  announcement: 2021-07.2530::<161117285009.27699.2560955838406948232@go-agent-stagingbot-4>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210120':
-  announcement: 2021-06.2893::<161123764943.32037.15770093100414211329@go-agent-stagingbot-2>
+  announcement: 2021-07.2541::<161123764943.32037.15770093100414211329@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210121':
-  announcement: 2021-06.2931::<161139964837.13435.3836243889965021233@go-agent-stagingbot-3>
+  announcement: 2021-07.2579::<161139964837.13435.3836243889965021233@go-agent-stagingbot-3>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210126':
-  announcement: 2021-06.2998::<161177764823.2916.14270567453536369552@go-agent-stagingbot-5>
+  announcement: 2021-07.2646::<161177764823.2916.14270567453536369552@go-agent-stagingbot-5>
   reference_count: 6
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.3006::<1900417.h3sBt4cyGx@xrated>
+    - 2021-07.2654::<1900417.h3sBt4cyGx@xrated>
     reference_count: 6
     summary: Coolest Changelog entry
 '20210127':
-  announcement: 2021-06.3009::<161184604899.27824.11316887198893878224@go-agent-stagingbot-2>
+  announcement: 2021-07.2657::<161184604899.27824.11316887198893878224@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210128':
-  announcement: 2021-06.3022::<161193244753.15257.14511341553673991610@go-agent-stagingbot-2>
+  announcement: 2021-07.2670::<161193244753.15257.14511341553673991610@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210130':
-  announcement: 2021-06.3049::<161211244581.3016.12103002621016367819@go-agent-stagingbot-2>
+  announcement: 2021-07.2697::<161211244581.3016.12103002621016367819@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210131':
-  announcement: 2021-06.3052::<161219884749.12504.18282462016532208806@go-agent-stagingbot-5>
+  announcement: 2021-07.2700::<161219884749.12504.18282462016532208806@go-agent-stagingbot-5>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210202':
-  announcement: 2021-06.3074::<161236088084.26202.338818534394253217@go-agent-stagingbot-4>
+  announcement: 2021-07.2722::<161236088084.26202.338818534394253217@go-agent-stagingbot-4>
   reference_count: 5
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.3092::<2463982.I1ePp3ITZI@beest>
+    - 2021-07.2740::<2463982.I1ePp3ITZI@beest>
     reference_count: 5
     summary: no summary given
 '20210203':
-  announcement: 2021-06.3099::<161246164641.343.15150755626410533320@go-agent-stagingbot-3>
+  announcement: 2021-07.2747::<161246164641.343.15150755626410533320@go-agent-stagingbot-3>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210205':
-  announcement: 2021-06.3127::<161271724586.5076.14510614972524589288@go-agent-stagingbot-6>
+  announcement: 2021-07.2775::<161271724586.5076.14510614972524589288@go-agent-stagingbot-6>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210208':
-  announcement: 2021-06.3145::<161286847463.24092.4439768455333377693@go-agent-stagingbot-6>
+  announcement: 2021-07.2793::<161286847463.24092.4439768455333377693@go-agent-stagingbot-6>
   reference_count: 9
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.3150::<74588679-743f-66b2-5860-cc35e8b881f5@t-online.de>
+    - 2021-07.2798::<74588679-743f-66b2-5860-cc35e8b881f5@t-online.de>
     reference_count: 9
     summary: no summary given
 '20210209':
-  announcement: 2021-06.3168::<161300171682.25858.710266845541270915@go-agent-stagingbot-2>
+  announcement: 2021-07.2816::<161300171682.25858.710266845541270915@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210210':
-  announcement: 2021-06.3172::<161305207027.9103.5829160101840957488@go-agent-stagingbot-7>
+  announcement: 2021-07.2820::<161305207027.9103.5829160101840957488@go-agent-stagingbot-7>
   reference_count: 2
   thread_count: 2
   threads:
   - messages:
-    - 2021-06.3183::<1fbf8017-6c86-8265-37a4-d826c125395c@gmail.com>
+    - 2021-07.2831::<1fbf8017-6c86-8265-37a4-d826c125395c@gmail.com>
     reference_count: 1
     summary: fails to boot (dracut-initqueue timeout errors)
   - messages:
-    - 2021-06.3317::<20210220172542.4aba30d5@zenon>
+    - 2021-07.2965::<20210220172542.4aba30d5@zenon>
     reference_count: 1
     summary: be cautious  to upgrade x86_32 Tumbleweed system to snapshot
 '20210212':
-  announcement: 2021-06.3198::<161347689058.13427.3833241919087877214@go-agent-stagingbot-2>
+  announcement: 2021-07.2846::<161347689058.13427.3833241919087877214@go-agent-stagingbot-2>
   reference_count: 28
   thread_count: 3
   threads:
   - messages:
-    - 2021-06.3206::<61b8c280-ba8c-cf78-f213-05801453b73c@stroeder.com>
+    - 2021-07.2854::<61b8c280-ba8c-cf78-f213-05801453b73c@stroeder.com>
     reference_count: 2
     summary: glibc 2.33 and chroot
   - messages:
-    - 2021-06.3609::<7eb1f3bc-bda0-7a9b-395f-aa579971f70c@telefonica.net>
-    - 2021-06.3616::<6048DC2E.6060000@tlinx.org>
+    - 2021-07.3257::<7eb1f3bc-bda0-7a9b-395f-aa579971f70c@telefonica.net>
+    - 2021-07.3264::<6048DC2E.6060000@tlinx.org>
     reference_count: 2
     summary: = full reinstall
   - messages:
-    - 2021-06.3887::<606FE380.5030100@tlinx.org>
+    - 2021-07.3535::<606FE380.5030100@tlinx.org>
     reference_count: 24
     summary: FUDD on having multiple library versions. (was
 '20210215':
-  announcement: 2021-06.3227::<161356685368.28438.10666408165776191700@go-agent-stagingbot-2>
+  announcement: 2021-07.2875::<161356685368.28438.10666408165776191700@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210217':
-  announcement: 2021-06.3265::<161367484816.6127.6084997382466030781@go-agent-stagingbot-7>
+  announcement: 2021-07.2913::<161367484816.6127.6084997382466030781@go-agent-stagingbot-7>
   reference_count: 6
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.3267::<2186372.NCfaTxHB0o@yuuko>
+    - 2021-07.2915::<2186372.NCfaTxHB0o@yuuko>
     reference_count: 6
     summary: File conflicts from procps-lang
 '20210218':
-  announcement: 2021-06.3293::<161377204666.21690.14372425778634280051@go-agent-stagingbot-7>
+  announcement: 2021-07.2941::<161377204666.21690.14372425778634280051@go-agent-stagingbot-7>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210219':
-  announcement: 2021-06.3324::<161385844599.1595.7418905601255930429@go-agent-stagingbot-1>
+  announcement: 2021-07.2972::<161385844599.1595.7418905601255930429@go-agent-stagingbot-1>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210220':
-  announcement: 2021-06.3335::<161394846830.22400.12436329082273422564@go-agent-stagingbot-1>
+  announcement: 2021-07.2983::<161394846830.22400.12436329082273422564@go-agent-stagingbot-1>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210222':
-  announcement: 2021-06.3383::<161412126647.1805.12447596783245582411@go-agent-stagingbot-1>
+  announcement: 2021-07.3031::<161412126647.1805.12447596783245582411@go-agent-stagingbot-1>
   reference_count: 26
   thread_count: 3
   threads:
   - messages:
-    - 2021-06.3484::<YDvO/cD4+lUNhgZt@speedy>
+    - 2021-07.3132::<YDvO/cD4+lUNhgZt@speedy>
     reference_count: 1
     summary: Compose key handling in GTK broken
   - messages:
-    - "2021-06.3384::\n <CAKjT654MmPLx2f0OecWKF=qpw76nhzWs-tgdKcuVC57bWtKLeg@mail.gmail.com>"
-    - 2021-06.3385::<2133523.lB9y7l405L@x1e>
-    - 2021-06.3402::<4206644.9HgAm5qAst@x1e>
-    - 2021-06.3425::<202102251212.02013.michael@actrix.gen.nz>
-    - 2021-06.3427::<202102251254.09356.michael@actrix.gen.nz>
-    - "2021-06.3695::\n <CAHf=Y_amJVCVrG3uXKacu2NAy5HVQWOCPoKrGNeqDj0WqZGbgQ@mail.gmail.com>"
-    - 2021-06.3698::<1806886.8I5H7Bx1fN@ironhide>
+    - "2021-07.3032::\n <CAKjT654MmPLx2f0OecWKF=qpw76nhzWs-tgdKcuVC57bWtKLeg@mail.gmail.com>"
+    - 2021-07.3033::<2133523.lB9y7l405L@x1e>
+    - 2021-07.3050::<4206644.9HgAm5qAst@x1e>
+    - 2021-07.3073::<202102251212.02013.michael@actrix.gen.nz>
+    - 2021-07.3075::<202102251254.09356.michael@actrix.gen.nz>
+    - "2021-07.3343::\n <CAHf=Y_amJVCVrG3uXKacu2NAy5HVQWOCPoKrGNeqDj0WqZGbgQ@mail.gmail.com>"
+    - 2021-07.3346::<1806886.8I5H7Bx1fN@ironhide>
     reference_count: 24
     summary: if on nvidia GPU
   - messages:
-    - 2021-06.3390::<20210224100406.GA22941@suse.de>
+    - 2021-07.3038::<20210224100406.GA22941@suse.de>
     reference_count: 1
     summary: ', PAM and NIS'
 '20210223':
-  announcement: 2021-06.3455::<161435164576.12313.7527610034976707280@go-agent-stagingbot-6>
+  announcement: 2021-07.3103::<161435164576.12313.7527610034976707280@go-agent-stagingbot-6>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210227':
-  announcement: 2021-06.3502::<161470084761.32570.14486424212511492369@go-agent-stagingbot-5>
+  announcement: 2021-07.3150::<161470084761.32570.14486424212511492369@go-agent-stagingbot-5>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210302':
-  announcement: 2021-06.3506::<161480530025.386.11627912749097181024@go-agent-stagingbot-4>
+  announcement: 2021-07.3154::<161480530025.386.11627912749097181024@go-agent-stagingbot-4>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210305':
-  announcement: 2021-06.3550::<161507166916.28007.12318054487278743808@go-agent-stagingbot-4>
+  announcement: 2021-07.3198::<161507166916.28007.12318054487278743808@go-agent-stagingbot-4>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210306':
-  announcement: 2021-06.3564::<161513644687.1804.16839042281982461940@go-agent-stagingbot-7>
+  announcement: 2021-07.3212::<161513644687.1804.16839042281982461940@go-agent-stagingbot-7>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210307':
-  announcement: 2021-06.3569::<161520845057.3422.17492821222156271401@go-agent-stagingbot-7>
+  announcement: 2021-07.3217::<161520845057.3422.17492821222156271401@go-agent-stagingbot-7>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210311':
-  announcement: 2021-06.3643::<161557205491.32096.16775671358060812497@go-agent-stagingbot-7>
+  announcement: 2021-07.3291::<161557205491.32096.16775671358060812497@go-agent-stagingbot-7>
   reference_count: 9
   thread_count: 2
   threads:
   - messages:
-    - 2021-06.3649::<8bac4f31-c866-c4cc-0ec1-c6a7bc8ad01f@bartnick.info>
+    - 2021-07.3297::<8bac4f31-c866-c4cc-0ec1-c6a7bc8ad01f@bartnick.info>
     reference_count: 8
     summary: Server on stress
   - messages:
-    - 2021-06.3645::<d1d2a30af7304934d939a069110afe22f54cff81.camel@suse.de>
+    - 2021-07.3293::<d1d2a30af7304934d939a069110afe22f54cff81.camel@suse.de>
     reference_count: 1
     summary: released!
 '20210312':
-  announcement: 2021-06.3688::<161581686680.31066.12831405544138506881@go-agent-stagingbot-7>
+  announcement: 2021-07.3336::<161581686680.31066.12831405544138506881@go-agent-stagingbot-7>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210315':
-  announcement: 2021-06.3693::<161589604892.11079.7118152568435845773@go-agent-stagingbot-4>
+  announcement: 2021-07.3341::<161589604892.11079.7118152568435845773@go-agent-stagingbot-4>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210316':
-  announcement: 2021-06.3702::<161598964954.24004.1082021054959809509@go-agent-stagingbot-7>
+  announcement: 2021-07.3350::<161598964954.24004.1082021054959809509@go-agent-stagingbot-7>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210317':
-  announcement: 2021-06.3716::<161610846886.19859.10363038166520433592@go-agent-stagingbot-3>
+  announcement: 2021-07.3364::<161610846886.19859.10363038166520433592@go-agent-stagingbot-3>
   reference_count: 2
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.3722::<404050118.mo3NpGmIkc@x1e>
+    - 2021-07.3370::<404050118.mo3NpGmIkc@x1e>
     reference_count: 2
     summary: failed to summarize
 '20210318':
-  announcement: 2021-06.3727::<161619487257.7403.8713412239948162982@go-agent-stagingbot-6>
+  announcement: 2021-07.3375::<161619487257.7403.8713412239948162982@go-agent-stagingbot-6>
   reference_count: 7
   thread_count: 1
   threads:
   - messages:
-    - "2021-06.3731::\n <161632879856.18249.1858902458865706243@mailman3.infra.opensuse.org>"
-    - "2021-06.3733::\n <161634486063.18249.11661872777020639484@mailman3.infra.opensuse.org>"
-    - 2021-06.3734::<20210321120833.409fff93@grover.homelinux.org>
+    - "2021-07.3379::\n <161632879856.18249.1858902458865706243@mailman3.infra.opensuse.org>"
+    - "2021-07.3381::\n <161634486063.18249.11661872777020639484@mailman3.infra.opensuse.org>"
+    - 2021-07.3382::<20210321120833.409fff93@grover.homelinux.org>
     reference_count: 7
     summary: Boot delay due to NetworkManager-wait-online.service [
 '20210319':
-  announcement: 2021-06.3730::<161627407067.13806.13855766615989195041@go-agent-stagingbot-7>
+  announcement: 2021-07.3378::<161627407067.13806.13855766615989195041@go-agent-stagingbot-7>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210320':
-  announcement: 2021-06.3736::<161635684871.3282.18088486369041170457@go-agent-stagingbot-1>
+  announcement: 2021-07.3384::<161635684871.3282.18088486369041170457@go-agent-stagingbot-1>
   reference_count: 4
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.3745::<2148072.aP2KzhtpZS@xrated>
+    - 2021-07.3393::<2148072.aP2KzhtpZS@xrated>
     reference_count: 4
     summary: upgrade of perl (5.32.0 -> 5.32.1) creates some requirement issues
 '20210321':
-  announcement: 2021-06.3763::<161651164498.19397.12313225882694809093@go-agent-stagingbot-6>
+  announcement: 2021-07.3411::<161651164498.19397.12313225882694809093@go-agent-stagingbot-6>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210325':
-  announcement: 2021-06.3784::<161690047961.10515.9738764528842787639@go-agent-stagingbot-2>
+  announcement: 2021-07.3432::<161690047961.10515.9738764528842787639@go-agent-stagingbot-2>
   reference_count: 8
   thread_count: 2
   threads:
   - messages:
-    - 2021-06.3786::<59824e31-1445-6931-e27a-6bcbc2e1a1f6@lsmod.de>
+    - 2021-07.3434::<59824e31-1445-6931-e27a-6bcbc2e1a1f6@lsmod.de>
     reference_count: 3
     summary: ']'
   - messages:
-    - 2021-06.3791::<b4a9f64d-c0ee-befc-ed82-5ecc1290bd8c@suse.cz>
+    - 2021-07.3439::<b4a9f64d-c0ee-befc-ed82-5ecc1290bd8c@suse.cz>
     reference_count: 5
     summary: debuginfod enabled by default now
 '20210329':
-  announcement: 2021-06.3804::<161713447927.14199.2217910554896098581@go-agent-stagingbot-5>
+  announcement: 2021-07.3452::<161713447927.14199.2217910554896098581@go-agent-stagingbot-5>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210330':
-  announcement: 2021-06.3815::<161723524522.19071.5763213713486559121@go-agent-stagingbot-1>
+  announcement: 2021-07.3463::<161723524522.19071.5763213713486559121@go-agent-stagingbot-1>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210401':
-  announcement: 2021-06.3825::<161763124884.3421.10334806091886189444@go-agent-stagingbot-5>
+  announcement: 2021-07.3473::<161763124884.3421.10334806091886189444@go-agent-stagingbot-5>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210406':
-  announcement: 2021-06.3874::<161788686814.17094.4059471363285436165@go-agent-stagingbot-1>
+  announcement: 2021-07.3522::<161788686814.17094.4059471363285436165@go-agent-stagingbot-1>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210408':
-  announcement: 2021-06.3901::<161800565933.21437.1222457863151982975@go-agent-stagingbot-1>
+  announcement: 2021-07.3549::<161800565933.21437.1222457863151982975@go-agent-stagingbot-1>
   reference_count: 12
   thread_count: 2
   threads:
   - messages:
-    - 2021-06.3924::<202104110851.57964.michael@actrix.gen.nz>
+    - 2021-07.3572::<202104110851.57964.michael@actrix.gen.nz>
     reference_count: 2
     summary: proprietary nvidia kernel needs reinstall
   - messages:
-    - 2021-06.3925::<60722DC5.7000608@tlinx.org>
+    - 2021-07.3573::<60722DC5.7000608@tlinx.org>
     reference_count: 10
     summary: error connecting to mirrors? from get to dl.os.org?
 '20210414':
-  announcement: 2021-06.4037::<161849524196.18520.3353649318679259577@go-agent-stagingbot-6>
+  announcement: 2021-07.3685::<161849524196.18520.3353649318679259577@go-agent-stagingbot-6>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210415':
-  announcement: 2021-06.4073::<161863204168.25895.706106237044518477@go-agent-stagingbot-2>
+  announcement: 2021-07.3721::<161863204168.25895.706106237044518477@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210416':
-  announcement: 2021-06.4086::<161875444178.16348.968712654262710180@go-agent-stagingbot-7>
+  announcement: 2021-07.3734::<161875444178.16348.968712654262710180@go-agent-stagingbot-7>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210417':
-  announcement: 2021-06.4090::<161878684301.22676.7702657802136854441@go-agent-stagingbot-4>
+  announcement: 2021-07.3738::<161878684301.22676.7702657802136854441@go-agent-stagingbot-4>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210418':
-  announcement: 2021-06.4104::<161887324289.8612.7525384238137229832@go-agent-stagingbot-6>
+  announcement: 2021-07.3752::<161887324289.8612.7525384238137229832@go-agent-stagingbot-6>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210420':
-  announcement: 2021-06.4137::<161905684654.2898.676191198233124118@go-agent-stagingbot-2>
+  announcement: 2021-07.3785::<161905684654.2898.676191198233124118@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210422':
-  announcement: 2021-06.4144::<161919364348.18652.10810771315657897807@go-agent-stagingbot-6>
+  announcement: 2021-07.3792::<161919364348.18652.10810771315657897807@go-agent-stagingbot-6>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210423':
-  announcement: 2021-06.4145::<161930524381.31700.1510882737790442170@go-agent-stagingbot-1>
+  announcement: 2021-07.3793::<161930524381.31700.1510882737790442170@go-agent-stagingbot-1>
   reference_count: 10
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.4146::<2a6ab6ab-f0be-815e-dcff-057c9dbe593d@stroeder.com>
+    - 2021-07.3794::<2a6ab6ab-f0be-815e-dcff-057c9dbe593d@stroeder.com>
     reference_count: 10
     summary: Firefox 88.0 unusable
 '20210425':
-  announcement: 2021-06.4168::<161946724235.26127.10703617717672307719@go-agent-stagingbot-5>
+  announcement: 2021-07.3816::<161946724235.26127.10703617717672307719@go-agent-stagingbot-5>
   reference_count: 3
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.4173::<f2271173-eee6-96c2-1fb1-03c6ef5036dc@stroeder.com>
+    - 2021-07.3821::<f2271173-eee6-96c2-1fb1-03c6ef5036dc@stroeder.com>
     reference_count: 3
     summary: kernel versions .15 vs. .16
 '20210426':
-  announcement: 2021-06.4180::<161955004561.17736.11911962088542786980@go-agent-stagingbot-2>
+  announcement: 2021-07.3828::<161955004561.17736.11911962088542786980@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210427':
-  announcement: 2021-06.4219::<161965804441.20204.9859281623311626113@go-agent-stagingbot-7>
+  announcement: 2021-07.3867::<161965804441.20204.9859281623311626113@go-agent-stagingbot-7>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210428':
-  announcement: 2021-06.4260::<161978404315.21733.9609359247486391209@go-agent-stagingbot-2>
+  announcement: 2021-07.3908::<161978404315.21733.9609359247486391209@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210429':
-  announcement: 2021-06.4272::<161986684185.25845.5447644518188755417@go-agent-stagingbot-5>
+  announcement: 2021-07.3920::<161986684185.25845.5447644518188755417@go-agent-stagingbot-5>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210430':
-  announcement: 2021-06.4289::<161999284815.21687.16076485194533276613@go-agent-stagingbot-1>
+  announcement: 2021-07.3937::<161999284815.21687.16076485194533276613@go-agent-stagingbot-1>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210502':
-  announcement: 2021-06.4294::<162007204365.21353.18419544721774919268@go-agent-stagingbot-4>
+  announcement: 2021-07.3942::<162007204365.21353.18419544721774919268@go-agent-stagingbot-4>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210504':
-  announcement: 2021-06.4321::<162025210555.14989.18207605706600661901@go-agent-stagingbot-3>
+  announcement: 2021-07.3969::<162025210555.14989.18207605706600661901@go-agent-stagingbot-3>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210505':
-  announcement: 2021-06.4349::<162034563936.31583.15526688963587116923@go-agent-stagingbot-5>
+  announcement: 2021-07.3997::<162034563936.31583.15526688963587116923@go-agent-stagingbot-5>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210506':
-  announcement: 2021-06.4361::<162041404237.17151.4659571706913398627@go-agent-stagingbot-6>
+  announcement: 2021-07.4009::<162041404237.17151.4659571706913398627@go-agent-stagingbot-6>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210507':
-  announcement: 2021-06.4384::<162051124975.13300.5272585073600482015@go-agent-stagingbot-6>
+  announcement: 2021-07.4032::<162051124975.13300.5272585073600482015@go-agent-stagingbot-6>
   reference_count: 1
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.4409::<8eebbbcf-3f26-3705-b732-d496eb2d0328@posteo.de>
+    - 2021-07.4057::<8eebbbcf-3f26-3705-b732-d496eb2d0328@posteo.de>
     reference_count: 1
     summary: thank you
 '20210508':
-  announcement: 2021-06.4420::<162065884801.9149.11520090256824198176@go-agent-stagingbot-7>
+  announcement: 2021-07.4068::<162065884801.9149.11520090256824198176@go-agent-stagingbot-7>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210510':
-  announcement: 2021-06.4440::<162078484087.31732.112718938394684075@go-agent-stagingbot-6>
+  announcement: 2021-07.4088::<162078484087.31732.112718938394684075@go-agent-stagingbot-6>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210511':
-  announcement: 2021-06.4446::<162088564236.29752.14502891934709542785@go-agent-stagingbot-2>
+  announcement: 2021-07.4094::<162088564236.29752.14502891934709542785@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210512':
-  announcement: 2021-06.4476::<162099364121.18491.11580684328943601413@go-agent-stagingbot-5>
+  announcement: 2021-07.4124::<162099364121.18491.11580684328943601413@go-agent-stagingbot-5>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210513':
-  announcement: 2021-06.4495::<162110884319.5295.3867575100955599358@go-agent-stagingbot-2>
+  announcement: 2021-07.4143::<162110884319.5295.3867575100955599358@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210514':
-  announcement: 2021-06.4502::<162116644216.1757.976305445556638529@go-agent-stagingbot-1>
+  announcement: 2021-07.4150::<162116644216.1757.976305445556638529@go-agent-stagingbot-1>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210515':
-  announcement: 2021-06.4508::<162121324543.8279.1375739101292061792@go-agent-stagingbot-2>
+  announcement: 2021-07.4156::<162121324543.8279.1375739101292061792@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210517':
-  announcement: 2021-06.4534::<162137525427.8908.17548711107858689434@go-agent-stagingbot-5>
+  announcement: 2021-07.4182::<162137525427.8908.17548711107858689434@go-agent-stagingbot-5>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210519':
-  announcement: 2021-06.4539::<162154083814.25476.3261936226143313933@go-agent-stagingbot-7>
+  announcement: 2021-07.4187::<162154083814.25476.3261936226143313933@go-agent-stagingbot-7>
   reference_count: 4
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.4544::<202105212028.11751.michael@actrix.gen.nz>
-    - 2021-06.4552::<1a7ddebb-3151-4f56-3ff9-b1c36a40e649@bnavigator.de>
+    - 2021-07.4192::<202105212028.11751.michael@actrix.gen.nz>
+    - 2021-07.4200::<1a7ddebb-3151-4f56-3ff9-b1c36a40e649@bnavigator.de>
     reference_count: 4
     summary: breaks spyder python IDE
 '20210520':
-  announcement: 2021-06.4554::<162165244323.10124.1561320181680002671@go-agent-stagingbot-3>
+  announcement: 2021-07.4202::<162165244323.10124.1561320181680002671@go-agent-stagingbot-3>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210521':
-  announcement: 2021-06.4562::<162173525673.26167.13579738920548628534@go-agent-stagingbot-1>
+  announcement: 2021-07.4210::<162173525673.26167.13579738920548628534@go-agent-stagingbot-1>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210522':
-  announcement: 2021-06.4567::<162181444010.5568.3039116034299023894@go-agent-stagingbot-2>
+  announcement: 2021-07.4215::<162181444010.5568.3039116034299023894@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210524':
-  announcement: 2021-06.4581::<162198724202.5679.11527300035960659244@go-agent-stagingbot-1>
+  announcement: 2021-07.4229::<162198724202.5679.11527300035960659244@go-agent-stagingbot-1>
   reference_count: 1
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.4585::<0af2ab62-97bc-6460-048b-b9cc37bcbaca@bartnick.info>
+    - 2021-07.4233::<0af2ab62-97bc-6460-048b-b9cc37bcbaca@bartnick.info>
     reference_count: 1
     summary: Kernel moaning
 '20210527':
-  announcement: 2021-06.4738::<162256325897.7035.17512328714997822925@go-agent-stagingbot-6>
+  announcement: 2021-07.4386::<162256325897.7035.17512328714997822925@go-agent-stagingbot-6>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210601':
-  announcement: 2021-06.4820::<162267484556.32561.16953028446433948604@go-agent-stagingbot-6>
+  announcement: 2021-07.4468::<162267484556.32561.16953028446433948604@go-agent-stagingbot-6>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210602':
-  announcement: 2021-06.4842::<162280444328.27004.12361136586914789823@go-agent-stagingbot-7>
+  announcement: 2021-07.4490::<162280444328.27004.12361136586914789823@go-agent-stagingbot-7>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210603':
-  announcement: 2021-06.4860::<162289805798.1244.17757940012016478666@go-agent-stagingbot-4>
+  announcement: 2021-07.4508::<162289805798.1244.17757940012016478666@go-agent-stagingbot-4>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210604':
-  announcement: 2021-06.4886::<162295204582.29744.14178344219951195864@go-agent-stagingbot-4>
+  announcement: 2021-07.4534::<162295204582.29744.14178344219951195864@go-agent-stagingbot-4>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210605':
-  announcement: 2021-06.4912::<162307085167.32123.15607307806511425822@go-agent-stagingbot-3>
+  announcement: 2021-07.4560::<162307085167.32123.15607307806511425822@go-agent-stagingbot-3>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210609':
-  announcement: 2021-06.5003::<162341284023.31859.14968471343771043001@go-agent-stagingbot-6>
+  announcement: 2021-07.4651::<162341284023.31859.14968471343771043001@go-agent-stagingbot-6>
   reference_count: 7
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.5007::<20210611143105.49932f6a.olaf@aepfle.de>
+    - 2021-07.4655::<20210611143105.49932f6a.olaf@aepfle.de>
     reference_count: 7
     summary: sshd_config.rpmsave
 '20210612':
-  announcement: 2021-06.5015::<162366844153.9999.9082232383422939173@go-agent-stagingbot-4>
+  announcement: 2021-07.4663::<162366844153.9999.9082232383422939173@go-agent-stagingbot-4>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210613':
-  announcement: 2021-06.5039::<162371163727.3077.18028238154166268965@go-agent-stagingbot-6>
+  announcement: 2021-07.4687::<162371163727.3077.18028238154166268965@go-agent-stagingbot-6>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210614':
-  announcement: 2021-06.5052::<162379804016.20218.13417875586984940576@go-agent-stagingbot-1>
+  announcement: 2021-07.4700::<162379804016.20218.13417875586984940576@go-agent-stagingbot-1>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210615':
-  announcement: 2021-06.5076::<162388085237.26312.1190756869564952420@go-agent-stagingbot-7>
+  announcement: 2021-07.4724::<162388085237.26312.1190756869564952420@go-agent-stagingbot-7>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210616':
-  announcement: 2021-06.5095::<162402124447.23733.3948376052601457181@go-agent-stagingbot-3>
+  announcement: 2021-07.4743::<162402124447.23733.3948376052601457181@go-agent-stagingbot-3>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210618':
-  announcement: 2021-06.5104::<162415442418.24343.16941343285250506337@go-agent-stagingbot-7>
+  announcement: 2021-07.4752::<162415442418.24343.16941343285250506337@go-agent-stagingbot-7>
   reference_count: 1
   thread_count: 1
   threads:
   - messages:
-    - 2021-06.5105::<509db92b-3247-585e-8987-8c3bd268d36c@earthlink.net>
+    - 2021-07.4753::<509db92b-3247-585e-8987-8c3bd268d36c@earthlink.net>
     reference_count: 1
     summary: fubar SDDM
 '20210620':
-  announcement: 2021-06.5122::<162430924601.10104.3169420215834867095@go-agent-stagingbot-6>
+  announcement: 2021-07.4770::<162430924601.10104.3169420215834867095@go-agent-stagingbot-6>
   reference_count: 5
   thread_count: 1
   threads:
   - messages:
-    - "2021-06.5124::\n <162431981836.23225.5593070655125856679@mailman3.infra.opensuse.org>"
-    - "2021-06.5125::\n <162431981844.23225.14444623527500933855@mailman3.infra.opensuse.org>"
-    - 2021-06.5132::<22ee35f9-32c5-db7f-cb2b-3519a8913526@baywinds.org>
-    - 2021-06.5134::<77d3fd46-fd39-8fb9-eadd-600dcad35ba0@gmail.com>
+    - "2021-07.4772::\n <162431981836.23225.5593070655125856679@mailman3.infra.opensuse.org>"
+    - "2021-07.4773::\n <162431981844.23225.14444623527500933855@mailman3.infra.opensuse.org>"
+    - 2021-07.4780::<22ee35f9-32c5-db7f-cb2b-3519a8913526@baywinds.org>
+    - 2021-07.4782::<77d3fd46-fd39-8fb9-eadd-600dcad35ba0@gmail.com>
     reference_count: 5
     summary: failed to summarize
 '20210621':
-  announcement: 2021-06.5138::<162439562439.14044.11795560298691351429@go-agent-stagingbot-1>
+  announcement: 2021-07.4786::<162439562439.14044.11795560298691351429@go-agent-stagingbot-1>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210622':
-  announcement: 2021-06.5147::<162448564740.14485.6688676701793590834@go-agent-stagingbot-5>
+  announcement: 2021-07.4795::<162448564740.14485.6688676701793590834@go-agent-stagingbot-5>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210623':
-  announcement: 2021-06.5153::<162457566166.23093.14169565114281506811@go-agent-stagingbot-2>
+  announcement: 2021-07.4801::<162457566166.23093.14169565114281506811@go-agent-stagingbot-2>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210625':
-  announcement: 2021-06.5170::<162474485238.17468.1628789357932689804@go-agent-stagingbot-5>
+  announcement: 2021-07.4818::<162474485238.17468.1628789357932689804@go-agent-stagingbot-5>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210626':
-  announcement: 2021-06.5176::<162483124861.25698.12394637902090890837@go-agent-stagingbot-4>
+  announcement: 2021-07.4824::<162483124861.25698.12394637902090890837@go-agent-stagingbot-4>
   reference_count: 0
   thread_count: 0
   threads: []
 '20210628':
-  announcement: 2021-06.5197::<162499324915.3026.9950462759458528994@go-agent-stagingbot-6>
+  announcement: 2021-07.4845::<162499324915.3026.9950462759458528994@go-agent-stagingbot-6>
   reference_count: 0
   thread_count: 0
   threads: []
