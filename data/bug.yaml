@@ -60160,6 +60160,12 @@
   status: NEW
   summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
 '20210628':
+- component: Kubic
+  create_time: 20210701T04:17:00
+  id: 1187897
+  resolution: ''
+  status: NEW
+  summary: Running kubelet1.21 on MicroOS Kubic crashes with Bus error
 - component: Other
   create_time: 20210630T20:56:00
   id: 1187888
