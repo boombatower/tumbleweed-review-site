@@ -12227,8 +12227,8 @@
 - component: Other
   create_time: 20180908T22:19:00
   id: 1107761
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: recomended packages for mcomix
 - component: KDE Applications
   create_time: 20180908T12:50:00
@@ -22260,8 +22260,8 @@
 - component: Other
   create_time: 20190420T20:52:00
   id: 1132947
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: mcomix no longer executes in Tumbleweed 20190419
 - component: Kernel
   create_time: 20190420T17:13:00
@@ -36141,8 +36141,8 @@
 - component: Other
   create_time: 20200209T10:34:00
   id: 1163204
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: Bemenu not working on wayland
 '20200211':
 - component: Kernel
