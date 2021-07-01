@@ -60246,6 +60246,19 @@
   status: NEW
   summary: exfatlabel (of exfatprogs) cannot set labels starting with '-'
 '20210629':
+- component: Kernel
+  create_time: 20210701T15:17:00
+  id: 1187926
+  resolution: ''
+  status: NEW
+  summary: unable to mount a nfs file system exported from a machine running kernel
+    5.13
+- component: Basesystem
+  create_time: 20210701T15:05:00
+  id: 1187925
+  resolution: ''
+  status: NEW
+  summary: any tpm2 command kills tpm2-abrmd service
 - component: Other
   create_time: 20210701T10:34:00
   id: 1187910
@@ -60261,8 +60274,8 @@
 - component: Network
   create_time: 20210701T09:41:00
   id: 1187906
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: /etc/dhcp/dhclient.d/chrony.sh references non-existent /usr/share/chrony-helper
 - component: Bootloader
   create_time: 20210701T08:24:00
