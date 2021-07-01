@@ -51731,6 +51731,12 @@
   resolution: UPSTREAM
   status: RESOLVED
   summary: Dolphin handbook requires Konqueror handbook
+- component: Documentation
+  create_time: 20210113T20:45:00
+  id: 1180903
+  resolution: ''
+  status: NEW
+  summary: official tumbleweed update recommendation
 - component: KDE Workspace (Plasma)
   create_time: 20210113T19:55:00
   id: 1180902
