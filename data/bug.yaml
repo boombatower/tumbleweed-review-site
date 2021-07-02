@@ -54482,9 +54482,10 @@
 - component: X.Org
   create_time: 20210305T11:16:00
   id: 1183082
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[Build 20210304] vncviewer: Authentication failure: protocol error'
+  resolution: ''
+  status: REOPENED
+  summary: '[Build 20210304] Xvnc in inst-sys crashes due to incomplete crypto-policies
+    installation'
 - component: Other
   create_time: 20210305T09:40:00
   id: 1183078
