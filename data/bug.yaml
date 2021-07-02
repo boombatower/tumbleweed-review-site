@@ -26866,8 +26866,8 @@
 - component: Other
   create_time: 20190727T14:46:00
   id: 1143125
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: On i386, systemd-vconsole-setup fails due to MemoryDenyWriteExecute=yes
     used in systemd-udevd.service
 - component: Basesystem
