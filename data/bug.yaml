@@ -5265,8 +5265,8 @@
 - component: Kernel
   create_time: 20180309T17:16:00
   id: 1084742
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: Multiple CIFS mounts produce significant I/O anomalies under kernel versions
     4.13, 4.14 and 4.15
 - component: KDE Workspace (Plasma)
@@ -50883,8 +50883,8 @@
 - component: Samba
   create_time: 20201227T20:07:00
   id: 1180388
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Removing samba-client results in "Failed to disable unit: Unit file cifs.service
     does not exist."'
 - component: KDE Applications
@@ -54228,8 +54228,8 @@
 - component: Samba
   create_time: 20210228T19:16:00
   id: 1182830
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: samba.spec fixes around systemd and requires
 - component: Other
   create_time: 20210228T16:21:00
