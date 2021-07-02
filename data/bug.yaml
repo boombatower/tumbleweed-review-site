@@ -39679,8 +39679,8 @@
 - component: Kernel
   create_time: 20200421T03:20:00
   id: 1169996
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: TP-Link UE300 ethernet adpater (r8152) very slow on receive since kernel
     5.4
 '20200422':
@@ -60258,6 +60258,18 @@
   status: NEW
   summary: exfatlabel (of exfatprogs) cannot set labels starting with '-'
 '20210629':
+- component: KDE Workspace (Plasma)
+  create_time: 20210702T09:42:00
+  id: 1187956
+  resolution: ''
+  status: NEW
+  summary: Notification badge for electron apps not available in task manager panel
+- component: KDE Applications
+  create_time: 20210702T08:16:00
+  id: 1187951
+  resolution: ''
+  status: NEW
+  summary: Contacts synchronization not working for google
 - component: Upgrade Problems
   create_time: 20210701T22:06:00
   id: 1187940
