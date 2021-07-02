@@ -60165,6 +60165,12 @@
   resolution: ''
   status: NEW
   summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
+- component: Other
+  create_time: 20210626T19:10:00
+  id: 1187732
+  resolution: ''
+  status: NEW
+  summary: '0ad: undefined symbol: _ZN2JS16PrepareZoneForGCEPNS_4ZoneE, version mozjs_78'
 '20210628':
 - component: Kernel
   create_time: 20210628T22:01:00
