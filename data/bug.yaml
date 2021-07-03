@@ -60377,6 +60377,12 @@
   status: NEW
   summary: ksh is not usable because wrong link to /etc/alternatives version
 '20210701':
+- component: Java
+  create_time: 20210703T19:39:00
+  id: 1187991
+  resolution: ''
+  status: NEW
+  summary: shellscript /usr/bin/clj broken
 - component: Development
   create_time: 20210703T18:02:00
   id: 1187990
