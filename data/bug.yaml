@@ -32298,8 +32298,8 @@
 - component: Other
   create_time: 20191125T23:05:00
   id: 1157734
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: solarwolf cannot be installed because libmikmod is missing
 - component: Other
   create_time: 20191125T18:19:00
@@ -32415,8 +32415,8 @@
 - component: Other
   create_time: 20191127T14:43:00
   id: 1157903
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: steam requires libraries scheduled for removal from NetworkManager
 - component: YaST2
   create_time: 20191127T13:08:00
@@ -32453,8 +32453,8 @@
 - component: Other
   create_time: 20191127T01:29:00
   id: 1157832
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Steam : incorrect distribution name reporting due to missing lsb-release'
 '20191128':
 - component: Basesystem
@@ -51783,8 +51783,8 @@
 - component: Other
   create_time: 20210114T17:44:00
   id: 1180949
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: pdfarranger does not start
 - component: Basesystem
   create_time: 20210114T16:01:00
@@ -54452,8 +54452,8 @@
 - component: X11 Applications
   create_time: 20210305T16:19:00
   id: 1183104
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Openarena segfault on launch
 - component: YaST2
   create_time: 20210305T12:51:00
@@ -54590,8 +54590,8 @@
 - component: X11 Applications
   create_time: 20210309T21:15:00
   id: 1183253
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: Urban Terror segfault on launch
 - component: Virtualization:Other
   create_time: 20210309T18:27:00
