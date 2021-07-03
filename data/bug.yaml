@@ -8474,8 +8474,8 @@
 - component: X11 Applications
   create_time: 20180517T14:20:00
   id: 1093723
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: darktable usermanual is in french
 - component: GNOME
   create_time: 20180517T13:08:00
@@ -60377,6 +60377,12 @@
   status: NEW
   summary: ksh is not usable because wrong link to /etc/alternatives version
 '20210701':
+- component: Development
+  create_time: 20210703T18:02:00
+  id: 1187990
+  resolution: ''
+  status: NEW
+  summary: build cannot decide for libz.so.1
 - component: KDE Workspace (Plasma)
   create_time: 20210703T13:59:00
   id: 1187989
