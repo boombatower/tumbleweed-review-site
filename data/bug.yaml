@@ -60377,48 +60377,6 @@
   status: NEW
   summary: ksh is not usable because wrong link to /etc/alternatives version
 '20210701':
-- component: Java
-  create_time: 20210703T19:39:00
-  id: 1187991
-  resolution: ''
-  status: NEW
-  summary: shellscript /usr/bin/clj broken
-- component: Development
-  create_time: 20210703T18:02:00
-  id: 1187990
-  resolution: ''
-  status: NEW
-  summary: build cannot decide for libz.so.1
-- component: KDE Workspace (Plasma)
-  create_time: 20210703T13:59:00
-  id: 1187989
-  resolution: ''
-  status: NEW
-  summary: plasma error when shutdown with only external screen active
-- component: YaST2
-  create_time: 20210703T13:28:00
-  id: 1187987
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210702] openQA test fails in enable_autologin'
-- component: KDE Workspace (Plasma)
-  create_time: 20210702T13:51:00
-  id: 1187971
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210701] Upgrading 42.3 using KDE Live runs into timeout'
-- component: KDE Workspace (Plasma)
-  create_time: 20210702T09:42:00
-  id: 1187956
-  resolution: ''
-  status: NEW
-  summary: Notification badge for electron apps not available in task manager panel
-- component: KDE Applications
-  create_time: 20210702T08:16:00
-  id: 1187951
-  resolution: ''
-  status: NEW
-  summary: Contacts synchronization not working for google
 - component: Upgrade Problems
   create_time: 20210701T22:06:00
   id: 1187940
@@ -60481,3 +60439,46 @@
   resolution: ''
   status: NEW
   summary: Running kubelet1.21 on MicroOS Kubic crashes with Bus error
+'20210702':
+- component: Java
+  create_time: 20210703T19:39:00
+  id: 1187991
+  resolution: ''
+  status: NEW
+  summary: shellscript /usr/bin/clj broken
+- component: Development
+  create_time: 20210703T18:02:00
+  id: 1187990
+  resolution: ''
+  status: NEW
+  summary: build cannot decide for libz.so.1
+- component: KDE Workspace (Plasma)
+  create_time: 20210703T13:59:00
+  id: 1187989
+  resolution: ''
+  status: NEW
+  summary: plasma error when shutdown with only external screen active
+- component: YaST2
+  create_time: 20210703T13:28:00
+  id: 1187987
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210702] openQA test fails in enable_autologin'
+- component: KDE Workspace (Plasma)
+  create_time: 20210702T13:51:00
+  id: 1187971
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210701] Upgrading 42.3 using KDE Live runs into timeout'
+- component: KDE Workspace (Plasma)
+  create_time: 20210702T09:42:00
+  id: 1187956
+  resolution: ''
+  status: NEW
+  summary: Notification badge for electron apps not available in task manager panel
+- component: KDE Applications
+  create_time: 20210702T08:16:00
+  id: 1187951
+  resolution: ''
+  status: NEW
+  summary: Contacts synchronization not working for google
