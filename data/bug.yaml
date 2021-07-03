@@ -51123,7 +51123,7 @@
   create_time: 20201231T02:37:00
   id: 1180469
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Steam should recommend steamtricks instead of having a hard dependency
 '20210101':
 - component: Kernel
@@ -60377,6 +60377,18 @@
   status: NEW
   summary: ksh is not usable because wrong link to /etc/alternatives version
 '20210701':
+- component: KDE Workspace (Plasma)
+  create_time: 20210703T13:59:00
+  id: 1187989
+  resolution: ''
+  status: NEW
+  summary: plasma error when shutdown with only external screen active
+- component: YaST2
+  create_time: 20210703T13:28:00
+  id: 1187987
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210702] openQA test fails in enable_autologin'
 - component: KDE Workspace (Plasma)
   create_time: 20210702T13:51:00
   id: 1187971
