@@ -60440,6 +60440,12 @@
   status: NEW
   summary: Running kubelet1.21 on MicroOS Kubic crashes with Bus error
 '20210702':
+- component: X11 Applications
+  create_time: 20210704T08:14:00
+  id: 1187992
+  resolution: ''
+  status: NEW
+  summary: Missing schema for cinnamon display
 - component: Java
   create_time: 20210703T19:39:00
   id: 1187991
