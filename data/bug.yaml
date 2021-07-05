@@ -58921,7 +58921,7 @@
   create_time: 20210602T10:19:00
   id: 1186735
   resolution: ''
-  status: REOPENED
+  status: CONFIRMED
   summary: openscap says everything is "nonapplicable"
 - component: KDE Workspace (Plasma)
   create_time: 20210602T09:59:00
@@ -60440,6 +60440,31 @@
   status: NEW
   summary: Running kubelet1.21 on MicroOS Kubic crashes with Bus error
 '20210702':
+- component: KDE Workspace (Plasma)
+  create_time: 20210702T13:51:00
+  id: 1187971
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210701] Upgrading 42.3 using KDE Live runs into timeout'
+- component: KDE Workspace (Plasma)
+  create_time: 20210702T09:42:00
+  id: 1187956
+  resolution: ''
+  status: NEW
+  summary: Notification badge for electron apps not available in task manager panel
+- component: KDE Applications
+  create_time: 20210702T08:16:00
+  id: 1187951
+  resolution: ''
+  status: NEW
+  summary: Contacts synchronization not working for google
+'20210703':
+- component: Other
+  create_time: 20210705T09:12:00
+  id: 1188002
+  resolution: ''
+  status: CONFIRMED
+  summary: Reports of Massive Memory Leak in Chromium
 - component: Other
   create_time: 20210705T05:21:00
   id: 1187996
@@ -60476,21 +60501,3 @@
   resolution: ''
   status: NEW
   summary: '[Build 20210702] openQA test fails in enable_autologin'
-- component: KDE Workspace (Plasma)
-  create_time: 20210702T13:51:00
-  id: 1187971
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210701] Upgrading 42.3 using KDE Live runs into timeout'
-- component: KDE Workspace (Plasma)
-  create_time: 20210702T09:42:00
-  id: 1187956
-  resolution: ''
-  status: NEW
-  summary: Notification badge for electron apps not available in task manager panel
-- component: KDE Applications
-  create_time: 20210702T08:16:00
-  id: 1187951
-  resolution: ''
-  status: NEW
-  summary: Contacts synchronization not working for google
