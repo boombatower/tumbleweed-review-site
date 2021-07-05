@@ -51319,8 +51319,8 @@
 - component: Other
   create_time: 20210106T14:01:00
   id: 1180614
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: GIMP GEGL operation missing!
 - component: Development
   create_time: 20210106T12:13:00
@@ -60440,6 +60440,12 @@
   status: NEW
   summary: Running kubelet1.21 on MicroOS Kubic crashes with Bus error
 '20210702':
+- component: Other
+  create_time: 20210705T05:21:00
+  id: 1187996
+  resolution: ''
+  status: NEW
+  summary: Qwt library is broken by C++20 code
 - component: X11 Applications
   create_time: 20210704T08:14:00
   id: 1187992
