@@ -54946,8 +54946,8 @@
 - component: GNOME
   create_time: 20210312T21:07:00
   id: 1183469
-  resolution: ''
-  status: NEW
+  resolution: UPSTREAM
+  status: RESOLVED
   summary: HPLIP utilities failing with default GNOME (Wayland) but work with "GNOME
     on Xorg"
 - component: Other
@@ -57206,8 +57206,8 @@
 - component: Other
   create_time: 20210427T15:58:00
   id: 1185362
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: fwupd fails to start due to missing dependencies causing a timeout
 - component: Development
   create_time: 20210427T14:03:00
@@ -59552,8 +59552,8 @@
 - component: Development
   create_time: 20210613T21:28:00
   id: 1187273
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: Internal  compiler error  max0 function in old code
 - component: KDE Workspace (Plasma)
   create_time: 20210613T17:09:00
