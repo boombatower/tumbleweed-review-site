@@ -60460,6 +60460,12 @@
   summary: Contacts synchronization not working for google
 '20210703':
 - component: Other
+  create_time: 20210705T20:38:00
+  id: 1188020
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'duplicity 0.8.19: ''Could not unlock the acquired lock opened on `%s`'''
+- component: Other
   create_time: 20210705T09:12:00
   id: 1188002
   resolution: ''
