@@ -60504,6 +60504,6 @@
 - component: YaST2
   create_time: 20210703T13:28:00
   id: 1187987
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210702] openQA test fails in enable_autologin'
