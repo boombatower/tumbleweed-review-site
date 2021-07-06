@@ -15138,8 +15138,8 @@
 - component: Basesystem
   create_time: 20181109T14:32:00
   id: 1115434
-  resolution: ''
-  status: NEW
+  resolution: WONTFIX
+  status: RESOLVED
   summary: 'apt-cacher-ng: migrate from cron to systemd timers'
 - component: Basesystem
   create_time: 20181109T14:14:00
@@ -60460,6 +60460,12 @@
   summary: Contacts synchronization not working for google
 '20210703':
 - component: Other
+  create_time: 20210706T09:48:00
+  id: 1188031
+  resolution: ''
+  status: NEW
+  summary: 'Non-oss repo: steam dependency issue with libdrm 32bit libs'
+- component: Other
   create_time: 20210705T20:38:00
   id: 1188020
   resolution: FIXED
@@ -60505,5 +60511,5 @@
   create_time: 20210703T13:28:00
   id: 1187987
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: '[Build 20210702] openQA test fails in enable_autologin'
