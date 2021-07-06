@@ -60459,11 +60459,17 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: Virtualization:Other
+  create_time: 20210706T15:35:00
+  id: 1188045
+  resolution: ''
+  status: NEW
+  summary: Include vboximg-mount in VirtualBox
 - component: Other
   create_time: 20210706T13:00:00
   id: 1188040
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: spack load does not work
 - component: Other
   create_time: 20210706T09:48:00
