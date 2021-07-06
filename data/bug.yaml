@@ -60182,8 +60182,8 @@
 - component: Sound
   create_time: 20210628T20:28:00
   id: 1187797
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: No sound through headphones after tumbleweed update
 - component: MicroOS
   create_time: 20210628T20:13:00
