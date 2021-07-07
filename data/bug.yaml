@@ -60460,10 +60460,16 @@
   summary: Contacts synchronization not working for google
 '20210703':
 - component: Basesystem
+  create_time: 20210707T10:43:00
+  id: 1188081
+  resolution: ''
+  status: NEW
+  summary: Switch to NTFS-3G "Advanced"
+- component: Basesystem
   create_time: 20210707T09:43:00
   id: 1188076
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[linux-glibc-devel 5.13] gcc10 fails to build'
 - component: MicroOS
   create_time: 20210707T09:18:00
