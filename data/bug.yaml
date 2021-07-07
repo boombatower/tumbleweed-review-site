@@ -60459,6 +60459,18 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: WSL
+  create_time: 20210707T07:48:00
+  id: 1188068
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210705][WSL] YaST2 firstboot prompts user to define root password'
+- component: Kernel
+  create_time: 20210707T06:35:00
+  id: 1188064
+  resolution: ''
+  status: NEW
+  summary: Bluetooth not working, seems not load the firmware.
 - component: Kernel
   create_time: 20210707T02:03:00
   id: 1188059
