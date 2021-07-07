@@ -60144,8 +60144,8 @@
 - component: Containers
   create_time: 20210625T07:26:00
   id: 1187704
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Staging] runc1.0.0 breaks podman'
 - component: Containers
   create_time: 20210625T07:24:00
