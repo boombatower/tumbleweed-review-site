@@ -55569,8 +55569,8 @@
 - component: Kernel
   create_time: 20210321T17:22:00
   id: 1183839
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'kernel 5.11.{4,6} RIP: 0010:kobject_put+0x19/0x1d0 on Dell Precision M7510'
 - component: Kernel
   create_time: 20210321T16:47:00
