@@ -60342,8 +60342,8 @@
 - component: Sound
   create_time: 20210629T12:00:00
   id: 1187825
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Wrong/"Missing"  firmware for Creative ZxR audio card with compressed kernel-firmware
 - component: Kernel
   create_time: 20210629T11:50:00
@@ -60459,7 +60459,25 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
-- component: WSL
+- component: Basesystem
+  create_time: 20210707T09:43:00
+  id: 1188076
+  resolution: ''
+  status: NEW
+  summary: '[linux-glibc-devel 5.13] gcc10 fails to build'
+- component: MicroOS
+  create_time: 20210707T09:18:00
+  id: 1188075
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: motd displayed twice on screen
+- component: KDE Applications
+  create_time: 20210707T09:04:00
+  id: 1188074
+  resolution: ''
+  status: NEW
+  summary: Konsole has no menu entry to remove toolbar
+- component: YaST2
   create_time: 20210707T07:48:00
   id: 1188068
   resolution: ''
