@@ -55508,8 +55508,8 @@
 - component: Development
   create_time: 20210322T21:52:00
   id: 1183878
-  resolution: ''
-  status: REOPENED
+  resolution: FIXED
+  status: RESOLVED
   summary: mariadb_config emits garbage -L parameter
 - component: Kernel
   create_time: 20210322T19:33:00
@@ -59507,8 +59507,8 @@
 - component: Basesystem
   create_time: 20210609T07:27:00
   id: 1187091
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: pam-config fails to create a new service config file
 - component: Other
   create_time: 20210609T06:57:00
@@ -60440,11 +60440,11 @@
   status: NEW
   summary: Running kubelet1.21 on MicroOS Kubic crashes with Bus error
 '20210702':
-- component: KDE Workspace (Plasma)
+- component: Installation
   create_time: 20210702T13:51:00
   id: 1187971
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210701] Upgrading 42.3 using KDE Live runs into timeout'
 - component: KDE Workspace (Plasma)
   create_time: 20210702T09:42:00
@@ -60459,6 +60459,30 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: Patterns
+  create_time: 20210707T17:27:00
+  id: 1188093
+  resolution: ''
+  status: NEW
+  summary: Please only use stable branch from Cinnamon DE in Tumbleweed
+- component: Virtualization:Other
+  create_time: 20210707T15:02:00
+  id: 1188089
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210706] virtualbox seems to fail to boot VM'
+- component: Other
+  create_time: 20210707T14:59:00
+  id: 1188088
+  resolution: ''
+  status: NEW
+  summary: 000product/openSUSE-ftp-ftp-riscv64.kiwi fails to build
+- component: Basesystem
+  create_time: 20210707T14:13:00
+  id: 1188085
+  resolution: ''
+  status: NEW
+  summary: The package tpm2-tools do not have tests properly configured
 - component: Basesystem
   create_time: 20210707T10:43:00
   id: 1188081
