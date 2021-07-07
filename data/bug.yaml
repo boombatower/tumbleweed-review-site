@@ -60194,8 +60194,8 @@
 - component: Sound
   create_time: 20210628T16:04:00
   id: 1187788
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: audacity is searching for jack via cmake files
 - component: Basesystem
   create_time: 20210628T12:56:00
@@ -60459,6 +60459,12 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: Kernel
+  create_time: 20210707T02:03:00
+  id: 1188059
+  resolution: ''
+  status: NEW
+  summary: iwlwifi crash at iwl_trans_pcie_grab_nic_access after resuming from hibernate
 - component: Virtualization:Other
   create_time: 20210706T15:35:00
   id: 1188045
