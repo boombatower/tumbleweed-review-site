@@ -60459,6 +60459,25 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: Other
+  create_time: 20210708T07:53:00
+  id: 1188105
+  resolution: ''
+  status: NEW
+  summary: virtualbox after last updates of tumbleweed did not run vbox machines
+- component: Live Medium
+  create_time: 20210708T06:41:00
+  id: 1188098
+  resolution: ''
+  status: NEW
+  summary: Include iio-sensor-proxy in live image and install
+- component: Network
+  create_time: 20210708T06:25:00
+  id: 1188097
+  resolution: ''
+  status: NEW
+  summary: 'sslh broken by upgrade to libconfig11-1.7.3 (sslh bug, fix exists): At
+    least one target protocol must be specified'
 - component: Patterns
   create_time: 20210707T17:27:00
   id: 1188093
@@ -60492,8 +60511,8 @@
 - component: Basesystem
   create_time: 20210707T09:43:00
   id: 1188076
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[linux-glibc-devel 5.13] gcc10 fails to build'
 - component: MicroOS
   create_time: 20210707T09:18:00
@@ -60511,7 +60530,7 @@
   create_time: 20210707T07:48:00
   id: 1188068
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[Build 20210705][WSL] YaST2 firstboot prompts user to define root password'
 - component: Kernel
   create_time: 20210707T06:35:00
