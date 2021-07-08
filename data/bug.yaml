@@ -60459,6 +60459,12 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: GNOME
+  create_time: 20210708T14:35:00
+  id: 1188132
+  resolution: ''
+  status: NEW
+  summary: duplicity version is broken causing deja-dup to fail
 - component: Basesystem
   create_time: 20210708T13:32:00
   id: 1188127
