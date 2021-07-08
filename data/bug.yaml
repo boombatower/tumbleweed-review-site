@@ -50322,8 +50322,8 @@
 - component: Other
   create_time: 20201209T11:34:00
   id: 1179828
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: 7z trouble with adding file like "- Readme -.txt"
 - component: GNOME
   create_time: 20201209T09:06:00
@@ -60208,7 +60208,7 @@
   id: 1187761
   resolution: ''
   status: NEW
-  summary: brcmfmac problem
+  summary: '[RPi3] brcmfmac problem'
 - component: Security
   create_time: 20210628T09:31:00
   id: 1187759
@@ -60393,8 +60393,8 @@
 - component: Basesystem
   create_time: 20210701T15:05:00
   id: 1187925
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: any tpm2 command kills tpm2-abrmd service
 - component: Other
   create_time: 20210701T10:34:00
@@ -60490,11 +60490,11 @@
   resolution: ''
   status: NEW
   summary: virtualbox after last updates of tumbleweed did not run vbox machines
-- component: Live Medium
+- component: KDE Applications
   create_time: 20210708T06:41:00
   id: 1188098
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Include iio-sensor-proxy in live image and install
 - component: Network
   create_time: 20210708T06:25:00
