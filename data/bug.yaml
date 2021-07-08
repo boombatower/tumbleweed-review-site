@@ -55509,7 +55509,7 @@
   create_time: 20210322T21:52:00
   id: 1183878
   resolution: FIXED
-  status: RESOLVED
+  status: VERIFIED
   summary: mariadb_config emits garbage -L parameter
 - component: Kernel
   create_time: 20210322T19:33:00
@@ -60164,7 +60164,7 @@
   create_time: 20210626T20:12:00
   id: 1187733
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'gnome-boxes: error while loading shared libraries: libgtk-frdp-0.1.so'
 - component: Other
   create_time: 20210626T19:10:00
@@ -60459,6 +60459,18 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: Basesystem
+  create_time: 20210708T13:32:00
+  id: 1188127
+  resolution: ''
+  status: NEW
+  summary: tzdata.zi not packaged
+- component: KDE Workspace (Plasma)
+  create_time: 20210708T12:55:00
+  id: 1188122
+  resolution: ''
+  status: NEW
+  summary: Latest update to TW breaks Kwallet integration to Kmail
 - component: Other
   create_time: 20210708T10:03:00
   id: 1188111
