@@ -60349,7 +60349,7 @@
   create_time: 20210629T11:50:00
   id: 1187824
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Tumbleweed kernel does not support FIPS
 - component: Bootloader
   create_time: 20210629T09:29:00
@@ -60493,7 +60493,7 @@
   create_time: 20210708T10:03:00
   id: 1188111
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: '[fmt 8.0] ceph fails to build'
 - component: MicroOS
   create_time: 20210708T09:23:00
