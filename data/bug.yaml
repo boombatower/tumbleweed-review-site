@@ -60459,6 +60459,18 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: Kernel
+  create_time: 20210708T17:57:00
+  id: 1188142
+  resolution: ''
+  status: NEW
+  summary: Kernel 5.13.1 does not boot due to bad shim signature
+- component: Basesystem
+  create_time: 20210708T17:30:00
+  id: 1188141
+  resolution: ''
+  status: NEW
+  summary: 'lvm2: double free or corruption with invalid LVM_SYSTEM_HOME breaks guestfs-tools'
 - component: GNOME
   create_time: 20210708T14:35:00
   id: 1188132
