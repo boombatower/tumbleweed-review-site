@@ -58045,8 +58045,8 @@
 - component: Kernel
   create_time: 20210510T11:54:00
   id: 1185845
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Add dtb-apple for kernel 5.13
 - component: Other
   create_time: 20210510T10:54:00
@@ -60173,7 +60173,7 @@
   status: NEW
   summary: '0ad: undefined symbol: _ZN2JS16PrepareZoneForGCEPNS_4ZoneE, version mozjs_78'
 '20210628':
-- component: Kernel
+- component: Installation
   create_time: 20210628T22:01:00
   id: 1187798
   resolution: ''
@@ -60417,8 +60417,8 @@
 - component: Bootloader
   create_time: 20210701T08:24:00
   id: 1187904
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: '[RPi3] serial console not working correctly in U-Boot'
 - component: Kernel
   create_time: 20210701T07:59:00
@@ -60460,6 +60460,31 @@
   summary: Contacts synchronization not working for google
 '20210703':
 - component: Other
+  create_time: 20210708T10:03:00
+  id: 1188111
+  resolution: ''
+  status: NEW
+  summary: '[fmt 8.0] ceph fails to build'
+- component: MicroOS
+  create_time: 20210708T09:23:00
+  id: 1188110
+  resolution: ''
+  status: NEW
+  summary: pkcon system-upgrade leads to unbootable system with kernel upgrade
+- component: Virtualization:Other
+  create_time: 20210708T08:22:00
+  id: 1188108
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: VirtualBox critical error after zypper dup to 20210706 snapshot
+- component: Kernel
+  create_time: 20210708T08:12:00
+  id: 1188106
+  resolution: ''
+  status: NEW
+  summary: 'kernel 5.13.0 no audio - snd_hda_intel  0000:00:1f.3: No response from
+    codec, disabling MSI: last cmd=0x200f0000'
+- component: Virtualization:Other
   create_time: 20210708T07:53:00
   id: 1188105
   resolution: ''
@@ -60478,7 +60503,7 @@
   status: NEW
   summary: 'sslh broken by upgrade to libconfig11-1.7.3 (sslh bug, fix exists): At
     least one target protocol must be specified'
-- component: Patterns
+- component: Other
   create_time: 20210707T17:27:00
   id: 1188093
   resolution: ''
