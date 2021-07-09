@@ -53256,7 +53256,7 @@
   id: 1181970
   resolution: ''
   status: IN_PROGRESS
-  summary: Can't restart service because masked services
+  summary: Can't restart service because some mount units have been masked
 - component: KDE Workspace (Plasma)
   create_time: 20210209T01:46:00
   id: 1181968
@@ -60493,13 +60493,13 @@
   create_time: 20210708T14:35:00
   id: 1188132
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: duplicity version is broken causing deja-dup to fail
 - component: Basesystem
   create_time: 20210708T13:32:00
   id: 1188127
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: tzdata.zi not packaged
 - component: KDE Workspace (Plasma)
   create_time: 20210708T12:55:00
@@ -60510,8 +60510,8 @@
 - component: Other
   create_time: 20210708T10:03:00
   id: 1188111
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[fmt 8.0] ceph fails to build'
 - component: MicroOS
   create_time: 20210708T09:23:00
