@@ -26125,12 +26125,6 @@
   resolution: INVALID
   status: RESOLVED
   summary: Ship appstream metadata with the Nvidia driver
-- component: Security
-  create_time: 20190705T20:53:00
-  id: 1140566
-  resolution: ''
-  status: NEW
-  summary: 'firewalld: rich masquerading rules don''t work'
 - component: Virtualization:Other
   create_time: 20190705T15:36:00
   id: 1140550
@@ -60492,8 +60486,8 @@
 - component: Sound
   create_time: 20210708T23:23:00
   id: 1188146
-  resolution: ''
-  status: NEW
+  resolution: MOVED
+  status: RESOLVED
   summary: Request for a free implementation of aptX be added
 - component: Kernel
   create_time: 20210708T17:57:00
@@ -60578,8 +60572,8 @@
 - component: Virtualization:Other
   create_time: 20210707T15:02:00
   id: 1188089
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: '[Build 20210706] virtualbox seems to fail to boot VM'
 - component: Other
   create_time: 20210707T14:59:00
