@@ -54056,8 +54056,8 @@
 - component: LibreOffice
   create_time: 20210224T11:40:00
   id: 1182669
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: creating new form crashes libreoffice Base
 - component: Installation
   create_time: 20210224T11:31:00
@@ -60471,11 +60471,11 @@
   resolution: ''
   status: NEW
   summary: Dracut emergency shell when rootflags is used in the kernel command line
-- component: X11 Applications
+- component: X.Org
   create_time: 20210709T10:44:00
   id: 1188165
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Current Microsoft Teams windows are rendered invisible
 - component: YaST2
   create_time: 20210709T07:28:00
@@ -60620,8 +60620,8 @@
 - component: YaST2
   create_time: 20210707T07:48:00
   id: 1188068
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: '[Build 20210705][WSL] YaST2 firstboot prompts user to define root password'
 - component: Kernel
   create_time: 20210707T06:35:00
