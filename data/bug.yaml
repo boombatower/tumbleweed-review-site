@@ -60459,6 +60459,12 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: Sound
+  create_time: 20210708T23:23:00
+  id: 1188146
+  resolution: ''
+  status: NEW
+  summary: Request for a free implementation of aptX be added
 - component: Kernel
   create_time: 20210708T17:57:00
   id: 1188142
