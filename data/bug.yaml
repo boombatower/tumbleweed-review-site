@@ -22569,7 +22569,7 @@
 - component: LibreOffice
   create_time: 20190423T19:30:00
   id: 1133169
-  resolution: FIXED
+  resolution: UPSTREAM
   status: RESOLVED
   summary: 'Libreoffice: Area bitmap lost after save as docx'
 - component: Firefox
@@ -60453,6 +60453,12 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: Security
+  create_time: 20210709T21:32:00
+  id: 1188184
+  resolution: ''
+  status: NEW
+  summary: '[SELinux] plenty of errors on building custom module'
 - component: Network
   create_time: 20210709T20:03:00
   id: 1188183
