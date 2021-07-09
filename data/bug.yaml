@@ -60459,6 +60459,12 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: Kernel
+  create_time: 20210709T01:55:00
+  id: 1188147
+  resolution: ''
+  status: NEW
+  summary: MEDIATEK 7961 device got no wifi after reboot, no firmware loaded.
 - component: Sound
   create_time: 20210708T23:23:00
   id: 1188146
