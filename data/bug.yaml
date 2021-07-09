@@ -22569,8 +22569,8 @@
 - component: LibreOffice
   create_time: 20190423T19:30:00
   id: 1133169
-  resolution: ''
-  status: CONFIRMED
+  resolution: FIXED
+  status: RESOLVED
   summary: 'Libreoffice: Area bitmap lost after save as docx'
 - component: Firefox
   create_time: 20190423T18:16:00
@@ -46280,8 +46280,8 @@
 - component: Kernel
   create_time: 20200911T18:47:00
   id: 1176458
-  resolution: WORKSFORME
-  status: RESOLVED
+  resolution: ''
+  status: REOPENED
   summary: 'upowerd: did not recognise USB path - please report'
 - component: Other
   create_time: 20200911T14:49:00
@@ -60076,8 +60076,8 @@
 - component: Other
   create_time: 20210622T03:58:00
   id: 1187578
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Some Steam Source games need glibc-locale-base-32bit
 '20210623':
 - component: YaST2
@@ -60453,6 +60453,18 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: Network
+  create_time: 20210709T20:03:00
+  id: 1188183
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openssh'
+- component: GNOME
+  create_time: 20210709T18:32:00
+  id: 1188182
+  resolution: ''
+  status: NEW
+  summary: GDM 100% CPU after first login on Raspberry Pi 4B
 - component: KVM
   create_time: 20210709T12:05:00
   id: 1188171
