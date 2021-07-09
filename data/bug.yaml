@@ -27234,8 +27234,8 @@
 - component: LibreOffice
   create_time: 20190805T17:11:00
   id: 1144361
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: LibreOffice slow start due to FTP access failure
 - component: Other
   create_time: 20190805T15:21:00
@@ -57144,8 +57144,8 @@
 - component: LibreOffice
   create_time: 20210426T19:07:00
   id: 1185307
-  resolution: ''
-  status: REOPENED
+  resolution: FEATURE
+  status: RESOLVED
   summary: 'Calc: pasting comment clears cell contents'
 - component: Development
   create_time: 20210426T16:59:00
@@ -60459,6 +60459,24 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: KVM
+  create_time: 20210709T12:05:00
+  id: 1188171
+  resolution: ''
+  status: NEW
+  summary: '[kubevirt] Subsequent migrations fail'
+- component: Basesystem
+  create_time: 20210709T11:27:00
+  id: 1188169
+  resolution: ''
+  status: NEW
+  summary: Dracut emergency shell when rootflags is used in the kernel command line
+- component: X11 Applications
+  create_time: 20210709T10:44:00
+  id: 1188165
+  resolution: ''
+  status: NEW
+  summary: Current Microsoft Teams windows are rendered invisible
 - component: YaST2
   create_time: 20210709T07:28:00
   id: 1188157
@@ -60493,7 +60511,7 @@
   create_time: 20210708T14:35:00
   id: 1188132
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: duplicity version is broken causing deja-dup to fail
 - component: Basesystem
   create_time: 20210708T13:32:00
