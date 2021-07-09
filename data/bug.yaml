@@ -60469,7 +60469,7 @@
   create_time: 20210709T10:44:00
   id: 1188165
   resolution: ''
-  status: IN_PROGRESS
+  status: NEW
   summary: Current Microsoft Teams windows are rendered invisible
 - component: YaST2
   create_time: 20210709T07:28:00
