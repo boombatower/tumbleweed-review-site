@@ -28343,8 +28343,8 @@
 - component: Other
   create_time: 20190826T14:31:00
   id: 1148183
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: Calibre is not installable due to missing libicu >= 4.4
 - component: Development
   create_time: 20190826T13:44:00
@@ -60453,6 +60453,18 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: Kernel
+  create_time: 20210710T05:19:00
+  id: 1188187
+  resolution: ''
+  status: NEW
+  summary: Running any type of web-content clocks the CPU
+- component: AutoYaST
+  create_time: 20210710T04:48:00
+  id: 1188186
+  resolution: ''
+  status: NEW
+  summary: Query parameter in autoyast url never gets appended
 - component: Security
   create_time: 20210709T21:32:00
   id: 1188184
@@ -60598,7 +60610,7 @@
   id: 1188088
   resolution: ''
   status: NEW
-  summary: 000product/openSUSE-ftp-ftp-riscv64.kiwi fails to build
+  summary: product-builder breaks all product builds
 - component: Basesystem
   create_time: 20210707T14:13:00
   id: 1188085
