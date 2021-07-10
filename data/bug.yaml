@@ -60487,8 +60487,8 @@
   create_time: 20210709T10:44:00
   id: 1188165
   resolution: ''
-  status: NEW
-  summary: Current Microsoft Teams windows are rendered invisible
+  status: IN_PROGRESS
+  summary: 'nVidia/Optimus: Microsoft Teams and Skype windows are rendered invisible'
 - component: YaST2
   create_time: 20210709T07:28:00
   id: 1188157
