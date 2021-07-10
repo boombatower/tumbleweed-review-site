@@ -60453,6 +60453,12 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: Virtualization:Other
+  create_time: 20210710T19:34:00
+  id: 1188189
+  resolution: ''
+  status: NEW
+  summary: After an update to kernel 5.13.0, VirtualBox guest does not start
 - component: Kernel
   create_time: 20210710T05:19:00
   id: 1188187
