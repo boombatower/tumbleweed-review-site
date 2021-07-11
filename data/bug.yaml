@@ -60453,6 +60453,18 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: Other
+  create_time: 20210711T18:03:00
+  id: 1188194
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210710] openQA test fails in gnuhealth_setup'
+- component: Kernel
+  create_time: 20210711T16:15:00
+  id: 1188192
+  resolution: ''
+  status: NEW
+  summary: Bad page map in process cc1plus  pte:96fd0215 pmd:81d31000
 - component: GNOME
   create_time: 20210711T01:49:00
   id: 1188190
