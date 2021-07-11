@@ -60453,6 +60453,12 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: Sound
+  create_time: 20210711T21:13:00
+  id: 1188196
+  resolution: ''
+  status: NEW
+  summary: Volume reset on reboot
 - component: KDE Applications
   create_time: 20210711T18:23:00
   id: 1188195
