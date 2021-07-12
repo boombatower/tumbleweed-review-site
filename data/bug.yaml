@@ -60453,208 +60453,75 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
-- component: Usability
-  create_time: 20210712T08:16:00
-  id: 1188200
+- component: Java
+  create_time: 20210703T19:39:00
+  id: 1187991
   resolution: ''
   status: NEW
-  summary: waybar undefined symbol
+  summary: shellscript /usr/bin/clj broken
+- component: Development
+  create_time: 20210703T18:02:00
+  id: 1187990
+  resolution: ''
+  status: NEW
+  summary: build cannot decide for libz.so.1
+- component: KDE Workspace (Plasma)
+  create_time: 20210703T13:59:00
+  id: 1187989
+  resolution: ''
+  status: NEW
+  summary: plasma error when shutdown with only external screen active
 - component: YaST2
-  create_time: 20210712T02:28:00
-  id: 1188199
-  resolution: ''
-  status: NEW
-  summary: distribution-logos-openSUSE-icons is showing as unneeded in yast2 software
-    manager
+  create_time: 20210703T13:28:00
+  id: 1187987
+  resolution: FIXED
+  status: VERIFIED
+  summary: '[Build 20210702] openQA test fails in enable_autologin'
+'20210704':
 - component: Other
-  create_time: 20210712T00:54:00
-  id: 1188198
-  resolution: INVALID
+  create_time: 20210705T20:38:00
+  id: 1188020
+  resolution: FIXED
   status: RESOLVED
-  summary: Podman Rootless not working wrong docker.sock linked to podman.sock
-- component: KDE Applications
-  create_time: 20210711T22:38:00
-  id: 1188197
-  resolution: DUPLICATE
-  status: RESOLVED
-  summary: kosnole  - missing Settings -> Toolbars Shown options
-- component: Sound
-  create_time: 20210711T21:13:00
-  id: 1188196
-  resolution: ''
-  status: NEW
-  summary: Volume reset on reboot
-- component: KDE Applications
-  create_time: 20210711T18:23:00
-  id: 1188195
-  resolution: ''
-  status: NEW
-  summary: KMail cannot connect to POP3 server
+  summary: 'duplicity 0.8.19: ''Could not unlock the acquired lock opened on `%s`'''
 - component: Other
-  create_time: 20210711T18:03:00
-  id: 1188194
-  resolution: ''
-  status: NEW
-  summary: '[Build 20210710] openQA test fails in gnuhealth_setup'
-- component: Kernel
-  create_time: 20210711T16:15:00
-  id: 1188192
-  resolution: ''
-  status: NEW
-  summary: Bad page map in process cc1plus  pte:96fd0215 pmd:81d31000
-- component: GNOME
-  create_time: 20210711T01:49:00
-  id: 1188190
-  resolution: ''
-  status: IN_PROGRESS
-  summary: Gnome-shell core dumped messages are generated after user re-login
-- component: Virtualization:Other
-  create_time: 20210710T19:34:00
-  id: 1188189
-  resolution: ''
-  status: NEW
-  summary: After an update to kernel 5.13.0, VirtualBox guest does not start
-- component: Kernel
-  create_time: 20210710T05:19:00
-  id: 1188187
-  resolution: ''
-  status: NEW
-  summary: Running any type of web-content clocks the CPU
-- component: AutoYaST
-  create_time: 20210710T04:48:00
-  id: 1188186
-  resolution: ''
-  status: NEW
-  summary: Query parameter in autoyast url never gets appended
-- component: Security
-  create_time: 20210709T21:32:00
-  id: 1188184
-  resolution: ''
-  status: NEW
-  summary: '[SELinux] plenty of errors on building custom module'
-- component: Network
-  create_time: 20210709T20:03:00
-  id: 1188183
-  resolution: ''
-  status: NEW
-  summary: 'Out of date package: openssh'
-- component: GNOME
-  create_time: 20210709T18:32:00
-  id: 1188182
-  resolution: ''
-  status: NEW
-  summary: GDM 100% CPU after first login on Raspberry Pi 4B
-- component: KVM
-  create_time: 20210709T12:05:00
-  id: 1188171
+  create_time: 20210705T09:12:00
+  id: 1188002
   resolution: ''
   status: CONFIRMED
-  summary: '[kubevirt] Subsequent migrations fail'
-- component: Basesystem
-  create_time: 20210709T11:27:00
-  id: 1188169
-  resolution: ''
-  status: NEW
-  summary: Dracut emergency shell when rootflags is used in the kernel command line
-- component: X11 3rd Party Driver
-  create_time: 20210709T10:44:00
-  id: 1188165
-  resolution: ''
-  status: IN_PROGRESS
-  summary: 'nVidia/Optimus: PRIME Render Offload - Microsoft Teams and Skype windows
-    are rendered invisible'
-- component: YaST2
-  create_time: 20210709T07:28:00
-  id: 1188157
-  resolution: ''
-  status: NEW
-  summary: '[yast instserver] missing final line break in SLP''s reg file'
-- component: Kernel
-  create_time: 20210709T01:55:00
-  id: 1188147
-  resolution: ''
-  status: NEW
-  summary: MEDIATEK 7961 device got no wifi after reboot, no firmware loaded.
-- component: Sound
-  create_time: 20210708T23:23:00
-  id: 1188146
-  resolution: MOVED
-  status: RESOLVED
-  summary: Request for a free implementation of aptX be added
-- component: Kernel
-  create_time: 20210708T17:57:00
-  id: 1188142
-  resolution: ''
-  status: NEW
-  summary: Kernel 5.13.1 does not boot due to bad shim signature
-- component: Basesystem
-  create_time: 20210708T17:30:00
-  id: 1188141
-  resolution: ''
-  status: NEW
-  summary: 'lvm2: double free or corruption with invalid LVM_SYSTEM_HOME breaks guestfs-tools'
-- component: GNOME
-  create_time: 20210708T14:35:00
-  id: 1188132
-  resolution: ''
-  status: IN_PROGRESS
-  summary: duplicity version is broken causing deja-dup to fail
-- component: Basesystem
-  create_time: 20210708T13:32:00
-  id: 1188127
-  resolution: FIXED
-  status: RESOLVED
-  summary: tzdata.zi not packaged
-- component: KDE Workspace (Plasma)
-  create_time: 20210708T12:55:00
-  id: 1188122
-  resolution: ''
-  status: NEW
-  summary: Latest update to TW breaks Kwallet integration to Kmail
+  summary: Reports of Massive Memory Leak in Chromium
 - component: Other
-  create_time: 20210708T10:03:00
-  id: 1188111
-  resolution: FIXED
-  status: RESOLVED
-  summary: '[fmt 8.0] ceph fails to build'
-- component: MicroOS
-  create_time: 20210708T09:23:00
-  id: 1188110
+  create_time: 20210705T05:21:00
+  id: 1187996
   resolution: ''
   status: NEW
-  summary: pkcon system-upgrade leads to unbootable system with kernel upgrade
+  summary: Qwt library is broken by C++20 code
+- component: X11 Applications
+  create_time: 20210704T08:14:00
+  id: 1187992
+  resolution: ''
+  status: NEW
+  summary: Missing schema for cinnamon display
+'20210706':
 - component: Virtualization:Other
-  create_time: 20210708T08:22:00
-  id: 1188108
-  resolution: DUPLICATE
+  create_time: 20210706T15:35:00
+  id: 1188045
+  resolution: ''
+  status: NEW
+  summary: Include vboximg-mount in VirtualBox
+- component: Other
+  create_time: 20210706T13:00:00
+  id: 1188040
+  resolution: ''
+  status: IN_PROGRESS
+  summary: spack load does not work
+- component: Other
+  create_time: 20210706T09:48:00
+  id: 1188031
+  resolution: WORKSFORME
   status: RESOLVED
-  summary: VirtualBox critical error after zypper dup to 20210706 snapshot
-- component: Kernel
-  create_time: 20210708T08:12:00
-  id: 1188106
-  resolution: ''
-  status: NEW
-  summary: 'kernel 5.13.0 no audio - snd_hda_intel  0000:00:1f.3: No response from
-    codec, disabling MSI: last cmd=0x200f0000'
-- component: Virtualization:Other
-  create_time: 20210708T07:53:00
-  id: 1188105
-  resolution: ''
-  status: NEW
-  summary: virtualbox after last updates of tumbleweed did not run vbox machines
-- component: KDE Applications
-  create_time: 20210708T06:41:00
-  id: 1188098
-  resolution: FIXED
-  status: RESOLVED
-  summary: Include iio-sensor-proxy in live image and install
-- component: Network
-  create_time: 20210708T06:25:00
-  id: 1188097
-  resolution: ''
-  status: NEW
-  summary: 'sslh broken by upgrade to libconfig11-1.7.3 (sslh bug, fix exists): At
-    least one target protocol must be specified'
+  summary: 'Non-oss repo: steam dependency issue with libdrm 32bit libs'
+'20210707':
 - component: Other
   create_time: 20210707T17:27:00
   id: 1188093
@@ -60721,69 +60588,214 @@
   resolution: ''
   status: NEW
   summary: iwlwifi crash at iwl_trans_pcie_grab_nic_access after resuming from hibernate
-- component: Virtualization:Other
-  create_time: 20210706T15:35:00
-  id: 1188045
+'20210708':
+- component: Sound
+  create_time: 20210708T23:23:00
+  id: 1188146
+  resolution: MOVED
+  status: RESOLVED
+  summary: Request for a free implementation of aptX be added
+- component: Kernel
+  create_time: 20210708T17:57:00
+  id: 1188142
   resolution: ''
   status: NEW
-  summary: Include vboximg-mount in VirtualBox
-- component: Other
-  create_time: 20210706T13:00:00
-  id: 1188040
+  summary: Kernel 5.13.1 does not boot due to bad shim signature
+- component: Basesystem
+  create_time: 20210708T17:30:00
+  id: 1188141
+  resolution: ''
+  status: NEW
+  summary: 'lvm2: double free or corruption with invalid LVM_SYSTEM_DIR breaks guestfs-tools'
+- component: GNOME
+  create_time: 20210708T14:35:00
+  id: 1188132
   resolution: ''
   status: IN_PROGRESS
-  summary: spack load does not work
-- component: Other
-  create_time: 20210706T09:48:00
-  id: 1188031
-  resolution: WORKSFORME
-  status: RESOLVED
-  summary: 'Non-oss repo: steam dependency issue with libdrm 32bit libs'
-- component: Other
-  create_time: 20210705T20:38:00
-  id: 1188020
+  summary: duplicity version is broken causing deja-dup to fail
+- component: Basesystem
+  create_time: 20210708T13:32:00
+  id: 1188127
   resolution: FIXED
   status: RESOLVED
-  summary: 'duplicity 0.8.19: ''Could not unlock the acquired lock opened on `%s`'''
+  summary: tzdata.zi not packaged
+- component: KDE Workspace (Plasma)
+  create_time: 20210708T12:55:00
+  id: 1188122
+  resolution: ''
+  status: NEW
+  summary: Latest update to TW breaks Kwallet integration to Kmail
 - component: Other
-  create_time: 20210705T09:12:00
-  id: 1188002
+  create_time: 20210708T10:03:00
+  id: 1188111
+  resolution: FIXED
+  status: RESOLVED
+  summary: '[fmt 8.0] ceph fails to build'
+- component: MicroOS
+  create_time: 20210708T09:23:00
+  id: 1188110
+  resolution: ''
+  status: NEW
+  summary: pkcon system-upgrade leads to unbootable system with kernel upgrade
+- component: Virtualization:Other
+  create_time: 20210708T08:22:00
+  id: 1188108
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: VirtualBox critical error after zypper dup to 20210706 snapshot
+- component: Kernel
+  create_time: 20210708T08:12:00
+  id: 1188106
+  resolution: ''
+  status: NEW
+  summary: 'kernel 5.13.0 no audio - snd_hda_intel  0000:00:1f.3: No response from
+    codec, disabling MSI: last cmd=0x200f0000'
+- component: Virtualization:Other
+  create_time: 20210708T07:53:00
+  id: 1188105
+  resolution: ''
+  status: NEW
+  summary: virtualbox after last updates of tumbleweed did not run vbox machines
+- component: KDE Applications
+  create_time: 20210708T06:41:00
+  id: 1188098
+  resolution: FIXED
+  status: RESOLVED
+  summary: Include iio-sensor-proxy in live image and install
+- component: Network
+  create_time: 20210708T06:25:00
+  id: 1188097
+  resolution: ''
+  status: NEW
+  summary: 'sslh broken by upgrade to libconfig11-1.7.3 (sslh bug, fix exists): At
+    least one target protocol must be specified'
+'20210709':
+- component: Security
+  create_time: 20210709T21:32:00
+  id: 1188184
+  resolution: ''
+  status: NEW
+  summary: '[SELinux] plenty of errors on building custom module'
+- component: Network
+  create_time: 20210709T20:03:00
+  id: 1188183
+  resolution: ''
+  status: NEW
+  summary: 'Out of date package: openssh'
+- component: GNOME
+  create_time: 20210709T18:32:00
+  id: 1188182
+  resolution: ''
+  status: NEW
+  summary: GDM 100% CPU after first login on Raspberry Pi 4B
+- component: KVM
+  create_time: 20210709T12:05:00
+  id: 1188171
   resolution: ''
   status: CONFIRMED
-  summary: Reports of Massive Memory Leak in Chromium
-- component: Other
-  create_time: 20210705T05:21:00
-  id: 1187996
+  summary: '[kubevirt] Subsequent migrations fail'
+- component: Basesystem
+  create_time: 20210709T11:27:00
+  id: 1188169
   resolution: ''
   status: NEW
-  summary: Qwt library is broken by C++20 code
-- component: X11 Applications
-  create_time: 20210704T08:14:00
-  id: 1187992
+  summary: Dracut emergency shell when rootflags is used in the kernel command line
+- component: X11 3rd Party Driver
+  create_time: 20210709T10:44:00
+  id: 1188165
   resolution: ''
-  status: NEW
-  summary: Missing schema for cinnamon display
-- component: Java
-  create_time: 20210703T19:39:00
-  id: 1187991
-  resolution: ''
-  status: NEW
-  summary: shellscript /usr/bin/clj broken
-- component: Development
-  create_time: 20210703T18:02:00
-  id: 1187990
-  resolution: ''
-  status: NEW
-  summary: build cannot decide for libz.so.1
-- component: KDE Workspace (Plasma)
-  create_time: 20210703T13:59:00
-  id: 1187989
-  resolution: ''
-  status: NEW
-  summary: plasma error when shutdown with only external screen active
+  status: IN_PROGRESS
+  summary: 'nVidia/Optimus: PRIME Render Offload - Microsoft Teams and Skype windows
+    are rendered invisible'
 - component: YaST2
-  create_time: 20210703T13:28:00
-  id: 1187987
-  resolution: FIXED
-  status: VERIFIED
-  summary: '[Build 20210702] openQA test fails in enable_autologin'
+  create_time: 20210709T07:28:00
+  id: 1188157
+  resolution: ''
+  status: NEW
+  summary: '[yast instserver] missing final line break in SLP''s reg file'
+- component: Kernel
+  create_time: 20210709T01:55:00
+  id: 1188147
+  resolution: ''
+  status: NEW
+  summary: MEDIATEK 7961 device got no wifi after reboot, no firmware loaded.
+'20210710':
+- component: Installation
+  create_time: 20210712T12:35:00
+  id: 1188213
+  resolution: ''
+  status: NEW
+  summary: '[rpi4] u-boot confused by connected m.2 SSD'
+- component: Usability
+  create_time: 20210712T08:16:00
+  id: 1188200
+  resolution: ''
+  status: NEW
+  summary: waybar undefined symbol
+- component: YaST2
+  create_time: 20210712T02:28:00
+  id: 1188199
+  resolution: ''
+  status: NEW
+  summary: distribution-logos-openSUSE-icons is showing as unneeded in yast2 software
+    manager
+- component: Other
+  create_time: 20210712T00:54:00
+  id: 1188198
+  resolution: INVALID
+  status: RESOLVED
+  summary: Podman Rootless not working wrong docker.sock linked to podman.sock
+- component: KDE Applications
+  create_time: 20210711T22:38:00
+  id: 1188197
+  resolution: DUPLICATE
+  status: RESOLVED
+  summary: kosnole  - missing Settings -> Toolbars Shown options
+- component: Sound
+  create_time: 20210711T21:13:00
+  id: 1188196
+  resolution: ''
+  status: NEW
+  summary: Volume reset on reboot
+- component: KDE Applications
+  create_time: 20210711T18:23:00
+  id: 1188195
+  resolution: ''
+  status: NEW
+  summary: KMail cannot connect to POP3 server
+- component: Other
+  create_time: 20210711T18:03:00
+  id: 1188194
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210710] openQA test fails in gnuhealth_setup'
+- component: Kernel
+  create_time: 20210711T16:15:00
+  id: 1188192
+  resolution: INVALID
+  status: RESOLVED
+  summary: Bad page map in process cc1plus  pte:96fd0215 pmd:81d31000
+- component: GNOME
+  create_time: 20210711T01:49:00
+  id: 1188190
+  resolution: ''
+  status: IN_PROGRESS
+  summary: Gnome-shell core dumped messages are generated after user re-login
+- component: Virtualization:Other
+  create_time: 20210710T19:34:00
+  id: 1188189
+  resolution: ''
+  status: NEW
+  summary: After an update to kernel 5.13.0, VirtualBox guest does not start
+- component: Kernel
+  create_time: 20210710T05:19:00
+  id: 1188187
+  resolution: ''
+  status: NEW
+  summary: Running any type of web-content clocks the CPU
+- component: AutoYaST
+  create_time: 20210710T04:48:00
+  id: 1188186
+  resolution: ''
+  status: NEW
+  summary: Query parameter in autoyast url never gets appended
