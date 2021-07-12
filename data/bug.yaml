@@ -60720,6 +60720,12 @@
   status: NEW
   summary: MEDIATEK 7961 device got no wifi after reboot, no firmware loaded.
 '20210710':
+- component: Other
+  create_time: 20210712T15:40:00
+  id: 1188224
+  resolution: ''
+  status: NEW
+  summary: 'iio-sensor-proxy cannot rotate screen: orientation undefined in monitor-sensor'
 - component: Installation
   create_time: 20210712T12:35:00
   id: 1188213
