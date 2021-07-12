@@ -60453,6 +60453,12 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: Other
+  create_time: 20210712T00:54:00
+  id: 1188198
+  resolution: ''
+  status: NEW
+  summary: Podman Rootless not working wrong docker.sock linked to podman.sock
 - component: KDE Applications
   create_time: 20210711T22:38:00
   id: 1188197
@@ -60487,7 +60493,7 @@
   create_time: 20210711T01:49:00
   id: 1188190
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Gnome-shell core dumped messages are generated after user re-login
 - component: Virtualization:Other
   create_time: 20210710T19:34:00
