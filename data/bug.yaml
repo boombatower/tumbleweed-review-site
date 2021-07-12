@@ -59758,7 +59758,7 @@
   create_time: 20210615T08:17:00
   id: 1187332
   resolution: ''
-  status: CONFIRMED
+  status: REOPENED
   summary: zypper ignores the ordering constraints specified by OrderWithRequires
 '20210616':
 - component: Firefox
@@ -60151,8 +60151,8 @@
 - component: libzypp
   create_time: 20210627T12:23:00
   id: 1187738
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: purge-kernels fails with  kernels from Kernel:HEAD
 - component: GNOME
   create_time: 20210626T20:12:00
@@ -60453,6 +60453,12 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: Usability
+  create_time: 20210712T08:16:00
+  id: 1188200
+  resolution: ''
+  status: NEW
+  summary: waybar undefined symbol
 - component: YaST2
   create_time: 20210712T02:28:00
   id: 1188199
