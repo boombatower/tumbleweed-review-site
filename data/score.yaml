@@ -2159,5 +2159,23 @@
   score: 98
   stability_level: stable
 '20210703':
-  score: 94
+  score: 99
   stability_level: stable
+'20210704':
+  score: 99
+  stability_level: stable
+'20210706':
+  score: 84
+  stability_level: pending
+'20210707':
+  score: 77
+  stability_level: pending
+'20210708':
+  score: 74
+  stability_level: pending
+'20210709':
+  score: 74
+  stability_level: pending
+'20210710':
+  score: 73
+  stability_level: pending
