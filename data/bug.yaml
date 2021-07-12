@@ -60453,6 +60453,12 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
+- component: KDE Applications
+  create_time: 20210711T22:38:00
+  id: 1188197
+  resolution: ''
+  status: NEW
+  summary: kosnole  - missing Settings -> Toolbars Shown options
 - component: Sound
   create_time: 20210711T21:13:00
   id: 1188196
