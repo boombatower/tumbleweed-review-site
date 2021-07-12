@@ -60454,6 +60454,13 @@
   summary: Contacts synchronization not working for google
 '20210703':
 - component: Other
+  create_time: 20210712T02:28:00
+  id: 1188199
+  resolution: ''
+  status: NEW
+  summary: distribution-logos-openSUSE-icons is showing as unneeded in yast2 software
+    manager
+- component: Other
   create_time: 20210712T00:54:00
   id: 1188198
   resolution: ''
@@ -60723,8 +60730,8 @@
 - component: Other
   create_time: 20210706T09:48:00
   id: 1188031
-  resolution: ''
-  status: NEW
+  resolution: WORKSFORME
+  status: RESOLVED
   summary: 'Non-oss repo: steam dependency issue with libdrm 32bit libs'
 - component: Other
   create_time: 20210705T20:38:00
