@@ -60453,7 +60453,7 @@
   status: NEW
   summary: Contacts synchronization not working for google
 '20210703':
-- component: Other
+- component: YaST2
   create_time: 20210712T02:28:00
   id: 1188199
   resolution: ''
