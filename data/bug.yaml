@@ -15132,8 +15132,8 @@
 - component: Basesystem
   create_time: 20181109T14:34:00
   id: 1115435
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: 'atop: migrate from cron to systemd timers'
 - component: Basesystem
   create_time: 20181109T14:32:00
@@ -60469,14 +60469,14 @@
 - component: Other
   create_time: 20210712T00:54:00
   id: 1188198
-  resolution: ''
-  status: NEW
+  resolution: INVALID
+  status: RESOLVED
   summary: Podman Rootless not working wrong docker.sock linked to podman.sock
 - component: KDE Applications
   create_time: 20210711T22:38:00
   id: 1188197
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: kosnole  - missing Settings -> Toolbars Shown options
 - component: Sound
   create_time: 20210711T21:13:00
@@ -60548,7 +60548,7 @@
   create_time: 20210709T12:05:00
   id: 1188171
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: '[kubevirt] Subsequent migrations fail'
 - component: Basesystem
   create_time: 20210709T11:27:00
