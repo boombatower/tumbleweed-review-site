@@ -40262,7 +40262,7 @@
   create_time: 20200505T17:15:00
   id: 1171222
   resolution: ''
-  status: CONFIRMED
+  status: IN_PROGRESS
   summary: '[RPi4] GRUB kernel image/initrd load slowdown after adding USB keyboard
     support'
 - component: KDE Applications
@@ -60495,7 +60495,7 @@
   id: 1187996
   resolution: ''
   status: NEW
-  summary: Qwt library is broken by C++20 code
+  summary: Qwt6 library is broken by C++20 code
 - component: X11 Applications
   create_time: 20210704T08:14:00
   id: 1187992
@@ -60605,13 +60605,13 @@
   create_time: 20210708T17:30:00
   id: 1188141
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: 'lvm2: double free or corruption with invalid LVM_SYSTEM_DIR breaks guestfs-tools'
 - component: GNOME
   create_time: 20210708T14:35:00
   id: 1188132
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: duplicity version is broken causing deja-dup to fail
 - component: Basesystem
   create_time: 20210708T13:32:00
@@ -60739,6 +60739,12 @@
   status: NEW
   summary: Query parameter in autoyast url never gets appended
 '20210711':
+- component: Apache
+  create_time: 20210713T09:14:00
+  id: 1188242
+  resolution: ''
+  status: NEW
+  summary: Disable TRACE method
 - component: Basesystem
   create_time: 20210713T07:10:00
   id: 1188235
@@ -60773,9 +60779,9 @@
   create_time: 20210712T08:16:00
   id: 1188200
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: waybar undefined symbol
-- component: YaST2
+- component: Basesystem
   create_time: 20210712T02:28:00
   id: 1188199
   resolution: ''
