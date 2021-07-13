@@ -60342,8 +60342,8 @@
 - component: Kernel
   create_time: 20210629T11:50:00
   id: 1187824
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: Tumbleweed kernel does not support FIPS
 - component: Bootloader
   create_time: 20210629T09:29:00
@@ -60739,6 +60739,19 @@
   status: NEW
   summary: Query parameter in autoyast url never gets appended
 '20210711':
+- component: Kernel
+  create_time: 20210713T13:31:00
+  id: 1188270
+  resolution: ''
+  status: NEW
+  summary: '[RPi3] kernel: lan78xx 1-1.1.1:1.0 eth0: No phy led trigger registered
+    for speed(-1)'
+- component: Development
+  create_time: 20210713T13:08:00
+  id: 1188265
+  resolution: FIXED
+  status: RESOLVED
+  summary: 'libproxy:  system libmodman is no longer required'
 - component: Apache
   create_time: 20210713T09:14:00
   id: 1188242
