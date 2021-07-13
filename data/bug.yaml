@@ -60654,7 +60654,7 @@
   create_time: 20210708T07:53:00
   id: 1188105
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: virtualbox after last updates of tumbleweed did not run vbox machines
 - component: KDE Applications
   create_time: 20210708T06:41:00
@@ -60723,8 +60723,8 @@
 - component: Virtualization:Other
   create_time: 20210710T19:34:00
   id: 1188189
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: After an update to kernel 5.13.0, VirtualBox guest does not start
 - component: Kernel
   create_time: 20210710T05:19:00
@@ -60739,6 +60739,18 @@
   status: NEW
   summary: Query parameter in autoyast url never gets appended
 '20210711':
+- component: Other
+  create_time: 20210713T15:29:00
+  id: 1188283
+  resolution: ''
+  status: NEW
+  summary: 'vim: skeleton files loaded twice'
+- component: Development
+  create_time: 20210713T14:38:00
+  id: 1188277
+  resolution: ''
+  status: NEW
+  summary: '"Out of memory" during build of libecpint (s390x)'
 - component: Kernel
   create_time: 20210713T13:31:00
   id: 1188270
@@ -60761,8 +60773,8 @@
 - component: Basesystem
   create_time: 20210713T07:10:00
   id: 1188235
-  resolution: ''
-  status: NEW
+  resolution: FIXED
+  status: RESOLVED
   summary: mutt gpg doesnt work out of the box with gpg
 - component: Bootloader
   create_time: 20210713T06:58:00
