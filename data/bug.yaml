@@ -60739,6 +60739,13 @@
   status: IN_PROGRESS
   summary: Query parameter in autoyast url never gets appended
 '20210711':
+- component: Patterns
+  create_time: 20210713T19:26:00
+  id: 1188288
+  resolution: ''
+  status: NEW
+  summary: 'Problem: the installed <foo> requires ''netcdf-gnu-hpc-devel = 4.7.4'',
+    but this requirement cannot be provided'
 - component: Other
   create_time: 20210713T15:29:00
   id: 1188283
