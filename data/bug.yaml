@@ -60720,6 +60720,31 @@
   status: NEW
   summary: MEDIATEK 7961 device got no wifi after reboot, no firmware loaded.
 '20210710':
+- component: Virtualization:Other
+  create_time: 20210710T19:34:00
+  id: 1188189
+  resolution: ''
+  status: NEW
+  summary: After an update to kernel 5.13.0, VirtualBox guest does not start
+- component: Kernel
+  create_time: 20210710T05:19:00
+  id: 1188187
+  resolution: ''
+  status: NEW
+  summary: Running any type of web-content clocks the CPU
+- component: AutoYaST
+  create_time: 20210710T04:48:00
+  id: 1188186
+  resolution: ''
+  status: NEW
+  summary: Query parameter in autoyast url never gets appended
+'20210711':
+- component: KDE Applications
+  create_time: 20210712T23:45:00
+  id: 1188228
+  resolution: ''
+  status: NEW
+  summary: plasma-phonebook should have Required dependency on kirigami-addons
 - component: Other
   create_time: 20210712T15:40:00
   id: 1188224
@@ -60787,21 +60812,3 @@
   resolution: ''
   status: IN_PROGRESS
   summary: Gnome-shell core dumped messages are generated after user re-login
-- component: Virtualization:Other
-  create_time: 20210710T19:34:00
-  id: 1188189
-  resolution: ''
-  status: NEW
-  summary: After an update to kernel 5.13.0, VirtualBox guest does not start
-- component: Kernel
-  create_time: 20210710T05:19:00
-  id: 1188187
-  resolution: ''
-  status: NEW
-  summary: Running any type of web-content clocks the CPU
-- component: AutoYaST
-  create_time: 20210710T04:48:00
-  id: 1188186
-  resolution: ''
-  status: NEW
-  summary: Query parameter in autoyast url never gets appended
