@@ -60736,7 +60736,7 @@
   create_time: 20210710T04:48:00
   id: 1188186
   resolution: ''
-  status: NEW
+  status: IN_PROGRESS
   summary: Query parameter in autoyast url never gets appended
 '20210711':
 - component: Other
