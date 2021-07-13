@@ -60739,6 +60739,18 @@
   status: NEW
   summary: Query parameter in autoyast url never gets appended
 '20210711':
+- component: Basesystem
+  create_time: 20210713T07:10:00
+  id: 1188235
+  resolution: ''
+  status: NEW
+  summary: mutt gpg doesnt work out of the box with gpg
+- component: Bootloader
+  create_time: 20210713T06:58:00
+  id: 1188234
+  resolution: ''
+  status: NEW
+  summary: No graphics with default dtb on Pinebook Pro
 - component: KDE Applications
   create_time: 20210712T23:45:00
   id: 1188228
