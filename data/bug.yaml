@@ -60512,8 +60512,8 @@
 - component: Other
   create_time: 20210706T13:00:00
   id: 1188040
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: spack load does not work
 - component: Other
   create_time: 20210706T09:48:00
@@ -60739,6 +60739,18 @@
   status: IN_PROGRESS
   summary: Query parameter in autoyast url never gets appended
 '20210711':
+- component: AppArmor
+  create_time: 20210714T07:45:00
+  id: 1188296
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210712] apparmor/dovecot profile too restrictive'
+- component: AppArmor
+  create_time: 20210714T07:43:00
+  id: 1188295
+  resolution: ''
+  status: NEW
+  summary: '[Build 20210712] openQA test fails in apache2_changehat'
 - component: Patterns
   create_time: 20210713T19:26:00
   id: 1188288
