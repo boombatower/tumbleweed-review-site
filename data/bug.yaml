@@ -60599,7 +60599,7 @@
   create_time: 20210708T17:57:00
   id: 1188142
   resolution: ''
-  status: NEW
+  status: CONFIRMED
   summary: Kernel 5.13.1 does not boot due to bad shim signature
 - component: Basesystem
   create_time: 20210708T17:30:00
@@ -60754,8 +60754,8 @@
 - component: Patterns
   create_time: 20210713T19:26:00
   id: 1188288
-  resolution: ''
-  status: NEW
+  resolution: DUPLICATE
+  status: RESOLVED
   summary: 'Problem: the installed <foo> requires ''netcdf-gnu-hpc-devel = 4.7.4'',
     but this requirement cannot be provided'
 - component: Other
