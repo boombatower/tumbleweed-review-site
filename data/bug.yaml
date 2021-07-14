@@ -60393,8 +60393,8 @@
 - component: Other
   create_time: 20210701T10:34:00
   id: 1187910
-  resolution: ''
-  status: IN_PROGRESS
+  resolution: FIXED
+  status: RESOLVED
   summary: '[netcdf-fortran] Nothing provides nf-config'
 - component: Other
   create_time: 20210701T10:22:00
